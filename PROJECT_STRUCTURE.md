@@ -3,9 +3,33 @@
 ```txt
 content/
   site/
+    home.en.json
+    home.bn.json
   events/
+    <event-slug>/
+      meta.en.json
+      meta.bn.json
+      timeline.en.json
+      timeline.bn.json
+      quotes.en.json
+      quotes.bn.json
+      hero-ids.json
+      book-ids.json
+  heroes/
+    <hero-id>/
+      meta.en.json
+      meta.bn.json
+  books/
+    <book-id>/
+      meta.en.json
+      meta.bn.json
 src/
   app/
+    [locale]/
+      page.tsx
+      events/[slug]/page.tsx
+      heroes/[id]/page.tsx
+      books/[id]/page.tsx
   components/
   lib/content.ts
   types/content.ts

@@ -15,13 +15,17 @@ export function ThemeToggle() {
   const [theme, setTheme] = useState<Theme>("dark");
 
   useEffect(() => {
-    const initial = getPreferredTheme();
+    const current = document.documentElement.dataset.theme;
+    const initial: Theme = current === "light" || current === "dark" ? current : getPreferredTheme();
     setTheme(initial);
     document.documentElement.dataset.theme = initial;
+    window.localStorage.setItem("theme", initial);
   }, []);
 
   const toggleTheme = () => {
-    const nextTheme: Theme = theme === "dark" ? "light" : "dark";
+    const current = document.documentElement.dataset.theme;
+    const currentTheme: Theme = current === "light" || current === "dark" ? current : theme;
+    const nextTheme: Theme = currentTheme === "dark" ? "light" : "dark";
     setTheme(nextTheme);
     document.documentElement.dataset.theme = nextTheme;
     window.localStorage.setItem("theme", nextTheme);
