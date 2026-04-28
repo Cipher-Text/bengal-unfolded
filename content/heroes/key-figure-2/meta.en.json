@@ -1,6 +1,9 @@
 {
   "name": "Key Figure 2",
+  "name_en": "Key Figure 2",
   "role": "Social voice",
-  "bio": "Played an important role in civic discourse.",
+  "group": "leader",
+  "contribution": "Played an important role in civic discourse.",
+  "context": "",
   "impact": "Brought values-driven debate into public discourse."
 }

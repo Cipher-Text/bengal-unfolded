@@ -1,10 +1,15 @@
 {
   "name": "Syed Nazrul Islam",
+  "name_en": "Syed Nazrul Islam",
   "role": "Acting President of the Provisional Government",
   "group": "leader",
   "contribution": "He preserved constitutional continuity of the wartime state and stabilized political decision-making during a period of leadership disruption.",
   "context": "Mujibnagar Government, 1971; amid wartime uncertainty and absent central leadership.",
   "impact": "By safeguarding institutional continuity, he helped frame the Liberation War as a legitimate national struggle rather than a fragmented rebellion.",
   "highlight": "In uncertainty, he became the constitutional voice of continuity.",
-  "tags": ["constitutional-legitimacy", "leadership", "1971"]
+  "tags": [
+    "constitutional-legitimacy",
+    "leadership",
+    "1971"
+  ]
 }

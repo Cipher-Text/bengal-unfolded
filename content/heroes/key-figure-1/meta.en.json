@@ -1,6 +1,9 @@
 {
   "name": "Key Figure 1",
+  "name_en": "Key Figure 1",
   "role": "Leadership",
-  "bio": "This figure influenced the event trajectory.",
+  "group": "leader",
+  "contribution": "This figure influenced the event trajectory.",
+  "context": "",
   "impact": "Long-term impact on public memory."
 }

@@ -1,10 +1,15 @@
 {
   "name": "Abu Sayed",
+  "name_en": "Abu Sayed",
   "role": "Symbolic Martyr",
   "group": "martyr",
   "contribution": "By standing at the front of anti-discrimination student demonstrations, he made the moral stakes of the movement impossible to ignore.",
   "context": "Rangpur, July 2024; from campus-led protests to nationwide response.",
   "impact": "His death transformed a policy protest into a broader public conscience moment around justice and equal opportunity.",
   "highlight": "One student's fall became a national call for fairness.",
-  "tags": ["student", "protest", "justice"]
+  "tags": [
+    "student",
+    "protest",
+    "justice"
+  ]
 }
