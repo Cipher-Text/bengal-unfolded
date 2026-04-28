@@ -43,13 +43,13 @@ export default async function HeroesListPage({
   return (
     <div className="space-y-8">
       <HeroSection
-        title="All Heroes & Key Figures"
-        tagline="People connected across multiple events"
-        intro="Browse the complete list and open each profile for related events and details."
+        title={locale === "bn" ? "সকল নায়ক ও গুরুত্বপূর্ণ ব্যক্তিত্ব" : "All Heroes & Key Figures"}
+        tagline={locale === "bn" ? "অবদান, প্রেক্ষাপট ও প্রভাবভিত্তিক ডিরেক্টরি" : "A contribution-first, context-rich directory"}
+        intro={locale === "bn" ? "প্রতিটি প্রোফাইলে কী করেছেন, কোথায় করেছেন, কেন গুরুত্বপূর্ণ—এই তিন স্তরে উপস্থাপন করা হয়েছে।" : "Each profile is structured by what they did, where it mattered, and why it shaped history."}
       />
 
       <div>
-        <SectionTitle title="Hero Directory" subtitle={`${heroes.length} profiles`} />
+        <SectionTitle title={locale === "bn" ? "হিরো ডিরেক্টরি" : "Hero Directory"} subtitle={`${heroes.length} ${locale === "bn" ? "প্রোফাইল" : "profiles"}`} />
         <div className="mt-4 grid gap-4 md:grid-cols-2">
           {pagedHeroes.map((hero, index) => (
             <HeroProfileCard key={hero.id} hero={hero} locale={locale as Locale} featured={index === 0 && safePage === 1} />

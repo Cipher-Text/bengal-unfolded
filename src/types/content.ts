@@ -150,9 +150,15 @@ export type TimelineItem = {
 export type Hero = {
   id: HeroId;
   name: string;
+  name_en?: string;
   role: string;
-  bio: string;
+  group: "leader" | "coordinator" | "martyr" | "organization" | "collective";
+  contribution: string;
+  context: string;
   impact: string;
+  highlight?: string;
+  tags?: string[];
+  image?: string;
 };
 
 export type Book = {

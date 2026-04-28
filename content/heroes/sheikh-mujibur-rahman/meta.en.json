@@ -1,6 +1,10 @@
 {
   "name": "Sheikh Mujibur Rahman",
-  "role": "Liberation War Figure",
-  "bio": "Sheikh Mujibur Rahman is listed among notable 1971 Liberation War figures in this project timeline.",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "National Leadership",
+  "group": "leader",
+  "contribution": "He converted the 1970 electoral mandate into a mass political program for autonomy, and the March 7 speech aligned public resistance into an organized national direction.",
+  "context": "Dhaka, 1969-1971; from non-cooperation to the opening phase of the Liberation War.",
+  "impact": "His leadership made the demand for self-determination globally legible and built the political foundation of independence under conditions of state repression.",
+  "highlight": "One speech, one people, one irreversible direction.",
+  "tags": ["leadership", "mass-mobilization", "1971"]
 }

@@ -1,6 +1,10 @@
 {
   "name": "Abu Sayed",
-  "role": "Symbolic Martyrs",
-  "bio": "Abu Sayed was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
-  "impact": "Student of Begum Rokeya University, Rangpur; his stand on July 16 became a defining image."
+  "role": "Symbolic Martyr",
+  "group": "martyr",
+  "contribution": "By standing at the front of anti-discrimination student demonstrations, he made the moral stakes of the movement impossible to ignore.",
+  "context": "Rangpur, July 2024; from campus-led protests to nationwide response.",
+  "impact": "His death transformed a policy protest into a broader public conscience moment around justice and equal opportunity.",
+  "highlight": "One student's fall became a national call for fairness.",
+  "tags": ["student", "protest", "justice"]
 }

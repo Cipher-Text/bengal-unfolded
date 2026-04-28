@@ -68,6 +68,54 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
   return { id: resourceId, title, author, note, href, category: "explore", subcategory: "archive" };
 }
 
+function inferHeroGroup(role: string): Hero["group"] {
+  const r = role.toLowerCase();
+  if (r.includes("শহীদ") || r.includes("martyr")) return "martyr";
+  if (r.includes("শিল্পী") || r.includes("artists") || r.includes("collective")) return "collective";
+  if (r.includes("সংগঠন") || r.includes("organization")) return "organization";
+  if (r.includes("সমন্ব") || r.includes("coordinator")) return "coordinator";
+  return "leader";
+}
+
+function normalizeHero(id: HeroId, locale: Locale, hero: Record<string, unknown>): Hero {
+  const name = String(hero.name ?? "");
+  const role = String(hero.role ?? "");
+  const legacyBio = String(hero.bio ?? "");
+  const legacyImpact = String(hero.impact ?? "");
+
+  const group = typeof hero.group === "string" ? (hero.group as Hero["group"]) : inferHeroGroup(role);
+  const contribution = String(
+    hero.contribution ??
+      (legacyBio || (locale === "bn" ? "ঐতিহাসিক ধারাবাহিকতায় গুরুত্বপূর্ণ ভূমিকা রেখেছেন।" : "Played a notable role in this historical timeline.")),
+  );
+  const context = String(
+    hero.context ??
+      (locale === "bn"
+        ? "প্রাসঙ্গিক অধ্যায়, আন্দোলন এবং রাজনৈতিক মুহূর্তের সাথে যুক্ত।"
+        : "Connected to key chapters, movements, and political turning points."),
+  );
+  const impact = String(
+    hero.impact ??
+      hero.legacyImpact ??
+      (legacyImpact || (locale === "bn" ? "তার ভূমিকা জনস্মৃতি ও নাগরিক চেতনায় প্রভাব ফেলেছে।" : "Their role shaped public memory and civic consciousness.")),
+  );
+  const tags = Array.isArray(hero.tags) ? hero.tags.map(String).filter(Boolean) : undefined;
+
+  return {
+    id,
+    name,
+    name_en: typeof hero.name_en === "string" ? hero.name_en : undefined,
+    role,
+    group,
+    contribution,
+    context,
+    impact,
+    highlight: typeof hero.highlight === "string" ? hero.highlight : undefined,
+    tags,
+    image: typeof hero.image === "string" ? hero.image : undefined,
+  };
+}
+
 const readJsonRawCached = cache(async (filePath: string): Promise<unknown> => {
   return JSON.parse(await fs.readFile(filePath, "utf-8"));
 });
@@ -106,8 +154,8 @@ export async function getEventMeta(locale: string, slug: string): Promise<EventM
 export async function getHero(locale: string, heroId: string): Promise<Hero> {
   assertSupportedLocale(locale);
   assertSupportedHeroId(heroId);
-  const hero = await readJsonFile<Omit<Hero, "id">>(path.join(CONTENT_DIR, "heroes", heroId, `meta.${locale}.json`));
-  return { id: heroId, ...hero };
+  const hero = await readJsonFile<Record<string, unknown>>(path.join(CONTENT_DIR, "heroes", heroId, `meta.${locale}.json`));
+  return normalizeHero(heroId, locale, hero);
 }
 
 export async function getBook(locale: string, bookId: string): Promise<Book> {
@@ -119,12 +167,7 @@ export async function getBook(locale: string, bookId: string): Promise<Book> {
 
 export async function getAllHeroes(locale: string): Promise<Hero[]> {
   assertSupportedLocale(locale);
-  const indexPath = path.join(CONTENT_DIR, "heroes", `index.${locale}.json`);
-  try {
-    return await readJsonFile<Hero[]>(indexPath);
-  } catch {
-    return Promise.all(SUPPORTED_HERO_IDS.map((heroId) => getHero(locale, heroId)));
-  }
+  return Promise.all(SUPPORTED_HERO_IDS.map((heroId) => getHero(locale, heroId)));
 }
 
 export async function getAllBooks(locale: string): Promise<Book[]> {

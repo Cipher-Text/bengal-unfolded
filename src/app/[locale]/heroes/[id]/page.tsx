@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_HERO_IDS.includes(id as HeroId)) return {};
   const hero = await getHero(locale, id);
-  return { title: `${hero.name} | Bengal Unfolded`, description: hero.bio };
+  return { title: `${hero.name} | Bengal Unfolded`, description: hero.highlight ?? hero.contribution };
 }
 
 export default async function HeroDetailPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
@@ -26,10 +26,23 @@ export default async function HeroDetailPage({ params }: { params: Promise<{ loc
 
   return (
     <div className="space-y-8">
-      <HeroSection title={hero.name} tagline={hero.role} intro={hero.bio} />
+      <HeroSection title={hero.name} tagline={hero.role} intro={hero.highlight ?? hero.contribution} />
 
       <AnimatedContainer>
-        <SectionTitle title="Impact" subtitle={hero.impact} />
+        <SectionTitle title={locale === "bn" ? "প্রেক্ষাপট" : "Context"} subtitle={hero.context} />
+        <div className="theme-surface mt-4 rounded-xl border p-4">
+          <h3 className="text-sm tracking-[0.18em] text-amber-400 uppercase">{locale === "bn" ? "অবদান" : "Contribution"}</h3>
+          <p className="mt-2 text-sm">{hero.contribution}</p>
+          <h3 className="mt-4 text-sm tracking-[0.18em] text-emerald-400 uppercase">{locale === "bn" ? "প্রভাব" : "Impact"}</h3>
+          <p className="mt-2 text-sm">{hero.impact}</p>
+          {hero.tags?.length ? (
+            <div className="mt-4 flex flex-wrap gap-2">
+              {hero.tags.map((tag) => (
+                <span key={tag} className="rounded-full border border-zinc-500/40 px-2 py-0.5 text-[11px] text-zinc-300">{tag}</span>
+              ))}
+            </div>
+          ) : null}
+        </div>
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>

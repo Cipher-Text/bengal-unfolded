@@ -44,13 +44,13 @@ export default async function EventHeroesListPage({
   return (
     <div className="space-y-8">
       <HeroSection
-        title={`${event.meta.year} Heroes`}
+        title={locale === "bn" ? `${event.meta.year} সালের নায়করা` : `${event.meta.year} Heroes`}
         tagline={event.meta.title}
-        intro={`Full list of heroes and key figures associated with the ${event.meta.year} event.`}
+        intro={locale === "bn" ? `${event.meta.year} অধ্যায়ের সাথে যুক্ত নায়ক, শহীদ, সমন্বয়ক ও সম্মিলিত শক্তির পূর্ণ তালিকা।` : `Full list of heroes, martyrs, coordinators, and collectives associated with ${event.meta.year}.`}
       />
 
       <div>
-        <SectionTitle title="Full Hero List" subtitle={`${heroes.length} profiles`} />
+        <SectionTitle title={locale === "bn" ? "পূর্ণ নায়ক তালিকা" : "Full Hero List"} subtitle={`${heroes.length} ${locale === "bn" ? "প্রোফাইল" : "profiles"}`} />
         <div className="mt-4 grid gap-4 md:grid-cols-2">
           {pagedHeroes.map((hero, index) => (
             <HeroProfileCard key={hero.id} hero={hero} locale={locale as Locale} featured={index === 0 && safePage === 1} />
