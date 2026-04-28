@@ -9,7 +9,7 @@ export function HeroProfileCard({ hero, locale, featured = false }: { hero: Hero
       <p className="theme-muted mt-3 text-sm">{hero.bio}</p>
       <p className="mt-3 text-sm font-medium text-emerald-500">{hero.impact}</p>
       <Link href={`/${locale}/heroes/${hero.id}`} className="mt-4 inline-flex rounded-lg border border-amber-500/40 px-3 py-1 text-sm font-medium text-amber-400 hover:bg-amber-500/10">
-        Details
+        {locale === "bn" ? "বিস্তারিত" : "Details"}
       </Link>
     </article>
   );

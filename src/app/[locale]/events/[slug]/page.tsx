@@ -49,7 +49,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       <AnimatedContainer delay={0.05}>
         <SectionTitle title="Interactive Timeline" />
         <div className="mt-4">
-          <EventTimeline items={event.timeline} />
+          <EventTimeline items={event.timeline} locale={locale as Locale} />
         </div>
       </AnimatedContainer>
 

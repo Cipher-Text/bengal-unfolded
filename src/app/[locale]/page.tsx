@@ -17,5 +17,5 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
   const [home, events] = await Promise.all([getHomeContent(locale), getAllEvents(locale)]);
   const timelineItems = events.map((event) => ({ year: event.year, title: event.title, detail: event.summary, href: `/${locale}/events/${event.slug}`, ctaLabel: event.ctaLabel || "Details" }));
-  return <div className="space-y-10"><HeroSection title={home.title} tagline={home.tagline} intro={home.intro} /><AnimatedContainer><SectionTitle title={home.timelineHeading} subtitle={home.timelineSubheading} /></AnimatedContainer><AnimatedContainer delay={0.05}><EventTimeline items={timelineItems} /></AnimatedContainer></div>;
+  return <div className="space-y-10"><HeroSection title={home.title} tagline={home.tagline} intro={home.intro} /><AnimatedContainer><SectionTitle title={home.timelineHeading} subtitle={home.timelineSubheading} /></AnimatedContainer><AnimatedContainer delay={0.05}><EventTimeline items={timelineItems} locale={locale as Locale} /></AnimatedContainer></div>;
 }
