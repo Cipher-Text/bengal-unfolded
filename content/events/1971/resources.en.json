@@ -1,14 +1,18 @@
 [
-  {
-    "title": "Research volume",
-    "author": "Multiple authors",
-    "type": "book",
-    "note": "Useful for foundational context."
-  },
-  {
-    "title": "Archive collection",
-    "author": "Public archives",
-    "type": "archive",
-    "note": "Documents, images, and primary material."
-  }
+  {"title":"Unfinished Memoirs","author":"Sheikh Mujibur Rahman","note":"Foundational memoir for historical context.","category":"read","subcategory":"memoir"},
+  {"title":"Banglapedia Entries on 1971","author":"Banglapedia Editorial Team","note":"Reference-style overviews and key terms.","category":"read","subcategory":"historical-literature"},
+  {"title":"A Legacy of Blood","author":"Anthony Mascarenhas","note":"Investigative account of the war and political backdrop.","category":"read","subcategory":"historical-literature"},
+  {"title":"Aguner Poroshmoni","author":"Humayun Ahmed","note":"Literary interpretation shaped by Liberation War memory.","category":"read","subcategory":"novel"},
+
+  {"title":"Muktir Gaan","author":"Tareque and Catherine Masud","note":"Documentary footage and oral history perspectives.","category":"watch","subcategory":"documentary"},
+  {"title":"Stop Genocide","author":"Zahir Raihan","note":"Seminal documentary on atrocities during the war.","category":"watch","subcategory":"documentary"},
+  {"title":"Guerrilla","author":"Nasiruddin Yousuff","note":"Film portrayal of urban resistance.","category":"watch","subcategory":"movie"},
+  {"title":"Ekattorer Jishu","author":"Nasiruddin Yousuff","note":"Dramatic depiction of war-time violence and survival.","category":"watch","subcategory":"drama"},
+
+  {"title":"Bangladesh Genocide Archive Collections","author":"Public Archive Collections","note":"Curated archival records, reports, and testimonies.","category":"explore","subcategory":"archive"},
+  {"title":"Mujibnagar Government Proclamation Records","author":"Government Records","note":"Key official documents of provisional governance.","category":"explore","subcategory":"documents"},
+  {"title":"Liberation War Museum Photo Archive","author":"Liberation War Museum","note":"Visual archive of people, places, and destruction.","category":"explore","subcategory":"photos"},
+
+  {"title":"Academic Research on 1971 Conflict Dynamics","author":"Multiple Researchers","note":"Scholarly work on war causes, violence, and state formation.","category":"understand","subcategory":"research"},
+  {"title":"Peer-reviewed Papers on Refugee and War Memory","author":"University Journals","note":"Focused studies on displacement, trauma, and memory politics.","category":"understand","subcategory":"papers"}
 ]

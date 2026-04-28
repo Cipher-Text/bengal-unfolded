@@ -1,12 +1,68 @@
 [
   {
-    "year": "2024",
-    "title": "First phase",
-    "detail": "Early developments set the stage."
+    "year": "2024-06-05",
+    "title": "High Court Verdict",
+    "detail": "The High Court reinstated the quota system that had been canceled in 2018, triggering renewed public dissatisfaction.",
+    "type": "judicial_event"
   },
   {
-    "year": "2024",
-    "title": "Second phase",
-    "detail": "The issue enters wider public discussion."
+    "year": "2024-06-06",
+    "title": "Initial Student Protests Begin",
+    "detail": "Students at Dhaka University and other campuses began protests against the reinstatement of quotas.",
+    "type": "protest_start"
+  },
+  {
+    "year": "2024-06-09",
+    "title": "Ultimatum Announced",
+    "detail": "Students issued an ultimatum demanding quota cancellation by 30 June.",
+    "type": "movement_escalation"
+  },
+  {
+    "year": "2024-07-01",
+    "title": "Nationwide Movement",
+    "detail": "Simultaneous protests and blockades began across universities and major cities.",
+    "type": "nationwide_movement"
+  },
+  {
+    "year": "2024-07-15",
+    "title": "Violence Erupts",
+    "detail": "Attacks and clashes involving students were reported in Dhaka and other areas.",
+    "type": "violence"
+  },
+  {
+    "year": "2024-07-16",
+    "title": "Police Crackdown and Clashes",
+    "detail": "Police used tear gas and batons; casualties were reported in multiple locations.",
+    "type": "state_crackdown"
+  },
+  {
+    "year": "2024-07-18",
+    "title": "Nationwide Peak Conflict",
+    "detail": "The movement intensified with large-scale clashes and loss of life.",
+    "type": "peak_conflict"
+  },
+  {
+    "year": "2024-07-21",
+    "title": "Supreme Court Verdict",
+    "detail": "The Supreme Court reduced quotas and directed that most recruitment be merit-based.",
+    "type": "policy_change"
+  },
+  {
+    "year": "2024-07-23",
+    "title": "Gazette Published",
+    "detail": "The government published a gazette implementing the revised quota structure.",
+    "type": "policy_implementation"
+  },
+  {
+    "year": "2024-08-04",
+    "title": "Non-cooperation Movement",
+    "detail": "Students called for a broader anti-government non-cooperation movement.",
+    "type": "movement_shift"
+  },
+  {
+    "year": "2024-08-05",
+    "title": "Political Crisis Reaches Critical Stage",
+    "detail": "Large demonstrations and clashes spread nationwide as the movement took on a wider political character.",
+    "type": "political_crisis"
   }
 ]

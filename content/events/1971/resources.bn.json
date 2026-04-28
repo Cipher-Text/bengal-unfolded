@@ -1,14 +1,18 @@
 [
-  {
-    "title": "গবেষণা গ্রন্থ",
-    "author": "বিভিন্ন লেখক",
-    "type": "book",
-    "note": "প্রাথমিক পটভূমি বোঝার জন্য উপযোগী।"
-  },
-  {
-    "title": "আর্কাইভ সংকলন",
-    "author": "জনআর্কাইভ",
-    "type": "archive",
-    "note": "দলিল, ছবি ও প্রাথমিক উৎস।"
-  }
+  {"title":"অসমাপ্ত আত্মজীবনী","author":"শেখ মুজিবুর রহমান","note":"ঐতিহাসিক প্রেক্ষাপট বোঝার জন্য গুরুত্বপূর্ণ স্মৃতিকথা।","category":"read","subcategory":"memoir"},
+  {"title":"১৯৭১ বিষয়ক বাংলাাপিডিয়া এন্ট্রি","author":"বাংলাপিডিয়া সম্পাদকমণ্ডলী","note":"রেফারেন্সধর্মী সারসংক্ষেপ ও প্রাসঙ্গিক টার্ম।","category":"read","subcategory":"historical-literature"},
+  {"title":"A Legacy of Blood","author":"এন্থনি মাসকারেনহাস","note":"যুদ্ধ ও রাজনৈতিক পটভূমি নিয়ে অনুসন্ধানধর্মী বিবরণ।","category":"read","subcategory":"historical-literature"},
+  {"title":"আগুনের পরশমণি","author":"হুমায়ূন আহমেদ","note":"মুক্তিযুদ্ধভিত্তিক সাহিত্যিক উপস্থাপন।","category":"read","subcategory":"novel"},
+
+  {"title":"মুক্তির গান","author":"তারেক ও ক্যাথরিন মাসুদ","note":"ডকুমেন্টারি ফুটেজ ও মৌখিক ইতিহাসের দৃষ্টিভঙ্গি।","category":"watch","subcategory":"documentary"},
+  {"title":"স্টপ জেনোসাইড","author":"জহির রায়হান","note":"যুদ্ধকালীন গণহত্যা বিষয়ক ঐতিহাসিক ডকুমেন্টারি।","category":"watch","subcategory":"documentary"},
+  {"title":"গেরিলা","author":"নাসির উদ্দীন ইউসুফ","note":"শহুরে প্রতিরোধের চলচ্চিত্র উপস্থাপন।","category":"watch","subcategory":"movie"},
+  {"title":"একাত্তরের যীশু","author":"নাসির উদ্দীন ইউসুফ","note":"যুদ্ধকালীন সহিংসতা ও টিকে থাকার নাট্যধর্মী উপস্থাপন।","category":"watch","subcategory":"drama"},
+
+  {"title":"বাংলাদেশ জেনোসাইড আর্কাইভ সংগ্রহ","author":"জনআর্কাইভ সংগ্রহ","note":"আর্কাইভাল দলিল, প্রতিবেদন ও সাক্ষ্যসমূহ।","category":"explore","subcategory":"archive"},
+  {"title":"মুজিবনগর সরকার ঘোষণার নথি","author":"সরকারি নথি","note":"অস্থায়ী সরকারের গুরুত্বপূর্ণ অফিসিয়াল দলিল।","category":"explore","subcategory":"documents"},
+  {"title":"মুক্তিযুদ্ধ জাদুঘরের ফটো আর্কাইভ","author":"মুক্তিযুদ্ধ জাদুঘর","note":"মানুষ, স্থান ও ধ্বংসযজ্ঞের ভিজ্যুয়াল আর্কাইভ।","category":"explore","subcategory":"photos"},
+
+  {"title":"১৯৭১ সংঘাত গতিশীলতা বিষয়ক গবেষণা","author":"বিভিন্ন গবেষক","note":"যুদ্ধের কারণ, সহিংসতা ও রাষ্ট্রগঠন নিয়ে একাডেমিক বিশ্লেষণ।","category":"understand","subcategory":"research"},
+  {"title":"শরণার্থী ও যুদ্ধস্মৃতি বিষয়ক পিয়ার-রিভিউড পেপার","author":"বিশ্ববিদ্যালয় জার্নাল","note":"বাস্তুচ্যুতি, ট্রমা ও স্মৃতি-রাজনীতি নিয়ে বিশেষায়িত গবেষণা।","category":"understand","subcategory":"papers"}
 ]

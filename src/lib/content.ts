@@ -9,6 +9,7 @@ import {
   type Book,
   type BookId,
   type EventContent,
+  type EventResource,
   type EventMeta,
   type EventSlug,
   type Hero,
@@ -35,6 +36,35 @@ function isHeroId(v: string): v is HeroId {
 
 function isBookId(v: string): v is BookId {
   return SUPPORTED_BOOK_IDS.includes(v as BookId);
+}
+
+function normalizeEventResource(resource: Record<string, unknown>): EventResource {
+  const title = String(resource.title ?? "");
+  const author = String(resource.author ?? "");
+  const note = String(resource.note ?? "");
+  const href = typeof resource.href === "string" ? resource.href : undefined;
+  const category = typeof resource.category === "string" ? resource.category : undefined;
+  const subcategory = typeof resource.subcategory === "string" ? resource.subcategory : undefined;
+  const legacyType = typeof resource.type === "string" ? resource.type : undefined;
+
+  if (category && subcategory) {
+    return {
+      title,
+      author,
+      note,
+      href,
+      category: category as EventResource["category"],
+      subcategory: subcategory as EventResource["subcategory"],
+    };
+  }
+
+  if (legacyType === "book") {
+    return { title, author, note, href, category: "read", subcategory: "historical-literature" };
+  }
+  if (legacyType === "article") {
+    return { title, author, note, href, category: "understand", subcategory: "research" };
+  }
+  return { title, author, note, href, category: "explore", subcategory: "archive" };
 }
 
 const readJsonRawCached = cache(async (filePath: string): Promise<unknown> => {
@@ -106,20 +136,18 @@ export async function getEventContent(locale: string, slug: string): Promise<Eve
   assertSupportedEventSlug(slug);
 
   const base = path.join(CONTENT_DIR, "events", slug);
-  const [meta, timeline, heroIds, bookIds, quotes] = await Promise.all([
+  const [meta, timeline, heroIds, resourcesRaw, quotes] = await Promise.all([
     readJsonFile<EventMeta>(path.join(base, `meta.${locale}.json`)),
     readJsonFile<TimelineItem[]>(path.join(base, `timeline.${locale}.json`)),
     readJsonFile<HeroId[]>(path.join(base, "hero-ids.json")),
-    readJsonFile<BookId[]>(path.join(base, "book-ids.json")),
+    readJsonFile<Record<string, unknown>[]>(path.join(base, `resources.${locale}.json`)),
     readJsonFile<Quote[]>(path.join(base, `quotes.${locale}.json`)),
   ]);
 
-  const [heroes, books] = await Promise.all([
-    Promise.all(heroIds.map((heroId) => getHero(locale, heroId))),
-    Promise.all(bookIds.map((bookId) => getBook(locale, bookId))),
-  ]);
+  const heroes = await Promise.all(heroIds.map((heroId) => getHero(locale, heroId)));
+  const resources = resourcesRaw.map(normalizeEventResource);
 
-  return { meta, timeline, heroes, books, quotes };
+  return { meta, timeline, heroes, resources, quotes };
 }
 
 export async function getAllEvents(locale: string): Promise<EventMeta[]> {

@@ -50,7 +50,57 @@ export const SUPPORTED_HERO_IDS = [
   "shamsuzzoha",
   "kamal-lohani",
   "key-figure-1",
-  "key-figure-2"
+  "key-figure-2",
+  "nahid-islam",
+  "asif-mahmud",
+  "sarjis-alam",
+  "hasnat-abdullah",
+  "abu-baker-majumder",
+  "abdul-hannan-masud",
+  "umama-fatema",
+  "arif-sohel",
+  "mahin-sarkar",
+  "rifat-rashid",
+  "nusrat-tabassum",
+  "lutfun-nahar-luma",
+  "hasib-al-islam",
+  "nasiruddin-patwary",
+  "akhter-hossen",
+  "tariqul-islam",
+  "mehedi-hasan",
+  "sinthia-jaheen-ayesha",
+  "rashidul-islam-rifat",
+  "md-enamul-hasan",
+  "abdullah-al-amin",
+  "shadik-kayem",
+  "tahmid-al-mudabbir",
+  "barkat-hossain",
+  "zaber-ahmed",
+  "abu-sayed-2024",
+  "mir-mahfuzur-rahman-mugdho",
+  "farhan-faiyaaz",
+  "wasim-akram-2024",
+  "faisal-ahmed-shanto",
+  "yamin-mist",
+  "riya-gope",
+  "shaheed-rudro",
+  "tahmid-abdullah",
+  "zahid-hossain",
+  "muhammad-yunus",
+  "manzur-al-matin",
+  "asif-nazrul",
+  "pinaki-bhattacharya",
+  "zafar-sobhan",
+  "shahidul-alam",
+  "syeda-rizwana-hasan",
+  "adilur-rahman-khan",
+  "farhad-mazhar",
+  "anu-muhammad",
+  "tasneem-khalil",
+  "zulkarnain-saer",
+  "fahim-ahmed",
+  "saima-ahmed",
+  "unknown-protester"
 ] as const;
 export const SUPPORTED_BOOK_IDS = ["research-volume", "archive-collection"] as const;
 
@@ -71,10 +121,24 @@ export type EventMeta = {
   whyItMatters: string;
 };
 
+export type TimelineType =
+  | "judicial_event"
+  | "protest_start"
+  | "movement_escalation"
+  | "nationwide_movement"
+  | "violence"
+  | "state_crackdown"
+  | "peak_conflict"
+  | "policy_change"
+  | "policy_implementation"
+  | "movement_shift"
+  | "political_crisis";
+
 export type TimelineItem = {
   year: string;
   title: string;
   detail: string;
+  type?: TimelineType;
   href?: string;
   ctaLabel?: string;
 };
@@ -95,6 +159,28 @@ export type Book = {
   note: string;
 };
 
+export type ResourceCategory = "read" | "watch" | "explore" | "understand";
+
+export type EventResource = {
+  title: string;
+  author: string;
+  note: string;
+  category: ResourceCategory;
+  subcategory:
+    | "historical-literature"
+    | "novel"
+    | "memoir"
+    | "movie"
+    | "documentary"
+    | "drama"
+    | "archive"
+    | "documents"
+    | "photos"
+    | "research"
+    | "papers";
+  href?: string;
+};
+
 export type Quote = {
   text: string;
   source: string;
@@ -104,7 +190,7 @@ export type EventContent = {
   meta: EventMeta;
   timeline: TimelineItem[];
   heroes: Hero[];
-  books: Book[];
+  resources: EventResource[];
   quotes: Quote[];
 };
 

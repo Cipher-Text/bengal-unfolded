@@ -67,16 +67,17 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         </div>
       </AnimatedContainer>
 
-      <AnimatedContainer delay={0.15}>
-        <SectionTitle title="Big Hero Biography" subtitle={event.heroes[0]?.bio} />
-      </AnimatedContainer>
-
       <AnimatedContainer delay={0.2}>
-        <SectionTitle title="Books & Resources" />
+        <SectionTitle title={locale === "bn" ? "ক্যাটাগরি অনুযায়ী রিসোর্স" : "Resources by Category"} subtitle={locale === "bn" ? "সাব-ক্যাটাগরি অনুযায়ী রিসোর্স ব্রাউজ করুন" : "Browse resources by subcategory"} />
         <div className="mt-4 grid gap-3 md:grid-cols-2">
-          {event.books.map((resource) => (
-            <ResourceCard key={resource.id} resource={resource} locale={locale as Locale} />
+          {event.resources.slice(0, 6).map((resource) => (
+            <ResourceCard key={`${resource.category}-${resource.subcategory}-${resource.title}`} resource={resource} locale={locale as Locale} />
           ))}
+        </div>
+        <div className="mt-4">
+          <Link href={`/${locale}/events/${slug}/resources`} className="inline-flex rounded-lg border border-amber-500/40 px-4 py-2 text-sm font-medium text-amber-400 hover:bg-amber-500/10">
+            {locale === "bn" ? "সব ক্যাটাগরি দেখুন" : "See all categories"}
+          </Link>
         </div>
       </AnimatedContainer>
 

@@ -348,5 +348,355 @@
     "role": "Social voice",
     "bio": "Played an important role in civic discourse.",
     "impact": "Brought values-driven debate into public discourse."
+  },
+  {
+    "id": "nahid-islam",
+    "name": "Nahid Islam",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Nahid Islam was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Key coordinator and central face of the movement; later joined interim government advisory role."
+  },
+  {
+    "id": "asif-mahmud",
+    "name": "Asif Mahmud",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Asif Mahmud was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Key coordinator known for leadership during the 'Complete Shutdown'; later joined interim government advisory role."
+  },
+  {
+    "id": "sarjis-alam",
+    "name": "Sarjis Alam",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Sarjis Alam was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Prominent coordinator and spokesperson recognized for media presence and public speaking."
+  },
+  {
+    "id": "hasnat-abdullah",
+    "name": "Hasnat Abdullah",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Hasnat Abdullah was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Central convener instrumental in organizing large-scale demonstrations."
+  },
+  {
+    "id": "abu-baker-majumder",
+    "name": "Abu Baker Majumder",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Abu Baker Majumder was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Key coordinator among the first detainees during the protests."
+  },
+  {
+    "id": "abdul-hannan-masud",
+    "name": "Abdul Hannan Masud",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Abdul Hannan Masud was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Chief organizer responsible for ground-level mobilization."
+  },
+  {
+    "id": "umama-fatema",
+    "name": "Umama Fatema",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Umama Fatema was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Key coordinator and spokesperson representing female student leadership."
+  },
+  {
+    "id": "arif-sohel",
+    "name": "Arif Sohel",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Arif Sohel was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Member secretary involved in strategic planning and coordination."
+  },
+  {
+    "id": "mahin-sarkar",
+    "name": "Mahin Sarkar",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Mahin Sarkar was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Coordinator involved in central movement decision-making."
+  },
+  {
+    "id": "rifat-rashid",
+    "name": "Rifat Rashid",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Rifat Rashid was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Coordinator who announced expansion of the coordination team."
+  },
+  {
+    "id": "nusrat-tabassum",
+    "name": "Nusrat Tabassum",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Nusrat Tabassum was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Female coordinator active in organizing protests at Dhaka University."
+  },
+  {
+    "id": "lutfun-nahar-luma",
+    "name": "Lutfun Nahar Luma",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Lutfun Nahar Luma was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Student activist and coordinator known for vocal anti-discrimination stance."
+  },
+  {
+    "id": "hasib-al-islam",
+    "name": "Hasib Al Islam",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Hasib Al Islam was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Chief coordinator active in post-uprising organizational efforts."
+  },
+  {
+    "id": "nasiruddin-patwary",
+    "name": "Nasiruddin Patwary",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Nasiruddin Patwary was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Key figure in civic committee networks supporting the student movement."
+  },
+  {
+    "id": "akhter-hossen",
+    "name": "Akhter Hossen",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Akhter Hossen was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Veteran student leader and former DUCSU office bearer supporting the movement."
+  },
+  {
+    "id": "tariqul-islam",
+    "name": "Tariqul Islam",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Tariqul Islam was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Coordinator from Rajshahi University leading northern regional protests."
+  },
+  {
+    "id": "mehedi-hasan",
+    "name": "Mehedi Hasan",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Mehedi Hasan was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Coordinator from Jahangirnagar University, a major movement hub."
+  },
+  {
+    "id": "sinthia-jaheen-ayesha",
+    "name": "Sinthia Jaheen Ayesha",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Sinthia Jaheen Ayesha was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Appointed spokesperson in the reorganized central committee."
+  },
+  {
+    "id": "rashidul-islam-rifat",
+    "name": "Rashidul Islam Rifat",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Rashidul Islam Rifat was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "President of the reorganized central council."
+  },
+  {
+    "id": "md-enamul-hasan",
+    "name": "Md. Enamul Hasan",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Md. Enamul Hasan was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Secretary General of the reorganized central council."
+  },
+  {
+    "id": "abdullah-al-amin",
+    "name": "Abdullah Al Amin",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Abdullah Al Amin was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Coordinator involved in liaison and coordination work."
+  },
+  {
+    "id": "shadik-kayem",
+    "name": "Shadik Kayem",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Shadik Kayem was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Coordinator active in communication and media efforts."
+  },
+  {
+    "id": "tahmid-al-mudabbir",
+    "name": "Tahmid Al Mudabbir",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Tahmid Al Mudabbir was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Coordinator involved in digital movement operations."
+  },
+  {
+    "id": "barkat-hossain",
+    "name": "Barkat Hossain",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Barkat Hossain was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Private university coordinator representing student alliance participation."
+  },
+  {
+    "id": "zaber-ahmed",
+    "name": "Zaber Ahmed",
+    "role": "Core Coordinators & Leaders",
+    "bio": "Zaber Ahmed was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Coordinator active in the Sylhet region protests."
+  },
+  {
+    "id": "abu-sayed-2024",
+    "name": "Abu Sayed",
+    "role": "Symbolic Martyrs",
+    "bio": "Abu Sayed was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Student of Begum Rokeya University, Rangpur; his stand on July 16 became a defining image."
+  },
+  {
+    "id": "mir-mahfuzur-rahman-mugdho",
+    "name": "Mir Mahfuzur Rahman Mugdho",
+    "role": "Symbolic Martyrs",
+    "bio": "Mir Mahfuzur Rahman Mugdho was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "BRAC University student killed while distributing water; remembered for humanitarian spirit."
+  },
+  {
+    "id": "farhan-faiyaaz",
+    "name": "Farhan Faiyaaz",
+    "role": "Symbolic Martyrs",
+    "bio": "Farhan Faiyaaz was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Teenage student whose death intensified outrage among school students."
+  },
+  {
+    "id": "wasim-akram-2024",
+    "name": "Wasim Akram",
+    "role": "Symbolic Martyrs",
+    "bio": "Wasim Akram was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Chittagong student leader killed in early protest days."
+  },
+  {
+    "id": "faisal-ahmed-shanto",
+    "name": "Faisal Ahmed Shanto",
+    "role": "Symbolic Martyrs",
+    "bio": "Faisal Ahmed Shanto was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Student killed in Chittagong, remembered as an early martyr."
+  },
+  {
+    "id": "yamin-mist",
+    "name": "Yamin",
+    "role": "Symbolic Martyrs",
+    "bio": "Yamin was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "MIST student whose death and circulating footage intensified public anger."
+  },
+  {
+    "id": "riya-gope",
+    "name": "Riya Gope",
+    "role": "Symbolic Martyrs",
+    "bio": "Riya Gope was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Child victim symbolizing the tragic civilian toll of the unrest."
+  },
+  {
+    "id": "shaheed-rudro",
+    "name": "Shaheed Rudro",
+    "role": "Symbolic Martyrs",
+    "bio": "Shaheed Rudro was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Student martyr frequently cited in local commemorations."
+  },
+  {
+    "id": "tahmid-abdullah",
+    "name": "Tahmid Abdullah",
+    "role": "Symbolic Martyrs",
+    "bio": "Tahmid Abdullah was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Student killed during the 'Complete Shutdown' in Dhaka."
+  },
+  {
+    "id": "zahid-hossain",
+    "name": "Zahid Hossain",
+    "role": "Symbolic Martyrs",
+    "bio": "Zahid Hossain was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Young protester killed during clashes in the Jatrabari area."
+  },
+  {
+    "id": "muhammad-yunus",
+    "name": "Dr. Muhammad Yunus",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Dr. Muhammad Yunus was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Provided moral support and later led the interim government."
+  },
+  {
+    "id": "manzur-al-matin",
+    "name": "Manzur Al Matin",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Manzur Al Matin was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Lawyer and public voice explaining legal rights of protesters."
+  },
+  {
+    "id": "asif-nazrul",
+    "name": "Asif Nazrul",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Asif Nazrul was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Law professor who publicly supported student demands."
+  },
+  {
+    "id": "pinaki-bhattacharya",
+    "name": "Pinaki Bhattacharya",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Pinaki Bhattacharya was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Exiled activist whose digital content influenced public discourse."
+  },
+  {
+    "id": "zafar-sobhan",
+    "name": "Zafar Sobhan",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Zafar Sobhan was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Editor whose publication provided prominent coverage."
+  },
+  {
+    "id": "shahidul-alam",
+    "name": "Shahidul Alam",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Shahidul Alam was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Photographer and activist who documented protests and supported students."
+  },
+  {
+    "id": "syeda-rizwana-hasan",
+    "name": "Syeda Rizwana Hasan",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Syeda Rizwana Hasan was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Lawyer-activist supporting calls for justice and accountability."
+  },
+  {
+    "id": "adilur-rahman-khan",
+    "name": "Adilur Rahman Khan",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Adilur Rahman Khan was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Human rights advocate monitoring violence against protesters."
+  },
+  {
+    "id": "farhad-mazhar",
+    "name": "Farhad Mazhar",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Farhad Mazhar was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Poet-intellectual providing interpretive framing of the uprising."
+  },
+  {
+    "id": "anu-muhammad",
+    "name": "Anu Muhammad",
+    "role": "Influential Supporters & Intellectuals",
+    "bio": "Anu Muhammad was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Economist-activist supporting social justice demands."
+  },
+  {
+    "id": "tasneem-khalil",
+    "name": "Grassroots & Digital Influencers",
+    "role": "Grassroots & Digital Influencers",
+    "bio": "Grassroots & Digital Influencers was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Journalist whose platform published investigative reports on crackdowns."
+  },
+  {
+    "id": "zulkarnain-saer",
+    "name": "Zulkarnain Saer",
+    "role": "Grassroots & Digital Influencers",
+    "bio": "Zulkarnain Saer was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Investigative journalist sharing critical crisis-time information."
+  },
+  {
+    "id": "fahim-ahmed",
+    "name": "Fahim Ahmed",
+    "role": "Grassroots & Digital Influencers",
+    "bio": "Fahim Ahmed was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Digital activist supporting social media campaign coordination."
+  },
+  {
+    "id": "saima-ahmed",
+    "name": "Saima Ahmed",
+    "role": "Grassroots & Digital Influencers",
+    "bio": "Saima Ahmed was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Grassroots organizer coordinating food and medical aid in Dhaka."
+  },
+  {
+    "id": "unknown-protester",
+    "name": "The Unknown Protester",
+    "role": "Grassroots & Digital Influencers",
+    "bio": "The Unknown Protester was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
+    "impact": "Represents thousands of unnamed students and citizens whose collective bravery drove the movement."
   }
 ]
