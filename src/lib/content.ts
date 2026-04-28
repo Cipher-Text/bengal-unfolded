@@ -1,5 +1,6 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { cache } from "react";
 import {
   SUPPORTED_BOOK_IDS,
   SUPPORTED_EVENT_SLUGS,
@@ -36,8 +37,12 @@ function isBookId(v: string): v is BookId {
   return SUPPORTED_BOOK_IDS.includes(v as BookId);
 }
 
+const readJsonRawCached = cache(async (filePath: string): Promise<unknown> => {
+  return JSON.parse(await fs.readFile(filePath, "utf-8"));
+});
+
 async function readJsonFile<T>(filePath: string): Promise<T> {
-  return JSON.parse(await fs.readFile(filePath, "utf-8")) as T;
+  return (await readJsonRawCached(filePath)) as T;
 }
 
 export function assertSupportedLocale(locale: string): asserts locale is Locale {
@@ -83,7 +88,12 @@ export async function getBook(locale: string, bookId: string): Promise<Book> {
 
 export async function getAllHeroes(locale: string): Promise<Hero[]> {
   assertSupportedLocale(locale);
-  return Promise.all(SUPPORTED_HERO_IDS.map((heroId) => getHero(locale, heroId)));
+  const indexPath = path.join(CONTENT_DIR, "heroes", `index.${locale}.json`);
+  try {
+    return await readJsonFile<Hero[]>(indexPath);
+  } catch {
+    return Promise.all(SUPPORTED_HERO_IDS.map((heroId) => getHero(locale, heroId)));
+  }
 }
 
 export async function getAllBooks(locale: string): Promise<Book[]> {
@@ -145,6 +155,15 @@ export async function getEventsByBookId(locale: string, bookId: string): Promise
   );
 
   return matches.filter((event): event is EventMeta => event !== null);
+}
+
+
+export async function getHeroesByEventSlug(locale: string, slug: string): Promise<Hero[]> {
+  assertSupportedLocale(locale);
+  assertSupportedEventSlug(slug);
+
+  const heroIds = await readJsonFile<HeroId[]>(path.join(CONTENT_DIR, "events", slug, "hero-ids.json"));
+  return Promise.all(heroIds.map((heroId) => getHero(locale, heroId)));
 }
 
 // Future CMS migration: swap file readers with provider adapters while preserving these return types.

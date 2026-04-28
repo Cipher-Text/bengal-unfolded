@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { EventNavigation } from "@/components/EventNavigation";
@@ -35,6 +36,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
 
   const [event, allEvents] = await Promise.all([getEventContent(locale, slug), getAllEvents(locale)]);
   const currentIndex = allEvents.findIndex((item) => item.slug === slug);
+  const featuredHeroes = event.heroes.slice(0, 5);
 
   return (
     <div className="space-y-10">
@@ -54,9 +56,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       <AnimatedContainer delay={0.1}>
         <SectionTitle title="Heroes / Key Figures" />
         <div className="mt-4 grid gap-4 md:grid-cols-2">
-          {event.heroes.map((hero, index) => (
+          {featuredHeroes.map((hero, index) => (
             <HeroProfileCard key={hero.id} hero={hero} locale={locale as Locale} featured={index === 0} />
           ))}
+        </div>
+        <div className="mt-4">
+          <Link href={`/${locale}/events/${slug}/heroes`} className="inline-flex rounded-lg border border-amber-500/40 px-4 py-2 text-sm font-medium text-amber-400 hover:bg-amber-500/10">
+            See full list
+          </Link>
         </div>
       </AnimatedContainer>
 
