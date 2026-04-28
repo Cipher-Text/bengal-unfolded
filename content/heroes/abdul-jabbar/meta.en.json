@@ -1,9 +1,15 @@
 {
   "name": "Abdul Jabbar",
   "name_en": "Abdul Jabbar",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Abdul Jabbar is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Patriotic Singer",
+  "group": "collective",
+  "contribution": "He became a powerful cultural voice of wartime and post-war patriotic consciousness through songs associated with national memory.",
+  "context": "Cultural mobilization tied to the Liberation War era.",
+  "impact": "His music helped preserve emotional memory of sacrifice and victory.",
+  "highlight": "Songs became another frontline of national resolve.",
+  "tags": [
+    "culture",
+    "song",
+    "memory"
+  ]
 }

@@ -1,9 +1,15 @@
 {
   "name": "Mostafa Kamal",
   "name_en": "Mostafa Kamal",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Mostafa Kamal is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Bir Sreshtho (Army Martyr)",
+  "group": "martyr",
+  "contribution": "He held defensive position at Daruin against a larger Pakistani assault, covering comrades and fighting until death.",
+  "context": "Akhaura front, April 1971.",
+  "impact": "His stand is remembered as a defining act of battlefield self-sacrifice.",
+  "highlight": "He chose to hold the line so others could survive.",
+  "tags": [
+    "bir-sreshtho",
+    "army",
+    "akhaura"
+  ]
 }

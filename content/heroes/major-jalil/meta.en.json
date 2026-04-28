@@ -1,9 +1,15 @@
 {
-  "name": "Major Jalil",
+  "name": "Major M. A. Jalil",
   "name_en": "Major Jalil",
-  "role": "Liberation War Figure",
+  "role": "Sector 9 Commander",
   "group": "leader",
-  "contribution": "Major Jalil is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "contribution": "He commanded Sector 9 and led operations across the southern riverine theatre, including coordination with naval guerrilla action.",
+  "context": "Southwestern and coastal operational zone, 1971.",
+  "impact": "His command contributed to the liberation of strategic southern corridors.",
+  "highlight": "A commanding figure in complex riverine-war conditions.",
+  "tags": [
+    "sector-9",
+    "southern-front",
+    "riverine"
+  ]
 }

@@ -1,9 +1,15 @@
 {
   "name": "Ziaur Rahman",
   "name_en": "Ziaur Rahman",
-  "role": "Liberation War Figure",
+  "role": "Sector Commander and Z Force Commander",
   "group": "leader",
-  "contribution": "Ziaur Rahman is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "contribution": "He announced the declaration of independence over radio at Kalurghat and later commanded Sector 1, Sector 11, and Z Force in combat operations.",
+  "context": "Chittagong and multiple fronts during the Liberation War, 1971.",
+  "impact": "His military and symbolic role helped mobilize resistance in the war’s early phase.",
+  "highlight": "A battlefield commander with major symbolic wartime visibility.",
+  "tags": [
+    "declaration",
+    "sector-command",
+    "z-force"
+  ]
 }

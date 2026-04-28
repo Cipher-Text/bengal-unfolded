@@ -1,9 +1,15 @@
 {
   "name": "Badiul Alam",
   "name_en": "Badiul Alam",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Badiul Alam is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Urban Resistance Fighter",
+  "group": "coordinator",
+  "contribution": "He is remembered among the urban resistance participants who helped sustain clandestine anti-occupation operations.",
+  "context": "City-based resistance environment during the Liberation War.",
+  "impact": "His participation reflects the critical role of non-frontline urban networks in the war effort.",
+  "highlight": "Urban resistance depended on people like him working in extreme risk.",
+  "tags": [
+    "urban-resistance",
+    "clandestine",
+    "1971"
+  ]
 }

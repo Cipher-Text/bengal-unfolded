@@ -1,9 +1,15 @@
 {
   "name": "Munier Chowdhury",
   "name_en": "Munier Chowdhury",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Munier Chowdhury is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Martyred Intellectual",
+  "group": "martyr",
+  "contribution": "A renowned academic and writer, he was abducted and killed in December 1971 during the targeted massacre of intellectuals.",
+  "context": "Intellectual killings in Dhaka, December 1971.",
+  "impact": "His murder became emblematic of attempts to cripple Bangladesh’s future leadership and scholarship.",
+  "highlight": "He represents the intellectual cost of independence.",
+  "tags": [
+    "intellectual",
+    "december-14",
+    "martyr"
+  ]
 }

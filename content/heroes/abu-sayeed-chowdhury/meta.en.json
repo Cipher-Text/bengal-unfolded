@@ -1,9 +1,15 @@
 {
   "name": "Abu Sayeed Chowdhury",
   "name_en": "Abu Sayeed Chowdhury",
-  "role": "Liberation War Figure",
+  "role": "Diplomatic Face of the Liberation Cause",
   "group": "leader",
-  "contribution": "Abu Sayeed Chowdhury is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "contribution": "From abroad, he advanced Bangladesh’s diplomatic case and helped communicate the legitimacy of the independence struggle internationally.",
+  "context": "International advocacy and external political front, 1971.",
+  "impact": "He strengthened external recognition pathways for the emerging Bangladeshi state.",
+  "highlight": "He carried the liberation narrative into global diplomatic spaces.",
+  "tags": [
+    "diplomacy",
+    "international-advocacy",
+    "state-legitimacy"
+  ]
 }

@@ -1,9 +1,15 @@
 {
   "name": "Abu Osman Chowdhury",
   "name_en": "Abu Osman Chowdhury",
-  "role": "Liberation War Figure",
+  "role": "Sector 8 Commander (Early Phase)",
   "group": "leader",
-  "contribution": "Abu Osman Chowdhury is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "contribution": "He played a frontline role in early resistance and commanded Sector 8 in the initial phase before later command transitions.",
+  "context": "Southwestern operational areas during early Liberation War period.",
+  "impact": "His early command helped stabilize resistance organization in a critical theatre.",
+  "highlight": "An early sector leader in the war’s formative command phase.",
+  "tags": [
+    "sector-8",
+    "early-resistance",
+    "command"
+  ]
 }

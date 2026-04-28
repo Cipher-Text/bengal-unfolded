@@ -1,9 +1,15 @@
 {
   "name": "Major Zafar Imam",
   "name_en": "Major Zafar Imam",
-  "role": "Liberation War Figure",
+  "role": "Military Operations Leader",
   "group": "leader",
-  "contribution": "Major Zafar Imam is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "contribution": "He served in frontline command roles during the Liberation War and contributed to organized armed resistance operations.",
+  "context": "Field-command environment of the liberation forces, 1971.",
+  "impact": "His leadership supported tactical execution in active combat theatres.",
+  "highlight": "Remembered among frontline commanders of the war.",
+  "tags": [
+    "frontline",
+    "military-command",
+    "1971"
+  ]
 }

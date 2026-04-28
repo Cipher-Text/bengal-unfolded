@@ -1,9 +1,15 @@
 {
   "name": "Azad (Shaheed Azad)",
   "name_en": "Azad (Shaheed Azad)",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Azad (Shaheed Azad) is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Urban Guerrilla Martyr",
+  "group": "martyr",
+  "contribution": "Known as 'Shaheed Azad', he became associated with urban guerrilla resistance and paid with his life under occupation-era repression.",
+  "context": "Occupied Dhaka’s resistance and detention context, 1971.",
+  "impact": "His story remains part of public memory around wartime torture and sacrifice.",
+  "highlight": "His martyrdom is remembered in narratives of urban resistance.",
+  "tags": [
+    "urban-guerrilla",
+    "martyr",
+    "memory"
+  ]
 }

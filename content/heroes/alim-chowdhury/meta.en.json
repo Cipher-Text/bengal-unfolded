@@ -1,9 +1,15 @@
 {
   "name": "Dr Alim Chowdhury",
   "name_en": "Dr Alim Chowdhury",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Dr Alim Chowdhury is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Martyred Physician-Intellectual",
+  "group": "martyr",
+  "contribution": "A prominent eye specialist, he was abducted and killed in December 1971 in the targeted killing of intellectuals.",
+  "context": "Dhaka, end-of-war intellectual massacre.",
+  "impact": "His killing remains a defining case in remembrance of professional-class targeting.",
+  "highlight": "He is remembered among the doctors sacrificed in the final days of war.",
+  "tags": [
+    "intellectual",
+    "doctor",
+    "martyrdom"
+  ]
 }

@@ -1,9 +1,15 @@
 {
   "name": "Govinda Chandra Dev",
   "name_en": "Govinda Chandra Dev",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Govinda Chandra Dev is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Philosopher and Martyred Academic",
+  "group": "martyr",
+  "contribution": "A leading philosopher at the University of Dhaka, he was killed during the 1971 military crackdown on civilians and academics.",
+  "context": "Dhaka University killings in the opening phase of the war.",
+  "impact": "His death symbolizes the ideological and cultural targeting embedded in occupation violence.",
+  "highlight": "A philosopher silenced in one of the war’s earliest massacres.",
+  "tags": [
+    "dhaka-university",
+    "intellectual",
+    "martyr"
+  ]
 }

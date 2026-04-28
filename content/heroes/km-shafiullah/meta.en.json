@@ -1,9 +1,15 @@
 {
   "name": "K. M. Shafiullah",
   "name_en": "K. M. Shafiullah",
-  "role": "Liberation War Figure",
+  "role": "Sector 3 Commander and S Force Leader",
   "group": "leader",
-  "contribution": "K. M. Shafiullah is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "contribution": "He commanded Sector 3 and later S Force, leading regular and guerrilla engagements against Pakistani positions.",
+  "context": "Sector-based command structure, 1971.",
+  "impact": "His leadership strengthened conventional fighting capacity within the liberation forces.",
+  "highlight": "A central commander in building organized combat capability.",
+  "tags": [
+    "sector-3",
+    "s-force",
+    "military-command"
+  ]
 }

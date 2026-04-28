@@ -1,9 +1,15 @@
 {
   "name": "Lance Naik Munir Ahmed",
   "name_en": "Lance Naik Munir Ahmed",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Lance Naik Munir Ahmed is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Bir Sreshtho (Army Martyr)",
+  "group": "martyr",
+  "contribution": "He continued advancing under fire during an assault and died while pressing the attack on fortified positions.",
+  "context": "Mymensingh front operations, 1971.",
+  "impact": "He is remembered as one of the highest examples of offensive battlefield courage.",
+  "highlight": "He fought forward under heavy fire until his final moment.",
+  "tags": [
+    "bir-sreshtho",
+    "infantry",
+    "martyrdom"
+  ]
 }

@@ -1,9 +1,15 @@
 {
   "name": "Mir Shawkat Ali",
   "name_en": "Mir Shawkat Ali",
-  "role": "Liberation War Figure",
+  "role": "Sector 5 Commander",
   "group": "leader",
-  "contribution": "Mir Shawkat Ali is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "contribution": "He served as a sector commander and led armed operations against Pakistani positions in the northern theatre.",
+  "context": "Sector 5 operations during the Liberation War.",
+  "impact": "His command contributed to territorial resistance and military consolidation in his sector.",
+  "highlight": "A sector commander who helped hold critical northern fronts.",
+  "tags": [
+    "sector-5",
+    "northern-front",
+    "command"
+  ]
 }

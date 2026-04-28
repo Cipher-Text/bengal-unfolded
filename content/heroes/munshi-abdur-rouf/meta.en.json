@@ -1,9 +1,15 @@
 {
   "name": "Munshi Abdur Rouf",
   "name_en": "Munshi Abdur Rouf",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Munshi Abdur Rouf is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Bir Sreshtho (Army Martyr)",
+  "group": "martyr",
+  "contribution": "During fighting near Rangamati, he defended retreating troops with sustained machine-gun fire and died under shelling.",
+  "context": "Chittagong Hill Tracts front, April 1971.",
+  "impact": "His action remains one of the most cited examples of combat sacrifice in the war.",
+  "highlight": "He turned a retreat into survival through final-cover fire.",
+  "tags": [
+    "bir-sreshtho",
+    "rangamati",
+    "martyrdom"
+  ]
 }

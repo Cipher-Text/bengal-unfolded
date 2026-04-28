@@ -1,9 +1,15 @@
 {
   "name": "Shamsul Alam",
   "name_en": "Shamsul Alam",
-  "role": "Liberation War Figure",
-  "group": "leader",
-  "contribution": "Shamsul Alam is listed among notable 1971 Liberation War figures in this project timeline.",
-  "context": "",
-  "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+  "role": "Resistance Organizer",
+  "group": "coordinator",
+  "contribution": "He is documented in liberation-war memory as part of resistance-linked organizing networks.",
+  "context": "Grassroots and local wartime coordination structures, 1971.",
+  "impact": "His profile reflects the role of local organizers in sustaining resistance logistics and morale.",
+  "highlight": "Local organizing was a hidden backbone of the war effort.",
+  "tags": [
+    "organizer",
+    "grassroots",
+    "resistance"
+  ]
 }
