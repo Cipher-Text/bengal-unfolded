@@ -142,6 +142,9 @@ export type TimelineItem = {
   type?: TimelineType;
   href?: string;
   ctaLabel?: string;
+  phaseLabel?: string;
+  themeColor?: string;
+  emphasis?: "normal" | "peak";
 };
 
 export type Hero = {
@@ -202,4 +205,6 @@ export type HomeContent = {
   intro: string;
   timelineHeading: string;
   timelineSubheading: string;
+  whyJourneyMattersHeading: string;
+  whyJourneyMattersBody: string;
 };

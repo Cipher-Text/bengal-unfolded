@@ -13,3 +13,22 @@ h1, h2, h3 { font-family: var(--font-display), serif; }
 .theme-muted { color: var(--muted); }
 .theme-header { background: var(--header); }
 .theme-control { color: var(--fg); border-color: var(--border); background: var(--surface-soft); }
+
+@keyframes heroGradientDrift {
+  0% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(1.2%, -1.2%, 0) scale(1.02); }
+  100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+
+.hero-gradient-motion::before {
+  content: "";
+  position: absolute;
+  inset: -24%;
+  pointer-events: none;
+  background:
+    radial-gradient(35% 35% at 20% 20%, rgba(182, 64, 64, 0.15), transparent 70%),
+    radial-gradient(40% 35% at 80% 18%, rgba(47, 127, 102, 0.16), transparent 70%),
+    radial-gradient(35% 40% at 50% 75%, rgba(107, 47, 127, 0.12), transparent 70%);
+  filter: blur(12px);
+  animation: heroGradientDrift 18s ease-in-out infinite;
+}
