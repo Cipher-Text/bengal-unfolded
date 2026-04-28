@@ -1,0 +1,4 @@
+import type { ReactNode } from "react";
+export function HeroSection({ title, tagline, intro, rightSlot }: { title: string; tagline: string; intro?: string; rightSlot?: ReactNode }) {
+  return <section className="theme-surface relative overflow-hidden rounded-3xl border border-amber-400/20 p-6 md:p-10"><div className="pointer-events-none absolute -top-20 -left-20 h-64 w-64 rounded-full bg-amber-400/10 blur-3xl" /><div className="pointer-events-none absolute -right-20 -bottom-20 h-64 w-64 rounded-full bg-emerald-400/10 blur-3xl" /><div className="relative grid gap-6 md:grid-cols-[1fr_auto] md:items-end"><div><p className="text-xs tracking-[0.25em] text-amber-300 uppercase">Historical Memory Journey</p><h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-6xl">{title}</h1><p className="theme-muted mt-4 max-w-2xl text-lg md:text-xl">{tagline}</p>{intro ? <p className="theme-muted mt-4 max-w-3xl">{intro}</p> : null}</div>{rightSlot}</div></section>;
+}
