@@ -108,6 +108,7 @@ export type Locale = (typeof SUPPORTED_LOCALES)[number];
 export type EventSlug = (typeof SUPPORTED_EVENT_SLUGS)[number];
 export type HeroId = (typeof SUPPORTED_HERO_IDS)[number];
 export type BookId = (typeof SUPPORTED_BOOK_IDS)[number];
+export type ResourceId = string;
 
 export type EventMeta = {
   slug: EventSlug;
@@ -162,6 +163,7 @@ export type Book = {
 export type ResourceCategory = "read" | "watch" | "explore" | "understand";
 
 export type EventResource = {
+  id: ResourceId;
   title: string;
   author: string;
   note: string;

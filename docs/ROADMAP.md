@@ -18,6 +18,7 @@ Legend:
 
 ### Content architecture
 - [x] RM-MVP-007 Normalized model: events -> hero IDs
+- [x] RM-MVP-007A Normalized model: events -> resource IDs
 - [x] RM-MVP-008 Dedicated hero pages (`/{locale}/heroes/{id}`)
 - [x] RM-MVP-009 Dedicated book pages (`/{locale}/books/{id}`)
 - [x] RM-MVP-010 Reverse lookups (`getEventsByHeroId`, `getEventsByBookId`)

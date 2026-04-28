@@ -36,12 +36,14 @@ pnpm start
   - `timeline.<locale>.json`
   - `quotes.<locale>.json`
   - `hero-ids.json`
-  - `resources.<locale>.json`
+  - `resource-ids.json`
 - Shared heroes:
   - `content/heroes/<hero-id>/meta.<locale>.json`
   - Optional performance index:
     - `content/heroes/index.en.json`
     - `content/heroes/index.bn.json`
+- Shared resources:
+  - `content/resources/<resource-id>/meta.<locale>.json`
 - Shared books (legacy dedicated book pages):
   - `content/books/<book-id>/meta.<locale>.json`
 
@@ -64,7 +66,8 @@ pnpm start
 
 ## Notes
 - Relationship model supports one hero across multiple events.
-- Event resources are now loaded from `resources.<locale>.json`.
+- Relationship model supports one resource across multiple events.
+- Event resources are now loaded through `resource-ids.json` + shared `content/resources/*`.
 - Legacy per-event `heroes.<locale>.json` files are removed and unused.
 
 ## Future backend migration

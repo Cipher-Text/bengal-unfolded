@@ -15,7 +15,8 @@ Static JSON now, adapter-based backend later.
 ## Relationship model
 - `event -> heroes` is many-to-many via `content/events/<slug>/hero-ids.json`.
 - Hero detail pages perform reverse lookup to list related events.
-- `event -> resources` is per-event localized content via `resources.<locale>.json`.
+- `event -> resources` is many-to-many via `content/events/<slug>/resource-ids.json`.
+- Shared resource metadata is stored in `content/resources/<resource-id>/meta.<locale>.json`.
 - `book` entity is still supported for dedicated book pages and reverse lookups.
 
 ## File contracts
@@ -24,7 +25,7 @@ Static JSON now, adapter-based backend later.
   - `timeline.<locale>.json`
   - `quotes.<locale>.json`
   - `hero-ids.json`
-  - `resources.<locale>.json`
+  - `resource-ids.json`
 - Hero files:
   - `content/heroes/<hero-id>/meta.en.json`
   - `content/heroes/<hero-id>/meta.bn.json`
@@ -34,6 +35,9 @@ Static JSON now, adapter-based backend later.
 - Book files:
   - `content/books/<book-id>/meta.en.json`
   - `content/books/<book-id>/meta.bn.json`
+- Resource files:
+  - `content/resources/<resource-id>/meta.en.json`
+  - `content/resources/<resource-id>/meta.bn.json`
 
 ## Timeline schema
 - `TimelineItem` fields:
@@ -59,6 +63,7 @@ Static JSON now, adapter-based backend later.
 
 ## Resource schema
 - `EventResource` fields:
+  - `id`
   - `title`
   - `author`
   - `note`
@@ -90,9 +95,11 @@ Static JSON now, adapter-based backend later.
 - `getEventsByHeroId`
 - `getEventsByBookId`
 - `getHeroesByEventSlug`
+- `getResource`
+- `getEventsByResourceId`
 
 Implementation note:
 - `getAllHeroes` first tries `content/heroes/index.<locale>.json`, then falls back to per-hero files.
-- `getEventContent` reads `resources.<locale>.json` and normalizes legacy `type` values if present.
+- `getEventContent` resolves resources from `resource-ids.json` through shared `content/resources/*`.
 
 Future migration: replace filesystem reads in `src/lib/content.ts` with Strapi/Payload/Directus/PostgreSQL adapters while preserving signatures.

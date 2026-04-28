@@ -14,12 +14,15 @@ content/
       quotes.en.json
       quotes.bn.json
       hero-ids.json
-      resources.en.json
-      resources.bn.json
+      resource-ids.json
   heroes/
     index.en.json
     index.bn.json
     <hero-id>/
+      meta.en.json
+      meta.bn.json
+  resources/
+    <resource-id>/
       meta.en.json
       meta.bn.json
   books/

@@ -3,8 +3,16 @@
 ## 2026-04-29
 
 ### Completed
+- Refactored resources to normalized shared model:
+  - events reference resources via `resource-ids.json`
+  - shared resource records live under `content/resources/<resource-id>/meta.<locale>.json`
+- Migrated existing event resource entries (including full 1971 resource set) to shared resources.
+- Added content accessor support for shared resources:
+  - `getResource`
+  - `getEventsByResourceId`
+- Updated `getEventContent` to resolve resources by IDs (strict normalized model).
 - Synced documentation with current UI and implementation.
-- Updated docs to reflect active event resources model (`resources.<locale>.json`).
+- Updated docs to reflect normalized shared resource model.
 - Documented event full-heroes route: `/{locale}/events/{slug}/heroes`.
 - Documented event resources categories route: `/{locale}/events/{slug}/resources`.
 - Documented timeline progressive loading (`Show more` / `আরও দেখুন`).
@@ -40,5 +48,5 @@
 
 ### Technical notes
 - `src/lib/content.ts` remains the single content access layer.
-- Runtime now uses `resources.<locale>.json` for event resources.
+- Runtime now uses `resource-ids.json` + shared `content/resources/*` for event resources.
 - Legacy per-event `heroes.<locale>.json` files are removed and unused.

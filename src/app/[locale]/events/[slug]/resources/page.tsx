@@ -91,7 +91,7 @@ export default async function EventResourceCategoriesPage({ params }: { params: 
                 <h3 className="text-lg font-semibold text-amber-400">{SUBCATEGORY_LABELS[locale as Locale][subcategory as keyof typeof SUBCATEGORY_LABELS.en]}</h3>
                 <div className="grid gap-3 md:grid-cols-2">
                   {bySubcategory[subcategory].map((resource) => (
-                    <ResourceCard key={`${resource.title}-${subcategory}`} resource={resource} locale={locale as Locale} />
+                    <ResourceCard key={resource.id} resource={resource} locale={locale as Locale} />
                   ))}
                 </div>
               </div>

@@ -71,7 +71,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         <SectionTitle title={locale === "bn" ? "ক্যাটাগরি অনুযায়ী রিসোর্স" : "Resources by Category"} subtitle={locale === "bn" ? "সাব-ক্যাটাগরি অনুযায়ী রিসোর্স ব্রাউজ করুন" : "Browse resources by subcategory"} />
         <div className="mt-4 grid gap-3 md:grid-cols-2">
           {event.resources.slice(0, 6).map((resource) => (
-            <ResourceCard key={`${resource.category}-${resource.subcategory}-${resource.title}`} resource={resource} locale={locale as Locale} />
+            <ResourceCard key={resource.id} resource={resource} locale={locale as Locale} />
           ))}
         </div>
         <div className="mt-4">

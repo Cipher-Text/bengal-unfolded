@@ -38,7 +38,7 @@ function isBookId(v: string): v is BookId {
   return SUPPORTED_BOOK_IDS.includes(v as BookId);
 }
 
-function normalizeEventResource(resource: Record<string, unknown>): EventResource {
+function normalizeEventResource(resourceId: string, resource: Record<string, unknown>): EventResource {
   const title = String(resource.title ?? "");
   const author = String(resource.author ?? "");
   const note = String(resource.note ?? "");
@@ -49,6 +49,7 @@ function normalizeEventResource(resource: Record<string, unknown>): EventResourc
 
   if (category && subcategory) {
     return {
+      id: resourceId,
       title,
       author,
       note,
@@ -59,12 +60,12 @@ function normalizeEventResource(resource: Record<string, unknown>): EventResourc
   }
 
   if (legacyType === "book") {
-    return { title, author, note, href, category: "read", subcategory: "historical-literature" };
+    return { id: resourceId, title, author, note, href, category: "read", subcategory: "historical-literature" };
   }
   if (legacyType === "article") {
-    return { title, author, note, href, category: "understand", subcategory: "research" };
+    return { id: resourceId, title, author, note, href, category: "understand", subcategory: "research" };
   }
-  return { title, author, note, href, category: "explore", subcategory: "archive" };
+  return { id: resourceId, title, author, note, href, category: "explore", subcategory: "archive" };
 }
 
 const readJsonRawCached = cache(async (filePath: string): Promise<unknown> => {
@@ -131,21 +132,29 @@ export async function getAllBooks(locale: string): Promise<Book[]> {
   return Promise.all(SUPPORTED_BOOK_IDS.map((bookId) => getBook(locale, bookId)));
 }
 
+export async function getResource(locale: string, resourceId: string): Promise<EventResource> {
+  assertSupportedLocale(locale);
+  const resource = await readJsonFile<Record<string, unknown>>(
+    path.join(CONTENT_DIR, "resources", resourceId, `meta.${locale}.json`),
+  );
+  return normalizeEventResource(resourceId, resource);
+}
+
 export async function getEventContent(locale: string, slug: string): Promise<EventContent> {
   assertSupportedLocale(locale);
   assertSupportedEventSlug(slug);
 
   const base = path.join(CONTENT_DIR, "events", slug);
-  const [meta, timeline, heroIds, resourcesRaw, quotes] = await Promise.all([
+  const [meta, timeline, heroIds, quotes] = await Promise.all([
     readJsonFile<EventMeta>(path.join(base, `meta.${locale}.json`)),
     readJsonFile<TimelineItem[]>(path.join(base, `timeline.${locale}.json`)),
     readJsonFile<HeroId[]>(path.join(base, "hero-ids.json")),
-    readJsonFile<Record<string, unknown>[]>(path.join(base, `resources.${locale}.json`)),
     readJsonFile<Quote[]>(path.join(base, `quotes.${locale}.json`)),
   ]);
 
   const heroes = await Promise.all(heroIds.map((heroId) => getHero(locale, heroId)));
-  const resources = resourcesRaw.map(normalizeEventResource);
+  const resourceIds = await readJsonFile<string[]>(path.join(base, "resource-ids.json"));
+  const resources = await Promise.all(resourceIds.map((resourceId) => getResource(locale, resourceId)));
 
   return { meta, timeline, heroes, resources, quotes };
 }
@@ -178,6 +187,24 @@ export async function getEventsByBookId(locale: string, bookId: string): Promise
     SUPPORTED_EVENT_SLUGS.map(async (slug) => {
       const bookIds = await readJsonFile<BookId[]>(path.join(CONTENT_DIR, "events", slug, "book-ids.json"));
       if (!bookIds.includes(bookId)) return null;
+      return getEventMeta(locale, slug);
+    }),
+  );
+
+  return matches.filter((event): event is EventMeta => event !== null);
+}
+
+export async function getEventsByResourceId(locale: string, resourceId: string): Promise<EventMeta[]> {
+  assertSupportedLocale(locale);
+
+  const matches = await Promise.all(
+    SUPPORTED_EVENT_SLUGS.map(async (slug) => {
+      try {
+        const resourceIds = await readJsonFile<string[]>(path.join(CONTENT_DIR, "events", slug, "resource-ids.json"));
+        if (!resourceIds.includes(resourceId)) return null;
+      } catch {
+        return null;
+      }
       return getEventMeta(locale, slug);
     }),
   );
