@@ -1,60 +1,76 @@
-# Product Roadmap
+# Product Roadmap (Traceable)
 
-This roadmap tracks proposed features by business value, user impact, and implementation phase.
+Aligned with: `docs/archive/deep-research-report.md`
 
-## Prioritization criteria
-- User understanding impact
-- Trust and source credibility
-- Revisit/retention impact
-- Implementation effort
+This roadmap tracks product evolution from MVP to final phase with explicit checkbox trace.
 
-## Phase 1 (Near-term, high impact)
-- Inline citation support (claim-to-source links)
-  - Value: Trust and academic usability
-  - Trace: Add citation fields in timeline/event content and render reference anchors
-- Source quality badges (`Primary`, `Secondary`, `Archive`, `Opinion`)
-  - Value: Faster source evaluation by readers
-  - Trace: Extend book/source metadata and card UI
-- Glossary pages + term linking
-  - Value: Better comprehension for students/new readers
-  - Trace: Add `content/glossary` and `/{locale}/glossary/[term]`
-- Timeline thematic filters (`Language`, `Democracy`, `War`, `Culture`, `Economy`)
-  - Value: Faster exploration and higher engagement
-  - Trace: Add category tags to events and filter UI on home timeline
+Legend:
+- `[x]` Done
+- `[ ]` Future
 
-## Phase 2 (Mid-term, engagement)
-- Compare Events view
-  - Value: Pattern recognition across history periods
-  - Trace: New route `/{locale}/compare` with 2-event selection
-- Learning paths (`Beginner`, `Student`, `Researcher`, `Exam prep`)
-  - Value: Guided onboarding and deeper completion rates
-  - Trace: New curated collections in content model and route pages
-- Knowledge checks (short quizzes)
-  - Value: Better retention and classroom use
-  - Trace: Add optional quiz JSON per event and results UI
+## MVP (Foundation)
 
-## Phase 3 (Long-term, strategic)
-- Interactive historical map
-  - Value: Spatial context and stronger storytelling
-  - Trace: Geo fields on events + map visualization page
-- Oral history module (audio/video snippets)
-  - Value: Unique historical voice and emotional engagement
-  - Trace: Media references and playback components
-- Educator toolkit/export bundles (PDF/print)
-  - Value: Institutional adoption (schools, NGOs, archives)
-  - Trace: Export templates and lesson-plan metadata
+### Core platform
+- [x] RM-MVP-001 Bilingual routing (`/en`, `/bn`) and locale-aware pages
+- [x] RM-MVP-002 Event detail pages
+- [x] RM-MVP-003 Timeline-first homepage
+- [x] RM-MVP-004 Timeline item `Details` action on homepage
+- [x] RM-MVP-005 Light/dark theming with persistence
 
-## Traceability format
-For each accepted roadmap item, create an implementation ticket with:
-- `ID`: short code (example: `RM-001`)
-- `Goal`: user/business outcome
-- `Scope`: content, UI, data changes
-- `Dependencies`: blocked by what
-- `Acceptance criteria`: measurable done state
-- `Status`: `planned | in-progress | shipped`
+### Content architecture
+- [x] RM-MVP-006 Normalized model: events -> hero IDs
+- [x] RM-MVP-007 Normalized model: events -> book IDs
+- [x] RM-MVP-008 Dedicated hero pages (`/{locale}/heroes/{id}`)
+- [x] RM-MVP-009 Dedicated book pages (`/{locale}/books/{id}`)
+- [x] RM-MVP-010 Reverse lookups (`getEventsByHeroId`, `getEventsByBookId`)
 
-## Proposed initial tickets
-- `RM-001`: Inline citations on event pages
-- `RM-002`: Source quality badges and legend
-- `RM-003`: Glossary pages with term links
-- `RM-004`: Timeline filters on home page
+### Documentation and governance
+- [x] RM-MVP-011 Docs moved into `docs/`
+- [x] RM-MVP-012 Changelog and roadmap docs created
+
+## Phase v1 (Trust + Comprehension)
+
+Priority: Highest business value for historical understanding.
+
+- [ ] RM-001 Inline citations on event/timeline claims
+- [ ] RM-002 Source quality badges (`Primary`, `Secondary`, `Archive`, `Editorial`)
+- [ ] RM-003 Glossary pages + term linking (`/{locale}/glossary/[term]`)
+- [ ] RM-004 Timeline thematic filters (`Language`, `Democracy`, `War`, `Culture`, `Economy`)
+- [ ] RM-009 Evidence metadata fields (`sourceIds`, `evidenceLevel`) in content model
+- [ ] RM-010 Section jump navigation on long event pages
+
+## Phase v2 (Engagement + Learning)
+
+Priority: Increase depth, retention, and guided learning.
+
+- [ ] RM-005 Compare events view (`/{locale}/compare`)
+- [ ] RM-006 Learning paths (`beginner`, `student`, `researcher`, `exam-prep`)
+- [ ] RM-007 Knowledge checks (short quizzes)
+- [ ] RM-011 Content density controls (`quick read` vs `deep read`)
+- [ ] RM-012 Glossary hover/tooltips in narrative content
+
+## Phase v3 (Institutional Utility)
+
+Priority: Classroom, research, and archive usability.
+
+- [ ] RM-008 Print/export classroom pack (PDF/print-friendly)
+- [ ] RM-013 Source collection model (if books/resources split is needed)
+- [ ] RM-014 Sensitive-content handling (`contentWarnings`, display gates)
+- [ ] RM-015 Structured citation export (copy-ready reference formats)
+
+## Final Phase (Strategic Extensions)
+
+Priority: Add only after editorial quality and moderation maturity.
+
+- [ ] RM-016 Interactive historical map and geo-linked timeline
+- [ ] RM-017 Oral-history module (audio/video + transcript UX)
+- [ ] RM-018 Contributor workflow with moderation queue
+- [ ] RM-019 Advanced search upgrade (if static search is insufficient)
+- [ ] RM-020 AI-assisted Q&A with strict citation grounding
+
+## Execution notes
+
+1. Keep static-first architecture unless editorial throughput forces backend migration.
+2. Ship v1 trust features before v2 engagement features.
+3. Any AI/search expansion must depend on RM-001, RM-002, and RM-009 completion.
+4. Update this file by toggling checkboxes only; add a matching dated entry in `docs/CHANGELOG.md` when items move to done.

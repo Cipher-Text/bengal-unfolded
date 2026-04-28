@@ -25,7 +25,7 @@ pnpm start
 - [Content Model](CONTENT_MODEL.md)
 - [Project Structure](PROJECT_STRUCTURE.md)
 - [Changelog (Done)](CHANGELOG.md)
-- [Roadmap (Future Features)](ROADMAP.md)
+- [Roadmap (Phased Done + Future Trace)](ROADMAP.md)
 
 ## Content
 - Home:
