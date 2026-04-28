@@ -35,11 +35,14 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggleTheme}
-      className="theme-control rounded-full border px-3 py-1 text-sm font-medium"
+      className="theme-control inline-flex h-9 w-9 items-center justify-center rounded-full border transition hover:scale-105"
       aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
       title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
     >
-      {theme === "dark" ? "Light" : "Dark"}
+      <span
+        className={`h-4 w-4 rounded-full ${theme === "dark" ? "bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.7)]" : "bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.7)]"}`}
+        aria-hidden="true"
+      />
     </button>
   );
 }
