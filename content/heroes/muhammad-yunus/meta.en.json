@@ -1,9 +1,15 @@
 {
   "name": "Dr. Muhammad Yunus",
   "name_en": "Dr. Muhammad Yunus",
-  "role": "Influential Supporters & Intellectuals",
+  "role": "Interim government chief adviser",
   "group": "leader",
-  "contribution": "Dr. Muhammad Yunus was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
-  "context": "",
-  "impact": "Provided moral support and later led the interim government."
+  "contribution": "After Sheikh Hasina’s resignation in August 2024, student coordinators nominated Nobel laureate Muhammad Yunus to lead Bangladesh’s interim government.",
+  "context": "Post-uprising transition; oath on 8 August 2024.",
+  "impact": "He became the institutional face of the transition from street uprising to interim governance.",
+  "highlight": "Student-nominated transition leadership made him the bridge figure after the uprising.",
+  "tags": [
+    "interim-government",
+    "transition",
+    "chief-adviser"
+  ]
 }

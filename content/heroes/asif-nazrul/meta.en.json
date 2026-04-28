@@ -1,9 +1,15 @@
 {
   "name": "Asif Nazrul",
   "name_en": "Asif Nazrul",
-  "role": "Influential Supporters & Intellectuals",
+  "role": "Legal scholar and interim-government adviser",
   "group": "leader",
-  "contribution": "Asif Nazrul was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
-  "context": "",
-  "impact": "Law professor who publicly supported student demands."
+  "contribution": "A University of Dhaka law professor and public commentator, he backed protest demands and later served as an adviser in the interim administration.",
+  "context": "Public legal commentary during uprising and post-August 2024 advisory role.",
+  "impact": "He helped translate protest-era demands into legal and governance discourse.",
+  "highlight": "A prominent legal voice moving from commentary to interim-state role.",
+  "tags": [
+    "law",
+    "interim-government",
+    "public-intellectual"
+  ]
 }

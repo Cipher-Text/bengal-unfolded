@@ -1,9 +1,15 @@
 {
   "name": "The Unknown Protester",
   "name_en": "The Unknown Protester",
-  "role": "Grassroots & Digital Influencers",
-  "group": "leader",
-  "contribution": "The Unknown Protester was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
-  "context": "",
-  "impact": "Represents thousands of unnamed students and citizens whose collective bravery drove the movement."
+  "role": "Collective Civic Symbol",
+  "group": "collective",
+  "contribution": "During the 2024 uprising period, this figure was publicly associated with commentary, advocacy, reporting, or civic support aligned with protest concerns.",
+  "context": "Public discourse around accountability, rights, and governance transition in 2024.",
+  "impact": "Helped shape public interpretation, documentation, or civic momentum around the movement.",
+  "highlight": "Part of the wider civic-information ecosystem surrounding the uprising.",
+  "tags": [
+    "public-discourse",
+    "civic-support",
+    "2024"
+  ]
 }
