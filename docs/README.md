@@ -25,49 +25,47 @@ pnpm start
 - [Content Model](CONTENT_MODEL.md)
 - [Project Structure](PROJECT_STRUCTURE.md)
 - [Changelog (Done)](CHANGELOG.md)
-- [Roadmap (Phased Done + Future Trace)](ROADMAP.md)
+- [Roadmap (MVP -> Final)](ROADMAP.md)
 
 ## Content
 - Home:
   - `content/site/home.en.json`
   - `content/site/home.bn.json`
-- Events:
-  - `content/events/<slug>/meta.<locale>.json`
-  - `content/events/<slug>/timeline.<locale>.json`
-  - `content/events/<slug>/quotes.<locale>.json`
-  - `content/events/<slug>/hero-ids.json`
-  - `content/events/<slug>/book-ids.json`
-- Shared Heroes:
+- Event content (per event slug):
+  - `meta.<locale>.json`
+  - `timeline.<locale>.json`
+  - `quotes.<locale>.json`
+  - `hero-ids.json`
+  - `resources.<locale>.json`
+- Shared heroes:
   - `content/heroes/<hero-id>/meta.<locale>.json`
-- Shared Books:
+  - Optional performance index:
+    - `content/heroes/index.en.json`
+    - `content/heroes/index.bn.json`
+- Shared books (legacy dedicated book pages):
   - `content/books/<book-id>/meta.<locale>.json`
 
 ## Routes
 - `/{locale}`: Home timeline with per-item `Details` button.
 - `/{locale}/events/{slug}`: Event detail page.
-- `/{locale}/heroes/{id}`: Dedicated hero detail page + linked events.
-- `/{locale}/books/{id}`: Dedicated book detail page + linked events.
+- `/{locale}/events/{slug}/heroes`: Event-specific full hero list (paginated).
+- `/{locale}/events/{slug}/resources`: Event-specific categorized resources.
+- `/{locale}/heroes`: Global hero list (paginated).
+- `/{locale}/heroes/{id}`: Dedicated hero detail page + related events.
+- `/{locale}/books/{id}`: Dedicated book detail page + related events.
 
-## Authoring workflow
-1. Add entity IDs in `src/types/content.ts`:
-   - `SUPPORTED_EVENT_SLUGS`
-   - `SUPPORTED_HERO_IDS`
-   - `SUPPORTED_BOOK_IDS`
-2. Add or update shared hero/book metadata under:
-   - `content/heroes/<hero-id>/meta.en.json`
-   - `content/heroes/<hero-id>/meta.bn.json`
-   - `content/books/<book-id>/meta.en.json`
-   - `content/books/<book-id>/meta.bn.json`
-3. For each event, wire relationships:
-   - `content/events/<slug>/hero-ids.json`
-   - `content/events/<slug>/book-ids.json`
-4. Run `pnpm build` to validate all static routes and content integrity.
+## Current UX behaviors
+- Light/dark theme with persistent preference.
+- Color-based theme toggle button in header.
+- Event page shows top 5 heroes, then `See full list` / `সম্পূর্ণ তালিকা দেখুন`.
+- Event timeline supports progressive loading (`Show more` / `আরও দেখুন`).
+- Timeline type badge is shown when `type` exists.
+- Resources are grouped by category and subcategory on `/{locale}/events/{slug}/resources`.
 
 ## Notes
-- This repo now uses normalized many-to-many relationships:
-  - one hero can appear in many events
-  - one book can be referenced in many events
-- Legacy per-event files `heroes.<locale>.json` and `resources.<locale>.json` are no longer used by `src/lib/content.ts`.
+- Relationship model supports one hero across multiple events.
+- Event resources are now loaded from `resources.<locale>.json`.
+- Legacy per-event `heroes.<locale>.json` files are removed and unused.
 
 ## Future backend migration
 Keep UI/pages unchanged and swap data provider inside `src/lib/content.ts` to Strapi, Payload, Directus, or PostgreSQL.

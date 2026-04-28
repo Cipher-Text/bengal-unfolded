@@ -1,18 +1,87 @@
 [
-  {"title":"Unfinished Memoirs","author":"Sheikh Mujibur Rahman","note":"Foundational memoir for historical context.","category":"read","subcategory":"memoir"},
-  {"title":"Banglapedia Entries on 1971","author":"Banglapedia Editorial Team","note":"Reference-style overviews and key terms.","category":"read","subcategory":"historical-literature"},
-  {"title":"A Legacy of Blood","author":"Anthony Mascarenhas","note":"Investigative account of the war and political backdrop.","category":"read","subcategory":"historical-literature"},
-  {"title":"Aguner Poroshmoni","author":"Humayun Ahmed","note":"Literary interpretation shaped by Liberation War memory.","category":"read","subcategory":"novel"},
-
-  {"title":"Muktir Gaan","author":"Tareque and Catherine Masud","note":"Documentary footage and oral history perspectives.","category":"watch","subcategory":"documentary"},
-  {"title":"Stop Genocide","author":"Zahir Raihan","note":"Seminal documentary on atrocities during the war.","category":"watch","subcategory":"documentary"},
-  {"title":"Guerrilla","author":"Nasiruddin Yousuff","note":"Film portrayal of urban resistance.","category":"watch","subcategory":"movie"},
-  {"title":"Ekattorer Jishu","author":"Nasiruddin Yousuff","note":"Dramatic depiction of war-time violence and survival.","category":"watch","subcategory":"drama"},
-
-  {"title":"Bangladesh Genocide Archive Collections","author":"Public Archive Collections","note":"Curated archival records, reports, and testimonies.","category":"explore","subcategory":"archive"},
-  {"title":"Mujibnagar Government Proclamation Records","author":"Government Records","note":"Key official documents of provisional governance.","category":"explore","subcategory":"documents"},
-  {"title":"Liberation War Museum Photo Archive","author":"Liberation War Museum","note":"Visual archive of people, places, and destruction.","category":"explore","subcategory":"photos"},
-
-  {"title":"Academic Research on 1971 Conflict Dynamics","author":"Multiple Researchers","note":"Scholarly work on war causes, violence, and state formation.","category":"understand","subcategory":"research"},
-  {"title":"Peer-reviewed Papers on Refugee and War Memory","author":"University Journals","note":"Focused studies on displacement, trauma, and memory politics.","category":"understand","subcategory":"papers"}
+  {
+    "title": "Ekattorer Dinguli (Days of '71)",
+    "author": "Jahanara Imam",
+    "note": "Iconic diary-style memoir chronicling war-time life, loss, and resistance through a mother's perspective.",
+    "category": "read",
+    "subcategory": "memoir"
+  },
+  {
+    "title": "Ami Birangona Bolchi (A War Heroine, I Speak)",
+    "author": "Nilima Ibrahim",
+    "note": "Groundbreaking testimonies of Birangonas documenting gendered violence during the war.",
+    "category": "read",
+    "subcategory": "memoir"
+  },
+  {
+    "title": "Muldhara '71",
+    "author": "Maidul Hasan",
+    "note": "Insider account of political and diplomatic strategy under the Tajuddin-led provisional government.",
+    "category": "read",
+    "subcategory": "historical-literature"
+  },
+  {
+    "title": "Rifle, Roti, Aurat",
+    "author": "Anwar Pasha",
+    "note": "War-time novel written during 1971, reflecting fear, violence, and collapse in occupied Dhaka.",
+    "category": "read",
+    "subcategory": "novel"
+  },
+  {
+    "title": "Jochona O Jononir Golpo",
+    "author": "Humayun Ahmed",
+    "note": "Epic narrative weaving ordinary lives with major historical moments of the Liberation War.",
+    "category": "read",
+    "subcategory": "novel"
+  },
+  {
+    "title": "Hangor Nodi Grenade",
+    "author": "Selina Hossain",
+    "note": "Powerful fiction of sacrifice, resistance, and moral crisis in a rural wartime setting.",
+    "category": "read",
+    "subcategory": "novel"
+  },
+  {
+    "title": "The Rape of Bangladesh",
+    "author": "Anthony Mascarenhas",
+    "note": "Influential account that helped expose atrocities in East Pakistan to a global audience.",
+    "category": "understand",
+    "subcategory": "research"
+  },
+  {
+    "title": "The Blood Telegram",
+    "author": "Gary J. Bass",
+    "note": "Detailed political history of U.S. policy, diplomatic cables, and the genocide context of 1971.",
+    "category": "understand",
+    "subcategory": "papers"
+  },
+  {
+    "title": "1971: A Global History of the Creation of Bangladesh",
+    "author": "Srinath Raghavan",
+    "note": "Global perspective on the war across India, Pakistan, the U.S., USSR, and China.",
+    "category": "understand",
+    "subcategory": "research"
+  },
+  {
+    "title": "Bondi Shibir Theke",
+    "author": "Shamsur Rahman",
+    "note": "Poetry from occupied Dhaka capturing fear, defiance, and resistance.",
+    "category": "read",
+    "subcategory": "historical-literature"
+  },
+  {
+    "title": "Payer Awaj Pawa Jai",
+    "author": "Syed Shamsul Haq",
+    "note": "Verse play set in the final days of the war, exploring collaborator psychology and collapse.",
+    "category": "read",
+    "subcategory": "historical-literature"
+  },
+  {
+    "title": "History of the 1971 Liberation War",
+    "author": "Documentary Video",
+    "note": "Documentary-style visual overview of 1971 events and context.",
+    "category": "watch",
+    "subcategory": "documentary",
+    "href": "https://www.youtube.com/watch?v=F_fIOfz2Tlk"
+  }
 ]

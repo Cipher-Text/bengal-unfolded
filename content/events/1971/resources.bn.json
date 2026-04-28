@@ -1,18 +1,87 @@
 [
-  {"title":"অসমাপ্ত আত্মজীবনী","author":"শেখ মুজিবুর রহমান","note":"ঐতিহাসিক প্রেক্ষাপট বোঝার জন্য গুরুত্বপূর্ণ স্মৃতিকথা।","category":"read","subcategory":"memoir"},
-  {"title":"১৯৭১ বিষয়ক বাংলাাপিডিয়া এন্ট্রি","author":"বাংলাপিডিয়া সম্পাদকমণ্ডলী","note":"রেফারেন্সধর্মী সারসংক্ষেপ ও প্রাসঙ্গিক টার্ম।","category":"read","subcategory":"historical-literature"},
-  {"title":"A Legacy of Blood","author":"এন্থনি মাসকারেনহাস","note":"যুদ্ধ ও রাজনৈতিক পটভূমি নিয়ে অনুসন্ধানধর্মী বিবরণ।","category":"read","subcategory":"historical-literature"},
-  {"title":"আগুনের পরশমণি","author":"হুমায়ূন আহমেদ","note":"মুক্তিযুদ্ধভিত্তিক সাহিত্যিক উপস্থাপন।","category":"read","subcategory":"novel"},
-
-  {"title":"মুক্তির গান","author":"তারেক ও ক্যাথরিন মাসুদ","note":"ডকুমেন্টারি ফুটেজ ও মৌখিক ইতিহাসের দৃষ্টিভঙ্গি।","category":"watch","subcategory":"documentary"},
-  {"title":"স্টপ জেনোসাইড","author":"জহির রায়হান","note":"যুদ্ধকালীন গণহত্যা বিষয়ক ঐতিহাসিক ডকুমেন্টারি।","category":"watch","subcategory":"documentary"},
-  {"title":"গেরিলা","author":"নাসির উদ্দীন ইউসুফ","note":"শহুরে প্রতিরোধের চলচ্চিত্র উপস্থাপন।","category":"watch","subcategory":"movie"},
-  {"title":"একাত্তরের যীশু","author":"নাসির উদ্দীন ইউসুফ","note":"যুদ্ধকালীন সহিংসতা ও টিকে থাকার নাট্যধর্মী উপস্থাপন।","category":"watch","subcategory":"drama"},
-
-  {"title":"বাংলাদেশ জেনোসাইড আর্কাইভ সংগ্রহ","author":"জনআর্কাইভ সংগ্রহ","note":"আর্কাইভাল দলিল, প্রতিবেদন ও সাক্ষ্যসমূহ।","category":"explore","subcategory":"archive"},
-  {"title":"মুজিবনগর সরকার ঘোষণার নথি","author":"সরকারি নথি","note":"অস্থায়ী সরকারের গুরুত্বপূর্ণ অফিসিয়াল দলিল।","category":"explore","subcategory":"documents"},
-  {"title":"মুক্তিযুদ্ধ জাদুঘরের ফটো আর্কাইভ","author":"মুক্তিযুদ্ধ জাদুঘর","note":"মানুষ, স্থান ও ধ্বংসযজ্ঞের ভিজ্যুয়াল আর্কাইভ।","category":"explore","subcategory":"photos"},
-
-  {"title":"১৯৭১ সংঘাত গতিশীলতা বিষয়ক গবেষণা","author":"বিভিন্ন গবেষক","note":"যুদ্ধের কারণ, সহিংসতা ও রাষ্ট্রগঠন নিয়ে একাডেমিক বিশ্লেষণ।","category":"understand","subcategory":"research"},
-  {"title":"শরণার্থী ও যুদ্ধস্মৃতি বিষয়ক পিয়ার-রিভিউড পেপার","author":"বিশ্ববিদ্যালয় জার্নাল","note":"বাস্তুচ্যুতি, ট্রমা ও স্মৃতি-রাজনীতি নিয়ে বিশেষায়িত গবেষণা।","category":"understand","subcategory":"papers"}
+  {
+    "title": "একাত্তরের দিনগুলি",
+    "author": "জাহানারা ইমাম",
+    "note": "ডায়েরি আকারে লেখা মুক্তিযুদ্ধের অন্যতম শ্রেষ্ঠ স্মৃতিকথা; ব্যক্তিগত ক্ষতি ও প্রতিরোধের দলিল।",
+    "category": "read",
+    "subcategory": "memoir"
+  },
+  {
+    "title": "আমি বীরাঙ্গনা বলছি",
+    "author": "নীলিমা ইব্রাহিম",
+    "note": "বীরাঙ্গনাদের সাক্ষ্যভিত্তিক গুরুত্বপূর্ণ গ্রন্থ; যুদ্ধকালীন লিঙ্গভিত্তিক সহিংসতার ঐতিহাসিক দলিল।",
+    "category": "read",
+    "subcategory": "memoir"
+  },
+  {
+    "title": "মূলধারা '৭১",
+    "author": "মঈদুল হাসান",
+    "note": "তাজউদ্দীন আহমদের নেতৃত্বাধীন অস্থায়ী সরকারের রাজনৈতিক ও কূটনৈতিক কৌশলের অন্তর্দৃষ্টিমূলক বিবরণ।",
+    "category": "read",
+    "subcategory": "historical-literature"
+  },
+  {
+    "title": "রাইফেল, রোটি, আওরাত",
+    "author": "আনোয়ার পাশা",
+    "note": "১৯৭১ চলাকালীন লেখা উপন্যাস; দখলদার ঢাকার ভীতি ও অস্থিরতার শক্তিশালী চিত্র।",
+    "category": "read",
+    "subcategory": "novel"
+  },
+  {
+    "title": "জোছনা ও জননীর গল্প",
+    "author": "হুমায়ূন আহমেদ",
+    "note": "সাধারণ মানুষের জীবন, ইতিহাস ও যুদ্ধের নির্মমতা মিলিয়ে লেখা আধুনিক ক্লাসিক।",
+    "category": "read",
+    "subcategory": "novel"
+  },
+  {
+    "title": "হাঙর নদী গ্রেনেড",
+    "author": "সেলিনা হোসেন",
+    "note": "গ্রামীণ প্রেক্ষাপটে আত্মত্যাগ, প্রতিরোধ ও নৈতিক সংকটের শক্তিশালী সাহিত্যিক উপস্থাপন।",
+    "category": "read",
+    "subcategory": "novel"
+  },
+  {
+    "title": "The Rape of Bangladesh",
+    "author": "এন্থনি মাসকারেনহাস",
+    "note": "আন্তর্জাতিক মহলে ১৯৭১-এর গণহত্যা তুলে ধরতে প্রভাবশালী ঐতিহাসিক বিবরণ।",
+    "category": "understand",
+    "subcategory": "research"
+  },
+  {
+    "title": "The Blood Telegram",
+    "author": "গ্যারি জে. ব্যাস",
+    "note": "যুক্তরাষ্ট্রের নীতি, কূটনৈতিক বার্তা এবং ১৯৭১-এর গণহত্যার প্রেক্ষাপটে গুরুত্বপূর্ণ বিশ্লেষণ।",
+    "category": "understand",
+    "subcategory": "papers"
+  },
+  {
+    "title": "1971: A Global History of the Creation of Bangladesh",
+    "author": "শ্রীনাথ রাঘবন",
+    "note": "যুক্তরাষ্ট্র, সোভিয়েত ইউনিয়ন, চীন ও ভারতের ভূ-রাজনৈতিক প্রেক্ষাপটে মুক্তিযুদ্ধের বৈশ্বিক বিশ্লেষণ।",
+    "category": "understand",
+    "subcategory": "research"
+  },
+  {
+    "title": "বন্দী শিবির থেকে",
+    "author": "শামসুর রাহমান",
+    "note": "অধিকৃত ঢাকার দমবন্ধ পরিবেশ, ভয় ও প্রতিরোধের কবিতাময় দলিল।",
+    "category": "read",
+    "subcategory": "historical-literature"
+  },
+  {
+    "title": "পায়ের আওয়াজ পাওয়া যায়",
+    "author": "সৈয়দ শামসুল হক",
+    "note": "যুদ্ধের শেষ দিনগুলোর প্রেক্ষাপটে লেখা বিখ্যাত কাব্যনাট্য; সহযোগী শক্তির মানসিক ভাঙন তুলে ধরে।",
+    "category": "read",
+    "subcategory": "historical-literature"
+  },
+  {
+    "title": "History of the 1971 Liberation War",
+    "author": "ডকুমেন্টারি ভিডিও",
+    "note": "১৯৭১-এর ঘটনাপ্রবাহ ও ঐতিহাসিক প্রেক্ষাপট বোঝার জন্য ডকুমেন্টারি-ধর্মী ভিজ্যুয়াল রিসোর্স।",
+    "category": "watch",
+    "subcategory": "documentary",
+    "href": "https://www.youtube.com/watch?v=F_fIOfz2Tlk"
+  }
 ]

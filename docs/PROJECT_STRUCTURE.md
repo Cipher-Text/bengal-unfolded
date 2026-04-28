@@ -14,8 +14,11 @@ content/
       quotes.en.json
       quotes.bn.json
       hero-ids.json
-      book-ids.json
+      resources.en.json
+      resources.bn.json
   heroes/
+    index.en.json
+    index.bn.json
     <hero-id>/
       meta.en.json
       meta.bn.json
@@ -27,10 +30,24 @@ src/
   app/
     [locale]/
       page.tsx
-      events/[slug]/page.tsx
-      heroes/[id]/page.tsx
-      books/[id]/page.tsx
+      heroes/
+        page.tsx
+        [id]/page.tsx
+      books/
+        [id]/page.tsx
+      events/[slug]/
+        page.tsx
+        heroes/page.tsx
+        resources/page.tsx
   components/
   lib/content.ts
   types/content.ts
+docs/
+  README.md
+  CONTENT_MODEL.md
+  PROJECT_STRUCTURE.md
+  CHANGELOG.md
+  ROADMAP.md
+  archive/
+    deep-research-report.md
 ```

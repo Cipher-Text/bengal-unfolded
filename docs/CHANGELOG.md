@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-04-29
+
+### Completed
+- Synced documentation with current UI and implementation.
+- Updated docs to reflect active event resources model (`resources.<locale>.json`).
+- Documented event full-heroes route: `/{locale}/events/{slug}/heroes`.
+- Documented event resources categories route: `/{locale}/events/{slug}/resources`.
+- Documented timeline progressive loading (`Show more` / `আরও দেখুন`).
+- Documented timeline type badge support.
+- Documented hero index optimization (`content/heroes/index.en.json`, `index.bn.json`).
+
 ## 2026-04-28
 
 ### Completed
@@ -18,8 +29,16 @@
 - Added reverse-lookup content queries:
   - `getEventsByHeroId`
   - `getEventsByBookId`
-- Moved documentation to `docs/` folder.
+- Added event-specific hero list route:
+  - `/{locale}/events/{slug}/heroes`
+- Added event-specific categorized resources route:
+  - `/{locale}/events/{slug}/resources`
+- Added event page top-5 heroes + `See full list` flow.
+- Added resources by category + subcategory structure (`Read`, `Watch`, `Explore`, `Understand`).
+- Added pagination for large hero lists.
+- Moved and organized documentation into `docs/` and `docs/archive/`.
 
 ### Technical notes
-- `src/lib/content.ts` is now the single content access layer for all entity types.
-- Legacy per-event files `heroes.<locale>.json` and `resources.<locale>.json` are retained but no longer used by runtime loaders.
+- `src/lib/content.ts` remains the single content access layer.
+- Runtime now uses `resources.<locale>.json` for event resources.
+- Legacy per-event `heroes.<locale>.json` files are removed and unused.

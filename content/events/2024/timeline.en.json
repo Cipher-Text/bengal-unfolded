@@ -1,68 +1,87 @@
 [
   {
     "year": "2024-06-05",
-    "title": "High Court Verdict",
-    "detail": "The High Court reinstated the quota system that had been canceled in 2018, triggering renewed public dissatisfaction.",
-    "type": "judicial_event"
+    "title": "High Court reinstates 30% quota for descendants of freedom fighters.",
+    "detail": "High Court reinstates 30% quota for descendants of freedom fighters."
   },
   {
     "year": "2024-06-06",
-    "title": "Initial Student Protests Begin",
-    "detail": "Students at Dhaka University and other campuses began protests against the reinstatement of quotas.",
-    "type": "protest_start"
-  },
-  {
-    "year": "2024-06-09",
-    "title": "Ultimatum Announced",
-    "detail": "Students issued an ultimatum demanding quota cancellation by 30 June.",
-    "type": "movement_escalation"
+    "title": "Initial student protests begin at various universities.",
+    "detail": "Initial student protests begin at various universities."
   },
   {
     "year": "2024-07-01",
-    "title": "Nationwide Movement",
-    "detail": "Simultaneous protests and blockades began across universities and major cities.",
-    "type": "nationwide_movement"
+    "title": "\"Anti-Discrimination Student Movement\" platform officially launched",
+    "detail": "\"Anti-Discrimination Student Movement\" platform officially launched; nationwide protests begin."
+  },
+  {
+    "year": "2024-07-07",
+    "title": "Students announce \"Bangla Blockade\" starting from July 8.",
+    "detail": "Students announce \"Bangla Blockade\" starting from July 8."
+  },
+  {
+    "year": "2024-07-10",
+    "title": "Appellate Division issues a four-week status quo on the High Court's judgment.",
+    "detail": "Appellate Division issues a four-week status quo on the High Court's judgment."
+  },
+  {
+    "year": "2024-07-14",
+    "title": "PM Sheikh Hasina's \"Razakar\" comment triggers massive midnight protests at Dhaka University.",
+    "detail": "PM Sheikh Hasina's \"Razakar\" comment triggers massive midnight protests at Dhaka University."
   },
   {
     "year": "2024-07-15",
-    "title": "Violence Erupts",
-    "detail": "Attacks and clashes involving students were reported in Dhaka and other areas.",
-    "type": "violence"
+    "title": "Chhatra League attacks protesters at Dhaka University and other campuses",
+    "detail": "Chhatra League attacks protesters at Dhaka University and other campuses; hundreds injured."
   },
   {
     "year": "2024-07-16",
-    "title": "Police Crackdown and Clashes",
-    "detail": "Police used tear gas and batons; casualties were reported in multiple locations.",
-    "type": "state_crackdown"
+    "title": "Abu Sayed killed in Rangpur",
+    "detail": "Abu Sayed killed in Rangpur; first deaths reported; movement turns into a mass uprising."
   },
   {
     "year": "2024-07-18",
-    "title": "Nationwide Peak Conflict",
-    "detail": "The movement intensified with large-scale clashes and loss of life.",
-    "type": "peak_conflict"
+    "title": "\"Complete Shutdown\" observed",
+    "detail": "\"Complete Shutdown\" observed; Mir Mugdho killed; BTV building and other state properties set on fire; internet shutdown begins."
+  },
+  {
+    "year": "2024-07-19",
+    "title": "Curfew imposed",
+    "detail": "Curfew imposed; military deployed; \"Shoot-on-sight\" orders issued."
   },
   {
     "year": "2024-07-21",
-    "title": "Supreme Court Verdict",
-    "detail": "The Supreme Court reduced quotas and directed that most recruitment be merit-based.",
-    "type": "policy_change"
+    "title": "Supreme Court (Appellate Division) rules 93% merit-based recruitment, reducing quota to 7%.",
+    "detail": "Supreme Court (Appellate Division) rules 93% merit-based recruitment, reducing quota to 7%."
   },
   {
     "year": "2024-07-23",
-    "title": "Gazette Published",
-    "detail": "The government published a gazette implementing the revised quota structure.",
-    "type": "policy_implementation"
+    "title": "Government issues official gazette implementing the Supreme Court's verdict.",
+    "detail": "Government issues official gazette implementing the Supreme Court's verdict."
+  },
+  {
+    "year": "2024-08-03",
+    "title": "Students announce a one-point demand: resignation of PM Sheikh Hasina and her cabinet.",
+    "detail": "Students announce a one-point demand: resignation of PM Sheikh Hasina and her cabinet."
   },
   {
     "year": "2024-08-04",
-    "title": "Non-cooperation Movement",
-    "detail": "Students called for a broader anti-government non-cooperation movement.",
-    "type": "movement_shift"
+    "title": "\"Non-Cooperation Movement\" begins",
+    "detail": "\"Non-Cooperation Movement\" begins; massive clashes nationwide; over 100 deaths in a single day."
   },
   {
     "year": "2024-08-05",
-    "title": "Political Crisis Reaches Critical Stage",
-    "detail": "Large demonstrations and clashes spread nationwide as the movement took on a wider political character.",
-    "type": "political_crisis"
+    "title": "Long March to Dhaka",
+    "detail": "\"Long March to Dhaka\"; PM Sheikh Hasina resigns and flees to India; protesters enter Ganabhaban."
+  },
+  {
+    "year": "2024-08-06",
+    "title": "President dissolves Parliament.",
+    "detail": "President dissolves Parliament."
+  },
+  {
+    "year": "2024-08-08",
+    "title": "Interim government led by Nobel Laureate Dr. Muhammad Yunus takes oath.",
+    "detail": "Interim government led by Nobel Laureate Dr. Muhammad Yunus takes oath."
   }
 ]
