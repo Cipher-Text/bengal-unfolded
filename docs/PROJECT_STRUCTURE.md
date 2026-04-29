@@ -46,7 +46,6 @@ src/
   lib/content.ts
   types/content.ts
 docs/
-  README.md
   CONTENT_MODEL.md
   PROJECT_STRUCTURE.md
   CHANGELOG.md
