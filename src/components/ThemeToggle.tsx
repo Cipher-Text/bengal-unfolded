@@ -12,15 +12,12 @@ function getPreferredTheme(): Theme {
 }
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme>(() => getPreferredTheme());
 
   useEffect(() => {
-    const current = document.documentElement.dataset.theme;
-    const initial: Theme = current === "light" || current === "dark" ? current : getPreferredTheme();
-    setTheme(initial);
-    document.documentElement.dataset.theme = initial;
-    window.localStorage.setItem("theme", initial);
-  }, []);
+    document.documentElement.dataset.theme = theme;
+    window.localStorage.setItem("theme", theme);
+  }, [theme]);
 
   const toggleTheme = () => {
     const current = document.documentElement.dataset.theme;
