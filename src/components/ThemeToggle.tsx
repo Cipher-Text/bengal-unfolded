@@ -4,15 +4,22 @@ import { useEffect, useState } from "react";
 
 type Theme = "light" | "dark";
 
-function getPreferredTheme(): Theme {
-  if (typeof window === "undefined") return "dark";
+function getResolvedTheme(): Theme {
+  const current = document.documentElement.dataset.theme;
+  if (current === "light" || current === "dark") return current;
+
   const saved = window.localStorage.getItem("theme");
   if (saved === "light" || saved === "dark") return saved;
+
   return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>(() => getPreferredTheme());
+  const [theme, setTheme] = useState<Theme>("dark");
+
+  useEffect(() => {
+    setTheme(getResolvedTheme());
+  }, []);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -20,8 +27,7 @@ export function ThemeToggle() {
   }, [theme]);
 
   const toggleTheme = () => {
-    const current = document.documentElement.dataset.theme;
-    const currentTheme: Theme = current === "light" || current === "dark" ? current : theme;
+    const currentTheme = getResolvedTheme();
     const nextTheme: Theme = currentTheme === "dark" ? "light" : "dark";
     setTheme(nextTheme);
     document.documentElement.dataset.theme = nextTheme;
