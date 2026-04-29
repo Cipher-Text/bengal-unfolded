@@ -1,12 +1,27 @@
 [
   {
-    "year": "1947",
-    "title": "First phase",
-    "detail": "Early developments set the stage."
+    "year": "June 3, 1947",
+    "title": "The partition plan is announced",
+    "detail": "Lord Mountbatten announced the plan to partition British India after concluding that a united transfer of power was no longer politically workable. Bengal and Punjab, both demographically mixed provinces, became central to the coming division."
   },
   {
-    "year": "1947",
-    "title": "Second phase",
-    "detail": "The issue enters wider public discussion."
+    "year": "July 18, 1947",
+    "title": "The Indian Independence Act is passed",
+    "detail": "The British Parliament passed the Indian Independence Act, creating the legal framework for two new dominions, India and Pakistan. In Bengal, this meant the province would be divided into West Bengal and East Bengal."
+  },
+  {
+    "year": "August 14-15, 1947",
+    "title": "Power is transferred, but the border is still unknown",
+    "detail": "Pakistan and India became independent on August 14 and 15. Yet many people in Bengal still did not know exactly where the final border would fall, deepening fear, uncertainty, and communal tension."
+  },
+  {
+    "year": "August 17, 1947",
+    "title": "The Radcliffe Award divides Bengal",
+    "detail": "The final boundary award was published two days after independence. Bengal was split along the Radcliffe Line into West Bengal in India and East Bengal in Pakistan, rupturing long-standing social and economic ties."
+  },
+  {
+    "year": "1947 onward",
+    "title": "Mass displacement reshapes the region",
+    "detail": "Partition triggered one of the largest forced migrations in modern history. Families were uprooted, communities fractured, and the experience of East Bengal under Pakistan set the background for later movements over language, democracy, and self-determination."
   }
 ]
