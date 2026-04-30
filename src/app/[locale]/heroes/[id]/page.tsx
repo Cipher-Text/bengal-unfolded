@@ -24,21 +24,25 @@ export default async function HeroDetailPage({ params }: { params: Promise<{ loc
 
   const [hero, events] = await Promise.all([getHero(locale, id), getEventsByHeroId(locale, id)]);
 
+  const labels = locale === "bn"
+    ? { context: "প্রেক্ষাপট", contribution: "অবদান", impact: "প্রভাব", appearsIn: "যে ঘটনাগুলোতে অংশ নিয়েছেন" }
+    : { context: "Context", contribution: "Contribution", impact: "Impact", appearsIn: "Appears In Events" };
+
   return (
     <div className="space-y-8">
       <HeroSection title={hero.name} tagline={hero.role} intro={hero.highlight ?? hero.contribution} />
 
       <AnimatedContainer>
-        <SectionTitle title={locale === "bn" ? "প্রেক্ষাপট" : "Context"} subtitle={hero.context} />
+        <SectionTitle title={labels.context} subtitle={hero.context} />
         <div className="theme-surface mt-4 rounded-xl border p-4">
-          <h3 className="text-sm tracking-[0.18em] text-amber-400 uppercase">{locale === "bn" ? "অবদান" : "Contribution"}</h3>
+          <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.contribution}</h3>
           <p className="mt-2 text-sm">{hero.contribution}</p>
-          <h3 className="mt-4 text-sm tracking-[0.18em] text-emerald-400 uppercase">{locale === "bn" ? "প্রভাব" : "Impact"}</h3>
+          <h3 className="text-positive mt-4 text-sm tracking-[0.18em] uppercase">{labels.impact}</h3>
           <p className="mt-2 text-sm">{hero.impact}</p>
           {hero.tags?.length ? (
             <div className="mt-4 flex flex-wrap gap-2">
               {hero.tags.map((tag) => (
-                <span key={tag} className="rounded-full border border-zinc-500/40 px-2 py-0.5 text-[11px] text-zinc-300">{tag}</span>
+                <span key={tag} className="theme-muted rounded-full border border-zinc-500/40 px-2 py-0.5 text-[11px]">{tag}</span>
               ))}
             </div>
           ) : null}
@@ -46,7 +50,7 @@ export default async function HeroDetailPage({ params }: { params: Promise<{ loc
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>
-        <SectionTitle title="Appears In Events" />
+        <SectionTitle title={labels.appearsIn} />
         <div className="mt-4 grid gap-3">
           {events.map((event) => (
             <Link key={event.slug} href={`/${locale}/events/${event.slug}`} className="theme-surface rounded-xl border p-4 hover:border-amber-400/40">

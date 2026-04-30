@@ -58,14 +58,14 @@ export default async function EventHeroesListPage({
         </div>
         <div className="mt-6 flex items-center justify-between">
           {safePage > 1 ? (
-            <Link href={`/${locale}/events/${slug}/heroes?page=${safePage - 1}`} className="inline-flex rounded-lg border border-amber-500/40 px-3 py-1.5 text-sm text-amber-400 hover:bg-amber-500/10">
-              Previous
+            <Link href={`/${locale}/events/${slug}/heroes?page=${safePage - 1}`} aria-label={locale === "bn" ? "আগের পাতা" : "Previous page"} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm text-accent hover:bg-amber-500/10">
+              {locale === "bn" ? "আগে" : "Previous"}
             </Link>
           ) : <span />}
-          <p className="theme-muted text-sm">Page {safePage} of {totalPages}</p>
+          <p className="theme-muted text-sm">{locale === "bn" ? `${safePage} / ${totalPages}` : `Page ${safePage} of ${totalPages}`}</p>
           {safePage < totalPages ? (
-            <Link href={`/${locale}/events/${slug}/heroes?page=${safePage + 1}`} className="inline-flex rounded-lg border border-amber-500/40 px-3 py-1.5 text-sm text-amber-400 hover:bg-amber-500/10">
-              Next
+            <Link href={`/${locale}/events/${slug}/heroes?page=${safePage + 1}`} aria-label={locale === "bn" ? "পরের পাতা" : "Next page"} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm text-accent hover:bg-amber-500/10">
+              {locale === "bn" ? "পরে" : "Next"}
             </Link>
           ) : <span />}
         </div>

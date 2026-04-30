@@ -14,4 +14,27 @@ const themeInitScript = `
   }
 })();
 `;
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="en" data-theme="dark" suppressHydrationWarning className="h-full"><body className="min-h-full"><script dangerouslySetInnerHTML={{ __html: themeInitScript }} />{children}</body></html>; }
+const langInitScript = `
+(() => {
+  try {
+    const seg = location.pathname.split('/')[1];
+    if (seg === 'bn') document.documentElement.lang = 'bn';
+  } catch (_) {}
+})();
+`;
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="en" data-theme="dark" suppressHydrationWarning className="h-full">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wdth,wght@100,400;100,600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+      </head>
+      <body className="min-h-full">
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        <script dangerouslySetInnerHTML={{ __html: langInitScript }} />
+        {children}
+      </body>
+    </html>
+  );
+}

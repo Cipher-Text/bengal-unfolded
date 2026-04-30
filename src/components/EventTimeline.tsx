@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import type { Locale, TimelineItem, TimelineType } from "@/types/content";
 
 const INITIAL_ITEMS = 8;
@@ -38,6 +38,7 @@ const TYPE_LABELS: Record<Locale, Record<TimelineType, string>> = {
 
 export function EventTimeline({ items, locale = "en" }: { items: TimelineItem[]; locale?: Locale }) {
   const [visibleCount, setVisibleCount] = useState(INITIAL_ITEMS);
+  const prefersReducedMotion = useReducedMotion();
   const visibleItems = useMemo(() => items.slice(0, visibleCount), [items, visibleCount]);
   const hasMore = visibleCount < items.length;
   const detailsLabel = locale === "bn" ? "বিস্তারিত" : "Details";
@@ -48,17 +49,17 @@ export function EventTimeline({ items, locale = "en" }: { items: TimelineItem[];
       <div className="theme-border absolute top-0 left-2.5 h-full w-px border-l" />
       <div className="space-y-6">
         {visibleItems.map((item, index) => (
-          <motion.article key={`${item.year}-${item.title}`} initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} whileHover={{ scale: 1.02, y: -2 }} whileTap={{ scale: 0.99 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.45, delay: index * 0.08 }} className={`group theme-surface relative rounded-xl border p-4 transition-colors md:p-5 ${item.emphasis === "peak" ? "md:p-7 md:rounded-2xl" : ""}`} style={{ borderColor: `${item.themeColor ?? "#d8b166"}55`, boxShadow: `0 0 0 1px ${item.themeColor ?? "#d8b166"}14, 0 14px 36px ${item.themeColor ?? "#d8b166"}22` }}>
+          <motion.article key={`${item.year}-${item.title}`} initial={prefersReducedMotion ? false : { opacity: 0, x: -20 }} whileInView={prefersReducedMotion ? undefined : { opacity: 1, x: 0 }} whileHover={prefersReducedMotion ? undefined : { scale: 1.02, y: -2 }} whileTap={prefersReducedMotion ? undefined : { scale: 0.99 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.45, delay: index * 0.08 }} className={`group theme-surface relative rounded-xl border p-4 transition-colors md:p-5 ${item.emphasis === "peak" ? "md:p-7 md:rounded-2xl" : ""}`} style={{ borderColor: `${item.themeColor ?? "#d8b166"}55`, boxShadow: `0 0 0 1px ${item.themeColor ?? "#d8b166"}14, 0 14px 36px ${item.themeColor ?? "#d8b166"}22` }}>
             <span className="absolute top-5 -left-[1.07rem] h-3 w-3 rounded-full transition-transform duration-300 group-hover:scale-125" style={{ backgroundColor: item.themeColor ?? "#d8b166" }} />
             <div className="flex flex-wrap items-center gap-2">
               <p className="theme-muted text-xs tracking-[0.2em] uppercase">{item.year}</p>
               {item.phaseLabel ? <span className="rounded-full border px-2 py-0.5 text-[10px] font-medium" style={{ borderColor: `${item.themeColor ?? "#d8b166"}66`, color: item.themeColor ?? "#d8b166" }}>{item.phaseLabel}</span> : null}
-              {item.type ? <span className="rounded-full border border-amber-500/40 px-2 py-0.5 text-[10px] font-medium text-amber-400">{TYPE_LABELS[locale][item.type]}</span> : null}
+              {item.type ? <span className="rounded-full border border-amber-500/40 px-2 py-0.5 text-[10px] font-medium text-accent">{TYPE_LABELS[locale][item.type]}</span> : null}
             </div>
             <div className="mt-1 flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-start">
               <h3 className={`font-semibold ${item.emphasis === "peak" ? "text-xl md:text-2xl" : "text-lg"}`}>{item.title}</h3>
               {item.href ? (
-                <Link href={item.href} className="w-full rounded-lg border px-3 py-2 text-center text-sm font-medium transition-colors hover:text-white sm:w-auto sm:shrink-0 sm:py-1" style={{ borderColor: `${item.themeColor ?? "#d8b166"}88`, color: item.themeColor ?? "#d8b166", backgroundColor: "transparent" }}>
+                <Link href={item.href} className="inline-flex min-h-[44px] w-full items-center justify-center rounded-lg border px-3 text-sm font-medium transition-colors hover:text-white sm:w-auto sm:shrink-0" style={{ borderColor: `${item.themeColor ?? "#d8b166"}88`, color: item.themeColor ?? "#d8b166", backgroundColor: "transparent" }}>
                   {item.ctaLabel ?? detailsLabel}
                 </Link>
               ) : null}
@@ -71,8 +72,9 @@ export function EventTimeline({ items, locale = "en" }: { items: TimelineItem[];
         <div className="mt-6">
           <button
             type="button"
+            aria-expanded={!hasMore}
             onClick={() => setVisibleCount((count) => Math.min(count + LOAD_MORE_STEP, items.length))}
-            className="inline-flex rounded-lg border border-amber-500/40 px-4 py-2 text-sm font-medium text-amber-400 hover:bg-amber-500/10"
+            className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10"
           >
             {showMoreLabel}
           </button>
