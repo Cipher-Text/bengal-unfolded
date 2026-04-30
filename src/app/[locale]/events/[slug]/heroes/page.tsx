@@ -11,13 +11,36 @@ export function generateStaticParams() {
   return SUPPORTED_LOCALES.flatMap((locale) => SUPPORTED_EVENT_SLUGS.map((slug) => ({ locale, slug })));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+  searchParams: Promise<{ page?: string }>;
+}): Promise<Metadata> {
   const { locale, slug } = await params;
+  const { page } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) return {};
   const event = await getEventContent(locale, slug);
+  const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
+  const canonical = currentPage > 1 ? `/${locale}/events/${slug}/heroes?page=${currentPage}` : `/${locale}/events/${slug}/heroes`;
   return {
     title: `${event.meta.year} Heroes | ${event.meta.title} | Bengal Unfolded`,
     description: `Full hero list for ${event.meta.title}.`,
+    alternates: {
+      canonical,
+      languages: {
+        en: currentPage > 1 ? `/en/events/${slug}/heroes?page=${currentPage}` : `/en/events/${slug}/heroes`,
+        bn: currentPage > 1 ? `/bn/events/${slug}/heroes?page=${currentPage}` : `/bn/events/${slug}/heroes`,
+      },
+    },
+    robots: currentPage > 1 ? { index: false, follow: true } : undefined,
+    openGraph: {
+      title: `${event.meta.year} Heroes | ${event.meta.title} | Bengal Unfolded`,
+      description: `Full hero list for ${event.meta.title}.`,
+      url: canonical,
+      locale: locale === "bn" ? "bn_BD" : "en_US",
+    },
   };
 }
 

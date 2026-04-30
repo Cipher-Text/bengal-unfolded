@@ -1,7 +1,25 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
-export const metadata: Metadata = { title: "Bengal Unfolded", description: "Bilingual historical storytelling journey through major Bengal and Bangladesh turning points." };
+export const metadata: Metadata = {
+  metadataBase: new URL("https://bengalunfolded.com"),
+  title: "Bengal Unfolded",
+  description: "Bilingual historical storytelling journey through major Bengal and Bangladesh turning points.",
+  openGraph: {
+    type: "website",
+    title: "Bengal Unfolded",
+    description: "Bilingual historical storytelling journey through major Bengal and Bangladesh turning points.",
+    url: "https://bengalunfolded.com",
+    siteName: "Bengal Unfolded",
+    images: [{ url: "/next.svg", width: 1200, height: 630, alt: "Bengal Unfolded" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bengal Unfolded",
+    description: "Bilingual historical storytelling journey through major Bengal and Bangladesh turning points.",
+    images: ["/next.svg"],
+  },
+};
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-F3LD2MVJY2";
 const themeInitScript = `
 (() => {

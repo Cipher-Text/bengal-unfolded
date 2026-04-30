@@ -15,7 +15,21 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_HERO_IDS.includes(id as HeroId)) return {};
   const hero = await getHero(locale, id);
-  return { title: `${hero.name} | Bengal Unfolded`, description: hero.highlight ?? hero.contribution };
+  return {
+    title: `${hero.name} | Bengal Unfolded`,
+    description: hero.highlight ?? hero.contribution,
+    alternates: {
+      canonical: `/${locale}/heroes/${id}`,
+      languages: { en: `/en/heroes/${id}`, bn: `/bn/heroes/${id}` },
+    },
+    openGraph: {
+      title: `${hero.name} | Bengal Unfolded`,
+      description: hero.highlight ?? hero.contribution,
+      url: `/${locale}/heroes/${id}`,
+      locale: locale === "bn" ? "bn_BD" : "en_US",
+      type: "profile",
+    },
+  };
 }
 
 export default async function HeroDetailPage({ params }: { params: Promise<{ locale: string; id: string }> }) {

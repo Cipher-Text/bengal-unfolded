@@ -53,6 +53,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `${event.meta.year} Resources | ${event.meta.title} | Bengal Unfolded`,
     description: "Categorized resources for deeper learning.",
+    alternates: {
+      canonical: `/${locale}/events/${slug}/resources`,
+      languages: { en: `/en/events/${slug}/resources`, bn: `/bn/events/${slug}/resources` },
+    },
+    openGraph: {
+      title: `${event.meta.year} Resources | ${event.meta.title} | Bengal Unfolded`,
+      description: "Categorized resources for deeper learning.",
+      url: `/${locale}/events/${slug}/resources`,
+      locale: locale === "bn" ? "bn_BD" : "en_US",
+    },
   };
 }
 

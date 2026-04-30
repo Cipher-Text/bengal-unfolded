@@ -10,7 +10,20 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
   const home = await getHomeContent(locale);
-  return { title: `${home.title} | ${locale.toUpperCase()}`, description: home.intro };
+  return {
+    title: `${home.title} | ${locale.toUpperCase()}`,
+    description: home.intro,
+    alternates: {
+      canonical: `/${locale}`,
+      languages: { en: "/en", bn: "/bn" },
+    },
+    openGraph: {
+      title: `${home.title} | ${locale.toUpperCase()}`,
+      description: home.intro,
+      url: `/${locale}`,
+      locale: locale === "bn" ? "bn_BD" : "en_US",
+    },
+  };
 }
 export default async function LocaleHomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

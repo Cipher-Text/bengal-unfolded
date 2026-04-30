@@ -27,6 +27,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: `/${locale}/events/${slug}`,
       languages: { en: `/en/events/${slug}`, bn: `/bn/events/${slug}` },
     },
+    openGraph: {
+      title: `${event.meta.year} - ${event.meta.title} | Bengal Unfolded`,
+      description: event.meta.summary,
+      url: `/${locale}/events/${slug}`,
+      locale: locale === "bn" ? "bn_BD" : "en_US",
+      type: "article",
+    },
   };
 }
 

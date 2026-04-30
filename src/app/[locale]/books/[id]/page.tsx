@@ -15,7 +15,21 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_BOOK_IDS.includes(id as BookId)) return {};
   const book = await getBook(locale, id);
-  return { title: `${book.title} | Bengal Unfolded`, description: book.note };
+  return {
+    title: `${book.title} | Bengal Unfolded`,
+    description: book.note,
+    alternates: {
+      canonical: `/${locale}/books/${id}`,
+      languages: { en: `/en/books/${id}`, bn: `/bn/books/${id}` },
+    },
+    openGraph: {
+      title: `${book.title} | Bengal Unfolded`,
+      description: book.note,
+      url: `/${locale}/books/${id}`,
+      locale: locale === "bn" ? "bn_BD" : "en_US",
+      type: "article",
+    },
+  };
 }
 
 export default async function BookDetailPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
