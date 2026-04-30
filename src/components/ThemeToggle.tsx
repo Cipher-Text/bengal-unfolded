@@ -15,10 +15,14 @@ function getResolvedTheme(): Theme {
 }
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>(() => {
-    if (typeof window === "undefined") return "dark";
-    return getResolvedTheme();
-  });
+  const [theme, setTheme] = useState<Theme>("dark");
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setTheme(getResolvedTheme());
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -26,8 +30,7 @@ export function ThemeToggle() {
   }, [theme]);
 
   const toggleTheme = () => {
-    const currentTheme = getResolvedTheme();
-    const nextTheme: Theme = currentTheme === "dark" ? "light" : "dark";
+    const nextTheme: Theme = theme === "dark" ? "light" : "dark";
     setTheme(nextTheme);
     document.documentElement.dataset.theme = nextTheme;
     window.localStorage.setItem("theme", nextTheme);
