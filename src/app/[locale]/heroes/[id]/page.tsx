@@ -5,6 +5,7 @@ import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getEventsByHeroId, getHero } from "@/lib/content";
+import { buildPageMetadata, localeLanguageTag } from "@/lib/seo";
 import { SUPPORTED_HERO_IDS, SUPPORTED_LOCALES, type HeroId, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -15,21 +16,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_HERO_IDS.includes(id as HeroId)) return {};
   const hero = await getHero(locale, id);
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
     title: `${hero.name} | Bengal Unfolded`,
     description: hero.highlight ?? hero.contribution,
-    alternates: {
-      canonical: `/${locale}/heroes/${id}`,
-      languages: { en: `/en/heroes/${id}`, bn: `/bn/heroes/${id}` },
-    },
-    openGraph: {
-      title: `${hero.name} | Bengal Unfolded`,
-      description: hero.highlight ?? hero.contribution,
-      url: `/${locale}/heroes/${id}`,
-      locale: locale === "bn" ? "bn_BD" : "en_US",
-      type: "profile",
-    },
-  };
+    canonicalPath: `/${locale}/heroes/${id}`,
+    languagePathWithoutLocale: `/heroes/${id}`,
+    type: "profile",
+  });
 }
 
 export default async function HeroDetailPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
@@ -37,6 +31,15 @@ export default async function HeroDetailPage({ params }: { params: Promise<{ loc
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_HERO_IDS.includes(id as HeroId)) notFound();
 
   const [hero, events] = await Promise.all([getHero(locale, id), getEventsByHeroId(locale, id)]);
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: hero.name,
+    description: hero.highlight ?? hero.contribution,
+    url: `https://bengalunfolded.com/${locale}/heroes/${id}`,
+    knowsAbout: hero.tags,
+    inLanguage: localeLanguageTag(locale as Locale),
+  };
 
   const labels = locale === "bn"
     ? { context: "প্রেক্ষাপট", contribution: "অবদান", impact: "প্রভাব", appearsIn: "যে ঘটনাগুলোতে অংশ নিয়েছেন" }
@@ -44,6 +47,7 @@ export default async function HeroDetailPage({ params }: { params: Promise<{ loc
 
   return (
     <div className="space-y-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
       <HeroSection title={hero.name} tagline={hero.role} intro={hero.highlight ?? hero.contribution} />
 
       <AnimatedContainer>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildPageMetadata, localeLanguageTag, SITE_NAME } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
@@ -20,21 +21,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) return {};
   const event = await getEventContent(locale, slug);
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
     title: `${event.meta.year} - ${event.meta.title} | Bengal Unfolded`,
     description: event.meta.summary,
-    alternates: {
-      canonical: `/${locale}/events/${slug}`,
-      languages: { en: `/en/events/${slug}`, bn: `/bn/events/${slug}` },
-    },
-    openGraph: {
-      title: `${event.meta.year} - ${event.meta.title} | Bengal Unfolded`,
-      description: event.meta.summary,
-      url: `/${locale}/events/${slug}`,
-      locale: locale === "bn" ? "bn_BD" : "en_US",
-      type: "article",
-    },
-  };
+    canonicalPath: `/${locale}/events/${slug}`,
+    languagePathWithoutLocale: `/events/${slug}`,
+    type: "article",
+  });
 }
 
 const EVENT_LABELS = {
@@ -70,9 +64,21 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const currentIndex = allEvents.findIndex((item) => item.slug === slug);
   const featuredHeroes = event.heroes.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
+  const eventJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    name: `${event.meta.year} — ${event.meta.title}`,
+    description: event.meta.summary,
+    eventStatus: "https://schema.org/EventCompleted",
+    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    inLanguage: localeLanguageTag(locale as Locale),
+    url: `https://bengalunfolded.com/${locale}/events/${slug}`,
+    organizer: { "@type": "Organization", name: SITE_NAME, url: "https://bengalunfolded.com" },
+  };
 
   return (
     <div className="space-y-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }} />
       <HeroSection title={`${event.meta.year} — ${event.meta.title}`} tagline={event.meta.heroTagline} intro={event.meta.summary} />
 
       <AnimatedContainer>

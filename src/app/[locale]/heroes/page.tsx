@@ -5,6 +5,7 @@ import { HeroProfileCard } from "@/components/HeroProfileCard";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getAllHeroes } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -23,24 +24,14 @@ export async function generateMetadata({
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
   const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
   const canonical = currentPage > 1 ? `/${locale}/heroes?page=${currentPage}` : `/${locale}/heroes`;
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
     title: `Heroes | ${locale.toUpperCase()} | Bengal Unfolded`,
     description: "Explore all heroes and key figures connected to Bengal Unfolded events.",
-    alternates: {
-      canonical,
-      languages: {
-        en: currentPage > 1 ? `/en/heroes?page=${currentPage}` : "/en/heroes",
-        bn: currentPage > 1 ? `/bn/heroes?page=${currentPage}` : "/bn/heroes",
-      },
-    },
-    robots: currentPage > 1 ? { index: false, follow: true } : undefined,
-    openGraph: {
-      title: `Heroes | ${locale.toUpperCase()} | Bengal Unfolded`,
-      description: "Explore all heroes and key figures connected to Bengal Unfolded events.",
-      url: canonical,
-      locale: locale === "bn" ? "bn_BD" : "en_US",
-    },
-  };
+    canonicalPath: canonical,
+    languagePathWithoutLocale: "/heroes",
+    noIndex: currentPage > 1,
+  });
 }
 
 const PAGE_SIZE = 20;

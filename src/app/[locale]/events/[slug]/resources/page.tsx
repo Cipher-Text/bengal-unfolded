@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getEventContent } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventResource, type EventSlug, type Locale } from "@/types/content";
 
 const CATEGORY_ORDER: EventResource["category"][] = ["read", "watch", "explore", "understand"];
@@ -50,20 +51,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) return {};
   const event = await getEventContent(locale, slug);
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
     title: `${event.meta.year} Resources | ${event.meta.title} | Bengal Unfolded`,
     description: "Categorized resources for deeper learning.",
-    alternates: {
-      canonical: `/${locale}/events/${slug}/resources`,
-      languages: { en: `/en/events/${slug}/resources`, bn: `/bn/events/${slug}/resources` },
-    },
-    openGraph: {
-      title: `${event.meta.year} Resources | ${event.meta.title} | Bengal Unfolded`,
-      description: "Categorized resources for deeper learning.",
-      url: `/${locale}/events/${slug}/resources`,
-      locale: locale === "bn" ? "bn_BD" : "en_US",
-    },
-  };
+    canonicalPath: `/${locale}/events/${slug}/resources`,
+    languagePathWithoutLocale: `/events/${slug}/resources`,
+    type: "article",
+  });
 }
 
 export default async function EventResourceCategoriesPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

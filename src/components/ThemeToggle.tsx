@@ -15,11 +15,10 @@ function getResolvedTheme(): Theme {
 }
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("dark");
-
-  useEffect(() => {
-    setTheme(getResolvedTheme());
-  }, []);
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window === "undefined") return "dark";
+    return getResolvedTheme();
+  });
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;

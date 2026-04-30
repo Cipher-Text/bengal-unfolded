@@ -5,6 +5,7 @@ import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getBook, getEventsByBookId } from "@/lib/content";
+import { buildPageMetadata, localeLanguageTag } from "@/lib/seo";
 import { SUPPORTED_BOOK_IDS, SUPPORTED_LOCALES, type BookId, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -15,21 +16,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_BOOK_IDS.includes(id as BookId)) return {};
   const book = await getBook(locale, id);
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
     title: `${book.title} | Bengal Unfolded`,
     description: book.note,
-    alternates: {
-      canonical: `/${locale}/books/${id}`,
-      languages: { en: `/en/books/${id}`, bn: `/bn/books/${id}` },
-    },
-    openGraph: {
-      title: `${book.title} | Bengal Unfolded`,
-      description: book.note,
-      url: `/${locale}/books/${id}`,
-      locale: locale === "bn" ? "bn_BD" : "en_US",
-      type: "article",
-    },
-  };
+    canonicalPath: `/${locale}/books/${id}`,
+    languagePathWithoutLocale: `/books/${id}`,
+    type: "book",
+  });
 }
 
 export default async function BookDetailPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
@@ -37,9 +31,19 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_BOOK_IDS.includes(id as BookId)) notFound();
 
   const [book, events] = await Promise.all([getBook(locale, id), getEventsByBookId(locale, id)]);
+  const bookJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    name: book.title,
+    author: { "@type": "Person", name: book.author },
+    description: book.note,
+    url: `https://bengalunfolded.com/${locale}/books/${id}`,
+    inLanguage: localeLanguageTag(locale as Locale),
+  };
 
   return (
     <div className="space-y-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(bookJsonLd) }} />
       <HeroSection title={book.title} tagline={book.author} intro={book.note} />
 
       <AnimatedContainer>

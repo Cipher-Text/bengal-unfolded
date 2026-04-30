@@ -7,6 +7,14 @@ function withLocale(locale: string, path = ""): string {
   return `${BASE_URL}/${locale}${path}`;
 }
 
+function localeAlternates(path = ""): Record<string, string> {
+  return {
+    "en-US": withLocale("en", path),
+    "bn-BD": withLocale("bn", path),
+    "x-default": withLocale("en", path),
+  };
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [
@@ -25,12 +33,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: "daily",
         priority: 0.95,
+        alternates: { languages: localeAlternates("") },
       },
       {
         url: withLocale(locale, "/heroes"),
         lastModified: now,
         changeFrequency: "weekly",
         priority: 0.8,
+        alternates: { languages: localeAlternates("/heroes") },
       },
     );
 
@@ -41,18 +51,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
           lastModified: now,
           changeFrequency: "weekly",
           priority: 0.9,
+          alternates: { languages: localeAlternates(`/events/${slug}`) },
         },
         {
           url: withLocale(locale, `/events/${slug}/heroes`),
           lastModified: now,
           changeFrequency: "weekly",
           priority: 0.75,
+          alternates: { languages: localeAlternates(`/events/${slug}/heroes`) },
         },
         {
           url: withLocale(locale, `/events/${slug}/resources`),
           lastModified: now,
           changeFrequency: "weekly",
           priority: 0.75,
+          alternates: { languages: localeAlternates(`/events/${slug}/resources`) },
         },
       );
     }
@@ -63,6 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: "monthly",
         priority: 0.7,
+        alternates: { languages: localeAlternates(`/heroes/${heroId}`) },
       });
     }
 
@@ -72,6 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: "monthly",
         priority: 0.65,
+        alternates: { languages: localeAlternates(`/books/${bookId}`) },
       });
     }
   }

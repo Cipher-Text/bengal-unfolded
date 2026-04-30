@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Bengal Unfolded</title>
+  <desc id="desc">Bengal Unfolded is a bilingual history and culture learning portal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#172222"/>
+      <stop offset="100%" stop-color="#3c2e1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="220" fill="#d8b166" opacity="0.15"/>
+  <circle cx="160" cy="560" r="240" fill="#8da85f" opacity="0.15"/>
+  <text x="80" y="260" fill="#f6ecd6" font-size="72" font-family="Georgia, serif" font-weight="700">Bengal Unfolded</text>
+  <text x="80" y="330" fill="#f0d28c" font-size="34" font-family="Georgia, serif">History and Cultural Learning</text>
+  <text x="80" y="392" fill="#e8dfcc" font-size="30" font-family="Georgia, serif">বাংলার ইতিহাস ও সংস্কৃতির দ্বিভাষিক যাত্রা</text>
+</svg>

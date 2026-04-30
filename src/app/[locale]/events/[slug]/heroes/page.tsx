@@ -5,6 +5,7 @@ import { HeroProfileCard } from "@/components/HeroProfileCard";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getEventContent, getHeroesByEventSlug } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -24,24 +25,14 @@ export async function generateMetadata({
   const event = await getEventContent(locale, slug);
   const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
   const canonical = currentPage > 1 ? `/${locale}/events/${slug}/heroes?page=${currentPage}` : `/${locale}/events/${slug}/heroes`;
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
     title: `${event.meta.year} Heroes | ${event.meta.title} | Bengal Unfolded`,
     description: `Full hero list for ${event.meta.title}.`,
-    alternates: {
-      canonical,
-      languages: {
-        en: currentPage > 1 ? `/en/events/${slug}/heroes?page=${currentPage}` : `/en/events/${slug}/heroes`,
-        bn: currentPage > 1 ? `/bn/events/${slug}/heroes?page=${currentPage}` : `/bn/events/${slug}/heroes`,
-      },
-    },
-    robots: currentPage > 1 ? { index: false, follow: true } : undefined,
-    openGraph: {
-      title: `${event.meta.year} Heroes | ${event.meta.title} | Bengal Unfolded`,
-      description: `Full hero list for ${event.meta.title}.`,
-      url: canonical,
-      locale: locale === "bn" ? "bn_BD" : "en_US",
-    },
-  };
+    canonicalPath: canonical,
+    languagePathWithoutLocale: `/events/${slug}/heroes`,
+    noIndex: currentPage > 1,
+  });
 }
 
 const PAGE_SIZE = 20;

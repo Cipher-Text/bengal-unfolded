@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
     sitemap: "https://bengalunfolded.com/sitemap.xml",
-    host: "https://bengalunfolded.com",
+    host: "bengalunfolded.com",
   };
 }
