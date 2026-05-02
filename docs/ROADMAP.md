@@ -134,6 +134,20 @@ Expert   → all events
 
 ---
 
+## Phase v1.5 (Sharing + Distribution)
+
+Priority: Improve discoverability and social distribution with minimal architecture change.
+
+### Social sharing baseline
+
+- [ ] RM-SHARE-001 Social metadata baseline for event/figure/book pages (`title`, `description`, `image`)
+- [ ] RM-SHARE-002 Dynamic Open Graph image generation per content type (localized EN/BN)
+- [ ] RM-SHARE-003 Share action UI on detail pages (copy link + native share where available)
+- [ ] RM-SHARE-004 Canonical URL and locale-aware metadata consistency checks
+- [ ] RM-SHARE-005 Optional downloadable share card images for manual posting
+
+---
+
 ## Phase v2 (Discovery + Guided Learning)
 
 Priority: Increase depth, retention, and guided learning.

@@ -29,12 +29,6 @@ Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/
 
 All content lives in `/content/` as JSON files. Every content file has locale variants: `meta.en.json` / `meta.bn.json`. Content is read directly from the filesystem in Server Components — no API routes.
 
-Key patterns:
-- React `cache()` wraps all file readers to deduplicate reads within a render cycle.
-- `assertSupportedLocale()`, `assertSupportedEventSlug()`, and the specific ID guards (figure/book) guard against invalid params and throw at the top of page components.
-- Normalization functions (`normalizeFigure()`, `normalizeEventResource()`, `normalizeBook()`) handle schema evolution and legacy field migration. When adding new fields, add them here with fallback defaults.
-- The comment at line ~267 marks the CMS migration seam: file readers can be swapped for API adapters without changing return types.
-
 Content hierarchy:
 ```
 content/
@@ -44,7 +38,32 @@ content/
   site/            home copy
 ```
 
-Event pages load data with `Promise.all()` for parallel reads (meta + timeline + figures + resources).
+**Key patterns:**
+- React `cache()` wraps all file readers to deduplicate reads within a render cycle.
+- `assertSupportedLocale()`, `assertSupportedEventSlug()`, and the specific ID guards (figure/book) guard against invalid params and throw at the top of page components.
+- Normalization functions (`normalizeFigure()`, `normalizeEventResource()`, `normalizeBook()`) handle schema evolution and legacy field migration. When adding new fields, add them here with fallback defaults.
+- The comment at line ~267 marks the CMS migration seam: file readers can be swapped for API adapters without changing return types.
+
+**Performance-optimized loaders:**
+- `getEventContent()` — Full event data (meta + timeline + figures + resources). Use for event detail pages.
+- `getPreviousAndNextEvents()` — Loads only adjacent events for navigation (2 files vs 32). Use instead of `getAllEvents()` for prev/next links.
+- `getEventMetaForDisplay()` — Loads only event metadata (title, year, slug) without timeline/figures/resources. Use for hero sections and page metadata when full content isn't needed.
+- `creatorsCached()` — Internal Map-based cache for O(1) creator lookups. `getCreatorById()` and `getAllCreators()` use this.
+
+**When to use which loader:**
+- Event detail page: `getEventContent()` + `getPreviousAndNextEvents()`
+- Figures/resources subpages: `getEventMetaForDisplay()` for hero sections, specific getters for figures/resources
+- Metadata generation: `getEventMetaForDisplay()` when only basic event info is needed
+
+Event pages load data with `Promise.all()` for parallel reads. See `docs/CONTENT_MODEL.md` for schema details.
+
+### Fonts
+
+Fonts are loaded via `next/font/google` (self-hosted, optimized):
+- **Noto Serif Bengali** — weights 400, 600; subsets: bengali, latin; variable: `--font-sans`
+- **Playfair Display** — weights 400, 600; subsets: latin; variable: `--font-display`
+
+Font variables are injected on `<html>` and referenced in `globals.css` via CSS custom properties. This eliminates FOUT (Flash of Unstyled Text) and reduces CLS.
 
 ### Theming
 
@@ -54,6 +73,7 @@ Theme (light/dark) is stored in `localStorage` and applied via an inline `<scrip
 
 Default to Server Components. The only Client Components are:
 - `AnimatedContainer` — Framer Motion scroll-triggered fade-ins
+- `EventTimeline` — Interactive timeline with load-more functionality
 - `ThemeToggle` — reads/writes localStorage
 - `LanguageSwitcher` — navigates between `/en/` and `/bn/` paths
 
@@ -68,3 +88,11 @@ New figures: add a folder under `content/figures/<id>/` with `meta.en.json` and 
 New resources: same pattern under `content/resources/<id>/`, add ID to event `resource-ids.json`. Use `attribution` and optional `creatorType` (`person` or `organization`) in resource metadata.
 
 New events: add slug to `SUPPORTED_EVENT_SLUGS`, create the folder structure under `content/events/<slug>/`, and add a page at `src/app/[locale]/events/[slug]/`.
+
+## Documentation
+
+For deeper context:
+- `docs/CONTENT_MODEL.md` — Content schema, relationships, and file contracts
+- `docs/PROJECT_STRUCTURE.md` — Directory structure overview
+- `docs/CHANGELOG.md` — Version history
+- `docs/ROADMAP.md` — Future plans
