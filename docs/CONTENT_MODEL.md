@@ -45,6 +45,7 @@ Static JSON now, adapter-based backend later.
   - `year` (string)
   - `title` (string)
   - `detail` (string)
+  - `sourceIds?` (optional `string[]`, usually shared resource IDs from `resource-ids.json`)
   - `type?` (optional enum)
   - `href?` (optional link)
   - `ctaLabel?` (optional link label)

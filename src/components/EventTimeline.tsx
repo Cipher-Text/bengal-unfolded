@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import type { Locale, TimelineItem, TimelineType } from "@/types/content";
+import type { EventResource } from "@/types/content";
 
 const INITIAL_ITEMS = 8;
 const LOAD_MORE_STEP = 8;
@@ -36,13 +37,23 @@ const TYPE_LABELS: Record<Locale, Record<TimelineType, string>> = {
   },
 };
 
-export function EventTimeline({ items, locale = "en" }: { items: TimelineItem[]; locale?: Locale }) {
+export function EventTimeline({
+  items,
+  locale = "en",
+  resources = [],
+}: {
+  items: TimelineItem[];
+  locale?: Locale;
+  resources?: EventResource[];
+}) {
   const [visibleCount, setVisibleCount] = useState(INITIAL_ITEMS);
   const prefersReducedMotion = useReducedMotion();
   const visibleItems = useMemo(() => items.slice(0, visibleCount), [items, visibleCount]);
+  const resourceById = useMemo(() => new Map(resources.map((resource) => [resource.id, resource] as const)), [resources]);
   const hasMore = visibleCount < items.length;
   const detailsLabel = locale === "bn" ? "বিস্তারিত" : "Details";
   const showMoreLabel = locale === "bn" ? "আরও দেখুন" : "Show more";
+  const sourcesLabel = locale === "bn" ? "উৎস" : "Sources";
 
   return (
     <div className="relative pl-6">
@@ -65,6 +76,38 @@ export function EventTimeline({ items, locale = "en" }: { items: TimelineItem[];
               ) : null}
             </div>
             <p className={`theme-muted mt-2 ${item.emphasis === "peak" ? "text-base" : "text-sm"}`}>{item.detail}</p>
+            {item.sourceIds?.length ? (
+              <div className="mt-3">
+                <p className="theme-muted text-xs">{sourcesLabel}</p>
+                <div className="mt-1 flex flex-wrap gap-2">
+                  {item.sourceIds.map((sourceId) => {
+                    const resource = resourceById.get(sourceId);
+                    const label = resource?.title || sourceId;
+                    if (resource?.href) {
+                      return (
+                        <a
+                          key={`${item.year}-${item.title}-${sourceId}`}
+                          href={resource.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center rounded-full border border-amber-500/40 px-2 py-0.5 text-[11px] text-accent hover:bg-amber-500/10"
+                        >
+                          {label}
+                        </a>
+                      );
+                    }
+                    return (
+                      <span
+                        key={`${item.year}-${item.title}-${sourceId}`}
+                        className="inline-flex items-center rounded-full border border-amber-500/30 px-2 py-0.5 text-[11px] theme-muted"
+                      >
+                        {label}
+                      </span>
+                    );
+                  })}
+                </div>
+              </div>
+            ) : null}
           </motion.article>
         ))}
       </div>

@@ -3,6 +3,13 @@
 ## 2026-05-03
 
 ### Completed
+- Added optional timeline citations support:
+  - `TimelineItem.sourceIds` in content type model.
+  - Event timeline UI now renders source chips/links when `sourceIds` exist.
+  - Event page now passes shared resources to timeline for source label resolution.
+- Seeded citations for 1952 timeline entries in both locales:
+  - `content/events/1952/timeline.en.json`
+  - `content/events/1952/timeline.bn.json`
 - Added new event content chapters:
   - `1757` (Battle of Plassey / পলাশীর যুদ্ধ)
   - `1857` (Sipahi Revolt / সিপাহী বিদ্রোহ)

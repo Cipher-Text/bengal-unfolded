@@ -319,6 +319,7 @@ export type TimelineItem = {
   year: string;
   title: string;
   detail: string;
+  sourceIds?: string[];
   type?: TimelineType;
   href?: string;
   ctaLabel?: string;
