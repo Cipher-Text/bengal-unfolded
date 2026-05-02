@@ -1,5 +1,5 @@
 export const SUPPORTED_LOCALES = ["en", "bn"] as const;
-export const SUPPORTED_EVENT_SLUGS = ["1947", "1952", "1971", "1990", "2024"] as const;
+export const SUPPORTED_EVENT_SLUGS = ["1757", "1857", "1947", "1952", "1969", "1971", "1990", "2024"] as const;
 export const SUPPORTED_HERO_IDS = [
   "sheikh-mujibur-rahman",
   "syed-nazrul-islam",
@@ -221,6 +221,26 @@ export const SUPPORTED_HERO_IDS = [
   "professional-associations-1990",
   "caretaker-transition-supporters-1990",
   "families-of-martyrs-1990",
+  "siraj-ud-daulah",
+  "robert-clive",
+  "mir-jafar",
+  "miran",
+  "rai-durlabh-ram",
+  "yar-latif-khan",
+  "mohanlal",
+  "mir-madan",
+  "khwaja-abdul-hadi-khan",
+  "naba-singh-hazari",
+  "jagat-seth",
+  "umichand",
+  "william-watts",
+  "luke-scrafton",
+  "charles-watson",
+  "eyre-coote",
+  "ghaset-begum",
+  "alivardi-khan",
+  "khwaja-wajid",
+  "khwaja-petruse",
 ] as const;
 export const SUPPORTED_BOOK_IDS = ["research-volume", "archive-collection"] as const;
 
