@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getAllCreators, getAllResourceIds } from "@/lib/content";
 import { SUPPORTED_BOOK_IDS, SUPPORTED_EVENT_SLUGS, SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES } from "@/types/content";
 
 const BASE_URL = "https://bengalunfolded.com";
@@ -15,7 +16,12 @@ function localeAlternates(path = ""): Record<string, string> {
   };
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const [resourceIds, enCreators, bnCreators] = await Promise.all([
+    getAllResourceIds(),
+    getAllCreators("en"),
+    getAllCreators("bn"),
+  ]);
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [
     {
@@ -94,6 +100,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.65,
         alternates: { languages: localeAlternates(`/books/${bookId}`) },
+      });
+    }
+
+    for (const resourceId of resourceIds) {
+      entries.push({
+        url: withLocale(locale, `/resources/${resourceId}`),
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.6,
+        alternates: { languages: localeAlternates(`/resources/${resourceId}`) },
+      });
+    }
+
+    const creators = locale === "bn" ? bnCreators : enCreators;
+    for (const creator of creators) {
+      entries.push({
+        url: withLocale(locale, `/creators/${creator.id}`),
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.55,
       });
     }
   }

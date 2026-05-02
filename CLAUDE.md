@@ -23,7 +23,7 @@ No test suite exists yet.
 
 All user-facing routes live under `src/app/[locale]/`. The root `/` redirects to `/en`. Supported locales are `"en"` and `"bn"` (defined in `src/types/content.ts`). The locale layout at `src/app/[locale]/layout.tsx` calls `generateStaticParams()` to pre-render both locales.
 
-Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/heroes/` and `/resources/`. Supported slugs are hardcoded in `src/types/content.ts` as `SUPPORTED_EVENT_SLUGS`.
+Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/` and `/resources/`. Creator and resource detail pages live under `/[locale]/creators/[id]/` and `/[locale]/resources/[id]/`. Supported slugs are hardcoded in `src/types/content.ts` as `SUPPORTED_EVENT_SLUGS`.
 
 ### Data layer (`src/lib/content.ts`)
 
@@ -31,21 +31,20 @@ All content lives in `/content/` as JSON files. Every content file has locale va
 
 Key patterns:
 - React `cache()` wraps all file readers to deduplicate reads within a render cycle.
-- `assertSupportedLocale()`, `assertSupportedEventSlug()`, `assertSupportedHeroId()` guard against invalid params and throw at the top of page components.
-- Normalization functions (`normalizeHero()`, `normalizeEventResource()`) handle schema evolution and legacy field migration. When adding new fields, add them here with fallback defaults.
+- `assertSupportedLocale()`, `assertSupportedEventSlug()`, and the specific ID guards (figure/book) guard against invalid params and throw at the top of page components.
+- Normalization functions (`normalizeFigure()`, `normalizeEventResource()`, `normalizeBook()`) handle schema evolution and legacy field migration. When adding new fields, add them here with fallback defaults.
 - The comment at line ~267 marks the CMS migration seam: file readers can be swapped for API adapters without changing return types.
 
 Content hierarchy:
 ```
 content/
-  events/<slug>/   meta, timeline, quotes, hero-ids.json, resource-ids.json
-  heroes/<id>/     meta (220+ figures)
-  resources/<id>/  meta
-  books/<id>/      meta
+  events/<slug>/   meta, timeline, quotes, figure-ids.json, resource-ids.json
+  figures/<id>/    meta (people, groups, collectives)
+  resources/<id>/  meta (includes books/articles/maps/videos via category/subcategory)
   site/            home copy
 ```
 
-Event pages load data with `Promise.all()` for parallel reads (meta + timeline + heroes + resources).
+Event pages load data with `Promise.all()` for parallel reads (meta + timeline + figures + resources).
 
 ### Theming
 
@@ -64,8 +63,8 @@ Default to Server Components. The only Client Components are:
 
 ### Adding content
 
-New heroes: add a folder under `content/heroes/<id>/` with `meta.en.json` and `meta.bn.json`, then add the ID to `SUPPORTED_HERO_IDS` in `src/types/content.ts` and to the relevant event's `hero-ids.json`.
+New figures: add a folder under `content/figures/<id>/` with `meta.en.json` and `meta.bn.json`, then add the ID to `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` and to the relevant event's `figure-ids.json`.
 
-New resources: same pattern under `content/resources/<id>/`, add ID to `resource-ids.json`.
+New resources: same pattern under `content/resources/<id>/`, add ID to event `resource-ids.json`. Use `attribution` and optional `creatorType` (`person` or `organization`) in resource metadata.
 
 New events: add slug to `SUPPORTED_EVENT_SLUGS`, create the folder structure under `content/events/<slug>/`, and add a page at `src/app/[locale]/events/[slug]/`.

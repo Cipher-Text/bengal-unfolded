@@ -8,6 +8,7 @@ import {
   SUPPORTED_LOCALES,
   type Book,
   type BookId,
+  type Creator,
   type EventContent,
   type EventResource,
   type EventMeta,
@@ -38,9 +39,22 @@ function isBookId(v: string): v is BookId {
   return SUPPORTED_BOOK_IDS.includes(v as BookId);
 }
 
+export function getCreatorIdFromAttribution(name: string): string {
+  return name
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "unknown";
+}
+
 function normalizeEventResource(resourceId: string, resource: Record<string, unknown>): EventResource {
   const title = String(resource.title ?? "");
   const attribution = String(resource.attribution ?? resource.creator ?? resource.author ?? "");
+  const creatorId = getCreatorIdFromAttribution(attribution);
+  const creatorTypeRaw = typeof resource.creatorType === "string" ? resource.creatorType.toLowerCase() : "";
+  const creatorType = creatorTypeRaw === "organization" || creatorTypeRaw === "person"
+    ? (creatorTypeRaw as EventResource["creatorType"])
+    : undefined;
   const note = String(resource.note ?? "");
   const href = typeof resource.href === "string" ? resource.href : undefined;
   const category = typeof resource.category === "string" ? resource.category : undefined;
@@ -52,6 +66,8 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
       id: resourceId,
       title,
       attribution,
+      creatorId,
+      creatorType,
       note,
       href,
       category: category as EventResource["category"],
@@ -60,12 +76,12 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
   }
 
   if (legacyType === "book") {
-    return { id: resourceId, title, attribution, note, href, category: "read", subcategory: "historical-literature" };
+    return { id: resourceId, title, attribution, creatorId, creatorType, note, href, category: "read", subcategory: "historical-literature" };
   }
   if (legacyType === "article") {
-    return { id: resourceId, title, attribution, note, href, category: "understand", subcategory: "research" };
+    return { id: resourceId, title, attribution, creatorId, creatorType, note, href, category: "understand", subcategory: "research" };
   }
-  return { id: resourceId, title, attribution, note, href, category: "explore", subcategory: "archive" };
+  return { id: resourceId, title, attribution, creatorId, creatorType, note, href, category: "explore", subcategory: "archive" };
 }
 
 function normalizeBook(bookId: BookId, rawBook: Record<string, unknown>): Book {
@@ -155,6 +171,15 @@ async function readJsonFile<T>(filePath: string): Promise<T> {
   return (await readJsonRawCached(filePath)) as T;
 }
 
+const readResourceIdsCached = cache(async (): Promise<string[]> => {
+  const resourceDir = path.join(CONTENT_DIR, "resources");
+  const entries = await fs.readdir(resourceDir, { withFileTypes: true });
+  return entries
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b));
+});
+
 export function assertSupportedLocale(locale: string): asserts locale is Locale {
   if (!isLocale(locale)) throw new Error(`Unsupported locale: ${locale}`);
 }
@@ -206,12 +231,62 @@ export async function getAllBooks(locale: string): Promise<Book[]> {
   return Promise.all(SUPPORTED_BOOK_IDS.map((bookId) => getBook(locale, bookId)));
 }
 
+export async function getAllResourceIds(): Promise<string[]> {
+  return readResourceIdsCached();
+}
+
 export async function getResource(locale: string, resourceId: string): Promise<EventResource> {
   assertSupportedLocale(locale);
   const resource = await readJsonFile<Record<string, unknown>>(
     path.join(CONTENT_DIR, "resources", resourceId, `meta.${locale}.json`),
   );
   return normalizeEventResource(resourceId, resource);
+}
+
+export async function getAllResources(locale: string): Promise<EventResource[]> {
+  assertSupportedLocale(locale);
+  const resourceIds = await getAllResourceIds();
+  return Promise.all(resourceIds.map((resourceId) => getResource(locale, resourceId)));
+}
+
+export async function getAllCreators(locale: string): Promise<Creator[]> {
+  assertSupportedLocale(locale);
+  const resources = await getAllResources(locale);
+  const byId = new Map<string, Creator>();
+
+  for (const resource of resources) {
+    const name = resource.attribution.trim();
+    if (!name) continue;
+    const id = resource.creatorId;
+    const current = byId.get(id);
+    if (!current) {
+      byId.set(id, {
+        id,
+        name,
+        type: resource.creatorType ?? "person",
+      });
+      continue;
+    }
+    if (current.type === "person" && resource.creatorType === "organization") {
+      byId.set(id, { ...current, type: "organization" });
+    }
+  }
+
+  return Array.from(byId.values()).sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export async function getCreatorById(locale: string, creatorId: string): Promise<Creator | null> {
+  assertSupportedLocale(locale);
+  const creators = await getAllCreators(locale);
+  return creators.find((creator) => creator.id === creatorId) ?? null;
+}
+
+export async function getResourcesByCreatorId(locale: string, creatorId: string): Promise<EventResource[]> {
+  assertSupportedLocale(locale);
+  const creator = await getCreatorById(locale, creatorId);
+  if (!creator) return [];
+  const resources = await getAllResources(locale);
+  return resources.filter((resource) => resource.attribution.trim() === creator.name);
 }
 
 export async function getEventContent(locale: string, slug: string): Promise<EventContent> {

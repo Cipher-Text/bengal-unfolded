@@ -51,6 +51,9 @@ Static JSON now, adapter-based backend later.
   - `href?` (optional link)
   - `ctaLabel?` (optional link label)
 
+## Event metadata note
+- `EventMeta.showOnLanding?` (optional boolean): set `false` to hide an event from the locale landing page timeline while keeping it available in full timeline and direct event routes.
+
 `type` supports:
 - `judicial_event`
 - `protest_start`
@@ -69,6 +72,7 @@ Static JSON now, adapter-based backend later.
   - `id`
   - `title`
   - `attribution` (credit line; supports writer/director/cartographer/organization; loader falls back to legacy `creator` or `author`)
+  - `creatorType?` (`person` | `organization`) used for creator page schema typing and SEO; defaults to `person` when omitted
   - `note`
   - `category` in `read | watch | explore | understand`
   - `subcategory` in:
@@ -95,11 +99,16 @@ Static JSON now, adapter-based backend later.
 - `getBook`
 - `getAllFigures`
 - `getAllBooks`
+- `getAllResourceIds`
+- `getAllResources`
 - `getEventsByFigureId`
 - `getEventsByBookId`
 - `getFiguresByEventSlug`
 - `getResource`
 - `getEventsByResourceId`
+- `getAllCreators`
+- `getCreatorById`
+- `getResourcesByCreatorId`
 
 Implementation note:
 - `getAllFigures` first tries `content/figures/index.<locale>.json`, then falls back to per-figure files.

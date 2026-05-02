@@ -34,6 +34,10 @@ src/
       figures/
         page.tsx
         [id]/page.tsx
+      creators/
+        [id]/page.tsx
+      resources/
+        [id]/page.tsx
       books/
         [id]/page.tsx
       events/[slug]/

@@ -300,6 +300,7 @@ export type EventMeta = {
   ctaLabel: string;
   heroTagline: string;
   whyItMatters: string;
+  showOnLanding?: boolean;
 };
 
 export type TimelineType =
@@ -357,6 +358,8 @@ export type EventResource = {
   id: ResourceId;
   title: string;
   attribution: string;
+  creatorId: string;
+  creatorType?: "person" | "organization";
   note: string;
   category: ResourceCategory;
   subcategory:
@@ -372,6 +375,12 @@ export type EventResource = {
     | "research"
     | "papers";
   href?: string;
+};
+
+export type Creator = {
+  id: string;
+  name: string;
+  type: "person" | "organization";
 };
 
 export type Quote = {
