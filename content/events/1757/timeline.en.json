@@ -2,26 +2,46 @@
   {
     "year": "April-June 1757",
     "title": "Company conspiracy and alliance-building intensify",
-    "detail": "East India Company officials coordinated with dissatisfied court elites and financiers to isolate Nawab Siraj ud-Daulah before open confrontation."
+    "detail": "East India Company officials coordinated with dissatisfied court elites and financiers to isolate Nawab Siraj ud-Daulah before open confrontation.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "partition-of-british-india-national-archives"
+    ]
   },
   {
     "year": "June 23, 1757",
     "title": "Battle of Plassey",
-    "detail": "Near Palashi, Company forces under Robert Clive engaged the Nawab's army. Key commanders withheld full participation, decisively weakening the Nawab's position."
+    "detail": "Near Palashi, Company forces under Robert Clive engaged the Nawab's army. Key commanders withheld full participation, decisively weakening the Nawab's position.",
+    "sourceIds": [
+      "partition-of-british-india-national-archives",
+      "the-great-partition"
+    ]
   },
   {
     "year": "Late June 1757",
     "title": "Siraj ud-Daulah is overthrown",
-    "detail": "After the defeat, Siraj ud-Daulah lost political control and was captured and killed; Mir Jafar was installed as Nawab with Company backing."
+    "detail": "After the defeat, Siraj ud-Daulah lost political control and was captured and killed; Mir Jafar was installed as Nawab with Company backing.",
+    "sourceIds": [
+      "the-great-partition",
+      "partition-politics-banglapedia"
+    ]
   },
   {
     "year": "1757-1760",
     "title": "Company influence over Bengal administration expands",
-    "detail": "Revenue demands, commercial privileges, and political appointments increasingly reflected Company priorities rather than autonomous nawabi governance."
+    "detail": "Revenue demands, commercial privileges, and political appointments increasingly reflected Company priorities rather than autonomous nawabi governance.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "partition-of-british-india-national-archives"
+    ]
   },
   {
     "year": "Long-term consequence",
     "title": "Colonial consolidation begins in Bengal",
-    "detail": "Plassey opened the path to deeper Company rule, culminating in far-reaching control over Bengal's economy, institutions, and sovereignty."
+    "detail": "Plassey opened the path to deeper Company rule, culminating in far-reaching control over Bengal's economy, institutions, and sovereignty.",
+    "sourceIds": [
+      "partition-of-british-india-national-archives",
+      "the-great-partition"
+    ]
   }
 ]

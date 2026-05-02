@@ -34,6 +34,8 @@ src/
   app/
     [locale]/
       page.tsx
+      timeline/
+        page.tsx
       heroes/
         page.tsx
         [id]/page.tsx

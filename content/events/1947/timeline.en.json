@@ -2,66 +2,118 @@
   {
     "year": "1940",
     "title": "The Lahore Resolution and the idea of a separate state",
-    "detail": "The Lahore Resolution was adopted in 1940, bringing the idea of a separate state for Muslims in the subcontinent to the center of politics. It was moved by A. K. Fazlul Huq, which made Bengal's political role especially significant."
+    "detail": "The Lahore Resolution was adopted in 1940, bringing the idea of a separate state for Muslims in the subcontinent to the center of politics. It was moved by A. K. Fazlul Huq, which made Bengal's political role especially significant.",
+    "sourceIds": [
+      "the-great-partition",
+      "midnights-furies"
+    ]
   },
   {
     "year": "1943",
     "title": "The Bengal famine and social collapse",
-    "detail": "The Bengal famine of 1943 killed millions. The failure of British administration deepened public anger and intensified political instability across the province."
+    "detail": "The Bengal famine of 1943 killed millions. The failure of British administration deepened public anger and intensified political instability across the province.",
+    "sourceIds": [
+      "midnights-furies",
+      "the-spoils-of-partition"
+    ]
   },
   {
     "year": "1945",
     "title": "The postwar political crisis",
-    "detail": "After World War II, the end of British rule became more likely. But disagreements between the Congress Party and the Muslim League over the transfer of power grew sharper."
+    "detail": "After World War II, the end of British rule became more likely. But disagreements between the Congress Party and the Muslim League over the transfer of power grew sharper.",
+    "sourceIds": [
+      "the-spoils-of-partition",
+      "train-to-pakistan"
+    ]
   },
   {
     "year": "1946",
     "title": "Elections and political polarization",
-    "detail": "In the provincial elections, the Muslim League won overwhelming support in Bengal. The demand for a separate state became stronger, and political division became more visible."
+    "detail": "In the provincial elections, the Muslim League won overwhelming support in Bengal. The demand for a separate state became stronger, and political division became more visible.",
+    "sourceIds": [
+      "train-to-pakistan",
+      "partition-of-british-india-national-archives"
+    ]
   },
   {
     "year": "August 16, 1946",
     "title": "Direct Action Day and communal violence",
-    "detail": "Direct Action Day was followed by devastating communal violence in Calcutta and other parts of Bengal. The riots severely damaged Hindu-Muslim relations and made political compromise far more difficult."
+    "detail": "Direct Action Day was followed by devastating communal violence in Calcutta and other parts of Bengal. The riots severely damaged Hindu-Muslim relations and made political compromise far more difficult.",
+    "sourceIds": [
+      "partition-of-british-india-national-archives",
+      "partition-of-british-india-video"
+    ]
   },
   {
     "year": "Early 1947",
     "title": "The United Bengal proposal fails",
-    "detail": "A proposal for an independent, united Bengal emerged under leaders such as Huseyn Shaheed Suhrawardy and Sarat Chandra Bose. It failed amid political mistrust and opposition from central leadership."
+    "detail": "A proposal for an independent, united Bengal emerged under leaders such as Huseyn Shaheed Suhrawardy and Sarat Chandra Bose. It failed amid political mistrust and opposition from central leadership.",
+    "sourceIds": [
+      "partition-of-british-india-video",
+      "the-1947-partition-archive"
+    ]
   },
   {
     "year": "June 3, 1947",
     "title": "The partition plan is announced",
-    "detail": "Lord Mountbatten announced the plan for partition, setting India on the final path toward division. Bengal and Punjab, both demographically mixed provinces, became central to that decision."
+    "detail": "Lord Mountbatten announced the plan for partition, setting India on the final path toward division. Bengal and Punjab, both demographically mixed provinces, became central to that decision.",
+    "sourceIds": [
+      "the-1947-partition-archive",
+      "partition-politics-banglapedia"
+    ]
   },
   {
     "year": "July 18, 1947",
     "title": "The Indian Independence Act is passed",
-    "detail": "The Indian Independence Act created the legal basis for the new states of India and Pakistan. With it, the partition of Bengal became certain."
+    "detail": "The Indian Independence Act created the legal basis for the new states of India and Pakistan. With it, the partition of Bengal became certain.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "partition-of-bengal-1947-banglapedia"
+    ]
   },
   {
     "year": "August 14-15, 1947",
     "title": "Independence, but uncertainty remains",
-    "detail": "Pakistan and India became independent on August 14 and 15, but the exact border was still unclear. People in Bengal entered independence amid deep uncertainty."
+    "detail": "Pakistan and India became independent on August 14 and 15, but the exact border was still unclear. People in Bengal entered independence amid deep uncertainty.",
+    "sourceIds": [
+      "partition-of-bengal-1947-banglapedia",
+      "language-movement-banglapedia"
+    ]
   },
   {
     "year": "August 17, 1947",
     "title": "The Radcliffe Line divides Bengal",
-    "detail": "The publication of the Radcliffe Award divided Bengal into West Bengal in India and East Bengal in Pakistan. Long-standing social, economic, and geographic connections were abruptly broken."
+    "detail": "The publication of the Radcliffe Award divided Bengal into West Bengal in India and East Bengal in Pakistan. Long-standing social, economic, and geographic connections were abruptly broken.",
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "the-great-partition"
+    ]
   },
   {
     "year": "1947-1950",
     "title": "Mass displacement and population reshaping",
-    "detail": "Partition drove the movement of millions of people. Large-scale displacement of Hindu and Muslim communities transformed Bengal's social structure for decades to come."
+    "detail": "Partition drove the movement of millions of people. Large-scale displacement of Hindu and Muslim communities transformed Bengal's social structure for decades to come.",
+    "sourceIds": [
+      "the-great-partition",
+      "midnights-furies"
+    ]
   },
   {
     "year": "1948-1952",
     "title": "The beginning of linguistic and cultural conflict",
-    "detail": "Resistance grew in East Bengal against the attempt to impose Urdu as the sole state language. That tension would later culminate in the Language Movement of 1952."
+    "detail": "Resistance grew in East Bengal against the attempt to impose Urdu as the sole state language. That tension would later culminate in the Language Movement of 1952.",
+    "sourceIds": [
+      "midnights-furies",
+      "the-spoils-of-partition"
+    ]
   },
   {
     "year": "Long-term impact",
     "title": "From identity crisis to the road to independence",
-    "detail": "The partition of 1947 created political, economic, and cultural inequalities in East Bengal. Over time, those inequalities contributed to the path that led to the independence of Bangladesh in 1971."
+    "detail": "The partition of 1947 created political, economic, and cultural inequalities in East Bengal. Over time, those inequalities contributed to the path that led to the independence of Bangladesh in 1971.",
+    "sourceIds": [
+      "the-spoils-of-partition",
+      "train-to-pakistan"
+    ]
   }
 ]

@@ -2,31 +2,55 @@
   {
     "year": "January 4, 1969",
     "title": "Student movement consolidates around mass demands",
-    "detail": "Student organizations advanced a broad democratic platform that linked education grievances with constitutional rights, civil liberties, and regional autonomy."
+    "detail": "Student organizations advanced a broad democratic platform that linked education grievances with constitutional rights, civil liberties, and regional autonomy.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "bangladesh-awami-league-banglapedia"
+    ]
   },
   {
     "year": "January 20, 1969",
     "title": "Martyrdom of Asad intensifies protests",
-    "detail": "The killing of student leader Asaduzzaman in Dhaka triggered widespread outrage and transformed campus-led protests into a broader urban uprising."
+    "detail": "The killing of student leader Asaduzzaman in Dhaka triggered widespread outrage and transformed campus-led protests into a broader urban uprising.",
+    "sourceIds": [
+      "bangladesh-awami-league-banglapedia",
+      "bangladesh-from-mujib-to-ershad"
+    ]
   },
   {
     "year": "January 24, 1969",
     "title": "Mass demonstrations spread across towns and districts",
-    "detail": "Protests expanded beyond Dhaka as workers, professionals, and local communities joined strikes and processions against state repression."
+    "detail": "Protests expanded beyond Dhaka as workers, professionals, and local communities joined strikes and processions against state repression.",
+    "sourceIds": [
+      "bangladesh-from-mujib-to-ershad",
+      "research-volume"
+    ]
   },
   {
     "year": "February 1969",
     "title": "Cross-party momentum builds against authoritarian rule",
-    "detail": "Opposition forces and civic groups increasingly converged on anti-regime demands, while arrests and crackdowns failed to contain mobilization."
+    "detail": "Opposition forces and civic groups increasingly converged on anti-regime demands, while arrests and crackdowns failed to contain mobilization.",
+    "sourceIds": [
+      "research-volume",
+      "military-rule-banglapedia"
+    ]
   },
   {
     "year": "February 22, 1969",
     "title": "Sheikh Mujibur Rahman is released",
-    "detail": "Following sustained pressure from the uprising, Sheikh Mujibur Rahman was released from detention, boosting morale and political confidence in East Pakistan."
+    "detail": "Following sustained pressure from the uprising, Sheikh Mujibur Rahman was released from detention, boosting morale and political confidence in East Pakistan.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "bangladesh-awami-league-banglapedia"
+    ]
   },
   {
     "year": "March 25, 1969",
     "title": "Ayub Khan resigns",
-    "detail": "Unable to stabilize the crisis, Ayub Khan stepped down, marking a strategic victory for mass politics and anti-authoritarian resistance."
+    "detail": "Unable to stabilize the crisis, Ayub Khan stepped down, marking a strategic victory for mass politics and anti-authoritarian resistance.",
+    "sourceIds": [
+      "bangladesh-awami-league-banglapedia",
+      "bangladesh-from-mujib-to-ershad"
+    ]
   }
 ]

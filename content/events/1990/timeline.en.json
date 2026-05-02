@@ -2,51 +2,91 @@
   {
     "year": "March 24, 1982",
     "title": "Ershad seizes power",
-    "detail": "Army chief Hussain Muhammad Ershad took power through a military coup and began a long period of authoritarian rule."
+    "detail": "Army chief Hussain Muhammad Ershad took power through a military coup and began a long period of authoritarian rule.",
+    "sourceIds": [
+      "bangladesh-from-mujib-to-ershad",
+      "bangladesh-under-mujib-zia-and-ershad"
+    ]
   },
   {
     "year": "1983",
     "title": "Student resistance becomes the earliest organized front",
-    "detail": "Students emerged as some of the first consistent opponents of military rule, keeping street resistance alive when democratic space was narrow."
+    "detail": "Students emerged as some of the first consistent opponents of military rule, keeping street resistance alive when democratic space was narrow.",
+    "sourceIds": [
+      "bangladesh-under-mujib-zia-and-ershad",
+      "military-rule-banglapedia"
+    ]
   },
   {
     "year": "November 10, 1987",
     "title": "Nur Hossain becomes a martyr-symbol",
-    "detail": "Activist Nur Hossain was shot dead during an anti-Ershad blockade in Dhaka. The slogan painted on his body became one of the movement's most enduring democratic cries."
+    "detail": "Activist Nur Hossain was shot dead during an anti-Ershad blockade in Dhaka. The slogan painted on his body became one of the movement's most enduring democratic cries.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "nur-hossain-banglapedia"
+    ]
   },
   {
     "year": "1988",
     "title": "Boycotted election deepens the legitimacy crisis",
-    "detail": "Major opposition parties rejected the 1988 parliamentary election, intensifying the regime's political isolation."
+    "detail": "Major opposition parties rejected the 1988 parliamentary election, intensifying the regime's political isolation.",
+    "sourceIds": [
+      "nur-hossain-banglapedia",
+      "justice-shahabuddin-ahmed-banglapedia"
+    ]
   },
   {
     "year": "1990",
     "title": "The anti-Ershad movement becomes fully national",
-    "detail": "By 1990, hartals, blockades, campus strikes, and demonstrations had intensified, with students, parties, and professionals acting in greater coordination."
+    "detail": "By 1990, hartals, blockades, campus strikes, and demonstrations had intensified, with students, parties, and professionals acting in greater coordination.",
+    "sourceIds": [
+      "justice-shahabuddin-ahmed-banglapedia",
+      "sheikh-hasina-banglapedia"
+    ]
   },
   {
     "year": "November 19, 1990",
     "title": "The three alliances agree on a joint formula",
-    "detail": "The main opposition alliances issued a combined declaration on democratic transition, creating a decisive common front against the regime."
+    "detail": "The main opposition alliances issued a combined declaration on democratic transition, creating a decisive common front against the regime.",
+    "sourceIds": [
+      "sheikh-hasina-banglapedia",
+      "khaleda-zia-banglapedia"
+    ]
   },
   {
     "year": "November 27, 1990",
     "title": "Emergency is declared",
-    "detail": "The regime imposed emergency rule and suspended fundamental rights, but the move failed to halt the uprising."
+    "detail": "The regime imposed emergency rule and suspended fundamental rights, but the move failed to halt the uprising.",
+    "sourceIds": [
+      "khaleda-zia-banglapedia",
+      "bangladesh-awami-league-banglapedia"
+    ]
   },
   {
     "year": "Late November-Early December 1990",
     "title": "Professional groups and citizens join the final push",
-    "detail": "Teachers, doctors, lawyers, journalists, artists, and broad sections of the public joined the final wave of pressure."
+    "detail": "Teachers, doctors, lawyers, journalists, artists, and broad sections of the public joined the final wave of pressure.",
+    "sourceIds": [
+      "bangladesh-awami-league-banglapedia",
+      "bangladesh-nationalist-party-banglapedia"
+    ]
   },
   {
     "year": "December 6, 1990",
     "title": "Ershad resigns and power shifts to Shahabuddin Ahmed",
-    "detail": "Under intense public pressure, Ershad stepped down and power passed to Chief Justice Shahabuddin Ahmed as head of a neutral caretaker arrangement."
+    "detail": "Under intense public pressure, Ershad stepped down and power passed to Chief Justice Shahabuddin Ahmed as head of a neutral caretaker arrangement.",
+    "sourceIds": [
+      "bangladesh-nationalist-party-banglapedia",
+      "communist-party-of-bangladesh-banglapedia"
+    ]
   },
   {
     "year": "February-August 1991",
     "title": "Democratic transition is completed",
-    "detail": "A competitive election was held under the caretaker government, and later in 1991 the parliamentary system was restored through the Twelfth Amendment."
+    "detail": "A competitive election was held under the caretaker government, and later in 1991 the parliamentary system was restored through the Twelfth Amendment.",
+    "sourceIds": [
+      "communist-party-of-bangladesh-banglapedia",
+      "bangladesh-from-mujib-to-ershad"
+    ]
   }
 ]

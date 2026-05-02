@@ -4,6 +4,7 @@ import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { EventTimeline } from "@/components/EventTimeline";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
+import Link from "next/link";
 import { getAllEvents, getHomeContent } from "@/lib/content";
 import { buildPageMetadata, localeLanguageTag, SITE_NAME } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
@@ -58,6 +59,13 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
     <HeroSection title={home.title} tagline={home.tagline} intro={home.intro} />
     <AnimatedContainer><SectionTitle title={home.timelineHeading} subtitle={home.timelineSubheading} /></AnimatedContainer>
     <AnimatedContainer delay={0.05}><EventTimeline items={timelineItems} locale={locale as Locale} /></AnimatedContainer>
+    <AnimatedContainer delay={0.08}>
+      <div>
+        <Link href={`/${locale}/timeline`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
+          {locale === "bn" ? "পূর্ণ টাইমলাইন দেখুন" : "Explore Full Timeline"}
+        </Link>
+      </div>
+    </AnimatedContainer>
     <AnimatedContainer delay={0.1}><section className="theme-surface-soft rounded-2xl border border-amber-400/20 p-6 md:p-8"><h2 className="text-2xl font-semibold md:text-3xl">{home.whyJourneyMattersHeading}</h2><p className="theme-muted mt-3 text-base leading-relaxed md:text-lg">{home.whyJourneyMattersBody}</p></section></AnimatedContainer>
   </div>;
 }

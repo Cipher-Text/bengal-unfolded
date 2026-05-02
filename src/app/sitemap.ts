@@ -42,6 +42,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
         alternates: { languages: localeAlternates("/heroes") },
       },
+      {
+        url: withLocale(locale, "/timeline"),
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.85,
+        alternates: { languages: localeAlternates("/timeline") },
+      },
     );
 
     for (const slug of SUPPORTED_EVENT_SLUGS) {

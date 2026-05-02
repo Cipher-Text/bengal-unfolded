@@ -3,6 +3,16 @@
 ## 2026-05-03
 
 ### Completed
+- Added full timeline explorer route:
+  - `/{locale}/timeline`
+  - Includes search, year filter, and pagination.
+- Added homepage CTA to open full timeline explorer.
+- Added localized timeline explorer entries to sitemap.
+- Expanded timeline citations rollout to all events:
+  - Added `sourceIds` across timeline entries for `1757`, `1857`, `1947`, `1969`, `1971`, `1990`, and `2024` (EN/BN).
+- Tightened content validation rules (`pnpm content:validate`):
+  - Every timeline item must include non-empty `sourceIds`.
+  - Every `sourceId` must exist in both global resources and the event-level `resource-ids.json`.
 - Added optional timeline citations support:
   - `TimelineItem.sourceIds` in content type model.
   - Event timeline UI now renders source chips/links when `sourceIds` exist.

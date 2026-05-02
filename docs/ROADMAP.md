@@ -94,7 +94,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 - [ ] RM-006A Timeline importance levels (`landmark`, `major`, `high`, `medium`, `reference`)
 - [ ] RM-006B Homepage landmark timeline limit with `Explore Full Timeline` CTA
-- [ ] RM-006C Full timeline explorer page with search, filters, and pagination
+- [x] RM-006C Full timeline explorer page with search, filters, and pagination
 - [ ] RM-006D Parent-child event clustering (`parentEvent`, `children`, `relatedEvents`)
 - [ ] RM-006E Sensitive event metadata (`sensitive`, `contentWarnings`, `requiresSources`)
 
