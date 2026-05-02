@@ -50,7 +50,7 @@ The roadmap below assumes one product team with strong frontend capability and m
 
 | Phase | Core milestone | Deliverables | Acceptance criteria |
 |---|---|---|---|
-| MVP | Public launch foundation | Static Next.js portal; `/en` and `/bn`; five event landing pages; shared content schema; timeline component; source drawer; hero/person/resource blocks; SEO metadata; JSON-LD; analytics; accessibility and performance QA | All core pages build statically; language switch preserves equivalent route; every narrative block can surface at least one source reference; Lighthouse performance and accessibility budgets are met on representative pages; no uncited “hero facts” in production |
+| MVP | Public launch foundation | Static Next.js portal; `/en` and `/bn`; five event landing pages; shared content schema; timeline component; source drawer; figure/person/resource blocks; SEO metadata; JSON-LD; analytics; accessibility and performance QA | All core pages build statically; language switch preserves equivalent route; every narrative block can surface at least one source reference; Lighthouse performance and accessibility budgets are met on representative pages; no uncited “figure facts” in production |
 | v1 | Discovery and media depth | Pagefind search; faceted browsing; transcripts/captions pipeline; audio/video pages; offline reading/PWA; rights model; downloadable reading lists; low-bandwidth mode; image zoom | Search works in both locales; captions or transcript fallbacks exist for all hosted media that the team publishes directly; app manifest and service worker pass install/offline smoke tests; media pages degrade gracefully on low bandwidth |
 | v2 | Editorial scale and submissions | CMS migration; drafts/preview; role-based editorial workflow; contributor submission forms; moderation queue; static regeneration or selective dynamic routes; richer map layer; Meilisearch if corpus size justifies it | Editors can draft/review/publish without code changes; content IDs remain stable after migration; public pages remain fast; moderated submissions have status history; map and timeline items share a common evidence model |
 | v3 | Archive-grade interoperability and intelligence | IIIF manifests for image/audio/video objects where relevant; METS export or package generation for archival batches; AI Q&A beta grounded only in approved sources; deeper geo storytelling; classroom packs and community programs | IIIF objects can be consumed by external viewers; AI responses always cite internal source records and show confidence/disclaimer states; preservation snapshots and fixity checks are automated; archive export is reproducible |
@@ -244,7 +244,7 @@ The portal should feel less like a blog and more like a **living historical atla
 
 On each event landing page, the most compelling layout is a **three-band structure**:
 
-1. **Narrative hero band** — cinematic opening, two-paragraph context, key dates, language toggle, “Start with timeline / people / sources”.
+1. **Narrative figure band** — cinematic opening, two-paragraph context, key dates, language toggle, “Start with timeline / people / sources”.
 2. **Exploration band** — interactive timeline, thematic filters, featured biographies, key documents, map panel.
 3. **Evidence band** — sources, books, image collections, oral histories, disputed-claim notes, downloadable resources.
 

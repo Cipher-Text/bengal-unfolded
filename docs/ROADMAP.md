@@ -52,18 +52,18 @@ Core principle:
 
 ### Content architecture
 
-- [x] RM-MVP-007 Normalized model: events -> hero IDs
+- [x] RM-MVP-007 Normalized model: events -> figure IDs
 - [x] RM-MVP-007A Normalized model: events -> resource IDs
-- [x] RM-MVP-008 Dedicated hero pages (`/{locale}/heroes/{id}`)
+- [x] RM-MVP-008 Dedicated figure pages (`/{locale}/figures/{id}`)
 - [x] RM-MVP-009 Dedicated book pages (`/{locale}/books/{id}`)
-- [x] RM-MVP-010 Reverse lookups (`getEventsByHeroId`, `getEventsByBookId`)
-- [x] RM-MVP-011 Event hero full-list page (`/{locale}/events/{slug}/heroes`)
+- [x] RM-MVP-010 Reverse lookups (`getEventsByFigureId`, `getEventsByBookId`)
+- [x] RM-MVP-011 Event figure full-list page (`/{locale}/events/{slug}/figures`)
 - [x] RM-MVP-012 Event resources category page (`/{locale}/events/{slug}/resources`)
-- [x] RM-MVP-013 Hero index optimization for large lists (`content/heroes/index.<locale>.json`)
+- [x] RM-MVP-013 Figure index optimization for large lists (`content/figures/index.<locale>.json`)
 
 ### UX completeness
 
-- [x] RM-MVP-014 Event page shows top 5 heroes + `See full list`
+- [x] RM-MVP-014 Event page shows top 5 figures + `See full list`
 - [x] RM-MVP-015 Interactive timeline progressive loading (`Show more` / `আরও দেখুন`)
 - [x] RM-MVP-016 Timeline type badges for typed entries
 

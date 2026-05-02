@@ -4,7 +4,7 @@ import { cache } from "react";
 import {
   SUPPORTED_BOOK_IDS,
   SUPPORTED_EVENT_SLUGS,
-  SUPPORTED_HERO_IDS,
+  SUPPORTED_FIGURE_IDS,
   SUPPORTED_LOCALES,
   type Book,
   type BookId,
@@ -12,8 +12,8 @@ import {
   type EventResource,
   type EventMeta,
   type EventSlug,
-  type Hero,
-  type HeroId,
+  type Figure,
+  type FigureId,
   type HomeContent,
   type Locale,
   type Quote,
@@ -30,8 +30,8 @@ function isEventSlug(v: string): v is EventSlug {
   return SUPPORTED_EVENT_SLUGS.includes(v as EventSlug);
 }
 
-function isHeroId(v: string): v is HeroId {
-  return SUPPORTED_HERO_IDS.includes(v as HeroId);
+function isFigureId(v: string): v is FigureId {
+  return SUPPORTED_FIGURE_IDS.includes(v as FigureId);
 }
 
 function isBookId(v: string): v is BookId {
@@ -68,7 +68,7 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
   return { id: resourceId, title, author, note, href, category: "explore", subcategory: "archive" };
 }
 
-function inferHeroGroup(role: string): Hero["group"] {
+function inferFigureGroup(role: string): Figure["group"] {
   const r = role.toLowerCase();
   if (r.includes("শহীদ") || r.includes("martyr")) return "martyr";
   if (r.includes("শিল্পী") || r.includes("artists") || r.includes("collective")) return "collective";
@@ -77,42 +77,42 @@ function inferHeroGroup(role: string): Hero["group"] {
   return "leader";
 }
 
-function normalizeHero(id: HeroId, locale: Locale, hero: Record<string, unknown>): Hero {
-  const name = String(hero.name ?? "");
-  const role = String(hero.role ?? "");
-  const legacyBio = String(hero.bio ?? "");
-  const legacyImpact = String(hero.impact ?? "");
+function normalizeFigure(id: FigureId, locale: Locale, figure: Record<string, unknown>): Figure {
+  const name = String(figure.name ?? "");
+  const role = String(figure.role ?? "");
+  const legacyBio = String(figure.bio ?? "");
+  const legacyImpact = String(figure.impact ?? "");
 
-  const group = typeof hero.group === "string" ? (hero.group as Hero["group"]) : inferHeroGroup(role);
+  const group = typeof figure.group === "string" ? (figure.group as Figure["group"]) : inferFigureGroup(role);
   const contribution = String(
-    hero.contribution ??
+    figure.contribution ??
       (legacyBio || (locale === "bn" ? "ঐতিহাসিক ধারাবাহিকতায় গুরুত্বপূর্ণ ভূমিকা রেখেছেন।" : "Played a notable role in this historical timeline.")),
   );
   const context = String(
-    hero.context ??
+    figure.context ??
       (locale === "bn"
         ? "প্রাসঙ্গিক অধ্যায়, আন্দোলন এবং রাজনৈতিক মুহূর্তের সাথে যুক্ত।"
         : "Connected to key chapters, movements, and political turning points."),
   );
   const impact = String(
-    hero.impact ??
-      hero.legacyImpact ??
+    figure.impact ??
+      figure.legacyImpact ??
       (legacyImpact || (locale === "bn" ? "তার ভূমিকা জনস্মৃতি ও নাগরিক চেতনায় প্রভাব ফেলেছে।" : "Their role shaped public memory and civic consciousness.")),
   );
-  const tags = Array.isArray(hero.tags) ? hero.tags.map(String).filter(Boolean) : undefined;
+  const tags = Array.isArray(figure.tags) ? figure.tags.map(String).filter(Boolean) : undefined;
 
   return {
     id,
     name,
-    name_en: typeof hero.name_en === "string" ? hero.name_en : undefined,
+    name_en: typeof figure.name_en === "string" ? figure.name_en : undefined,
     role,
     group,
     contribution,
     context,
     impact,
-    highlight: typeof hero.highlight === "string" ? hero.highlight : undefined,
+    highlight: typeof figure.highlight === "string" ? figure.highlight : undefined,
     tags,
-    image: typeof hero.image === "string" ? hero.image : undefined,
+    image: typeof figure.image === "string" ? figure.image : undefined,
   };
 }
 
@@ -132,8 +132,8 @@ export function assertSupportedEventSlug(slug: string): asserts slug is EventSlu
   if (!isEventSlug(slug)) throw new Error(`Unsupported event slug: ${slug}`);
 }
 
-export function assertSupportedHeroId(heroId: string): asserts heroId is HeroId {
-  if (!isHeroId(heroId)) throw new Error(`Unsupported hero id: ${heroId}`);
+export function assertSupportedFigureId(figureId: string): asserts figureId is FigureId {
+  if (!isFigureId(figureId)) throw new Error(`Unsupported figure id: ${figureId}`);
 }
 
 export function assertSupportedBookId(bookId: string): asserts bookId is BookId {
@@ -151,11 +151,11 @@ export async function getEventMeta(locale: string, slug: string): Promise<EventM
   return readJsonFile(path.join(CONTENT_DIR, "events", slug, `meta.${locale}.json`));
 }
 
-export async function getHero(locale: string, heroId: string): Promise<Hero> {
+export async function getFigure(locale: string, figureId: string): Promise<Figure> {
   assertSupportedLocale(locale);
-  assertSupportedHeroId(heroId);
-  const hero = await readJsonFile<Record<string, unknown>>(path.join(CONTENT_DIR, "heroes", heroId, `meta.${locale}.json`));
-  return normalizeHero(heroId, locale, hero);
+  assertSupportedFigureId(figureId);
+  const figure = await readJsonFile<Record<string, unknown>>(path.join(CONTENT_DIR, "figures", figureId, `meta.${locale}.json`));
+  return normalizeFigure(figureId, locale, figure);
 }
 
 export async function getBook(locale: string, bookId: string): Promise<Book> {
@@ -165,9 +165,9 @@ export async function getBook(locale: string, bookId: string): Promise<Book> {
   return { id: bookId, ...book };
 }
 
-export async function getAllHeroes(locale: string): Promise<Hero[]> {
+export async function getAllFigures(locale: string): Promise<Figure[]> {
   assertSupportedLocale(locale);
-  return Promise.all(SUPPORTED_HERO_IDS.map((heroId) => getHero(locale, heroId)));
+  return Promise.all(SUPPORTED_FIGURE_IDS.map((figureId) => getFigure(locale, figureId)));
 }
 
 export async function getAllBooks(locale: string): Promise<Book[]> {
@@ -188,18 +188,18 @@ export async function getEventContent(locale: string, slug: string): Promise<Eve
   assertSupportedEventSlug(slug);
 
   const base = path.join(CONTENT_DIR, "events", slug);
-  const [meta, timeline, heroIds, quotes] = await Promise.all([
+  const [meta, timeline, figureIds, quotes] = await Promise.all([
     readJsonFile<EventMeta>(path.join(base, `meta.${locale}.json`)),
     readJsonFile<TimelineItem[]>(path.join(base, `timeline.${locale}.json`)),
-    readJsonFile<HeroId[]>(path.join(base, "hero-ids.json")),
+    readJsonFile<FigureId[]>(path.join(base, "figure-ids.json")),
     readJsonFile<Quote[]>(path.join(base, `quotes.${locale}.json`)),
   ]);
 
-  const heroes = await Promise.all(heroIds.map((heroId) => getHero(locale, heroId)));
+  const figures = await Promise.all(figureIds.map((figureId) => getFigure(locale, figureId)));
   const resourceIds = await readJsonFile<string[]>(path.join(base, "resource-ids.json"));
   const resources = await Promise.all(resourceIds.map((resourceId) => getResource(locale, resourceId)));
 
-  return { meta, timeline, heroes, resources, quotes };
+  return { meta, timeline, figures, resources, quotes };
 }
 
 export async function getAllEvents(locale: string): Promise<EventMeta[]> {
@@ -207,14 +207,14 @@ export async function getAllEvents(locale: string): Promise<EventMeta[]> {
   return Promise.all(SUPPORTED_EVENT_SLUGS.map((slug) => getEventMeta(locale, slug)));
 }
 
-export async function getEventsByHeroId(locale: string, heroId: string): Promise<EventMeta[]> {
+export async function getEventsByFigureId(locale: string, figureId: string): Promise<EventMeta[]> {
   assertSupportedLocale(locale);
-  assertSupportedHeroId(heroId);
+  assertSupportedFigureId(figureId);
 
   const matches = await Promise.all(
     SUPPORTED_EVENT_SLUGS.map(async (slug) => {
-      const heroIds = await readJsonFile<HeroId[]>(path.join(CONTENT_DIR, "events", slug, "hero-ids.json"));
-      if (!heroIds.includes(heroId)) return null;
+      const figureIds = await readJsonFile<FigureId[]>(path.join(CONTENT_DIR, "events", slug, "figure-ids.json"));
+      if (!figureIds.includes(figureId)) return null;
       return getEventMeta(locale, slug);
     }),
   );
@@ -256,12 +256,12 @@ export async function getEventsByResourceId(locale: string, resourceId: string):
 }
 
 
-export async function getHeroesByEventSlug(locale: string, slug: string): Promise<Hero[]> {
+export async function getFiguresByEventSlug(locale: string, slug: string): Promise<Figure[]> {
   assertSupportedLocale(locale);
   assertSupportedEventSlug(slug);
 
-  const heroIds = await readJsonFile<HeroId[]>(path.join(CONTENT_DIR, "events", slug, "hero-ids.json"));
-  return Promise.all(heroIds.map((heroId) => getHero(locale, heroId)));
+  const figureIds = await readJsonFile<FigureId[]>(path.join(CONTENT_DIR, "events", slug, "figure-ids.json"));
+  return Promise.all(figureIds.map((figureId) => getFigure(locale, figureId)));
 }
 
 // Future CMS migration: swap file readers with provider adapters while preserving these return types.

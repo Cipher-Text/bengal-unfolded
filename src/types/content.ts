@@ -1,6 +1,6 @@
 export const SUPPORTED_LOCALES = ["en", "bn"] as const;
 export const SUPPORTED_EVENT_SLUGS = ["1757", "1857", "1947", "1952", "1969", "1971", "1990", "2024"] as const;
-export const SUPPORTED_HERO_IDS = [
+export const SUPPORTED_FIGURE_IDS = [
   "sheikh-mujibur-rahman",
   "syed-nazrul-islam",
   "tajuddin-ahmad",
@@ -286,7 +286,7 @@ export const SUPPORTED_BOOK_IDS = ["research-volume", "archive-collection"] as c
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 export type EventSlug = (typeof SUPPORTED_EVENT_SLUGS)[number];
-export type HeroId = (typeof SUPPORTED_HERO_IDS)[number];
+export type FigureId = (typeof SUPPORTED_FIGURE_IDS)[number];
 export type BookId = (typeof SUPPORTED_BOOK_IDS)[number];
 export type ResourceId = string;
 
@@ -328,8 +328,8 @@ export type TimelineItem = {
   emphasis?: "normal" | "peak";
 };
 
-export type Hero = {
-  id: HeroId;
+export type Figure = {
+  id: FigureId;
   name: string;
   name_en?: string;
   role: string;
@@ -381,7 +381,7 @@ export type Quote = {
 export type EventContent = {
   meta: EventMeta;
   timeline: TimelineItem[];
-  heroes: Hero[];
+  figures: Figure[];
   resources: EventResource[];
   quotes: Quote[];
 };

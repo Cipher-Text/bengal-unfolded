@@ -13,13 +13,13 @@ content/
       timeline.bn.json
       quotes.en.json
       quotes.bn.json
-      hero-ids.json
+      figure-ids.json
       resource-ids.json
       book-ids.json
-  heroes/
+  figures/
     index.en.json
     index.bn.json
-    <hero-id>/
+    <figure-id>/
       meta.en.json
       meta.bn.json
   resources/
@@ -36,14 +36,14 @@ src/
       page.tsx
       timeline/
         page.tsx
-      heroes/
+      figures/
         page.tsx
         [id]/page.tsx
       books/
         [id]/page.tsx
       events/[slug]/
         page.tsx
-        heroes/page.tsx
+        figures/page.tsx
         resources/page.tsx
   components/
   lib/content.ts

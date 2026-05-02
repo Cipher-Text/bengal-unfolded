@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SUPPORTED_BOOK_IDS, SUPPORTED_EVENT_SLUGS, SUPPORTED_HERO_IDS, SUPPORTED_LOCALES } from "@/types/content";
+import { SUPPORTED_BOOK_IDS, SUPPORTED_EVENT_SLUGS, SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES } from "@/types/content";
 
 const BASE_URL = "https://bengalunfolded.com";
 
@@ -36,11 +36,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: { languages: localeAlternates("") },
       },
       {
-        url: withLocale(locale, "/heroes"),
+        url: withLocale(locale, "/figures"),
         lastModified: now,
         changeFrequency: "weekly",
         priority: 0.8,
-        alternates: { languages: localeAlternates("/heroes") },
+        alternates: { languages: localeAlternates("/figures") },
       },
       {
         url: withLocale(locale, "/timeline"),
@@ -61,11 +61,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
           alternates: { languages: localeAlternates(`/events/${slug}`) },
         },
         {
-          url: withLocale(locale, `/events/${slug}/heroes`),
+          url: withLocale(locale, `/events/${slug}/figures`),
           lastModified: now,
           changeFrequency: "weekly",
           priority: 0.75,
-          alternates: { languages: localeAlternates(`/events/${slug}/heroes`) },
+          alternates: { languages: localeAlternates(`/events/${slug}/figures`) },
         },
         {
           url: withLocale(locale, `/events/${slug}/resources`),
@@ -77,13 +77,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       );
     }
 
-    for (const heroId of SUPPORTED_HERO_IDS) {
+    for (const figureId of SUPPORTED_FIGURE_IDS) {
       entries.push({
-        url: withLocale(locale, `/heroes/${heroId}`),
+        url: withLocale(locale, `/figures/${figureId}`),
         lastModified: now,
         changeFrequency: "monthly",
         priority: 0.7,
-        alternates: { languages: localeAlternates(`/heroes/${heroId}`) },
+        alternates: { languages: localeAlternates(`/figures/${figureId}`) },
       });
     }
 

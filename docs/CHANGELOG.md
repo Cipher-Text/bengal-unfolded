@@ -25,9 +25,9 @@
   - `1857` (Sipahi Revolt / সিপাহী বিদ্রোহ)
   - `1969` (Mass Uprising / গণঅভ্যুত্থান)
 - Updated supported event slug registry in `src/types/content.ts`.
-- Expanded hero dataset with new chapter-specific profiles and localization:
-  - Added Plassey-related hero profiles for `1757`.
-  - Added 40 hero profiles for `1857` (EN/BN metadata).
+- Expanded figure dataset with new chapter-specific profiles and localization:
+  - Added Plassey-related figure profiles for `1757`.
+  - Added 40 figure profiles for `1857` (EN/BN metadata).
 - Fixed `content/site/home.bn.json` malformed JSON string causing prerender failure.
 - Updated root layout script handling to use `next/script` for initialization scripts.
 - Synced docs with current content contract:
@@ -47,11 +47,11 @@
 - Updated `getEventContent` to resolve resources by IDs (strict normalized model).
 - Synced documentation with current UI and implementation.
 - Updated docs to reflect normalized shared resource model.
-- Documented event full-heroes route: `/{locale}/events/{slug}/heroes`.
+- Documented event full-figures route: `/{locale}/events/{slug}/figures`.
 - Documented event resources categories route: `/{locale}/events/{slug}/resources`.
 - Documented timeline progressive loading (`Show more` / `আরও দেখুন`).
 - Documented timeline type badge support.
-- Documented hero index optimization (`content/heroes/index.en.json`, `index.bn.json`).
+- Documented figure index optimization (`content/figures/index.en.json`, `index.bn.json`).
 
 ## 2026-04-28
 
@@ -62,25 +62,25 @@
 - Added timeline `Details` action per event on locale home page.
 - Removed separate event card grid from locale home page.
 - Refactored content model to normalized relationships:
-  - events reference heroes via `hero-ids.json`
+  - events reference figures via `figure-ids.json`
   - events reference books via `book-ids.json`
-- Added dedicated hero detail routes:
-  - `/{locale}/heroes/{id}`
+- Added dedicated figure detail routes:
+  - `/{locale}/figures/{id}`
 - Added dedicated book detail routes:
   - `/{locale}/books/{id}`
 - Added reverse-lookup content queries:
-  - `getEventsByHeroId`
+  - `getEventsByFigureId`
   - `getEventsByBookId`
-- Added event-specific hero list route:
-  - `/{locale}/events/{slug}/heroes`
+- Added event-specific figure list route:
+  - `/{locale}/events/{slug}/figures`
 - Added event-specific categorized resources route:
   - `/{locale}/events/{slug}/resources`
-- Added event page top-5 heroes + `See full list` flow.
+- Added event page top-5 figures + `See full list` flow.
 - Added resources by category + subcategory structure (`Read`, `Watch`, `Explore`, `Understand`).
-- Added pagination for large hero lists.
+- Added pagination for large figure lists.
 - Moved and organized documentation into `docs/` and `docs/archive/`.
 
 ### Technical notes
 - `src/lib/content.ts` remains the single content access layer.
 - Runtime now uses `resource-ids.json` + shared `content/resources/*` for event resources.
-- Legacy per-event `heroes.<locale>.json` files are removed and unused.
+- Legacy per-event `figures.<locale>.json` files are removed and unused.

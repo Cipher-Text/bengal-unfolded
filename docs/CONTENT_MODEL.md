@@ -6,15 +6,15 @@ Static JSON now, adapter-based backend later.
 - `HomeContent`
 - `EventMeta`
 - `TimelineItem`
-- `Hero`
+- `Figure`
 - `Book`
 - `EventResource`
 - `Quote`
 - `EventContent`
 
 ## Relationship model
-- `event -> heroes` is many-to-many via `content/events/<slug>/hero-ids.json`.
-- Hero detail pages perform reverse lookup to list related events.
+- `event -> figures` is many-to-many via `content/events/<slug>/figure-ids.json`.
+- Figure detail pages perform reverse lookup to list related events.
 - `event -> resources` is many-to-many via `content/events/<slug>/resource-ids.json`.
 - Shared resource metadata is stored in `content/resources/<resource-id>/meta.<locale>.json`.
 - `book` entity is still supported for dedicated book pages and reverse lookups.
@@ -24,15 +24,15 @@ Static JSON now, adapter-based backend later.
   - `meta.<locale>.json`
   - `timeline.<locale>.json`
   - `quotes.<locale>.json`
-  - `hero-ids.json`
+  - `figure-ids.json`
   - `resource-ids.json`
   - `book-ids.json`
-- Hero files:
-  - `content/heroes/<hero-id>/meta.en.json`
-  - `content/heroes/<hero-id>/meta.bn.json`
+- Figure files:
+  - `content/figures/<figure-id>/meta.en.json`
+  - `content/figures/<figure-id>/meta.bn.json`
   - Optional index for faster loading:
-    - `content/heroes/index.en.json`
-    - `content/heroes/index.bn.json`
+    - `content/figures/index.en.json`
+    - `content/figures/index.bn.json`
 - Book files:
   - `content/books/<book-id>/meta.en.json`
   - `content/books/<book-id>/meta.bn.json`
@@ -90,18 +90,18 @@ Static JSON now, adapter-based backend later.
 - `getEventMeta`
 - `getEventContent`
 - `getAllEvents`
-- `getHero`
+- `getFigure`
 - `getBook`
-- `getAllHeroes`
+- `getAllFigures`
 - `getAllBooks`
-- `getEventsByHeroId`
+- `getEventsByFigureId`
 - `getEventsByBookId`
-- `getHeroesByEventSlug`
+- `getFiguresByEventSlug`
 - `getResource`
 - `getEventsByResourceId`
 
 Implementation note:
-- `getAllHeroes` first tries `content/heroes/index.<locale>.json`, then falls back to per-hero files.
+- `getAllFigures` first tries `content/figures/index.<locale>.json`, then falls back to per-figure files.
 - `getEventContent` resolves resources from `resource-ids.json` through shared `content/resources/*`.
 
 Future migration: replace filesystem reads in `src/lib/content.ts` with Strapi/Payload/Directus/PostgreSQL adapters while preserving signatures.

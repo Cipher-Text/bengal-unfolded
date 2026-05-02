@@ -34,11 +34,11 @@ function assertArray(value, label, errors) {
 async function main() {
   const errors = [];
   const eventDir = path.join(contentDir, "events");
-  const heroDir = path.join(contentDir, "heroes");
+  const figureDir = path.join(contentDir, "figures");
   const resourceDir = path.join(contentDir, "resources");
   const bookDir = path.join(contentDir, "books");
 
-  const heroIds = new Set((await fs.readdir(heroDir)).filter((name) => !name.startsWith("index.")));
+  const figureIds = new Set((await fs.readdir(figureDir)).filter((name) => !name.startsWith("index.")));
   const resourceIds = new Set(await fs.readdir(resourceDir));
   const bookIds = new Set(await fs.readdir(bookDir));
 
@@ -52,7 +52,7 @@ async function main() {
       "timeline.bn.json",
       "quotes.en.json",
       "quotes.bn.json",
-      "hero-ids.json",
+      "figure-ids.json",
       "resource-ids.json",
       "book-ids.json",
     ];
@@ -64,20 +64,20 @@ async function main() {
       }
     }
 
-    const heroIdsFile = await readJson(path.join(base, "hero-ids.json"), errors);
+    const figureIdsFile = await readJson(path.join(base, "figure-ids.json"), errors);
     const resourceIdsFile = await readJson(path.join(base, "resource-ids.json"), errors);
     const bookIdsFile = await readJson(path.join(base, "book-ids.json"), errors);
     const timelineEn = await readJson(path.join(base, "timeline.en.json"), errors);
     const timelineBn = await readJson(path.join(base, "timeline.bn.json"), errors);
 
-    if (heroIdsFile && assertArray(heroIdsFile, `content/events/${slug}/hero-ids.json`, errors)) {
-      for (const heroId of heroIdsFile) {
-        if (typeof heroId !== "string") {
-          errors.push(`Non-string hero ID in content/events/${slug}/hero-ids.json`);
+    if (figureIdsFile && assertArray(figureIdsFile, `content/events/${slug}/figure-ids.json`, errors)) {
+      for (const figureId of figureIdsFile) {
+        if (typeof figureId !== "string") {
+          errors.push(`Non-string figure ID in content/events/${slug}/figure-ids.json`);
           continue;
         }
-        if (!heroIds.has(heroId)) {
-          errors.push(`Unknown hero ID '${heroId}' in content/events/${slug}/hero-ids.json`);
+        if (!figureIds.has(figureId)) {
+          errors.push(`Unknown figure ID '${figureId}' in content/events/${slug}/figure-ids.json`);
         }
       }
     }

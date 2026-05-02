@@ -28,10 +28,10 @@ Files updated:
 - `src/app/layout.tsx`
 - `src/app/[locale]/page.tsx`
 - `src/app/[locale]/events/[slug]/page.tsx`
-- `src/app/[locale]/heroes/[id]/page.tsx`
+- `src/app/[locale]/figures/[id]/page.tsx`
 - `src/app/[locale]/books/[id]/page.tsx`
-- `src/app/[locale]/heroes/page.tsx`
-- `src/app/[locale]/events/[slug]/heroes/page.tsx`
+- `src/app/[locale]/figures/page.tsx`
+- `src/app/[locale]/events/[slug]/figures/page.tsx`
 - `src/app/[locale]/events/[slug]/resources/page.tsx`
 
 ### 2) Canonical URL and domain strategy
@@ -54,14 +54,14 @@ Files added/updated:
 - Added site-level `WebSite` JSON-LD.
 - Added `WebPage` JSON-LD on locale homepage.
 - Added `Event` JSON-LD for event pages.
-- Added `Person` JSON-LD for hero detail pages.
+- Added `Person` JSON-LD for figure detail pages.
 - Added `Book` JSON-LD for book detail pages.
 
 Files updated:
 - `src/app/layout.tsx`
 - `src/app/[locale]/page.tsx`
 - `src/app/[locale]/events/[slug]/page.tsx`
-- `src/app/[locale]/heroes/[id]/page.tsx`
+- `src/app/[locale]/figures/[id]/page.tsx`
 - `src/app/[locale]/books/[id]/page.tsx`
 
 ### 5) Sitemap and hreflang
@@ -83,7 +83,7 @@ File updated:
 - No H1 duplication introduced by this update.
 
 ### 8) Internal links
-- Existing internal links between home/events/heroes/resources/books are present and remain valid.
+- Existing internal links between home/events/figures/resources/books are present and remain valid.
 - Pagination URLs keep existing route patterns unchanged.
 
 ### 9) Image alt text
@@ -100,5 +100,5 @@ File updated:
 ## Remaining recommendations
 1. Add route-specific generated OG images (`opengraph-image.tsx`) for key event pages to improve share CTR and contextual relevance.
 2. If content images are added later, enforce descriptive `alt` text linting and include caption/source metadata for historical assets.
-3. Add `BreadcrumbList` JSON-LD to deeper pages (`/events/*`, `/heroes/*`, `/books/*`) for richer SERP presentation.
+3. Add `BreadcrumbList` JSON-LD to deeper pages (`/events/*`, `/figures/*`, `/books/*`) for richer SERP presentation.
 4. Consider replacing Google Fonts `<link>` tags in root layout with Next.js font optimization to remove the current lint warning.

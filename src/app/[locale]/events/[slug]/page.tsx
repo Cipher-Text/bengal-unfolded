@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { EventNavigation } from "@/components/EventNavigation";
 import { EventTimeline } from "@/components/EventTimeline";
-import { HeroProfileCard } from "@/components/HeroProfileCard";
+import { FigureProfileCard } from "@/components/FigureProfileCard";
 import { HeroSection } from "@/components/HeroSection";
 import { QuoteBlock } from "@/components/QuoteBlock";
 import { ResourceCard } from "@/components/ResourceCard";
@@ -35,7 +35,7 @@ const EVENT_LABELS = {
   en: {
     overview: "Event Overview",
     timeline: "Interactive Timeline",
-    heroes: "Heroes / Key Figures",
+    figures: "Figures / Historical Actors",
     seeFullList: "See full list",
     resourcesTitle: "Resources by Category",
     resourcesSubtitle: "Browse resources by subcategory",
@@ -46,7 +46,7 @@ const EVENT_LABELS = {
   bn: {
     overview: "ইভেন্ট ওভারভিউ",
     timeline: "ইন্টারঅ্যাক্টিভ টাইমলাইন",
-    heroes: "নায়ক ও গুরুত্বপূর্ণ ব্যক্তিত্ব",
+    figures: "ব্যক্তিত্ব ও ঐতিহাসিক অভিনেতা",
     seeFullList: "পূর্ণ তালিকা দেখুন",
     resourcesTitle: "ক্যাটাগরি অনুযায়ী রিসোর্স",
     resourcesSubtitle: "সাব-ক্যাটাগরি অনুযায়ী রিসোর্স ব্রাউজ করুন",
@@ -62,7 +62,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
 
   const [event, allEvents] = await Promise.all([getEventContent(locale, slug), getAllEvents(locale)]);
   const currentIndex = allEvents.findIndex((item) => item.slug === slug);
-  const featuredHeroes = event.heroes.slice(0, 5);
+  const featuredFigures = event.figures.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
   const eventJsonLd = {
     "@context": "https://schema.org",
@@ -93,14 +93,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.1}>
-        <SectionTitle title={labels.heroes} />
+        <SectionTitle title={labels.figures} />
         <div className="mt-4 grid gap-4 md:grid-cols-2">
-          {featuredHeroes.map((hero, index) => (
-            <HeroProfileCard key={hero.id} hero={hero} locale={locale as Locale} featured={index === 0} />
+          {featuredFigures.map((figure, index) => (
+            <FigureProfileCard key={figure.id} figure={figure} locale={locale as Locale} featured={index === 0} />
           ))}
         </div>
         <div className="mt-4">
-          <Link href={`/${locale}/events/${slug}/heroes`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
+          <Link href={`/${locale}/events/${slug}/figures`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
             {labels.seeFullList}
           </Link>
         </div>
