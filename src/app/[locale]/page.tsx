@@ -31,8 +31,8 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const landingEvents = events.filter((event) => event.showOnLanding !== false);
 
   const phaseBySlug: Record<string, string> = locale === "bn"
-    ? { "1757": "পলাশী", "1857": "বিদ্রোহ", "1947": "বিভাজন", "1952": "ভাষা", "1969": "অভ্যুত্থান", "1971": "স্বাধীনতা", "1975": "বাকশাল", "1990": "গণতন্ত্র", "2024": "ন্যায্যতা" }
-    : { "1757": "Plassey", "1857": "Revolt", "1947": "Partition", "1952": "Language", "1969": "Uprising", "1971": "Liberation", "1975": "BAKSAL", "1990": "Democracy", "2024": "Justice" };
+    ? { "1757": "পলাশী", "1857": "বিদ্রোহ", "1947": "বিভাজন", "1952": "ভাষা", "1969": "অভ্যুত্থান", "1971": "স্বাধীনতা", "1975": "বাকশাল", "1990": "গণতন্ত্র", "2006": "তত্ত্বাবধায়ক সংকট", "2024": "ন্যায্যতা" }
+    : { "1757": "Plassey", "1857": "Revolt", "1947": "Partition", "1952": "Language", "1969": "Uprising", "1971": "Liberation", "1975": "BAKSAL", "1990": "Democracy", "2006": "Caretaker Crisis", "2024": "Justice" };
 
   const timelineItems = landingEvents.map((event) => ({
     year: event.year,

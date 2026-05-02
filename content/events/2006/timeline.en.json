@@ -1,0 +1,56 @@
+[
+  {
+    "year": "Late 2006",
+    "title": "Caretaker transition dispute escalates",
+    "detail": "Disagreement over the caretaker setup and election administration triggered severe polarization and prolonged street agitation.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "khaleda-zia-banglapedia"
+    ]
+  },
+  {
+    "year": "Oct-Dec 2006",
+    "title": "Violence and electoral legitimacy crisis",
+    "detail": "Competing alliances challenged each other's legitimacy, and the election process became widely contested.",
+    "sourceIds": [
+      "khaleda-zia-banglapedia",
+      "sheikh-hasina-banglapedia"
+    ]
+  },
+  {
+    "year": "11 Jan 2007",
+    "title": "Emergency declared (\"1/11\")",
+    "detail": "A state of emergency was declared, planned polls were halted, and a reconfigured caretaker administration assumed extended control.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "military-rule-banglapedia"
+    ]
+  },
+  {
+    "year": "2007",
+    "title": "Emergency-era governance and anti-corruption drive",
+    "detail": "The non-elected administration launched broad administrative and anti-corruption actions while curbing normal partisan politics.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "caretaker-government-banglapedia"
+    ]
+  },
+  {
+    "year": "2007-2008",
+    "title": "Political recalibration under restrictions",
+    "detail": "Major parties underwent internal and strategic recalibration as negotiations over electoral return continued.",
+    "sourceIds": [
+      "sheikh-hasina-banglapedia",
+      "khaleda-zia-banglapedia"
+    ]
+  },
+  {
+    "year": "Dec 2008",
+    "title": "Return to election-based transfer",
+    "detail": "National elections were held, ending prolonged emergency-era administration and restoring elected parliamentary government.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "sheikh-hasina-banglapedia"
+    ]
+  }
+]
