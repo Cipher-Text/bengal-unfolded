@@ -1,0 +1,47 @@
+[
+  {
+    "year": "1942",
+    "title": "Wartime stress destabilizes Bengal's food economy",
+    "detail": "World War II disruptions, transport strain, and market uncertainty weakened food distribution and intensified price volatility in Bengal.",
+    "sourceIds": [
+      "midnights-furies",
+      "the-spoils-of-partition"
+    ]
+  },
+  {
+    "year": "Early 1943",
+    "title": "Food prices rise beyond the reach of poor households",
+    "detail": "Rapid inflation and grain scarcity pushed millions of rural laborers and urban poor families into acute insecurity.",
+    "sourceIds": [
+      "midnights-furies",
+      "research-volume"
+    ]
+  },
+  {
+    "year": "Mid-Late 1943",
+    "title": "Mass starvation and mortality spread across Bengal",
+    "detail": "Large-scale hunger, disease, and displacement devastated villages and towns as relief remained inadequate and uneven.",
+    "sourceIds": [
+      "the-spoils-of-partition",
+      "research-volume"
+    ]
+  },
+  {
+    "year": "1943-1944",
+    "title": "Public anger grows over administrative failure",
+    "detail": "Criticism intensified against colonial policy failures, profiteering, and delayed humanitarian response.",
+    "sourceIds": [
+      "midnights-furies",
+      "the-spoils-of-partition"
+    ]
+  },
+  {
+    "year": "Long-term impact",
+    "title": "Famine memory shapes later politics in Bengal",
+    "detail": "The social trauma of famine became part of wider political consciousness, feeding postwar unrest and debates on justice, governance, and representation.",
+    "sourceIds": [
+      "the-spoils-of-partition",
+      "research-volume"
+    ]
+  }
+]

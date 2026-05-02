@@ -1,0 +1,47 @@
+[
+  {
+    "year": "1905",
+    "title": "Partition of Bengal is implemented",
+    "detail": "British authorities divided Bengal, triggering immediate political resistance, boycott campaigns, and debates over identity and representation.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "research-volume"
+    ]
+  },
+  {
+    "year": "1905-1911",
+    "title": "Sustained anti-partition mobilization grows",
+    "detail": "Political leaders, civic groups, and sections of the public maintained prolonged protest and organizational pressure against the partition arrangement.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "the-great-partition"
+    ]
+  },
+  {
+    "year": "12 Dec 1911",
+    "title": "Partition of Bengal is annulled",
+    "detail": "At the Delhi Durbar, the British Crown announced the reversal of the 1905 partition and the reunification of Bengal.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "research-volume"
+    ]
+  },
+  {
+    "year": "1911",
+    "title": "Imperial capital shifts from Calcutta to Delhi",
+    "detail": "Alongside annulment, the colonial state moved the capital, signaling a wider administrative recalibration beyond Bengal alone.",
+    "sourceIds": [
+      "the-great-partition",
+      "research-volume"
+    ]
+  },
+  {
+    "year": "After 1911",
+    "title": "Legacy shapes later Bengal and subcontinental politics",
+    "detail": "Although partition was reversed, the episode left lasting effects on political alignments, constitutional debates, and communal dynamics.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "the-great-partition"
+    ]
+  }
+]

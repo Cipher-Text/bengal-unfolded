@@ -1,0 +1,47 @@
+[
+  {
+    "year": "7 Oct 1958",
+    "title": "Constitution abrogated and martial law declared",
+    "detail": "Pakistan's constitutional order was suspended, legislatures were dissolved, and military rule replaced parliamentary governance.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "research-volume"
+    ]
+  },
+  {
+    "year": "Oct 1958",
+    "title": "Political parties and representative politics restricted",
+    "detail": "Martial law authorities curtailed party activity and centralized executive power, narrowing democratic channels in both wings of Pakistan.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "partition-politics-banglapedia"
+    ]
+  },
+  {
+    "year": "1958-1962",
+    "title": "Administrative centralization deepens in East Pakistan",
+    "detail": "Bureaucratic and military structures gained stronger control over provincial affairs, reinforcing East Pakistan's complaints about unequal federal power.",
+    "sourceIds": [
+      "research-volume",
+      "military-rule-banglapedia"
+    ]
+  },
+  {
+    "year": "Early 1960s",
+    "title": "Opposition reorganizes under constrained conditions",
+    "detail": "Despite restrictions, political actors and civic networks in East Pakistan continued to rebuild opposition discourse around rights and autonomy.",
+    "sourceIds": [
+      "bangladesh-awami-league-banglapedia",
+      "research-volume"
+    ]
+  },
+  {
+    "year": "1960s and after",
+    "title": "Martial law legacy fuels later mass movements",
+    "detail": "The authoritarian turn of 1958 became a reference point in later mobilizations, including autonomy campaigns and anti-regime uprisings.",
+    "sourceIds": [
+      "bangladesh-from-mujib-to-ershad",
+      "military-rule-banglapedia"
+    ]
+  }
+]
