@@ -40,7 +40,7 @@ function isBookId(v: string): v is BookId {
 
 function normalizeEventResource(resourceId: string, resource: Record<string, unknown>): EventResource {
   const title = String(resource.title ?? "");
-  const author = String(resource.author ?? "");
+  const attribution = String(resource.attribution ?? resource.creator ?? resource.author ?? "");
   const note = String(resource.note ?? "");
   const href = typeof resource.href === "string" ? resource.href : undefined;
   const category = typeof resource.category === "string" ? resource.category : undefined;
@@ -51,7 +51,7 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
     return {
       id: resourceId,
       title,
-      author,
+      attribution,
       note,
       href,
       category: category as EventResource["category"],
@@ -60,12 +60,43 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
   }
 
   if (legacyType === "book") {
-    return { id: resourceId, title, author, note, href, category: "read", subcategory: "historical-literature" };
+    return { id: resourceId, title, attribution, note, href, category: "read", subcategory: "historical-literature" };
   }
   if (legacyType === "article") {
-    return { id: resourceId, title, author, note, href, category: "understand", subcategory: "research" };
+    return { id: resourceId, title, attribution, note, href, category: "understand", subcategory: "research" };
   }
-  return { id: resourceId, title, author, note, href, category: "explore", subcategory: "archive" };
+  return { id: resourceId, title, attribution, note, href, category: "explore", subcategory: "archive" };
+}
+
+function normalizeBook(bookId: BookId, rawBook: Record<string, unknown>): Book {
+  const title = String(rawBook.title ?? "");
+  const note = String(rawBook.note ?? "");
+  const type = rawBook.type === "article" || rawBook.type === "archive" ? rawBook.type : "book";
+
+  const authors = Array.isArray(rawBook.authors)
+    ? rawBook.authors.filter((author): author is string => typeof author === "string" && author.trim().length > 0)
+    : [];
+  const legacyAuthor = typeof rawBook.author === "string" ? rawBook.author.trim() : "";
+  const fallbackAttribution = typeof rawBook.attribution === "string" ? rawBook.attribution.trim() : "";
+  const fallbackCreator = typeof rawBook.creator === "string" ? rawBook.creator.trim() : "";
+  const normalizedAuthors = authors.length > 0
+    ? authors
+    : legacyAuthor
+      ? [legacyAuthor]
+      : fallbackAttribution
+        ? [fallbackAttribution]
+        : fallbackCreator
+          ? [fallbackCreator]
+          : [];
+
+  return {
+    id: bookId,
+    title,
+    author: normalizedAuthors[0] ?? "",
+    authors: normalizedAuthors,
+    type,
+    note,
+  };
 }
 
 function inferFigureGroup(role: string): Figure["group"] {
@@ -161,8 +192,8 @@ export async function getFigure(locale: string, figureId: string): Promise<Figur
 export async function getBook(locale: string, bookId: string): Promise<Book> {
   assertSupportedLocale(locale);
   assertSupportedBookId(bookId);
-  const book = await readJsonFile<Omit<Book, "id">>(path.join(CONTENT_DIR, "books", bookId, `meta.${locale}.json`));
-  return { id: bookId, ...book };
+  const rawBook = await readJsonFile<Record<string, unknown>>(path.join(CONTENT_DIR, "resources", bookId, `meta.${locale}.json`));
+  return normalizeBook(bookId, rawBook);
 }
 
 export async function getAllFigures(locale: string): Promise<Figure[]> {
@@ -228,8 +259,8 @@ export async function getEventsByBookId(locale: string, bookId: string): Promise
 
   const matches = await Promise.all(
     SUPPORTED_EVENT_SLUGS.map(async (slug) => {
-      const bookIds = await readJsonFile<BookId[]>(path.join(CONTENT_DIR, "events", slug, "book-ids.json"));
-      if (!bookIds.includes(bookId)) return null;
+      const resourceIds = await readJsonFile<string[]>(path.join(CONTENT_DIR, "events", slug, "resource-ids.json"));
+      if (!resourceIds.includes(bookId)) return null;
       return getEventMeta(locale, slug);
     }),
   );

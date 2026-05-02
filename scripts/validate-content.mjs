@@ -36,11 +36,9 @@ async function main() {
   const eventDir = path.join(contentDir, "events");
   const figureDir = path.join(contentDir, "figures");
   const resourceDir = path.join(contentDir, "resources");
-  const bookDir = path.join(contentDir, "books");
 
   const figureIds = new Set((await fs.readdir(figureDir)).filter((name) => !name.startsWith("index.")));
   const resourceIds = new Set(await fs.readdir(resourceDir));
-  const bookIds = new Set(await fs.readdir(bookDir));
 
   const eventSlugs = await fs.readdir(eventDir);
   for (const slug of eventSlugs) {
@@ -54,7 +52,6 @@ async function main() {
       "quotes.bn.json",
       "figure-ids.json",
       "resource-ids.json",
-      "book-ids.json",
     ];
 
     for (const fileName of required) {
@@ -66,7 +63,6 @@ async function main() {
 
     const figureIdsFile = await readJson(path.join(base, "figure-ids.json"), errors);
     const resourceIdsFile = await readJson(path.join(base, "resource-ids.json"), errors);
-    const bookIdsFile = await readJson(path.join(base, "book-ids.json"), errors);
     const timelineEn = await readJson(path.join(base, "timeline.en.json"), errors);
     const timelineBn = await readJson(path.join(base, "timeline.bn.json"), errors);
 
@@ -90,18 +86,6 @@ async function main() {
         }
         if (!resourceIds.has(resourceId)) {
           errors.push(`Unknown resource ID '${resourceId}' in content/events/${slug}/resource-ids.json`);
-        }
-      }
-    }
-
-    if (bookIdsFile && assertArray(bookIdsFile, `content/events/${slug}/book-ids.json`, errors)) {
-      for (const bookId of bookIdsFile) {
-        if (typeof bookId !== "string") {
-          errors.push(`Non-string book ID in content/events/${slug}/book-ids.json`);
-          continue;
-        }
-        if (!bookIds.has(bookId)) {
-          errors.push(`Unknown book ID '${bookId}' in content/events/${slug}/book-ids.json`);
         }
       }
     }

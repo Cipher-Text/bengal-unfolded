@@ -15,7 +15,6 @@ content/
       quotes.bn.json
       figure-ids.json
       resource-ids.json
-      book-ids.json
   figures/
     index.en.json
     index.bn.json
@@ -24,10 +23,6 @@ content/
       meta.bn.json
   resources/
     <resource-id>/
-      meta.en.json
-      meta.bn.json
-  books/
-    <book-id>/
       meta.en.json
       meta.bn.json
 src/

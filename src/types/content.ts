@@ -346,6 +346,7 @@ export type Book = {
   id: BookId;
   title: string;
   author: string;
+  authors: string[];
   type: "book" | "article" | "archive";
   note: string;
 };
@@ -355,7 +356,7 @@ export type ResourceCategory = "read" | "watch" | "explore" | "understand";
 export type EventResource = {
   id: ResourceId;
   title: string;
-  author: string;
+  attribution: string;
   note: string;
   category: ResourceCategory;
   subcategory:

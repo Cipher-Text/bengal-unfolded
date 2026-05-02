@@ -40,7 +40,7 @@ export function ResourceCard({ resource, locale }: { resource: EventResource; lo
   return (
     <article className="theme-surface rounded-xl border p-4">
       <h3 className="text-base font-semibold">{resource.title}</h3>
-      <p className="theme-muted mt-1 text-sm">{resource.author}</p>
+      <p className="theme-muted mt-1 text-sm">{resource.attribution}</p>
       <p className="mt-1 text-xs tracking-[0.2em] text-accent uppercase">{CATEGORY_LABELS[locale][resource.category]} · {SUBCATEGORY_LABELS[locale][resource.subcategory]}</p>
       {resource.note ? <p className="theme-muted mt-2 line-clamp-3 text-sm">{resource.note}</p> : null}
       {resource.href ? (

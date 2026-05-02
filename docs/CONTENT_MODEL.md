@@ -17,6 +17,8 @@ Static JSON now, adapter-based backend later.
 - Figure detail pages perform reverse lookup to list related events.
 - `event -> resources` is many-to-many via `content/events/<slug>/resource-ids.json`.
 - Shared resource metadata is stored in `content/resources/<resource-id>/meta.<locale>.json`.
+- `event <-> books` is many-to-many via `content/events/<slug>/resource-ids.json` where book IDs are resource IDs.
+- `book <-> writers` supports many-to-many at schema level with `authors: string[]` on book metadata (legacy `author` is still supported for backward compatibility).
 - `book` entity is still supported for dedicated book pages and reverse lookups.
 
 ## File contracts
@@ -26,7 +28,6 @@ Static JSON now, adapter-based backend later.
   - `quotes.<locale>.json`
   - `figure-ids.json`
   - `resource-ids.json`
-  - `book-ids.json`
 - Figure files:
   - `content/figures/<figure-id>/meta.en.json`
   - `content/figures/<figure-id>/meta.bn.json`
@@ -34,8 +35,8 @@ Static JSON now, adapter-based backend later.
     - `content/figures/index.en.json`
     - `content/figures/index.bn.json`
 - Book files:
-  - `content/books/<book-id>/meta.en.json`
-  - `content/books/<book-id>/meta.bn.json`
+  - No separate `books` storage.
+  - Book pages resolve from `content/resources/<book-id>/meta.<locale>.json`.
 - Resource files:
   - `content/resources/<resource-id>/meta.en.json`
   - `content/resources/<resource-id>/meta.bn.json`
@@ -67,7 +68,7 @@ Static JSON now, adapter-based backend later.
 - `EventResource` fields:
   - `id`
   - `title`
-  - `author`
+  - `attribution` (credit line; supports writer/director/cartographer/organization; loader falls back to legacy `creator` or `author`)
   - `note`
   - `category` in `read | watch | explore | understand`
   - `subcategory` in:

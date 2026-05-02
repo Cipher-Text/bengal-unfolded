@@ -31,11 +31,13 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_BOOK_IDS.includes(id as BookId)) notFound();
 
   const [book, events] = await Promise.all([getBook(locale, id), getEventsByBookId(locale, id)]);
+  const bookAuthors = book.authors.length > 0 ? book.authors : book.author ? [book.author] : [];
+  const authorsLabel = bookAuthors.join(", ");
   const bookJsonLd = {
     "@context": "https://schema.org",
     "@type": "Book",
     name: book.title,
-    author: { "@type": "Person", name: book.author },
+    author: bookAuthors.map((name) => ({ "@type": "Person", name })),
     description: book.note,
     url: `https://bengalunfolded.com/${locale}/books/${id}`,
     inLanguage: localeLanguageTag(locale as Locale),
@@ -44,7 +46,7 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
   return (
     <div className="space-y-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(bookJsonLd) }} />
-      <HeroSection title={book.title} tagline={book.author} intro={book.note} />
+      <HeroSection title={book.title} tagline={authorsLabel} intro={book.note} />
 
       <AnimatedContainer>
         <SectionTitle title="Category" subtitle={book.type} />
