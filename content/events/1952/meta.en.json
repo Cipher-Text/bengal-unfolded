@@ -7,5 +7,6 @@
   "themeColor": "#b64040",
   "ctaLabel": "Learn the language story",
   "heroTagline": "In 1952, the defense of language became a defense of dignity, memory, and political existence.",
-  "whyItMatters": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh."
+  "whyItMatters": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+  "showOnLanding": true
 }

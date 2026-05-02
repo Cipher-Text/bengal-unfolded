@@ -7,5 +7,6 @@
   "themeColor": "#8b5e3c",
   "ctaLabel": "See the history",
   "heroTagline": "1947 did not only divide territory. It transformed memory, belonging, and political destiny.",
-  "whyItMatters": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh."
+  "whyItMatters": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+  "showOnLanding": true
 }

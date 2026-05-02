@@ -7,5 +7,6 @@
   "themeColor": "#6b2f7f",
   "ctaLabel": "Understand the movement",
   "heroTagline": "A generation asks: are opportunity and dignity truly equal for all?",
-  "whyItMatters": "The 2024 movement was not only a demand for policy change. It raised a deeper social question about fairness, equality, and the future of young people, showing how a new generation is active and politically conscious about its rights and opportunities."
+  "whyItMatters": "The 2024 movement was not only a demand for policy change. It raised a deeper social question about fairness, equality, and the future of young people, showing how a new generation is active and politically conscious about its rights and opportunities.",
+  "showOnLanding": true
 }

@@ -7,5 +7,6 @@
   "themeColor": "#d97706",
   "ctaLabel": "See the movement",
   "heroTagline": "In 1990, the demand for democracy became a countrywide act of political courage.",
-  "whyItMatters": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order."
+  "whyItMatters": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+  "showOnLanding": true
 }
