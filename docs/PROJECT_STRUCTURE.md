@@ -15,6 +15,7 @@ content/
       quotes.bn.json
       hero-ids.json
       resource-ids.json
+      book-ids.json
   heroes/
     index.en.json
     index.bn.json

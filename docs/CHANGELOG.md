@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-05-03
+
+### Completed
+- Added new event content chapters:
+  - `1757` (Battle of Plassey / পলাশীর যুদ্ধ)
+  - `1857` (Sipahi Revolt / সিপাহী বিদ্রোহ)
+  - `1969` (Mass Uprising / গণঅভ্যুত্থান)
+- Updated supported event slug registry in `src/types/content.ts`.
+- Expanded hero dataset with new chapter-specific profiles and localization:
+  - Added Plassey-related hero profiles for `1757`.
+  - Added 40 hero profiles for `1857` (EN/BN metadata).
+- Fixed `content/site/home.bn.json` malformed JSON string causing prerender failure.
+- Updated root layout script handling to use `next/script` for initialization scripts.
+- Synced docs with current content contract:
+  - Event folder structure includes `book-ids.json`.
+  - Content model event file contracts include `book-ids.json`.
+
 ## 2026-04-29
 
 ### Completed

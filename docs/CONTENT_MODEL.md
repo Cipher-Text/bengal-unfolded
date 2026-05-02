@@ -26,6 +26,7 @@ Static JSON now, adapter-based backend later.
   - `quotes.<locale>.json`
   - `hero-ids.json`
   - `resource-ids.json`
+  - `book-ids.json`
 - Hero files:
   - `content/heroes/<hero-id>/meta.en.json`
   - `content/heroes/<hero-id>/meta.bn.json`
