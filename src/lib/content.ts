@@ -249,8 +249,7 @@ export async function getAllResources(locale: string): Promise<EventResource[]> 
   return Promise.all(resourceIds.map((resourceId) => getResource(locale, resourceId)));
 }
 
-export async function getAllCreators(locale: string): Promise<Creator[]> {
-  assertSupportedLocale(locale);
+const creatorsCached = cache(async (locale: string): Promise<Map<string, Creator>> => {
   const resources = await getAllResources(locale);
   const byId = new Map<string, Creator>();
 
@@ -272,13 +271,19 @@ export async function getAllCreators(locale: string): Promise<Creator[]> {
     }
   }
 
-  return Array.from(byId.values()).sort((a, b) => a.name.localeCompare(b.name));
+  return byId;
+});
+
+export async function getAllCreators(locale: string): Promise<Creator[]> {
+  assertSupportedLocale(locale);
+  const creatorsMap = await creatorsCached(locale);
+  return Array.from(creatorsMap.values()).sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export async function getCreatorById(locale: string, creatorId: string): Promise<Creator | null> {
   assertSupportedLocale(locale);
-  const creators = await getAllCreators(locale);
-  return creators.find((creator) => creator.id === creatorId) ?? null;
+  const creators = await creatorsCached(locale);
+  return creators.get(creatorId) ?? null;
 }
 
 export async function getResourcesByCreatorId(locale: string, creatorId: string): Promise<EventResource[]> {
@@ -311,6 +316,36 @@ export async function getEventContent(locale: string, slug: string): Promise<Eve
 export async function getAllEvents(locale: string): Promise<EventMeta[]> {
   assertSupportedLocale(locale);
   return Promise.all(SUPPORTED_EVENT_SLUGS.map((slug) => getEventMeta(locale, slug)));
+}
+
+export async function getPreviousAndNextEvents(
+  locale: string,
+  currentSlug: string,
+): Promise<{ previous?: EventMeta; next?: EventMeta }> {
+  assertSupportedLocale(locale);
+  assertSupportedEventSlug(currentSlug);
+
+  const currentIndex = SUPPORTED_EVENT_SLUGS.indexOf(currentSlug as EventSlug);
+
+  const [previous, next] = await Promise.all([
+    currentIndex > 0 ? getEventMeta(locale, SUPPORTED_EVENT_SLUGS[currentIndex - 1]) : Promise.resolve(undefined),
+    currentIndex < SUPPORTED_EVENT_SLUGS.length - 1
+      ? getEventMeta(locale, SUPPORTED_EVENT_SLUGS[currentIndex + 1])
+      : Promise.resolve(undefined),
+  ]);
+
+  return { previous, next };
+}
+
+export async function getEventMetaForDisplay(
+  locale: string,
+  slug: string,
+): Promise<{ title: string; year: string; slug: EventSlug }> {
+  assertSupportedLocale(locale);
+  assertSupportedEventSlug(slug);
+
+  const meta = await getEventMeta(locale, slug);
+  return { title: meta.title, year: meta.year, slug: meta.slug };
 }
 
 export async function getEventsByFigureId(locale: string, figureId: string): Promise<EventMeta[]> {

@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getEventContent } from "@/lib/content";
+import { getEventContent, getEventMetaForDisplay } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventResource, type EventSlug, type Locale } from "@/types/content";
 
@@ -50,10 +50,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) return {};
-  const event = await getEventContent(locale, slug);
+  const eventMeta = await getEventMetaForDisplay(locale, slug);
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${event.meta.year} Resources | ${event.meta.title} | Bengal Unfolded`,
+    title: `${eventMeta.year} Resources | ${eventMeta.title} | Bengal Unfolded`,
     description: "Categorized resources for deeper learning.",
     canonicalPath: `/${locale}/events/${slug}/resources`,
     languagePathWithoutLocale: `/events/${slug}/resources`,

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { FigureProfileCard } from "@/components/FigureProfileCard";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getEventContent, getFiguresByEventSlug } from "@/lib/content";
+import { getEventMetaForDisplay, getFiguresByEventSlug } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 
@@ -22,13 +22,13 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const { page } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) return {};
-  const event = await getEventContent(locale, slug);
+  const eventMeta = await getEventMetaForDisplay(locale, slug);
   const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
   const canonical = currentPage > 1 ? `/${locale}/events/${slug}/figures?page=${currentPage}` : `/${locale}/events/${slug}/figures`;
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${event.meta.year} Figures | ${event.meta.title} | Bengal Unfolded`,
-    description: `Full figure list for ${event.meta.title}.`,
+    title: `${eventMeta.year} Figures | ${eventMeta.title} | Bengal Unfolded`,
+    description: `Full figure list for ${eventMeta.title}.`,
     canonicalPath: canonical,
     languagePathWithoutLocale: `/events/${slug}/figures`,
     noIndex: currentPage > 1,
@@ -48,7 +48,7 @@ export default async function EventFiguresListPage({
   const { page } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) notFound();
 
-  const [event, figures] = await Promise.all([getEventContent(locale, slug), getFiguresByEventSlug(locale, slug)]);
+  const [eventMeta, figures] = await Promise.all([getEventMetaForDisplay(locale, slug), getFiguresByEventSlug(locale, slug)]);
   const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
   const totalPages = Math.max(1, Math.ceil(figures.length / PAGE_SIZE));
   const safePage = Math.min(currentPage, totalPages);
@@ -58,9 +58,9 @@ export default async function EventFiguresListPage({
   return (
     <div className="space-y-8">
       <HeroSection
-        title={locale === "bn" ? `${event.meta.year} সালের ব্যক্তিত্বরা` : `${event.meta.year} Figures`}
-        tagline={event.meta.title}
-        intro={locale === "bn" ? `${event.meta.year} অধ্যায়ের সাথে যুক্ত ব্যক্তিত্ব, শহীদ, সমন্বয়ক ও সম্মিলিত শক্তির পূর্ণ তালিকা।` : `Full list of figures, martyrs, coordinators, and collectives associated with ${event.meta.year}.`}
+        title={locale === "bn" ? `${eventMeta.year} সালের ব্যক্তিত্বরা` : `${eventMeta.year} Figures`}
+        tagline={eventMeta.title}
+        intro={locale === "bn" ? `${eventMeta.year} অধ্যায়ের সাথে যুক্ত ব্যক্তিত্ব, শহীদ, সমন্বয়ক ও সম্মিলিত শক্তির পূর্ণ তালিকা।` : `Full list of figures, martyrs, coordinators, and collectives associated with ${eventMeta.year}.`}
       />
 
       <div>

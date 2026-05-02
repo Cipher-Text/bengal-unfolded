@@ -10,7 +10,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { QuoteBlock } from "@/components/QuoteBlock";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getAllEvents, getEventContent } from "@/lib/content";
+import { getEventContent, getPreviousAndNextEvents } from "@/lib/content";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -60,8 +60,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) notFound();
 
-  const [event, allEvents] = await Promise.all([getEventContent(locale, slug), getAllEvents(locale)]);
-  const currentIndex = allEvents.findIndex((item) => item.slug === slug);
+  const [event, { previous, next }] = await Promise.all([getEventContent(locale, slug), getPreviousAndNextEvents(locale, slug)]);
   const featuredFigures = event.figures.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
   const eventJsonLd = {
@@ -134,7 +133,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.3}>
-        <EventNavigation locale={locale as Locale} previous={allEvents[currentIndex - 1]} next={allEvents[currentIndex + 1]} />
+        <EventNavigation locale={locale as Locale} previous={previous} next={next} />
       </AnimatedContainer>
     </div>
   );

@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Noto_Serif_Bengali, Playfair_Display } from "next/font/google";
 import { CANONICAL_ORIGIN, DEFAULT_OG_IMAGE, SITE_NAME } from "@/lib/seo";
 import "./globals.css";
+
+const notoSerifBengali = Noto_Serif_Bengali({
+  weight: ["400", "600"],
+  subsets: ["bengali", "latin"],
+  display: "swap",
+  variable: "--font-sans",
+});
+
+const playfairDisplay = Playfair_Display({
+  weight: ["400", "600"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-display",
+});
 
 const SITE_DESCRIPTION = "Bilingual historical storytelling journey through major Bengal and Bangladesh turning points.";
 
@@ -65,12 +80,12 @@ const websiteJsonLd = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-theme="dark" suppressHydrationWarning className="h-full">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wdth,wght@100,400;100,600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
-      </head>
+    <html
+      lang="en"
+      data-theme="dark"
+      suppressHydrationWarning
+      className={`h-full ${notoSerifBengali.variable} ${playfairDisplay.variable}`}
+    >
       <body className="min-h-full">
         <Script id="theme-init" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <Script id="lang-init" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: langInitScript }} />
