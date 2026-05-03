@@ -35,6 +35,11 @@ const SUBCATEGORY_LABELS = {
   },
 } as const;
 
+const QUALITY_LABELS = {
+  en: { primary: "Primary", secondary: "Secondary", archive: "Archive", editorial: "Editorial" },
+  bn: { primary: "প্রাথমিক", secondary: "গৌণ", archive: "আর্কাইভ", editorial: "সম্পাদকীয়" },
+} as const;
+
 export function ResourceCard({ resource, locale }: { resource: EventResource; locale: Locale }) {
   const isExternal = typeof resource.href === "string" && resource.href.startsWith("http");
   return (
@@ -50,6 +55,13 @@ export function ResourceCard({ resource, locale }: { resource: EventResource; lo
         </Link>
       </p>
       <p className="mt-1 text-xs tracking-[0.2em] text-accent uppercase">{CATEGORY_LABELS[locale][resource.category]} · {SUBCATEGORY_LABELS[locale][resource.subcategory]}</p>
+      {resource.quality ? (
+        <div className="mt-2">
+          <span className="inline-flex rounded-full border border-amber-500/40 px-2 py-0.5 text-[11px] font-medium text-accent">
+            {QUALITY_LABELS[locale][resource.quality]}
+          </span>
+        </div>
+      ) : null}
       {resource.note ? <p className="theme-muted mt-2 line-clamp-3 text-sm">{resource.note}</p> : null}
       <div className="mt-4 flex flex-wrap gap-2">
         <Link

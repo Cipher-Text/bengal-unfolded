@@ -35,6 +35,10 @@ const TYPE_LABELS: Record<Locale, Record<TimelineType, string>> = {
     political_crisis: "রাজনৈতিক সংকট",
   },
 };
+const QUALITY_LABELS = {
+  en: { primary: "Primary", secondary: "Secondary", archive: "Archive", editorial: "Editorial" },
+  bn: { primary: "প্রাথমিক", secondary: "গৌণ", archive: "আর্কাইভ", editorial: "সম্পাদকীয়" },
+} as const;
 
 function citationAnchorId(itemKey: string, sourceId: string): string {
   return `src-${itemKey}-${sourceId}`.replace(/[^a-zA-Z0-9-_]/g, "-");
@@ -118,6 +122,7 @@ export function EventTimeline({
                           className="inline-flex items-center rounded-full border border-amber-500/40 px-2 py-0.5 text-[11px] text-accent hover:bg-amber-500/10"
                         >
                           [{citationIndex + 1}] {label}
+                          {resource.quality ? <span className="ml-1 rounded-full border border-amber-500/35 px-1 py-0 text-[10px]">{QUALITY_LABELS[locale][resource.quality]}</span> : null}
                         </a>
                       );
                     }
@@ -128,6 +133,7 @@ export function EventTimeline({
                         className="inline-flex items-center rounded-full border border-amber-500/30 px-2 py-0.5 text-[11px] theme-muted"
                       >
                         [{citationIndex + 1}] {label}
+                        {resource?.quality ? <span className="ml-1 rounded-full border border-amber-500/35 px-1 py-0 text-[10px]">{QUALITY_LABELS[locale][resource.quality]}</span> : null}
                       </span>
                     );
                   })}

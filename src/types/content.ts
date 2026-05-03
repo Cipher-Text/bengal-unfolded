@@ -355,6 +355,7 @@ export type Book = {
 };
 
 export type ResourceCategory = "read" | "watch" | "explore" | "understand";
+export type SourceQuality = "primary" | "secondary" | "archive" | "editorial";
 
 export type EventResource = {
   id: ResourceId;
@@ -363,6 +364,7 @@ export type EventResource = {
   creatorId: string;
   creatorType?: "person" | "organization";
   note: string;
+  quality?: SourceQuality;
   category: ResourceCategory;
   subcategory:
     | "historical-literature"

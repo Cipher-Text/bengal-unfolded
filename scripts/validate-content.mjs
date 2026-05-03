@@ -39,6 +39,7 @@ async function main() {
 
   const figureIds = new Set((await fs.readdir(figureDir)).filter((name) => !name.startsWith("index.")));
   const resourceIds = new Set(await fs.readdir(resourceDir));
+  const allowedQuality = new Set(["primary", "secondary", "archive", "editorial"]);
 
   const eventSlugs = await fs.readdir(eventDir);
   for (const slug of eventSlugs) {
@@ -121,6 +122,28 @@ async function main() {
           if (!resourceIds.has(sourceId)) {
             errors.push(`Unknown sourceId '${sourceId}' in content/events/${slug}/timeline.${locale}.json[${i}]`);
           }
+        }
+      }
+    }
+  }
+
+  const resourceEntries = await fs.readdir(resourceDir);
+  for (const resourceId of resourceEntries) {
+    for (const locale of ["en", "bn"]) {
+      const metaPath = path.join(resourceDir, resourceId, `meta.${locale}.json`);
+      if (!(await exists(metaPath))) {
+        errors.push(`Missing file: content/resources/${resourceId}/meta.${locale}.json`);
+        continue;
+      }
+      const meta = await readJson(metaPath, errors);
+      if (!meta || typeof meta !== "object") continue;
+      if ("quality" in meta && meta.quality !== undefined) {
+        if (typeof meta.quality !== "string") {
+          errors.push(`quality must be string at content/resources/${resourceId}/meta.${locale}.json`);
+          continue;
+        }
+        if (!allowedQuality.has(meta.quality)) {
+          errors.push(`Invalid quality '${meta.quality}' at content/resources/${resourceId}/meta.${locale}.json`);
         }
       }
     }

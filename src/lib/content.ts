@@ -57,6 +57,10 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
     : undefined;
   const note = String(resource.note ?? "");
   const href = typeof resource.href === "string" ? resource.href : undefined;
+  const qualityRaw = typeof resource.quality === "string" ? resource.quality.toLowerCase() : "";
+  const quality = qualityRaw === "primary" || qualityRaw === "secondary" || qualityRaw === "archive" || qualityRaw === "editorial"
+    ? (qualityRaw as EventResource["quality"])
+    : undefined;
   const category = typeof resource.category === "string" ? resource.category : undefined;
   const subcategory = typeof resource.subcategory === "string" ? resource.subcategory : undefined;
   const legacyType = typeof resource.type === "string" ? resource.type : undefined;
@@ -69,6 +73,7 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
       creatorId,
       creatorType,
       note,
+      quality,
       href,
       category: category as EventResource["category"],
       subcategory: subcategory as EventResource["subcategory"],
@@ -76,12 +81,12 @@ function normalizeEventResource(resourceId: string, resource: Record<string, unk
   }
 
   if (legacyType === "book") {
-    return { id: resourceId, title, attribution, creatorId, creatorType, note, href, category: "read", subcategory: "historical-literature" };
+    return { id: resourceId, title, attribution, creatorId, creatorType, note, quality, href, category: "read", subcategory: "historical-literature" };
   }
   if (legacyType === "article") {
-    return { id: resourceId, title, attribution, creatorId, creatorType, note, href, category: "understand", subcategory: "research" };
+    return { id: resourceId, title, attribution, creatorId, creatorType, note, quality, href, category: "understand", subcategory: "research" };
   }
-  return { id: resourceId, title, attribution, creatorId, creatorType, note, href, category: "explore", subcategory: "archive" };
+  return { id: resourceId, title, attribution, creatorId, creatorType, note, quality, href, category: "explore", subcategory: "archive" };
 }
 
 function normalizeBook(bookId: BookId, rawBook: Record<string, unknown>): Book {
