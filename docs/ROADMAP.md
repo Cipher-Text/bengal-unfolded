@@ -128,7 +128,8 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 - [x] RM-001 Inline citations on event/timeline claims (timeline claim markers + event narrative claim-level source IDs across all events)
 - [x] RM-001A Inline citation starter implemented (foundation milestone; superseded by RM-001 full coverage)
-- [ ] RM-002 Source quality badges (`Primary`, `Secondary`, `Archive`, `Editorial`)
+- [x] RM-002 Source quality badges (`Primary`, `Secondary`, `Archive`, `Editorial`) (landmark resource editorial curation completed)
+- [x] RM-002A Source quality system foundation (type/model/UI badges/validation + landmark resource backfill)
 - [ ] RM-003 Glossary pages + term linking (`/{locale}/glossary/[term]`)
 - [ ] RM-004 Timeline thematic filters (`Language`, `Democracy`, `War`, `Culture`, `Economy`)
 - [ ] RM-005 Evidence metadata fields (`sourceIds`, `evidenceLevel`) in content model
@@ -873,7 +874,7 @@ Recommended next sprint items:
 
 - [ ] RM-001 Inline citations on event/timeline claims
 - [x] RM-001 Inline citations on event/timeline claims
-- [ ] RM-002 Source quality badges
+- [x] RM-002 Source quality badges
 - [ ] RM-005 Evidence metadata fields
 - [ ] RM-006A Timeline importance levels
 - [ ] RM-006D Parent-child event clustering

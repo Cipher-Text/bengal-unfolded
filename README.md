@@ -16,6 +16,7 @@ Bengal Unfolded is a digital project that presents the history of Bengal and Ban
 - [Content Model](docs/CONTENT_MODEL.md)
 - [Project Structure](docs/PROJECT_STRUCTURE.md)
 - [Performance Guardrails](docs/PERFORMANCE.md)
+- [Source Quality Rubric](docs/SOURCE_QUALITY.md)
 - [Changelog](docs/CHANGELOG.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Archive](docs/archive/deep-research-report.md)

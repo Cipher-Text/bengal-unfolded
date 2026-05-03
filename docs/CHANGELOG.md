@@ -23,6 +23,15 @@
 - Roadmap synchronization:
   - Marked RM-006B as complete.
   - Marked RM-001 as complete with full-coverage note.
+- Source quality badges groundwork (RM-002 foundation):
+  - Added `EventResource.quality` support (`primary`, `secondary`, `archive`, `editorial`) in model + content normalization.
+  - Added quality badge rendering in resource cards and timeline source chips.
+  - Extended `content:validate` to validate allowed `quality` values in resource metadata.
+  - Backfilled quality fields for resources used by landing (landmark) events.
+  - Added source-quality rubric doc: `docs/SOURCE_QUALITY.md`.
+- Source quality editorial curation completion (RM-002):
+  - Reviewed and curated quality assignments for all 55 landmark-linked shared resources (EN/BN metadata).
+  - Standardized landmark evidence labels with explicit per-resource mapping (including `archive` and `editorial` exceptions such as archive collections and video/novel sources).
 
 ## 2026-05-03
 
