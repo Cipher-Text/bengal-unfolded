@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
-import { EventTimeline } from "@/components/EventTimeline";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import Link from "next/link";
@@ -9,10 +9,24 @@ import { getAllEvents, getHomeContent } from "@/lib/content";
 import { buildPageMetadata, localeLanguageTag, SITE_NAME } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
+const EventTimeline = dynamic(
+  () => import("@/components/EventTimeline").then((mod) => mod.EventTimeline),
+  {
+    loading: () => (
+      <div className="relative pl-6">
+        <div className="theme-border absolute top-0 left-2.5 h-full w-px border-l" />
+        <div className="space-y-6">
+          <div className="theme-surface h-36 animate-pulse rounded-xl border p-4" />
+          <div className="theme-surface h-36 animate-pulse rounded-xl border p-4" />
+        </div>
+      </div>
+    ),
+  },
+);
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
-  const home = await getHomeContent(locale);
   const isBn = locale === "bn";
   const title = isBn ? "বেঙ্গল আনফোল্ডেড (Bengal Unfolded)" : "Bengal Unfolded";
   const description = isBn

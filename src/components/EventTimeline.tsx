@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
 import type { Locale, TimelineItem, TimelineType } from "@/types/content";
 import type { EventResource } from "@/types/content";
 
@@ -47,7 +46,6 @@ export function EventTimeline({
   resources?: EventResource[];
 }) {
   const [visibleCount, setVisibleCount] = useState(INITIAL_ITEMS);
-  const prefersReducedMotion = useReducedMotion();
   const visibleItems = useMemo(() => items.slice(0, visibleCount), [items, visibleCount]);
   const resourceById = useMemo(() => new Map(resources.map((resource) => [resource.id, resource] as const)), [resources]);
   const hasMore = visibleCount < items.length;
@@ -60,7 +58,7 @@ export function EventTimeline({
       <div className="theme-border absolute top-0 left-2.5 h-full w-px border-l" />
       <div className="space-y-6">
         {visibleItems.map((item, index) => (
-          <motion.article key={`${item.year}-${item.title}`} initial={prefersReducedMotion ? false : { opacity: 0, x: -20 }} whileInView={prefersReducedMotion ? undefined : { opacity: 1, x: 0 }} whileHover={prefersReducedMotion ? undefined : { scale: 1.02, y: -2 }} whileTap={prefersReducedMotion ? undefined : { scale: 0.99 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.45, delay: index * 0.08 }} className={`group theme-surface relative rounded-xl border p-4 transition-colors md:p-5 ${item.emphasis === "peak" ? "md:p-7 md:rounded-2xl" : ""}`} style={{ borderColor: `${item.themeColor ?? "#d8b166"}55`, boxShadow: `0 0 0 1px ${item.themeColor ?? "#d8b166"}14, 0 14px 36px ${item.themeColor ?? "#d8b166"}22` }}>
+          <article key={`${item.year}-${item.title}`} className={`group theme-surface relative rounded-xl border p-4 transition-transform duration-200 hover:-translate-y-0.5 md:p-5 ${item.emphasis === "peak" ? "md:p-7 md:rounded-2xl" : ""} animate-fade-slide-up`} style={{ borderColor: `${item.themeColor ?? "#d8b166"}55`, boxShadow: `0 0 0 1px ${item.themeColor ?? "#d8b166"}14, 0 14px 36px ${item.themeColor ?? "#d8b166"}22`, animationDelay: `${index * 80}ms` }}>
             <span className="absolute top-5 -left-[1.07rem] h-3 w-3 rounded-full transition-transform duration-300 group-hover:scale-125" style={{ backgroundColor: item.themeColor ?? "#d8b166" }} />
             <div className="flex flex-wrap items-center gap-2">
               <p className="theme-muted text-xs tracking-[0.2em] uppercase">{item.year}</p>
@@ -108,7 +106,7 @@ export function EventTimeline({
                 </div>
               </div>
             ) : null}
-          </motion.article>
+          </article>
         ))}
       </div>
       {hasMore ? (

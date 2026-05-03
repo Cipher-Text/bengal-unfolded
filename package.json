@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "content:validate": "node scripts/validate-content.mjs"
+    "content:validate": "node scripts/validate-content.mjs",
+    "lighthouse:mobile": "npx lighthouse https://bengalunfolded.com/bn --only-categories=performance --emulated-form-factor=mobile --throttling-method=simulate",
+    "lighthouse:desktop": "npx lighthouse https://bengalunfolded.com/bn --only-categories=performance --preset=desktop --throttling-method=simulate"
   },
   "dependencies": {
-    "framer-motion": "^12.38.0",
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"

@@ -1,8 +1,6 @@
-"use client";
-import { motion, useReducedMotion } from "framer-motion";
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 export function AnimatedContainer({ children, delay = 0, className }: { children: ReactNode; delay?: number; className?: string; }) {
-  const prefersReducedMotion = useReducedMotion();
-  if (prefersReducedMotion) return <div className={className}>{children}</div>;
-  return <motion.div className={className} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.65, ease: "easeOut", delay }}>{children}</motion.div>;
+  const animationClass = delay > 0 ? "animate-fade-slide-up [animation-delay:calc(var(--a-delay)*1ms)]" : "animate-fade-slide-up";
+  const style = delay > 0 ? ({ "--a-delay": Math.round(delay * 1000) } as CSSProperties) : undefined;
+  return <div className={`${className ?? ""} ${animationClass}`.trim()} style={style}>{children}</div>;
 }

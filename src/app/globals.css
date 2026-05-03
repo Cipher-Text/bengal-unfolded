@@ -18,12 +18,22 @@ h1, h2, h3 { font-family: var(--font-display), serif; }
 
 @media (prefers-reduced-motion: reduce) {
   .figure-gradient-motion::before { animation: none; }
+  .animate-fade-slide-up { animation: none !important; }
 }
 
 @keyframes heroGradientDrift {
   0% { transform: translate3d(0, 0, 0) scale(1); }
   50% { transform: translate3d(1.2%, -1.2%, 0) scale(1.02); }
   100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translate3d(0, 14px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+.animate-fade-slide-up {
+  animation: fadeSlideUp 650ms ease-out both;
 }
 
 .figure-gradient-motion::before {
