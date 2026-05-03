@@ -3,60 +3,100 @@
     "year": "২৫ ফেব্রুয়ারি ১৯৪৮",
     "title": "বাংলা সাংবিধানিক বিতর্কে প্রবেশ করে",
     "detail": "ধীরেন্দ্রনাথ দত্ত পাকিস্তানের গণপরিষদে বাংলা ভাষা ব্যবহারের দাবি তোলেন। দেশভাগের পরপরই ভাষার প্রশ্ন এভাবে সাংবিধানিক অধিকারের প্রশ্নে পরিণত হয়।",
-    "sourceIds": ["language-movement-in-east-bengal", "state-language-movement-in-east-bengal-1947-1956"]
+    "sourceIds": [
+      "language-movement-in-east-bengal",
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১১ মার্চ ১৯৪৮",
     "title": "ধর্মঘট ও ছাত্রমোবিলাইজেশন পূর্ববঙ্গে ছড়িয়ে পড়ে",
     "detail": "বাংলাকে সরকারি ব্যবহার, মুদ্রা, ডাকটিকিট এবং নিয়োগপরীক্ষা থেকে বাদ দেওয়ার বিরুদ্ধে সাধারণ ধর্মঘট পালিত হয়। ছাত্রনেতা, সাংস্কৃতিক কর্মী ও প্রগতিশীল সংগঠনগুলো আন্দোলনকে দ্রুত বিস্তৃত করে।",
-    "sourceIds": ["language-movement-in-east-bengal", "bhasha-andolana-pariprekshita-o-itihasa"]
+    "sourceIds": [
+      "language-movement-in-east-bengal",
+      "bhasha-andolana-pariprekshita-o-itihasa"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২১-২৪ মার্চ ১৯৪৮",
     "title": "জিন্নাহ উর্দুকেই একমাত্র রাষ্ট্রভাষা ঘোষণা পুনর্ব্যক্ত করেন",
     "detail": "ঢাকা সফরে মুহাম্মদ আলী জিন্নাহ ঘোষণা করেন যে পাকিস্তানের একমাত্র রাষ্ট্রভাষা হবে উর্দু। এই অবস্থান বিরোধ কমায়নি; বরং জনঅসন্তোষকে আরও তীব্র করে।",
-    "sourceIds": ["language-movement-banglapedia", "state-language-movement-in-east-bengal-1947-1956"]
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯৪৯-১৯৫১",
     "title": "আন্দোলন নতুনভাবে সংগঠিত ও গভীরতর হয়",
     "detail": "কমিটি, ছাত্রসংগঠন, লেখক এবং সাংস্কৃতিক পরিমণ্ডল ভাষার দাবি জিইয়ে রাখে। ১৯৫১ নাগাদ ভাষার প্রশ্ন পূর্ববঙ্গের প্রতিনিধিত্ব ও বৈষম্যের বৃহত্তর সংকটের সঙ্গে যুক্ত হয়ে যায়।",
-    "sourceIds": ["bhasha-andolana-pariprekshita-o-itihasa", "language-movement-banglapedia"]
+    "sourceIds": [
+      "bhasha-andolana-pariprekshita-o-itihasa",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২৭ জানুয়ারি ১৯৫২",
     "title": "খাজা নাজিমুদ্দীন আবারও উর্দু-একমাত্র অবস্থান পুনরাবৃত্তি করেন",
     "detail": "পাকিস্তানের প্রধানমন্ত্রী খাজা নাজিমুদ্দীন প্রকাশ্যে বলেন যে উর্দুই থাকবে পাকিস্তানের একমাত্র রাষ্ট্রভাষা। এই বক্তব্য আন্দোলনকে নতুন এক সংকটময় মোড়ে ঠেলে দেয়।",
-    "sourceIds": ["state-language-movement-in-east-bengal-1947-1956", "language-movement-banglapedia"]
+    "sourceIds": [
+      "state-language-movement-in-east-bengal-1947-1956",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "৩১ জানুয়ারি ১৯৫২",
     "title": "সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম পরিষদ গঠিত হয়",
     "detail": "ঢাকা বার লাইব্রেরিতে নেতৃবৃন্দ ও কর্মীরা একত্র হয়ে নতুন পর্যায়ের আন্দোলন সমন্বয়ের জন্য একটি সর্বদলীয় কমিটি গঠন করেন; কাজী গোলাম মাহবুব হন এর আহ্বায়ক।",
-    "sourceIds": ["kazi-golam-mahbub-banglapedia", "language-movement-banglapedia"]
+    "sourceIds": [
+      "kazi-golam-mahbub-banglapedia",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২০ ফেব্রুয়ারি ১৯৫২",
     "title": "ঢাকায় ১৪৪ ধারা জারি",
     "detail": "সরকার মিছিল-সমাবেশ ঠেকাতে ১৪৪ ধারা জারি করে। আন্দোলনের ভেতরে তখন প্রশ্ন ওঠে, এই নিষেধাজ্ঞা ভাঙা হবে কি না।",
-    "sourceIds": ["language-movement-in-east-bengal", "state-language-movement-in-east-bengal-1947-1956"]
+    "sourceIds": [
+      "language-movement-in-east-bengal",
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২১ ফেব্রুয়ারি ১৯৫২",
     "title": "ছাত্ররা নিষেধাজ্ঞা অমান্য করে, পুলিশ গুলি চালায়",
     "detail": "ঢাকা বিশ্ববিদ্যালয় ও মেডিকেল কলেজ এলাকায় ছাত্ররা সমবেত হয়ে ১৪৪ ধারা ভাঙার সিদ্ধান্ত নেয় এবং দলে দলে বেরিয়ে আসে। পুলিশ লাঠিচার্জ, টিয়ার গ্যাসের পর গুলি চালায়; এতে বরকত, রফিক, জব্বার ও সালামসহ অনেকে নিহত বা মরণাহত হন।",
-    "sourceIds": ["language-movement-banglapedia", "shaheed-minar-banglapedia"]
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "shaheed-minar-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২২-২৩ ফেব্রুয়ারি ১৯৫২",
     "title": "শোক জনতার প্রতীকে পরিণত হয়",
     "detail": "প্রতিবাদ আরও ছড়িয়ে পড়ে, ২২ ফেব্রুয়ারি শফিউর রহমান নিহত হন, আর ২৩ ফেব্রুয়ারি ছাত্ররা গুলিচালনার স্থানে দ্রুত প্রথম শহীদ মিনার নির্মাণ করে।",
-    "sourceIds": ["shaheed-minar-banglapedia", "language-movement-banglapedia"]
+    "sourceIds": [
+      "shaheed-minar-banglapedia",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯৫৬",
     "title": "বাংলা রাষ্ট্রভাষার স্বীকৃতি পায়",
     "detail": "পাকিস্তানের সংবিধানে বাংলা শেষ পর্যন্ত রাষ্ট্রভাষার স্বীকৃতি পায়। ভাষা আন্দোলনের রাজনৈতিক ও মানসিক বিজয় বাঙালির জাতীয় চেতনায় স্থায়ী জায়গা করে নেয়।",
-    "sourceIds": ["state-language-movement-in-east-bengal-1947-1956", "international-mother-language-day-unesco"]
+    "sourceIds": [
+      "state-language-movement-in-east-bengal-1947-1956",
+      "international-mother-language-day-unesco"
+    ],
+    "evidenceLevel": "medium"
   }
 ]

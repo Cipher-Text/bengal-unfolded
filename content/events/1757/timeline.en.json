@@ -6,7 +6,8 @@
     "sourceIds": [
       "palashi-battle-banglapedia",
       "jagat-sheth-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "June 23, 1757",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "palashi-battle-banglapedia",
       "battle-of-plassey-britannica"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Late June 1757",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "sirajuddaula-banglapedia",
       "mir-jafar-ali-khan-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1757-1760",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "robert-clive-britannica",
       "battle-of-plassey-britannica"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Long-term consequence",
@@ -42,6 +46,7 @@
     "sourceIds": [
       "battle-of-plassey-britannica",
       "palashi-battle-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

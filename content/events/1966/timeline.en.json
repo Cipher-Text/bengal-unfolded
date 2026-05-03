@@ -6,7 +6,8 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Feb-Mar 1966",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1966",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "bangladesh-awami-league-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1966-1968",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "research-volume",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1969 and after",
@@ -42,6 +46,7 @@
     "sourceIds": [
       "bangladesh-from-mujib-to-ershad",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

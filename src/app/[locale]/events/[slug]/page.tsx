@@ -45,6 +45,10 @@ const EVENT_LABELS = {
     quotes: "Quotes",
     whyItMatters: "Why This Event Matters Today",
     whyItMattersSources: "Why It Matters Sources",
+    evidence: "Evidence",
+    high: "High",
+    medium: "Medium",
+    low: "Low",
   },
   bn: {
     overview: "ইভেন্ট ওভারভিউ",
@@ -58,6 +62,10 @@ const EVENT_LABELS = {
     quotes: "উদ্ধৃতি",
     whyItMatters: "কেন এই ঘটনা আজও গুরুত্বপূর্ণ",
     whyItMattersSources: "গুরুত্ব ব্যাখ্যার সূত্র",
+    evidence: "প্রমাণের শক্তি",
+    high: "উচ্চ",
+    medium: "মাঝারি",
+    low: "নিম্ন",
   },
 } as const;
 
@@ -69,6 +77,11 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const featuredFigures = event.figures.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
   const resourceById = new Map(event.resources.map((resource) => [resource.id, resource] as const));
+  const evidenceLabelByLevel = {
+    high: labels.high,
+    medium: labels.medium,
+    low: labels.low,
+  } as const;
 
   const renderInlineCitations = (sourceIds: string[] | undefined, resources: Map<string, EventResource>) => {
     if (!sourceIds?.length) return null;
@@ -93,6 +106,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </span>
     );
   };
+  const renderEvidenceBadge = (evidenceLevel: "high" | "medium" | "low" | undefined) => {
+    if (!evidenceLevel) return null;
+    return (
+      <span className="ml-2 inline-flex rounded-full border border-emerald-500/40 px-2 py-0.5 text-[11px] font-medium text-emerald-300">
+        {labels.evidence}: {evidenceLabelByLevel[evidenceLevel]}
+      </span>
+    );
+  };
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -111,7 +132,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       <HeroSection
         title={`${event.meta.year} — ${event.meta.title}`}
         tagline={event.meta.heroTagline}
-        intro={<>{event.meta.summary}{renderInlineCitations(event.meta.summarySourceIds, resourceById)}</>}
+        intro={<>{event.meta.summary}{renderInlineCitations(event.meta.summarySourceIds, resourceById)}{renderEvidenceBadge(event.meta.summaryEvidenceLevel)}</>}
       />
 
       <AnimatedContainer>
@@ -163,7 +184,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.25}>
-        <SectionTitle title={labels.whyItMatters} subtitle={<>{event.meta.whyItMatters}{renderInlineCitations(event.meta.whyItMattersSourceIds, resourceById)}</>} />
+        <SectionTitle title={labels.whyItMatters} subtitle={<>{event.meta.whyItMatters}{renderInlineCitations(event.meta.whyItMattersSourceIds, resourceById)}{renderEvidenceBadge(event.meta.whyItMattersEvidenceLevel)}</>} />
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.3}>

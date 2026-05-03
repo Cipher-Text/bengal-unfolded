@@ -132,7 +132,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-002A Source quality system foundation (type/model/UI badges/validation + landmark resource backfill)
 - [ ] RM-003 Glossary pages + term linking (`/{locale}/glossary/[term]`)
 - [ ] RM-004 Timeline thematic filters (`Language`, `Democracy`, `War`, `Culture`, `Economy`)
-- [ ] RM-005 Evidence metadata fields (`sourceIds`, `evidenceLevel`) in content model
+- [x] RM-005 Evidence metadata fields (`sourceIds`, `evidenceLevel`) in content model
 - [ ] RM-006 Section jump navigation on long event pages
 
 ### Timeline hierarchy and discovery
@@ -875,7 +875,7 @@ Recommended next sprint items:
 - [ ] RM-001 Inline citations on event/timeline claims
 - [x] RM-001 Inline citations on event/timeline claims
 - [x] RM-002 Source quality badges
-- [ ] RM-005 Evidence metadata fields
+- [x] RM-005 Evidence metadata fields
 - [ ] RM-006A Timeline importance levels
 - [ ] RM-006D Parent-child event clustering
 - [ ] RM-REL-001 Cause/effect fields in event content model

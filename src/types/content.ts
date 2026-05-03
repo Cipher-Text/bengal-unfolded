@@ -297,11 +297,13 @@ export type EventMeta = {
   subtitle: string;
   summary: string;
   summarySourceIds?: string[];
+  summaryEvidenceLevel?: EvidenceLevel;
   themeColor: string;
   ctaLabel: string;
   heroTagline: string;
   whyItMatters: string;
   whyItMattersSourceIds?: string[];
+  whyItMattersEvidenceLevel?: EvidenceLevel;
   showOnLanding?: boolean;
 };
 
@@ -323,6 +325,7 @@ export type TimelineItem = {
   title: string;
   detail: string;
   sourceIds?: string[];
+  evidenceLevel?: EvidenceLevel;
   type?: TimelineType;
   href?: string;
   ctaLabel?: string;
@@ -356,6 +359,7 @@ export type Book = {
 
 export type ResourceCategory = "read" | "watch" | "explore" | "understand";
 export type SourceQuality = "primary" | "secondary" | "archive" | "editorial";
+export type EvidenceLevel = "high" | "medium" | "low";
 
 export type EventResource = {
   id: ResourceId;

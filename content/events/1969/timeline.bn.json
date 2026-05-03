@@ -6,7 +6,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "bangladesh-awami-league-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২০ জানুয়ারি ১৯৬৯",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "bangladesh-from-mujib-to-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২৪ জানুয়ারি ১৯৬৯",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "bangladesh-from-mujib-to-ershad",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "ফেব্রুয়ারি ১৯৬৯",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "research-volume",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২২ ফেব্রুয়ারি ১৯৬৯",
@@ -42,7 +46,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "bangladesh-awami-league-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২৫ মার্চ ১৯৬৯",
@@ -51,6 +56,7 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "bangladesh-from-mujib-to-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

@@ -16,5 +16,7 @@
     "robert-clive-britannica",
     "jagat-sheth-banglapedia"
   ],
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
 }

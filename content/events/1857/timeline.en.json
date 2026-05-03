@@ -6,7 +6,8 @@
     "sourceIds": [
       "mangal-pandey-britannica",
       "indian-rebellion-1857-britannica"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "May 10, 1857",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "indian-rebellion-1857-britannica",
       "nana-sahib-britannica"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "May-June 1857",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "bahadur-shah-ii-britannica",
       "indian-rebellion-1857-britannica"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1857-1858",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "lakshmi-bai-britannica",
       "tantia-tope-britannica"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1858",
@@ -42,6 +46,7 @@
     "sourceIds": [
       "indian-rebellion-1857-britannica",
       "bahadur-shah-ii-britannica"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

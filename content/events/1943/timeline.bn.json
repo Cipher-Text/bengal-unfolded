@@ -6,7 +6,8 @@
     "sourceIds": [
       "midnights-furies",
       "the-spoils-of-partition"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯৪৩ (শুরুর দিক)",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "midnights-furies",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯৪৩ (মাঝামাঝি-শেষভাগ)",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "the-spoils-of-partition",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯৪৩-১৯৪৪",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "midnights-furies",
       "the-spoils-of-partition"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "দীর্ঘমেয়াদি প্রভাব",
@@ -42,6 +46,7 @@
     "sourceIds": [
       "the-spoils-of-partition",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

@@ -3,60 +3,100 @@
     "year": "February 25, 1948",
     "title": "Bangla enters the constitutional debate",
     "detail": "Dhirendranath Datta demanded that Bangla be used in Pakistan's Constituent Assembly. The proposal turned language into a constitutional question almost immediately after partition.",
-    "sourceIds": ["language-movement-in-east-bengal", "state-language-movement-in-east-bengal-1947-1956"]
+    "sourceIds": [
+      "language-movement-in-east-bengal",
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "March 11, 1948",
     "title": "Strike and student mobilization spread across East Bengal",
     "detail": "A general strike was observed to protest the exclusion of Bangla from official use, coins, stamps, and recruitment tests. Student organizers, cultural activists, and progressive groups widened the movement.",
-    "sourceIds": ["language-movement-in-east-bengal", "bhasha-andolana-pariprekshita-o-itihasa"]
+    "sourceIds": [
+      "language-movement-in-east-bengal",
+      "bhasha-andolana-pariprekshita-o-itihasa"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "March 21-24, 1948",
     "title": "Jinnah reaffirms Urdu as the sole state language",
     "detail": "During his Dhaka visit, Muhammad Ali Jinnah declared that Urdu alone would be the state language of Pakistan. The statement intensified public anger rather than ending the dispute.",
-    "sourceIds": ["language-movement-banglapedia", "state-language-movement-in-east-bengal-1947-1956"]
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1949-1951",
     "title": "The movement reorganizes and deepens",
     "detail": "Committees, student groups, writers, and cultural circles kept the language demand alive. By 1951, the issue had become linked to broader grievances over representation and inequality in East Bengal.",
-    "sourceIds": ["bhasha-andolana-pariprekshita-o-itihasa", "language-movement-banglapedia"]
+    "sourceIds": [
+      "bhasha-andolana-pariprekshita-o-itihasa",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "January 27, 1952",
     "title": "Khwaja Nazimuddin repeats the Urdu-only line",
     "detail": "Prime Minister Khwaja Nazimuddin publicly restated that Urdu would remain the only state language of Pakistan. The announcement pushed the movement into a decisive new phase.",
-    "sourceIds": ["state-language-movement-in-east-bengal-1947-1956", "language-movement-banglapedia"]
+    "sourceIds": [
+      "state-language-movement-in-east-bengal-1947-1956",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "January 31, 1952",
     "title": "All-Party State Language Action Committee is formed",
     "detail": "Leaders and activists assembled at Dhaka Bar Library and formed a broad action committee, with Kazi Golam Mahbub as convener, to coordinate the next phase of protest.",
-    "sourceIds": ["kazi-golam-mahbub-banglapedia", "language-movement-banglapedia"]
+    "sourceIds": [
+      "kazi-golam-mahbub-banglapedia",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "February 20, 1952",
     "title": "Section 144 is imposed in Dhaka",
     "detail": "The government banned assemblies in an attempt to stop demonstrations. Movement leaders debated whether the ban should be defied.",
-    "sourceIds": ["language-movement-in-east-bengal", "state-language-movement-in-east-bengal-1947-1956"]
+    "sourceIds": [
+      "language-movement-in-east-bengal",
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "February 21, 1952",
     "title": "Students defy the ban and police open fire",
     "detail": "Students gathered on the Dhaka University and Medical College campus, chose to violate Section 144, and marched out in groups. Police baton-charged, used tear gas, and finally opened fire, killing and fatally wounding demonstrators including Barkat, Rafiq, Jabbar, and Salam.",
-    "sourceIds": ["language-movement-banglapedia", "shaheed-minar-banglapedia"]
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "shaheed-minar-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "February 22-23, 1952",
     "title": "Mass grief turns into a public symbol",
     "detail": "Protests spread further, Shafiur Rahman was killed on 22 February, and students rapidly built the first Shaheed Minar on 23 February at the site of the shootings.",
-    "sourceIds": ["shaheed-minar-banglapedia", "language-movement-banglapedia"]
+    "sourceIds": [
+      "shaheed-minar-banglapedia",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1956",
     "title": "Bangla is recognized as a state language",
     "detail": "The Constitution of Pakistan finally recognized Bangla as one of the state languages. The movement's political and emotional victory became a permanent part of Bengali national consciousness.",
-    "sourceIds": ["state-language-movement-in-east-bengal-1947-1956", "international-mother-language-day-unesco"]
+    "sourceIds": [
+      "state-language-movement-in-east-bengal-1947-1956",
+      "international-mother-language-day-unesco"
+    ],
+    "evidenceLevel": "medium"
   }
 ]

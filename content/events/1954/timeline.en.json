@@ -6,7 +6,8 @@
     "sourceIds": [
       "partition-politics-banglapedia",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Early 1954",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "March 1954",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "April-May 1954",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "partition-politics-banglapedia",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1954 and after",
@@ -42,6 +46,7 @@
     "sourceIds": [
       "bangladesh-from-mujib-to-ershad",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

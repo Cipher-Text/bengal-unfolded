@@ -6,7 +6,8 @@
     "sourceIds": [
       "caretaker-government-banglapedia",
       "khaleda-zia-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "অক্টোবর-ডিসেম্বর ২০০৬",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "khaleda-zia-banglapedia",
       "sheikh-hasina-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১১ জানুয়ারি ২০০৭",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "caretaker-government-banglapedia",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২০০৭",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "caretaker-government-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২০০৭-২০০৮",
@@ -42,7 +46,8 @@
     "sourceIds": [
       "sheikh-hasina-banglapedia",
       "khaleda-zia-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "ডিসেম্বর ২০০৮",
@@ -51,6 +56,7 @@
     "sourceIds": [
       "caretaker-government-banglapedia",
       "sheikh-hasina-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

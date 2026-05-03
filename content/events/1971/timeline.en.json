@@ -6,7 +6,8 @@
     "sourceIds": [
       "ekattorer-dinguli",
       "ami-birangona-bolchi"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Dec 1970 (Result)",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "ami-birangona-bolchi",
       "muldhara-71"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1 Mar 1971",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "muldhara-71",
       "rifle-roti-aurat"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "2 Mar 1971",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "rifle-roti-aurat",
       "jochona-o-jononir-golpo"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "7 Mar 1971",
@@ -42,7 +46,8 @@
     "sourceIds": [
       "jochona-o-jononir-golpo",
       "hangor-nodi-grenade"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "9 Mar 1971",
@@ -51,7 +56,8 @@
     "sourceIds": [
       "hangor-nodi-grenade",
       "the-rape-of-bangladesh"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "16-24 Mar 1971",
@@ -60,7 +66,8 @@
     "sourceIds": [
       "the-rape-of-bangladesh",
       "the-blood-telegram"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "19 Mar 1971",
@@ -69,7 +76,8 @@
     "sourceIds": [
       "the-blood-telegram",
       "1971-a-global-history-of-the-creation-of-bangladesh"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "25 Mar 1971 (Night)",
@@ -78,7 +86,8 @@
     "sourceIds": [
       "1971-a-global-history-of-the-creation-of-bangladesh",
       "bondi-shibir-theke"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "26 Mar 1971",
@@ -87,7 +96,8 @@
     "sourceIds": [
       "bondi-shibir-theke",
       "payer-awaj-pawa-jai"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "27 Mar 1971",
@@ -96,7 +106,8 @@
     "sourceIds": [
       "payer-awaj-pawa-jai",
       "history-of-the-1971-liberation-war"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "30 Mar 1971",
@@ -105,7 +116,8 @@
     "sourceIds": [
       "history-of-the-1971-liberation-war",
       "ekattorer-dinguli"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "31 Mar 1971",
@@ -114,7 +126,8 @@
     "sourceIds": [
       "ekattorer-dinguli",
       "ami-birangona-bolchi"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "10 Apr 1971",
@@ -123,7 +136,8 @@
     "sourceIds": [
       "ami-birangona-bolchi",
       "muldhara-71"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "17 Apr 1971",
@@ -132,7 +146,8 @@
     "sourceIds": [
       "muldhara-71",
       "rifle-roti-aurat"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Apr-Nov 1971",
@@ -141,7 +156,8 @@
     "sourceIds": [
       "rifle-roti-aurat",
       "jochona-o-jononir-golpo"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "3 Dec 1971",
@@ -150,7 +166,8 @@
     "sourceIds": [
       "jochona-o-jononir-golpo",
       "hangor-nodi-grenade"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Early-Mid Dec 1971",
@@ -159,7 +176,8 @@
     "sourceIds": [
       "hangor-nodi-grenade",
       "the-rape-of-bangladesh"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "14 Dec 1971",
@@ -168,7 +186,8 @@
     "sourceIds": [
       "the-rape-of-bangladesh",
       "the-blood-telegram"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "16 Dec 1971",
@@ -177,7 +196,8 @@
     "sourceIds": [
       "the-blood-telegram",
       "1971-a-global-history-of-the-creation-of-bangladesh"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "10 Jan 1972",
@@ -186,7 +206,8 @@
     "sourceIds": [
       "1971-a-global-history-of-the-creation-of-bangladesh",
       "bondi-shibir-theke"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Jan 1972",
@@ -195,7 +216,8 @@
     "sourceIds": [
       "bondi-shibir-theke",
       "payer-awaj-pawa-jai"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Feb 1972",
@@ -204,6 +226,7 @@
     "sourceIds": [
       "payer-awaj-pawa-jai",
       "history-of-the-1971-liberation-war"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

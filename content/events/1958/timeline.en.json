@@ -6,7 +6,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Oct 1958",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "partition-politics-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1958-1962",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "research-volume",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Early 1960s",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "1960s and after",
@@ -42,6 +46,7 @@
     "sourceIds": [
       "bangladesh-from-mujib-to-ershad",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

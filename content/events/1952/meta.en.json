@@ -16,5 +16,7 @@
     "language-movement-in-east-bengal",
     "state-language-movement-in-east-bengal-1947-1956"
   ],
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
 }

@@ -39,6 +39,10 @@ const QUALITY_LABELS = {
   en: { primary: "Primary", secondary: "Secondary", archive: "Archive", editorial: "Editorial" },
   bn: { primary: "প্রাথমিক", secondary: "গৌণ", archive: "আর্কাইভ", editorial: "সম্পাদকীয়" },
 } as const;
+const EVIDENCE_LABELS = {
+  en: { label: "Evidence", high: "High", medium: "Medium", low: "Low" },
+  bn: { label: "প্রমাণের শক্তি", high: "উচ্চ", medium: "মাঝারি", low: "নিম্ন" },
+} as const;
 
 function citationAnchorId(itemKey: string, sourceId: string): string {
   return `src-${itemKey}-${sourceId}`.replace(/[^a-zA-Z0-9-_]/g, "-");
@@ -60,6 +64,7 @@ export function EventTimeline({
   const detailsLabel = locale === "bn" ? "বিস্তারিত" : "Details";
   const showMoreLabel = locale === "bn" ? "আরও দেখুন" : "Show more";
   const sourcesLabel = locale === "bn" ? "উৎস" : "Sources";
+  const evidenceLabels = EVIDENCE_LABELS[locale];
 
   return (
     <div className="relative pl-6">
@@ -72,6 +77,7 @@ export function EventTimeline({
               <p className="theme-muted text-xs tracking-[0.2em] uppercase">{item.year}</p>
               {item.phaseLabel ? <span className="rounded-full border px-2 py-0.5 text-[10px] font-medium" style={{ borderColor: `${item.themeColor ?? "#d8b166"}66`, color: item.themeColor ?? "#d8b166" }}>{item.phaseLabel}</span> : null}
               {item.type ? <span className="rounded-full border border-amber-500/40 px-2 py-0.5 text-[10px] font-medium text-accent">{TYPE_LABELS[locale][item.type]}</span> : null}
+              {item.evidenceLevel ? <span className="rounded-full border border-emerald-500/40 px-2 py-0.5 text-[10px] font-medium text-emerald-300">{evidenceLabels.label}: {evidenceLabels[item.evidenceLevel]}</span> : null}
             </div>
             <div className="mt-1 flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-start">
               <h3 className={`font-semibold ${item.emphasis === "peak" ? "text-xl md:text-2xl" : "text-lg"}`}>{item.title}</h3>

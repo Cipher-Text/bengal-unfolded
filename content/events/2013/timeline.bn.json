@@ -6,7 +6,8 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "ফেব্রুয়ারি ২০১৩",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "ফেব্রুয়ারি-মার্চ ২০১৩",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২০১৩",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২০১৩ সালের শেষভাগ",
@@ -42,6 +46,7 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

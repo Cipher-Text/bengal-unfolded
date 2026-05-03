@@ -6,7 +6,8 @@
     "sourceIds": [
       "bangladesh-from-mujib-to-ershad",
       "bangladesh-under-mujib-zia-and-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯৮৩",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "bangladesh-under-mujib-zia-and-ershad",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১০ নভেম্বর ১৯৮৭",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "nur-hossain-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯৮৮",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "nur-hossain-banglapedia",
       "justice-shahabuddin-ahmed-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯৯০",
@@ -42,7 +46,8 @@
     "sourceIds": [
       "justice-shahabuddin-ahmed-banglapedia",
       "sheikh-hasina-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "১৯ নভেম্বর ১৯৯০",
@@ -51,7 +56,8 @@
     "sourceIds": [
       "sheikh-hasina-banglapedia",
       "khaleda-zia-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "২৭ নভেম্বর ১৯৯০",
@@ -60,7 +66,8 @@
     "sourceIds": [
       "khaleda-zia-banglapedia",
       "bangladesh-awami-league-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "নভেম্বরের শেষ-ডিসেম্বরের শুরু ১৯৯০",
@@ -69,7 +76,8 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "bangladesh-nationalist-party-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "৬ ডিসেম্বর ১৯৯০",
@@ -78,7 +86,8 @@
     "sourceIds": [
       "bangladesh-nationalist-party-banglapedia",
       "communist-party-of-bangladesh-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "ফেব্রুয়ারি-আগস্ট ১৯৯১",
@@ -87,6 +96,7 @@
     "sourceIds": [
       "communist-party-of-bangladesh-banglapedia",
       "bangladesh-from-mujib-to-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

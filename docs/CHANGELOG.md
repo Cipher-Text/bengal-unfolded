@@ -32,6 +32,11 @@
 - Source quality editorial curation completion (RM-002):
   - Reviewed and curated quality assignments for all 55 landmark-linked shared resources (EN/BN metadata).
   - Standardized landmark evidence labels with explicit per-resource mapping (including `archive` and `editorial` exceptions such as archive collections and video/novel sources).
+- Evidence metadata rollout (RM-005):
+  - Added `evidenceLevel` to timeline items and event narrative claim metadata (`summaryEvidenceLevel`, `whyItMattersEvidenceLevel`).
+  - Added event-page and timeline UI evidence badges (EN/BN labels).
+  - Extended content validation to enforce allowed evidence levels and require timeline evidence levels where citations exist.
+  - Backfilled evidence levels across all event locale metadata and timeline entries based on referenced source-quality composition.
 
 ## 2026-05-03
 

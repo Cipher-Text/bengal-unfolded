@@ -6,7 +6,8 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Feb 2013",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Feb-Mar 2013",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "2013",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Late 2013",
@@ -42,6 +46,7 @@
     "sourceIds": [
       "archive-collection",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

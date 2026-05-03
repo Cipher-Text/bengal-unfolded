@@ -16,5 +16,7 @@
     "the-blood-telegram",
     "1971-a-global-history-of-the-creation-of-bangladesh"
   ],
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
 }

@@ -6,7 +6,8 @@
     "sourceIds": [
       "bangladesh-under-mujib-zia-and-ershad",
       "bangladesh-from-mujib-to-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Feb-Jun 1975",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "bangladesh-from-mujib-to-ershad",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "15 Aug 1975",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "bangladesh-under-mujib-zia-and-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Aug-Sep 1975",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "bangladesh-under-mujib-zia-and-ershad",
       "bangladesh-from-mujib-to-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "3 Nov 1975",
@@ -42,7 +46,8 @@
     "sourceIds": [
       "bangladesh-from-mujib-to-ershad",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Nov 1975",
@@ -51,7 +56,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "the-blood-telegram"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "Late 1975",
@@ -60,6 +66,7 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "bangladesh-under-mujib-zia-and-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

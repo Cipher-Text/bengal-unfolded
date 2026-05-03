@@ -40,6 +40,7 @@ async function main() {
   const figureIds = new Set((await fs.readdir(figureDir)).filter((name) => !name.startsWith("index.")));
   const resourceIds = new Set(await fs.readdir(resourceDir));
   const allowedQuality = new Set(["primary", "secondary", "archive", "editorial"]);
+  const allowedEvidenceLevel = new Set(["high", "medium", "low"]);
 
   const eventSlugs = await fs.readdir(eventDir);
   for (const slug of eventSlugs) {
@@ -64,8 +65,26 @@ async function main() {
 
     const figureIdsFile = await readJson(path.join(base, "figure-ids.json"), errors);
     const resourceIdsFile = await readJson(path.join(base, "resource-ids.json"), errors);
+    const metaEn = await readJson(path.join(base, "meta.en.json"), errors);
+    const metaBn = await readJson(path.join(base, "meta.bn.json"), errors);
     const timelineEn = await readJson(path.join(base, "timeline.en.json"), errors);
     const timelineBn = await readJson(path.join(base, "timeline.bn.json"), errors);
+
+    for (const [locale, meta] of [["en", metaEn], ["bn", metaBn]]) {
+      if (!meta || typeof meta !== "object") continue;
+      const summaryIds = Array.isArray(meta.summarySourceIds) ? meta.summarySourceIds : [];
+      const whyIds = Array.isArray(meta.whyItMattersSourceIds) ? meta.whyItMattersSourceIds : [];
+      if (summaryIds.length > 0) {
+        if (typeof meta.summaryEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.summaryEvidenceLevel)) {
+          errors.push(`Invalid or missing summaryEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if (whyIds.length > 0) {
+        if (typeof meta.whyItMattersEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.whyItMattersEvidenceLevel)) {
+          errors.push(`Invalid or missing whyItMattersEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+    }
 
     if (figureIdsFile && assertArray(figureIdsFile, `content/events/${slug}/figure-ids.json`, errors)) {
       for (const figureId of figureIdsFile) {
@@ -110,6 +129,9 @@ async function main() {
         if (item.sourceIds.length === 0) {
           errors.push(`sourceIds must not be empty at content/events/${slug}/timeline.${locale}.json[${i}]`);
           continue;
+        }
+        if (typeof item.evidenceLevel !== "string" || !allowedEvidenceLevel.has(item.evidenceLevel)) {
+          errors.push(`Invalid or missing evidenceLevel at content/events/${slug}/timeline.${locale}.json[${i}]`);
         }
         for (const sourceId of item.sourceIds) {
           if (typeof sourceId !== "string") {

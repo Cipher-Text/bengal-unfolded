@@ -16,5 +16,7 @@
   "whyItMattersSourceIds": [
     "research-volume",
     "archive-collection"
-  ]
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
 }

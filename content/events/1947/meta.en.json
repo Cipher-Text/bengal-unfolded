@@ -16,5 +16,7 @@
     "midnights-furies",
     "the-spoils-of-partition"
   ],
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
 }

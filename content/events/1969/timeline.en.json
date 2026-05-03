@@ -6,7 +6,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "bangladesh-awami-league-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "January 20, 1969",
@@ -15,7 +16,8 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "bangladesh-from-mujib-to-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "January 24, 1969",
@@ -24,7 +26,8 @@
     "sourceIds": [
       "bangladesh-from-mujib-to-ershad",
       "research-volume"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "February 1969",
@@ -33,7 +36,8 @@
     "sourceIds": [
       "research-volume",
       "military-rule-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "February 22, 1969",
@@ -42,7 +46,8 @@
     "sourceIds": [
       "military-rule-banglapedia",
       "bangladesh-awami-league-banglapedia"
-    ]
+    ],
+    "evidenceLevel": "medium"
   },
   {
     "year": "March 25, 1969",
@@ -51,6 +56,7 @@
     "sourceIds": [
       "bangladesh-awami-league-banglapedia",
       "bangladesh-from-mujib-to-ershad"
-    ]
+    ],
+    "evidenceLevel": "medium"
   }
 ]

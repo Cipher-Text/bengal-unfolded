@@ -16,5 +16,7 @@
     "research-volume",
     "archive-collection"
   ],
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
 }
