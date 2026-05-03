@@ -12,7 +12,7 @@ function localeAlternates(path = ""): Record<string, string> {
   return {
     "en-US": withLocale("en", path),
     "bn-BD": withLocale("bn", path),
-    "x-default": withLocale("en", path),
+    "x-default": withLocale("bn", path),
   };
 }
 
@@ -29,6 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: now,
       changeFrequency: "weekly",
       priority: 1,
+      alternates: { languages: localeAlternates("") },
     },
   ];
 

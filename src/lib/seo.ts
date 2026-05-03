@@ -41,13 +41,16 @@ export function buildPageMetadata(input: {
 }): Metadata {
   const ogType = input.type ?? "website";
   const languagePath = input.languagePathWithoutLocale;
+  const locale = input.locale;
+  const localeAlternates = languagePath ? languageAlternates(languagePath, true) : undefined;
+  const ogLocaleAlternates = locale === "bn" ? ["en_US"] : ["bn_BD"];
 
   return {
     title: input.title,
     description: input.description,
     alternates: {
       canonical: input.canonicalPath,
-      languages: languagePath ? languageAlternates(languagePath) : undefined,
+      languages: localeAlternates,
     },
     robots: input.noIndex ? { index: false, follow: true } : undefined,
     openGraph: {
@@ -57,6 +60,7 @@ export function buildPageMetadata(input: {
       siteName: SITE_NAME,
       url: input.canonicalPath,
       locale: localeCode(input.locale),
+      alternateLocale: ogLocaleAlternates,
       images: [
         {
           url: DEFAULT_OG_IMAGE,

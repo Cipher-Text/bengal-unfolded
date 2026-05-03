@@ -13,11 +13,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
   const home = await getHomeContent(locale);
+  const isBn = locale === "bn";
+  const title = isBn ? "বেঙ্গল আনফোল্ডেড (Bengal Unfolded)" : "Bengal Unfolded";
+  const description = isBn
+    ? "বেঙ্গল আনফোল্ডেড একটি দ্বিভাষিক (বাংলা-ইংরেজি) বাংলাদেশ ও বঙ্গের ইতিহাস-সংস্কৃতি শেখার প্ল্যাটফর্ম, সংবাদ পোর্টাল নয়।"
+    : "Bengal Unfolded is a bilingual (Bangla-English) Bangladesh and Bengal history and cultural learning platform, not a news portal.";
 
   return buildPageMetadata({
     locale: locale as Locale,
-    title: home.title,
-    description: home.intro,
+    title,
+    description,
     canonicalPath: `/${locale}`,
     languagePathWithoutLocale: "",
     type: "website",
@@ -28,6 +33,11 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
   const [home, events] = await Promise.all([getHomeContent(locale), getAllEvents(locale)]);
+  const isBn = locale === "bn";
+  const metadataTitle = isBn ? "বেঙ্গল আনফোল্ডেড (Bengal Unfolded)" : "Bengal Unfolded";
+  const metadataDescription = isBn
+    ? "বেঙ্গল আনফোল্ডেড একটি দ্বিভাষিক (বাংলা-ইংরেজি) বাংলাদেশ ও বঙ্গের ইতিহাস-সংস্কৃতি শেখার প্ল্যাটফর্ম, সংবাদ পোর্টাল নয়।"
+    : "Bengal Unfolded is a bilingual (Bangla-English) Bangladesh and Bengal history and cultural learning platform, not a news portal.";
   const landingEvents = events.filter((event) => event.showOnLanding !== false);
 
   const phaseBySlug: Record<string, string> = locale === "bn"
@@ -48,8 +58,8 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const webPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: home.title,
-    description: home.intro,
+    name: metadataTitle,
+    description: metadataDescription,
     url: `https://bengalunfolded.com/${locale}`,
     isPartOf: { "@type": "WebSite", name: SITE_NAME, url: "https://bengalunfolded.com" },
     inLanguage: localeLanguageTag(locale as Locale),
