@@ -126,7 +126,8 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 ### Source trust and evidence
 
-- [ ] RM-001 Inline citations on event/timeline claims
+- [ ] RM-001 Inline citations on event/timeline claims (full claim-level model pending)
+- [x] RM-001A Inline citation starter implemented (timeline claim markers + event narrative supporting source chips)
 - [ ] RM-002 Source quality badges (`Primary`, `Secondary`, `Archive`, `Editorial`)
 - [ ] RM-003 Glossary pages + term linking (`/{locale}/glossary/[term]`)
 - [ ] RM-004 Timeline thematic filters (`Language`, `Democracy`, `War`, `Culture`, `Economy`)
@@ -136,7 +137,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 ### Timeline hierarchy and discovery
 
 - [ ] RM-006A Timeline importance levels (`landmark`, `major`, `high`, `medium`, `reference`)
-- [ ] RM-006B Homepage landmark timeline limit with `Explore Full Timeline` CTA
+- [x] RM-006B Homepage landmark timeline limit with `Explore Full Timeline` CTA
 - [x] RM-006C Full timeline explorer page with search, filters, and pagination
 - [ ] RM-006D Parent-child event clustering (`parentEvent`, `children`, `relatedEvents`)
 - [ ] RM-006E Sensitive event metadata (`sensitive`, `contentWarnings`, `requiresSources`)

@@ -36,6 +36,10 @@ const TYPE_LABELS: Record<Locale, Record<TimelineType, string>> = {
   },
 };
 
+function citationAnchorId(itemKey: string, sourceId: string): string {
+  return `src-${itemKey}-${sourceId}`.replace(/[^a-zA-Z0-9-_]/g, "-");
+}
+
 export function EventTimeline({
   items,
   locale = "en",
@@ -73,33 +77,57 @@ export function EventTimeline({
                 </Link>
               ) : null}
             </div>
-            <p className={`theme-muted mt-2 ${item.emphasis === "peak" ? "text-base" : "text-sm"}`}>{item.detail}</p>
+            <p className={`theme-muted mt-2 ${item.emphasis === "peak" ? "text-base" : "text-sm"}`}>
+              {item.detail}
+              {item.sourceIds?.length ? (
+                <span className="ml-1 inline-flex flex-wrap items-center gap-1 align-baseline">
+                  {item.sourceIds.map((sourceId, citationIndex) => {
+                    const itemKey = `${item.year}-${item.title}`;
+                    const anchorId = citationAnchorId(itemKey, sourceId);
+                    return (
+                      <a
+                        key={`${itemKey}-cite-${sourceId}`}
+                        href={`#${anchorId}`}
+                        className="text-[11px] font-medium text-accent underline-offset-2 hover:underline"
+                        aria-label={`${sourcesLabel} ${citationIndex + 1}`}
+                      >
+                        [{citationIndex + 1}]
+                      </a>
+                    );
+                  })}
+                </span>
+              ) : null}
+            </p>
             {item.sourceIds?.length ? (
               <div className="mt-3">
                 <p className="theme-muted text-xs">{sourcesLabel}</p>
                 <div className="mt-1 flex flex-wrap gap-2">
-                  {item.sourceIds.map((sourceId) => {
+                  {item.sourceIds.map((sourceId, citationIndex) => {
                     const resource = resourceById.get(sourceId);
                     const label = resource?.title || sourceId;
+                    const itemKey = `${item.year}-${item.title}`;
+                    const anchorId = citationAnchorId(itemKey, sourceId);
                     if (resource?.href) {
                       return (
                         <a
                           key={`${item.year}-${item.title}-${sourceId}`}
+                          id={anchorId}
                           href={resource.href}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center rounded-full border border-amber-500/40 px-2 py-0.5 text-[11px] text-accent hover:bg-amber-500/10"
                         >
-                          {label}
+                          [{citationIndex + 1}] {label}
                         </a>
                       );
                     }
                     return (
                       <span
                         key={`${item.year}-${item.title}-${sourceId}`}
+                        id={anchorId}
                         className="inline-flex items-center rounded-full border border-amber-500/30 px-2 py-0.5 text-[11px] theme-muted"
                       >
-                        {label}
+                        [{citationIndex + 1}] {label}
                       </span>
                     );
                   })}

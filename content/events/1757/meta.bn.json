@@ -7,6 +7,8 @@
   "themeColor": "#7a3b24",
   "ctaLabel": "পলাশী ১৭৫৭ দেখুন",
   "heroTagline": "পলাশী ছিল শুধু সামরিক জয়ের গল্প নয়; এটি ছিল বাংলার রাষ্ট্রক্ষমতা দখলের রাজনৈতিক প্রক্রিয়া।",
+  "summarySourceIds": ["palashi-battle-banglapedia", "battle-of-plassey-britannica"],
   "whyItMatters": "পলাশী বোঝা জরুরি, কারণ এখান থেকেই বাংলায় ঔপনিবেশিক আধিপত্যের সামরিক, রাজনৈতিক ও অর্থনৈতিক ভিত্তি স্পষ্ট হয়ে ওঠে।",
+  "whyItMattersSourceIds": ["robert-clive-britannica", "jagat-sheth-banglapedia"],
   "showOnLanding": true
 }

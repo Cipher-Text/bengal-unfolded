@@ -296,10 +296,12 @@ export type EventMeta = {
   title: string;
   subtitle: string;
   summary: string;
+  summarySourceIds?: string[];
   themeColor: string;
   ctaLabel: string;
   heroTagline: string;
   whyItMatters: string;
+  whyItMattersSourceIds?: string[];
   showOnLanding?: boolean;
 };
 

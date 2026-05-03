@@ -7,6 +7,8 @@
   "themeColor": "#2f7f66",
   "ctaLabel": "মুক্তিযুদ্ধ অন্বেষণ করুন",
   "heroTagline": "রক্ত, সংগ্রাম ও স্বপ্নের মধ্য দিয়ে জন্ম নেয় একটি জাতি।",
+  "summarySourceIds": ["history-of-the-1971-liberation-war", "1971-a-global-history-of-the-creation-of-bangladesh"],
   "whyItMatters": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+  "whyItMattersSourceIds": ["the-blood-telegram", "the-rape-of-bangladesh"],
   "showOnLanding": true
 }

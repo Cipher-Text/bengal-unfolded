@@ -23,6 +23,7 @@ const EventTimeline = dynamic(
     ),
   },
 );
+const HOMEPAGE_LANDMARK_LIMIT = 15;
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -52,7 +53,9 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const metadataDescription = isBn
     ? "বেঙ্গল আনফোল্ডেড একটি দ্বিভাষিক (বাংলা-ইংরেজি) বাংলাদেশ ও বঙ্গের ইতিহাস-সংস্কৃতি শেখার প্ল্যাটফর্ম, সংবাদ পোর্টাল নয়।"
     : "Bengal Unfolded is a bilingual (Bangla-English) Bangladesh and Bengal history and cultural learning platform, not a news portal.";
-  const landingEvents = events.filter((event) => event.showOnLanding !== false);
+  const landingEvents = events
+    .filter((event) => event.showOnLanding !== false)
+    .slice(0, HOMEPAGE_LANDMARK_LIMIT);
 
   const phaseBySlug: Record<string, string> = locale === "bn"
     ? { "1757": "পলাশী", "1857": "বিদ্রোহ", "1947": "বিভাজন", "1952": "ভাষা", "1969": "অভ্যুত্থান", "1971": "স্বাধীনতা", "1975": "বাকশাল", "1990": "গণতন্ত্র", "2006": "তত্ত্বাবধায়ক সংকট", "2024": "ন্যায্যতা" }

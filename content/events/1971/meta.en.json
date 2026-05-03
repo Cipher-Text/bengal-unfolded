@@ -7,6 +7,8 @@
   "themeColor": "#2f7f66",
   "ctaLabel": "Explore the Liberation War",
   "heroTagline": "Through blood, struggle, and hope, a nation was born.",
+  "summarySourceIds": ["history-of-the-1971-liberation-war", "1971-a-global-history-of-the-creation-of-bangladesh"],
   "whyItMatters": "1971 is not only a story of independence—it is a struggle for justice, representation, and human rights. The modern Bangladeshi state, its identity, and its political structure emerged from this war, which remains deeply relevant to ongoing conversations on equality, human dignity, and democracy.",
+  "whyItMattersSourceIds": ["the-blood-telegram", "the-rape-of-bangladesh"],
   "showOnLanding": true
 }

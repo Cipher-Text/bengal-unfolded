@@ -12,6 +12,7 @@ import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getEventContent, getPreviousAndNextEvents } from "@/lib/content";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
+import type { EventResource } from "@/types/content";
 
 export function generateStaticParams() {
   return SUPPORTED_LOCALES.flatMap((locale) => SUPPORTED_EVENT_SLUGS.map((slug) => ({ locale, slug })));
@@ -34,6 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 const EVENT_LABELS = {
   en: {
     overview: "Event Overview",
+    overviewSources: "Overview Sources",
     timeline: "Interactive Timeline",
     figures: "Figures / Historical Actors",
     seeFullList: "See full list",
@@ -42,9 +44,11 @@ const EVENT_LABELS = {
     seeAllCategories: "See all categories",
     quotes: "Quotes",
     whyItMatters: "Why This Event Matters Today",
+    whyItMattersSources: "Why It Matters Sources",
   },
   bn: {
     overview: "ইভেন্ট ওভারভিউ",
+    overviewSources: "ওভারভিউ-এর সূত্র",
     timeline: "ইন্টারঅ্যাক্টিভ টাইমলাইন",
     figures: "ব্যক্তিত্ব ও ঐতিহাসিক অভিনেতা",
     seeFullList: "পূর্ণ তালিকা দেখুন",
@@ -53,6 +57,7 @@ const EVENT_LABELS = {
     seeAllCategories: "সব ক্যাটাগরি দেখুন",
     quotes: "উদ্ধৃতি",
     whyItMatters: "কেন এই ঘটনা আজও গুরুত্বপূর্ণ",
+    whyItMattersSources: "গুরুত্ব ব্যাখ্যার সূত্র",
   },
 } as const;
 
@@ -63,6 +68,31 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const [event, { previous, next }] = await Promise.all([getEventContent(locale, slug), getPreviousAndNextEvents(locale, slug)]);
   const featuredFigures = event.figures.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
+  const resourceById = new Map(event.resources.map((resource) => [resource.id, resource] as const));
+
+  const renderInlineCitations = (sourceIds: string[] | undefined, resources: Map<string, EventResource>) => {
+    if (!sourceIds?.length) return null;
+    return (
+      <span className="ml-1 inline-flex flex-wrap items-center gap-1 align-baseline">
+        {sourceIds.map((sourceId, index) => {
+          const resource = resources.get(sourceId);
+          const href = resource?.href ?? `/${locale}/resources/${sourceId}`;
+          const label = resource?.title ?? sourceId;
+          return (
+            <Link
+              key={`claim-cite-${sourceId}-${index}`}
+              href={href}
+              {...(resource?.href ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+              className="text-[11px] font-medium text-accent underline-offset-2 hover:underline"
+              aria-label={`${labels.overviewSources} ${index + 1}: ${label}`}
+            >
+              [{index + 1}]
+            </Link>
+          );
+        })}
+      </span>
+    );
+  };
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -78,7 +108,11 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   return (
     <div className="space-y-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }} />
-      <HeroSection title={`${event.meta.year} — ${event.meta.title}`} tagline={event.meta.heroTagline} intro={event.meta.summary} />
+      <HeroSection
+        title={`${event.meta.year} — ${event.meta.title}`}
+        tagline={event.meta.heroTagline}
+        intro={<>{event.meta.summary}{renderInlineCitations(event.meta.summarySourceIds, resourceById)}</>}
+      />
 
       <AnimatedContainer>
         <SectionTitle title={labels.overview} subtitle={event.meta.subtitle} />
@@ -129,7 +163,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.25}>
-        <SectionTitle title={labels.whyItMatters} subtitle={event.meta.whyItMatters} />
+        <SectionTitle title={labels.whyItMatters} subtitle={<>{event.meta.whyItMatters}{renderInlineCitations(event.meta.whyItMattersSourceIds, resourceById)}</>} />
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.3}>

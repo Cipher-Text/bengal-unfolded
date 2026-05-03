@@ -7,6 +7,8 @@
   "themeColor": "#7a3b24",
   "ctaLabel": "Explore Plassey 1757",
   "heroTagline": "Plassey was less a battlefield victory alone and more a political capture of Bengal's state power.",
+  "summarySourceIds": ["palashi-battle-banglapedia", "battle-of-plassey-britannica"],
   "whyItMatters": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and economic control.",
+  "whyItMattersSourceIds": ["robert-clive-britannica", "jagat-sheth-banglapedia"],
   "showOnLanding": true
 }
