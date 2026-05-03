@@ -7,7 +7,10 @@
       "partition-politics-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯০৫-১৯১১",
@@ -17,7 +20,10 @@
       "partition-politics-banglapedia",
       "the-great-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১২ ডিসেম্বর ১৯১১",
@@ -27,7 +33,10 @@
       "partition-politics-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯১১",
@@ -37,7 +46,10 @@
       "the-great-partition",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯১১-এর পর",
@@ -47,6 +59,9 @@
       "partition-politics-banglapedia",
       "the-great-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

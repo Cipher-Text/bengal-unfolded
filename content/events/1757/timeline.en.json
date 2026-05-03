@@ -7,7 +7,10 @@
       "palashi-battle-banglapedia",
       "jagat-sheth-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "June 23, 1757",
@@ -17,7 +20,10 @@
       "palashi-battle-banglapedia",
       "battle-of-plassey-britannica"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "Late June 1757",
@@ -27,7 +33,10 @@
       "sirajuddaula-banglapedia",
       "mir-jafar-ali-khan-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "1757-1760",
@@ -37,7 +46,10 @@
       "robert-clive-britannica",
       "battle-of-plassey-britannica"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
   },
   {
     "year": "Long-term consequence",
@@ -47,6 +59,9 @@
       "battle-of-plassey-britannica",
       "palashi-battle-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
   }
 ]

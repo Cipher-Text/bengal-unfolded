@@ -7,7 +7,10 @@
       "partition-politics-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "Oct 1906",
@@ -17,7 +20,10 @@
       "partition-politics-banglapedia",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "30 Dec 1906",
@@ -27,7 +33,10 @@
       "partition-politics-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "1907-1911",
@@ -37,7 +46,10 @@
       "the-great-partition",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "Long-term impact",
@@ -47,6 +59,9 @@
       "the-great-partition",
       "partition-politics-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

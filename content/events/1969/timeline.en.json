@@ -7,7 +7,10 @@
       "military-rule-banglapedia",
       "bangladesh-awami-league-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "January 20, 1969",
@@ -17,7 +20,10 @@
       "bangladesh-awami-league-banglapedia",
       "bangladesh-from-mujib-to-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "January 24, 1969",
@@ -27,7 +33,10 @@
       "bangladesh-from-mujib-to-ershad",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "February 1969",
@@ -37,7 +46,11 @@
       "research-volume",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
   },
   {
     "year": "February 22, 1969",
@@ -47,7 +60,10 @@
       "military-rule-banglapedia",
       "bangladesh-awami-league-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "March 25, 1969",
@@ -57,6 +73,9 @@
       "bangladesh-awami-league-banglapedia",
       "bangladesh-from-mujib-to-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   }
 ]

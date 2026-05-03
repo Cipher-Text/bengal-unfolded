@@ -7,7 +7,11 @@
       "language-movement-in-east-bengal",
       "state-language-movement-in-east-bengal-1947-1956"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
   },
   {
     "year": "১১ মার্চ ১৯৪৮",
@@ -17,7 +21,10 @@
       "language-movement-in-east-bengal",
       "bhasha-andolana-pariprekshita-o-itihasa"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "২১-২৪ মার্চ ১৯৪৮",
@@ -27,7 +34,11 @@
       "language-movement-banglapedia",
       "state-language-movement-in-east-bengal-1947-1956"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
   },
   {
     "year": "১৯৪৯-১৯৫১",
@@ -37,7 +48,11 @@
       "bhasha-andolana-pariprekshita-o-itihasa",
       "language-movement-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
   },
   {
     "year": "২৭ জানুয়ারি ১৯৫২",
@@ -47,7 +62,11 @@
       "state-language-movement-in-east-bengal-1947-1956",
       "language-movement-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
   },
   {
     "year": "৩১ জানুয়ারি ১৯৫২",
@@ -57,7 +76,11 @@
       "kazi-golam-mahbub-banglapedia",
       "language-movement-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
   },
   {
     "year": "২০ ফেব্রুয়ারি ১৯৫২",
@@ -67,7 +90,10 @@
       "language-movement-in-east-bengal",
       "state-language-movement-in-east-bengal-1947-1956"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "২১ ফেব্রুয়ারি ১৯৫২",
@@ -77,7 +103,10 @@
       "language-movement-banglapedia",
       "shaheed-minar-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "২২-২৩ ফেব্রুয়ারি ১৯৫২",
@@ -87,7 +116,10 @@
       "shaheed-minar-banglapedia",
       "language-movement-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৫৬",
@@ -97,6 +129,10 @@
       "state-language-movement-in-east-bengal-1947-1956",
       "international-mother-language-day-unesco"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
   }
 ]

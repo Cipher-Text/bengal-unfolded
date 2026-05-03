@@ -326,6 +326,7 @@ export type TimelineItem = {
   detail: string;
   sourceIds?: string[];
   evidenceLevel?: EvidenceLevel;
+  themes?: TimelineTheme[];
   type?: TimelineType;
   href?: string;
   ctaLabel?: string;
@@ -360,6 +361,7 @@ export type Book = {
 export type ResourceCategory = "read" | "watch" | "explore" | "understand";
 export type SourceQuality = "primary" | "secondary" | "archive" | "editorial";
 export type EvidenceLevel = "high" | "medium" | "low";
+export type TimelineTheme = "language" | "democracy" | "war" | "culture" | "economy";
 
 export type EventResource = {
   id: ResourceId;
@@ -412,4 +414,12 @@ export type HomeContent = {
   timelineSubheading: string;
   whyJourneyMattersHeading: string;
   whyJourneyMattersBody: string;
+};
+
+export type GlossaryTerm = {
+  id: string;
+  term: string;
+  definition: string;
+  explanation: string;
+  relatedTerms?: string[];
 };

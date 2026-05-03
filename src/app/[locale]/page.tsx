@@ -8,6 +8,7 @@ import Link from "next/link";
 import { getAllEvents, getHomeContent } from "@/lib/content";
 import { buildPageMetadata, localeLanguageTag, SITE_NAME } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
+import type { TimelineTheme } from "@/types/content";
 
 const EventTimeline = dynamic(
   () => import("@/components/EventTimeline").then((mod) => mod.EventTimeline),
@@ -24,6 +25,25 @@ const EventTimeline = dynamic(
   },
 );
 const HOMEPAGE_LANDMARK_LIMIT = 15;
+const EVENT_THEME_BY_SLUG: Record<string, TimelineTheme[]> = {
+  "1757": ["war", "economy"],
+  "1857": ["war", "democracy"],
+  "1906": ["democracy", "culture"],
+  "1911": ["democracy", "culture"],
+  "1943": ["economy", "war"],
+  "1947": ["war", "democracy"],
+  "1952": ["language", "culture", "democracy"],
+  "1954": ["democracy"],
+  "1958": ["democracy"],
+  "1966": ["democracy", "economy"],
+  "1969": ["democracy"],
+  "1971": ["war", "democracy"],
+  "1975": ["democracy"],
+  "1990": ["democracy"],
+  "2006": ["democracy"],
+  "2013": ["democracy"],
+  "2024": ["democracy", "economy"],
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -69,6 +89,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
     ctaLabel: event.ctaLabel || "Details",
     phaseLabel: phaseBySlug[event.slug],
     themeColor: event.themeColor,
+    themes: EVENT_THEME_BY_SLUG[event.slug] ?? ["culture"],
     emphasis: event.slug === "1971" ? "peak" as const : "normal" as const,
   }));
 

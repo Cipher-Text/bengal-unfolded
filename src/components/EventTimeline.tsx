@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { Locale, TimelineItem, TimelineType } from "@/types/content";
+import type { Locale, TimelineItem, TimelineTheme, TimelineType } from "@/types/content";
 import type { EventResource } from "@/types/content";
+import { renderGlossaryLinkedText } from "@/lib/glossary-linking";
 
 const INITIAL_ITEMS = 8;
 const LOAD_MORE_STEP = 8;
@@ -43,6 +44,22 @@ const EVIDENCE_LABELS = {
   en: { label: "Evidence", high: "High", medium: "Medium", low: "Low" },
   bn: { label: "প্রমাণের শক্তি", high: "উচ্চ", medium: "মাঝারি", low: "নিম্ন" },
 } as const;
+const THEME_LABELS: Record<Locale, Record<TimelineTheme, string>> = {
+  en: {
+    language: "Language",
+    democracy: "Democracy",
+    war: "War",
+    culture: "Culture",
+    economy: "Economy",
+  },
+  bn: {
+    language: "ভাষা",
+    democracy: "গণতন্ত্র",
+    war: "যুদ্ধ",
+    culture: "সংস্কৃতি",
+    economy: "অর্থনীতি",
+  },
+};
 
 function citationAnchorId(itemKey: string, sourceId: string): string {
   return `src-${itemKey}-${sourceId}`.replace(/[^a-zA-Z0-9-_]/g, "-");
@@ -58,16 +75,56 @@ export function EventTimeline({
   resources?: EventResource[];
 }) {
   const [visibleCount, setVisibleCount] = useState(INITIAL_ITEMS);
-  const visibleItems = useMemo(() => items.slice(0, visibleCount), [items, visibleCount]);
+  const [selectedTheme, setSelectedTheme] = useState<TimelineTheme | "all">("all");
+  const filteredItems = useMemo(
+    () => (selectedTheme === "all" ? items : items.filter((item) => item.themes?.includes(selectedTheme))),
+    [items, selectedTheme],
+  );
+  const visibleItems = useMemo(() => filteredItems.slice(0, visibleCount), [filteredItems, visibleCount]);
   const resourceById = useMemo(() => new Map(resources.map((resource) => [resource.id, resource] as const)), [resources]);
-  const hasMore = visibleCount < items.length;
+  const hasMore = visibleCount < filteredItems.length;
   const detailsLabel = locale === "bn" ? "বিস্তারিত" : "Details";
   const showMoreLabel = locale === "bn" ? "আরও দেখুন" : "Show more";
   const sourcesLabel = locale === "bn" ? "উৎস" : "Sources";
   const evidenceLabels = EVIDENCE_LABELS[locale];
+  const allThemeLabel = locale === "bn" ? "সব থিম" : "All Themes";
+  const availableThemes = useMemo(() => {
+    const set = new Set<TimelineTheme>();
+    for (const item of items) {
+      for (const theme of item.themes ?? []) set.add(theme);
+    }
+    return Array.from(set);
+  }, [items]);
 
   return (
     <div className="relative pl-6">
+      {availableThemes.length ? (
+        <div className="mb-4 flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedTheme("all");
+              setVisibleCount(INITIAL_ITEMS);
+            }}
+            className={`inline-flex min-h-[36px] items-center rounded-full border px-3 text-xs ${selectedTheme === "all" ? "border-amber-500/55 text-accent" : "border-amber-500/30 theme-muted"}`}
+          >
+            {allThemeLabel}
+          </button>
+          {availableThemes.map((theme) => (
+            <button
+              key={theme}
+              type="button"
+              onClick={() => {
+                setSelectedTheme(theme);
+                setVisibleCount(INITIAL_ITEMS);
+              }}
+              className={`inline-flex min-h-[36px] items-center rounded-full border px-3 text-xs ${selectedTheme === theme ? "border-amber-500/55 text-accent" : "border-amber-500/30 theme-muted"}`}
+            >
+              {THEME_LABELS[locale][theme]}
+            </button>
+          ))}
+        </div>
+      ) : null}
       <div className="theme-border absolute top-0 left-2.5 h-full w-px border-l" />
       <div className="space-y-6">
         {visibleItems.map((item, index) => (
@@ -88,7 +145,7 @@ export function EventTimeline({
               ) : null}
             </div>
             <p className={`theme-muted mt-2 ${item.emphasis === "peak" ? "text-base" : "text-sm"}`}>
-              {item.detail}
+              {renderGlossaryLinkedText(item.detail, locale)}
               {item.sourceIds?.length ? (
                 <span className="ml-1 inline-flex flex-wrap items-center gap-1 align-baseline">
                   {item.sourceIds.map((sourceId, citationIndex) => {

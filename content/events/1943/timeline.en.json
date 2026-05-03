@@ -7,7 +7,11 @@
       "midnights-furies",
       "the-spoils-of-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "economy"
+    ]
   },
   {
     "year": "Early 1943",
@@ -17,7 +21,10 @@
       "midnights-furies",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "Mid-Late 1943",
@@ -27,7 +34,10 @@
       "the-spoils-of-partition",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "1943-1944",
@@ -37,7 +47,10 @@
       "midnights-furies",
       "the-spoils-of-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "Long-term impact",
@@ -47,6 +60,11 @@
       "the-spoils-of-partition",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture",
+      "economy"
+    ]
   }
 ]

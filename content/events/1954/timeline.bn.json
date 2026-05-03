@@ -7,7 +7,11 @@
       "partition-politics-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
   },
   {
     "year": "১৯৫৪ সালের শুরুর দিকে",
@@ -17,7 +21,10 @@
       "bangladesh-awami-league-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "মার্চ ১৯৫৪",
@@ -27,7 +34,10 @@
       "bangladesh-awami-league-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "এপ্রিল-মে ১৯৫৪",
@@ -37,7 +47,10 @@
       "partition-politics-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৫৪ ও পরবর্তী সময়",
@@ -47,6 +60,9 @@
       "bangladesh-from-mujib-to-ershad",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

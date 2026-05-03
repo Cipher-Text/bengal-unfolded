@@ -7,7 +7,10 @@
       "mangal-pandey-britannica",
       "indian-rebellion-1857-britannica"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১০ মে ১৮৫৭",
@@ -17,7 +20,10 @@
       "indian-rebellion-1857-britannica",
       "nana-sahib-britannica"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "মে-জুন ১৮৫৭",
@@ -27,7 +33,10 @@
       "bahadur-shah-ii-britannica",
       "indian-rebellion-1857-britannica"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৮৫৭-১৮৫৮",
@@ -37,7 +46,10 @@
       "lakshmi-bai-britannica",
       "tantia-tope-britannica"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৮৫৮",
@@ -47,6 +59,9 @@
       "indian-rebellion-1857-britannica",
       "bahadur-shah-ii-britannica"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

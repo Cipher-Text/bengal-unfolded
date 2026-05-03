@@ -7,7 +7,10 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
   },
   {
     "year": "2024-06-06",
@@ -17,7 +20,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2024-07-01",
@@ -27,7 +33,10 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2024-07-07",
@@ -37,7 +46,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2024-07-10",
@@ -47,7 +59,10 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2024-07-14",
@@ -57,7 +72,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2024-07-15",
@@ -67,7 +85,10 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2024-07-16",
@@ -77,7 +98,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2024-07-18",
@@ -87,7 +111,10 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2024-07-19",
@@ -97,7 +124,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2024-07-21",
@@ -107,7 +137,10 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
   },
   {
     "year": "2024-07-23",
@@ -117,7 +150,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2024-08-03",
@@ -127,7 +163,10 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2024-08-04",
@@ -137,7 +176,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2024-08-05",
@@ -147,7 +189,10 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2024-08-06",
@@ -157,7 +202,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2024-08-08",
@@ -167,6 +215,9 @@
       "research-volume",
       "archive-collection"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

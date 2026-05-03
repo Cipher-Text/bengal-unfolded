@@ -37,6 +37,18 @@
   - Added event-page and timeline UI evidence badges (EN/BN labels).
   - Extended content validation to enforce allowed evidence levels and require timeline evidence levels where citations exist.
   - Backfilled evidence levels across all event locale metadata and timeline entries based on referenced source-quality composition.
+- Glossary rollout (RM-003):
+  - Added glossary content model and seeded bilingual glossary term entries under `content/glossary/*`.
+  - Added SSG glossary routes: `/{locale}/glossary` and `/{locale}/glossary/[term]`.
+  - Added controlled glossary term-linking in event summary, why-it-matters, and timeline detail text.
+  - Added glossary validation checks and sitemap coverage for glossary index/term routes.
+  - Added glossary discoverability link in header navigation.
+- Timeline theme filters rollout (RM-004):
+  - Added timeline theme metadata support (`language`, `democracy`, `war`, `culture`, `economy`) to timeline model.
+  - Backfilled theme values for all event timeline entries (EN/BN).
+  - Added theme filter chips to event/home timelines.
+  - Added theme filtering in full timeline explorer query flow (`theme` parameter + filter UI + pagination preservation).
+  - Extended content validation to enforce non-empty timeline themes with allowed values.
 
 ## 2026-05-03
 

@@ -7,7 +7,10 @@
       "military-rule-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "Oct 1958",
@@ -17,7 +20,10 @@
       "military-rule-banglapedia",
       "partition-politics-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "1958-1962",
@@ -27,7 +33,10 @@
       "research-volume",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "Early 1960s",
@@ -37,7 +46,10 @@
       "bangladesh-awami-league-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "1960s and after",
@@ -47,6 +59,9 @@
       "bangladesh-from-mujib-to-ershad",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   }
 ]

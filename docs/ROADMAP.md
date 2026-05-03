@@ -130,8 +130,8 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-001A Inline citation starter implemented (foundation milestone; superseded by RM-001 full coverage)
 - [x] RM-002 Source quality badges (`Primary`, `Secondary`, `Archive`, `Editorial`) (landmark resource editorial curation completed)
 - [x] RM-002A Source quality system foundation (type/model/UI badges/validation + landmark resource backfill)
-- [ ] RM-003 Glossary pages + term linking (`/{locale}/glossary/[term]`)
-- [ ] RM-004 Timeline thematic filters (`Language`, `Democracy`, `War`, `Culture`, `Economy`)
+- [x] RM-003 Glossary pages + term linking (`/{locale}/glossary/[term]`)
+- [x] RM-004 Timeline thematic filters (`Language`, `Democracy`, `War`, `Culture`, `Economy`)
 - [x] RM-005 Evidence metadata fields (`sourceIds`, `evidenceLevel`) in content model
 - [ ] RM-006 Section jump navigation on long event pages
 

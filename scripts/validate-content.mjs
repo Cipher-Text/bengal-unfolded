@@ -36,11 +36,13 @@ async function main() {
   const eventDir = path.join(contentDir, "events");
   const figureDir = path.join(contentDir, "figures");
   const resourceDir = path.join(contentDir, "resources");
+  const glossaryDir = path.join(contentDir, "glossary");
 
   const figureIds = new Set((await fs.readdir(figureDir)).filter((name) => !name.startsWith("index.")));
   const resourceIds = new Set(await fs.readdir(resourceDir));
   const allowedQuality = new Set(["primary", "secondary", "archive", "editorial"]);
   const allowedEvidenceLevel = new Set(["high", "medium", "low"]);
+  const allowedThemes = new Set(["language", "democracy", "war", "culture", "economy"]);
 
   const eventSlugs = await fs.readdir(eventDir);
   for (const slug of eventSlugs) {
@@ -133,6 +135,15 @@ async function main() {
         if (typeof item.evidenceLevel !== "string" || !allowedEvidenceLevel.has(item.evidenceLevel)) {
           errors.push(`Invalid or missing evidenceLevel at content/events/${slug}/timeline.${locale}.json[${i}]`);
         }
+        if (!Array.isArray(item.themes) || item.themes.length === 0) {
+          errors.push(`Missing or empty themes at content/events/${slug}/timeline.${locale}.json[${i}]`);
+        } else {
+          for (const theme of item.themes) {
+            if (typeof theme !== "string" || !allowedThemes.has(theme)) {
+              errors.push(`Invalid theme '${theme}' at content/events/${slug}/timeline.${locale}.json[${i}]`);
+            }
+          }
+        }
         for (const sourceId of item.sourceIds) {
           if (typeof sourceId !== "string") {
             errors.push(`Non-string sourceId at content/events/${slug}/timeline.${locale}.json[${i}]`);
@@ -166,6 +177,39 @@ async function main() {
         }
         if (!allowedQuality.has(meta.quality)) {
           errors.push(`Invalid quality '${meta.quality}' at content/resources/${resourceId}/meta.${locale}.json`);
+        }
+      }
+    }
+  }
+
+  const glossaryEntries = await fs.readdir(glossaryDir);
+  const glossaryIds = new Set(glossaryEntries);
+  for (const termId of glossaryEntries) {
+    for (const locale of ["en", "bn"]) {
+      const metaPath = path.join(glossaryDir, termId, `meta.${locale}.json`);
+      if (!(await exists(metaPath))) {
+        errors.push(`Missing file: content/glossary/${termId}/meta.${locale}.json`);
+        continue;
+      }
+      const meta = await readJson(metaPath, errors);
+      if (!meta || typeof meta !== "object") continue;
+      for (const key of ["id", "term", "definition", "explanation"]) {
+        if (typeof meta[key] !== "string" || meta[key].trim().length === 0) {
+          errors.push(`Missing or invalid '${key}' at content/glossary/${termId}/meta.${locale}.json`);
+        }
+      }
+      if (meta.id !== termId) {
+        errors.push(`Glossary id mismatch at content/glossary/${termId}/meta.${locale}.json`);
+      }
+      if ("relatedTerms" in meta) {
+        if (!Array.isArray(meta.relatedTerms)) {
+          errors.push(`relatedTerms must be array at content/glossary/${termId}/meta.${locale}.json`);
+        } else {
+          for (const related of meta.relatedTerms) {
+            if (typeof related !== "string" || !glossaryIds.has(related)) {
+              errors.push(`Invalid related term '${related}' at content/glossary/${termId}/meta.${locale}.json`);
+            }
+          }
         }
       }
     }

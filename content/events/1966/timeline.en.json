@@ -7,7 +7,10 @@
       "bangladesh-awami-league-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "Feb-Mar 1966",
@@ -17,7 +20,10 @@
       "bangladesh-awami-league-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "1966",
@@ -27,7 +33,10 @@
       "military-rule-banglapedia",
       "bangladesh-awami-league-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "1966-1968",
@@ -37,7 +46,10 @@
       "research-volume",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "1969 and after",
@@ -47,6 +59,10 @@
       "bangladesh-from-mujib-to-ershad",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
   }
 ]

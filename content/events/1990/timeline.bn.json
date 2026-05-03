@@ -7,7 +7,10 @@
       "bangladesh-from-mujib-to-ershad",
       "bangladesh-under-mujib-zia-and-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৮৩",
@@ -17,7 +20,10 @@
       "bangladesh-under-mujib-zia-and-ershad",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১০ নভেম্বর ১৯৮৭",
@@ -27,7 +33,10 @@
       "military-rule-banglapedia",
       "nur-hossain-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৮৮",
@@ -37,7 +46,10 @@
       "nur-hossain-banglapedia",
       "justice-shahabuddin-ahmed-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৯০",
@@ -47,7 +59,10 @@
       "justice-shahabuddin-ahmed-banglapedia",
       "sheikh-hasina-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯ নভেম্বর ১৯৯০",
@@ -57,7 +72,10 @@
       "sheikh-hasina-banglapedia",
       "khaleda-zia-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "২৭ নভেম্বর ১৯৯০",
@@ -67,7 +85,10 @@
       "khaleda-zia-banglapedia",
       "bangladesh-awami-league-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "নভেম্বরের শেষ-ডিসেম্বরের শুরু ১৯৯০",
@@ -77,7 +98,10 @@
       "bangladesh-awami-league-banglapedia",
       "bangladesh-nationalist-party-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "৬ ডিসেম্বর ১৯৯০",
@@ -87,7 +111,10 @@
       "bangladesh-nationalist-party-banglapedia",
       "communist-party-of-bangladesh-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "ফেব্রুয়ারি-আগস্ট ১৯৯১",
@@ -97,6 +124,9 @@
       "communist-party-of-bangladesh-banglapedia",
       "bangladesh-from-mujib-to-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

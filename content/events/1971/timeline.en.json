@@ -7,7 +7,10 @@
       "ekattorer-dinguli",
       "ami-birangona-bolchi"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "Dec 1970 (Result)",
@@ -17,7 +20,10 @@
       "ami-birangona-bolchi",
       "muldhara-71"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "1 Mar 1971",
@@ -27,7 +33,10 @@
       "muldhara-71",
       "rifle-roti-aurat"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2 Mar 1971",
@@ -37,7 +46,10 @@
       "rifle-roti-aurat",
       "jochona-o-jononir-golpo"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "7 Mar 1971",
@@ -47,7 +59,10 @@
       "jochona-o-jononir-golpo",
       "hangor-nodi-grenade"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "9 Mar 1971",
@@ -57,7 +72,10 @@
       "hangor-nodi-grenade",
       "the-rape-of-bangladesh"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "16-24 Mar 1971",
@@ -67,7 +85,10 @@
       "the-rape-of-bangladesh",
       "the-blood-telegram"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "19 Mar 1971",
@@ -77,7 +98,10 @@
       "the-blood-telegram",
       "1971-a-global-history-of-the-creation-of-bangladesh"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "25 Mar 1971 (Night)",
@@ -87,7 +111,10 @@
       "1971-a-global-history-of-the-creation-of-bangladesh",
       "bondi-shibir-theke"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "26 Mar 1971",
@@ -97,7 +124,10 @@
       "bondi-shibir-theke",
       "payer-awaj-pawa-jai"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "27 Mar 1971",
@@ -107,7 +137,10 @@
       "payer-awaj-pawa-jai",
       "history-of-the-1971-liberation-war"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "30 Mar 1971",
@@ -117,7 +150,10 @@
       "history-of-the-1971-liberation-war",
       "ekattorer-dinguli"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "31 Mar 1971",
@@ -127,7 +163,10 @@
       "ekattorer-dinguli",
       "ami-birangona-bolchi"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "10 Apr 1971",
@@ -137,7 +176,10 @@
       "ami-birangona-bolchi",
       "muldhara-71"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "17 Apr 1971",
@@ -147,7 +189,10 @@
       "muldhara-71",
       "rifle-roti-aurat"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "Apr-Nov 1971",
@@ -157,7 +202,10 @@
       "rifle-roti-aurat",
       "jochona-o-jononir-golpo"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "3 Dec 1971",
@@ -167,7 +215,10 @@
       "jochona-o-jononir-golpo",
       "hangor-nodi-grenade"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "Early-Mid Dec 1971",
@@ -177,7 +228,10 @@
       "hangor-nodi-grenade",
       "the-rape-of-bangladesh"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "14 Dec 1971",
@@ -187,7 +241,10 @@
       "the-rape-of-bangladesh",
       "the-blood-telegram"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "16 Dec 1971",
@@ -197,7 +254,10 @@
       "the-blood-telegram",
       "1971-a-global-history-of-the-creation-of-bangladesh"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "10 Jan 1972",
@@ -207,7 +267,10 @@
       "1971-a-global-history-of-the-creation-of-bangladesh",
       "bondi-shibir-theke"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "Jan 1972",
@@ -217,7 +280,10 @@
       "bondi-shibir-theke",
       "payer-awaj-pawa-jai"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "Feb 1972",
@@ -227,6 +293,9 @@
       "payer-awaj-pawa-jai",
       "history-of-the-1971-liberation-war"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   }
 ]

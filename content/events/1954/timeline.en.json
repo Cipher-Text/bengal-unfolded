@@ -7,7 +7,12 @@
       "partition-politics-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture",
+      "democracy"
+    ]
   },
   {
     "year": "Early 1954",
@@ -17,7 +22,10 @@
       "bangladesh-awami-league-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "March 1954",
@@ -27,7 +35,10 @@
       "bangladesh-awami-league-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "April-May 1954",
@@ -37,7 +48,10 @@
       "partition-politics-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "1954 and after",
@@ -47,6 +61,9 @@
       "bangladesh-from-mujib-to-ershad",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   }
 ]

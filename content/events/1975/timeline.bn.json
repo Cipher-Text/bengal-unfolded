@@ -7,7 +7,10 @@
       "bangladesh-under-mujib-zia-and-ershad",
       "bangladesh-from-mujib-to-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "ফেব্রুয়ারি-জুন ১৯৭৫",
@@ -17,7 +20,10 @@
       "bangladesh-from-mujib-to-ershad",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৫ আগস্ট ১৯৭৫",
@@ -27,7 +33,10 @@
       "military-rule-banglapedia",
       "bangladesh-under-mujib-zia-and-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "আগস্ট-সেপ্টেম্বর ১৯৭৫",
@@ -37,7 +46,10 @@
       "bangladesh-under-mujib-zia-and-ershad",
       "bangladesh-from-mujib-to-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "৩ নভেম্বর ১৯৭৫",
@@ -47,7 +59,10 @@
       "bangladesh-from-mujib-to-ershad",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "নভেম্বর ১৯৭৫",
@@ -57,7 +72,10 @@
       "military-rule-banglapedia",
       "the-blood-telegram"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৭৫ সালের শেষভাগ",
@@ -67,6 +85,9 @@
       "military-rule-banglapedia",
       "bangladesh-under-mujib-zia-and-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

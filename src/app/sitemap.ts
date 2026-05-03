@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllCreators, getAllResourceIds } from "@/lib/content";
+import { getAllCreators, getAllGlossaryTermIds, getAllResourceIds } from "@/lib/content";
 import { SUPPORTED_BOOK_IDS, SUPPORTED_EVENT_SLUGS, SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES } from "@/types/content";
 
 const BASE_URL = "https://bengalunfolded.com";
@@ -17,8 +17,9 @@ function localeAlternates(path = ""): Record<string, string> {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [resourceIds, enCreators, bnCreators] = await Promise.all([
+  const [resourceIds, glossaryTermIds, enCreators, bnCreators] = await Promise.all([
     getAllResourceIds(),
+    getAllGlossaryTermIds(),
     getAllCreators("en"),
     getAllCreators("bn"),
   ]);
@@ -55,6 +56,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "weekly",
         priority: 0.85,
         alternates: { languages: localeAlternates("/timeline") },
+      },
+      {
+        url: withLocale(locale, "/glossary"),
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.75,
+        alternates: { languages: localeAlternates("/glossary") },
       },
     );
 
@@ -111,6 +119,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "monthly",
         priority: 0.6,
         alternates: { languages: localeAlternates(`/resources/${resourceId}`) },
+      });
+    }
+
+    for (const termId of glossaryTermIds) {
+      entries.push({
+        url: withLocale(locale, `/glossary/${termId}`),
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.55,
+        alternates: { languages: localeAlternates(`/glossary/${termId}`) },
       });
     }
 

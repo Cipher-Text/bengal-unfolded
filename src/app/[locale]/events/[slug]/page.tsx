@@ -11,6 +11,7 @@ import { QuoteBlock } from "@/components/QuoteBlock";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getEventContent, getPreviousAndNextEvents } from "@/lib/content";
+import { renderGlossaryLinkedText } from "@/lib/glossary-linking";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 import type { EventResource } from "@/types/content";
 
@@ -132,7 +133,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       <HeroSection
         title={`${event.meta.year} — ${event.meta.title}`}
         tagline={event.meta.heroTagline}
-        intro={<>{event.meta.summary}{renderInlineCitations(event.meta.summarySourceIds, resourceById)}{renderEvidenceBadge(event.meta.summaryEvidenceLevel)}</>}
+        intro={<>{renderGlossaryLinkedText(event.meta.summary, locale as Locale)}{renderInlineCitations(event.meta.summarySourceIds, resourceById)}{renderEvidenceBadge(event.meta.summaryEvidenceLevel)}</>}
       />
 
       <AnimatedContainer>
@@ -184,7 +185,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.25}>
-        <SectionTitle title={labels.whyItMatters} subtitle={<>{event.meta.whyItMatters}{renderInlineCitations(event.meta.whyItMattersSourceIds, resourceById)}{renderEvidenceBadge(event.meta.whyItMattersEvidenceLevel)}</>} />
+        <SectionTitle title={labels.whyItMatters} subtitle={<>{renderGlossaryLinkedText(event.meta.whyItMatters, locale as Locale)}{renderInlineCitations(event.meta.whyItMattersSourceIds, resourceById)}{renderEvidenceBadge(event.meta.whyItMattersEvidenceLevel)}</>} />
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.3}>

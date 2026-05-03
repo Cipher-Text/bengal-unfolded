@@ -7,7 +7,10 @@
       "caretaker-government-banglapedia",
       "khaleda-zia-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "Oct-Dec 2006",
@@ -17,7 +20,10 @@
       "khaleda-zia-banglapedia",
       "sheikh-hasina-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "11 Jan 2007",
@@ -27,7 +33,10 @@
       "caretaker-government-banglapedia",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2007",
@@ -37,7 +46,10 @@
       "military-rule-banglapedia",
       "caretaker-government-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "2007-2008",
@@ -47,7 +59,10 @@
       "sheikh-hasina-banglapedia",
       "khaleda-zia-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "Dec 2008",
@@ -57,6 +72,9 @@
       "caretaker-government-banglapedia",
       "sheikh-hasina-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   }
 ]

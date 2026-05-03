@@ -7,6 +7,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { getAllEvents } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
+import type { TimelineTheme } from "@/types/content";
 
 const PAGE_SIZE = 6;
 
@@ -19,14 +20,52 @@ function toPage(v: string | undefined): number {
   return Number.isFinite(n) && n > 0 ? Math.floor(n) : 1;
 }
 
-function buildQuery(params: { q?: string; year?: string; page?: number }): string {
+function buildQuery(params: { q?: string; year?: string; theme?: string; page?: number }): string {
   const qs = new URLSearchParams();
   if (params.q) qs.set("q", params.q);
   if (params.year) qs.set("year", params.year);
+  if (params.theme) qs.set("theme", params.theme);
   if (params.page && params.page > 1) qs.set("page", String(params.page));
   const s = qs.toString();
   return s ? `?${s}` : "";
 }
+
+const EVENT_THEME_BY_SLUG: Record<string, TimelineTheme[]> = {
+  "1757": ["war", "economy"],
+  "1857": ["war", "democracy"],
+  "1906": ["democracy", "culture"],
+  "1911": ["democracy", "culture"],
+  "1943": ["economy", "war"],
+  "1947": ["war", "democracy"],
+  "1952": ["language", "culture", "democracy"],
+  "1954": ["democracy"],
+  "1958": ["democracy"],
+  "1966": ["democracy", "economy"],
+  "1969": ["democracy"],
+  "1971": ["war", "democracy"],
+  "1975": ["democracy"],
+  "1990": ["democracy"],
+  "2006": ["democracy"],
+  "2013": ["democracy"],
+  "2024": ["democracy", "economy"],
+};
+
+const THEME_LABELS: Record<Locale, Record<TimelineTheme, string>> = {
+  en: {
+    language: "Language",
+    democracy: "Democracy",
+    war: "War",
+    culture: "Culture",
+    economy: "Economy",
+  },
+  bn: {
+    language: "ভাষা",
+    democracy: "গণতন্ত্র",
+    war: "যুদ্ধ",
+    culture: "সংস্কৃতি",
+    economy: "অর্থনীতি",
+  },
+};
 
 export async function generateMetadata({
   params,
@@ -54,12 +93,12 @@ export default async function TimelineExplorerPage({
   searchParams,
 }: {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ q?: string; year?: string; page?: string }>;
+  searchParams: Promise<{ q?: string; year?: string; theme?: string; page?: string }>;
 }) {
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
-  const { q = "", year = "", page = "1" } = await searchParams;
+  const { q = "", year = "", theme = "", page = "1" } = await searchParams;
   const safePage = toPage(page);
   const isBn = locale === "bn";
 
@@ -69,10 +108,12 @@ export default async function TimelineExplorerPage({
   const nq = normalize(q);
   const filtered = allEvents.filter((event) => {
     const byYear = year ? event.year === year : true;
+    const eventThemes = EVENT_THEME_BY_SLUG[event.slug] ?? [];
+    const byTheme = theme ? eventThemes.includes(theme as TimelineTheme) : true;
     const byQuery = nq
       ? [event.year, event.title, event.subtitle, event.summary].some((v) => normalize(v).includes(nq))
       : true;
-    return byYear && byQuery;
+    return byYear && byTheme && byQuery;
   });
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
@@ -95,7 +136,7 @@ export default async function TimelineExplorerPage({
           title={isBn ? "সার্চ ও ফিল্টার" : "Search and Filters"}
           subtitle={isBn ? "কিওয়ার্ড ও বছর নির্বাচন করুন" : "Use keyword and year to narrow events"}
         />
-        <form className="mt-4 grid gap-3 md:grid-cols-[1fr_220px_auto]" method="get" action={`/${locale}/timeline`}>
+        <form className="mt-4 grid gap-3 md:grid-cols-[1fr_220px_220px_auto]" method="get" action={`/${locale}/timeline`}>
           <input
             name="q"
             defaultValue={q}
@@ -114,6 +155,18 @@ export default async function TimelineExplorerPage({
               </option>
             ))}
           </select>
+          <select
+            name="theme"
+            defaultValue={theme}
+            className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"
+          >
+            <option value="">{isBn ? "সব থিম" : "All themes"}</option>
+            {(["language", "democracy", "war", "culture", "economy"] as TimelineTheme[]).map((t) => (
+              <option key={t} value={t}>
+                {THEME_LABELS[locale as Locale][t]}
+              </option>
+            ))}
+          </select>
           <button
             type="submit"
             className="inline-flex min-h-[44px] items-center justify-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10"
@@ -128,7 +181,7 @@ export default async function TimelineExplorerPage({
           <p className="theme-muted text-sm">
             {isBn ? `মোট ফলাফল: ${filtered.length}` : `Total results: ${filtered.length}`}
           </p>
-          {(q || year) && (
+          {(q || year || theme) && (
             <Link
               href={`/${locale}/timeline`}
               className="text-sm font-medium text-amber-400 hover:text-amber-300"
@@ -150,7 +203,7 @@ export default async function TimelineExplorerPage({
           <div className="flex items-center justify-between">
             {currentPage > 1 ? (
               <Link
-                href={`/${locale}/timeline${buildQuery({ q, year, page: currentPage - 1 })}`}
+                href={`/${locale}/timeline${buildQuery({ q, year, theme, page: currentPage - 1 })}`}
                 className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm text-accent hover:bg-amber-500/10"
               >
                 {isBn ? "আগের পাতা" : "Previous"}
@@ -163,7 +216,7 @@ export default async function TimelineExplorerPage({
             </p>
             {currentPage < totalPages ? (
               <Link
-                href={`/${locale}/timeline${buildQuery({ q, year, page: currentPage + 1 })}`}
+                href={`/${locale}/timeline${buildQuery({ q, year, theme, page: currentPage + 1 })}`}
                 className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm text-accent hover:bg-amber-500/10"
               >
                 {isBn ? "পরের পাতা" : "Next"}

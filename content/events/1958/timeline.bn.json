@@ -7,7 +7,10 @@
       "military-rule-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "অক্টোবর ১৯৫৮",
@@ -17,7 +20,10 @@
       "military-rule-banglapedia",
       "partition-politics-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৫৮-১৯৬২",
@@ -27,7 +33,10 @@
       "research-volume",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৬০-এর শুরুর বছরগুলো",
@@ -37,7 +46,10 @@
       "bangladesh-awami-league-banglapedia",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৬০-এর দশক ও পরবর্তী সময়",
@@ -47,6 +59,9 @@
       "bangladesh-from-mujib-to-ershad",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

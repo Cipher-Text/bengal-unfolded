@@ -7,7 +7,10 @@
       "the-great-partition",
       "midnights-furies"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৪৩",
@@ -17,7 +20,10 @@
       "midnights-furies",
       "the-spoils-of-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৪৫",
@@ -27,7 +33,10 @@
       "the-spoils-of-partition",
       "train-to-pakistan"
     ],
-    "evidenceLevel": "low"
+    "evidenceLevel": "low",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "১৯৪৬",
@@ -37,7 +46,10 @@
       "train-to-pakistan",
       "partition-of-british-india-national-archives"
     ],
-    "evidenceLevel": "low"
+    "evidenceLevel": "low",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৬ আগস্ট ১৯৪৬",
@@ -47,7 +59,10 @@
       "partition-of-british-india-national-archives",
       "partition-of-british-india-video"
     ],
-    "evidenceLevel": "low"
+    "evidenceLevel": "low",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৪৭ (শুরুর দিক)",
@@ -57,7 +72,10 @@
       "partition-of-british-india-video",
       "the-1947-partition-archive"
     ],
-    "evidenceLevel": "low"
+    "evidenceLevel": "low",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "৩ জুন ১৯৪৭",
@@ -67,7 +85,10 @@
       "the-1947-partition-archive",
       "partition-politics-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৮ জুলাই ১৯৪৭",
@@ -77,7 +98,10 @@
       "partition-politics-banglapedia",
       "partition-of-bengal-1947-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৪-১৫ আগস্ট ১৯৪৭",
@@ -87,7 +111,10 @@
       "partition-of-bengal-1947-banglapedia",
       "language-movement-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৭ আগস্ট ১৯৪৭",
@@ -97,7 +124,10 @@
       "language-movement-banglapedia",
       "the-great-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৪৭-১৯৫০",
@@ -107,7 +137,10 @@
       "the-great-partition",
       "midnights-furies"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৪৮-১৯৫২",
@@ -117,7 +150,11 @@
       "midnights-furies",
       "the-spoils-of-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
   },
   {
     "year": "দীর্ঘমেয়াদী প্রভাব",
@@ -127,6 +164,9 @@
       "the-spoils-of-partition",
       "train-to-pakistan"
     ],
-    "evidenceLevel": "low"
+    "evidenceLevel": "low",
+    "themes": [
+      "culture"
+    ]
   }
 ]

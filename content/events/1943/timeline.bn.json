@@ -7,7 +7,11 @@
       "midnights-furies",
       "the-spoils-of-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "economy"
+    ]
   },
   {
     "year": "১৯৪৩ (শুরুর দিক)",
@@ -17,7 +21,10 @@
       "midnights-furies",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৪৩ (মাঝামাঝি-শেষভাগ)",
@@ -27,7 +34,10 @@
       "the-spoils-of-partition",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "১৯৪৩-১৯৪৪",
@@ -37,7 +47,10 @@
       "midnights-furies",
       "the-spoils-of-partition"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "দীর্ঘমেয়াদি প্রভাব",
@@ -47,6 +60,9 @@
       "the-spoils-of-partition",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   }
 ]

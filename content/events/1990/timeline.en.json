@@ -7,7 +7,10 @@
       "bangladesh-from-mujib-to-ershad",
       "bangladesh-under-mujib-zia-and-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "1983",
@@ -17,7 +20,10 @@
       "bangladesh-under-mujib-zia-and-ershad",
       "military-rule-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "November 10, 1987",
@@ -27,7 +33,10 @@
       "military-rule-banglapedia",
       "nur-hossain-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "1988",
@@ -37,7 +46,10 @@
       "nur-hossain-banglapedia",
       "justice-shahabuddin-ahmed-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "1990",
@@ -47,7 +59,10 @@
       "justice-shahabuddin-ahmed-banglapedia",
       "sheikh-hasina-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "November 19, 1990",
@@ -57,7 +72,10 @@
       "sheikh-hasina-banglapedia",
       "khaleda-zia-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "November 27, 1990",
@@ -67,7 +85,10 @@
       "khaleda-zia-banglapedia",
       "bangladesh-awami-league-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "Late November-Early December 1990",
@@ -77,7 +98,10 @@
       "bangladesh-awami-league-banglapedia",
       "bangladesh-nationalist-party-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "December 6, 1990",
@@ -87,7 +111,10 @@
       "bangladesh-nationalist-party-banglapedia",
       "communist-party-of-bangladesh-banglapedia"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "February-August 1991",
@@ -97,6 +124,9 @@
       "communist-party-of-bangladesh-banglapedia",
       "bangladesh-from-mujib-to-ershad"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   }
 ]

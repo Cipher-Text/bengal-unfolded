@@ -7,7 +7,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "Feb 2013",
@@ -17,7 +20,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "Feb-Mar 2013",
@@ -27,7 +33,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
   },
   {
     "year": "2013",
@@ -37,7 +46,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "Late 2013",
@@ -47,6 +59,11 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture",
+      "democracy"
+    ]
   }
 ]

@@ -7,7 +7,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
   },
   {
     "year": "ফেব্রুয়ারি ২০১৩",
@@ -17,7 +20,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "ফেব্রুয়ারি-মার্চ ২০১৩",
@@ -27,7 +33,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "২০১৩",
@@ -37,7 +46,10 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   },
   {
     "year": "২০১৩ সালের শেষভাগ",
@@ -47,6 +59,9 @@
       "archive-collection",
       "research-volume"
     ],
-    "evidenceLevel": "medium"
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
   }
 ]

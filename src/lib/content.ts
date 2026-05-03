@@ -16,6 +16,7 @@ import {
   type Figure,
   type FigureId,
   type HomeContent,
+  type GlossaryTerm,
   type Locale,
   type Quote,
   type TimelineItem,
@@ -185,6 +186,15 @@ const readResourceIdsCached = cache(async (): Promise<string[]> => {
     .sort((a, b) => a.localeCompare(b));
 });
 
+const readGlossaryIdsCached = cache(async (): Promise<string[]> => {
+  const glossaryDir = path.join(CONTENT_DIR, "glossary");
+  const entries = await fs.readdir(glossaryDir, { withFileTypes: true });
+  return entries
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b));
+});
+
 export function assertSupportedLocale(locale: string): asserts locale is Locale {
   if (!isLocale(locale)) throw new Error(`Unsupported locale: ${locale}`);
 }
@@ -252,6 +262,21 @@ export async function getAllResources(locale: string): Promise<EventResource[]> 
   assertSupportedLocale(locale);
   const resourceIds = await getAllResourceIds();
   return Promise.all(resourceIds.map((resourceId) => getResource(locale, resourceId)));
+}
+
+export async function getAllGlossaryTermIds(): Promise<string[]> {
+  return readGlossaryIdsCached();
+}
+
+export async function getGlossaryTerm(locale: string, termId: string): Promise<GlossaryTerm> {
+  assertSupportedLocale(locale);
+  return readJsonFile(path.join(CONTENT_DIR, "glossary", termId, `meta.${locale}.json`));
+}
+
+export async function getAllGlossaryTerms(locale: string): Promise<GlossaryTerm[]> {
+  assertSupportedLocale(locale);
+  const ids = await getAllGlossaryTermIds();
+  return Promise.all(ids.map((id) => getGlossaryTerm(locale, id)));
 }
 
 const creatorsCached = cache(async (locale: string): Promise<Map<string, Creator>> => {
