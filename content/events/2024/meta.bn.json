@@ -7,8 +7,14 @@
   "themeColor": "#6b2f7f",
   "ctaLabel": "আন্দোলন বুঝুন",
   "heroTagline": "একটি প্রজন্ম প্রশ্ন তোলে—সুযোগ কি সবার জন্য সমান?",
-  "summarySourceIds": ["research-volume", "archive-collection"],
+  "summarySourceIds": [
+    "research-volume",
+    "archive-collection"
+  ],
   "whyItMatters": "২০২৪ সালের এই আন্দোলন শুধু একটি নীতিগত পরিবর্তনের দাবি নয়—এটি সমতা, ন্যায্যতা এবং তরুণদের ভবিষ্যৎ নিয়ে একটি গুরুত্বপূর্ণ সামাজিক প্রশ্ন তুলে ধরে। এটি দেখায় যে নতুন প্রজন্ম তাদের অধিকার ও সুযোগের বিষয়ে সচেতন এবং সক্রিয়।",
-  "whyItMattersSourceIds": ["research-volume", "archive-collection"],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "archive-collection"
+  ],
   "showOnLanding": true
 }

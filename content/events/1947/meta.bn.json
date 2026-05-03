@@ -7,8 +7,14 @@
   "themeColor": "#8b5e3c",
   "ctaLabel": "ইতিহাস দেখুন",
   "heroTagline": "১৯৪৭ শুধু ভূখণ্ড ভাগ করেনি, বদলে দিয়েছে স্মৃতি, পরিচয় এবং রাজনৈতিক ভবিষ্যৎ।",
-  "summarySourceIds": ["the-great-partition", "partition-of-british-india-national-archives"],
+  "summarySourceIds": [
+    "partition-of-british-india-national-archives",
+    "partition-of-bengal-1947-banglapedia"
+  ],
   "whyItMatters": "বাংলার দেশভাগ বোঝা জরুরি, কারণ এখান থেকেই পূর্ববঙ্গে ভাষা, প্রতিনিধিত্ব, স্বায়ত্তশাসন এবং জাতীয় সত্তার প্রশ্ন আরও তীব্র হয়ে ওঠে।",
-  "whyItMattersSourceIds": ["partition-of-bengal-1947-banglapedia", "partition-politics-banglapedia"],
+  "whyItMattersSourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
   "showOnLanding": true
 }

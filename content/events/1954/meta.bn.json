@@ -8,5 +8,13 @@
   "ctaLabel": "১৯৫৪-এর গণরায় দেখুন",
   "heroTagline": "ভোটের বাক্সে উচ্চারিত হয় ক্ষমতা, ভাষা ও প্রাদেশিক অধিকারের জনরায়।",
   "whyItMatters": "যুক্তফ্রন্টের এই বিজয় দেখায় যে পূর্ববঙ্গের নির্বাচনী রাজনীতি কেন্দ্রীয় কর্তৃত্বকে শক্তভাবে চ্যালেঞ্জ করতে সক্ষম, যা ভাষা-আন্দোলন থেকে স্বায়ত্তশাসন ও স্বাধীনতার দীর্ঘ ধারাকে আরও শক্তিশালী করে।",
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "bangladesh-awami-league-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ]
 }

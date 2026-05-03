@@ -8,5 +8,13 @@
   "ctaLabel": "Explore the reversal",
   "heroTagline": "The annulment marked both a political concession and a strategic imperial reconfiguration.",
   "whyItMatters": "The 1911 annulment showed how sustained public pressure could reshape colonial decisions, while leaving unresolved tensions over representation, communal politics, and regional power that continued into later decades.",
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "partition-politics-banglapedia",
+    "archive-collection"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "archive-collection"
+  ]
 }

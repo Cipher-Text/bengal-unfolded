@@ -7,8 +7,14 @@
   "themeColor": "#b64040",
   "ctaLabel": "Learn the language story",
   "heroTagline": "In 1952, the defense of language became a defense of dignity, memory, and political existence.",
-  "summarySourceIds": ["language-movement-in-east-bengal", "state-language-movement-in-east-bengal-1947-1956"],
+  "summarySourceIds": [
+    "language-movement-banglapedia",
+    "shaheed-minar-banglapedia"
+  ],
   "whyItMatters": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
-  "whyItMattersSourceIds": ["language-movement-banglapedia", "international-mother-language-day-unesco"],
+  "whyItMattersSourceIds": [
+    "language-movement-in-east-bengal",
+    "state-language-movement-in-east-bengal-1947-1956"
+  ],
   "showOnLanding": true
 }

@@ -8,5 +8,13 @@
   "ctaLabel": "Explore the 1954 mandate",
   "heroTagline": "The ballot became a mass verdict on power, language, and provincial rights.",
   "whyItMatters": "The United Front victory showed that electoral politics in East Bengal could decisively challenge centralized authority, strengthening the long arc from language politics to autonomy and later independence.",
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "bangladesh-awami-league-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ]
 }

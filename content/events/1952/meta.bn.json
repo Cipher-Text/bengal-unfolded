@@ -7,8 +7,14 @@
   "themeColor": "#b64040",
   "ctaLabel": "ভাষার গল্প জানুন",
   "heroTagline": "১৯৫২-তে ভাষা রক্ষার সংগ্রামই মর্যাদা, স্মৃতি এবং রাজনৈতিক অস্তিত্ব রক্ষার সংগ্রামে পরিণত হয়।",
-  "summarySourceIds": ["language-movement-in-east-bengal", "state-language-movement-in-east-bengal-1947-1956"],
+  "summarySourceIds": [
+    "language-movement-banglapedia",
+    "shaheed-minar-banglapedia"
+  ],
   "whyItMatters": "ভাষা আন্দোলন বোঝা জরুরি, কারণ এখানেই বাঙালি পরিচয়, গণতান্ত্রিক অধিকার এবং সাংস্কৃতিক স্বায়ত্তশাসনের প্রশ্ন এক সুতোয় বাঁধা পড়ে।",
-  "whyItMattersSourceIds": ["language-movement-banglapedia", "international-mother-language-day-unesco"],
+  "whyItMattersSourceIds": [
+    "language-movement-in-east-bengal",
+    "state-language-movement-in-east-bengal-1947-1956"
+  ],
   "showOnLanding": true
 }

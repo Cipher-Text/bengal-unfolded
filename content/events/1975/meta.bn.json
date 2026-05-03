@@ -8,5 +8,13 @@
   "ctaLabel": "টার্নিং পয়েন্ট অন্বেষণ করুন",
   "heroTagline": "১৯৭৫ একক ঘটনা নয়; এটি ছিল প্রজাতন্ত্রের গতিপথ বদলে দেওয়া ধারাবাহিক ভাঙন।",
   "whyItMatters": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
-  "showOnLanding": false
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "whyItMattersSourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ]
 }

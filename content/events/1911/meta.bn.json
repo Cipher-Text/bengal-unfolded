@@ -8,5 +8,13 @@
   "ctaLabel": "রদের ইতিহাস দেখুন",
   "heroTagline": "এই রদ ছিল একদিকে রাজনৈতিক ছাড়, অন্যদিকে সাম্রাজ্যিক পুনর্বিন্যাসের পদক্ষেপ।",
   "whyItMatters": "১৯১১ সালের রদ দেখায় জনচাপ ঔপনিবেশিক নীতি বদলাতে পারে, তবে প্রতিনিধিত্ব, সাম্প্রদায়িক রাজনীতি ও আঞ্চলিক ক্ষমতার টানাপোড়েন রয়ে যায় এবং পরবর্তী ইতিহাসকে প্রভাবিত করে।",
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "partition-politics-banglapedia",
+    "archive-collection"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "archive-collection"
+  ]
 }

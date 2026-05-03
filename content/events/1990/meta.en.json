@@ -8,5 +8,13 @@
   "ctaLabel": "See the movement",
   "heroTagline": "In 1990, the demand for democracy became a countrywide act of political courage.",
   "whyItMatters": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "nur-hossain-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ]
 }

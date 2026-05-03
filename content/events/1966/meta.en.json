@@ -8,5 +8,13 @@
   "ctaLabel": "Explore the six points",
   "heroTagline": "The Six Points reframed autonomy as a clear constitutional demand.",
   "whyItMatters": "The Six-Point Programme transformed scattered grievances into a coherent political agenda, laying essential groundwork for the mass upsurge of 1969 and the independence struggle that followed.",
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "bangladesh-awami-league-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ]
 }

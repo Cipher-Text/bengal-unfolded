@@ -8,5 +8,13 @@
   "ctaLabel": "Explore the turning point",
   "heroTagline": "1975 was not a single incident, but a chain of ruptures that changed the republic.",
   "whyItMatters": "The crises of 1975 remain central to understanding Bangladesh's later constitutional shifts, military interventions, and contested memory of legitimacy and democracy.",
-  "showOnLanding": false
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "whyItMattersSourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ]
 }

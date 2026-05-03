@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-05-04
+
+### Completed
+- Performance and delivery guardrails:
+  - Added `docs/PERFORMANCE.md` with `/bn` Lighthouse + CWV targets, component/image/font/JS policies, and measurement log template.
+  - Added performance check commands to README (`pnpm build`, `pnpm lighthouse:mobile`, `pnpm lighthouse:desktop`).
+- Homepage roadmap alignment:
+  - Implemented RM-006B by limiting landing timeline to 15 landmark events while keeping `Explore Full Timeline` CTA flow.
+- Reduced homepage client-side JS cost:
+  - Replaced `framer-motion` usage in landing path animations with lightweight CSS animation.
+  - Converted animation wrapper to server-compatible rendering.
+  - Deferred homepage timeline client bundle with dynamic import + loading placeholder.
+- Citation system rollout (RM-001):
+  - Added inline timeline claim citation markers (`[1]`, `[2]`) linked to source chips.
+  - Extended event narrative rendering to support inline claim-level citation markers.
+  - Added optional event metadata fields:
+    - `summarySourceIds`
+    - `whyItMattersSourceIds`
+  - Backfilled citation fields for all event locale metadata files and validated content integrity.
+  - Performed manual QA refinement for key events (`1757`, `1906`, `2024`) to improve claim-to-source pairing quality.
+- Roadmap synchronization:
+  - Marked RM-006B as complete.
+  - Marked RM-001 as complete with full-coverage note.
+
 ## 2026-05-03
 
 ### Completed

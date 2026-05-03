@@ -8,5 +8,13 @@
   "ctaLabel": "ছয় দফা অন্বেষণ করুন",
   "heroTagline": "ছয় দফা স্বায়ত্তশাসনের দাবিকে সাংবিধানিক ভাষায় নতুনভাবে সংজ্ঞায়িত করে।",
   "whyItMatters": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "bangladesh-awami-league-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ]
 }

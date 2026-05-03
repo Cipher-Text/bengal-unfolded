@@ -8,5 +8,13 @@
   "ctaLabel": "Explore 1857",
   "heroTagline": "In 1857, mutiny and mass anger converged into a formative anti-colonial uprising.",
   "whyItMatters": "The 1857 revolt matters because it exposed the fragility of colonial legitimacy and influenced later political resistance traditions in Bengal and beyond.",
-  "showOnLanding": true
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "indian-rebellion-1857-britannica",
+    "mangal-pandey-britannica"
+  ],
+  "whyItMattersSourceIds": [
+    "indian-rebellion-1857-britannica",
+    "mangal-pandey-britannica"
+  ]
 }

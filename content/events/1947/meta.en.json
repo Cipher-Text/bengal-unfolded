@@ -7,8 +7,14 @@
   "themeColor": "#8b5e3c",
   "ctaLabel": "See the history",
   "heroTagline": "1947 did not only divide territory. It transformed memory, belonging, and political destiny.",
-  "summarySourceIds": ["the-great-partition", "partition-of-british-india-national-archives"],
+  "summarySourceIds": [
+    "partition-of-british-india-national-archives",
+    "partition-of-bengal-1947-banglapedia"
+  ],
   "whyItMatters": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
-  "whyItMattersSourceIds": ["partition-of-bengal-1947-banglapedia", "partition-politics-banglapedia"],
+  "whyItMattersSourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
   "showOnLanding": true
 }
