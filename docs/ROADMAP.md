@@ -133,7 +133,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-003 Glossary pages + term linking (`/{locale}/glossary/[term]`)
 - [x] RM-004 Timeline thematic filters (`Language`, `Democracy`, `War`, `Culture`, `Economy`)
 - [x] RM-005 Evidence metadata fields (`sourceIds`, `evidenceLevel`) in content model
-- [ ] RM-006 Section jump navigation on long event pages
+- [x] RM-006 Section jump navigation on long event pages
 
 ### Timeline hierarchy and discovery
 

@@ -49,6 +49,10 @@
   - Added theme filter chips to event/home timelines.
   - Added theme filtering in full timeline explorer query flow (`theme` parameter + filter UI + pagination preservation).
   - Extended content validation to enforce non-empty timeline themes with allowed values.
+- Section jump navigation rollout (RM-006):
+  - Added localized `Jump to` anchor navigation on long event pages.
+  - Added in-page anchors for Overview, Timeline, Figures, Resources, Quotes, and Why It Matters sections.
+  - Added scroll offset-friendly section targets for sticky-header behavior.
 
 ## 2026-05-03
 

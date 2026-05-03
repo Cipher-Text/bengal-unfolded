@@ -50,6 +50,7 @@ const EVENT_LABELS = {
     high: "High",
     medium: "Medium",
     low: "Low",
+    jumpTo: "Jump to",
   },
   bn: {
     overview: "ইভেন্ট ওভারভিউ",
@@ -67,6 +68,7 @@ const EVENT_LABELS = {
     high: "উচ্চ",
     medium: "মাঝারি",
     low: "নিম্ন",
+    jumpTo: "যেতে চান",
   },
 } as const;
 
@@ -136,18 +138,35 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         intro={<>{renderGlossaryLinkedText(event.meta.summary, locale as Locale)}{renderInlineCitations(event.meta.summarySourceIds, resourceById)}{renderEvidenceBadge(event.meta.summaryEvidenceLevel)}</>}
       />
 
+      <nav aria-label={labels.jumpTo} className="theme-surface-soft rounded-xl border border-amber-500/25 p-3">
+        <p className="theme-muted mb-2 text-xs">{labels.jumpTo}</p>
+        <div className="flex flex-wrap gap-2">
+          <a href="#overview" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.overview}</a>
+          <a href="#timeline" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.timeline}</a>
+          <a href="#figures" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.figures}</a>
+          <a href="#resources" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.resourcesTitle}</a>
+          <a href="#quotes" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a>
+          <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
+        </div>
+      </nav>
+
       <AnimatedContainer>
+        <section id="overview" className="scroll-mt-24">
         <SectionTitle title={labels.overview} subtitle={event.meta.subtitle} />
+        </section>
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>
+        <section id="timeline" className="scroll-mt-24">
         <SectionTitle title={labels.timeline} />
         <div className="mt-4">
           <EventTimeline items={event.timeline} locale={locale as Locale} resources={event.resources} />
         </div>
+        </section>
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.1}>
+        <section id="figures" className="scroll-mt-24">
         <SectionTitle title={labels.figures} />
         <div className="mt-4 grid gap-4 md:grid-cols-2">
           {featuredFigures.map((figure, index) => (
@@ -159,9 +178,11 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
             {labels.seeFullList}
           </Link>
         </div>
+        </section>
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.15}>
+        <section id="resources" className="scroll-mt-24">
         <SectionTitle title={labels.resourcesTitle} subtitle={labels.resourcesSubtitle} />
         <div className="mt-4 grid gap-3 md:grid-cols-2">
           {event.resources.slice(0, 6).map((resource) => (
@@ -173,19 +194,24 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
             {labels.seeAllCategories}
           </Link>
         </div>
+        </section>
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.2}>
+        <section id="quotes" className="scroll-mt-24">
         <SectionTitle title={labels.quotes} />
         <div className="mt-4 grid gap-3">
           {event.quotes.map((quote) => (
             <QuoteBlock key={quote.text} quote={quote} />
           ))}
         </div>
+        </section>
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.25}>
+        <section id="why-it-matters" className="scroll-mt-24">
         <SectionTitle title={labels.whyItMatters} subtitle={<>{renderGlossaryLinkedText(event.meta.whyItMatters, locale as Locale)}{renderInlineCitations(event.meta.whyItMattersSourceIds, resourceById)}{renderEvidenceBadge(event.meta.whyItMattersEvidenceLevel)}</>} />
+        </section>
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.3}>
