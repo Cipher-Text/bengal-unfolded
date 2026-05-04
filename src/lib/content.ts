@@ -6,6 +6,7 @@ import {
   SUPPORTED_EVENT_SLUGS,
   SUPPORTED_FIGURE_IDS,
   SUPPORTED_PERIOD_IDS,
+  SUPPORTED_MOVEMENT_IDS,
   SUPPORTED_LOCALES,
   type Book,
   type BookId,
@@ -20,6 +21,9 @@ import {
   type HomeContent,
   type GlossaryTerm,
   type Locale,
+  type Movement,
+  type MovementId,
+  type MovementMeta,
   type Period,
   type PeriodId,
   type PeriodMeta,
@@ -47,6 +51,10 @@ function isBookId(v: string): v is BookId {
 
 function isPeriodId(v: string): v is PeriodId {
   return SUPPORTED_PERIOD_IDS.includes(v as PeriodId);
+}
+
+function isMovementId(v: string): v is MovementId {
+  return SUPPORTED_MOVEMENT_IDS.includes(v as MovementId);
 }
 
 export function getCreatorIdFromAttribution(name: string): string {
@@ -313,6 +321,13 @@ export function assertSupportedPeriodId(
 ): asserts periodId is PeriodId {
   if (!isPeriodId(periodId))
     throw new Error(`Unsupported period id: ${periodId}`);
+}
+
+export function assertSupportedMovementId(
+  movementId: string,
+): asserts movementId is MovementId {
+  if (!isMovementId(movementId))
+    throw new Error(`Unsupported movement id: ${movementId}`);
 }
 
 export async function getHomeContent(locale: string): Promise<HomeContent> {
@@ -732,6 +747,44 @@ export const getEventsByPeriodId = cache(
       SUPPORTED_EVENT_SLUGS.map(async (slug) => {
         const meta = await getEventMeta(locale, slug);
         return meta.periodId === periodId ? meta : null;
+      }),
+    );
+
+    return allEvents.filter((event): event is EventMeta => event !== null);
+  },
+);
+
+export const getMovement = cache(
+  async (locale: string, movementId: string): Promise<Movement> => {
+    assertSupportedLocale(locale);
+    assertSupportedMovementId(movementId);
+
+    const metaPath = path.join(
+      CONTENT_DIR,
+      "movements",
+      movementId,
+      `meta.${locale}.json`,
+    );
+    return readJsonFile<MovementMeta>(metaPath);
+  },
+);
+
+export async function getAllMovements(locale: string): Promise<Movement[]> {
+  assertSupportedLocale(locale);
+  return Promise.all(
+    SUPPORTED_MOVEMENT_IDS.map((id) => getMovement(locale, id)),
+  );
+}
+
+export const getEventsByMovementId = cache(
+  async (locale: string, movementId: string): Promise<EventMeta[]> => {
+    assertSupportedLocale(locale);
+    assertSupportedMovementId(movementId);
+
+    const allEvents = await Promise.all(
+      SUPPORTED_EVENT_SLUGS.map(async (slug) => {
+        const meta = await getEventMeta(locale, slug);
+        return meta.movementId === movementId ? meta : null;
       }),
     );
 

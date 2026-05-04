@@ -121,6 +121,24 @@ Supported period IDs:
 - `post-liberation-state-and-democracy`
 - `contemporary-memory-and-civic-protest`
 
+## Movement schema
+
+- `MovementMeta` / `Movement` fields:
+  - `id` (required): movement identifier
+  - `title` (required): movement name
+  - `subtitle` (required): movement time frame or descriptor (e.g., "1947–1971")
+  - `description` (required): historical context and significance of the movement
+  - `themeColor` (required): hex color for visual theming
+  - `icon?` (optional): icon identifier for visual representation
+
+Supported movement IDs:
+
+- `colonial-capture-and-resistance`
+- `partition-and-political-representation`
+- `language-autonomy-and-liberation`
+- `state-power-and-democratic-transition`
+- `memory-justice-and-civic-dissent`
+
 ## Resource schema
 
 - `EventResource` fields:

@@ -47,5 +47,6 @@
   "movementLabel": "Colonial capture and resistance",
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "colonial-rule-and-resistance"
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance"
 }

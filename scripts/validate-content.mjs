@@ -57,6 +57,16 @@ async function main() {
   const periodDir = path.join(contentDir, "periods");
   const periodIds = new Set((await fs.readdir(periodDir)).filter((name) => !name.startsWith("index.")));
 
+  const allowedMovementIds = new Set([
+    "colonial-capture-and-resistance",
+    "partition-and-political-representation",
+    "language-autonomy-and-liberation",
+    "state-power-and-democratic-transition",
+    "memory-justice-and-civic-dissent",
+  ]);
+  const movementDir = path.join(contentDir, "movements");
+  const movementIds = new Set((await fs.readdir(movementDir)).filter((name) => !name.startsWith("index.")));
+
   for (const slug of eventSlugs) {
     const base = path.join(eventDir, slug);
     const required = [
@@ -95,6 +105,11 @@ async function main() {
       if ("periodId" in meta && meta.periodId !== undefined) {
         if (typeof meta.periodId !== "string" || !allowedPeriodIds.has(meta.periodId)) {
           errors.push(`Invalid periodId at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if ("movementId" in meta && meta.movementId !== undefined) {
+        if (typeof meta.movementId !== "string" || !allowedMovementIds.has(meta.movementId)) {
+          errors.push(`Invalid movementId at content/events/${slug}/meta.${locale}.json`);
         }
       }
       if ("movementLabel" in meta && (typeof meta.movementLabel !== "string" || meta.movementLabel.trim().length === 0)) {
@@ -285,6 +300,29 @@ async function main() {
       }
       if (typeof meta.endYear !== "string" || meta.endYear.trim().length === 0) {
         errors.push(`Invalid or missing endYear at content/periods/${periodId}/meta.${locale}.json`);
+      }
+    }
+  }
+
+  const movementEntries = await fs.readdir(movementDir);
+  for (const movementId of movementEntries) {
+    if (movementId.startsWith("index.")) continue;
+    for (const locale of ["en", "bn"]) {
+      const metaPath = path.join(movementDir, movementId, `meta.${locale}.json`);
+      if (!(await exists(metaPath))) {
+        errors.push(`Missing file: content/movements/${movementId}/meta.${locale}.json`);
+        continue;
+      }
+      const meta = await readJson(metaPath, errors);
+      if (!meta || typeof meta !== "object") continue;
+      if (meta.id !== movementId) {
+        errors.push(`Movement id mismatch at content/movements/${movementId}/meta.${locale}.json`);
+      }
+      if (typeof meta.title !== "string" || meta.title.trim().length === 0) {
+        errors.push(`Invalid or missing title at content/movements/${movementId}/meta.${locale}.json`);
+      }
+      if (typeof meta.description !== "string" || meta.description.trim().length === 0) {
+        errors.push(`Invalid or missing description at content/movements/${movementId}/meta.${locale}.json`);
       }
     }
   }

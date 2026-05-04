@@ -4,6 +4,22 @@
 
 ### Completed
 
+- RM-REL-007 (Movement/theme-to-event linking):
+  - Model: Added `SUPPORTED_MOVEMENT_IDS` constant and `MovementId`, `MovementMeta`, `Movement` types.
+  - Model: Added `movementId?: MovementId` to `EventMeta` for movement association.
+  - Content: Created 5 movement entities in `content/movements/` with EN and BN metadata:
+    - colonial-capture-and-resistance (1757–1905)
+    - partition-and-political-representation (1905–1947)
+    - language-autonomy-and-liberation (1947–1971)
+    - state-power-and-democratic-transition (1971–1990)
+    - memory-justice-and-civic-dissent (1990–present)
+  - Validation: Added movement directory validation checking id parity and required fields (title, description).
+  - Validation: Added event-level `movementId` validation to ensure references are valid.
+  - Backfill: All 19 events have been assigned appropriate `movementId` values corresponding to their historical movement.
+  - Content loaders: Added `isMovementId()`, `assertSupportedMovementId()`, `getMovement(locale, id)`, `getAllMovements(locale)`, and `getEventsByMovementId(locale, id)` functions with caching.
+  - UI: Created movement detail pages at `/{locale}/movements/[id]` that display movement metadata and all events within that movement.
+  - Static generation: Added `generateStaticParams()` for pre-rendering all locale + movement ID combinations.
+  - Build verification: Confirmed successful Next.js build with all 10 movement pages (5 movements × 2 locales) pre-rendered.
 - RM-REL-006 (Period-to-event linking):
   - Model: Added `SUPPORTED_PERIOD_IDS` constant and `PeriodId`, `PeriodMeta`, `Period` types.
   - Model: Added `periodId?: PeriodId` to `EventMeta` for period association.
