@@ -1,0 +1,52 @@
+[
+  {
+    "year": "c. 1202-1204",
+    "title": "Bakhtiyar Khalji advances east after Bihar campaigns",
+    "detail": "After consolidating military momentum in Bihar, Bakhtiyar moved toward Bengal through less-guarded routes, preparing a rapid strike on the Sena capital zone.",
+    "sourceIds": [
+      "bakhtiyar-khalji-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1204-1205",
+    "title": "Nadia is captured and Lakshmana Sena retreats",
+    "detail": "Bakhtiyar Khalji's surprise assault took Nadia, and the Sena ruler Lakshmana Sena withdrew, signaling the collapse of Sena control over the main western political center.",
+    "sourceIds": [
+      "bakhtiyar-khalji-banglapedia",
+      "sena-dynasty-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "c. 1205",
+    "title": "Power center shifts toward Lakhnauti/Gaur",
+    "detail": "Following the conquest, governance and military consolidation were organized around northwestern Bengal centers, accelerating political restructuring.",
+    "sourceIds": [
+      "bakhtiyar-khalji-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "Transition from Sena-era order to new ruling formations",
+    "detail": "The conquest opened a long transition that eventually produced wider sultanate-era sovereignty and transformed Bengal's political institutions.",
+    "sourceIds": [
+      "bakhtiyar-khalji-britannica",
+      "bengal-sultanate-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  }
+]

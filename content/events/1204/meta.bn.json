@@ -1,0 +1,37 @@
+{
+  "slug": "1204",
+  "year": "১২০৪-১২০৫",
+  "title": "বখতিয়ার খলজির নদীয়া বিজয়",
+  "subtitle": "সেন-শাসনের শেষ পর্যায়ে বাংলার ক্ষমতা কাঠামোয় নির্ণায়ক ভাঙন।",
+  "summary": "ইখতিয়ার উদ্দিন মুহাম্মদ বখতিয়ার খলজির নদীয়া দখল (সাধারণভাবে ১২০৪-১২০৫ হিসেবে ধরা হয়) বাংলার রাজনৈতিক ইতিহাসে এক বড় মোড়। সেন শাসনের রাজধানীকেন্দ্র ভেঙে পড়া এবং পরে গৌড়/লখনৌতিমুখী ক্ষমতা পুনর্বিন্যাসের মাধ্যমে বাংলায় নতুন তুর্কি-নেতৃত্বাধীন রাষ্ট্রগঠনের ধাপ শুরু হয়।",
+  "themeColor": "#5a4632",
+  "ctaLabel": "১২০৪-১২০৫ দেখুন",
+  "heroTagline": "নদীয়া বিজয় বাংলার ক্ষমতার ভারসাম্য বদলে দিয়ে অঞ্চলের দীর্ঘমেয়াদি রাজনৈতিক গতিপথ পাল্টে দেয়।",
+  "summarySourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "sena-dynasty-britannica"
+  ],
+  "whyItMatters": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে পশ্চিম বাংলায় সেন-আধিপত্যের পতন ঘটে এবং সামরিক, রাজনৈতিক ও প্রশাসনিক ক্ষমতার দীর্ঘস্থায়ী পুনর্গঠনের সূচনা হয়, যা পরে সুলতানি আমলের রাষ্ট্রগঠনের ভিত্তি তৈরি করে।",
+  "whyItMattersSourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1352",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1352",
+    "1704"
+  ],
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
+}
