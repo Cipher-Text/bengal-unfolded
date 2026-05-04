@@ -16,6 +16,21 @@
     "language-movement-in-east-bengal",
     "state-language-movement-in-east-bengal-1947-1956"
   ],
+  "importance": "landmark",
+  "parentEvent": "1947",
+  "childEventIds": [
+    "1954",
+    "1958",
+    "1966"
+  ],
+  "relatedEventIds": [
+    "1947",
+    "1954",
+    "1966",
+    "1971"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"

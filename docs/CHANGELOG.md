@@ -3,6 +3,19 @@
 ## 2026-05-04
 
 ### Completed
+- Timeline hierarchy and discovery rollout:
+  - Added event hierarchy metadata fields across all event locale meta files:
+    - `importance`
+    - `parentEvent`
+    - `childEventIds`
+    - `relatedEventIds`
+    - `periodLabel`
+    - `movementLabel`
+  - Extended the content model and validation rules to enforce hierarchy integrity and valid importance values.
+  - Added `getEventHierarchy` in the content access layer.
+  - Upgraded the full timeline explorer with importance filtering and period-based grouped results.
+  - Added timeline-context blocks on event detail pages for parent, cluster, and related chapter discovery.
+  - Marked roadmap items RM-006A and RM-006D complete.
 - Performance and delivery guardrails:
   - Added `docs/PERFORMANCE.md` with `/bn` Lighthouse + CWV targets, component/image/font/JS policies, and measurement log template.
   - Added performance check commands to README (`pnpm build`, `pnpm lighthouse:mobile`, `pnpm lighthouse:desktop`).

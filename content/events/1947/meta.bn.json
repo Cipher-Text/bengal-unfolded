@@ -16,6 +16,20 @@
     "midnights-furies",
     "the-spoils-of-partition"
   ],
+  "importance": "landmark",
+  "childEventIds": [
+    "1952",
+    "1971"
+  ],
+  "relatedEventIds": [
+    "1906",
+    "1911",
+    "1943",
+    "1952",
+    "1971"
+  ],
+  "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "দেশভাগ ও রাজনৈতিক প্রতিনিধিত্ব",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"

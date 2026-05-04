@@ -17,6 +17,14 @@
     "research-volume",
     "archive-collection"
   ],
+  "importance": "high",
+  "parentEvent": "1906",
+  "relatedEventIds": [
+    "1906",
+    "1947"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"
 }

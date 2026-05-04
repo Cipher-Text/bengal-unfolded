@@ -8,6 +8,20 @@
   "ctaLabel": "See the movement",
   "heroTagline": "In 1990, the demand for democracy became a countrywide act of political courage.",
   "whyItMatters": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+  "importance": "landmark",
+  "parentEvent": "1975",
+  "childEventIds": [
+    "2013",
+    "2024"
+  ],
+  "relatedEventIds": [
+    "1969",
+    "1975",
+    "2006",
+    "2024"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
   "showOnLanding": true,
   "summarySourceIds": [
     "military-rule-banglapedia",

@@ -17,6 +17,15 @@
     "research-volume",
     "bangladesh-from-mujib-to-ershad"
   ],
+  "importance": "high",
+  "parentEvent": "1952",
+  "relatedEventIds": [
+    "1952",
+    "1958",
+    "1966"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"
 }

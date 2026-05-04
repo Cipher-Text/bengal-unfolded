@@ -16,6 +16,16 @@
     "robert-clive-britannica",
     "jagat-sheth-banglapedia"
   ],
+  "importance": "landmark",
+  "childEventIds": [
+    "1857"
+  ],
+  "relatedEventIds": [
+    "1857",
+    "1947"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"

@@ -289,6 +289,7 @@ export type EventSlug = (typeof SUPPORTED_EVENT_SLUGS)[number];
 export type FigureId = (typeof SUPPORTED_FIGURE_IDS)[number];
 export type BookId = (typeof SUPPORTED_BOOK_IDS)[number];
 export type ResourceId = string;
+export type EventImportance = "landmark" | "major" | "high" | "medium" | "reference";
 
 export type EventMeta = {
   slug: EventSlug;
@@ -304,6 +305,12 @@ export type EventMeta = {
   whyItMatters: string;
   whyItMattersSourceIds?: string[];
   whyItMattersEvidenceLevel?: EvidenceLevel;
+  importance: EventImportance;
+  parentEvent?: EventSlug;
+  childEventIds?: EventSlug[];
+  relatedEventIds?: EventSlug[];
+  periodLabel?: string;
+  movementLabel?: string;
   showOnLanding?: boolean;
 };
 

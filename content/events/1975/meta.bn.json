@@ -8,6 +8,19 @@
   "ctaLabel": "টার্নিং পয়েন্ট অন্বেষণ করুন",
   "heroTagline": "১৯৭৫ একক ঘটনা নয়; এটি ছিল প্রজাতন্ত্রের গতিপথ বদলে দেওয়া ধারাবাহিক ভাঙন।",
   "whyItMatters": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+  "importance": "major",
+  "parentEvent": "1971",
+  "childEventIds": [
+    "1990",
+    "2006"
+  ],
+  "relatedEventIds": [
+    "1971",
+    "1990",
+    "2006"
+  ],
+  "periodLabel": "স্বাধীনতার পর রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
   "showOnLanding": false,
   "summarySourceIds": [
     "military-rule-banglapedia",

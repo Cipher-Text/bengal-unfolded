@@ -8,6 +8,15 @@
   "ctaLabel": "Explore the 1969 chapter",
   "heroTagline": "In 1969, coordinated street resistance transformed political frustration into mass democratic momentum.",
   "whyItMatters": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+  "importance": "major",
+  "parentEvent": "1966",
+  "relatedEventIds": [
+    "1966",
+    "1971",
+    "1990"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
   "showOnLanding": true,
   "summarySourceIds": [
     "military-rule-banglapedia",

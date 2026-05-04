@@ -17,6 +17,14 @@
     "research-volume",
     "archive-collection"
   ],
+  "importance": "high",
+  "parentEvent": "1906",
+  "relatedEventIds": [
+    "1906",
+    "1947"
+  ],
+  "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "দেশভাগ ও রাজনৈতিক প্রতিনিধিত্ব",
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"
 }

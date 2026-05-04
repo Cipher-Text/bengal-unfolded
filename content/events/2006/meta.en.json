@@ -8,6 +8,15 @@
   "ctaLabel": "Explore the transition",
   "heroTagline": "The caretaker framework entered its most contested phase under emergency conditions.",
   "whyItMatters": "This period reshaped debates on constitutional design, election credibility, civil-military boundaries, and democratic resilience in Bangladesh.",
+  "importance": "high",
+  "parentEvent": "1975",
+  "relatedEventIds": [
+    "1975",
+    "1990",
+    "2024"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
   "showOnLanding": false,
   "summarySourceIds": [
     "caretaker-government-banglapedia",

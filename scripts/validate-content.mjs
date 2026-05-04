@@ -40,11 +40,13 @@ async function main() {
 
   const figureIds = new Set((await fs.readdir(figureDir)).filter((name) => !name.startsWith("index.")));
   const resourceIds = new Set(await fs.readdir(resourceDir));
+  const eventSlugs = await fs.readdir(eventDir);
+  const eventSlugSet = new Set(eventSlugs);
   const allowedQuality = new Set(["primary", "secondary", "archive", "editorial"]);
   const allowedEvidenceLevel = new Set(["high", "medium", "low"]);
   const allowedThemes = new Set(["language", "democracy", "war", "culture", "economy"]);
+  const allowedImportance = new Set(["landmark", "major", "high", "medium", "reference"]);
 
-  const eventSlugs = await fs.readdir(eventDir);
   for (const slug of eventSlugs) {
     const base = path.join(eventDir, slug);
     const required = [
@@ -74,6 +76,43 @@ async function main() {
 
     for (const [locale, meta] of [["en", metaEn], ["bn", metaBn]]) {
       if (!meta || typeof meta !== "object") continue;
+      if (typeof meta.importance !== "string" || !allowedImportance.has(meta.importance)) {
+        errors.push(`Invalid or missing importance at content/events/${slug}/meta.${locale}.json`);
+      }
+      if ("periodLabel" in meta && (typeof meta.periodLabel !== "string" || meta.periodLabel.trim().length === 0)) {
+        errors.push(`Invalid periodLabel at content/events/${slug}/meta.${locale}.json`);
+      }
+      if ("movementLabel" in meta && (typeof meta.movementLabel !== "string" || meta.movementLabel.trim().length === 0)) {
+        errors.push(`Invalid movementLabel at content/events/${slug}/meta.${locale}.json`);
+      }
+      if ("parentEvent" in meta && meta.parentEvent !== undefined) {
+        if (typeof meta.parentEvent !== "string" || !eventSlugSet.has(meta.parentEvent)) {
+          errors.push(`Invalid parentEvent at content/events/${slug}/meta.${locale}.json`);
+        } else if (meta.parentEvent === slug) {
+          errors.push(`parentEvent cannot self-reference at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      for (const relationField of ["childEventIds", "relatedEventIds"]) {
+        if (!(relationField in meta) || meta[relationField] === undefined) continue;
+        if (!Array.isArray(meta[relationField])) {
+          errors.push(`${relationField} must be an array at content/events/${slug}/meta.${locale}.json`);
+          continue;
+        }
+        const seen = new Set();
+        for (const eventId of meta[relationField]) {
+          if (typeof eventId !== "string" || !eventSlugSet.has(eventId)) {
+            errors.push(`Invalid ${relationField} entry '${eventId}' at content/events/${slug}/meta.${locale}.json`);
+            continue;
+          }
+          if (eventId === slug) {
+            errors.push(`${relationField} cannot self-reference at content/events/${slug}/meta.${locale}.json`);
+          }
+          if (seen.has(eventId)) {
+            errors.push(`Duplicate ${relationField} entry '${eventId}' at content/events/${slug}/meta.${locale}.json`);
+          }
+          seen.add(eventId);
+        }
+      }
       const summaryIds = Array.isArray(meta.summarySourceIds) ? meta.summarySourceIds : [];
       const whyIds = Array.isArray(meta.whyItMattersSourceIds) ? meta.whyItMattersSourceIds : [];
       if (summaryIds.length > 0) {
@@ -84,6 +123,22 @@ async function main() {
       if (whyIds.length > 0) {
         if (typeof meta.whyItMattersEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.whyItMattersEvidenceLevel)) {
           errors.push(`Invalid or missing whyItMattersEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+    }
+
+    for (const [locale, meta] of [["en", metaEn], ["bn", metaBn]]) {
+      if (!meta || typeof meta !== "object") continue;
+      if (typeof meta.parentEvent === "string") {
+        const parentMetaPath = path.join(eventDir, meta.parentEvent, `meta.${locale}.json`);
+        const parentMeta = await readJson(parentMetaPath, errors);
+        if (
+          parentMeta &&
+          typeof parentMeta === "object" &&
+          Array.isArray(parentMeta.childEventIds) &&
+          !parentMeta.childEventIds.includes(slug)
+        ) {
+          errors.push(`Parent-child mismatch: content/events/${slug}/meta.${locale}.json parentEvent='${meta.parentEvent}' but parent does not include childEventIds '${slug}'`);
         }
       }
     }

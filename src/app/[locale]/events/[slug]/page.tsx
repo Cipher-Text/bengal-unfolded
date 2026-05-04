@@ -10,7 +10,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { QuoteBlock } from "@/components/QuoteBlock";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getEventContent, getPreviousAndNextEvents } from "@/lib/content";
+import { getEventContent, getEventHierarchy, getPreviousAndNextEvents } from "@/lib/content";
 import { renderGlossaryLinkedText } from "@/lib/glossary-linking";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 import type { EventResource } from "@/types/content";
@@ -51,6 +51,12 @@ const EVENT_LABELS = {
     medium: "Medium",
     low: "Low",
     jumpTo: "Jump to",
+    hierarchy: "Timeline Context",
+    partOf: "Part of a broader chapter",
+    cluster: "Connected chapters in this cluster",
+    related: "Related chapters",
+    importance: "Importance",
+    movement: "Movement",
   },
   bn: {
     overview: "ইভেন্ট ওভারভিউ",
@@ -69,6 +75,29 @@ const EVENT_LABELS = {
     medium: "মাঝারি",
     low: "নিম্ন",
     jumpTo: "যেতে চান",
+    hierarchy: "টাইমলাইন প্রেক্ষাপট",
+    partOf: "বৃহত্তর অধ্যায়ের অংশ",
+    cluster: "এই ক্লাস্টারের সংযুক্ত অধ্যায়গুলো",
+    related: "সম্পর্কিত অধ্যায়",
+    importance: "গুরুত্ব",
+    movement: "ধারা",
+  },
+} as const;
+
+const IMPORTANCE_LABELS = {
+  en: {
+    landmark: "Landmark",
+    major: "Major",
+    high: "High",
+    medium: "Medium",
+    reference: "Reference",
+  },
+  bn: {
+    landmark: "ল্যান্ডমার্ক",
+    major: "প্রধান",
+    high: "উচ্চ",
+    medium: "মধ্যম",
+    reference: "রেফারেন্স",
   },
 } as const;
 
@@ -76,7 +105,11 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) notFound();
 
-  const [event, { previous, next }] = await Promise.all([getEventContent(locale, slug), getPreviousAndNextEvents(locale, slug)]);
+  const [event, { previous, next }, hierarchy] = await Promise.all([
+    getEventContent(locale, slug),
+    getPreviousAndNextEvents(locale, slug),
+    getEventHierarchy(locale, slug),
+  ]);
   const featuredFigures = event.figures.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
   const resourceById = new Map(event.resources.map((resource) => [resource.id, resource] as const));
@@ -153,8 +186,63 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       <AnimatedContainer>
         <section id="overview" className="scroll-mt-24">
         <SectionTitle title={labels.overview} subtitle={event.meta.subtitle} />
+        <div className="theme-surface mt-4 rounded-2xl border p-4">
+          <div className="flex flex-wrap gap-2">
+            <span className="inline-flex rounded-full border border-amber-500/35 px-2.5 py-1 text-xs text-accent">
+              {labels.importance}: {IMPORTANCE_LABELS[locale as Locale][event.meta.importance]}
+            </span>
+            {event.meta.periodLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{event.meta.periodLabel}</span> : null}
+            {event.meta.movementLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{labels.movement}: {event.meta.movementLabel}</span> : null}
+          </div>
+        </div>
         </section>
       </AnimatedContainer>
+
+      {(hierarchy.parent || hierarchy.children.length > 0 || hierarchy.related.length > 0) ? (
+        <AnimatedContainer delay={0.04}>
+          <section className="scroll-mt-24">
+            <SectionTitle title={labels.hierarchy} />
+            <div className="mt-4 grid gap-4 lg:grid-cols-3">
+              <div className="theme-surface rounded-2xl border p-4">
+                <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.partOf}</h3>
+                {hierarchy.parent ? (
+                  <Link href={`/${locale}/events/${hierarchy.parent.slug}`} className="mt-3 block rounded-xl border border-amber-500/30 p-3 hover:bg-amber-500/5">
+                    <p className="theme-muted text-xs tracking-[0.2em] uppercase">{hierarchy.parent.year}</p>
+                    <p className="mt-1 font-semibold">{hierarchy.parent.title}</p>
+                    {hierarchy.parent.periodLabel ? <p className="theme-muted mt-1 text-xs">{hierarchy.parent.periodLabel}</p> : null}
+                  </Link>
+                ) : <p className="theme-muted mt-3 text-sm">{locale === "bn" ? "এই অধ্যায়টি নিজেই একটি মূল ক্লাস্টার অ্যাঙ্কর।" : "This chapter is itself a primary cluster anchor."}</p>}
+              </div>
+              <div className="theme-surface rounded-2xl border p-4">
+                <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.cluster}</h3>
+                {hierarchy.children.length ? (
+                  <div className="mt-3 space-y-2">
+                    {hierarchy.children.map((child) => (
+                      <Link key={child.slug} href={`/${locale}/events/${child.slug}`} className="block rounded-xl border border-amber-500/30 p-3 hover:bg-amber-500/5">
+                        <p className="theme-muted text-xs tracking-[0.2em] uppercase">{child.year}</p>
+                        <p className="mt-1 font-semibold">{child.title}</p>
+                      </Link>
+                    ))}
+                  </div>
+                ) : <p className="theme-muted mt-3 text-sm">{locale === "bn" ? "এখনও কোনো চাইল্ড অধ্যায় যোগ করা হয়নি।" : "No child chapters have been linked yet."}</p>}
+              </div>
+              <div className="theme-surface rounded-2xl border p-4">
+                <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.related}</h3>
+                {hierarchy.related.length ? (
+                  <div className="mt-3 space-y-2">
+                    {hierarchy.related.map((relatedEvent) => (
+                      <Link key={relatedEvent.slug} href={`/${locale}/events/${relatedEvent.slug}`} className="block rounded-xl border border-amber-500/30 p-3 hover:bg-amber-500/5">
+                        <p className="theme-muted text-xs tracking-[0.2em] uppercase">{relatedEvent.year}</p>
+                        <p className="mt-1 font-semibold">{relatedEvent.title}</p>
+                      </Link>
+                    ))}
+                  </div>
+                ) : <p className="theme-muted mt-3 text-sm">{locale === "bn" ? "এখনও কোনো সম্পর্কিত অধ্যায় যোগ করা হয়নি।" : "No related chapters have been linked yet."}</p>}
+              </div>
+            </div>
+          </section>
+        </AnimatedContainer>
+      ) : null}
 
       <AnimatedContainer delay={0.05}>
         <section id="timeline" className="scroll-mt-24">

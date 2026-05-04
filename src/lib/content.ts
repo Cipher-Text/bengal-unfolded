@@ -10,9 +10,9 @@ import {
   type BookId,
   type Creator,
   type EventContent,
+  type EventSlug,
   type EventResource,
   type EventMeta,
-  type EventSlug,
   type Figure,
   type FigureId,
   type HomeContent,
@@ -346,6 +346,32 @@ export async function getEventContent(locale: string, slug: string): Promise<Eve
 export async function getAllEvents(locale: string): Promise<EventMeta[]> {
   assertSupportedLocale(locale);
   return Promise.all(SUPPORTED_EVENT_SLUGS.map((slug) => getEventMeta(locale, slug)));
+}
+
+export async function getEventHierarchy(locale: string, currentSlug: string): Promise<{
+  parent?: EventMeta;
+  children: EventMeta[];
+  related: EventMeta[];
+}> {
+  assertSupportedLocale(locale);
+  assertSupportedEventSlug(currentSlug);
+
+  const current = await getEventMeta(locale, currentSlug);
+  const uniqueSlugs = (slugs: (EventSlug | undefined)[] | undefined): EventSlug[] => {
+    if (!slugs?.length) return [];
+    return Array.from(new Set(slugs.filter((slug): slug is EventSlug => Boolean(slug) && slug !== currentSlug)));
+  };
+
+  const childSlugs = uniqueSlugs(current.childEventIds);
+  const relatedSlugs = uniqueSlugs(current.relatedEventIds);
+
+  const [parent, children, related] = await Promise.all([
+    current.parentEvent ? getEventMeta(locale, current.parentEvent) : Promise.resolve(undefined),
+    Promise.all(childSlugs.map((slug) => getEventMeta(locale, slug))),
+    Promise.all(relatedSlugs.map((slug) => getEventMeta(locale, slug))),
+  ]);
+
+  return { parent, children, related };
 }
 
 export async function getPreviousAndNextEvents(

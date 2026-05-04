@@ -8,6 +8,18 @@
   "ctaLabel": "Explore the six points",
   "heroTagline": "The Six Points reframed autonomy as a clear constitutional demand.",
   "whyItMatters": "The Six-Point Programme transformed scattered grievances into a coherent political agenda, laying essential groundwork for the mass upsurge of 1969 and the independence struggle that followed.",
+  "importance": "major",
+  "parentEvent": "1952",
+  "childEventIds": [
+    "1969"
+  ],
+  "relatedEventIds": [
+    "1952",
+    "1969",
+    "1971"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
   "showOnLanding": true,
   "summarySourceIds": [
     "bangladesh-awami-league-banglapedia",

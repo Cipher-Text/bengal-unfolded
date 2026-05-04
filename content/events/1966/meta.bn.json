@@ -8,6 +8,18 @@
   "ctaLabel": "ছয় দফা অন্বেষণ করুন",
   "heroTagline": "ছয় দফা স্বায়ত্তশাসনের দাবিকে সাংবিধানিক ভাষায় নতুনভাবে সংজ্ঞায়িত করে।",
   "whyItMatters": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+  "importance": "major",
+  "parentEvent": "1952",
+  "childEventIds": [
+    "1969"
+  ],
+  "relatedEventIds": [
+    "1952",
+    "1969",
+    "1971"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
   "showOnLanding": true,
   "summarySourceIds": [
     "bangladesh-awami-league-banglapedia",

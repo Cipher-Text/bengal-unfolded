@@ -16,6 +16,16 @@
     "robert-clive-britannica",
     "jagat-sheth-banglapedia"
   ],
+  "importance": "landmark",
+  "childEventIds": [
+    "1857"
+  ],
+  "relatedEventIds": [
+    "1857",
+    "1947"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"

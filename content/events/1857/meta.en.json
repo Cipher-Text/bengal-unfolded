@@ -17,6 +17,14 @@
     "indian-rebellion-1857-britannica",
     "mangal-pandey-britannica"
   ],
+  "importance": "major",
+  "parentEvent": "1757",
+  "relatedEventIds": [
+    "1757",
+    "1947"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"
 }

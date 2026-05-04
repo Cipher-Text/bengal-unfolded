@@ -16,6 +16,20 @@
     "midnights-furies",
     "the-spoils-of-partition"
   ],
+  "importance": "landmark",
+  "childEventIds": [
+    "1952",
+    "1971"
+  ],
+  "relatedEventIds": [
+    "1906",
+    "1911",
+    "1943",
+    "1952",
+    "1971"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"

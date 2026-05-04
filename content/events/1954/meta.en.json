@@ -17,6 +17,15 @@
     "research-volume",
     "bangladesh-from-mujib-to-ershad"
   ],
+  "importance": "high",
+  "parentEvent": "1952",
+  "relatedEventIds": [
+    "1952",
+    "1958",
+    "1966"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"
 }

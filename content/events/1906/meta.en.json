@@ -8,6 +8,16 @@
   "ctaLabel": "Explore the founding",
   "heroTagline": "Dhaka emerged as a symbolic site in the reorganization of all-India Muslim politics.",
   "whyItMatters": "The 1906 founding linked Bengal's political space to broader subcontinental constitutional debates, shaping later questions of representation, communal politics, and state formation.",
+  "importance": "high",
+  "childEventIds": [
+    "1911"
+  ],
+  "relatedEventIds": [
+    "1911",
+    "1947"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
   "showOnLanding": false,
   "summarySourceIds": [
     "partition-politics-banglapedia",

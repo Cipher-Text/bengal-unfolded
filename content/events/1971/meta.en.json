@@ -16,6 +16,20 @@
     "the-blood-telegram",
     "1971-a-global-history-of-the-creation-of-bangladesh"
   ],
+  "importance": "landmark",
+  "parentEvent": "1947",
+  "childEventIds": [
+    "1975"
+  ],
+  "relatedEventIds": [
+    "1947",
+    "1952",
+    "1969",
+    "1975",
+    "2013"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"

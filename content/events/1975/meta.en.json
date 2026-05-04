@@ -8,6 +8,19 @@
   "ctaLabel": "Explore the turning point",
   "heroTagline": "1975 was not a single incident, but a chain of ruptures that changed the republic.",
   "whyItMatters": "The crises of 1975 remain central to understanding Bangladesh's later constitutional shifts, military interventions, and contested memory of legitimacy and democracy.",
+  "importance": "major",
+  "parentEvent": "1971",
+  "childEventIds": [
+    "1990",
+    "2006"
+  ],
+  "relatedEventIds": [
+    "1971",
+    "1990",
+    "2006"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
   "showOnLanding": false,
   "summarySourceIds": [
     "military-rule-banglapedia",

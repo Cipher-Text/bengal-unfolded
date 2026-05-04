@@ -8,6 +8,13 @@
   "ctaLabel": "Understand the famine",
   "heroTagline": "In 1943, hunger became a political rupture in Bengal's history.",
   "whyItMatters": "The famine reshaped public trust in governance, sharpened anti-colonial anger, and left deep social scars that influenced Bengal's later political trajectory.",
+  "importance": "high",
+  "relatedEventIds": [
+    "1947",
+    "1971"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
   "showOnLanding": false,
   "summarySourceIds": [
     "archive-collection",

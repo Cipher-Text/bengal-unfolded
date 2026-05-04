@@ -16,6 +16,16 @@
     "research-volume",
     "archive-collection"
   ],
+  "importance": "landmark",
+  "parentEvent": "1990",
+  "relatedEventIds": [
+    "1952",
+    "1990",
+    "2006",
+    "2013"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium"

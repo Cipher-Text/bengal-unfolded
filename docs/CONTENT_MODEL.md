@@ -53,6 +53,12 @@ Static JSON now, adapter-based backend later.
 
 ## Event metadata note
 - `EventMeta.showOnLanding?` (optional boolean): set `false` to hide an event from the locale landing page timeline while keeping it available in full timeline and direct event routes.
+- `EventMeta.importance` (required): `landmark | major | high | medium | reference`
+- `EventMeta.parentEvent?` (optional): parent cluster anchor event slug
+- `EventMeta.childEventIds?` (optional): ordered child chapter slugs for cluster discovery
+- `EventMeta.relatedEventIds?` (optional): ordered lateral chapter links for discovery
+- `EventMeta.periodLabel?` (optional): localized period/group label used by explorer grouping
+- `EventMeta.movementLabel?` (optional): localized movement/context label used by explorer and event pages
 
 `type` supports:
 - `judicial_event`

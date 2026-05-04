@@ -137,10 +137,10 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 ### Timeline hierarchy and discovery
 
-- [ ] RM-006A Timeline importance levels (`landmark`, `major`, `high`, `medium`, `reference`)
+- [x] RM-006A Timeline importance levels (`landmark`, `major`, `high`, `medium`, `reference`)
 - [x] RM-006B Homepage landmark timeline limit with `Explore Full Timeline` CTA
 - [x] RM-006C Full timeline explorer page with search, filters, and pagination
-- [ ] RM-006D Parent-child event clustering (`parentEvent`, `children`, `relatedEvents`)
+- [x] RM-006D Parent-child event clustering (`parentEvent`, `children`, `relatedEvents`)
 - [ ] RM-006E Sensitive event metadata (`sensitive`, `contentWarnings`, `requiresSources`)
 
 ### Relationship-first memory model
@@ -876,8 +876,8 @@ Recommended next sprint items:
 - [x] RM-001 Inline citations on event/timeline claims
 - [x] RM-002 Source quality badges
 - [x] RM-005 Evidence metadata fields
-- [ ] RM-006A Timeline importance levels
-- [ ] RM-006D Parent-child event clustering
+- [x] RM-006A Timeline importance levels
+- [x] RM-006D Parent-child event clustering
 - [ ] RM-REL-001 Cause/effect fields in event content model
 - [ ] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
 - [ ] RM-VIS-001 Visual event cards with timeline, place, figures, and source indicators

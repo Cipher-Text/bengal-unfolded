@@ -8,6 +8,15 @@
   "ctaLabel": "Trace the impact",
   "heroTagline": "Martial law turned constitutional crisis into prolonged centralized control.",
   "whyItMatters": "The 1958 takeover is a key turning point for understanding how democratic rollback in Pakistan intensified East Pakistan's political alienation and set the stage for later mass resistance.",
+  "importance": "high",
+  "parentEvent": "1952",
+  "relatedEventIds": [
+    "1954",
+    "1966",
+    "1969"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
   "showOnLanding": false,
   "summarySourceIds": [
     "military-rule-banglapedia",
