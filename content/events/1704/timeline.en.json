@@ -1,0 +1,53 @@
+[
+  {
+    "year": "1701-1702",
+    "title": "Murshid Quli Khan consolidates fiscal authority in Bengal",
+    "detail": "As diwan, he tightened revenue administration and began to build an institutional base that reduced dependence on Dhaka's earlier administrative routines.",
+    "sourceIds": [
+      "murshid-quli-khan-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "1704",
+    "title": "Administrative shift from Dhaka toward Makhsudabad",
+    "detail": "The effective transfer of core administration toward Makhsudabad began, with court, officials, and major financial actors increasingly oriented to the new center.",
+    "sourceIds": [
+      "murshidabad-britannica",
+      "murshidabad-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "1717",
+    "title": "Murshidabad fully established as Bengal's capital",
+    "detail": "With Murshid Quli Khan's formal appointment as subahdar, Murshidabad's role as the province's political-fiscal capital was consolidated.",
+    "sourceIds": [
+      "murshid-quli-khan-banglapedia",
+      "murshidabad-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "Pre-1757 Nawabi political economy is re-centered",
+    "detail": "Murshidabad became the core arena for state finance, elite competition, and court politics that framed the later crisis of 1757.",
+    "sourceIds": [
+      "murshidabad-banglapedia",
+      "murshidabad-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]
