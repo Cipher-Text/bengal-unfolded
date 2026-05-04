@@ -1,0 +1,52 @@
+[
+  {
+    "year": "1352",
+    "title": "Unification of Bengal under Ilyas Shahi authority",
+    "detail": "Shamsuddin Ilyas Shah consolidated major Bengal centers into a single sultanate framework, marking a durable shift toward unified regional sovereignty.",
+    "sourceIds": [
+      "bengal-sultanate-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1353-1359",
+    "title": "Independent position against Delhi pressure is sustained",
+    "detail": "Military and political contest with the Delhi Sultanate did not reverse Bengal's separate trajectory, reinforcing the independent standing of the Bengal Sultanate.",
+    "sourceIds": [
+      "bengal-sultanate-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "14th-16th centuries",
+    "title": "Distinct coinage, court culture, and architecture develop",
+    "detail": "Silver tanka minting networks, Persian-Bengali court practice, and major architectural projects became markers of a sovereign Bengal political culture.",
+    "sourceIds": [
+      "bengal-sultanate-wikipedia",
+      "adina-mosque-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "A sovereign Bengal state tradition is established",
+    "detail": "The Bengal Sultanate provided a durable precedent for regional statehood, shaping later administrative and political formations before early modern colonial transition.",
+    "sourceIds": [
+      "west-bengal-history-britannica",
+      "bengal-sultanate-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  }
+]

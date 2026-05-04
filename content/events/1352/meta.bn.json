@@ -1,0 +1,37 @@
+{
+  "slug": "1352",
+  "year": "১৩৫২",
+  "title": "বাংলা সালতানাতের স্বাধীনতা ও একীকরণ",
+  "subtitle": "স্বাধীন সুলতানি শাসনের অধীনে একীভূত সার্বভৌম বাংলার উত্থান।",
+  "summary": "চতুর্দশ শতকের মধ্যভাগে, বিশেষত শামসুদ্দিন ইলিয়াস শাহের ক্ষমতা সংহতির প্রেক্ষাপটে, বাংলা একটি একীভূত ও কার্যত স্বাধীন সুলতানি রাষ্ট্রে রূপ নেয়। বিচ্ছিন্ন আঞ্চলিক ক্ষমতা কাঠামো থেকে বেরিয়ে এই পর্যায়ে বাংলা নিজস্ব রাজনৈতিক কেন্দ্র ও দীর্ঘস্থায়ী প্রাতিষ্ঠানিক পরিচয় অর্জন করে।",
+  "themeColor": "#5f4b2f",
+  "ctaLabel": "১৩৫২ দেখুন",
+  "heroTagline": "বাংলা সালতানাতের স্বাধীনতা ও একীকরণ প্রাক-আধুনিক বাংলার রাষ্ট্রগঠনকে নতুন রূপ দেয়।",
+  "summarySourceIds": [
+    "bengal-sultanate-wikipedia",
+    "west-bengal-history-britannica"
+  ],
+  "whyItMatters": "বাংলা সালতানাতের স্বাধীনতা গুরুত্বপূর্ণ, কারণ এটি বাংলাকে স্বতন্ত্র সার্বভৌম আঞ্চলিক শক্তি হিসেবে প্রতিষ্ঠা করে; একই সঙ্গে সংস্কৃতি, রৌপ্য মুদ্রা প্রচলন এবং স্থাপত্যে নিজস্ব ধারার বিকাশ ঘটায়, যা পরবর্তী বাংলার রাজনৈতিক-নগর ইতিহাসে প্রভাব ফেলে।",
+  "whyItMattersSourceIds": [
+    "bengal-sultanate-wikipedia",
+    "adina-mosque-wikipedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1757",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1704",
+    "1757"
+  ],
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
+}
