@@ -22,11 +22,26 @@
     "1975"
   ],
   "relatedEvents": [
-    { "eventId": "1947", "relationType": "cause" },
-    { "eventId": "1952", "relationType": "background" },
-    { "eventId": "1969", "relationType": "cause" },
-    { "eventId": "1975", "relationType": "effect" },
-    { "eventId": "2013", "relationType": "legacy" }
+    {
+      "eventId": "1947",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1952",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1969",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1975",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2013",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1947",
@@ -39,5 +54,6 @@
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening"
 }

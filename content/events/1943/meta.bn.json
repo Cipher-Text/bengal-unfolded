@@ -10,8 +10,14 @@
   "whyItMatters": "এই দুর্ভিক্ষ শাসনব্যবস্থার ওপর জনবিশ্বাস ভেঙে দেয়, ঔপনিবেশিক শাসনের বিরুদ্ধে ক্ষোভকে তীব্র করে এবং বাংলার পরবর্তী রাজনীতিতে দীর্ঘস্থায়ী প্রভাব ফেলে।",
   "importance": "high",
   "relatedEvents": [
-    { "eventId": "1947", "relationType": "effect" },
-    { "eventId": "1971", "relationType": "legacy" }
+    {
+      "eventId": "1947",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1947",
@@ -29,5 +35,6 @@
     "the-spoils-of-partition"
   ],
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics"
 }

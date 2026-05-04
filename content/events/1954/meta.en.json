@@ -20,9 +20,18 @@
   "importance": "high",
   "parentEvent": "1952",
   "relatedEvents": [
-    { "eventId": "1952", "relationType": "background" },
-    { "eventId": "1958", "relationType": "parallel" },
-    { "eventId": "1966", "relationType": "effect" }
+    {
+      "eventId": "1952",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1958",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1966",
+      "relationType": "effect"
+    }
   ],
   "relatedEventIds": [
     "1952",
@@ -32,5 +41,6 @@
   "periodLabel": "Pakistan Period and National Awakening",
   "movementLabel": "Language, autonomy, and liberation",
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening"
 }

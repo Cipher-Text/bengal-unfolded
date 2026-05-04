@@ -15,9 +15,18 @@
     "2006"
   ],
   "relatedEvents": [
-    { "eventId": "1971", "relationType": "cause" },
-    { "eventId": "1990", "relationType": "effect" },
-    { "eventId": "2006", "relationType": "legacy" }
+    {
+      "eventId": "1971",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1990",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2006",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1971",
@@ -36,5 +45,6 @@
     "bangladesh-under-mujib-zia-and-ershad"
   ],
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy"
 }

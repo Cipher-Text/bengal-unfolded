@@ -19,10 +19,22 @@
   "importance": "landmark",
   "parentEvent": "1990",
   "relatedEvents": [
-    { "eventId": "1952", "relationType": "legacy" },
-    { "eventId": "1990", "relationType": "background" },
-    { "eventId": "2006", "relationType": "contrast" },
-    { "eventId": "2013", "relationType": "parallel" }
+    {
+      "eventId": "1952",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1990",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2006",
+      "relationType": "contrast"
+    },
+    {
+      "eventId": "2013",
+      "relationType": "parallel"
+    }
   ],
   "relatedEventIds": [
     "1952",
@@ -34,5 +46,6 @@
   "movementLabel": "Memory, justice, and civic dissent",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest"
 }

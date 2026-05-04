@@ -11,9 +11,18 @@
   "importance": "high",
   "parentEvent": "1990",
   "relatedEvents": [
-    { "eventId": "1971", "relationType": "background" },
-    { "eventId": "1990", "relationType": "background" },
-    { "eventId": "2024", "relationType": "parallel" }
+    {
+      "eventId": "1971",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1990",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "parallel"
+    }
   ],
   "relatedEventIds": [
     "1971",
@@ -32,5 +41,6 @@
     "research-volume"
   ],
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest"
 }

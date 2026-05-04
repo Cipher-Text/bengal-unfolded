@@ -1,5 +1,25 @@
 export const SUPPORTED_LOCALES = ["en", "bn"] as const;
-export const SUPPORTED_EVENT_SLUGS = ["1757", "1765", "1793", "1857", "1906", "1911", "1943", "1947", "1952", "1954", "1958", "1966", "1969", "1971", "1975", "1990", "2006", "2013", "2024"] as const;
+export const SUPPORTED_EVENT_SLUGS = [
+  "1757",
+  "1765",
+  "1793",
+  "1857",
+  "1906",
+  "1911",
+  "1943",
+  "1947",
+  "1952",
+  "1954",
+  "1958",
+  "1966",
+  "1969",
+  "1971",
+  "1975",
+  "1990",
+  "2006",
+  "2013",
+  "2024",
+] as const;
 export const SUPPORTED_FIGURE_IDS = [
   "sheikh-mujibur-rahman",
   "syed-nazrul-islam",
@@ -282,15 +302,45 @@ export const SUPPORTED_FIGURE_IDS = [
   "ranmat-singh",
   "raja-nahar-singh",
 ] as const;
-export const SUPPORTED_BOOK_IDS = ["research-volume", "archive-collection"] as const;
+export const SUPPORTED_BOOK_IDS = [
+  "research-volume",
+  "archive-collection",
+] as const;
+export const SUPPORTED_PERIOD_IDS = [
+  "colonial-rule-and-resistance",
+  "partition-and-late-colonial-politics",
+  "pakistan-period-and-national-awakening",
+  "post-liberation-state-and-democracy",
+  "contemporary-memory-and-civic-protest",
+] as const;
+export const SUPPORTED_MOVEMENT_IDS = [
+  "colonial-capture-and-resistance",
+  "partition-and-political-representation",
+  "language-autonomy-and-liberation",
+  "state-power-and-democratic-transition",
+  "memory-justice-and-civic-dissent",
+] as const;
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 export type EventSlug = (typeof SUPPORTED_EVENT_SLUGS)[number];
 export type FigureId = (typeof SUPPORTED_FIGURE_IDS)[number];
 export type BookId = (typeof SUPPORTED_BOOK_IDS)[number];
+export type PeriodId = (typeof SUPPORTED_PERIOD_IDS)[number];
+export type MovementId = (typeof SUPPORTED_MOVEMENT_IDS)[number];
 export type ResourceId = string;
-export type EventImportance = "landmark" | "major" | "high" | "medium" | "reference";
-export type EventRelationType = "cause" | "effect" | "background" | "parallel" | "legacy" | "contrast";
+export type EventImportance =
+  | "landmark"
+  | "major"
+  | "high"
+  | "medium"
+  | "reference";
+export type EventRelationType =
+  | "cause"
+  | "effect"
+  | "background"
+  | "parallel"
+  | "legacy"
+  | "contrast";
 export type EventRelation = {
   eventId: EventSlug;
   relationType: EventRelationType;
@@ -315,7 +365,9 @@ export type EventMeta = {
   childEventIds?: EventSlug[];
   relatedEvents?: EventRelation[];
   relatedEventIds?: EventSlug[];
+  periodId?: PeriodId;
   periodLabel?: string;
+  movementId?: MovementId;
   movementLabel?: string;
   showOnLanding?: boolean;
 };
@@ -362,6 +414,46 @@ export type Figure = {
   image?: string;
 };
 
+export type PeriodMeta = {
+  id: PeriodId;
+  title: string;
+  subtitle: string;
+  description: string;
+  startYear: string;
+  endYear: string;
+  themeColor: string;
+  icon?: string;
+};
+
+export type Period = {
+  id: PeriodId;
+  title: string;
+  subtitle: string;
+  description: string;
+  startYear: string;
+  endYear: string;
+  themeColor: string;
+  icon?: string;
+};
+
+export type MovementMeta = {
+  id: MovementId;
+  title: string;
+  subtitle: string;
+  description: string;
+  themeColor: string;
+  icon?: string;
+};
+
+export type Movement = {
+  id: MovementId;
+  title: string;
+  subtitle: string;
+  description: string;
+  themeColor: string;
+  icon?: string;
+};
+
 export type Book = {
   id: BookId;
   title: string;
@@ -374,7 +466,12 @@ export type Book = {
 export type ResourceCategory = "read" | "watch" | "explore" | "understand";
 export type SourceQuality = "primary" | "secondary" | "archive" | "editorial";
 export type EvidenceLevel = "high" | "medium" | "low";
-export type TimelineTheme = "language" | "democracy" | "war" | "culture" | "economy";
+export type TimelineTheme =
+  | "language"
+  | "democracy"
+  | "war"
+  | "culture"
+  | "economy";
 
 export type EventResource = {
   id: ResourceId;

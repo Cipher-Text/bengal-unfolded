@@ -20,10 +20,22 @@
   "importance": "major",
   "parentEvent": "1793",
   "relatedEvents": [
-    { "eventId": "1757", "relationType": "background" },
-    { "eventId": "1765", "relationType": "background" },
-    { "eventId": "1793", "relationType": "background" },
-    { "eventId": "1947", "relationType": "legacy" }
+    {
+      "eventId": "1757",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1765",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1793",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1947",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1757",
@@ -34,5 +46,6 @@
   "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
   "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance"
 }

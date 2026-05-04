@@ -13,8 +13,14 @@
     "1911"
   ],
   "relatedEvents": [
-    { "eventId": "1911", "relationType": "effect" },
-    { "eventId": "1947", "relationType": "legacy" }
+    {
+      "eventId": "1911",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1947",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1911",
@@ -32,5 +38,6 @@
     "partition-politics-banglapedia"
   ],
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics"
 }

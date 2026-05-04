@@ -3,6 +3,27 @@
 ## 2026-05-04
 
 ### Completed
+
+- RM-REL-006 (Period-to-event linking):
+  - Model: Added `SUPPORTED_PERIOD_IDS` constant and `PeriodId`, `PeriodMeta`, `Period` types.
+  - Model: Added `periodId?: PeriodId` to `EventMeta` for period association.
+  - Content: Created 5 period entities in `content/periods/` with EN and BN metadata:
+    - colonial-rule-and-resistance (1757–1905)
+    - partition-and-late-colonial-politics (1905–1947)
+    - pakistan-period-and-national-awakening (1947–1971)
+    - post-liberation-state-and-democracy (1971–1990)
+    - contemporary-memory-and-civic-protest (1990–2024)
+  - Validation: Added period directory validation checking id parity and required fields (title, description, startYear, endYear).
+  - Validation: Added event-level `periodId` validation to ensure references are valid.
+  - Backfill: All 19 events have been assigned appropriate `periodId` values corresponding to their historical period.
+  - Content loader: Added `getPeriod(locale, id)`, `getAllPeriods(locale)`, and `getEventsByPeriodId(locale, id)` functions with caching.
+  - UI: Created period detail pages at `/{locale}/periods/[id]` that display period metadata and all events within that period.
+  - Static generation: Added `generateStaticParams()` for pre-rendering all locale + period ID combinations.
+- RM-REL-005 (Why this matters explanation):
+  - Model: Added `whyItMatters: string`, `whyItMattersSourceIds?: string[]`, `whyItMattersEvidenceLevel?: EvidenceLevel` to EventMeta.
+  - Validation: Event metadata validates that if `whyItMattersSourceIds.length > 0`, then `whyItMattersEvidenceLevel` must be a valid evidence level.
+  - UI: Event detail pages render the `Why This Event Matters Today` section with glossary-linked text, inline source citations, and evidence badges.
+  - Backfill: All 19 supported events have `whyItMatters` content and citations in both EN and BN locales. Evidence levels set appropriately.
 - Typed event relationship rollout:
   - Added typed `relatedEvents` support with `cause`, `effect`, `background`, `parallel`, `legacy`, and `contrast`.
   - Added relationship validation for relation type, target slug integrity, and duplicate prevention.
@@ -85,6 +106,7 @@
 ## 2026-05-03
 
 ### Completed
+
 - Added full timeline explorer route:
   - `/{locale}/timeline`
   - Includes search, year filter, and pagination.
@@ -119,6 +141,7 @@
 ## 2026-04-29
 
 ### Completed
+
 - Refactored resources to normalized shared model:
   - events reference resources via `resource-ids.json`
   - shared resource records live under `content/resources/<resource-id>/meta.<locale>.json`
@@ -138,6 +161,7 @@
 ## 2026-04-28
 
 ### Completed
+
 - Implemented light/dark theme support with persistent preference.
 - Added early theme initialization in root layout to avoid first-paint mismatch.
 - Replaced text-based theme toggle with color-based indicator toggle in header.
@@ -163,6 +187,7 @@
 - Moved and organized documentation into `docs/` and `docs/archive/`.
 
 ### Technical notes
+
 - `src/lib/content.ts` remains the single content access layer.
 - Runtime now uses `resource-ids.json` + shared `content/resources/*` for event resources.
 - Legacy per-event `figures.<locale>.json` files are removed and unused.

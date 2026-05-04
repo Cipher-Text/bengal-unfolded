@@ -23,10 +23,22 @@
     "1793"
   ],
   "relatedEvents": [
-    { "eventId": "1757", "relationType": "cause" },
-    { "eventId": "1793", "relationType": "effect" },
-    { "eventId": "1857", "relationType": "legacy" },
-    { "eventId": "1943", "relationType": "legacy" }
+    {
+      "eventId": "1757",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1793",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1857",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1943",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1757",
@@ -38,5 +50,6 @@
   "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance"
 }

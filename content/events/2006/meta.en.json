@@ -11,9 +11,18 @@
   "importance": "high",
   "parentEvent": "1975",
   "relatedEvents": [
-    { "eventId": "1975", "relationType": "background" },
-    { "eventId": "1990", "relationType": "contrast" },
-    { "eventId": "2024", "relationType": "legacy" }
+    {
+      "eventId": "1975",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1990",
+      "relationType": "contrast"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1975",
@@ -32,5 +41,6 @@
     "khaleda-zia-banglapedia"
   ],
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy"
 }

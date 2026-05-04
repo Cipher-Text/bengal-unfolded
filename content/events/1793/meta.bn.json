@@ -23,9 +23,18 @@
     "1857"
   ],
   "relatedEvents": [
-    { "eventId": "1765", "relationType": "cause" },
-    { "eventId": "1857", "relationType": "legacy" },
-    { "eventId": "1943", "relationType": "legacy" }
+    {
+      "eventId": "1765",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1857",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1943",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1765",
@@ -36,5 +45,6 @@
   "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance"
 }

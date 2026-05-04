@@ -160,8 +160,8 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
 - [x] RM-REL-003 Event detail page relationship section
 - [x] RM-REL-004 `Before this / After this` event navigation
-- [ ] RM-REL-005 `Why this matters` contextual explanation block
-- [ ] RM-REL-006 Period-to-event linking
+- [x] RM-REL-005 `Why this matters` contextual explanation block
+- [x] RM-REL-006 Period-to-event linking
 - [ ] RM-REL-007 Movement/theme-to-event linking
 - [ ] RM-REL-008 Figure-to-event timeline view
 - [ ] RM-REL-009 Place-to-event timeline view
@@ -569,17 +569,17 @@ This learning path is supported by [Sponsor Name]. Editorial independence is mai
 ## Recommended Visualization Modes
 
 1. Timeline View
-Chronological flow of events.
+   Chronological flow of events.
 2. Geo Map View
-Events connected to places, regions, routes, migrations, protests, battles, institutions, and cultural centers.
+   Events connected to places, regions, routes, migrations, protests, battles, institutions, and cultural centers.
 3. Relation Graph View
-Event -> figure -> place -> book -> source -> related event.
+   Event -> figure -> place -> book -> source -> related event.
 4. Memory Flow View
-Cause -> event -> effect -> long-term impact.
+   Cause -> event -> effect -> long-term impact.
 5. Cultural Map View
-Language, literature, education, religion, art, institutions, movements, and identity formation.
+   Language, literature, education, religion, art, institutions, movements, and identity formation.
 6. Source/Evidence View
-Claims, citations, source quality, primary/secondary/archive/editorial references, and confidence level.
+   Claims, citations, source quality, primary/secondary/archive/editorial references, and confidence level.
 
 ---
 

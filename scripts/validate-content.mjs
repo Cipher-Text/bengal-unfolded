@@ -47,6 +47,15 @@ async function main() {
   const allowedThemes = new Set(["language", "democracy", "war", "culture", "economy"]);
   const allowedImportance = new Set(["landmark", "major", "high", "medium", "reference"]);
   const allowedRelationTypes = new Set(["cause", "effect", "background", "parallel", "legacy", "contrast"]);
+  const allowedPeriodIds = new Set([
+    "colonial-rule-and-resistance",
+    "partition-and-late-colonial-politics",
+    "pakistan-period-and-national-awakening",
+    "post-liberation-state-and-democracy",
+    "contemporary-memory-and-civic-protest",
+  ]);
+  const periodDir = path.join(contentDir, "periods");
+  const periodIds = new Set((await fs.readdir(periodDir)).filter((name) => !name.startsWith("index.")));
 
   for (const slug of eventSlugs) {
     const base = path.join(eventDir, slug);
@@ -82,6 +91,11 @@ async function main() {
       }
       if ("periodLabel" in meta && (typeof meta.periodLabel !== "string" || meta.periodLabel.trim().length === 0)) {
         errors.push(`Invalid periodLabel at content/events/${slug}/meta.${locale}.json`);
+      }
+      if ("periodId" in meta && meta.periodId !== undefined) {
+        if (typeof meta.periodId !== "string" || !allowedPeriodIds.has(meta.periodId)) {
+          errors.push(`Invalid periodId at content/events/${slug}/meta.${locale}.json`);
+        }
       }
       if ("movementLabel" in meta && (typeof meta.movementLabel !== "string" || meta.movementLabel.trim().length === 0)) {
         errors.push(`Invalid movementLabel at content/events/${slug}/meta.${locale}.json`);
@@ -242,6 +256,35 @@ async function main() {
             errors.push(`Unknown sourceId '${sourceId}' in content/events/${slug}/timeline.${locale}.json[${i}]`);
           }
         }
+      }
+    }
+  }
+
+  const periodEntries = await fs.readdir(periodDir);
+  for (const periodId of periodEntries) {
+    if (periodId.startsWith("index.")) continue;
+    for (const locale of ["en", "bn"]) {
+      const metaPath = path.join(periodDir, periodId, `meta.${locale}.json`);
+      if (!(await exists(metaPath))) {
+        errors.push(`Missing file: content/periods/${periodId}/meta.${locale}.json`);
+        continue;
+      }
+      const meta = await readJson(metaPath, errors);
+      if (!meta || typeof meta !== "object") continue;
+      if (meta.id !== periodId) {
+        errors.push(`Period id mismatch at content/periods/${periodId}/meta.${locale}.json`);
+      }
+      if (typeof meta.title !== "string" || meta.title.trim().length === 0) {
+        errors.push(`Invalid or missing title at content/periods/${periodId}/meta.${locale}.json`);
+      }
+      if (typeof meta.description !== "string" || meta.description.trim().length === 0) {
+        errors.push(`Invalid or missing description at content/periods/${periodId}/meta.${locale}.json`);
+      }
+      if (typeof meta.startYear !== "string" || meta.startYear.trim().length === 0) {
+        errors.push(`Invalid or missing startYear at content/periods/${periodId}/meta.${locale}.json`);
+      }
+      if (typeof meta.endYear !== "string" || meta.endYear.trim().length === 0) {
+        errors.push(`Invalid or missing endYear at content/periods/${periodId}/meta.${locale}.json`);
       }
     }
   }

@@ -14,9 +14,18 @@
     "1969"
   ],
   "relatedEvents": [
-    { "eventId": "1952", "relationType": "background" },
-    { "eventId": "1969", "relationType": "effect" },
-    { "eventId": "1971", "relationType": "legacy" }
+    {
+      "eventId": "1952",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1969",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971",
+      "relationType": "legacy"
+    }
   ],
   "relatedEventIds": [
     "1952",
@@ -35,5 +44,6 @@
     "bangladesh-from-mujib-to-ershad"
   ],
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening"
 }

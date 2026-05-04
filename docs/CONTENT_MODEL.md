@@ -3,20 +3,24 @@
 Static JSON now, adapter-based backend later.
 
 Contract companion docs:
+
 - `docs/AI_CONTRACT.md`
 - `docs/EDITORIAL_RULES.md`
 
 ## Core types
+
 - `HomeContent`
 - `EventMeta`
 - `TimelineItem`
 - `Figure`
+- `Period`
 - `Book`
 - `EventResource`
 - `Quote`
 - `EventContent`
 
 ## Relationship model
+
 - `event -> figures` is many-to-many via `content/events/<slug>/figure-ids.json`.
 - Figure detail pages perform reverse lookup to list related events.
 - `event -> resources` is many-to-many via `content/events/<slug>/resource-ids.json`.
@@ -24,8 +28,11 @@ Contract companion docs:
 - `event <-> books` is many-to-many via `content/events/<slug>/resource-ids.json` where book IDs are resource IDs.
 - `book <-> writers` supports many-to-many at schema level with `authors: string[]` on book metadata (legacy `author` is still supported for backward compatibility).
 - `book` entity is still supported for dedicated book pages and reverse lookups.
+- `event -> period` is many-to-one via `eventMeta.periodId`.
+- Period detail pages perform reverse lookup to list all events within that period.
 
 ## File contracts
+
 - Event files:
   - `meta.<locale>.json`
   - `timeline.<locale>.json`
@@ -41,11 +48,15 @@ Contract companion docs:
 - Book files:
   - No separate `books` storage.
   - Book pages resolve from `content/resources/<book-id>/meta.<locale>.json`.
+- Period files:
+  - `content/periods/<period-id>/meta.en.json`
+  - `content/periods/<period-id>/meta.bn.json`
 - Resource files:
   - `content/resources/<resource-id>/meta.en.json`
   - `content/resources/<resource-id>/meta.bn.json`
 
 ## Timeline schema
+
 - `TimelineItem` fields:
   - `year` (string)
   - `title` (string)
@@ -56,16 +67,19 @@ Contract companion docs:
   - `ctaLabel?` (optional link label)
 
 ## Event metadata note
+
 - `EventMeta.showOnLanding?` (optional boolean): set `false` to hide an event from the locale landing page timeline while keeping it available in full timeline and direct event routes.
 - `EventMeta.importance` (required): `landmark | major | high | medium | reference`
 - `EventMeta.parentEvent?` (optional): parent cluster anchor event slug
 - `EventMeta.childEventIds?` (optional): ordered child chapter slugs for cluster discovery
 - `EventMeta.relatedEvents?` (optional): ordered typed historical relationships with `{ eventId, relationType }`
 - `EventMeta.relatedEventIds?` (optional): ordered lateral chapter links for discovery
+- `EventMeta.periodId?` (optional): `PeriodId` reference for historical period grouping
 - `EventMeta.periodLabel?` (optional): localized period/group label used by explorer grouping
 - `EventMeta.movementLabel?` (optional): localized movement/context label used by explorer and event pages
 
 `relationType` supports:
+
 - `cause`
 - `effect`
 - `background`
@@ -74,6 +88,7 @@ Contract companion docs:
 - `contrast`
 
 `type` supports:
+
 - `judicial_event`
 - `protest_start`
 - `movement_escalation`
@@ -86,7 +101,28 @@ Contract companion docs:
 - `movement_shift`
 - `political_crisis`
 
+## Period schema
+
+- `PeriodMeta` / `Period` fields:
+  - `id` (required): period identifier
+  - `title` (required): period name
+  - `subtitle` (required): period date range (e.g., "1947–1971")
+  - `description` (required): historical context and significance
+  - `startYear` (required): earliest year in period
+  - `endYear` (required): latest year in period
+  - `themeColor` (required): hex color for visual theming
+  - `icon?` (optional): icon identifier for visual representation
+
+Supported period IDs:
+
+- `colonial-rule-and-resistance`
+- `partition-and-late-colonial-politics`
+- `pakistan-period-and-national-awakening`
+- `post-liberation-state-and-democracy`
+- `contemporary-memory-and-civic-protest`
+
 ## Resource schema
+
 - `EventResource` fields:
   - `id`
   - `title`
@@ -109,7 +145,9 @@ Contract companion docs:
   - `href?`
 
 ## Runtime accessors
+
 `src/lib/content.ts` is the single content access layer and currently exposes:
+
 - `getHomeContent`
 - `getEventMeta`
 - `getEventContent`
@@ -130,6 +168,7 @@ Contract companion docs:
 - `getResourcesByCreatorId`
 
 Implementation note:
+
 - `getAllFigures` first tries `content/figures/index.<locale>.json`, then falls back to per-figure files.
 - `getEventContent` resolves resources from `resource-ids.json` through shared `content/resources/*`.
 
