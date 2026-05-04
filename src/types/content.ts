@@ -1,5 +1,5 @@
 export const SUPPORTED_LOCALES = ["en", "bn"] as const;
-export const SUPPORTED_EVENT_SLUGS = ["1757", "1857", "1906", "1911", "1943", "1947", "1952", "1954", "1958", "1966", "1969", "1971", "1975", "1990", "2006", "2013", "2024"] as const;
+export const SUPPORTED_EVENT_SLUGS = ["1757", "1765", "1857", "1906", "1911", "1943", "1947", "1952", "1954", "1958", "1966", "1969", "1971", "1975", "1990", "2006", "2013", "2024"] as const;
 export const SUPPORTED_FIGURE_IDS = [
   "sheikh-mujibur-rahman",
   "syed-nazrul-islam",

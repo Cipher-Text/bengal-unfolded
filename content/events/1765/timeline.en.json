@@ -1,0 +1,67 @@
+[
+  {
+    "year": "October 1764",
+    "title": "Battle of Buxar reshapes power in North India",
+    "detail": "The East India Company's victory at Buxar strengthened its bargaining position over Bengal and the wider eastern region.",
+    "sourceIds": [
+      "east-india-company-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "August 12, 1765",
+    "title": "Shah Alam II grants the diwani",
+    "detail": "By imperial farman, the Mughal emperor appointed the Company as diwan of Bengal, Bihar, and Orissa, giving it the right to collect revenue.",
+    "sourceIds": [
+      "diwani-banglapedia",
+      "east-india-company-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "September 30, 1765",
+    "title": "A parallel arrangement preserves the nizamat",
+    "detail": "An agreement with Nawab Nazm ud-Daulah left the costs of civil administration and the nawab's household to be paid from Bengal's revenues, while the Company retained the surplus.",
+    "sourceIds": [
+      "diwani-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  },
+  {
+    "year": "1765 onward",
+    "title": "Dual government deepens Company leverage",
+    "detail": "Formal revenue authority and residual nawabi administration coexisted uneasily, but the arrangement strengthened Company control over extraction without requiring immediate full administrative takeover.",
+    "sourceIds": [
+      "diwani-banglapedia",
+      "robert-clive-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "Bengal becomes the fiscal base of empire",
+    "detail": "Control over Bengal's revenues helped fund Company expansion and tied colonial rule to systematic extraction, helping explain later crises including agrarian distress and famine.",
+    "sourceIds": [
+      "east-india-company-britannica",
+      "diwani-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

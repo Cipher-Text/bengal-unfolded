@@ -18,13 +18,15 @@
     "mangal-pandey-britannica"
   ],
   "importance": "major",
-  "parentEvent": "1757",
+  "parentEvent": "1765",
   "relatedEvents": [
     { "eventId": "1757", "relationType": "background" },
+    { "eventId": "1765", "relationType": "background" },
     { "eventId": "1947", "relationType": "legacy" }
   ],
   "relatedEventIds": [
     "1757",
+    "1765",
     "1947"
   ],
   "periodLabel": "Colonial Rule and Resistance",

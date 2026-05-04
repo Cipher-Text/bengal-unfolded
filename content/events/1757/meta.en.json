@@ -18,13 +18,15 @@
   ],
   "importance": "landmark",
   "childEventIds": [
-    "1857"
+    "1765"
   ],
   "relatedEvents": [
+    { "eventId": "1765", "relationType": "effect" },
     { "eventId": "1857", "relationType": "effect" },
     { "eventId": "1947", "relationType": "legacy" }
   ],
   "relatedEventIds": [
+    "1765",
     "1857",
     "1947"
   ],

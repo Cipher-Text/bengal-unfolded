@@ -52,6 +52,7 @@ const IMPORTANCE_LABELS: Record<Locale, Record<EventImportance, string>> = {
 
 const EVENT_THEME_BY_SLUG: Record<string, TimelineTheme[]> = {
   "1757": ["war", "economy"],
+  "1765": ["economy", "democracy"],
   "1857": ["war", "democracy"],
   "1906": ["democracy", "culture"],
   "1911": ["democracy", "culture"],
