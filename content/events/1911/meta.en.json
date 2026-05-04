@@ -19,6 +19,10 @@
   ],
   "importance": "high",
   "parentEvent": "1906",
+  "relatedEvents": [
+    { "eventId": "1906", "relationType": "background" },
+    { "eventId": "1947", "relationType": "legacy" }
+  ],
   "relatedEventIds": [
     "1906",
     "1947"

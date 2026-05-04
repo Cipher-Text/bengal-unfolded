@@ -10,6 +10,11 @@
   "whyItMatters": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
   "importance": "major",
   "parentEvent": "1966",
+  "relatedEvents": [
+    { "eventId": "1966", "relationType": "cause" },
+    { "eventId": "1971", "relationType": "effect" },
+    { "eventId": "1990", "relationType": "parallel" }
+  ],
   "relatedEventIds": [
     "1966",
     "1971",

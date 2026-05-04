@@ -18,6 +18,12 @@
   ],
   "importance": "landmark",
   "parentEvent": "1990",
+  "relatedEvents": [
+    { "eventId": "1952", "relationType": "legacy" },
+    { "eventId": "1990", "relationType": "background" },
+    { "eventId": "2006", "relationType": "contrast" },
+    { "eventId": "2013", "relationType": "parallel" }
+  ],
   "relatedEventIds": [
     "1952",
     "1990",

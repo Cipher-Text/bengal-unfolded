@@ -13,6 +13,11 @@
   "childEventIds": [
     "1969"
   ],
+  "relatedEvents": [
+    { "eventId": "1952", "relationType": "background" },
+    { "eventId": "1969", "relationType": "effect" },
+    { "eventId": "1971", "relationType": "legacy" }
+  ],
   "relatedEventIds": [
     "1952",
     "1969",

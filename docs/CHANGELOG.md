@@ -3,6 +3,13 @@
 ## 2026-05-04
 
 ### Completed
+- Typed event relationship rollout:
+  - Added typed `relatedEvents` support with `cause`, `effect`, `background`, `parallel`, `legacy`, and `contrast`.
+  - Added relationship validation for relation type, target slug integrity, and duplicate prevention.
+  - Added `getEventRelationships` in the content access layer.
+  - Added event-page relationship sections for historical causality, aftermath, parallel reading, legacy, background, and contrast.
+  - Backfilled typed relationships for landmark and key bridge chapters across EN/BN event metadata.
+  - Marked roadmap items RM-REL-001 and RM-REL-002 complete.
 - Timeline hierarchy and discovery rollout:
   - Added event hierarchy metadata fields across all event locale meta files:
     - `importance`

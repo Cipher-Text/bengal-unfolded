@@ -10,6 +10,7 @@ import {
   type BookId,
   type Creator,
   type EventContent,
+  type EventRelationType,
   type EventSlug,
   type EventResource,
   type EventMeta,
@@ -372,6 +373,44 @@ export async function getEventHierarchy(locale: string, currentSlug: string): Pr
   ]);
 
   return { parent, children, related };
+}
+
+export async function getEventRelationships(locale: string, currentSlug: string): Promise<Record<EventRelationType, EventMeta[]>> {
+  assertSupportedLocale(locale);
+  assertSupportedEventSlug(currentSlug);
+
+  const current = await getEventMeta(locale, currentSlug);
+  const grouped = {
+    cause: [] as EventSlug[],
+    effect: [] as EventSlug[],
+    background: [] as EventSlug[],
+    parallel: [] as EventSlug[],
+    legacy: [] as EventSlug[],
+    contrast: [] as EventSlug[],
+  };
+
+  if (Array.isArray(current.relatedEvents)) {
+    for (const relation of current.relatedEvents) {
+      if (relation.eventId === currentSlug) continue;
+      grouped[relation.relationType].push(relation.eventId);
+    }
+  } else if (Array.isArray(current.relatedEventIds)) {
+    grouped.parallel.push(...current.relatedEventIds.filter((slug): slug is EventSlug => slug !== currentSlug));
+  }
+
+  const resolve = async (slugs: EventSlug[]) =>
+    Promise.all(Array.from(new Set(slugs)).map((slug) => getEventMeta(locale, slug)));
+
+  const [cause, effect, background, parallel, legacy, contrast] = await Promise.all([
+    resolve(grouped.cause),
+    resolve(grouped.effect),
+    resolve(grouped.background),
+    resolve(grouped.parallel),
+    resolve(grouped.legacy),
+    resolve(grouped.contrast),
+  ]);
+
+  return { cause, effect, background, parallel, legacy, contrast };
 }
 
 export async function getPreviousAndNextEvents(

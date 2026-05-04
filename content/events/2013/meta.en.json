@@ -10,6 +10,11 @@
   "whyItMatters": "The Shahbag movement marked a major moment in contemporary Bangladesh, showing how public memory of 1971 could mobilize a new generation and reshape debate on justice, political legitimacy, and civic participation.",
   "importance": "high",
   "parentEvent": "1990",
+  "relatedEvents": [
+    { "eventId": "1971", "relationType": "background" },
+    { "eventId": "1990", "relationType": "background" },
+    { "eventId": "2024", "relationType": "parallel" }
+  ],
   "relatedEventIds": [
     "1971",
     "1990",

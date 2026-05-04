@@ -56,9 +56,18 @@ Static JSON now, adapter-based backend later.
 - `EventMeta.importance` (required): `landmark | major | high | medium | reference`
 - `EventMeta.parentEvent?` (optional): parent cluster anchor event slug
 - `EventMeta.childEventIds?` (optional): ordered child chapter slugs for cluster discovery
+- `EventMeta.relatedEvents?` (optional): ordered typed historical relationships with `{ eventId, relationType }`
 - `EventMeta.relatedEventIds?` (optional): ordered lateral chapter links for discovery
 - `EventMeta.periodLabel?` (optional): localized period/group label used by explorer grouping
 - `EventMeta.movementLabel?` (optional): localized movement/context label used by explorer and event pages
+
+`relationType` supports:
+- `cause`
+- `effect`
+- `background`
+- `parallel`
+- `legacy`
+- `contrast`
 
 `type` supports:
 - `judicial_event`

@@ -21,6 +21,13 @@
     "1952",
     "1971"
   ],
+  "relatedEvents": [
+    { "eventId": "1906", "relationType": "background" },
+    { "eventId": "1911", "relationType": "background" },
+    { "eventId": "1943", "relationType": "cause" },
+    { "eventId": "1952", "relationType": "effect" },
+    { "eventId": "1971", "relationType": "legacy" }
+  ],
   "relatedEventIds": [
     "1906",
     "1911",

@@ -46,6 +46,7 @@ async function main() {
   const allowedEvidenceLevel = new Set(["high", "medium", "low"]);
   const allowedThemes = new Set(["language", "democracy", "war", "culture", "economy"]);
   const allowedImportance = new Set(["landmark", "major", "high", "medium", "reference"]);
+  const allowedRelationTypes = new Set(["cause", "effect", "background", "parallel", "legacy", "contrast"]);
 
   for (const slug of eventSlugs) {
     const base = path.join(eventDir, slug);
@@ -111,6 +112,36 @@ async function main() {
             errors.push(`Duplicate ${relationField} entry '${eventId}' at content/events/${slug}/meta.${locale}.json`);
           }
           seen.add(eventId);
+        }
+      }
+      if ("relatedEvents" in meta && meta.relatedEvents !== undefined) {
+        if (!Array.isArray(meta.relatedEvents)) {
+          errors.push(`relatedEvents must be an array at content/events/${slug}/meta.${locale}.json`);
+        } else {
+          const seen = new Set();
+          for (const relation of meta.relatedEvents) {
+            if (!relation || typeof relation !== "object") {
+              errors.push(`Invalid relatedEvents entry at content/events/${slug}/meta.${locale}.json`);
+              continue;
+            }
+            const { eventId, relationType } = relation;
+            if (typeof eventId !== "string" || !eventSlugSet.has(eventId)) {
+              errors.push(`Invalid relatedEvents.eventId '${eventId}' at content/events/${slug}/meta.${locale}.json`);
+              continue;
+            }
+            if (eventId === slug) {
+              errors.push(`relatedEvents cannot self-reference at content/events/${slug}/meta.${locale}.json`);
+            }
+            if (typeof relationType !== "string" || !allowedRelationTypes.has(relationType)) {
+              errors.push(`Invalid relatedEvents.relationType '${relationType}' at content/events/${slug}/meta.${locale}.json`);
+              continue;
+            }
+            const key = `${relationType}:${eventId}`;
+            if (seen.has(key)) {
+              errors.push(`Duplicate relatedEvents entry '${key}' at content/events/${slug}/meta.${locale}.json`);
+            }
+            seen.add(key);
+          }
         }
       }
       const summaryIds = Array.isArray(meta.summarySourceIds) ? meta.summarySourceIds : [];

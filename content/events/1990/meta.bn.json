@@ -14,6 +14,12 @@
     "2013",
     "2024"
   ],
+  "relatedEvents": [
+    { "eventId": "1969", "relationType": "background" },
+    { "eventId": "1975", "relationType": "cause" },
+    { "eventId": "2024", "relationType": "legacy" },
+    { "eventId": "2006", "relationType": "contrast" }
+  ],
   "relatedEventIds": [
     "1969",
     "1975",

@@ -10,6 +10,11 @@
   "whyItMatters": "শাহবাগ আন্দোলন দেখিয়েছে ১৯৭১-এর স্মৃতি কীভাবে নতুন প্রজন্মকে রাজনৈতিকভাবে সক্রিয় করতে পারে এবং ন্যায়বিচার, বৈধতা ও নাগরিক অংশগ্রহণের প্রশ্নকে নতুনভাবে সামনে আনে।",
   "importance": "high",
   "parentEvent": "1990",
+  "relatedEvents": [
+    { "eventId": "1971", "relationType": "background" },
+    { "eventId": "1990", "relationType": "background" },
+    { "eventId": "2024", "relationType": "parallel" }
+  ],
   "relatedEventIds": [
     "1971",
     "1990",

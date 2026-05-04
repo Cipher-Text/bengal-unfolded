@@ -290,6 +290,11 @@ export type FigureId = (typeof SUPPORTED_FIGURE_IDS)[number];
 export type BookId = (typeof SUPPORTED_BOOK_IDS)[number];
 export type ResourceId = string;
 export type EventImportance = "landmark" | "major" | "high" | "medium" | "reference";
+export type EventRelationType = "cause" | "effect" | "background" | "parallel" | "legacy" | "contrast";
+export type EventRelation = {
+  eventId: EventSlug;
+  relationType: EventRelationType;
+};
 
 export type EventMeta = {
   slug: EventSlug;
@@ -308,6 +313,7 @@ export type EventMeta = {
   importance: EventImportance;
   parentEvent?: EventSlug;
   childEventIds?: EventSlug[];
+  relatedEvents?: EventRelation[];
   relatedEventIds?: EventSlug[];
   periodLabel?: string;
   movementLabel?: string;

@@ -19,6 +19,11 @@
   ],
   "importance": "high",
   "parentEvent": "1952",
+  "relatedEvents": [
+    { "eventId": "1952", "relationType": "background" },
+    { "eventId": "1958", "relationType": "parallel" },
+    { "eventId": "1966", "relationType": "effect" }
+  ],
   "relatedEventIds": [
     "1952",
     "1958",

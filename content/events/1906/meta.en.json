@@ -12,6 +12,10 @@
   "childEventIds": [
     "1911"
   ],
+  "relatedEvents": [
+    { "eventId": "1911", "relationType": "effect" },
+    { "eventId": "1947", "relationType": "legacy" }
+  ],
   "relatedEventIds": [
     "1911",
     "1947"

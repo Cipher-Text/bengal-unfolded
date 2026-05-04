@@ -145,8 +145,8 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 ### Relationship-first memory model
 
-- [ ] RM-REL-001 Cause/effect fields in event content model
-- [ ] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
+- [x] RM-REL-001 Cause/effect fields in event content model
+- [x] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
 - [ ] RM-REL-003 Event detail page relationship section
 - [ ] RM-REL-004 `Before this / After this` event navigation
 - [ ] RM-REL-005 `Why this matters` contextual explanation block
@@ -878,8 +878,8 @@ Recommended next sprint items:
 - [x] RM-005 Evidence metadata fields
 - [x] RM-006A Timeline importance levels
 - [x] RM-006D Parent-child event clustering
-- [ ] RM-REL-001 Cause/effect fields in event content model
-- [ ] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
+- [x] RM-REL-001 Cause/effect fields in event content model
+- [x] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
 - [ ] RM-VIS-001 Visual event cards with timeline, place, figures, and source indicators
 - [ ] RM-VIS-002 Cause -> event -> effect visual chain
 - [ ] RM-VIS-003 Before/after event navigation cards

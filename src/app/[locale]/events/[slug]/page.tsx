@@ -10,7 +10,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { QuoteBlock } from "@/components/QuoteBlock";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getEventContent, getEventHierarchy, getPreviousAndNextEvents } from "@/lib/content";
+import { getEventContent, getEventHierarchy, getEventRelationships, getPreviousAndNextEvents } from "@/lib/content";
 import { renderGlossaryLinkedText } from "@/lib/glossary-linking";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 import type { EventResource } from "@/types/content";
@@ -57,6 +57,12 @@ const EVENT_LABELS = {
     related: "Related chapters",
     importance: "Importance",
     movement: "Movement",
+    whatLedToThis: "What led to this",
+    whatFollowed: "What followed",
+    readInParallel: "Read in parallel",
+    longTermLegacy: "Long-term legacy",
+    background: "Background chapters",
+    contrast: "Useful contrasts",
   },
   bn: {
     overview: "ইভেন্ট ওভারভিউ",
@@ -81,6 +87,12 @@ const EVENT_LABELS = {
     related: "সম্পর্কিত অধ্যায়",
     importance: "গুরুত্ব",
     movement: "ধারা",
+    whatLedToThis: "কীভাবে এখানে পৌঁছাল",
+    whatFollowed: "এর পরে কী হলো",
+    readInParallel: "পাশাপাশি পড়ুন",
+    longTermLegacy: "দীর্ঘমেয়াদি উত্তরাধিকার",
+    background: "পটভূমির অধ্যায়",
+    contrast: "তুলনামূলক অধ্যায়",
   },
 } as const;
 
@@ -105,10 +117,11 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) notFound();
 
-  const [event, { previous, next }, hierarchy] = await Promise.all([
+  const [event, { previous, next }, hierarchy, relationships] = await Promise.all([
     getEventContent(locale, slug),
     getPreviousAndNextEvents(locale, slug),
     getEventHierarchy(locale, slug),
+    getEventRelationships(locale, slug),
   ]);
   const featuredFigures = event.figures.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
@@ -161,6 +174,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
     url: `https://bengalunfolded.com/${locale}/events/${slug}`,
     organizer: { "@type": "Organization", name: SITE_NAME, url: "https://bengalunfolded.com" },
   };
+  const relationGroups = [
+    { key: "cause", title: labels.whatLedToThis, items: relationships.cause },
+    { key: "effect", title: labels.whatFollowed, items: relationships.effect },
+    { key: "parallel", title: labels.readInParallel, items: relationships.parallel },
+    { key: "legacy", title: labels.longTermLegacy, items: relationships.legacy },
+    { key: "background", title: labels.background, items: relationships.background },
+    { key: "contrast", title: labels.contrast, items: relationships.contrast },
+  ].filter((group) => group.items.length > 0);
 
   return (
     <div className="space-y-10">
@@ -239,6 +260,30 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
                   </div>
                 ) : <p className="theme-muted mt-3 text-sm">{locale === "bn" ? "এখনও কোনো সম্পর্কিত অধ্যায় যোগ করা হয়নি।" : "No related chapters have been linked yet."}</p>}
               </div>
+            </div>
+          </section>
+        </AnimatedContainer>
+      ) : null}
+
+      {relationGroups.length ? (
+        <AnimatedContainer delay={0.045}>
+          <section className="scroll-mt-24">
+            <SectionTitle title={locale === "bn" ? "ঐতিহাসিক সম্পর্ক" : "Historical Relationships"} />
+            <div className="mt-4 grid gap-4 lg:grid-cols-2 xl:grid-cols-3">
+              {relationGroups.map((group) => (
+                <div key={group.key} className="theme-surface rounded-2xl border p-4">
+                  <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{group.title}</h3>
+                  <div className="mt-3 space-y-2">
+                    {group.items.map((relatedEvent) => (
+                      <Link key={`${group.key}-${relatedEvent.slug}`} href={`/${locale}/events/${relatedEvent.slug}`} className="block rounded-xl border border-amber-500/30 p-3 hover:bg-amber-500/5">
+                        <p className="theme-muted text-xs tracking-[0.2em] uppercase">{relatedEvent.year}</p>
+                        <p className="mt-1 font-semibold">{relatedEvent.title}</p>
+                        <p className="theme-muted mt-1 text-sm">{relatedEvent.summary}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </section>
         </AnimatedContainer>
