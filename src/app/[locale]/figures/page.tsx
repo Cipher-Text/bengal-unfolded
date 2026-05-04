@@ -57,7 +57,7 @@ export default async function FiguresListPage({
   return (
     <div className="space-y-8">
       <HeroSection
-        title={locale === "bn" ? "সকল ব্যক্তিত্ব ও ঐতিহাসিক অভিনেতা" : "All Figures & Historical Actors"}
+        title={locale === "bn" ? "সকল মূল ব্যক্তিত্ব" : "All Key Figures"}
         tagline={locale === "bn" ? "অবদান, প্রেক্ষাপট ও প্রভাবভিত্তিক ডিরেক্টরি" : "A contribution-first, context-rich directory"}
         intro={locale === "bn" ? "প্রতিটি প্রোফাইলে কী করেছেন, কোথায় করেছেন, কেন গুরুত্বপূর্ণ—এই তিন স্তরে উপস্থাপন করা হয়েছে।" : "Each profile is structured by what they did, where it mattered, and why it shaped history."}
       />

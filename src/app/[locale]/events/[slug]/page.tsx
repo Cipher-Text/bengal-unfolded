@@ -35,10 +35,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 const EVENT_LABELS = {
   en: {
-    overview: "Event Overview",
+    overview: "Overview",
     overviewSources: "Overview Sources",
-    timeline: "Interactive Timeline",
-    figures: "Figures / Historical Actors",
+    timeline: "Timeline",
+    figures: "Key Figures",
     seeFullList: "See full list",
     resourcesTitle: "Resources by Category",
     resourcesSubtitle: "Browse resources by subcategory",
@@ -65,10 +65,10 @@ const EVENT_LABELS = {
     contrast: "Useful contrasts",
   },
   bn: {
-    overview: "ইভেন্ট ওভারভিউ",
+    overview: "ওভারভিউ",
     overviewSources: "ওভারভিউ-এর সূত্র",
-    timeline: "ইন্টারঅ্যাক্টিভ টাইমলাইন",
-    figures: "ব্যক্তিত্ব ও ঐতিহাসিক অভিনেতা",
+    timeline: "টাইমলাইন",
+    figures: "মূল ব্যক্তিত্ব",
     seeFullList: "পূর্ণ তালিকা দেখুন",
     resourcesTitle: "ক্যাটাগরি অনুযায়ী রিসোর্স",
     resourcesSubtitle: "সাব-ক্যাটাগরি অনুযায়ী রিসোর্স ব্রাউজ করুন",
