@@ -2,6 +2,10 @@
 
 Static JSON now, adapter-based backend later.
 
+Contract companion docs:
+- `docs/AI_CONTRACT.md`
+- `docs/EDITORIAL_RULES.md`
+
 ## Core types
 - `HomeContent`
 - `EventMeta`

@@ -45,6 +45,12 @@
   - Marked RM-001 as complete with full-coverage note.
   - Marked RM-REL-003 as complete (event detail relationship section already shipped).
   - Marked RM-REL-004 as complete (localized Before this / After this navigation on event pages).
+- Multi-agent AI integration governance:
+  - Added `docs/AI_CONTRACT.md` as the canonical cross-agent schema/validation/change protocol.
+  - Added `docs/EDITORIAL_RULES.md` for source policy, neutrality, and localization parity standards.
+  - Updated `AGENTS.md` with mandatory contract-following and validator-gated schema-change rules.
+  - Updated `docs/ROADMAP.md` with AI integration completion criteria for roadmap item closure.
+  - Linked contract docs from `docs/CONTENT_MODEL.md`.
 - Source quality badges groundwork (RM-002 foundation):
   - Added `EventResource.quality` support (`primary`, `secondary`, `archive`, `editorial`) in model + content normalization.
   - Added quality badge rendering in resource cards and timeline source chips.

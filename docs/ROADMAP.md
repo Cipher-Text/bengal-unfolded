@@ -44,6 +44,17 @@ Cultural knowledge platform
 - `[x]` Done
 - `[ ]` Future
 
+## AI Integration Completion Criteria
+
+For consistency across Codex, Claude, Gemini, OpenCode, and other agents, roadmap items that touch content/features should be considered complete only when:
+
+- model/type changes are updated (`src/types/content.ts`)
+- validation rules are updated (`scripts/validate-content.mjs`)
+- UI/runtime integration is implemented where relevant
+- EN/BN content backfill is completed where relevant
+- docs are updated (`docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, `docs/EDITORIAL_RULES.md`)
+- changelog entry is added with model/validation/UI/backfill notes
+
 ---
 
 ## Strategic Direction
