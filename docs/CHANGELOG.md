@@ -43,6 +43,8 @@
 - Roadmap synchronization:
   - Marked RM-006B as complete.
   - Marked RM-001 as complete with full-coverage note.
+  - Marked RM-REL-003 as complete (event detail relationship section already shipped).
+  - Marked RM-REL-004 as complete (localized Before this / After this navigation on event pages).
 - Source quality badges groundwork (RM-002 foundation):
   - Added `EventResource.quality` support (`primary`, `secondary`, `archive`, `editorial`) in model + content normalization.
   - Added quality badge rendering in resource cards and timeline source chips.

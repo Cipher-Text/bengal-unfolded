@@ -147,8 +147,8 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 - [x] RM-REL-001 Cause/effect fields in event content model
 - [x] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
-- [ ] RM-REL-003 Event detail page relationship section
-- [ ] RM-REL-004 `Before this / After this` event navigation
+- [x] RM-REL-003 Event detail page relationship section
+- [x] RM-REL-004 `Before this / After this` event navigation
 - [ ] RM-REL-005 `Why this matters` contextual explanation block
 - [ ] RM-REL-006 Period-to-event linking
 - [ ] RM-REL-007 Movement/theme-to-event linking
