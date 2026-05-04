@@ -28,6 +28,7 @@ const HOMEPAGE_LANDMARK_LIMIT = 15;
 const EVENT_THEME_BY_SLUG: Record<string, TimelineTheme[]> = {
   "1757": ["war", "economy"],
   "1765": ["economy", "democracy"],
+  "1793": ["economy", "democracy"],
   "1857": ["war", "democracy"],
   "1906": ["democracy", "culture"],
   "1911": ["democracy", "culture"],
@@ -79,8 +80,8 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
     .slice(0, HOMEPAGE_LANDMARK_LIMIT);
 
   const phaseBySlug: Record<string, string> = locale === "bn"
-    ? { "1757": "পলাশী", "1765": "দেওয়ানি", "1857": "বিদ্রোহ", "1947": "বিভাজন", "1952": "ভাষা", "1969": "অভ্যুত্থান", "1971": "স্বাধীনতা", "1975": "বাকশাল", "1990": "গণতন্ত্র", "2006": "তত্ত্বাবধায়ক সংকট", "2024": "ন্যায্যতা" }
-    : { "1757": "Plassey", "1765": "Diwani", "1857": "Revolt", "1947": "Partition", "1952": "Language", "1969": "Uprising", "1971": "Liberation", "1975": "BAKSAL", "1990": "Democracy", "2006": "Caretaker Crisis", "2024": "Justice" };
+    ? { "1757": "পলাশী", "1765": "দেওয়ানি", "1793": "বন্দোবস্ত", "1857": "বিদ্রোহ", "1947": "বিভাজন", "1952": "ভাষা", "1969": "অভ্যুত্থান", "1971": "স্বাধীনতা", "1975": "বাকশাল", "1990": "গণতন্ত্র", "2006": "তত্ত্বাবধায়ক সংকট", "2024": "ন্যায্যতা" }
+    : { "1757": "Plassey", "1765": "Diwani", "1793": "Settlement", "1857": "Revolt", "1947": "Partition", "1952": "Language", "1969": "Uprising", "1971": "Liberation", "1975": "BAKSAL", "1990": "Democracy", "2006": "Caretaker Crisis", "2024": "Justice" };
 
   const timelineItems = landingEvents.map((event) => ({
     year: event.year,

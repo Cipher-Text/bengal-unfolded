@@ -1,0 +1,67 @@
+[
+  {
+    "year": "1790-1793",
+    "title": "Revenue experiments lead toward a permanent arrangement",
+    "detail": "Company administrators moved from temporary and decennial experiments toward a fixed land-revenue framework in Bengal.",
+    "sourceIds": [
+      "permanent-settlement-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "May 1, 1793",
+    "title": "Cornwallis regulations codify the Bengal system",
+    "detail": "The 1793 regulations gave legal form to the administrative framework later known as the Cornwallis Code, including the permanent revenue settlement.",
+    "sourceIds": [
+      "cornwallis-code-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  },
+  {
+    "year": "1793",
+    "title": "Zamindars are recognized as permanent proprietors",
+    "detail": "The settlement fixed state demand permanently and treated zamindars and talukdars as proprietors so long as they paid revenue punctually.",
+    "sourceIds": [
+      "permanent-settlement-banglapedia",
+      "cornwallis-code-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "1793 onward",
+    "title": "Cultivators lose ground within the new order",
+    "detail": "Raiyats did not receive equivalent security. Landlord power over rent and eviction increased, shifting agrarian authority away from customary protections.",
+    "sourceIds": [
+      "permanent-settlement-banglapedia",
+      "revenue-sale-law-1793-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "A colonial landed order takes shape",
+    "detail": "Permanent Settlement bound Bengal's agrarian structure to landlordism, auction sales, and fixed state revenue, leaving deep marks on rural society and later political economy.",
+    "sourceIds": [
+      "permanent-settlement-banglapedia",
+      "cornwallis-code-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

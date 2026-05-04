@@ -20,15 +20,17 @@
   "importance": "major",
   "parentEvent": "1757",
   "childEventIds": [
-    "1857"
+    "1793"
   ],
   "relatedEvents": [
     { "eventId": "1757", "relationType": "cause" },
+    { "eventId": "1793", "relationType": "effect" },
     { "eventId": "1857", "relationType": "legacy" },
     { "eventId": "1943", "relationType": "legacy" }
   ],
   "relatedEventIds": [
     "1757",
+    "1793",
     "1857",
     "1943"
   ],

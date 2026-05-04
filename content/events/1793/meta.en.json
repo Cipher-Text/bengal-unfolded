@@ -1,0 +1,40 @@
+{
+  "slug": "1793",
+  "year": "1793",
+  "title": "Permanent Settlement in Bengal",
+  "subtitle": "Land revenue is fixed permanently and zamindars are recast as landed proprietors.",
+  "summary": "In 1793, the East India Company introduced the Permanent Settlement in Bengal. Revenue demand was fixed permanently, and zamindars and talukdars were recognized as hereditary proprietors under colonial law. The measure aimed to stabilize revenue and bind local landed elites to Company rule, but it also deepened agrarian inequality and weakened the customary position of cultivators.",
+  "themeColor": "#6b5436",
+  "ctaLabel": "Explore 1793",
+  "heroTagline": "Permanent Settlement turned revenue administration into a long-term social order built around landlord power and colonial certainty.",
+  "summarySourceIds": [
+    "permanent-settlement-banglapedia",
+    "cornwallis-code-britannica"
+  ],
+  "whyItMatters": "Permanent Settlement matters because it helps explain how colonial rule in Bengal became embedded in land, class power, and extraction. Its effects shaped peasant life, landlord authority, and the agrarian tensions that echoed into later famines, resistance, and political change.",
+  "whyItMattersSourceIds": [
+    "permanent-settlement-banglapedia",
+    "revenue-sale-law-1793-banglapedia",
+    "cornwallis-code-britannica"
+  ],
+  "importance": "major",
+  "parentEvent": "1765",
+  "childEventIds": [
+    "1857"
+  ],
+  "relatedEvents": [
+    { "eventId": "1765", "relationType": "cause" },
+    { "eventId": "1857", "relationType": "legacy" },
+    { "eventId": "1943", "relationType": "legacy" }
+  ],
+  "relatedEventIds": [
+    "1765",
+    "1857",
+    "1943"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
+}
