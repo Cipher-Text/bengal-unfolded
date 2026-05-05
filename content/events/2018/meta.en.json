@@ -1,0 +1,48 @@
+{
+  "slug": "2018",
+  "year": "2018",
+  "title": "A Year of Protest, Control, and Contested Legitimacy",
+  "subtitle": "Student mobilizations, digital restrictions, and a disputed election reshaped the political meaning of 2018 in Bangladesh.",
+  "summary": "In 2018, Bangladesh saw a compressed sequence of youth-led protest, legislative tightening, and electoral confrontation. The Quota Reform Movement and Safe Road Movement showed how students could rapidly organize around fairness, accountability, and everyday governance. The Digital Security Act then sharpened anxiety over speech and state power, while the 11th Parliamentary Election at the end of the year deepened debate over participation, legitimacy, and the future of democratic competition.",
+  "themeColor": "#8b1e3f",
+  "ctaLabel": "Explore the year",
+  "heroTagline": "2018 became a year when civic energy and state control collided in multiple arenas at once.",
+  "whyItMatters": "The 2018 cluster matters because it helps explain the political mood that shaped the years before 2024. It connected student dissent, questions of public safety and merit, tighter digital control, and a widening crisis of electoral trust into one larger story about power, participation, and the shrinking space for dissent.",
+  "importance": "major",
+  "parentEvent": "1990",
+  "childEventIds": [
+    "2018-quota-reform",
+    "2018-safe-road",
+    "2018-digital-security-act",
+    "2018-election"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "2014",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2014",
+    "2024"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "creating-panic-hrw",
+    "digital-security-act-amnesty"
+  ],
+  "whyItMattersSourceIds": [
+    "creating-panic-hrw",
+    "digital-security-act-amnesty"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "year": "17 Feb 2018",
+    "title": "Quota reform protest begins",
+    "detail": "Students launched a coordinated protest demanding changes to the quota structure in government recruitment.",
+    "sourceIds": [
+      "archive-collection",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "Apr 2018",
+    "title": "The movement spreads across universities",
+    "detail": "Mobilization rapidly expanded beyond Dhaka, turning the quota issue into a countrywide student-led civic campaign.",
+    "sourceIds": [
+      "archive-collection",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Apr-Jul 2018",
+    "title": "Crackdowns, arrests, and attacks sharpen the conflict",
+    "detail": "Participants faced police action, arrests, and assaults by pro-government actors, deepening the movement's significance beyond policy reform alone.",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Oct 2018",
+    "title": "Quota policy is formally revised",
+    "detail": "The movement's pressure contributed to a formal government shift on quotas for major public-service recruitment tracks later in the year.",
+    "sourceIds": [
+      "archive-collection",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

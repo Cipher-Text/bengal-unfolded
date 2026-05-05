@@ -1,0 +1,42 @@
+{
+  "slug": "2018-digital-security-act",
+  "year": "2018",
+  "title": "Digital Security Act Enacted",
+  "subtitle": "The new law became a major reference point in debates over speech, journalism, and state power online.",
+  "summary": "The Digital Security Act was enacted in October 2018 and quickly became central to debate about freedom of expression in Bangladesh. Critics argued that its vague provisions, broad police powers, and speech-related penalties could be used to intimidate journalists, silence dissent, and extend state control over digital space.",
+  "themeColor": "#374151",
+  "ctaLabel": "Examine the law",
+  "heroTagline": "The law made digital rights a core political issue rather than a narrow technical one.",
+  "whyItMatters": "The Digital Security Act matters because it tied digital expression directly to the politics of fear, censorship, and state authority. It shaped the environment for journalists, activists, and online critics for years and became a major background condition for later struggles over civic and political speech before its eventual replacement by the Cyber Security Act in 2023.",
+  "importance": "high",
+  "parentEvent": "2018",
+  "relatedEvents": [
+    {
+      "eventId": "2018-election",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2018-election",
+    "2024"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "digital-security-act-amnesty",
+    "muzzling-dissent-online-amnesty"
+  ],
+  "whyItMattersSourceIds": [
+    "digital-security-act-amnesty",
+    "muzzling-dissent-online-amnesty"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent"
+}

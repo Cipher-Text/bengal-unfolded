@@ -1,0 +1,57 @@
+[
+  {
+    "year": "Apr-Sep 2018",
+    "title": "The proposed law draws sustained criticism",
+    "detail": "Journalists, editors, and rights advocates warned that the proposed bill could entrench censorship and broad punitive powers over digital expression.",
+    "sourceIds": [
+      "digital-security-act-amnesty",
+      "muzzling-dissent-online-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "8 Oct 2018",
+    "title": "Digital Security Act is enacted",
+    "detail": "Parliament adopted the law, giving the state a new legal framework for regulating online speech and digital conduct.",
+    "sourceIds": [
+      "digital-security-act-amnesty",
+      "muzzling-dissent-online-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Late 2018",
+    "title": "The law becomes central to digital-rights debate",
+    "detail": "Public concern focused on vague offences, warrantless enforcement powers, and the law's potential use against journalists, dissidents, and ordinary users.",
+    "sourceIds": [
+      "muzzling-dissent-online-amnesty",
+      "digital-security-act-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "Long-term legacy",
+    "title": "Its effects continue until replacement by the Cyber Security Act 2023",
+    "detail": "The law remained a major reference point in debate over digital repression and was later replaced, but not fully politically forgotten, in 2023.",
+    "sourceIds": [
+      "muzzling-dissent-online-amnesty",
+      "digital-security-act-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  }
+]

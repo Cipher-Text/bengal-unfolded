@@ -1,0 +1,42 @@
+{
+  "slug": "2018-safe-road",
+  "year": "2018",
+  "title": "Safe Road Movement",
+  "subtitle": "School and college students transformed grief over road deaths into a national demand for transport accountability.",
+  "summary": "After two students were killed by a speeding bus in Dhaka on 29 July 2018, school and college students took to the streets demanding safer roads, lawful driving, and accountability in the transport sector. Their disciplined visibility, direct traffic monitoring, and nationwide resonance turned the movement into one of the year's most memorable youth-led civic moments.",
+  "themeColor": "#2563eb",
+  "ctaLabel": "See the protest",
+  "heroTagline": "The call for safe roads became a public lesson in how children and teenagers could challenge state neglect.",
+  "whyItMatters": "The Safe Road Movement matters because it broadened the meaning of protest in Bangladesh. It linked everyday safety to questions of governance, discipline, policing, and civic dignity, and it exposed how quickly a moral public demand could meet repression.",
+  "importance": "high",
+  "parentEvent": "2018",
+  "relatedEvents": [
+    {
+      "eventId": "2018-quota-reform",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2018-quota-reform",
+    "2024"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "safe-road-protests-hrw",
+    "archive-collection"
+  ],
+  "whyItMattersSourceIds": [
+    "safe-road-protests-hrw",
+    "creating-panic-hrw"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent"
+}

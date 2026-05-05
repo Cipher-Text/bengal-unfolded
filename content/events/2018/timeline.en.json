@@ -1,0 +1,70 @@
+[
+  {
+    "year": "2018",
+    "title": "Student-led protest returns to the center of national politics",
+    "detail": "Across the year, campus-based mobilizations and public confrontation over rights, safety, and representation made youth politics central to the national conversation.",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "17 Feb-Jul 2018",
+    "title": "Quota Reform Movement spreads across universities",
+    "detail": "Students mobilized around the demand to reform state job quotas, turning merit, fairness, and access to public employment into a major civic issue.",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  },
+  {
+    "year": "29 Jul-10 Aug 2018",
+    "title": "Safe Road Movement expands from grief into nationwide protest",
+    "detail": "After two students were killed by a bus in Dhaka, school and college students transformed anger over road deaths into a broad demand for transport accountability.",
+    "sourceIds": [
+      "safe-road-protests-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "8 Oct 2018",
+    "title": "Digital Security Act is enacted",
+    "detail": "The new law intensified concerns over speech, journalism, online expression, and the state's power to monitor and prosecute digital activity.",
+    "sourceIds": [
+      "digital-security-act-amnesty",
+      "muzzling-dissent-online-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "30 Dec 2018",
+    "title": "11th Parliamentary Election ends the year in deep controversy",
+    "detail": "The Awami League won overwhelmingly, but opposition parties and rights observers raised serious concerns about the pre-election climate, violence, and credibility of the process.",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "election-guide-bangladesh-2018"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

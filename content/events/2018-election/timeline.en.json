@@ -1,0 +1,55 @@
+[
+  {
+    "year": "2018",
+    "title": "Opposition candidates and critics face pressure before the vote",
+    "detail": "The pre-election period was marked by arrests, intimidation, and violence that narrowed opposition space and raised concern about whether competition would be meaningfully free.",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "30 Dec 2018",
+    "title": "Voting takes place for the 11th Parliamentary Election",
+    "detail": "Bangladesh held national elections for 300 directly elected parliamentary seats.",
+    "sourceIds": [
+      "election-guide-bangladesh-2018",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "30-31 Dec 2018",
+    "title": "Awami League wins a landslide victory",
+    "detail": "The ruling alliance secured an overwhelming majority, while opposition parties rejected the result and alleged major irregularities.",
+    "sourceIds": [
+      "election-guide-bangladesh-2018",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "After the vote",
+    "title": "The election becomes a reference point for democratic backsliding",
+    "detail": "The controversy surrounding the vote hardened long-term debate about legitimacy, civic freedom, and the narrowing of competitive politics.",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "election-guide-bangladesh-2018"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

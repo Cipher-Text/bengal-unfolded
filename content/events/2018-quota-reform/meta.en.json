@@ -1,0 +1,42 @@
+{
+  "slug": "2018-quota-reform",
+  "year": "2018",
+  "title": "Quota Reform Movement",
+  "subtitle": "Students turned government job quotas into a major national debate over fairness and merit.",
+  "summary": "Beginning on 17 February 2018 and peaking in the spring and summer, the Quota Reform Movement brought university students into a large, coordinated campaign over access to public employment. What began as a policy demand about recruitment rules expanded into a wider youth-led mobilization about fairness, opportunity, policing, and the treatment of dissent.",
+  "themeColor": "#b45309",
+  "ctaLabel": "Follow the movement",
+  "heroTagline": "The quota question became a wider struggle over merit, dignity, and how the state responds to youth protest.",
+  "whyItMatters": "The Quota Reform Movement matters because it showed the organizing power of a new generation before 2024. It transformed a technical policy issue into a national question of equity and public legitimacy, and it became an important precursor to later youth mobilizations.",
+  "importance": "high",
+  "parentEvent": "2018",
+  "relatedEvents": [
+    {
+      "eventId": "2018-safe-road",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2018-safe-road",
+    "2024"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "creating-panic-hrw",
+    "archive-collection"
+  ],
+  "whyItMattersSourceIds": [
+    "creating-panic-hrw",
+    "archive-collection"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent"
+}

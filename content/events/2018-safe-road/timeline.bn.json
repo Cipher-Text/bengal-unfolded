@@ -1,0 +1,57 @@
+[
+  {
+    "year": "২৯ জুলাই ২০১৮",
+    "title": "ঢাকায় বাসচাপায় দুই শিক্ষার্থী নিহত হয়",
+    "detail": "এই মৃত্যু বিশেষ করে স্কুল ও কলেজপড়ুয়া শিক্ষার্থীদের মধ্যে তাৎক্ষণিক শোক ও ক্ষোভ তৈরি করে।",
+    "sourceIds": [
+      "safe-road-protests-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "জুলাইয়ের শেষ-আগস্টের শুরু ২০১৮",
+    "title": "শিক্ষার্থীরা সড়ক নিয়ন্ত্রণে নিয়ে জবাবদিহি দাবি করে",
+    "detail": "প্রতিবাদকারীরা লাইসেন্স পরীক্ষা করে, রাস্তা অবরোধ করে, এবং পরিবহন সংস্কারের দাবি তোলে; এতে সড়ক নিরাপত্তা বড় নাগরিক ইস্যুতে পরিণত হয়।",
+    "sourceIds": [
+      "safe-road-protests-hrw",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "আগস্টের শুরু ২০১৮",
+    "title": "শিক্ষার্থী, সাংবাদিক ও সমালোচকদের ওপর হামলা বাড়ে",
+    "detail": "নিরাপত্তা বাহিনী ও সরকারপন্থী শক্তির বিরুদ্ধে প্রতিবাদকারী, অধিকারকর্মী ও ঘটনার তথ্যপ্রকাশকারীদের মারধর ও টার্গেট করার অভিযোগ ওঠে।",
+    "sourceIds": [
+      "safe-road-protests-hrw",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "১০ আগস্ট ২০১৮",
+    "title": "আন্দোলন স্তিমিত হলেও স্মৃতি দীর্ঘস্থায়ী হয়",
+    "detail": "রাস্তা খালি হয়ে গেলেও আন্দোলনটি শৃঙ্খলাপূর্ণ তরুণ প্রতিবাদ ও জনজবাবদিহির ভঙ্গুরতার এক শক্তিশালী প্রতীকে পরিণত হয়।",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  }
+]

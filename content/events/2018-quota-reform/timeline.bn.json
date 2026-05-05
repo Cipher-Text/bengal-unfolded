@@ -1,0 +1,56 @@
+[
+  {
+    "year": "১৭ ফেব্রুয়ারি ২০১৮",
+    "title": "কোটা সংস্কারের আন্দোলন শুরু হয়",
+    "detail": "রাষ্ট্রীয় চাকরির নিয়োগে কোটা কাঠামো পরিবর্তনের দাবিতে শিক্ষার্থীরা সমন্বিত আন্দোলন শুরু করে।",
+    "sourceIds": [
+      "archive-collection",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "এপ্রিল ২০১৮",
+    "title": "আন্দোলন বিশ্ববিদ্যালয়জুড়ে ছড়িয়ে পড়ে",
+    "detail": "ঢাকার বাইরে দ্রুত ছড়িয়ে পড়ে এই আন্দোলন, এবং কোটা প্রশ্ন দেশব্যাপী শিক্ষার্থী-নেতৃত্বাধীন নাগরিক দাবিতে পরিণত হয়।",
+    "sourceIds": [
+      "archive-collection",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "এপ্রিল-জুলাই ২০১৮",
+    "title": "দমন, গ্রেপ্তার ও হামলায় সংঘাত আরও তীব্র হয়",
+    "detail": "অংশগ্রহণকারীরা পুলিশি পদক্ষেপ, গ্রেপ্তার এবং সরকারপন্থী হামলার মুখে পড়ে; এতে এই আন্দোলন কেবল নীতিগত দাবির বাইরে বড় তাৎপর্য পায়।",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "অক্টোবর ২০১৮",
+    "title": "কোটা নীতিতে আনুষ্ঠানিক পরিবর্তন আসে",
+    "detail": "বছরের পরে প্রধান সরকারি নিয়োগ কাঠামোয় কোটা পরিবর্তনের সিদ্ধান্তে এই আন্দোলনের চাপ গুরুত্বপূর্ণ ভূমিকা রাখে।",
+    "sourceIds": [
+      "archive-collection",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "slug": "2018-quota-reform",
+  "year": "২০১৮",
+  "title": "কোটা সংস্কার আন্দোলন",
+  "subtitle": "রাষ্ট্রীয় চাকরির কোটা প্রশ্নকে শিক্ষার্থীরা ন্যায় ও মেধার জাতীয় বিতর্কে পরিণত করে।",
+  "summary": "২০১৮ সালের ১৭ ফেব্রুয়ারি থেকে শুরু হয়ে বসন্ত ও গ্রীষ্মে তীব্র হওয়া কোটা সংস্কার আন্দোলন বিশ্ববিদ্যালয়পড়ুয়া শিক্ষার্থীদের একটি সমন্বিত গণআন্দোলনে যুক্ত করে। নিয়োগনীতির একটি দাবি থেকে শুরু হওয়া এই আন্দোলন পরে ন্যায্যতা, সুযোগ, পুলিশি আচরণ এবং ভিন্নমত দমনের প্রশ্নেও বিস্তৃত হয়।",
+  "themeColor": "#b45309",
+  "ctaLabel": "আন্দোলনের পথ দেখুন",
+  "heroTagline": "কোটার প্রশ্ন একসময় মেধা, মর্যাদা ও তরুণদের প্রতিবাদে রাষ্ট্রের প্রতিক্রিয়া নিয়ে বড় সংগ্রামে পরিণত হয়।",
+  "whyItMatters": "কোটা সংস্কার আন্দোলন গুরুত্বপূর্ণ, কারণ এটি ২০২৪-এর আগেই নতুন প্রজন্মের সংগঠনী শক্তি দেখিয়ে দেয়। এটি একটি নীতিগত দাবিকে ন্যায্যতা ও জনআস্থার জাতীয় প্রশ্নে পরিণত করে এবং পরবর্তী তরুণ-নেতৃত্বাধীন আন্দোলনের পূর্বসূরি হয়ে ওঠে।",
+  "importance": "high",
+  "parentEvent": "2018",
+  "relatedEvents": [
+    {
+      "eventId": "2018-safe-road",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2018-safe-road",
+    "2024"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "creating-panic-hrw",
+    "archive-collection"
+  ],
+  "whyItMattersSourceIds": [
+    "creating-panic-hrw",
+    "archive-collection"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent"
+}

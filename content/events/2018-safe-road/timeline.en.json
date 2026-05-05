@@ -1,0 +1,57 @@
+[
+  {
+    "year": "29 Jul 2018",
+    "title": "Two students are killed by a bus in Dhaka",
+    "detail": "The deaths triggered immediate public grief and anger, especially among school and college students.",
+    "sourceIds": [
+      "safe-road-protests-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "Late Jul-Early Aug 2018",
+    "title": "Students occupy roads and demand accountability",
+    "detail": "Protesters checked licenses, blocked roads, and demanded transport reform, turning road safety into a wider civic issue.",
+    "sourceIds": [
+      "safe-road-protests-hrw",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "Early Aug 2018",
+    "title": "Attacks on students, journalists, and critics intensify",
+    "detail": "Security forces and pro-government actors were accused of beating protesters and targeting activists and reporters documenting the abuse.",
+    "sourceIds": [
+      "safe-road-protests-hrw",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "10 Aug 2018",
+    "title": "The movement recedes but leaves a durable public memory",
+    "detail": "Even after the streets cleared, the movement remained a defining symbol of disciplined youth protest and the fragility of public accountability.",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  }
+]

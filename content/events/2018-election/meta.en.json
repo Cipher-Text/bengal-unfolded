@@ -1,0 +1,47 @@
+{
+  "slug": "2018-election",
+  "year": "2018",
+  "title": "11th Parliamentary Election",
+  "subtitle": "An overwhelming ruling-party victory was shadowed by deep dispute over the pre-election environment and the credibility of the vote.",
+  "summary": "The 11th Parliamentary Election was held on 30 December 2018 and returned the Awami League to power with a very large majority. Opposition parties rejected the result and alleged widespread irregularities, while rights groups and observers raised serious concerns about the pre-election crackdown, violence, arrests, and the overall climate in which the vote took place.",
+  "themeColor": "#991b1b",
+  "ctaLabel": "Review the election",
+  "heroTagline": "The election result was decisive on paper, but its legitimacy remained a matter of fierce public dispute.",
+  "whyItMatters": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+  "importance": "major",
+  "parentEvent": "2018",
+  "relatedEvents": [
+    {
+      "eventId": "2014",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2018-digital-security-act",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2014",
+    "2018-digital-security-act",
+    "2024"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "creating-panic-hrw",
+    "election-guide-bangladesh-2018"
+  ],
+  "whyItMattersSourceIds": [
+    "creating-panic-hrw",
+    "election-guide-bangladesh-2018"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent"
+}

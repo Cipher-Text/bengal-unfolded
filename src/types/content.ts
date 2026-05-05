@@ -30,6 +30,11 @@ export const SUPPORTED_EVENT_SLUGS = [
   "2009",
   "2013",
   "2014",
+  "2018",
+  "2018-quota-reform",
+  "2018-safe-road",
+  "2018-digital-security-act",
+  "2018-election",
   "2024",
 ] as const;
 export const SUPPORTED_FIGURE_IDS = [

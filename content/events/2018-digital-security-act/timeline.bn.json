@@ -1,0 +1,57 @@
+[
+  {
+    "year": "এপ্রিল-সেপ্টেম্বর ২০১৮",
+    "title": "প্রস্তাবিত আইনটি নিয়ে ধারাবাহিক সমালোচনা শুরু হয়",
+    "detail": "সাংবাদিক, সম্পাদক ও অধিকারকর্মীরা সতর্ক করেন যে প্রস্তাবিত বিলটি সেন্সরশিপ ও ডিজিটাল মতপ্রকাশের ওপর বিস্তৃত দমনমূলক ক্ষমতা স্থায়ী করতে পারে।",
+    "sourceIds": [
+      "digital-security-act-amnesty",
+      "muzzling-dissent-online-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "৮ অক্টোবর ২০১৮",
+    "title": "ডিজিটাল সিকিউরিটি অ্যাক্ট কার্যকর হয়",
+    "detail": "সংসদ আইনটি পাস করে, ফলে অনলাইন বক্তব্য ও ডিজিটাল কর্মকাণ্ড নিয়ন্ত্রণে রাষ্ট্র নতুন আইনি কাঠামো পেয়ে যায়।",
+    "sourceIds": [
+      "digital-security-act-amnesty",
+      "muzzling-dissent-online-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "২০১৮-এর শেষভাগ",
+    "title": "আইনটি ডিজিটাল অধিকার বিতর্কের কেন্দ্রে চলে আসে",
+    "detail": "অস্পষ্ট অপরাধধারা, ওয়ারেন্টবিহীন প্রয়োগের ক্ষমতা এবং সাংবাদিক, ভিন্নমতাবলম্বী ও সাধারণ ব্যবহারকারীর বিরুদ্ধে আইনের সম্ভাব্য ব্যবহারে জনউদ্বেগ বাড়ে।",
+    "sourceIds": [
+      "muzzling-dissent-online-amnesty",
+      "digital-security-act-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদি উত্তরাধিকার",
+    "title": "২০২৩ সালের সাইবার সিকিউরিটি অ্যাক্টে প্রতিস্থাপন পর্যন্ত এর প্রভাব থাকে",
+    "detail": "পরবর্তী সময়ে আইনটি বদলানো হলেও ডিজিটাল দমন ও মতপ্রকাশের প্রশ্নে এটি দীর্ঘদিন একটি বড় রেফারেন্স হিসেবে রয়ে যায়।",
+    "sourceIds": [
+      "muzzling-dissent-online-amnesty",
+      "digital-security-act-amnesty"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  }
+]

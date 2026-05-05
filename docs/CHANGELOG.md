@@ -4,6 +4,10 @@
 
 ### Completed
 
+- Added a new `2018` event cluster with four child chapters:
+  - Content: Created bilingual parent metadata plus four bilingual child event chapters for the Quota Reform Movement, Safe Road Movement, Digital Security Act, and 11th Parliamentary Election.
+  - Sources: Added shared resources for Human Rights Watch's `Creating Panic` report, Human Rights Watch's road-safety protest statement, and Amnesty International's Digital Security Act coverage.
+  - Hierarchy: Inserted `2018` under `1990` and attached the four sub-events with `parentEvent` / `childEventIds`.
 - Added the missing `2014` chapter for the `10th Parliamentary Election`:
   - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/2014/`.
   - Sources: Added shared resources for Human Rights Watch's 2014 election violence report and Al Jazeera's reporting on the immediate parliamentary aftermath.

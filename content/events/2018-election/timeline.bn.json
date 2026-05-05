@@ -1,0 +1,55 @@
+[
+  {
+    "year": "২০১৮",
+    "title": "ভোটের আগে বিরোধী প্রার্থী ও সমালোচকেরা চাপে পড়ে",
+    "detail": "নির্বাচন-পূর্ব সময়ে গ্রেপ্তার, ভয়ভীতি ও সহিংসতা বিরোধী রাজনীতির পরিসর সংকুচিত করে এবং নির্বাচনী প্রতিযোগিতা আদৌ অর্থবহভাবে মুক্ত কি না, তা নিয়ে প্রশ্ন তোলে।",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "archive-collection"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "৩০ ডিসেম্বর ২০১৮",
+    "title": "একাদশ জাতীয় সংসদ নির্বাচনে ভোটগ্রহণ হয়",
+    "detail": "বাংলাদেশ ৩০০টি সরাসরি নির্বাচিত সংসদীয় আসনের জন্য জাতীয় নির্বাচন আয়োজন করে।",
+    "sourceIds": [
+      "election-guide-bangladesh-2018",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "৩০-৩১ ডিসেম্বর ২০১৮",
+    "title": "আওয়ামী লীগ বিপুল জয় পায়",
+    "detail": "ক্ষমতাসীন জোট বিপুল সংখ্যাগরিষ্ঠতা অর্জন করে, আর বিরোধী দল ফল প্রত্যাখ্যান করে বড় অনিয়মের অভিযোগ তোলে।",
+    "sourceIds": [
+      "election-guide-bangladesh-2018",
+      "creating-panic-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "ভোটের পর",
+    "title": "নির্বাচনটি গণতান্ত্রিক পশ্চাদপসরণের রেফারেন্সে পরিণত হয়",
+    "detail": "এই ভোটকে ঘিরে বিতর্ক বৈধতা, নাগরিক স্বাধীনতা এবং প্রতিযোগিতামূলক রাজনীতির সংকোচন নিয়ে দীর্ঘমেয়াদি আলোচনাকে আরও কঠোর করে।",
+    "sourceIds": [
+      "creating-panic-hrw",
+      "election-guide-bangladesh-2018"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]
