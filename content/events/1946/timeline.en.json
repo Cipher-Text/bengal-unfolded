@@ -1,0 +1,71 @@
+[
+  {
+    "year": "Jul 1946",
+    "title": "Muslim League declares a programme of direct action",
+    "detail": "After the collapse of agreement around the Cabinet Mission framework, the Muslim League resolved to abandon reliance on constitutional negotiation alone and declared 16 August as Direct Action Day.",
+    "sourceIds": [
+      "direct-action-day-banglapedia",
+      "direct-action-day-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "16 Aug 1946",
+    "title": "Hartal and rally in Calcutta escalate into violence",
+    "detail": "In Bengal the League ministry backed a public holiday and a major rally in Calcutta. Street confrontations, forced closures, retaliatory mobilization, and inflammatory political atmosphere quickly turned the day into organized communal bloodshed.",
+    "sourceIds": [
+      "direct-action-day-banglapedia",
+      "calcutta-riot-1946-banglapedia",
+      "direct-action-day-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "16-22 Aug 1946",
+    "title": "The Great Calcutta Killing devastates the city",
+    "detail": "For several days Calcutta experienced killings, arson, looting, and reprisals between Hindus and Muslims on a massive scale, while administrative response and political responsibility became deeply contested.",
+    "sourceIds": [
+      "calcutta-riot-1946-banglapedia",
+      "direct-action-day-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "Oct-Nov 1946",
+    "title": "Violence spreads to Noakhali, Bihar, and beyond",
+    "detail": "The Calcutta killings became both precedent and provocation for further communal massacres elsewhere, deepening the sense that coexistence under a united constitutional future was collapsing.",
+    "sourceIds": [
+      "direct-action-day-banglapedia",
+      "direct-action-day-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "Long-term impact",
+    "title": "Partition of Bengal becomes more likely",
+    "detail": "Direct Action Day and its aftermath hardened political positions in Bengal and across India, helping make the final partition settlement of 1947 appear increasingly unavoidable.",
+    "sourceIds": [
+      "direct-action-day-banglapedia",
+      "the-great-partition"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

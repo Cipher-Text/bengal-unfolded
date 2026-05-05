@@ -11,6 +11,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1906",
   "1911",
   "1940",
+  "1946",
   "1943",
   "1947",
   "1952",

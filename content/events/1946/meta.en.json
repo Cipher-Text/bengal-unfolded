@@ -1,0 +1,50 @@
+{
+  "slug": "1946",
+  "year": "1946",
+  "title": "Direct Action Day and the Great Calcutta Killing",
+  "subtitle": "Mass mobilization for Pakistan gives way to communal carnage in Bengal.",
+  "summary": "On 16 August 1946, the All-India Muslim League observed Direct Action Day to press its demand for Pakistan after the breakdown of constitutional compromise. In Bengal, where Huseyn Shaheed Suhrawardy headed the provincial ministry, the hartal and mass rally in Calcutta spiraled into devastating communal violence. The killings and reprisals in Calcutta, followed by violence elsewhere including Noakhali and Bihar, marked one of the clearest breakdowns of coexistence in late colonial India and made the partition of Bengal far more likely.",
+  "themeColor": "#7d4334",
+  "ctaLabel": "Explore Direct Action Day",
+  "heroTagline": "A political day of mass action became a catastrophe that narrowed the horizon of a united Bengal.",
+  "summarySourceIds": [
+    "direct-action-day-banglapedia",
+    "direct-action-day-britannica"
+  ],
+  "whyItMatters": "Direct Action Day matters because it transformed constitutional conflict into mass communal bloodshed in Bengal. It deepened mistrust, destroyed faith in negotiated coexistence, and became a decisive bridge between the Lahore Resolution's political demand and the partition settlement of 1947.",
+  "whyItMattersSourceIds": [
+    "calcutta-riot-1946-banglapedia",
+    "the-great-partition"
+  ],
+  "importance": "major",
+  "parentEvent": "1940",
+  "childEventIds": [
+    "1947"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1940",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1943",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1947",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1940",
+    "1943",
+    "1947"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation"
+}

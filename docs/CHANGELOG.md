@@ -4,6 +4,10 @@
 
 ### Completed
 
+- Added the missing `1946` Direct Action Day chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1946/`.
+  - Sources: Added dedicated shared resources for Direct Action Day and the 1946 Calcutta riot.
+  - Hierarchy: Rewired the late-colonial partition cluster from `1940 -> 1947` to `1940 -> 1946 -> 1947`.
 - Added the missing `1940` Lahore Resolution chapter:
   - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1940/`.
   - Sources: Added dedicated shared resources for Banglapedia and Britannica coverage of the Lahore Resolution.

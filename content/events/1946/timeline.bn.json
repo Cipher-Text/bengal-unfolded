@@ -1,0 +1,71 @@
+[
+  {
+    "year": "জুলাই ১৯৪৬",
+    "title": "মুসলিম লীগ ডাইরেক্ট অ্যাকশনের কর্মসূচি ঘোষণা করে",
+    "detail": "ক্যাবিনেট মিশন কাঠামো ঘিরে সমঝোতা ভেঙে পড়ার পর মুসলিম লীগ কেবল সাংবিধানিক দরকষাকষির উপর নির্ভর না করে ১৬ আগস্টকে ডাইরেক্ট অ্যাকশন ডে হিসেবে ঘোষণা করে।",
+    "sourceIds": [
+      "direct-action-day-banglapedia",
+      "direct-action-day-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৬ আগস্ট ১৯৪৬",
+    "title": "ক্যালকাটার হরতাল ও সমাবেশ সহিংসতায় রূপ নেয়",
+    "detail": "বাংলায় লীগ মন্ত্রিসভা সরকারি ছুটি ও বড় সমাবেশের পক্ষে যায়। দোকান বন্ধে চাপ, পাল্টা প্রতিরোধ, এবং উত্তেজনাপূর্ণ রাজনৈতিক পরিবেশ দ্রুত দিনটিকে সংগঠিত সাম্প্রদায়িক রক্তপাতে পরিণত করে।",
+    "sourceIds": [
+      "direct-action-day-banglapedia",
+      "calcutta-riot-1946-banglapedia",
+      "direct-action-day-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "১৬-২২ আগস্ট ১৯৪৬",
+    "title": "গ্রেট ক্যালকাটা কিলিং শহরকে বিপর্যস্ত করে",
+    "detail": "কয়েক দিন ধরে ক্যালকাটায় হিন্দু-মুসলিম হত্যাযজ্ঞ, অগ্নিসংযোগ, লুটপাট এবং প্রতিশোধপরায়ণ আক্রমণ চলে; প্রশাসনিক ব্যর্থতা ও রাজনৈতিক দায় নিয়ে গভীর বিতর্ক তৈরি হয়।",
+    "sourceIds": [
+      "calcutta-riot-1946-banglapedia",
+      "direct-action-day-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "অক্টোবর-নভেম্বর ১৯৪৬",
+    "title": "সহিংসতা নোয়াখালি, বিহার ও অন্যত্র ছড়িয়ে পড়ে",
+    "detail": "ক্যালকাটার হত্যাযজ্ঞ পরে নোয়াখালি, বিহার ও অন্যান্য অঞ্চলের সাম্প্রদায়িক হত্যাকাণ্ডের জন্য একদিকে দৃষ্টান্ত, অন্যদিকে উসকানিতে পরিণত হয়; যৌথ সাংবিধানিক ভবিষ্যতের ধারণা আরও দুর্বল হয়ে পড়ে।",
+    "sourceIds": [
+      "direct-action-day-banglapedia",
+      "direct-action-day-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদি প্রভাব",
+    "title": "বঙ্গভাগ আরও সম্ভাব্য হয়ে ওঠে",
+    "detail": "ডাইরেক্ট অ্যাকশন ডে ও তার পরিণতি বাংলায় এবং সমগ্র ভারতে রাজনৈতিক অবস্থানকে আরও কঠোর করে তোলে, যার ফলে ১৯৪৭ সালের দেশভাগ ক্রমশ অনিবার্য বলে মনে হতে থাকে।",
+    "sourceIds": [
+      "direct-action-day-banglapedia",
+      "the-great-partition"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]
