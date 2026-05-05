@@ -1,18 +1,8 @@
 {
-  "generated_at": "2026-05-05T19:43:33.654Z",
+  "generated_at": "2026-05-05T19:50:51.756Z",
   "from": "image_sync_merged_report.json",
   "added": 10,
   "results": [
-    {
-      "id": "abdul-jabbar",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg"
-    },
-    {
-      "id": "abdul-jabbar-1952",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg"
-    },
     {
       "id": "abdul-karim-sahitya-bisharad",
       "status": "still_download_failed",
@@ -40,10 +30,6 @@
     },
     {
       "id": "abdus-samad-azad",
-      "status": "still_not_found"
-    },
-    {
-      "id": "abdus-sattar",
       "status": "still_not_found"
     },
     {
@@ -98,15 +84,7 @@
       "status": "still_not_found"
     },
     {
-      "id": "ak-fazlul-huq",
-      "status": "still_not_found"
-    },
-    {
       "id": "akhter-hossen",
-      "status": "still_not_found"
-    },
-    {
-      "id": "alauddin-al-azad",
       "status": "still_not_found"
     },
     {
@@ -158,10 +136,6 @@
       "id": "badiul-alam",
       "status": "still_download_failed",
       "source": "https://upload.wikimedia.org/wikipedia/commons/6/62/Badiul_Alam_Majumdar.jpg"
-    },
-    {
-      "id": "bangladesh-nationalist-party",
-      "status": "still_not_found"
     },
     {
       "id": "barkat-hossain",
@@ -823,5 +797,18 @@
       "id": "zulkarnain-saer",
       "status": "still_not_found"
     }
-  ]
+  ],
+  "summary": {
+    "still_download_failed": 10,
+    "still_not_found": 186
+  },
+  "pruned_already_added": [
+    "abdul-jabbar",
+    "abdul-jabbar-1952",
+    "abdus-sattar",
+    "ak-fazlul-huq",
+    "alauddin-al-azad"
+  ],
+  "pruned_count": 5,
+  "last_retry_added": 0
 }
