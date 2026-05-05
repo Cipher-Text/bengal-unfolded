@@ -1,0 +1,42 @@
+{
+  "slug": "1414",
+  "year": "1414",
+  "title": "Raja Ganesha Seizes Power in Bengal",
+  "subtitle": "A dynastic rupture interrupts Ilyas Shahi continuity in the Bengal Sultanate.",
+  "summary": "In 1414, Raja Ganesha, a powerful Hindu zamindar from north Bengal, captured effective control of the Bengal Sultanate during a period of dynastic weakness. His rise marked the start of the House of Ganesha period, which briefly interrupted Ilyas Shahi rule and reshaped court politics before the Ilyas Shahi restoration.",
+  "themeColor": "#6b4f34",
+  "ctaLabel": "Explore 1414",
+  "heroTagline": "The rise of Raja Ganesha opened a short but pivotal transition in Bengal's sultanate-era power structure.",
+  "summarySourceIds": [
+    "house-of-ganesha-wikipedia",
+    "raja-ganesha-wikipedia"
+  ],
+  "whyItMatters": "This event matters because it shows that Bengal's sultanate system was politically contestable, with local landed elites able to redirect dynastic succession. The episode set the stage for reconfigured legitimacy under Jalaluddin Muhammad Shah and for the later restoration of Ilyas Shahi authority.",
+  "whyItMattersSourceIds": [
+    "house-of-ganesha-wikipedia",
+    "bengal-sultanate-wikipedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1352",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1494",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1352",
+    "1494",
+    "1704"
+  ],
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "1576",
+  "year": "1576 (July 12)",
+  "title": "Battle of Rajmahal",
+  "subtitle": "Mughal forces defeat Daud Khan Karrani and end the Bengal Sultanate's final Afghan line.",
+  "summary": "On July 12, 1576, Mughal forces defeated Daud Khan Karrani at the Battle of Rajmahal. The victory marked the collapse of the Karrani regime, often treated as the terminal phase of independent Bengal Sultanate power, and accelerated Bengal's incorporation into the Mughal imperial framework.",
+  "themeColor": "#6c4a2f",
+  "ctaLabel": "Explore 1576",
+  "heroTagline": "Rajmahal reshaped Bengal's sovereignty by breaking Karrani resistance and opening the Mughal provincial era.",
+  "summarySourceIds": [
+    "battle-of-rajmahal-wikipedia",
+    "mughal-conquest-of-bengal-wikipedia"
+  ],
+  "whyItMatters": "This event matters because it links late-sultanate Bengal to Mughal provincial governance. The defeat of Daud Khan Karrani changed how authority, taxation, and military control were organized in Bengal, creating structural conditions that later fed into nawabi politics and the eighteenth-century crises.",
+  "whyItMattersSourceIds": [
+    "mughal-conquest-of-bengal-wikipedia",
+    "bengal-sultanate-wikipedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1494",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1612",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1757",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1494",
+    "1612",
+    "1704",
+    "1757"
+  ],
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
+}

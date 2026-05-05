@@ -1,0 +1,39 @@
+[
+  {
+    "year": "১৫৭৫-১৫৭৬",
+    "title": "বাংলায় মুঘল-কররানি সংঘাত তীব্র হয়",
+    "detail": "আকবরের বাহিনী ও দাউদ খান কররানির মধ্যে সামরিক অভিযান বাংলার রাজনৈতিক নিয়ন্ত্রণ নিয়ে চূড়ান্ত সংঘাতে রূপ নেয়।",
+    "sourceIds": [
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "১৫৭৬ (১২ জুলাই)",
+    "title": "রাজমহলের যুদ্ধে মুঘল বিজয়",
+    "detail": "রাজমহলে দাউদ খান কররানির পরাজয়ে বাংলায় শেষ বড় আফগান-নেতৃত্বাধীন সুলতানি প্রতিরোধ সামরিকভাবে ভেঙে পড়ে।",
+    "sourceIds": [
+      "battle-of-rajmahal-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদি ফল",
+    "title": "বাংলা মুঘল প্রাদেশিক শাসন কাঠামোর দিকে অগ্রসর হয়",
+    "detail": "রাজমহলের পর বাংলার শাসন ধীরে ধীরে মুঘল সুবাহ প্রশাসনিক মডেলের অধীনে পুনর্গঠিত হয় এবং নতুন আর্থিক-রাজনৈতিক গতিশীলতা তৈরি হয়।",
+    "sourceIds": [
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

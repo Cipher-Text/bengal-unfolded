@@ -1,0 +1,40 @@
+[
+  {
+    "year": "1576",
+    "title": "Rajmahal opens the post-sultanate conquest phase",
+    "detail": "The Mughal victory over Daud Khan Karrani ended the last Afghan sultanate line but did not immediately eliminate regional resistance networks.",
+    "sourceIds": [
+      "battle-of-rajmahal-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "Late 16th-early 17th century",
+    "title": "Resistance blocs continue, especially in eastern Bengal",
+    "detail": "Baro-Bhuiyan-centered resistance constrained rapid consolidation and prolonged the conquest timeline beyond the 1576 battlefield outcome.",
+    "sourceIds": [
+      "baro-bhuiyans-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1612",
+    "title": "Conquest phase largely completed under Mughal authority",
+    "detail": "By this point, major organized resistance had been substantially subdued and Bengal moved more fully into Mughal provincial governance.",
+    "sourceIds": [
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

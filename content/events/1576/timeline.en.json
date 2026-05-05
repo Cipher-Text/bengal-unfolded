@@ -1,0 +1,39 @@
+[
+  {
+    "year": "1575-1576",
+    "title": "Mughal-Karrani conflict intensifies in Bengal",
+    "detail": "Campaigns between Akbar's forces and Daud Khan Karrani escalated into a decisive contest over Bengal's political control.",
+    "sourceIds": [
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1576 (July 12)",
+    "title": "Battle of Rajmahal ends in Mughal victory",
+    "detail": "Daud Khan Karrani was defeated at Rajmahal, marking the military collapse of the last major Afghan-led sultanate resistance in Bengal.",
+    "sourceIds": [
+      "battle-of-rajmahal-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "Bengal moves into the Mughal provincial order",
+    "detail": "After Rajmahal, Bengal's governance increasingly followed Mughal subah administration, creating new fiscal and political dynamics in the region.",
+    "sourceIds": [
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

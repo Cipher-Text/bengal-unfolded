@@ -1,0 +1,42 @@
+{
+  "slug": "1494",
+  "year": "1494",
+  "title": "Alauddin Husain Shah Begins Hussain Shahi Rule in Bengal",
+  "subtitle": "A new sultanate dynasty launches one of late medieval Bengal's most influential reigns.",
+  "summary": "In 1494, Alauddin Husain Shah took power in Bengal and founded the Hussain Shahi dynasty. His accession marked a major dynastic transition in the Bengal Sultanate and initiated a period often associated with administrative consolidation, territorial ambition, and expanded courtly patronage in Bengali and Persian cultural spheres.",
+  "themeColor": "#6a5138",
+  "ctaLabel": "Explore 1494",
+  "heroTagline": "The Hussain Shahi accession in 1494 reset Bengal's dynastic politics and shaped the region's late-sultanate trajectory.",
+  "summarySourceIds": [
+    "hussain-shahi-dynasty-wikipedia",
+    "alauddin-husain-shah-wikipedia"
+  ],
+  "whyItMatters": "This event matters because Hussain Shahi rule became a key bridge between earlier sultanate state formation and the sixteenth-century transformations that followed. It influenced political authority, regional diplomacy, and cultural production in ways that remained visible in Bengal's later historical transitions.",
+  "whyItMattersSourceIds": [
+    "hussain-shahi-dynasty-wikipedia",
+    "bengal-sultanate-wikipedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1414",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1576",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1414",
+    "1576",
+    "1704"
+  ],
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
+}

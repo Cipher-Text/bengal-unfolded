@@ -19,11 +19,31 @@
   "importance": "major",
   "relatedEvents": [
     {
+      "eventId": "1612",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1576",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1494",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1414",
+      "relationType": "background"
+    },
+    {
       "eventId": "1757",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
+    "1612",
+    "1576",
+    "1494",
+    "1414",
     "1757"
   ],
   "showOnLanding": false,

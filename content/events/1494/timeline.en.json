@@ -1,0 +1,41 @@
+[
+  {
+    "year": "1494",
+    "title": "Alauddin Husain Shah takes power in Bengal",
+    "detail": "Alauddin Husain Shah's accession began a new dynastic phase in the Bengal Sultanate and re-centered elite power around a fresh ruling house.",
+    "sourceIds": [
+      "alauddin-husain-shah-wikipedia",
+      "hussain-shahi-dynasty-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1494-1538",
+    "title": "Hussain Shahi dynasty shapes late sultanate Bengal",
+    "detail": "The dynasty's rule became a defining chapter of late medieval Bengal, associated with political consolidation and broad cultural patronage before sixteenth-century regime transitions.",
+    "sourceIds": [
+      "hussain-shahi-dynasty-wikipedia",
+      "bengal-sultanate-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "A major bridge period in Bengal's pre-Mughal transition",
+    "detail": "Hussain Shahi governance linked earlier sultanate structures to the geopolitical and military shifts that transformed Bengal in the sixteenth century.",
+    "sourceIds": [
+      "hussain-shahi-dynasty-wikipedia",
+      "bengal-sultanate-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  }
+]

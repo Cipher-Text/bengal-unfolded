@@ -1,0 +1,41 @@
+[
+  {
+    "year": "1414",
+    "title": "Raja Ganesha captures effective authority in Bengal",
+    "detail": "Amid Ilyas Shahi weakness, Raja Ganesha took control of the Bengal Sultanate's political center and began a short dynastic transition.",
+    "sourceIds": [
+      "house-of-ganesha-wikipedia",
+      "raja-ganesha-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1415-1436",
+    "title": "House of Ganesha period interrupts earlier dynastic continuity",
+    "detail": "Rule associated with Raja Ganesha and his successors created an interregnum between Ilyas Shahi phases in Bengal's sultanate history.",
+    "sourceIds": [
+      "house-of-ganesha-wikipedia",
+      "bengal-sultanate-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "Dynastic legitimacy in Bengal becomes more visibly negotiated",
+    "detail": "The episode demonstrated how military force, court alliances, and conversion politics could reset succession and authority in late medieval Bengal.",
+    "sourceIds": [
+      "house-of-ganesha-wikipedia",
+      "bengal-sultanate-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  }
+]

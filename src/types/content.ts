@@ -2,6 +2,10 @@ export const SUPPORTED_LOCALES = ["en", "bn"] as const;
 export const SUPPORTED_EVENT_SLUGS = [
   "1204",
   "1352",
+  "1414",
+  "1494",
+  "1576",
+  "1612",
   "1704",
   "1757",
   "1765",

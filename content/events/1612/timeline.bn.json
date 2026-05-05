@@ -1,0 +1,40 @@
+[
+  {
+    "year": "১৫৭৬",
+    "title": "রাজমহল-পরবর্তী সময় সুলতানি-উত্তর বিজয়পর্ব শুরু করে",
+    "detail": "দাউদ খান কররানির পরাজয়ে শেষ আফগান সুলতানি ধারা ভেঙে পড়ে, তবে আঞ্চলিক প্রতিরোধ শক্তি তাৎক্ষণিকভাবে শেষ হয়নি।",
+    "sourceIds": [
+      "battle-of-rajmahal-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "ষোড়শ শতকের শেষভাগ-সপ্তদশ শতকের শুরু",
+    "title": "বিশেষত পূর্ব বাংলায় প্রতিরোধ জোট সক্রিয় থাকে",
+    "detail": "বারো-ভূঁইয়া-কেন্দ্রিক প্রতিরোধ দ্রুত সংহতিকে বাধাগ্রস্ত করে এবং ১৫৭৬-এর যুদ্ধজয়ের পরও বিজয়-পর্ব দীর্ঘায়িত করে।",
+    "sourceIds": [
+      "baro-bhuiyans-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "১৬১২",
+    "title": "মুঘল কর্তৃত্বে বিজয় পর্বের মূল সমাপ্তি",
+    "detail": "এই সময়ে প্রধান সংগঠিত প্রতিরোধ ব্যাপকভাবে দমন হয় এবং বাংলা আরও পূর্ণাঙ্গভাবে মুঘল প্রাদেশিক প্রশাসনে অন্তর্ভুক্ত হয়।",
+    "sourceIds": [
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]
