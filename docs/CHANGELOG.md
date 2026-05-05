@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-05-06
+
+### Completed
+
+- Figure data correction and expansion for `2013` (Shahbag / Gonojagoron Moncho):
+  - Content: Replaced mismatched event figure links in `content/events/2013/figure-ids.json` with movement-relevant profiles.
+  - Content: Added missing figure entities with EN/BN metadata for core 2013 movement actors.
+  - Content: Expanded the `2013` chapter with additional related actors requested during curation.
+  - Model: Updated `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` for all newly added figure IDs.
+  - Validation: No validator logic changes required; integrity enforced through existing ID checks.
+  - Backfill: EN/BN parity maintained for all newly created figure metadata files.
+
+- Key-figure rollout for `2009` (BDR Mutiny / Pilkhana Massacre):
+  - Content: Added event-level key figures in `content/events/2009/figure-ids.json`.
+  - Content: Added EN/BN figure metadata for primary 2009 crisis actors, then expanded with additional investigation-era/testimony-linked figures as requested.
+  - Model: Updated `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` for all newly added 2009 figure IDs.
+  - Validation: Existing `content:validate` checks passed after updates.
+
+- Figure image integrity and recovery workflow hardening:
+  - Content QA: Audited referenced figure media for corrupted/non-renderable binaries.
+  - Content fix: Removed broken `image` fields from affected figure metadata so UI collapses media sections cleanly without placeholders.
+  - Recovery tracking: Updated unresolved-image backlog in `image_sync_recovery_report.json` and retry artifacts for subsequent crawl passes.
+  - UI behavior note: Figure/event media display now relies on optional presence of valid `image` metadata; broken references are avoided at content level.
+
 ## 2026-05-05
 
 ### Completed

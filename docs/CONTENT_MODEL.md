@@ -19,6 +19,26 @@ Contract companion docs:
 - `Quote`
 - `EventContent`
 
+## Figure schema
+
+- `Figure` metadata is stored at `content/figures/<figure-id>/meta.<locale>.json`.
+- Common fields currently used:
+  - `name` (required string)
+  - `name_en` (optional string; useful for BN locale canonical name mapping)
+  - `role` (required string)
+  - `group` (required string; commonly `leader` or `collective`)
+  - `contribution` (required string)
+  - `context` (required string)
+  - `impact` (required string)
+  - `highlight` (optional string)
+  - `tags` (optional `string[]`)
+  - `image` (optional string path, typically `/figures/<filename>`)
+
+Image rendering policy:
+
+- Figure and event detail views should render figure photos only when `image` exists and points to a valid asset.
+- If `image` is missing or removed during integrity cleanup, UI should collapse media blocks instead of showing placeholders/broken avatars.
+
 ## Relationship model
 
 - `event -> figures` is many-to-many via `content/events/<slug>/figure-ids.json`.
