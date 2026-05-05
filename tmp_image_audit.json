@@ -1,0 +1,158 @@
+{
+  "ok": [
+    {
+      "id": "abdul-gaffar-choudhury",
+      "rel": "/figures/abdul-gaffar-choudhury.jpg",
+      "type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1890x1420, components 3",
+      "size": 529416
+    },
+    {
+      "id": "abdul-hannan-masud",
+      "rel": "/figures/abdul-hannan-masud.jpg",
+      "type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=16, height=2752, bps=206, PhotometricIntepretation=RGB, manufacturer=NIKON CORPORATION, model=NIKON Z 9, orientation=upper-left, width=4128], baseline, precision 8, 287x357, components 3",
+      "size": 125402
+    },
+    {
+      "id": "abdul-malek-ukil",
+      "rel": "/figures/abdul-malek-ukil.svg",
+      "type": "SVG Scalable Vector Graphics image",
+      "size": 90163
+    },
+    {
+      "id": "abu-taher",
+      "rel": "/figures/abu-taher.jpg",
+      "type": "SVG Scalable Vector Graphics image",
+      "size": 8567
+    },
+    {
+      "id": "adilur-rahman-khan",
+      "rel": "/figures/adilur-rahman-khan.jpg",
+      "type": "JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=16, height=2752, bps=206, PhotometricIntepretation=RGB, manufacturer=NIKON CORPORATION, model=NIKON Z 9, orientation=upper-left, width=4128], baseline, precision 8, 246x350, components 3",
+      "size": 45927
+    },
+    {
+      "id": "asif-nazrul",
+      "rel": "/figures/asif-nazrul.png",
+      "type": "PNG image data, 655 x 628, 8-bit/color RGBA, non-interlaced",
+      "size": 555126
+    },
+    {
+      "id": "awami-league",
+      "rel": "/figures/awami-league.svg",
+      "type": "SVG Scalable Vector Graphics image",
+      "size": 27391
+    },
+    {
+      "id": "farhad-mazhar",
+      "rel": "/figures/farhad-mazhar.png",
+      "type": "PNG image data, 320 x 240, 8-bit/color RGB, non-interlaced",
+      "size": 72415
+    },
+    {
+      "id": "hasnat-abdullah",
+      "rel": "/figures/hasnat-abdullah.jpg",
+      "type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=16, height=2752, bps=206, PhotometricIntepretation=RGB, manufacturer=NIKON CORPORATION, model=NIKON Z 9, orientation=upper-left, width=4128], baseline, precision 8, 278x347, components 3",
+      "size": 147424
+    },
+    {
+      "id": "muhammad-yunus",
+      "rel": "/figures/muhammad-yunus.jpg",
+      "type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=12, description=Prof Muhammad Yunus also recipient of the US Presidential Medal of Freedom and the Congressional Gold Medal, manufacturer=NIKON CORPORATION, model=NIKON D600, orientation=upper-left, xresolution=296, yresolution=304, resolutionunit=2, software=GIMP 2.8.16, datetime=2019:02:20 01:13:15], baseline, precision 8, 2230x2973, components 3",
+      "size": 1700818
+    },
+    {
+      "id": "shahidul-alam",
+      "rel": "/figures/shahidul-alam.jpg",
+      "type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=11, manufacturer=Leica Camera AG, model=LEICA M10, orientation=upper-left, xresolution=172, yresolution=180, resolutionunit=2, software=Adobe Photoshop CC (Macintosh), datetime=2017:11:04 21:28:25], baseline, precision 8, 2040x2722, components 3",
+      "size": 3435180
+    },
+    {
+      "id": "sheikh-mujibur-rahman",
+      "rel": "/figures/sheikh-mujibur-rahman.jpg",
+      "type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1024x1219, components 3",
+      "size": 62604
+    },
+    {
+      "id": "syeda-rizwana-hasan",
+      "rel": "/figures/syeda-rizwana-hasan.jpg",
+      "type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=18, height=4128, bps=230, PhotometricIntepretation=RGB, manufacturer=NIKON CORPORATION, model=NIKON D850, orientation=upper-left, width=6192], baseline, precision 8, 1793x1403, components 3",
+      "size": 235994
+    },
+    {
+      "id": "tasneem-khalil",
+      "rel": "/figures/tasneem-khalil.png",
+      "type": "PNG image data, 673 x 882, 8-bit/color RGBA, non-interlaced",
+      "size": 552552
+    },
+    {
+      "id": "umama-fatema",
+      "rel": "/figures/umama-fatema.png",
+      "type": "PNG image data, 330 x 330, 8-bit/color RGBA, non-interlaced",
+      "size": 85615
+    },
+    {
+      "id": "zafar-sobhan",
+      "rel": "/figures/zafar-sobhan.jpg",
+      "type": "JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, baseline, precision 8, 342x596, components 3",
+      "size": 65479
+    }
+  ],
+  "issues": [
+    {
+      "id": "abdul-halim-chowdhury",
+      "rel": "/figures/abdul-halim-chowdhury.jpg",
+      "issue": "invalid_type",
+      "type": "data",
+      "size": 125457
+    },
+    {
+      "id": "abdul-hamid-khan-bhashani",
+      "rel": "/figures/abdul-hamid-khan-bhashani.jpg",
+      "issue": "invalid_type",
+      "type": "data",
+      "size": 500168
+    },
+    {
+      "id": "abdul-mannan",
+      "rel": "/figures/abdul-mannan.jpg",
+      "issue": "invalid_type",
+      "type": "data",
+      "size": 52102
+    },
+    {
+      "id": "ataur-rahman-khan",
+      "rel": "/figures/ataur-rahman-khan.jpg",
+      "issue": "invalid_type",
+      "type": "data",
+      "size": 26750
+    },
+    {
+      "id": "dhirendranath-datta",
+      "rel": "/figures/dhirendranath-datta.jpg",
+      "issue": "invalid_type",
+      "type": "data",
+      "size": 14386
+    },
+    {
+      "id": "hussain-muhammad-ershad",
+      "rel": "/figures/hussain-muhammad-ershad.jpg",
+      "issue": "invalid_type",
+      "type": "data",
+      "size": 81058
+    },
+    {
+      "id": "ila-mitra",
+      "rel": "/figures/ila-mitra.jpg",
+      "issue": "invalid_type",
+      "type": "data",
+      "size": 29963
+    },
+    {
+      "id": "ohiullah-1952",
+      "rel": "/figures/ohiullah-1952.jpg",
+      "issue": "invalid_type",
+      "type": "data",
+      "size": 17360
+    }
+  ]
+}
