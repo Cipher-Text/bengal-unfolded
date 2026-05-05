@@ -1,0 +1,902 @@
+{
+  "generated_at": "2026-05-05T19:09:49.815Z",
+  "from": "image_sync_merged_report.json",
+  "added": 10,
+  "results": [
+    {
+      "id": "abdul-halim-chowdhury",
+      "status": "added_now",
+      "image": "/figures/abdul-halim-chowdhury.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/17/Abdul_Haleem_Chowdhury.jpg",
+      "size": 125457
+    },
+    {
+      "id": "abdul-hamid-khan-bhashani",
+      "status": "added_now",
+      "image": "/figures/abdul-hamid-khan-bhashani.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Maulana_Bhasani_in_Havana%2C_Cuba.jpg",
+      "size": 500168
+    },
+    {
+      "id": "abdul-jabbar",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg"
+    },
+    {
+      "id": "abdul-jabbar-1952",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg"
+    },
+    {
+      "id": "abdul-karim-sahitya-bisharad",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/85/Abdul_Karim_Sahitya_Bisharad_real.jpg"
+    },
+    {
+      "id": "abdul-malek-ukil",
+      "status": "added_now",
+      "image": "/figures/abdul-malek-ukil.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/81/National_emblem_of_Bangladesh.svg",
+      "size": 90163
+    },
+    {
+      "id": "abdul-mannan",
+      "status": "added_now",
+      "image": "/figures/abdul-mannan.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/92/Abdul_Mannan_%28Indian_politician%29.jpeg",
+      "size": 52102
+    },
+    {
+      "id": "abdul-matin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abdul-wahed-language",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abdullah-al-amin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abdur-rashid-tarkabagish",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abdus-salam-1952",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abdus-samad-azad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abdus-sattar",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abu-baker-majumder",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abu-osman-chowdhury",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abu-saleh-mohammad-akram",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abu-sayed-2024",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abu-sayeed-chowdhury",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Abu_Sayeed_Chowdhury_1960.jpg"
+    },
+    {
+      "id": "abu-taher",
+      "status": "already_has_image_now",
+      "image": "/figures/abu-taher.jpg"
+    },
+    {
+      "id": "abul-barkat-1952",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Language_martyr%2C_Abul_Barkat.jpg"
+    },
+    {
+      "id": "abul-hashim",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/62/Abul_hashim.JPG"
+    },
+    {
+      "id": "abul-kalam-shamsuddin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abul-kasem",
+      "status": "still_not_found"
+    },
+    {
+      "id": "abul-mansur-ahmad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "ahm-qamaruzzaman",
+      "status": "still_not_found"
+    },
+    {
+      "id": "ahmed-rafiq",
+      "status": "still_not_found"
+    },
+    {
+      "id": "ak-fazlul-huq",
+      "status": "still_not_found"
+    },
+    {
+      "id": "akhter-hossen",
+      "status": "still_not_found"
+    },
+    {
+      "id": "alauddin-al-azad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "alim-chowdhury",
+      "status": "still_not_found"
+    },
+    {
+      "id": "all-party-state-language-action-committee",
+      "status": "still_not_found"
+    },
+    {
+      "id": "altaf-mahmud",
+      "status": "still_not_found"
+    },
+    {
+      "id": "amanul-huq",
+      "status": "still_not_found"
+    },
+    {
+      "id": "amir-hossain-amu",
+      "status": "still_not_found"
+    },
+    {
+      "id": "anu-muhammad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "anwar-pasha",
+      "status": "still_not_found"
+    },
+    {
+      "id": "arif-sohel",
+      "status": "still_not_found"
+    },
+    {
+      "id": "asif-mahmud",
+      "status": "still_not_found"
+    },
+    {
+      "id": "asm-abdur-rab",
+      "status": "still_not_found"
+    },
+    {
+      "id": "ataur-rahman-khan",
+      "status": "added_now",
+      "image": "/figures/ataur-rahman-khan.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ataur_Rahman_Khan.jpg",
+      "size": 26750
+    },
+    {
+      "id": "atm-haider",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Abu_Taher_Mohammad_Haider%27s_grave_taken_by_Manik_on_17-2-11.jpg"
+    },
+    {
+      "id": "awami-league",
+      "status": "added_now",
+      "image": "/figures/awami-league.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/64/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6_%E0%A6%86%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE%E0%A7%80_%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0_%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9C.svg",
+      "size": 27391
+    },
+    {
+      "id": "badiul-alam",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/62/Badiul_Alam_Majumdar.jpg"
+    },
+    {
+      "id": "bangladesh-nationalist-party",
+      "status": "still_not_found"
+    },
+    {
+      "id": "barkat-hossain",
+      "status": "still_not_found"
+    },
+    {
+      "id": "bidhan-chandra-roy",
+      "status": "still_not_found"
+    },
+    {
+      "id": "bijan-kumar-mukherjea",
+      "status": "still_not_found"
+    },
+    {
+      "id": "caretaker-transition-supporters-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "cc-biswas",
+      "status": "still_not_found"
+    },
+    {
+      "id": "chittagong-rashtrabhasha-sangram-parishad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "chittagong-university-students-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "communist-party-of-bangladesh",
+      "status": "still_not_found"
+    },
+    {
+      "id": "cr-dutta",
+      "status": "still_not_found"
+    },
+    {
+      "id": "cultural-workers-collective-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "cyril-radcliffe",
+      "status": "still_not_found"
+    },
+    {
+      "id": "dhaka-medical-college-students",
+      "status": "still_not_found"
+    },
+    {
+      "id": "dhaka-university-students",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Dhaka_University_Central_Student%27s_Union_%28DUCSU%29_building%2C_University_of_Dhaka_%282%29.jpg"
+    },
+    {
+      "id": "dhaka-university-students-1990",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Dhaka_University_Central_Student%27s_Union_%28DUCSU%29_building%2C_University_of_Dhaka_%282%29.jpg"
+    },
+    {
+      "id": "dhirendranath-datta",
+      "status": "added_now",
+      "image": "/figures/dhirendranath-datta.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/7/77/Dhirendranath_datta.jpg",
+      "size": 14386
+    },
+    {
+      "id": "district-protesters-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "doctors-collective-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "east-pakistan-muslim-chhatra-league",
+      "status": "still_not_found"
+    },
+    {
+      "id": "eight-party-alliance",
+      "status": "still_not_found"
+    },
+    {
+      "id": "engineers-and-architects-collective-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "fahim-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "faisal-ahmed-shanto",
+      "status": "still_not_found"
+    },
+    {
+      "id": "families-of-martyrs-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "farhan-faiyaaz",
+      "status": "still_not_found"
+    },
+    {
+      "id": "fazle-rabbi",
+      "status": "still_not_found"
+    },
+    {
+      "id": "five-party-alliance",
+      "status": "still_not_found"
+    },
+    {
+      "id": "gaziul-huq",
+      "status": "still_not_found"
+    },
+    {
+      "id": "govinda-chandra-dev",
+      "status": "still_not_found"
+    },
+    {
+      "id": "hafizuddin-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "hamidur-rahman",
+      "status": "still_not_found"
+    },
+    {
+      "id": "hamidur-rahman-artist",
+      "status": "still_not_found"
+    },
+    {
+      "id": "hartal-and-blockade-organisers-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "hasanul-haq-inu",
+      "status": "still_not_found"
+    },
+    {
+      "id": "hasib-al-islam",
+      "status": "still_not_found"
+    },
+    {
+      "id": "human-rights-activists-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "humayun-kabir",
+      "status": "still_not_found"
+    },
+    {
+      "id": "huseyn-shaheed-suhrawardy",
+      "status": "still_not_found"
+    },
+    {
+      "id": "hussain-muhammad-ershad",
+      "status": "added_now",
+      "image": "/figures/hussain-muhammad-ershad.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hussain_M._Ershad-2_%28cropped%29.jpg",
+      "size": 81058
+    },
+    {
+      "id": "ila-mitra",
+      "status": "added_now",
+      "image": "/figures/ila-mitra.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ila_Mitra_%28cropped%29.jpg",
+      "size": 29963
+    },
+    {
+      "id": "jahanara-imam",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Jahanara_Imam_1993.jpg"
+    },
+    {
+      "id": "jahangir-alam",
+      "status": "still_not_found"
+    },
+    {
+      "id": "jahangirnagar-university-students-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "jamaat-e-islami-bangladesh",
+      "status": "still_not_found"
+    },
+    {
+      "id": "jasimuddin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "jatiya-samajtantrik-dal",
+      "status": "still_not_found"
+    },
+    {
+      "id": "jawaharlal-nehru",
+      "status": "still_not_found"
+    },
+    {
+      "id": "jogendranath-mandal",
+      "status": "still_not_found"
+    },
+    {
+      "id": "journalists-collective-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "justice-shahabuddin-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "kader-siddique",
+      "status": "still_not_found"
+    },
+    {
+      "id": "kamal-hossain",
+      "status": "still_not_found"
+    },
+    {
+      "id": "kamal-lohani",
+      "status": "still_not_found"
+    },
+    {
+      "id": "kamruzzaman-tuku",
+      "status": "still_not_found"
+    },
+    {
+      "id": "kazi-golam-mahbub",
+      "status": "still_not_found"
+    },
+    {
+      "id": "kazi-motahar-hossain",
+      "status": "still_not_found"
+    },
+    {
+      "id": "kazi-nuruzzaman",
+      "status": "still_not_found"
+    },
+    {
+      "id": "khaled-mosharraf",
+      "status": "still_not_found"
+    },
+    {
+      "id": "khaleda-zia",
+      "status": "still_not_found"
+    },
+    {
+      "id": "khwaja-nazimuddin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "khwaja-shahabuddin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "kiran-shankar-roy",
+      "status": "still_not_found"
+    },
+    {
+      "id": "km-shafiullah",
+      "status": "still_not_found"
+    },
+    {
+      "id": "lawyers-collective-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "liaquat-ali-khan",
+      "status": "still_not_found"
+    },
+    {
+      "id": "lord-curzon",
+      "status": "still_not_found"
+    },
+    {
+      "id": "lord-louis-mountbatten",
+      "status": "still_not_found"
+    },
+    {
+      "id": "lutfun-nahar-luma",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mag-osmani",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mahatma-gandhi",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mahbub-ul-alam-chowdhury",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mahin-sarkar",
+      "status": "still_not_found"
+    },
+    {
+      "id": "major-jalil",
+      "status": "still_not_found"
+    },
+    {
+      "id": "major-zafar-imam",
+      "status": "still_not_found"
+    },
+    {
+      "id": "manik-mia",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mansur-ali",
+      "status": "still_not_found"
+    },
+    {
+      "id": "manzur-al-matin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "matiur-rahman",
+      "status": "still_not_found"
+    },
+    {
+      "id": "maulana-akram-khan",
+      "status": "still_not_found"
+    },
+    {
+      "id": "md-enamul-hasan",
+      "status": "still_not_found"
+    },
+    {
+      "id": "medical-students-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mehedi-hasan",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mir-mahfuzur-rahman-mugdho",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mir-shawkat-ali",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mofazzal-hossain-chowdhury-maya",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mohammad-toaha",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mostafa-kamal",
+      "status": "still_not_found"
+    },
+    {
+      "id": "moudud-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "muhammad-ali-jinnah",
+      "status": "still_not_found"
+    },
+    {
+      "id": "muhammad-shahidullah",
+      "status": "still_not_found"
+    },
+    {
+      "id": "mujahidul-islam-selim",
+      "status": "still_not_found"
+    },
+    {
+      "id": "munier-chowdhury",
+      "status": "still_not_found"
+    },
+    {
+      "id": "munir-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "munshi-abdur-rouf",
+      "status": "still_not_found"
+    },
+    {
+      "id": "muzaffar-ahmad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "nahid-islam",
+      "status": "still_not_found"
+    },
+    {
+      "id": "nasiruddin-patwary",
+      "status": "still_not_found"
+    },
+    {
+      "id": "nawab-salimullah",
+      "status": "still_not_found"
+    },
+    {
+      "id": "nazmul-huq",
+      "status": "still_not_found"
+    },
+    {
+      "id": "noor-mohammad-sheikh",
+      "status": "still_not_found"
+    },
+    {
+      "id": "novera-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "nur-hossain",
+      "status": "still_not_found"
+    },
+    {
+      "id": "nurul-amin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "nusrat-tabassum",
+      "status": "still_download_failed",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/95/NUSRAT_TABASSUM_at_Launch_event_of_the_National_Citizen_Party_09.jpg"
+    },
+    {
+      "id": "ohiullah-1952",
+      "status": "added_now",
+      "image": "/figures/ohiullah-1952.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/e4/1952_Bengali_Language_movement.jpg",
+      "size": 17360
+    },
+    {
+      "id": "oli-ahad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "pinaki-bhattacharya",
+      "status": "still_not_found"
+    },
+    {
+      "id": "prafulla-chandra-ghosh",
+      "status": "still_not_found"
+    },
+    {
+      "id": "press-photographers-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "professional-associations-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "rabindranath-tagore",
+      "status": "still_not_found"
+    },
+    {
+      "id": "rafiq-uddin-ahmed-1952",
+      "status": "still_not_found"
+    },
+    {
+      "id": "rajshahi-university-students-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "rashed-khan-menon",
+      "status": "still_not_found"
+    },
+    {
+      "id": "rashidul-islam-rifat",
+      "status": "still_not_found"
+    },
+    {
+      "id": "rifat-rashid",
+      "status": "still_not_found"
+    },
+    {
+      "id": "riya-gope",
+      "status": "still_not_found"
+    },
+    {
+      "id": "ruhul-amin",
+      "status": "still_not_found"
+    },
+    {
+      "id": "sa-rahman",
+      "status": "still_not_found"
+    },
+    {
+      "id": "saima-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "sarat-chandra-bose",
+      "status": "still_not_found"
+    },
+    {
+      "id": "sarbadaliya-chhatra-oikya-parishad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "sarjis-alam",
+      "status": "still_not_found"
+    },
+    {
+      "id": "satya-ranjan-bakshi",
+      "status": "still_not_found"
+    },
+    {
+      "id": "seven-party-alliance",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shadik-kayem",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shafi-imam-rumi",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shafiur-rahman-1952",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shah-moazzem-hossain",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shaheed-azad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shaheed-rudro",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shahid-saber",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shahnaz-rahmatullah",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shamsul-alam",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shamsul-huq",
+      "status": "still_not_found"
+    },
+    {
+      "id": "shamsuzzoha",
+      "status": "still_not_found"
+    },
+    {
+      "id": "sheikh-hasina",
+      "status": "still_not_found"
+    },
+    {
+      "id": "sinthia-jaheen-ayesha",
+      "status": "still_not_found"
+    },
+    {
+      "id": "somnath-lahiri",
+      "status": "still_not_found"
+    },
+    {
+      "id": "street-procession-organisers-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "student-unity-twenty-two-organisations",
+      "status": "still_not_found"
+    },
+    {
+      "id": "sufia-kamal",
+      "status": "still_not_found"
+    },
+    {
+      "id": "suranjit-sengupta",
+      "status": "still_not_found"
+    },
+    {
+      "id": "surendranath-banerjea",
+      "status": "still_not_found"
+    },
+    {
+      "id": "swadhin-bangla-betar-artists",
+      "status": "still_not_found"
+    },
+    {
+      "id": "syama-prasad-mukherjee",
+      "status": "still_not_found"
+    },
+    {
+      "id": "syed-nazrul-islam",
+      "status": "still_not_found"
+    },
+    {
+      "id": "tahmid-abdullah",
+      "status": "still_not_found"
+    },
+    {
+      "id": "tahmid-al-mudabbir",
+      "status": "still_not_found"
+    },
+    {
+      "id": "tajuddin-ahmad",
+      "status": "still_not_found"
+    },
+    {
+      "id": "tamaddun-majlish",
+      "status": "still_not_found"
+    },
+    {
+      "id": "tamizuddin-khan",
+      "status": "still_not_found"
+    },
+    {
+      "id": "tariqul-islam",
+      "status": "still_not_found"
+    },
+    {
+      "id": "teachers-collective-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "tofail-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "unknown-protester",
+      "status": "still_not_found"
+    },
+    {
+      "id": "urban-protesters-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "vallabhbhai-patel",
+      "status": "still_not_found"
+    },
+    {
+      "id": "wasim-akram-2024",
+      "status": "still_not_found"
+    },
+    {
+      "id": "women-activists-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "workers-collective-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "workers-party-of-bangladesh",
+      "status": "still_not_found"
+    },
+    {
+      "id": "writers-and-intellectuals-collective-1990",
+      "status": "still_not_found"
+    },
+    {
+      "id": "yahya-khan",
+      "status": "still_not_found"
+    },
+    {
+      "id": "yamin-mist",
+      "status": "still_not_found"
+    },
+    {
+      "id": "zaber-ahmed",
+      "status": "still_not_found"
+    },
+    {
+      "id": "zahid-hossain",
+      "status": "still_not_found"
+    },
+    {
+      "id": "ziaur-rahman",
+      "status": "still_not_found"
+    },
+    {
+      "id": "zulkarnain-saer",
+      "status": "still_not_found"
+    }
+  ]
+}
