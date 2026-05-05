@@ -17,7 +17,7 @@
     "1971-a-global-history-of-the-creation-of-bangladesh"
   ],
   "importance": "landmark",
-  "parentEvent": "1947",
+  "parentEvent": "1970",
   "childEventIds": [
     "1975"
   ],
@@ -35,6 +35,10 @@
       "relationType": "cause"
     },
     {
+      "eventId": "1970",
+      "relationType": "cause"
+    },
+    {
       "eventId": "1975",
       "relationType": "effect"
     },
@@ -47,6 +51,7 @@
     "1947",
     "1952",
     "1969",
+    "1970",
     "1975",
     "2013"
   ],

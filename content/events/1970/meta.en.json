@@ -1,0 +1,50 @@
+{
+  "slug": "1970",
+  "year": "1970",
+  "title": "Bhola Cyclone and the 1970 Election",
+  "subtitle": "Disaster, democratic mandate, and the final crisis of Pakistan's eastern wing.",
+  "summary": "In late 1970, East Pakistan was shaken first by the catastrophic Bhola cyclone of 12 November and then by Pakistan's first general election under universal adult franchise on 7 December. The cyclone exposed the scale of administrative neglect and regional inequality, while the election gave Sheikh Mujibur Rahman's Awami League an overwhelming democratic mandate. Together, the disaster and the denied transfer of power turned long-standing demands for autonomy into an immediate constitutional crisis on the eve of the Liberation War.",
+  "themeColor": "#4f6d5d",
+  "ctaLabel": "Explore 1970",
+  "heroTagline": "A natural disaster and a political verdict together pushed East Pakistan to the edge of rupture.",
+  "summarySourceIds": [
+    "bhola-cyclone-britannica",
+    "general-election-1970-banglapedia"
+  ],
+  "whyItMatters": "The events of 1970 matter because they showed both the vulnerability and the political will of East Pakistan. The Bhola cyclone intensified anger at state neglect, and the election established an unambiguous democratic claim to rule. When that mandate was blocked, the path from autonomy politics to national liberation became far shorter and more explosive.",
+  "whyItMattersSourceIds": [
+    "war-of-liberation-banglapedia",
+    "pakistan-banglapedia"
+  ],
+  "importance": "landmark",
+  "parentEvent": "1969",
+  "childEventIds": [
+    "1971"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1969",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1971",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1947",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1969",
+    "1971",
+    "1947"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation"
+}

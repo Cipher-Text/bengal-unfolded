@@ -10,14 +10,21 @@
   "whyItMatters": "১৯৬৯-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্রনেতৃত্ব, গণ-সংহতি ও স্বৈরবিরোধী জোট পূর্ব পাকিস্তানের রাজনৈতিক গতিপথকে আমূল বদলে দেয়।",
   "importance": "major",
   "parentEvent": "1966",
+  "childEventIds": [
+    "1970"
+  ],
   "relatedEvents": [
     {
       "eventId": "1966",
       "relationType": "cause"
     },
     {
-      "eventId": "1971",
+      "eventId": "1970",
       "relationType": "effect"
+    },
+    {
+      "eventId": "1971",
+      "relationType": "legacy"
     },
     {
       "eventId": "1990",
@@ -26,6 +33,7 @@
   ],
   "relatedEventIds": [
     "1966",
+    "1970",
     "1971",
     "1990"
   ],

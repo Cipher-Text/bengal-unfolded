@@ -1,0 +1,70 @@
+[
+  {
+    "year": "1 Jul 1970",
+    "title": "Representation is reset on a population basis",
+    "detail": "Under Yahya Khan, Pakistan's political framework gave East Pakistan the largest bloc in the National Assembly, setting the stage for an election in which Bengali votes could decisively shape the state's future.",
+    "sourceIds": [
+      "pakistan-banglapedia",
+      "general-election-1970-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "12 Nov 1970",
+    "title": "Bhola cyclone devastates coastal East Pakistan",
+    "detail": "The cyclone and storm surge killed hundreds of thousands and destroyed homes, boats, livestock, and entire coastal communities, exposing the scale of vulnerability in the delta.",
+    "sourceIds": [
+      "bhola-cyclone-britannica",
+      "general-election-1970-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Nov-Dec 1970",
+    "title": "Relief failures deepen anger in East Pakistan",
+    "detail": "The slow and criticized response to the cyclone strengthened public belief that the Pakistani state treated the eastern wing as disposable and politically secondary.",
+    "sourceIds": [
+      "bhola-cyclone-britannica",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  },
+  {
+    "year": "7 Dec 1970",
+    "title": "General election gives Awami League a clear majority",
+    "detail": "In Pakistan's first general election based on one person, one vote, the Awami League won overwhelmingly in East Pakistan and secured a majority in the National Assembly.",
+    "sourceIds": [
+      "general-election-1970-banglapedia",
+      "pakistan-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Dec 1970-Mar 1971",
+    "title": "Denied transfer of power triggers a final constitutional crisis",
+    "detail": "The refusal of Pakistan's ruling establishment to transfer power to the majority party converted electoral victory into mass confrontation, carrying East Pakistan from constitutional struggle toward liberation war.",
+    "sourceIds": [
+      "war-of-liberation-banglapedia",
+      "pakistan-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "war"
+    ]
+  }
+]

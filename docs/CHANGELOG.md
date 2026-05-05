@@ -4,6 +4,11 @@
 
 ### Completed
 
+- Added the missing `1970` prewar crisis chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1970/`.
+  - Sources: Added shared resources covering the Bhola cyclone, the 1970 general election, and Banglapedia background on Pakistan and the Liberation War.
+  - Figures: Added `yahya-khan`.
+  - Hierarchy: Rewired the autonomy-to-war chain from `1969 -> 1971` to `1969 -> 1970 -> 1971`.
 - Added the missing `1946` Direct Action Day chapter:
   - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1946/`.
   - Sources: Added dedicated shared resources for Direct Action Day and the 1946 Calcutta riot.
