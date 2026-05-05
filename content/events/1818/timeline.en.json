@@ -1,0 +1,41 @@
+[
+  {
+    "year": "1818",
+    "title": "Haji Shariatullah launches the Faraizi reform current",
+    "detail": "The movement began by emphasizing obligatory Islamic practices and moral reform among Muslim rural communities in eastern Bengal.",
+    "sourceIds": [
+      "faraizi-movement-banglapedia",
+      "haji-shariatullah-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1820s-1840",
+    "title": "Organized networks spread through agrarian society",
+    "detail": "Faraizi activism expanded through village-level organization, and its social authority increasingly intersected with peasant grievances against oppressive local structures.",
+    "sourceIds": [
+      "faraizi-movement-banglapedia",
+      "faraizi-movement-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "Muslim peasant political consciousness is strengthened",
+    "detail": "The movement left a durable legacy in eastern Bengal's social and political history by linking religious reform with collective rural mobilization.",
+    "sourceIds": [
+      "faraizi-movement-banglapedia",
+      "faraizi-movement-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

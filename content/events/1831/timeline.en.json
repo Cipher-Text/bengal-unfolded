@@ -1,0 +1,41 @@
+[
+  {
+    "year": "Late 1820s-1831",
+    "title": "Titumir's reformist and anti-oppression network expands",
+    "detail": "Religious mobilization and rural organizing in parts of Bengal built a resistance base against exploitative local power and colonial backing.",
+    "sourceIds": [
+      "titu-mir-banglapedia",
+      "titu-mir-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1831",
+    "title": "Bamboo fort at Narkelberia becomes the rebellion's center",
+    "detail": "Titumir's followers fortified Narkelberia with bamboo defenses and confronted Company-allied forces in a direct armed showdown.",
+    "sourceIds": [
+      "narkelberia-banglapedia",
+      "titu-mir-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "Long-term consequence",
+    "title": "A durable symbol of peasant-Muslim resistance",
+    "detail": "Though suppressed militarily, the uprising endured in regional memory as a key chapter of anti-colonial rural defiance in Bengal.",
+    "sourceIds": [
+      "titu-mir-banglapedia",
+      "titu-mir-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

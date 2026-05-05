@@ -20,6 +20,8 @@
   "importance": "major",
   "parentEvent": "1765",
   "childEventIds": [
+    "1818",
+    "1831",
     "1857"
   ],
   "relatedEvents": [

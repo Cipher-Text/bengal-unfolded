@@ -1,0 +1,47 @@
+{
+  "slug": "1818",
+  "year": "1818",
+  "title": "Faraizi Movement Begins in Eastern Bengal",
+  "subtitle": "A major Muslim reform and agrarian mobilization emerges under Haji Shariatullah.",
+  "summary": "From 1818, Haji Shariatullah's Faraizi movement spread across parts of eastern Bengal as a religious reform movement that also intersected with agrarian grievances under colonial and zamindari structures. It promoted Islamic obligations and social discipline while building organized rural networks among Muslim peasants.",
+  "themeColor": "#5d6a3a",
+  "ctaLabel": "Explore 1818",
+  "heroTagline": "The Faraizi movement joined religious reform with rural social mobilization in colonial Bengal.",
+  "summarySourceIds": [
+    "faraizi-movement-banglapedia",
+    "faraizi-movement-wikipedia"
+  ],
+  "whyItMatters": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+  "whyItMattersSourceIds": [
+    "faraizi-movement-banglapedia",
+    "haji-shariatullah-banglapedia"
+  ],
+  "importance": "major",
+  "parentEvent": "1793",
+  "relatedEvents": [
+    {
+      "eventId": "1793",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1857",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1906",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1793",
+    "1857",
+    "1906"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance"
+}

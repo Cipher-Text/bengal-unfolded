@@ -1,0 +1,41 @@
+[
+  {
+    "year": "১৮১৮",
+    "title": "হাজী শরীয়তুল্লাহ ফরায়েজি সংস্কারধারার সূচনা করেন",
+    "detail": "পূর্ব বাংলার মুসলিম গ্রামীণ সমাজে ফরজ ইবাদত পালনের ওপর জোর এবং নৈতিক-ধর্মীয় সংস্কারের মাধ্যমে আন্দোলনের শুরু হয়।",
+    "sourceIds": [
+      "faraizi-movement-banglapedia",
+      "haji-shariatullah-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "১৮২০-এর দশক-১৮৪০",
+    "title": "গ্রামীণ কৃষকসমাজে সংগঠিত নেটওয়ার্ক বিস্তার লাভ করে",
+    "detail": "ফরায়েজি কার্যক্রম গ্রামভিত্তিক সংগঠনের মাধ্যমে ছড়িয়ে পড়ে এবং স্থানীয় নিপীড়নবিরোধী কৃষক-অসন্তোষের সঙ্গে সামাজিকভাবে জড়িয়ে যায়।",
+    "sourceIds": [
+      "faraizi-movement-banglapedia",
+      "faraizi-movement-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদি ফল",
+    "title": "মুসলিম কৃষক-রাজনৈতিক চেতনা আরও সুসংগঠিত হয়",
+    "detail": "ধর্মীয় সংস্কারকে সমষ্টিগত গ্রামীণ সংগঠনের সঙ্গে যুক্ত করে আন্দোলনটি পূর্ব বাংলার সামাজিক-রাজনৈতিক ইতিহাসে স্থায়ী প্রভাব রেখে যায়।",
+    "sourceIds": [
+      "faraizi-movement-banglapedia",
+      "faraizi-movement-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]
