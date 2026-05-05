@@ -1,0 +1,156 @@
+{
+  "ok_count": 24,
+  "bad_count": 4,
+  "bad": [
+    {
+      "id": "abdul-jabbar",
+      "image": "/figures/abdul-jabbar.jpg",
+      "issue": "invalid_mime",
+      "mime": "data\n",
+      "size": 7129
+    },
+    {
+      "id": "abdul-jabbar-1952",
+      "image": "/figures/abdul-jabbar-1952.jpg",
+      "issue": "invalid_mime",
+      "mime": "data\n",
+      "size": 7129
+    },
+    {
+      "id": "ak-fazlul-huq",
+      "image": "/figures/ak-fazlul-huq.jpg",
+      "issue": "invalid_mime",
+      "mime": "data\n",
+      "size": 306907
+    },
+    {
+      "id": "alauddin-al-azad",
+      "image": "/figures/alauddin-al-azad.jpg",
+      "issue": "invalid_mime",
+      "mime": "data\n",
+      "size": 36414
+    }
+  ],
+  "ok": [
+    {
+      "id": "abdul-gaffar-choudhury",
+      "image": "/figures/abdul-gaffar-choudhury.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1890x1420, components 3\n",
+      "size": 529416
+    },
+    {
+      "id": "abdul-halim-chowdhury",
+      "image": "/figures/abdul-halim-chowdhury.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 834x1024, components 3\n",
+      "size": 132230
+    },
+    {
+      "id": "abdul-hamid-khan-bhashani",
+      "image": "/figures/abdul-hamid-khan-bhashani.jpg",
+      "mime": "jpeg image data, exif standard: [tiff image data, little-endian, direntries=8, orientation=upper-left, xresolution=110, yresolution=118, resolutionunit=2, software=acdsee 16, datetime=2015:08:19 12:41:32], baseline, precision 8, 948x900, components 3\n",
+      "size": 525177
+    },
+    {
+      "id": "abdul-hannan-masud",
+      "image": "/figures/abdul-hannan-masud.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 16, exif standard: [tiff image data, little-endian, direntries=16, height=2752, bps=206, photometricintepretation=rgb, manufacturer=nikon corporation, model=nikon z 9, orientation=upper-left, width=4128], baseline, precision 8, 287x357, components 3\n",
+      "size": 125402
+    },
+    {
+      "id": "abdul-malek-ukil",
+      "image": "/figures/abdul-malek-ukil.svg",
+      "mime": "svg scalable vector graphics image\n",
+      "size": 90163
+    },
+    {
+      "id": "abdul-mannan",
+      "image": "/figures/abdul-mannan.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 72x72, segment length 16, exif standard: [tiff image data, big-endian, direntries=16, description=abdul mannan, manufacturer=lg electronics inc, model=a290, orientation=[*0*], xresolution=2306, yresolution=2314, resolutionunit=2, software=picasa 3.0, datetime=2014:12:18 16:00:54], baseline, precision 8, 447x705, components 3\n",
+      "size": 54481
+    },
+    {
+      "id": "abu-taher",
+      "image": "/figures/abu-taher.svg",
+      "mime": "svg scalable vector graphics image\n",
+      "size": 8567
+    },
+    {
+      "id": "adilur-rahman-khan",
+      "image": "/figures/adilur-rahman-khan.jpg",
+      "mime": "jpeg image data, exif standard: [tiff image data, little-endian, direntries=16, height=2752, bps=206, photometricintepretation=rgb, manufacturer=nikon corporation, model=nikon z 9, orientation=upper-left, width=4128], baseline, precision 8, 246x350, components 3\n",
+      "size": 45927
+    },
+    {
+      "id": "asif-nazrul",
+      "image": "/figures/asif-nazrul.png",
+      "mime": "png image data, 655 x 628, 8-bit/color rgba, non-interlaced\n",
+      "size": 555126
+    },
+    {
+      "id": "ataur-rahman-khan",
+      "image": "/figures/ataur-rahman-khan.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 16, exif standard: [tiff image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=2, software=adobe photoshop cs windows, datetime=2011:08:11 17:29:22], baseline, precision 8, 126x133, components 3\n",
+      "size": 27634
+    },
+    {
+      "id": "awami-league",
+      "image": "/figures/awami-league.svg",
+      "mime": "svg scalable vector graphics image\n",
+      "size": 27391
+    },
+    {
+      "id": "dhirendranath-datta",
+      "image": "/figures/dhirendranath-datta.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 72x72, segment length 16, exif standard: [tiff image data, little-endian, direntries=1], progressive, precision 8, 287x347, components 3\n",
+      "size": 14954
+    },
+    {
+      "id": "farhad-mazhar",
+      "image": "/figures/farhad-mazhar.png",
+      "mime": "png image data, 320 x 240, 8-bit/color rgb, non-interlaced\n",
+      "size": 72415
+    },
+    {
+      "id": "hasnat-abdullah",
+      "image": "/figures/hasnat-abdullah.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 16, exif standard: [tiff image data, little-endian, direntries=16, height=2752, bps=206, photometricintepretation=rgb, manufacturer=nikon corporation, model=nikon z 9, orientation=upper-left, width=4128], baseline, precision 8, 278x347, components 3\n",
+      "size": 147424
+    },
+    {
+      "id": "hussain-muhammad-ershad",
+      "image": "/figures/hussain-muhammad-ershad.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 72x72, segment length 16, exif standard: [tiff image data, little-endian, direntries=18, description=                               , manufacturer=sony, model=dsc-h50, orientation=upper-left, xresolution=276, yresolution=284, resolutionunit=2, datetime=2012:05:03 21:58:17], baseline, precision 8, 704x881, components 3\n",
+      "size": 85136
+    },
+    {
+      "id": "ila-mitra",
+      "image": "/figures/ila-mitra.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 96x96, segment length 16, comment: \"creator: gd-jpeg v1.0 (using ijg jpeg v80), quality = 100\", baseline, precision 8, 185x271, components 3\n",
+      "size": 31645
+    },
+    {
+      "id": "muhammad-yunus",
+      "image": "/figures/muhammad-yunus.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 16, exif standard: [tiff image data, big-endian, direntries=12, description=prof muhammad yunus also recipient of the us presidential medal of freedom and the congressional gold medal, manufacturer=nikon corporation, model=nikon d600, orientation=upper-left, xresolution=296, yresolution=304, resolutionunit=2, software=gimp 2.8.16, datetime=2019:02:20 01:13:15], baseline, precision 8, 2230x2973, components 3\n",
+      "size": 1700818
+    },
+    {
+      "id": "ohiullah-1952",
+      "image": "/figures/ohiullah-1952.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 16, baseline, precision 8, 382x317, components 3\n",
+      "size": 18283
+    },
+    {
+      "id": "shahidul-alam",
+      "image": "/figures/shahidul-alam.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 16, exif standard: [tiff image data, little-endian, direntries=11, manufacturer=leica camera ag, model=leica m10, orientation=upper-left, xresolution=172, yresolution=180, resolutionunit=2, software=adobe photoshop cc (macintosh), datetime=2017:11:04 21:28:25], baseline, precision 8, 2040x2722, components 3\n",
+      "size": 3435180
+    },
+    {
+      "id": "sheikh-mujibur-rahman",
+      "image": "/figures/sheikh-mujibur-rahman.jpg",
+      "mime": "jpeg image data, jfif standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1024x1219, components 3\n",
+      "size": 62604
+    }
+  ]
+}

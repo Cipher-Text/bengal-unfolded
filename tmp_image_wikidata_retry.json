@@ -1,827 +1,849 @@
 {
-  "generated_at": "2026-05-05T19:43:33.654Z",
-  "from": "image_sync_merged_report.json",
-  "added": 10,
+  "generated_at": "2026-05-05T19:46:54.791Z",
+  "checked": 202,
+  "added": 4,
   "results": [
     {
       "id": "abdul-jabbar",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg"
+      "status": "added_via_wikidata",
+      "image": "/figures/abdul-jabbar.jpg",
+      "qid": "Q4665426",
+      "match_name": "আবদুল জব্বার",
+      "filename": "Mohammed Abdul Jabbar (cropped).jpg",
+      "size": 7129
     },
     {
       "id": "abdul-jabbar-1952",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg"
+      "status": "added_via_wikidata",
+      "image": "/figures/abdul-jabbar-1952.jpg",
+      "qid": "Q4665426",
+      "match_name": "আবদুল জব্বার",
+      "filename": "Mohammed Abdul Jabbar (cropped).jpg",
+      "size": 7129
     },
     {
       "id": "abdul-karim-sahitya-bisharad",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/8/85/Abdul_Karim_Sahitya_Bisharad_real.jpg"
+      "status": "commons_download_failed",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdul%20Karim%20Sahitya%20Bisharad%20(1871-1953).svg",
+      "qid": "Q4665479"
     },
     {
       "id": "abdul-matin",
-      "status": "still_not_found"
+      "status": "commons_download_failed",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/AbdulMatin%20single.jpg",
+      "qid": "Q4665560"
     },
     {
       "id": "abdul-wahed-language",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abdullah-al-amin",
-      "status": "still_not_found"
+      "status": "commons_download_failed",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdullah%20Al%20Amin%2C%20Members%20of%20Parliament%20taking%20oath%2C%2013th%20National%20Parliamentary%20Election%2C%20Jatiya%20Sangsad%20Bhaban%2C%20Dhaka%2C%202026-02-17%20(cropped).jpg",
+      "qid": "Q138260642"
     },
     {
       "id": "abdur-rashid-tarkabagish",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abdus-salam-1952",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abdus-samad-azad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abdus-sattar",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abu-baker-majumder",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abu-osman-chowdhury",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abu-saleh-mohammad-akram",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abu-sayed-2024",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abu-sayeed-chowdhury",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Abu_Sayeed_Chowdhury_1960.jpg"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abul-barkat-1952",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Language_martyr%2C_Abul_Barkat.jpg"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abul-hashim",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/6/62/Abul_hashim.JPG"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abul-kalam-shamsuddin",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abul-kasem",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "abul-mansur-ahmad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "ahm-qamaruzzaman",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "ahmed-rafiq",
-      "status": "still_not_found"
+      "status": "commons_download_failed",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Ahmed%20Rafik%202009.jpg",
+      "qid": "Q16345021"
     },
     {
       "id": "ak-fazlul-huq",
-      "status": "still_not_found"
+      "status": "added_via_wikidata",
+      "image": "/figures/ak-fazlul-huq.jpg",
+      "qid": "Q3242246",
+      "match_name": "A. K. Fazlul Huq",
+      "filename": "A k fazlul hoque.jpg",
+      "size": 306907
     },
     {
       "id": "akhter-hossen",
-      "status": "still_not_found"
+      "status": "commons_download_failed",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Akhter%20Hossen%20during%20the%20Funeral%20of%20Osman%20Hadi%2002%20(cropped).jpg",
+      "qid": "Q132858678"
     },
     {
       "id": "alauddin-al-azad",
-      "status": "still_not_found"
+      "status": "added_via_wikidata",
+      "image": "/figures/alauddin-al-azad.jpg",
+      "qid": "Q3350219",
+      "match_name": "Alauddin Al Azad",
+      "filename": "Alauddin Al Azad.jpg",
+      "size": 36414
     },
     {
       "id": "alim-chowdhury",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "all-party-state-language-action-committee",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "altaf-mahmud",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "amanul-huq",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "amir-hossain-amu",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "anu-muhammad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "anwar-pasha",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "arif-sohel",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "asif-mahmud",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "asm-abdur-rab",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "atm-haider",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Abu_Taher_Mohammad_Haider%27s_grave_taken_by_Manik_on_17-2-11.jpg"
+      "status": "wikidata_no_image"
     },
     {
       "id": "badiul-alam",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/6/62/Badiul_Alam_Majumdar.jpg"
+      "status": "wikidata_no_image"
     },
     {
       "id": "bangladesh-nationalist-party",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "barkat-hossain",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "bidhan-chandra-roy",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "bijan-kumar-mukherjea",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "caretaker-transition-supporters-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "cc-biswas",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "chittagong-rashtrabhasha-sangram-parishad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "chittagong-university-students-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "communist-party-of-bangladesh",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "cr-dutta",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "cultural-workers-collective-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "cyril-radcliffe",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "dhaka-medical-college-students",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "dhaka-university-students",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Dhaka_University_Central_Student%27s_Union_%28DUCSU%29_building%2C_University_of_Dhaka_%282%29.jpg"
+      "status": "wikidata_no_image"
     },
     {
       "id": "dhaka-university-students-1990",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Dhaka_University_Central_Student%27s_Union_%28DUCSU%29_building%2C_University_of_Dhaka_%282%29.jpg"
+      "status": "wikidata_no_image"
     },
     {
       "id": "district-protesters-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "doctors-collective-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "east-pakistan-muslim-chhatra-league",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "eight-party-alliance",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "engineers-and-architects-collective-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "fahim-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "faisal-ahmed-shanto",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "families-of-martyrs-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "farhan-faiyaaz",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "fazle-rabbi",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "five-party-alliance",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "gaziul-huq",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "govinda-chandra-dev",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "hafizuddin-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "hamidur-rahman",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "hamidur-rahman-artist",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "hartal-and-blockade-organisers-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "hasanul-haq-inu",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "hasib-al-islam",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "human-rights-activists-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "humayun-kabir",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "huseyn-shaheed-suhrawardy",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "jahanara-imam",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Jahanara_Imam_1993.jpg"
+      "status": "wikidata_no_image"
     },
     {
       "id": "jahangir-alam",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "jahangirnagar-university-students-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "jamaat-e-islami-bangladesh",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "jasimuddin",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "jatiya-samajtantrik-dal",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "jawaharlal-nehru",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "jogendranath-mandal",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "journalists-collective-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "justice-shahabuddin-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "kader-siddique",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "kamal-hossain",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "kamal-lohani",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "kamruzzaman-tuku",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "kazi-golam-mahbub",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "kazi-motahar-hossain",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "kazi-nuruzzaman",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "khaled-mosharraf",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "khaleda-zia",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "khwaja-nazimuddin",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "khwaja-shahabuddin",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "kiran-shankar-roy",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "km-shafiullah",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "lawyers-collective-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "liaquat-ali-khan",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "lord-curzon",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "lord-louis-mountbatten",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "lutfun-nahar-luma",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mag-osmani",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mahatma-gandhi",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mahbub-ul-alam-chowdhury",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mahin-sarkar",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "major-jalil",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "major-zafar-imam",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "manik-mia",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mansur-ali",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "manzur-al-matin",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "matiur-rahman",
-      "status": "still_not_found"
+      "status": "commons_download_failed",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Bir%20Shreshto%20Flt.%20Lft.%20Matiur%20Rahman-6.png",
+      "qid": "Q6787619"
     },
     {
       "id": "maulana-akram-khan",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "md-enamul-hasan",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "medical-students-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mehedi-hasan",
-      "status": "still_not_found"
+      "status": "commons_download_failed",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/%E0%A6%AE%E0%A7%87%E0%A6%B9%E0%A7%87%E0%A6%A6%E0%A7%80%20%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%A8%20%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%9C%20(cropped).jpg",
+      "qid": "Q20676918"
     },
     {
       "id": "mir-mahfuzur-rahman-mugdho",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mir-shawkat-ali",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mofazzal-hossain-chowdhury-maya",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mohammad-toaha",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mostafa-kamal",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "moudud-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "muhammad-ali-jinnah",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "muhammad-shahidullah",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "mujahidul-islam-selim",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "munier-chowdhury",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "munir-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "munshi-abdur-rouf",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "muzaffar-ahmad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "nahid-islam",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "nasiruddin-patwary",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "nawab-salimullah",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "nazmul-huq",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "noor-mohammad-sheikh",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "novera-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "nur-hossain",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "nurul-amin",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "nusrat-tabassum",
-      "status": "still_download_failed",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/9/95/NUSRAT_TABASSUM_at_Launch_event_of_the_National_Citizen_Party_09.jpg"
+      "status": "wikidata_no_image"
     },
     {
       "id": "oli-ahad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "pinaki-bhattacharya",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "prafulla-chandra-ghosh",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "press-photographers-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "professional-associations-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "rabindranath-tagore",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "rafiq-uddin-ahmed-1952",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "rajshahi-university-students-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "rashed-khan-menon",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "rashidul-islam-rifat",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "rifat-rashid",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "riya-gope",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "ruhul-amin",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "sa-rahman",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "saima-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "sarat-chandra-bose",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "sarbadaliya-chhatra-oikya-parishad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "sarjis-alam",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "satya-ranjan-bakshi",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "seven-party-alliance",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shadik-kayem",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shafi-imam-rumi",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shafiur-rahman-1952",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shah-moazzem-hossain",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shaheed-azad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shaheed-rudro",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shahid-saber",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shahnaz-rahmatullah",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shamsul-alam",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shamsul-huq",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "shamsuzzoha",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "sheikh-hasina",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "sinthia-jaheen-ayesha",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "somnath-lahiri",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "street-procession-organisers-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "student-unity-twenty-two-organisations",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "sufia-kamal",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "suranjit-sengupta",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "surendranath-banerjea",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "swadhin-bangla-betar-artists",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "syama-prasad-mukherjee",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "syed-nazrul-islam",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "tahmid-abdullah",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "tahmid-al-mudabbir",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "tajuddin-ahmad",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "tamaddun-majlish",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "tamizuddin-khan",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "tariqul-islam",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "teachers-collective-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "tofail-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "unknown-protester",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "urban-protesters-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "vallabhbhai-patel",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "wasim-akram-2024",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "women-activists-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "workers-collective-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "workers-party-of-bangladesh",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "writers-and-intellectuals-collective-1990",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "yahya-khan",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "yamin-mist",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "zaber-ahmed",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "zahid-hossain",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "ziaur-rahman",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     },
     {
       "id": "zulkarnain-saer",
-      "status": "still_not_found"
+      "status": "wikidata_no_image"
     }
   ]
 }
