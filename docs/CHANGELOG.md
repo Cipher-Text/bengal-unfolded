@@ -4,6 +4,16 @@
 
 ### Completed
 
+- Period-level refactor for the long arc from `1204` to `1757`:
+  - Model: Added three historical period IDs in `src/types/content.ts`:
+    - `transition-to-sultanate-formation` (`1204–1352`)
+    - `independent-bengal-sultanate-era` (`1352–1576`)
+    - `mughal-incorporation-and-consolidation` (`1576–1757`)
+  - Validation: Extended `scripts/validate-content.mjs` `allowedPeriodIds` to enforce the new period IDs.
+  - Content: Added new period metadata entities in `content/periods/` (EN/BN) for all three periods.
+  - Backfill: Assigned `periodId`/`periodLabel` across pre-colonial event chapters (`1204`, `1352`, `1414`, `1494`, `1576`, `1612`, `1704`) while keeping `1757` in `colonial-rule-and-resistance` as the transition boundary.
+  - Docs: Updated `docs/CONTENT_MODEL.md` supported period ID list.
+  - UI/runtime: No code-path changes required because period pages and event-period filters already consume period IDs generically.
 - Added a new `2018` event cluster with four child chapters:
   - Content: Created bilingual parent metadata plus four bilingual child event chapters for the Quota Reform Movement, Safe Road Movement, Digital Security Act, and 11th Parliamentary Election.
   - Sources: Added shared resources for Human Rights Watch's `Creating Panic` report, Human Rights Watch's road-safety protest statement, and Amnesty International's Digital Security Act coverage.

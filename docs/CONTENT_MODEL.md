@@ -115,6 +115,9 @@ Contract companion docs:
 
 Supported period IDs:
 
+- `transition-to-sultanate-formation`
+- `independent-bengal-sultanate-era`
+- `mughal-incorporation-and-consolidation`
 - `colonial-rule-and-resistance`
 - `partition-and-late-colonial-politics`
 - `pakistan-period-and-national-awakening`

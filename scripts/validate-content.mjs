@@ -48,6 +48,9 @@ async function main() {
   const allowedImportance = new Set(["landmark", "major", "high", "medium", "reference"]);
   const allowedRelationTypes = new Set(["cause", "effect", "background", "parallel", "legacy", "contrast"]);
   const allowedPeriodIds = new Set([
+    "transition-to-sultanate-formation",
+    "independent-bengal-sultanate-era",
+    "mughal-incorporation-and-consolidation",
     "colonial-rule-and-resistance",
     "partition-and-late-colonial-politics",
     "pakistan-period-and-national-awakening",

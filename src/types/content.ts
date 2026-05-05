@@ -342,6 +342,9 @@ export const SUPPORTED_BOOK_IDS = [
   "archive-collection",
 ] as const;
 export const SUPPORTED_PERIOD_IDS = [
+  "transition-to-sultanate-formation",
+  "independent-bengal-sultanate-era",
+  "mughal-incorporation-and-consolidation",
   "colonial-rule-and-resistance",
   "partition-and-late-colonial-politics",
   "pakistan-period-and-national-awakening",
