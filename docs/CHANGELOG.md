@@ -4,6 +4,10 @@
 
 ### Completed
 
+- Added the missing `1940` Lahore Resolution chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1940/`.
+  - Sources: Added dedicated shared resources for Banglapedia and Britannica coverage of the Lahore Resolution.
+  - Hierarchy: Rewired `1947` to use `1940` as its parent event, making the late-colonial partition path clearer in timeline discovery.
 - Added the missing `1905` event chapter for the Partition of Bengal:
   - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1905/`.
   - Sources: Added dedicated shared resources for the 1905 partition, Swadeshi movement, and Dhaka Nawab family context.

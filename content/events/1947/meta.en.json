@@ -17,11 +17,16 @@
     "the-spoils-of-partition"
   ],
   "importance": "landmark",
+  "parentEvent": "1940",
   "childEventIds": [
     "1952",
     "1971"
   ],
   "relatedEvents": [
+    {
+      "eventId": "1940",
+      "relationType": "cause"
+    },
     {
       "eventId": "1906",
       "relationType": "background"
@@ -44,6 +49,7 @@
     }
   ],
   "relatedEventIds": [
+    "1940",
     "1906",
     "1911",
     "1943",
