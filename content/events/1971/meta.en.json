@@ -19,7 +19,7 @@
   "importance": "landmark",
   "parentEvent": "1970",
   "childEventIds": [
-    "1975"
+    "1972"
   ],
   "relatedEvents": [
     {
@@ -39,8 +39,12 @@
       "relationType": "cause"
     },
     {
-      "eventId": "1975",
+      "eventId": "1972",
       "relationType": "effect"
+    },
+    {
+      "eventId": "1975",
+      "relationType": "legacy"
     },
     {
       "eventId": "2013",
@@ -52,6 +56,7 @@
     "1952",
     "1969",
     "1970",
+    "1972",
     "1975",
     "2013"
   ],

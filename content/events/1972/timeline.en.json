@@ -1,0 +1,69 @@
+[
+  {
+    "year": "10 Jan 1972",
+    "title": "Sheikh Mujibur Rahman returns to independent Bangladesh",
+    "detail": "After release from Pakistani custody, Mujib returned and became the central political authority of the postwar state, turning wartime legitimacy into domestic government.",
+    "sourceIds": [
+      "bangladesh-since-independence-britannica",
+      "constitutional-development-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Jan 1972",
+    "title": "Parliamentary government begins under a provisional constitutional order",
+    "detail": "The new state shifted from wartime proclamation to a parliamentary framework, with a cabinet system and a search for stable civilian institutions after liberation.",
+    "sourceIds": [
+      "constitution-banglapedia",
+      "constitutional-development-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "10-11 Apr 1972",
+    "title": "Constituent Assembly begins work and forms a drafting committee",
+    "detail": "The Constituent Assembly first met on 10 April, and on the following day formed a 34-member Constitution Drafting Committee chaired by Dr Kamal Hossain.",
+    "sourceIds": [
+      "constitutional-development-banglapedia",
+      "constitution-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "4 Nov 1972",
+    "title": "Constitution is adopted",
+    "detail": "The Constituent Assembly adopted the Constitution of the People's Republic of Bangladesh, setting out parliamentary government, fundamental rights, and the state principles of nationalism, socialism, democracy, and secularism.",
+    "sourceIds": [
+      "constitution-banglapedia",
+      "constitutional-development-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "16 Dec 1972",
+    "title": "Constitution takes effect on Victory Day",
+    "detail": "The constitution came into force on the first anniversary of victory, symbolically binding the memory of liberation to the legal order of the new republic.",
+    "sourceIds": [
+      "constitution-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "year": "Early 1974",
+    "title": "Inflation, scarcity, and rural vulnerability deepen",
+    "detail": "Postwar economic weakness, distribution failures, black-market pressures, and rising prices had already pushed many households toward crisis before the monsoon floods intensified the emergency.",
+    "sourceIds": [
+      "famine-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "9 Feb 1974",
+    "title": "Special Powers Act is enacted",
+    "detail": "The Special Powers Act expanded preventive detention and extraordinary state authority, indicating that the government was responding to instability with a more coercive legal framework.",
+    "sourceIds": [
+      "special-powers-act-1974-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Mid-1974",
+    "title": "Floods and food-distribution failures worsen famine conditions",
+    "detail": "Severe flooding and a weak food-rationing system accelerated entitlement collapse in rural areas, where laborers and small peasants were hit hardest.",
+    "sourceIds": [
+      "famine-banglapedia",
+      "bangladesh-famine-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Jul 1974-Jan 1975",
+    "title": "Starvation, displacement, and distress migration spread",
+    "detail": "As the crisis deepened, people sold assets, left villages, and moved toward towns in search of food, while mortality rose sharply and public confidence in the state deteriorated.",
+    "sourceIds": [
+      "famine-banglapedia",
+      "bangladesh-famine-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "economy"
+    ]
+  },
+  {
+    "year": "Long-term impact",
+    "title": "Crisis politics narrows the path toward 1975",
+    "detail": "The famine and the turn toward exceptional state power hardened the atmosphere of fear, blame, and centralized control that preceded the BAKSAL transition and the violence of 1975.",
+    "sourceIds": [
+      "special-powers-act-1974-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  }
+]

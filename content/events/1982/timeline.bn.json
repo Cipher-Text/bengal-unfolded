@@ -1,0 +1,69 @@
+[
+  {
+    "year": "১৯৭৯-১৯৮১",
+    "title": "জিয়া-পরবর্তী বেসামরিক রাজনীতি ভঙ্গুরই থেকে যায়",
+    "detail": "সামরিক-আইন পর্বের পর বাংলাদেশ আনুষ্ঠানিকভাবে নির্বাচনী রাজনীতিতে ফিরলেও ১৯৭৫-পরবর্তী শাসনব্যবস্থা অস্থির, বিভক্ত এবং সামরিক প্রভাবের প্রতি গভীরভাবে ঝুঁকিপূর্ণই ছিল।",
+    "sourceIds": [
+      "bangladesh-from-mujib-to-ershad",
+      "military-rule-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "২৪ মার্চ ১৯৮২",
+    "title": "এরশাদ ক্ষমতা দখল করেন",
+    "detail": "সেনাপ্রধান হুসেইন মুহম্মদ এরশাদ প্রেসিডেন্ট আবদুস সাত্তারকে অপসারণ করে সামরিক আইন জারি করেন এবং রাষ্ট্রক্ষমতার নিয়ন্ত্রণ নেন; এর মাধ্যমে নির্বাচিত সরকার পতিত হয়।",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৮২",
+    "title": "সাংবিধানিক শাসন সংকুচিত হয় এবং সামরিক কর্তৃত্ব বিস্তৃত হয়",
+    "detail": "নতুন শাসনব্যবস্থা স্বাভাবিক সাংবিধানিক প্রক্রিয়া সংকুচিত করে, সামরিক প্রশাসনকে শক্তিশালী করে, এবং রাষ্ট্রকে জরুরি-ধরনের নির্বাহী নিয়ন্ত্রণের অধীনে পুনর্গঠিত করতে থাকে।",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৮৩-১৯৮৬",
+    "title": "সামরিক শাসন বেসামরিক বৈধতা খুঁজতে থাকে",
+    "detail": "এরশাদ নিয়ন্ত্রিত রাজনৈতিক উন্মুক্ততা, নতুন দলগঠন, এবং প্রেসিডেন্টকেন্দ্রিক পুনর্বিন্যাসের মাধ্যমে সামরিক শাসনকে বেসামরিক রূপ দিতে চেষ্টা করেন, কিন্তু কর্তৃত্ববাদী নিয়ন্ত্রণ ছাড়েন না।",
+    "sourceIds": [
+      "jatiya-party-banglapedia",
+      "bangladesh-from-mujib-to-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদি প্রভাব",
+    "title": "বিরোধী জোট ও রাজপথের প্রতিরোধ সংগঠিত হয়",
+    "detail": "১৯৮২-এ জন্ম নেওয়া শাসনব্যবস্থাই সেই বিরোধী জোট, ছাত্রসংগঠন, এবং স্বৈরাচারবিরোধী কৌশল তৈরি করে যা পরে ১৯৯০-এর গণঅভ্যুত্থানে একত্রিত হয়।",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "bangladesh-under-mujib-zia-and-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

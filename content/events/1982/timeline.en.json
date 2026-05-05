@@ -1,0 +1,69 @@
+[
+  {
+    "year": "1979-1981",
+    "title": "Civilian politics remains fragile after the Zia era",
+    "detail": "Bangladesh returned formally to electoral politics after martial-law transitions, but the post-1975 order remained unstable, factional, and highly exposed to military influence.",
+    "sourceIds": [
+      "bangladesh-from-mujib-to-ershad",
+      "military-rule-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "24 Mar 1982",
+    "title": "Ershad seizes power",
+    "detail": "Army Chief Hussain Muhammad Ershad ousted President Abdus Sattar, declared martial law, and took control of the state, ending the elected government.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1982",
+    "title": "Constitutional order is curtailed and military authority expands",
+    "detail": "The new regime suspended normal constitutional processes, elevated military administrators, and reorganized the state around emergency-style executive control.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1983-1986",
+    "title": "Military rule seeks civilian legitimacy",
+    "detail": "Ershad gradually civilianized the regime through controlled political openings, new party organization, and presidential restructuring without surrendering authoritarian control.",
+    "sourceIds": [
+      "jatiya-party-banglapedia",
+      "bangladesh-from-mujib-to-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Long-term impact",
+    "title": "Opposition alliances and street resistance consolidate",
+    "detail": "The regime born in 1982 produced the alliances, student mobilization, and anti-authoritarian repertoire that later converged in the democratic uprising of 1990.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "bangladesh-under-mujib-zia-and-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

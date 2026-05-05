@@ -1,0 +1,50 @@
+{
+  "slug": "1982",
+  "year": "1982",
+  "title": "Ershad's Coup and the Return of Military Rule",
+  "subtitle": "The elected post-1975 order gives way to another military-backed regime.",
+  "summary": "On 24 March 1982, Army Chief Hussain Muhammad Ershad seized power, removed President Abdus Sattar's elected government, suspended parts of the constitution, and imposed martial law. The coup ended a fragile civilian experiment that had followed the turbulence of the late 1970s and reinserted the military directly into the core of Bangladesh's political order. What followed was not only a change of ruler but the beginning of a new authoritarian phase that reshaped institutions, party politics, and the language of democratic resistance.",
+  "themeColor": "#5c6173",
+  "ctaLabel": "Explore 1982",
+  "heroTagline": "Another coup turned post-liberation instability into a renewed era of military-backed rule.",
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "whyItMatters": "The 1982 coup matters because it explains why the 1990 uprising took the form it did. Ershad's takeover showed that the constitutional order remained deeply vulnerable to military intervention, and it set in motion the authoritarian system, opposition alliances, and protest cultures that later converged to force democratic transition.",
+  "whyItMattersSourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "importance": "major",
+  "parentEvent": "1975",
+  "childEventIds": [
+    "1990"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1975",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1990",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2006",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1975",
+    "1990",
+    "2006"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition"
+}

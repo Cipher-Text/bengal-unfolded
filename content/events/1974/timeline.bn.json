@@ -1,0 +1,71 @@
+[
+  {
+    "year": "১৯৭৪-এর শুরু",
+    "title": "মূল্যস্ফীতি, ঘাটতি ও গ্রামীণ দুর্বলতা আরও গভীর হয়",
+    "detail": "যুদ্ধোত্তর অর্থনৈতিক দুর্বলতা, বণ্টন ব্যবস্থার ব্যর্থতা, কালোবাজারি ও মূল্যবৃদ্ধি বর্ষার বন্যার আগেই বহু পরিবারকে সংকটের মুখে ঠেলে দিয়েছিল।",
+    "sourceIds": [
+      "famine-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "৯ ফেব্রুয়ারি ১৯৭৪",
+    "title": "স্পেশাল পাওয়ার্স অ্যাক্ট প্রণীত হয়",
+    "detail": "স্পেশাল পাওয়ার্স অ্যাক্ট প্রতিরোধমূলক আটক ও রাষ্ট্রের ব্যতিক্রমী ক্ষমতা বাড়িয়ে দেয়, যা দেখায় যে সরকার অস্থিরতার জবাব আরও কঠোর আইনগত কাঠামো দিয়ে দিচ্ছে।",
+    "sourceIds": [
+      "special-powers-act-1974-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭৪-এর মাঝামাঝি",
+    "title": "বন্যা ও খাদ্যবণ্টন ব্যর্থতা দুর্ভিক্ষকে তীব্র করে",
+    "detail": "ভয়াবহ বন্যা ও দুর্বল খাদ্যবণ্টন ব্যবস্থা গ্রামীণ মানুষের ভোগক্ষমতাকে ভেঙে দেয়; বিশেষত দিনমজুর, ক্ষুদ্র কৃষক ও নিম্নআয়ের মানুষ সবচেয়ে বেশি ক্ষতিগ্রস্ত হয়।",
+    "sourceIds": [
+      "famine-banglapedia",
+      "bangladesh-famine-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "culture"
+    ]
+  },
+  {
+    "year": "জুলাই ১৯৭৪-জানুয়ারি ১৯৭৫",
+    "title": "অনাহার, স্থানচ্যুতি ও দুর্দশাগ্রস্ত অভিবাসন ছড়িয়ে পড়ে",
+    "detail": "সংকট বাড়ার সাথে সাথে মানুষ সম্পদ বিক্রি করে, গ্রাম ছেড়ে শহরমুখী হয়, এবং মৃত্যুহার বাড়তে থাকে; রাষ্ট্রের প্রতি জনবিশ্বাস দ্রুত ক্ষয়ে যায়।",
+    "sourceIds": [
+      "famine-banglapedia",
+      "bangladesh-famine-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "economy"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদি প্রভাব",
+    "title": "সংকট-রাজনীতি ১৯৭৫-এর পথ সংকুচিত করে",
+    "detail": "দুর্ভিক্ষ এবং ব্যতিক্রমী রাষ্ট্রীয় ক্ষমতার বিস্তার ভয়, দোষারোপ ও কেন্দ্রীভূত নিয়ন্ত্রণের এমন এক পরিবেশ তৈরি করে যা বাকশাল ও ১৯৭৫-এর সহিংসতার আগে থেকেই জমে উঠছিল।",
+    "sourceIds": [
+      "special-powers-act-1974-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  }
+]

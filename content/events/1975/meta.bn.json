@@ -9,9 +9,9 @@
   "heroTagline": "১৯৭৫ একক ঘটনা নয়; এটি ছিল প্রজাতন্ত্রের গতিপথ বদলে দেওয়া ধারাবাহিক ভাঙন।",
   "whyItMatters": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
   "importance": "major",
-  "parentEvent": "1971",
+  "parentEvent": "1974",
   "childEventIds": [
-    "1990",
+    "1982",
     "2006"
   ],
   "relatedEvents": [
@@ -20,8 +20,20 @@
       "relationType": "cause"
     },
     {
-      "eventId": "1990",
+      "eventId": "1972",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1974",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1982",
       "relationType": "effect"
+    },
+    {
+      "eventId": "1990",
+      "relationType": "legacy"
     },
     {
       "eventId": "2006",
@@ -30,6 +42,9 @@
   ],
   "relatedEventIds": [
     "1971",
+    "1972",
+    "1974",
+    "1982",
     "1990",
     "2006"
   ],

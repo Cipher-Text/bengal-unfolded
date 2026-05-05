@@ -4,6 +4,20 @@
 
 ### Completed
 
+- Added the missing `1982` authoritarian-transition chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1982/`.
+  - Sources: Added shared resources for Ershad's political order and broader 1980s Bangladesh history.
+  - Figures: Added `hussain-muhammad-ershad` and `abdus-sattar`.
+  - Hierarchy: Rewired the late post-liberation chain from `1975 -> 1990` to `1975 -> 1982 -> 1990`.
+- Added the missing `1974` crisis chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1974/`.
+  - Sources: Added shared resources for the 1974 famine, Banglapedia's famine history, and the Special Powers Act.
+  - Hierarchy: Rewired the post-liberation crisis chain from `1972 -> 1975` to `1972 -> 1974 -> 1975`.
+- Added the missing `1972` state-formation chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1972/`.
+  - Sources: Added shared resources for the 1972 Constitution, constitutional development, and early post-independence political transition.
+  - Figures: Added `kamal-hossain`.
+  - Hierarchy: Rewired the immediate postwar chain from `1971 -> 1975` to `1971 -> 1972 -> 1975`.
 - Added the missing `1970` prewar crisis chapter:
   - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1970/`.
   - Sources: Added shared resources covering the Bhola cyclone, the 1970 general election, and Banglapedia background on Pakistan and the Liberation War.

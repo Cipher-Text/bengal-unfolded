@@ -9,9 +9,9 @@
   "heroTagline": "1975 was not a single incident, but a chain of ruptures that changed the republic.",
   "whyItMatters": "The crises of 1975 remain central to understanding Bangladesh's later constitutional shifts, military interventions, and contested memory of legitimacy and democracy.",
   "importance": "major",
-  "parentEvent": "1971",
+  "parentEvent": "1974",
   "childEventIds": [
-    "1990",
+    "1982",
     "2006"
   ],
   "relatedEvents": [
@@ -20,8 +20,20 @@
       "relationType": "cause"
     },
     {
-      "eventId": "1990",
+      "eventId": "1972",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1974",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1982",
       "relationType": "effect"
+    },
+    {
+      "eventId": "1990",
+      "relationType": "legacy"
     },
     {
       "eventId": "2006",
@@ -30,6 +42,9 @@
   ],
   "relatedEventIds": [
     "1971",
+    "1972",
+    "1974",
+    "1982",
     "1990",
     "2006"
   ],
