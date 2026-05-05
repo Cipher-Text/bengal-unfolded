@@ -1,0 +1,3808 @@
+{
+  "generated_at": "2026-05-05T18:38:16.538Z",
+  "scope": "all key figures linked to events with slug-year 1900-2024",
+  "event_slugs_included": [
+    "1905",
+    "1906",
+    "1911",
+    "1940",
+    "1943",
+    "1946",
+    "1947",
+    "1952",
+    "1954",
+    "1958",
+    "1966",
+    "1969",
+    "1970",
+    "1971",
+    "1972",
+    "1974",
+    "1975",
+    "1982",
+    "1990",
+    "2006",
+    "2009",
+    "2013",
+    "2014",
+    "2018",
+    "2018-digital-security-act",
+    "2018-election",
+    "2018-quota-reform",
+    "2018-safe-road",
+    "2024"
+  ],
+  "count": 226,
+  "figures": [
+    {
+      "id": "abdul-gaffar-choudhury",
+      "name_en": "Abdul Gaffar Choudhury",
+      "name_bn": "আবদুল গাফ্ফার চৌধুরী",
+      "role": "Lyricist and Witness",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Gaffar Choudhury Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Gaffar Choudhury",
+        "search_query_news": "Abdul Gaffar Choudhury Bangladesh image",
+        "context_hint": "The immediate aftermath of the February 1952 killings.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdul-halim-chowdhury",
+      "name_en": "Abdul Halim Chowdhury",
+      "name_bn": "আবদুল হালিম চৌধুরী",
+      "role": "Academic and Martyred Intellectual",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Halim Chowdhury Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Halim Chowdhury",
+        "search_query_news": "Abdul Halim Chowdhury Bangladesh image",
+        "context_hint": "Dhaka’s academic community under occupation and repression, 1971.",
+        "tags": [
+          "intellectual",
+          "academia",
+          "martyrdom"
+        ]
+      }
+    },
+    {
+      "id": "abdul-hamid-khan-bhashani",
+      "name_en": "Abdul Hamid Khan Bhashani",
+      "name_bn": "আবদুল হামিদ খান ভাসানী",
+      "role": "Mass Political Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Hamid Khan Bhashani Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Hamid Khan Bhashani",
+        "search_query_news": "Abdul Hamid Khan Bhashani Bangladesh image",
+        "context_hint": "East Bengal in the late 1940s and early 1950s.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdul-hannan-masud",
+      "name_en": "Abdul Hannan Masud",
+      "name_bn": "আবদুল হান্নান মাসউদ",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": true,
+      "image": "/figures/2024/abdul-hannan-masud.jpg",
+      "details": {
+        "search_query_primary": "Abdul Hannan Masud Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Hannan Masud",
+        "search_query_news": "Abdul Hannan Masud Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "abdul-jabbar",
+      "name_en": "Abdul Jabbar",
+      "name_bn": "আবদুল জব্বার",
+      "role": "Patriotic Singer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Jabbar Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Jabbar",
+        "search_query_news": "Abdul Jabbar Bangladesh image",
+        "context_hint": "Cultural mobilization tied to the Liberation War era.",
+        "tags": [
+          "culture",
+          "song",
+          "memory"
+        ]
+      }
+    },
+    {
+      "id": "abdul-jabbar-1952",
+      "name_en": "Abdul Jabbar",
+      "name_bn": "আবদুল জব্বার",
+      "role": "Language Martyr",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Jabbar Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Jabbar",
+        "search_query_news": "Abdul Jabbar Bangladesh image",
+        "context_hint": "Dhaka Medical College area during the 21 February demonstrations.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdul-karim-sahitya-bisharad",
+      "name_en": "Abdul Karim Sahitya Bisharad",
+      "name_bn": "আবদুল করিম সাহিত্যবিশারদ",
+      "role": "Cultural Archivist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Karim Sahitya Bisharad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Karim Sahitya Bisharad",
+        "search_query_news": "Abdul Karim Sahitya Bisharad Bangladesh image",
+        "context_hint": "Longer Bengali literary history remembered in the partition era.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdul-malek-ukil",
+      "name_en": "Abdul Malek Ukil",
+      "name_bn": "আবদুল মালেক উকিল",
+      "role": "Student Activist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Malek Ukil Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Malek Ukil",
+        "search_query_news": "Abdul Malek Ukil Bangladesh image",
+        "context_hint": "Student mobilization in the late 1940s and early 1950s.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdul-mannan",
+      "name_en": "Abdul Mannan",
+      "name_bn": "আবদুল মান্নান",
+      "role": "Freedom Fighter",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Mannan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Mannan",
+        "search_query_news": "Abdul Mannan Bangladesh image",
+        "context_hint": "Grassroots wartime participation networks, 1971.",
+        "tags": [
+          "grassroots",
+          "freedom-fighter",
+          "local-history"
+        ]
+      }
+    },
+    {
+      "id": "abdul-matin",
+      "name_en": "Abdul Matin",
+      "name_bn": "আবদুল মতিন",
+      "role": "Language Movement Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Matin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Matin",
+        "search_query_news": "Abdul Matin Bangladesh image",
+        "context_hint": "Dhaka University and the coordinated phases of the language movement, 1948-1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdul-wahed-language",
+      "name_en": "Abdul Wahed",
+      "name_bn": "আবদুল ওয়াহেদ",
+      "role": "Language Movement Activist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Wahed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Wahed",
+        "search_query_news": "Abdul Wahed Bangladesh image",
+        "context_hint": "The early organizational phase of the language movement.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdullah-al-amin",
+      "name_en": "Abdullah Al Amin",
+      "name_bn": "আবদুল্লাহ আল আমিন",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdullah Al Amin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdullah Al Amin",
+        "search_query_news": "Abdullah Al Amin Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "abdur-rashid-tarkabagish",
+      "name_en": "Abdur Rashid Tarkabagish",
+      "name_bn": "আবদুর রশীদ তর্কবাগীশ",
+      "role": "Opposition Speaker and Politician",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdur Rashid Tarkabagish Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdur Rashid Tarkabagish",
+        "search_query_news": "Abdur Rashid Tarkabagish Bangladesh image",
+        "context_hint": "Provincial politics in early East Pakistan.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdus-salam-1952",
+      "name_en": "Abdus Salam",
+      "name_bn": "আবদুস সালাম",
+      "role": "Language Martyr",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdus Salam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdus Salam",
+        "search_query_news": "Abdus Salam Bangladesh image",
+        "context_hint": "Public participation in the protests of 21 February 1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdus-samad-azad",
+      "name_en": "Abdus Samad Azad",
+      "name_bn": "আবদুস সামাদ আজাদ",
+      "role": "Senior Awami League Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdus Samad Azad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdus Samad Azad",
+        "search_query_news": "Abdus Samad Azad Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abdus-sattar",
+      "name_en": "Abdus Sattar",
+      "name_bn": "আবদুস সাত্তার",
+      "role": "President of Bangladesh",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdus Sattar Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdus Sattar",
+        "search_query_news": "Abdus Sattar Bangladesh image",
+        "context_hint": "Bangladesh's uncertain civilian transition in 1981-1982.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abu-baker-majumder",
+      "name_en": "Abu Baker Majumder",
+      "name_bn": "আবু বকর মজুমদার",
+      "role": "Coordinator",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abu Baker Majumder Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abu Baker Majumder",
+        "search_query_news": "Abu Baker Majumder Bangladesh image",
+        "context_hint": "Core student-leadership layer of the quota-reform movement.",
+        "tags": [
+          "coordination",
+          "db-custody-2024",
+          "rights-concerns"
+        ]
+      }
+    },
+    {
+      "id": "abu-osman-chowdhury",
+      "name_en": "Abu Osman Chowdhury",
+      "name_bn": "আবু ওসমান চৌধুরী",
+      "role": "Sector 8 Commander (Early Phase)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abu Osman Chowdhury Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abu Osman Chowdhury",
+        "search_query_news": "Abu Osman Chowdhury Bangladesh image",
+        "context_hint": "Southwestern operational areas during early Liberation War period.",
+        "tags": [
+          "sector-8",
+          "early-resistance",
+          "command"
+        ]
+      }
+    },
+    {
+      "id": "abu-saleh-mohammad-akram",
+      "name_en": "Abu Saleh Mohammad Akram",
+      "name_bn": "আবু সালেহ মোহাম্মদ আকরাম",
+      "role": "Boundary Commission Member",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abu Saleh Mohammad Akram Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abu Saleh Mohammad Akram",
+        "search_query_news": "Abu Saleh Mohammad Akram Bangladesh image",
+        "context_hint": "Institutional demarcation of Bengal's border in 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abu-sayed-2024",
+      "name_en": "Abu Sayed",
+      "name_bn": "আবু সাঈদ",
+      "role": "Symbolic martyr",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abu Sayed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abu Sayed",
+        "search_query_news": "Abu Sayed Bangladesh image",
+        "context_hint": "Rangpur protest confrontation, 16 July 2024.",
+        "tags": [
+          "abu-sayed",
+          "rangpur",
+          "july-uprising"
+        ]
+      }
+    },
+    {
+      "id": "abu-sayeed-chowdhury",
+      "name_en": "Abu Sayeed Chowdhury",
+      "name_bn": "আবু সাঈদ চৌধুরী",
+      "role": "Diplomatic Face of the Liberation Cause",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abu Sayeed Chowdhury Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abu Sayeed Chowdhury",
+        "search_query_news": "Abu Sayeed Chowdhury Bangladesh image",
+        "context_hint": "International advocacy and external political front, 1971.",
+        "tags": [
+          "diplomacy",
+          "international-advocacy",
+          "state-legitimacy"
+        ]
+      }
+    },
+    {
+      "id": "abu-taher",
+      "name_en": "Abu Taher",
+      "name_bn": "আবু তাহের",
+      "role": "Sector 11 Commander",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abu Taher Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abu Taher",
+        "search_query_news": "Abu Taher Bangladesh image",
+        "context_hint": "Northern fronts and Sector 11 operations, 1971.",
+        "tags": [
+          "sector-11",
+          "frontline",
+          "combat"
+        ]
+      }
+    },
+    {
+      "id": "abul-barkat-1952",
+      "name_en": "Abul Barkat",
+      "name_bn": "আবুল বরকত",
+      "role": "Language Martyr",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abul Barkat Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abul Barkat",
+        "search_query_news": "Abul Barkat Bangladesh image",
+        "context_hint": "Dhaka Medical College area, 21 February 1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abul-hashim",
+      "name_en": "Abul Hashim",
+      "name_bn": "আবুল হাশিম",
+      "role": "Bengal Muslim League Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abul Hashim Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abul Hashim",
+        "search_query_news": "Abul Hashim Bangladesh image",
+        "context_hint": "Bengal Muslim politics in the 1940s.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abul-kalam-shamsuddin",
+      "name_en": "Abul Kalam Shamsuddin",
+      "name_bn": "আবুল কালাম শামসুদ্দীন",
+      "role": "Editor and Public Supporter",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abul Kalam Shamsuddin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abul Kalam Shamsuddin",
+        "search_query_news": "Abul Kalam Shamsuddin Bangladesh image",
+        "context_hint": "Public mourning and press culture after February 1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abul-kasem",
+      "name_en": "Abul Kashem",
+      "name_bn": "আবুল কাসেম",
+      "role": "Intellectual Founder of the Language Movement",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abul Kashem Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abul Kashem",
+        "search_query_news": "Abul Kashem Bangladesh image",
+        "context_hint": "Dhaka's post-partition intellectual and student circles, especially from 1947 onward.",
+        "tags": []
+      }
+    },
+    {
+      "id": "abul-mansur-ahmad",
+      "name_en": "Abul Mansur Ahmad",
+      "name_bn": "আবুল মনসুর আহমদ",
+      "role": "Writer and Political Thinker",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abul Mansur Ahmad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abul Mansur Ahmad",
+        "search_query_news": "Abul Mansur Ahmad Bangladesh image",
+        "context_hint": "Late colonial and early Pakistan public debate.",
+        "tags": []
+      }
+    },
+    {
+      "id": "adilur-rahman-khan",
+      "name_en": "Adilur Rahman Khan",
+      "name_bn": "আদিলুর রহমান খান",
+      "role": "Human-rights advocate and interim-government adviser",
+      "has_image": true,
+      "image": "/figures/2024/adilur-rahman-khan.jpg",
+      "details": {
+        "search_query_primary": "Adilur Rahman Khan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Adilur Rahman Khan",
+        "search_query_news": "Adilur Rahman Khan Bangladesh image",
+        "context_hint": "Rights-monitoring discourse during and after July 2024.",
+        "tags": [
+          "human-rights",
+          "accountability",
+          "interim-government"
+        ]
+      }
+    },
+    {
+      "id": "ahm-qamaruzzaman",
+      "name_en": "A. H. M. Qamaruzzaman",
+      "name_bn": "এ. এইচ. এম. কামারুজ্জামান",
+      "role": "Home Affairs Leader in the Provisional Government",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "A. H. M. Qamaruzzaman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons A. H. M. Qamaruzzaman",
+        "search_query_news": "A. H. M. Qamaruzzaman Bangladesh image",
+        "context_hint": "Mujibnagar government structure and wartime political leadership, 1971.",
+        "tags": [
+          "mujibnagar",
+          "governance",
+          "leadership"
+        ]
+      }
+    },
+    {
+      "id": "ahmed-rafiq",
+      "name_en": "Ahmed Rafiq",
+      "name_bn": "আহমদ রফিক",
+      "role": "Historian of the Language Movement",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Ahmed Rafiq Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Ahmed Rafiq",
+        "search_query_news": "Ahmed Rafiq Bangladesh image",
+        "context_hint": "Post-1952 documentation and historical interpretation.",
+        "tags": []
+      }
+    },
+    {
+      "id": "ak-fazlul-huq",
+      "name_en": "A. K. Fazlul Huq",
+      "name_bn": "এ. কে. ফজলুল হক",
+      "role": "Political Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "A. K. Fazlul Huq Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons A. K. Fazlul Huq",
+        "search_query_news": "A. K. Fazlul Huq Bangladesh image",
+        "context_hint": "Bengal politics from the late colonial period through the partition era.",
+        "tags": []
+      }
+    },
+    {
+      "id": "akhter-hossen",
+      "name_en": "Akhter Hossen",
+      "name_bn": "আখতার হোসেন",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Akhter Hossen Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Akhter Hossen",
+        "search_query_news": "Akhter Hossen Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "alauddin-al-azad",
+      "name_en": "Alauddin Al Azad",
+      "name_bn": "আলাউদ্দিন আল আজাদ",
+      "role": "Writer and Cultural Activist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Alauddin Al Azad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Alauddin Al Azad",
+        "search_query_news": "Alauddin Al Azad Bangladesh image",
+        "context_hint": "Cultural politics surrounding the language movement.",
+        "tags": []
+      }
+    },
+    {
+      "id": "alim-chowdhury",
+      "name_en": "Dr Alim Chowdhury",
+      "name_bn": "ডা. আলীম চৌধুরী",
+      "role": "Martyred Physician-Intellectual",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Dr Alim Chowdhury Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Dr Alim Chowdhury",
+        "search_query_news": "Dr Alim Chowdhury Bangladesh image",
+        "context_hint": "Dhaka, end-of-war intellectual massacre.",
+        "tags": [
+          "intellectual",
+          "doctor",
+          "martyrdom"
+        ]
+      }
+    },
+    {
+      "id": "all-party-state-language-action-committee",
+      "name_en": "All-Party State Language Action Committee",
+      "name_bn": "সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম পরিষদ",
+      "role": "Coordinating Front",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "All-Party State Language Action Committee Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons All-Party State Language Action Committee",
+        "search_query_news": "All-Party State Language Action Committee Bangladesh image",
+        "context_hint": "Dhaka, January-February 1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "altaf-mahmud",
+      "name_en": "Altaf Mahmud",
+      "name_bn": "আলতাফ মাহমুদ",
+      "role": "Cultural Activist and Composer of Ekushey Memory",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Altaf Mahmud Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Altaf Mahmud",
+        "search_query_news": "Altaf Mahmud Bangladesh image",
+        "context_hint": "Cultural mobilization around the Language Movement and its long afterlife in public memory.",
+        "tags": []
+      }
+    },
+    {
+      "id": "amanul-huq",
+      "name_en": "Amanul Huq",
+      "name_bn": "আমানুল হক",
+      "role": "Photographer of the Movement",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Amanul Huq Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Amanul Huq",
+        "search_query_news": "Amanul Huq Bangladesh image",
+        "context_hint": "Visual documentation of 1952 and its aftermath.",
+        "tags": []
+      }
+    },
+    {
+      "id": "amir-hossain-amu",
+      "name_en": "Amir Hossain Amu",
+      "name_bn": "আমির হোসেন আমু",
+      "role": "Alliance Politician",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Amir Hossain Amu Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Amir Hossain Amu",
+        "search_query_news": "Amir Hossain Amu Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "anu-muhammad",
+      "name_en": "Anu Muhammad",
+      "name_bn": "আনু মুহাম্মদ",
+      "role": "Influential Supporters & Intellectuals",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Anu Muhammad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Anu Muhammad",
+        "search_query_news": "Anu Muhammad Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "anwar-pasha",
+      "name_en": "Anwar Pasha",
+      "name_bn": "আনোয়ার পাশা",
+      "role": "Martyred Writer and Academic",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Anwar Pasha Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Anwar Pasha",
+        "search_query_news": "Anwar Pasha Bangladesh image",
+        "context_hint": "End-phase targeted killings of intellectuals in Dhaka.",
+        "tags": [
+          "intellectual",
+          "literature",
+          "december-14"
+        ]
+      }
+    },
+    {
+      "id": "arif-sohel",
+      "name_en": "Arif Sohel",
+      "name_bn": "আরিফ সোহেল",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Arif Sohel Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Arif Sohel",
+        "search_query_news": "Arif Sohel Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "asif-mahmud",
+      "name_en": "Asif Mahmud",
+      "name_bn": "আসিফ মাহমুদ",
+      "role": "Coordinator; later interim-government adviser",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Asif Mahmud Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Asif Mahmud",
+        "search_query_news": "Asif Mahmud Bangladesh image",
+        "context_hint": "Central student coordination, DB custody episode (26-28 July 2024), and post-uprising governance transition.",
+        "tags": [
+          "coordination",
+          "db-custody-2024",
+          "interim-government"
+        ]
+      }
+    },
+    {
+      "id": "asif-nazrul",
+      "name_en": "Asif Nazrul",
+      "name_bn": "আসিফ নজরুল",
+      "role": "Legal scholar and interim-government adviser",
+      "has_image": true,
+      "image": "/figures/2024/asif-nazrul.png",
+      "details": {
+        "search_query_primary": "Asif Nazrul Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Asif Nazrul",
+        "search_query_news": "Asif Nazrul Bangladesh image",
+        "context_hint": "Public legal commentary during uprising and post-August 2024 advisory role.",
+        "tags": [
+          "law",
+          "interim-government",
+          "public-intellectual"
+        ]
+      }
+    },
+    {
+      "id": "asm-abdur-rab",
+      "name_en": "A S M Abdur Rab",
+      "name_bn": "আ স ম আবদুর রব",
+      "role": "Opposition Politician",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "A S M Abdur Rab Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons A S M Abdur Rab",
+        "search_query_news": "A S M Abdur Rab Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "ataur-rahman-khan",
+      "name_en": "Ataur Rahman Khan",
+      "name_bn": "আতাউর রহমান খান",
+      "role": "Opposition Politician",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Ataur Rahman Khan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Ataur Rahman Khan",
+        "search_query_news": "Ataur Rahman Khan Bangladesh image",
+        "context_hint": "Post-partition East Bengal politics.",
+        "tags": []
+      }
+    },
+    {
+      "id": "atm-haider",
+      "name_en": "ATM Haider",
+      "name_bn": "এ. টি. এম. হায়দার",
+      "role": "Sector Commander (Sector 2, later phase)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "ATM Haider Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons ATM Haider",
+        "search_query_news": "ATM Haider Bangladesh image",
+        "context_hint": "Sector 2 command transition and urban-linked operations, 1971.",
+        "tags": [
+          "sector-2",
+          "command-transition",
+          "guerrilla"
+        ]
+      }
+    },
+    {
+      "id": "awami-league",
+      "name_en": "Bangladesh Awami League",
+      "name_bn": "বাংলাদেশ আওয়ামী লীগ",
+      "role": "Political Organization",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Bangladesh Awami League Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Bangladesh Awami League",
+        "search_query_news": "Bangladesh Awami League Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "badiul-alam",
+      "name_en": "Badiul Alam",
+      "name_bn": "বদিউল আলম",
+      "role": "Urban Resistance Fighter",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Badiul Alam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Badiul Alam",
+        "search_query_news": "Badiul Alam Bangladesh image",
+        "context_hint": "City-based resistance environment during the Liberation War.",
+        "tags": [
+          "urban-resistance",
+          "clandestine",
+          "1971"
+        ]
+      }
+    },
+    {
+      "id": "bangladesh-nationalist-party",
+      "name_en": "Bangladesh Nationalist Party",
+      "name_bn": "বাংলাদেশ জাতীয়তাবাদী দল",
+      "role": "Political Organization",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Bangladesh Nationalist Party Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Bangladesh Nationalist Party",
+        "search_query_news": "Bangladesh Nationalist Party Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "barkat-hossain",
+      "name_en": "Barkat Hossain",
+      "name_bn": "বরকত হোসেন",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Barkat Hossain Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Barkat Hossain",
+        "search_query_news": "Barkat Hossain Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "bidhan-chandra-roy",
+      "name_en": "Bidhan Chandra Roy",
+      "name_bn": "বিধানচন্দ্র রায়",
+      "role": "Congress Leader and Physician-Statesman",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Bidhan Chandra Roy Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Bidhan Chandra Roy",
+        "search_query_news": "Bidhan Chandra Roy Bangladesh image",
+        "context_hint": "Transition from undivided Bengal to West Bengal.",
+        "tags": []
+      }
+    },
+    {
+      "id": "bijan-kumar-mukherjea",
+      "name_en": "Bijan Kumar Mukherjea",
+      "name_bn": "বিজন কুমার মুখার্জি",
+      "role": "Boundary Commission Member",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Bijan Kumar Mukherjea Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Bijan Kumar Mukherjea",
+        "search_query_news": "Bijan Kumar Mukherjea Bangladesh image",
+        "context_hint": "Boundary deliberations during partition.",
+        "tags": []
+      }
+    },
+    {
+      "id": "caretaker-transition-supporters-1990",
+      "name_en": "Supporters of the Caretaker Transition",
+      "name_bn": "তত্ত্বাবধায়ক রূপান্তরের সমর্থকেরা",
+      "role": "Civic Coalition",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Supporters of the Caretaker Transition Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Supporters of the Caretaker Transition",
+        "search_query_news": "Supporters of the Caretaker Transition Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "cc-biswas",
+      "name_en": "C. C. Biswas",
+      "name_bn": "সি. সি. বিশ্বাস",
+      "role": "Boundary Commission Member",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "C. C. Biswas Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons C. C. Biswas",
+        "search_query_news": "C. C. Biswas Bangladesh image",
+        "context_hint": "The legal-technical side of Bengal partition in 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "chittagong-rashtrabhasha-sangram-parishad",
+      "name_en": "Chittagong Rashtrabhasha Sangram Parishad",
+      "name_bn": "চট্টগ্রাম রাষ্ট্রভাষা সংগ্রাম পরিষদ",
+      "role": "Regional Action Committee",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Chittagong Rashtrabhasha Sangram Parishad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Chittagong Rashtrabhasha Sangram Parishad",
+        "search_query_news": "Chittagong Rashtrabhasha Sangram Parishad Bangladesh image",
+        "context_hint": "Chittagong district in the run-up to and aftermath of 1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "chittagong-university-students-1990",
+      "name_en": "Chittagong University Students",
+      "name_bn": "চট্টগ্রাম বিশ্ববিদ্যালয়ের শিক্ষার্থীরা",
+      "role": "Student Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Chittagong University Students Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Chittagong University Students",
+        "search_query_news": "Chittagong University Students Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "communist-party-of-bangladesh",
+      "name_en": "Communist Party of Bangladesh",
+      "name_bn": "বাংলাদেশের কমিউনিস্ট পার্টি",
+      "role": "Left Political Organization",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Communist Party of Bangladesh Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Communist Party of Bangladesh",
+        "search_query_news": "Communist Party of Bangladesh Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "cr-dutta",
+      "name_en": "C. R. Dutta",
+      "name_bn": "সি. আর. দত্ত",
+      "role": "Sector 4 Commander",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "C. R. Dutta Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons C. R. Dutta",
+        "search_query_news": "C. R. Dutta Bangladesh image",
+        "context_hint": "Sector 4 command structure, 1971.",
+        "tags": [
+          "sector-4",
+          "sylhet",
+          "field-command"
+        ]
+      }
+    },
+    {
+      "id": "cultural-workers-collective-1990",
+      "name_en": "Cultural Workers",
+      "name_bn": "সাংস্কৃতিক কর্মীরা",
+      "role": "Cultural Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Cultural Workers Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Cultural Workers",
+        "search_query_news": "Cultural Workers Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "cyril-radcliffe",
+      "name_en": "Cyril Radcliffe",
+      "name_bn": "সিরিল র্যাডক্লিফ",
+      "role": "Boundary Commission Chair",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Cyril Radcliffe Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Cyril Radcliffe",
+        "search_query_news": "Cyril Radcliffe Bangladesh image",
+        "context_hint": "Border demarcation in July-August 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "dhaka-medical-college-students",
+      "name_en": "Dhaka Medical College Students",
+      "name_bn": "ঢাকা মেডিকেল কলেজের শিক্ষার্থীরা",
+      "role": "Student Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Dhaka Medical College Students Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Dhaka Medical College Students",
+        "search_query_news": "Dhaka Medical College Students Bangladesh image",
+        "context_hint": "Dhaka Medical College Hostel and its surrounding protest zone.",
+        "tags": []
+      }
+    },
+    {
+      "id": "dhaka-university-students",
+      "name_en": "Dhaka University Students",
+      "name_bn": "ঢাকা বিশ্ববিদ্যালয়ের শিক্ষার্থীরা",
+      "role": "Student Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Dhaka University Students Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Dhaka University Students",
+        "search_query_news": "Dhaka University Students Bangladesh image",
+        "context_hint": "Dhaka University campus, especially 1948-1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "dhaka-university-students-1990",
+      "name_en": "Dhaka University Students",
+      "name_bn": "ঢাকা বিশ্ববিদ্যালয়ের শিক্ষার্থীরা",
+      "role": "Student Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Dhaka University Students Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Dhaka University Students",
+        "search_query_news": "Dhaka University Students Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "dhirendranath-datta",
+      "name_en": "Dhirendranath Datta",
+      "name_bn": "ধীরেন্দ্রনাথ দত্ত",
+      "role": "Language Rights Advocate",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Dhirendranath Datta Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Dhirendranath Datta",
+        "search_query_news": "Dhirendranath Datta Bangladesh image",
+        "context_hint": "Early constitutional debate in Pakistan after partition.",
+        "tags": []
+      }
+    },
+    {
+      "id": "district-protesters-1990",
+      "name_en": "District-Level Protesters",
+      "name_bn": "জেলাস্তরের প্রতিবাদকারীরা",
+      "role": "Citizen Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "District-Level Protesters Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons District-Level Protesters",
+        "search_query_news": "District-Level Protesters Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "doctors-collective-1990",
+      "name_en": "Doctors' Collective",
+      "name_bn": "চিকিৎসক সমাজ",
+      "role": "Professional Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Doctors' Collective Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Doctors' Collective",
+        "search_query_news": "Doctors' Collective Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "east-pakistan-muslim-chhatra-league",
+      "name_en": "East Pakistan Muslim Chhatra League",
+      "name_bn": "পূর্ব পাকিস্তান মুসলিম ছাত্রলীগ",
+      "role": "Student Organization",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "East Pakistan Muslim Chhatra League Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons East Pakistan Muslim Chhatra League",
+        "search_query_news": "East Pakistan Muslim Chhatra League Bangladesh image",
+        "context_hint": "Student politics in East Bengal after partition.",
+        "tags": []
+      }
+    },
+    {
+      "id": "eight-party-alliance",
+      "name_en": "8-Party Alliance",
+      "name_bn": "৮-দলীয় জোট",
+      "role": "Opposition Alliance",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "8-Party Alliance Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons 8-Party Alliance",
+        "search_query_news": "8-Party Alliance Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "engineers-and-architects-collective-1990",
+      "name_en": "Engineers and Architects",
+      "name_bn": "প্রকৌশলী ও স্থপতিরা",
+      "role": "Professional Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Engineers and Architects Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Engineers and Architects",
+        "search_query_news": "Engineers and Architects Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "fahim-ahmed",
+      "name_en": "Fahim Ahmed",
+      "name_bn": "ফাহিম আহমেদ",
+      "role": "Grassroots & Digital Influencer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Fahim Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Fahim Ahmed",
+        "search_query_news": "Fahim Ahmed Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "faisal-ahmed-shanto",
+      "name_en": "Faisal Ahmed Shanto",
+      "name_bn": "ফয়সাল আহমেদ শান্ত",
+      "role": "Symbolic martyrs",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Faisal Ahmed Shanto Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Faisal Ahmed Shanto",
+        "search_query_news": "Faisal Ahmed Shanto Bangladesh image",
+        "context_hint": "July uprising casualty narratives and memorial references.",
+        "tags": [
+          "july-uprising",
+          "martyr-memory",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "families-of-martyrs-1990",
+      "name_en": "Families of the Movement's Martyrs",
+      "name_bn": "আন্দোলনের শহীদ পরিবারগুলো",
+      "role": "Memory Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Families of the Movement's Martyrs Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Families of the Movement's Martyrs",
+        "search_query_news": "Families of the Movement's Martyrs Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "farhad-mazhar",
+      "name_en": "Farhad Mazhar",
+      "name_bn": "ফরহাদ মজহার",
+      "role": "Influential Supporters & Intellectuals",
+      "has_image": true,
+      "image": "/figures/2024/farhad-mazhar.png",
+      "details": {
+        "search_query_primary": "Farhad Mazhar Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Farhad Mazhar",
+        "search_query_news": "Farhad Mazhar Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "farhan-faiyaaz",
+      "name_en": "Farhan Faiyaaz",
+      "name_bn": "ফারহান ফাইয়াজ",
+      "role": "Symbolic martyrs",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Farhan Faiyaaz Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Farhan Faiyaaz",
+        "search_query_news": "Farhan Faiyaaz Bangladesh image",
+        "context_hint": "July uprising casualty narratives and memorial references.",
+        "tags": [
+          "july-uprising",
+          "martyr-memory",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "fazle-rabbi",
+      "name_en": "Dr Fazle Rabbi",
+      "name_bn": "ডা. ফজলে রাব্বী",
+      "role": "Martyred Physician-Intellectual",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Dr Fazle Rabbi Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Dr Fazle Rabbi",
+        "search_query_news": "Dr Fazle Rabbi Bangladesh image",
+        "context_hint": "Targeted killings of professionals in Dhaka, December 1971.",
+        "tags": [
+          "intellectual",
+          "physician",
+          "december-14"
+        ]
+      }
+    },
+    {
+      "id": "five-party-alliance",
+      "name_en": "5-Party Alliance",
+      "name_bn": "৫-দলীয় জোট",
+      "role": "Opposition Alliance",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "5-Party Alliance Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons 5-Party Alliance",
+        "search_query_news": "5-Party Alliance Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "gaziul-huq",
+      "name_en": "ANM Gaziul Huq",
+      "name_bn": "এএনএম গাজীউল হক",
+      "role": "Language Movement Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "ANM Gaziul Huq Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons ANM Gaziul Huq",
+        "search_query_news": "ANM Gaziul Huq Bangladesh image",
+        "context_hint": "Dhaka University and the decisive hours of 21 February 1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "govinda-chandra-dev",
+      "name_en": "Govinda Chandra Dev",
+      "name_bn": "গোবিন্দ চন্দ্র দেব",
+      "role": "Philosopher and Martyred Academic",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Govinda Chandra Dev Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Govinda Chandra Dev",
+        "search_query_news": "Govinda Chandra Dev Bangladesh image",
+        "context_hint": "Dhaka University killings in the opening phase of the war.",
+        "tags": [
+          "dhaka-university",
+          "intellectual",
+          "martyr"
+        ]
+      }
+    },
+    {
+      "id": "hafizuddin-ahmed",
+      "name_en": "Captain Hafizuddin Ahmed",
+      "name_bn": "ক্যাপ্টেন হাফিজউদ্দিন আহমেদ",
+      "role": "Freedom Fighter and Field Officer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Captain Hafizuddin Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Captain Hafizuddin Ahmed",
+        "search_query_news": "Captain Hafizuddin Ahmed Bangladesh image",
+        "context_hint": "Field operations and wartime officer-level resistance, 1971.",
+        "tags": [
+          "field-officer",
+          "freedom-fighter",
+          "veteran"
+        ]
+      }
+    },
+    {
+      "id": "hamidur-rahman",
+      "name_en": "Hamidur Rahman",
+      "name_bn": "হামিদুর রহমান",
+      "role": "Bir Sreshtho (Army Martyr)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Hamidur Rahman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Hamidur Rahman",
+        "search_query_news": "Hamidur Rahman Bangladesh image",
+        "context_hint": "Tripura-Sylhet frontier operations, October 1971.",
+        "tags": [
+          "bir-sreshtho",
+          "dhalai",
+          "assault"
+        ]
+      }
+    },
+    {
+      "id": "hamidur-rahman-artist",
+      "name_en": "Hamidur Rahman",
+      "name_bn": "হামিদুর রহমান",
+      "role": "Designer of the Central Shaheed Minar",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Hamidur Rahman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Hamidur Rahman",
+        "search_query_news": "Hamidur Rahman Bangladesh image",
+        "context_hint": "Memorialization of the language movement in the later 1950s and 1960s.",
+        "tags": []
+      }
+    },
+    {
+      "id": "hartal-and-blockade-organisers-1990",
+      "name_en": "Hartal and Blockade Organisers",
+      "name_bn": "হরতাল ও অবরোধ সংগঠকেরা",
+      "role": "Movement Coordinators",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Hartal and Blockade Organisers Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Hartal and Blockade Organisers",
+        "search_query_news": "Hartal and Blockade Organisers Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "hasanul-haq-inu",
+      "name_en": "Hasanul Haq Inu",
+      "name_bn": "হাসানুল হক ইনু",
+      "role": "JSD Opposition Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Hasanul Haq Inu Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Hasanul Haq Inu",
+        "search_query_news": "Hasanul Haq Inu Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "hasib-al-islam",
+      "name_en": "Hasib Al Islam",
+      "name_bn": "হাসিব আল ইসলাম",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Hasib Al Islam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Hasib Al Islam",
+        "search_query_news": "Hasib Al Islam Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "hasnat-abdullah",
+      "name_en": "Hasnat Abdullah",
+      "name_bn": "হাসনাত আবদুল্লাহ",
+      "role": "Coordinator and organizer",
+      "has_image": true,
+      "image": "/figures/2024/hasnat-abdullah.jpg",
+      "details": {
+        "search_query_primary": "Hasnat Abdullah Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Hasnat Abdullah",
+        "search_query_news": "Hasnat Abdullah Bangladesh image",
+        "context_hint": "Dhaka-centered coordination and national protest phase, 2024.",
+        "tags": [
+          "coordination",
+          "organizing",
+          "db-custody-2024"
+        ]
+      }
+    },
+    {
+      "id": "human-rights-activists-1990",
+      "name_en": "Human Rights Activists",
+      "name_bn": "মানবাধিকারকর্মীরা",
+      "role": "Civic Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Human Rights Activists Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Human Rights Activists",
+        "search_query_news": "Human Rights Activists Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "humayun-kabir",
+      "name_en": "Humayun Kabir",
+      "name_bn": "হুমায়ুন কবির",
+      "role": "Intellectual and Politician",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Humayun Kabir Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Humayun Kabir",
+        "search_query_news": "Humayun Kabir Bangladesh image",
+        "context_hint": "Late colonial and early postcolonial public life.",
+        "tags": []
+      }
+    },
+    {
+      "id": "huseyn-shaheed-suhrawardy",
+      "name_en": "Huseyn Shaheed Suhrawardy",
+      "name_bn": "হোসেন শহীদ সোহরাওয়ার্দী",
+      "role": "Chief Minister of Bengal",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Huseyn Shaheed Suhrawardy Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Huseyn Shaheed Suhrawardy",
+        "search_query_news": "Huseyn Shaheed Suhrawardy Bangladesh image",
+        "context_hint": "Calcutta and Bengal, 1946-1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "hussain-muhammad-ershad",
+      "name_en": "Hussain Muhammad Ershad",
+      "name_bn": "হুসেইন মুহম্মদ এরশাদ",
+      "role": "Army Chief and Military Ruler",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Hussain Muhammad Ershad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Hussain Muhammad Ershad",
+        "search_query_news": "Hussain Muhammad Ershad Bangladesh image",
+        "context_hint": "Bangladesh's authoritarian transition from 1982 to 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "ila-mitra",
+      "name_en": "Ila Mitra",
+      "name_bn": "ইলা মিত্র",
+      "role": "Peasant Activist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Ila Mitra Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Ila Mitra",
+        "search_query_news": "Ila Mitra Bangladesh image",
+        "context_hint": "Rural Bengal in the 1940s and early 1950s.",
+        "tags": []
+      }
+    },
+    {
+      "id": "jahanara-imam",
+      "name_en": "Jahanara Imam",
+      "name_bn": "জাহানারা ইমাম",
+      "role": "Public Moral Voice",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Jahanara Imam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Jahanara Imam",
+        "search_query_news": "Jahanara Imam Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "jahangir-alam",
+      "name_en": "Jahangir Alam",
+      "name_bn": "জাহাঙ্গীর আলম",
+      "role": "Freedom Fighter",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Jahangir Alam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Jahangir Alam",
+        "search_query_news": "Jahangir Alam Bangladesh image",
+        "context_hint": "Local resistance and wartime coordination structures, 1971.",
+        "tags": [
+          "freedom-fighter",
+          "local-resistance",
+          "1971"
+        ]
+      }
+    },
+    {
+      "id": "jahangirnagar-university-students-1990",
+      "name_en": "Jahangirnagar University Students",
+      "name_bn": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের শিক্ষার্থীরা",
+      "role": "Student Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Jahangirnagar University Students Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Jahangirnagar University Students",
+        "search_query_news": "Jahangirnagar University Students Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "jamaat-e-islami-bangladesh",
+      "name_en": "Jamaat-e-Islami Bangladesh",
+      "name_bn": "জামায়াতে ইসলামী বাংলাদেশ",
+      "role": "Opposition Party in the Anti-Ershad Front",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Jamaat-e-Islami Bangladesh Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Jamaat-e-Islami Bangladesh",
+        "search_query_news": "Jamaat-e-Islami Bangladesh Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "jasimuddin",
+      "name_en": "Jasimuddin",
+      "name_bn": "জসীমউদ্দীন",
+      "role": "Poet of Rural Bengal",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Jasimuddin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Jasimuddin",
+        "search_query_news": "Jasimuddin Bangladesh image",
+        "context_hint": "Cultural memory of Bengal across the partition divide.",
+        "tags": []
+      }
+    },
+    {
+      "id": "jatiya-samajtantrik-dal",
+      "name_en": "Jatiya Samajtantrik Dal",
+      "name_bn": "জাতীয় সমাজতান্ত্রিক দল",
+      "role": "Left Opposition Organization",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Jatiya Samajtantrik Dal Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Jatiya Samajtantrik Dal",
+        "search_query_news": "Jatiya Samajtantrik Dal Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "jawaharlal-nehru",
+      "name_en": "Jawaharlal Nehru",
+      "name_bn": "জওহরলাল নেহরু",
+      "role": "Congress Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Jawaharlal Nehru Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Jawaharlal Nehru",
+        "search_query_news": "Jawaharlal Nehru Bangladesh image",
+        "context_hint": "All-India constitutional negotiations leading to 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "jogendranath-mandal",
+      "name_en": "Jogendranath Mandal",
+      "name_bn": "যোগেন্দ্রনাথ মণ্ডল",
+      "role": "Dalit Political Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Jogendranath Mandal Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Jogendranath Mandal",
+        "search_query_news": "Jogendranath Mandal Bangladesh image",
+        "context_hint": "Bengal caste politics and the creation of Pakistan.",
+        "tags": []
+      }
+    },
+    {
+      "id": "journalists-collective-1990",
+      "name_en": "Journalists' Collective",
+      "name_bn": "সাংবাদিক সমাজ",
+      "role": "Professional Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Journalists' Collective Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Journalists' Collective",
+        "search_query_news": "Journalists' Collective Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "justice-shahabuddin-ahmed",
+      "name_en": "Justice Shahabuddin Ahmed",
+      "name_bn": "বিচারপতি শাহাবুদ্দীন আহমদ",
+      "role": "Caretaker Transition Figure",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Justice Shahabuddin Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Justice Shahabuddin Ahmed",
+        "search_query_news": "Justice Shahabuddin Ahmed Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "kader-siddique",
+      "name_en": "Abdul Kader Siddique",
+      "name_bn": "আবদুল কাদের সিদ্দিকী",
+      "role": "Guerrilla Commander ('Tiger Siddique')",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Abdul Kader Siddique Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Abdul Kader Siddique",
+        "search_query_news": "Abdul Kader Siddique Bangladesh image",
+        "context_hint": "Tangail theatre and Kaderia Bahini actions, 1971.",
+        "tags": [
+          "kaderia-bahini",
+          "tangail",
+          "guerrilla"
+        ]
+      }
+    },
+    {
+      "id": "kamal-hossain",
+      "name_en": "Kamal Hossain",
+      "name_bn": "কামাল হোসেন",
+      "role": "Chair of the Constitution Drafting Committee",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Kamal Hossain Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Kamal Hossain",
+        "search_query_news": "Kamal Hossain Bangladesh image",
+        "context_hint": "State formation and constitutional drafting in post-liberation Bangladesh.",
+        "tags": []
+      }
+    },
+    {
+      "id": "kamal-lohani",
+      "name_en": "Kamal Lohani",
+      "name_bn": "কামাল লোহানী",
+      "role": "Cultural Activist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Kamal Lohani Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Kamal Lohani",
+        "search_query_news": "Kamal Lohani Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "kamruzzaman-tuku",
+      "name_en": "Kamruzzaman Tuku",
+      "name_bn": "কামরুজ্জামান টুকু",
+      "role": "Freedom Fighter",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Kamruzzaman Tuku Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Kamruzzaman Tuku",
+        "search_query_news": "Kamruzzaman Tuku Bangladesh image",
+        "context_hint": "Local resistance contexts during 1971.",
+        "tags": [
+          "local-resistance",
+          "freedom-fighter",
+          "1971"
+        ]
+      }
+    },
+    {
+      "id": "kazi-golam-mahbub",
+      "name_en": "Kazi Golam Mahbub",
+      "name_bn": "কাজী গোলাম মাহবুব",
+      "role": "Student Leader and Convener",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Kazi Golam Mahbub Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Kazi Golam Mahbub",
+        "search_query_news": "Kazi Golam Mahbub Bangladesh image",
+        "context_hint": "Dhaka student politics and the coordination of the 1952 movement.",
+        "tags": []
+      }
+    },
+    {
+      "id": "kazi-motahar-hossain",
+      "name_en": "Kazi Motahar Hossain",
+      "name_bn": "কাজী মোতাহার হোসেন",
+      "role": "Scholar and Cultural Intellectual",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Kazi Motahar Hossain Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Kazi Motahar Hossain",
+        "search_query_news": "Kazi Motahar Hossain Bangladesh image",
+        "context_hint": "Academic and cultural debate in the early Pakistan period.",
+        "tags": []
+      }
+    },
+    {
+      "id": "kazi-nuruzzaman",
+      "name_en": "Kazi Nuruzzaman",
+      "name_bn": "কাজী নুরুজ্জামান",
+      "role": "Sector Commander",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Kazi Nuruzzaman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Kazi Nuruzzaman",
+        "search_query_news": "Kazi Nuruzzaman Bangladesh image",
+        "context_hint": "Sector-based operations, 1971.",
+        "tags": [
+          "sector-command",
+          "operations",
+          "leadership"
+        ]
+      }
+    },
+    {
+      "id": "khaled-mosharraf",
+      "name_en": "Khaled Mosharraf",
+      "name_bn": "খালেদ মোশাররফ",
+      "role": "Sector 2 Commander and K Force Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Khaled Mosharraf Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Khaled Mosharraf",
+        "search_query_news": "Khaled Mosharraf Bangladesh image",
+        "context_hint": "Comilla-Dhaka theatre and K Force command, 1971.",
+        "tags": [
+          "sector-2",
+          "k-force",
+          "operations"
+        ]
+      }
+    },
+    {
+      "id": "khaleda-zia",
+      "name_en": "Khaleda Zia",
+      "name_bn": "খালেদা জিয়া",
+      "role": "Leader of the 7-Party Alliance",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Khaleda Zia Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Khaleda Zia",
+        "search_query_news": "Khaleda Zia Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "khwaja-nazimuddin",
+      "name_en": "Khwaja Nazimuddin",
+      "name_bn": "খাজা নাজিমুদ্দীন",
+      "role": "Muslim League Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Khwaja Nazimuddin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Khwaja Nazimuddin",
+        "search_query_news": "Khwaja Nazimuddin Bangladesh image",
+        "context_hint": "Late colonial Bengal and early Pakistan.",
+        "tags": []
+      }
+    },
+    {
+      "id": "khwaja-shahabuddin",
+      "name_en": "Khwaja Shahabuddin",
+      "name_bn": "খাজা শাহাবুদ্দীন",
+      "role": "Muslim League Politician",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Khwaja Shahabuddin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Khwaja Shahabuddin",
+        "search_query_news": "Khwaja Shahabuddin Bangladesh image",
+        "context_hint": "Elite political networks in Bengal and Pakistan.",
+        "tags": []
+      }
+    },
+    {
+      "id": "kiran-shankar-roy",
+      "name_en": "Kiran Shankar Roy",
+      "name_bn": "কিরণশঙ্কর রায়",
+      "role": "Congress Leader in Bengal",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Kiran Shankar Roy Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Kiran Shankar Roy",
+        "search_query_news": "Kiran Shankar Roy Bangladesh image",
+        "context_hint": "Congress politics in Bengal during 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "km-shafiullah",
+      "name_en": "K. M. Shafiullah",
+      "name_bn": "কে. এম. শফিউল্লাহ",
+      "role": "Sector 3 Commander and S Force Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "K. M. Shafiullah Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons K. M. Shafiullah",
+        "search_query_news": "K. M. Shafiullah Bangladesh image",
+        "context_hint": "Sector-based command structure, 1971.",
+        "tags": [
+          "sector-3",
+          "s-force",
+          "military-command"
+        ]
+      }
+    },
+    {
+      "id": "lawyers-collective-1990",
+      "name_en": "Lawyers' Collective",
+      "name_bn": "আইনজীবী সমাজ",
+      "role": "Professional Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Lawyers' Collective Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Lawyers' Collective",
+        "search_query_news": "Lawyers' Collective Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "liaquat-ali-khan",
+      "name_en": "Liaquat Ali Khan",
+      "name_bn": "লিয়াকত আলী খান",
+      "role": "Muslim League Statesman",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Liaquat Ali Khan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Liaquat Ali Khan",
+        "search_query_news": "Liaquat Ali Khan Bangladesh image",
+        "context_hint": "Transfer of power and early state-building in Pakistan.",
+        "tags": []
+      }
+    },
+    {
+      "id": "lord-curzon",
+      "name_en": "Lord Curzon",
+      "name_bn": "লর্ড কার্জন",
+      "role": "Viceroy of India",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Lord Curzon Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Lord Curzon",
+        "search_query_news": "Lord Curzon Bangladesh image",
+        "context_hint": "British India, especially Bengal, in the early twentieth century.",
+        "tags": []
+      }
+    },
+    {
+      "id": "lord-louis-mountbatten",
+      "name_en": "Lord Louis Mountbatten",
+      "name_bn": "লর্ড লুই মাউন্টব্যাটেন",
+      "role": "Last Viceroy of India",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Lord Louis Mountbatten Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Lord Louis Mountbatten",
+        "search_query_news": "Lord Louis Mountbatten Bangladesh image",
+        "context_hint": "Final British withdrawal from India in 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "lutfun-nahar-luma",
+      "name_en": "Lutfun Nahar Luma",
+      "name_bn": "লুৎফুন নাহার লুমা",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Lutfun Nahar Luma Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Lutfun Nahar Luma",
+        "search_query_news": "Lutfun Nahar Luma Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "mag-osmani",
+      "name_en": "M. A. G. Osmani",
+      "name_bn": "এম. এ. জি. ওসমানী",
+      "role": "Commander-in-Chief of Bangladesh Forces",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "M. A. G. Osmani Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons M. A. G. Osmani",
+        "search_query_news": "M. A. G. Osmani Bangladesh image",
+        "context_hint": "April-December 1971; formation and command of Mukti Bahini sectors.",
+        "tags": [
+          "commander-in-chief",
+          "mukti-bahini",
+          "strategy"
+        ]
+      }
+    },
+    {
+      "id": "mahatma-gandhi",
+      "name_en": "Mahatma Gandhi",
+      "name_bn": "মহাত্মা গান্ধী",
+      "role": "Anti-Communal National Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mahatma Gandhi Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mahatma Gandhi",
+        "search_query_news": "Mahatma Gandhi Bangladesh image",
+        "context_hint": "Communal crisis in Bengal and India, 1946-1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "mahbub-ul-alam-chowdhury",
+      "name_en": "Mahbub ul Alam Chowdhury",
+      "name_bn": "মাহবুব উল আলম চৌধুরী",
+      "role": "Poet and Regional Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mahbub ul Alam Chowdhury Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mahbub ul Alam Chowdhury",
+        "search_query_news": "Mahbub ul Alam Chowdhury Bangladesh image",
+        "context_hint": "Chittagong and the wider cultural politics of the language movement.",
+        "tags": []
+      }
+    },
+    {
+      "id": "mahin-sarkar",
+      "name_en": "Mahin Sarkar",
+      "name_bn": "মাহিন সরকার",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mahin Sarkar Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mahin Sarkar",
+        "search_query_news": "Mahin Sarkar Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "major-jalil",
+      "name_en": "Major Jalil",
+      "name_bn": "মেজর এম. এ. জলিল",
+      "role": "Sector 9 Commander",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Major Jalil Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Major Jalil",
+        "search_query_news": "Major Jalil Bangladesh image",
+        "context_hint": "Southwestern and coastal operational zone, 1971.",
+        "tags": [
+          "sector-9",
+          "southern-front",
+          "riverine"
+        ]
+      }
+    },
+    {
+      "id": "major-zafar-imam",
+      "name_en": "Major Zafar Imam",
+      "name_bn": "মেজর জাফর ইমাম",
+      "role": "Military Operations Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Major Zafar Imam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Major Zafar Imam",
+        "search_query_news": "Major Zafar Imam Bangladesh image",
+        "context_hint": "Field-command environment of the liberation forces, 1971.",
+        "tags": [
+          "frontline",
+          "military-command",
+          "1971"
+        ]
+      }
+    },
+    {
+      "id": "manik-mia",
+      "name_en": "Manik Mia",
+      "name_bn": "মানিক মিয়া",
+      "role": "Journalist and Public Opinion Builder",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Manik Mia Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Manik Mia",
+        "search_query_news": "Manik Mia Bangladesh image",
+        "context_hint": "Public discourse in early Pakistan.",
+        "tags": []
+      }
+    },
+    {
+      "id": "mansur-ali",
+      "name_en": "Mansur Ali",
+      "name_bn": "মুহাম্মদ মনসুর আলী",
+      "role": "Finance Minister of the Provisional Government",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mansur Ali Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mansur Ali",
+        "search_query_news": "Mansur Ali Bangladesh image",
+        "context_hint": "Provisional Government of Bangladesh, 1971 (Mujibnagar).",
+        "tags": [
+          "mujibnagar",
+          "finance",
+          "statecraft"
+        ]
+      }
+    },
+    {
+      "id": "manzur-al-matin",
+      "name_en": "Manzur Al Matin",
+      "name_bn": "মঞ্জুর আল মতিন",
+      "role": "Influential Supporters & Intellectuals",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Manzur Al Matin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Manzur Al Matin",
+        "search_query_news": "Manzur Al Matin Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "matiur-rahman",
+      "name_en": "Matiur Rahman",
+      "name_bn": "মতিউর রহমান",
+      "role": "Bir Sreshtho (Air Force Martyr)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Matiur Rahman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Matiur Rahman",
+        "search_query_news": "Matiur Rahman Bangladesh image",
+        "context_hint": "Attempted escape flight from Pakistan, August 1971.",
+        "tags": [
+          "bir-sreshtho",
+          "air-force",
+          "defection"
+        ]
+      }
+    },
+    {
+      "id": "maulana-akram-khan",
+      "name_en": "Maulana Akram Khan",
+      "name_bn": "মওলানা আকরম খান",
+      "role": "Journalist and Muslim Public Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Maulana Akram Khan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Maulana Akram Khan",
+        "search_query_news": "Maulana Akram Khan Bangladesh image",
+        "context_hint": "Public opinion and Muslim politics in late colonial Bengal.",
+        "tags": []
+      }
+    },
+    {
+      "id": "md-enamul-hasan",
+      "name_en": "Md. Enamul Hasan",
+      "name_bn": "মোঃ এনামুল হাসান",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Md. Enamul Hasan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Md. Enamul Hasan",
+        "search_query_news": "Md. Enamul Hasan Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "medical-students-1990",
+      "name_en": "Medical Students",
+      "name_bn": "মেডিকেল শিক্ষার্থীরা",
+      "role": "Student Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Medical Students Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Medical Students",
+        "search_query_news": "Medical Students Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "mehedi-hasan",
+      "name_en": "Mehedi Hasan",
+      "name_bn": "মেহেদী হাসান",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mehedi Hasan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mehedi Hasan",
+        "search_query_news": "Mehedi Hasan Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "mir-mahfuzur-rahman-mugdho",
+      "name_en": "Mir Mahfuzur Rahman Mugdho",
+      "name_bn": "মির মাহফুজুর রহমান মুগ্ধ",
+      "role": "Symbolic martyr",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mir Mahfuzur Rahman Mugdho Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mir Mahfuzur Rahman Mugdho",
+        "search_query_news": "Mir Mahfuzur Rahman Mugdho Bangladesh image",
+        "context_hint": "Azampur/Uttara protest zone, Dhaka, 18 July 2024.",
+        "tags": [
+          "mir-mugdho",
+          "uttara",
+          "humanitarian-symbol"
+        ]
+      }
+    },
+    {
+      "id": "mir-shawkat-ali",
+      "name_en": "Mir Shawkat Ali",
+      "name_bn": "মীর শওকত আলী",
+      "role": "Sector 5 Commander",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mir Shawkat Ali Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mir Shawkat Ali",
+        "search_query_news": "Mir Shawkat Ali Bangladesh image",
+        "context_hint": "Sector 5 operations during the Liberation War.",
+        "tags": [
+          "sector-5",
+          "northern-front",
+          "command"
+        ]
+      }
+    },
+    {
+      "id": "mofazzal-hossain-chowdhury-maya",
+      "name_en": "Mofazzal Hossain Chowdhury Maya",
+      "name_bn": "মোফাজ্জল হোসেন চৌধুরী মায়া",
+      "role": "Freedom Fighter and Youth Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mofazzal Hossain Chowdhury Maya Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mofazzal Hossain Chowdhury Maya",
+        "search_query_news": "Mofazzal Hossain Chowdhury Maya Bangladesh image",
+        "context_hint": "Student-youth-linked wartime participation, 1971.",
+        "tags": [
+          "youth",
+          "freedom-fighter",
+          "political-memory"
+        ]
+      }
+    },
+    {
+      "id": "mohammad-toaha",
+      "name_en": "Mohammad Toaha",
+      "name_bn": "মোহাম্মদ তোয়াহা",
+      "role": "Left Student Activist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mohammad Toaha Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mohammad Toaha",
+        "search_query_news": "Mohammad Toaha Bangladesh image",
+        "context_hint": "Left student activism in East Bengal from 1947 onward.",
+        "tags": []
+      }
+    },
+    {
+      "id": "mostafa-kamal",
+      "name_en": "Mostafa Kamal",
+      "name_bn": "মোস্তফা কামাল",
+      "role": "Bir Sreshtho (Army Martyr)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mostafa Kamal Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mostafa Kamal",
+        "search_query_news": "Mostafa Kamal Bangladesh image",
+        "context_hint": "Akhaura front, April 1971.",
+        "tags": [
+          "bir-sreshtho",
+          "army",
+          "akhaura"
+        ]
+      }
+    },
+    {
+      "id": "moudud-ahmed",
+      "name_en": "Moudud Ahmed",
+      "name_bn": "মওদুদ আহমদ",
+      "role": "Constitutional Intermediary",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Moudud Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Moudud Ahmed",
+        "search_query_news": "Moudud Ahmed Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "muhammad-ali-jinnah",
+      "name_en": "Muhammad Ali Jinnah",
+      "name_bn": "মুহাম্মদ আলী জিন্নাহ",
+      "role": "All-India Muslim League Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Muhammad Ali Jinnah Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Muhammad Ali Jinnah",
+        "search_query_news": "Muhammad Ali Jinnah Bangladesh image",
+        "context_hint": "All-India negotiations over constitutional transfer and partition.",
+        "tags": []
+      }
+    },
+    {
+      "id": "muhammad-shahidullah",
+      "name_en": "Muhammad Shahidullah",
+      "name_bn": "মুহম্মদ শহীদুল্লাহ",
+      "role": "Linguist and Intellectual Authority",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Muhammad Shahidullah Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Muhammad Shahidullah",
+        "search_query_news": "Muhammad Shahidullah Bangladesh image",
+        "context_hint": "Language and identity debates in early Pakistan.",
+        "tags": []
+      }
+    },
+    {
+      "id": "muhammad-yunus",
+      "name_en": "Dr. Muhammad Yunus",
+      "name_bn": "ড. মুহাম্মদ ইউনূস",
+      "role": "Interim government chief adviser",
+      "has_image": true,
+      "image": "/figures/2024/muhammad-yunus.jpg",
+      "details": {
+        "search_query_primary": "Dr. Muhammad Yunus Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Dr. Muhammad Yunus",
+        "search_query_news": "Dr. Muhammad Yunus Bangladesh image",
+        "context_hint": "Post-uprising transition; oath on 8 August 2024.",
+        "tags": [
+          "interim-government",
+          "transition",
+          "chief-adviser"
+        ]
+      }
+    },
+    {
+      "id": "mujahidul-islam-selim",
+      "name_en": "Mujahidul Islam Selim",
+      "name_bn": "মুজাহিদুল ইসলাম সেলিম",
+      "role": "Left Political Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Mujahidul Islam Selim Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Mujahidul Islam Selim",
+        "search_query_news": "Mujahidul Islam Selim Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "munier-chowdhury",
+      "name_en": "Munier Chowdhury",
+      "name_bn": "মুনীর চৌধুরী",
+      "role": "Teacher, Playwright, and Language Movement Intellectual",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Munier Chowdhury Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Munier Chowdhury",
+        "search_query_news": "Munier Chowdhury Bangladesh image",
+        "context_hint": "Dhaka University, prison, and progressive cultural politics in the 1950s.",
+        "tags": []
+      }
+    },
+    {
+      "id": "munir-ahmed",
+      "name_en": "Lance Naik Munir Ahmed",
+      "name_bn": "ল্যান্স নায়েক মুনির আহমেদ",
+      "role": "Bir Sreshtho (Army Martyr)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Lance Naik Munir Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Lance Naik Munir Ahmed",
+        "search_query_news": "Lance Naik Munir Ahmed Bangladesh image",
+        "context_hint": "Mymensingh front operations, 1971.",
+        "tags": [
+          "bir-sreshtho",
+          "infantry",
+          "martyrdom"
+        ]
+      }
+    },
+    {
+      "id": "munshi-abdur-rouf",
+      "name_en": "Munshi Abdur Rouf",
+      "name_bn": "মুনশি আবদুর রউফ",
+      "role": "Bir Sreshtho (Army Martyr)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Munshi Abdur Rouf Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Munshi Abdur Rouf",
+        "search_query_news": "Munshi Abdur Rouf Bangladesh image",
+        "context_hint": "Chittagong Hill Tracts front, April 1971.",
+        "tags": [
+          "bir-sreshtho",
+          "rangamati",
+          "martyrdom"
+        ]
+      }
+    },
+    {
+      "id": "muzaffar-ahmad",
+      "name_en": "Muzaffar Ahmad",
+      "name_bn": "মুজাফফর আহমদ",
+      "role": "Left Political Thinker",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Muzaffar Ahmad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Muzaffar Ahmad",
+        "search_query_news": "Muzaffar Ahmad Bangladesh image",
+        "context_hint": "Left politics in Bengal before and after partition.",
+        "tags": []
+      }
+    },
+    {
+      "id": "nahid-islam",
+      "name_en": "Nahid Islam",
+      "name_bn": "নাহিদ ইসলাম",
+      "role": "Coordinator; later interim-government adviser",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Nahid Islam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Nahid Islam",
+        "search_query_news": "Nahid Islam Bangladesh image",
+        "context_hint": "Dhaka University-linked student coordination; July-August 2024 protest phase and post-uprising transition.",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "interim-government"
+        ]
+      }
+    },
+    {
+      "id": "nasiruddin-patwary",
+      "name_en": "Nasiruddin Patwary",
+      "name_bn": "নাসিরউদ্দিন পাটোয়ারী",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Nasiruddin Patwary Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Nasiruddin Patwary",
+        "search_query_news": "Nasiruddin Patwary Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "nawab-salimullah",
+      "name_en": "Nawab Salimullah",
+      "name_bn": "নবাব সলিমুল্লাহ",
+      "role": "Dhaka Nawab and Political Patron",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Nawab Salimullah Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Nawab Salimullah",
+        "search_query_news": "Nawab Salimullah Bangladesh image",
+        "context_hint": "Dhaka and provincial politics in the years after 1905.",
+        "tags": []
+      }
+    },
+    {
+      "id": "nazmul-huq",
+      "name_en": "Nazmul Huq",
+      "name_bn": "নাজমুল হক",
+      "role": "Pioneering Sector Commander",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Nazmul Huq Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Nazmul Huq",
+        "search_query_news": "Nazmul Huq Bangladesh image",
+        "context_hint": "Early structuring phase of liberation forces, 1971.",
+        "tags": [
+          "early-command",
+          "sector-formation",
+          "military"
+        ]
+      }
+    },
+    {
+      "id": "noor-mohammad-sheikh",
+      "name_en": "Noor Mohammad Sheikh",
+      "name_bn": "নূর মোহাম্মদ শেখ",
+      "role": "Bir Sreshtho (EPR Martyr)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Noor Mohammad Sheikh Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Noor Mohammad Sheikh",
+        "search_query_news": "Noor Mohammad Sheikh Bangladesh image",
+        "context_hint": "Jessore front, September 1971.",
+        "tags": [
+          "bir-sreshtho",
+          "epr",
+          "jessore"
+        ]
+      }
+    },
+    {
+      "id": "novera-ahmed",
+      "name_en": "Novera Ahmed",
+      "name_bn": "নভেরা আহমেদ",
+      "role": "Sculptor and Memorial Collaborator",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Novera Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Novera Ahmed",
+        "search_query_news": "Novera Ahmed Bangladesh image",
+        "context_hint": "Artistic memorialization of Ekushey.",
+        "tags": []
+      }
+    },
+    {
+      "id": "nur-hossain",
+      "name_en": "Nur Hossain",
+      "name_bn": "নুর হোসেন",
+      "role": "Martyr-Symbol of the Movement",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Nur Hossain Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Nur Hossain",
+        "search_query_news": "Nur Hossain Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "nurul-amin",
+      "name_en": "Nurul Amin",
+      "name_bn": "নুরুল আমিন",
+      "role": "East Bengal Chief Minister",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Nurul Amin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Nurul Amin",
+        "search_query_news": "Nurul Amin Bangladesh image",
+        "context_hint": "Early East Bengal under Pakistan.",
+        "tags": []
+      }
+    },
+    {
+      "id": "nusrat-tabassum",
+      "name_en": "Nusrat Tabassum",
+      "name_bn": "নুসরাত তাবাসসুম",
+      "role": "Coordinator",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Nusrat Tabassum Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Nusrat Tabassum",
+        "search_query_news": "Nusrat Tabassum Bangladesh image",
+        "context_hint": "Central coordination and rights-pressure period, July 2024.",
+        "tags": [
+          "women-leadership",
+          "coordination",
+          "db-custody-2024"
+        ]
+      }
+    },
+    {
+      "id": "ohiullah-1952",
+      "name_en": "Ohiullah",
+      "name_bn": "ওহিউল্লাহ",
+      "role": "Child Victim of Police Firing",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Ohiullah Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Ohiullah",
+        "search_query_news": "Ohiullah Bangladesh image",
+        "context_hint": "Dhaka during the escalation after the police firing.",
+        "tags": []
+      }
+    },
+    {
+      "id": "oli-ahad",
+      "name_en": "Oli Ahad",
+      "name_bn": "অলি আহাদ",
+      "role": "Student and Political Activist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Oli Ahad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Oli Ahad",
+        "search_query_news": "Oli Ahad Bangladesh image",
+        "context_hint": "Student politics and street mobilization in East Bengal.",
+        "tags": []
+      }
+    },
+    {
+      "id": "pinaki-bhattacharya",
+      "name_en": "Pinaki Bhattacharya",
+      "name_bn": "পিনাকী ভট্টাচার্য",
+      "role": "Influential Supporters & Intellectuals",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Pinaki Bhattacharya Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Pinaki Bhattacharya",
+        "search_query_news": "Pinaki Bhattacharya Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "prafulla-chandra-ghosh",
+      "name_en": "Prafulla Chandra Ghosh",
+      "name_bn": "প্রফুল্লচন্দ্র ঘোষ",
+      "role": "First Chief Minister of West Bengal",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Prafulla Chandra Ghosh Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Prafulla Chandra Ghosh",
+        "search_query_news": "Prafulla Chandra Ghosh Bangladesh image",
+        "context_hint": "Immediate post-partition governance in 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "press-photographers-1990",
+      "name_en": "Press Photographers",
+      "name_bn": "প্রেস আলোকচিত্রী",
+      "role": "Documentation Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Press Photographers Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Press Photographers",
+        "search_query_news": "Press Photographers Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "professional-associations-1990",
+      "name_en": "Professional Associations",
+      "name_bn": "পেশাজীবী সংগঠনসমূহ",
+      "role": "Professional Coalition",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Professional Associations Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Professional Associations",
+        "search_query_news": "Professional Associations Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "rabindranath-tagore",
+      "name_en": "Rabindranath Tagore",
+      "name_bn": "রবীন্দ্রনাথ ঠাকুর",
+      "role": "Poet and Public Intellectual",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Rabindranath Tagore Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Rabindranath Tagore",
+        "search_query_news": "Rabindranath Tagore Bangladesh image",
+        "context_hint": "Bengal's literary and political public sphere during the anti-partition movement.",
+        "tags": []
+      }
+    },
+    {
+      "id": "rafiq-uddin-ahmed-1952",
+      "name_en": "Rafiq Uddin Ahmed",
+      "name_bn": "রফিক উদ্দিন আহমেদ",
+      "role": "Language Martyr",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Rafiq Uddin Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Rafiq Uddin Ahmed",
+        "search_query_news": "Rafiq Uddin Ahmed Bangladesh image",
+        "context_hint": "Dhaka Medical College Hostel premises, 21 February 1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "rajshahi-university-students-1990",
+      "name_en": "Rajshahi University Students",
+      "name_bn": "রাজশাহী বিশ্ববিদ্যালয়ের শিক্ষার্থীরা",
+      "role": "Student Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Rajshahi University Students Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Rajshahi University Students",
+        "search_query_news": "Rajshahi University Students Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "rashed-khan-menon",
+      "name_en": "Rashed Khan Menon",
+      "name_bn": "রাশেদ খান মেনন",
+      "role": "Left Opposition Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Rashed Khan Menon Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Rashed Khan Menon",
+        "search_query_news": "Rashed Khan Menon Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "rashidul-islam-rifat",
+      "name_en": "Rashidul Islam Rifat",
+      "name_bn": "রাশিদুল ইসলাম রিফাত",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Rashidul Islam Rifat Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Rashidul Islam Rifat",
+        "search_query_news": "Rashidul Islam Rifat Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "rifat-rashid",
+      "name_en": "Rifat Rashid",
+      "name_bn": "রিফাত রশিদ",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Rifat Rashid Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Rifat Rashid",
+        "search_query_news": "Rifat Rashid Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "riya-gope",
+      "name_en": "Riya Gope",
+      "name_bn": "রিয়া গোপে",
+      "role": "Symbolic martyrs",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Riya Gope Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Riya Gope",
+        "search_query_news": "Riya Gope Bangladesh image",
+        "context_hint": "July uprising casualty narratives and memorial references.",
+        "tags": [
+          "july-uprising",
+          "martyr-memory",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "ruhul-amin",
+      "name_en": "Ruhul Amin",
+      "name_bn": "মোহাম্মদ রুহুল আমিন",
+      "role": "Bir Sreshtho (Naval Martyr)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Ruhul Amin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Ruhul Amin",
+        "search_query_news": "Ruhul Amin Bangladesh image",
+        "context_hint": "Naval operations in Khulna-Mongla theatre, December 1971.",
+        "tags": [
+          "bir-sreshtho",
+          "naval",
+          "martyrdom"
+        ]
+      }
+    },
+    {
+      "id": "sa-rahman",
+      "name_en": "S. A. Rahman",
+      "name_bn": "এস. এ. রহমান",
+      "role": "Boundary Commission Member",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "S. A. Rahman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons S. A. Rahman",
+        "search_query_news": "S. A. Rahman Bangladesh image",
+        "context_hint": "Boundary-making at the moment of partition.",
+        "tags": []
+      }
+    },
+    {
+      "id": "saima-ahmed",
+      "name_en": "Saima Ahmed",
+      "name_bn": "সাইমা আহমেদ",
+      "role": "Grassroots & Digital Influencer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Saima Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Saima Ahmed",
+        "search_query_news": "Saima Ahmed Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "sarat-chandra-bose",
+      "name_en": "Sarat Chandra Bose",
+      "name_bn": "শরৎচন্দ্র বসু",
+      "role": "United Bengal Advocate",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Sarat Chandra Bose Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Sarat Chandra Bose",
+        "search_query_news": "Sarat Chandra Bose Bangladesh image",
+        "context_hint": "Negotiations over Bengal's future in 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "sarbadaliya-chhatra-oikya-parishad",
+      "name_en": "Sarbadaliya Chhatra Oikya Parishad",
+      "name_bn": "সর্বদলীয় ছাত্র ঐক্য পরিষদ",
+      "role": "Student Unity Platform",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Sarbadaliya Chhatra Oikya Parishad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Sarbadaliya Chhatra Oikya Parishad",
+        "search_query_news": "Sarbadaliya Chhatra Oikya Parishad Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "sarjis-alam",
+      "name_en": "Sarjis Alam",
+      "name_bn": "সারজিস আলম",
+      "role": "Coordinator and spokesperson",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Sarjis Alam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Sarjis Alam",
+        "search_query_news": "Sarjis Alam Bangladesh image",
+        "context_hint": "Nationwide anti-discrimination protests; detention and media-facing phase in July 2024.",
+        "tags": [
+          "spokesperson",
+          "db-custody-2024",
+          "mass-mobilization"
+        ]
+      }
+    },
+    {
+      "id": "satya-ranjan-bakshi",
+      "name_en": "Satya Ranjan Bakshi",
+      "name_bn": "সত্যরঞ্জন বক্সী",
+      "role": "United Bengal Supporter",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Satya Ranjan Bakshi Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Satya Ranjan Bakshi",
+        "search_query_news": "Satya Ranjan Bakshi Bangladesh image",
+        "context_hint": "Civic and political debates over United Bengal in 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "seven-party-alliance",
+      "name_en": "7-Party Alliance",
+      "name_bn": "৭-দলীয় জোট",
+      "role": "Opposition Alliance",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "7-Party Alliance Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons 7-Party Alliance",
+        "search_query_news": "7-Party Alliance Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "shadik-kayem",
+      "name_en": "Shadik Kayem",
+      "name_bn": "শাদিক কায়েম",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shadik Kayem Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shadik Kayem",
+        "search_query_news": "Shadik Kayem Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "shafi-imam-rumi",
+      "name_en": "Shafi Imam Rumi",
+      "name_bn": "শাফি ইমাম রুমি",
+      "role": "Urban Guerrilla Fighter",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shafi Imam Rumi Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shafi Imam Rumi",
+        "search_query_news": "Shafi Imam Rumi Bangladesh image",
+        "context_hint": "Urban guerrilla actions in Dhaka, 1971.",
+        "tags": [
+          "urban-guerrilla",
+          "dhaka",
+          "youth-sacrifice"
+        ]
+      }
+    },
+    {
+      "id": "shafiur-rahman-1952",
+      "name_en": "Shafiur Rahman",
+      "name_bn": "শফিউর রহমান",
+      "role": "Language Martyr",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shafiur Rahman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shafiur Rahman",
+        "search_query_news": "Shafiur Rahman Bangladesh image",
+        "context_hint": "Nawabpur Road, 22 February 1952.",
+        "tags": []
+      }
+    },
+    {
+      "id": "shah-moazzem-hossain",
+      "name_en": "Shah Moazzem Hossain",
+      "name_bn": "শাহ মোয়াজ্জেম হোসেন",
+      "role": "Senior Opposition Politician",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shah Moazzem Hossain Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shah Moazzem Hossain",
+        "search_query_news": "Shah Moazzem Hossain Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "shaheed-azad",
+      "name_en": "Azad (Shaheed Azad)",
+      "name_bn": "শহীদ আজাদ",
+      "role": "Urban Guerrilla Martyr",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Azad (Shaheed Azad) Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Azad (Shaheed Azad)",
+        "search_query_news": "Azad (Shaheed Azad) Bangladesh image",
+        "context_hint": "Occupied Dhaka’s resistance and detention context, 1971.",
+        "tags": [
+          "urban-guerrilla",
+          "martyr",
+          "memory"
+        ]
+      }
+    },
+    {
+      "id": "shaheed-rudro",
+      "name_en": "Shaheed Rudro",
+      "name_bn": "শহীদ রুদ্র",
+      "role": "Symbolic martyrs",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shaheed Rudro Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shaheed Rudro",
+        "search_query_news": "Shaheed Rudro Bangladesh image",
+        "context_hint": "July uprising casualty narratives and memorial references.",
+        "tags": [
+          "july-uprising",
+          "martyr-memory",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "shahid-saber",
+      "name_en": "Shahid Saber",
+      "name_bn": "শহীদ সাবের",
+      "role": "Writer and Progressive Activist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shahid Saber Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shahid Saber",
+        "search_query_news": "Shahid Saber Bangladesh image",
+        "context_hint": "East Bengal's literary and political left in the early 1950s.",
+        "tags": []
+      }
+    },
+    {
+      "id": "shahidul-alam",
+      "name_en": "Shahidul Alam",
+      "name_bn": "শহীদুল আলম",
+      "role": "Influential Supporters & Intellectuals",
+      "has_image": true,
+      "image": "/figures/2024/shahidul-alam.jpg",
+      "details": {
+        "search_query_primary": "Shahidul Alam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shahidul Alam",
+        "search_query_news": "Shahidul Alam Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "shahnaz-rahmatullah",
+      "name_en": "Shahnaz Rahmatullah",
+      "name_bn": "শাহনাজ রহমতুল্লাহ",
+      "role": "Patriotic Cultural Voice",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shahnaz Rahmatullah Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shahnaz Rahmatullah",
+        "search_query_news": "Shahnaz Rahmatullah Bangladesh image",
+        "context_hint": "Broadcast and cultural spheres linked to liberation memory.",
+        "tags": [
+          "culture",
+          "music",
+          "patriotic-memory"
+        ]
+      }
+    },
+    {
+      "id": "shamsul-alam",
+      "name_en": "Shamsul Alam",
+      "name_bn": "শামসুল আলম",
+      "role": "Resistance Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shamsul Alam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shamsul Alam",
+        "search_query_news": "Shamsul Alam Bangladesh image",
+        "context_hint": "Grassroots and local wartime coordination structures, 1971.",
+        "tags": [
+          "organizer",
+          "grassroots",
+          "resistance"
+        ]
+      }
+    },
+    {
+      "id": "shamsul-huq",
+      "name_en": "Shamsul Huq",
+      "name_bn": "শামসুল হক",
+      "role": "Convener of Early Language Committee",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shamsul Huq Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shamsul Huq",
+        "search_query_news": "Shamsul Huq Bangladesh image",
+        "context_hint": "The first phase of movement-building in East Bengal.",
+        "tags": []
+      }
+    },
+    {
+      "id": "shamsuzzoha",
+      "name_en": "Shamsuzzoha",
+      "name_bn": "শামসুজ্জোহা",
+      "role": "Symbol of Pre-1971 Resistance Legacy",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Shamsuzzoha Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Shamsuzzoha",
+        "search_query_news": "Shamsuzzoha Bangladesh image",
+        "context_hint": "Rajshahi University protest context and pre-war anti-repression movement.",
+        "tags": [
+          "1969-uprising",
+          "legacy",
+          "martyr"
+        ]
+      }
+    },
+    {
+      "id": "sheikh-hasina",
+      "name_en": "Sheikh Hasina",
+      "name_bn": "শেখ হাসিনা",
+      "role": "Leader of the 8-Party Alliance",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Sheikh Hasina Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Sheikh Hasina",
+        "search_query_news": "Sheikh Hasina Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "sheikh-mujibur-rahman",
+      "name_en": "Sheikh Mujibur Rahman",
+      "name_bn": "শেখ মুজিবুর রহমান",
+      "role": "Student Organizer and National Leader",
+      "has_image": true,
+      "image": "/figures/sheikh-mujibur-rahman.jpg",
+      "details": {
+        "search_query_primary": "Sheikh Mujibur Rahman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Sheikh Mujibur Rahman",
+        "search_query_news": "Sheikh Mujibur Rahman Bangladesh image",
+        "context_hint": "East Bengal and East Pakistan, 1948-1971; from early language politics to the autonomy and independence struggle.",
+        "tags": [
+          "language-rights",
+          "autonomy",
+          "nationalism"
+        ]
+      }
+    },
+    {
+      "id": "sinthia-jaheen-ayesha",
+      "name_en": "Sinthia Jaheen Ayesha",
+      "name_bn": "সিনথিয়া জাহীন আয়েশা",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Sinthia Jaheen Ayesha Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Sinthia Jaheen Ayesha",
+        "search_query_news": "Sinthia Jaheen Ayesha Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "somnath-lahiri",
+      "name_en": "Somnath Lahiri",
+      "name_bn": "সোমনাথ লাহিড়ী",
+      "role": "Communist Legislator",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Somnath Lahiri Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Somnath Lahiri",
+        "search_query_news": "Somnath Lahiri Bangladesh image",
+        "context_hint": "Constitutional and left politics in Bengal and India.",
+        "tags": []
+      }
+    },
+    {
+      "id": "street-procession-organisers-1990",
+      "name_en": "Street Procession Organisers",
+      "name_bn": "রাজপথের মিছিল সংগঠকেরা",
+      "role": "Movement Coordinators",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Street Procession Organisers Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Street Procession Organisers",
+        "search_query_news": "Street Procession Organisers Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "student-unity-twenty-two-organisations",
+      "name_en": "United Front of Twenty-Two Student Organizations",
+      "name_bn": "২২ ছাত্রসংগঠনের ঐক্যফ্রন্ট",
+      "role": "Student Coalition",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "United Front of Twenty-Two Student Organizations Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons United Front of Twenty-Two Student Organizations",
+        "search_query_news": "United Front of Twenty-Two Student Organizations Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "sufia-kamal",
+      "name_en": "Sufia Kamal",
+      "name_bn": "সুফিয়া কামাল",
+      "role": "Cultural and Civic Voice",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Sufia Kamal Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Sufia Kamal",
+        "search_query_news": "Sufia Kamal Bangladesh image",
+        "context_hint": "East Bengal's cultural sphere during and after the language movement.",
+        "tags": []
+      }
+    },
+    {
+      "id": "suranjit-sengupta",
+      "name_en": "Suranjit Sengupta",
+      "name_bn": "সুরঞ্জিত সেনগুপ্ত",
+      "role": "Parliamentary and Street Opposition Voice",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Suranjit Sengupta Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Suranjit Sengupta",
+        "search_query_news": "Suranjit Sengupta Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "surendranath-banerjea",
+      "name_en": "Surendranath Banerjea",
+      "name_bn": "সুরেন্দ্রনাথ বন্দ্যোপাধ্যায়",
+      "role": "Nationalist Leader and Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Surendranath Banerjea Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Surendranath Banerjea",
+        "search_query_news": "Surendranath Banerjea Bangladesh image",
+        "context_hint": "Late colonial Bengal's constitutional and public politics.",
+        "tags": []
+      }
+    },
+    {
+      "id": "swadhin-bangla-betar-artists",
+      "name_en": "Artists of Swadhin Bangla Betar Kendra",
+      "name_bn": "স্বাধীন বাংলা বেতার কেন্দ্রের শিল্পীরা",
+      "role": "Cultural Front",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Artists of Swadhin Bangla Betar Kendra Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Artists of Swadhin Bangla Betar Kendra",
+        "search_query_news": "Artists of Swadhin Bangla Betar Kendra Bangladesh image",
+        "context_hint": "1971, Swadhin Bangla Betar Kendra broadcasts reaching freedom fighters, refugee camps, and civilian audiences.",
+        "tags": [
+          "culture",
+          "media",
+          "collective-memory"
+        ]
+      }
+    },
+    {
+      "id": "syama-prasad-mukherjee",
+      "name_en": "Syama Prasad Mukherjee",
+      "name_bn": "শ্যামাপ্রসাদ মুখার্জী",
+      "role": "Hindu Mahasabha Leader",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Syama Prasad Mukherjee Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Syama Prasad Mukherjee",
+        "search_query_news": "Syama Prasad Mukherjee Bangladesh image",
+        "context_hint": "High-stakes debate over Bengal's future in 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "syed-nazrul-islam",
+      "name_en": "Syed Nazrul Islam",
+      "name_bn": "সৈয়দ নজরুল ইসলাম",
+      "role": "Acting President of the Provisional Government",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Syed Nazrul Islam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Syed Nazrul Islam",
+        "search_query_news": "Syed Nazrul Islam Bangladesh image",
+        "context_hint": "Mujibnagar Government, 1971; amid wartime uncertainty and absent central leadership.",
+        "tags": [
+          "constitutional-legitimacy",
+          "leadership",
+          "1971"
+        ]
+      }
+    },
+    {
+      "id": "syeda-rizwana-hasan",
+      "name_en": "Syeda Rizwana Hasan",
+      "name_bn": "সৈয়দা রিজওয়ানা হাসান",
+      "role": "Rights lawyer and interim-government adviser",
+      "has_image": true,
+      "image": "/figures/2024/syeda-rizwana-hasan.jpg",
+      "details": {
+        "search_query_primary": "Syeda Rizwana Hasan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Syeda Rizwana Hasan",
+        "search_query_news": "Syeda Rizwana Hasan Bangladesh image",
+        "context_hint": "Civil-society response during uprising and post-uprising governance.",
+        "tags": [
+          "rights",
+          "environment",
+          "interim-government"
+        ]
+      }
+    },
+    {
+      "id": "tahmid-abdullah",
+      "name_en": "Tahmid Abdullah",
+      "name_bn": "তাহমিদ আবদুল্লাহ",
+      "role": "Symbolic martyrs",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Tahmid Abdullah Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Tahmid Abdullah",
+        "search_query_news": "Tahmid Abdullah Bangladesh image",
+        "context_hint": "July uprising casualty narratives and memorial references.",
+        "tags": [
+          "july-uprising",
+          "martyr-memory",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "tahmid-al-mudabbir",
+      "name_en": "Tahmid Al Mudabbir",
+      "name_bn": "তাহমিদ আল মুদাব্বির",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Tahmid Al Mudabbir Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Tahmid Al Mudabbir",
+        "search_query_news": "Tahmid Al Mudabbir Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "tajuddin-ahmad",
+      "name_en": "Tajuddin Ahmad",
+      "name_bn": "তাজউদ্দীন আহমদ",
+      "role": "Prime Minister of the Provisional Government",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Tajuddin Ahmad Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Tajuddin Ahmad",
+        "search_query_news": "Tajuddin Ahmad Bangladesh image",
+        "context_hint": "Mujibnagar Government, 1971; linked to Indian and broader international diplomatic channels.",
+        "tags": [
+          "statecraft",
+          "wartime-governance",
+          "diplomacy"
+        ]
+      }
+    },
+    {
+      "id": "tamaddun-majlish",
+      "name_en": "Tamaddun Majlish",
+      "name_bn": "তামদ্দুন মজলিশ",
+      "role": "Intellectual Organization",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Tamaddun Majlish Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Tamaddun Majlish",
+        "search_query_news": "Tamaddun Majlish Bangladesh image",
+        "context_hint": "The first organized phase of the language movement after 1947.",
+        "tags": []
+      }
+    },
+    {
+      "id": "tamizuddin-khan",
+      "name_en": "Tamizuddin Khan",
+      "name_bn": "তমিজউদ্দীন খান",
+      "role": "Constitutional Leader from East Bengal",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Tamizuddin Khan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Tamizuddin Khan",
+        "search_query_news": "Tamizuddin Khan Bangladesh image",
+        "context_hint": "Pakistan's early representative institutions.",
+        "tags": []
+      }
+    },
+    {
+      "id": "tariqul-islam",
+      "name_en": "Tariqul Islam",
+      "name_bn": "তারিকুল ইসলাম",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Tariqul Islam Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Tariqul Islam",
+        "search_query_news": "Tariqul Islam Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "tasneem-khalil",
+      "name_en": "Grassroots & Digital Influencers",
+      "name_bn": "তাসনিম খলিল",
+      "role": "Grassroots & Digital Influencer",
+      "has_image": true,
+      "image": "/figures/2024/tasneem-khalil.png",
+      "details": {
+        "search_query_primary": "Grassroots & Digital Influencers Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Grassroots & Digital Influencers",
+        "search_query_news": "Grassroots & Digital Influencers Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "teachers-collective-1990",
+      "name_en": "Teachers' Collective",
+      "name_bn": "শিক্ষকসমাজ",
+      "role": "Professional Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Teachers' Collective Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Teachers' Collective",
+        "search_query_news": "Teachers' Collective Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "tofail-ahmed",
+      "name_en": "Tofail Ahmed",
+      "name_bn": "তোফায়েল আহমেদ",
+      "role": "Awami League Organizer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Tofail Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Tofail Ahmed",
+        "search_query_news": "Tofail Ahmed Bangladesh image",
+        "context_hint": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
+        "tags": []
+      }
+    },
+    {
+      "id": "umama-fatema",
+      "name_en": "Umama Fatema",
+      "name_bn": "উমামা ফাতেমা",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": true,
+      "image": "/figures/2024/umama-fatema.png",
+      "details": {
+        "search_query_primary": "Umama Fatema Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Umama Fatema",
+        "search_query_news": "Umama Fatema Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "unknown-protester",
+      "name_en": "The Unknown Protester",
+      "name_bn": "অজানা প্রতিবাদী",
+      "role": "Collective Civic Symbol",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "The Unknown Protester Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons The Unknown Protester",
+        "search_query_news": "The Unknown Protester Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "urban-protesters-1990",
+      "name_en": "Urban Protesters",
+      "name_bn": "শহুরে প্রতিবাদকারীরা",
+      "role": "Citizen Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Urban Protesters Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Urban Protesters",
+        "search_query_news": "Urban Protesters Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "vallabhbhai-patel",
+      "name_en": "Vallabhbhai Patel",
+      "name_bn": "বল্লভভাই পটেল",
+      "role": "Congress Strategist",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Vallabhbhai Patel Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Vallabhbhai Patel",
+        "search_query_news": "Vallabhbhai Patel Bangladesh image",
+        "context_hint": "Congress decision-making during the last years of British rule.",
+        "tags": []
+      }
+    },
+    {
+      "id": "wasim-akram-2024",
+      "name_en": "Wasim Akram",
+      "name_bn": "ওয়াসিম আকরাম",
+      "role": "Symbolic martyrs",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Wasim Akram Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Wasim Akram",
+        "search_query_news": "Wasim Akram Bangladesh image",
+        "context_hint": "July uprising casualty narratives and memorial references.",
+        "tags": [
+          "july-uprising",
+          "martyr-memory",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "women-activists-1990",
+      "name_en": "Women Activists",
+      "name_bn": "নারী কর্মীরা",
+      "role": "Civic Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Women Activists Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Women Activists",
+        "search_query_news": "Women Activists Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "workers-collective-1990",
+      "name_en": "Workers' Collective",
+      "name_bn": "শ্রমজীবী মানুষ",
+      "role": "Civic Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Workers' Collective Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Workers' Collective",
+        "search_query_news": "Workers' Collective Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "workers-party-of-bangladesh",
+      "name_en": "Workers Party of Bangladesh",
+      "name_bn": "বাংলাদেশের ওয়ার্কার্স পার্টি",
+      "role": "Left Political Organization",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Workers Party of Bangladesh Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Workers Party of Bangladesh",
+        "search_query_news": "Workers Party of Bangladesh Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "writers-and-intellectuals-collective-1990",
+      "name_en": "Writers and Intellectuals",
+      "name_bn": "লেখক ও বুদ্ধিজীবীরা",
+      "role": "Intellectual Collective",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Writers and Intellectuals Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Writers and Intellectuals",
+        "search_query_news": "Writers and Intellectuals Bangladesh image",
+        "context_hint": "The broader protest culture that shaped the 1990 Mass Uprising.",
+        "tags": []
+      }
+    },
+    {
+      "id": "yahya-khan",
+      "name_en": "Yahya Khan",
+      "name_bn": "ইয়াহিয়া খান",
+      "role": "President of Pakistan and Martial Law Administrator",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Yahya Khan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Yahya Khan",
+        "search_query_news": "Yahya Khan Bangladesh image",
+        "context_hint": "Pakistan's military state during the final prewar phase, 1969-1971.",
+        "tags": []
+      }
+    },
+    {
+      "id": "yamin-mist",
+      "name_en": "Yamin",
+      "name_bn": "ইয়ামিন",
+      "role": "Symbolic martyrs",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Yamin Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Yamin",
+        "search_query_news": "Yamin Bangladesh image",
+        "context_hint": "July uprising casualty narratives and memorial references.",
+        "tags": [
+          "july-uprising",
+          "martyr-memory",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "zaber-ahmed",
+      "name_en": "Zaber Ahmed",
+      "name_bn": "জাবের আহমেদ",
+      "role": "Coordinator (Students Against Discrimination)",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Zaber Ahmed Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Zaber Ahmed",
+        "search_query_news": "Zaber Ahmed Bangladesh image",
+        "context_hint": "Movement committee expansion reports (including 158-member coordination announcement on 3 August 2024).",
+        "tags": [
+          "coordination",
+          "students-against-discrimination",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "zafar-sobhan",
+      "name_en": "Zafar Sobhan",
+      "name_bn": "জাফর সোবহান",
+      "role": "Influential Supporters & Intellectuals",
+      "has_image": true,
+      "image": "/figures/2024/zafar-sobhan.jpg",
+      "details": {
+        "search_query_primary": "Zafar Sobhan Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Zafar Sobhan",
+        "search_query_news": "Zafar Sobhan Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "zahid-hossain",
+      "name_en": "Zahid Hossain",
+      "name_bn": "জাহিদ হোসেন",
+      "role": "Symbolic martyrs",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Zahid Hossain Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Zahid Hossain",
+        "search_query_news": "Zahid Hossain Bangladesh image",
+        "context_hint": "July uprising casualty narratives and memorial references.",
+        "tags": [
+          "july-uprising",
+          "martyr-memory",
+          "2024"
+        ]
+      }
+    },
+    {
+      "id": "ziaur-rahman",
+      "name_en": "Ziaur Rahman",
+      "name_bn": "জিয়াউর রহমান",
+      "role": "Sector Commander and Z Force Commander",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Ziaur Rahman Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Ziaur Rahman",
+        "search_query_news": "Ziaur Rahman Bangladesh image",
+        "context_hint": "Chittagong and multiple fronts during the Liberation War, 1971.",
+        "tags": [
+          "declaration",
+          "sector-command",
+          "z-force"
+        ]
+      }
+    },
+    {
+      "id": "zulkarnain-saer",
+      "name_en": "Zulkarnain Saer",
+      "name_bn": "জুলকারনাইন সায়ের",
+      "role": "Grassroots & Digital Influencer",
+      "has_image": false,
+      "image": null,
+      "details": {
+        "search_query_primary": "Zulkarnain Saer Bangladesh photo",
+        "search_query_wikimedia": "Wikimedia Commons Zulkarnain Saer",
+        "search_query_news": "Zulkarnain Saer Bangladesh image",
+        "context_hint": "Public discourse around accountability, rights, and governance transition in 2024.",
+        "tags": [
+          "public-discourse",
+          "civic-support",
+          "2024"
+        ]
+      }
+    }
+  ]
+}

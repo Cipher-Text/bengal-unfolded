@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const figure = await getFigure(locale, id);
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${figure.name} | Bengal Unfolded`,
+    title: figure.name,
     description: figure.highlight ?? figure.contribution,
     canonicalPath: `/${locale}/figures/${id}`,
     languagePathWithoutLocale: `/figures/${id}`,
@@ -37,6 +37,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
     name: figure.name,
     description: figure.highlight ?? figure.contribution,
     url: `https://bengalunfolded.com/${locale}/figures/${id}`,
+    image: figure.image,
     knowsAbout: figure.tags,
     inLanguage: localeLanguageTag(locale as Locale),
   };
@@ -53,6 +54,11 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
       <AnimatedContainer>
         <SectionTitle title={labels.context} subtitle={figure.context} />
         <div className="theme-surface mt-4 rounded-xl border p-4">
+          {figure.image ? (
+            <div className="theme-surface mb-4 overflow-hidden rounded-xl border border-amber-500/25 p-2">
+              <img src={figure.image} alt={figure.name} loading="lazy" className="h-auto max-h-[32rem] w-full object-contain" />
+            </div>
+          ) : null}
           <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.contribution}</h3>
           <p className="mt-2 text-sm">{figure.contribution}</p>
           <h3 className="text-positive mt-4 text-sm tracking-[0.18em] uppercase">{labels.impact}</h3>
