@@ -10,6 +10,9 @@
   "whyItMatters": "This period reshaped debates on constitutional design, election credibility, civil-military boundaries, and democratic resilience in Bangladesh.",
   "importance": "high",
   "parentEvent": "1975",
+  "childEventIds": [
+    "2009"
+  ],
   "relatedEvents": [
     {
       "eventId": "1975",

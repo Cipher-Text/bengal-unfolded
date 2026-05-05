@@ -4,6 +4,14 @@
 
 ### Completed
 
+- Added the missing `2014` chapter for the `10th Parliamentary Election`:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/2014/`.
+  - Sources: Added shared resources for Human Rights Watch's 2014 election violence report and Al Jazeera's reporting on the immediate parliamentary aftermath.
+  - Hierarchy: Inserted `2014` as a child chapter of `2013`, linking the Shahbag-era political climate to the contested January 5 election.
+- Added the missing `2009` Bangladesh chapter for the `BDR Mutiny / Pilkhana Massacre`:
+  - Content: Created bilingual event metadata, timeline, quotes, and resource links under `content/events/2009/`.
+  - Sources: Added shared resources for Banglapedia's Bangladesh Rifles entry and Human Rights Watch's reporting on the mutiny's aftermath.
+  - Hierarchy: Inserted `2009` as a child chapter of `2006`, linking the post-emergency transition to the Pilkhana crisis.
 - Added the missing `1982` authoritarian-transition chapter:
   - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1982/`.
   - Sources: Added shared resources for Ershad's political order and broader 1980s Bangladesh history.

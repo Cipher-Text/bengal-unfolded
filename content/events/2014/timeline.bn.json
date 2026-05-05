@@ -1,0 +1,68 @@
+[
+  {
+    "year": "২০১১-২০১৩",
+    "title": "তত্ত্বাবধায়ক কাঠামো নিয়ে বিরোধ আরও তীব্র হয়",
+    "detail": "পরবর্তী জাতীয় সংসদ নির্বাচন নির্দলীয় তত্ত্বাবধায়ক ব্যবস্থার অধীনে হবে, নাকি ক্ষমতাসীন সরকারের অধীনে হবে, তা নিয়ে বড় রাজনৈতিক সংঘাত গড়ে ওঠে।",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "bangladesh-elections-scarred-by-violence-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "২৫ নভেম্বর ২০১৩",
+    "title": "৫ জানুয়ারি ২০১৪-র ভোটসূচি ঘোষণা করা হয়",
+    "detail": "সরকার ও বিরোধী পক্ষের মধ্যে সমঝোতা ব্যর্থ হওয়ার পরও নির্বাচন কমিশন দশম জাতীয় সংসদ নির্বাচনের তারিখ নির্ধারণ করে।",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "bangladesh-elections-scarred-by-violence-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "২০১৩-এর শেষভাগ",
+    "title": "ভোট বর্জন ও দেশজুড়ে সহিংসতা বৃদ্ধি পায়",
+    "detail": "বিএনপি-নেতৃত্বাধীন জোট নির্বাচন বর্জন করে, আর ভোটের আগে-পরে হরতাল, অবরোধ, অগ্নিসংযোগ ও সংঘর্ষ দেশজুড়ে ছড়িয়ে পড়ে।",
+    "sourceIds": [
+      "bangladesh-elections-scarred-by-violence-hrw",
+      "newly-elected-bangladesh-mps-sworn-in-al-jazeera"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "৫ জানুয়ারি ২০১৪",
+    "title": "সীমিত প্রতিদ্বন্দ্বিতা ও প্রাণঘাতী অস্থিরতার মধ্যে ভোট হয়",
+    "detail": "অনেক আসন আগেই বিনা প্রতিদ্বন্দ্বিতায় নির্ধারিত হয়ে যাওয়ার পর, প্রধান বিরোধী শক্তির অনুপস্থিতিতে কড়া নিরাপত্তার মধ্যে ভোটগ্রহণ হয়; কিন্তু সহিংসতা, বাধা ও বিশ্বাসযোগ্যতা নিয়ে তীব্র প্রশ্ন থেকেই যায়।",
+    "sourceIds": [
+      "bangladesh-elections-scarred-by-violence-hrw",
+      "newly-elected-bangladesh-mps-sworn-in-al-jazeera"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "৯-১২ জানুয়ারি ২০১৪",
+    "title": "নতুন সংসদ ও সরকার শপথ নেয়",
+    "detail": "নির্বাচিত সংসদ সদস্যরা শপথ নেন এবং শেখ হাসিনা নতুন সরকার গঠন করেন, কিন্তু নির্বাচনের বৈধতা নিয়ে রাজনৈতিক অচলাবস্থা কাটেনি।",
+    "sourceIds": [
+      "newly-elected-bangladesh-mps-sworn-in-al-jazeera",
+      "bangladesh-elections-scarred-by-violence-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

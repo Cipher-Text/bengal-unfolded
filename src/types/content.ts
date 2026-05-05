@@ -27,7 +27,9 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1982",
   "1990",
   "2006",
+  "2009",
   "2013",
+  "2014",
   "2024",
 ] as const;
 export const SUPPORTED_FIGURE_IDS = [

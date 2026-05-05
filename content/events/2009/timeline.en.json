@@ -1,0 +1,69 @@
+[
+  {
+    "year": "Dec 2008-Jan 2009",
+    "title": "An elected government returns after the emergency period",
+    "detail": "Bangladesh re-entered parliamentary politics after the caretaker emergency, but the wider state system remained tense and institutionally unsettled.",
+    "sourceIds": [
+      "bangladesh-since-independence-britannica",
+      "caretaker-government-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "25 Feb 2009",
+    "title": "Mutiny erupts during BDR Week at Pilkhana",
+    "detail": "During a darbar at the Bangladesh Rifles headquarters, rank-and-file grievances broke into armed revolt against senior officers posted from the army.",
+    "sourceIds": [
+      "bangladesh-rifles-banglapedia",
+      "fear-never-leaves-me-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "25-26 Feb 2009",
+    "title": "Headquarters is seized and senior officers are killed",
+    "detail": "The revolt led to the killing of dozens of people, including many army officers seconded to BDR, while families inside the compound faced extreme danger.",
+    "sourceIds": [
+      "bangladesh-rifles-banglapedia",
+      "fear-never-leaves-me-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "26 Feb 2009",
+    "title": "Government negotiates surrender instead of storming the compound",
+    "detail": "The government chose negotiation and public appeals to secure a surrender, seeking to prevent an even deadlier confrontation in a dense urban area.",
+    "sourceIds": [
+      "fear-never-leaves-me-hrw",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2009-2011",
+    "title": "Mass arrests, trials, and force reorganization follow",
+    "detail": "The aftermath brought large-scale prosecutions, criticism of custodial abuse and trial fairness, and the eventual reorganization of Bangladesh Rifles into Border Guard Bangladesh.",
+    "sourceIds": [
+      "fear-never-leaves-me-hrw",
+      "bangladesh-rifles-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

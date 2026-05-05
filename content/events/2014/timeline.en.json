@@ -1,0 +1,68 @@
+[
+  {
+    "year": "2011-2013",
+    "title": "Dispute over the caretaker framework intensifies",
+    "detail": "A major political conflict grew over whether the next parliamentary election should be held under a neutral caretaker arrangement or under the incumbent government.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "bangladesh-elections-scarred-by-violence-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "25 Nov 2013",
+    "title": "Election schedule is announced for 5 January 2014",
+    "detail": "The Election Commission fixed the date for the 10th Parliamentary Election even though negotiations between the government and the opposition had failed.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "bangladesh-elections-scarred-by-violence-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Late 2013",
+    "title": "Opposition boycott and nationwide violence escalate",
+    "detail": "The BNP-led alliance boycotted the election, while strikes, blockades, arson attacks, and clashes spread across the country in the run-up to polling day.",
+    "sourceIds": [
+      "bangladesh-elections-scarred-by-violence-hrw",
+      "newly-elected-bangladesh-mps-sworn-in-al-jazeera"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "5 Jan 2014",
+    "title": "Voting takes place amid low contestation and deadly unrest",
+    "detail": "With many seats already uncontested and major opposition forces absent, polling took place under heavy security and was marred by violence, disruption, and strong criticism over credibility.",
+    "sourceIds": [
+      "bangladesh-elections-scarred-by-violence-hrw",
+      "newly-elected-bangladesh-mps-sworn-in-al-jazeera"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "9-12 Jan 2014",
+    "title": "New parliament and government are sworn in",
+    "detail": "Newly elected MPs took oath, and Sheikh Hasina formed the next government, but the political deadlock over the election's legitimacy persisted.",
+    "sourceIds": [
+      "newly-elected-bangladesh-mps-sworn-in-al-jazeera",
+      "bangladesh-elections-scarred-by-violence-hrw"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

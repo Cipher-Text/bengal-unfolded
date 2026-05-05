@@ -1,0 +1,47 @@
+{
+  "slug": "2014",
+  "year": "২০১৪",
+  "title": "দশম জাতীয় সংসদ নির্বাচন",
+  "subtitle": "বহুদলীয় অংশগ্রহণহীন এই নির্বাচন বাংলাদেশে নির্বাচনী বৈধতার সংকটকে আরও গভীর করে।",
+  "summary": "বাংলাদেশের দশম জাতীয় সংসদ নির্বাচন ২০১৪ সালের ৫ জানুয়ারি অনুষ্ঠিত হয়, যখন নির্বাচন নির্দলীয় তত্ত্বাবধায়ক ব্যবস্থার অধীনে হবে কি না তা নিয়ে কয়েক মাসের তীব্র রাজনৈতিক সংঘাত চলছিল। প্রধান বিরোধী জোট ভোট বর্জন করে, বহু আসনে প্রতিদ্বন্দ্বিতা হয়নি, এবং নির্বাচন-দিনসহ এর আগে-পরে প্রাণঘাতী সহিংসতা ঘটে; ফলে এই নির্বাচন ১৯৯০-পরবর্তী বাংলাদেশি রাজনীতির সবচেয়ে বিতর্কিত মোড়গুলোর একটিতে পরিণত হয়।",
+  "themeColor": "#7f1d1d",
+  "ctaLabel": "নির্বাচনটি বুঝুন",
+  "heroTagline": "২০১৪ সালের ভোট প্রশ্ন তোলে: ব্যাপক অংশগ্রহণ ছাড়া নির্বাচন কি জনসম্মত বৈধতা অর্জন করতে পারে?",
+  "whyItMatters": "২০১৪ সালের নির্বাচন গুরুত্বপূর্ণ, কারণ এটি বাংলাদেশের গণতান্ত্রিক গতিপথকে নতুনভাবে প্রভাবিত করে। এটি প্রধান রাজনৈতিক শক্তিগুলোর মধ্যে অবিশ্বাসকে আরও কঠিন করে, অন্তর্ভুক্তিমূলক নির্বাচনের ওপর আস্থা কমায়, এবং প্রতিনিধিত্ব, রাষ্ট্রক্ষমতা ও বিশ্বাসযোগ্য জাতীয় নির্বাচনের শর্ত নিয়ে পরবর্তী বিতর্কের একটি কেন্দ্রীয় রেফারেন্সে পরিণত হয়।",
+  "importance": "high",
+  "parentEvent": "2013",
+  "relatedEvents": [
+    {
+      "eventId": "2006",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2013",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2006",
+    "2013",
+    "2024"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "bangladesh-elections-scarred-by-violence-hrw",
+    "caretaker-government-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bangladesh-elections-scarred-by-violence-hrw",
+    "newly-elected-bangladesh-mps-sworn-in-al-jazeera"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent"
+}
