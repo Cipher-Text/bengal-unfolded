@@ -18,8 +18,12 @@
     "archive-collection"
   ],
   "importance": "high",
-  "parentEvent": "1906",
+  "parentEvent": "1905",
   "relatedEvents": [
+    {
+      "eventId": "1905",
+      "relationType": "background"
+    },
     {
       "eventId": "1906",
       "relationType": "background"
@@ -30,6 +34,7 @@
     }
   ],
   "relatedEventIds": [
+    "1905",
     "1906",
     "1947"
   ],

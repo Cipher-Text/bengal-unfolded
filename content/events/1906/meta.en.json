@@ -9,10 +9,12 @@
   "heroTagline": "Dhaka emerged as a symbolic site in the reorganization of all-India Muslim politics.",
   "whyItMatters": "The 1906 founding linked Bengal's political space to broader subcontinental constitutional debates, shaping later questions of representation, communal politics, and state formation.",
   "importance": "high",
-  "childEventIds": [
-    "1911"
-  ],
+  "parentEvent": "1905",
   "relatedEvents": [
+    {
+      "eventId": "1905",
+      "relationType": "background"
+    },
     {
       "eventId": "1911",
       "relationType": "effect"
@@ -23,6 +25,7 @@
     }
   ],
   "relatedEventIds": [
+    "1905",
     "1911",
     "1947"
   ],

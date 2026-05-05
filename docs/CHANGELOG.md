@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-05-05
+
+### Completed
+
+- Added the missing `1905` event chapter for the Partition of Bengal:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1905/`.
+  - Sources: Added dedicated shared resources for the 1905 partition, Swadeshi movement, and Dhaka Nawab family context.
+  - Figures: Added `lord-curzon`, `rabindranath-tagore`, `surendranath-banerjea`, and `nawab-salimullah`.
+  - Hierarchy: Rewired the timeline cluster so `1905` is the parent event for `1906` and `1911`, aligning event discovery with the historical sequence.
+
 ## 2026-05-04
 
 ### Completed

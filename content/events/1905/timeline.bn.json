@@ -1,0 +1,73 @@
+[
+  {
+    "year": "১৯০৩-১৯০৪",
+    "title": "বিভাজনের প্রস্তাব প্রশাসনিক সমর্থন পেতে শুরু করে",
+    "detail": "লর্ড কার্জনের আমলে বাংলা প্রেসিডেন্সিকে ভাগ করার পরিকল্পনা প্রশাসনিক মহলে শক্ত সমর্থন পায়। সরকার এটিকে বড় প্রদেশের শাসন-সমস্যার সমাধান বললেও সমালোচকেরা একে বাঙালির রাজনৈতিক প্রভাব ভাঙার কৌশল হিসেবে দেখেন।",
+    "sourceIds": [
+      "partition-of-bengal-1905-banglapedia",
+      "partition-of-bengal-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "১৯ জুলাই ১৯০৫",
+    "title": "ঔপনিবেশিক সরকার বঙ্গভঙ্গের সিদ্ধান্ত ঘোষণা করে",
+    "detail": "ব্রিটিশ সরকার আনুষ্ঠানিকভাবে ঘোষণা করে যে বাংলা ভাগ করা হবে, এবং এর মাধ্যমে পূর্ববঙ্গ ও আসাম নামে পৃথক প্রদেশ গঠনের পথ খুলে যায়।",
+    "sourceIds": [
+      "partition-of-bengal-1905-banglapedia",
+      "partition-of-bengal-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৬ অক্টোবর ১৯০৫",
+    "title": "বঙ্গভঙ্গ কার্যকর হয়",
+    "detail": "সিদ্ধান্ত কার্যকর হওয়ার মাধ্যমে ঢাকাকে রাজধানী করে পূর্ববঙ্গ ও আসাম নামে নতুন প্রদেশ গঠিত হয়; প্রশাসনিক আদেশ দ্রুতই বাংলাজুড়ে গভীর রাজনৈতিক ও মানসিক অভিঘাতে রূপ নেয়।",
+    "sourceIds": [
+      "partition-of-bengal-1905-banglapedia",
+      "partition-of-bengal-britannica",
+      "nawab-family-of-dhaka-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯০৫-১৯০৮",
+    "title": "বয়কট ও স্বদেশী আন্দোলন ছড়িয়ে পড়ে",
+    "detail": "বঙ্গভঙ্গবিরোধী কর্মীরা বয়কট প্রচার, দেশীয় পণ্যের ব্যবহার, সভা-মিছিল, গান এবং অর্থনৈতিক প্রতিরোধের মাধ্যমে প্রতিবাদকে বিস্তৃত রাজনৈতিক সংস্কৃতিতে রূপ দেন।",
+    "sourceIds": [
+      "swadeshi-movement-banglapedia",
+      "swadeshi-movement-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯০৬-১৯১১",
+    "title": "বঙ্গভঙ্গ প্রতিনিধিত্বের রাজনীতিকে নতুনভাবে বিন্যস্ত করে",
+    "detail": "নতুন প্রাদেশিক বিন্যাস আঞ্চলিক ক্ষমতা ও সাম্প্রদায়িক প্রতিনিধিত্ব নিয়ে বিতর্ক তীব্র করে, ঢাকাকেন্দ্রিক মুসলিম রাজনৈতিক সংগঠনের বিকাশকে উৎসাহ দেয়, এবং ১৯১১ সালের রদ পর্যন্ত বঙ্গভঙ্গবিরোধী চাপ অব্যাহত রাখে।",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "nawab-family-of-dhaka-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

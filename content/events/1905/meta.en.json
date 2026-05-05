@@ -1,0 +1,50 @@
+{
+  "slug": "1905",
+  "year": "1905",
+  "title": "Partition of Bengal",
+  "subtitle": "Colonial reorganization, mass protest, and a new political fault line in Bengal.",
+  "summary": "In 1905, the British colonial government partitioned Bengal and created the new province of Eastern Bengal and Assam with Dacca as its capital. Officials defended the move as an administrative reform, but many opponents in Bengal saw it as a divide-and-rule measure that weakened Bengali political influence. The decision triggered boycott campaigns, Swadeshi activism, and a lasting reconfiguration of political alignments across the region.",
+  "themeColor": "#7a5b2e",
+  "ctaLabel": "Explore the partition",
+  "heroTagline": "What was announced as administrative reform became one of Bengal's most formative political ruptures.",
+  "summarySourceIds": [
+    "partition-of-bengal-1905-banglapedia",
+    "partition-of-bengal-britannica"
+  ],
+  "whyItMatters": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interests, and left a political legacy that continued into the annulment of 1911 and the deeper partition crisis of 1947.",
+  "whyItMattersSourceIds": [
+    "swadeshi-movement-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "importance": "landmark",
+  "childEventIds": [
+    "1906",
+    "1911"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1906",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1911",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1947",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1906",
+    "1911",
+    "1947"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation"
+}

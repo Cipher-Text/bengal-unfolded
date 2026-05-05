@@ -1,0 +1,73 @@
+[
+  {
+    "year": "1903-1904",
+    "title": "Partition proposals gather administrative backing",
+    "detail": "Officials under Lord Curzon advanced plans to split the large Bengal Presidency, presenting the measure as a solution to administrative overload while critics read it as a political attempt to weaken Bengali influence.",
+    "sourceIds": [
+      "partition-of-bengal-1905-banglapedia",
+      "partition-of-bengal-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "19 Jul 1905",
+    "title": "Colonial government issues the partition decision",
+    "detail": "The British government formally announced that Bengal would be divided, clearing the way for the creation of Eastern Bengal and Assam as a separate province.",
+    "sourceIds": [
+      "partition-of-bengal-1905-banglapedia",
+      "partition-of-bengal-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "16 Oct 1905",
+    "title": "Partition of Bengal takes effect",
+    "detail": "The measure came into force and created the new province of Eastern Bengal and Assam with Dacca as its capital, turning an official decree into an immediate political and emotional rupture across Bengal.",
+    "sourceIds": [
+      "partition-of-bengal-1905-banglapedia",
+      "partition-of-bengal-britannica",
+      "nawab-family-of-dhaka-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1905-1908",
+    "title": "Boycott and Swadeshi agitation spread",
+    "detail": "Anti-partition activists organized boycott campaigns, promoted indigenous goods, and turned protest into a broader political culture of meetings, songs, processions, and economic resistance.",
+    "sourceIds": [
+      "swadeshi-movement-banglapedia",
+      "swadeshi-movement-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1906-1911",
+    "title": "The partition reshapes representation politics",
+    "detail": "The new provincial arrangement sharpened arguments over regional power and communal representation, feeding new Muslim political organization in Dhaka and prolonging anti-partition pressure until annulment in 1911.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "nawab-family-of-dhaka-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]
