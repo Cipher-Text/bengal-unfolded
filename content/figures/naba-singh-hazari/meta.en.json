@@ -6,5 +6,10 @@
   "contribution": "Listed among military actors associated with the Plassey conflict in Bengali historical reference works.",
   "context": "Nawabi military alignments during 1757.",
   "impact": "Represents the wider network of officers involved in the conflict beyond the most famous commanders.",
-  "tags": ["plassey", "military-network", "nawabi-bengal"]
+  "tags": [
+    "plassey",
+    "military-network",
+    "nawabi-bengal"
+  ],
+  "image": "/figures/naba-singh-hazari.jpg"
 }

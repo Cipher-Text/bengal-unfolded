@@ -6,5 +6,10 @@
   "contribution": "A Calcutta-based merchant linked to negotiations and intrigue among Company officials and Bengal elites before Plassey.",
   "context": "Commercial mediation and political bargaining in 1757.",
   "impact": "His case highlights the murky overlap of trade, diplomacy, and deception in the road to Plassey.",
-  "tags": ["plassey", "merchant-politics", "calcutta"]
+  "tags": [
+    "plassey",
+    "merchant-politics",
+    "calcutta"
+  ],
+  "image": "/figures/umichand.jpg"
 }

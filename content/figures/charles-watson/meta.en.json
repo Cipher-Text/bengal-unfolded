@@ -6,5 +6,10 @@
   "contribution": "As a senior naval commander allied with Company operations, he contributed to British military pressure in Bengal during the conflict period.",
   "context": "British naval-military intervention in Bengal, 1756-1757.",
   "impact": "Naval backing strengthened the British position in the campaigns culminating in Plassey.",
-  "tags": ["plassey-era", "naval-power", "british-intervention"]
+  "tags": [
+    "plassey-era",
+    "naval-power",
+    "british-intervention"
+  ],
+  "image": "/figures/charles-watson.jpg"
 }

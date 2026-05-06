@@ -6,5 +6,10 @@
   "contribution": "পলাশীর যুদ্ধে সিরাজউদ্দৌলার বাহিনীর প্রধান কমান্ড কাঠামোর একজন ছিলেন তিনি।",
   "context": "১৭৫৭ সালে নবাব বাহিনীর নেতৃত্ব ও মোতায়েন।",
   "impact": "তার অবস্থান সেই সামরিক ভাঙনের অংশ, যা কোম্পানির বিজয়কে সহজ করে।",
-  "tags": ["plassey", "nawab-army", "command"]
+  "tags": [
+    "plassey",
+    "nawab-army",
+    "command"
+  ],
+  "image": "/figures/yar-latif-khan.jpg"
 }

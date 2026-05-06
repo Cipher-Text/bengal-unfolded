@@ -6,5 +6,10 @@
   "contribution": "বাংলা তথ্যভিত্তিক ঐতিহাসিক রেফারেন্সে তাকে পলাশী-সংশ্লিষ্ট সামরিক ব্যক্তিদের মধ্যে উল্লেখ করা হয়।",
   "context": "১৭৫৭ সালের নবাবি সামরিক সমীকরণ।",
   "impact": "তিনি দেখান যে যুদ্ধটি শুধু কয়েকজন বিখ্যাত সেনানায়কের মধ্যে সীমিত ছিল না; বৃহত্তর কর্মকর্তা-জাল জড়িত ছিল।",
-  "tags": ["plassey", "military-network", "nawabi-bengal"]
+  "tags": [
+    "plassey",
+    "military-network",
+    "nawabi-bengal"
+  ],
+  "image": "/figures/naba-singh-hazari.jpg"
 }

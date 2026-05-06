@@ -6,5 +6,10 @@
   "contribution": "He served in Company campaigns in Bengal during the Plassey phase and after.",
   "context": "Company military operations in Bengal in the late 1750s.",
   "impact": "His presence reflects continuity between Plassey and subsequent consolidation campaigns.",
-  "tags": ["plassey-era", "company-army", "consolidation"]
+  "tags": [
+    "plassey-era",
+    "company-army",
+    "consolidation"
+  ],
+  "image": "/figures/eyre-coote.jpg"
 }
