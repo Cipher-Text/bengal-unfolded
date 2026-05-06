@@ -20,7 +20,7 @@
     },
     {
       "id": "abu-taher",
-      "rel": "/figures/abu-taher.jpg",
+      "rel": "/figures/abu-taher.jpeg",
       "type": "SVG Scalable Vector Graphics image",
       "size": 8567
     },
@@ -86,7 +86,7 @@
     },
     {
       "id": "umama-fatema",
-      "rel": "/figures/umama-fatema.png",
+      "rel": "/figures/umama-fatema.jpg",
       "type": "PNG image data, 330 x 330, 8-bit/color RGBA, non-interlaced",
       "size": 85615
     },
