@@ -1,0 +1,37 @@
+{
+  "slug": "0750-1170-pala-dynasty-foundation",
+  "year": "c. mid-8th century",
+  "title": "Foundation of the Pala Dynasty",
+  "subtitle": "Bengal's transition into a major imperial phase.",
+  "summary": "The Pala dynasty emerged in the mid-8th century, with Gopala's rise during a period of political disorder. Under Dharmapala and Devapala, the dynasty expanded significantly and made Bengal a central actor in wider South Asian politics.",
+  "themeColor": "#3f5f4a",
+  "ctaLabel": "Explore the Palas",
+  "heroTagline": "Pala state formation linked Bengal to a wider imperial and Buddhist world.",
+  "summarySourceIds": [
+    "pala-dynasty-britannica"
+  ],
+  "whyItMatters": "This event matters because it marks the beginning of a durable Bengal-based dynasty with long political reach and major religious-intellectual patronage.",
+  "whyItMattersSourceIds": [
+    "pala-dynasty-britannica"
+  ],
+  "importance": "landmark",
+  "relatedEvents": [
+    {
+      "eventId": "0800-1200-somapura-mahavihara",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1178-1204-sena-transition",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "0800-1200-somapura-mahavihara",
+    "1178-1204-sena-transition"
+  ],
+  "periodLabel": "Ancient and Pre-Sultanate Bengal",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high"
+}

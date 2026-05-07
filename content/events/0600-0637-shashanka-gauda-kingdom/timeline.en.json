@@ -1,0 +1,27 @@
+[
+  {
+    "year": "Early 7th century",
+    "title": "Shashanka consolidates Gauda authority",
+    "detail": "Shashanka is identified as king of Gauda and associated with early consolidation of power in lower Bengal.",
+    "sourceIds": [
+      "shashanka-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "Early 7th century",
+    "title": "Expansion into wider Ganges political contest",
+    "detail": "Britannica describes Shashanka as annexing a substantial part of the Ganges valley and entering conflicts with contemporary north Indian powers.",
+    "sourceIds": [
+      "shashanka-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  }
+]

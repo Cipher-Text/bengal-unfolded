@@ -1,0 +1,32 @@
+{
+  "slug": "0400bce-0300bce-mahasthangarh-urban-emergence",
+  "year": "আনু. খ্রি.পূ. ৪র্থ-৩য় শতক",
+  "title": "মহাস্থানগড়ে প্রাথমিক নগরায়নের উত্থান",
+  "subtitle": "বঙ্গ অঞ্চলে প্রাচীন সুরক্ষিত নগরকেন্দ্রের গঠন।",
+  "summary": "মহাস্থানগড়ের প্রত্নতাত্ত্বিক উপাত্ত দেখায় যে এটি বঙ্গ অঞ্চলের অন্যতম প্রাচীন বৃহৎ সুরক্ষিত নগরকেন্দ্র, যার সূচনা আনুমানিক খ্রি.পূ. ৪র্থ-৩য় শতকে এবং দীর্ঘকাল প্রশাসনিক-নগর ধারাবাহিকতা বজায় ছিল।",
+  "themeColor": "#4f5d73",
+  "ctaLabel": "প্রাচীন বাংলা দেখুন",
+  "heroTagline": "মহাস্থানগড় বাংলার গভীর নগর-ইতিহাসকে মধ্যযুগীয় রূপান্তরের আগেই প্রতিষ্ঠা করে।",
+  "summarySourceIds": [
+    "mahasthangarh-unesco"
+  ],
+  "whyItMatters": "এই অধ্যায় গুরুত্বপূর্ণ, কারণ এটি প্রাচীন বাংলার ইতিহাসকে কেবল বর্ণনামূলক ঐতিহ্য নয়, প্রত্নতাত্ত্বিক প্রমাণের ভিত্তিতে প্রতিষ্ঠা করে এবং পরবর্তী রাজবংশীয় যুগের আগে দীর্ঘ প্রতিষ্ঠানগত ধারাবাহিকতার ইঙ্গিত দেয়।",
+  "whyItMattersSourceIds": [
+    "mahasthangarh-unesco"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1204",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1204"
+  ],
+  "periodLabel": "প্রাচীন ও প্রাক-সালতানাত বাংলা",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high"
+}

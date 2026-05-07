@@ -1,0 +1,28 @@
+[
+  {
+    "year": "c. 1178-c. 1205",
+    "title": "Lakshmanasena's final major reign phase",
+    "detail": "Britannica identifies Lakshmanasena as the last major Sena ruler and notes his literary court at Nadia.",
+    "sourceIds": [
+      "sena-dynasty-britannica"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1202-1204 context",
+    "title": "Nadia-centered order collapses",
+    "detail": "Lakshmanasena was expelled from Nadia by Bakhtiyar Khalji, signaling the end of Sena dominance in the principal western center.",
+    "sourceIds": [
+      "sena-dynasty-britannica",
+      "bakhtiyar-khalji-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  }
+]

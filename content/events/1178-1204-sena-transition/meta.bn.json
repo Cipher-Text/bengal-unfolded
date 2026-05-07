@@ -1,0 +1,33 @@
+{
+  "slug": "1178-1204-sena-transition",
+  "year": "আনু. ১১৭৮-১২০৪",
+  "title": "১২০৪-এর পূর্বে শেষ সেন যুগের উত্তরণ",
+  "subtitle": "লক্ষ্মণ সেনের শেষ পর্যায় এবং রাজনৈতিক ভাঙনের পূর্বমুহূর্ত।",
+  "summary": "লক্ষ্মণ সেনের শাসনকাল (আনু. ১১৭৮-আনু. ১২০৫) বাংলায় ১২০৪-পূর্ব শেষ প্রধান দরবারকেন্দ্রিক রাজনৈতিক ধাপকে প্রতিনিধিত্ব করে; নদীয়া থেকে তার অপসারণের মধ্য দিয়ে সেই ধাপ ভেঙে পড়ে।",
+  "themeColor": "#6b4e3d",
+  "ctaLabel": "শেষ সেন যুগ দেখুন",
+  "heroTagline": "সেন যুগের শেষ অধ্যায় ১২০৪-১২০৫ সালের ক্ষমতা-রূপান্তরের তাৎক্ষণিক প্রেক্ষাপট তৈরি করে।",
+  "summarySourceIds": [
+    "sena-dynasty-britannica"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বিজয়-পূর্ব রাজনৈতিক সংস্কৃতি ও নদীয়া দখলের পরবর্তী পুনর্গঠিত শাসনব্যবস্থার মধ্যে সরাসরি সেতু রচনা করে।",
+  "whyItMattersSourceIds": [
+    "sena-dynasty-britannica",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1204",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1204"
+  ],
+  "periodLabel": "প্রাচীন ও প্রাক-সালতানাত বাংলা",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "medium"
+}

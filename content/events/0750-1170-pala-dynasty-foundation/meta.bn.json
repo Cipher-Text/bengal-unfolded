@@ -1,0 +1,37 @@
+{
+  "slug": "0750-1170-pala-dynasty-foundation",
+  "year": "আনু. অষ্টম শতকের মধ্যভাগ",
+  "title": "পাল রাজবংশের প্রতিষ্ঠা",
+  "subtitle": "বাংলার একটি বৃহৎ সাম্রাজ্যিক পর্যায়ে উত্তরণ।",
+  "summary": "অষ্টম শতকের মধ্যভাগে রাজনৈতিক অস্থিরতার প্রেক্ষাপটে গোপালের উত্থানের মাধ্যমে পাল রাজবংশ গড়ে ওঠে। ধর্মপাল ও দেবপালের আমলে এই রাজবংশের সম্প্রসারণ বাংলাকে বৃহত্তর দক্ষিণ এশীয় রাজনীতির কেন্দ্রে নিয়ে আসে।",
+  "themeColor": "#3f5f4a",
+  "ctaLabel": "পাল যুগ দেখুন",
+  "heroTagline": "পাল রাষ্ট্রগঠন বাংলাকে বৃহত্তর সাম্রাজ্যিক ও বৌদ্ধ জ্ঞানবিশ্বের সঙ্গে যুক্ত করে।",
+  "summarySourceIds": [
+    "pala-dynasty-britannica"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলা-ভিত্তিক দীর্ঘস্থায়ী এক রাজবংশের সূচনা এবং বিস্তৃত রাজনৈতিক প্রভাবের পাশাপাশি ধর্মীয়-জ্ঞানচর্চার পৃষ্ঠপোষকতার ভিত্তি স্থাপন করে।",
+  "whyItMattersSourceIds": [
+    "pala-dynasty-britannica"
+  ],
+  "importance": "landmark",
+  "relatedEvents": [
+    {
+      "eventId": "0800-1200-somapura-mahavihara",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1178-1204-sena-transition",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "0800-1200-somapura-mahavihara",
+    "1178-1204-sena-transition"
+  ],
+  "periodLabel": "প্রাচীন ও প্রাক-সালতানাত বাংলা",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high"
+}

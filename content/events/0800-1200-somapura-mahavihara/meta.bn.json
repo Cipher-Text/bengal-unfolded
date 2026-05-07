@@ -1,0 +1,33 @@
+{
+  "slug": "0800-1200-somapura-mahavihara",
+  "year": "অষ্টম শতক",
+  "title": "সোমপুর মহাবিহারের নির্মাণ",
+  "subtitle": "পাহাড়পুরে বৌদ্ধ জ্ঞানচর্চার এক প্রধান কেন্দ্রের উত্থান।",
+  "summary": "পাহাড়পুরের সোমপুর মহাবিহার অষ্টম শতকে হিমালয়ের দক্ষিণে বৃহৎ মঠসমূহের অন্যতম হিসেবে গড়ে ওঠে এবং প্রাক-ইসলামি বাংলায় এটি একটি গুরুত্বপূর্ণ জ্ঞানকেন্দ্রে পরিণত হয়।",
+  "themeColor": "#6a5d3b",
+  "ctaLabel": "সোমপুর দেখুন",
+  "heroTagline": "সোমপুর বাংলার রাজনৈতিক ইতিহাসকে স্থাপত্য, ধর্ম ও আন্তঃআঞ্চলিক জ্ঞানবিনিময়ের সঙ্গে যুক্ত করে।",
+  "summarySourceIds": [
+    "somapura-mahavira-britannica",
+    "mahasthangarh-unesco"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলায় বৌদ্ধ জ্ঞানচর্চা ও সাংস্কৃতিক বিনিময়ে প্রাতিষ্ঠানিক ভূমিকাকে স্থাপত্য-প্রমাণসহ দেখায়।",
+  "whyItMattersSourceIds": [
+    "somapura-mahavira-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "0750-1170-pala-dynasty-foundation",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "0750-1170-pala-dynasty-foundation"
+  ],
+  "periodLabel": "প্রাচীন ও প্রাক-সালতানাত বাংলা",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "0400bce-0300bce-mahasthangarh-urban-emergence",
+  "year": "c. 4th-3rd century BCE",
+  "title": "Urban Emergence at Mahasthangarh",
+  "subtitle": "Early fortified urbanization in the Bengal region.",
+  "summary": "Archaeological evidence from Mahasthangarh indicates one of the earliest major fortified urban centers in the Bengal region, with origins around the 4th-3rd century BCE and long continuity of settlement and administration.",
+  "themeColor": "#4f5d73",
+  "ctaLabel": "Explore Early Bengal",
+  "heroTagline": "Mahasthangarh anchors the deep urban history of Bengal before medieval state transitions.",
+  "summarySourceIds": [
+    "mahasthangarh-unesco"
+  ],
+  "whyItMatters": "This chapter matters because it grounds Bengal's early history in material archaeology and shows long-term institutional continuity before later dynastic phases.",
+  "whyItMattersSourceIds": [
+    "mahasthangarh-unesco"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1204",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1204"
+  ],
+  "periodLabel": "Ancient and Pre-Sultanate Bengal",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high"
+}

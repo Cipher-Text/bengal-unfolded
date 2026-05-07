@@ -137,6 +137,7 @@ Image rendering policy:
 
 Supported period IDs:
 
+- `ancient-and-pre-sultanate-bengal`
 - `transition-to-sultanate-formation`
 - `independent-bengal-sultanate-era`
 - `mughal-incorporation-and-consolidation`

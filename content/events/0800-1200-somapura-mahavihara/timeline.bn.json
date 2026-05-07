@@ -1,0 +1,27 @@
+[
+  {
+    "year": "অষ্টম শতক",
+    "title": "পাহাড়পুরে সোমপুর মহাবিহারের প্রতিষ্ঠা",
+    "detail": "Britannica অনুযায়ী বর্তমান উত্তর-পশ্চিম বাংলাদেশের এই অষ্টম শতকের বিহারটি হিমালয়ের দক্ষিণে বৃহত্তম মঠগুলোর একটি।",
+    "sourceIds": [
+      "somapura-mahavira-britannica"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদি উত্তরাধিকার",
+    "title": "জ্ঞানচর্চা ও স্থাপত্যে স্থায়ী প্রভাব",
+    "detail": "মঠটির ব্যাপক পরিসর ও দীর্ঘকালীন জ্ঞানচর্চা-সংযোগ প্রাক-১২০৪ বাংলা ইতিহাসে একটি গুরুত্বপূর্ণ সাংস্কৃতিক চিহ্ন হয়ে থাকে।",
+    "sourceIds": [
+      "somapura-mahavira-britannica",
+      "mahasthangarh-unesco"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
+    ]
+  }
+]

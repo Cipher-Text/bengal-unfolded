@@ -1,0 +1,28 @@
+[
+  {
+    "year": "Mid-8th century",
+    "title": "Gopala establishes Pala rule",
+    "detail": "Britannica describes Gopala's rise in a period of anarchy as the foundation point of Pala power in Bengal.",
+    "sourceIds": [
+      "pala-dynasty-britannica"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "c. 770-850",
+    "title": "Imperial expansion under Dharmapala and Devapala",
+    "detail": "Under Dharmapala and Devapala, Pala influence expanded beyond Bengal into wider north Indian geopolitical struggles.",
+    "sourceIds": [
+      "pala-dynasty-britannica"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "war",
+      "economy"
+    ]
+  }
+]

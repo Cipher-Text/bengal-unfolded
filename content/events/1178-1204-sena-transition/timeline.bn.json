@@ -1,0 +1,28 @@
+[
+  {
+    "year": "আনু. ১১৭৮-আনু. ১২০৫",
+    "title": "লক্ষ্মণ সেনের শেষ প্রধান শাসনপর্ব",
+    "detail": "Britannica লক্ষ্মণ সেনকে শেষ গুরুত্বপূর্ণ সেন শাসক হিসেবে চিহ্নিত করে এবং নদীয়ার সাহিত্যপৃষ্ঠপোষক দরবারের কথা উল্লেখ করে।",
+    "sourceIds": [
+      "sena-dynasty-britannica"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "১২০২-১২০৪ প্রেক্ষাপট",
+    "title": "নদীয়াকেন্দ্রিক রাজনৈতিক বিন্যাসের পতন",
+    "detail": "বখতিয়ার খলজির হাতে নদীয়া থেকে লক্ষ্মণ সেনের অপসারণ সেন প্রাধান্যের অবসানকে স্পষ্ট করে।",
+    "sourceIds": [
+      "sena-dynasty-britannica",
+      "bakhtiyar-khalji-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  }
+]

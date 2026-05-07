@@ -1,0 +1,33 @@
+{
+  "slug": "1178-1204-sena-transition",
+  "year": "c. 1178-1204",
+  "title": "Late Sena Transition Before the 1204 Conquest",
+  "subtitle": "Lakshmanasena's final phase and the eve of political rupture.",
+  "summary": "The late Sena phase under Lakshmanasena (c. 1178-c. 1205) represents the final major pre-1204 court-centered order in Bengal, ending with his expulsion from Nadia by Bakhtiyar Khalji.",
+  "themeColor": "#6b4e3d",
+  "ctaLabel": "Explore Late Sena",
+  "heroTagline": "The final Sena chapter provides the immediate context for Bengal's 1204-1205 power transition.",
+  "summarySourceIds": [
+    "sena-dynasty-britannica"
+  ],
+  "whyItMatters": "This event matters because it is the direct bridge between pre-conquest political culture and the restructured order that followed the Nadia capture.",
+  "whyItMattersSourceIds": [
+    "sena-dynasty-britannica",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1204",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1204"
+  ],
+  "periodLabel": "Ancient and Pre-Sultanate Bengal",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "medium"
+}

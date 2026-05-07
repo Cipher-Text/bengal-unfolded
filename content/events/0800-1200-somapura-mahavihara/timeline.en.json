@@ -1,0 +1,27 @@
+[
+  {
+    "year": "8th century",
+    "title": "Somapura monastery established at Paharpur",
+    "detail": "Britannica identifies Somapura as an 8th-century monastery in present-day northwestern Bangladesh and one of the largest south of the Himalayas.",
+    "sourceIds": [
+      "somapura-mahavira-britannica"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "Long-term legacy",
+    "title": "Enduring intellectual and architectural footprint",
+    "detail": "The monastery's scale and long-standing scholarly use made it a major marker of pre-1204 Bengali cultural history.",
+    "sourceIds": [
+      "somapura-mahavira-britannica",
+      "mahasthangarh-unesco"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
+    ]
+  }
+]

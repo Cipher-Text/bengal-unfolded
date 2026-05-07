@@ -1,0 +1,32 @@
+{
+  "slug": "0600-0637-shashanka-gauda-kingdom",
+  "year": "সপ্তম শতকের শুরু",
+  "title": "শশাঙ্ক ও গৌড় রাজ্যের উত্থান",
+  "subtitle": "বাংলা-কেন্দ্রিক একটি প্রাথমিক সার্বভৌম শক্তির বিকাশ।",
+  "summary": "সপ্তম শতকের শুরুর দিকে গৌড়ের রাজা শশাঙ্ক গঙ্গা উপত্যকার উল্লেখযোগ্য অংশে প্রভাব বিস্তার করেন এবং বাংলা-কেন্দ্রিক প্রাথমিক সার্বভৌম রাজনৈতিক গঠনের একটি গুরুত্বপূর্ণ উদাহরণ তৈরি করেন।",
+  "themeColor": "#5b4a3e",
+  "ctaLabel": "গৌড় অধ্যায় দেখুন",
+  "heroTagline": "শশাঙ্কের গৌড় পর্ব বাংলায় পাল-পূর্ব রাজনৈতিক সংহতির একটি গুরুত্বপূর্ণ ধাপ।",
+  "summarySourceIds": [
+    "shashanka-britannica"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি পাল ও সেন যুগের আগে বাংলা-কেন্দ্রিক সার্বভৌম রাষ্ট্রধারার একটি দৃশ্যমান প্রাথমিক নজির তুলে ধরে।",
+  "whyItMattersSourceIds": [
+    "shashanka-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "0750-1170-pala-dynasty-foundation",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "0750-1170-pala-dynasty-foundation"
+  ],
+  "periodLabel": "প্রাচীন ও প্রাক-সালতানাত বাংলা",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
+}

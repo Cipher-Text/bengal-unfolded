@@ -1,0 +1,33 @@
+{
+  "slug": "0800-1200-somapura-mahavihara",
+  "year": "8th century",
+  "title": "Construction of Somapura Mahavihara",
+  "subtitle": "Paharpur as a major Buddhist monastic center.",
+  "summary": "Somapura Mahavihara at Paharpur emerged in the 8th century as one of the largest monasteries south of the Himalayas and an important intellectual center in pre-Islamic Bengal.",
+  "themeColor": "#6a5d3b",
+  "ctaLabel": "Explore Somapura",
+  "heroTagline": "Somapura links Bengal's political history to architecture, religion, and transregional learning.",
+  "summarySourceIds": [
+    "somapura-mahavira-britannica",
+    "mahasthangarh-unesco"
+  ],
+  "whyItMatters": "This event matters because it provides durable architectural evidence of Bengal's institutional role in Buddhist scholarship and cultural exchange.",
+  "whyItMattersSourceIds": [
+    "somapura-mahavira-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "0750-1170-pala-dynasty-foundation",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "0750-1170-pala-dynasty-foundation"
+  ],
+  "periodLabel": "Ancient and Pre-Sultanate Bengal",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high"
+}

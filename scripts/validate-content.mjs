@@ -48,6 +48,7 @@ async function main() {
   const allowedImportance = new Set(["landmark", "major", "high", "medium", "reference"]);
   const allowedRelationTypes = new Set(["cause", "effect", "background", "parallel", "legacy", "contrast"]);
   const allowedPeriodIds = new Set([
+    "ancient-and-pre-sultanate-bengal",
     "transition-to-sultanate-formation",
     "independent-bengal-sultanate-era",
     "mughal-incorporation-and-consolidation",

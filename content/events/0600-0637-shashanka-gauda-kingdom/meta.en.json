@@ -1,0 +1,32 @@
+{
+  "slug": "0600-0637-shashanka-gauda-kingdom",
+  "year": "Early 7th century",
+  "title": "Shashanka and the Gauda Kingdom",
+  "subtitle": "A major early sovereign power in Bengal.",
+  "summary": "In the early 7th century, Shashanka, king of Gauda, expanded authority over a substantial part of the Ganges valley and represented one of the earliest major sovereign political formations centered on Bengal.",
+  "themeColor": "#5b4a3e",
+  "ctaLabel": "Explore Gauda",
+  "heroTagline": "Shashanka's Gauda phase marks a key pre-Pala consolidation of power in Bengal.",
+  "summarySourceIds": [
+    "shashanka-britannica"
+  ],
+  "whyItMatters": "This event matters because it offers a concrete early medieval precedent for Bengal-centered sovereignty before the Pala and Sena transitions.",
+  "whyItMattersSourceIds": [
+    "shashanka-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "0750-1170-pala-dynasty-foundation",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "0750-1170-pala-dynasty-foundation"
+  ],
+  "periodLabel": "Ancient and Pre-Sultanate Bengal",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium"
+}

@@ -1,5 +1,10 @@
 export const SUPPORTED_LOCALES = ["en", "bn"] as const;
 export const SUPPORTED_EVENT_SLUGS = [
+  "0400bce-0300bce-mahasthangarh-urban-emergence",
+  "0600-0637-shashanka-gauda-kingdom",
+  "0750-1170-pala-dynasty-foundation",
+  "0800-1200-somapura-mahavihara",
+  "1178-1204-sena-transition",
   "1204",
   "1352",
   "1414",
@@ -381,6 +386,7 @@ export const SUPPORTED_BOOK_IDS = [
   "archive-collection",
 ] as const;
 export const SUPPORTED_PERIOD_IDS = [
+  "ancient-and-pre-sultanate-bengal",
   "transition-to-sultanate-formation",
   "independent-bengal-sultanate-era",
   "mughal-incorporation-and-consolidation",

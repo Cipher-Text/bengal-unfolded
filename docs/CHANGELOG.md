@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-05-08
+
+### Completed
+
+- Added five pre-1204 foundational event chapters with full EN/BN content structure:
+  - `content/events/0400bce-0300bce-mahasthangarh-urban-emergence/`
+  - `content/events/0600-0637-shashanka-gauda-kingdom/`
+  - `content/events/0750-1170-pala-dynasty-foundation/`
+  - `content/events/0800-1200-somapura-mahavihara/`
+  - `content/events/1178-1204-sena-transition/`
+  - Content: Included bilingual `meta`, `timeline`, `quotes`, `figure-ids`, and `resource-ids` files for each event.
+  - Model: Updated `SUPPORTED_EVENT_SLUGS` in `src/types/content.ts` to register all five new chapters for runtime routing and loading.
+  - Sources: Added new shared resource entities in `content/resources/` for UNESCO and Britannica references used by these chapters.
+  - Validation: No validator schema changes required; existing checks cover the added data shape.
+  - Model: Added a new period ID `ancient-and-pre-sultanate-bengal` for pre-1204 chapters.
+  - Validation: Updated allowed period IDs in `scripts/validate-content.mjs`.
+  - Backfill: Reassigned all five newly added pre-1204 chapters from `transition-to-sultanate-formation` to `ancient-and-pre-sultanate-bengal` with updated EN/BN `periodLabel`.
+
 ## 2026-05-06
 
 ### Completed
