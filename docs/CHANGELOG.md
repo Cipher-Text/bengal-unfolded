@@ -13,10 +13,13 @@
     - Updated `/{locale}/topics/[slug]` to generate static params dynamically from topic directories and render topic-specific metadata/JSON-LD/content.
     - Updated event/figure/resource detail pages to show related topic links based on topic membership instead of a fixed hardcoded topic.
     - Updated `src/app/sitemap.ts` to include all topic slugs per locale dynamically.
-  - Backfill: Added three bilingual topic hubs under `content/topics/`:
+  - Backfill: Added six bilingual topic hubs under `content/topics/`:
     - `bangladesh-history`
     - `partition-and-identity`
     - `democracy-and-civic-movements`
+    - `liberation-war-1971`
+    - `language-movement-and-mother-language-day`
+    - `partition-of-bengal-1905`
   - Docs: Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and `docs/ROADMAP.md` for the new topic model and completed roadmap item.
   - Follow-up enhancement: Added optional topic `priority` for editorial ordering, validator enforcement, and sorted rendering on topic index/related blocks.
 

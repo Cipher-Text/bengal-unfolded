@@ -10,7 +10,7 @@ Canonical domain: `https://bengalunfolded.com`
 
 ## Status snapshot
 - `[x]` Technical SEO baseline (metadata, canonical, sitemap, robots, OG, core JSON-LD, hreflang)
-- `[ ]` Content SEO growth system (Search Console loop, keyword clusters, topic hubs, FAQ program)
+- `[~]` Content SEO growth system (Search Console loop, keyword clusters, topic hubs, FAQ program)
 - `[ ]` URL architecture migration (`/events/{id}` -> semantic slugs with redirects)
 
 ## Scope checked
@@ -40,7 +40,7 @@ Canonical domain: `https://bengalunfolded.com`
   - `/{locale}/periods/{id}`
   - `/{locale}/glossary/{term}`
 - Content model is folder-based in `content/` with bilingual JSON documents.
-- No `/topics/*` route exists yet (recommended below as growth architecture).
+- `/topics/*` route family is now live with dynamic multi-topic hubs.
 
 ## Findings and fixes applied (technical SEO)
 
@@ -165,11 +165,9 @@ Target keywords:
 - ancient Bengal history
 - modern Bangladesh history
 
-Recommended hub pages (new):
+Current implemented hub pages:
 - `/bn/topics/bangladesh-history`
 - `/en/topics/bangladesh-history`
-- `/bn/topics/bangladesh-history-timeline`
-- `/en/topics/bangladesh-history-timeline`
 
 ### Cluster B: Partition and Bengal Identity
 Target keywords:
@@ -186,8 +184,8 @@ Recommended pages:
 - `/en/events/bengal-partition-1905`
 - `/bn/events/bengal-partition-1947`
 - `/en/events/bengal-partition-1947`
-- `/bn/topics/bengal-partition`
-- `/en/topics/bengal-partition`
+- `/bn/topics/partition-of-bengal-1905`
+- `/en/topics/partition-of-bengal-1905`
 
 ### Cluster C: Language and Identity
 Target keywords:
@@ -202,8 +200,8 @@ Target keywords:
 Recommended pages:
 - `/bn/events/language-movement-1952`
 - `/en/events/bengali-language-movement-1952`
-- `/bn/topics/language-and-identity`
-- `/en/topics/language-and-identity`
+- `/bn/topics/language-movement-and-mother-language-day`
+- `/en/topics/language-movement-and-mother-language-day`
 
 ### Cluster D: Liberation War
 Target keywords:
@@ -217,8 +215,8 @@ Target keywords:
 - ১৬ ডিসেম্বর ১৯৭১
 
 Recommended pages:
-- `/bn/topics/bangladesh-liberation-war`
-- `/en/topics/bangladesh-liberation-war`
+- `/bn/topics/liberation-war-1971`
+- `/en/topics/liberation-war-1971`
 - `/bn/events/operation-searchlight-1971`
 - `/en/events/operation-searchlight-1971`
 - `/bn/events/victory-day-1971`
@@ -385,15 +383,21 @@ Technical rule:
 
 Create topic hubs to connect event pages into thematic knowledge architecture.
 
-Initial hub pages:
+Implemented hub pages:
 - `/bn/topics/bangladesh-history`
 - `/en/topics/bangladesh-history`
-- `/bn/topics/bengal-partition`
-- `/en/topics/bengal-partition`
-- `/bn/topics/language-and-identity`
-- `/en/topics/language-and-identity`
-- `/bn/topics/bangladesh-liberation-war`
-- `/en/topics/bangladesh-liberation-war`
+- `/bn/topics/partition-and-identity`
+- `/en/topics/partition-and-identity`
+- `/bn/topics/democracy-and-civic-movements`
+- `/en/topics/democracy-and-civic-movements`
+- `/bn/topics/partition-of-bengal-1905`
+- `/en/topics/partition-of-bengal-1905`
+- `/bn/topics/language-movement-and-mother-language-day`
+- `/en/topics/language-movement-and-mother-language-day`
+- `/bn/topics/liberation-war-1971`
+- `/en/topics/liberation-war-1971`
+
+Still recommended:
 - `/bn/topics/pakistan-period`
 - `/en/topics/pakistan-period`
 - `/bn/topics/bengal-culture`
@@ -492,8 +496,8 @@ Control measures:
 ## Remaining recommendations v2
 
 - [ ] Add Search Console weekly workflow and track query/page performance.
-- [ ] Create keyword clusters for Bangladesh history, Bengal partition, language movement, liberation war, political movements, and Bengal culture.
-- [ ] Create topic hub pages under `/topics`.
+- [~] Create keyword clusters for Bangladesh history, Bengal partition, language movement, liberation war, political movements, and Bengal culture.
+- [~] Create topic hub pages under `/topics`.
 - [ ] Improve event URLs from numeric-only identifiers to descriptive slugs with `301` redirects.
 - [ ] Add `BreadcrumbList` JSON-LD to all deep pages.
 - [x] Add FAQ content and `FAQPage` schema to priority pages where appropriate.
