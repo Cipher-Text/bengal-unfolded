@@ -44,6 +44,7 @@ const EVENT_LABELS = {
     resourcesSubtitle: "Browse resources by subcategory",
     seeAllCategories: "See all categories",
     quotes: "Quotes",
+    faq: "FAQ",
     whyItMatters: "Why This Event Matters Today",
     whyItMattersSources: "Why It Matters Sources",
     evidence: "Evidence",
@@ -74,6 +75,7 @@ const EVENT_LABELS = {
     resourcesSubtitle: "সাব-ক্যাটাগরি অনুযায়ী রিসোর্স ব্রাউজ করুন",
     seeAllCategories: "সব ক্যাটাগরি দেখুন",
     quotes: "উদ্ধৃতি",
+    faq: "প্রশ্নোত্তর",
     whyItMatters: "কেন এই ঘটনা আজও গুরুত্বপূর্ণ",
     whyItMattersSources: "গুরুত্ব ব্যাখ্যার সূত্র",
     evidence: "প্রমাণের শক্তি",
@@ -182,6 +184,8 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
     { key: "background", title: labels.background, items: relationships.background },
     { key: "contrast", title: labels.contrast, items: relationships.contrast },
   ].filter((group) => group.items.length > 0);
+  const faqEntries = event.quotes.filter((quote) => quote.source.startsWith("FAQ"));
+  const quoteEntries = event.quotes.filter((quote) => !quote.source.startsWith("FAQ"));
 
   return (
     <div className="space-y-10">
@@ -199,7 +203,8 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           <a href="#timeline" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.timeline}</a>
           <a href="#figures" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.figures}</a>
           <a href="#resources" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.resourcesTitle}</a>
-          <a href="#quotes" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a>
+          {faqEntries.length > 0 ? <a href="#faq" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.faq}</a> : null}
+          {quoteEntries.length > 0 ? <a href="#quotes" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
         </div>
       </nav>
@@ -330,16 +335,31 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         </section>
       </AnimatedContainer>
 
-      <AnimatedContainer delay={0.2}>
-        <section id="quotes" className="scroll-mt-24">
-        <SectionTitle title={labels.quotes} />
-        <div className="mt-4 grid gap-3">
-          {event.quotes.map((quote) => (
-            <QuoteBlock key={quote.text} quote={quote} />
-          ))}
-        </div>
-        </section>
-      </AnimatedContainer>
+      {faqEntries.length > 0 ? (
+        <AnimatedContainer delay={0.2}>
+          <section id="faq" className="scroll-mt-24">
+          <SectionTitle title={labels.faq} />
+          <div className="mt-4 grid gap-3">
+            {faqEntries.map((quote) => (
+              <QuoteBlock key={quote.text} quote={quote} />
+            ))}
+          </div>
+          </section>
+        </AnimatedContainer>
+      ) : null}
+
+      {quoteEntries.length > 0 ? (
+        <AnimatedContainer delay={0.22}>
+          <section id="quotes" className="scroll-mt-24">
+          <SectionTitle title={labels.quotes} />
+          <div className="mt-4 grid gap-3">
+            {quoteEntries.map((quote) => (
+              <QuoteBlock key={quote.text} quote={quote} />
+            ))}
+          </div>
+          </section>
+        </AnimatedContainer>
+      ) : null}
 
       <AnimatedContainer delay={0.25}>
         <section id="why-it-matters" className="scroll-mt-24">
