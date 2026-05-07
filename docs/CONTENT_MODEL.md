@@ -38,6 +38,8 @@ Image rendering policy:
 
 - Figure and event detail views should render figure photos only when `image` exists and points to a valid asset.
 - If `image` is missing or removed during integrity cleanup, UI should collapse media blocks instead of showing placeholders/broken avatars.
+- Preferred figure asset location is `public/figures/`; legacy/staging paths such as `public/draft/` must not be referenced by figure metadata.
+- If an image filename or extension changes, update `image` in both `meta.en.json` and `meta.bn.json` for the affected figure in the same commit.
 
 ## Relationship model
 
