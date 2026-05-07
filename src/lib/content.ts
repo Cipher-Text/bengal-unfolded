@@ -57,6 +57,55 @@ function isMovementId(v: string): v is MovementId {
   return SUPPORTED_MOVEMENT_IDS.includes(v as MovementId);
 }
 
+function parseEventYearToSortValue(yearLabel: string, slug: EventSlug): number {
+  const normalized = yearLabel.toLowerCase();
+  const isBce = normalized.includes("bce") || slug.toLowerCase().includes("bce");
+
+  const centuryMatch = normalized.match(/(\d{1,2})(?:st|nd|rd|th)\s+century/);
+  if (centuryMatch) {
+    const century = Number.parseInt(centuryMatch[1], 10);
+    if (Number.isFinite(century)) {
+      const midpointYear = (century - 1) * 100 + 50;
+      return isBce ? -midpointYear : midpointYear;
+    }
+  }
+
+  const yearMatch = normalized.match(/\d{3,4}/);
+  if (yearMatch) {
+    const parsedYear = Number.parseInt(yearMatch[0], 10);
+    if (Number.isFinite(parsedYear)) return isBce ? -parsedYear : parsedYear;
+  }
+
+  const slugYearMatch = slug.match(/\d{3,4}/);
+  if (slugYearMatch) {
+    const parsedSlugYear = Number.parseInt(slugYearMatch[0], 10);
+    if (Number.isFinite(parsedSlugYear))
+      return slug.toLowerCase().includes("bce") ? -parsedSlugYear : parsedSlugYear;
+  }
+
+  return Number.POSITIVE_INFINITY;
+}
+
+const getChronologicalEventSlugs = cache(async (locale: Locale): Promise<EventSlug[]> => {
+  const events = await Promise.all(
+    SUPPORTED_EVENT_SLUGS.map(async (slug, index) => {
+      const meta = await getEventMeta(locale, slug);
+      return {
+        slug,
+        index,
+        sortValue: parseEventYearToSortValue(meta.year, slug),
+      };
+    }),
+  );
+
+  events.sort((a, b) => {
+    if (a.sortValue !== b.sortValue) return a.sortValue - b.sortValue;
+    return a.index - b.index;
+  });
+
+  return events.map((event) => event.slug);
+});
+
 export function getCreatorIdFromAttribution(name: string): string {
   return (
     name
@@ -617,14 +666,15 @@ export async function getPreviousAndNextEvents(
   assertSupportedLocale(locale);
   assertSupportedEventSlug(currentSlug);
 
-  const currentIndex = SUPPORTED_EVENT_SLUGS.indexOf(currentSlug as EventSlug);
+  const orderedSlugs = await getChronologicalEventSlugs(locale as Locale);
+  const currentIndex = orderedSlugs.indexOf(currentSlug as EventSlug);
 
   const [previous, next] = await Promise.all([
     currentIndex > 0
-      ? getEventMeta(locale, SUPPORTED_EVENT_SLUGS[currentIndex - 1])
+      ? getEventMeta(locale, orderedSlugs[currentIndex - 1])
       : Promise.resolve(undefined),
-    currentIndex < SUPPORTED_EVENT_SLUGS.length - 1
-      ? getEventMeta(locale, SUPPORTED_EVENT_SLUGS[currentIndex + 1])
+    currentIndex < orderedSlugs.length - 1
+      ? getEventMeta(locale, orderedSlugs[currentIndex + 1])
       : Promise.resolve(undefined),
   ]);
 
