@@ -1,0 +1,29 @@
+[
+  {
+    "year": "1962",
+    "title": "Students protest education policy",
+    "detail": "Campus organizations challenged state-backed education policy proposals and restrictions under military rule.",
+    "sourceIds": [
+      "history-banglapedia",
+      "military-rule-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "September 1962",
+    "title": "Urban protest momentum intensifies",
+    "detail": "Demonstrations spread and linked student rights to larger political demands in East Pakistan.",
+    "sourceIds": [
+      "history-banglapedia",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

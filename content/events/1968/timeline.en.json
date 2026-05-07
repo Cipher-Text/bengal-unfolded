@@ -1,0 +1,40 @@
+[
+  {
+    "year": "1968",
+    "title": "Agartala case is filed",
+    "detail": "The state initiated a high-profile conspiracy case against Sheikh Mujibur Rahman and others.",
+    "sourceIds": [
+      "agartala-conspiracy-case-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1968-1969",
+    "title": "Public anger and solidarity expand",
+    "detail": "The prosecution deepened anti-regime sentiment and energized student and civic mobilization across East Pakistan.",
+    "sourceIds": [
+      "agartala-conspiracy-case-banglapedia",
+      "military-rule-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "February 1969",
+    "title": "Case collapses under mass pressure",
+    "detail": "Sustained mass movement pressure contributed to the withdrawal of the case and release of detainees, feeding directly into the uprising moment.",
+    "sourceIds": [
+      "agartala-conspiracy-case-banglapedia",
+      "bangladesh-awami-league-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

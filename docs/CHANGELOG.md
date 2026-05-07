@@ -4,6 +4,12 @@
 
 ### Completed
 
+- Historical timeline gap backfill (6 chapters) with full EN/BN content packs:
+  - Added event chapters: `1874`, `1930`, `1948`, `1949`, `1962`, `1968`.
+  - Added shared source entities: `assam-banglapedia`, `surya-sen-banglapedia`, `awami-league-britannica`, `agartala-conspiracy-case-banglapedia`.
+  - Updated chronology wiring for parent/child integrity around `1911 -> 1930`, `1947 -> 1948`, and `1958 -> 1962 -> 1966 -> 1968 -> 1969`.
+  - Updated `SUPPORTED_EVENT_SLUGS` in `src/types/content.ts` for all six new chapters.
+
 - Dynamic topic hub system rollout (multi-topic, content-driven):
   - Model: Added `TopicMeta` / `Topic` types in `src/types/content.ts` with `slug`, localized presentation fields, and linked entity arrays (`eventSlugs`, `figureIds`, `resourceIds`, `keywords`).
   - Validation: Extended `scripts/validate-content.mjs` with topic directory checks for EN/BN parity, required fields, slug parity, non-empty `eventSlugs`, duplicate prevention, and linked ID integrity against events/figures/resources.

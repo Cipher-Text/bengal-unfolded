@@ -19,6 +19,9 @@
   ],
   "importance": "high",
   "parentEvent": "1905",
+  "childEventIds": [
+    "1930"
+  ],
   "relatedEvents": [
     {
       "eventId": "1905",
@@ -31,11 +34,16 @@
     {
       "eventId": "1947",
       "relationType": "legacy"
+    },
+    {
+      "eventId": "1930",
+      "relationType": "effect"
     }
   ],
   "relatedEventIds": [
     "1905",
     "1906",
+    "1930",
     "1947"
   ],
   "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",

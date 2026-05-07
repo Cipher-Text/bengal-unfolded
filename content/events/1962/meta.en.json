@@ -1,0 +1,50 @@
+{
+  "slug": "1962",
+  "year": "1962",
+  "title": "Education Movement in East Pakistan",
+  "subtitle": "Student-led resistance against authoritarian education policy and political control.",
+  "summary": "In 1962, students in East Pakistan led major protests against the Sharif Commission-linked education policy framework and broader authoritarian restrictions under military rule. The movement revitalized campus-based democratic activism and deepened ties between education grievances and constitutional politics.",
+  "themeColor": "#6b4f82",
+  "ctaLabel": "Explore the 1962 movement",
+  "heroTagline": "Student resistance in 1962 linked education rights with democratic struggle.",
+  "whyItMatters": "The 1962 movement matters because it rebuilt protest momentum after the 1958 martial-law period and prepared political ground for the Six-Point era and the mass uprising to come.",
+  "importance": "high",
+  "parentEvent": "1958",
+  "childEventIds": [
+    "1966"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1958",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1966",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1969",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1958",
+    "1966",
+    "1969"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "research-volume"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation"
+}

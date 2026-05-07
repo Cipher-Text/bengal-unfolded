@@ -1,0 +1,41 @@
+[
+  {
+    "year": "1874",
+    "title": "Assam is separated from Bengal administration",
+    "detail": "The British detached Assam from Bengal and created a distinct administrative unit under a Chief Commissioner.",
+    "sourceIds": [
+      "assam-banglapedia",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1874",
+    "title": "Sylhet and Cachar are attached to Assam",
+    "detail": "Sylhet and Cachar were placed within the Assam administrative framework, altering long-standing Bengal-linked governance patterns.",
+    "sourceIds": [
+      "assam-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "After 1874",
+    "title": "Administrative boundary politics become a recurring issue",
+    "detail": "The reorganization fed later debates about representation, language, and territorial belonging in eastern Bengal and Assam.",
+    "sourceIds": [
+      "history-banglapedia",
+      "partition-politics-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

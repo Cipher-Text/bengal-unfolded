@@ -19,6 +19,7 @@
   "importance": "landmark",
   "parentEvent": "1946",
   "childEventIds": [
+    "1948",
     "1952",
     "1971"
   ],
@@ -48,6 +49,10 @@
       "relationType": "effect"
     },
     {
+      "eventId": "1948",
+      "relationType": "effect"
+    },
+    {
       "eventId": "1971",
       "relationType": "legacy"
     }
@@ -58,6 +63,7 @@
     "1906",
     "1911",
     "1943",
+    "1948",
     "1952",
     "1971"
   ],

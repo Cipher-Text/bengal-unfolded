@@ -1,0 +1,42 @@
+[
+  {
+    "year": "১১ মার্চ ১৯৪৮",
+    "title": "রাষ্ট্রভাষা দাবিতে সাধারণ ধর্মঘট",
+    "detail": "বাংলাকে রাষ্ট্রীয় ক্ষেত্র থেকে বাদ দেওয়ার প্রতিবাদে ছাত্র ও নাগরিক সংগঠনগুলো ধর্মঘট পালন করে।",
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
+  },
+  {
+    "year": "১৯৪৮",
+    "title": "সংগঠিত আন্দোলনের কাঠামো বিস্তৃত হয়",
+    "detail": "অ্যাকশন কমিটি ও ছাত্রসংগঠনগুলো ভাষার অধিকারকে রাজনৈতিক প্রতিনিধিত্বের প্রশ্নের সাথে যুক্ত করে সংগঠিত প্রচার চালায়।",
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "language-movement-in-east-bengal"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
+  },
+  {
+    "year": "১৯৪৮-পরবর্তী সময়",
+    "title": "আন্দোলন দীর্ঘস্থায়ী ধারায় প্রবেশ করে",
+    "detail": "১৯৪৮ সালের এই সংগঠন ও প্রতিবাদ-পর্ব ১৯৫২ সালের তীব্র পর্যায়ের কৌশলগত ও মানসিক ভিত্তি তৈরি করে।",
+    "sourceIds": [
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language"
+    ]
+  }
+]

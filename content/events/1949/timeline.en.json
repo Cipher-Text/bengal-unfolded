@@ -1,0 +1,29 @@
+[
+  {
+    "year": "June 1949",
+    "title": "Awami Muslim League is founded in Dhaka",
+    "detail": "The party emerged as a principal opposition formation in East Pakistan's post-partition political order.",
+    "sourceIds": [
+      "bangladesh-awami-league-banglapedia",
+      "awami-league-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1949 onward",
+    "title": "Language and representation politics converge",
+    "detail": "Party organization helped connect language rights, provincial representation, and constitutional demands.",
+    "sourceIds": [
+      "bangladesh-awami-league-banglapedia",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "democracy"
+    ]
+  }
+]

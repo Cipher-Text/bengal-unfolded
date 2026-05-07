@@ -1,0 +1,42 @@
+[
+  {
+    "year": "March 11, 1948",
+    "title": "General strike on state language demand",
+    "detail": "Student and civic organizations observed strikes protesting exclusion of Bangla from key state domains.",
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1948",
+    "title": "Organizational consolidation expands",
+    "detail": "Action committees and student groups coordinated campaigns linking language rights with political representation.",
+    "sourceIds": [
+      "language-movement-banglapedia",
+      "language-movement-in-east-bengal"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "culture"
+    ]
+  },
+  {
+    "year": "After 1948",
+    "title": "Movement enters a sustained phase",
+    "detail": "The 1948 mobilization set the strategic and emotional groundwork for the 1952 escalation.",
+    "sourceIds": [
+      "state-language-movement-in-east-bengal-1947-1956"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language"
+    ]
+  }
+]

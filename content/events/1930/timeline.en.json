@@ -1,0 +1,41 @@
+[
+  {
+    "year": "April 18, 1930",
+    "title": "Coordinated raid begins in Chittagong",
+    "detail": "Revolutionaries led by Surya Sen attacked British armouries and sought to disrupt colonial communications.",
+    "sourceIds": [
+      "surya-sen-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "April 1930",
+    "title": "Symbolic anti-colonial assertion",
+    "detail": "The action demonstrated organized armed resistance and briefly challenged colonial confidence in district-level control.",
+    "sourceIds": [
+      "surya-sen-banglapedia",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "After 1930",
+    "title": "Memory of sacrifice enters later political culture",
+    "detail": "The uprising remained a durable reference point in Bengal's anti-colonial memory and youth-centered political narratives.",
+    "sourceIds": [
+      "history-banglapedia",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  }
+]

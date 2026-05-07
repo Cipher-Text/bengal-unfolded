@@ -10,6 +10,9 @@
   "whyItMatters": "The 1958 takeover is a key turning point for understanding how democratic rollback in Pakistan intensified East Pakistan's political alienation and set the stage for later mass resistance.",
   "importance": "high",
   "parentEvent": "1952",
+  "childEventIds": [
+    "1962"
+  ],
   "relatedEvents": [
     {
       "eventId": "1952",
@@ -26,10 +29,15 @@
     {
       "eventId": "1969",
       "relationType": "legacy"
+    },
+    {
+      "eventId": "1962",
+      "relationType": "effect"
     }
   ],
   "relatedEventIds": [
     "1954",
+    "1962",
     "1966",
     "1969"
   ],

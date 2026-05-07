@@ -1,0 +1,29 @@
+[
+  {
+    "year": "জুন ১৯৪৯",
+    "title": "ঢাকায় আওয়ামী মুসলিম লীগ প্রতিষ্ঠিত হয়",
+    "detail": "দেশভাগ-পরবর্তী পূর্ব পাকিস্তানের রাজনীতিতে দলটি একটি প্রধান বিরোধী সংগঠন হিসেবে আত্মপ্রকাশ করে।",
+    "sourceIds": [
+      "bangladesh-awami-league-banglapedia",
+      "awami-league-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৪৯-পরবর্তী সময়",
+    "title": "ভাষা ও প্রতিনিধিত্বের রাজনীতি একসূত্রে বাঁধা পড়ে",
+    "detail": "দলের সাংগঠনিক বিস্তারের মাধ্যমে ভাষার অধিকার, প্রাদেশিক প্রতিনিধিত্ব ও সাংবিধানিক দাবি একটি সমন্বিত রাজনৈতিক পথে এগোয়।",
+    "sourceIds": [
+      "bangladesh-awami-league-banglapedia",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "democracy"
+    ]
+  }
+]

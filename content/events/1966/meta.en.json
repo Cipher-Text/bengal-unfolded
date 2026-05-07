@@ -9,8 +9,9 @@
   "heroTagline": "The Six Points reframed autonomy as a clear constitutional demand.",
   "whyItMatters": "The Six-Point Programme transformed scattered grievances into a coherent political agenda, laying essential groundwork for the mass upsurge of 1969 and the independence struggle that followed.",
   "importance": "major",
-  "parentEvent": "1952",
+  "parentEvent": "1962",
   "childEventIds": [
+    "1968",
     "1969"
   ],
   "relatedEvents": [
@@ -25,10 +26,15 @@
     {
       "eventId": "1971",
       "relationType": "legacy"
+    },
+    {
+      "eventId": "1968",
+      "relationType": "effect"
     }
   ],
   "relatedEventIds": [
     "1952",
+    "1968",
     "1969",
     "1971"
   ],

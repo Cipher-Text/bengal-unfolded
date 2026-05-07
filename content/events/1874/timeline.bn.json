@@ -1,0 +1,41 @@
+[
+  {
+    "year": "১৮৭৪",
+    "title": "বাংলার প্রশাসন থেকে আসামকে আলাদা করা হয়",
+    "detail": "ব্রিটিশরা আসামকে বাংলার প্রশাসনিক কাঠামো থেকে বিচ্ছিন্ন করে পৃথক চিফ কমিশনারশিপ গঠন করে।",
+    "sourceIds": [
+      "assam-banglapedia",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "১৮৭৪",
+    "title": "সিলেট ও কাছাড় আসামের সঙ্গে যুক্ত হয়",
+    "detail": "সিলেট ও কাছাড়কে আসাম প্রশাসনের অন্তর্ভুক্ত করা হয়, ফলে বাংলাকেন্দ্রিক প্রশাসনিক ধারাবাহিকতায় পরিবর্তন আসে।",
+    "sourceIds": [
+      "assam-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "১৮৭৪-পরবর্তী সময়",
+    "title": "সীমানা-প্রশাসন রাজনীতি পুনরাবৃত্ত বিষয় হয়ে ওঠে",
+    "detail": "এই পুনর্গঠন পূর্ববঙ্গ-আসাম অঞ্চলে প্রতিনিধিত্ব, ভাষা ও আঞ্চলিক পরিচয় নিয়ে দীর্ঘমেয়াদি বিতর্কের ভিত্তি তৈরি করে।",
+    "sourceIds": [
+      "history-banglapedia",
+      "partition-politics-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  }
+]

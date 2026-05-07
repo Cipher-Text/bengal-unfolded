@@ -1,0 +1,50 @@
+{
+  "slug": "1968",
+  "year": "1968",
+  "title": "Agartala Conspiracy Case",
+  "subtitle": "A state prosecution that intensified nationalist mobilization in East Pakistan.",
+  "summary": "In 1968, the Pakistan government prosecuted Sheikh Mujibur Rahman and others in the Agartala Conspiracy Case, alleging plans to separate East Pakistan with Indian support. The case became a flashpoint of political anger, expanded solidarity across student and public spheres, and directly fed into the 1969 mass uprising.",
+  "themeColor": "#8f4b3d",
+  "ctaLabel": "Explore the Agartala case",
+  "heroTagline": "The 1968 trial transformed legal prosecution into mass political resistance.",
+  "whyItMatters": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+  "importance": "major",
+  "parentEvent": "1966",
+  "childEventIds": [
+    "1969"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1966",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1969",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1966",
+    "1969",
+    "1971"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "bangladesh-awami-league-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation"
+}

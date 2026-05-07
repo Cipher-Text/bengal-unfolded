@@ -1,0 +1,50 @@
+{
+  "slug": "1930",
+  "year": "1930",
+  "title": "Chittagong Armoury Raid",
+  "subtitle": "Armed anti-colonial action in Chittagong under Surya Sen's leadership.",
+  "summary": "On 18 April 1930, revolutionaries led by Surya Sen carried out coordinated attacks on British armouries and communication points in Chittagong. Though the uprising could not sustain territorial control, it became one of the most iconic militant anti-colonial episodes in Bengal and influenced political memory across generations.",
+  "themeColor": "#7a3c2f",
+  "ctaLabel": "Explore the Chittagong uprising",
+  "heroTagline": "In 1930, Chittagong became a site of armed resistance against colonial power.",
+  "whyItMatters": "The 1930 Chittagong action matters because it represents Bengal's revolutionary strand of anti-colonial struggle and later inspired broader narratives of sacrifice, youth mobilization, and organized resistance.",
+  "importance": "major",
+  "parentEvent": "1911",
+  "childEventIds": [
+    "1940"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1911",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1940",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1947",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1911",
+    "1940",
+    "1947"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "surya-sen-banglapedia",
+    "history-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "surya-sen-banglapedia",
+    "research-volume"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "colonial-capture-and-resistance"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "1930",
+  "year": "১৯৩০",
+  "title": "চট্টগ্রাম অস্ত্রাগার লুণ্ঠন",
+  "subtitle": "সূর্য সেনের নেতৃত্বে ঔপনিবেশিক শাসনের বিরুদ্ধে সশস্ত্র অভিযান।",
+  "summary": "১৯৩০ সালের ১৮ এপ্রিল সূর্য সেনের নেতৃত্বে বিপ্লবীরা চট্টগ্রামে ব্রিটিশ অস্ত্রাগার ও যোগাযোগব্যবস্থার ওপর সমন্বিত আক্রমণ পরিচালনা করে। সামরিকভাবে দীর্ঘস্থায়ী নিয়ন্ত্রণ প্রতিষ্ঠা সম্ভব না হলেও এটি বঙ্গের ঔপনিবেশিক-বিরোধী সংগ্রামের অন্যতম প্রতীকী অধ্যায়ে পরিণত হয়।",
+  "themeColor": "#7a3c2f",
+  "ctaLabel": "চট্টগ্রাম অভ্যুত্থান দেখুন",
+  "heroTagline": "১৯৩০-এ চট্টগ্রাম সশস্ত্র ঔপনিবেশিক-বিরোধী প্রতিরোধের কেন্দ্র হয়ে ওঠে।",
+  "whyItMatters": "১৯৩০ সালের চট্টগ্রাম অভিযান গুরুত্বপূর্ণ, কারণ এটি বঙ্গের বিপ্লবী ধারার একটি স্পষ্ট উদাহরণ; পরে আত্মত্যাগ, তরুণ নেতৃত্ব ও সংগঠিত প্রতিরোধের ঐতিহাসিক স্মৃতিকে এটি গভীরভাবে প্রভাবিত করে।",
+  "importance": "major",
+  "parentEvent": "1911",
+  "childEventIds": [
+    "1940"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1911",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1940",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1947",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1911",
+    "1940",
+    "1947"
+  ],
+  "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "surya-sen-banglapedia",
+    "history-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "surya-sen-banglapedia",
+    "research-volume"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "colonial-capture-and-resistance"
+}

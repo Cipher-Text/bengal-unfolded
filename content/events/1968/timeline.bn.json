@@ -1,0 +1,40 @@
+[
+  {
+    "year": "১৯৬৮",
+    "title": "আগরতলা মামলা দায়ের",
+    "detail": "শেখ মুজিবুর রহমানসহ কয়েকজনের বিরুদ্ধে রাষ্ট্র একটি উচ্চপ্রোফাইল ষড়যন্ত্র মামলা দায়ের করে।",
+    "sourceIds": [
+      "agartala-conspiracy-case-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৬৮-১৯৬৯",
+    "title": "জনরোষ ও রাজনৈতিক সংহতি বিস্তৃত হয়",
+    "detail": "এই বিচারপ্রক্রিয়া স্বৈরশাসনবিরোধী মনোভাব আরও তীব্র করে এবং ছাত্র-নাগরিক আন্দোলনকে নতুন গতি দেয়।",
+    "sourceIds": [
+      "agartala-conspiracy-case-banglapedia",
+      "military-rule-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "ফেব্রুয়ারি ১৯৬৯",
+    "title": "গণচাপের মুখে মামলা প্রত্যাহার",
+    "detail": "টানা আন্দোলনের চাপ মামলাটির পতন ঘটায় এবং আটক ব্যক্তিদের মুক্তি আন্দোলনকে গণঅভ্যুত্থানের পর্যায়ে নিয়ে যায়।",
+    "sourceIds": [
+      "agartala-conspiracy-case-banglapedia",
+      "bangladesh-awami-league-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]
