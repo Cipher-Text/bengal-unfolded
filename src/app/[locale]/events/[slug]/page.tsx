@@ -186,10 +186,34 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   ].filter((group) => group.items.length > 0);
   const faqEntries = event.quotes.filter((quote) => quote.source.startsWith("FAQ"));
   const quoteEntries = event.quotes.filter((quote) => !quote.source.startsWith("FAQ"));
+  const faqPageJsonLd =
+    faqEntries.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          inLanguage: localeLanguageTag(locale as Locale),
+          mainEntity: faqEntries.map((entry) => {
+            const match = entry.text.match(/^(.+?\?)\s*(.+)$/u);
+            const question = match ? match[1] : entry.text;
+            const answer = match ? match[2] : entry.text;
+            return {
+              "@type": "Question",
+              name: question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: answer,
+              },
+            };
+          }),
+        }
+      : null;
 
   return (
     <div className="space-y-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }} />
+      {faqPageJsonLd ? (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageJsonLd) }} />
+      ) : null}
       <HeroSection
         title={`${event.meta.year} — ${event.meta.title}`}
         tagline={event.meta.heroTagline}

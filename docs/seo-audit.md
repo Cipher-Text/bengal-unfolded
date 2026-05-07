@@ -496,7 +496,7 @@ Control measures:
 - [ ] Create topic hub pages under `/topics`.
 - [ ] Improve event URLs from numeric-only identifiers to descriptive slugs with `301` redirects.
 - [ ] Add `BreadcrumbList` JSON-LD to all deep pages.
-- [~] Add FAQ content and `FAQPage` schema to priority pages where appropriate. (Content done for Lahore Resolution 1940 in `bn` and `en`; schema rollout pending)
+- [x] Add FAQ content and `FAQPage` schema to priority pages where appropriate.
 - [ ] Add title/meta formulas for event, figure, book, and topic pages.
 - [ ] Add historical image SEO policy for future in-content images.
 - [ ] Add bilingual content quality rules, not only hreflang technical tags.
