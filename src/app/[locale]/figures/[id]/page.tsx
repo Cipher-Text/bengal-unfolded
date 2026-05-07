@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getEventsByFigureId, getFigure } from "@/lib/content";
+import { getEventsByFigureId, getFigure, getTopicsByFigureId } from "@/lib/content";
 import { buildPageMetadata, localeLanguageTag } from "@/lib/seo";
 import { SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, type FigureId, type Locale } from "@/types/content";
 
@@ -30,7 +30,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_FIGURE_IDS.includes(id as FigureId)) notFound();
 
-  const [figure, events] = await Promise.all([getFigure(locale, id), getEventsByFigureId(locale, id)]);
+  const [figure, events, relatedTopics] = await Promise.all([getFigure(locale, id), getEventsByFigureId(locale, id), getTopicsByFigureId(locale, id)]);
   const personJsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -43,8 +43,8 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
   };
 
   const labels = locale === "bn"
-    ? { context: "প্রেক্ষাপট", contribution: "অবদান", impact: "প্রভাব", appearsIn: "যে ঘটনাগুলোতে অংশ নিয়েছেন" }
-    : { context: "Context", contribution: "Contribution", impact: "Impact", appearsIn: "Appears In Events" };
+    ? { context: "প্রেক্ষাপট", contribution: "অবদান", impact: "প্রভাব", appearsIn: "যে ঘটনাগুলোতে অংশ নিয়েছেন", topicHub: "টপিক হাব", exploreTopicHub: "সম্পর্কিত টপিক দেখুন" }
+    : { context: "Context", contribution: "Contribution", impact: "Impact", appearsIn: "Appears In Events", topicHub: "Topic Hub", exploreTopicHub: "Explore related topics" };
 
   return (
     <div className="space-y-8">
@@ -67,6 +67,19 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
             <div className="mt-4 flex flex-wrap gap-2">
               {figure.tags.map((tag) => (
                 <span key={tag} className="theme-muted rounded-full border border-zinc-500/40 px-2 py-0.5 text-[11px]">{tag}</span>
+              ))}
+            </div>
+          ) : null}
+          {relatedTopics.length > 0 ? (
+            <div className="mt-4 flex flex-wrap gap-2">
+              {relatedTopics.map((topic) => (
+                <Link
+                  key={topic.slug}
+                  href={`/${locale}/topics/${topic.slug}`}
+                  className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-3 text-sm text-accent hover:bg-amber-500/10"
+                >
+                  {labels.topicHub}: {labels.exploreTopicHub} - {topic.title}
+                </Link>
               ))}
             </div>
           ) : null}

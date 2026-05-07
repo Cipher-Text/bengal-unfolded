@@ -230,6 +230,7 @@ Priority: Improve discoverability and social distribution with minimal architect
 - [ ] RM-SHARE-003 Share action UI on detail pages (copy link + native share where available)
 - [ ] RM-SHARE-004 Canonical URL and locale-aware metadata consistency checks
 - [ ] RM-SHARE-005 Optional downloadable share card images for manual posting
+- [x] RM-SHARE-006 Dynamic topic hubs and cluster linking (`/{locale}/topics`, `/{locale}/topics/{slug}`) with sitemap and multi-entity internal links
 
 ---
 

@@ -29,6 +29,8 @@ import {
   type PeriodMeta,
   type Quote,
   type TimelineItem,
+  type Topic,
+  type TopicMeta,
 } from "@/types/content";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -340,6 +342,15 @@ const readGlossaryIdsCached = cache(async (): Promise<string[]> => {
     .sort((a, b) => a.localeCompare(b));
 });
 
+const readTopicSlugsCached = cache(async (): Promise<string[]> => {
+  const topicsDir = path.join(CONTENT_DIR, "topics");
+  const entries = await fs.readdir(topicsDir, { withFileTypes: true });
+  return entries
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b));
+});
+
 export function assertSupportedLocale(
   locale: string,
 ): asserts locale is Locale {
@@ -475,6 +486,53 @@ export async function getAllGlossaryTerms(
   assertSupportedLocale(locale);
   const ids = await getAllGlossaryTermIds();
   return Promise.all(ids.map((id) => getGlossaryTerm(locale, id)));
+}
+
+export async function getAllTopicSlugs(): Promise<string[]> {
+  return readTopicSlugsCached();
+}
+
+export async function getTopic(locale: string, slug: string): Promise<Topic> {
+  assertSupportedLocale(locale);
+  const rawTopic = await readJsonFile<TopicMeta>(
+    path.join(CONTENT_DIR, "topics", slug, `meta.${locale}.json`),
+  );
+  return rawTopic;
+}
+
+export async function getAllTopics(locale: string): Promise<Topic[]> {
+  assertSupportedLocale(locale);
+  const slugs = await getAllTopicSlugs();
+  return Promise.all(slugs.map((slug) => getTopic(locale, slug)));
+}
+
+export async function getTopicsByEventSlug(
+  locale: string,
+  eventSlug: string,
+): Promise<Topic[]> {
+  assertSupportedLocale(locale);
+  assertSupportedEventSlug(eventSlug);
+  const topics = await getAllTopics(locale);
+  return topics.filter((topic) => topic.eventSlugs.includes(eventSlug as EventSlug));
+}
+
+export async function getTopicsByFigureId(
+  locale: string,
+  figureId: string,
+): Promise<Topic[]> {
+  assertSupportedLocale(locale);
+  assertSupportedFigureId(figureId);
+  const topics = await getAllTopics(locale);
+  return topics.filter((topic) => topic.figureIds?.includes(figureId as FigureId));
+}
+
+export async function getTopicsByResourceId(
+  locale: string,
+  resourceId: string,
+): Promise<Topic[]> {
+  assertSupportedLocale(locale);
+  const topics = await getAllTopics(locale);
+  return topics.filter((topic) => topic.resourceIds?.includes(resourceId));
 }
 
 const creatorsCached = cache(

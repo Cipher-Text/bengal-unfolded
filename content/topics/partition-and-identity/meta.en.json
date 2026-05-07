@@ -1,0 +1,29 @@
+{
+  "slug": "partition-and-identity",
+  "priority": 2,
+  "title": "Partition and Identity",
+  "tagline": "From Bengal partition to language and nationhood",
+  "intro": "Trace how partition-era politics reshaped representation, language, and collective identity.",
+  "description": "A focused hub around 1905-1952 transitions and their long effects on identity formation.",
+  "eventSlugs": [
+    "1905",
+    "1906",
+    "1911",
+    "1940",
+    "1946",
+    "1947",
+    "1952"
+  ],
+  "figureIds": [
+    "lord-curzon",
+    "nawab-salimullah",
+    "muhammad-ali-jinnah",
+    "dhirendranath-datta",
+    "abdul-matin"
+  ],
+  "keywords": [
+    "partition of bengal",
+    "bengal identity",
+    "language movement background"
+  ]
+}

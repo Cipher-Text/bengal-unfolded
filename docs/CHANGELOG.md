@@ -4,6 +4,22 @@
 
 ### Completed
 
+- Dynamic topic hub system rollout (multi-topic, content-driven):
+  - Model: Added `TopicMeta` / `Topic` types in `src/types/content.ts` with `slug`, localized presentation fields, and linked entity arrays (`eventSlugs`, `figureIds`, `resourceIds`, `keywords`).
+  - Validation: Extended `scripts/validate-content.mjs` with topic directory checks for EN/BN parity, required fields, slug parity, non-empty `eventSlugs`, duplicate prevention, and linked ID integrity against events/figures/resources.
+  - UI/runtime: Replaced hardcoded topic route behavior with data-driven loaders:
+    - Added topic loaders in `src/lib/content.ts` (`getAllTopicSlugs`, `getTopic`, `getAllTopics`, `getTopicsByEventSlug`, `getTopicsByFigureId`, `getTopicsByResourceId`).
+    - Updated `/{locale}/topics` index to render cards from topic content.
+    - Updated `/{locale}/topics/[slug]` to generate static params dynamically from topic directories and render topic-specific metadata/JSON-LD/content.
+    - Updated event/figure/resource detail pages to show related topic links based on topic membership instead of a fixed hardcoded topic.
+    - Updated `src/app/sitemap.ts` to include all topic slugs per locale dynamically.
+  - Backfill: Added three bilingual topic hubs under `content/topics/`:
+    - `bangladesh-history`
+    - `partition-and-identity`
+    - `democracy-and-civic-movements`
+  - Docs: Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and `docs/ROADMAP.md` for the new topic model and completed roadmap item.
+  - Follow-up enhancement: Added optional topic `priority` for editorial ordering, validator enforcement, and sorted rendering on topic index/related blocks.
+
 - Added five pre-1204 foundational event chapters with full EN/BN content structure:
   - `content/events/0400bce-0300bce-mahasthangarh-urban-emergence/`
   - `content/events/0600-0637-shashanka-gauda-kingdom/`

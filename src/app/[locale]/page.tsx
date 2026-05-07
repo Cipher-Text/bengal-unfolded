@@ -111,9 +111,12 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
     <AnimatedContainer><SectionTitle title={home.timelineHeading} subtitle={home.timelineSubheading} /></AnimatedContainer>
     <AnimatedContainer delay={0.05}><EventTimeline items={timelineItems} locale={locale as Locale} /></AnimatedContainer>
     <AnimatedContainer delay={0.08}>
-      <div>
+      <div className="flex flex-wrap items-center gap-3">
         <Link href={`/${locale}/timeline`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
           {locale === "bn" ? "পূর্ণ টাইমলাইন দেখুন" : "Explore Full Timeline"}
+        </Link>
+        <Link href={`/${locale}/topics`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
+          {locale === "bn" ? "টপিক হাব দেখুন" : "Explore Topic Hubs"}
         </Link>
       </div>
     </AnimatedContainer>

@@ -18,6 +18,7 @@ Contract companion docs:
 - `EventResource`
 - `Quote`
 - `EventContent`
+- `Topic`
 
 ## Figure schema
 
@@ -52,6 +53,9 @@ Image rendering policy:
 - `book` entity is still supported for dedicated book pages and reverse lookups.
 - `event -> period` is many-to-one via `eventMeta.periodId`.
 - Period detail pages perform reverse lookup to list all events within that period.
+- `topic -> events` is many-to-many via `content/topics/<topic-slug>/meta.<locale>.json` `eventSlugs`.
+- `topic -> figures` is optional many-to-many via `figureIds`.
+- `topic -> resources` is optional many-to-many via `resourceIds`.
 
 ## File contracts
 
@@ -76,6 +80,9 @@ Image rendering policy:
 - Resource files:
   - `content/resources/<resource-id>/meta.en.json`
   - `content/resources/<resource-id>/meta.bn.json`
+- Topic files:
+  - `content/topics/<topic-slug>/meta.en.json`
+  - `content/topics/<topic-slug>/meta.bn.json`
 
 ## Timeline schema
 
@@ -188,6 +195,20 @@ Supported movement IDs:
     - `papers`
   - `href?`
 
+## Topic schema
+
+- `TopicMeta` / `Topic` fields:
+  - `slug` (required): topic identifier used in route `/topics/{slug}`
+  - `priority?` (optional): non-negative integer for editorial ordering (lower renders first)
+  - `title` (required): topic hub title
+  - `tagline` (required): short hook line
+  - `intro` (required): introductory learning context
+  - `description` (required): SEO summary / overview sentence
+  - `eventSlugs` (required, non-empty): `EventSlug[]` linked chapters
+  - `figureIds?` (optional): `FigureId[]` related figures
+  - `resourceIds?` (optional): `ResourceId[]` related resources
+  - `keywords?` (optional): `string[]` keyword cluster hints
+
 ## Runtime accessors
 
 `src/lib/content.ts` is the single content access layer and currently exposes:
@@ -210,6 +231,12 @@ Supported movement IDs:
 - `getAllCreators`
 - `getCreatorById`
 - `getResourcesByCreatorId`
+- `getAllTopicSlugs`
+- `getTopic`
+- `getAllTopics`
+- `getTopicsByEventSlug`
+- `getTopicsByFigureId`
+- `getTopicsByResourceId`
 
 Implementation note:
 

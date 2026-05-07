@@ -37,6 +37,7 @@ async function main() {
   const figureDir = path.join(contentDir, "figures");
   const resourceDir = path.join(contentDir, "resources");
   const glossaryDir = path.join(contentDir, "glossary");
+  const topicsDir = path.join(contentDir, "topics");
 
   const figureIds = new Set((await fs.readdir(figureDir)).filter((name) => !name.startsWith("index.")));
   const resourceIds = new Set(await fs.readdir(resourceDir));
@@ -59,7 +60,7 @@ async function main() {
     "contemporary-memory-and-civic-protest",
   ]);
   const periodDir = path.join(contentDir, "periods");
-  const periodIds = new Set((await fs.readdir(periodDir)).filter((name) => !name.startsWith("index.")));
+  await fs.readdir(periodDir);
 
   const allowedMovementIds = new Set([
     "colonial-capture-and-resistance",
@@ -69,7 +70,7 @@ async function main() {
     "memory-justice-and-civic-dissent",
   ]);
   const movementDir = path.join(contentDir, "movements");
-  const movementIds = new Set((await fs.readdir(movementDir)).filter((name) => !name.startsWith("index.")));
+  await fs.readdir(movementDir);
 
   for (const slug of eventSlugs) {
     const base = path.join(eventDir, slug);
@@ -379,6 +380,92 @@ async function main() {
           for (const related of meta.relatedTerms) {
             if (typeof related !== "string" || !glossaryIds.has(related)) {
               errors.push(`Invalid related term '${related}' at content/glossary/${termId}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  const topicEntries = await fs.readdir(topicsDir);
+  for (const topicSlug of topicEntries) {
+    for (const locale of ["en", "bn"]) {
+      const metaPath = path.join(topicsDir, topicSlug, `meta.${locale}.json`);
+      if (!(await exists(metaPath))) {
+        errors.push(`Missing file: content/topics/${topicSlug}/meta.${locale}.json`);
+        continue;
+      }
+      const meta = await readJson(metaPath, errors);
+      if (!meta || typeof meta !== "object") continue;
+      for (const key of ["slug", "title", "tagline", "intro", "description"]) {
+        if (typeof meta[key] !== "string" || meta[key].trim().length === 0) {
+          errors.push(`Missing or invalid '${key}' at content/topics/${topicSlug}/meta.${locale}.json`);
+        }
+      }
+      if (meta.slug !== topicSlug) {
+        errors.push(`Topic slug mismatch at content/topics/${topicSlug}/meta.${locale}.json`);
+      }
+      if ("priority" in meta && meta.priority !== undefined) {
+        if (!Number.isInteger(meta.priority) || meta.priority < 0) {
+          errors.push(`priority must be a non-negative integer at content/topics/${topicSlug}/meta.${locale}.json`);
+        }
+      }
+      if (!Array.isArray(meta.eventSlugs) || meta.eventSlugs.length === 0) {
+        errors.push(`eventSlugs must be a non-empty array at content/topics/${topicSlug}/meta.${locale}.json`);
+      } else {
+        const seenEventSlugs = new Set();
+        for (const eventSlug of meta.eventSlugs) {
+          if (typeof eventSlug !== "string" || !eventSlugSet.has(eventSlug)) {
+            errors.push(`Invalid eventSlugs entry '${eventSlug}' at content/topics/${topicSlug}/meta.${locale}.json`);
+            continue;
+          }
+          if (seenEventSlugs.has(eventSlug)) {
+            errors.push(`Duplicate eventSlugs entry '${eventSlug}' at content/topics/${topicSlug}/meta.${locale}.json`);
+          }
+          seenEventSlugs.add(eventSlug);
+        }
+      }
+      if ("figureIds" in meta && meta.figureIds !== undefined) {
+        if (!Array.isArray(meta.figureIds)) {
+          errors.push(`figureIds must be an array at content/topics/${topicSlug}/meta.${locale}.json`);
+        } else {
+          const seenFigureIds = new Set();
+          for (const figureId of meta.figureIds) {
+            if (typeof figureId !== "string" || !figureIds.has(figureId)) {
+              errors.push(`Invalid figureIds entry '${figureId}' at content/topics/${topicSlug}/meta.${locale}.json`);
+              continue;
+            }
+            if (seenFigureIds.has(figureId)) {
+              errors.push(`Duplicate figureIds entry '${figureId}' at content/topics/${topicSlug}/meta.${locale}.json`);
+            }
+            seenFigureIds.add(figureId);
+          }
+        }
+      }
+      if ("resourceIds" in meta && meta.resourceIds !== undefined) {
+        if (!Array.isArray(meta.resourceIds)) {
+          errors.push(`resourceIds must be an array at content/topics/${topicSlug}/meta.${locale}.json`);
+        } else {
+          const seenResourceIds = new Set();
+          for (const resourceId of meta.resourceIds) {
+            if (typeof resourceId !== "string" || !resourceIds.has(resourceId)) {
+              errors.push(`Invalid resourceIds entry '${resourceId}' at content/topics/${topicSlug}/meta.${locale}.json`);
+              continue;
+            }
+            if (seenResourceIds.has(resourceId)) {
+              errors.push(`Duplicate resourceIds entry '${resourceId}' at content/topics/${topicSlug}/meta.${locale}.json`);
+            }
+            seenResourceIds.add(resourceId);
+          }
+        }
+      }
+      if ("keywords" in meta && meta.keywords !== undefined) {
+        if (!Array.isArray(meta.keywords)) {
+          errors.push(`keywords must be an array at content/topics/${topicSlug}/meta.${locale}.json`);
+        } else {
+          for (const keyword of meta.keywords) {
+            if (typeof keyword !== "string" || keyword.trim().length === 0) {
+              errors.push(`Invalid keywords entry '${keyword}' at content/topics/${topicSlug}/meta.${locale}.json`);
             }
           }
         }

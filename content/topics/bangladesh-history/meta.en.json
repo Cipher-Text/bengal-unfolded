@@ -1,0 +1,33 @@
+{
+  "slug": "bangladesh-history",
+  "priority": 1,
+  "title": "Bangladesh History",
+  "tagline": "A long-arc map of Bengal and Bangladesh",
+  "intro": "Follow the connected arc from early Bengal polities to modern Bangladesh through key turning points.",
+  "description": "A core hub linking major chapters, people, and sources across the long historical timeline.",
+  "eventSlugs": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence",
+    "0750-1170-pala-dynasty-foundation",
+    "1204",
+    "1576",
+    "1757",
+    "1905",
+    "1947",
+    "1952",
+    "1971",
+    "1990",
+    "2024"
+  ],
+  "figureIds": [
+    "sheikh-mujibur-rahman",
+    "tajuddin-ahmad",
+    "robert-clive",
+    "rabindranath-tagore",
+    "abu-sayed-2024"
+  ],
+  "keywords": [
+    "bangladesh history timeline",
+    "history of bengal",
+    "bangladesh historical events"
+  ]
+}

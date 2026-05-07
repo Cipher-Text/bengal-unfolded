@@ -10,7 +10,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { QuoteBlock } from "@/components/QuoteBlock";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getEventContent, getEventHierarchy, getEventRelationships, getPreviousAndNextEvents } from "@/lib/content";
+import { getEventContent, getEventHierarchy, getEventRelationships, getPreviousAndNextEvents, getTopicsByEventSlug } from "@/lib/content";
 import { renderGlossaryLinkedText } from "@/lib/glossary-linking";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 import type { EventResource } from "@/types/content";
@@ -58,6 +58,8 @@ const EVENT_LABELS = {
     related: "Related chapters",
     importance: "Importance",
     movement: "Movement",
+    topicHub: "Topic Hub",
+    exploreTopicHub: "Explore related topics",
     whatLedToThis: "What led to this",
     whatFollowed: "What followed",
     readInParallel: "Read in parallel",
@@ -89,6 +91,8 @@ const EVENT_LABELS = {
     related: "সম্পর্কিত অধ্যায়",
     importance: "গুরুত্ব",
     movement: "ধারা",
+    topicHub: "টপিক হাব",
+    exploreTopicHub: "সম্পর্কিত টপিক দেখুন",
     whatLedToThis: "কীভাবে এখানে পৌঁছাল",
     whatFollowed: "এর পরে কী হলো",
     readInParallel: "পাশাপাশি পড়ুন",
@@ -119,11 +123,12 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) notFound();
 
-  const [event, { previous, next }, hierarchy, relationships] = await Promise.all([
+  const [event, { previous, next }, hierarchy, relationships, relatedTopics] = await Promise.all([
     getEventContent(locale, slug),
     getPreviousAndNextEvents(locale, slug),
     getEventHierarchy(locale, slug),
     getEventRelationships(locale, slug),
+    getTopicsByEventSlug(locale, slug),
   ]);
   const featuredFigures = event.figures.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
@@ -244,6 +249,19 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
             {event.meta.periodLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{event.meta.periodLabel}</span> : null}
             {event.meta.movementLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{labels.movement}: {event.meta.movementLabel}</span> : null}
           </div>
+          {relatedTopics.length > 0 ? (
+            <div className="mt-3 flex flex-wrap gap-2">
+              {relatedTopics.map((topic) => (
+                <Link
+                  key={topic.slug}
+                  href={`/${locale}/topics/${topic.slug}`}
+                  className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-3 text-sm text-accent hover:bg-amber-500/10"
+                >
+                  {labels.topicHub}: {labels.exploreTopicHub} - {topic.title}
+                </Link>
+              ))}
+            </div>
+          ) : null}
         </div>
         </section>
       </AnimatedContainer>

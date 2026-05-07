@@ -537,6 +537,21 @@ export type Movement = {
   icon?: string;
 };
 
+export type TopicMeta = {
+  slug: string;
+  priority?: number;
+  title: string;
+  tagline: string;
+  intro: string;
+  description: string;
+  eventSlugs: EventSlug[];
+  figureIds?: FigureId[];
+  resourceIds?: ResourceId[];
+  keywords?: string[];
+};
+
+export type Topic = TopicMeta;
+
 export type Book = {
   id: BookId;
   title: string;

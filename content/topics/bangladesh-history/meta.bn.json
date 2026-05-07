@@ -1,0 +1,33 @@
+{
+  "slug": "bangladesh-history",
+  "priority": 1,
+  "title": "বাংলাদেশের ইতিহাস",
+  "tagline": "বঙ্গ থেকে বাংলাদেশ: দীর্ঘ ঐতিহাসিক ধারাবাহিকতা",
+  "intro": "প্রাচীন বঙ্গ থেকে আধুনিক বাংলাদেশের পথচলা প্রধান ঘটনাগুলোর ধারাবাহিকতায় দেখুন।",
+  "description": "দীর্ঘ সময়রেখাজুড়ে প্রধান অধ্যায়, ব্যক্তিত্ব ও রিসোর্স সংযুক্ত করা একটি মূল হাব।",
+  "eventSlugs": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence",
+    "0750-1170-pala-dynasty-foundation",
+    "1204",
+    "1576",
+    "1757",
+    "1905",
+    "1947",
+    "1952",
+    "1971",
+    "1990",
+    "2024"
+  ],
+  "figureIds": [
+    "sheikh-mujibur-rahman",
+    "tajuddin-ahmad",
+    "robert-clive",
+    "rabindranath-tagore",
+    "abu-sayed-2024"
+  ],
+  "keywords": [
+    "বাংলাদেশের ইতিহাস",
+    "বাংলার ইতিহাস",
+    "বাংলাদেশ ইতিহাস টাইমলাইন"
+  ]
+}

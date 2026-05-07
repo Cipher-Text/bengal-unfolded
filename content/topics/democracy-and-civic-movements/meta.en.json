@@ -1,0 +1,30 @@
+{
+  "slug": "democracy-and-civic-movements",
+  "priority": 3,
+  "title": "Democracy and Civic Movements",
+  "tagline": "Mass uprisings, transitions, and civic resistance",
+  "intro": "Follow the civic and democratic struggle through protest waves, institutional crises, and reform demands.",
+  "description": "A hub connecting post-1960 democratic movements, state transitions, and contemporary civic dissent.",
+  "eventSlugs": [
+    "1969",
+    "1975",
+    "1990",
+    "2006",
+    "2013",
+    "2018-quota-reform",
+    "2018-safe-road",
+    "2024"
+  ],
+  "figureIds": [
+    "nur-hossain",
+    "sheikh-hasina",
+    "khaleda-zia",
+    "nahid-islam",
+    "abu-sayed-2024"
+  ],
+  "keywords": [
+    "bangladesh democracy movement",
+    "mass uprising bangladesh",
+    "civic protest bangladesh"
+  ]
+}

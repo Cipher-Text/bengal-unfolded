@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getAllResourceIds, getEventsByResourceId, getResource } from "@/lib/content";
+import { getAllResourceIds, getEventsByResourceId, getResource, getTopicsByResourceId } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
@@ -43,6 +43,7 @@ export default async function ResourceDetailPage({ params }: { params: Promise<{
   } catch {
     notFound();
   }
+  const relatedTopics = await getTopicsByResourceId(locale, id);
 
   const resourceJsonLd = {
     "@context": "https://schema.org",
@@ -57,6 +58,9 @@ export default async function ResourceDetailPage({ params }: { params: Promise<{
       url: `https://bengalunfolded.com/${locale}/events/${event.slug}`,
     })),
   };
+  const labels = locale === "bn"
+    ? { topicHub: "টপিক হাব", exploreTopicHub: "সম্পর্কিত টপিক দেখুন" }
+    : { topicHub: "Topic Hub", exploreTopicHub: "Explore related topics" };
 
   return (
     <div className="space-y-8">
@@ -80,6 +84,19 @@ export default async function ResourceDetailPage({ params }: { params: Promise<{
           >
             {locale === "bn" ? "মূল সূত্র দেখুন" : "View Original Source"}
           </Link>
+        ) : null}
+        {relatedTopics.length > 0 ? (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {relatedTopics.map((topic) => (
+              <Link
+                key={topic.slug}
+                href={`/${locale}/topics/${topic.slug}`}
+                className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm text-accent hover:bg-amber-500/10"
+              >
+                {labels.topicHub}: {labels.exploreTopicHub} - {topic.title}
+              </Link>
+            ))}
+          </div>
         ) : null}
       </AnimatedContainer>
 
