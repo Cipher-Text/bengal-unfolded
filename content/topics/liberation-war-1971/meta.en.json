@@ -1,0 +1,27 @@
+{
+  "slug": "liberation-war-1971",
+  "priority": 4,
+  "title": "Liberation War 1971",
+  "tagline": "From mass uprising to independence",
+  "intro": "Trace the path from political rupture to armed struggle and state formation in 1971.",
+  "description": "A focused hub covering the prewar crisis, war timeline, and immediate post-independence transition.",
+  "eventSlugs": [
+    "1966",
+    "1969",
+    "1970",
+    "1971",
+    "1972"
+  ],
+  "figureIds": [
+    "sheikh-mujibur-rahman",
+    "tajuddin-ahmad",
+    "syed-nazrul-islam",
+    "mag-osmani",
+    "ziaur-rahman"
+  ],
+  "keywords": [
+    "bangladesh liberation war",
+    "1971 war of independence",
+    "mukti bahini history"
+  ]
+}
