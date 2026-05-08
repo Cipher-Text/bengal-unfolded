@@ -5,7 +5,7 @@ import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ShareActions } from "@/components/ShareActions";
-import { getBook, getEventsByBookId } from "@/lib/content";
+import { getBook, getEventsByBookIdChronological } from "@/lib/content";
 import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag } from "@/lib/seo";
 import { SUPPORTED_BOOK_IDS, SUPPORTED_LOCALES, type BookId, type Locale } from "@/types/content";
 
@@ -37,13 +37,14 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_BOOK_IDS.includes(id as BookId)) notFound();
 
-  const [book, events] = await Promise.all([getBook(locale, id), getEventsByBookId(locale, id)]);
+  const [book, events] = await Promise.all([getBook(locale, id), getEventsByBookIdChronological(locale, id)]);
   const bookAuthors = book.authors.length > 0 ? book.authors : book.author ? [book.author] : [];
   const authorsLabel = bookAuthors.join(", ");
   const labels = locale === "bn"
     ? {
         category: "ক্যাটাগরি",
         referencedInEvents: "যে ঘটনাগুলোতে উল্লেখ আছে",
+        timelineView: "ঘটনাপঞ্জি ভিউ",
         share: "শেয়ার",
         copyLink: "লিংক কপি",
         copied: "কপি হয়েছে",
@@ -52,6 +53,7 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
     : {
         category: "Category",
         referencedInEvents: "Referenced In Events",
+        timelineView: "Timeline View",
         share: "Share",
         copyLink: "Copy link",
         copied: "Copied",
@@ -88,14 +90,18 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>
-        <SectionTitle title={labels.referencedInEvents} />
-        <div className="mt-4 grid gap-3">
-          {events.map((event) => (
-            <Link key={event.slug} href={`/${locale}/events/${event.slug}`} className="theme-surface rounded-xl border p-4 hover:border-amber-400/40">
-              <p className="theme-muted text-xs tracking-[0.2em] uppercase">{event.year}</p>
-              <h3 className="mt-1 text-lg font-semibold">{event.title}</h3>
-              <p className="theme-muted mt-1 text-sm">{event.summary}</p>
-            </Link>
+        <SectionTitle title={labels.referencedInEvents} subtitle={labels.timelineView} />
+        <div className="mt-4 space-y-3">
+          {events.map((event, index) => (
+            <div key={event.slug} className="relative pl-8">
+              <span className="absolute top-5 left-2 h-2.5 w-2.5 rounded-full bg-amber-400" />
+              {index < events.length - 1 ? <span className="absolute top-8 left-[0.84rem] h-[calc(100%+0.6rem)] w-px bg-amber-500/35" /> : null}
+              <Link href={`/${locale}/events/${event.slug}`} className="theme-surface block rounded-xl border p-4 hover:border-amber-400/40">
+                <p className="theme-muted text-xs tracking-[0.2em] uppercase">{event.year}</p>
+                <h3 className="mt-1 text-lg font-semibold">{event.title}</h3>
+                <p className="theme-muted mt-1 text-sm">{event.summary}</p>
+              </Link>
+            </div>
           ))}
         </div>
       </AnimatedContainer>

@@ -825,6 +825,26 @@ export async function getEventsByBookId(
   return matches.filter((event): event is EventMeta => event !== null);
 }
 
+export async function getEventsByBookIdChronological(
+  locale: string,
+  bookId: string,
+): Promise<EventMeta[]> {
+  assertSupportedLocale(locale);
+  assertSupportedBookId(bookId);
+
+  const [events, chronologicalSlugs] = await Promise.all([
+    getEventsByBookId(locale, bookId),
+    getChronologicalEventSlugs(locale as Locale),
+  ]);
+
+  const rank = new Map(chronologicalSlugs.map((slug, index) => [slug, index]));
+  return [...events].sort(
+    (a, b) =>
+      (rank.get(a.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER) -
+      (rank.get(b.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER),
+  );
+}
+
 export async function getEventsByResourceId(
   locale: string,
   resourceId: string,
@@ -846,6 +866,25 @@ export async function getEventsByResourceId(
   );
 
   return matches.filter((event): event is EventMeta => event !== null);
+}
+
+export async function getEventsByResourceIdChronological(
+  locale: string,
+  resourceId: string,
+): Promise<EventMeta[]> {
+  assertSupportedLocale(locale);
+
+  const [events, chronologicalSlugs] = await Promise.all([
+    getEventsByResourceId(locale, resourceId),
+    getChronologicalEventSlugs(locale as Locale),
+  ]);
+
+  const rank = new Map(chronologicalSlugs.map((slug, index) => [slug, index]));
+  return [...events].sort(
+    (a, b) =>
+      (rank.get(a.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER) -
+      (rank.get(b.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER),
+  );
 }
 
 export async function getFiguresByEventSlug(

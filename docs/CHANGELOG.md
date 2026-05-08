@@ -4,6 +4,17 @@
 
 ### Completed
 
+- RM-REL-010 book/resource-to-event reverse mapping rollout:
+  - Model: No schema/type additions required.
+  - Validation: No validator rule changes required.
+  - UI/runtime:
+    - Added `getEventsByBookIdChronological(locale, bookId)` and `getEventsByResourceIdChronological(locale, resourceId)` in `src/lib/content.ts`.
+    - Updated book detail page to render referenced events in chronological timeline view.
+    - Updated resource detail page to render referenced events in chronological timeline view.
+    - Localized timeline-view labels for EN/BN on both pages.
+  - Backfill: No content backfill required.
+  - Docs: Updated `docs/CONTENT_MODEL.md` runtime accessor list and roadmap checkbox state in `docs/ROADMAP.md`.
+
 - RM-REL-009 place-to-event timeline view rollout:
   - Model:
     - Added `SUPPORTED_PLACE_IDS`, `PlaceId`, `PlaceMeta`, and `Place` in `src/types/content.ts`.

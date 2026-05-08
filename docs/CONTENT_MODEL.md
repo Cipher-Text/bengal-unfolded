@@ -255,9 +255,11 @@ Supported place IDs:
 - `getAllResources`
 - `getEventsByFigureId`
 - `getEventsByBookId`
+- `getEventsByBookIdChronological`
 - `getFiguresByEventSlug`
 - `getResource`
 - `getEventsByResourceId`
+- `getEventsByResourceIdChronological`
 - `getAllCreators`
 - `getCreatorById`
 - `getResourcesByCreatorId`
