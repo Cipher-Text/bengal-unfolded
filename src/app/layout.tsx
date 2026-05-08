@@ -55,27 +55,6 @@ export const metadata: Metadata = {
 };
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-F3LD2MVJY2";
-const themeInitScript = `
-(() => {
-  try {
-    const saved = localStorage.getItem("theme");
-    const theme = saved === "light" || saved === "dark"
-      ? saved
-      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-    document.documentElement.dataset.theme = theme;
-  } catch (_) {
-    document.documentElement.dataset.theme = "dark";
-  }
-})();
-`;
-const langInitScript = `
-(() => {
-  try {
-    const seg = location.pathname.split('/')[1];
-    if (seg === 'bn') document.documentElement.lang = 'bn';
-  } catch (_) {}
-})();
-`;
 
 const websiteJsonLd = {
   "@context": "https://schema.org",
@@ -113,10 +92,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       className={`h-full ${notoSerifBengali.variable} ${playfairDisplay.variable}`}
     >
       <body className="min-h-full">
-        <Script id="theme-init" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: themeInitScript }} />
-        <Script id="lang-init" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: langInitScript }} />
-        <Script id="website-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
-        <Script id="organization-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
+        <Script id="theme-init" src="/theme-init.js" strategy="beforeInteractive" />
+        <Script id="lang-init" src="/lang-init.js" strategy="beforeInteractive" />
+        <script id="website-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+        <script id="organization-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
         {children}
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
         <Script

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, SITE_NAME } from "@/lib/seo";
+import { buildDynamicOgImagePath, buildPageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
@@ -203,17 +203,6 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </span>
     );
   };
-  const eventJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    name: `${event.meta.year} — ${event.meta.title}`,
-    description: event.meta.summary,
-    eventStatus: "https://schema.org/EventCompleted",
-    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    inLanguage: localeLanguageTag(locale as Locale),
-    url: `https://bengalunfolded.com/${locale}/events/${slug}`,
-    organizer: { "@type": "Organization", name: SITE_NAME, url: "https://bengalunfolded.com" },
-  };
   const relationGroups = [
     { key: "cause", title: labels.whatLedToThis, items: relationships.cause },
     { key: "effect", title: labels.whatFollowed, items: relationships.effect },
@@ -224,34 +213,8 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   ].filter((group) => group.items.length > 0);
   const faqEntries = event.quotes.filter((quote) => quote.source.startsWith("FAQ"));
   const quoteEntries = event.quotes.filter((quote) => !quote.source.startsWith("FAQ"));
-  const faqPageJsonLd =
-    faqEntries.length > 0
-      ? {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          inLanguage: localeLanguageTag(locale as Locale),
-          mainEntity: faqEntries.map((entry) => {
-            const match = entry.text.match(/^(.+?\?)\s*(.+)$/u);
-            const question = match ? match[1] : entry.text;
-            const answer = match ? match[2] : entry.text;
-            return {
-              "@type": "Question",
-              name: question,
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: answer,
-              },
-            };
-          }),
-        }
-      : null;
-
   return (
     <div className="space-y-10">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }} />
-      {faqPageJsonLd ? (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageJsonLd) }} />
-      ) : null}
       <HeroSection
         title={`${event.meta.year} — ${event.meta.title}`}
         tagline={event.meta.heroTagline}

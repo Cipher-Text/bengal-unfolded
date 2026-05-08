@@ -6,7 +6,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import Link from "next/link";
 import { getAllEvents, getHomeContent } from "@/lib/content";
-import { buildPageMetadata, localeLanguageTag, SITE_NAME } from "@/lib/seo";
+import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 import type { TimelineTheme } from "@/types/content";
 
@@ -71,10 +71,6 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
   const [home, events] = await Promise.all([getHomeContent(locale), getAllEvents(locale)]);
   const isBn = locale === "bn";
-  const metadataTitle = isBn ? "বেঙ্গল আনফোল্ডেড (Bengal Unfolded)" : "Bengal Unfolded";
-  const metadataDescription = isBn
-    ? "বেঙ্গল আনফোল্ডেড একটি দ্বিভাষিক (বাংলা-ইংরেজি) বাংলাদেশ ও বঙ্গের ইতিহাস-সংস্কৃতি শেখার প্ল্যাটফর্ম, সংবাদ পোর্টাল নয়।"
-    : "Bengal Unfolded is a bilingual (Bangla-English) Bangladesh and Bengal history and cultural learning platform, not a news portal.";
   const landingEvents = events
     .filter((event) => event.showOnLanding !== false)
     .slice(0, HOMEPAGE_LANDMARK_LIMIT);
@@ -95,18 +91,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
     emphasis: event.slug === "1971" ? "peak" as const : "normal" as const,
   }));
 
-  const webPageJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: metadataTitle,
-    description: metadataDescription,
-    url: `https://bengalunfolded.com/${locale}`,
-    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: "https://bengalunfolded.com" },
-    inLanguage: localeLanguageTag(locale as Locale),
-  };
-
   return <div className="space-y-10">
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }} />
     <HeroSection title={home.title} tagline={home.tagline} intro={home.intro} />
     <AnimatedContainer delay={0.08}>
       <section className="theme-surface-soft rounded-2xl border border-amber-400/20 p-5 md:p-6">
