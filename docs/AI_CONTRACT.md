@@ -70,6 +70,13 @@ For every schema or field change:
 - Event summary/why-it-matters:
   - if `summarySourceIds` exists and is non-empty, `summaryEvidenceLevel` is required
   - if `whyItMattersSourceIds` exists and is non-empty, `whyItMattersEvidenceLevel` is required
+  - if `requiresSources` is `true`, both `summarySourceIds` and `whyItMattersSourceIds` must be non-empty
+
+## Sensitive event contract
+
+- `sensitive` must be boolean when provided.
+- `requiresSources` must be boolean when provided.
+- `contentWarnings` must be an array of non-empty localized strings when provided.
 
 ## Definition of done (AI-integrated feature)
 

@@ -43,5 +43,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "contemporary-memory-and-civic-protest",
-  "movementId": "memory-justice-and-civic-dissent"
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "election violence",
+    "political repression allegations"
+  ],
+  "requiresSources": true
 }

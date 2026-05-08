@@ -152,7 +152,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-006B Homepage landmark timeline limit with `Explore Full Timeline` CTA
 - [x] RM-006C Full timeline explorer page with search, filters, and pagination
 - [x] RM-006D Parent-child event clustering (`parentEvent`, `children`, `relatedEvents`)
-- [ ] RM-006E Sensitive event metadata (`sensitive`, `contentWarnings`, `requiresSources`)
+- [x] RM-006E Sensitive event metadata (`sensitive`, `contentWarnings`, `requiresSources`)
 
 ### Relationship-first memory model
 
@@ -884,7 +884,6 @@ Optional Knowledge Graph / Linked Data Layer
 
 Recommended next sprint items:
 
-- [ ] RM-001 Inline citations on event/timeline claims
 - [x] RM-001 Inline citations on event/timeline claims
 - [x] RM-002 Source quality badges
 - [x] RM-005 Evidence metadata fields

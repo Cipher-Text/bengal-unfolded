@@ -46,5 +46,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
-  "movementId": "state-power-and-democratic-transition"
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "contentWarnings": [
+    "famine",
+    "mass mortality"
+  ],
+  "requiresSources": true
 }

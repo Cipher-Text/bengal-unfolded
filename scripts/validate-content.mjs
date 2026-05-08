@@ -120,6 +120,23 @@ async function main() {
       if ("movementLabel" in meta && (typeof meta.movementLabel !== "string" || meta.movementLabel.trim().length === 0)) {
         errors.push(`Invalid movementLabel at content/events/${slug}/meta.${locale}.json`);
       }
+      if ("sensitive" in meta && typeof meta.sensitive !== "boolean") {
+        errors.push(`sensitive must be boolean at content/events/${slug}/meta.${locale}.json`);
+      }
+      if ("requiresSources" in meta && typeof meta.requiresSources !== "boolean") {
+        errors.push(`requiresSources must be boolean at content/events/${slug}/meta.${locale}.json`);
+      }
+      if ("contentWarnings" in meta && meta.contentWarnings !== undefined) {
+        if (!Array.isArray(meta.contentWarnings)) {
+          errors.push(`contentWarnings must be an array at content/events/${slug}/meta.${locale}.json`);
+        } else {
+          for (const warning of meta.contentWarnings) {
+            if (typeof warning !== "string" || warning.trim().length === 0) {
+              errors.push(`Invalid contentWarnings entry '${warning}' at content/events/${slug}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
       if ("parentEvent" in meta && meta.parentEvent !== undefined) {
         if (typeof meta.parentEvent !== "string" || !eventSlugSet.has(meta.parentEvent)) {
           errors.push(`Invalid parentEvent at content/events/${slug}/meta.${locale}.json`);
@@ -188,6 +205,14 @@ async function main() {
       if (whyIds.length > 0) {
         if (typeof meta.whyItMattersEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.whyItMattersEvidenceLevel)) {
           errors.push(`Invalid or missing whyItMattersEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if (meta.requiresSources === true) {
+        if (summaryIds.length === 0) {
+          errors.push(`requiresSources=true requires non-empty summarySourceIds at content/events/${slug}/meta.${locale}.json`);
+        }
+        if (whyIds.length === 0) {
+          errors.push(`requiresSources=true requires non-empty whyItMattersSourceIds at content/events/${slug}/meta.${locale}.json`);
         }
       }
     }

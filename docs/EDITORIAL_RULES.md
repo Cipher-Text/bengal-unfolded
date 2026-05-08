@@ -22,6 +22,10 @@ These rules keep writing quality and historical framing consistent across human 
   - contested interpretation
   - editorial context
 - When disagreement exists in sources, summarize disagreement instead of choosing rhetoric.
+- For chapters with high violence/trauma/political-risk context, set event metadata:
+  - `sensitive: true`
+  - `contentWarnings: string[]` (localized, specific, non-empty)
+  - `requiresSources: true` so summary and why-it-matters claims remain citation-backed.
 
 ## Localization policy (EN/BN)
 

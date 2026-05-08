@@ -58,6 +58,10 @@ const EVENT_LABELS = {
     related: "Related chapters",
     importance: "Importance",
     movement: "Movement",
+    sensitiveContent: "Sensitive content",
+    sensitiveContentNote: "This chapter includes sensitive historical material. Reader discretion is advised.",
+    contentWarnings: "Content warnings",
+    sourcesRequired: "Strong sourcing required",
     topicHub: "Topic Hub",
     exploreTopicHub: "Explore related topics",
     whatLedToThis: "What led to this",
@@ -91,6 +95,10 @@ const EVENT_LABELS = {
     related: "সম্পর্কিত অধ্যায়",
     importance: "গুরুত্ব",
     movement: "ধারা",
+    sensitiveContent: "সংবেদনশীল বিষয়বস্তু",
+    sensitiveContentNote: "এই অধ্যায়ে সংবেদনশীল ঐতিহাসিক বিষয় আছে। পাঠে বিচক্ষণতা প্রয়োজন।",
+    contentWarnings: "সতর্কতা",
+    sourcesRequired: "শক্তিশালী সূত্র আবশ্যক",
     topicHub: "টপিক হাব",
     exploreTopicHub: "সম্পর্কিত টপিক দেখুন",
     whatLedToThis: "কীভাবে এখানে পৌঁছাল",
@@ -248,7 +256,25 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
             </span>
             {event.meta.periodLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{event.meta.periodLabel}</span> : null}
             {event.meta.movementLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{labels.movement}: {event.meta.movementLabel}</span> : null}
+            {event.meta.sensitive ? (
+              <span className="inline-flex rounded-full border border-rose-500/40 px-2.5 py-1 text-xs text-rose-300">
+                {labels.sensitiveContent}
+              </span>
+            ) : null}
           </div>
+          {event.meta.sensitive ? (
+            <div className="mt-3 rounded-xl border border-rose-500/30 bg-rose-950/20 p-3 text-sm">
+              <p className="font-medium text-rose-200">{labels.sensitiveContentNote}</p>
+              {event.meta.contentWarnings?.length ? (
+                <p className="theme-muted mt-1">
+                  {labels.contentWarnings}: {event.meta.contentWarnings.join(", ")}
+                </p>
+              ) : null}
+              {event.meta.requiresSources ? (
+                <p className="mt-1 text-xs text-rose-300">{labels.sourcesRequired}</p>
+              ) : null}
+            </div>
+          ) : null}
           {relatedTopics.length > 0 ? (
             <div className="mt-3 flex flex-wrap gap-2">
               {relatedTopics.map((topic) => (

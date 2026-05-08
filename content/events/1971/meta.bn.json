@@ -66,5 +66,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": true,
+  "contentWarnings": [
+    "war violence",
+    "mass atrocities"
+  ],
+  "requiresSources": true
 }

@@ -99,6 +99,9 @@ Image rendering policy:
 
 - `EventMeta.showOnLanding?` (optional boolean): set `false` to hide an event from the locale landing page timeline while keeping it available in full timeline and direct event routes.
 - `EventMeta.importance` (required): `landmark | major | high | medium | reference`
+- `EventMeta.sensitive?` (optional boolean): marks chapters that require sensitive-history caution UI treatment
+- `EventMeta.contentWarnings?` (optional `string[]`): localized warning labels displayed on sensitive chapters
+- `EventMeta.requiresSources?` (optional boolean): when `true`, event summary and why-it-matters claims must include source IDs
 - `EventMeta.parentEvent?` (optional): parent cluster anchor event slug
 - `EventMeta.childEventIds?` (optional): ordered child chapter slugs for cluster discovery
 - `EventMeta.relatedEvents?` (optional): ordered typed historical relationships with `{ eventId, relationType }`

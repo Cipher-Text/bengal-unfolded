@@ -458,6 +458,9 @@ export type EventMeta = {
   periodLabel?: string;
   movementId?: MovementId;
   movementLabel?: string;
+  sensitive?: boolean;
+  contentWarnings?: string[];
+  requiresSources?: boolean;
   showOnLanding?: boolean;
 };
 

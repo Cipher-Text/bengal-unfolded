@@ -4,6 +4,13 @@
 
 ### Completed
 
+- RM-006E sensitive-event metadata rollout:
+  - Model: Added `sensitive?: boolean`, `contentWarnings?: string[]`, and `requiresSources?: boolean` to `EventMeta` in `src/types/content.ts`.
+  - Validation: Extended `scripts/validate-content.mjs` with type checks for all three fields, `contentWarnings` entry validation, and `requiresSources=true` enforcement for non-empty `summarySourceIds` and `whyItMattersSourceIds`.
+  - UI/runtime: Updated event detail page UI to show a localized sensitive-content badge and warning panel with optional warning labels and source requirement note.
+  - Backfill: Marked an initial curated set of high-sensitivity chapters in EN/BN (`1946`, `1971`, `1974`, `2009`, `2013`, `2014`, `2018-digital-security-act`, `2024`) with `sensitive`, `contentWarnings`, and `requiresSources`.
+  - Docs: Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and roadmap checkbox state in `docs/ROADMAP.md`.
+
 - Historical timeline gap backfill (6 chapters) with full EN/BN content packs:
   - Added event chapters: `1874`, `1930`, `1948`, `1949`, `1962`, `1968`.
   - Added shared source entities: `assam-banglapedia`, `surya-sen-banglapedia`, `awami-league-britannica`, `agartala-conspiracy-case-banglapedia`.
