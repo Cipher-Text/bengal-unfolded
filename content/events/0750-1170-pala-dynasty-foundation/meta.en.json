@@ -38,5 +38,7 @@
   "culturalImpactSourceIds": [
     "pala-dynasty-britannica"
   ],
-  "culturalImpactEvidenceLevel": "high"
+  "culturalImpactEvidenceLevel": "high",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

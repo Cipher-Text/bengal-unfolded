@@ -61,5 +61,7 @@
     "lahore-resolution-banglapedia",
     "the-great-partition"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

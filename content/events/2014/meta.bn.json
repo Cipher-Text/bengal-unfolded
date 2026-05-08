@@ -49,5 +49,7 @@
     "election violence",
     "political repression allegations"
   ],
-  "requiresSources": true
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

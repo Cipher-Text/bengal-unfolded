@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllCreators, getAllGlossaryTermIds, getAllResourceIds, getAllTopicSlugs } from "@/lib/content";
-import { SUPPORTED_BOOK_IDS, SUPPORTED_EVENT_SLUGS, SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES } from "@/types/content";
+import { SUPPORTED_BOOK_IDS, SUPPORTED_EVENT_SLUGS, SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, SUPPORTED_PLACE_IDS } from "@/types/content";
 
 const BASE_URL = "https://bengalunfolded.com";
 
@@ -147,6 +147,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "weekly",
         priority: 0.8,
         alternates: { languages: localeAlternates(`/topics/${topicSlug}`) },
+      });
+    }
+
+    for (const placeId of SUPPORTED_PLACE_IDS) {
+      entries.push({
+        url: withLocale(locale, `/places/${placeId}`),
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: { languages: localeAlternates(`/places/${placeId}`) },
       });
     }
 

@@ -59,5 +59,7 @@
     "language-movement-in-east-bengal",
     "state-language-movement-in-east-bengal-1947-1956"
   ],
-  "culturalImpactEvidenceLevel": "medium"
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

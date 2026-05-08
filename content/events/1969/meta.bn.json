@@ -62,5 +62,7 @@
     "research-volume",
     "bangladesh-from-mujib-to-ershad"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

@@ -56,5 +56,7 @@
     "murshid-quli-khan-banglapedia",
     "murshidabad-banglapedia"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

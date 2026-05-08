@@ -38,5 +38,7 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "contemporary-memory-and-civic-protest",
-  "movementId": "memory-justice-and-civic-dissent"
+  "movementId": "memory-justice-and-civic-dissent",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

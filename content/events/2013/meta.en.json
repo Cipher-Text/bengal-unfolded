@@ -52,5 +52,7 @@
     "political violence",
     "execution-related unrest"
   ],
-  "requiresSources": true
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

@@ -409,6 +409,9 @@ export const SUPPORTED_MOVEMENT_IDS = [
   "state-power-and-democratic-transition",
   "memory-justice-and-civic-dissent",
 ] as const;
+export const SUPPORTED_PLACE_IDS = [
+  "bengal-region",
+] as const;
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 export type EventSlug = (typeof SUPPORTED_EVENT_SLUGS)[number];
@@ -416,6 +419,7 @@ export type FigureId = (typeof SUPPORTED_FIGURE_IDS)[number];
 export type BookId = (typeof SUPPORTED_BOOK_IDS)[number];
 export type PeriodId = (typeof SUPPORTED_PERIOD_IDS)[number];
 export type MovementId = (typeof SUPPORTED_MOVEMENT_IDS)[number];
+export type PlaceId = (typeof SUPPORTED_PLACE_IDS)[number];
 export type ResourceId = string;
 export type EventImportance =
   | "landmark"
@@ -464,6 +468,8 @@ export type EventMeta = {
   periodLabel?: string;
   movementId?: MovementId;
   movementLabel?: string;
+  placeId?: PlaceId;
+  placeLabel?: string;
   sensitive?: boolean;
   contentWarnings?: string[];
   requiresSources?: boolean;
@@ -551,6 +557,17 @@ export type Movement = {
   themeColor: string;
   icon?: string;
 };
+
+export type PlaceMeta = {
+  id: PlaceId;
+  title: string;
+  subtitle: string;
+  description: string;
+  regionType: "region" | "city" | "district" | "site";
+  themeColor: string;
+};
+
+export type Place = PlaceMeta;
 
 export type TopicMeta = {
   slug: string;

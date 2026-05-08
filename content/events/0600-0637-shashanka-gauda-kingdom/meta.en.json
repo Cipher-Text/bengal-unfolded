@@ -33,5 +33,7 @@
   "longTermLegacySourceIds": [
     "shashanka-britannica"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

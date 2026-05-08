@@ -34,5 +34,7 @@
   "longTermLegacySourceIds": [
     "somapura-mahavira-britannica"
   ],
-  "longTermLegacyEvidenceLevel": "high"
+  "longTermLegacyEvidenceLevel": "high",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

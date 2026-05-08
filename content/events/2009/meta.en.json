@@ -50,5 +50,7 @@
     "bangladesh-rifles-banglapedia",
     "fear-never-leaves-me-hrw"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

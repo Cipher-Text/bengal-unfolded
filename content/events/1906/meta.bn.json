@@ -43,5 +43,7 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "partition-and-late-colonial-politics",
-  "movementId": "partition-and-political-representation"
+  "movementId": "partition-and-political-representation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

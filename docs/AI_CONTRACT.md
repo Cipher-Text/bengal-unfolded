@@ -47,6 +47,7 @@ For every schema or field change:
 - Figure `image` paths in `content/figures/*/meta.<locale>.json` must point to existing files in `public/figures/` (no broken references).
 - Image cleanup (delete/rename/format swap such as `.jpeg` -> `.jpg`) must update figure metadata paths in both locales in the same change set.
 - Topic metadata under `content/topics/*/meta.<locale>.json` must keep EN/BN parity and valid linked IDs (`eventSlugs`, `figureIds`, `resourceIds`).
+- Place metadata under `content/places/*/meta.<locale>.json` must keep EN/BN parity and valid allowed `placeId`.
 
 ## Event relationship contract
 

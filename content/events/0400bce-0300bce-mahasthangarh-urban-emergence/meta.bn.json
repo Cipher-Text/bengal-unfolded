@@ -33,5 +33,7 @@
   "longTermLegacySourceIds": [
     "mahasthangarh-unesco"
   ],
-  "longTermLegacyEvidenceLevel": "high"
+  "longTermLegacyEvidenceLevel": "high",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

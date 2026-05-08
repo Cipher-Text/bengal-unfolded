@@ -52,5 +52,7 @@
     "war-of-liberation-banglapedia",
     "pakistan-banglapedia"
   ],
-  "culturalImpactEvidenceLevel": "medium"
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

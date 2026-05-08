@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
+import { ShareActions } from "@/components/ShareActions";
 import { getBook, getEventsByBookId } from "@/lib/content";
-import { buildPageMetadata, localeLanguageTag } from "@/lib/seo";
+import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag } from "@/lib/seo";
 import { SUPPORTED_BOOK_IDS, SUPPORTED_LOCALES, type BookId, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -23,6 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     canonicalPath: `/${locale}/books/${id}`,
     languagePathWithoutLocale: `/books/${id}`,
     type: "book",
+    ogImagePath: buildDynamicOgImagePath({
+      locale: locale as Locale,
+      type: "book",
+      title: book.title,
+      subtitle: book.author ?? undefined,
+    }),
   });
 }
 
@@ -33,6 +40,23 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
   const [book, events] = await Promise.all([getBook(locale, id), getEventsByBookId(locale, id)]);
   const bookAuthors = book.authors.length > 0 ? book.authors : book.author ? [book.author] : [];
   const authorsLabel = bookAuthors.join(", ");
+  const labels = locale === "bn"
+    ? {
+        category: "ক্যাটাগরি",
+        referencedInEvents: "যে ঘটনাগুলোতে উল্লেখ আছে",
+        share: "শেয়ার",
+        copyLink: "লিংক কপি",
+        copied: "কপি হয়েছে",
+        copyFailed: "কপি ব্যর্থ",
+      }
+    : {
+        category: "Category",
+        referencedInEvents: "Referenced In Events",
+        share: "Share",
+        copyLink: "Copy link",
+        copied: "Copied",
+        copyFailed: "Copy failed",
+      };
   const bookJsonLd = {
     "@context": "https://schema.org",
     "@type": "Book",
@@ -46,14 +70,25 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
   return (
     <div className="space-y-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(bookJsonLd) }} />
-      <HeroSection title={book.title} tagline={authorsLabel} intro={book.note} />
+      <HeroSection
+        title={book.title}
+        tagline={authorsLabel}
+        intro={book.note}
+        rightSlot={
+          <ShareActions
+            title={book.title}
+            path={`/${locale}/books/${id}`}
+            labels={{ share: labels.share, copyLink: labels.copyLink, copied: labels.copied, copyFailed: labels.copyFailed }}
+          />
+        }
+      />
 
       <AnimatedContainer>
-        <SectionTitle title="Category" subtitle={book.type} />
+        <SectionTitle title={labels.category} subtitle={book.type} />
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>
-        <SectionTitle title="Referenced In Events" />
+        <SectionTitle title={labels.referencedInEvents} />
         <div className="mt-4 grid gap-3">
           {events.map((event) => (
             <Link key={event.slug} href={`/${locale}/events/${event.slug}`} className="theme-surface rounded-xl border p-4 hover:border-amber-400/40">

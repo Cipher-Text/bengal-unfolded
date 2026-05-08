@@ -35,5 +35,7 @@
     "sena-dynasty-britannica",
     "bakhtiyar-khalji-britannica"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

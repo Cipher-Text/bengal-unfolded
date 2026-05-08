@@ -53,6 +53,8 @@ Image rendering policy:
 - `book` entity is still supported for dedicated book pages and reverse lookups.
 - `event -> period` is many-to-one via `eventMeta.periodId`.
 - Period detail pages perform reverse lookup to list all events within that period.
+- `event -> place` is many-to-one via `eventMeta.placeId`.
+- Place detail pages perform chronological reverse lookup to list all events tied to that place.
 - `topic -> events` is many-to-many via `content/topics/<topic-slug>/meta.<locale>.json` `eventSlugs`.
 - `topic -> figures` is optional many-to-many via `figureIds`.
 - `topic -> resources` is optional many-to-many via `resourceIds`.
@@ -83,6 +85,9 @@ Image rendering policy:
 - Topic files:
   - `content/topics/<topic-slug>/meta.en.json`
   - `content/topics/<topic-slug>/meta.bn.json`
+- Place files:
+  - `content/places/<place-id>/meta.en.json`
+  - `content/places/<place-id>/meta.bn.json`
 
 ## Timeline schema
 
@@ -115,6 +120,8 @@ Image rendering policy:
 - `EventMeta.periodId?` (optional): `PeriodId` reference for historical period grouping
 - `EventMeta.periodLabel?` (optional): localized period/group label used by explorer grouping
 - `EventMeta.movementLabel?` (optional): localized movement/context label used by explorer and event pages
+- `EventMeta.placeId?` (optional): `PlaceId` reference for place-to-event historical grouping
+- `EventMeta.placeLabel?` (optional): localized place label shown on event detail pages
 
 `relationType` supports:
 
@@ -181,6 +188,20 @@ Supported movement IDs:
 - `state-power-and-democratic-transition`
 - `memory-justice-and-civic-dissent`
 
+## Place schema
+
+- `PlaceMeta` / `Place` fields:
+  - `id` (required): place identifier
+  - `title` (required): place name
+  - `subtitle` (required): short location context
+  - `description` (required): historical relevance summary
+  - `regionType` (required): `region | city | district | site`
+  - `themeColor` (required): hex color for visual theming
+
+Supported place IDs:
+
+- `bengal-region`
+
 ## Resource schema
 
 - `EventResource` fields:
@@ -246,6 +267,10 @@ Supported movement IDs:
 - `getTopicsByEventSlug`
 - `getTopicsByFigureId`
 - `getTopicsByResourceId`
+- `getPlace`
+- `getAllPlaces`
+- `getEventsByPlaceId`
+- `getEventsByPlaceIdChronological`
 
 Implementation note:
 

@@ -59,5 +59,7 @@
     "robert-clive-britannica",
     "east-india-company-britannica"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

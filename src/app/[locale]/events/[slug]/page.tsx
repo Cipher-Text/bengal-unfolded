@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { buildPageMetadata, localeLanguageTag, SITE_NAME } from "@/lib/seo";
+import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, SITE_NAME } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
@@ -10,6 +10,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { QuoteBlock } from "@/components/QuoteBlock";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
+import { ShareActions } from "@/components/ShareActions";
 import { getEventContent, getEventHierarchy, getEventRelationships, getPreviousAndNextEvents, getTopicsByEventSlug } from "@/lib/content";
 import { renderGlossaryLinkedText } from "@/lib/glossary-linking";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
@@ -30,6 +31,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     canonicalPath: `/${locale}/events/${slug}`,
     languagePathWithoutLocale: `/events/${slug}`,
     type: "article",
+    ogImagePath: buildDynamicOgImagePath({
+      locale: locale as Locale,
+      type: "event",
+      title: `${event.meta.year} - ${event.meta.title}`,
+      subtitle: event.meta.heroTagline,
+    }),
   });
 }
 
@@ -60,6 +67,7 @@ const EVENT_LABELS = {
     related: "Related chapters",
     importance: "Importance",
     movement: "Movement",
+    place: "Place",
     sensitiveContent: "Sensitive content",
     sensitiveContentNote: "This chapter includes sensitive historical material. Reader discretion is advised.",
     contentWarnings: "Content warnings",
@@ -72,6 +80,10 @@ const EVENT_LABELS = {
     longTermLegacy: "Long-term legacy",
     background: "Background chapters",
     contrast: "Useful contrasts",
+    share: "Share",
+    copyLink: "Copy link",
+    copied: "Copied",
+    copyFailed: "Copy failed",
   },
   bn: {
     overview: "ওভারভিউ",
@@ -99,6 +111,7 @@ const EVENT_LABELS = {
     related: "সম্পর্কিত অধ্যায়",
     importance: "গুরুত্ব",
     movement: "ধারা",
+    place: "স্থান",
     sensitiveContent: "সংবেদনশীল বিষয়বস্তু",
     sensitiveContentNote: "এই অধ্যায়ে সংবেদনশীল ঐতিহাসিক বিষয় আছে। পাঠে বিচক্ষণতা প্রয়োজন।",
     contentWarnings: "সতর্কতা",
@@ -111,6 +124,10 @@ const EVENT_LABELS = {
     longTermLegacy: "দীর্ঘমেয়াদি উত্তরাধিকার",
     background: "পটভূমির অধ্যায়",
     contrast: "তুলনামূলক অধ্যায়",
+    share: "শেয়ার",
+    copyLink: "লিংক কপি",
+    copied: "কপি হয়েছে",
+    copyFailed: "কপি ব্যর্থ",
   },
 } as const;
 
@@ -235,6 +252,13 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         title={`${event.meta.year} — ${event.meta.title}`}
         tagline={event.meta.heroTagline}
         intro={<>{renderGlossaryLinkedText(event.meta.summary, locale as Locale)}{renderInlineCitations(event.meta.summarySourceIds, resourceById)}{renderEvidenceBadge(event.meta.summaryEvidenceLevel)}</>}
+        rightSlot={
+          <ShareActions
+            title={`${event.meta.year} — ${event.meta.title}`}
+            path={`/${locale}/events/${slug}`}
+            labels={{ share: labels.share, copyLink: labels.copyLink, copied: labels.copied, copyFailed: labels.copyFailed }}
+          />
+        }
       />
 
       <nav aria-label={labels.jumpTo} className="theme-surface-soft rounded-xl border border-amber-500/25 p-3">
@@ -262,6 +286,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
             </span>
             {event.meta.periodLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{event.meta.periodLabel}</span> : null}
             {event.meta.movementLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{labels.movement}: {event.meta.movementLabel}</span> : null}
+            {event.meta.placeId && event.meta.placeLabel ? (
+              <Link
+                href={`/${locale}/places/${event.meta.placeId}`}
+                className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted hover:border-amber-400/50 hover:text-accent"
+              >
+                {labels.place}: {event.meta.placeLabel}
+              </Link>
+            ) : null}
             {event.meta.sensitive ? (
               <span className="inline-flex rounded-full border border-rose-500/40 px-2.5 py-1 text-xs text-rose-300">
                 {labels.sensitiveContent}

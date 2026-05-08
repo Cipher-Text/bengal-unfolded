@@ -38,6 +38,7 @@ async function main() {
   const resourceDir = path.join(contentDir, "resources");
   const glossaryDir = path.join(contentDir, "glossary");
   const topicsDir = path.join(contentDir, "topics");
+  const placesDir = path.join(contentDir, "places");
 
   const figureIds = new Set((await fs.readdir(figureDir)).filter((name) => !name.startsWith("index.")));
   const resourceIds = new Set(await fs.readdir(resourceDir));
@@ -71,6 +72,10 @@ async function main() {
   ]);
   const movementDir = path.join(contentDir, "movements");
   await fs.readdir(movementDir);
+  const allowedPlaceIds = new Set([
+    "bengal-region",
+  ]);
+  await fs.readdir(placesDir);
 
   for (const slug of eventSlugs) {
     const base = path.join(eventDir, slug);
@@ -119,6 +124,14 @@ async function main() {
       }
       if ("movementLabel" in meta && (typeof meta.movementLabel !== "string" || meta.movementLabel.trim().length === 0)) {
         errors.push(`Invalid movementLabel at content/events/${slug}/meta.${locale}.json`);
+      }
+      if ("placeId" in meta && meta.placeId !== undefined) {
+        if (typeof meta.placeId !== "string" || !allowedPlaceIds.has(meta.placeId)) {
+          errors.push(`Invalid placeId at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if ("placeLabel" in meta && (typeof meta.placeLabel !== "string" || meta.placeLabel.trim().length === 0)) {
+        errors.push(`Invalid placeLabel at content/events/${slug}/meta.${locale}.json`);
       }
       if ("sensitive" in meta && typeof meta.sensitive !== "boolean") {
         errors.push(`sensitive must be boolean at content/events/${slug}/meta.${locale}.json`);
@@ -412,6 +425,41 @@ async function main() {
       }
       if (typeof meta.description !== "string" || meta.description.trim().length === 0) {
         errors.push(`Invalid or missing description at content/movements/${movementId}/meta.${locale}.json`);
+      }
+    }
+  }
+
+  const placeEntries = await fs.readdir(placesDir);
+  for (const placeId of placeEntries) {
+    for (const locale of ["en", "bn"]) {
+      const metaPath = path.join(placesDir, placeId, `meta.${locale}.json`);
+      if (!(await exists(metaPath))) {
+        errors.push(`Missing file: content/places/${placeId}/meta.${locale}.json`);
+        continue;
+      }
+      const meta = await readJson(metaPath, errors);
+      if (!meta || typeof meta !== "object") continue;
+      if (meta.id !== placeId) {
+        errors.push(`Place id mismatch at content/places/${placeId}/meta.${locale}.json`);
+      }
+      if (!allowedPlaceIds.has(placeId)) {
+        errors.push(`Unsupported place id '${placeId}' in content/places`);
+      }
+      if (typeof meta.title !== "string" || meta.title.trim().length === 0) {
+        errors.push(`Invalid or missing title at content/places/${placeId}/meta.${locale}.json`);
+      }
+      if (typeof meta.subtitle !== "string" || meta.subtitle.trim().length === 0) {
+        errors.push(`Invalid or missing subtitle at content/places/${placeId}/meta.${locale}.json`);
+      }
+      if (typeof meta.description !== "string" || meta.description.trim().length === 0) {
+        errors.push(`Invalid or missing description at content/places/${placeId}/meta.${locale}.json`);
+      }
+      if (typeof meta.themeColor !== "string" || meta.themeColor.trim().length === 0) {
+        errors.push(`Invalid or missing themeColor at content/places/${placeId}/meta.${locale}.json`);
+      }
+      const allowedRegionTypes = new Set(["region", "city", "district", "site"]);
+      if (typeof meta.regionType !== "string" || !allowedRegionTypes.has(meta.regionType)) {
+        errors.push(`Invalid regionType at content/places/${placeId}/meta.${locale}.json`);
       }
     }
   }

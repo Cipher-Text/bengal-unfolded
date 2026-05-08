@@ -4,6 +4,46 @@
 
 ### Completed
 
+- RM-REL-009 place-to-event timeline view rollout:
+  - Model:
+    - Added `SUPPORTED_PLACE_IDS`, `PlaceId`, `PlaceMeta`, and `Place` in `src/types/content.ts`.
+    - Added `placeId?: PlaceId` and `placeLabel?: string` to `EventMeta`.
+  - Validation:
+    - Extended `scripts/validate-content.mjs` with allowed `placeId` checks on event metadata.
+    - Added place directory validation (`content/places/<id>/meta.en.json`, `meta.bn.json`) with required field checks and EN/BN parity enforcement.
+  - UI/runtime:
+    - Added place loaders in `src/lib/content.ts` (`getPlace`, `getAllPlaces`, `getEventsByPlaceId`, `getEventsByPlaceIdChronological`).
+    - Added place timeline detail pages at `/{locale}/places/{id}`.
+    - Added place badge/link on event detail pages to navigate to place timelines.
+    - Updated `src/app/sitemap.ts` to include localized place detail routes.
+  - Backfill:
+    - Added bilingual place entity `content/places/bengal-region/`.
+    - Backfilled `placeId` and localized `placeLabel` for all event metadata files in EN/BN.
+  - Docs:
+    - Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and roadmap checkbox state in `docs/ROADMAP.md`.
+
+- RM-SHARE-002 dynamic localized Open Graph image rollout:
+  - Model: No schema/type additions required.
+  - Validation: No validator rule changes required.
+  - UI/runtime:
+    - Added dynamic OG image endpoint at `src/app/api/og/route.tsx` using `ImageResponse`.
+    - Added localized (EN/BN) OG card labels and rendering variants for content types (`event`, `figure`, `book`).
+    - Extended SEO helper in `src/lib/seo.ts` with `buildDynamicOgImagePath(...)` and `ogImagePath` support in `buildPageMetadata(...)`.
+    - Updated metadata generation for event, figure, and book detail pages to use content-specific dynamic OG image URLs.
+  - Backfill: No content backfill required.
+  - Docs: Updated roadmap checkbox state in `docs/ROADMAP.md`.
+
+- RM-SHARE-003 share action UI rollout:
+  - Model: No schema/type additions required.
+  - Validation: No validator rule changes required.
+  - UI/runtime:
+    - Added reusable client-side `ShareActions` component in `src/components/ShareActions.tsx` with localized `Share` and `Copy link` actions.
+    - Added native share support via `navigator.share` where available.
+    - Added copy-to-clipboard fallback with success/error status messaging.
+    - Integrated share actions into event, figure, and book detail hero sections.
+  - Backfill: No content backfill required.
+  - Docs: Updated roadmap checkbox state in `docs/ROADMAP.md`.
+
 - RM-REL-011 long-term legacy fields for major events rollout:
   - Model: Added `longTermLegacy`, `longTermLegacySourceIds`, and `longTermLegacyEvidenceLevel` to `EventMeta` in `src/types/content.ts`.
   - Validation:

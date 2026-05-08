@@ -49,5 +49,7 @@
     "faraizi-movement-banglapedia",
     "haji-shariatullah-banglapedia"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

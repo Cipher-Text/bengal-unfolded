@@ -52,5 +52,7 @@
     "agartala-conspiracy-case-banglapedia",
     "bangladesh-awami-league-banglapedia"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

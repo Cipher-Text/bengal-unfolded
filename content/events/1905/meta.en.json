@@ -52,5 +52,7 @@
     "swadeshi-movement-banglapedia",
     "partition-politics-banglapedia"
   ],
-  "culturalImpactEvidenceLevel": "medium"
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

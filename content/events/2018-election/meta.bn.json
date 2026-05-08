@@ -49,5 +49,7 @@
     "creating-panic-hrw",
     "election-guide-bangladesh-2018"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

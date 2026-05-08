@@ -46,5 +46,7 @@
     "house-of-ganesha-wikipedia",
     "bengal-sultanate-wikipedia"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

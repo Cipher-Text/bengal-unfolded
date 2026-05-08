@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
+import { ShareActions } from "@/components/ShareActions";
 import { getEventsByFigureIdChronological, getFigure, getTopicsByFigureId } from "@/lib/content";
-import { buildPageMetadata, localeLanguageTag } from "@/lib/seo";
+import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag } from "@/lib/seo";
 import { SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, type FigureId, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -23,6 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     canonicalPath: `/${locale}/figures/${id}`,
     languagePathWithoutLocale: `/figures/${id}`,
     type: "profile",
+    ogImagePath: buildDynamicOgImagePath({
+      locale: locale as Locale,
+      type: "figure",
+      title: figure.name,
+      subtitle: figure.role,
+    }),
   });
 }
 
@@ -51,6 +58,10 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
         timelineView: "ঘটনাপঞ্জি ভিউ",
         topicHub: "টপিক হাব",
         exploreTopicHub: "সম্পর্কিত টপিক দেখুন",
+        share: "শেয়ার",
+        copyLink: "লিংক কপি",
+        copied: "কপি হয়েছে",
+        copyFailed: "কপি ব্যর্থ",
       }
     : {
         context: "Context",
@@ -60,12 +71,27 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
         timelineView: "Timeline View",
         topicHub: "Topic Hub",
         exploreTopicHub: "Explore related topics",
+        share: "Share",
+        copyLink: "Copy link",
+        copied: "Copied",
+        copyFailed: "Copy failed",
       };
 
   return (
     <div className="space-y-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
-      <HeroSection title={figure.name} tagline={figure.role} intro={figure.highlight ?? figure.contribution} />
+      <HeroSection
+        title={figure.name}
+        tagline={figure.role}
+        intro={figure.highlight ?? figure.contribution}
+        rightSlot={
+          <ShareActions
+            title={figure.name}
+            path={`/${locale}/figures/${id}`}
+            labels={{ share: labels.share, copyLink: labels.copyLink, copied: labels.copied, copyFailed: labels.copyFailed }}
+          />
+        }
+      />
 
       <AnimatedContainer>
         <SectionTitle title={labels.context} subtitle={figure.context} />

@@ -57,5 +57,7 @@
     "constitution-banglapedia",
     "bangladesh-since-independence-britannica"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

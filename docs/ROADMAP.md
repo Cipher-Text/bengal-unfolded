@@ -164,7 +164,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-REL-006 Period-to-event linking
 - [x] RM-REL-007 Movement/theme-to-event linking
 - [x] RM-REL-008 Figure-to-event timeline view
-- [ ] RM-REL-009 Place-to-event timeline view
+- [x] RM-REL-009 Place-to-event timeline view
 - [ ] RM-REL-010 Book/resource-to-event reverse mapping
 - [x] RM-REL-011 Long-term legacy fields for major events
 - [x] RM-REL-012 Cultural impact fields for selected events
@@ -226,8 +226,8 @@ Priority: Improve discoverability and social distribution with minimal architect
 ### Social sharing baseline
 
 - [ ] RM-SHARE-001 Social metadata baseline for event/figure/book pages (`title`, `description`, `image`)
-- [ ] RM-SHARE-002 Dynamic Open Graph image generation per content type (localized EN/BN)
-- [ ] RM-SHARE-003 Share action UI on detail pages (copy link + native share where available)
+- [x] RM-SHARE-002 Dynamic Open Graph image generation per content type (localized EN/BN)
+- [x] RM-SHARE-003 Share action UI on detail pages (copy link + native share where available)
 - [ ] RM-SHARE-004 Canonical URL and locale-aware metadata consistency checks
 - [ ] RM-SHARE-005 Optional downloadable share card images for manual posting
 - [x] RM-SHARE-006 Dynamic topic hubs and cluster linking (`/{locale}/topics`, `/{locale}/topics/{slug}`) with sitemap and multi-entity internal links

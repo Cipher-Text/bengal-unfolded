@@ -64,5 +64,7 @@
     "bangladesh-from-mujib-to-ershad",
     "bangladesh-under-mujib-zia-and-ershad"
   ],
-  "culturalImpactEvidenceLevel": "medium"
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }

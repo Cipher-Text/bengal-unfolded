@@ -40,5 +40,7 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",
-  "movementId": "colonial-capture-and-resistance"
+  "movementId": "colonial-capture-and-resistance",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
 }

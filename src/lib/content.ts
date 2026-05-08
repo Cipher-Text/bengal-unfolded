@@ -7,6 +7,7 @@ import {
   SUPPORTED_FIGURE_IDS,
   SUPPORTED_PERIOD_IDS,
   SUPPORTED_MOVEMENT_IDS,
+  SUPPORTED_PLACE_IDS,
   SUPPORTED_LOCALES,
   type Book,
   type BookId,
@@ -24,6 +25,9 @@ import {
   type Movement,
   type MovementId,
   type MovementMeta,
+  type Place,
+  type PlaceId,
+  type PlaceMeta,
   type Period,
   type PeriodId,
   type PeriodMeta,
@@ -57,6 +61,10 @@ function isPeriodId(v: string): v is PeriodId {
 
 function isMovementId(v: string): v is MovementId {
   return SUPPORTED_MOVEMENT_IDS.includes(v as MovementId);
+}
+
+function isPlaceId(v: string): v is PlaceId {
+  return SUPPORTED_PLACE_IDS.includes(v as PlaceId);
 }
 
 function parseEventYearToSortValue(yearLabel: string, slug: EventSlug): number {
@@ -388,6 +396,13 @@ export function assertSupportedMovementId(
 ): asserts movementId is MovementId {
   if (!isMovementId(movementId))
     throw new Error(`Unsupported movement id: ${movementId}`);
+}
+
+export function assertSupportedPlaceId(
+  placeId: string,
+): asserts placeId is PlaceId {
+  if (!isPlaceId(placeId))
+    throw new Error(`Unsupported place id: ${placeId}`);
 }
 
 export async function getHomeContent(locale: string): Promise<HomeContent> {
@@ -917,6 +932,61 @@ export const getEventsByMovementId = cache(
     );
 
     return allEvents.filter((event): event is EventMeta => event !== null);
+  },
+);
+
+export const getPlace = cache(
+  async (locale: string, placeId: string): Promise<Place> => {
+    assertSupportedLocale(locale);
+    assertSupportedPlaceId(placeId);
+
+    const metaPath = path.join(
+      CONTENT_DIR,
+      "places",
+      placeId,
+      `meta.${locale}.json`,
+    );
+    return readJsonFile<PlaceMeta>(metaPath);
+  },
+);
+
+export async function getAllPlaces(locale: string): Promise<Place[]> {
+  assertSupportedLocale(locale);
+  return Promise.all(SUPPORTED_PLACE_IDS.map((id) => getPlace(locale, id)));
+}
+
+export const getEventsByPlaceId = cache(
+  async (locale: string, placeId: string): Promise<EventMeta[]> => {
+    assertSupportedLocale(locale);
+    assertSupportedPlaceId(placeId);
+
+    const allEvents = await Promise.all(
+      SUPPORTED_EVENT_SLUGS.map(async (slug) => {
+        const meta = await getEventMeta(locale, slug);
+        return meta.placeId === placeId ? meta : null;
+      }),
+    );
+
+    return allEvents.filter((event): event is EventMeta => event !== null);
+  },
+);
+
+export const getEventsByPlaceIdChronological = cache(
+  async (locale: string, placeId: string): Promise<EventMeta[]> => {
+    assertSupportedLocale(locale);
+    assertSupportedPlaceId(placeId);
+
+    const [events, chronologicalSlugs] = await Promise.all([
+      getEventsByPlaceId(locale, placeId),
+      getChronologicalEventSlugs(locale as Locale),
+    ]);
+    const rank = new Map(chronologicalSlugs.map((slug, index) => [slug, index]));
+
+    return [...events].sort(
+      (a, b) =>
+        (rank.get(a.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER) -
+        (rank.get(b.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER),
+    );
   },
 );
 

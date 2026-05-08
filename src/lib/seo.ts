@@ -30,6 +30,21 @@ export function languageAlternates(pathWithoutLocale: string, includeXDefault = 
   return alternates;
 }
 
+export function buildDynamicOgImagePath(input: {
+  locale: Locale;
+  type: "event" | "figure" | "book";
+  title: string;
+  subtitle?: string;
+}): string {
+  const params = new URLSearchParams({
+    locale: input.locale,
+    type: input.type,
+    title: input.title,
+  });
+  if (input.subtitle) params.set("subtitle", input.subtitle);
+  return `/api/og?${params.toString()}`;
+}
+
 export function buildPageMetadata(input: {
   locale: Locale;
   title: string;
@@ -38,12 +53,15 @@ export function buildPageMetadata(input: {
   languagePathWithoutLocale?: string;
   type?: "website" | "article" | "profile" | "book";
   noIndex?: boolean;
+  ogImagePath?: string;
 }): Metadata {
   const ogType = input.type ?? "website";
   const languagePath = input.languagePathWithoutLocale;
   const locale = input.locale;
   const localeAlternates = languagePath ? languageAlternates(languagePath, true) : undefined;
   const ogLocaleAlternates = locale === "bn" ? ["en_US"] : ["bn_BD"];
+
+  const ogImage = input.ogImagePath ? absoluteUrl(input.ogImagePath) : DEFAULT_OG_IMAGE;
 
   return {
     title: input.title,
@@ -63,7 +81,7 @@ export function buildPageMetadata(input: {
       alternateLocale: ogLocaleAlternates,
       images: [
         {
-          url: DEFAULT_OG_IMAGE,
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: `${SITE_NAME} historical and cultural learning portal`,
@@ -74,7 +92,7 @@ export function buildPageMetadata(input: {
       card: "summary_large_image",
       title: input.title,
       description: input.description,
-      images: [DEFAULT_OG_IMAGE],
+      images: [ogImage],
     },
   };
 }

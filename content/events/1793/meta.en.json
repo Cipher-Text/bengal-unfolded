@@ -56,5 +56,7 @@
     "revenue-sale-law-1793-banglapedia",
     "cornwallis-code-britannica"
   ],
-  "longTermLegacyEvidenceLevel": "medium"
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
 }
