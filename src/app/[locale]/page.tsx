@@ -108,18 +108,26 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   return <div className="space-y-10">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }} />
     <HeroSection title={home.title} tagline={home.tagline} intro={home.intro} />
+    <AnimatedContainer delay={0.08}>
+      <section className="theme-surface-soft rounded-2xl border border-amber-400/20 p-5 md:p-6">
+        <h2 className="text-lg font-semibold md:text-xl">{locale === "bn" ? "শুরু করার পথ" : "Start Exploring"}</h2>
+        <p className="theme-muted mt-2 text-sm leading-relaxed md:text-base">
+          {locale === "bn"
+            ? "দ্রুত প্রবেশের জন্য একটি পথ বেছে নিন: ধারাবাহিক কালরেখা, অথবা থিমভিত্তিক টপিক হাব।"
+            : "Choose a path: follow the historical sequence in the timeline, or jump by theme in topic hubs."}
+        </p>
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          <Link href={`/${locale}/timeline`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
+            {locale === "bn" ? "পূর্ণ টাইমলাইন দেখুন" : "Explore Full Timeline"}
+          </Link>
+          <Link href={`/${locale}/topics`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
+            {locale === "bn" ? "টপিক হাব দেখুন" : "Explore Topic Hubs"}
+          </Link>
+        </div>
+      </section>
+    </AnimatedContainer>
     <AnimatedContainer><SectionTitle title={home.timelineHeading} subtitle={home.timelineSubheading} /></AnimatedContainer>
     <AnimatedContainer delay={0.05}><EventTimeline items={timelineItems} locale={locale as Locale} /></AnimatedContainer>
-    <AnimatedContainer delay={0.08}>
-      <div className="flex flex-wrap items-center gap-3">
-        <Link href={`/${locale}/timeline`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
-          {locale === "bn" ? "পূর্ণ টাইমলাইন দেখুন" : "Explore Full Timeline"}
-        </Link>
-        <Link href={`/${locale}/topics`} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
-          {locale === "bn" ? "টপিক হাব দেখুন" : "Explore Topic Hubs"}
-        </Link>
-      </div>
-    </AnimatedContainer>
     <AnimatedContainer delay={0.1}><section className="theme-surface-soft rounded-2xl border border-amber-400/20 p-6 md:p-8"><h2 className="text-2xl font-semibold md:text-3xl">{home.whyJourneyMattersHeading}</h2><p className="theme-muted mt-3 text-base leading-relaxed md:text-lg">{home.whyJourneyMattersBody}</p></section></AnimatedContainer>
   </div>;
 }
