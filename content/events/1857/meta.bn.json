@@ -48,5 +48,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",
-  "movementId": "colonial-capture-and-resistance"
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "সিপাহী বিদ্রোহ বোঝা জরুরি, কারণ এটি ঔপনিবেশিক কর্তৃত্বের দুর্বলতা উন্মোচন করে এবং পরবর্তী প্রতিরোধ-রাজনীতির ভিত্তি তৈরি করে।",
+  "longTermLegacySourceIds": [
+    "indian-rebellion-1857-britannica",
+    "mangal-pandey-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

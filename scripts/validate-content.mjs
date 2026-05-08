@@ -197,6 +197,7 @@ async function main() {
       }
       const summaryIds = Array.isArray(meta.summarySourceIds) ? meta.summarySourceIds : [];
       const whyIds = Array.isArray(meta.whyItMattersSourceIds) ? meta.whyItMattersSourceIds : [];
+      const legacyIds = Array.isArray(meta.longTermLegacySourceIds) ? meta.longTermLegacySourceIds : [];
       if (summaryIds.length > 0) {
         if (typeof meta.summaryEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.summaryEvidenceLevel)) {
           errors.push(`Invalid or missing summaryEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
@@ -207,12 +208,27 @@ async function main() {
           errors.push(`Invalid or missing whyItMattersEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
         }
       }
+      if (legacyIds.length > 0) {
+        if (typeof meta.longTermLegacyEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.longTermLegacyEvidenceLevel)) {
+          errors.push(`Invalid or missing longTermLegacyEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if ("longTermLegacy" in meta && meta.longTermLegacy !== undefined) {
+        if (typeof meta.longTermLegacy !== "string" || meta.longTermLegacy.trim().length === 0) {
+          errors.push(`Invalid longTermLegacy at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
       if (meta.requiresSources === true) {
         if (summaryIds.length === 0) {
           errors.push(`requiresSources=true requires non-empty summarySourceIds at content/events/${slug}/meta.${locale}.json`);
         }
         if (whyIds.length === 0) {
           errors.push(`requiresSources=true requires non-empty whyItMattersSourceIds at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if (meta.importance === "major") {
+        if (typeof meta.longTermLegacy !== "string" || meta.longTermLegacy.trim().length === 0) {
+          errors.push(`importance=major requires longTermLegacy at content/events/${slug}/meta.${locale}.json`);
         }
       }
     }
@@ -299,6 +315,33 @@ async function main() {
           }
           if (!resourceIds.has(sourceId)) {
             errors.push(`Unknown sourceId '${sourceId}' in content/events/${slug}/timeline.${locale}.json[${i}]`);
+          }
+        }
+      }
+    }
+
+    if (resourceIdsFile && Array.isArray(resourceIdsFile)) {
+      for (const [locale, meta] of [["en", metaEn], ["bn", metaBn]]) {
+        if (!meta || typeof meta !== "object") continue;
+        const fields = ["summarySourceIds", "whyItMattersSourceIds", "longTermLegacySourceIds"];
+        for (const fieldName of fields) {
+          const sourceIds = meta[fieldName];
+          if (sourceIds === undefined) continue;
+          if (!Array.isArray(sourceIds)) {
+            errors.push(`${fieldName} must be an array at content/events/${slug}/meta.${locale}.json`);
+            continue;
+          }
+          for (const sourceId of sourceIds) {
+            if (typeof sourceId !== "string") {
+              errors.push(`Non-string ${fieldName} entry at content/events/${slug}/meta.${locale}.json`);
+              continue;
+            }
+            if (!resourceIdsFile.includes(sourceId)) {
+              errors.push(`${fieldName} sourceId '${sourceId}' not listed in content/events/${slug}/resource-ids.json`);
+            }
+            if (!resourceIds.has(sourceId)) {
+              errors.push(`Unknown ${fieldName} sourceId '${sourceId}' at content/events/${slug}/meta.${locale}.json`);
+            }
           }
         }
       }

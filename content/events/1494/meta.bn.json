@@ -40,5 +40,11 @@
   "periodId": "independent-bengal-sultanate-era",
   "showOnLanding": false,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ হোসেন শাহী শাসন পূর্ববর্তী সুলতানি রাষ্ট্রগঠন ও পরবর্তী ষোড়শ শতকের রূপান্তরের মধ্যে একটি প্রধান সেতু হিসেবে কাজ করে। রাজনৈতিক কর্তৃত্ব, আঞ্চলিক কূটনীতি ও সাংস্কৃতিক পৃষ্ঠপোষকতায় এর দীর্ঘস্থায়ী প্রভাব বাংলার পরবর্তী ইতিহাসেও দৃশ্যমান থাকে।",
+  "longTermLegacySourceIds": [
+    "hussain-shahi-dynasty-wikipedia",
+    "bengal-sultanate-wikipedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

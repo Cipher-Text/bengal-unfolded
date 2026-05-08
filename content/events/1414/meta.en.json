@@ -40,5 +40,11 @@
   "periodId": "independent-bengal-sultanate-era",
   "showOnLanding": false,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "This event matters because it shows that Bengal's sultanate system was politically contestable, with local landed elites able to redirect dynastic succession. The episode set the stage for reconfigured legitimacy under Jalaluddin Muhammad Shah and for the later restoration of Ilyas Shahi authority.",
+  "longTermLegacySourceIds": [
+    "house-of-ganesha-wikipedia",
+    "bengal-sultanate-wikipedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

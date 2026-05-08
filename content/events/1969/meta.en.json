@@ -56,5 +56,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+  "longTermLegacySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

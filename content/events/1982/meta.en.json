@@ -46,5 +46,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
-  "movementId": "state-power-and-democratic-transition"
+  "movementId": "state-power-and-democratic-transition",
+  "longTermLegacy": "The 1982 coup matters because it explains why the 1990 uprising took the form it did. Ershad's takeover showed that the constitutional order remained deeply vulnerable to military intervention, and it set in motion the authoritarian system, opposition alliances, and protest cultures that later converged to force democratic transition.",
+  "longTermLegacySourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

@@ -47,5 +47,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "১৯৪৮ গুরুত্বপূর্ণ, কারণ এ সময়েই ভাষা-আন্দোলনের সংগঠন, দাবি-ভাষা ও সাংবিধানিক অধিকারভিত্তিক যুক্তির কাঠামো গড়ে ওঠে, যা ১৯৫২-তে ঐতিহাসিক উচ্চতায় পৌঁছে।",
+  "longTermLegacySourceIds": [
+    "language-movement-banglapedia",
+    "language-movement-in-east-bengal"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

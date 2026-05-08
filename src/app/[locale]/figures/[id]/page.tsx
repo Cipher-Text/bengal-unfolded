@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getEventsByFigureId, getFigure, getTopicsByFigureId } from "@/lib/content";
+import { getEventsByFigureIdChronological, getFigure, getTopicsByFigureId } from "@/lib/content";
 import { buildPageMetadata, localeLanguageTag } from "@/lib/seo";
 import { SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, type FigureId, type Locale } from "@/types/content";
 
@@ -30,7 +30,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_FIGURE_IDS.includes(id as FigureId)) notFound();
 
-  const [figure, events, relatedTopics] = await Promise.all([getFigure(locale, id), getEventsByFigureId(locale, id), getTopicsByFigureId(locale, id)]);
+  const [figure, events, relatedTopics] = await Promise.all([getFigure(locale, id), getEventsByFigureIdChronological(locale, id), getTopicsByFigureId(locale, id)]);
   const personJsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -43,8 +43,24 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
   };
 
   const labels = locale === "bn"
-    ? { context: "প্রেক্ষাপট", contribution: "অবদান", impact: "প্রভাব", appearsIn: "যে ঘটনাগুলোতে অংশ নিয়েছেন", topicHub: "টপিক হাব", exploreTopicHub: "সম্পর্কিত টপিক দেখুন" }
-    : { context: "Context", contribution: "Contribution", impact: "Impact", appearsIn: "Appears In Events", topicHub: "Topic Hub", exploreTopicHub: "Explore related topics" };
+    ? {
+        context: "প্রেক্ষাপট",
+        contribution: "অবদান",
+        impact: "প্রভাব",
+        appearsIn: "ঘটনাসমূহে অংশগ্রহণ",
+        timelineView: "ঘটনাপঞ্জি ভিউ",
+        topicHub: "টপিক হাব",
+        exploreTopicHub: "সম্পর্কিত টপিক দেখুন",
+      }
+    : {
+        context: "Context",
+        contribution: "Contribution",
+        impact: "Impact",
+        appearsIn: "Appears In Events",
+        timelineView: "Timeline View",
+        topicHub: "Topic Hub",
+        exploreTopicHub: "Explore related topics",
+      };
 
   return (
     <div className="space-y-8">
@@ -87,14 +103,18 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>
-        <SectionTitle title={labels.appearsIn} />
-        <div className="mt-4 grid gap-3">
-          {events.map((event) => (
-            <Link key={event.slug} href={`/${locale}/events/${event.slug}`} className="theme-surface rounded-xl border p-4 hover:border-amber-400/40">
-              <p className="theme-muted text-xs tracking-[0.2em] uppercase">{event.year}</p>
-              <h3 className="mt-1 text-lg font-semibold">{event.title}</h3>
-              <p className="theme-muted mt-1 text-sm">{event.summary}</p>
-            </Link>
+        <SectionTitle title={labels.appearsIn} subtitle={labels.timelineView} />
+        <div className="mt-4 space-y-3">
+          {events.map((event, index) => (
+            <div key={event.slug} className="relative pl-8">
+              <span className="absolute top-5 left-2 h-2.5 w-2.5 rounded-full bg-amber-400" />
+              {index < events.length - 1 ? <span className="absolute top-8 left-[0.84rem] h-[calc(100%+0.6rem)] w-px bg-amber-500/35" /> : null}
+              <Link href={`/${locale}/events/${event.slug}`} className="theme-surface block rounded-xl border p-4 hover:border-amber-400/40">
+                <p className="theme-muted text-xs tracking-[0.2em] uppercase">{event.year}</p>
+                <h3 className="mt-1 text-lg font-semibold">{event.title}</h3>
+                <p className="theme-muted mt-1 text-sm">{event.summary}</p>
+              </Link>
+            </div>
           ))}
         </div>
       </AnimatedContainer>

@@ -52,5 +52,11 @@
     "mass violence",
     "communal violence"
   ],
-  "requiresSources": true
+  "requiresSources": true,
+  "longTermLegacy": "ডাইরেক্ট অ্যাকশন ডে গুরুত্বপূর্ণ, কারণ এটি সাংবিধানিক দ্বন্দ্বকে বাংলায় গণসাম্প্রদায়িক রক্তপাতের স্তরে নামিয়ে আনে। এর ফলে পারস্পরিক অবিশ্বাস গভীর হয়, আলোচনার মাধ্যমে সহাবস্থানের বিশ্বাস ভেঙে পড়ে, এবং ১৯৪৭ সালের দেশভাগের দিকে যাওয়া পথে এটি লাহোর প্রস্তাব ও চূড়ান্ত বিভাজনের মাঝে এক নির্ণায়ক সেতুতে পরিণত হয়।",
+  "longTermLegacySourceIds": [
+    "calcutta-riot-1946-banglapedia",
+    "the-great-partition"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

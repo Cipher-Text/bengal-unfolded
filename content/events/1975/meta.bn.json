@@ -62,5 +62,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
-  "movementId": "state-power-and-democratic-transition"
+  "movementId": "state-power-and-democratic-transition",
+  "longTermLegacy": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+  "longTermLegacySourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

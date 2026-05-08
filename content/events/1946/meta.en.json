@@ -52,5 +52,11 @@
     "mass violence",
     "communal violence"
   ],
-  "requiresSources": true
+  "requiresSources": true,
+  "longTermLegacy": "Direct Action Day matters because it transformed constitutional conflict into mass communal bloodshed in Bengal. It deepened mistrust, destroyed faith in negotiated coexistence, and became a decisive bridge between the Lahore Resolution's political demand and the partition settlement of 1947.",
+  "longTermLegacySourceIds": [
+    "calcutta-riot-1946-banglapedia",
+    "the-great-partition"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

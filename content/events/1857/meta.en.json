@@ -48,5 +48,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",
-  "movementId": "colonial-capture-and-resistance"
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "The 1857 revolt matters because it exposed the fragility of colonial legitimacy and influenced later political resistance traditions in Bengal and beyond.",
+  "longTermLegacySourceIds": [
+    "indian-rebellion-1857-britannica",
+    "mangal-pandey-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

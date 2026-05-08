@@ -40,5 +40,11 @@
   "periodId": "mughal-incorporation-and-consolidation",
   "showOnLanding": false,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে প্রতিদ্বন্দ্বিতাপূর্ণ বিজয়-পর্ব থেকে তুলনামূলকভাবে স্থিত প্রশাসনিক সংহতির দিকে উত্তরণ বোঝা যায়। প্রতিরোধ ভেঙে যাওয়ার পর রাজস্ব, সামরিক কমান্ড ও আঞ্চলিক শাসনে মুঘল প্রতিষ্ঠানগুলো আরও ধারাবাহিকভাবে বিস্তার লাভ করে, যা পরবর্তী নবাবি বাংলার রাজনৈতিক কাঠামোকে প্রভাবিত করে।",
+  "longTermLegacySourceIds": [
+    "mughal-conquest-of-bengal-wikipedia",
+    "baro-bhuiyans-wikipedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

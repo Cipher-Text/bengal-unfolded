@@ -44,5 +44,11 @@
     "armed violence",
     "extrajudicial killing allegations"
   ],
-  "requiresSources": true
+  "requiresSources": true,
+  "longTermLegacy": "The Pilkhana mutiny matters because it exposed how fragile Bangladesh's post-emergency transition remained. Its aftermath reshaped civil-military trust, drove the reorganization of Bangladesh Rifles into Border Guard Bangladesh, and left a lasting debate over justice, accountability, and the treatment of the accused.",
+  "longTermLegacySourceIds": [
+    "bangladesh-rifles-banglapedia",
+    "fear-never-leaves-me-hrw"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

@@ -28,5 +28,10 @@
   "periodId": "ancient-and-pre-sultanate-bengal",
   "showOnLanding": false,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "This event matters because it offers a concrete early medieval precedent for Bengal-centered sovereignty before the Pala and Sena transitions.",
+  "longTermLegacySourceIds": [
+    "shashanka-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

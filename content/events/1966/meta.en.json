@@ -52,5 +52,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "The Six-Point Programme transformed scattered grievances into a coherent political agenda, laying essential groundwork for the mass upsurge of 1969 and the independence struggle that followed.",
+  "longTermLegacySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

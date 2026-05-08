@@ -51,5 +51,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "The 1949 founding matters because it built an organizational vehicle that connected language activism, regional representation, and democratic mobilization across subsequent decades.",
+  "longTermLegacySourceIds": [
+    "bangladesh-awami-league-banglapedia",
+    "research-volume"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

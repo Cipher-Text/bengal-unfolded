@@ -29,5 +29,10 @@
   "periodId": "ancient-and-pre-sultanate-bengal",
   "showOnLanding": false,
   "summaryEvidenceLevel": "high",
-  "whyItMattersEvidenceLevel": "high"
+  "whyItMattersEvidenceLevel": "high",
+  "longTermLegacy": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলায় বৌদ্ধ জ্ঞানচর্চা ও সাংস্কৃতিক বিনিময়ে প্রাতিষ্ঠানিক ভূমিকাকে স্থাপত্য-প্রমাণসহ দেখায়।",
+  "longTermLegacySourceIds": [
+    "somapura-mahavira-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "high"
 }

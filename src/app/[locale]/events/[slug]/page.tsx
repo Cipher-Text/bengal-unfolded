@@ -46,6 +46,7 @@ const EVENT_LABELS = {
     quotes: "Quotes",
     faq: "FAQ",
     whyItMatters: "Why This Event Matters Today",
+    legacyNarrative: "Long-Term Legacy",
     whyItMattersSources: "Why It Matters Sources",
     evidence: "Evidence",
     high: "High",
@@ -83,6 +84,7 @@ const EVENT_LABELS = {
     quotes: "উদ্ধৃতি",
     faq: "প্রশ্নোত্তর",
     whyItMatters: "কেন এই ঘটনা আজও গুরুত্বপূর্ণ",
+    legacyNarrative: "দীর্ঘমেয়াদি উত্তরাধিকার",
     whyItMattersSources: "গুরুত্ব ব্যাখ্যার সূত্র",
     evidence: "প্রমাণের শক্তি",
     high: "উচ্চ",
@@ -243,6 +245,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           {faqEntries.length > 0 ? <a href="#faq" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.faq}</a> : null}
           {quoteEntries.length > 0 ? <a href="#quotes" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
+          {event.meta.longTermLegacy ? <a href="#long-term-legacy" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.legacyNarrative}</a> : null}
         </div>
       </nav>
 
@@ -434,6 +437,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         <SectionTitle title={labels.whyItMatters} subtitle={<>{renderGlossaryLinkedText(event.meta.whyItMatters, locale as Locale)}{renderInlineCitations(event.meta.whyItMattersSourceIds, resourceById)}{renderEvidenceBadge(event.meta.whyItMattersEvidenceLevel)}</>} />
         </section>
       </AnimatedContainer>
+
+      {event.meta.longTermLegacy ? (
+        <AnimatedContainer delay={0.27}>
+          <section id="long-term-legacy" className="scroll-mt-24">
+          <SectionTitle title={labels.legacyNarrative} subtitle={<>{renderGlossaryLinkedText(event.meta.longTermLegacy, locale as Locale)}{renderInlineCitations(event.meta.longTermLegacySourceIds, resourceById)}{renderEvidenceBadge(event.meta.longTermLegacyEvidenceLevel)}</>} />
+          </section>
+        </AnimatedContainer>
+      ) : null}
 
       <AnimatedContainer delay={0.3}>
         <EventNavigation locale={locale as Locale} previous={previous} next={next} />

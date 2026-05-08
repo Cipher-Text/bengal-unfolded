@@ -35,5 +35,11 @@
   "periodId": "transition-to-sultanate-formation",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+  "longTermLegacySourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

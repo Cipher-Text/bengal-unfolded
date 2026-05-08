@@ -46,5 +46,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+  "longTermLegacySourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "bangladesh-awami-league-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

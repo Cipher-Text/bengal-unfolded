@@ -28,5 +28,10 @@
   "periodId": "ancient-and-pre-sultanate-bengal",
   "showOnLanding": false,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি পাল ও সেন যুগের আগে বাংলা-কেন্দ্রিক সার্বভৌম রাষ্ট্রধারার একটি দৃশ্যমান প্রাথমিক নজির তুলে ধরে।",
+  "longTermLegacySourceIds": [
+    "shashanka-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

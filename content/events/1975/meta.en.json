@@ -62,5 +62,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
-  "movementId": "state-power-and-democratic-transition"
+  "movementId": "state-power-and-democratic-transition",
+  "longTermLegacy": "The crises of 1975 remain central to understanding Bangladesh's later constitutional shifts, military interventions, and contested memory of legitimacy and democracy.",
+  "longTermLegacySourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

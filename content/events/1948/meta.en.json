@@ -47,5 +47,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "The 1948 phase matters because it established the organizational networks, protest language, and rights-based constitutional framing that shaped the historic trajectory of 1952 and beyond.",
+  "longTermLegacySourceIds": [
+    "language-movement-banglapedia",
+    "language-movement-in-east-bengal"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

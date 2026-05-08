@@ -44,5 +44,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "contemporary-memory-and-civic-protest",
-  "movementId": "memory-justice-and-civic-dissent"
+  "movementId": "memory-justice-and-civic-dissent",
+  "longTermLegacy": "২০১৮-র এই ক্লাস্টার গুরুত্বপূর্ণ, কারণ এটি ২০২৪-এর আগে বাংলাদেশের রাজনৈতিক মানসিকতা বুঝতে সাহায্য করে। এটি শিক্ষার্থী অসন্তোষ, জননিরাপত্তা ও মেধাভিত্তিক ন্যায্যতার প্রশ্ন, ডিজিটাল নিয়ন্ত্রণের কড়াকড়ি এবং নির্বাচনী আস্থার সংকটকে এক বড় কাহিনিতে যুক্ত করে।",
+  "longTermLegacySourceIds": [
+    "creating-panic-hrw",
+    "digital-security-act-amnesty"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

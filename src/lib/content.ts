@@ -770,6 +770,26 @@ export async function getEventsByFigureId(
   return matches.filter((event): event is EventMeta => event !== null);
 }
 
+export async function getEventsByFigureIdChronological(
+  locale: string,
+  figureId: string,
+): Promise<EventMeta[]> {
+  assertSupportedLocale(locale);
+  assertSupportedFigureId(figureId);
+
+  const [events, chronologicalSlugs] = await Promise.all([
+    getEventsByFigureId(locale, figureId),
+    getChronologicalEventSlugs(locale),
+  ]);
+
+  const rank = new Map(chronologicalSlugs.map((slug, index) => [slug, index]));
+  return [...events].sort(
+    (a, b) =>
+      (rank.get(a.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER) -
+      (rank.get(b.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER),
+  );
+}
+
 export async function getEventsByBookId(
   locale: string,
   bookId: string,

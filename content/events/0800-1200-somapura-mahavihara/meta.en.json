@@ -29,5 +29,10 @@
   "periodId": "ancient-and-pre-sultanate-bengal",
   "showOnLanding": false,
   "summaryEvidenceLevel": "high",
-  "whyItMattersEvidenceLevel": "high"
+  "whyItMattersEvidenceLevel": "high",
+  "longTermLegacy": "This event matters because it provides durable architectural evidence of Bengal's institutional role in Buddhist scholarship and cultural exchange.",
+  "longTermLegacySourceIds": [
+    "somapura-mahavira-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "high"
 }

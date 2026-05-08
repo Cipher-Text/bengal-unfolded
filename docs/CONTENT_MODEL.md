@@ -102,6 +102,9 @@ Image rendering policy:
 - `EventMeta.sensitive?` (optional boolean): marks chapters that require sensitive-history caution UI treatment
 - `EventMeta.contentWarnings?` (optional `string[]`): localized warning labels displayed on sensitive chapters
 - `EventMeta.requiresSources?` (optional boolean): when `true`, event summary and why-it-matters claims must include source IDs
+- `EventMeta.longTermLegacy?` (optional string; required for `importance: major`): long-horizon consequence narrative
+- `EventMeta.longTermLegacySourceIds?` (optional `string[]`): citations for long-term legacy narrative
+- `EventMeta.longTermLegacyEvidenceLevel?` (optional `high | medium | low`): evidence strength for long-term legacy narrative
 - `EventMeta.parentEvent?` (optional): parent cluster anchor event slug
 - `EventMeta.childEventIds?` (optional): ordered child chapter slugs for cluster discovery
 - `EventMeta.relatedEvents?` (optional): ordered typed historical relationships with `{ eventId, relationType }`

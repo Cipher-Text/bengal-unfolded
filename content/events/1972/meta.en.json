@@ -51,5 +51,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
-  "movementId": "state-power-and-democratic-transition"
+  "movementId": "state-power-and-democratic-transition",
+  "longTermLegacy": "The events of 1972 matter because they established the first constitutional shape of Bangladesh after independence. This year explains how the ideals of the Liberation War were translated into institutions, rights, and parliamentary rule, and why later constitutional ruptures are judged against that original framework.",
+  "longTermLegacySourceIds": [
+    "constitution-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

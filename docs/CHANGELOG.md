@@ -4,6 +4,25 @@
 
 ### Completed
 
+- RM-REL-011 long-term legacy fields for major events rollout:
+  - Model: Added `longTermLegacy`, `longTermLegacySourceIds`, and `longTermLegacyEvidenceLevel` to `EventMeta` in `src/types/content.ts`.
+  - Validation:
+    - Added `longTermLegacy` shape checks.
+    - Added `longTermLegacySourceIds -> longTermLegacyEvidenceLevel` requirement.
+    - Added `importance=major` requirement for non-empty `longTermLegacy`.
+    - Added source ID integrity checks for event-level citation arrays (`summarySourceIds`, `whyItMattersSourceIds`, `longTermLegacySourceIds`) against event `resource-ids.json` and global resource set.
+  - UI/runtime: Added a dedicated localized `Long-Term Legacy` section on event detail pages with glossary-linked text, inline citations, and evidence badge, plus jump-nav anchor.
+  - Backfill: Populated long-term legacy fields for all `importance=major` chapters in both locales (31 event chapters), reusing existing why-it-matters source/evidence metadata where needed.
+  - Docs: Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and roadmap checkbox state.
+
+- RM-REL-008 figure-to-event timeline view rollout:
+  - Model: No schema/type additions required; existing figure-event relationship model already supported this view.
+  - Validation: No validator rule changes required; existing relationship and event integrity checks remain sufficient.
+  - UI/runtime:
+    - Added `getEventsByFigureIdChronological(locale, figureId)` in `src/lib/content.ts` to return figure-linked events in global chronology order.
+    - Updated `/{locale}/figures/{id}` page to render a timeline-style vertical sequence for related events instead of a flat card list.
+  - Backfill: No content backfill required.
+
 - RM-006E sensitive-event metadata rollout:
   - Model: Added `sensitive?: boolean`, `contentWarnings?: string[]`, and `requiresSources?: boolean` to `EventMeta` in `src/types/content.ts`.
   - Validation: Extended `scripts/validate-content.mjs` with type checks for all three fields, `contentWarnings` entry validation, and `requiresSources=true` enforcement for non-empty `summarySourceIds` and `whyItMattersSourceIds`.

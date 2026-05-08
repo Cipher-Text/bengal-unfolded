@@ -35,5 +35,11 @@
   "periodId": "transition-to-sultanate-formation",
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে পশ্চিম বাংলায় সেন-আধিপত্যের পতন ঘটে এবং সামরিক, রাজনৈতিক ও প্রশাসনিক ক্ষমতার দীর্ঘস্থায়ী পুনর্গঠনের সূচনা হয়, যা পরে সুলতানি আমলের রাষ্ট্রগঠনের ভিত্তি তৈরি করে।",
+  "longTermLegacySourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

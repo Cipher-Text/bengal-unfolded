@@ -51,5 +51,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "১৯৪৯ সালের এই প্রতিষ্ঠা গুরুত্বপূর্ণ, কারণ এটি ভাষা-আন্দোলন, আঞ্চলিক প্রতিনিধিত্ব ও গণতান্ত্রিক দাবিকে দীর্ঘমেয়াদি দলীয় কাঠামোয় যুক্ত করে।",
+  "longTermLegacySourceIds": [
+    "bangladesh-awami-league-banglapedia",
+    "research-volume"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

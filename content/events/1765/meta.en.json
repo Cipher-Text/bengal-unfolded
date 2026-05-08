@@ -52,5 +52,12 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",
-  "movementId": "colonial-capture-and-resistance"
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+  "longTermLegacySourceIds": [
+    "diwani-banglapedia",
+    "robert-clive-britannica",
+    "east-india-company-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

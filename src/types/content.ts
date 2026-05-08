@@ -449,6 +449,9 @@ export type EventMeta = {
   whyItMatters: string;
   whyItMattersSourceIds?: string[];
   whyItMattersEvidenceLevel?: EvidenceLevel;
+  longTermLegacy?: string;
+  longTermLegacySourceIds?: string[];
+  longTermLegacyEvidenceLevel?: EvidenceLevel;
   importance: EventImportance;
   parentEvent?: EventSlug;
   childEventIds?: EventSlug[];

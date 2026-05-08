@@ -29,5 +29,11 @@
   "periodId": "ancient-and-pre-sultanate-bengal",
   "showOnLanding": false,
   "summaryEvidenceLevel": "high",
-  "whyItMattersEvidenceLevel": "medium"
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "This event matters because it is the direct bridge between pre-conquest political culture and the restructured order that followed the Nadia capture.",
+  "longTermLegacySourceIds": [
+    "sena-dynasty-britannica",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

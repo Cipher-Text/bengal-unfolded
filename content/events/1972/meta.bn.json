@@ -51,5 +51,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
-  "movementId": "state-power-and-democratic-transition"
+  "movementId": "state-power-and-democratic-transition",
+  "longTermLegacy": "১৯৭২ সালের ঘটনাগুলো গুরুত্বপূর্ণ, কারণ এখানেই স্বাধীনতার পর বাংলাদেশের প্রথম সাংবিধানিক কাঠামো স্থাপিত হয়। এই বছর দেখায় কীভাবে মুক্তিযুদ্ধের আদর্শকে প্রতিষ্ঠান, অধিকার এবং সংসদীয় শাসনে অনুবাদ করা হয়েছিল, এবং কেন পরবর্তী সাংবিধানিক ভাঙনগুলোকে সেই মূল কাঠামোর আলোকে বিচার করা হয়।",
+  "longTermLegacySourceIds": [
+    "constitution-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

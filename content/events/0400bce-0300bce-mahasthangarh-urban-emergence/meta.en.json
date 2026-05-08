@@ -28,5 +28,10 @@
   "periodId": "ancient-and-pre-sultanate-bengal",
   "showOnLanding": false,
   "summaryEvidenceLevel": "high",
-  "whyItMattersEvidenceLevel": "high"
+  "whyItMattersEvidenceLevel": "high",
+  "longTermLegacy": "This chapter matters because it grounds Bengal's early history in material archaeology and shows long-term institutional continuity before later dynastic phases.",
+  "longTermLegacySourceIds": [
+    "mahasthangarh-unesco"
+  ],
+  "longTermLegacyEvidenceLevel": "high"
 }
