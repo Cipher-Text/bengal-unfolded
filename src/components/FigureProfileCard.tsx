@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { inferFigureEntityType, type FigureEntityType } from "@/lib/figures";
 import type { Figure, Locale } from "@/types/content";
 
 const GROUP_LABELS: Record<Locale, Record<Figure["group"], string>> = {
@@ -18,8 +19,6 @@ const GROUP_LABELS: Record<Locale, Record<Figure["group"], string>> = {
   },
 };
 
-type FigureEntityType = "person" | "party" | "organization";
-
 const ENTITY_LABELS: Record<Locale, Record<FigureEntityType, string>> = {
   en: {
     person: "Person",
@@ -33,31 +32,8 @@ const ENTITY_LABELS: Record<Locale, Record<FigureEntityType, string>> = {
   },
 };
 
-function inferEntityType(figure: Figure): FigureEntityType {
-  const name = figure.name.toLowerCase();
-  const role = figure.role.toLowerCase();
-  const tags = (figure.tags ?? []).join(" ").toLowerCase();
-  const text = `${name} ${role} ${tags}`;
-
-  if (
-    text.includes("party") ||
-    text.includes("alliance") ||
-    text.includes("league") ||
-    text.includes("দল") ||
-    text.includes("জোট")
-  ) {
-    return "party";
-  }
-
-  if (figure.group === "organization" || figure.group === "collective") {
-    return "organization";
-  }
-
-  return "person";
-}
-
 export function FigureProfileCard({ figure, locale, featured = false }: { figure: Figure; locale: Locale; featured?: boolean }) {
-  const entityType = inferEntityType(figure);
+  const entityType = inferFigureEntityType(figure);
 
   return (
     <article className={`rounded-2xl border p-5 ${featured ? "border-amber-500/40 bg-amber-500/10" : "theme-surface theme-border"}`}>
