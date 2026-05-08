@@ -1,0 +1,41 @@
+[
+  {
+    "year": "January 11, 2007",
+    "title": "Emergency declared under caretaker framework",
+    "detail": "Political confrontation and election deadlock culminated in emergency rule and a reconfigured caretaker administration.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "military-rule-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2007",
+    "title": "Political detentions and anti-corruption drives expand",
+    "detail": "Major political leaders and activists faced detention while the interim regime pursued large-scale legal and administrative interventions.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "December 2008",
+    "title": "General election restores elected government",
+    "detail": "Parliamentary elections ended the emergency-era caretaker phase and reopened regular party-based governance.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "slug": "2007-2008",
+  "year": "2007-2008",
+  "title": "Emergency-era Caretaker Rule",
+  "subtitle": "A military-backed caretaker phase reset electoral politics while constraining democratic space.",
+  "summary": "After the 11 January 2007 emergency, Bangladesh entered a prolonged caretaker-governed period backed by security institutions. Anti-corruption drives, political detentions, and administrative restructuring took place under a non-elected framework before the December 2008 election restored elected government. The period remains one of the most contested transitions in contemporary Bangladeshi politics.",
+  "themeColor": "#3f5c6f",
+  "ctaLabel": "Explore 2007-2008",
+  "heroTagline": "Emergency governance reorganized political power, but left lasting disputes over legitimacy and rights.",
+  "summarySourceIds": [
+    "caretaker-government-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMatters": "The 2007-2008 period is crucial for understanding civil-military boundaries, electoral trust, and how emergency powers reshape democratic institutions.",
+  "whyItMattersSourceIds": [
+    "caretaker-government-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "whyItMattersEvidenceLevel": "medium",
+  "importance": "high",
+  "parentEvent": "2006",
+  "childEventIds": [
+    "2009"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "2006",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2009",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2014",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2006",
+    "2009",
+    "2014"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "sensitive": true,
+  "contentWarnings": [
+    "mass detention",
+    "political repression"
+  ],
+  "requiresSources": true,
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "After the 11 January 2007 emergency, Bangladesh entered a prolonged caretaker-governed period backed by security institutions. Anti-corruption drives, political detentions, and administrative restructuring took place under a non-elected framework before the December 2008 election restored elected government. The period remains one of the most contested transitions in contemporary Bangladeshi politics.",
+      "sourceIds": [
+        "caretaker-government-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 2007-2008 period is crucial for understanding civil-military boundaries, electoral trust, and how emergency powers reshape democratic institutions.",
+      "sourceIds": [
+        "caretaker-government-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

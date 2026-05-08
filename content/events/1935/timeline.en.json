@@ -1,0 +1,26 @@
+[
+  {
+    "year": "1935",
+    "title": "Act enacted with expanded provincial constitutional framework",
+    "detail": "The new law reconfigured legislative powers and provincial governance, redefining how political authority could be contested in Bengal.",
+    "sourceIds": ["government-of-india-act-1935-britannica", "constitutional-development-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  },
+  {
+    "year": "1935-1936",
+    "title": "Party strategy and coalition calculations shift",
+    "detail": "Political blocs adjusted organization, candidate strategy, and bargaining positions under the new constitutional rules.",
+    "sourceIds": ["partition-politics-banglapedia", "government-of-india-act-1935-britannica"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  },
+  {
+    "year": "Aftermath",
+    "title": "Framework leads into the 1937 Bengal election",
+    "detail": "The Act's provisions shaped the institutional conditions of Bengal's first major provincial election under expanded autonomy.",
+    "sourceIds": ["bengal-provincial-election-1937-banglapedia", "constitutional-development-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  }
+]

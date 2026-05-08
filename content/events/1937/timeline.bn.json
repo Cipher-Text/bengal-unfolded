@@ -1,0 +1,26 @@
+[
+  {
+    "year": "১৯৩৬-১৯৩৭",
+    "title": "নতুন সাংবিধানিক নিয়মে প্রাদেশিক নির্বাচনী প্রচার",
+    "detail": "পুনর্গঠিত নির্বাচনী কাঠামোয় দল ও সামাজিক শক্তিগুলো ভাড়াটিয়া-কৃষক প্রশ্ন, প্রতিনিধিত্ব ও প্রাদেশিক ক্ষমতা ঘিরে সংগঠিত হয়।",
+    "sourceIds": ["government-of-india-act-1935-britannica", "bengal-provincial-election-1937-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  },
+  {
+    "year": "১৯৩৭",
+    "title": "খণ্ডিত নির্বাচনী ফল জোটভিত্তিক দরকষাকষি বাধ্যতামূলক করে",
+    "detail": "কোনো একক শক্তি পূর্ণ নিয়ন্ত্রণ না পাওয়ায় বাংলায় সরকার গঠনে আলোচনানির্ভর জোট-রাজনীতি প্রধান হয়ে ওঠে।",
+    "sourceIds": ["bengal-provincial-election-1937-banglapedia", "partition-politics-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  },
+  {
+    "year": "পরবর্তী প্রভাব",
+    "title": "জোট-যুগের টানাপোড়েন পরবর্তী সাংবিধানিক পুনর্বিন্যাসে প্রভাব ফেলে",
+    "detail": "প্রাদেশিক জোটশাসনের সীমাবদ্ধতা এমন রাজনৈতিক অবস্থান তৈরি করে যা ১৯৪০-এর লাহোর প্রস্তাব ও পরবর্তী সময়কে প্রভাবিত করে।",
+    "sourceIds": ["bengal-provincial-election-1937-banglapedia", "lahore-resolution-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  }
+]

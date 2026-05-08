@@ -1,0 +1,26 @@
+[
+  {
+    "year": "১৯৩৫",
+    "title": "প্রাদেশিক সাংবিধানিক কাঠামো সম্প্রসারণসহ আইন প্রণয়ন",
+    "detail": "নতুন আইন আইনসভা ক্ষমতা ও প্রাদেশিক শাসনকাঠামো পুনর্গঠন করে, ফলে বাংলায় রাজনৈতিক কর্তৃত্বের প্রতিদ্বন্দ্বিতার নিয়ম পাল্টে যায়।",
+    "sourceIds": ["government-of-india-act-1935-britannica", "constitutional-development-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  },
+  {
+    "year": "১৯৩৫-১৯৩৬",
+    "title": "দলীয় কৌশল ও জোট-সমীকরণ পুনর্বিন্যাস",
+    "detail": "নতুন সাংবিধানিক বিধানের অধীনে রাজনৈতিক জোটগুলো সংগঠন, প্রার্থী নির্বাচন ও দরকষাকষির অবস্থান পুনর্নির্ধারণ করে।",
+    "sourceIds": ["partition-politics-banglapedia", "government-of-india-act-1935-britannica"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  },
+  {
+    "year": "পরবর্তী ধাপ",
+    "title": "১৯৩৭ সালের বঙ্গীয় নির্বাচনকে কাঠামোগতভাবে প্রস্তুত করে",
+    "detail": "এই আইনের বিধানগুলো প্রাদেশিক স্বায়ত্তশাসন-পর্বের প্রথম বড় নির্বাচনের প্রাতিষ্ঠানিক ভিত্তি তৈরি করে।",
+    "sourceIds": ["bengal-provincial-election-1937-banglapedia", "constitutional-development-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  }
+]

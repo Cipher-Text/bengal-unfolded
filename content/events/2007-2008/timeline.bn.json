@@ -1,0 +1,41 @@
+[
+  {
+    "year": "১১ জানুয়ারি ২০০৭",
+    "title": "তত্ত্বাবধায়ক কাঠামোর মধ্যে জরুরি অবস্থা ঘোষণা",
+    "detail": "নির্বাচনী অচলাবস্থা ও রাজনৈতিক মুখোমুখি অবস্থান জরুরি শাসন এবং পুনর্গঠিত তত্ত্বাবধায়ক প্রশাসনের দিকে নিয়ে যায়।",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "military-rule-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "২০০৭",
+    "title": "রাজনৈতিক আটক ও দুর্নীতিবিরোধী অভিযান বিস্তৃত হয়",
+    "detail": "অন্তর্বর্তী শাসনামলে প্রধান রাজনৈতিক নেতা-কর্মীদের আটক এবং বড় পরিসরের আইনি-প্রশাসনিক পদক্ষেপ গ্রহণ করা হয়।",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "ডিসেম্বর ২০০৮",
+    "title": "সাধারণ নির্বাচনের মাধ্যমে নির্বাচিত সরকারে প্রত্যাবর্তন",
+    "detail": "সংসদীয় নির্বাচন জরুরি-আমলের তত্ত্বাবধায়ক পর্যায়ের ইতি টেনে নিয়মিত দলভিত্তিক শাসনে ফেরার পথ খুলে দেয়।",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "year": "১৭৬৩-১৭৬৪",
+    "title": "কোম্পানি-নবাব দ্বন্দ্ব থেকে বড় আঞ্চলিক সংঘাতে বিস্তার",
+    "detail": "কোম্পানি ও মীর কাসিমের বিরোধ ভেঙে পড়ে আউধ ও মুঘল সম্রাট-সম্পৃক্ত বৃহত্তর আঞ্চলিক সংঘাতে রূপ নেয়।",
+    "sourceIds": ["east-india-company-britannica", "battle-of-buxar-britannica"],
+    "evidenceLevel": "medium",
+    "themes": ["war"]
+  },
+  {
+    "year": "অক্টোবর ১৭৬৪",
+    "title": "বক্সারের যুদ্ধ",
+    "detail": "কোম্পানি বাহিনী সম্মিলিত জোটবাহিনীকে পরাজিত করে উত্তর ও পূর্ব ভারতে সামরিক প্রাধান্য সুদৃঢ় করে।",
+    "sourceIds": ["battle-of-buxar-britannica", "diwani-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["war"]
+  },
+  {
+    "year": "পরবর্তী ফল",
+    "title": "রাজস্ব-সাংবিধানিক নিয়ন্ত্রণের পথ তৈরি",
+    "detail": "সামরিক ফলাফল এমন এক দরকষাকষির পথ খুলে দেয়, যা শেষ পর্যন্ত বাংলায় কোম্পানির রাজস্ব-অধিকারে পৌঁছায়।",
+    "sourceIds": ["diwani-banglapedia", "east-india-company-britannica"],
+    "evidenceLevel": "medium",
+    "themes": ["economy"]
+  }
+]

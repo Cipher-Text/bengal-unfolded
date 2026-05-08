@@ -1,0 +1,26 @@
+[
+  {
+    "year": "1763-1764",
+    "title": "Escalation after Company-Nawabi conflict",
+    "detail": "The breakdown between the Company and Mir Qasim widened into a larger regional conflict involving Awadh and the Mughal emperor.",
+    "sourceIds": ["east-india-company-britannica", "battle-of-buxar-britannica"],
+    "evidenceLevel": "medium",
+    "themes": ["war"]
+  },
+  {
+    "year": "October 1764",
+    "title": "Battle of Buxar",
+    "detail": "Company forces defeated the allied army, establishing superior military leverage in north and eastern India.",
+    "sourceIds": ["battle-of-buxar-britannica", "diwani-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["war"]
+  },
+  {
+    "year": "Aftermath",
+    "title": "Path opened to fiscal-constitutional control",
+    "detail": "The military outcome enabled negotiations and arrangements that culminated in Company revenue rights in Bengal.",
+    "sourceIds": ["diwani-banglapedia", "east-india-company-britannica"],
+    "evidenceLevel": "medium",
+    "themes": ["economy"]
+  }
+]

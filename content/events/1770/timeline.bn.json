@@ -1,0 +1,41 @@
+[
+  {
+    "year": "১৭৬৫-১৭৬৯",
+    "title": "কোম্পানির রাজস্ব-নিয়ন্ত্রণের পরে চাপ বেড়ে যায়",
+    "detail": "কোম্পানির আর্থিক কর্তৃত্ব বিস্তারের পর কৃষি-সংকটের লক্ষণ থাকা সত্ত্বেও বিভিন্ন জেলায় রাজস্ব আদায়ের চাপ উচ্চমাত্রায় থাকে।",
+    "sourceIds": [
+      "diwani-banglapedia",
+      "east-india-company-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "১৭৭০",
+    "title": "দুর্ভিক্ষজনিত গণমৃত্যু বাংলাজুড়ে ছড়িয়ে পড়ে",
+    "detail": "খাদ্যসংকট দ্রুত গণবিপর্যয়ে রূপ নেয়; কৃষক, শ্রমজীবী এবং শহুরে দরিদ্র জনগোষ্ঠী ভয়াবহভাবে আক্রান্ত হয়।",
+    "sourceIds": [
+      "great-bengal-famine-1770-britannica",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "পরবর্তী প্রভাব",
+    "title": "দীর্ঘমেয়াদি কৃষি ও জনসংখ্যাগত বিপর্যয়",
+    "detail": "দুর্ভিক্ষ গ্রামীণ উৎপাদন ও সামাজিক স্থিতি দুর্বল করে, একই সাথে বাংলায় নির্যাসমুখী ঔপনিবেশিক শাসনের সমালোচনা জোরদার করে।",
+    "sourceIds": [
+      "great-bengal-famine-1770-britannica",
+      "east-india-company-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

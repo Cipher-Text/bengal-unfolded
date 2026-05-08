@@ -1,0 +1,80 @@
+{
+  "slug": "2007-2008",
+  "year": "২০০৭-২০০৮",
+  "title": "জরুরি আমলের তত্ত্বাবধায়ক শাসন",
+  "subtitle": "সামরিক সমর্থিত তত্ত্বাবধায়ক পর্যায় নির্বাচনী রাজনীতিকে পুনর্গঠন করলেও গণতান্ত্রিক পরিসর সংকুচিত করে।",
+  "summary": "২০০৭ সালের ১১ জানুয়ারির জরুরি ঘোষণার পর বাংলাদেশ দীর্ঘ তত্ত্বাবধায়ক শাসনপর্বে প্রবেশ করে, যা নিরাপত্তা প্রতিষ্ঠানের সক্রিয় সমর্থনে পরিচালিত হয়। দুর্নীতিবিরোধী অভিযান, রাজনৈতিক আটক এবং প্রশাসনিক পুনর্বিন্যাস একটি অনির্বাচিত কাঠামোর মধ্যে চলতে থাকে; পরে ২০০৮ সালের ডিসেম্বরের নির্বাচনের মাধ্যমে নির্বাচিত সরকারে প্রত্যাবর্তন ঘটে। সমসাময়িক বাংলাদেশের সবচেয়ে বিতর্কিত রূপান্তরগুলোর একটি হিসেবে এই সময়কাল এখনও আলোচিত।",
+  "themeColor": "#3f5c6f",
+  "ctaLabel": "২০০৭-২০০৮ অধ্যায় দেখুন",
+  "heroTagline": "জরুরি শাসন ক্ষমতার কাঠামো পাল্টায়, কিন্তু বৈধতা ও অধিকার নিয়ে দীর্ঘ বিতর্ক রেখে যায়।",
+  "summarySourceIds": [
+    "caretaker-government-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMatters": "২০০৭-২০০৮ সময়কাল বোঝা জরুরি, কারণ এটি বেসামরিক-সামরিক সীমা, নির্বাচনী আস্থা এবং জরুরি ক্ষমতা কীভাবে গণতান্ত্রিক প্রতিষ্ঠান বদলে দেয় তা ব্যাখ্যা করে।",
+  "whyItMattersSourceIds": [
+    "caretaker-government-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "whyItMattersEvidenceLevel": "medium",
+  "importance": "high",
+  "parentEvent": "2006",
+  "childEventIds": [
+    "2009"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "2006",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2009",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2014",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2006",
+    "2009",
+    "2014"
+  ],
+  "periodLabel": "স্বাধীনতা-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "sensitive": true,
+  "contentWarnings": [
+    "গণগ্রেপ্তার",
+    "রাজনৈতিক দমন"
+  ],
+  "requiresSources": true,
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০০৭ সালের ১১ জানুয়ারির জরুরি ঘোষণার পর বাংলাদেশ দীর্ঘ তত্ত্বাবধায়ক শাসনপর্বে প্রবেশ করে, যা নিরাপত্তা প্রতিষ্ঠানের সক্রিয় সমর্থনে পরিচালিত হয়। দুর্নীতিবিরোধী অভিযান, রাজনৈতিক আটক এবং প্রশাসনিক পুনর্বিন্যাস একটি অনির্বাচিত কাঠামোর মধ্যে চলতে থাকে; পরে ২০০৮ সালের ডিসেম্বরের নির্বাচনের মাধ্যমে নির্বাচিত সরকারে প্রত্যাবর্তন ঘটে। সমসাময়িক বাংলাদেশের সবচেয়ে বিতর্কিত রূপান্তরগুলোর একটি হিসেবে এই সময়কাল এখনও আলোচিত।",
+      "sourceIds": [
+        "caretaker-government-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "২০০৭-২০০৮ সময়কাল বোঝা জরুরি, কারণ এটি বেসামরিক-সামরিক সীমা, নির্বাচনী আস্থা এবং জরুরি ক্ষমতা কীভাবে গণতান্ত্রিক প্রতিষ্ঠান বদলে দেয় তা ব্যাখ্যা করে।",
+      "sourceIds": [
+        "caretaker-government-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

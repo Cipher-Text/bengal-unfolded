@@ -1,0 +1,41 @@
+[
+  {
+    "year": "1765-1769",
+    "title": "Revenue pressures harden after Company fiscal control",
+    "detail": "Following expanded Company authority, land revenue demands remained severe despite growing signs of agrarian stress in Bengal districts.",
+    "sourceIds": [
+      "diwani-banglapedia",
+      "east-india-company-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "1770",
+    "title": "Famine mortality spreads across Bengal",
+    "detail": "Food scarcity escalated into mass death affecting cultivators, laborers, and urban poor populations across large parts of Bengal.",
+    "sourceIds": [
+      "great-bengal-famine-1770-britannica",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "Aftermath",
+    "title": "Long-term agrarian and demographic disruption",
+    "detail": "The famine weakened rural production and social stability, while deepening criticism of extractive colonial governance in Bengal.",
+    "sourceIds": [
+      "great-bengal-famine-1770-britannica",
+      "east-india-company-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

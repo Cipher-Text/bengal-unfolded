@@ -1,0 +1,26 @@
+[
+  {
+    "year": "1936-1937",
+    "title": "Provincial campaign under new constitutional rules",
+    "detail": "Parties and social blocs mobilized around tenancy, representation, and provincial authority in a redesigned electoral field.",
+    "sourceIds": ["government-of-india-act-1935-britannica", "bengal-provincial-election-1937-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  },
+  {
+    "year": "1937",
+    "title": "Fragmented election results require coalition bargaining",
+    "detail": "No single bloc consolidated full control, forcing negotiated coalition politics to form government in Bengal.",
+    "sourceIds": ["bengal-provincial-election-1937-banglapedia", "partition-politics-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  },
+  {
+    "year": "Aftermath",
+    "title": "Coalition-era tensions feed later constitutional realignments",
+    "detail": "The limits of provincial coalition governance shaped political positions that became central by the 1940 Lahore Resolution and beyond.",
+    "sourceIds": ["bengal-provincial-election-1937-banglapedia", "lahore-resolution-banglapedia"],
+    "evidenceLevel": "medium",
+    "themes": ["democracy"]
+  }
+]
