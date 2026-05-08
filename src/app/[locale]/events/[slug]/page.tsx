@@ -58,6 +58,7 @@ const EVENT_LABELS = {
     identityMemory: "Identity and Memory Notes",
     whyItMattersSources: "Why It Matters Sources",
     evidence: "Evidence",
+    claimCitations: "Claim-level citations",
     high: "High",
     medium: "Medium",
     low: "Low",
@@ -103,6 +104,7 @@ const EVENT_LABELS = {
     identityMemory: "পরিচয় ও স্মৃতি নোট",
     whyItMattersSources: "গুরুত্ব ব্যাখ্যার সূত্র",
     evidence: "প্রমাণের শক্তি",
+    claimCitations: "দাবি-স্তরের সূত্রায়ন",
     high: "উচ্চ",
     medium: "মাঝারি",
     low: "নিম্ন",
@@ -272,6 +274,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           <a href="#resources" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.resourcesTitle}</a>
           {faqEntries.length > 0 ? <a href="#faq" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.faq}</a> : null}
           {quoteEntries.length > 0 ? <a href="#quotes" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
+          {event.meta.claimCitations?.length ? <a href="#claim-citations" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.claimCitations}</a> : null}
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
           {event.meta.longTermLegacy ? <a href="#long-term-legacy" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.legacyNarrative}</a> : null}
           {event.meta.culturalImpact ? <a href="#cultural-impact" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.culturalImpact}</a> : null}
@@ -464,6 +467,25 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           <div className="mt-4 grid gap-3">
             {quoteEntries.map((quote) => (
               <QuoteBlock key={quote.text} quote={quote} />
+            ))}
+          </div>
+          </section>
+        </AnimatedContainer>
+      ) : null}
+
+      {event.meta.claimCitations?.length ? (
+        <AnimatedContainer delay={0.23}>
+          <section id="claim-citations" className="scroll-mt-24">
+          <SectionTitle title={labels.claimCitations} />
+          <div className="mt-4 grid gap-3">
+            {event.meta.claimCitations.map((claimCitation) => (
+              <div key={claimCitation.id} className="theme-surface rounded-xl border p-4">
+                <p className="text-sm leading-relaxed">{renderGlossaryLinkedText(claimCitation.claim, locale as Locale)}</p>
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  {renderInlineCitations(claimCitation.sourceIds, resourceById)}
+                  {renderEvidenceBadge(claimCitation.evidenceLevel)}
+                </div>
+              </div>
             ))}
           </div>
           </section>

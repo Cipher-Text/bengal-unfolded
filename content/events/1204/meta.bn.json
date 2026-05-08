@@ -49,5 +49,47 @@
     "bakhtiyar-khalji-banglapedia",
     "bakhtiyar-khalji-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "ইখতিয়ার উদ্দিন মুহাম্মদ বখতিয়ার খলজির নদীয়া দখল (সাধারণভাবে ১২০৪-১২০৫ হিসেবে ধরা হয়) বাংলার রাজনৈতিক ইতিহাসে এক বড় মোড়। সেন শাসনের রাজধানীকেন্দ্র ভেঙে পড়া এবং পরে গৌড়/লখনৌতিমুখী ক্ষমতা পুনর্বিন্যাসের মাধ্যমে বাংলায় নতুন তুর্কি-নেতৃত্বাধীন রাষ্ট্রগঠনের ধাপ শুরু হয়।",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "sena-dynasty-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে পশ্চিম বাংলায় সেন-আধিপত্যের পতন ঘটে এবং সামরিক, রাজনৈতিক ও প্রশাসনিক ক্ষমতার দীর্ঘস্থায়ী পুনর্গঠনের সূচনা হয়, যা পরে সুলতানি আমলের রাষ্ট্রগঠনের ভিত্তি তৈরি করে।",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে পশ্চিম বাংলায় সেন-আধিপত্যের পতন ঘটে এবং সামরিক, রাজনৈতিক ও প্রশাসনিক ক্ষমতার দীর্ঘস্থায়ী পুনর্গঠনের সূচনা হয়, যা পরে সুলতানি আমলের রাষ্ট্রগঠনের ভিত্তি তৈরি করে।",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে পশ্চিম বাংলায় সেন-আধিপত্যের পতন ঘটে এবং সামরিক, রাজনৈতিক ও প্রশাসনিক ক্ষমতার দীর্ঘস্থায়ী পুনর্গঠনের সূচনা হয়, যা পরে সুলতানি আমলের রাষ্ট্রগঠনের ভিত্তি তৈরি করে।",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

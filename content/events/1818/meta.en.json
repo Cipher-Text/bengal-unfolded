@@ -57,5 +57,47 @@
     "faraizi-movement-banglapedia",
     "haji-shariatullah-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "From 1818, Haji Shariatullah's Faraizi movement spread across parts of eastern Bengal as a religious reform movement that also intersected with agrarian grievances under colonial and zamindari structures. It promoted Islamic obligations and social discipline while building organized rural networks among Muslim peasants.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "faraizi-movement-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

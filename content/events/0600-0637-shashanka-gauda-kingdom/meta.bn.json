@@ -40,5 +40,43 @@
   "identityMemorySourceIds": [
     "shashanka-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "সপ্তম শতকের শুরুর দিকে গৌড়ের রাজা শশাঙ্ক গঙ্গা উপত্যকার উল্লেখযোগ্য অংশে প্রভাব বিস্তার করেন এবং বাংলা-কেন্দ্রিক প্রাথমিক সার্বভৌম রাজনৈতিক গঠনের একটি গুরুত্বপূর্ণ উদাহরণ তৈরি করেন।",
+      "sourceIds": [
+        "shashanka-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি পাল ও সেন যুগের আগে বাংলা-কেন্দ্রিক সার্বভৌম রাষ্ট্রধারার একটি দৃশ্যমান প্রাথমিক নজির তুলে ধরে।",
+      "sourceIds": [
+        "shashanka-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি পাল ও সেন যুগের আগে বাংলা-কেন্দ্রিক সার্বভৌম রাষ্ট্রধারার একটি দৃশ্যমান প্রাথমিক নজির তুলে ধরে।",
+      "sourceIds": [
+        "shashanka-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি পাল ও সেন যুগের আগে বাংলা-কেন্দ্রিক সার্বভৌম রাষ্ট্রধারার একটি দৃশ্যমান প্রাথমিক নজির তুলে ধরে।",
+      "sourceIds": [
+        "shashanka-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

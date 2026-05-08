@@ -76,5 +76,47 @@
     "the-blood-telegram",
     "bangladesh-under-mujib-zia-and-ershad"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1975, Bangladesh entered a decisive turning point: the transition toward BAKSAL, escalating political centralization, the assassination of Sheikh Mujibur Rahman on 15 August, and the jail killings of 3 November. These events reshaped the state, party politics, and military-civil relations for decades.",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The crises of 1975 remain central to understanding Bangladesh's later constitutional shifts, military interventions, and contested memory of legitimacy and democracy.",
+      "sourceIds": [
+        "the-blood-telegram",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The crises of 1975 remain central to understanding Bangladesh's later constitutional shifts, military interventions, and contested memory of legitimacy and democracy.",
+      "sourceIds": [
+        "the-blood-telegram",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The crises of 1975 remain central to understanding Bangladesh's later constitutional shifts, military interventions, and contested memory of legitimacy and democracy.",
+      "sourceIds": [
+        "the-blood-telegram",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

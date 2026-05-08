@@ -86,5 +86,47 @@
     "the-blood-telegram",
     "1971-a-global-history-of-the-creation-of-bangladesh"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের মুক্তিযুদ্ধ ছিল পূর্ব পাকিস্তানের মানুষের দীর্ঘদিনের রাজনৈতিক, অর্থনৈতিক ও সাংস্কৃতিক বৈষম্যের বিরুদ্ধে চূড়ান্ত প্রতিরোধ। ১৯৭০ সালের নির্বাচনে জনগণের রায় অস্বীকার এবং ২৫ মার্চের সামরিক অভিযানের পর এই সংগ্রাম সশস্ত্র মুক্তিযুদ্ধে রূপ নেয়, যার মাধ্যমে জন্ম নেয় স্বাধীন বাংলাদেশ।",
+      "sourceIds": [
+        "1971-a-global-history-of-the-creation-of-bangladesh",
+        "history-of-the-1971-liberation-war"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

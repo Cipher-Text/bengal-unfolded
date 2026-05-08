@@ -53,5 +53,27 @@
   "periodId": "partition-and-late-colonial-politics",
   "movementId": "partition-and-political-representation",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯১১ সালে ব্রিটিশ সরকার ১৯০৫ সালের বঙ্গভঙ্গ সিদ্ধান্ত বাতিল করে বাংলা পুনরায় একীভূত প্রদেশে রূপ দেয়। ধারাবাহিক প্রতিবাদ, বয়কট ও রাজনৈতিক সংগঠনের চাপে এই সিদ্ধান্ত আসে; একই সাথে ক্যালকাটা থেকে দিল্লিতে রাজধানী স্থানান্তরের মাধ্যমে ঔপনিবেশিক প্রশাসন নতুন কৌশলগত বিন্যাসও তৈরি করে।",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯১১ সালের রদ দেখায় জনচাপ ঔপনিবেশিক নীতি বদলাতে পারে, তবে প্রতিনিধিত্ব, সাম্প্রদায়িক রাজনীতি ও আঞ্চলিক ক্ষমতার টানাপোড়েন রয়ে যায় এবং পরবর্তী ইতিহাসকে প্রভাবিত করে।",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

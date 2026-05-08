@@ -57,5 +57,27 @@
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৫৮ সালের অক্টোবরে পাকিস্তানে সামরিক শাসন জারি হয়; সংসদীয় রাজনীতি স্থগিত হয়ে রাষ্ট্রক্ষমতা কেন্দ্রীভূত কর্তৃত্ববাদী কাঠামোয় চলে যায়। পূর্ব পাকিস্তানে এই সামরিক আইন প্রাদেশিক গণতান্ত্রিক পরিসর সংকুচিত করে, আমলাতান্ত্রিক-সামরিক নিয়ন্ত্রণ জোরদার করে, এবং প্রতিনিধিত্ব ও স্বায়ত্তশাসন নিয়ে দীর্ঘমেয়াদি অসন্তোষকে আরও গভীর করে।",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৫৮ সালের এই অধ্যায় বোঝা জরুরি, কারণ এখান থেকেই পূর্ব পাকিস্তানে গণতান্ত্রিক সংকোচন, রাজনৈতিক বঞ্চনা ও পরবর্তী গণ-প্রতিরোধের ভিত আরও স্পষ্ট হয়ে ওঠে।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

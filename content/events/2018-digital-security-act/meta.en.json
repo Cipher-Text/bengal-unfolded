@@ -46,5 +46,27 @@
   ],
   "requiresSources": true,
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Digital Security Act was enacted in October 2018 and quickly became central to debate about freedom of expression in Bangladesh. Critics argued that its vague provisions, broad police powers, and speech-related penalties could be used to intimidate journalists, silence dissent, and extend state control over digital space.",
+      "sourceIds": [
+        "digital-security-act-amnesty",
+        "muzzling-dissent-online-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Digital Security Act matters because it tied digital expression directly to the politics of fear, censorship, and state authority. It shaped the environment for journalists, activists, and online critics for years and became a major background condition for later struggles over civic and political speech before its eventual replacement by the Cyber Security Act in 2023.",
+      "sourceIds": [
+        "digital-security-act-amnesty",
+        "muzzling-dissent-online-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

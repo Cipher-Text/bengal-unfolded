@@ -68,5 +68,47 @@
     "research-volume",
     "archive-collection"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০২৪ সালের বৈষম্য বিরোধী আন্দোলন শুরু হয় সরকারি চাকরির কোটা ব্যবস্থার পুনর্বহালকে কেন্দ্র করে। দেশের বিভিন্ন বিশ্ববিদ্যালয়ের শিক্ষার্থীরা মেধাভিত্তিক নিয়োগ নিশ্চিত করার দাবিতে আন্দোলনে নামে। এই আন্দোলন দ্রুত দেশব্যাপী ছড়িয়ে পড়ে এবং এক পর্যায়ে তা বৃহত্তর সামাজিক ও রাজনৈতিক প্রতিবাদে রূপ নেয়।",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "২০২৪ সালের এই আন্দোলন শুধু একটি নীতিগত পরিবর্তনের দাবি নয়—এটি সমতা, ন্যায্যতা এবং তরুণদের ভবিষ্যৎ নিয়ে একটি গুরুত্বপূর্ণ সামাজিক প্রশ্ন তুলে ধরে। এটি দেখায় যে নতুন প্রজন্ম তাদের অধিকার ও সুযোগের বিষয়ে সচেতন এবং সক্রিয়।",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "২০২৪ সালের এই আন্দোলন শুধু একটি নীতিগত পরিবর্তনের দাবি নয়—এটি সমতা, ন্যায্যতা এবং তরুণদের ভবিষ্যৎ নিয়ে একটি গুরুত্বপূর্ণ সামাজিক প্রশ্ন তুলে ধরে। এটি দেখায় যে নতুন প্রজন্ম তাদের অধিকার ও সুযোগের বিষয়ে সচেতন এবং সক্রিয়।",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "২০২৪ সালের এই আন্দোলন শুধু একটি নীতিগত পরিবর্তনের দাবি নয়—এটি সমতা, ন্যায্যতা এবং তরুণদের ভবিষ্যৎ নিয়ে একটি গুরুত্বপূর্ণ সামাজিক প্রশ্ন তুলে ধরে। এটি দেখায় যে নতুন প্রজন্ম তাদের অধিকার ও সুযোগের বিষয়ে সচেতন এবং সক্রিয়।",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

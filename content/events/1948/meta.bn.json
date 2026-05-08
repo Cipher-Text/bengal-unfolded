@@ -61,5 +61,47 @@
     "language-movement-banglapedia",
     "language-movement-in-east-bengal"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৪৮ সালে পূর্ববঙ্গে রাষ্ট্রভাষা প্রশ্নটি কেন্দ্রীয় রাজনৈতিক ইস্যুতে পরিণত হয়, যখন উর্দুকে এককভাবে প্রাধান্য দেওয়ার বিরুদ্ধে ছাত্র ও বুদ্ধিজীবী মহলে প্রতিবাদ গড়ে ওঠে। এই সময়ের ধর্মঘট, স্মারকলিপি ও রাজপথের আন্দোলন ১৯৫২-এর শহীদ-নির্ভর পর্বের ভিত্তি তৈরি করে।",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৪৮ গুরুত্বপূর্ণ, কারণ এ সময়েই ভাষা-আন্দোলনের সংগঠন, দাবি-ভাষা ও সাংবিধানিক অধিকারভিত্তিক যুক্তির কাঠামো গড়ে ওঠে, যা ১৯৫২-তে ঐতিহাসিক উচ্চতায় পৌঁছে।",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "language-movement-in-east-bengal"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "১৯৪৮ গুরুত্বপূর্ণ, কারণ এ সময়েই ভাষা-আন্দোলনের সংগঠন, দাবি-ভাষা ও সাংবিধানিক অধিকারভিত্তিক যুক্তির কাঠামো গড়ে ওঠে, যা ১৯৫২-তে ঐতিহাসিক উচ্চতায় পৌঁছে।",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "language-movement-in-east-bengal"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৪৮ গুরুত্বপূর্ণ, কারণ এ সময়েই ভাষা-আন্দোলনের সংগঠন, দাবি-ভাষা ও সাংবিধানিক অধিকারভিত্তিক যুক্তির কাঠামো গড়ে ওঠে, যা ১৯৫২-তে ঐতিহাসিক উচ্চতায় পৌঁছে।",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "language-movement-in-east-bengal"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -54,5 +54,47 @@
     "house-of-ganesha-wikipedia",
     "bengal-sultanate-wikipedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1414, Raja Ganesha, a powerful Hindu zamindar from north Bengal, captured effective control of the Bengal Sultanate during a period of dynastic weakness. His rise marked the start of the House of Ganesha period, which briefly interrupted Ilyas Shahi rule and reshaped court politics before the Ilyas Shahi restoration.",
+      "sourceIds": [
+        "house-of-ganesha-wikipedia",
+        "raja-ganesha-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it shows that Bengal's sultanate system was politically contestable, with local landed elites able to redirect dynastic succession. The episode set the stage for reconfigured legitimacy under Jalaluddin Muhammad Shah and for the later restoration of Ilyas Shahi authority.",
+      "sourceIds": [
+        "house-of-ganesha-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because it shows that Bengal's sultanate system was politically contestable, with local landed elites able to redirect dynastic succession. The episode set the stage for reconfigured legitimacy under Jalaluddin Muhammad Shah and for the later restoration of Ilyas Shahi authority.",
+      "sourceIds": [
+        "house-of-ganesha-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because it shows that Bengal's sultanate system was politically contestable, with local landed elites able to redirect dynastic succession. The episode set the stage for reconfigured legitimacy under Jalaluddin Muhammad Shah and for the later restoration of Ilyas Shahi authority.",
+      "sourceIds": [
+        "house-of-ganesha-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

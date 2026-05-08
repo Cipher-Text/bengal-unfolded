@@ -40,5 +40,27 @@
   "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "memory-justice-and-civic-dissent",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১৮ সালের ১৭ ফেব্রুয়ারি থেকে শুরু হয়ে বসন্ত ও গ্রীষ্মে তীব্র হওয়া কোটা সংস্কার আন্দোলন বিশ্ববিদ্যালয়পড়ুয়া শিক্ষার্থীদের একটি সমন্বিত গণআন্দোলনে যুক্ত করে। নিয়োগনীতির একটি দাবি থেকে শুরু হওয়া এই আন্দোলন পরে ন্যায্যতা, সুযোগ, পুলিশি আচরণ এবং ভিন্নমত দমনের প্রশ্নেও বিস্তৃত হয়।",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "কোটা সংস্কার আন্দোলন গুরুত্বপূর্ণ, কারণ এটি ২০২৪-এর আগেই নতুন প্রজন্মের সংগঠনী শক্তি দেখিয়ে দেয়। এটি একটি নীতিগত দাবিকে ন্যায্যতা ও জনআস্থার জাতীয় প্রশ্নে পরিণত করে এবং পরবর্তী তরুণ-নেতৃত্বাধীন আন্দোলনের পূর্বসূরি হয়ে ওঠে।",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -65,5 +65,47 @@
     "bangladesh-awami-league-banglapedia",
     "research-volume"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৪৯ সালে ঢাকায় আওয়ামী মুসলিম লীগ প্রতিষ্ঠিত হয়, যা পূর্ব পাকিস্তানের রাজনীতিতে একটি সংগঠিত বিরোধী শক্তি হিসেবে আবির্ভূত হয়। পরবর্তীতে দলটি আওয়ামী লীগে রূপান্তরিত হয়ে স্বায়ত্তশাসন-সংগ্রাম ও বাংলাদেশের স্বাধীনতার রাজনৈতিক ধারায় কেন্দ্রীয় ভূমিকা পালন করে।",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "awami-league-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৪৯ সালের এই প্রতিষ্ঠা গুরুত্বপূর্ণ, কারণ এটি ভাষা-আন্দোলন, আঞ্চলিক প্রতিনিধিত্ব ও গণতান্ত্রিক দাবিকে দীর্ঘমেয়াদি দলীয় কাঠামোয় যুক্ত করে।",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "১৯৪৯ সালের এই প্রতিষ্ঠা গুরুত্বপূর্ণ, কারণ এটি ভাষা-আন্দোলন, আঞ্চলিক প্রতিনিধিত্ব ও গণতান্ত্রিক দাবিকে দীর্ঘমেয়াদি দলীয় কাঠামোয় যুক্ত করে।",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৪৯ সালের এই প্রতিষ্ঠা গুরুত্বপূর্ণ, কারণ এটি ভাষা-আন্দোলন, আঞ্চলিক প্রতিনিধিত্ব ও গণতান্ত্রিক দাবিকে দীর্ঘমেয়াদি দলীয় কাঠামোয় যুক্ত করে।",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

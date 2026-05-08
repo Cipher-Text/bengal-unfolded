@@ -64,5 +64,47 @@
     "murshid-quli-khan-banglapedia",
     "murshidabad-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In the early eighteenth century, Murshid Quli Khan shifted Bengal's effective administrative center from Dhaka to Makhsudabad, later known as Murshidabad. The move strengthened centralized revenue management, aligned court and banking networks around a new political hub, and reoriented the province's governing geography before Plassey.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshidabad-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshidabad-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshidabad-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshidabad-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

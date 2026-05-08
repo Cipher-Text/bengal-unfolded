@@ -41,5 +41,44 @@
   "identityMemorySourceIds": [
     "somapura-mahavira-britannica"
   ],
-  "identityMemoryEvidenceLevel": "high"
+  "identityMemoryEvidenceLevel": "high",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Somapura Mahavihara at Paharpur emerged in the 8th century as one of the largest monasteries south of the Himalayas and an important intellectual center in pre-Islamic Bengal.",
+      "sourceIds": [
+        "somapura-mahavira-britannica",
+        "mahasthangarh-unesco"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it provides durable architectural evidence of Bengal's institutional role in Buddhist scholarship and cultural exchange.",
+      "sourceIds": [
+        "somapura-mahavira-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because it provides durable architectural evidence of Bengal's institutional role in Buddhist scholarship and cultural exchange.",
+      "sourceIds": [
+        "somapura-mahavira-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because it provides durable architectural evidence of Bengal's institutional role in Buddhist scholarship and cultural exchange.",
+      "sourceIds": [
+        "somapura-mahavira-britannica"
+      ],
+      "evidenceLevel": "high"
+    }
+  ]
 }

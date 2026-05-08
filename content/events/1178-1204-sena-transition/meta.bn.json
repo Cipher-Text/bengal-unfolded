@@ -43,5 +43,46 @@
     "sena-dynasty-britannica",
     "bakhtiyar-khalji-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "লক্ষ্মণ সেনের শাসনকাল (আনু. ১১৭৮-আনু. ১২০৫) বাংলায় ১২০৪-পূর্ব শেষ প্রধান দরবারকেন্দ্রিক রাজনৈতিক ধাপকে প্রতিনিধিত্ব করে; নদীয়া থেকে তার অপসারণের মধ্য দিয়ে সেই ধাপ ভেঙে পড়ে।",
+      "sourceIds": [
+        "sena-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বিজয়-পূর্ব রাজনৈতিক সংস্কৃতি ও নদীয়া দখলের পরবর্তী পুনর্গঠিত শাসনব্যবস্থার মধ্যে সরাসরি সেতু রচনা করে।",
+      "sourceIds": [
+        "sena-dynasty-britannica",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বিজয়-পূর্ব রাজনৈতিক সংস্কৃতি ও নদীয়া দখলের পরবর্তী পুনর্গঠিত শাসনব্যবস্থার মধ্যে সরাসরি সেতু রচনা করে।",
+      "sourceIds": [
+        "sena-dynasty-britannica",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বিজয়-পূর্ব রাজনৈতিক সংস্কৃতি ও নদীয়া দখলের পরবর্তী পুনর্গঠিত শাসনব্যবস্থার মধ্যে সরাসরি সেতু রচনা করে।",
+      "sourceIds": [
+        "sena-dynasty-britannica",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

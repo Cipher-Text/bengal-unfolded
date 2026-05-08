@@ -66,5 +66,47 @@
     "special-powers-act-1974-banglapedia",
     "bangladesh-since-independence-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭৪ সালে বাংলাদেশ স্বাধীনতার পরের সবচেয়ে গুরুতর সংকটগুলোর একটির মুখোমুখি হয়। বন্যা, খাদ্যবাজারের ব্যর্থতা, যুদ্ধোত্তর অর্থনৈতিক বিপর্যয়, মূল্যস্ফীতি এবং দুর্বল প্রশাসন মিলে 'চুয়াত্তরের দুর্ভিক্ষ' তৈরি করে, যার সবচেয়ে ভয়াবহ অভিঘাত পড়ে গ্রামীণ বাংলায়। একই বছর স্পেশাল পাওয়ার্স অ্যাক্ট এবং রাষ্ট্রীয় ক্ষমতার আরও কঠোর প্রয়োগ দেখায় যে মুক্তিযুদ্ধ-পরবর্তী আশার জায়গা ধীরে ধীরে ভয়, অভাব এবং দমনমূলক শাসনে রূপ নিচ্ছে।",
+      "sourceIds": [
+        "famine-banglapedia",
+        "bangladesh-famine-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৭৪ সালের সংকট গুরুত্বপূর্ণ, কারণ এখান থেকেই বোঝা যায় কেন ১৯৭১-পরবর্তী রাষ্ট্রব্যবস্থার বৈধতা এত দ্রুত দুর্বল হয়ে পড়ে। দুর্ভিক্ষ পুনর্গঠনের ভঙ্গুরতা উন্মোচন করে, আর জরুরি ধরনের আইন ও প্রতিরোধমূলক আটক দেখায় যে রাষ্ট্র ১৯৭২-এর প্রতিশ্রুতি থেকে সরে ১৯৭৫-এর ভাঙনের দিকে এগোচ্ছে।",
+      "sourceIds": [
+        "special-powers-act-1974-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "১৯৭৪ সালের সংকট গুরুত্বপূর্ণ, কারণ এখান থেকেই বোঝা যায় কেন ১৯৭১-পরবর্তী রাষ্ট্রব্যবস্থার বৈধতা এত দ্রুত দুর্বল হয়ে পড়ে। দুর্ভিক্ষ পুনর্গঠনের ভঙ্গুরতা উন্মোচন করে, আর জরুরি ধরনের আইন ও প্রতিরোধমূলক আটক দেখায় যে রাষ্ট্র ১৯৭২-এর প্রতিশ্রুতি থেকে সরে ১৯৭৫-এর ভাঙনের দিকে এগোচ্ছে।",
+      "sourceIds": [
+        "special-powers-act-1974-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৭৪ সালের সংকট গুরুত্বপূর্ণ, কারণ এখান থেকেই বোঝা যায় কেন ১৯৭১-পরবর্তী রাষ্ট্রব্যবস্থার বৈধতা এত দ্রুত দুর্বল হয়ে পড়ে। দুর্ভিক্ষ পুনর্গঠনের ভঙ্গুরতা উন্মোচন করে, আর জরুরি ধরনের আইন ও প্রতিরোধমূলক আটক দেখায় যে রাষ্ট্র ১৯৭২-এর প্রতিশ্রুতি থেকে সরে ১৯৭৫-এর ভাঙনের দিকে এগোচ্ছে।",
+      "sourceIds": [
+        "special-powers-act-1974-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

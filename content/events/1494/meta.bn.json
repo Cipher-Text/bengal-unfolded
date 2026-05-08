@@ -54,5 +54,47 @@
     "hussain-shahi-dynasty-wikipedia",
     "bengal-sultanate-wikipedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৪৯৪ সালে আলাউদ্দিন হোসেন শাহ বাংলার ক্ষমতা দখল করে হোসেন শাহী রাজবংশ প্রতিষ্ঠা করেন। তাঁর সিংহাসনारोहণ বাংলা সালতানাতের রাজবংশীয় ধারায় একটি বড় পরিবর্তন আনে এবং প্রশাসনিক সংহতি, আঞ্চলিক প্রভাব বিস্তার, ও পারসিক-বাংলা দরবারি পৃষ্ঠপোষকতার এক গুরুত্বপূর্ণ যুগের সূচনা করে।",
+      "sourceIds": [
+        "hussain-shahi-dynasty-wikipedia",
+        "alauddin-husain-shah-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ হোসেন শাহী শাসন পূর্ববর্তী সুলতানি রাষ্ট্রগঠন ও পরবর্তী ষোড়শ শতকের রূপান্তরের মধ্যে একটি প্রধান সেতু হিসেবে কাজ করে। রাজনৈতিক কর্তৃত্ব, আঞ্চলিক কূটনীতি ও সাংস্কৃতিক পৃষ্ঠপোষকতায় এর দীর্ঘস্থায়ী প্রভাব বাংলার পরবর্তী ইতিহাসেও দৃশ্যমান থাকে।",
+      "sourceIds": [
+        "hussain-shahi-dynasty-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ হোসেন শাহী শাসন পূর্ববর্তী সুলতানি রাষ্ট্রগঠন ও পরবর্তী ষোড়শ শতকের রূপান্তরের মধ্যে একটি প্রধান সেতু হিসেবে কাজ করে। রাজনৈতিক কর্তৃত্ব, আঞ্চলিক কূটনীতি ও সাংস্কৃতিক পৃষ্ঠপোষকতায় এর দীর্ঘস্থায়ী প্রভাব বাংলার পরবর্তী ইতিহাসেও দৃশ্যমান থাকে।",
+      "sourceIds": [
+        "hussain-shahi-dynasty-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ হোসেন শাহী শাসন পূর্ববর্তী সুলতানি রাষ্ট্রগঠন ও পরবর্তী ষোড়শ শতকের রূপান্তরের মধ্যে একটি প্রধান সেতু হিসেবে কাজ করে। রাজনৈতিক কর্তৃত্ব, আঞ্চলিক কূটনীতি ও সাংস্কৃতিক পৃষ্ঠপোষকতায় এর দীর্ঘস্থায়ী প্রভাব বাংলার পরবর্তী ইতিহাসেও দৃশ্যমান থাকে।",
+      "sourceIds": [
+        "hussain-shahi-dynasty-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

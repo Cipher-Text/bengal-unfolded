@@ -58,5 +58,47 @@
     "creating-panic-hrw",
     "digital-security-act-amnesty"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১৮ সালে বাংলাদেশে শিক্ষার্থী-নেতৃত্বাধীন প্রতিবাদ, আইনি নিয়ন্ত্রণের বিস্তার এবং নির্বাচনী সংঘাত দ্রুত ধারাবাহিকতায় দেখা যায়। কোটা সংস্কার আন্দোলন ও নিরাপদ সড়ক আন্দোলন দেখায় যে শিক্ষার্থীরা ন্যায়, জবাবদিহি ও দৈনন্দিন শাসন-সংক্রান্ত প্রশ্নে দ্রুত সংগঠিত হতে পারে। পরে ডিজিটাল সিকিউরিটি অ্যাক্ট মতপ্রকাশ ও রাষ্ট্রীয় ক্ষমতা নিয়ে উদ্বেগ বাড়ায়, আর বছরের শেষে একাদশ জাতীয় সংসদ নির্বাচন অংশগ্রহণ, বৈধতা ও গণতান্ত্রিক প্রতিযোগিতার ভবিষ্যৎ নিয়ে বিতর্ককে আরও গভীর করে।",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "digital-security-act-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "২০১৮-র এই ক্লাস্টার গুরুত্বপূর্ণ, কারণ এটি ২০২৪-এর আগে বাংলাদেশের রাজনৈতিক মানসিকতা বুঝতে সাহায্য করে। এটি শিক্ষার্থী অসন্তোষ, জননিরাপত্তা ও মেধাভিত্তিক ন্যায্যতার প্রশ্ন, ডিজিটাল নিয়ন্ত্রণের কড়াকড়ি এবং নির্বাচনী আস্থার সংকটকে এক বড় কাহিনিতে যুক্ত করে।",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "digital-security-act-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "২০১৮-র এই ক্লাস্টার গুরুত্বপূর্ণ, কারণ এটি ২০২৪-এর আগে বাংলাদেশের রাজনৈতিক মানসিকতা বুঝতে সাহায্য করে। এটি শিক্ষার্থী অসন্তোষ, জননিরাপত্তা ও মেধাভিত্তিক ন্যায্যতার প্রশ্ন, ডিজিটাল নিয়ন্ত্রণের কড়াকড়ি এবং নির্বাচনী আস্থার সংকটকে এক বড় কাহিনিতে যুক্ত করে।",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "digital-security-act-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "২০১৮-র এই ক্লাস্টার গুরুত্বপূর্ণ, কারণ এটি ২০২৪-এর আগে বাংলাদেশের রাজনৈতিক মানসিকতা বুঝতে সাহায্য করে। এটি শিক্ষার্থী অসন্তোষ, জননিরাপত্তা ও মেধাভিত্তিক ন্যায্যতার প্রশ্ন, ডিজিটাল নিয়ন্ত্রণের কড়াকড়ি এবং নির্বাচনী আস্থার সংকটকে এক বড় কাহিনিতে যুক্ত করে।",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "digital-security-act-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

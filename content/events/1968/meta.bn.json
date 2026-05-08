@@ -60,5 +60,47 @@
     "agartala-conspiracy-case-banglapedia",
     "bangladesh-awami-league-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৬৮ সালে পাকিস্তান সরকার শেখ মুজিবুর রহমানসহ কয়েকজনের বিরুদ্ধে আগরতলা ষড়যন্ত্র মামলা দায়ের করে, যেখানে ভারতের সহায়তায় পূর্ব পাকিস্তান বিচ্ছিন্ন করার অভিযোগ আনা হয়। মামলাটি দ্রুত রাজনৈতিক ক্ষোভের কেন্দ্রবিন্দুতে পরিণত হয়, ছাত্র ও জনসমাজে সংহতি বাড়ায়, এবং সরাসরি ১৯৬৯-এর গণঅভ্যুত্থানের পথ প্রশস্ত করে।",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "আগরতলা মামলা গুরুত্বপূর্ণ, কারণ এটি কেন্দ্রীয় শাসনের গ্রহণযোগ্যতা সংকটকে প্রকাশ করে এবং সাংবিধানিক স্বায়ত্তশাসনের রাজনীতিকে সর্বস্তরের স্বৈরবিরোধী আন্দোলনের দিকে ঠেলে দেয়।",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "আগরতলা মামলা গুরুত্বপূর্ণ, কারণ এটি কেন্দ্রীয় শাসনের গ্রহণযোগ্যতা সংকটকে প্রকাশ করে এবং সাংবিধানিক স্বায়ত্তশাসনের রাজনীতিকে সর্বস্তরের স্বৈরবিরোধী আন্দোলনের দিকে ঠেলে দেয়।",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "আগরতলা মামলা গুরুত্বপূর্ণ, কারণ এটি কেন্দ্রীয় শাসনের গ্রহণযোগ্যতা সংকটকে প্রকাশ করে এবং সাংবিধানিক স্বায়ত্তশাসনের রাজনীতিকে সর্বস্তরের স্বৈরবিরোধী আন্দোলনের দিকে ঠেলে দেয়।",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

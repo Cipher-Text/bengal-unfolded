@@ -45,5 +45,43 @@
   "identityMemorySourceIds": [
     "pala-dynasty-britannica"
   ],
-  "identityMemoryEvidenceLevel": "high"
+  "identityMemoryEvidenceLevel": "high",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Pala dynasty emerged in the mid-8th century, with Gopala's rise during a period of political disorder. Under Dharmapala and Devapala, the dynasty expanded significantly and made Bengal a central actor in wider South Asian politics.",
+      "sourceIds": [
+        "pala-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it marks the beginning of a durable Bengal-based dynasty with long political reach and major religious-intellectual patronage.",
+      "sourceIds": [
+        "pala-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "This event matters because it marks the beginning of a durable Bengal-based dynasty with long political reach and major religious-intellectual patronage.",
+      "sourceIds": [
+        "pala-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because it marks the beginning of a durable Bengal-based dynasty with long political reach and major religious-intellectual patronage.",
+      "sourceIds": [
+        "pala-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    }
+  ]
 }

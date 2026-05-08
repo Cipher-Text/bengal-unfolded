@@ -48,5 +48,27 @@
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1962, students in East Pakistan led major protests against the Sharif Commission-linked education policy framework and broader authoritarian restrictions under military rule. The movement revitalized campus-based democratic activism and deepened ties between education grievances and constitutional politics.",
+      "sourceIds": [
+        "history-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1962 movement matters because it rebuilt protest momentum after the 1958 martial-law period and prepared political ground for the Six-Point era and the mass uprising to come.",
+      "sourceIds": [
+        "history-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -54,5 +54,47 @@
     "mughal-conquest-of-bengal-wikipedia",
     "baro-bhuiyans-wikipedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "By 1612, the long Mughal conquest phase in Bengal was largely complete after sustained campaigns against regional resistance networks, including the Baro-Bhuiyan bloc. While local variation remained, the balance of power had shifted decisively toward Mughal provincial rule after the post-Rajmahal era.",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "baro-bhuiyans-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it captures the transition from contested conquest to administrative consolidation. With resistance largely subdued, Mughal institutions could expand more consistently in revenue, military command, and territorial governance, shaping the political order inherited by later nawabi Bengal.",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "baro-bhuiyans-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because it captures the transition from contested conquest to administrative consolidation. With resistance largely subdued, Mughal institutions could expand more consistently in revenue, military command, and territorial governance, shaping the political order inherited by later nawabi Bengal.",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "baro-bhuiyans-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because it captures the transition from contested conquest to administrative consolidation. With resistance largely subdued, Mughal institutions could expand more consistently in revenue, military command, and territorial governance, shaping the political order inherited by later nawabi Bengal.",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "baro-bhuiyans-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

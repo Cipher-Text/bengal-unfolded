@@ -49,6 +49,7 @@ async function main() {
   const allowedThemes = new Set(["language", "democracy", "war", "culture", "economy"]);
   const allowedImportance = new Set(["landmark", "major", "high", "medium", "reference"]);
   const allowedRelationTypes = new Set(["cause", "effect", "background", "parallel", "legacy", "contrast"]);
+  const allowedClaimSections = new Set(["summary", "whyItMatters", "longTermLegacy", "culturalImpact", "identityMemoryNotes"]);
   const allowedPeriodIds = new Set([
     "ancient-and-pre-sultanate-bengal",
     "transition-to-sultanate-formation",
@@ -253,6 +254,38 @@ async function main() {
           errors.push(`Invalid identityMemoryNotes at content/events/${slug}/meta.${locale}.json`);
         }
       }
+      if ("claimCitations" in meta && meta.claimCitations !== undefined) {
+        if (!Array.isArray(meta.claimCitations)) {
+          errors.push(`claimCitations must be an array at content/events/${slug}/meta.${locale}.json`);
+        } else {
+          const seenClaimIds = new Set();
+          for (const claimCitation of meta.claimCitations) {
+            if (!claimCitation || typeof claimCitation !== "object") {
+              errors.push(`Invalid claimCitations entry at content/events/${slug}/meta.${locale}.json`);
+              continue;
+            }
+            if (typeof claimCitation.id !== "string" || claimCitation.id.trim().length === 0) {
+              errors.push(`Invalid claimCitations.id at content/events/${slug}/meta.${locale}.json`);
+            } else if (seenClaimIds.has(claimCitation.id)) {
+              errors.push(`Duplicate claimCitations.id '${claimCitation.id}' at content/events/${slug}/meta.${locale}.json`);
+            } else {
+              seenClaimIds.add(claimCitation.id);
+            }
+            if (typeof claimCitation.section !== "string" || !allowedClaimSections.has(claimCitation.section)) {
+              errors.push(`Invalid claimCitations.section '${claimCitation.section}' at content/events/${slug}/meta.${locale}.json`);
+            }
+            if (typeof claimCitation.claim !== "string" || claimCitation.claim.trim().length === 0) {
+              errors.push(`Invalid claimCitations.claim at content/events/${slug}/meta.${locale}.json`);
+            }
+            if (!Array.isArray(claimCitation.sourceIds) || claimCitation.sourceIds.length === 0) {
+              errors.push(`claimCitations.sourceIds must be a non-empty array at content/events/${slug}/meta.${locale}.json`);
+            }
+            if (typeof claimCitation.evidenceLevel !== "string" || !allowedEvidenceLevel.has(claimCitation.evidenceLevel)) {
+              errors.push(`Invalid claimCitations.evidenceLevel at content/events/${slug}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
       if (meta.requiresSources === true) {
         if (summaryIds.length === 0) {
           errors.push(`requiresSources=true requires non-empty summarySourceIds at content/events/${slug}/meta.${locale}.json`);
@@ -265,6 +298,9 @@ async function main() {
         if (typeof meta.longTermLegacy !== "string" || meta.longTermLegacy.trim().length === 0) {
           errors.push(`importance=major requires longTermLegacy at content/events/${slug}/meta.${locale}.json`);
         }
+        if (!Array.isArray(meta.claimCitations) || meta.claimCitations.length === 0) {
+          errors.push(`importance=major requires non-empty claimCitations at content/events/${slug}/meta.${locale}.json`);
+        }
       }
       if (meta.importance === "landmark") {
         if (typeof meta.culturalImpact !== "string" || meta.culturalImpact.trim().length === 0) {
@@ -272,6 +308,9 @@ async function main() {
         }
         if (typeof meta.identityMemoryNotes !== "string" || meta.identityMemoryNotes.trim().length === 0) {
           errors.push(`importance=landmark requires identityMemoryNotes at content/events/${slug}/meta.${locale}.json`);
+        }
+        if (!Array.isArray(meta.claimCitations) || meta.claimCitations.length === 0) {
+          errors.push(`importance=landmark requires non-empty claimCitations at content/events/${slug}/meta.${locale}.json`);
         }
       }
       if (meta.importance === "major") {
@@ -389,6 +428,24 @@ async function main() {
             }
             if (!resourceIds.has(sourceId)) {
               errors.push(`Unknown ${fieldName} sourceId '${sourceId}' at content/events/${slug}/meta.${locale}.json`);
+            }
+          }
+        }
+
+        if (Array.isArray(meta.claimCitations)) {
+          for (const claimCitation of meta.claimCitations) {
+            if (!claimCitation || typeof claimCitation !== "object" || !Array.isArray(claimCitation.sourceIds)) continue;
+            for (const sourceId of claimCitation.sourceIds) {
+              if (typeof sourceId !== "string") {
+                errors.push(`Non-string claimCitations.sourceId at content/events/${slug}/meta.${locale}.json`);
+                continue;
+              }
+              if (!resourceIdsFile.includes(sourceId)) {
+                errors.push(`claimCitations sourceId '${sourceId}' not listed in content/events/${slug}/resource-ids.json`);
+              }
+              if (!resourceIds.has(sourceId)) {
+                errors.push(`Unknown claimCitations sourceId '${sourceId}' at content/events/${slug}/meta.${locale}.json`);
+              }
             }
           }
         }

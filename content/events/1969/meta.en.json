@@ -70,5 +70,47 @@
     "research-volume",
     "bangladesh-from-mujib-to-ershad"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The 1969 Mass Uprising in East Pakistan brought together students, workers, opposition parties, and ordinary citizens against prolonged military-backed authoritarianism. It accelerated the collapse of the Ayub regime, widened the demand for democratic rights and regional autonomy, and prepared the political ground for the decisive elections of 1970 and the liberation struggle that followed.",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -57,5 +57,47 @@
     "faraizi-movement-banglapedia",
     "haji-shariatullah-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৮১৮ সাল থেকে হাজী শরীয়তুল্লাহর ফরায়েজি আন্দোলন পূর্ব বাংলার বিভিন্ন অঞ্চলে বিস্তৃত হতে শুরু করে। এটি একদিকে ছিল ধর্মীয় সংস্কার আন্দোলন, অন্যদিকে ঔপনিবেশিক ও জমিদারি কাঠামোর অধীনে কৃষক-সমাজের অসন্তোষের সঙ্গেও যুক্ত ছিল। আন্দোলনটি ইসলামের ফরজ পালনের ওপর জোর দেওয়ার পাশাপাশি সংগঠিত গ্রামীণ নেটওয়ার্ক গড়ে তোলে।",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "faraizi-movement-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ ফরায়েজি আন্দোলন পূর্ব বাংলায় ধর্ম, সামাজিক সংস্কার ও কৃষক-রাজনীতির মধ্যে সংযোগ তৈরি করে। এর সংগঠনিক ধারা ও দাবিগুলো পরবর্তী মুসলিম রাজনৈতিক চেতনা, গ্রামীণ প্রতিরোধ এবং ঔপনিবেশিক কর্তৃত্ব নিয়ে বিতর্ককে প্রভাবিত করে।",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ ফরায়েজি আন্দোলন পূর্ব বাংলায় ধর্ম, সামাজিক সংস্কার ও কৃষক-রাজনীতির মধ্যে সংযোগ তৈরি করে। এর সংগঠনিক ধারা ও দাবিগুলো পরবর্তী মুসলিম রাজনৈতিক চেতনা, গ্রামীণ প্রতিরোধ এবং ঔপনিবেশিক কর্তৃত্ব নিয়ে বিতর্ককে প্রভাবিত করে।",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ ফরায়েজি আন্দোলন পূর্ব বাংলায় ধর্ম, সামাজিক সংস্কার ও কৃষক-রাজনীতির মধ্যে সংযোগ তৈরি করে। এর সংগঠনিক ধারা ও দাবিগুলো পরবর্তী মুসলিম রাজনৈতিক চেতনা, গ্রামীণ প্রতিরোধ এবং ঔপনিবেশিক কর্তৃত্ব নিয়ে বিতর্ককে প্রভাবিত করে।",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

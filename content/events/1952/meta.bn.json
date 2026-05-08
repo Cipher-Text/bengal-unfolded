@@ -67,5 +67,47 @@
     "language-movement-in-east-bengal",
     "state-language-movement-in-east-bengal-1947-1956"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "দেশভাগের পর পূর্ববঙ্গ এমন এক রাষ্ট্রীয় কাঠামোর মুখোমুখি হয়, যেখানে উর্দুকে একক মর্যাদা দিয়ে বাংলা ভাষা ও বাঙালি পরিচয়কে চাপের মুখে ফেলা হচ্ছিল। এই অধ্যায় দেখায় কীভাবে প্রতিবাদ, ফেব্রুয়ারি ১৯৫২-এর হত্যাকাণ্ড, এবং ভাষার প্রশ্ন ধীরে ধীরে বাঙালির রাজনৈতিক আত্মপরিচয়ের কেন্দ্রে পরিণত হয়।",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "shaheed-minar-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "ভাষা আন্দোলন বোঝা জরুরি, কারণ এখানেই বাঙালি পরিচয়, গণতান্ত্রিক অধিকার এবং সাংস্কৃতিক স্বায়ত্তশাসনের প্রশ্ন এক সুতোয় বাঁধা পড়ে।",
+      "sourceIds": [
+        "language-movement-in-east-bengal",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "ভাষা আন্দোলন বোঝা জরুরি, কারণ এখানেই বাঙালি পরিচয়, গণতান্ত্রিক অধিকার এবং সাংস্কৃতিক স্বায়ত্তশাসনের প্রশ্ন এক সুতোয় বাঁধা পড়ে।",
+      "sourceIds": [
+        "language-movement-in-east-bengal",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "ভাষা আন্দোলন বোঝা জরুরি, কারণ এখানেই বাঙালি পরিচয়, গণতান্ত্রিক অধিকার এবং সাংস্কৃতিক স্বায়ত্তশাসনের প্রশ্ন এক সুতোয় বাঁধা পড়ে।",
+      "sourceIds": [
+        "language-movement-in-east-bengal",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -40,5 +40,43 @@
   "identityMemorySourceIds": [
     "shashanka-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In the early 7th century, Shashanka, king of Gauda, expanded authority over a substantial part of the Ganges valley and represented one of the earliest major sovereign political formations centered on Bengal.",
+      "sourceIds": [
+        "shashanka-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it offers a concrete early medieval precedent for Bengal-centered sovereignty before the Pala and Sena transitions.",
+      "sourceIds": [
+        "shashanka-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because it offers a concrete early medieval precedent for Bengal-centered sovereignty before the Pala and Sena transitions.",
+      "sourceIds": [
+        "shashanka-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because it offers a concrete early medieval precedent for Bengal-centered sovereignty before the Pala and Sena transitions.",
+      "sourceIds": [
+        "shashanka-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -62,5 +62,47 @@
     "indian-rebellion-1857-britannica",
     "mangal-pandey-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Sipahi Revolt of 1857 was a major anti-colonial rupture against East India Company rule. Though centered in North India, its shockwaves reshaped imperial governance, military policy, and political imagination across the subcontinent, including Bengal. It marked an early, large-scale convergence of armed resistance, local grievances, and symbolic claims to self-rule.",
+      "sourceIds": [
+        "indian-rebellion-1857-britannica",
+        "mangal-pandey-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1857 revolt matters because it exposed the fragility of colonial legitimacy and influenced later political resistance traditions in Bengal and beyond.",
+      "sourceIds": [
+        "indian-rebellion-1857-britannica",
+        "mangal-pandey-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The 1857 revolt matters because it exposed the fragility of colonial legitimacy and influenced later political resistance traditions in Bengal and beyond.",
+      "sourceIds": [
+        "indian-rebellion-1857-britannica",
+        "mangal-pandey-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The 1857 revolt matters because it exposed the fragility of colonial legitimacy and influenced later political resistance traditions in Bengal and beyond.",
+      "sourceIds": [
+        "indian-rebellion-1857-britannica",
+        "mangal-pandey-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -65,5 +65,47 @@
     "bangladesh-awami-league-banglapedia",
     "research-volume"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1949, the Awami Muslim League was founded in Dhaka, creating a structured opposition force within East Pakistan's evolving political arena. The party later became the Awami League and played a central role in constitutional autonomy movements and the eventual trajectory toward Bangladesh's independence.",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "awami-league-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1949 founding matters because it built an organizational vehicle that connected language activism, regional representation, and democratic mobilization across subsequent decades.",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The 1949 founding matters because it built an organizational vehicle that connected language activism, regional representation, and democratic mobilization across subsequent decades.",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The 1949 founding matters because it built an organizational vehicle that connected language activism, regional representation, and democratic mobilization across subsequent decades.",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

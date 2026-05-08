@@ -45,5 +45,43 @@
   "identityMemorySourceIds": [
     "pala-dynasty-britannica"
   ],
-  "identityMemoryEvidenceLevel": "high"
+  "identityMemoryEvidenceLevel": "high",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "অষ্টম শতকের মধ্যভাগে রাজনৈতিক অস্থিরতার প্রেক্ষাপটে গোপালের উত্থানের মাধ্যমে পাল রাজবংশ গড়ে ওঠে। ধর্মপাল ও দেবপালের আমলে এই রাজবংশের সম্প্রসারণ বাংলাকে বৃহত্তর দক্ষিণ এশীয় রাজনীতির কেন্দ্রে নিয়ে আসে।",
+      "sourceIds": [
+        "pala-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলা-ভিত্তিক দীর্ঘস্থায়ী এক রাজবংশের সূচনা এবং বিস্তৃত রাজনৈতিক প্রভাবের পাশাপাশি ধর্মীয়-জ্ঞানচর্চার পৃষ্ঠপোষকতার ভিত্তি স্থাপন করে।",
+      "sourceIds": [
+        "pala-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলা-ভিত্তিক দীর্ঘস্থায়ী এক রাজবংশের সূচনা এবং বিস্তৃত রাজনৈতিক প্রভাবের পাশাপাশি ধর্মীয়-জ্ঞানচর্চার পৃষ্ঠপোষকতার ভিত্তি স্থাপন করে।",
+      "sourceIds": [
+        "pala-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলা-ভিত্তিক দীর্ঘস্থায়ী এক রাজবংশের সূচনা এবং বিস্তৃত রাজনৈতিক প্রভাবের পাশাপাশি ধর্মীয়-জ্ঞানচর্চার পৃষ্ঠপোষকতার ভিত্তি স্থাপন করে।",
+      "sourceIds": [
+        "pala-dynasty-britannica"
+      ],
+      "evidenceLevel": "high"
+    }
+  ]
 }

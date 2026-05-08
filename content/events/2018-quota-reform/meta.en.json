@@ -40,5 +40,27 @@
   "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "memory-justice-and-civic-dissent",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Beginning on 17 February 2018 and peaking in the spring and summer, the Quota Reform Movement brought university students into a large, coordinated campaign over access to public employment. What began as a policy demand about recruitment rules expanded into a wider youth-led mobilization about fairness, opportunity, policing, and the treatment of dissent.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Quota Reform Movement matters because it showed the organizing power of a new generation before 2024. It transformed a technical policy issue into a national question of equity and public legitimacy, and it became an important precursor to later youth mobilizations.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

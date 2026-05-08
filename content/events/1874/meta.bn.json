@@ -42,5 +42,27 @@
   "periodId": "colonial-rule-and-resistance",
   "movementId": "colonial-capture-and-resistance",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৮৭৪ সালে ব্রিটিশ প্রশাসন আসামকে বাংলার প্রশাসন থেকে আলাদা করে এবং সিলেট ও কাছাড়কে নতুন চিফ কমিশনারশিপ অব আসামের অধীনে আনে। প্রশাসনিক সুবিধার যুক্তি দেখানো হলেও এই পরিবর্তন ভাষা, শাসন ও আঞ্চলিক রাজনৈতিক পরিচয়ের ওপর দীর্ঘমেয়াদি প্রভাব ফেলে।",
+      "sourceIds": [
+        "assam-banglapedia",
+        "history-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৮৭৪ সালের পুনর্গঠন গুরুত্বপূর্ণ, কারণ এটি বাংলা ভাষাভাষী জনগোষ্ঠীকে প্রশাসনিকভাবে আলাদা করার এক প্রাথমিক ঔপনিবেশিক নজির তৈরি করে, যা পরে দেশভাগ-সংক্রান্ত বিতর্কে পুনরায় প্রতিধ্বনিত হয়।",
+      "sourceIds": [
+        "assam-banglapedia",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

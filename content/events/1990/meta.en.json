@@ -72,5 +72,47 @@
     "bangladesh-from-mujib-to-ershad",
     "bangladesh-under-mujib-zia-and-ershad"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The 1990 Mass Uprising was the culmination of years of resistance to military-backed authoritarian rule in Bangladesh. Students, political alliances, professional associations, and ordinary citizens converged in a coordinated movement that forced Hussain Muhammad Ershad to resign and opened the path to caretaker-led democratic transition.",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "nur-hossain-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

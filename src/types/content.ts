@@ -439,6 +439,21 @@ export type EventRelation = {
   relationType: EventRelationType;
 };
 
+export type EventClaimSection =
+  | "summary"
+  | "whyItMatters"
+  | "longTermLegacy"
+  | "culturalImpact"
+  | "identityMemoryNotes";
+
+export type EventClaimCitation = {
+  id: string;
+  section: EventClaimSection;
+  claim: string;
+  sourceIds: string[];
+  evidenceLevel: EvidenceLevel;
+};
+
 export type EventMeta = {
   slug: EventSlug;
   year: string;
@@ -462,6 +477,7 @@ export type EventMeta = {
   identityMemoryNotes?: string;
   identityMemorySourceIds?: string[];
   identityMemoryEvidenceLevel?: EvidenceLevel;
+  claimCitations?: EventClaimCitation[];
   importance: EventImportance;
   parentEvent?: EventSlug;
   childEventIds?: EventSlug[];

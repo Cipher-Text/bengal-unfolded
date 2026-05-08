@@ -67,5 +67,47 @@
     "language-movement-in-east-bengal",
     "state-language-movement-in-east-bengal-1947-1956"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Language Movement grew out of post-partition inequality, when East Bengal faced cultural and political pressure from a state that privileged Urdu alone. This chapter follows the protests, the police killings of February 1952, and the way language became the moral center of Bengali political identity.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "shaheed-minar-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+      "sourceIds": [
+        "language-movement-in-east-bengal",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+      "sourceIds": [
+        "language-movement-in-east-bengal",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+      "sourceIds": [
+        "language-movement-in-east-bengal",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

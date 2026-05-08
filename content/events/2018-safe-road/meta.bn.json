@@ -40,5 +40,27 @@
   "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "memory-justice-and-civic-dissent",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১৮ সালের ২৯ জুলাই ঢাকায় বাসচাপায় দুই শিক্ষার্থী নিহত হওয়ার পর স্কুল ও কলেজের শিক্ষার্থীরা নিরাপদ সড়ক, বৈধ চালনা এবং পরিবহন খাতে জবাবদিহির দাবিতে রাস্তায় নামে। তাদের শৃঙ্খলাপূর্ণ উপস্থিতি, সরাসরি ট্রাফিক তদারকি এবং দেশব্যাপী সাড়া এই আন্দোলনকে বছরের সবচেয়ে স্মরণীয় তরুণ-নেতৃত্বাধীন নাগরিক মুহূর্তগুলোর একটিতে পরিণত করে।",
+      "sourceIds": [
+        "safe-road-protests-hrw",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "নিরাপদ সড়ক আন্দোলন গুরুত্বপূর্ণ, কারণ এটি বাংলাদেশে প্রতিবাদের অর্থকে আরও বিস্তৃত করে। এটি দৈনন্দিন নিরাপত্তাকে শাসন, জবাবদিহি, পুলিশি আচরণ ও নাগরিক মর্যাদার প্রশ্নের সঙ্গে যুক্ত করে এবং দেখায় যে নৈতিক জনদাবিও কত দ্রুত দমনের মুখে পড়তে পারে।",
+      "sourceIds": [
+        "safe-road-protests-hrw",
+        "creating-panic-hrw"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

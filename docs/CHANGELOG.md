@@ -4,6 +4,21 @@
 
 ### Completed
 
+- RM-TRUTH-001 claim-level citation model rollout:
+  - Model:
+    - Added `EventClaimCitation` schema in `src/types/content.ts` with `id`, `section`, `claim`, `sourceIds`, and `evidenceLevel`.
+    - Added `claimCitations?: EventClaimCitation[]` to `EventMeta`.
+  - Validation:
+    - Added strict shape checks for `claimCitations` entries, unique per-event claim IDs, allowed section enum values, and non-empty source arrays.
+    - Added source integrity checks for `claimCitations.sourceIds` against event `resource-ids.json` and global resource set.
+    - Added `importance=major|landmark` requirement for non-empty `claimCitations`.
+  - UI/runtime:
+    - Added localized claim-level citations section on event detail pages with jump-nav anchor, glossary-linked claim text, inline citations, and evidence badge rendering.
+  - Backfill:
+    - Backfilled `claimCitations` for EN/BN event metadata using existing cited narrative blocks (`summary`, `whyItMatters`, `longTermLegacy`, `culturalImpact`, `identityMemoryNotes`) where source and evidence metadata already existed.
+  - Docs:
+    - Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and roadmap checkbox state in `docs/ROADMAP.md`.
+
 - RM-REL-013 identity and memory notes rollout:
   - Model:
     - Added `identityMemoryNotes`, `identityMemorySourceIds`, and `identityMemoryEvidenceLevel` to `EventMeta` in `src/types/content.ts`.

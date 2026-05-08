@@ -59,5 +59,47 @@
     "mughal-conquest-of-bengal-wikipedia",
     "bengal-sultanate-wikipedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On July 12, 1576, Mughal forces defeated Daud Khan Karrani at the Battle of Rajmahal. The victory marked the collapse of the Karrani regime, often treated as the terminal phase of independent Bengal Sultanate power, and accelerated Bengal's incorporation into the Mughal imperial framework.",
+      "sourceIds": [
+        "battle-of-rajmahal-wikipedia",
+        "mughal-conquest-of-bengal-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it links late-sultanate Bengal to Mughal provincial governance. The defeat of Daud Khan Karrani changed how authority, taxation, and military control were organized in Bengal, creating structural conditions that later fed into nawabi politics and the eighteenth-century crises.",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because it links late-sultanate Bengal to Mughal provincial governance. The defeat of Daud Khan Karrani changed how authority, taxation, and military control were organized in Bengal, creating structural conditions that later fed into nawabi politics and the eighteenth-century crises.",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because it links late-sultanate Bengal to Mughal provincial governance. The defeat of Daud Khan Karrani changed how authority, taxation, and military control were organized in Bengal, creating structural conditions that later fed into nawabi politics and the eighteenth-century crises.",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

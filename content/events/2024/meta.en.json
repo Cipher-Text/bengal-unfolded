@@ -68,5 +68,47 @@
     "research-volume",
     "archive-collection"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The 2024 Anti-Discrimination Movement began around the reinstatement of the government job quota system. Students from universities across the country mobilized to demand merit-based recruitment. The movement quickly spread nationwide and, over time, grew into a broader social and political protest.",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 2024 movement was not only a demand for policy change. It raised a deeper social question about fairness, equality, and the future of young people, showing how a new generation is active and politically conscious about its rights and opportunities.",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "The 2024 movement was not only a demand for policy change. It raised a deeper social question about fairness, equality, and the future of young people, showing how a new generation is active and politically conscious about its rights and opportunities.",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The 2024 movement was not only a demand for policy change. It raised a deeper social question about fairness, equality, and the future of young people, showing how a new generation is active and politically conscious about its rights and opportunities.",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -40,5 +40,43 @@
   "identityMemorySourceIds": [
     "mahasthangarh-unesco"
   ],
-  "identityMemoryEvidenceLevel": "high"
+  "identityMemoryEvidenceLevel": "high",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "মহাস্থানগড়ের প্রত্নতাত্ত্বিক উপাত্ত দেখায় যে এটি বঙ্গ অঞ্চলের অন্যতম প্রাচীন বৃহৎ সুরক্ষিত নগরকেন্দ্র, যার সূচনা আনুমানিক খ্রি.পূ. ৪র্থ-৩য় শতকে এবং দীর্ঘকাল প্রশাসনিক-নগর ধারাবাহিকতা বজায় ছিল।",
+      "sourceIds": [
+        "mahasthangarh-unesco"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই অধ্যায় গুরুত্বপূর্ণ, কারণ এটি প্রাচীন বাংলার ইতিহাসকে কেবল বর্ণনামূলক ঐতিহ্য নয়, প্রত্নতাত্ত্বিক প্রমাণের ভিত্তিতে প্রতিষ্ঠা করে এবং পরবর্তী রাজবংশীয় যুগের আগে দীর্ঘ প্রতিষ্ঠানগত ধারাবাহিকতার ইঙ্গিত দেয়।",
+      "sourceIds": [
+        "mahasthangarh-unesco"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই অধ্যায় গুরুত্বপূর্ণ, কারণ এটি প্রাচীন বাংলার ইতিহাসকে কেবল বর্ণনামূলক ঐতিহ্য নয়, প্রত্নতাত্ত্বিক প্রমাণের ভিত্তিতে প্রতিষ্ঠা করে এবং পরবর্তী রাজবংশীয় যুগের আগে দীর্ঘ প্রতিষ্ঠানগত ধারাবাহিকতার ইঙ্গিত দেয়।",
+      "sourceIds": [
+        "mahasthangarh-unesco"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই অধ্যায় গুরুত্বপূর্ণ, কারণ এটি প্রাচীন বাংলার ইতিহাসকে কেবল বর্ণনামূলক ঐতিহ্য নয়, প্রত্নতাত্ত্বিক প্রমাণের ভিত্তিতে প্রতিষ্ঠা করে এবং পরবর্তী রাজবংশীয় যুগের আগে দীর্ঘ প্রতিষ্ঠানগত ধারাবাহিকতার ইঙ্গিত দেয়।",
+      "sourceIds": [
+        "mahasthangarh-unesco"
+      ],
+      "evidenceLevel": "high"
+    }
+  ]
 }

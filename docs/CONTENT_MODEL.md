@@ -116,6 +116,15 @@ Image rendering policy:
 - `EventMeta.identityMemoryNotes?` (optional string; required for `importance: major | landmark`): identity and collective memory framing for major historical moments
 - `EventMeta.identityMemorySourceIds?` (optional `string[]`): citations for identity-memory narrative
 - `EventMeta.identityMemoryEvidenceLevel?` (optional `high | medium | low`): evidence strength for identity-memory narrative
+- `EventMeta.claimCitations?` (optional `EventClaimCitation[]`; required non-empty for `importance: major | landmark`): claim-level citation entries rendered on event pages
+
+`EventClaimCitation` fields:
+
+- `id` (required string): stable claim identifier inside an event
+- `section` (required): `summary | whyItMatters | longTermLegacy | culturalImpact | identityMemoryNotes`
+- `claim` (required string): claim text
+- `sourceIds` (required non-empty `string[]`): supporting source IDs listed in event `resource-ids.json`
+- `evidenceLevel` (required): `high | medium | low`
 - `EventMeta.parentEvent?` (optional): parent cluster anchor event slug
 - `EventMeta.childEventIds?` (optional): ordered child chapter slugs for cluster discovery
 - `EventMeta.relatedEvents?` (optional): ordered typed historical relationships with `{ eventId, relationType }`

@@ -59,5 +59,47 @@
     "robert-clive-britannica",
     "jagat-sheth-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৭৫৭ সালের পলাশীর যুদ্ধ ছিল বাংলার রাজনৈতিক ভবিষ্যৎ বদলে দেওয়া এক ঐতিহাসিক মোড়। এটি শুধু স্বল্পসময়ের সামরিক সংঘর্ষ ছিল না; জোট-রাজনীতি, বিশ্বাসঘাতকতা ও অর্থনৈতিক প্রভাবের সমন্বয়ে ইস্ট ইন্ডিয়া কোম্পানি বাংলার ক্ষমতাকাঠামোয় নির্ণায়ক প্রভাব প্রতিষ্ঠা করে। এর পরিণতিতে শাসনব্যবস্থা, রাজস্বনীতি ও সার্বভৌমত্বের প্রশ্নে গভীর পরিবর্তন আসে, যা দীর্ঘ ঔপনিবেশিক শাসনের ভিত্তি তৈরি করে।",
+      "sourceIds": [
+        "battle-of-plassey-britannica",
+        "palashi-battle-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "পলাশী বোঝা জরুরি, কারণ এখান থেকেই বাংলায় ঔপনিবেশিক আধিপত্যের সামরিক, রাজনৈতিক ও অর্থনৈতিক ভিত্তি স্পষ্ট হয়ে ওঠে।",
+      "sourceIds": [
+        "robert-clive-britannica",
+        "jagat-sheth-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "পলাশী বোঝা জরুরি, কারণ এখান থেকেই বাংলায় ঔপনিবেশিক আধিপত্যের সামরিক, রাজনৈতিক ও অর্থনৈতিক ভিত্তি স্পষ্ট হয়ে ওঠে।",
+      "sourceIds": [
+        "robert-clive-britannica",
+        "jagat-sheth-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "পলাশী বোঝা জরুরি, কারণ এখান থেকেই বাংলায় ঔপনিবেশিক আধিপত্যের সামরিক, রাজনৈতিক ও অর্থনৈতিক ভিত্তি স্পষ্ট হয়ে ওঠে।",
+      "sourceIds": [
+        "robert-clive-britannica",
+        "jagat-sheth-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

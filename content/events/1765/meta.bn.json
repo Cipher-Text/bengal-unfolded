@@ -68,5 +68,50 @@
     "robert-clive-britannica",
     "east-india-company-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৭৬৫ সালে ইস্ট ইন্ডিয়া কোম্পানি বাংলা, বিহার ও উড়িষ্যার দেওয়ানি, অর্থাৎ রাজস্ব আদায়ের অধিকার, লাভ করে। এর ফলে পলাশীর পর কোম্পানির প্রভাব কেবল দরবার-নির্ভর রাজনৈতিক প্রভাবেই সীমাবদ্ধ থাকল না; তা আনুষ্ঠানিক আর্থিক ক্ষমতায় রূপ নিল। পুরোনো মুঘল ও নবাবি কাঠামো আংশিকভাবে বহাল থাকলেও রাজস্ব আহরণ, প্রশাসনিক প্রভাব ও প্রকৃত ক্ষমতার প্রবাহ ক্রমে কোম্পানির দিকে সরে যায়।",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "দেওয়ানি অধিকার বোঝা জরুরি, কারণ এর মাধ্যমেই ১৭৫৭-পরবর্তী কোম্পানি-প্রভাব বাংলায় গভীরতর ঔপনিবেশিক শাসন ও সম্পদ-নিষ্কাশনের ব্যবস্থায় পরিণত হয়, যার দীর্ঘ ছায়া পরবর্তী সংকট, দুর্ভিক্ষ, প্রতিরোধ ও সাম্রাজ্য বিস্তারে পড়ে।",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "দেওয়ানি অধিকার বোঝা জরুরি, কারণ এর মাধ্যমেই ১৭৫৭-পরবর্তী কোম্পানি-প্রভাব বাংলায় গভীরতর ঔপনিবেশিক শাসন ও সম্পদ-নিষ্কাশনের ব্যবস্থায় পরিণত হয়, যার দীর্ঘ ছায়া পরবর্তী সংকট, দুর্ভিক্ষ, প্রতিরোধ ও সাম্রাজ্য বিস্তারে পড়ে।",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "দেওয়ানি অধিকার বোঝা জরুরি, কারণ এর মাধ্যমেই ১৭৫৭-পরবর্তী কোম্পানি-প্রভাব বাংলায় গভীরতর ঔপনিবেশিক শাসন ও সম্পদ-নিষ্কাশনের ব্যবস্থায় পরিণত হয়, যার দীর্ঘ ছায়া পরবর্তী সংকট, দুর্ভিক্ষ, প্রতিরোধ ও সাম্রাজ্য বিস্তারে পড়ে।",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

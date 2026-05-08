@@ -65,5 +65,47 @@
     "constitution-banglapedia",
     "bangladesh-since-independence-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭২ সালে বাংলাদেশ যুদ্ধজয়ের পর রাষ্ট্রগঠনের কঠিন পর্যায়ে প্রবেশ করে। জানুয়ারিতে বঙ্গবন্ধু শেখ মুজিবুর রহমান ফিরে এসে নতুন সরকারকে নেতৃত্ব দেন, এপ্রিলে গণপরিষদ কাজ শুরু করে, এবং ৪ নভেম্বর গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান গৃহীত হয়ে ১৬ ডিসেম্বর কার্যকর হয়। এই বছর মুক্তিযুদ্ধের আদর্শকে সংসদীয় সরকার, মৌলিক অধিকার, এবং জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র ও ধর্মনিরপেক্ষতার চার রাষ্ট্রীয় মূলনীতির মাধ্যমে প্রাতিষ্ঠানিক রূপ দেয়।",
+      "sourceIds": [
+        "constitution-banglapedia",
+        "constitutional-development-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৭২ সালের ঘটনাগুলো গুরুত্বপূর্ণ, কারণ এখানেই স্বাধীনতার পর বাংলাদেশের প্রথম সাংবিধানিক কাঠামো স্থাপিত হয়। এই বছর দেখায় কীভাবে মুক্তিযুদ্ধের আদর্শকে প্রতিষ্ঠান, অধিকার এবং সংসদীয় শাসনে অনুবাদ করা হয়েছিল, এবং কেন পরবর্তী সাংবিধানিক ভাঙনগুলোকে সেই মূল কাঠামোর আলোকে বিচার করা হয়।",
+      "sourceIds": [
+        "constitution-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "১৯৭২ সালের ঘটনাগুলো গুরুত্বপূর্ণ, কারণ এখানেই স্বাধীনতার পর বাংলাদেশের প্রথম সাংবিধানিক কাঠামো স্থাপিত হয়। এই বছর দেখায় কীভাবে মুক্তিযুদ্ধের আদর্শকে প্রতিষ্ঠান, অধিকার এবং সংসদীয় শাসনে অনুবাদ করা হয়েছিল, এবং কেন পরবর্তী সাংবিধানিক ভাঙনগুলোকে সেই মূল কাঠামোর আলোকে বিচার করা হয়।",
+      "sourceIds": [
+        "constitution-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৭২ সালের ঘটনাগুলো গুরুত্বপূর্ণ, কারণ এখানেই স্বাধীনতার পর বাংলাদেশের প্রথম সাংবিধানিক কাঠামো স্থাপিত হয়। এই বছর দেখায় কীভাবে মুক্তিযুদ্ধের আদর্শকে প্রতিষ্ঠান, অধিকার এবং সংসদীয় শাসনে অনুবাদ করা হয়েছিল, এবং কেন পরবর্তী সাংবিধানিক ভাঙনগুলোকে সেই মূল কাঠামোর আলোকে বিচার করা হয়।",
+      "sourceIds": [
+        "constitution-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

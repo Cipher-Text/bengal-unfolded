@@ -68,5 +68,50 @@
     "robert-clive-britannica",
     "east-india-company-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1765, the East India Company secured the diwani, or the right to collect revenue, in Bengal, Bihar, and Orissa. This turned the Company's influence after Plassey into formal fiscal power. Revenue extraction, administrative leverage, and political authority now began to flow through the Company, even while older Mughal and nawabi institutions were still kept in place.",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

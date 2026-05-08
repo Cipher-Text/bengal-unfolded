@@ -60,5 +60,47 @@
     "war-of-liberation-banglapedia",
     "pakistan-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In late 1970, East Pakistan was shaken first by the catastrophic Bhola cyclone of 12 November and then by Pakistan's first general election under universal adult franchise on 7 December. The cyclone exposed the scale of administrative neglect and regional inequality, while the election gave Sheikh Mujibur Rahman's Awami League an overwhelming democratic mandate. Together, the disaster and the denied transfer of power turned long-standing demands for autonomy into an immediate constitutional crisis on the eve of the Liberation War.",
+      "sourceIds": [
+        "bhola-cyclone-britannica",
+        "general-election-1970-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The events of 1970 matter because they showed both the vulnerability and the political will of East Pakistan. The Bhola cyclone intensified anger at state neglect, and the election established an unambiguous democratic claim to rule. When that mandate was blocked, the path from autonomy politics to national liberation became far shorter and more explosive.",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "pakistan-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "The events of 1970 matter because they showed both the vulnerability and the political will of East Pakistan. The Bhola cyclone intensified anger at state neglect, and the election established an unambiguous democratic claim to rule. When that mandate was blocked, the path from autonomy politics to national liberation became far shorter and more explosive.",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "pakistan-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The events of 1970 matter because they showed both the vulnerability and the political will of East Pakistan. The Bhola cyclone intensified anger at state neglect, and the election established an unambiguous democratic claim to rule. When that mandate was blocked, the path from autonomy politics to national liberation became far shorter and more explosive.",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "pakistan-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

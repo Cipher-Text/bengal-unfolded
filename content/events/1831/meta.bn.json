@@ -57,5 +57,47 @@
     "titu-mir-banglapedia",
     "narkelberia-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৮৩১ সালে সৈয়দ মীর নিসার আলি (তিতুমীর) বাংলায় এমন এক সশস্ত্র বিদ্রোহের নেতৃত্ব দেন, যেখানে ধর্মীয় সংস্কারধারা, জমিদারি নিপীড়নবিরোধী ক্ষোভ এবং ঔপনিবেশিক শাসনবিরোধিতা একত্রিত হয়। নারকেলবেড়িয়ার বাঁশের কেল্লাকে কেন্দ্র করে এই বিদ্রোহের পরিণতিতে কোম্পানি বাহিনী আন্দোলনটি দমন করে।",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "titu-mir-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ তিতুমীরের বিদ্রোহ দেখায় কীভাবে ধর্মীয় সংস্কার, কৃষক-অসন্তোষ এবং ঔপনিবেশিক বিরোধী ক্ষোভ সংগঠিত সশস্ত্র প্রতিরোধে রূপ নিতে পারে। উনিশ শতকে এটি কৃষক প্রতিবাদ ও মুসলিম রাজনৈতিক আত্মপ্রকাশের এক স্মরণীয় দৃষ্টান্ত হয়ে থাকে।",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ তিতুমীরের বিদ্রোহ দেখায় কীভাবে ধর্মীয় সংস্কার, কৃষক-অসন্তোষ এবং ঔপনিবেশিক বিরোধী ক্ষোভ সংগঠিত সশস্ত্র প্রতিরোধে রূপ নিতে পারে। উনিশ শতকে এটি কৃষক প্রতিবাদ ও মুসলিম রাজনৈতিক আত্মপ্রকাশের এক স্মরণীয় দৃষ্টান্ত হয়ে থাকে।",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ তিতুমীরের বিদ্রোহ দেখায় কীভাবে ধর্মীয় সংস্কার, কৃষক-অসন্তোষ এবং ঔপনিবেশিক বিরোধী ক্ষোভ সংগঠিত সশস্ত্র প্রতিরোধে রূপ নিতে পারে। উনিশ শতকে এটি কৃষক প্রতিবাদ ও মুসলিম রাজনৈতিক আত্মপ্রকাশের এক স্মরণীয় দৃষ্টান্ত হয়ে থাকে।",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

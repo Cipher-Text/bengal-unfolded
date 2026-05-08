@@ -69,5 +69,47 @@
     "lahore-resolution-banglapedia",
     "the-great-partition"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In March 1940, the All-India Muslim League adopted the Lahore Resolution at its Lahore session, and A. K. Fazlul Huq of Bengal formally moved the resolution. Its language called for Muslim-majority areas in the northwestern and eastern zones of British India to be grouped into 'independent states' with autonomous and sovereign constituent units. Although the text did not mention Pakistan by name, it marked a major political turning point by turning constitutional debate into a mass demand for separate Muslim political existence.",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "lahore-resolution-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Lahore Resolution matters because it gave Bengal a decisive place in the constitutional politics that led toward partition. It sharpened debates over Muslim nationhood, provincial autonomy, and the future of eastern India, and it created one of the clearest political bridges from late colonial representation politics to the partition of Bengal in 1947.",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The Lahore Resolution matters because it gave Bengal a decisive place in the constitutional politics that led toward partition. It sharpened debates over Muslim nationhood, provincial autonomy, and the future of eastern India, and it created one of the clearest political bridges from late colonial representation politics to the partition of Bengal in 1947.",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Lahore Resolution matters because it gave Bengal a decisive place in the constitutional politics that led toward partition. It sharpened debates over Muslim nationhood, provincial autonomy, and the future of eastern India, and it created one of the clearest political bridges from late colonial representation politics to the partition of Bengal in 1947.",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

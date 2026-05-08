@@ -59,5 +59,47 @@
     "mughal-conquest-of-bengal-wikipedia",
     "bengal-sultanate-wikipedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৫৭৬ সালের ১২ জুলাই রাজমহলের যুদ্ধে মুঘল বাহিনী দাউদ খান কররানিকে পরাজিত করে। এই বিজয়ের মাধ্যমে কররানি শাসনের পতন ঘটে, যা স্বাধীন বাংলা সালতানাতের শেষ পর্যায়ের অবসান হিসেবে বিবেচিত হয় এবং বাংলাকে মুঘল সাম্রাজ্যিক প্রশাসনিক কাঠামোয় অন্তর্ভুক্তির প্রক্রিয়া দ্রুততর করে।",
+      "sourceIds": [
+        "battle-of-rajmahal-wikipedia",
+        "mughal-conquest-of-bengal-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এটি সুলতানি বাংলার শেষ পর্যায়কে মুঘল প্রাদেশিক শাসনের সঙ্গে যুক্ত করে। দাউদ খান কররানির পরাজয়ের ফলে বাংলায় কর্তৃত্ব, করব্যবস্থা ও সামরিক নিয়ন্ত্রণের কাঠামো বদলে যায়, যা পরবর্তী নবাবি রাজনীতি ও অষ্টাদশ শতকের সংকটগুলোর প্রাতিষ্ঠানিক ভিত্তি তৈরি করে।",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এটি সুলতানি বাংলার শেষ পর্যায়কে মুঘল প্রাদেশিক শাসনের সঙ্গে যুক্ত করে। দাউদ খান কররানির পরাজয়ের ফলে বাংলায় কর্তৃত্ব, করব্যবস্থা ও সামরিক নিয়ন্ত্রণের কাঠামো বদলে যায়, যা পরবর্তী নবাবি রাজনীতি ও অষ্টাদশ শতকের সংকটগুলোর প্রাতিষ্ঠানিক ভিত্তি তৈরি করে।",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এটি সুলতানি বাংলার শেষ পর্যায়কে মুঘল প্রাদেশিক শাসনের সঙ্গে যুক্ত করে। দাউদ খান কররানির পরাজয়ের ফলে বাংলায় কর্তৃত্ব, করব্যবস্থা ও সামরিক নিয়ন্ত্রণের কাঠামো বদলে যায়, যা পরবর্তী নবাবি রাজনীতি ও অষ্টাদশ শতকের সংকটগুলোর প্রাতিষ্ঠানিক ভিত্তি তৈরি করে।",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "bengal-sultanate-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

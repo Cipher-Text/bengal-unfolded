@@ -45,5 +45,27 @@
   "periodId": "partition-and-late-colonial-politics",
   "movementId": "partition-and-political-representation",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In December 1906, the All-India Muslim League was founded at Dhaka during the Muhammadan Educational Conference. The formation of the League created a new all-India political platform that sought Muslim representation within colonial constitutional politics and would later play a central role in partition-era negotiations.",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1906 founding linked Bengal's political space to broader subcontinental constitutional debates, shaping later questions of representation, communal politics, and state formation.",
+      "sourceIds": [
+        "research-volume",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

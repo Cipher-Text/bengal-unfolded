@@ -49,5 +49,47 @@
     "bakhtiyar-khalji-banglapedia",
     "bakhtiyar-khalji-britannica"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Ikhtiyar al-Din Muhammad Bakhtiyar Khalji's capture of Nadia, associated with 1204-1205, marked a major turning point in Bengal's political history. The fall of the Sena capital center and subsequent movement toward Lakhnauti/Gaur shifted the region's ruling structure and opened a new phase of Turkic-led state formation in Bengal.",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "sena-dynasty-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

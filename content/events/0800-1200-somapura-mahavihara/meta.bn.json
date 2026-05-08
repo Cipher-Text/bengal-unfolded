@@ -41,5 +41,44 @@
   "identityMemorySourceIds": [
     "somapura-mahavira-britannica"
   ],
-  "identityMemoryEvidenceLevel": "high"
+  "identityMemoryEvidenceLevel": "high",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "পাহাড়পুরের সোমপুর মহাবিহার অষ্টম শতকে হিমালয়ের দক্ষিণে বৃহৎ মঠসমূহের অন্যতম হিসেবে গড়ে ওঠে এবং প্রাক-ইসলামি বাংলায় এটি একটি গুরুত্বপূর্ণ জ্ঞানকেন্দ্রে পরিণত হয়।",
+      "sourceIds": [
+        "somapura-mahavira-britannica",
+        "mahasthangarh-unesco"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলায় বৌদ্ধ জ্ঞানচর্চা ও সাংস্কৃতিক বিনিময়ে প্রাতিষ্ঠানিক ভূমিকাকে স্থাপত্য-প্রমাণসহ দেখায়।",
+      "sourceIds": [
+        "somapura-mahavira-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলায় বৌদ্ধ জ্ঞানচর্চা ও সাংস্কৃতিক বিনিময়ে প্রাতিষ্ঠানিক ভূমিকাকে স্থাপত্য-প্রমাণসহ দেখায়।",
+      "sourceIds": [
+        "somapura-mahavira-britannica"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলায় বৌদ্ধ জ্ঞানচর্চা ও সাংস্কৃতিক বিনিময়ে প্রাতিষ্ঠানিক ভূমিকাকে স্থাপত্য-প্রমাণসহ দেখায়।",
+      "sourceIds": [
+        "somapura-mahavira-britannica"
+      ],
+      "evidenceLevel": "high"
+    }
+  ]
 }

@@ -66,5 +66,47 @@
     "calcutta-riot-1946-banglapedia",
     "the-great-partition"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On 16 August 1946, the All-India Muslim League observed Direct Action Day to press its demand for Pakistan after the breakdown of constitutional compromise. In Bengal, where Huseyn Shaheed Suhrawardy headed the provincial ministry, the hartal and mass rally in Calcutta spiraled into devastating communal violence. The killings and reprisals in Calcutta, followed by violence elsewhere including Noakhali and Bihar, marked one of the clearest breakdowns of coexistence in late colonial India and made the partition of Bengal far more likely.",
+      "sourceIds": [
+        "direct-action-day-banglapedia",
+        "direct-action-day-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Direct Action Day matters because it transformed constitutional conflict into mass communal bloodshed in Bengal. It deepened mistrust, destroyed faith in negotiated coexistence, and became a decisive bridge between the Lahore Resolution's political demand and the partition settlement of 1947.",
+      "sourceIds": [
+        "calcutta-riot-1946-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Direct Action Day matters because it transformed constitutional conflict into mass communal bloodshed in Bengal. It deepened mistrust, destroyed faith in negotiated coexistence, and became a decisive bridge between the Lahore Resolution's political demand and the partition settlement of 1947.",
+      "sourceIds": [
+        "calcutta-riot-1946-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Direct Action Day matters because it transformed constitutional conflict into mass communal bloodshed in Bengal. It deepened mistrust, destroyed faith in negotiated coexistence, and became a decisive bridge between the Lahore Resolution's political demand and the partition settlement of 1947.",
+      "sourceIds": [
+        "calcutta-riot-1946-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -39,5 +39,27 @@
   "periodId": "partition-and-late-colonial-politics",
   "movementId": "partition-and-political-representation",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Bengal Famine of 1943 caused catastrophic hunger and death across Bengal. Wartime disruption, inflation, grain-market failures, and policy breakdown under British colonial administration intensified the crisis, devastating rural households and urban poor communities alike.",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The famine reshaped public trust in governance, sharpened anti-colonial anger, and left deep social scars that influenced Bengal's later political trajectory.",
+      "sourceIds": [
+        "midnights-furies",
+        "the-spoils-of-partition"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

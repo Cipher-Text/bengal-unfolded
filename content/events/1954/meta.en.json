@@ -45,5 +45,27 @@
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In the 1954 East Bengal provincial election, the United Front won an overwhelming victory over the ruling Muslim League. The result reflected accumulated public anger over representation, language rights, and economic inequality, and signaled a major shift toward regional democratic assertion in East Bengal.",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The United Front victory showed that electoral politics in East Bengal could decisively challenge centralized authority, strengthening the long arc from language politics to autonomy and later independence.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

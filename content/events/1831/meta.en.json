@@ -57,5 +57,47 @@
     "titu-mir-banglapedia",
     "narkelberia-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1831, Syed Mir Nisar Ali (Titumir) led an armed uprising in Bengal that combined Islamic reform activism with resistance to oppressive zamindari and colonial authority. The movement culminated in the defense of the bamboo fort at Narkelberia, where Company forces eventually crushed the rebellion.",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "titu-mir-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

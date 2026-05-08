@@ -57,5 +57,47 @@
     "creating-panic-hrw",
     "election-guide-bangladesh-2018"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The 11th Parliamentary Election was held on 30 December 2018 and returned the Awami League to power with a very large majority. Opposition parties rejected the result and alleged widespread irregularities, while rights groups and observers raised serious concerns about the pre-election crackdown, violence, arrests, and the overall climate in which the vote took place.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "election-guide-bangladesh-2018"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "election-guide-bangladesh-2018"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "election-guide-bangladesh-2018"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "election-guide-bangladesh-2018"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

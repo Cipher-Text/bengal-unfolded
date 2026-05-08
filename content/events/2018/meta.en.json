@@ -58,5 +58,47 @@
     "creating-panic-hrw",
     "digital-security-act-amnesty"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 2018, Bangladesh saw a compressed sequence of youth-led protest, legislative tightening, and electoral confrontation. The Quota Reform Movement and Safe Road Movement showed how students could rapidly organize around fairness, accountability, and everyday governance. The Digital Security Act then sharpened anxiety over speech and state power, while the 11th Parliamentary Election at the end of the year deepened debate over participation, legitimacy, and the future of democratic competition.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "digital-security-act-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 2018 cluster matters because it helps explain the political mood that shaped the years before 2024. It connected student dissent, questions of public safety and merit, tighter digital control, and a widening crisis of electoral trust into one larger story about power, participation, and the shrinking space for dissent.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "digital-security-act-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The 2018 cluster matters because it helps explain the political mood that shaped the years before 2024. It connected student dissent, questions of public safety and merit, tighter digital control, and a widening crisis of electoral trust into one larger story about power, participation, and the shrinking space for dissent.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "digital-security-act-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The 2018 cluster matters because it helps explain the political mood that shaped the years before 2024. It connected student dissent, questions of public safety and merit, tighter digital control, and a widening crisis of electoral trust into one larger story about power, participation, and the shrinking space for dissent.",
+      "sourceIds": [
+        "creating-panic-hrw",
+        "digital-security-act-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

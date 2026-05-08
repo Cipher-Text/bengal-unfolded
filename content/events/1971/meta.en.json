@@ -86,5 +86,47 @@
     "the-blood-telegram",
     "1971-a-global-history-of-the-creation-of-bangladesh"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The 1971 Liberation War was the final resistance of the people of East Pakistan against long-standing political, economic, and cultural discrimination. After the denial of the people's mandate in the 1970 election and the military crackdown of 25 March, this struggle transformed into an armed war of liberation that led to the birth of independent Bangladesh.",
+      "sourceIds": [
+        "1971-a-global-history-of-the-creation-of-bangladesh",
+        "history-of-the-1971-liberation-war"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "1971 is not only a story of independence—it is a struggle for justice, representation, and human rights. The modern Bangladeshi state, its identity, and its political structure emerged from this war, which remains deeply relevant to ongoing conversations on equality, human dignity, and democracy.",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "1971 is not only a story of independence—it is a struggle for justice, representation, and human rights. The modern Bangladeshi state, its identity, and its political structure emerged from this war, which remains deeply relevant to ongoing conversations on equality, human dignity, and democracy.",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "1971 is not only a story of independence—it is a struggle for justice, representation, and human rights. The modern Bangladeshi state, its identity, and its political structure emerged from this war, which remains deeply relevant to ongoing conversations on equality, human dignity, and democracy.",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

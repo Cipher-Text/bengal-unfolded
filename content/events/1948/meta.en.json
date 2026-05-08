@@ -61,5 +61,47 @@
     "language-movement-banglapedia",
     "language-movement-in-east-bengal"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1948, language rights became a central political question in East Bengal as students and intellectual groups protested attempts to privilege Urdu alone. Strikes, memoranda, and street mobilization during this period laid the foundation for the later 1952 martyrdom-centered phase of the Language Movement.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1948 phase matters because it established the organizational networks, protest language, and rights-based constitutional framing that shaped the historic trajectory of 1952 and beyond.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "language-movement-in-east-bengal"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The 1948 phase matters because it established the organizational networks, protest language, and rights-based constitutional framing that shaped the historic trajectory of 1952 and beyond.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "language-movement-in-east-bengal"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The 1948 phase matters because it established the organizational networks, protest language, and rights-based constitutional framing that shaped the historic trajectory of 1952 and beyond.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "language-movement-in-east-bengal"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

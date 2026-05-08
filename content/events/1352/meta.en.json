@@ -54,5 +54,47 @@
     "bengal-sultanate-wikipedia",
     "adina-mosque-wikipedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "By the mid-fourteenth century, Bengal came under a unified and effectively sovereign sultanate polity, commonly associated with the consolidation of Shamsuddin Ilyas Shah. This marked a major shift from fragmented regional authority to a distinct Bengal state with its own political center and durable institutional identity.",
+      "sourceIds": [
+        "bengal-sultanate-wikipedia",
+        "west-bengal-history-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Bengal Sultanate's independence matters because it framed Bengal as a sovereign regional power with distinct cultural expression, silver coinage traditions, and architectural forms that influenced later Bengali political and urban life.",
+      "sourceIds": [
+        "bengal-sultanate-wikipedia",
+        "adina-mosque-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The Bengal Sultanate's independence matters because it framed Bengal as a sovereign regional power with distinct cultural expression, silver coinage traditions, and architectural forms that influenced later Bengali political and urban life.",
+      "sourceIds": [
+        "bengal-sultanate-wikipedia",
+        "adina-mosque-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Bengal Sultanate's independence matters because it framed Bengal as a sovereign regional power with distinct cultural expression, silver coinage traditions, and architectural forms that influenced later Bengali political and urban life.",
+      "sourceIds": [
+        "bengal-sultanate-wikipedia",
+        "adina-mosque-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

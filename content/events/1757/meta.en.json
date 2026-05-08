@@ -59,5 +59,47 @@
     "robert-clive-britannica",
     "jagat-sheth-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Battle of Plassey in 1757 marked a decisive shift in Bengal's political destiny. What appeared as a short military encounter became a structural transfer of power, as the East India Company secured influence through alliance, betrayal, and financial leverage. The aftermath transformed governance, revenue extraction, and sovereignty in Bengal, laying foundations for long-term colonial rule.",
+      "sourceIds": [
+        "battle-of-plassey-britannica",
+        "palashi-battle-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and economic control.",
+      "sourceIds": [
+        "robert-clive-britannica",
+        "jagat-sheth-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and economic control.",
+      "sourceIds": [
+        "robert-clive-britannica",
+        "jagat-sheth-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and economic control.",
+      "sourceIds": [
+        "robert-clive-britannica",
+        "jagat-sheth-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

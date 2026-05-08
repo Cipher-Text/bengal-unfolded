@@ -54,5 +54,27 @@
   ],
   "requiresSources": true,
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১৩ সালের শুরুতে ঢাকার শাহবাগে ১৯৭১ সালের যুদ্ধাপরাধের বিচার নিয়ে কঠোর জবাবদিহির দাবিতে ব্যাপক গণসমাবেশ গড়ে ওঠে। শিক্ষার্থী, ব্লগার, সাংস্কৃতিক কর্মী ও সাধারণ নাগরিকদের অংশগ্রহণে শাহবাগ একটি ধারাবাহিক প্রতিবাদমঞ্চে পরিণত হয় এবং স্মৃতি-রাজনীতি ও ন্যায়বিচার জাতীয় বিতর্কের কেন্দ্রে আসে।",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "শাহবাগ আন্দোলন দেখিয়েছে ১৯৭১-এর স্মৃতি কীভাবে নতুন প্রজন্মকে রাজনৈতিকভাবে সক্রিয় করতে পারে এবং ন্যায়বিচার, বৈধতা ও নাগরিক অংশগ্রহণের প্রশ্নকে নতুনভাবে সামনে আনে।",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

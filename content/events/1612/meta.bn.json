@@ -54,5 +54,47 @@
     "mughal-conquest-of-bengal-wikipedia",
     "baro-bhuiyans-wikipedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৬১২ সালের মধ্যে বাংলায় মুঘল বিজয় প্রক্রিয়ার প্রধান পর্ব কার্যত সম্পন্ন হয়; রাজমহল-পরবর্তী যুগে বারো-ভূঁইয়া-সহ আঞ্চলিক প্রতিরোধ শক্তির বিরুদ্ধে ধারাবাহিক অভিযানের ফলেই এই অবস্থার সৃষ্টি হয়। স্থানীয়ভাবে কিছু ভিন্নতা থাকলেও সামগ্রিক ক্ষমতার ভারসাম্য তখন স্পষ্টভাবে মুঘল প্রাদেশিক শাসনের দিকে ঝুঁকে পড়ে।",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "baro-bhuiyans-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে প্রতিদ্বন্দ্বিতাপূর্ণ বিজয়-পর্ব থেকে তুলনামূলকভাবে স্থিত প্রশাসনিক সংহতির দিকে উত্তরণ বোঝা যায়। প্রতিরোধ ভেঙে যাওয়ার পর রাজস্ব, সামরিক কমান্ড ও আঞ্চলিক শাসনে মুঘল প্রতিষ্ঠানগুলো আরও ধারাবাহিকভাবে বিস্তার লাভ করে, যা পরবর্তী নবাবি বাংলার রাজনৈতিক কাঠামোকে প্রভাবিত করে।",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "baro-bhuiyans-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে প্রতিদ্বন্দ্বিতাপূর্ণ বিজয়-পর্ব থেকে তুলনামূলকভাবে স্থিত প্রশাসনিক সংহতির দিকে উত্তরণ বোঝা যায়। প্রতিরোধ ভেঙে যাওয়ার পর রাজস্ব, সামরিক কমান্ড ও আঞ্চলিক শাসনে মুঘল প্রতিষ্ঠানগুলো আরও ধারাবাহিকভাবে বিস্তার লাভ করে, যা পরবর্তী নবাবি বাংলার রাজনৈতিক কাঠামোকে প্রভাবিত করে।",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "baro-bhuiyans-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এর মাধ্যমে প্রতিদ্বন্দ্বিতাপূর্ণ বিজয়-পর্ব থেকে তুলনামূলকভাবে স্থিত প্রশাসনিক সংহতির দিকে উত্তরণ বোঝা যায়। প্রতিরোধ ভেঙে যাওয়ার পর রাজস্ব, সামরিক কমান্ড ও আঞ্চলিক শাসনে মুঘল প্রতিষ্ঠানগুলো আরও ধারাবাহিকভাবে বিস্তার লাভ করে, যা পরবর্তী নবাবি বাংলার রাজনৈতিক কাঠামোকে প্রভাবিত করে।",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "baro-bhuiyans-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

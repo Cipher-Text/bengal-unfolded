@@ -60,5 +60,47 @@
     "agartala-conspiracy-case-banglapedia",
     "bangladesh-awami-league-banglapedia"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1968, the Pakistan government prosecuted Sheikh Mujibur Rahman and others in the Agartala Conspiracy Case, alleging plans to separate East Pakistan with Indian support. The case became a flashpoint of political anger, expanded solidarity across student and public spheres, and directly fed into the 1969 mass uprising.",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

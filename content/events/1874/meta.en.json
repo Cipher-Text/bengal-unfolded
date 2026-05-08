@@ -42,5 +42,27 @@
   "periodId": "colonial-rule-and-resistance",
   "movementId": "colonial-capture-and-resistance",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1874, the British administration separated Assam from Bengal and attached Sylhet and Cachar to the new Chief Commissioner's Province of Assam. The move was presented as administrative reform, but it carried lasting consequences for language, governance, and regional political identity in the Bengal-Assam frontier.",
+      "sourceIds": [
+        "assam-banglapedia",
+        "history-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1874 reorganization matters because it introduced an early colonial precedent for separating Bengali-speaking populations across administrative units, a pattern that later fed into wider partition-era debates.",
+      "sourceIds": [
+        "assam-banglapedia",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

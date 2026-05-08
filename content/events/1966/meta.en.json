@@ -66,5 +66,47 @@
     "research-volume",
     "bangladesh-from-mujib-to-ershad"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1966, Sheikh Mujibur Rahman publicly advanced the Six-Point Programme as a constitutional framework for provincial autonomy in Pakistan. The programme reorganized East Pakistan's political demands around representation, fiscal control, and federal restructuring, quickly becoming a defining platform of Bengali nationalist politics.",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Six-Point Programme transformed scattered grievances into a coherent political agenda, laying essential groundwork for the mass upsurge of 1969 and the independence struggle that followed.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The Six-Point Programme transformed scattered grievances into a coherent political agenda, laying essential groundwork for the mass upsurge of 1969 and the independence struggle that followed.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Six-Point Programme transformed scattered grievances into a coherent political agenda, laying essential groundwork for the mass upsurge of 1969 and the independence struggle that followed.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

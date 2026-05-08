@@ -45,5 +45,27 @@
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৫৪ সালের প্রাদেশিক নির্বাচনে পূর্ববঙ্গে যুক্তফ্রন্ট মুসলিম লীগের বিরুদ্ধে বিপুল বিজয় অর্জন করে। প্রতিনিধিত্ব, ভাষার অধিকার এবং অর্থনৈতিক বৈষম্য নিয়ে দীর্ঘদিনের জনঅসন্তোষ এই ফলাফলে প্রতিফলিত হয় এবং আঞ্চলিক গণতান্ত্রিক দাবির রাজনীতি নতুন গতি পায়।",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "যুক্তফ্রন্টের এই বিজয় দেখায় যে পূর্ববঙ্গের নির্বাচনী রাজনীতি কেন্দ্রীয় কর্তৃত্বকে শক্তভাবে চ্যালেঞ্জ করতে সক্ষম, যা ভাষা-আন্দোলন থেকে স্বায়ত্তশাসন ও স্বাধীনতার দীর্ঘ ধারাকে আরও শক্তিশালী করে।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

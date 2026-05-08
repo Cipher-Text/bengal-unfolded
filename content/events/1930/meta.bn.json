@@ -60,5 +60,47 @@
     "surya-sen-banglapedia",
     "research-volume"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৩০ সালের ১৮ এপ্রিল সূর্য সেনের নেতৃত্বে বিপ্লবীরা চট্টগ্রামে ব্রিটিশ অস্ত্রাগার ও যোগাযোগব্যবস্থার ওপর সমন্বিত আক্রমণ পরিচালনা করে। সামরিকভাবে দীর্ঘস্থায়ী নিয়ন্ত্রণ প্রতিষ্ঠা সম্ভব না হলেও এটি বঙ্গের ঔপনিবেশিক-বিরোধী সংগ্রামের অন্যতম প্রতীকী অধ্যায়ে পরিণত হয়।",
+      "sourceIds": [
+        "surya-sen-banglapedia",
+        "history-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৩০ সালের চট্টগ্রাম অভিযান গুরুত্বপূর্ণ, কারণ এটি বঙ্গের বিপ্লবী ধারার একটি স্পষ্ট উদাহরণ; পরে আত্মত্যাগ, তরুণ নেতৃত্ব ও সংগঠিত প্রতিরোধের ঐতিহাসিক স্মৃতিকে এটি গভীরভাবে প্রভাবিত করে।",
+      "sourceIds": [
+        "surya-sen-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "১৯৩০ সালের চট্টগ্রাম অভিযান গুরুত্বপূর্ণ, কারণ এটি বঙ্গের বিপ্লবী ধারার একটি স্পষ্ট উদাহরণ; পরে আত্মত্যাগ, তরুণ নেতৃত্ব ও সংগঠিত প্রতিরোধের ঐতিহাসিক স্মৃতিকে এটি গভীরভাবে প্রভাবিত করে।",
+      "sourceIds": [
+        "surya-sen-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৩০ সালের চট্টগ্রাম অভিযান গুরুত্বপূর্ণ, কারণ এটি বঙ্গের বিপ্লবী ধারার একটি স্পষ্ট উদাহরণ; পরে আত্মত্যাগ, তরুণ নেতৃত্ব ও সংগঠিত প্রতিরোধের ঐতিহাসিক স্মৃতিকে এটি গভীরভাবে প্রভাবিত করে।",
+      "sourceIds": [
+        "surya-sen-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

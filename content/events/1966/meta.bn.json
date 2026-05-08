@@ -66,5 +66,47 @@
     "research-volume",
     "bangladesh-from-mujib-to-ershad"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৬৬ সালে শেখ মুজিবুর রহমান ছয়-দফা কর্মসূচি উপস্থাপন করেন, যা পাকিস্তানের কাঠামোর ভেতরে পূর্ব পাকিস্তানের স্বায়ত্তশাসনের সুস্পষ্ট সাংবিধানিক দাবি হিসেবে সামনে আসে। প্রতিনিধিত্ব, আর্থিক নিয়ন্ত্রণ এবং ফেডারেল পুনর্গঠনকে কেন্দ্র করে এই কর্মসূচি দ্রুত বাঙালি জাতীয়তাবাদী রাজনীতির কেন্দ্রীয় প্ল্যাটফর্মে পরিণত হয়।",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

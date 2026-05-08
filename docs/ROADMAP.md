@@ -172,7 +172,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 ### Historical truth and reference quality
 
-- [ ] RM-TRUTH-001 Claim-level citation model
+- [x] RM-TRUTH-001 Claim-level citation model
 - [ ] RM-TRUTH-002 Source reliability rubric
 - [ ] RM-TRUTH-003 Primary vs secondary source distinction
 - [ ] RM-TRUTH-004 Contested history marker

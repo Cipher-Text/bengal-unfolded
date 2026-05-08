@@ -70,5 +70,47 @@
     "research-volume",
     "bangladesh-from-mujib-to-ershad"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৬৯ সালের গণঅভ্যুত্থান ছিল দীর্ঘ সামরিক-সমর্থিত কর্তৃত্ববাদের বিরুদ্ধে পূর্ব পাকিস্তানে ছাত্র, শ্রমিক, বিরোধী রাজনীতি ও সাধারণ মানুষের যুগপৎ প্রতিবাদের শীর্ষ পর্ব। এই আন্দোলন আইয়ুব শাসনের ভিত্তি নড়বড়ে করে, গণতান্ত্রিক অধিকার ও আঞ্চলিক স্বায়ত্তশাসনের প্রশ্নকে মূলধারায় আনে, এবং ১৯৭০-এর নির্বাচন ও পরবর্তী মুক্তিযুদ্ধের জন্য রাজনৈতিক জমিন তৈরি করে।",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৬৯-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্রনেতৃত্ব, গণ-সংহতি ও স্বৈরবিরোধী জোট পূর্ব পাকিস্তানের রাজনৈতিক গতিপথকে আমূল বদলে দেয়।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "১৯৬৯-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্রনেতৃত্ব, গণ-সংহতি ও স্বৈরবিরোধী জোট পূর্ব পাকিস্তানের রাজনৈতিক গতিপথকে আমূল বদলে দেয়।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৬৯-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্রনেতৃত্ব, গণ-সংহতি ও স্বৈরবিরোধী জোট পূর্ব পাকিস্তানের রাজনৈতিক গতিপথকে আমূল বদলে দেয়।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

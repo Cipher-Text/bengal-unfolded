@@ -40,5 +40,27 @@
   "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "memory-justice-and-civic-dissent",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "After two students were killed by a speeding bus in Dhaka on 29 July 2018, school and college students took to the streets demanding safer roads, lawful driving, and accountability in the transport sector. Their disciplined visibility, direct traffic monitoring, and nationwide resonance turned the movement into one of the year's most memorable youth-led civic moments.",
+      "sourceIds": [
+        "safe-road-protests-hrw",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Safe Road Movement matters because it broadened the meaning of protest in Bangladesh. It linked everyday safety to questions of governance, discipline, policing, and civic dignity, and it exposed how quickly a moral public demand could meet repression.",
+      "sourceIds": [
+        "safe-road-protests-hrw",
+        "creating-panic-hrw"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

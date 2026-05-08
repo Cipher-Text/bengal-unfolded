@@ -58,5 +58,47 @@
     "bangladesh-rifles-banglapedia",
     "fear-never-leaves-me-hrw"
   ],
-  "identityMemoryEvidenceLevel": "medium"
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০০৯ সালের ২৫-২৬ ফেব্রুয়ারি ঢাকার পিলখানায় বাংলাদেশ রাইফেলসের কিছু সদস্যের বিদ্রোহ বাংলাদেশের ইতিহাসে সবচেয়ে ভয়াবহ অভ্যন্তরীণ নিরাপত্তা সংকটগুলোর একটিতে পরিণত হয়। বাহিনীতে প্রেষণে থাকা বহু সেনা কর্মকর্তা নিহত হন, পরিবারের সদস্যরা সদর দপ্তরের ভেতরে আটকা পড়েন, এবং জরুরি শাসন শেষে সদ্য ক্ষমতায় আসা নির্বাচিত সরকার তাৎক্ষণিকভাবে রাষ্ট্রীয় কর্তৃত্বের কঠিন পরীক্ষার মুখোমুখি হয়।",
+      "sourceIds": [
+        "bangladesh-rifles-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "পিলখানা বিদ্রোহ গুরুত্বপূর্ণ, কারণ এটি দেখায় যে জরুরি শাসন-পরবর্তী বাংলাদেশের রূপান্তর কতটা ভঙ্গুর ছিল। এর পরবর্তী প্রতিক্রিয়া বেসামরিক-সামরিক আস্থা, বাংলাদেশ রাইফেলসকে বর্ডার গার্ড বাংলাদেশে পুনর্গঠন, এবং বিচার, জবাবদিহি ও অভিযুক্তদের প্রতি আচরণ নিয়ে দীর্ঘস্থায়ী বিতর্ককে প্রভাবিত করে।",
+      "sourceIds": [
+        "bangladesh-rifles-banglapedia",
+        "fear-never-leaves-me-hrw"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "পিলখানা বিদ্রোহ গুরুত্বপূর্ণ, কারণ এটি দেখায় যে জরুরি শাসন-পরবর্তী বাংলাদেশের রূপান্তর কতটা ভঙ্গুর ছিল। এর পরবর্তী প্রতিক্রিয়া বেসামরিক-সামরিক আস্থা, বাংলাদেশ রাইফেলসকে বর্ডার গার্ড বাংলাদেশে পুনর্গঠন, এবং বিচার, জবাবদিহি ও অভিযুক্তদের প্রতি আচরণ নিয়ে দীর্ঘস্থায়ী বিতর্ককে প্রভাবিত করে।",
+      "sourceIds": [
+        "bangladesh-rifles-banglapedia",
+        "fear-never-leaves-me-hrw"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "পিলখানা বিদ্রোহ গুরুত্বপূর্ণ, কারণ এটি দেখায় যে জরুরি শাসন-পরবর্তী বাংলাদেশের রূপান্তর কতটা ভঙ্গুর ছিল। এর পরবর্তী প্রতিক্রিয়া বেসামরিক-সামরিক আস্থা, বাংলাদেশ রাইফেলসকে বর্ডার গার্ড বাংলাদেশে পুনর্গঠন, এবং বিচার, জবাবদিহি ও অভিযুক্তদের প্রতি আচরণ নিয়ে দীর্ঘস্থায়ী বিতর্ককে প্রভাবিত করে।",
+      "sourceIds": [
+        "bangladesh-rifles-banglapedia",
+        "fear-never-leaves-me-hrw"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
 }

@@ -74,11 +74,14 @@ For every schema or field change:
   - if `longTermLegacySourceIds` exists and is non-empty, `longTermLegacyEvidenceLevel` is required
   - if `culturalImpactSourceIds` exists and is non-empty, `culturalImpactEvidenceLevel` is required
   - if `identityMemorySourceIds` exists and is non-empty, `identityMemoryEvidenceLevel` is required
+  - if `claimCitations` exists, each entry must include `id`, `section`, `claim`, non-empty `sourceIds`, and valid `evidenceLevel`
   - if `requiresSources` is `true`, both `summarySourceIds` and `whyItMattersSourceIds` must be non-empty
   - if `importance` is `major`, `longTermLegacy` must be present and non-empty
   - if `importance` is `major`, `identityMemoryNotes` must be present and non-empty
+  - if `importance` is `major`, `claimCitations` must be non-empty
   - if `importance` is `landmark`, `culturalImpact` must be present and non-empty
   - if `importance` is `landmark`, `identityMemoryNotes` must be present and non-empty
+  - if `importance` is `landmark`, `claimCitations` must be non-empty
 
 ## Sensitive event contract
 
