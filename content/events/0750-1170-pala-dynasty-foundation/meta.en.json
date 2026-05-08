@@ -33,5 +33,10 @@
   "periodId": "ancient-and-pre-sultanate-bengal",
   "showOnLanding": false,
   "summaryEvidenceLevel": "high",
-  "whyItMattersEvidenceLevel": "high"
+  "whyItMattersEvidenceLevel": "high",
+  "culturalImpact": "This event matters because it marks the beginning of a durable Bengal-based dynasty with long political reach and major religious-intellectual patronage.",
+  "culturalImpactSourceIds": [
+    "pala-dynasty-britannica"
+  ],
+  "culturalImpactEvidenceLevel": "high"
 }

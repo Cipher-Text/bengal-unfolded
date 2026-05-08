@@ -72,5 +72,11 @@
     "war violence",
     "mass atrocities"
   ],
-  "requiresSources": true
+  "requiresSources": true,
+  "culturalImpact": "1971 is not only a story of independence—it is a struggle for justice, representation, and human rights. The modern Bangladeshi state, its identity, and its political structure emerged from this war, which remains deeply relevant to ongoing conversations on equality, human dignity, and democracy.",
+  "culturalImpactSourceIds": [
+    "the-blood-telegram",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

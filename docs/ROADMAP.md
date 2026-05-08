@@ -167,7 +167,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [ ] RM-REL-009 Place-to-event timeline view
 - [ ] RM-REL-010 Book/resource-to-event reverse mapping
 - [x] RM-REL-011 Long-term legacy fields for major events
-- [ ] RM-REL-012 Cultural impact fields for selected events
+- [x] RM-REL-012 Cultural impact fields for selected events
 - [ ] RM-REL-013 Identity and memory notes for major historical moments
 
 ### Historical truth and reference quality

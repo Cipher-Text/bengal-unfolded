@@ -54,5 +54,11 @@
     "state violence allegations",
     "mass unrest"
   ],
-  "requiresSources": true
+  "requiresSources": true,
+  "culturalImpact": "২০২৪ সালের এই আন্দোলন শুধু একটি নীতিগত পরিবর্তনের দাবি নয়—এটি সমতা, ন্যায্যতা এবং তরুণদের ভবিষ্যৎ নিয়ে একটি গুরুত্বপূর্ণ সামাজিক প্রশ্ন তুলে ধরে। এটি দেখায় যে নতুন প্রজন্ম তাদের অধিকার ও সুযোগের বিষয়ে সচেতন এবং সক্রিয়।",
+  "culturalImpactSourceIds": [
+    "research-volume",
+    "archive-collection"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

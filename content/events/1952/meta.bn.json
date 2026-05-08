@@ -53,5 +53,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "culturalImpact": "ভাষা আন্দোলন বোঝা জরুরি, কারণ এখানেই বাঙালি পরিচয়, গণতান্ত্রিক অধিকার এবং সাংস্কৃতিক স্বায়ত্তশাসনের প্রশ্ন এক সুতোয় বাঁধা পড়ে।",
+  "culturalImpactSourceIds": [
+    "language-movement-in-east-bengal",
+    "state-language-movement-in-east-bengal-1947-1956"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

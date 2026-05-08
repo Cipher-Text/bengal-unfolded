@@ -58,5 +58,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
-  "movementId": "state-power-and-democratic-transition"
+  "movementId": "state-power-and-democratic-transition",
+  "culturalImpact": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+  "culturalImpactSourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

@@ -46,5 +46,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "culturalImpact": "The events of 1970 matter because they showed both the vulnerability and the political will of East Pakistan. The Bhola cyclone intensified anger at state neglect, and the election established an unambiguous democratic claim to rule. When that mandate was blocked, the path from autonomy politics to national liberation became far shorter and more explosive.",
+  "culturalImpactSourceIds": [
+    "war-of-liberation-banglapedia",
+    "pakistan-banglapedia"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

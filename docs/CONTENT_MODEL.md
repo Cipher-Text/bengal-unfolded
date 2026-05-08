@@ -105,6 +105,9 @@ Image rendering policy:
 - `EventMeta.longTermLegacy?` (optional string; required for `importance: major`): long-horizon consequence narrative
 - `EventMeta.longTermLegacySourceIds?` (optional `string[]`): citations for long-term legacy narrative
 - `EventMeta.longTermLegacyEvidenceLevel?` (optional `high | medium | low`): evidence strength for long-term legacy narrative
+- `EventMeta.culturalImpact?` (optional string; required for `importance: landmark`): culture-facing memory and influence narrative
+- `EventMeta.culturalImpactSourceIds?` (optional `string[]`): citations for cultural impact narrative
+- `EventMeta.culturalImpactEvidenceLevel?` (optional `high | medium | low`): evidence strength for cultural impact narrative
 - `EventMeta.parentEvent?` (optional): parent cluster anchor event slug
 - `EventMeta.childEventIds?` (optional): ordered child chapter slugs for cluster discovery
 - `EventMeta.relatedEvents?` (optional): ordered typed historical relationships with `{ eventId, relationType }`

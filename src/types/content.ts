@@ -452,6 +452,9 @@ export type EventMeta = {
   longTermLegacy?: string;
   longTermLegacySourceIds?: string[];
   longTermLegacyEvidenceLevel?: EvidenceLevel;
+  culturalImpact?: string;
+  culturalImpactSourceIds?: string[];
+  culturalImpactEvidenceLevel?: EvidenceLevel;
   importance: EventImportance;
   parentEvent?: EventSlug;
   childEventIds?: EventSlug[];

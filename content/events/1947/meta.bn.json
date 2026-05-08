@@ -73,5 +73,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "partition-and-late-colonial-politics",
-  "movementId": "partition-and-political-representation"
+  "movementId": "partition-and-political-representation",
+  "culturalImpact": "বাংলার দেশভাগ বোঝা জরুরি, কারণ এখান থেকেই পূর্ববঙ্গে ভাষা, প্রতিনিধিত্ব, স্বায়ত্তশাসন এবং জাতীয় সত্তার প্রশ্ন আরও তীব্র হয়ে ওঠে।",
+  "culturalImpactSourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

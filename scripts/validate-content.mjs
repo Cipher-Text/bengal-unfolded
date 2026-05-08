@@ -198,6 +198,7 @@ async function main() {
       const summaryIds = Array.isArray(meta.summarySourceIds) ? meta.summarySourceIds : [];
       const whyIds = Array.isArray(meta.whyItMattersSourceIds) ? meta.whyItMattersSourceIds : [];
       const legacyIds = Array.isArray(meta.longTermLegacySourceIds) ? meta.longTermLegacySourceIds : [];
+      const culturalIds = Array.isArray(meta.culturalImpactSourceIds) ? meta.culturalImpactSourceIds : [];
       if (summaryIds.length > 0) {
         if (typeof meta.summaryEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.summaryEvidenceLevel)) {
           errors.push(`Invalid or missing summaryEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
@@ -213,9 +214,19 @@ async function main() {
           errors.push(`Invalid or missing longTermLegacyEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
         }
       }
+      if (culturalIds.length > 0) {
+        if (typeof meta.culturalImpactEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.culturalImpactEvidenceLevel)) {
+          errors.push(`Invalid or missing culturalImpactEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
       if ("longTermLegacy" in meta && meta.longTermLegacy !== undefined) {
         if (typeof meta.longTermLegacy !== "string" || meta.longTermLegacy.trim().length === 0) {
           errors.push(`Invalid longTermLegacy at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if ("culturalImpact" in meta && meta.culturalImpact !== undefined) {
+        if (typeof meta.culturalImpact !== "string" || meta.culturalImpact.trim().length === 0) {
+          errors.push(`Invalid culturalImpact at content/events/${slug}/meta.${locale}.json`);
         }
       }
       if (meta.requiresSources === true) {
@@ -229,6 +240,11 @@ async function main() {
       if (meta.importance === "major") {
         if (typeof meta.longTermLegacy !== "string" || meta.longTermLegacy.trim().length === 0) {
           errors.push(`importance=major requires longTermLegacy at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if (meta.importance === "landmark") {
+        if (typeof meta.culturalImpact !== "string" || meta.culturalImpact.trim().length === 0) {
+          errors.push(`importance=landmark requires culturalImpact at content/events/${slug}/meta.${locale}.json`);
         }
       }
     }
@@ -323,7 +339,7 @@ async function main() {
     if (resourceIdsFile && Array.isArray(resourceIdsFile)) {
       for (const [locale, meta] of [["en", metaEn], ["bn", metaBn]]) {
         if (!meta || typeof meta !== "object") continue;
-        const fields = ["summarySourceIds", "whyItMattersSourceIds", "longTermLegacySourceIds"];
+        const fields = ["summarySourceIds", "whyItMattersSourceIds", "longTermLegacySourceIds", "culturalImpactSourceIds"];
         for (const fieldName of fields) {
           const sourceIds = meta[fieldName];
           if (sourceIds === undefined) continue;

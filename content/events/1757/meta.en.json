@@ -45,5 +45,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",
-  "movementId": "colonial-capture-and-resistance"
+  "movementId": "colonial-capture-and-resistance",
+  "culturalImpact": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and economic control.",
+  "culturalImpactSourceIds": [
+    "robert-clive-britannica",
+    "jagat-sheth-banglapedia"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

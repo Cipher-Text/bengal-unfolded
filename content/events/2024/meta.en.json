@@ -54,5 +54,11 @@
     "state violence allegations",
     "mass unrest"
   ],
-  "requiresSources": true
+  "requiresSources": true,
+  "culturalImpact": "The 2024 movement was not only a demand for policy change. It raised a deeper social question about fairness, equality, and the future of young people, showing how a new generation is active and politically conscious about its rights and opportunities.",
+  "culturalImpactSourceIds": [
+    "research-volume",
+    "archive-collection"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

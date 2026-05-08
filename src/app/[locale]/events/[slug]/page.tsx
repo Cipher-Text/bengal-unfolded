@@ -47,6 +47,7 @@ const EVENT_LABELS = {
     faq: "FAQ",
     whyItMatters: "Why This Event Matters Today",
     legacyNarrative: "Long-Term Legacy",
+    culturalImpact: "Cultural Impact",
     whyItMattersSources: "Why It Matters Sources",
     evidence: "Evidence",
     high: "High",
@@ -85,6 +86,7 @@ const EVENT_LABELS = {
     faq: "প্রশ্নোত্তর",
     whyItMatters: "কেন এই ঘটনা আজও গুরুত্বপূর্ণ",
     legacyNarrative: "দীর্ঘমেয়াদি উত্তরাধিকার",
+    culturalImpact: "সাংস্কৃতিক প্রভাব",
     whyItMattersSources: "গুরুত্ব ব্যাখ্যার সূত্র",
     evidence: "প্রমাণের শক্তি",
     high: "উচ্চ",
@@ -246,6 +248,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           {quoteEntries.length > 0 ? <a href="#quotes" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
           {event.meta.longTermLegacy ? <a href="#long-term-legacy" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.legacyNarrative}</a> : null}
+          {event.meta.culturalImpact ? <a href="#cultural-impact" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.culturalImpact}</a> : null}
         </div>
       </nav>
 
@@ -442,6 +445,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         <AnimatedContainer delay={0.27}>
           <section id="long-term-legacy" className="scroll-mt-24">
           <SectionTitle title={labels.legacyNarrative} subtitle={<>{renderGlossaryLinkedText(event.meta.longTermLegacy, locale as Locale)}{renderInlineCitations(event.meta.longTermLegacySourceIds, resourceById)}{renderEvidenceBadge(event.meta.longTermLegacyEvidenceLevel)}</>} />
+          </section>
+        </AnimatedContainer>
+      ) : null}
+
+      {event.meta.culturalImpact ? (
+        <AnimatedContainer delay={0.28}>
+          <section id="cultural-impact" className="scroll-mt-24">
+          <SectionTitle title={labels.culturalImpact} subtitle={<>{renderGlossaryLinkedText(event.meta.culturalImpact, locale as Locale)}{renderInlineCitations(event.meta.culturalImpactSourceIds, resourceById)}{renderEvidenceBadge(event.meta.culturalImpactEvidenceLevel)}</>} />
           </section>
         </AnimatedContainer>
       ) : null}

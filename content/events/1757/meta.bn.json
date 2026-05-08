@@ -45,5 +45,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",
-  "movementId": "colonial-capture-and-resistance"
+  "movementId": "colonial-capture-and-resistance",
+  "culturalImpact": "পলাশী বোঝা জরুরি, কারণ এখান থেকেই বাংলায় ঔপনিবেশিক আধিপত্যের সামরিক, রাজনৈতিক ও অর্থনৈতিক ভিত্তি স্পষ্ট হয়ে ওঠে।",
+  "culturalImpactSourceIds": [
+    "robert-clive-britannica",
+    "jagat-sheth-banglapedia"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }

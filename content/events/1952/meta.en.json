@@ -53,5 +53,11 @@
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
-  "movementId": "language-autonomy-and-liberation"
+  "movementId": "language-autonomy-and-liberation",
+  "culturalImpact": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+  "culturalImpactSourceIds": [
+    "language-movement-in-east-bengal",
+    "state-language-movement-in-east-bengal-1947-1956"
+  ],
+  "culturalImpactEvidenceLevel": "medium"
 }
