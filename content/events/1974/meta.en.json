@@ -60,5 +60,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The crisis of 1974 matters because it explains why the legitimacy of the post-1971 order weakened so quickly. Famine exposed the fragility of reconstruction, while emergency-style governance and preventive detention laws signaled a state moving away from the promise of 1972 and toward the ruptures of 1975.",
+  "identityMemorySourceIds": [
+    "special-powers-act-1974-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

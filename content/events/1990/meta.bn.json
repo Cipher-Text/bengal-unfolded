@@ -66,5 +66,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "১৯৯০-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্ররাজনীতি, বিরোধী জোট এবং নাগরিক প্রতিরোধ একত্র হয়ে নির্বাচনী গণতন্ত্র পুনঃপ্রতিষ্ঠা করে।",
+  "identityMemorySourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

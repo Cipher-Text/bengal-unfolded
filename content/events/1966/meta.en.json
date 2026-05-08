@@ -60,5 +60,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Six-Point Programme transformed scattered grievances into a coherent political agenda, laying essential groundwork for the mass upsurge of 1969 and the independence struggle that followed.",
+  "identityMemorySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

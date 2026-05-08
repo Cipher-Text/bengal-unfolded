@@ -54,5 +54,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "১৯৮২ সালের অভ্যুত্থান গুরুত্বপূর্ণ, কারণ এখান থেকেই বোঝা যায় কেন ১৯৯০-এর গণঅভ্যুত্থান সেই রূপ ধারণ করেছিল। এরশাদের ক্ষমতাদখল দেখায় যে সাংবিধানিক শাসন তখনও সামরিক হস্তক্ষেপের সামনে ভীষণ দুর্বল ছিল, এবং এখান থেকেই সেই কর্তৃত্ববাদী কাঠামো, বিরোধী জোট, ও প্রতিবাদের সংস্কৃতি তৈরি হয় যা পরে গণতান্ত্রিক রূপান্তরকে সম্ভব করে।",
+  "identityMemorySourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

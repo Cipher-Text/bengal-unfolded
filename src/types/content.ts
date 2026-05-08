@@ -459,6 +459,9 @@ export type EventMeta = {
   culturalImpact?: string;
   culturalImpactSourceIds?: string[];
   culturalImpactEvidenceLevel?: EvidenceLevel;
+  identityMemoryNotes?: string;
+  identityMemorySourceIds?: string[];
+  identityMemoryEvidenceLevel?: EvidenceLevel;
   importance: EventImportance;
   parentEvent?: EventSlug;
   childEventIds?: EventSlug[];

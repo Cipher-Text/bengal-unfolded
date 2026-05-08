@@ -55,5 +55,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The 1948 phase matters because it established the organizational networks, protest language, and rights-based constitutional framing that shaped the historic trajectory of 1952 and beyond.",
+  "identityMemorySourceIds": [
+    "language-movement-banglapedia",
+    "language-movement-in-east-bengal"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

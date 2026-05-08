@@ -64,5 +64,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+  "identityMemorySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

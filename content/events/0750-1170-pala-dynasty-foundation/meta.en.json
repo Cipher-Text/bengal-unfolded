@@ -40,5 +40,10 @@
   ],
   "culturalImpactEvidenceLevel": "high",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This event matters because it marks the beginning of a durable Bengal-based dynasty with long political reach and major religious-intellectual patronage.",
+  "identityMemorySourceIds": [
+    "pala-dynasty-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "high"
 }

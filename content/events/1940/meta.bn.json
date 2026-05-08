@@ -63,5 +63,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "লাহোর প্রস্তাব গুরুত্বপূর্ণ, কারণ এটি দেশভাগের দিকে যাওয়া সাংবিধানিক রাজনীতিতে বাংলাকে একটি নির্ণায়ক অবস্থানে নিয়ে আসে। মুসলিম জাতিসত্তা, প্রাদেশিক স্বায়ত্তশাসন এবং পূর্বাঞ্চলের ভবিষ্যৎ নিয়ে বিতর্ককে এটি তীব্র করে এবং ১৯৪৭ সালের বঙ্গভাগের পথে একটি স্পষ্ট রাজনৈতিক সেতু তৈরি করে।",
+  "identityMemorySourceIds": [
+    "lahore-resolution-banglapedia",
+    "the-great-partition"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

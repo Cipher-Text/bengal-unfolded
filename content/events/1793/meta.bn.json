@@ -58,5 +58,12 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "চিরস্থায়ী বন্দোবস্ত বোঝা জরুরি, কারণ এর মাধ্যমেই ঔপনিবেশিক শাসন বাংলার ভূমি, শ্রেণি-ক্ষমতা ও সম্পদ-নিষ্কাশনের কাঠামোর মধ্যে গভীরভাবে প্রোথিত হয়। এর প্রভাব কৃষকের জীবন, জমিদারি কর্তৃত্ব এবং পরবর্তী দুর্ভিক্ষ, প্রতিরোধ ও রাজনৈতিক পরিবর্তনের পটভূমি গঠনে দীর্ঘস্থায়ী ছিল।",
+  "identityMemorySourceIds": [
+    "permanent-settlement-banglapedia",
+    "revenue-sale-law-1793-banglapedia",
+    "cornwallis-code-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

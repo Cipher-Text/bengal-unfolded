@@ -212,6 +212,7 @@ async function main() {
       const whyIds = Array.isArray(meta.whyItMattersSourceIds) ? meta.whyItMattersSourceIds : [];
       const legacyIds = Array.isArray(meta.longTermLegacySourceIds) ? meta.longTermLegacySourceIds : [];
       const culturalIds = Array.isArray(meta.culturalImpactSourceIds) ? meta.culturalImpactSourceIds : [];
+      const identityIds = Array.isArray(meta.identityMemorySourceIds) ? meta.identityMemorySourceIds : [];
       if (summaryIds.length > 0) {
         if (typeof meta.summaryEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.summaryEvidenceLevel)) {
           errors.push(`Invalid or missing summaryEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
@@ -232,6 +233,11 @@ async function main() {
           errors.push(`Invalid or missing culturalImpactEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
         }
       }
+      if (identityIds.length > 0) {
+        if (typeof meta.identityMemoryEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.identityMemoryEvidenceLevel)) {
+          errors.push(`Invalid or missing identityMemoryEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
       if ("longTermLegacy" in meta && meta.longTermLegacy !== undefined) {
         if (typeof meta.longTermLegacy !== "string" || meta.longTermLegacy.trim().length === 0) {
           errors.push(`Invalid longTermLegacy at content/events/${slug}/meta.${locale}.json`);
@@ -240,6 +246,11 @@ async function main() {
       if ("culturalImpact" in meta && meta.culturalImpact !== undefined) {
         if (typeof meta.culturalImpact !== "string" || meta.culturalImpact.trim().length === 0) {
           errors.push(`Invalid culturalImpact at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if ("identityMemoryNotes" in meta && meta.identityMemoryNotes !== undefined) {
+        if (typeof meta.identityMemoryNotes !== "string" || meta.identityMemoryNotes.trim().length === 0) {
+          errors.push(`Invalid identityMemoryNotes at content/events/${slug}/meta.${locale}.json`);
         }
       }
       if (meta.requiresSources === true) {
@@ -258,6 +269,14 @@ async function main() {
       if (meta.importance === "landmark") {
         if (typeof meta.culturalImpact !== "string" || meta.culturalImpact.trim().length === 0) {
           errors.push(`importance=landmark requires culturalImpact at content/events/${slug}/meta.${locale}.json`);
+        }
+        if (typeof meta.identityMemoryNotes !== "string" || meta.identityMemoryNotes.trim().length === 0) {
+          errors.push(`importance=landmark requires identityMemoryNotes at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if (meta.importance === "major") {
+        if (typeof meta.identityMemoryNotes !== "string" || meta.identityMemoryNotes.trim().length === 0) {
+          errors.push(`importance=major requires identityMemoryNotes at content/events/${slug}/meta.${locale}.json`);
         }
       }
     }
@@ -352,7 +371,7 @@ async function main() {
     if (resourceIdsFile && Array.isArray(resourceIdsFile)) {
       for (const [locale, meta] of [["en", metaEn], ["bn", metaBn]]) {
         if (!meta || typeof meta !== "object") continue;
-        const fields = ["summarySourceIds", "whyItMattersSourceIds", "longTermLegacySourceIds", "culturalImpactSourceIds"];
+        const fields = ["summarySourceIds", "whyItMattersSourceIds", "longTermLegacySourceIds", "culturalImpactSourceIds", "identityMemorySourceIds"];
         for (const fieldName of fields) {
           const sourceIds = meta[fieldName];
           if (sourceIds === undefined) continue;

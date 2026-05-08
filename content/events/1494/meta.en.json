@@ -48,5 +48,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This event matters because Hussain Shahi rule became a key bridge between earlier sultanate state formation and the sixteenth-century transformations that followed. It influenced political authority, regional diplomacy, and cultural production in ways that remained visible in Bengal's later historical transitions.",
+  "identityMemorySourceIds": [
+    "hussain-shahi-dynasty-wikipedia",
+    "bengal-sultanate-wikipedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

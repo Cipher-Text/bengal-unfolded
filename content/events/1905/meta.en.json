@@ -54,5 +54,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interests, and left a political legacy that continued into the annulment of 1911 and the deeper partition crisis of 1947.",
+  "identityMemorySourceIds": [
+    "swadeshi-movement-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

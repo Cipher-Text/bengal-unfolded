@@ -53,5 +53,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "পলাশী বোঝা জরুরি, কারণ এখান থেকেই বাংলায় ঔপনিবেশিক আধিপত্যের সামরিক, রাজনৈতিক ও অর্থনৈতিক ভিত্তি স্পষ্ট হয়ে ওঠে।",
+  "identityMemorySourceIds": [
+    "robert-clive-britannica",
+    "jagat-sheth-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

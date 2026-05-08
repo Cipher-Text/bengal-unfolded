@@ -48,5 +48,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এটি দেখায় যে বাংলা সালতানাতের ক্ষমতা কাঠামো ছিল প্রতিযোগিতামূলক এবং স্থানীয় ভূস্বামী এলিটরাও রাজবংশীয় উত্তরাধিকারকে প্রভাবিত করতে পারত। এই অধ্যায় জলালউদ্দিন মুহাম্মদ শাহের আমলের নতুন বৈধতা-বিন্যাস এবং পরে ইলিয়াস শাহি পুনঃপ্রতিষ্ঠার প্রেক্ষাপট তৈরি করে।",
+  "identityMemorySourceIds": [
+    "house-of-ganesha-wikipedia",
+    "bengal-sultanate-wikipedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

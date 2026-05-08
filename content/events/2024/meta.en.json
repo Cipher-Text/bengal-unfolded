@@ -62,5 +62,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The 2024 movement was not only a demand for policy change. It raised a deeper social question about fairness, equality, and the future of young people, showing how a new generation is active and politically conscious about its rights and opportunities.",
+  "identityMemorySourceIds": [
+    "research-volume",
+    "archive-collection"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

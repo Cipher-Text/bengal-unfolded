@@ -4,6 +4,22 @@
 
 ### Completed
 
+- RM-REL-013 identity and memory notes rollout:
+  - Model:
+    - Added `identityMemoryNotes`, `identityMemorySourceIds`, and `identityMemoryEvidenceLevel` to `EventMeta` in `src/types/content.ts`.
+  - Validation:
+    - Added `identityMemoryNotes` shape checks.
+    - Added `identityMemorySourceIds -> identityMemoryEvidenceLevel` requirement.
+    - Added `importance=major|landmark` requirement for non-empty `identityMemoryNotes`.
+    - Added source ID integrity checks for `identityMemorySourceIds` against event `resource-ids.json` and global resources.
+  - UI/runtime:
+    - Added localized `Identity and Memory Notes` section to event detail pages with glossary-linked text, inline citations, and evidence badge.
+    - Added jump-nav anchor/link for the new section.
+  - Backfill:
+    - Populated identity-memory fields for all `importance=major` and `importance=landmark` chapters in EN/BN using existing validated narrative/citation metadata as base.
+  - Docs:
+    - Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and roadmap checkbox state in `docs/ROADMAP.md`.
+
 - RM-REL-010 book/resource-to-event reverse mapping rollout:
   - Model: No schema/type additions required.
   - Validation: No validator rule changes required.

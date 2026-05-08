@@ -54,5 +54,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "১৯০৫ সালের বঙ্গভঙ্গ গুরুত্বপূর্ণ, কারণ এটি বাংলাকে উপনিবেশবিরোধী প্রতিবাদের কেন্দ্রভূমিতে পরিণত করে, প্রতিনিধিত্ব ও সাম্প্রদায়িক স্বার্থ নিয়ে বিতর্ক তীব্র করে, এবং এমন এক রাজনৈতিক উত্তরাধিকার তৈরি করে যা ১৯১১ সালের রদ থেকে ১৯৪৭ সালের দেশভাগ-সংকট পর্যন্ত বিস্তৃত থাকে।",
+  "identityMemorySourceIds": [
+    "swadeshi-movement-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

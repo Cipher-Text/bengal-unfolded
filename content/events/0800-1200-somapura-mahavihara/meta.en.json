@@ -36,5 +36,10 @@
   ],
   "longTermLegacyEvidenceLevel": "high",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This event matters because it provides durable architectural evidence of Bengal's institutional role in Buddhist scholarship and cultural exchange.",
+  "identityMemorySourceIds": [
+    "somapura-mahavira-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "high"
 }

@@ -55,6 +55,7 @@ const EVENT_LABELS = {
     whyItMatters: "Why This Event Matters Today",
     legacyNarrative: "Long-Term Legacy",
     culturalImpact: "Cultural Impact",
+    identityMemory: "Identity and Memory Notes",
     whyItMattersSources: "Why It Matters Sources",
     evidence: "Evidence",
     high: "High",
@@ -99,6 +100,7 @@ const EVENT_LABELS = {
     whyItMatters: "কেন এই ঘটনা আজও গুরুত্বপূর্ণ",
     legacyNarrative: "দীর্ঘমেয়াদি উত্তরাধিকার",
     culturalImpact: "সাংস্কৃতিক প্রভাব",
+    identityMemory: "পরিচয় ও স্মৃতি নোট",
     whyItMattersSources: "গুরুত্ব ব্যাখ্যার সূত্র",
     evidence: "প্রমাণের শক্তি",
     high: "উচ্চ",
@@ -273,6 +275,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
           {event.meta.longTermLegacy ? <a href="#long-term-legacy" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.legacyNarrative}</a> : null}
           {event.meta.culturalImpact ? <a href="#cultural-impact" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.culturalImpact}</a> : null}
+          {event.meta.identityMemoryNotes ? <a href="#identity-memory" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.identityMemory}</a> : null}
         </div>
       </nav>
 
@@ -485,6 +488,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         <AnimatedContainer delay={0.28}>
           <section id="cultural-impact" className="scroll-mt-24">
           <SectionTitle title={labels.culturalImpact} subtitle={<>{renderGlossaryLinkedText(event.meta.culturalImpact, locale as Locale)}{renderInlineCitations(event.meta.culturalImpactSourceIds, resourceById)}{renderEvidenceBadge(event.meta.culturalImpactEvidenceLevel)}</>} />
+          </section>
+        </AnimatedContainer>
+      ) : null}
+
+      {event.meta.identityMemoryNotes ? (
+        <AnimatedContainer delay={0.29}>
+          <section id="identity-memory" className="scroll-mt-24">
+          <SectionTitle title={labels.identityMemory} subtitle={<>{renderGlossaryLinkedText(event.meta.identityMemoryNotes, locale as Locale)}{renderInlineCitations(event.meta.identityMemorySourceIds, resourceById)}{renderEvidenceBadge(event.meta.identityMemoryEvidenceLevel)}</>} />
           </section>
         </AnimatedContainer>
       ) : null}

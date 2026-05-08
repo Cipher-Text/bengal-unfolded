@@ -56,5 +56,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The 1857 revolt matters because it exposed the fragility of colonial legitimacy and influenced later political resistance traditions in Bengal and beyond.",
+  "identityMemorySourceIds": [
+    "indian-rebellion-1857-britannica",
+    "mangal-pandey-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

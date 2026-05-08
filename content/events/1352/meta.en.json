@@ -48,5 +48,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Bengal Sultanate's independence matters because it framed Bengal as a sovereign regional power with distinct cultural expression, silver coinage traditions, and architectural forms that influenced later Bengali political and urban life.",
+  "identityMemorySourceIds": [
+    "bengal-sultanate-wikipedia",
+    "adina-mosque-wikipedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

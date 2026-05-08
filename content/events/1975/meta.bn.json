@@ -70,5 +70,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+  "identityMemorySourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

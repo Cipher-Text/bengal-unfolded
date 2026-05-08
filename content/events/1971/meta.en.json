@@ -80,5 +80,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "1971 is not only a story of independence—it is a struggle for justice, representation, and human rights. The modern Bangladeshi state, its identity, and its political structure emerged from this war, which remains deeply relevant to ongoing conversations on equality, human dignity, and democracy.",
+  "identityMemorySourceIds": [
+    "the-blood-telegram",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

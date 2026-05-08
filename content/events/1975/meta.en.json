@@ -70,5 +70,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The crises of 1975 remain central to understanding Bangladesh's later constitutional shifts, military interventions, and contested memory of legitimacy and democracy.",
+  "identityMemorySourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

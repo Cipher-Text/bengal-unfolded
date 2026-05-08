@@ -81,5 +81,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+  "identityMemorySourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

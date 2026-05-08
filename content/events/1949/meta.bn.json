@@ -59,5 +59,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "১৯৪৯ সালের এই প্রতিষ্ঠা গুরুত্বপূর্ণ, কারণ এটি ভাষা-আন্দোলন, আঞ্চলিক প্রতিনিধিত্ব ও গণতান্ত্রিক দাবিকে দীর্ঘমেয়াদি দলীয় কাঠামোয় যুক্ত করে।",
+  "identityMemorySourceIds": [
+    "bangladesh-awami-league-banglapedia",
+    "research-volume"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

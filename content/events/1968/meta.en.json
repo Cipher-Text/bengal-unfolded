@@ -54,5 +54,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+  "identityMemorySourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "bangladesh-awami-league-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

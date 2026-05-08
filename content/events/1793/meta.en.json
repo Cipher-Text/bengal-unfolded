@@ -58,5 +58,12 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "Permanent Settlement matters because it helps explain how colonial rule in Bengal became embedded in land, class power, and extraction. Its effects shaped peasant life, landlord authority, and the agrarian tensions that echoed into later famines, resistance, and political change.",
+  "identityMemorySourceIds": [
+    "permanent-settlement-banglapedia",
+    "revenue-sale-law-1793-banglapedia",
+    "cornwallis-code-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

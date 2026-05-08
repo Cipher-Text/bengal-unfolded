@@ -61,5 +61,12 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "দেওয়ানি অধিকার বোঝা জরুরি, কারণ এর মাধ্যমেই ১৭৫৭-পরবর্তী কোম্পানি-প্রভাব বাংলায় গভীরতর ঔপনিবেশিক শাসন ও সম্পদ-নিষ্কাশনের ব্যবস্থায় পরিণত হয়, যার দীর্ঘ ছায়া পরবর্তী সংকট, দুর্ভিক্ষ, প্রতিরোধ ও সাম্রাজ্য বিস্তারে পড়ে।",
+  "identityMemorySourceIds": [
+    "diwani-banglapedia",
+    "robert-clive-britannica",
+    "east-india-company-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

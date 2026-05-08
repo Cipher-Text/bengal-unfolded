@@ -48,5 +48,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This event matters because it captures the transition from contested conquest to administrative consolidation. With resistance largely subdued, Mughal institutions could expand more consistently in revenue, military command, and territorial governance, shaping the political order inherited by later nawabi Bengal.",
+  "identityMemorySourceIds": [
+    "mughal-conquest-of-bengal-wikipedia",
+    "baro-bhuiyans-wikipedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

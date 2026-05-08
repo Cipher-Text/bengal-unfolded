@@ -51,5 +51,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+  "identityMemorySourceIds": [
+    "faraizi-movement-banglapedia",
+    "haji-shariatullah-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

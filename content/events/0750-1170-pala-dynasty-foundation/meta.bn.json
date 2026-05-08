@@ -40,5 +40,10 @@
   ],
   "culturalImpactEvidenceLevel": "high",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলা-ভিত্তিক দীর্ঘস্থায়ী এক রাজবংশের সূচনা এবং বিস্তৃত রাজনৈতিক প্রভাবের পাশাপাশি ধর্মীয়-জ্ঞানচর্চার পৃষ্ঠপোষকতার ভিত্তি স্থাপন করে।",
+  "identityMemorySourceIds": [
+    "pala-dynasty-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "high"
 }

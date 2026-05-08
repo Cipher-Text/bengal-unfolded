@@ -48,5 +48,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলা সালতানাতের স্বাধীনতা গুরুত্বপূর্ণ, কারণ এটি বাংলাকে স্বতন্ত্র সার্বভৌম আঞ্চলিক শক্তি হিসেবে প্রতিষ্ঠা করে; একই সঙ্গে সংস্কৃতি, রৌপ্য মুদ্রা প্রচলন এবং স্থাপত্যে নিজস্ব ধারার বিকাশ ঘটায়, যা পরবর্তী বাংলার রাজনৈতিক-নগর ইতিহাসে প্রভাব ফেলে।",
+  "identityMemorySourceIds": [
+    "bengal-sultanate-wikipedia",
+    "adina-mosque-wikipedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

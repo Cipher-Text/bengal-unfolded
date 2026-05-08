@@ -37,5 +37,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বিজয়-পূর্ব রাজনৈতিক সংস্কৃতি ও নদীয়া দখলের পরবর্তী পুনর্গঠিত শাসনব্যবস্থার মধ্যে সরাসরি সেতু রচনা করে।",
+  "identityMemorySourceIds": [
+    "sena-dynasty-britannica",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

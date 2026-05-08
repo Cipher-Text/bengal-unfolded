@@ -61,5 +61,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+  "identityMemorySourceIds": [
+    "language-movement-in-east-bengal",
+    "state-language-movement-in-east-bengal-1947-1956"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

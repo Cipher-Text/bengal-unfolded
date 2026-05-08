@@ -52,5 +52,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The 2018 cluster matters because it helps explain the political mood that shaped the years before 2024. It connected student dissent, questions of public safety and merit, tighter digital control, and a widening crisis of electoral trust into one larger story about power, participation, and the shrinking space for dissent.",
+  "identityMemorySourceIds": [
+    "creating-panic-hrw",
+    "digital-security-act-amnesty"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

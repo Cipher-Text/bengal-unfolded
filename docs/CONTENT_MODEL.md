@@ -113,6 +113,9 @@ Image rendering policy:
 - `EventMeta.culturalImpact?` (optional string; required for `importance: landmark`): culture-facing memory and influence narrative
 - `EventMeta.culturalImpactSourceIds?` (optional `string[]`): citations for cultural impact narrative
 - `EventMeta.culturalImpactEvidenceLevel?` (optional `high | medium | low`): evidence strength for cultural impact narrative
+- `EventMeta.identityMemoryNotes?` (optional string; required for `importance: major | landmark`): identity and collective memory framing for major historical moments
+- `EventMeta.identityMemorySourceIds?` (optional `string[]`): citations for identity-memory narrative
+- `EventMeta.identityMemoryEvidenceLevel?` (optional `high | medium | low`): evidence strength for identity-memory narrative
 - `EventMeta.parentEvent?` (optional): parent cluster anchor event slug
 - `EventMeta.childEventIds?` (optional): ordered child chapter slugs for cluster discovery
 - `EventMeta.relatedEvents?` (optional): ordered typed historical relationships with `{ eventId, relationType }`

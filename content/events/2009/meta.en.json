@@ -52,5 +52,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Pilkhana mutiny matters because it exposed how fragile Bangladesh's post-emergency transition remained. Its aftermath reshaped civil-military trust, drove the reorganization of Bangladesh Rifles into Border Guard Bangladesh, and left a lasting debate over justice, accountability, and the treatment of the accused.",
+  "identityMemorySourceIds": [
+    "bangladesh-rifles-banglapedia",
+    "fear-never-leaves-me-hrw"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

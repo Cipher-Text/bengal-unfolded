@@ -81,5 +81,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলার দেশভাগ বোঝা জরুরি, কারণ এখান থেকেই পূর্ববঙ্গে ভাষা, প্রতিনিধিত্ব, স্বায়ত্তশাসন এবং জাতীয় সত্তার প্রশ্ন আরও তীব্র হয়ে ওঠে।",
+  "identityMemorySourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

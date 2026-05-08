@@ -54,5 +54,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "আগরতলা মামলা গুরুত্বপূর্ণ, কারণ এটি কেন্দ্রীয় শাসনের গ্রহণযোগ্যতা সংকটকে প্রকাশ করে এবং সাংবিধানিক স্বায়ত্তশাসনের রাজনীতিকে সর্বস্তরের স্বৈরবিরোধী আন্দোলনের দিকে ঠেলে দেয়।",
+  "identityMemorySourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "bangladesh-awami-league-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

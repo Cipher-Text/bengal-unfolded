@@ -60,5 +60,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+  "identityMemorySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

@@ -54,5 +54,11 @@
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The 1982 coup matters because it explains why the 1990 uprising took the form it did. Ershad's takeover showed that the constitutional order remained deeply vulnerable to military intervention, and it set in motion the authoritarian system, opposition alliances, and protest cultures that later converged to force democratic transition.",
+  "identityMemorySourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

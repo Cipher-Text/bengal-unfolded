@@ -61,5 +61,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল"
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "ভাষা আন্দোলন বোঝা জরুরি, কারণ এখানেই বাঙালি পরিচয়, গণতান্ত্রিক অধিকার এবং সাংস্কৃতিক স্বায়ত্তশাসনের প্রশ্ন এক সুতোয় বাঁধা পড়ে।",
+  "identityMemorySourceIds": [
+    "language-movement-in-east-bengal",
+    "state-language-movement-in-east-bengal-1947-1956"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }

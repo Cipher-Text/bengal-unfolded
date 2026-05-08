@@ -53,5 +53,11 @@
   ],
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
-  "placeLabel": "Bengal Region"
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and economic control.",
+  "identityMemorySourceIds": [
+    "robert-clive-britannica",
+    "jagat-sheth-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium"
 }
