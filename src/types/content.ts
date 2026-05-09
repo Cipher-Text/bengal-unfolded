@@ -117,6 +117,7 @@ export const SUPPORTED_FIGURE_IDS = [
   "murshid-quli-khan",
   "charles-cornwallis",
   "nahid-islam",
+  "sharif-osman-hadi",
   "asif-mahmud",
   "sarjis-alam",
   "hasnat-abdullah",
