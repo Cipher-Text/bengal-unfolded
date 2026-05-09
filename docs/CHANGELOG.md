@@ -4,6 +4,13 @@
 
 ### Completed
 
+- 2024 figure backfill for Sharif Osman Hadi:
+  - Content: Added `sharif-osman-hadi` figure metadata in EN/BN as a 2024 student-activist / Inquilab Mancha spokesperson profile.
+  - Content: Linked the figure into `content/events/2024/figure-ids.json` and the `democracy-and-civic-movements` and `bangladesh-history` topic hubs for discoverability.
+  - Model: Updated `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` so the figure route and loaders recognize the new profile.
+  - Validation: No new validator rules were required; existing figure ID and EN/BN parity checks cover the backfill.
+  - Docs: Added this changelog entry to record the content sync.
+
 - Historical timeline expansion with three new Bengal/Bangladesh chapters:
   - Added event chapters `1764` (Battle of Buxar), `1770` (Great Bengal Famine), `1935` (Government of India Act 1935), and `1937` (Bengal Provincial Election and Coalition Ministry) with full EN/BN event packs.
   - Added event chapter `2007-2008` (Emergency-era Caretaker Rule) with full EN/BN event packs.
