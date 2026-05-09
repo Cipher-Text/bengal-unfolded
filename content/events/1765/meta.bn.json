@@ -48,7 +48,7 @@
   ],
   "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
   "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
-  "showOnLanding": true,
+  "showOnLanding": false,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",

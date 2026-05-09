@@ -48,7 +48,7 @@
   ],
   "periodLabel": "Colonial Rule and Resistance",
   "movementLabel": "Colonial capture and resistance",
-  "showOnLanding": true,
+  "showOnLanding": false,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",

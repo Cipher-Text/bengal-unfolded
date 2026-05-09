@@ -34,7 +34,7 @@
   ],
   "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
   "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
-  "showOnLanding": true,
+  "showOnLanding": false,
   "summarySourceIds": [
     "surya-sen-banglapedia",
     "history-banglapedia"

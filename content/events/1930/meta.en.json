@@ -34,7 +34,7 @@
   ],
   "periodLabel": "Partition and Late Colonial Politics",
   "movementLabel": "Colonial capture and resistance",
-  "showOnLanding": true,
+  "showOnLanding": false,
   "summarySourceIds": [
     "surya-sen-banglapedia",
     "history-banglapedia"
