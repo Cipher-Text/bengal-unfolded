@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const event = await getEventContent(locale, slug);
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${event.meta.year} - ${event.meta.title} | Bengal Unfolded`,
+    title: `${event.meta.year} - ${event.meta.title}${event.meta.subtitle ? `: ${event.meta.subtitle}` : ""} | Bengal Unfolded`,
     description: event.meta.summary,
     canonicalPath: `/${locale}/events/${slug}`,
     languagePathWithoutLocale: `/events/${slug}`,

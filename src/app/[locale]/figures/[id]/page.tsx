@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const figure = await getFigure(locale, id);
   return buildPageMetadata({
     locale: locale as Locale,
-    title: figure.name,
+    title: `${figure.name}${figure.role ? `: ${figure.role}` : ""} | Bengal Unfolded`,
     description: figure.highlight ?? figure.contribution,
     canonicalPath: `/${locale}/figures/${id}`,
     languagePathWithoutLocale: `/figures/${id}`,
