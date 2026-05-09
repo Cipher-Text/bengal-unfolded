@@ -23,11 +23,13 @@ const ENTITY_LABELS: Record<Locale, Record<FigureEntityType, string>> = {
   en: {
     person: "Person",
     party: "Party",
+    alliance: "Alliance",
     organization: "Organization",
   },
   bn: {
     person: "ব্যক্তি",
     party: "দল",
+    alliance: "জোট",
     organization: "সংস্থা",
   },
 };

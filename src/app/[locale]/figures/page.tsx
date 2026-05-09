@@ -44,7 +44,7 @@ export async function generateMetadata({
 
 const PAGE_SIZE = 20;
 const GROUP_VALUES: Figure["group"][] = ["leader", "coordinator", "martyr", "organization", "collective"];
-const ENTITY_VALUES: FigureEntityType[] = ["person", "party", "organization"];
+const ENTITY_VALUES: FigureEntityType[] = ["person", "party", "alliance", "organization"];
 
 function normalize(v: string): string {
   return v.trim().toLowerCase();
@@ -118,6 +118,7 @@ export default async function FiguresListPage({
             <option value="">{isBn ? "সব সত্তা" : "All entities"}</option>
             <option value="person">{isBn ? "ব্যক্তি" : "Person"}</option>
             <option value="party">{isBn ? "দল" : "Party"}</option>
+            <option value="alliance">{isBn ? "জোট" : "Alliance"}</option>
             <option value="organization">{isBn ? "সংস্থা" : "Organization"}</option>
           </select>
           <select name="group" defaultValue={groupValue} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm">
