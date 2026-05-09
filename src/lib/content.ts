@@ -640,9 +640,8 @@ export async function getEventContent(
 
 export async function getAllEvents(locale: string): Promise<EventMeta[]> {
   assertSupportedLocale(locale);
-  return Promise.all(
-    SUPPORTED_EVENT_SLUGS.map((slug) => getEventMeta(locale, slug)),
-  );
+  const chronologicalSlugs = await getChronologicalEventSlugs(locale as Locale);
+  return Promise.all(chronologicalSlugs.map((slug) => getEventMeta(locale, slug)));
 }
 
 export async function getEventHierarchy(

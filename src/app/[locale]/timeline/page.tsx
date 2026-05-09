@@ -150,14 +150,14 @@ export default async function TimelineExplorerPage({
   const intro = isBn
     ? "সব অধ্যায় একসাথে দেখে গুরুত্ব, পর্ব এবং বৃহত্তর ধারাবাহিকতা বোঝার জন্য এই এক্সপ্লোরার ব্যবহার করুন।"
     : "Use this explorer to see all chapters together and understand their importance, period, and broader continuity.";
-  const groupedEvents = pageEvents.reduce<Array<{ label: string; events: typeof pageEvents }>>((groups, event) => {
+  const groupedEvents = pageEvents.reduce<Array<{ key: string; label: string; events: typeof pageEvents }>>((groups, event) => {
     const label = event.periodLabel ?? (isBn ? "অন্যান্য অধ্যায়" : "Other Chapters");
     const currentGroup = groups[groups.length - 1];
     if (currentGroup && currentGroup.label === label) {
       currentGroup.events.push(event);
       return groups;
     }
-    groups.push({ label, events: [event] });
+    groups.push({ key: `${label}-${event.slug}`, label, events: [event] });
     return groups;
   }, []);
 
@@ -240,7 +240,7 @@ export default async function TimelineExplorerPage({
         {pageEvents.length > 0 ? (
           <div className="space-y-8">
             {groupedEvents.map((group) => (
-              <section key={group.label} className="space-y-4">
+              <section key={group.key} className="space-y-4">
                 <div>
                   <h2 className="text-xl font-semibold md:text-2xl">{group.label}</h2>
                   {group.events[0]?.movementLabel ? (
