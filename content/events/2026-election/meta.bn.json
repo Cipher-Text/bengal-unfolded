@@ -1,0 +1,108 @@
+{
+  "slug": "2026-election",
+  "year": "২০২৬",
+  "title": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন",
+  "subtitle": "নির্বাচনের সময়সূচি, প্রশাসনিক কাঠামো ও অংশগ্রহণের শর্ত ২০২৬-এর রাজনীতিতে কেন্দ্রীয় বিতর্কে পরিণত হয়।",
+  "summary": "২০২৬ সালে বাংলাদেশের ত্রয়োদশ জাতীয় সংসদ নির্বাচনকে ঘিরে আলোচনা জাতীয় রাজনীতির একটি কেন্দ্রীয় ইস্যু হয়ে ওঠে। বিতর্কের কেন্দ্র ছিল নির্বাচনের সময়, প্রাতিষ্ঠানিক ব্যবস্থাপনা এবং প্রধান দল ও ভোটারদের চোখে প্রক্রিয়াটি কতটা বিশ্বাসযোগ্য ও অংশগ্রহণমূলক হবে।",
+  "themeColor": "#7c2d12",
+  "ctaLabel": "নির্বাচনের প্রেক্ষাপট দেখুন",
+  "heroTagline": "শুধু ভোটের তারিখ নয়, প্রক্রিয়া, অংশগ্রহণ ও তদারকিতে আস্থাই বৈধতার মূল নির্ধারক।",
+  "whyItMatters": "এই নির্বাচন-চক্র গুরুত্বপূর্ণ, কারণ এটি সাংবিধানিক ধারাবাহিকতা ও ২০২৪-পরবর্তী রাজনৈতিক রূপান্তরের সংযোগস্থলে দাঁড়িয়ে আছে। নিয়ম নির্ধারণ, বিরোধ নিষ্পত্তি ও অংশগ্রহণ নিশ্চিত করার ধরন দীর্ঘমেয়াদে নির্বাচনী গণতন্ত্রে জনআস্থাকে প্রভাবিত করবে।",
+  "importance": "major",
+  "parentEvent": "2024",
+  "relatedEvents": [
+    {
+      "eventId": "2006",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2014",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2018-election",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2024",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2006",
+    "2014",
+    "2018-election",
+    "2024"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "archive-collection",
+    "research-volume"
+  ],
+  "whyItMattersSourceIds": [
+    "archive-collection",
+    "research-volume"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "longTermLegacy": "২০২৬ সালের নির্বাচন প্রক্রিয়া রূপান্তর-পরবর্তী সময়ে নির্বাচনী বৈধতা নিয়ে নাগরিকদের মূল্যায়নকে দীর্ঘমেয়াদে প্রভাবিত করতে পারে। এর প্রভাব কেবল একটি ফলাফলে নয়, বরং প্রতিষ্ঠানগুলো প্রতিযোগিতামূলক ও বিশ্বাসযোগ্য অংশগ্রহণ ধরে রাখতে পারে কি না, তার ওপর নির্ভরশীল।",
+  "longTermLegacySourceIds": [
+    "archive-collection",
+    "research-volume"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "সমষ্টিগত স্মৃতিতে ২০২৬-কে অনেক সময় শুধু একটি ভোটদিন নয়, বরং বহু বছরের বিতর্কের পর নির্বাচনী রাজনীতির বৈধতা পুনর্গঠনের পরীক্ষাক্ষণ হিসেবে দেখা হয়।",
+  "identityMemorySourceIds": [
+    "archive-collection",
+    "research-volume"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০২৬ সালে বাংলাদেশের ত্রয়োদশ জাতীয় সংসদ নির্বাচনকে ঘিরে আলোচনা জাতীয় রাজনীতির একটি কেন্দ্রীয় ইস্যু হয়ে ওঠে। বিতর্কের কেন্দ্র ছিল নির্বাচনের সময়, প্রাতিষ্ঠানিক ব্যবস্থাপনা এবং প্রধান দল ও ভোটারদের চোখে প্রক্রিয়াটি কতটা বিশ্বাসযোগ্য ও অংশগ্রহণমূলক হবে।",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই নির্বাচন-চক্র গুরুত্বপূর্ণ, কারণ এটি সাংবিধানিক ধারাবাহিকতা ও ২০২৪-পরবর্তী রাজনৈতিক রূপান্তরের সংযোগস্থলে দাঁড়িয়ে আছে। নিয়ম নির্ধারণ, বিরোধ নিষ্পত্তি ও অংশগ্রহণ নিশ্চিত করার ধরন দীর্ঘমেয়াদে নির্বাচনী গণতন্ত্রে জনআস্থাকে প্রভাবিত করবে।",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "২০২৬ সালের নির্বাচন প্রক্রিয়া রূপান্তর-পরবর্তী সময়ে নির্বাচনী বৈধতা নিয়ে নাগরিকদের মূল্যায়নকে দীর্ঘমেয়াদে প্রভাবিত করতে পারে। এর প্রভাব কেবল একটি ফলাফলে নয়, বরং প্রতিষ্ঠানগুলো প্রতিযোগিতামূলক ও বিশ্বাসযোগ্য অংশগ্রহণ ধরে রাখতে পারে কি না, তার ওপর নির্ভরশীল।",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "সমষ্টিগত স্মৃতিতে ২০২৬-কে অনেক সময় শুধু একটি ভোটদিন নয়, বরং বহু বছরের বিতর্কের পর নির্বাচনী রাজনীতির বৈধতা পুনর্গঠনের পরীক্ষাক্ষণ হিসেবে দেখা হয়।",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

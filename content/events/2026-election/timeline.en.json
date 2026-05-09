@@ -1,0 +1,42 @@
+[
+  {
+    "year": "2026",
+    "title": "Election roadmap becomes a central political question",
+    "detail": "Public attention intensifies around election scheduling, legal framework, and administrative preparedness for the 13th parliamentary vote.",
+    "sourceIds": [
+      "archive-collection",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "Debate centers on participation and credibility",
+    "detail": "Political actors and civil voices debate whether participation conditions, oversight, and campaign space are sufficient for broad legitimacy.",
+    "sourceIds": [
+      "archive-collection",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "Election discourse linked to longer democratic trajectory",
+    "detail": "The 2026 cycle is widely interpreted in relation to unresolved debates from earlier election periods, especially around trust, rules, and transfer of power.",
+    "sourceIds": [
+      "archive-collection",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]
