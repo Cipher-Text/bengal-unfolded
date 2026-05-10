@@ -1,0 +1,54 @@
+[
+  {
+    "year": "১৭৬০",
+    "title": "কোম্পানি-নিয়মের বিরুদ্ধে প্রাথমিক প্রতিরোধ",
+    "detail": "বঙ্গপিডিয়া অনুযায়ী ১৭৬০ সালেই প্রতিরোধ শুরু হয়, যখন আলমস ও রাজস্ব-সংক্রান্ত কোম্পানি-নিয়ম মঠ-মারফত গোষ্ঠীগুলোর জীবনযাত্রা ব্যাহত করে।",
+    "sourceIds": [
+      "fakir-sannyasi-resistance-banglapedia",
+      "sannyasi-rebellion-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "১৭৬৩",
+    "title": "কোম্পানি-কুঠি ও রাজস্বকেন্দ্রে আঘাত",
+    "detail": "বিদ্রোহীরা ধীরে ধীরে সংগঠিত আকার নেয় এবং ঢাকা, বাকেরগঞ্জ, ও রামপুর বোয়ালিয়ায় কোম্পানি কুঠি ও রাজস্ব দফতরে আঘাত করে।",
+    "sourceIds": [
+      "fakir-sannyasi-resistance-banglapedia",
+      "sannyasi-rebellion-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "১৭৭০",
+    "title": "দুর্ভিক্ষ সংঘাতকে তীব্র করে",
+    "detail": "১৭৭০ সালের বাংলার দুর্ভিক্ষ সামাজিক সংকটকে আরও গভীর করে এবং বিদ্রোহের জনভিত্তি বিস্তৃত করে; ফলে এটি কোম্পানি-শাসনের বৃহত্তর সংকটের অংশ হয়ে ওঠে।",
+    "sourceIds": [
+      "sannyasi-rebellion-britannica",
+      "great-bengal-famine-1770-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "১৭৯৩-১৮০০",
+    "title": "শেষ পর্যায়ের দমন ও ধীরে ধীরে ক্ষয়",
+    "detail": "কোম্পানির কঠোর প্রশাসন ও নেতৃত্ব দুর্বল হওয়ার সঙ্গে সঙ্গে আন্দোলনের শেষ ধাপ আসে এবং তা ধীরে ধীরে ক্ষয়প্রাপ্ত হয়।",
+    "sourceIds": [
+      "fakir-sannyasi-resistance-banglapedia",
+      "sannyasi-rebellion-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  }
+]

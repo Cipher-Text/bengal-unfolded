@@ -38,13 +38,18 @@
     {
       "eventId": "1943",
       "relationType": "legacy"
+    },
+    {
+      "eventId": "1760-1800-fakir-sannyasi-resistance",
+      "relationType": "effect"
     }
   ],
   "relatedEventIds": [
     "1757",
     "1793",
     "1857",
-    "1943"
+    "1943",
+    "1760-1800-fakir-sannyasi-resistance"
   ],
   "periodLabel": "Colonial Rule and Resistance",
   "movementLabel": "Colonial capture and resistance",

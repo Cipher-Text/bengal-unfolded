@@ -1,0 +1,54 @@
+[
+  {
+    "year": "1760",
+    "title": "Initial resistance to Company regulation",
+    "detail": "Banglapedia places the beginning of the resistance in 1760, when Company regulations on alms and revenue disturbed the mendicant communities that relied on pilgrimage routes and patronage.",
+    "sourceIds": [
+      "fakir-sannyasi-resistance-banglapedia",
+      "sannyasi-rebellion-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1763",
+    "title": "Attacks on Company establishments",
+    "detail": "The revolt gathered momentum as rebels struck Company kuthi and revenue offices in Dhaka, Bakerganj, and Rampur Boalia, signalling an organised challenge to Company presence.",
+    "sourceIds": [
+      "fakir-sannyasi-resistance-banglapedia",
+      "sannyasi-rebellion-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1770",
+    "title": "Famine intensifies the conflict",
+    "detail": "The Bengal famine of 1770 deepened social distress and widened rebel support, making the resistance part of the wider crisis of early Company rule.",
+    "sourceIds": [
+      "sannyasi-rebellion-britannica",
+      "great-bengal-famine-1770-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  },
+  {
+    "year": "1793-1800",
+    "title": "Late crackdown and gradual decline",
+    "detail": "The final phase came with tighter Company administration and the weakening of rebel leadership, after which the movement gradually faded.",
+    "sourceIds": [
+      "fakir-sannyasi-resistance-banglapedia",
+      "sannyasi-rebellion-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  }
+]

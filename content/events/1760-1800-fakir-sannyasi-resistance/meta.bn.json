@@ -1,0 +1,107 @@
+{
+  "slug": "1760-1800-fakir-sannyasi-resistance",
+  "year": "১৭৬০-১৮০০",
+  "title": "ফকির-সন্ন্যাসী প্রতিরোধ",
+  "subtitle": "১৭৬০-এর দশক থেকে অষ্টাদশ শতকের শেষভাগ পর্যন্ত বাংলায় ইংরেজ কোম্পানিবিরোধী মঠ-মারফত প্রতিরোধ।",
+  "summary": "ফকির-সন্ন্যাসী প্রতিরোধ ছিল বাংলায় ইস্ট ইন্ডিয়া কোম্পানির বিরুদ্ধে মুসলিম ফকির ও হিন্দু সন্ন্যাসীদের দীর্ঘস্থায়ী সশস্ত্র আন্দোলন। ১৭৬০ সালে শুরু হয়ে ১৭৬৩ সালে তা তীব্রতা পায়। আলমস-সংগ্রহে বিধিনিষেধ, রাজস্বচাপ, এবং কোম্পানি-শাসনের সামাজিক ভাঙন এই আন্দোলনের পেছনে কাজ করে। দুর্ভিক্ষের বছরগুলো ও অষ্টাদশ শতকের শেষভাগের দমনাভিযান পেরিয়ে এটি একাধিক পর্যায়ে চলতে থাকে এবং বাংলার প্রথম দিককার দীর্ঘমেয়াদি ঔপনিবেশিক প্রতিরোধগুলোর অন্যতম হয়ে ওঠে।",
+  "themeColor": "#7d4a2f",
+  "ctaLabel": "প্রতিরোধ দেখুন",
+  "heroTagline": "বাংলার প্রথম দিককার দীর্ঘস্থায়ী কোম্পানিবিরোধী প্রতিরোধ নতুন ঔপনিবেশিক ক্ষমতার সামাজিক অভিঘাতে গড়ে ওঠে।",
+  "summarySourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica"
+  ],
+  "whyItMatters": "এই প্রতিরোধ গুরুত্বপূর্ণ, কারণ এটি দেখায় যে কোম্পানি-শাসনের বিরোধিতা খুবই দ্রুত জন্ম নেয় এবং ধর্মীয় ফকির, কৃষক ও স্থানীয় নেটওয়ার্ককে একত্র করেছিল। এটি উনিশ শতকের আগেই বাংলার ঔপনিবেশিক-প্রতিরোধী রাজনীতির বিকাশ বুঝতে সাহায্য করে।",
+  "whyItMattersSourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1757",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1765",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1770",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1793",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1757",
+    "1765",
+    "1770",
+    "1793"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "এই প্রতিরোধ দেখায়, কোম্পানির রাজস্ব-আহরণ ও সামাজিক নিয়ন্ত্রণ বাংলাজুড়ে কীভাবে দীর্ঘস্থায়ী বিদ্রোহকে উসকে দিতে পারে। এটি আরও দেখায় যে ঔপনিবেশিক কর্তৃত্বের বিরুদ্ধে গ্রামীণ ও ধর্মীয়-ভিত্তিক প্রতিরোধ বাংলায় খুব শুরুর দিক থেকেই সক্রিয় ছিল।",
+  "longTermLegacySourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "ফকির-সন্ন্যাসী প্রতিরোধ বাংলার প্রাথমিক ঔপনিবেশিক প্রতিরোধের স্মৃতিভাণ্ডারের অংশ হয়ে আছে। ধর্মীয় কর্তৃত্ব, কৃষক-সমর্থন, এবং গেরিলা চাপের মিশ্রণ এটিকে অঞ্চলের রাজনৈতিক কল্পনায় গুরুত্বপূর্ণ পূর্বসূরি করে তোলে।",
+  "identityMemorySourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "ফকির-সন্ন্যাসী প্রতিরোধ ছিল বাংলায় ইস্ট ইন্ডিয়া কোম্পানির বিরুদ্ধে মুসলিম ফকির ও হিন্দু সন্ন্যাসীদের দীর্ঘস্থায়ী সশস্ত্র আন্দোলন। ১৭৬০ সালে শুরু হয়ে ১৭৬৩ সালে তা তীব্রতা পায়। আলমস-সংগ্রহে বিধিনিষেধ, রাজস্বচাপ, এবং কোম্পানি-শাসনের সামাজিক ভাঙন এই আন্দোলনের পেছনে কাজ করে। দুর্ভিক্ষের বছরগুলো ও অষ্টাদশ শতকের শেষভাগের দমনাভিযান পেরিয়ে এটি একাধিক পর্যায়ে চলতে থাকে এবং বাংলার প্রথম দিককার দীর্ঘমেয়াদি ঔপনিবেশিক প্রতিরোধগুলোর অন্যতম হয়ে ওঠে।",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই প্রতিরোধ গুরুত্বপূর্ণ, কারণ এটি দেখায় যে কোম্পানি-শাসনের বিরোধিতা খুবই দ্রুত জন্ম নেয় এবং ধর্মীয় ফকির, কৃষক ও স্থানীয় নেটওয়ার্ককে একত্র করেছিল। এটি উনিশ শতকের আগেই বাংলার ঔপনিবেশিক-প্রতিরোধী রাজনীতির বিকাশ বুঝতে সাহায্য করে।",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এই প্রতিরোধ দেখায়, কোম্পানির রাজস্ব-আহরণ ও সামাজিক নিয়ন্ত্রণ বাংলাজুড়ে কীভাবে দীর্ঘস্থায়ী বিদ্রোহকে উসকে দিতে পারে। এটি আরও দেখায় যে ঔপনিবেশিক কর্তৃত্বের বিরুদ্ধে গ্রামীণ ও ধর্মীয়-ভিত্তিক প্রতিরোধ বাংলায় খুব শুরুর দিক থেকেই সক্রিয় ছিল।",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "ফকির-সন্ন্যাসী প্রতিরোধ বাংলার প্রাথমিক ঔপনিবেশিক প্রতিরোধের স্মৃতিভাণ্ডারের অংশ হয়ে আছে। ধর্মীয় কর্তৃত্ব, কৃষক-সমর্থন, এবং গেরিলা চাপের মিশ্রণ এটিকে অঞ্চলের রাজনৈতিক কল্পনায় গুরুত্বপূর্ণ পূর্বসূরি করে তোলে।",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

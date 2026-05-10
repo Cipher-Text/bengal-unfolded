@@ -1,0 +1,107 @@
+{
+  "slug": "1760-1800-fakir-sannyasi-resistance",
+  "year": "1760-1800",
+  "title": "Fakir-Sannyasi Resistance",
+  "subtitle": "Mendicant anti-Company resistance across Bengal from the 1760s into the late eighteenth century.",
+  "summary": "The Fakir-Sannyasi Resistance was a long wave of armed uprisings led by Muslim fakirs and Hindu sannyasis against the East India Company in Bengal. Beginning in 1760 and gaining momentum in 1763, the movement grew out of restrictions on alms collection, revenue pressure, and the social disruption created by Company rule. It continued in recurring phases through the famine years and late eighteenth-century crackdowns, making it one of the earliest sustained anti-colonial resistances in Bengal.",
+  "themeColor": "#7d4a2f",
+  "ctaLabel": "Explore the resistance",
+  "heroTagline": "One of Bengal’s earliest sustained anti-Company resistances emerged from the social shock of new colonial power.",
+  "summarySourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica"
+  ],
+  "whyItMatters": "This resistance matters because it shows that opposition to Company rule emerged early and drew together religious mendicants, peasants, and local networks under the pressure of new colonial regulation. It helps explain how Bengal’s anti-colonial politics developed before the nineteenth century.",
+  "whyItMattersSourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1757",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1765",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1770",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1793",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1757",
+    "1765",
+    "1770",
+    "1793"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "The resistance reveals how Company fiscal extraction and social regulation could provoke prolonged insurgency across Bengal. It also foreshadows later rural and religiously inflected resistance against colonial authority and helps explain why Company rule was contested from its earliest decades.",
+  "longTermLegacySourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Fakir-Sannyasi Resistance became part of the wider memory of early anti-colonial struggle in Bengal. Its blend of religious authority, peasant support, and guerrilla pressure makes it an important precursor in the region’s political imagination.",
+  "identityMemorySourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Fakir-Sannyasi Resistance was a long wave of armed uprisings led by Muslim fakirs and Hindu sannyasis against the East India Company in Bengal. Beginning in 1760 and gaining momentum in 1763, the movement grew out of restrictions on alms collection, revenue pressure, and the social disruption created by Company rule. It continued in recurring phases through the famine years and late eighteenth-century crackdowns, making it one of the earliest sustained anti-colonial resistances in Bengal.",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This resistance matters because it shows that opposition to Company rule emerged early and drew together religious mendicants, peasants, and local networks under the pressure of new colonial regulation. It helps explain how Bengal’s anti-colonial politics developed before the nineteenth century.",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The resistance reveals how Company fiscal extraction and social regulation could provoke prolonged insurgency across Bengal. It also foreshadows later rural and religiously inflected resistance against colonial authority and helps explain why Company rule was contested from its earliest decades.",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Fakir-Sannyasi Resistance became part of the wider memory of early anti-colonial struggle in Bengal. Its blend of religious authority, peasant support, and guerrilla pressure makes it an important precursor in the region’s political imagination.",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}
