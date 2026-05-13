@@ -1,6 +1,6 @@
 # Architecture (AI)
 
-Last verified: 2026-05-08
+Last verified: 2026-05-14
 
 ## High-level
 
@@ -40,6 +40,10 @@ Locale-scoped routes:
 - `/:locale/glossary/:term`
 - `/:locale/periods/:id`
 - `/:locale/movements/:id`
+- `/:locale/places`
+- `/:locale/places/:id`
+- `/:locale/topics`
+- `/:locale/topics/:slug`
 
 ## Data flow
 
@@ -61,6 +65,8 @@ Locale-scoped routes:
 
 - `src/components/EventTimeline.tsx`
 - `src/components/ThemeToggle.tsx`
+- `src/components/HeaderScroll.tsx`
+- `src/components/ShareActions.tsx`
 
 Other components in `src/components/` are server-compatible.
 
