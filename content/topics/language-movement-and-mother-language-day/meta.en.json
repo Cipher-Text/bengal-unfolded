@@ -2,14 +2,16 @@
   "slug": "language-movement-and-mother-language-day",
   "priority": 5,
   "title": "Language Movement and Mother Language Day",
-  "tagline": "Language rights, memory, and nationhood",
-  "intro": "Understand how language politics shaped democratic demands and cultural identity in Bengal and Bangladesh.",
-  "description": "A hub connecting the 1952 movement, its historical roots, and the global recognition of linguistic rights.",
+  "tagline": "Language rights, representation, and national consciousness",
+  "intro": "Understand how language politics evolved from partition-era tensions to global recognition.",
+  "description": "A focused hub on the political genealogy of Bengali language rights and collective identity.",
   "eventSlugs": [
     "1905",
     "1947",
+    "1948",
     "1952",
-    "1966",
+    "1954",
+    "1962",
     "1971"
   ],
   "figureIds": [

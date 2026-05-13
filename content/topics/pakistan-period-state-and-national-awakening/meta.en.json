@@ -1,0 +1,33 @@
+{
+  "slug": "pakistan-period-state-and-national-awakening",
+  "priority": 12,
+  "title": "Pakistan Period: State and National Awakening",
+  "tagline": "Constitutional conflict, language, and mass political escalation",
+  "intro": "Examine East Pakistan’s political trajectory from state formation to the threshold of liberation.",
+  "description": "A coherent pre-1971 topic linking constitutional crises, language politics, and mass mobilization.",
+  "eventSlugs": [
+    "1948",
+    "1949",
+    "1952",
+    "1954",
+    "1958",
+    "1962",
+    "1966",
+    "1968",
+    "1969",
+    "1970"
+  ],
+  "figureIds": [
+    "sheikh-mujibur-rahman",
+    "huseyn-shaheed-suhrawardy",
+    "abdul-hamid-khan-bhashani",
+    "dhirendranath-datta",
+    "ak-fazlul-huq"
+  ],
+  "keywords": [
+    "east pakistan politics",
+    "language movement context",
+    "1969 uprising",
+    "road to 1971"
+  ]
+}

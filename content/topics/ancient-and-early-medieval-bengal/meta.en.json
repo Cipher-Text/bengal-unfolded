@@ -1,0 +1,30 @@
+{
+  "slug": "ancient-and-early-medieval-bengal",
+  "priority": 7,
+  "title": "Ancient and Early Medieval Bengal",
+  "tagline": "Early polities, religious centers, and state transitions",
+  "intro": "Explore pre-sultanate Bengal through urban emergence, dynastic consolidation, and institutional-religious landscapes.",
+  "description": "A foundational topic connecting the earliest political formations to the eve of the 1204 transition.",
+  "eventSlugs": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence",
+    "0600-0637-shashanka-gauda-kingdom",
+    "0750-1170-pala-dynasty-foundation",
+    "0800-1200-somapura-mahavihara",
+    "1178-1204-sena-transition",
+    "1204"
+  ],
+  "figureIds": [
+    "dharmapala",
+    "devapala",
+    "gopala-i",
+    "mahipala-i",
+    "vijaya-sena",
+    "ballala-sena",
+    "lakshmana-sena"
+  ],
+  "keywords": [
+    "ancient bengal",
+    "pala sena history",
+    "early medieval bengal"
+  ]
+}

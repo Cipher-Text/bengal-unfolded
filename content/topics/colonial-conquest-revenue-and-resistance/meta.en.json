@@ -1,0 +1,35 @@
+{
+  "slug": "colonial-conquest-revenue-and-resistance",
+  "priority": 10,
+  "title": "Colonial Conquest, Revenue, and Resistance",
+  "tagline": "From Plassey to agrarian restructuring and anti-colonial resistance",
+  "intro": "Understand how military conquest became revenue rule and how social resistance evolved in response.",
+  "description": "A structural topic linking conquest, diwani, famine, settlement, and resistance movements in colonial Bengal.",
+  "eventSlugs": [
+    "1757",
+    "1764",
+    "1765",
+    "1770",
+    "1793",
+    "1818",
+    "1831",
+    "1857",
+    "1874"
+  ],
+  "figureIds": [
+    "siraj-ud-daulah",
+    "robert-clive",
+    "mir-jafar",
+    "haji-shariatullah",
+    "dudu-miyan",
+    "titu-mir",
+    "bahadur-shah-ii"
+  ],
+  "keywords": [
+    "colonial bengal",
+    "diwani",
+    "permanent settlement",
+    "faraizi",
+    "anti-colonial resistance"
+  ]
+}

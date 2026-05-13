@@ -2,12 +2,11 @@
   "slug": "partition-and-identity",
   "priority": 2,
   "title": "Partition and Identity",
-  "tagline": "From Bengal partition to language and nationhood",
-  "intro": "Trace how partition-era politics reshaped representation, language, and collective identity.",
-  "description": "A focused hub around 1905-1952 transitions and their long effects on identity formation.",
+  "tagline": "Constitutional bargaining, communal politics, identity shifts",
+  "intro": "Follow how late-colonial political bargaining reshaped representation, belonging, and state imagination.",
+  "description": "A macro partition-politics hub from 1905 to language-era identity crystallization.",
   "eventSlugs": [
     "1905",
-    "1906",
     "1911",
     "1940",
     "1946",
@@ -22,8 +21,8 @@
     "abdul-matin"
   ],
   "keywords": [
-    "partition of bengal",
+    "partition politics",
     "bengal identity",
-    "language movement background"
+    "late colonial bengal"
   ]
 }

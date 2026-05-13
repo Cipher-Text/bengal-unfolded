@@ -1,0 +1,30 @@
+{
+  "slug": "ancient-and-early-medieval-bengal",
+  "priority": 7,
+  "title": "প্রাচীন ও প্রারম্ভিক মধ্যযুগীয় বাংলা",
+  "tagline": "প্রাথমিক রাজ্য, ধর্মীয় কেন্দ্র ও রাষ্ট্র-রূপান্তর",
+  "intro": "সুলতানি-পূর্ব বাংলার নগরায়ণ, রাজবংশীয় সংহতি ও সাংস্কৃতিক-ধর্মীয় প্রতিষ্ঠানগুলো অনুসন্ধান করুন।",
+  "description": "প্রাচীন রাজনৈতিক গঠন থেকে ১২০৪-র মোড় পর্যন্ত ধারাবাহিকতা ধরার একটি ভিত্তিমূলক টপিক।",
+  "eventSlugs": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence",
+    "0600-0637-shashanka-gauda-kingdom",
+    "0750-1170-pala-dynasty-foundation",
+    "0800-1200-somapura-mahavihara",
+    "1178-1204-sena-transition",
+    "1204"
+  ],
+  "figureIds": [
+    "dharmapala",
+    "devapala",
+    "gopala-i",
+    "mahipala-i",
+    "vijaya-sena",
+    "ballala-sena",
+    "lakshmana-sena"
+  ],
+  "keywords": [
+    "প্রাচীন বাংলা",
+    "পাল-সেন ইতিহাস",
+    "মধ্যযুগীয় বাংলা"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "mughal-bengal-and-regional-resistance",
+  "priority": 9,
+  "title": "Mughal Bengal and Regional Resistance",
+  "tagline": "Imperial incorporation, delta warfare, provincial consolidation",
+  "intro": "Trace the long Mughal incorporation of Bengal through resistance networks, capital shifts, and frontier campaigns.",
+  "description": "A high-impact topic connecting Rajmahal, Baro-Bhuyans resistance, Dhaka consolidation, and early nawabi transitions.",
+  "eventSlugs": [
+    "1576",
+    "1599",
+    "1610",
+    "1612",
+    "1632",
+    "1666",
+    "1704",
+    "1717",
+    "1740",
+    "1741-1751"
+  ],
+  "figureIds": [
+    "akbar",
+    "isa-khan",
+    "musa-khan",
+    "man-singh-i",
+    "islam-khan-chishti",
+    "jahangir-mughal",
+    "shaista-khan",
+    "murshid-quli-khan",
+    "farrukhsiyar",
+    "alivardi-khan"
+  ],
+  "keywords": [
+    "mughal bengal",
+    "baro bhuyans",
+    "dhaka jahangirnagar",
+    "murshidabad transition"
+  ]
+}
