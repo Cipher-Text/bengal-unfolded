@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { FigureProfileCard } from "@/components/FigureProfileCard";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
-import { getAllFigures } from "@/lib/content";
+import { getAllFiguresChronological } from "@/lib/content";
 import { inferFigureEntityType, type FigureEntityType } from "@/lib/figures";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Figure, type Locale } from "@/types/content";
@@ -72,7 +72,7 @@ export default async function FiguresListPage({
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
   const isBn = locale === "bn";
-  const allFigures = await getAllFigures(locale);
+  const allFigures = await getAllFiguresChronological(locale);
   const nq = normalize(q);
   const entityValue = ENTITY_VALUES.includes(entity as FigureEntityType) ? (entity as FigureEntityType) : "";
   const groupValue = GROUP_VALUES.includes(group as Figure["group"]) ? (group as Figure["group"]) : "";

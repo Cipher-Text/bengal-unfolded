@@ -449,6 +449,43 @@ export async function getAllFigures(locale: string): Promise<Figure[]> {
   );
 }
 
+const figureFirstEventRankCached = cache(
+  async (locale: Locale): Promise<Map<FigureId, number>> => {
+    const chronologicalSlugs = await getChronologicalEventSlugs(locale);
+    const rank = new Map<FigureId, number>();
+
+    await Promise.all(
+      chronologicalSlugs.map(async (slug, index) => {
+        const figureIds = await readJsonFile<FigureId[]>(
+          path.join(CONTENT_DIR, "events", slug, "figure-ids.json"),
+        );
+
+        for (const figureId of figureIds) {
+          if (!rank.has(figureId)) rank.set(figureId, index);
+        }
+      }),
+    );
+
+    return rank;
+  },
+);
+
+export async function getAllFiguresChronological(locale: string): Promise<Figure[]> {
+  assertSupportedLocale(locale);
+
+  const [figures, firstEventRank] = await Promise.all([
+    getAllFigures(locale),
+    figureFirstEventRankCached(locale as Locale),
+  ]);
+
+  return [...figures].sort((a, b) => {
+    const aRank = firstEventRank.get(a.id as FigureId) ?? Number.MAX_SAFE_INTEGER;
+    const bRank = firstEventRank.get(b.id as FigureId) ?? Number.MAX_SAFE_INTEGER;
+    if (aRank !== bRank) return aRank - bRank;
+    return a.name.localeCompare(b.name);
+  });
+}
+
 export async function getAllBooks(locale: string): Promise<Book[]> {
   assertSupportedLocale(locale);
   return Promise.all(
