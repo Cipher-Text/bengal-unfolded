@@ -11,11 +11,11 @@ function getResolvedTheme(): Theme {
   const saved = window.localStorage.getItem("theme");
   if (saved === "light" || saved === "dark") return saved;
 
-  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  return "light";
 }
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -36,18 +36,24 @@ export function ThemeToggle() {
     window.localStorage.setItem("theme", nextTheme);
   };
 
+  const isDark = theme === "dark";
+
   return (
     <button
       type="button"
       onClick={toggleTheme}
-      className="theme-control inline-flex h-11 w-11 items-center justify-center rounded-full border transition hover:scale-105"
-      aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
-      title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+      className="relative inline-flex h-9 w-9 items-center justify-center rounded-sm border transition-all hover:-translate-y-0.5"
+      style={{
+        borderColor: "var(--sepia)",
+        background: "var(--paper)",
+        boxShadow: "2px 2px 0 var(--sepia)",
+      }}
+      aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
+      title={`Switch to ${isDark ? "light" : "dark"} mode`}
     >
-      <span
-        className={`h-4 w-4 rounded-full ${theme === "dark" ? "bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.7)]" : "bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.7)]"}`}
-        aria-hidden="true"
-      />
+      <span aria-hidden="true" className="text-base">
+        {isDark ? "☾" : "☀"}
+      </span>
     </button>
   );
 }

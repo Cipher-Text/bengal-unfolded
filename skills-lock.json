@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "063a0e6448123cd359ad0044cc46b0e490cc7964d45ef4bb9fd842bd2ffbca67"
+    },
+    "ui-animation": {
+      "source": "mblode/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ui-animation/SKILL.md",
+      "computedHash": "c0df66c159771b0a92f74d9b2a3c6653bb75a35c31e5a7f82a866af52b23f651"
+    }
+  }
+}

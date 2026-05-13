@@ -16,14 +16,15 @@ export function QuoteBlock({ quote }: { quote: Quote }) {
 
   if (isFaq) {
     return (
-      <article className="theme-surface-soft rounded-xl border p-4">
-        <p className="text-lg leading-relaxed font-semibold">{faqQuestion}</p>
-        {faqAnswer ? <p className="mt-2 text-lg leading-relaxed">{faqAnswer}</p> : null}
-        <footer className="mt-3 flex flex-wrap items-center gap-2 text-sm text-amber-400">
-          <span className="inline-flex rounded-full border border-amber-500/40 px-2 py-0.5 font-medium">FAQ</span>
-          <span>{sourcePrefix.replace(/^FAQ\s*[·-]?\s*/u, "").trim()}</span>
+      <article className="paper paper-stained relative p-6">
+        <p className="text-eyebrow">FAQ</p>
+        <p className="text-display mt-2 text-lg font-semibold leading-snug md:text-xl">{faqQuestion}</p>
+        {faqAnswer ? <p className="theme-muted mt-3 text-base leading-relaxed">{faqAnswer}</p> : null}
+        <footer className="mt-4 flex flex-wrap items-center gap-2 text-sm">
+          <span className="ornament">❦</span>
+          <span className="text-eyebrow">{sourcePrefix.replace(/^FAQ\s*[·-]?\s*/u, "").trim()}</span>
           {relatedPath ? (
-            <Link href={relatedPath} className="underline underline-offset-2 hover:text-amber-300">
+            <Link href={relatedPath} className="link-ink text-sm">
               {relatedPath}
             </Link>
           ) : null}
@@ -33,9 +34,17 @@ export function QuoteBlock({ quote }: { quote: Quote }) {
   }
 
   return (
-    <blockquote className="theme-surface-soft rounded-xl border p-4">
-      <p className="text-lg">“{quote.text}”</p>
-      <footer className="mt-2 text-sm text-amber-400">— {quote.source}</footer>
+    <blockquote className="paper paper-stained relative px-7 py-8">
+      <span aria-hidden="true" className="text-display absolute -top-2 left-3 select-none text-7xl leading-none" style={{ color: "var(--rust)", opacity: 0.35, fontStyle: "italic" }}>
+        “
+      </span>
+      <p className="text-balance text-lg leading-relaxed md:text-xl" style={{ fontFamily: "var(--font-display), serif", fontStyle: "italic" }}>
+        {quote.text}
+      </p>
+      <footer className="mt-4 flex items-center gap-2 text-sm">
+        <span className="h-px w-8 bg-[color:var(--sepia)] opacity-70" />
+        <span className="text-eyebrow-script text-base">{quote.source}</span>
+      </footer>
     </blockquote>
   );
 }

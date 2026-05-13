@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { EventMeta, Locale } from "@/types/content";
+
 export function EventNavigation({ locale, previous, next }: { locale: Locale; previous?: EventMeta; next?: EventMeta }) {
   const labels = locale === "bn"
     ? {
@@ -7,7 +8,7 @@ export function EventNavigation({ locale, previous, next }: { locale: Locale; pr
       before: "এর আগে",
       after: "এর পরে",
       start: "টাইমলাইনের শুরু",
-      latest: "সর্বশেষ অধ্যায়",
+      latest: "সর্বশেষ অধ্যায়",
     }
     : {
       heading: "Before / After",
@@ -18,29 +19,37 @@ export function EventNavigation({ locale, previous, next }: { locale: Locale; pr
     };
 
   return (
-    <nav aria-label={labels.heading} className="theme-surface-soft rounded-2xl border p-4">
-      <p className="theme-muted text-xs tracking-[0.18em] uppercase">{labels.heading}</p>
-      <div className="mt-3 grid gap-3 md:grid-cols-2">
+    <nav aria-label={labels.heading} className="paper paper-stained relative p-5">
+      <p className="text-eyebrow flex items-center gap-2">
+        <span className="ornament">❦</span>
+        {labels.heading}
+        <span className="ornament">❦</span>
+      </p>
+      <div className="mt-4 grid gap-4 md:grid-cols-2">
         {previous ? (
-          <Link className="theme-surface rounded-xl border p-3 hover:border-amber-400/40" href={`/${locale}/events/${previous.slug}`}>
-            <p className="theme-muted text-xs tracking-[0.18em] uppercase">{labels.before}</p>
-            <p className="mt-1">← {previous.year} · {previous.title}</p>
+          <Link href={`/${locale}/events/${previous.slug}`} className="postcard tilt-left group p-4">
+            <p className="text-eyebrow">{labels.before}</p>
+            <p className="text-display mt-2 text-base font-medium md:text-lg">
+              <span className="inline-block transition-transform group-hover:-translate-x-0.5">←</span> {previous.year} · {previous.title}
+            </p>
           </Link>
         ) : (
-          <div className="theme-surface rounded-xl border p-3">
-            <p className="theme-muted text-xs tracking-[0.18em] uppercase">{labels.before}</p>
-            <p className="theme-muted mt-1">{labels.start}</p>
+          <div className="paper paper-stained p-4 opacity-70">
+            <p className="text-eyebrow">{labels.before}</p>
+            <p className="theme-muted mt-2 italic">{labels.start}</p>
           </div>
         )}
         {next ? (
-          <Link className="theme-surface rounded-xl border p-3 text-right hover:border-amber-400/40" href={`/${locale}/events/${next.slug}`}>
-            <p className="theme-muted text-xs tracking-[0.18em] uppercase">{labels.after}</p>
-            <p className="mt-1">{next.year} · {next.title} →</p>
+          <Link href={`/${locale}/events/${next.slug}`} className="postcard tilt-right group p-4 text-right">
+            <p className="text-eyebrow">{labels.after}</p>
+            <p className="text-display mt-2 text-base font-medium md:text-lg">
+              {next.year} · {next.title} <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
+            </p>
           </Link>
         ) : (
-          <div className="theme-surface rounded-xl border p-3 text-right">
-            <p className="theme-muted text-xs tracking-[0.18em] uppercase">{labels.after}</p>
-            <p className="theme-muted mt-1">{labels.latest}</p>
+          <div className="paper paper-stained p-4 text-right opacity-70">
+            <p className="text-eyebrow">{labels.after}</p>
+            <p className="theme-muted mt-2 italic">{labels.latest}</p>
           </div>
         )}
       </div>

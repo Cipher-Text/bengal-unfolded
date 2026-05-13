@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Noto_Serif_Bengali, Playfair_Display } from "next/font/google";
+import { Noto_Serif_Bengali, Playfair_Display, Special_Elite } from "next/font/google";
 import { CANONICAL_ORIGIN, DEFAULT_OG_IMAGE, SITE_NAME } from "@/lib/seo";
 import "./globals.css";
 
@@ -12,10 +12,18 @@ const notoSerifBengali = Noto_Serif_Bengali({
 });
 
 const playfairDisplay = Playfair_Display({
-  weight: ["400", "600"],
+  weight: ["400", "600", "700"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
   variable: "--font-display",
+});
+
+const specialElite = Special_Elite({
+  weight: ["400"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-type",
 });
 
 const SITE_DESCRIPTION =
@@ -87,9 +95,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html
       lang="en"
-      data-theme="dark"
+      data-theme="light"
       suppressHydrationWarning
-      className={`h-full ${notoSerifBengali.variable} ${playfairDisplay.variable}`}
+      className={`h-full ${notoSerifBengali.variable} ${playfairDisplay.variable} ${specialElite.variable}`}
     >
       <body className="min-h-full">
         <Script id="theme-init" src="/theme-init.js" strategy="beforeInteractive" />

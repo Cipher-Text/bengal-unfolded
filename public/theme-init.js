@@ -1,14 +1,9 @@
 (() => {
   try {
     const saved = localStorage.getItem("theme");
-    const theme =
-      saved === "light" || saved === "dark"
-        ? saved
-        : window.matchMedia("(prefers-color-scheme: dark)").matches
-          ? "dark"
-          : "light";
+    const theme = saved === "light" || saved === "dark" ? saved : "light";
     document.documentElement.dataset.theme = theme;
   } catch (_) {
-    document.documentElement.dataset.theme = "dark";
+    document.documentElement.dataset.theme = "light";
   }
 })();

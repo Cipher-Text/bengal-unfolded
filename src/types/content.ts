@@ -15,6 +15,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1757",
   "1764",
   "1765",
+  "1760-1800-fakir-sannyasi-resistance",
   "1770",
   "1793",
   "1818",

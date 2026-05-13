@@ -3,7 +3,7 @@ import type { EventResource, Locale } from "@/types/content";
 
 const CATEGORY_LABELS = {
   en: { read: "Read", watch: "Watch", explore: "Explore", understand: "Understand" },
-  bn: { read: "পড়ুন", watch: "দেখুন", explore: "অন্বেষণ", understand: "বোঝুন" },
+  bn: { read: "পড়ুন", watch: "দেখুন", explore: "অন্বেষণ", understand: "বোঝুন" },
 } as const;
 
 const SUBCATEGORY_LABELS = {
@@ -37,46 +37,47 @@ const SUBCATEGORY_LABELS = {
 
 const QUALITY_LABELS = {
   en: { primary: "Primary", secondary: "Secondary", archive: "Archive", editorial: "Editorial" },
-  bn: { primary: "প্রাথমিক", secondary: "গৌণ", archive: "আর্কাইভ", editorial: "সম্পাদকীয়" },
+  bn: { primary: "প্রাথমিক", secondary: "গৌণ", archive: "আর্কাইভ", editorial: "সম্পাদকীয়" },
 } as const;
 
-export function ResourceCard({ resource, locale }: { resource: EventResource; locale: Locale }) {
+export function ResourceCard({ resource, locale, index = 0 }: { resource: EventResource; locale: Locale; index?: number }) {
   const isExternal = typeof resource.href === "string" && resource.href.startsWith("http");
+  const tiltClass = index % 3 === 1 ? "tilt-right" : index % 3 === 2 ? "tilt-left" : "";
+
   return (
-    <article className="theme-surface rounded-xl border p-4">
-      <h3 className="text-base font-semibold">
-        <Link href={`/${locale}/resources/${resource.id}`} className="hover:text-amber-300">
+    <article className={`postcard ${tiltClass} relative p-5`}>
+      <p className="text-eyebrow">
+        {CATEGORY_LABELS[locale][resource.category]} · {SUBCATEGORY_LABELS[locale][resource.subcategory]}
+      </p>
+      <h3 className="text-display mt-3 text-lg font-semibold leading-snug md:text-xl">
+        <Link href={`/${locale}/resources/${resource.id}`} className="link-ink">
           {resource.title}
         </Link>
       </h3>
-      <p className="theme-muted mt-1 text-sm">
-        <Link href={`/${locale}/creators/${resource.creatorId}`} className="hover:text-amber-300">
-          {resource.attribution}
+      <p className="text-eyebrow-script mt-1 text-base">
+        <Link href={`/${locale}/creators/${resource.creatorId}`} className="link-ink">
+          — {resource.attribution}
         </Link>
       </p>
-      <p className="mt-1 text-xs tracking-[0.2em] text-accent uppercase">{CATEGORY_LABELS[locale][resource.category]} · {SUBCATEGORY_LABELS[locale][resource.subcategory]}</p>
       {resource.quality ? (
-        <div className="mt-2">
-          <span className="inline-flex rounded-full border border-amber-500/40 px-2 py-0.5 text-[11px] font-medium text-accent">
-            {QUALITY_LABELS[locale][resource.quality]}
-          </span>
+        <div className="mt-3">
+          <span className="stamp">{QUALITY_LABELS[locale][resource.quality]}</span>
         </div>
       ) : null}
-      {resource.note ? <p className="theme-muted mt-2 line-clamp-3 text-sm">{resource.note}</p> : null}
-      <div className="mt-4 flex flex-wrap gap-2">
-        <Link
-          href={`/${locale}/resources/${resource.id}`}
-          className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-3 text-sm font-medium text-accent hover:bg-amber-500/10"
-        >
+      {resource.note ? <p className="theme-muted mt-3 line-clamp-3 text-sm leading-relaxed">{resource.note}</p> : null}
+      <div className="mt-5 flex flex-wrap gap-2">
+        <Link href={`/${locale}/resources/${resource.id}`} className="btn-vintage">
           {locale === "bn" ? "রিসোর্স পেজ" : "Resource Page"}
+          <span className="arrow">→</span>
         </Link>
         {resource.href ? (
           <Link
             href={resource.href}
             {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-            className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-3 text-sm font-medium text-accent hover:bg-amber-500/10"
+            className="btn-vintage"
           >
             {locale === "bn" ? "মূল সূত্র" : "Original Source"}
+            <span className="arrow">↗</span>
           </Link>
         ) : null}
       </div>
