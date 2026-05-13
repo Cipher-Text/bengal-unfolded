@@ -32,12 +32,22 @@
     {
       "eventId": "1947",
       "relationType": "legacy"
+    },
+    {
+      "eventId": "1717",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "background"
     }
   ],
   "relatedEventIds": [
     "1765",
     "1857",
-    "1947"
+    "1947",
+    "1717",
+    "1704"
   ],
   "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
   "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",

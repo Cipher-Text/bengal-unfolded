@@ -1,0 +1,87 @@
+{
+  "slug": "1538",
+  "year": "1538",
+  "title": "Humayun Enters Bengal and Occupies Gaur",
+  "subtitle": "The first major Mughal intervention phase reaches Bengal's political core.",
+  "summary": "In 1538, Humayun's campaign reached Bengal and occupied Gaur, signaling the first major Mughal intervention into Bengal's power structure. Although temporary, the move tied Bengal directly to the Mughal-Afghan contest in the east.",
+  "themeColor": "#6b4a2d",
+  "ctaLabel": "Explore 1538",
+  "heroTagline": "Humayun's Bengal push opened a new imperial contest over the region.",
+  "summarySourceIds": [
+    "humayun-britannica"
+  ],
+  "whyItMatters": "This event matters because it marks the beginning of sustained Mughal strategic engagement with Bengal, even before durable provincial control was possible.",
+  "whyItMattersSourceIds": [
+    "humayun-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1539",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1576",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1539",
+    "1576"
+  ],
+  "periodLabel": "Independent Bengal Sultanate Era",
+  "periodId": "independent-bengal-sultanate-era",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "The 1538 campaign established Bengal as a central theater in Mughal eastern policy, setting up later rounds of conquest, reversal, and re-entry.",
+  "longTermLegacySourceIds": [
+    "humayun-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "In historical memory, 1538 represents the opening of the Mughal-Afghan struggle that would shape Bengal's sixteenth-century transition.",
+  "identityMemorySourceIds": [
+    "humayun-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1538, Humayun's campaign reached Bengal and occupied Gaur, signaling the first major Mughal intervention into Bengal's power structure. Although temporary, the move tied Bengal directly to the Mughal-Afghan contest in the east.",
+      "sourceIds": [
+        "humayun-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it marks the beginning of sustained Mughal strategic engagement with Bengal, even before durable provincial control was possible.",
+      "sourceIds": [
+        "humayun-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The 1538 campaign established Bengal as a central theater in Mughal eastern policy, setting up later rounds of conquest, reversal, and re-entry.",
+      "sourceIds": [
+        "humayun-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "In historical memory, 1538 represents the opening of the Mughal-Afghan struggle that would shape Bengal's sixteenth-century transition.",
+      "sourceIds": [
+        "humayun-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

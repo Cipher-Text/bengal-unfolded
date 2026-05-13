@@ -37,6 +37,14 @@
     {
       "eventId": "1757",
       "relationType": "background"
+    },
+    {
+      "eventId": "1666",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1717",
+      "relationType": "effect"
     }
   ],
   "relatedEventIds": [
@@ -44,7 +52,9 @@
     "1576",
     "1494",
     "1414",
-    "1757"
+    "1757",
+    "1666",
+    "1717"
   ],
   "periodLabel": "Mughal Incorporation and Consolidation",
   "periodId": "mughal-incorporation-and-consolidation",

@@ -61,6 +61,11 @@ export const SUPPORTED_EVENT_SLUGS = [
   "2018-election",
   "2024",
   "2026-election",
+  "1538",
+  "1539",
+  "1610",
+  "1666",
+  "1717",
 ] as const;
 export const SUPPORTED_FIGURE_IDS = [
   "sheikh-mujibur-rahman",
@@ -434,6 +439,11 @@ export const SUPPORTED_FIGURE_IDS = [
   "man-singh-i",
   "islam-khan-chishti",
   "daud-khan-karrani",
+  "humayun-mughal",
+  "sher-shah-suri",
+  "jahangir-mughal",
+  "shaista-khan",
+  "farrukhsiyar",
 ] as const;
 export const SUPPORTED_BOOK_IDS = [
   "research-volume",

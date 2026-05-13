@@ -1,0 +1,28 @@
+[
+  {
+    "year": "1610",
+    "title": "Capital Shift to Dhaka (Jahangirnagar)",
+    "detail": "In 1610, Islam Khan Chishti transferred the Mughal provincial capital of Bengal from Rajmahal to Dhaka and renamed it Jahangirnagar in official use. The move aligned administration with the Bhati frontier where major resistance networks operated.",
+    "sourceIds": [
+      "dhaka-banglapedia",
+      "islam-khan-chisti-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "Long-term",
+    "title": "Historical consequence",
+    "detail": "Dhaka's elevation institutionalized a governance pattern in which eastern riverine control was central to Bengal's provincial management.",
+    "sourceIds": [
+      "dhaka-banglapedia",
+      "islam-khan-chisti-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

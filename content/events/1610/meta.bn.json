@@ -1,0 +1,104 @@
+{
+  "slug": "1610",
+  "year": "১৬১০",
+  "title": "রাজধানী ঢাকায় স্থানান্তর (জাহাঙ্গীরনগর)",
+  "subtitle": "ইসলাম খান বাংলার মুঘল রাজধানী রাজমহল থেকে ঢাকায় সরান।",
+  "summary": "১৬১০ সালে ইসলাম খান চিশতী বাংলার মুঘল প্রাদেশিক রাজধানী রাজমহল থেকে ঢাকায় স্থানান্তর করেন এবং সরকারি ব্যবহারে এর নাম জাহাঙ্গীরনগর করেন। এতে ভাটি অঞ্চলের প্রতিরোধ-ফ্রন্টের কাছাকাছি প্রশাসনিক ও সামরিক সমন্বয় সহজ হয়।",
+  "themeColor": "#64472f",
+  "ctaLabel": "১৬১০ দেখুন",
+  "heroTagline": "ঢাকার উত্থান ভাটির যুদ্ধ-ভূগোলকে রাজধানী প্রশাসনের কেন্দ্রে আনে।",
+  "summarySourceIds": [
+    "dhaka-banglapedia",
+    "islam-khan-chisti-banglapedia"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এতে সামরিক কৌশল, নদীপথ-লজিস্টিক ও শাসনব্যবস্থা এক নতুন পূর্বাঞ্চলীয় কেন্দ্রে একত্রিত হয়, যা মুঘল সংহতিকে গভীর করে।",
+  "whyItMattersSourceIds": [
+    "dhaka-banglapedia",
+    "islam-khan-chisti-banglapedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1599",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1612",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1599",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1599",
+    "1612",
+    "1704"
+  ],
+  "periodLabel": "মুঘল অন্তর্ভুক্তি ও সংহতি পর্ব",
+  "periodId": "mughal-incorporation-and-consolidation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "ঢাকাকে প্রশাসনিক কেন্দ্রে উন্নীত করা পূর্ববাংলার নদীনির্ভর নিয়ন্ত্রণকে প্রাদেশিক শাসনের স্থায়ী কাঠামোয় রূপ দেয়।",
+  "longTermLegacySourceIds": [
+    "dhaka-banglapedia",
+    "islam-khan-chisti-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "১৬১০ সালের এই স্থানান্তর ঢাকাকে বাংলার প্রতিযোগিতামূলক পূর্বাঞ্চলে মুঘল কমান্ড-প্রশাসনের প্রধান কেন্দ্র হিসেবে প্রতিষ্ঠা করে।",
+  "identityMemorySourceIds": [
+    "dhaka-banglapedia",
+    "islam-khan-chisti-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৬১০ সালে ইসলাম খান চিশতী বাংলার মুঘল প্রাদেশিক রাজধানী রাজমহল থেকে ঢাকায় স্থানান্তর করেন এবং সরকারি ব্যবহারে এর নাম জাহাঙ্গীরনগর করেন। এতে ভাটি অঞ্চলের প্রতিরোধ-ফ্রন্টের কাছাকাছি প্রশাসনিক ও সামরিক সমন্বয় সহজ হয়।",
+      "sourceIds": [
+        "dhaka-banglapedia",
+        "islam-khan-chisti-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এতে সামরিক কৌশল, নদীপথ-লজিস্টিক ও শাসনব্যবস্থা এক নতুন পূর্বাঞ্চলীয় কেন্দ্রে একত্রিত হয়, যা মুঘল সংহতিকে গভীর করে।",
+      "sourceIds": [
+        "dhaka-banglapedia",
+        "islam-khan-chisti-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "ঢাকাকে প্রশাসনিক কেন্দ্রে উন্নীত করা পূর্ববাংলার নদীনির্ভর নিয়ন্ত্রণকে প্রাদেশিক শাসনের স্থায়ী কাঠামোয় রূপ দেয়।",
+      "sourceIds": [
+        "dhaka-banglapedia",
+        "islam-khan-chisti-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৬১০ সালের এই স্থানান্তর ঢাকাকে বাংলার প্রতিযোগিতামূলক পূর্বাঞ্চলে মুঘল কমান্ড-প্রশাসনের প্রধান কেন্দ্র হিসেবে প্রতিষ্ঠা করে।",
+      "sourceIds": [
+        "dhaka-banglapedia",
+        "islam-khan-chisti-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

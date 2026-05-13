@@ -1,0 +1,87 @@
+{
+  "slug": "1539",
+  "year": "1539 (June 26)",
+  "title": "Battle of Chausa",
+  "subtitle": "Humayun is defeated by Sher Shah, reversing early Mughal gains in the east.",
+  "summary": "At Chausa on 26 June 1539, Sher Shah defeated Humayun in a decisive battle. The defeat weakened early Mughal momentum and elevated Afghan power in the eastern subcontinent, with direct consequences for Bengal's political trajectory.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore 1539",
+  "heroTagline": "Chausa reversed the balance of power and delayed Mughal consolidation in Bengal's orbit.",
+  "summarySourceIds": [
+    "battle-of-chausa-britannica"
+  ],
+  "whyItMatters": "This event matters because it explains why the first Mughal intervention in Bengal did not immediately turn into stable control.",
+  "whyItMattersSourceIds": [
+    "battle-of-chausa-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1538",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1576",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1538",
+    "1576"
+  ],
+  "periodLabel": "Independent Bengal Sultanate Era",
+  "periodId": "independent-bengal-sultanate-era",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "The Chausa defeat prolonged Afghan leverage in the east and postponed a durable Mughal settlement in Bengal.",
+  "longTermLegacySourceIds": [
+    "battle-of-chausa-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "Chausa remains a marker of how battlefield reversals in the Gangetic east shaped Bengal's long transition before full Mughal incorporation.",
+  "identityMemorySourceIds": [
+    "battle-of-chausa-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "At Chausa on 26 June 1539, Sher Shah defeated Humayun in a decisive battle. The defeat weakened early Mughal momentum and elevated Afghan power in the eastern subcontinent, with direct consequences for Bengal's political trajectory.",
+      "sourceIds": [
+        "battle-of-chausa-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it explains why the first Mughal intervention in Bengal did not immediately turn into stable control.",
+      "sourceIds": [
+        "battle-of-chausa-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The Chausa defeat prolonged Afghan leverage in the east and postponed a durable Mughal settlement in Bengal.",
+      "sourceIds": [
+        "battle-of-chausa-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Chausa remains a marker of how battlefield reversals in the Gangetic east shaped Bengal's long transition before full Mughal incorporation.",
+      "sourceIds": [
+        "battle-of-chausa-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

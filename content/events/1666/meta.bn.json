@@ -1,0 +1,87 @@
+{
+  "slug": "1666",
+  "year": "১৬৬৬ (২৭ জানুয়ারি)",
+  "title": "চট্টগ্রামে মুঘল বিজয়",
+  "subtitle": "মুঘল বাহিনী আরাকানি নিয়ন্ত্রণ শেষ করে চট্টগ্রাম অন্তর্ভুক্ত করে।",
+  "summary": "১৬৬৬ সালে স্থল-নৌ সমন্বিত অভিযানে বাংলার মুঘল প্রশাসনের অধীনে বাহিনী চট্টগ্রাম দখল করে আরাকানি নিয়ন্ত্রণের অবসান ঘটায়। এর মাধ্যমে একটি গুরুত্বপূর্ণ বন্দর-সীমান্ত মুঘল বাংলায় যুক্ত হয়।",
+  "themeColor": "#5f432e",
+  "ctaLabel": "১৬৬৬ দেখুন",
+  "heroTagline": "চট্টগ্রাম বিজয় বাংলার দক্ষিণ-পূর্ব সামুদ্রিক সীমান্তকে মুঘল নিয়ন্ত্রণে আনে।",
+  "summarySourceIds": [
+    "mughal-conquest-of-chittagong-wikipedia"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি উপকূলীয় কৌশলগত কেন্দ্রকে প্রাদেশিক নিয়ন্ত্রণে এনে সীমান্ত-অস্থিরতা কমায় এবং সামুদ্রিক নিরাপত্তা-শাসনকে শক্তিশালী করে।",
+  "whyItMattersSourceIds": [
+    "mughal-conquest-of-chittagong-wikipedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1612",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1612",
+    "1704"
+  ],
+  "periodLabel": "মুঘল অন্তর্ভুক্তি ও সংহতি পর্ব",
+  "periodId": "mughal-incorporation-and-consolidation",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "চট্টগ্রাম অন্তর্ভুক্তি বাংলার ভূখণ্ড-প্রশাসনের সংহতি বাড়ায় এবং দীর্ঘমেয়াদে উপকূলীয় শাসন-রাজনীতির গতিশীলতা বদলে দেয়।",
+  "longTermLegacySourceIds": [
+    "mughal-conquest-of-chittagong-wikipedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলার স্মৃতিতে ১৬৬৬ দক্ষিণ-পূর্ব সীমান্ত সুরক্ষা ও উপসাগরমুখী কৌশলগত শাসনের এক মোড় পরিবর্তনের বছর।",
+  "identityMemorySourceIds": [
+    "mughal-conquest-of-chittagong-wikipedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৬৬৬ সালে স্থল-নৌ সমন্বিত অভিযানে বাংলার মুঘল প্রশাসনের অধীনে বাহিনী চট্টগ্রাম দখল করে আরাকানি নিয়ন্ত্রণের অবসান ঘটায়। এর মাধ্যমে একটি গুরুত্বপূর্ণ বন্দর-সীমান্ত মুঘল বাংলায় যুক্ত হয়।",
+      "sourceIds": [
+        "mughal-conquest-of-chittagong-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি উপকূলীয় কৌশলগত কেন্দ্রকে প্রাদেশিক নিয়ন্ত্রণে এনে সীমান্ত-অস্থিরতা কমায় এবং সামুদ্রিক নিরাপত্তা-শাসনকে শক্তিশালী করে।",
+      "sourceIds": [
+        "mughal-conquest-of-chittagong-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "চট্টগ্রাম অন্তর্ভুক্তি বাংলার ভূখণ্ড-প্রশাসনের সংহতি বাড়ায় এবং দীর্ঘমেয়াদে উপকূলীয় শাসন-রাজনীতির গতিশীলতা বদলে দেয়।",
+      "sourceIds": [
+        "mughal-conquest-of-chittagong-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "বাংলার স্মৃতিতে ১৬৬৬ দক্ষিণ-পূর্ব সীমান্ত সুরক্ষা ও উপসাগরমুখী কৌশলগত শাসনের এক মোড় পরিবর্তনের বছর।",
+      "sourceIds": [
+        "mughal-conquest-of-chittagong-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

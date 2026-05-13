@@ -1,0 +1,95 @@
+{
+  "slug": "1717",
+  "year": "১৭১৭",
+  "title": "মুর্শিদ কুলি খানের আনুষ্ঠানিক নবাবি নিয়োগ",
+  "subtitle": "মুঘল স্বীকৃতির ভেতর দিয়ে বাংলায় শক্তিশালী আধা-স্বায়ত্তশাসিত নবাবি পর্ব শুরু হয়।",
+  "summary": "১৭১৭ সালে মুর্শিদ কুলি খান বাংলার সুবাহদার/নবাব হিসেবে আনুষ্ঠানিকভাবে নিয়োগ পান, যা নবাবি শাসনব্যবস্থার প্রাতিষ্ঠানিক সূচনা নির্দেশ করে। এতে মুঘল আধিপত্যের আনুষ্ঠানিক কাঠামো বজায় থাকলেও প্রাদেশিক অর্থ-রাজনৈতিক স্বায়ত্তশাসন স্পষ্টভাবে বৃদ্ধি পায়।",
+  "themeColor": "#6e4c30",
+  "ctaLabel": "১৭১৭ দেখুন",
+  "heroTagline": "১৭১৭ বাংলার নবাবি শাসনকে মুঘল কেন্দ্রের ভেতরে থেকেও আলাদা প্রাদেশিক শক্তিতে রূপ দেয়।",
+  "summarySourceIds": [
+    "murshid-quli-khan-banglapedia",
+    "murshid-quli-khan-wikipedia"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি ব্যাখ্যা করে কীভাবে ১৭৫৭-এর আগেই বাংলার প্রাদেশিক ক্ষমতা কাঠামোগতভাবে শক্তিশালী হয়।",
+  "whyItMattersSourceIds": [
+    "murshid-quli-khan-banglapedia",
+    "murshid-quli-khan-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1757",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1704",
+    "1757"
+  ],
+  "periodLabel": "মুঘল অন্তর্ভুক্তি ও সংহতি পর্ব",
+  "periodId": "mughal-incorporation-and-consolidation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "১৭১৭-এর বন্দোবস্তে যে প্রাদেশিক শাসন কাঠামো সংহত হয়, তারই অভ্যন্তরীণ জোট, রাজস্ব বিন্যাস ও দুর্বলতাগুলো পরে পলাশীর পথে প্রভাব ফেলে।",
+  "longTermLegacySourceIds": [
+    "murshid-quli-khan-banglapedia",
+    "murshid-quli-khan-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলার ঐতিহাসিক স্মৃতিতে ১৭১৭ নবাবি কর্তৃত্বকে ঔপনিবেশিক দখলের পূর্ববর্তী একটি স্বতন্ত্র আঞ্চলিক শাসনপর্ব হিসেবে চিহ্নিত করে।",
+  "identityMemorySourceIds": [
+    "murshid-quli-khan-banglapedia",
+    "murshid-quli-khan-wikipedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৭১৭ সালে মুর্শিদ কুলি খান বাংলার সুবাহদার/নবাব হিসেবে আনুষ্ঠানিকভাবে নিয়োগ পান, যা নবাবি শাসনব্যবস্থার প্রাতিষ্ঠানিক সূচনা নির্দেশ করে। এতে মুঘল আধিপত্যের আনুষ্ঠানিক কাঠামো বজায় থাকলেও প্রাদেশিক অর্থ-রাজনৈতিক স্বায়ত্তশাসন স্পষ্টভাবে বৃদ্ধি পায়।",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshid-quli-khan-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি ব্যাখ্যা করে কীভাবে ১৭৫৭-এর আগেই বাংলার প্রাদেশিক ক্ষমতা কাঠামোগতভাবে শক্তিশালী হয়।",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshid-quli-khan-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "১৭১৭-এর বন্দোবস্তে যে প্রাদেশিক শাসন কাঠামো সংহত হয়, তারই অভ্যন্তরীণ জোট, রাজস্ব বিন্যাস ও দুর্বলতাগুলো পরে পলাশীর পথে প্রভাব ফেলে।",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshid-quli-khan-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "বাংলার ঐতিহাসিক স্মৃতিতে ১৭১৭ নবাবি কর্তৃত্বকে ঔপনিবেশিক দখলের পূর্ববর্তী একটি স্বতন্ত্র আঞ্চলিক শাসনপর্ব হিসেবে চিহ্নিত করে।",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshid-quli-khan-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

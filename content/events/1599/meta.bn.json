@@ -31,12 +31,22 @@
     {
       "eventId": "1704",
       "relationType": "legacy"
+    },
+    {
+      "eventId": "1610",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1539",
+      "relationType": "background"
     }
   ],
   "relatedEventIds": [
     "1576",
     "1612",
-    "1704"
+    "1704",
+    "1610",
+    "1539"
   ],
   "periodLabel": "মুঘল অন্তর্ভুক্তি ও সংহতি পর্ব",
   "periodId": "mughal-incorporation-and-consolidation",
