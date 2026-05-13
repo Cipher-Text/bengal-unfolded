@@ -1,0 +1,100 @@
+{
+  "slug": "1919-1924",
+  "year": "1919-1924",
+  "title": "Khilafat Movement in Bengal",
+  "subtitle": "Khilafat Movement in Bengal",
+  "summary": "Khilafat Movement in Bengal marked a major turning point in Bengal's political trajectory and regional power structure.",
+  "themeColor": "#6a4a2f",
+  "ctaLabel": "Explore 1919-1924",
+  "heroTagline": "Khilafat Movement in Bengal reshaped power and governance patterns in Bengal.",
+  "summarySourceIds": [
+    "khilafat-movement-banglapedia",
+    "different-nationalisms-bengal-1905-1947"
+  ],
+  "whyItMatters": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+  "whyItMattersSourceIds": [
+    "khilafat-movement-banglapedia",
+    "different-nationalisms-bengal-1905-1947"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1905",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1911",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1937",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1905",
+    "1911",
+    "1937"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "periodId": "partition-and-late-colonial-politics",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "Khilafat Movement in Bengal influenced later transitions in Bengal's state, society, and political imagination.",
+  "longTermLegacySourceIds": [
+    "khilafat-movement-banglapedia",
+    "different-nationalisms-bengal-1905-1947"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "Khilafat Movement in Bengal remains a key memory node in long-run Bengal historical narratives.",
+  "identityMemorySourceIds": [
+    "khilafat-movement-banglapedia",
+    "different-nationalisms-bengal-1905-1947"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Khilafat Movement in Bengal marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "sourceIds": [
+        "khilafat-movement-banglapedia",
+        "different-nationalisms-bengal-1905-1947"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "sourceIds": [
+        "khilafat-movement-banglapedia",
+        "different-nationalisms-bengal-1905-1947"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Khilafat Movement in Bengal influenced later transitions in Bengal's state, society, and political imagination.",
+      "sourceIds": [
+        "khilafat-movement-banglapedia",
+        "different-nationalisms-bengal-1905-1947"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Khilafat Movement in Bengal remains a key memory node in long-run Bengal historical narratives.",
+      "sourceIds": [
+        "khilafat-movement-banglapedia",
+        "different-nationalisms-bengal-1905-1947"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

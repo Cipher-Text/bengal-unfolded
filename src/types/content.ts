@@ -66,6 +66,12 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1610",
   "1666",
   "1717",
+  "1303",
+  "1632",
+  "1740",
+  "1741-1751",
+  "1919-1924",
+  "1920s-1930s",
 ] as const;
 export const SUPPORTED_FIGURE_IDS = [
   "sheikh-mujibur-rahman",
@@ -444,6 +450,10 @@ export const SUPPORTED_FIGURE_IDS = [
   "jahangir-mughal",
   "shaista-khan",
   "farrukhsiyar",
+  "shah-jalal",
+  "sikandar-khan-ghazi",
+  "mohammad-ali-jauhar",
+  "shaukat-ali",
 ] as const;
 export const SUPPORTED_BOOK_IDS = [
   "research-volume",

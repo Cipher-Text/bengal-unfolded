@@ -1,0 +1,28 @@
+[
+  {
+    "year": "1303",
+    "title": "শাহ জালাল ও সিকান্দার খান গাজীর সঙ্গে যুক্ত সিলেট জয়পর্ব।",
+    "detail": "শাহ জালাল ও সিকান্দার খান গাজীর সঙ্গে যুক্ত সিলেট জয়পর্ব।",
+    "sourceIds": [
+      "conquest-of-sylhet-wikipedia",
+      "shah-jalal-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদে",
+    "title": "ঐতিহাসিক প্রভাব",
+    "detail": "এই পর্ব পরবর্তী রাজনৈতিক রূপান্তর, ক্ষমতার বিন্যাস ও জনস্মৃতিকে গভীরভাবে প্রভাবিত করে।",
+    "sourceIds": [
+      "conquest-of-sylhet-wikipedia",
+      "shah-jalal-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]

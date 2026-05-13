@@ -1,0 +1,95 @@
+{
+  "slug": "1632",
+  "year": "1632",
+  "title": "Mughal Attack on Portuguese Hooghly",
+  "subtitle": "শাহজাহান আমলে হুগলির পর্তুগিজ ঘাঁটিতে মুঘল আক্রমণ ও নিয়ন্ত্রণ পুনর্গঠন।",
+  "summary": "শাহজাহান আমলে হুগলির পর্তুগিজ ঘাঁটিতে মুঘল আক্রমণ ও নিয়ন্ত্রণ পুনর্গঠন।",
+  "themeColor": "#6a4a2f",
+  "ctaLabel": "1632 দেখুন",
+  "heroTagline": "Mughal Attack on Portuguese Hooghly reshaped power and governance patterns in Bengal.",
+  "summarySourceIds": [
+    "hooghly-1632-wikipedia",
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলার প্রাতিষ্ঠানিক ভারসাম্য, রাজনৈতিক জোট বা জনমobilization-এ বড় পরিবর্তন আনে।",
+  "whyItMattersSourceIds": [
+    "hooghly-1632-wikipedia",
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1612",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1666",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1612",
+    "1666"
+  ],
+  "periodLabel": "মুঘল অন্তর্ভুক্তি ও সংহতি পর্ব",
+  "periodId": "mughal-incorporation-and-consolidation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "এই পর্ব পরবর্তী রাজনৈতিক রূপান্তর, ক্ষমতার বিন্যাস ও জনস্মৃতিকে গভীরভাবে প্রভাবিত করে।",
+  "longTermLegacySourceIds": [
+    "hooghly-1632-wikipedia",
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলার দীর্ঘ ইতিহাস-স্মৃতিতে এই ঘটনা একটি প্রধান সংযোগবিন্দু।",
+  "identityMemorySourceIds": [
+    "hooghly-1632-wikipedia",
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Mughal Attack on Portuguese Hooghly marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "sourceIds": [
+        "hooghly-1632-wikipedia",
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "sourceIds": [
+        "hooghly-1632-wikipedia",
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Mughal Attack on Portuguese Hooghly influenced later transitions in Bengal's state, society, and political imagination.",
+      "sourceIds": [
+        "hooghly-1632-wikipedia",
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Mughal Attack on Portuguese Hooghly remains a key memory node in long-run Bengal historical narratives.",
+      "sourceIds": [
+        "hooghly-1632-wikipedia",
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

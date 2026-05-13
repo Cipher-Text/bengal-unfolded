@@ -1,0 +1,28 @@
+[
+  {
+    "year": "1303",
+    "title": "Conquest of Sylhet",
+    "detail": "Conquest of Sylhet marked a major turning point in Bengal's political trajectory and regional power structure.",
+    "sourceIds": [
+      "conquest-of-sylhet-wikipedia",
+      "shah-jalal-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "Long-term",
+    "title": "Historical consequence",
+    "detail": "Conquest of Sylhet influenced later transitions in Bengal's state, society, and political imagination.",
+    "sourceIds": [
+      "conquest-of-sylhet-wikipedia",
+      "shah-jalal-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
+    ]
+  }
+]
