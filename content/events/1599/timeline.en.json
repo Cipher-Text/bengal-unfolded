@@ -1,0 +1,56 @@
+[
+  {
+    "year": "1576",
+    "title": "Post-Rajmahal power vacuum deepens",
+    "detail": "After Daud Khan Karrani's defeat, Mughal authority advanced but did not fully control Bengal's riverine east.",
+    "sourceIds": [
+      "battle-of-rajmahal-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "Late 16th century",
+    "title": "Bhati resistance consolidates under Isa Khan",
+    "detail": "Regional chiefs in Bhati organized defense through forts, flotillas, and tactical alliances often grouped under the Baro-Bhuyans label.",
+    "sourceIds": [
+      "baro-bhuiyans-wikipedia",
+      "akbarnama"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "c. 1599",
+    "title": "Confederate resistance reaches peak visibility",
+    "detail": "By around 1599, Baro-Bhuyans resistance remained the strongest local barrier to full Mughal consolidation in Bengal.",
+    "sourceIds": [
+      "baro-bhuiyans-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1612",
+    "title": "Mughal consolidation overtakes regional bloc",
+    "detail": "After Isa Khan's era, fractured coordination among successors made confederate resistance less durable against Mughal provincial integration.",
+    "sourceIds": [
+      "mughal-conquest-of-bengal-wikipedia",
+      "baro-bhuiyans-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "economy"
+    ]
+  }
+]

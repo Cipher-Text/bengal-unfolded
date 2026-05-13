@@ -1,0 +1,56 @@
+[
+  {
+    "year": "১৫৭৬",
+    "title": "রাজমহল-পরবর্তী ক্ষমতার পুনর্বিন্যাস",
+    "detail": "দাউদ খান কররানির পরাজয়ের পর মুঘল অগ্রগতি বাড়লেও নদীনির্ভর পূর্ববাংলায় পূর্ণ নিয়ন্ত্রণ তাৎক্ষণিকভাবে প্রতিষ্ঠিত হয়নি।",
+    "sourceIds": [
+      "battle-of-rajmahal-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "১৬শ শতকের শেষভাগ",
+    "title": "ঈসা খানের নেতৃত্বে ভাটি প্রতিরোধ সংহত",
+    "detail": "ভাটি অঞ্চলের আঞ্চলিক নেতারা দুর্গ, নৌবাহিনী ও কৌশলগত মিত্রতার মাধ্যমে প্রতিরোধ গড়ে তোলেন, যা বারো ভূঁইয়া নামে পরিচিতি পায়।",
+    "sourceIds": [
+      "baro-bhuiyans-wikipedia",
+      "akbarnama"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "প্রায় ১৫৯৯",
+    "title": "জোট প্রতিরোধের দৃশ্যমান শীর্ষপর্ব",
+    "detail": "প্রায় ১৫৯৯ নাগাদ বারো ভূঁইয়া প্রতিরোধ বাংলায় পূর্ণ মুঘল সংহতির পথে সবচেয়ে বড় আঞ্চলিক বাধা হিসেবে টিকে ছিল।",
+    "sourceIds": [
+      "baro-bhuiyans-wikipedia",
+      "mughal-conquest-of-bengal-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "১৬১২",
+    "title": "মুঘল সংহতির কাছে আঞ্চলিক জোট দুর্বল",
+    "detail": "ঈসা খানের পরবর্তী সময়ে উত্তরসূরিদের মধ্যে সমন্বয় দুর্বল হওয়ায় মুঘল প্রাদেশিক একীকরণের বিরুদ্ধে প্রতিরোধ ক্রমে ভেঙে যায়।",
+    "sourceIds": [
+      "mughal-conquest-of-bengal-wikipedia",
+      "baro-bhuiyans-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "economy"
+    ]
+  }
+]

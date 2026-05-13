@@ -10,6 +10,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1414",
   "1494",
   "1576",
+  "1599",
   "1612",
   "1704",
   "1757",
@@ -427,6 +428,12 @@ export const SUPPORTED_FIGURE_IDS = [
   "khan-bahadur-ahsanullah",
   "abu-jafar-shamsuddin",
   "abul-kalam-azad",
+  "isa-khan",
+  "musa-khan",
+  "akbar",
+  "man-singh-i",
+  "islam-khan-chishti",
+  "daud-khan-karrani",
 ] as const;
 export const SUPPORTED_BOOK_IDS = [
   "research-volume",
