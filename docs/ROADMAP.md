@@ -288,6 +288,40 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 - [ ] RM-CULT-009 Diaspora culture section
 - [ ] RM-CULT-010 Cultural preservation archive
 
+### Historical knowledge graph and relational learning system
+
+Priority: Build scalable, source-backed historical intelligence using normalized entities, relationship semantics, and visual exploration.
+
+- [ ] RM-KG-001 Normalized historical entity relationship model across events, figures, places, books/resources, themes, periods, and institutions
+- [ ] RM-KG-002 Linked entity edges (`figure <-> event`, `event <-> place`, `figure <-> resource`, `theme <-> event`) with relation-type taxonomy
+- [ ] RM-KG-003 Historical metadata schema for relationship provenance, temporal scope, geographic scope, and editorial status
+- [ ] RM-KG-004 Related figures and related events system with weighted relevance and relationship context
+- [ ] RM-KG-005 Dynasty/family relationship model (`parent`, `child`, `sibling`, `lineage`, `house`) for historical figures
+- [ ] RM-KG-006 Alliance/rivalry relationship model (`allied-with`, `opposed`, `conflicted`, `diplomatic`) for figures, institutions, and states
+- [ ] RM-KG-007 Timeline participation linking (`eventParticipants`, `participantRoles`, `participationPeriod`) across entities
+- [ ] RM-KG-008 Historical territory/location mapping with time-aware boundary/region references and approximation labels
+- [ ] RM-KG-009 Source attribution system at relationship-edge level (not only entity/page level)
+- [ ] RM-KG-010 Evidence confidence system for entities and relationships (`high`, `medium`, `low`, `disputed`, `unknown`)
+- [ ] RM-KG-011 Primary vs secondary source classification rules enforced in relation and claim metadata
+- [ ] RM-KG-012 Glossary and historical terminology system connected to entities, periods, and contested concepts
+- [ ] RM-KG-013 `Explore Next` recommendation engine using relation graph proximity, path progress, and thematic continuity
+- [ ] RM-KG-014 Thematic learning paths generated from graph-linked events, figures, places, and sources
+- [ ] RM-KG-015 Cross-era historical linking (idea continuity, policy legacy, institutional inheritance, recurring conflicts)
+- [ ] RM-KG-016 Quote/archive reference support with citation anchors, archive IDs, and context snippets
+- [ ] RM-KG-017 Historical debate/disputed interpretation section backed by competing sourced viewpoints
+- [ ] RM-KG-018 Entity preview cards and hover previews with key metadata, relation summary, and source indicators
+- [ ] RM-KG-019 Graph-based navigation between historical entities (`Explore Connections`) with progressive disclosure
+- [ ] RM-KG-020 Interactive relationship graph view (`/{locale}/graph`) with filters for relation type, era, theme, and evidence confidence
+- [ ] RM-KG-021 Map-based exploration mode connecting events, routes, institutions, and cultural centers to graph entities
+
+### Relationship ID migration and compatibility
+
+- [ ] RM-KG-ID-001 Replace remaining plain-text relationship references with entity ID arrays where applicable
+- [ ] RM-KG-ID-002 Standardize forward/reverse relationship fields: `relatedFigureIds`, `relatedEventIds`, `locationIds`, `themeIds`, `resourceIds`, `sourceIds`
+- [ ] RM-KG-ID-003 Add canonical relationship object shape: `{ targetId, targetType, relationType, startDate, endDate, sourceIds, confidence, contested }`
+- [ ] RM-KG-ID-004 Enforce ID referential integrity in `scripts/validate-content.mjs` (missing IDs, circular links, orphan nodes, invalid relation types)
+- [ ] RM-KG-ID-005 Update `src/types/content.ts` and `docs/CONTENT_MODEL.md` to require ID-based relationship contracts for all new relational fields
+
 ### Example learning paths
 
 ```txt
