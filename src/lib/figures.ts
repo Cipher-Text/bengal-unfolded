@@ -7,6 +7,13 @@ const PARTY_FIGURE_IDS = new Set<Figure["id"]>([
   "bangladesh-nationalist-party",
   "communist-party-of-bangladesh",
   "jamaat-e-islami-bangladesh",
+  "all-india-muslim-league",
+  "indian-national-congress",
+  "krishak-praja-party",
+  "jatiya-party",
+  "ab-party",
+  "jamiat-e-ulema-e-islam-bangladesh",
+  "pakistan-peoples-party",
   "jatiya-samajtantrik-dal",
   "workers-party-of-bangladesh",
 ]);
