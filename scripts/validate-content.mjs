@@ -31,6 +31,22 @@ function assertArray(value, label, errors) {
   return true;
 }
 
+function hasBangla(text) {
+  return /[\u0980-\u09FF]/.test(text);
+}
+
+function assertLocaleScript(value, locale, label, errors) {
+  if (typeof value !== "string") return;
+  const trimmed = value.trim();
+  if (trimmed.length === 0) return;
+  if (locale === "bn" && !hasBangla(trimmed)) {
+    errors.push(`Expected Bangla script at ${label}`);
+  }
+  if (locale === "en" && hasBangla(trimmed)) {
+    errors.push(`Expected English/non-Bangla script at ${label}`);
+  }
+}
+
 async function main() {
   const errors = [];
   const eventDir = path.join(contentDir, "events");
@@ -144,11 +160,35 @@ async function main() {
         if (!Array.isArray(meta.contentWarnings)) {
           errors.push(`contentWarnings must be an array at content/events/${slug}/meta.${locale}.json`);
         } else {
-          for (const warning of meta.contentWarnings) {
+          for (let i = 0; i < meta.contentWarnings.length; i += 1) {
+            const warning = meta.contentWarnings[i];
             if (typeof warning !== "string" || warning.trim().length === 0) {
               errors.push(`Invalid contentWarnings entry '${warning}' at content/events/${slug}/meta.${locale}.json`);
             }
+            assertLocaleScript(warning, locale, `content/events/${slug}/meta.${locale}.json contentWarnings[${i}]`, errors);
           }
+        }
+      }
+      for (const localizedField of [
+        "title",
+        "subtitle",
+        "summary",
+        "heroTagline",
+        "whyItMatters",
+        "longTermLegacy",
+        "culturalImpact",
+        "identityMemoryNotes",
+        "periodLabel",
+        "movementLabel",
+        "placeLabel",
+      ]) {
+        if (localizedField in meta && meta[localizedField] !== undefined) {
+          assertLocaleScript(
+            meta[localizedField],
+            locale,
+            `content/events/${slug}/meta.${locale}.json field '${localizedField}'`,
+            errors,
+          );
         }
       }
       if ("parentEvent" in meta && meta.parentEvent !== undefined) {
@@ -470,9 +510,11 @@ async function main() {
       if (typeof meta.title !== "string" || meta.title.trim().length === 0) {
         errors.push(`Invalid or missing title at content/periods/${periodId}/meta.${locale}.json`);
       }
+      assertLocaleScript(meta.title, locale, `content/periods/${periodId}/meta.${locale}.json field 'title'`, errors);
       if (typeof meta.description !== "string" || meta.description.trim().length === 0) {
         errors.push(`Invalid or missing description at content/periods/${periodId}/meta.${locale}.json`);
       }
+      assertLocaleScript(meta.description, locale, `content/periods/${periodId}/meta.${locale}.json field 'description'`, errors);
       if (typeof meta.startYear !== "string" || meta.startYear.trim().length === 0) {
         errors.push(`Invalid or missing startYear at content/periods/${periodId}/meta.${locale}.json`);
       }
@@ -499,9 +541,11 @@ async function main() {
       if (typeof meta.title !== "string" || meta.title.trim().length === 0) {
         errors.push(`Invalid or missing title at content/movements/${movementId}/meta.${locale}.json`);
       }
+      assertLocaleScript(meta.title, locale, `content/movements/${movementId}/meta.${locale}.json field 'title'`, errors);
       if (typeof meta.description !== "string" || meta.description.trim().length === 0) {
         errors.push(`Invalid or missing description at content/movements/${movementId}/meta.${locale}.json`);
       }
+      assertLocaleScript(meta.description, locale, `content/movements/${movementId}/meta.${locale}.json field 'description'`, errors);
     }
   }
 
@@ -524,12 +568,15 @@ async function main() {
       if (typeof meta.title !== "string" || meta.title.trim().length === 0) {
         errors.push(`Invalid or missing title at content/places/${placeId}/meta.${locale}.json`);
       }
+      assertLocaleScript(meta.title, locale, `content/places/${placeId}/meta.${locale}.json field 'title'`, errors);
       if (typeof meta.subtitle !== "string" || meta.subtitle.trim().length === 0) {
         errors.push(`Invalid or missing subtitle at content/places/${placeId}/meta.${locale}.json`);
       }
+      assertLocaleScript(meta.subtitle, locale, `content/places/${placeId}/meta.${locale}.json field 'subtitle'`, errors);
       if (typeof meta.description !== "string" || meta.description.trim().length === 0) {
         errors.push(`Invalid or missing description at content/places/${placeId}/meta.${locale}.json`);
       }
+      assertLocaleScript(meta.description, locale, `content/places/${placeId}/meta.${locale}.json field 'description'`, errors);
       if (typeof meta.themeColor !== "string" || meta.themeColor.trim().length === 0) {
         errors.push(`Invalid or missing themeColor at content/places/${placeId}/meta.${locale}.json`);
       }
@@ -557,6 +604,25 @@ async function main() {
         }
         if (!allowedQuality.has(meta.quality)) {
           errors.push(`Invalid quality '${meta.quality}' at content/resources/${resourceId}/meta.${locale}.json`);
+        }
+      }
+    }
+  }
+
+  const figureEntries = await fs.readdir(figureDir);
+  for (const figureId of figureEntries) {
+    if (figureId.startsWith("index.")) continue;
+    for (const locale of ["en", "bn"]) {
+      const metaPath = path.join(figureDir, figureId, `meta.${locale}.json`);
+      if (!(await exists(metaPath))) {
+        errors.push(`Missing file: content/figures/${figureId}/meta.${locale}.json`);
+        continue;
+      }
+      const meta = await readJson(metaPath, errors);
+      if (!meta || typeof meta !== "object") continue;
+      for (const key of ["name", "role", "context", "impact"]) {
+        if (key in meta && meta[key] !== undefined) {
+          assertLocaleScript(meta[key], locale, `content/figures/${figureId}/meta.${locale}.json field '${key}'`, errors);
         }
       }
     }
@@ -609,6 +675,9 @@ async function main() {
         if (typeof meta[key] !== "string" || meta[key].trim().length === 0) {
           errors.push(`Missing or invalid '${key}' at content/topics/${topicSlug}/meta.${locale}.json`);
         }
+      }
+      for (const key of ["title", "tagline", "intro", "description"]) {
+        assertLocaleScript(meta[key], locale, `content/topics/${topicSlug}/meta.${locale}.json field '${key}'`, errors);
       }
       if (meta.slug !== topicSlug) {
         errors.push(`Topic slug mismatch at content/topics/${topicSlug}/meta.${locale}.json`);
