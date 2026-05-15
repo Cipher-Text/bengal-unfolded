@@ -53,9 +53,6 @@ function citationAnchorId(itemKey: string, sourceId: string): string {
   return `src-${itemKey}-${sourceId}`.replace(/[^a-zA-Z0-9-_]/g, "-");
 }
 
-type Slot = "lead" | "mid-left" | "mid-right" | "brief";
-const SLOT_PATTERN: Slot[] = ["lead", "mid-left", "mid-right", "brief"];
-
 type NewspaperPageProps = { children: React.ReactNode; pageNumber?: number };
 const NewspaperPage = forwardRef<HTMLDivElement, NewspaperPageProps>(function NewspaperPage(
   { children, pageNumber },
@@ -111,8 +108,6 @@ export function EventTimeline({
     if (groups.length === 0) groups.push([]);
     return groups;
   }, [filteredItems]);
-
-  const totalPages = itemPages.length + 1; // +1 cover
 
   function renderDetail(item: TimelineItem) {
     const itemKey = `${item.year}-${item.title}`;
@@ -194,80 +189,6 @@ export function EventTimeline({
     );
   }
 
-  function renderArticle(item: TimelineItem, slotIndex: number) {
-    const itemKey = `${item.year}-${item.title}`;
-    const slot = SLOT_PATTERN[slotIndex] ?? "mid-left";
-
-    if (slot === "lead") {
-      return (
-        <article key={itemKey} className="news-lead broadsheet-rule-right">
-          <p className="dateline">{datelineCity}, {item.year}</p>
-          <span className="byline">{locale === "bn" ? "নিজস্ব প্রতিবেদক" : "Bengal Unfolded Correspondent"}</span>
-          <h3 className="headline headline-front mt-1.5">{item.title}</h3>
-          {renderTags(item)}
-          <p className="deck mt-3">{locale === "bn" ? "প্রধান প্রতিবেদন · প্রথম পৃষ্ঠা" : "LEAD · FRONT PAGE"}</p>
-          <div className="mt-3">
-            <div className="photo-cutline aspect-[16/8] w-full" />
-            <p className="photo-caption">
-              {locale === "bn" ? "ছবি · বঙ্গ সংরক্ষণাগার" : "Photo · Bengal Archives"} — {item.year}, {item.title}
-            </p>
-          </div>
-          <div className="article-body column-2 mt-2">
-            <p>{renderDetail(item)}</p>
-          </div>
-          {renderCta(item)}
-          {renderSources(item)}
-        </article>
-      );
-    }
-
-    if (slot === "mid-left") {
-      return (
-        <article key={itemKey} className="news-quarter broadsheet-rule-right">
-          <p className="dateline">{datelineCity}, {item.year}</p>
-          <h3 className="headline headline-mid mt-1.5">{item.title}</h3>
-          {renderTags(item)}
-          <div className="article-body mt-2 text-[0.95rem]">
-            <p>{renderDetail(item)}</p>
-          </div>
-          {renderCta(item)}
-          {renderSources(item)}
-        </article>
-      );
-    }
-
-    if (slot === "mid-right") {
-      return (
-        <article key={itemKey} className="news-quarter broadsheet-rule-right">
-          <p className="dateline">{datelineCity}, {item.year}</p>
-          <h3 className="headline headline-mid mt-1.5">{item.title}</h3>
-          {renderTags(item)}
-          <div className="photo-cutline mt-3 aspect-[4/3] w-full" />
-          <p className="photo-caption">{item.title}, {item.year}</p>
-          <div className="article-body mt-2 text-[0.95rem]">
-            <p>{renderDetail(item)}</p>
-          </div>
-          {renderCta(item)}
-          {renderSources(item)}
-        </article>
-      );
-    }
-
-    return (
-      <article key={itemKey} className="news-quarter">
-        <div className="callout-box">
-          <p className="byline mb-1">{locale === "bn" ? "সংক্ষিপ্ত" : "Brief"}</p>
-          <p className="dateline">{datelineCity}, {item.year}</p>
-          <h3 className="headline headline-side mt-1">{item.title}</h3>
-          {renderTags(item)}
-          <p className="article-body mt-2 text-[0.9rem]">{renderDetail(item)}</p>
-          {renderCta(item)}
-          {renderSources(item)}
-        </div>
-      </article>
-    );
-  }
-
   function flipNext() {
     bookRef.current?.pageFlip().flipNext();
   }
@@ -311,16 +232,16 @@ export function EventTimeline({
           flippingTime={1100}
           maxShadowOpacity={0.55}
           showCover={false}
-          mobileScrollSupport
+          mobileScrollSupport={false}
           usePortrait={true}
           startPage={0}
           startZIndex={0}
           autoSize={true}
           clickEventForward={false}
-          useMouseEvents
-          swipeDistance={30}
-          showPageCorners
-          disableFlipByClick={false}
+          useMouseEvents={false}
+          swipeDistance={0}
+          showPageCorners={false}
+          disableFlipByClick={true}
           className="bengal-flipbook"
           style={{ width: "100%", margin: "0 auto" }}
           onFlip={(e: { data: number }) => setCurrentPage(e.data)}
