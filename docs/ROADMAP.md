@@ -456,6 +456,48 @@ This phase should introduce animated and map-based historical exploration withou
 - [ ] RM-016E Scrollytelling prototype for one major topic
 - [ ] RM-016F Map legend, source note, and approximation labels
 
+### Time-aware historical maps and spatial visualization
+
+Priority: Evolve from static map visuals to timeline-aware, source-backed, structured spatial learning.
+
+- [ ] RM-MAP-001 Event-location mapping system linking events to one or many historical locations
+- [ ] RM-MAP-002 Time-aware historical maps with date/year-sensitive spatial state changes
+- [ ] RM-MAP-003 Multiple map layers per event (base geography, movement, territory, context overlays)
+- [ ] RM-MAP-004 Location points linked to entities (`events`, `figures`, `books/resources`, `themes`)
+- [ ] RM-MAP-005 Route visualization model for migration, campaigns, trade, travel, invasion, resistance, and political movement
+- [ ] RM-MAP-006 Territory/polygon support for changing boundaries, control zones, and influence regions
+- [ ] RM-MAP-007 Map timeline slider for chronological exploration
+- [ ] RM-MAP-008 Year/date-based map state transitions with source-linked annotations
+- [ ] RM-MAP-009 Related event and figure overlays on map view
+- [ ] RM-MAP-010 Place detail pages with timeline context and reverse-linked events/figures/resources
+- [ ] RM-MAP-011 Clickable locations that deep-link to events, figures, books/resources, and themes
+- [ ] RM-MAP-012 Historical layer taxonomy: battle, empire, migration, trade, political, cultural, religious, economic, administrative
+- [ ] RM-MAP-013 Source attribution required for every map layer and major geometry change
+- [ ] RM-MAP-014 Evidence confidence model for uncertain historical geography (`high`, `medium`, `low`, `disputed`, `approximate`)
+- [ ] RM-MAP-015 Disputed boundary and approximate-location rendering rules
+- [ ] RM-MAP-016 Map comparison mode (for example: 1905 vs 1947 Bengal; Sultanate Bengal vs Mughal Bengal)
+- [ ] RM-MAP-017 Map-based `Explore Next` flow using nearby/related entities and timeline adjacency
+- [ ] RM-MAP-018 GeoJSON-compatible storage and ingestion path for structured spatial data
+- [ ] RM-MAP-019 Admin/content model support for authoring, validating, and reviewing map layers
+- [ ] RM-MAP-020 Responsive map UX patterns for mobile-first learners
+
+### Spatial data architecture note
+
+Recommended direction: store historical maps as structured data, not static images, so timeline state, overlays, evidence metadata, and relation links remain queryable and maintainable.
+
+Suggested field direction for future compatibility:
+
+```txt
+locationIds
+mapLayerIds
+routeIds
+territoryIds
+timeRange
+geoJsonRef
+evidenceLevel
+sourceIds
+```
+
 ### Suggested first interactive topics
 
 ```txt
