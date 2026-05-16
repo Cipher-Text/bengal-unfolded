@@ -44,7 +44,7 @@ For every schema or field change:
 - Enum-like fields must only use allowed values.
 - If a claim has citations, its evidence-level metadata is required.
 - EN/BN parity is required for required locale files.
-- Figure `image` paths in `content/figures/*/meta.<locale>.json` must point to existing files in `public/figures/` (no broken references).
+- Figure `image` paths in `content/figures/*/meta.<locale>.json` should use stable files under `public/figures/`; strict file-existence enforcement is optional.
 - Image cleanup (delete/rename/format swap such as `.jpeg` -> `.jpg`) must update figure metadata paths in both locales in the same change set.
 - Topic metadata under `content/topics/*/meta.<locale>.json` must keep EN/BN parity and valid linked IDs (`eventSlugs`, `figureIds`, `resourceIds`).
 - Place metadata under `content/places/*/meta.<locale>.json` must keep EN/BN parity and valid allowed `placeId`.

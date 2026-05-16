@@ -41,6 +41,45 @@ Image rendering policy:
 - If `image` is missing or removed during integrity cleanup, UI should collapse media blocks instead of showing placeholders/broken avatars.
 - Preferred figure asset location is `public/figures/`; legacy/staging paths such as `public/draft/` must not be referenced by figure metadata.
 - If an image filename or extension changes, update `image` in both `meta.en.json` and `meta.bn.json` for the affected figure in the same commit.
+- Product policy: figure photos are rendered on figure detail pages only (`/{locale}/figures/{id}`), not on event key-figure cards.
+- Preferred figure detail photo presentation:
+  - Primary media ratio: `4:5` portrait.
+  - Fallback ratio for archival landscape images: `3:2`.
+  - Image fit: `object-contain` (avoid historical photo cropping).
+  - Default color treatment: near-monochrome with subtle warm tone (grayscale + light sepia + mild contrast lift).
+
+### ChatGPT photo-conversion prompt (uploader workflow)
+
+Use this prompt when uploading a source photo to ChatGPT for figure-page preparation:
+
+```text
+I am uploading a historical figure photo for a website profile page.
+
+Edit this image with the following exact rules:
+1) Output ratio: 4:5 portrait. If the source is very wide and portrait crop is not safe, produce a second version in 3:2.
+2) Do not crop out the main subject’s face or identifying features.
+3) Keep full subject visibility preference (object-contain style composition), avoid aggressive zoom.
+4) Color treatment: near-monochrome archival look:
+   - grayscale base
+   - subtle warm sepia tone
+   - mild contrast increase
+   - no vivid color boost
+5) Preserve historical authenticity: no face reshaping, no beautification, no modern stylization.
+6) Clean only minor dust/noise artifacts if present; do not alter factual visual details.
+7) Keep background natural; do not replace background.
+8) Return a web-ready JPG/PNG suitable for profile usage.
+
+Deliver:
+- Primary output: 4:5 version
+- Optional fallback: 3:2 version (only if needed for composition safety)
+```
+
+Suggested naming after export:
+
+- `public/figures/<figure-id>.jpg` (preferred)
+- then set `image` in:
+  - `content/figures/<figure-id>/meta.en.json`
+  - `content/figures/<figure-id>/meta.bn.json`
 
 ## Relationship model
 
