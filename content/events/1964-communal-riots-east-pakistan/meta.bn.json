@@ -1,0 +1,48 @@
+{
+  "slug": "1964-communal-riots-east-pakistan",
+  "year": "১৯৬৪",
+  "title": "পূর্ব পাকিস্তানে সাম্প্রদায়িক দাঙ্গা",
+  "subtitle": "শহুরে সহিংসতা ও সংখ্যালঘু অনিরাপত্তা রাজনৈতিক অবিশ্বাস বাড়ায়।",
+  "summary": "১৯৬৪ সালে পূর্ব পাকিস্তানের বিভিন্ন এলাকায়, বিশেষ করে নগরকেন্দ্রিক অঞ্চলে, সাম্প্রদায়িক সহিংসতা ছড়িয়ে পড়ে; এতে প্রাণহানি, বাস্তুচ্যুতি এবং সংখ্যালঘু সম্প্রদায়ের মধ্যে তীব্র অনিরাপত্তা তৈরি হয়। এই দাঙ্গা প্রশাসনিক দুর্বলতা উন্মোচন করে এবং নাগরিক নিরাপত্তা ও রাষ্ট্রের সমান সুরক্ষা দেওয়ার সক্ষমতা নিয়ে জনমনে গভীর প্রশ্ন তোলে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "দাঙ্গার প্রেক্ষাপট দেখুন",
+  "heroTagline": "সাম্প্রদায়িক সহিংসতা রাষ্ট্রের প্রতি আস্থার সংকটকে তীব্র করে।",
+  "whyItMatters": "১৯৬৪ সালের দাঙ্গা সামাজিক মেরুকরণ বাড়ায় এবং পূর্ব পাকিস্তানের রাজনীতিতে জবাবদিহিমূলক শাসন, সংখ্যালঘু সুরক্ষা ও ন্যায্য প্রতিনিধিত্বের দাবিকে আরও ধারালো করে তোলে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1947",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1965-indo-pak-war-east-pakistan-insecurity",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1966",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1947",
+    "1965-indo-pak-war-east-pakistan-insecurity",
+    "1966"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

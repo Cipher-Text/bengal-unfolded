@@ -1,0 +1,55 @@
+[
+  {
+    "year": "১৯৫৫-১৯৫৬",
+    "title": "সংবিধান প্রণয়নের আলোচনা অব্যাহত থাকে",
+    "detail": "প্রতিনিধিত্বের সূত্র, কেন্দ্র-প্রদেশ ক্ষমতার বণ্টন ও প্রাতিষ্ঠানিক নকশা নিয়ে রাজনৈতিক পক্ষগুলোর মধ্যে দীর্ঘ আলোচনা চলে।",
+    "sourceIds": [
+      "constitutional-development-banglapedia",
+      "constitutional-documents-pakistan"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "২৩ মার্চ ১৯৫৬",
+    "title": "পাকিস্তানের প্রথম সংবিধান কার্যকর হয়",
+    "detail": "নতুন সংসদীয় সংবিধানের অধীনে পাকিস্তান ইসলামি প্রজাতন্ত্রে রূপান্তরিত হয় এবং পূর্বের অন্তর্বর্তী আইনি কাঠামো প্রতিস্থাপিত হয়।",
+    "sourceIds": [
+      "constitutional-documents-pakistan",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৫৬",
+    "title": "পূর্ব পাকিস্তানে প্রতিনিধিত্ব ও স্বায়ত্তশাসনের বিরোধ বহাল থাকে",
+    "detail": "সাংবিধানিক পরিবর্তন সত্ত্বেও parity-ভিত্তিক প্রতিনিধিত্ব, প্রাদেশিক ক্ষমতা এবং রাষ্ট্রক্ষমতায় ন্যায্য অংশীদারিত্ব নিয়ে অসন্তোষ অব্যাহত থাকে।",
+    "sourceIds": [
+      "research-volume",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "১৯৫৮ ও পরবর্তী সময়",
+    "title": "সাংবিধানিক ভঙ্গুরতা গভীর সংকটে রূপ নেয়",
+    "detail": "সংবিধান-পর্বের অমীমাংসিত টানাপোড়েন প্রাতিষ্ঠানিক ভাঙনকে ত্বরান্বিত করে এবং সামরিক হস্তক্ষেপ ও নতুন সাংবিধানিক দ্বন্দ্বের পথ খুলে দেয়।",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "pakistan-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

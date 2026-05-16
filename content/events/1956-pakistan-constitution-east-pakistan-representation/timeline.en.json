@@ -1,0 +1,55 @@
+[
+  {
+    "year": "1955-1956",
+    "title": "Constitution-making negotiations continue",
+    "detail": "Political actors debated representation formulas, center-province powers, and institutional design while attempting to stabilize Pakistan's post-partition constitutional order.",
+    "sourceIds": [
+      "constitutional-development-banglapedia",
+      "constitutional-documents-pakistan"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "23 Mar 1956",
+    "title": "Pakistan's first constitution comes into force",
+    "detail": "Pakistan became an Islamic Republic under a new parliamentary constitution, formally replacing earlier transitional legal arrangements.",
+    "sourceIds": [
+      "constitutional-documents-pakistan",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1956",
+    "title": "Representation and autonomy disputes persist in East Pakistan",
+    "detail": "Despite constitutional transition, public and political dissatisfaction in East Pakistan continued around parity logic, provincial authority, and equitable participation in state power.",
+    "sourceIds": [
+      "research-volume",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "1958 and after",
+    "title": "Constitutional fragility gives way to deeper crisis",
+    "detail": "The unresolved tensions of the constitutional period contributed to institutional breakdown and opened the path toward military intervention and renewed constitutional conflict.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "pakistan-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

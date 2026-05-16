@@ -1,0 +1,48 @@
+{
+  "slug": "1956-pakistan-constitution-east-pakistan-representation",
+  "year": "1956",
+  "title": "Pakistan Constitution and East Pakistan Representation",
+  "subtitle": "A new constitutional order, unresolved questions of parity and power.",
+  "summary": "In 1956, Pakistan adopted its first republican constitution, replacing the Government of India Act framework with a new parliamentary structure. For East Pakistan, the constitution formalized state reorganization but did not resolve enduring disputes over representation, provincial autonomy, and the balance of power between the two wings.",
+  "themeColor": "#a16207",
+  "ctaLabel": "Review constitutional shift",
+  "heroTagline": "A constitution was enacted, but structural imbalance remained.",
+  "whyItMatters": "The 1956 constitutional settlement institutionalized key governance rules while leaving East Pakistan's core representation concerns only partially addressed, feeding later autonomy movements and constitutional confrontation.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1954",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1958",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1962",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1954",
+    "1958",
+    "1962"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "constitutional-development-banglapedia",
+    "constitutional-documents-pakistan"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

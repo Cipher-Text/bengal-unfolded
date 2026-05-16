@@ -1,0 +1,48 @@
+{
+  "slug": "1956-pakistan-constitution-east-pakistan-representation",
+  "year": "১৯৫৬",
+  "title": "পাকিস্তান সংবিধান ও পূর্ব পাকিস্তানের প্রতিনিধিত্ব",
+  "subtitle": "নতুন সাংবিধানিক কাঠামো, কিন্তু সমতা ও ক্ষমতার প্রশ্ন অমীমাংসিত।",
+  "summary": "১৯৫৬ সালে পাকিস্তান প্রথম প্রজাতান্ত্রিক সংবিধান প্রণয়ন করে এবং উপনিবেশিক আইনি কাঠামোর পরিবর্তে নতুন সংসদীয় ব্যবস্থা চালু হয়। তবে পূর্ব পাকিস্তানের জন্য প্রতিনিধিত্ব, প্রাদেশিক স্বায়ত্তশাসন এবং দুই অংশের ক্ষমতার ভারসাম্য নিয়ে দীর্ঘস্থায়ী বিরোধ পুরোপুরি মেটেনি।",
+  "themeColor": "#a16207",
+  "ctaLabel": "সাংবিধানিক পরিবর্তন দেখুন",
+  "heroTagline": "সংবিধান এল, কাঠামোগত ভারসাম্যহীনতা রইল।",
+  "whyItMatters": "১৯৫৬ সালের সাংবিধানিক বন্দোবস্ত রাষ্ট্র পরিচালনার নিয়ম প্রাতিষ্ঠানিক করলেও পূর্ব পাকিস্তানের মূল প্রতিনিধিত্ব সংকট আংশিকভাবে অনিরসিত রাখে; যা পরবর্তী স্বায়ত্তশাসন আন্দোলন ও সাংবিধানিক দ্বন্দ্বকে ত্বরান্বিত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1954",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1958",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1962",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1954",
+    "1958",
+    "1962"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "constitutional-development-banglapedia",
+    "constitutional-documents-pakistan"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

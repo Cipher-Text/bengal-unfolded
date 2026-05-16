@@ -1,0 +1,48 @@
+{
+  "slug": "1964-communal-riots-east-pakistan",
+  "year": "1964",
+  "title": "Communal Riots in East Pakistan",
+  "subtitle": "Urban violence and minority insecurity intensified political distrust.",
+  "summary": "In 1964, communal violence spread across parts of East Pakistan, especially in urban centers, producing deaths, displacement, and deep fear among minority communities. The riots exposed administrative weakness and reinforced public concerns about citizenship security and equal protection under the state.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Review riot context",
+  "heroTagline": "Communal violence widened the crisis of trust in the state.",
+  "whyItMatters": "The 1964 riots deepened social polarization and sharpened demands for accountable governance, minority protection, and political representation in East Pakistan's evolving autonomy politics.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1947",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1965-indo-pak-war-east-pakistan-insecurity",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1966",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1947",
+    "1965-indo-pak-war-east-pakistan-insecurity",
+    "1966"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

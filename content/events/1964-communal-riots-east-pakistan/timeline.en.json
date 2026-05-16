@@ -1,0 +1,55 @@
+[
+  {
+    "year": "Jan 1964",
+    "title": "Communal tension escalates in East Pakistan",
+    "detail": "Following escalating regional communal tensions, violence spread into districts of East Pakistan and quickly disrupted daily life in affected urban and peri-urban areas.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1964",
+    "title": "Deaths, displacement, and minority insecurity",
+    "detail": "Riots caused casualties, displacement, and long-term fear among minority households, while many communities faced uncertainty over protection and return.",
+    "sourceIds": [
+      "a-history-of-bangladesh",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1964",
+    "title": "State response questioned",
+    "detail": "Public criticism grew around the adequacy, speed, and fairness of administrative response, strengthening demands for accountable governance in East Pakistan.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1965-1966",
+    "title": "Political distrust feeds autonomy discourse",
+    "detail": "Experiences of insecurity and unequal state protection fed into broader political arguments about representation, rights, and constitutional restructuring.",
+    "sourceIds": [
+      "bangladesh-from-mujib-to-ershad",
+      "six-point-programme-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]
