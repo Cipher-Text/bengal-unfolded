@@ -1,0 +1,43 @@
+{
+  "slug": "1923-bengal-pact",
+  "year": "1923",
+  "title": "Bengal Pact",
+  "subtitle": "A negotiated formula for Hindu-Muslim political cooperation in Bengal.",
+  "summary": "The Bengal Pact sought a negotiated framework for communal representation and political cooperation, reflecting both possibility and limits of inter-communal power-sharing in colonial Bengal.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "A negotiated formula for Hindu-Muslim political cooperation in Bengal.",
+  "whyItMatters": "Its rise and decline illuminate why coalition politics remained unstable despite repeated compromise attempts.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1919-1924",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1937",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1919-1924",
+    "1937"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

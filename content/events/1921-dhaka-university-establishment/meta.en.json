@@ -1,0 +1,38 @@
+{
+  "slug": "1921-dhaka-university-establishment",
+  "year": "1921",
+  "title": "Dhaka University Establishment",
+  "subtitle": "A new institutional center in eastern Bengal politics and culture.",
+  "summary": "The establishment of the University of Dhaka in 1921 created a major educational and intellectual institution that later shaped political mobilization, language activism, and public leadership in East Bengal.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "A new institutional center in eastern Bengal politics and culture.",
+  "whyItMatters": "It provided the social-intellectual infrastructure for later mass politics in East Bengal and East Pakistan.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1952",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1952"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

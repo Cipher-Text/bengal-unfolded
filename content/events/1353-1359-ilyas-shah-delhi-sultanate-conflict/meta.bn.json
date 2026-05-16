@@ -1,0 +1,38 @@
+{
+  "slug": "1353-1359-ilyas-shah-delhi-sultanate-conflict",
+  "year": "১৩৫৩-১৩৫৯",
+  "title": "ইলিয়াস শাহ ও দিল্লি সুলতানাতের সংঘাত",
+  "subtitle": "বাংলা একীকরণের পর প্রারম্ভিক সার্বভৌমত্বের লড়াই।",
+  "summary": "একীকরণের পর শামসুদ্দিন ইলিয়াস শাহ দিল্লি সুলতানাতের সামরিক চাপের মুখে পড়েন; এই সংঘাত বাংলার সুলতানি সার্বভৌমত্বের বাস্তব সীমা নির্ধারণে ভূমিকা রাখে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "বাংলা একীকরণের পর প্রারম্ভিক সার্বভৌমত্বের লড়াই।",
+  "whyItMatters": "পুনঃপুন সাম্রাজ্যিক প্রতিদ্বন্দ্বিতার মধ্যেও এই পর্ব বাংলা সুলতানাতকে নিজস্ব রাজনৈতিক কেন্দ্রসহ টেকসই আঞ্চলিক শক্তি হিসেবে প্রতিষ্ঠিত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1352",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1352"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

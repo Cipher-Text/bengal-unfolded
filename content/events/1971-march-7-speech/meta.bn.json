@@ -1,0 +1,43 @@
+{
+  "slug": "1971-march-7-speech",
+  "year": "৭ মার্চ ১৯৭১",
+  "title": "৭ মার্চের ভাষণ",
+  "subtitle": "গণ-রাজনীতির ভাষা বদলে দেওয়া ঐতিহাসিক জনভাষণ।",
+  "summary": "১৯৭১ সালের ৭ মার্চ শেখ মুজিবুর রহমানের ঐতিহাসিক ভাষণ রাজনৈতিক প্রতিরোধকে ঐক্যবদ্ধ করে, অসহযোগকে সমন্বিত করে এবং জনসমাজকে সিদ্ধান্তমূলক সংঘর্ষের জন্য প্রস্তুত করে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "গণ-রাজনীতির ভাষা বদলে দেওয়া ঐতিহাসিক জনভাষণ।",
+  "whyItMatters": "এই ভাষণ নির্বাচনী গণরায় ও সশস্ত্র সংঘর্ষের মধ্যবর্তী সময়ে কার্যকর রাজনৈতিক রূপরেখা হিসেবে কাজ করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1970",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971",
+    "1970"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

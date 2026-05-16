@@ -1,0 +1,38 @@
+{
+  "slug": "1991-return-to-parliamentary-democracy",
+  "year": "১৯৯১",
+  "title": "সংসদীয় গণতন্ত্রে প্রত্যাবর্তন",
+  "subtitle": "গণঅভ্যুত্থান-পরবর্তী রূপান্তর ও সাংবিধানিক পুনর্গঠন।",
+  "summary": "১৯৯০-এর গণঅভ্যুত্থানের পর নির্বাচন ও সাংবিধানিক সংশোধনের মাধ্যমে বাংলাদেশ ১৯৯১ সালে সংসদীয় শাসনব্যবস্থায় প্রত্যাবর্তন করে; এতে নির্বাহী-আইনসভার ভারসাম্য নতুনভাবে নির্ধারিত হয়।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "গণঅভ্যুত্থান-পরবর্তী রূপান্তর ও সাংবিধানিক পুনর্গঠন।",
+  "whyItMatters": "এই রূপান্তর পরবর্তী প্রতিদ্বন্দ্বিতামূলক নির্বাচনী রাজনীতির প্রাতিষ্ঠানিক কাঠামো স্থির করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1990",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1990"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

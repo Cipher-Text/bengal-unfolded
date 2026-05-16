@@ -1,0 +1,43 @@
+{
+  "slug": "1519-1533-nusrat-shah-reign",
+  "year": "1519-1533",
+  "title": "Nusrat Shah's Reign",
+  "subtitle": "Late Husain Shahi governance and regional diplomacy.",
+  "summary": "Under Nusrat Shah, Bengal maintained a significant regional profile through court governance, diplomacy, and continuity of the Husain Shahi political order.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Late Husain Shahi governance and regional diplomacy.",
+  "whyItMatters": "His reign helps connect the high point of late independent sultanate politics with the strategic pressures that followed in the sixteenth century.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1494",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1538",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1494",
+    "1538"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

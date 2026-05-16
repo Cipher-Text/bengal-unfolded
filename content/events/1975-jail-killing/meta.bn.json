@@ -1,0 +1,38 @@
+{
+  "slug": "1975-jail-killing",
+  "year": "৩ নভেম্বর ১৯৭৫",
+  "title": "জেল হত্যা",
+  "subtitle": "শাসন-সংকটকালে কারাগারে জাতীয় নেতাদের হত্যা।",
+  "summary": "১৯৭৫-পরবর্তী শাসন-সংকটের মধ্যে ঢাকার কেন্দ্রীয় কারাগারে বাংলাদেশের চার জাতীয় নেতাকে হত্যা করা হয়; এতে প্রাতিষ্ঠানিক ভাঙন ও রাজনৈতিক আতঙ্ক আরও তীব্র হয়।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "শাসন-সংকটকালে কারাগারে জাতীয় নেতাদের হত্যা।",
+  "whyItMatters": "জেল হত্যা স্বাধীনতা-পরবর্তী রাজনীতিতে দায়মুক্তি, অভিজাত ক্ষমতার দ্বন্দ্ব ও সাংবিধানিক ভাঙনের এক নির্ধারক নিদর্শন হয়ে ওঠে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1975",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1975"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

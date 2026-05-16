@@ -1,0 +1,43 @@
+{
+  "slug": "1947-sylhet-referendum",
+  "year": "1947",
+  "title": "Sylhet Referendum",
+  "subtitle": "Border-making through plebiscitary transition.",
+  "summary": "The Sylhet referendum of 1947 determined most of Sylhet's transfer from Assam to East Bengal (Pakistan), making local demography and district-level voting central to border outcomes.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Border-making through plebiscitary transition.",
+  "whyItMatters": "It demonstrates how partition boundaries were shaped not only by elite negotiation but also by localized electoral processes.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1947",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1874",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1947",
+    "1874"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

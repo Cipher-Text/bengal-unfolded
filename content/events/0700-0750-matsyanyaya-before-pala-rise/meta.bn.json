@@ -1,0 +1,38 @@
+{
+  "slug": "0700-0750-matsyanyaya-before-pala-rise",
+  "year": "c. ৭০০-৭৫০",
+  "title": "পাল উত্থানের আগে মৎস্যন্যায় পর্ব",
+  "subtitle": "পাল সংহতির আগে রাজনৈতিক খণ্ডীকরণ ও সংঘাত।",
+  "summary": "পাল বংশের উত্থানের আগে বাংলার বিভিন্ন অঞ্চলে দীর্ঘস্থায়ী অস্থিতিশীলতা দেখা যায়, যাকে প্রায়ই মৎস্যন্যায় পর্ব বলা হয়; খণ্ডিত ক্ষমতা, স্থানীয় সংঘাত এবং দুর্বল কেন্দ্রীয় শাসন সামাজিক শৃঙ্খলাকে বিঘ্নিত করে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "পাল সংহতির আগে রাজনৈতিক খণ্ডীকরণ ও সংঘাত।",
+  "whyItMatters": "এই পর্যায় বোঝায় কেন পরবর্তী শাসকগোষ্ঠী শৃঙ্খলা প্রতিষ্ঠাকে অগ্রাধিকার দেয় এবং কেন পাল রাষ্ট্রগঠনকে প্রারম্ভিক মধ্যযুগে স্থিতিশীলতার গুরুত্বপূর্ণ মোড় হিসেবে দেখা হয়।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "0750-1170-pala-dynasty-foundation",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "0750-1170-pala-dynasty-foundation"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

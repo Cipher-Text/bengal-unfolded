@@ -1,0 +1,43 @@
+{
+  "slug": "1095-1205-sena-rise-and-lakshman-sen-court-culture",
+  "year": "c. 1095-1205",
+  "title": "Sena Rise and Lakshman Sen Court Culture",
+  "subtitle": "Dynastic expansion and a major phase of courtly-literary life in Bengal.",
+  "summary": "The Sena period marked dynastic expansion, consolidation of elite Hindu court culture, and notable patronage of Sanskrit and Bengali literary-intellectual activity, especially under Lakshman Sen.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Dynastic expansion and a major phase of courtly-literary life in Bengal.",
+  "whyItMatters": "Understanding this phase helps explain social hierarchy, literary change, and the political landscape immediately before the 1204 conquest.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1178-1204-sena-transition",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1204",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1178-1204-sena-transition",
+    "1204"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

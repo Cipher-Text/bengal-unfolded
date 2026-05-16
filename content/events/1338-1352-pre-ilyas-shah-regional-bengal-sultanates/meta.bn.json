@@ -1,0 +1,38 @@
+{
+  "slug": "1338-1352-pre-ilyas-shah-regional-bengal-sultanates",
+  "year": "১৩৩৮-১৩৫২",
+  "title": "ইলিয়াস শাহ-পূর্ব আঞ্চলিক বাংলা সুলতানাত",
+  "subtitle": "বাংলা-ব্যাপী একীকরণের আগে প্রতিদ্বন্দ্বী আঞ্চলিক দরবারসমূহ।",
+  "summary": "শামসুদ্দিন ইলিয়াস শাহের একীকরণের আগে লখনৌতি, সোনারগাঁ ও সাতগাঁকে ঘিরে একাধিক আঞ্চলিক সুলতানি কেন্দ্র কার্যকর ছিল; এতে খণ্ডিত হলেও গতিশীল রাজনৈতিক প্রতিযোগিতা তৈরি হয়।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "বাংলা-ব্যাপী একীকরণের আগে প্রতিদ্বন্দ্বী আঞ্চলিক দরবারসমূহ।",
+  "whyItMatters": "এই পর্যায় দেখায়, ১৩৫২ সালের একীকরণ শূন্যতা থেকে নয়, বরং পূর্ববর্তী আঞ্চলিক ক্ষমতার সংঘাতের ভিতরে গড়ে ওঠে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1352",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1352"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

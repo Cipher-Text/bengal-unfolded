@@ -1,0 +1,38 @@
+{
+  "slug": "1971-mujibnagar-government",
+  "year": "April 1971",
+  "title": "Mujibnagar Government",
+  "subtitle": "Formation of the provisional government of Bangladesh.",
+  "summary": "In April 1971, leaders of Bangladesh's independence movement formed the provisional Mujibnagar Government, creating constitutional and diplomatic structure for wartime statehood.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Formation of the provisional government of Bangladesh.",
+  "whyItMatters": "It transformed resistance from scattered rebellion into a recognized political-state project.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

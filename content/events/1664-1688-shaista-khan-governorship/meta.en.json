@@ -1,0 +1,43 @@
+{
+  "slug": "1664-1688-shaista-khan-governorship",
+  "year": "1664-1688",
+  "title": "Shaista Khan's Bengal Governorship",
+  "subtitle": "Administrative expansion, trade control, and imperial consolidation.",
+  "summary": "Shaista Khan's long governorship in Bengal oversaw military campaigns, urban-commercial growth, and tighter Mughal administrative control, including the Chittagong frontier shift.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Administrative expansion, trade control, and imperial consolidation.",
+  "whyItMatters": "The period is key to understanding late Mughal Bengal's fiscal power, maritime politics, and imperial governance capacity.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1666",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1666",
+    "1704"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

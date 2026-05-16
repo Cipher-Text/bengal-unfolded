@@ -1,0 +1,28 @@
+[
+  {
+    "year": "1756",
+    "title": "Political context develops",
+    "detail": "In 1756, Siraj ud-Daulah attacked and captured Calcutta in response to Company fortification and political encroachment, escalating tensions that soon led to Plassey.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1756",
+    "title": "Key transition point",
+    "detail": "The event marks a decisive confrontation between nawabi sovereignty and Company militarized commerce.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  }
+]

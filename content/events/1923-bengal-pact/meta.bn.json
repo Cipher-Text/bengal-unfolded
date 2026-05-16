@@ -1,0 +1,43 @@
+{
+  "slug": "1923-bengal-pact",
+  "year": "১৯২৩",
+  "title": "বেঙ্গল প্যাক্ট",
+  "subtitle": "বাংলায় হিন্দু-মুসলিম রাজনৈতিক সমঝোতার প্রস্তাবিত কাঠামো।",
+  "summary": "বেঙ্গল প্যাক্ট সাম্প্রদায়িক প্রতিনিধিত্ব ও রাজনৈতিক সহযোগিতার এক সমঝোতাভিত্তিক কাঠামো প্রস্তাব করে; ঔপনিবেশিক বাংলায় আন্তঃসম্প্রদায়িক ক্ষমতা-ভাগাভাগির সম্ভাবনা ও সীমাবদ্ধতা—দুটিই এতে ফুটে ওঠে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "বাংলায় হিন্দু-মুসলিম রাজনৈতিক সমঝোতার প্রস্তাবিত কাঠামো।",
+  "whyItMatters": "এর উত্থান ও পতন দেখায়, আপসচেষ্টা সত্ত্বেও জোটভিত্তিক রাজনীতি কেন দীর্ঘমেয়াদে অস্থিতিশীল ছিল।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1919-1924",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1937",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1919-1924",
+    "1937"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

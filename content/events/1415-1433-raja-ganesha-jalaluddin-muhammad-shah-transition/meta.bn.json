@@ -1,0 +1,38 @@
+{
+  "slug": "1415-1433-raja-ganesha-jalaluddin-muhammad-shah-transition",
+  "year": "১৪১৫-১৪৩৩",
+  "title": "রাজা গণেশ-জালালউদ্দিন মুহাম্মদ শাহ রূপান্তর পর্ব",
+  "subtitle": "রাজবংশীয় রূপান্তর, বৈধতার সমঝোতা ও শাসন পুনর্গঠন।",
+  "summary": "রাজা গণেশের ক্ষমতা দখলের পর জালালউদ্দিন মুহাম্মদ শাহে রূপান্তর বাংলায় রাজকীয় বৈধতা, ধর্মীয় সম্পর্ক এবং দরবারি শাসনের এক সমঝোতাভিত্তিক পুনর্গঠনকে নির্দেশ করে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "রাজবংশীয় রূপান্তর, বৈধতার সমঝোতা ও শাসন পুনর্গঠন।",
+  "whyItMatters": "এই রূপান্তর দেখায়, পরবর্তী বাংলা দরবারগুলো কীভাবে রাজনৈতিক শক্তি ও বৈধতা-নির্মাণ একসঙ্গে ব্যবহার করে সার্বভৌমত্ব পরিচালনা করেছে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1414",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1414"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

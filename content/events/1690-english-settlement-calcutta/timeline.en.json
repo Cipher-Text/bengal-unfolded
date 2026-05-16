@@ -1,0 +1,28 @@
+[
+  {
+    "year": "1690",
+    "title": "Political context develops",
+    "detail": "In 1690, the English East India Company consolidated a settlement at Calcutta, laying an institutional-commercial foundation for later colonial expansion in Bengal.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1690",
+    "title": "Key transition point",
+    "detail": "This settlement linked trade, fortification, and municipal growth in ways that later altered Bengal's political economy.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  }
+]

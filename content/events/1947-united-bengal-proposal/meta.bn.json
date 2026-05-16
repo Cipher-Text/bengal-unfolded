@@ -1,0 +1,38 @@
+{
+  "slug": "1947-united-bengal-proposal",
+  "year": "১৯৪৭",
+  "title": "যুক্ত বাংলা প্রস্তাব",
+  "subtitle": "বিভাজন এড়াতে সার্বভৌম বাংলার শেষ মুহূর্তের উদ্যোগ।",
+  "summary": "১৯৪৭ সালে কিছু রাজনৈতিক নেতা বাংলাকে অবিভক্ত রাজনৈতিক সত্তা হিসেবে রাখার জন্য যুক্ত বাংলা প্রস্তাব উত্থাপন করেন; কিন্তু সর্বভারতীয় বিভাজন আলোচনার চাপ ও সাম্প্রদায়িক মেরুকরণের মধ্যে পরিকল্পনাটি ব্যর্থ হয়।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "বিভাজন এড়াতে সার্বভৌম বাংলার শেষ মুহূর্তের উদ্যোগ।",
+  "whyItMatters": "এই প্রস্তাব দেখায়, বিভাজনের সময় বিকল্প সাংবিধানিক ভবিষ্যৎ কল্পনা করা হলেও তা রাজনৈতিকভাবে টিকতে পারেনি।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1947",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1947"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "1664-1688-shaista-khan-governorship",
+  "year": "১৬৬৪-১৬৮৮",
+  "title": "শায়েস্তা খানের বাংলার সুবাদারি",
+  "subtitle": "প্রশাসনিক বিস্তার, বাণিজ্য নিয়ন্ত্রণ ও সাম্রাজ্যিক সংহতি।",
+  "summary": "শায়েস্তা খানের দীর্ঘ সুবাদারি শাসনে সামরিক অভিযান, নগর-বাণিজ্যিক বিস্তার এবং মুঘল প্রশাসনিক নিয়ন্ত্রণের দৃঢ়তা বৃদ্ধি পায়; চট্টগ্রাম প্রশ্নও এই পর্বে গুরুত্বপূর্ণ।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "প্রশাসনিক বিস্তার, বাণিজ্য নিয়ন্ত্রণ ও সাম্রাজ্যিক সংহতি।",
+  "whyItMatters": "এই পর্ব দেরি-মুঘল বাংলার রাজস্বশক্তি, সামুদ্রিক রাজনীতি ও সাম্রাজ্যিক শাসন-সামর্থ্য বুঝতে অপরিহার্য।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1666",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1666",
+    "1704"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

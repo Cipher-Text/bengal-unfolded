@@ -1,0 +1,43 @@
+{
+  "slug": "1519-1533-nusrat-shah-reign",
+  "year": "১৫১৯-১৫৩৩",
+  "title": "নুসরাত শাহের শাসনকাল",
+  "subtitle": "হুসাইন শাহী পর্বের শেষভাগের শাসন ও আঞ্চলিক কূটনীতি।",
+  "summary": "নুসরাত শাহের শাসনে বাংলা দরবারি শাসন, কূটনীতি ও হুসাইন শাহী রাজনৈতিক ধারাবাহিকতার মাধ্যমে উল্লেখযোগ্য আঞ্চলিক অবস্থান ধরে রাখে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "হুসাইন শাহী পর্বের শেষভাগের শাসন ও আঞ্চলিক কূটনীতি।",
+  "whyItMatters": "এই শাসনকাল স্বাধীন সুলতানি রাজনীতির শেষভাগের উচ্চাবস্থা এবং পরবর্তী ষোড়শ শতকের কৌশলগত চাপের মধ্যে সংযোগ ব্যাখ্যা করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1494",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1538",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1494",
+    "1538"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

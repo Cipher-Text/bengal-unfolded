@@ -1,0 +1,38 @@
+{
+  "slug": "1415-1433-raja-ganesha-jalaluddin-muhammad-shah-transition",
+  "year": "1415-1433",
+  "title": "Raja Ganesha-Jalaluddin Muhammad Shah Transition",
+  "subtitle": "Dynastic transition, legitimacy negotiation, and regime restructuring.",
+  "summary": "Following Raja Ganesha's seizure of power, the transition to Jalaluddin Muhammad Shah represented a negotiated reconfiguration of kingship, religion, and court legitimacy in Bengal.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Dynastic transition, legitimacy negotiation, and regime restructuring.",
+  "whyItMatters": "The transition shaped how later Bengal courts managed sovereignty through both political force and legitimacy-building.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1414",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1414"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

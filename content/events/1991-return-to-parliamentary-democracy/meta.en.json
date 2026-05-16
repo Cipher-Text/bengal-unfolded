@@ -1,0 +1,38 @@
+{
+  "slug": "1991-return-to-parliamentary-democracy",
+  "year": "1991",
+  "title": "Return to Parliamentary Democracy",
+  "subtitle": "Post-uprising transition and constitutional restructuring.",
+  "summary": "After the 1990 mass uprising, Bangladesh moved through election and constitutional amendment to restore a parliamentary system in 1991, reshaping executive-legislative balance.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Post-uprising transition and constitutional restructuring.",
+  "whyItMatters": "This transition established the institutional framework for subsequent competitive electoral politics.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1990",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1990"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

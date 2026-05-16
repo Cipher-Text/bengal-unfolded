@@ -1,0 +1,38 @@
+{
+  "slug": "0700-0750-matsyanyaya-before-pala-rise",
+  "year": "c. 700-750",
+  "title": "Matsyanyaya Period Before Pala Rise",
+  "subtitle": "Political fragmentation and conflict before Pala consolidation.",
+  "summary": "Before the rise of the Pala dynasty, parts of Bengal experienced prolonged instability often described as Matsyanyaya, where fragmented authority, local warfare, and weak centralized rule disrupted social order.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Political fragmentation and conflict before Pala consolidation.",
+  "whyItMatters": "This phase explains why later political actors prioritized order-building and why the Pala formation was seen as a stabilizing transformation in early medieval Bengal.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "0750-1170-pala-dynasty-foundation",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "0750-1170-pala-dynasty-foundation"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

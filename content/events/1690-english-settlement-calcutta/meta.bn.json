@@ -1,0 +1,43 @@
+{
+  "slug": "1690-english-settlement-calcutta",
+  "year": "১৬৯০",
+  "title": "কলকাতায় ইংরেজ বসতি স্থাপন",
+  "subtitle": "নিম্ন বাংলায় কোম্পানির নগরভিত্তিক পা রাখা।",
+  "summary": "১৬৯০ সালে ইংরেজ ইস্ট ইন্ডিয়া কোম্পানি কলকাতায় বসতি সুসংহত করে; এটি বাংলায় পরবর্তী ঔপনিবেশিক বিস্তারের প্রাতিষ্ঠানিক-বাণিজ্যিক ভিত্তি তৈরি করে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "নিম্ন বাংলায় কোম্পানির নগরভিত্তিক পা রাখা।",
+  "whyItMatters": "এই বসতি বাণিজ্য, দুর্গায়ন ও নগরবৃদ্ধিকে এমনভাবে যুক্ত করে, যা পরে বাংলার রাজনৈতিক অর্থনীতিকে রূপান্তরিত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1757",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1704",
+    "1757"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

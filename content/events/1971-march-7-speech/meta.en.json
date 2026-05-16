@@ -1,0 +1,43 @@
+{
+  "slug": "1971-march-7-speech",
+  "year": "7 March 1971",
+  "title": "March 7 Speech",
+  "subtitle": "A mass political address that reframed the struggle.",
+  "summary": "On 7 March 1971, Sheikh Mujibur Rahman delivered a landmark speech that politically unified resistance, coordinated civil non-cooperation, and prepared mass society for a decisive confrontation.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "A mass political address that reframed the struggle.",
+  "whyItMatters": "The speech functioned as an operational political framework between electoral mandate and armed conflict.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1970",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971",
+    "1970"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

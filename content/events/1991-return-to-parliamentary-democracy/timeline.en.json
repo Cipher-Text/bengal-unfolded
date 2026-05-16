@@ -1,0 +1,28 @@
+[
+  {
+    "year": "1991",
+    "title": "Political context develops",
+    "detail": "After the 1990 mass uprising, Bangladesh moved through election and constitutional amendment to restore a parliamentary system in 1991, reshaping executive-legislative balance.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1991",
+    "title": "Key transition point",
+    "detail": "This transition established the institutional framework for subsequent competitive electoral politics.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  }
+]

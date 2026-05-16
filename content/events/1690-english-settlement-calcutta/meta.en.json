@@ -1,0 +1,43 @@
+{
+  "slug": "1690-english-settlement-calcutta",
+  "year": "1690",
+  "title": "English Settlement at Calcutta",
+  "subtitle": "Company urban foothold in lower Bengal.",
+  "summary": "In 1690, the English East India Company consolidated a settlement at Calcutta, laying an institutional-commercial foundation for later colonial expansion in Bengal.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Company urban foothold in lower Bengal.",
+  "whyItMatters": "This settlement linked trade, fortification, and municipal growth in ways that later altered Bengal's political economy.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1704",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1757",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1704",
+    "1757"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

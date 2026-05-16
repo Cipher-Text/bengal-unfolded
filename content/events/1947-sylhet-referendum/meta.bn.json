@@ -1,0 +1,43 @@
+{
+  "slug": "1947-sylhet-referendum",
+  "year": "১৯৪৭",
+  "title": "সিলেট গণভোট",
+  "subtitle": "গণভোটভিত্তিক সীমানা-রূপান্তরের রাজনৈতিক মুহূর্ত।",
+  "summary": "১৯৪৭ সালের সিলেট গণভোটে সিলেটের বড় অংশ আসাম থেকে পূর্ব বাংলা (পাকিস্তান)-এ যুক্ত হয়; ফলে জনসংখ্যা, জেলা-ভিত্তিক ভোট এবং সীমান্ত নির্ধারণের সম্পর্ক কেন্দ্রীয় হয়ে ওঠে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "গণভোটভিত্তিক সীমানা-রূপান্তরের রাজনৈতিক মুহূর্ত।",
+  "whyItMatters": "এটি দেখায়, বিভাজনের সীমানা শুধু উচ্চপর্যায়ের সমঝোতায় নয়, স্থানীয় ভোট-রাজনীতির মাধ্যমেও নির্ধারিত হয়েছে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1947",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1874",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1947",
+    "1874"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

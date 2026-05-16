@@ -1,0 +1,38 @@
+{
+  "slug": "1756-siraj-ud-daulah-captures-calcutta",
+  "year": "1756",
+  "title": "Siraj ud-Daulah Captures Calcutta",
+  "subtitle": "Nawabi assertion against Company militarization.",
+  "summary": "In 1756, Siraj ud-Daulah attacked and captured Calcutta in response to Company fortification and political encroachment, escalating tensions that soon led to Plassey.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Nawabi assertion against Company militarization.",
+  "whyItMatters": "The event marks a decisive confrontation between nawabi sovereignty and Company militarized commerce.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1757",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1757"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

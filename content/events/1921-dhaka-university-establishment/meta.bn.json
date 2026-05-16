@@ -1,0 +1,38 @@
+{
+  "slug": "1921-dhaka-university-establishment",
+  "year": "১৯২১",
+  "title": "ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠা",
+  "subtitle": "পূর্ব বাংলার রাজনীতি ও সংস্কৃতিতে নতুন প্রাতিষ্ঠানিক কেন্দ্র।",
+  "summary": "১৯২১ সালে ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠা পূর্ব বাংলায় এক গুরুত্বপূর্ণ শিক্ষা ও বৌদ্ধিক প্রতিষ্ঠান গড়ে তোলে, যা পরবর্তীতে রাজনৈতিক সংগঠন, ভাষা-আন্দোলন ও জননেতৃত্ব গঠনে গভীর প্রভাব ফেলে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "পূর্ব বাংলার রাজনীতি ও সংস্কৃতিতে নতুন প্রাতিষ্ঠানিক কেন্দ্র।",
+  "whyItMatters": "এটি পূর্ব বাংলা ও পূর্ব পাকিস্তানের পরবর্তী গণরাজনীতির জন্য সামাজিক-বৌদ্ধিক অবকাঠামো তৈরি করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1952",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1952"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

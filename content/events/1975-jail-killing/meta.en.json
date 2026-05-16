@@ -1,0 +1,38 @@
+{
+  "slug": "1975-jail-killing",
+  "year": "3 November 1975",
+  "title": "Jail Killing",
+  "subtitle": "Assassination of national leaders inside prison during regime crisis.",
+  "summary": "During the post-August 1975 crisis, four national leaders of Bangladesh were assassinated inside Dhaka Central Jail, deepening institutional breakdown and political fear.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Assassination of national leaders inside prison during regime crisis.",
+  "whyItMatters": "The jail killings became a defining marker of impunity, elite power struggle, and constitutional rupture in post-independence politics.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1975",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1975"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

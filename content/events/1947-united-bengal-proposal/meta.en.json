@@ -1,0 +1,38 @@
+{
+  "slug": "1947-united-bengal-proposal",
+  "year": "1947",
+  "title": "United Bengal Proposal",
+  "subtitle": "A late attempt to avoid partition through sovereign Bengal.",
+  "summary": "In 1947, political leaders advanced a United Bengal proposal to preserve Bengal as an undivided political unit, but the plan failed amid all-India partition negotiations and communal polarization.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "A late attempt to avoid partition through sovereign Bengal.",
+  "whyItMatters": "The proposal reveals alternative constitutional futures that were considered but politically outmatched at partition.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1947",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1947"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "1338-1352-pre-ilyas-shah-regional-bengal-sultanates",
+  "year": "1338-1352",
+  "title": "Pre-Ilyas Shah Regional Bengal Sultanates",
+  "subtitle": "Competing regional courts before Bengal-wide unification.",
+  "summary": "Before Shamsuddin Ilyas Shah unified Bengal, multiple regional sultanate centers operated in Lakhnauti, Sonargaon, and Satgaon, producing fragmented yet dynamic political competition.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Competing regional courts before Bengal-wide unification.",
+  "whyItMatters": "This stage clarifies how unification in 1352 emerged from earlier regional power struggles, not from a political vacuum.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1352",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1352"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

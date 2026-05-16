@@ -1,0 +1,38 @@
+{
+  "slug": "1859-1860-indigo-revolt",
+  "year": "1859-1860",
+  "title": "Indigo Revolt",
+  "subtitle": "Peasant resistance to coercive indigo cultivation.",
+  "summary": "The Indigo Revolt mobilized peasants in Bengal against exploitative planter systems, combining local resistance, legal contestation, and public debate in colonial society.",
+  "themeColor": "#9a3412",
+  "ctaLabel": "Explore context",
+  "heroTagline": "Peasant resistance to coercive indigo cultivation.",
+  "whyItMatters": "It became a landmark in agrarian protest history and shaped later anti-colonial political language around rights and exploitation.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1874",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1874"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

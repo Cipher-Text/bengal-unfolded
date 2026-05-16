@@ -1,0 +1,38 @@
+{
+  "slug": "1971-mujibnagar-government",
+  "year": "এপ্রিল ১৯৭১",
+  "title": "মুজিবনগর সরকার",
+  "subtitle": "বাংলাদেশের অস্থায়ী সরকারের আনুষ্ঠানিক প্রতিষ্ঠা।",
+  "summary": "১৯৭১ সালের এপ্রিলে বাংলাদেশের স্বাধীনতা আন্দোলনের নেতারা মুজিবনগর অস্থায়ী সরকার গঠন করেন, যা যুদ্ধকালীন রাষ্ট্রগঠনের সাংবিধানিক ও কূটনৈতিক কাঠামো নিশ্চিত করে।",
+  "themeColor": "#9a3412",
+  "ctaLabel": "প্রেক্ষাপট দেখুন",
+  "heroTagline": "বাংলাদেশের অস্থায়ী সরকারের আনুষ্ঠানিক প্রতিষ্ঠা।",
+  "whyItMatters": "এটি বিচ্ছিন্ন প্রতিরোধকে স্বীকৃত রাজনৈতিক-রাষ্ট্রিক প্রকল্পে রূপান্তরিত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}
