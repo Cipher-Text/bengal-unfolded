@@ -205,6 +205,7 @@ export const SUPPORTED_FIGURE_IDS = [
   "krishak-praja-party",
   "jatiya-party",
   "ab-party",
+  "national-citizen-party",
   "jamiat-e-ulema-e-islam-bangladesh",
   "zulfikar-ali-bhutto",
   "abul-hashim",
