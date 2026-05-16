@@ -1,0 +1,56 @@
+[
+  {
+    "year": "Early 1965",
+    "title": "Regional tensions escalate before open war",
+    "detail": "Pakistan-India strategic tensions rose through border and Kashmir-related confrontation, while East Pakistan remained geographically separated from the principal military theatre.",
+    "sourceIds": [
+      "pakistan-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "Sep 1965",
+    "title": "Full-scale war centered on the western front",
+    "detail": "The September war was fought primarily in western sectors, reinforcing perceptions in East Pakistan that defense planning and force posture were not balanced across both wings.",
+    "sourceIds": [
+      "military-rule-banglapedia",
+      "pakistan-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "Late 1965",
+    "title": "East Pakistan insecurity enters mainstream political debate",
+    "detail": "Public discussion in East Pakistan increasingly linked wartime exposure with broader constitutional grievances about representation, resource allocation, and control over strategic decisions.",
+    "sourceIds": [
+      "bangladesh-from-mujib-to-ershad",
+      "research-volume"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "1966 and after",
+    "title": "Security imbalance strengthens autonomy politics",
+    "detail": "The war experience contributed to stronger autonomy-oriented argumentation in East Pakistan, feeding into the constitutional politics that gained wider mass support from 1966 onward.",
+    "sourceIds": [
+      "six-point-programme-banglapedia",
+      "bangladesh-from-mujib-to-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

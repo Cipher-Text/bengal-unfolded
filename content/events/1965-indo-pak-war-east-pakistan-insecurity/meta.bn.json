@@ -1,0 +1,48 @@
+{
+  "slug": "1965-indo-pak-war-east-pakistan-insecurity",
+  "year": "১৯৬৫",
+  "title": "ভারত-পাকিস্তান যুদ্ধ ও পূর্ব পাকিস্তানের নিরাপত্তা-অনিশ্চয়তা",
+  "subtitle": "১৯৬৫ সালের যুদ্ধ পূর্ব পাকিস্তানের কৌশলগত দুর্বলতা উন্মোচন করে।",
+  "summary": "১৯৬৫ সালের ভারত-পাকিস্তান যুদ্ধে প্রধান সামরিক সংঘর্ষ পশ্চিম ফ্রন্টে কেন্দ্রীভূত থাকলেও পূর্ব পাকিস্তান তুলনামূলকভাবে সীমিত প্রতিরক্ষা প্রস্তুতি নিয়ে অনিরাপদ অবস্থায় ছিল। পূর্ব পাকিস্তানে এই বৈষম্য নিরাপত্তা, প্রতিনিধিত্ব ও পাকিস্তানের ক্ষমতার কাঠামো নিয়ে জনআতঙ্ক ও অসন্তোষ বাড়ায়।",
+  "themeColor": "#92400e",
+  "ctaLabel": "যুদ্ধকালীন প্রেক্ষাপট দেখুন",
+  "heroTagline": "যুদ্ধ এক ফ্রন্টে, অনিরাপত্তা আরেক ফ্রন্টে।",
+  "whyItMatters": "১৯৬৫ সালের যুদ্ধকালীন এই বৈষম্য বাঙালিদের মধ্যে যুক্তি জোরালো করে যে পূর্ব পাকিস্তান কৌশলগত ঝুঁকি বহন করছে, কিন্তু প্রতিরক্ষা ও রাষ্ট্রক্ষমতায় সমান নিয়ন্ত্রণ পাচ্ছে না; যা পরবর্তী সময়ে স্বায়ত্তশাসনের দাবিকে আরও শক্তিশালী করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1962",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1966",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1962",
+    "1966",
+    "1971"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "pakistan-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

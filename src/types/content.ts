@@ -39,6 +39,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1954",
   "1958",
   "1962",
+  "1965-indo-pak-war-east-pakistan-insecurity",
   "1966",
   "1968",
   "1969",

@@ -1,0 +1,48 @@
+{
+  "slug": "1965-indo-pak-war-east-pakistan-insecurity",
+  "year": "1965",
+  "title": "Indo-Pak War and East Pakistan Insecurity",
+  "subtitle": "The 1965 war exposed East Pakistan's strategic vulnerability.",
+  "summary": "During the Indo-Pak War of 1965, major military confrontation remained concentrated on the western front, while East Pakistan stayed comparatively exposed with limited defense preparedness. In East Pakistan, this imbalance deepened public anxiety about security, representation, and the structure of power within Pakistan.",
+  "themeColor": "#92400e",
+  "ctaLabel": "Review wartime context",
+  "heroTagline": "War on one front, insecurity on the other.",
+  "whyItMatters": "The 1965 wartime imbalance strengthened Bengali arguments that East Pakistan carried strategic risk without equal control over defense and state power, helping set the stage for stronger autonomy demands in the years that followed.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1962",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1966",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1962",
+    "1966",
+    "1971"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "pakistan-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}
