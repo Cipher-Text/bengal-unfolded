@@ -1,15 +1,18 @@
 {
   "name": "Brigadier General Gulzar Uddin Ahmed",
   "name_en": "Brigadier General Gulzar Uddin Ahmed",
-  "role": "Deputy Director General of BDR (killed)",
+  "role": "Deputy Director General of Bangladesh Rifles (BDR)",
   "group": "leader",
-  "contribution": "Senior BDR command officer killed in the Pilkhana killings.",
-  "context": "Mass killing of seconded army officers inside BDR headquarters.",
-  "impact": "Represents the loss of upper-tier command in the massacre.",
+  "contribution": "He served as a senior seconded army officer in Bangladesh Rifles and held the post of Deputy Director General.",
+  "context": "He was among the senior officers killed during the 2009 Pilkhana killings at BDR headquarters in Dhaka.",
+  "impact": "His death is widely treated as part of the upper-command losses that reflected the institutional shock to Bangladesh's security establishment after the 2009 event.",
+  "highlight": "A senior BDR command officer whose death became emblematic of the 2009 Pilkhana command-level losses.",
   "tags": [
-    "pilkhana",
-    "bdr-mutiny",
-    "2009"
+    "pilkhana-2009",
+    "bdr",
+    "command-loss",
+    "institutional-shock",
+    "sensitive"
   ],
   "image": "/figures/gulzar-uddin-ahmed.jpg"
 }
