@@ -1,8 +1,20 @@
 {
   "name": "Khandaker Mushtaq Ahmed",
-  "role": "Political Leader and President after August 1975",
+  "role": "Awami League politician; wartime and post-independence cabinet figure; President after 15 August 1975",
   "group": "leader",
-  "contribution": "Khandaker Mushtaq Ahmed is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Post-assassination power transition and legitimacy crisis in 1975.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Khandaker Mushtaq Ahmed was active in Awami League politics during the Pakistan period and served in the 1971 wartime provisional-government context and in post-independence cabinet roles.",
+  "context": "After 15 August 1975, he became President during a rapid power transition marked by disputes over constitutional legitimacy, including the promulgation of the Indemnity Ordinance and subsequent restructuring of post-1975 politics.",
+  "impact": "His historical legacy remains contested and sensitive in Bangladesh: he is discussed in relation to wartime political leadership, post-independence state formation, and the legitimacy crisis that followed the 1975 transition.",
+  "tags": [
+    "pakistan-period-politics",
+    "awami-league",
+    "wartime-government-1971",
+    "post-independence-cabinet",
+    "august-1975",
+    "indemnity-ordinance",
+    "legitimacy-crisis",
+    "contested-legacy",
+    "sensitive-history"
+  ],
+  "image": "/figures/khandaker-mushtaq-ahmed.jpg"
 }
