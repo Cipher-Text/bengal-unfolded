@@ -1,0 +1,45 @@
+{
+  "slug": "1976-farakka-long-march",
+  "year": "1976",
+  "title": "Farakka Long March",
+  "subtitle": "Maulana Bhashani's water-rights mobilization against upstream diversion.",
+  "summary": "On 16 May 1976, Maulana Abdul Hamid Khan Bhashani led a mass long march from Rajshahi toward the Farakka frontier to protest upstream diversion of Ganges water and to demand Bangladesh's fair river-water rights. The march linked ecological anxiety in the Padma basin with post-independence mass politics.",
+  "themeColor": "#0f766e",
+  "ctaLabel": "Explore the 1976 march",
+  "heroTagline": "River-water politics became a mass street question in 1976.",
+  "whyItMatters": "The Farakka Long March turned transboundary water sharing into a major public issue in Bangladesh and helped frame later diplomacy, treaty debates, and environmental-rights politics around the Ganges/Padma flow.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1974",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1975",
+      "relationType": "parallel"
+    }
+  ],
+  "relatedEventIds": [
+    "1974",
+    "1975"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "prothom-alo-farakka-long-march-day",
+    "daily-sun-farakka-long-march-day",
+    "history-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "prothom-alo-farakka-long-march-day",
+    "daily-sun-farakka-long-march-day",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

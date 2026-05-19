@@ -50,6 +50,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1972",
   "1974",
   "1975",
+  "1976-farakka-long-march",
   "1982",
   "1990",
   "2006",

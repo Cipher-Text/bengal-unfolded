@@ -1,0 +1,44 @@
+[
+  {
+    "year": "Apr-May 1976",
+    "title": "Public mobilization over Farakka water diversion",
+    "detail": "Political groups and civic actors intensified campaigning over reduced dry-season flow of the Ganges/Padma and framed the issue as a question of national water rights.",
+    "sourceIds": [
+      "prothom-alo-farakka-long-march-day",
+      "daily-sun-farakka-long-march-day"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "16 May 1976",
+    "title": "Maulana Bhashani leads the Farakka Long March",
+    "detail": "A mass procession began from Rajshahi toward the Chapainawabganj-Kansat frontier near Farakka, demanding fair Ganges water sharing and protesting unilateral upstream diversion.",
+    "sourceIds": [
+      "prothom-alo-farakka-long-march-day",
+      "daily-sun-farakka-long-march-day"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  },
+  {
+    "year": "Post-May 1976",
+    "title": "Water-sharing issue gains state-level diplomatic traction",
+    "detail": "After the march, Bangladesh's Ganges-water question gained stronger policy visibility and remained central to subsequent bilateral and international negotiations.",
+    "sourceIds": [
+      "daily-sun-farakka-long-march-day",
+      "bangladesh-under-mujib-zia-and-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  }
+]

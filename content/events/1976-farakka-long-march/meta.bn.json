@@ -1,0 +1,45 @@
+{
+  "slug": "1976-farakka-long-march",
+  "year": "১৯৭৬",
+  "title": "ফারাক্কা লং মার্চ",
+  "subtitle": "উজান থেকে পানি প্রত্যাহারের বিরুদ্ধে মওলানা ভাসানীর পানি-অধিকারভিত্তিক গণমোবিলাইজেশন।",
+  "summary": "১৯৭৬ সালের ১৬ মে মওলানা আবদুল হামিদ খান ভাসানী রাজশাহী থেকে ফারাক্কা সীমান্তমুখী এক গণ-লং মার্চের নেতৃত্ব দেন। লক্ষ্য ছিল উজানে গঙ্গার পানি প্রত্যাহারের প্রতিবাদ এবং বাংলাদেশের ন্যায্য নদীপানি অধিকার দাবি। এই কর্মসূচি পদ্মা অববাহিকার পরিবেশগত উদ্বেগকে স্বাধীনতাউত্তর গণরাজনীতির সঙ্গে যুক্ত করে।",
+  "themeColor": "#0f766e",
+  "ctaLabel": "১৯৭৬ সালের লং মার্চ দেখুন",
+  "heroTagline": "১৯৭৬ সালে নদীর পানি-রাজনীতি গণপথের প্রশ্নে পরিণত হয়।",
+  "whyItMatters": "ফারাক্কা লং মার্চ বাংলাদেশের রাজনীতিতে আন্তঃসীমান্ত পানি-বণ্টন প্রশ্নকে বড় জনইস্যুতে রূপ দেয় এবং গঙ্গা-পদ্মা প্রবাহ নিয়ে পরবর্তী কূটনীতি, চুক্তি-আলোচনা ও পরিবেশ-অধিকার রাজনীতিকে প্রভাবিত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1974",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1975",
+      "relationType": "parallel"
+    }
+  ],
+  "relatedEventIds": [
+    "1974",
+    "1975"
+  ],
+  "periodLabel": "স্বাধীনতার পর রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "prothom-alo-farakka-long-march-day",
+    "daily-sun-farakka-long-march-day",
+    "history-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "prothom-alo-farakka-long-march-day",
+    "daily-sun-farakka-long-march-day",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}
