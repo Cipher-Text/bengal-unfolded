@@ -1,0 +1,54 @@
+{
+  "slug": "1976-1997-shanti-bahini-insurgency",
+  "year": "1976-1997",
+  "title": "Shanti Bahini Insurgency in the Chittagong Hill Tracts",
+  "subtitle": "Armed conflict, displacement, and a negotiated end through the 1997 accord.",
+  "summary": "From early 1976 onward, armed conflict in the Chittagong Hill Tracts intensified between state forces and the PCJSS's armed wing, Shanti Bahini, around autonomy, land, and political recognition demands. The conflict caused long-term insecurity and displacement before a formal peace accord was signed on 2 December 1997.",
+  "themeColor": "#7c2d12",
+  "ctaLabel": "Explore the CHT conflict arc",
+  "heroTagline": "The CHT conflict bound identity, land, and state power into a prolonged crisis.",
+  "whyItMatters": "This insurgency became one of post-independence Bangladesh's longest internal conflicts, reshaping security policy, center-periphery relations, and debates on indigenous rights, land governance, and accord implementation.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1972",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1982",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1991-return-to-parliamentary-democracy",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1972",
+    "1982",
+    "1991-return-to-parliamentary-democracy"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "sensitive": true,
+  "requiresSources": true,
+  "contentWarnings": [
+    "Armed conflict",
+    "Displacement"
+  ],
+  "summarySourceIds": [
+    "shanti-bahini-banglapedia",
+    "chittagong-hill-tracts-peace-accord-wikipedia"
+  ],
+  "whyItMattersSourceIds": [
+    "chittagong-hill-tracts-peace-accord-wikipedia",
+    "karnaphulir-kanna"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

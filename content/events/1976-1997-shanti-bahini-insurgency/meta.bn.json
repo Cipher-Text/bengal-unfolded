@@ -1,0 +1,54 @@
+{
+  "slug": "1976-1997-shanti-bahini-insurgency",
+  "year": "১৯৭৬-১৯৯৭",
+  "title": "পার্বত্য চট্টগ্রামে শান্তিবাহিনী বিদ্রোহ",
+  "subtitle": "সশস্ত্র সংঘাত, বাস্তুচ্যুতি এবং ১৯৯৭ সালের চুক্তির মাধ্যমে আনুষ্ঠানিক সমাপ্তি।",
+  "summary": "১৯৭৬ সালের শুরুর দিক থেকে পার্বত্য চট্টগ্রামে স্বায়ত্তশাসন, ভূমি ও রাজনৈতিক স্বীকৃতির দাবি ঘিরে রাষ্ট্রীয় বাহিনী এবং পিসিজেএসএসের সশস্ত্র শাখা শান্তিবাহিনীর মধ্যে সংঘাত তীব্র হয়। এই সংঘাতে দীর্ঘমেয়াদি অনিরাপত্তা ও বাস্তুচ্যুতি তৈরি হয়; পরে ১৯৯৭ সালের ২ ডিসেম্বর আনুষ্ঠানিক শান্তি চুক্তি স্বাক্ষরিত হয়।",
+  "themeColor": "#7c2d12",
+  "ctaLabel": "পার্বত্য সংঘাতের ধারাবাহিকতা দেখুন",
+  "heroTagline": "পার্বত্য সংঘাতে পরিচয়, ভূমি ও রাষ্ট্রক্ষমতার প্রশ্ন দীর্ঘমেয়াদি সংকটে রূপ নেয়।",
+  "whyItMatters": "স্বাধীনতাউত্তর বাংলাদেশের দীর্ঘস্থায়ী অভ্যন্তরীণ সংঘাতগুলোর একটি হিসেবে এই বিদ্রোহ নিরাপত্তা নীতি, কেন্দ্র-প্রান্ত সম্পর্ক এবং আদিবাসী অধিকার, ভূমি শাসন ও চুক্তি বাস্তবায়ন নিয়ে জাতীয় বিতর্ককে গভীরভাবে প্রভাবিত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1972",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1982",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1991-return-to-parliamentary-democracy",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1972",
+    "1982",
+    "1991-return-to-parliamentary-democracy"
+  ],
+  "periodLabel": "স্বাধীনতার পর রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "sensitive": true,
+  "requiresSources": true,
+  "contentWarnings": [
+    "সশস্ত্র সংঘাত",
+    "বাস্তুচ্যুতি"
+  ],
+  "summarySourceIds": [
+    "shanti-bahini-banglapedia",
+    "chittagong-hill-tracts-peace-accord-wikipedia"
+  ],
+  "whyItMattersSourceIds": [
+    "chittagong-hill-tracts-peace-accord-wikipedia",
+    "karnaphulir-kanna"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

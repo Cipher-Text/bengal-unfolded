@@ -1,0 +1,41 @@
+[
+  {
+    "year": "Early 1976",
+    "title": "Armed operations begin in the CHT",
+    "detail": "According to Banglapedia summaries, Shanti Bahini began armed operations in early 1976 after earlier autonomy demands failed to secure constitutional outcomes.",
+    "sourceIds": [
+      "shanti-bahini-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "war"
+    ]
+  },
+  {
+    "year": "Late 1970s-1980s",
+    "title": "Conflict and displacement intensify",
+    "detail": "The conflict expanded into a prolonged insurgency-counterinsurgency cycle, producing repeated violence, militarization, and displacement across hill communities.",
+    "sourceIds": [
+      "chittagong-hill-tracts-peace-accord-wikipedia",
+      "karnaphulir-kanna"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "2 Dec 1997",
+    "title": "CHT Peace Accord signed",
+    "detail": "The Government of Bangladesh and PCJSS signed the Chittagong Hill Tracts Peace Accord, formally ending the decades-long insurgency phase tied to Shanti Bahini operations.",
+    "sourceIds": [
+      "chittagong-hill-tracts-peace-accord-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

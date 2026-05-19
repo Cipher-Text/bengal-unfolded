@@ -51,6 +51,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1974",
   "1975",
   "1976-farakka-long-march",
+  "1976-1997-shanti-bahini-insurgency",
   "1982",
   "1990",
   "2006",
