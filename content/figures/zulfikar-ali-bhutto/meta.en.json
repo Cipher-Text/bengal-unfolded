@@ -1,8 +1,19 @@
 {
   "name": "Zulfikar Ali Bhutto",
-  "role": "Founder of the Pakistan Peoples Party and Prime Minister of Pakistan",
+  "role": "Founder of the Pakistan Peoples Party; leading West Pakistani politician in the post-1970 crisis; later Prime Minister of Pakistan",
   "group": "leader",
-  "contribution": "He founded the Pakistan Peoples Party in 1967 and became a central actor in Pakistan's post-1970 political transition, including negotiations around East Pakistan during the 1971 crisis.",
-  "context": "Late-Pakistan period constitutional conflict, the 1970 election aftermath, and the state restructuring phase after 1971.",
-  "impact": "His decisions and negotiations shaped Pakistan's political trajectory and influenced how the East Pakistan crisis moved toward war and eventual separation."
+  "contribution": "He founded the Pakistan Peoples Party in 1967 and emerged as a major West Pakistani political actor after the 1970 election. He participated in the Yahya-Mujib-Bhutto negotiation context and remained central to the transfer-of-power deadlock that preceded the 1971 war.",
+  "context": "Late Pakistan-era constitutional breakdown, the 1970 election aftermath, and the contested political prelude to Bangladesh's Liberation War; followed by Pakistan's post-1971 state restructuring.",
+  "impact": "In Bangladesh-related historiography, his role is treated as important but contested: he was a key political participant in decisions and negotiations tied to the crisis, while interpretations differ on the degree of his individual responsibility for outcomes.",
+  "highlight": "A central yet contested political figure in the transition from Pakistan's 1970 electoral crisis to the 1971 rupture.",
+  "tags": [
+    "pakistan-peoples-party",
+    "1970-election",
+    "transfer-of-power-crisis",
+    "yahya-mujib-bhutto-talks",
+    "liberation-war-prelude",
+    "contested-legacy",
+    "sensitive"
+  ],
+  "image": "/figures/zulfikar-ali-bhutto.jpg"
 }
