@@ -1,16 +1,21 @@
 {
   "name": "Sharif Osman Hadi",
-  "name_en": "Sharif Osman Bin Hadi",
-  "role": "Student activist; teacher; Inquilab Mancha spokesperson",
+  "name_en": "Sharif Osman Hadi",
+  "role": "Student political activist, teacher, and Inquilab Mancha spokesperson",
   "group": "leader",
-  "contribution": "A visible figure in the 2024 student-led uprising, he was reported as a spokesperson for Inquilab Mancha and later took part in public accountability demands around the movement.",
-  "context": "July-August 2024 student uprising and post-uprising accountability politics.",
-  "impact": "He linked protest messaging, mobilisation, and later calls for justice over violence during the uprising.",
-  "highlight": "Reported as a public face of the 2024 movement and a spokesperson for Inquilab Mancha.",
+  "contribution": "He became a visible organizer and speaker in the 2024 student-citizen uprising, was identified with Inquilab Mancha as a spokesperson, and later remained active in public discussions around accountability, justice, reform, and sovereignty after the uprising.",
+  "context": "Student political activism, teaching, Inquilab Mancha, the July-August 2024 student-citizen uprising, and post-uprising accountability and reform politics.",
+  "impact": "His role is linked to protest messaging, public mobilization, and the transition from street protest to post-uprising political demands around justice, reform, and national sovereignty.",
+  "highlight": "A visible organizer and speaker in the 2024 uprising who later remained active in post-uprising political debates.",
   "tags": [
     "inquilab-mancha",
-    "student-uprising",
+    "student-politics",
+    "teacher",
+    "student-citizen-uprising",
     "accountability",
-    "2024"
-  ]
+    "reform",
+    "sovereignty",
+    "post-2024-bangladesh"
+  ],
+  "image": "/figures/sharif-osman-hadi.jpg"
 }
