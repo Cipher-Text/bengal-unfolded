@@ -57,6 +57,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "2006",
   "2007-2008",
   "2009",
+  "2001-padua-pyrdiwah-boraibari-border-clash",
   "2013",
   "2014",
   "2018",

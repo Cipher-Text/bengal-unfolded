@@ -1,0 +1,41 @@
+[
+  {
+    "year": "১৬ এপ্রিল ২০০১",
+    "title": "পাদুয়া/পিরদিওয়াহ এলাকায় অচলাবস্থা",
+    "detail": "বিতর্কিত পাদুয়া/পিরদিওয়াহ অঞ্চল ঘিরে সশস্ত্র মুখোমুখি পরিস্থিতি তৈরি হয়; সীমান্ত দাবি নিয়ে উভয় পক্ষ নিজ নিজ অবস্থান জোরদার করে।",
+    "sourceIds": [
+      "2001-bangladesh-india-border-skirmishes-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৮-১৯ এপ্রিল ২০০১",
+    "title": "বড়াইবাড়িতে লড়াই ও উচ্চমাত্রার হতাহতের ঘটনা",
+    "detail": "সংঘর্ষ বড়াইবাড়ি এলাকায় ছড়িয়ে পড়ে এবং সংকটের সবচেয়ে প্রাণঘাতী পর্বে পরিণত হয়; সীমান্তবাহিনীর উল্লেখযোগ্য ক্ষয়ক্ষতি ও কূটনৈতিক উদ্বেগ তৈরি হয়।",
+    "sourceIds": [
+      "2001-bangladesh-india-border-skirmishes-wikipedia",
+      "la-times-india-bangladesh-ceasefire-2001"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "২০-২১ এপ্রিল ২০০১",
+    "title": "যুদ্ধবিরতি ও স্থিতাবস্থা পুনঃস্থাপনের উদ্যোগ",
+    "detail": "কমান্ড-স্তরের যোগাযোগের মাধ্যমে যুদ্ধবিরতি ও বাহিনী-বিচ্ছিন্নকরণে অগ্রগতি হয়; এতে সংঘাতটি বৃহত্তর আন্তঃরাষ্ট্রীয় যুদ্ধে রূপ নেওয়ার আগেই নিয়ন্ত্রণে আসে।",
+    "sourceIds": [
+      "la-times-india-bangladesh-ceasefire-2001",
+      "2001-bangladesh-india-border-skirmishes-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "slug": "2001-padua-pyrdiwah-boraibari-border-clash",
+  "year": "২০০১",
+  "title": "পাদুয়া/পিরদিওয়াহ-বড়াইবাড়ি সীমান্ত সংঘর্ষ",
+  "subtitle": "এপ্রিল ২০০১-এ বাংলাদেশ-ভারত সীমান্তে লড়াই ও দ্রুত উত্তেজনা প্রশমন।",
+  "summary": "২০০১ সালের এপ্রিলে বাংলাদেশ-ভারত সীমান্তের কয়েকটি অংশে সশস্ত্র সংঘর্ষ শুরু হয়; প্রথমে বিতর্কিত পাদুয়া/পিরদিওয়াহ এলাকায় এবং পরে বড়াইবাড়ি ঘিরে। বাংলাদেশ রাইফেলস (বিডিআর) ও ভারতের বর্ডার সিকিউরিটি ফোর্স (বিএসএফ)-এর মধ্যে লড়াইয়ে উভয় পক্ষেই সামরিক হতাহতের ঘটনা ঘটে এবং দ্রুত যুদ্ধবিরতি-ভিত্তিক কূটনৈতিক তৎপরতা শুরু হয়।",
+  "themeColor": "#92400e",
+  "ctaLabel": "২০০১ সীমান্ত সংকট দেখুন",
+  "heroTagline": "স্বল্পমেয়াদি এই সীমান্তযুদ্ধ ফ্রন্টিয়ার ব্যবস্থাপনার দীর্ঘস্থায়ী দুর্বলতা উন্মোচন করে।",
+  "whyItMatters": "১৯৭১-পরবর্তী সময়ে এটি বাংলাদেশ-ভারত সীমান্তের অন্যতম প্রাণঘাতী অধ্যায়, যা দেখায় যে সীমারেখা-বিতর্ক, সীমান্তে বাহিনীর অবস্থান ও রাজনৈতিক বার্তা দ্রুত আন্তঃরাষ্ট্রীয় সংকটে রূপ নিতে পারে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1991-return-to-parliamentary-democracy",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2006",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1991-return-to-parliamentary-democracy",
+    "2006"
+  ],
+  "periodLabel": "স্বাধীনতার পর রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "sensitive": true,
+  "requiresSources": true,
+  "contentWarnings": [
+    "সশস্ত্র সহিংসতা",
+    "সীমান্ত সংঘাত"
+  ],
+  "summarySourceIds": [
+    "2001-bangladesh-india-border-skirmishes-wikipedia",
+    "la-times-india-bangladesh-ceasefire-2001"
+  ],
+  "whyItMattersSourceIds": [
+    "2001-bangladesh-india-border-skirmishes-wikipedia",
+    "la-times-india-bangladesh-ceasefire-2001"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

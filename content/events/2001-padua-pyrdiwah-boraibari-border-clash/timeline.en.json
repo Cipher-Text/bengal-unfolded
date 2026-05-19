@@ -1,0 +1,41 @@
+[
+  {
+    "year": "16 Apr 2001",
+    "title": "Standoff at Padua/Pyrdiwah",
+    "detail": "Armed confrontation began around the disputed Padua/Pyrdiwah area, with both sides advancing competing territorial claims and deploying border forces.",
+    "sourceIds": [
+      "2001-bangladesh-india-border-skirmishes-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "18-19 Apr 2001",
+    "title": "Boraibari fighting and heavy casualties",
+    "detail": "Clashes spread near Boraibari and became the deadliest phase of the crisis, with significant losses among border personnel and wider diplomatic alarm.",
+    "sourceIds": [
+      "2001-bangladesh-india-border-skirmishes-wikipedia",
+      "la-times-india-bangladesh-ceasefire-2001"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "20-21 Apr 2001",
+    "title": "Ceasefire and status-quo restoration steps",
+    "detail": "Command-level contacts produced a ceasefire line and disengagement steps, containing the confrontation before it expanded into a broader interstate war.",
+    "sourceIds": [
+      "la-times-india-bangladesh-ceasefire-2001",
+      "2001-bangladesh-india-border-skirmishes-wikipedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

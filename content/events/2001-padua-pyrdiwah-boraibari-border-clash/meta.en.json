@@ -1,0 +1,49 @@
+{
+  "slug": "2001-padua-pyrdiwah-boraibari-border-clash",
+  "year": "2001",
+  "title": "Padua/Pyrdiwah-Boraibari Border Clash",
+  "subtitle": "April 2001 Bangladesh-India frontier fighting and rapid de-escalation.",
+  "summary": "In April 2001, armed clashes broke out along sections of the Bangladesh-India border, centered first on the disputed Padua/Pyrdiwah area and then around Boraibari. The fighting between Bangladesh Rifles (BDR) and India's Border Security Force (BSF) caused military casualties on both sides and triggered urgent ceasefire diplomacy.",
+  "themeColor": "#92400e",
+  "ctaLabel": "Review the 2001 border crisis",
+  "heroTagline": "A short border war exposed long-standing fault lines in frontier management.",
+  "whyItMatters": "The clash became one of the deadliest Bangladesh-India border episodes after 1971, highlighting how disputed alignment, force posture, and political signaling at the frontier could rapidly escalate into interstate crisis.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1991-return-to-parliamentary-democracy",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2006",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1991-return-to-parliamentary-democracy",
+    "2006"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "sensitive": true,
+  "requiresSources": true,
+  "contentWarnings": [
+    "Armed violence",
+    "Border conflict"
+  ],
+  "summarySourceIds": [
+    "2001-bangladesh-india-border-skirmishes-wikipedia",
+    "la-times-india-bangladesh-ceasefire-2001"
+  ],
+  "whyItMattersSourceIds": [
+    "2001-bangladesh-india-border-skirmishes-wikipedia",
+    "la-times-india-bangladesh-ceasefire-2001"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}
