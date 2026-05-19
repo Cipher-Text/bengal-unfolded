@@ -1,9 +1,23 @@
 {
   "name": "Hasanul Haq Inu",
-  "role": "JSD Opposition Leader",
+  "name_en": "Hasanul Haq Inu",
+  "role": "JASAD politician, former member of parliament, and former information minister",
   "group": "leader",
-  "contribution": "He represented the left-democratic current that treated the fall of autocracy as part of a wider democratic struggle.",
-  "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
-  "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
+  "contribution": "He has been active across student politics, post-liberation JASAD politics, the anti-Ershad movement, parliamentary politics, and the Awami League-led coalition government as information minister.",
+  "context": "Student politics, the 1971 Liberation War context, the rise of JASAD, post-independence political conflict in the 1970s, the 1990 anti-autocracy movement, 14-party alliance politics, and post-2008 parliamentary politics.",
+  "impact": "His political career is connected to Bangladesh’s left politics, the JASAD tradition, anti-autocracy mobilization, coalition politics, and state information policy. His role in both the 1970s and the 2010s remains politically debated.",
+  "highlight": "A long-serving political figure associated with JASAD, anti-autocracy politics, the 14-party alliance, parliament, and the information ministry.",
+  "tags": [
+    "jasad",
+    "left-politics",
+    "student-politics",
+    "liberation-war-1971",
+    "anti-ershad-movement",
+    "fourteen-party-alliance",
+    "parliamentary-politics",
+    "information-ministry",
+    "contested-politics",
+    "post-1971-bangladesh"
+  ],
   "image": "/figures/hasanul-haq-inu.jpg"
 }
