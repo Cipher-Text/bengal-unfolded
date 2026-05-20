@@ -320,7 +320,7 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 
 - [ ] RM-007 Compare events view (`/{locale}/compare`)
 - [ ] RM-008 Learning paths (`beginner`, `student`, `researcher`, `exam-prep`)
-- [ ] RM-009 Knowledge checks (short quizzes)
+- [ ] RM-009 Knowledge checks — deferred to B3 (RB-LEARN-005); in v2 use Typeform/Google Form placeholder for "Test your understanding" prompts; static quiz without score storage creates dead-end implementation
 - [ ] RM-010 Content density controls (`quick read` vs `deep read`)
 - [ ] RM-011 Glossary hover/tooltips in narrative content
 
@@ -331,11 +331,13 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 > implement persistence, badge awards, or cross-session state in the static phase.
 
 - [ ] RM-011A Learning path detail pages (`/{locale}/paths/[slug]`)
-- [ ] RM-011B Roadmap-style step UI for history topics
-- [ ] RM-011C Local progress tracking — shifted to B3 (server-persisted); in v2 render path UI and step structure only, no progress state stored locally
-- [ ] RM-011D Learning badge display (show available badges and unlock criteria only); badge award logic shifted to B3 — badges without accounts have no persistence, shareability, or verification value
-- [ ] RM-011E Static "what to read next" suggestion per path (hardcoded editorial pick); personalised recommendation engine shifted to B3 after read tracking data exists
+- [ ] RM-011B Roadmap-style step UI for history topics with visual learning path display
 - [ ] RM-011F Topic difficulty labels (`beginner`, `intermediate`, `advanced`)
+
+**Removed from v2 (violate pre-backend scope boundary):**
+- ~~RM-011C Local progress tracking~~ → deferred to B3 (RB-LEARN-003)
+- ~~RM-011D Learning badge display~~ → deferred to B3 (RB-LEARN-010/011); badges without accounts have no value
+- ~~RM-011E Static "what to read next" suggestion~~ → deferred to B3 (RB-LEARN-014); use "Browse all paths" link instead of hardcoded logic
 
 ### Visualization-first learning model
 
@@ -344,16 +346,18 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 - [ ] RM-VIS-003 Before/after event navigation cards
 - [ ] RM-VIS-004 Relationship graph for event detail pages
 - [ ] RM-VIS-005 Period-based visual grouping on timeline explorer
-- [ ] RM-VIS-006 Theme-colored timeline lanes
-- [ ] RM-VIS-007 Figure-event connection visualization
-- [ ] RM-VIS-008 Book/source-to-event connection visualization
-- [ ] RM-VIS-009 Place-event mini map on event pages
-- [ ] RM-VIS-010 Visual learning path roadmap UI
-- [ ] RM-VIS-011 Event comparison visual layout
-- [ ] RM-VIS-012 Animated historical flow prototype for one flagship topic
-- [ ] RM-VIS-013 Visual source confidence indicator
-- [ ] RM-VIS-014 Visual `historical debate / contested interpretation` marker
-- [ ] RM-VIS-015 Cultural memory visual blocks for identity, language, literature, and movements
+- [ ] RM-VIS-006 Figure-event connection visualization
+- [ ] RM-VIS-007 Book/source-to-event connection visualization
+- [ ] RM-VIS-008 Place-event mini map on event pages
+- [ ] RM-VIS-009 Event comparison visual layout
+- [ ] RM-VIS-010 Animated historical flow prototype for one flagship topic
+- [ ] RM-VIS-011 Visual source confidence indicator
+- [ ] RM-VIS-012 Visual `historical debate / contested interpretation` marker
+- [ ] RM-VIS-013 Cultural memory visual blocks for identity, language, literature, and movements
+
+**Removed from v2:**
+- ~~Theme-colored timeline lanes~~ → removed; events span multiple themes simultaneously (Language Movement = language + identity + democracy + culture); use theme filter badges (RM-004) instead
+- ~~Visual learning path roadmap UI~~ → merged into RM-011B
 
 ### Cultural knowledge platform
 
@@ -366,33 +370,37 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 - [ ] RM-CULT-007 Glossary of cultural terms
 - [ ] RM-CULT-008 Timeline of cultural movements
 - [ ] RM-CULT-009 Diaspora culture section
-- [ ] RM-CULT-010 Cultural preservation archive
+
+**Removed from v2:**
+- ~~RM-CULT-010 Cultural preservation archive~~ → deferred to B9; this is an entire product vertical (digitization workflows, copyright clearance, partner agreements, separate content model), not a single checkbox feature; replace with archive partnership strategy in B9
 
 ### Historical knowledge graph and relational learning system
 
-Priority: Build scalable, source-backed historical intelligence using normalized entities, relationship semantics, and visual exploration.
+Priority: Build scalable, source-backed historical intelligence using normalized entities, relationship semantics, and visual exploration. **Scope constraint:** Static phase supports 1-degree relationships only. Multi-hop graph queries, dynasty/alliance models, and interactive graph views require database-backed infrastructure (B8/B9).
 
-- [ ] RM-KG-001 Normalized historical entity relationship model across events, figures, places, books/resources, themes, periods, and institutions
+- [ ] RM-KG-001 Normalized historical entity relationship model across events, figures, places, books/resources, themes, periods, and institutions (1-degree relationships only in v2)
 - [ ] RM-KG-002 Linked entity edges (`figure <-> event`, `event <-> place`, `figure <-> resource`, `theme <-> event`) with relation-type taxonomy
 - [ ] RM-KG-003 Historical metadata schema for relationship provenance, temporal scope, geographic scope, and editorial status
 - [ ] RM-KG-004 Related figures and related events system with weighted relevance and relationship context
-- [ ] RM-KG-005 Dynasty/family relationship model (`parent`, `child`, `sibling`, `lineage`, `house`) for historical figures
-- [ ] RM-KG-006 Alliance/rivalry relationship model (`allied-with`, `opposed`, `conflicted`, `diplomatic`) for figures, institutions, and states
-- [ ] RM-KG-007 Timeline participation linking (`eventParticipants`, `participantRoles`, `participationPeriod`) across entities
-- [ ] RM-KG-008 Historical territory/location mapping with time-aware boundary/region references and approximation labels
-- [ ] RM-KG-009 Source attribution system at relationship-edge level (not only entity/page level)
-- [ ] RM-KG-010 Evidence confidence system for entities and relationships (`high`, `medium`, `low`, `disputed`, `unknown`)
-- [ ] RM-KG-011 Primary vs secondary source classification rules enforced in relation and claim metadata
-- [ ] RM-KG-012 Glossary and historical terminology system connected to entities, periods, and contested concepts
-- [ ] RM-KG-013 `Explore Next` recommendation engine — static related-events display only in v2 (covered by RM-REL-003); personalised engine shifted to B3 after read tracking exists; ML-powered version shifted to B8
-- [ ] RM-KG-014 Thematic learning paths generated from graph-linked events, figures, places, and sources
-- [ ] RM-KG-015 Cross-era historical linking (idea continuity, policy legacy, institutional inheritance, recurring conflicts)
-- [ ] RM-KG-016 Quote/archive reference support with citation anchors, archive IDs, and context snippets
-- [ ] RM-KG-017 Historical debate/disputed interpretation section backed by competing sourced viewpoints
-- [ ] RM-KG-018 Entity preview cards and hover previews with key metadata, relation summary, and source indicators
-- [ ] RM-KG-019 Graph-based navigation between historical entities — shifted to B8/B9; full graph navigation over static JSON is either too slow or too limited at scale; requires DB-backed graph query layer; in v2 use RM-KG-018 entity preview cards for 1-degree relationships only
-- [ ] RM-KG-020 Interactive relationship graph view (`/{locale}/graph`) — shifted to B8/B9; requires PostgreSQL relationship tables or graph DB layer; do not attempt as a static frontend feature
-- [ ] RM-KG-021 Map-based exploration mode connecting events, routes, institutions, and cultural centers to graph entities
+- [ ] RM-KG-005 Historical territory/location mapping with time-aware boundary/region references and approximation labels
+- [ ] RM-KG-006 Source attribution system at relationship-edge level (not only entity/page level)
+- [ ] RM-KG-007 Evidence confidence system for entities and relationships (`high`, `medium`, `low`, `disputed`, `unknown`)
+- [ ] RM-KG-008 Primary vs secondary source classification rules enforced in relation and claim metadata
+- [ ] RM-KG-009 Glossary and historical terminology system connected to entities, periods, and contested concepts
+- [ ] RM-KG-010 `Explore Next` recommendation engine — static related-events display only in v2 (covered by RM-REL-003); personalised engine shifted to B3 after read tracking exists; ML-powered version shifted to B8
+- [ ] RM-KG-011 Thematic learning paths generated from graph-linked events, figures, places, and sources
+- [ ] RM-KG-012 Cross-era historical linking (idea continuity, policy legacy, institutional inheritance, recurring conflicts)
+- [ ] RM-KG-013 Historical debate/disputed interpretation section backed by competing sourced viewpoints
+- [ ] RM-KG-014 Entity preview cards and hover previews with key metadata, relation summary, and source indicators
+- [ ] RM-KG-015 Map-based exploration mode connecting events, routes, institutions, and cultural centers to graph entities
+
+**Removed from v2 (require graph database or expert authoring overhead with minimal reader value):**
+- ~~Dynasty/family relationship model~~ → removed or deferred to B9; requires expert historical judgment on every edge, high authoring cost, minimal reader value (family relationships that explain events belong in narrative prose)
+- ~~Alliance/rivalry relationship model~~ → removed or deferred to B9; same issues as dynasty model, plus politically loaded terms for contested history
+- ~~Timeline participation linking~~ → removed; redundant with `figureIds` on events; if role context matters for specific event, write it in narrative
+- ~~Quote/archive reference support~~ → deferred to B9 (Research API); third citation layer on top of `sourceIds` and claim-level citations, academic-researcher tool not general reader feature
+- ~~Graph-based navigation~~ → already shifted to B8/B9 in notes, checkbox removed from v2
+- ~~Interactive relationship graph view~~ → already shifted to B8/B9 in notes, checkbox removed from v2
 
 ### Relationship ID migration and compatibility
 
@@ -538,7 +546,7 @@ This phase should introduce animated and map-based historical exploration withou
 
 ### Time-aware historical maps and spatial visualization
 
-Priority: Evolve from static map visuals to timeline-aware, source-backed, structured spatial learning.
+Priority: Evolve from static map visuals to timeline-aware, source-backed, structured spatial learning. **Scope constraint:** Build map MVP (RM-MAP-001 to RM-MAP-006) first, stabilize with at least two flagship layers, then add advanced features.
 
 - [ ] RM-MAP-001 Event-location mapping system linking events to one or many historical locations
 - [ ] RM-MAP-002 Time-aware historical maps with date/year-sensitive spatial state changes
@@ -555,11 +563,13 @@ Priority: Evolve from static map visuals to timeline-aware, source-backed, struc
 - [ ] RM-MAP-013 Source attribution required for every map layer and major geometry change
 - [ ] RM-MAP-014 Evidence confidence model for uncertain historical geography (`high`, `medium`, `low`, `disputed`, `approximate`)
 - [ ] RM-MAP-015 Disputed boundary and approximate-location rendering rules
-- [ ] RM-MAP-016 Map comparison mode (for example: 1905 vs 1947 Bengal; Sultanate Bengal vs Mughal Bengal)
-- [ ] RM-MAP-017 Map-based `Explore Next` flow using nearby/related entities and timeline adjacency
-- [ ] RM-MAP-018 GeoJSON-compatible storage and ingestion path for structured spatial data
-- [ ] RM-MAP-019 Admin/content model support for authoring, validating, and reviewing map layers
-- [ ] RM-MAP-020 Responsive map UX patterns for mobile-first learners
+- [ ] RM-MAP-016 Map-based `Explore Next` flow using nearby/related entities and timeline adjacency
+- [ ] RM-MAP-017 GeoJSON-compatible storage and ingestion path for structured spatial data
+- [ ] RM-MAP-018 Responsive map UX patterns for mobile-first learners
+
+**Deferred (premature for v4):**
+- ~~Map comparison mode~~ → deferred until RM-MAP-001 to RM-MAP-006 are stable and at least two flagship map layers exist with verified sources; requires two fully accurate historical layers with disputed boundary rendering
+- ~~Admin/content model support for map authoring~~ → moved to B7 (RB-EDU-013); requires authenticated dashboard, review workflow, role-based access — backend feature, not v4 frontend feature
 
 ### Spatial data architecture note
 
@@ -731,9 +741,11 @@ Priority: First user-facing backend feature after auth. Low risk, high signal. G
 - [ ] RB-READ-009 Weak era detection ("You have not read much about the Sultanate period")
 - [ ] RB-READ-010 Reading time estimates displayed per event
 - [ ] RB-READ-011 Weekly reading summary email digest (opt-in)
-- [ ] RB-READ-012 Daily history card push notification (opt-in, web push)
 - [ ] RB-READ-013 Reading progress for books/resources (migrated from RM-015B; server-persisted scroll depth per book/resource per user)
 - [ ] RB-READ-014 Bookmark and continue-reading UX (migrated from RM-015C; server-persisted bookmarks replacing manual copy-link placeholder)
+
+**Deferred to post-B6:**
+- ~~RB-READ-012 Daily history card push notification~~ → deferred until proven active user base exists; web push has 2-5% opt-in rates, high engineering cost relative to engagement for early-stage platform; prioritize email digest (RB-READ-011) instead
 
 Expands: RM-022 (cloud-synced progress and bookmarks)
 
@@ -745,22 +757,24 @@ Priority: Core engagement and retention mechanic. Depends on read tracking being
 
 - [ ] RB-LEARN-001 Learning path data model (steps, events, quizzes, difficulty)
 - [ ] RB-LEARN-002 Learning path detail pages (`/{locale}/paths/[slug]`)
-- [ ] RB-LEARN-003 Path enrolment and server-persisted progress tracking
+- [ ] RB-LEARN-003 Path enrolment and server-persisted progress tracking (replaces localStorage approach from removed RM-011C)
 - [ ] RB-LEARN-004 Step completion tracking with visual roadmap UI
-- [ ] RB-LEARN-005 Knowledge quiz engine (3 to 5 questions per event or path step)
+- [ ] RB-LEARN-005 Knowledge quiz engine (3 to 5 questions per event or path step; replaces static quiz from RM-009)
 - [ ] RB-LEARN-006 Quiz result storage and scoring history
 - [ ] RB-LEARN-007 Bangladesh SSC and HSC national curriculum topic tagging on events
 - [ ] RB-LEARN-008 Curriculum-aligned learning paths for exam preparation
 - [ ] RB-LEARN-009 Difficulty labels (`beginner`, `intermediate`, `advanced`) on paths
-- [ ] RB-LEARN-010 Badge award system (path completion, streak milestones, era mastery)
+- [ ] RB-LEARN-010 Badge award system (path completion, streak milestones, era mastery; replaces badge display from removed RM-011D)
 - [ ] RB-LEARN-011 Badge display on public profile page
 - [ ] RB-LEARN-012 Shareable badge card (generated image for social sharing)
 - [ ] RB-LEARN-013 Completion certificate (printable PDF, institution-branded option)
-- [ ] RB-LEARN-014 Recommended next path engine (based on completed steps and weak eras)
+- [ ] RB-LEARN-014 Recommended next path engine (based on completed steps and weak eras; replaces hardcoded editorial picks from removed v2 static recommendations)
 - [ ] RB-LEARN-015 Path discovery page (`/{locale}/paths`) with filter by level and theme
-- [ ] RB-LEARN-016 Server-persisted learning path progress (migrated from RM-011C; replaces localStorage-only approach)
-- [ ] RB-LEARN-017 Badge award logic and unlock system (migrated from RM-011D; awards on path completion, streak milestones, era mastery with account dependency)
-- [ ] RB-LEARN-018 Personalised recommended next path engine (migrated from RM-011E and RM-KG-013; uses read tracking history and weak-era detection from B2)
+
+**Removed (migration duplicates):**
+- ~~RB-LEARN-016~~ → duplicate of RB-LEARN-003
+- ~~RB-LEARN-017~~ → duplicate of RB-LEARN-010
+- ~~RB-LEARN-018~~ → duplicate of RB-LEARN-014
 
 Expands: RM-008 (learning paths), RM-011A to RM-011F (roadmap-style step UI, local progress, badges, recommendations)
 
@@ -815,11 +829,13 @@ Priority: Highest governance risk. Do not begin this phase until a written edito
 - [ ] RB-COM-008 Contribution history and attribution shown on content pages
 - [ ] RB-COM-009 Editorial review queue (internal dashboard for editors)
 - [ ] RB-COM-010 Content version history for major event pages
-- [ ] RB-COM-011 Contributor point system (points per accepted correction, source, annotation)
-- [ ] RB-COM-012 Contributor leaderboard (weekly and all-time)
+- [ ] RB-COM-011 Contributor point system for internal tracking only (points per accepted correction, source, annotation; not publicly ranked)
 - [ ] RB-COM-013 Voting on community annotations (`helpful` or `not helpful`, not accuracy voting)
 - [ ] RB-COM-014 Abuse report flow with escalation to editor
 - [ ] RB-COM-015 Community moderation policy page (public)
+
+**Removed (creates perverse incentives on sourced history platform):**
+- ~~RB-COM-012 Contributor leaderboard~~ → removed entirely; leaderboards optimize for volume not accuracy; highest-point contributor is most prolific not most reliable; on platforms where credibility is core value, public ranking creates reputational risk; use editorial badges awarded by editors instead (similar to Wikipedia barnstars)
 
 Voting design note: votes on a history platform must not affect credibility scores. Popular is not the same as accurate. Votes should affect discoverability only, never the evidence level or contested status of a claim.
 
@@ -907,6 +923,7 @@ Priority: Runs parallel to B6. Largest long-term revenue opportunity. SSC/HSC sy
 - [ ] RB-EDU-010 Verified educator badge on contributor profiles
 - [ ] RB-EDU-011 Teacher resource library (lesson plan templates per topic)
 - [ ] RB-EDU-012 Student reading certificates (per completed path)
+- [ ] RB-EDU-013 Map authoring and review dashboard (authenticated tool for creating, validating, and reviewing historical map layers with role-based access and editorial workflow)
 
 Expands: RM-026 (institution/classroom dashboard), REV-007 (classroom packs for teachers), REV-009 (verified badge for completed paths), REV-010 (institution dashboard)
 
@@ -929,8 +946,8 @@ Priority: Only begin after source trust infrastructure (RM-001, RM-002, RM-005) 
 - [ ] RB-AI-005 AI content gap detector (flags events missing sources, relations, or BN parity)
 - [ ] RB-AI-006 AI translation assistant for BN content drafts (editor-reviewed before publish)
 - [ ] RB-AI-007 FastAPI service setup with Supabase PostgreSQL connection, LangChain or direct Anthropic SDK integration, and citation-grounding middleware (every AI response must carry traceable source IDs before being returned to the client)
-- [ ] RB-AI-008 Graph-based entity navigation with progressive disclosure (migrated from RM-KG-019; requires indexed relationship tables in PostgreSQL)
-- [ ] RB-AI-009 Interactive relationship graph explorer at `/{locale}/graph` (migrated from RM-KG-020; filters by relation type, era, theme, evidence confidence; requires graph query layer)
+- [ ] RB-AI-008 Graph-based entity navigation with progressive disclosure (requires indexed relationship tables in PostgreSQL)
+- [ ] RB-AI-009 Interactive relationship graph explorer at `/{locale}/graph` (filters by relation type, era, theme, evidence confidence; requires graph query layer)
 
 AI rule: Every AI-generated or AI-assisted response must be grounded in cited source content. No AI feature may answer from unsourced historical content or generate claims without traceable source IDs.
 
@@ -1416,6 +1433,7 @@ Next.js Frontend (Vercel)
 13. Any AI/search expansion must depend on RM-001, RM-002, and RM-005 completion.
 14. Update this file by toggling checkboxes only.
 15. Add a dated entry in `docs/CHANGELOG.md` when items move to done.
+16. **Feature Review 2026-05-21:** Removed 19 items that violated pre-backend scope boundary, required graph database infrastructure, or created perverse incentives. Key changes: deferred progress tracking/badges/recommendations to B3; removed dynasty/alliance/participation models; removed contributor leaderboard; consolidated knowledge graph to 1-degree relationships in static phase. All section numbering revised for consistency.
 
 ---
 
@@ -1433,7 +1451,7 @@ Recommended next sprint items:
 - [ ] RM-VIS-001 Visual event cards with timeline, place, figures, and source indicators
 - [ ] RM-VIS-002 Cause -> event -> effect visual chain
 - [ ] RM-VIS-003 Before/after event navigation cards
-- [ ] RM-VIS-009 Place-event mini map on event pages
+- [ ] RM-VIS-008 Place-event mini map on event pages
 - [ ] RM-TRUTH-010 Public methodology page
 
 Reason:
