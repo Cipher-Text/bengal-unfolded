@@ -29,6 +29,13 @@
     "history-banglapedia",
     "a-history-of-bangladesh"
   ],
+  "contested": true,
+  "historicalDebate": "যুক্ত বাংলা প্রস্তাব ঘিরে বিতর্কটি মূলত এর বাস্তবতা ও উদ্দেশ্য নিয়ে। কেউ এটিকে দেশভাগ এড়ানোর একটি গুরুতর সাংবিধানিক বিকল্প হিসেবে দেখেন, আবার কেউ মনে করেন এটি খুব দেরিতে এসেছে, রাজনৈতিকভাবে দুর্বল ছিল, এবং কংগ্রেস, মুসলিম লীগ ও প্রাদেশিক পক্ষগুলোর পারস্পরিক অবিশ্বাসের মধ্যে কার্যকর ভিত্তি গড়তে পারেনি। ফলে এটি হারিয়ে যাওয়া নিশ্চিত ভবিষ্যৎ নয়; বরং এমন এক বিকল্প পথের প্রমাণ, যা ঐকমত্যে পৌঁছাতে ব্যর্থ হয়েছিল।",
+  "historicalDebateSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",

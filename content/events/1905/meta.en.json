@@ -61,6 +61,13 @@
     "partition-politics-banglapedia"
   ],
   "identityMemoryEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "The strongest disagreement around 1905 is not whether Bengal was partitioned, but how to interpret the move: colonial officials described it as administrative reform, while many anti-partition critics treated it as a divide-and-rule intervention aimed at weakening Bengali political influence. Historians also note that Muslim political responses were not identical to Hindu bhadralok opposition, which makes the event important as both an anti-colonial rupture and a debate over representation.",
+  "historicalDebateSourceIds": [
+    "partition-of-bengal-1905-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
   "claimCitations": [
     {
       "id": "summary-claim-1",

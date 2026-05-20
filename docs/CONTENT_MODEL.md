@@ -155,6 +155,10 @@ Suggested naming after export:
 - `EventMeta.identityMemoryNotes?` (optional string; required for `importance: major | landmark`): identity and collective memory framing for major historical moments
 - `EventMeta.identityMemorySourceIds?` (optional `string[]`): citations for identity-memory narrative
 - `EventMeta.identityMemoryEvidenceLevel?` (optional `high | medium | low`): evidence strength for identity-memory narrative
+- `EventMeta.contested?` (optional boolean): marks a chapter as containing a significant disputed interpretation or unresolved historical framing question
+- `EventMeta.historicalDebate?` (optional string; required when `contested: true`): short, neutral explanation of the main historical disagreement or interpretive split
+- `EventMeta.historicalDebateSourceIds?` (optional `string[]`; required when `contested: true`): citations for the debate explanation
+- `EventMeta.historicalDebateEvidenceLevel?` (optional `high | medium | low`): evidence strength for the debate explanation
 - `EventMeta.claimCitations?` (optional `EventClaimCitation[]`; required non-empty for `importance: major | landmark`): claim-level citation entries rendered on event pages
 
 `EventClaimCitation` fields:

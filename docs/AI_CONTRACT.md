@@ -74,8 +74,11 @@ For every schema or field change:
   - if `longTermLegacySourceIds` exists and is non-empty, `longTermLegacyEvidenceLevel` is required
   - if `culturalImpactSourceIds` exists and is non-empty, `culturalImpactEvidenceLevel` is required
   - if `identityMemorySourceIds` exists and is non-empty, `identityMemoryEvidenceLevel` is required
+  - if `historicalDebateSourceIds` exists and is non-empty, `historicalDebateEvidenceLevel` is required
   - if `claimCitations` exists, each entry must include `id`, `section`, `claim`, non-empty `sourceIds`, and valid `evidenceLevel`
   - if `requiresSources` is `true`, both `summarySourceIds` and `whyItMattersSourceIds` must be non-empty
+  - if `contested` is `true`, `historicalDebate` must be present and non-empty
+  - if `contested` is `true`, `historicalDebateSourceIds` must be non-empty
   - if `importance` is `major`, `longTermLegacy` must be present and non-empty
   - if `importance` is `major`, `identityMemoryNotes` must be present and non-empty
   - if `importance` is `major`, `claimCitations` must be non-empty
@@ -86,6 +89,7 @@ For every schema or field change:
 ## Sensitive event contract
 
 - `sensitive` must be boolean when provided.
+- `contested` must be boolean when provided.
 - `requiresSources` must be boolean when provided.
 - `contentWarnings` must be an array of non-empty localized strings when provided.
 

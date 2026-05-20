@@ -632,6 +632,10 @@ export type EventMeta = {
   identityMemoryNotes?: string;
   identityMemorySourceIds?: string[];
   identityMemoryEvidenceLevel?: EvidenceLevel;
+  contested?: boolean;
+  historicalDebate?: string;
+  historicalDebateSourceIds?: string[];
+  historicalDebateEvidenceLevel?: EvidenceLevel;
   claimCitations?: EventClaimCitation[];
   importance: EventImportance;
   parentEvent?: EventSlug;

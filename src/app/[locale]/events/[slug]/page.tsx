@@ -59,6 +59,8 @@ const EVENT_LABELS = {
     whyItMattersSources: "Why It Matters Sources",
     evidence: "Evidence",
     claimCitations: "Claim-level citations",
+    contestedHistory: "Contested History",
+    historicalDebate: "Historical Debate",
     high: "High",
     medium: "Medium",
     low: "Low",
@@ -105,6 +107,8 @@ const EVENT_LABELS = {
     whyItMattersSources: "গুরুত্ব ব্যাখ্যার সূত্র",
     evidence: "প্রমাণের শক্তি",
     claimCitations: "দাবি-স্তরের সূত্রায়ন",
+    contestedHistory: "বিতর্কিত ইতিহাস",
+    historicalDebate: "ঐতিহাসিক বিতর্ক",
     high: "উচ্চ",
     medium: "মাঝারি",
     low: "নিম্ন",
@@ -239,6 +243,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           {quoteEntries.length > 0 ? <a href="#quotes" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
           {event.meta.claimCitations?.length ? <a href="#claim-citations" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.claimCitations}</a> : null}
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
+          {event.meta.historicalDebate ? <a href="#historical-debate" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.historicalDebate}</a> : null}
           {event.meta.longTermLegacy ? <a href="#long-term-legacy" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.legacyNarrative}</a> : null}
           {event.meta.culturalImpact ? <a href="#cultural-impact" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.culturalImpact}</a> : null}
           {event.meta.identityMemoryNotes ? <a href="#identity-memory" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.identityMemory}</a> : null}
@@ -266,6 +271,11 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
             {event.meta.sensitive ? (
               <span className="inline-flex rounded-full border border-rose-500/40 px-2.5 py-1 text-xs text-rose-300">
                 {labels.sensitiveContent}
+              </span>
+            ) : null}
+            {event.meta.contested ? (
+              <span className="inline-flex rounded-full border border-sky-500/40 px-2.5 py-1 text-xs text-sky-300">
+                {labels.contestedHistory}
               </span>
             ) : null}
           </div>
@@ -460,6 +470,22 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         <SectionTitle title={labels.whyItMatters} subtitle={<>{renderGlossaryLinkedText(event.meta.whyItMatters, locale as Locale)}{renderInlineCitations(event.meta.whyItMattersSourceIds, resourceById)}{renderEvidenceBadge(event.meta.whyItMattersEvidenceLevel)}</>} />
         </section>
       </AnimatedContainer>
+
+      {event.meta.historicalDebate ? (
+        <AnimatedContainer delay={0.26}>
+          <section id="historical-debate" className="scroll-mt-24">
+          <SectionTitle title={labels.historicalDebate} />
+          <div className="mt-4 rounded-2xl border border-sky-500/30 bg-sky-950/10 p-4">
+            <p className="text-sm font-medium text-sky-200">{labels.contestedHistory}</p>
+            <p className="mt-3 text-sm leading-relaxed md:text-base">
+              {renderGlossaryLinkedText(event.meta.historicalDebate, locale as Locale)}
+              {renderInlineCitations(event.meta.historicalDebateSourceIds, resourceById)}
+              {renderEvidenceBadge(event.meta.historicalDebateEvidenceLevel)}
+            </p>
+          </div>
+          </section>
+        </AnimatedContainer>
+      ) : null}
 
       {event.meta.longTermLegacy ? (
         <AnimatedContainer delay={0.27}>

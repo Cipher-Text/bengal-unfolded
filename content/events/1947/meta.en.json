@@ -88,6 +88,13 @@
     "the-spoils-of-partition"
   ],
   "identityMemoryEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "There is broad agreement that 1947 partition brought displacement, violence, and a lasting political rupture, but historians still debate emphasis and causation: some readings stress all-India constitutional collapse and elite negotiations, while others foreground communal mobilization, provincial calculations, and the lived asymmetry of refugee experience in Bengal. The debate is therefore less about whether partition mattered than about which forces and memories should frame it.",
+  "historicalDebateSourceIds": [
+    "partition-of-bengal-1947-banglapedia",
+    "the-spoils-of-partition"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
   "claimCitations": [
     {
       "id": "summary-claim-1",

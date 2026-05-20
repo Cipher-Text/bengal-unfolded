@@ -4,6 +4,22 @@
 
 ### Completed
 
+- RM-TRUTH-004 / RM-TRUTH-005 contested-history rollout:
+  - Model:
+    - Added `contested`, `historicalDebate`, `historicalDebateSourceIds`, and `historicalDebateEvidenceLevel` to `EventMeta` in `src/types/content.ts`.
+  - Validation:
+    - Added shape checks for `contested` and `historicalDebate`.
+    - Added `historicalDebateSourceIds -> historicalDebateEvidenceLevel` requirement.
+    - Added `contested=true` requirement for non-empty `historicalDebate` and `historicalDebateSourceIds`.
+    - Extended event source-integrity validation to cover `historicalDebateSourceIds`.
+  - UI/runtime:
+    - Added a contested-history badge to event overview metadata on event detail pages.
+    - Added localized `Historical Debate` jump-nav entry and debate block on event pages with inline citations and evidence badge rendering.
+  - Backfill:
+    - Backfilled contested-history metadata for `1905`, `1947`, and `1947-united-bengal-proposal` in EN/BN using already-linked event resources.
+  - Docs:
+    - Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and roadmap checkbox state in `docs/ROADMAP.md`.
+
 - RM-TRUTH-010 public methodology page rollout:
   - Model: No schema/type additions required.
   - Validation: No validator changes required.

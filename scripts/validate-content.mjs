@@ -156,6 +156,9 @@ async function main() {
       if ("requiresSources" in meta && typeof meta.requiresSources !== "boolean") {
         errors.push(`requiresSources must be boolean at content/events/${slug}/meta.${locale}.json`);
       }
+      if ("contested" in meta && typeof meta.contested !== "boolean") {
+        errors.push(`contested must be boolean at content/events/${slug}/meta.${locale}.json`);
+      }
       if ("contentWarnings" in meta && meta.contentWarnings !== undefined) {
         if (!Array.isArray(meta.contentWarnings)) {
           errors.push(`contentWarnings must be an array at content/events/${slug}/meta.${locale}.json`);
@@ -178,6 +181,7 @@ async function main() {
         "longTermLegacy",
         "culturalImpact",
         "identityMemoryNotes",
+        "historicalDebate",
         "periodLabel",
         "movementLabel",
         "placeLabel",
@@ -254,6 +258,7 @@ async function main() {
       const legacyIds = Array.isArray(meta.longTermLegacySourceIds) ? meta.longTermLegacySourceIds : [];
       const culturalIds = Array.isArray(meta.culturalImpactSourceIds) ? meta.culturalImpactSourceIds : [];
       const identityIds = Array.isArray(meta.identityMemorySourceIds) ? meta.identityMemorySourceIds : [];
+      const debateIds = Array.isArray(meta.historicalDebateSourceIds) ? meta.historicalDebateSourceIds : [];
       if (summaryIds.length > 0) {
         if (typeof meta.summaryEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.summaryEvidenceLevel)) {
           errors.push(`Invalid or missing summaryEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
@@ -279,6 +284,11 @@ async function main() {
           errors.push(`Invalid or missing identityMemoryEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
         }
       }
+      if (debateIds.length > 0) {
+        if (typeof meta.historicalDebateEvidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.historicalDebateEvidenceLevel)) {
+          errors.push(`Invalid or missing historicalDebateEvidenceLevel at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
       if ("longTermLegacy" in meta && meta.longTermLegacy !== undefined) {
         if (typeof meta.longTermLegacy !== "string" || meta.longTermLegacy.trim().length === 0) {
           errors.push(`Invalid longTermLegacy at content/events/${slug}/meta.${locale}.json`);
@@ -292,6 +302,11 @@ async function main() {
       if ("identityMemoryNotes" in meta && meta.identityMemoryNotes !== undefined) {
         if (typeof meta.identityMemoryNotes !== "string" || meta.identityMemoryNotes.trim().length === 0) {
           errors.push(`Invalid identityMemoryNotes at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if ("historicalDebate" in meta && meta.historicalDebate !== undefined) {
+        if (typeof meta.historicalDebate !== "string" || meta.historicalDebate.trim().length === 0) {
+          errors.push(`Invalid historicalDebate at content/events/${slug}/meta.${locale}.json`);
         }
       }
       if ("claimCitations" in meta && meta.claimCitations !== undefined) {
@@ -332,6 +347,14 @@ async function main() {
         }
         if (whyIds.length === 0) {
           errors.push(`requiresSources=true requires non-empty whyItMattersSourceIds at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
+      if (meta.contested === true) {
+        if (typeof meta.historicalDebate !== "string" || meta.historicalDebate.trim().length === 0) {
+          errors.push(`contested=true requires historicalDebate at content/events/${slug}/meta.${locale}.json`);
+        }
+        if (debateIds.length === 0) {
+          errors.push(`contested=true requires non-empty historicalDebateSourceIds at content/events/${slug}/meta.${locale}.json`);
         }
       }
       if (meta.importance === "major") {
@@ -450,7 +473,7 @@ async function main() {
     if (resourceIdsFile && Array.isArray(resourceIdsFile)) {
       for (const [locale, meta] of [["en", metaEn], ["bn", metaBn]]) {
         if (!meta || typeof meta !== "object") continue;
-        const fields = ["summarySourceIds", "whyItMattersSourceIds", "longTermLegacySourceIds", "culturalImpactSourceIds", "identityMemorySourceIds"];
+        const fields = ["summarySourceIds", "whyItMattersSourceIds", "longTermLegacySourceIds", "culturalImpactSourceIds", "identityMemorySourceIds", "historicalDebateSourceIds"];
         for (const fieldName of fields) {
           const sourceIds = meta[fieldName];
           if (sourceIds === undefined) continue;

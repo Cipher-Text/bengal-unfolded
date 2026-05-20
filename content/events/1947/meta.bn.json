@@ -88,6 +88,13 @@
     "the-spoils-of-partition"
   ],
   "identityMemoryEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "১৯৪৭ সালের দেশভাগ যে উচ্ছেদ, সহিংসতা এবং দীর্ঘস্থায়ী রাজনৈতিক বিচ্ছেদ তৈরি করেছিল, সে বিষয়ে বিস্তৃত ঐকমত্য আছে; কিন্তু ইতিহাসবিদদের মধ্যে জোরের জায়গা ও কারণ ব্যাখ্যা নিয়ে বিতর্ক রয়ে গেছে। কেউ সর্বভারতীয় সাংবিধানিক ভাঙন ও উচ্চপর্যায়ের দরকষাকষিকে বেশি গুরুত্ব দেন, আবার কেউ সাম্প্রদায়িক সংগঠন, প্রাদেশিক রাজনৈতিক হিসাব, এবং বাংলায় উদ্বাস্তু অভিজ্ঞতার অসম বাস্তবতাকে বেশি গুরুত্ব দেন। তাই বিতর্কটি দেশভাগ ঘটেছিল কি না তা নয়, বরং কোন শক্তি ও কোন স্মৃতি দিয়ে তাকে ফ্রেম করা হবে তা নিয়ে।",
+  "historicalDebateSourceIds": [
+    "partition-of-bengal-1947-banglapedia",
+    "the-spoils-of-partition"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
   "claimCitations": [
     {
       "id": "summary-claim-1",

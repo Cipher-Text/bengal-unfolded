@@ -29,6 +29,13 @@
     "history-banglapedia",
     "a-history-of-bangladesh"
   ],
+  "contested": true,
+  "historicalDebate": "The debate around the United Bengal proposal centers on viability and intent: some interpret it as a serious late constitutional alternative to partition, while others see it as politically underpowered, too late, or constrained by mistrust among Congress, Muslim League, and provincial actors. That makes the proposal historically important less as a lost inevitability than as evidence of a contested path that failed to consolidate.",
+  "historicalDebateSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",

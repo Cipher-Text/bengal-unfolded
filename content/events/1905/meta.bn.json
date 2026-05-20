@@ -61,6 +61,13 @@
     "partition-politics-banglapedia"
   ],
   "identityMemoryEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "১৯০৫ সালের ক্ষেত্রে মূল বিতর্কটি বঙ্গভঙ্গ হয়েছিল কি না তা নয়, বরং এটিকে কীভাবে ব্যাখ্যা করা হবে তা নিয়ে। ঔপনিবেশিক কর্তৃপক্ষ একে প্রশাসনিক সংস্কার বলে তুলে ধরে, কিন্তু বহু বঙ্গভঙ্গবিরোধী সমালোচকের কাছে এটি ছিল বাঙালির রাজনৈতিক প্রভাব দুর্বল করার বিভাজননীতি। একই সঙ্গে ইতিহাসবিদেরা দেখিয়েছেন, মুসলিম রাজনৈতিক প্রতিক্রিয়া ও ভদ্রলোক হিন্দু বিরোধিতা একরকম ছিল না; তাই ঘটনাটি উপনিবেশবিরোধী মোড়ের পাশাপাশি প্রতিনিধিত্বের বিতর্কও বহন করে।",
+  "historicalDebateSourceIds": [
+    "partition-of-bengal-1905-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
   "claimCitations": [
     {
       "id": "summary-claim-1",
