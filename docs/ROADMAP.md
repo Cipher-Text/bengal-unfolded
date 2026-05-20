@@ -93,6 +93,68 @@ Core principle:
 
 ---
 
+## Two-Stage Delivery Strategy
+
+### Stage 1: Frontend-only (Current focus)
+
+Priority: Build audience, establish SEO authority, and gather real user behaviour data before investing in backend infrastructure.
+
+```txt
+Grow organic traffic (SEO)
+  ↓
+Understand user behaviour (Google Analytics + PostHog)
+  ↓
+Validate content quality and reader interest areas
+  ↓
+Establish bilingual discoverability in Bengali and English
+  ↓
+Generate clear product signals for Stage 2 priorities
+```
+
+Core principle for Stage 1:
+
+> Do not build backend features until analytics data confirms what users actually need — not what you assume they need.
+
+Key Stage 1 outputs before proceeding to Stage 2:
+
+```txt
+SEO rankings for Bengali history search queries
+Organic traffic baseline (monthly active readers)
+Top events and figures by engagement
+EN vs BN reader ratio
+Mobile vs desktop ratio
+User drop-off points on long event pages
+Search query data (what users look for that doesn't exist yet)
+```
+
+### Stage 2: Backend Platform (Future)
+
+Priority: Build auth, user engagement, contribution, and revenue infrastructure — sequenced by dependency, not by ambition. Each phase must be stable before the next begins.
+
+```txt
+B1: Auth + User Foundation          ← foundation, everything else depends on this
+  ↓
+B2: Read Tracking + Habit Engine    ← first user-facing backend feature, low risk
+  ↓
+B3: Learning Paths + Badges         ← depends on read tracking data
+  ↓
+B4: Highlights + Annotations + Collections  ← personal engagement, no moderation risk
+  ↓
+B5: Community + Contribution        ← requires editorial policy and moderation first
+  ↓
+B6: Monetisation Infrastructure     ← only after active user base is proven
+  ↓
+B7: Educator + Institutional Platform  ← runs parallel to B6
+  ↓
+B8: Advanced Search + AI            ← only when content trust is mature
+  ↓
+B9: Research API + Data Platform    ← final revenue and institutional layer
+```
+
+Warning for Phase B5: Do not begin community and contribution features until a written editorial policy and a moderation workflow are in place. A sourced history platform that accepts bad edits loses credibility permanently. Governance must come before the code.
+
+---
+
 ## MVP (Foundation)
 
 ### Core platform
@@ -608,6 +670,268 @@ Version history saved
 
 ---
 
+## Stage 2: Backend Platform
+
+Detailed phase breakdown for the backend platform. These phases expand on the high-level items in the Final Phase section above (RM-021 to RM-027, RM-COM-001 to RM-COM-010) and Phase v3 (authenticated resource hub, reader features). Each phase has its own completion criteria aligned with the AI Integration Completion Criteria defined above.
+
+---
+
+### Phase B1 — Auth and User Foundation
+
+Priority: Highest. Nothing in Stage 2 works without this. Ship nothing else in backend until auth is solid and stable.
+
+- [ ] RB-AUTH-001 User registration with email and password
+- [ ] RB-AUTH-002 Google OAuth login
+- [ ] RB-AUTH-003 Magic link login (passwordless, lower friction for casual readers)
+- [ ] RB-AUTH-004 Email verification flow
+- [ ] RB-AUTH-005 Password reset flow
+- [ ] RB-AUTH-006 User profile page (`/{locale}/profile`)
+- [ ] RB-AUTH-007 Avatar, display name, and bio on profile
+- [ ] RB-AUTH-008 Language preference and theme preference saved to account
+- [ ] RB-AUTH-009 Account settings page (email, notifications, privacy)
+- [ ] RB-AUTH-010 Session management and secure logout
+- [ ] RB-AUTH-011 Delete account with data removal (GDPR compliance)
+- [ ] RB-AUTH-012 Role system (`visitor`, `reader`, `contributor`, `editor`, `admin`)
+- [ ] RB-AUTH-013 Role-based access control enforced at API and page level
+
+Expands: RM-021 (user accounts and reader profiles)
+
+---
+
+### Phase B2 — Read Tracking and Habit Engine
+
+Priority: First user-facing backend feature after auth. Low risk, high signal. Generates the behavioural data that every later phase depends on.
+
+- [ ] RB-READ-001 Mark event as read (server-persisted, replaces localStorage fallback)
+- [ ] RB-READ-002 Reading progress per event (scroll depth tracking)
+- [ ] RB-READ-003 Reading history page (`/{locale}/profile/history`)
+- [ ] RB-READ-004 Reading streak counter (consecutive active days)
+- [ ] RB-READ-005 Streak protection grace period (miss one day without losing streak)
+- [ ] RB-READ-006 "On this day in Bengal" daily feature (auto-surfaced events by date)
+- [ ] RB-READ-007 "Continue where you left off" personalised section on homepage
+- [ ] RB-READ-008 Reading stats dashboard (events read, figures explored, eras covered)
+- [ ] RB-READ-009 Weak era detection ("You have not read much about the Sultanate period")
+- [ ] RB-READ-010 Reading time estimates displayed per event
+- [ ] RB-READ-011 Weekly reading summary email digest (opt-in)
+- [ ] RB-READ-012 Daily history card push notification (opt-in, web push)
+
+Expands: RM-022 (cloud-synced progress and bookmarks)
+
+---
+
+### Phase B3 — Learning Paths and Badges
+
+Priority: Core engagement and retention mechanic. Depends on read tracking being stable.
+
+- [ ] RB-LEARN-001 Learning path data model (steps, events, quizzes, difficulty)
+- [ ] RB-LEARN-002 Learning path detail pages (`/{locale}/paths/[slug]`)
+- [ ] RB-LEARN-003 Path enrolment and server-persisted progress tracking
+- [ ] RB-LEARN-004 Step completion tracking with visual roadmap UI
+- [ ] RB-LEARN-005 Knowledge quiz engine (3 to 5 questions per event or path step)
+- [ ] RB-LEARN-006 Quiz result storage and scoring history
+- [ ] RB-LEARN-007 Bangladesh SSC and HSC national curriculum topic tagging on events
+- [ ] RB-LEARN-008 Curriculum-aligned learning paths for exam preparation
+- [ ] RB-LEARN-009 Difficulty labels (`beginner`, `intermediate`, `advanced`) on paths
+- [ ] RB-LEARN-010 Badge award system (path completion, streak milestones, era mastery)
+- [ ] RB-LEARN-011 Badge display on public profile page
+- [ ] RB-LEARN-012 Shareable badge card (generated image for social sharing)
+- [ ] RB-LEARN-013 Completion certificate (printable PDF, institution-branded option)
+- [ ] RB-LEARN-014 Recommended next path engine (based on completed steps and weak eras)
+- [ ] RB-LEARN-015 Path discovery page (`/{locale}/paths`) with filter by level and theme
+
+Expands: RM-008 (learning paths), RM-011A to RM-011F (roadmap-style step UI, local progress, badges, recommendations)
+
+---
+
+### Phase B4 — Highlights, Annotations, and Collections
+
+Priority: Personal engagement layer with no moderation risk. Private by default.
+
+- [ ] RB-NOTE-001 Highlight text on event pages (saved per user, server-persisted)
+- [ ] RB-NOTE-002 Private annotation on highlights
+- [ ] RB-NOTE-003 Public annotation option (goes to moderation queue before visible to others)
+- [ ] RB-NOTE-004 Personal research notebook (`/{locale}/profile/notebook`)
+- [ ] RB-NOTE-005 Tag and organise highlights by theme or era
+- [ ] RB-NOTE-006 Export notebook as formatted PDF
+- [ ] RB-NOTE-007 Bookmark events and figures for later reading
+- [ ] RB-NOTE-008 Reader collections ("My 1971 Reading List", "Partition Sources")
+- [ ] RB-NOTE-009 Public collections with shareable link
+- [ ] RB-NOTE-010 Collection discovery page (curated and community collections)
+- [ ] RB-NOTE-011 Citation export per event, figure, or resource (Chicago, APA, MLA formats)
+- [ ] RB-NOTE-012 "Cite this page" one-click button on all content pages
+- [ ] RB-NOTE-013 "Share with family" printable one-page event summary (Bengali font, clean print layout)
+
+Expands: RM-015B (reading progress), RM-015C (bookmarks and continue reading), RM-HUB-005 (personal reading list), RM-012 (print/export), RM-014 (citation export)
+
+---
+
+### Phase B5 — Community and Contribution
+
+Priority: Highest governance risk. Do not begin this phase until a written editorial policy and a staffed moderation workflow exist. Governance first, code second.
+
+#### Pre-requisite checklist before starting B5
+
+```txt
+[ ] Written editorial neutrality policy published
+[ ] Written sensitive history writing policy published
+[ ] At least one editor committed to reviewing submissions daily
+[ ] Moderation queue infrastructure ready (internal dashboard)
+[ ] Correction and source request forms designed
+[ ] Abuse reporting and escalation flow documented
+```
+
+#### Contribution features
+
+- [ ] RB-COM-001 Structured correction request form ("I think this detail needs a source")
+- [ ] RB-COM-002 Source suggestion form (suggest a missing primary source for an event)
+- [ ] RB-COM-003 Editorial inbox for all correction and source requests
+- [ ] RB-COM-004 Moderated discussion threads per event (curated questions, not open comments)
+- [ ] RB-COM-005 Reader question submission ("I want to understand X better")
+- [ ] RB-COM-006 Expert commentary system (verified historians add a commentary block to events)
+- [ ] RB-COM-007 Contributor profile pages (`/{locale}/contributors/[id]`)
+- [ ] RB-COM-008 Contribution history and attribution shown on content pages
+- [ ] RB-COM-009 Editorial review queue (internal dashboard for editors)
+- [ ] RB-COM-010 Content version history for major event pages
+- [ ] RB-COM-011 Contributor point system (points per accepted correction, source, annotation)
+- [ ] RB-COM-012 Contributor leaderboard (weekly and all-time)
+- [ ] RB-COM-013 Voting on community annotations (`helpful` or `not helpful`, not accuracy voting)
+- [ ] RB-COM-014 Abuse report flow with escalation to editor
+- [ ] RB-COM-015 Community moderation policy page (public)
+
+Voting design note: votes on a history platform must not affect credibility scores. Popular is not the same as accurate. Votes should affect discoverability only, never the evidence level or contested status of a claim.
+
+Expands: RM-018 (contributor workflow), RM-023 (contributor submission dashboard), RM-024 (editorial review and version history), RM-COM-001 to RM-COM-010
+
+---
+
+### Phase B6 — Monetisation Infrastructure
+
+Priority: Build after you have a proven active user base. Do not build a paywall before you have consistent organic traffic.
+
+Signal to look for before starting B6:
+
+```txt
+5,000+ monthly active readers
+Clear top-20 most-read events
+Measurable return visitor rate
+Analytics showing users hitting feature gaps (citation export, offline, etc.)
+```
+
+#### Subscription tiers
+
+```txt
+Free (permanent)
+  All bilingual content, timelines, figures, sources, glossary
+  No paywall on core history content — this is the mission
+
+Reader Pro (~$3 to $5 per month / ~300 to 500 BDT per month)
+  Reading streak and progress tracking
+  Personal research notebook and highlight export
+  Citation export (Chicago, APA, MLA)
+  Offline reading (PWA)
+  Ad-free experience
+  Monthly deep-dive PDF on one major topic
+  Early access to new content
+
+Educator Plan (~$10 to $15 per month or per institution)
+  Classroom creation and student progress dashboard
+  Quiz assignment and class result view
+  Printable classroom packs (timeline, figures, sources per event)
+  SSC/HSC curriculum-aligned reading assignments
+  Institution certificate for completed paths
+  Teacher resource library
+
+Research Workspace (~$20 to $30 per month)
+  Private collections with API access
+  Advanced citation manager and bulk export
+  Dataset export (JSON/CSV)
+  Cross-event relationship query tool
+  Early access to new source additions
+```
+
+#### Implementation items
+
+- [ ] RB-REV-001 Subscription tier model definition and feature gate system
+- [ ] RB-REV-002 Stripe integration (international cards, diaspora audience)
+- [ ] RB-REV-003 SSLCommerz or ShurjoPay integration (bKash, Nagad, local cards for Bangladesh)
+- [ ] RB-REV-004 Reader Pro feature gates (notebook export, citation manager, offline)
+- [ ] RB-REV-005 Educator Plan feature gates (classroom, student progress, assignments)
+- [ ] RB-REV-006 Research Workspace feature gates (API access, dataset export, bulk citation)
+- [ ] RB-REV-007 Subscription management dashboard (upgrade, downgrade, cancel)
+- [ ] RB-REV-008 Invoice generation for institutional and educator billing
+- [ ] RB-REV-009 Printable historical map sales (Stripe one-time purchase)
+- [ ] RB-REV-010 Curated reading bundle sales (PDF, annotated source list)
+- [ ] RB-REV-011 Archive digitization crowdfund campaign pages
+- [ ] RB-REV-012 Sponsored learning path system (editorial independence note required on page)
+
+Expands: REV-001 to REV-014 (existing revenue roadmap items), RM-HUB-005 to RM-HUB-006
+
+---
+
+### Phase B7 — Educator and Institutional Platform
+
+Priority: Runs parallel to B6. Largest long-term revenue opportunity. SSC/HSC syllabus alignment is the single biggest unlock for the Bangladesh market.
+
+- [ ] RB-EDU-001 Educator account type with separate onboarding flow
+- [ ] RB-EDU-002 Classroom creation (teacher adds students, assigns reading)
+- [ ] RB-EDU-003 Reading assignment creation (assign events or paths to a class)
+- [ ] RB-EDU-004 Student progress dashboard (teacher view, per-student breakdown)
+- [ ] RB-EDU-005 Quiz assignment and class result view per assignment
+- [ ] RB-EDU-006 SSC and HSC chapter tagging on events (Bangladesh curriculum alignment)
+- [ ] RB-EDU-007 Printable classroom pack generator (timeline, figures, sources per event)
+- [ ] RB-EDU-008 Institution profile pages (`/{locale}/institutions/[id]`)
+- [ ] RB-EDU-009 Institutional subscription billing and seat management
+- [ ] RB-EDU-010 Verified educator badge on contributor profiles
+- [ ] RB-EDU-011 Teacher resource library (lesson plan templates per topic)
+- [ ] RB-EDU-012 Student reading certificates (per completed path)
+
+Expands: RM-026 (institution/classroom dashboard), REV-007 (classroom packs for teachers), REV-009 (verified badge for completed paths), REV-010 (institution dashboard)
+
+---
+
+### Phase B8 — Advanced Search and AI
+
+Priority: Only begin after source trust infrastructure (RM-001, RM-002, RM-005) is fully mature and the content base is large enough to make search meaningful. AI features must be citation-grounded with no exceptions.
+
+- [ ] RB-SRCH-001 Full-text search across events, figures, resources, and glossary
+- [ ] RB-SRCH-002 Bilingual search (query in EN returns BN results and vice versa)
+- [ ] RB-SRCH-003 Filter search by era, theme, importance, evidence level, and content type
+- [ ] RB-SRCH-004 Typesense integration and indexed content pipeline
+- [ ] RB-SRCH-005 Search analytics (what users search for → surfaces content gaps)
+- [ ] RB-SRCH-006 No-results suggestions ("Did you mean..." and related event links)
+- [ ] RB-AI-001 AI Q&A grounded strictly in site content and cited sources (no hallucination)
+- [ ] RB-AI-002 "Explain this event simply" summariser with source footnotes
+- [ ] RB-AI-003 AI-powered learning path recommendation (based on reading history and weak eras)
+- [ ] RB-AI-004 Semantic search (meaning-based retrieval, not keyword-only)
+- [ ] RB-AI-005 AI content gap detector (flags events missing sources, relations, or BN parity)
+- [ ] RB-AI-006 AI translation assistant for BN content drafts (editor-reviewed before publish)
+- [ ] RB-AI-007 FastAPI service setup with Supabase PostgreSQL connection, LangChain or direct Anthropic SDK integration, and citation-grounding middleware (every AI response must carry traceable source IDs before being returned to the client)
+
+AI rule: Every AI-generated or AI-assisted response must be grounded in cited source content. No AI feature may answer from unsourced historical content or generate claims without traceable source IDs.
+
+Expands: RM-019 (advanced search), RM-020 (AI-assisted Q&A with citation grounding)
+
+---
+
+### Phase B9 — Research API and Data Platform
+
+Priority: Final revenue and institutional layer. For universities, researchers, journalists, and developers building on Bengal history data.
+
+- [ ] RB-API-001 Public REST API (events, figures, resources, timelines, relations)
+- [ ] RB-API-002 API key management per account
+- [ ] RB-API-003 API rate limiting by subscription tier
+- [ ] RB-API-004 Dataset export (structured JSON and CSV for events, figures, and relations)
+- [ ] RB-API-005 GraphQL endpoint for complex relational queries
+- [ ] RB-API-006 Research workspace UI (`/{locale}/workspace`)
+- [ ] RB-API-007 Private collections with API access
+- [ ] RB-API-008 Bulk citation export across collections
+- [ ] RB-API-009 API documentation site (developer-facing)
+- [ ] RB-API-010 Institutional API licensing and SLA
+
+Expands: RM-025 (public API), RM-027 (premium research workspace), REV-013 (dataset/API access for institutions)
+
+---
+
 ## Revenue Roadmap
 
 Revenue should not weaken trust. Bengal Unfolded should remain educational and source-first.
@@ -635,10 +959,56 @@ Revenue should not weaken trust. Bengal Unfolded should remain educational and s
 - [ ] REV-013 Dataset/API access for institutions
 - [ ] REV-014 Custom historical visualization or archive projects
 
+### Subscription revenue (Stage 2)
+
+- [ ] REV-015 Reader Pro subscription tier (individual, monthly and annual billing)
+- [ ] REV-016 Educator Plan subscription tier (per teacher or per institution)
+- [ ] REV-017 Research Workspace subscription tier (monthly, API-included)
+- [ ] REV-018 Stripe integration for international card payments
+- [ ] REV-019 SSLCommerz or ShurjoPay integration for bKash, Nagad, and local cards
+- [ ] REV-020 Subscription management dashboard (upgrade, downgrade, cancel)
+- [ ] REV-021 Invoice and receipt generation for institutional billing
+
+### Engagement and social revenue
+
+- [ ] REV-022 "On this day in Bengal" daily email (free tier with Reader Pro upgrade prompt)
+- [ ] REV-023 Shareable badge and certificate system (free to earn, PDF export is Reader Pro)
+- [ ] REV-024 Public reader collections (free), private annotated collections (Reader Pro)
+- [ ] REV-025 Diaspora family history connector ("Your region is Sylhet — here are connected events")
+
+### Curriculum and institutional revenue
+
+- [ ] REV-026 SSC and HSC curriculum-aligned learning paths (Educator Plan feature)
+- [ ] REV-027 Student progress and quiz dashboard for teachers (Educator Plan)
+- [ ] REV-028 Institution profile and branding on shared resources (Educator Plan)
+
+### Archive and research revenue
+
+- [ ] REV-029 Public REST API with rate-limited free tier and paid tiers
+- [ ] REV-030 Structured dataset access (JSON/CSV export for researchers)
+- [ ] REV-031 Commissioned deep-dive content on requested topics (rare, premium)
+
 ### Sponsorship wording guideline
 
 ```txt
 This learning path is supported by [Sponsor Name]. Editorial independence is maintained by Bengal Unfolded.
+```
+
+### Revenue sequencing note
+
+```txt
+Stage 1 (Frontend only)
+  → No revenue infrastructure needed
+  → Focus entirely on audience and organic growth
+
+Stage 2 Phase B1-B4
+  → No paywall
+  → Build habit and loyalty first
+
+Stage 2 Phase B6
+  → Introduce Reader Pro only after 5,000+ monthly active readers
+  → Introduce Educator Plan only after teachers are using it informally
+  → Never paywall core history content — it is the mission, not the product
 ```
 
 ---
@@ -695,18 +1065,86 @@ Object storage: Cloudflare R2 or MinIO
 Search: Meilisearch / Typesense first, Elasticsearch later if needed
 ```
 
+### Recommended Stage 2 tech stack
+
+The API layer uses a two-layer approach: Next.js API Routes for all non-AI backend work (B1–B4), and FastAPI (Python) introduced as a dedicated AI/ML service at Phase B8. This avoids premature complexity while positioning the platform correctly for the Python AI/ML ecosystem at the point it is actually needed.
+
+Rationale for FastAPI at Phase B8: The Python ecosystem (LangChain, sentence-transformers, Hugging Face, pgvector clients, Anthropic SDK) is significantly more mature for the planned AI features — semantic search, citation-grounded Q&A, content gap detection, and embedding-based recommendations — than any TypeScript equivalent. Next.js API Routes handle all non-AI backend work through B1–B7 to keep the stack simple during the audience-building phases. FastAPI is introduced only when AI/ML workloads genuinely require it. Supabase PostgreSQL remains the shared data layer for both services throughout.
+
+```txt
+Layer               Recommended choice              Reason
+
+Frontend            Next.js (current)               No change
+API layer (B1–B7)   Next.js API Routes               Same repo, same types, zero friction
+API layer (B8–B9)   FastAPI (Python, separate svc)  Python AI/ML ecosystem: LangChain,
+                                                    sentence-transformers, Hugging Face,
+                                                    Anthropic SDK, pgvector clients
+ORM                 Prisma                           TypeScript-native, migrations in git
+Database            PostgreSQL via Supabase      Managed DB + Auth + Storage in one, generous free tier
+Auth                Supabase Auth                Email, Google OAuth, magic link — done in hours
+Search              Typesense                    Open source, self-hostable, fast Bengali/Unicode support
+Cache               Redis via Upstash            Serverless Redis, Vercel-friendly, pay per request
+File storage        Cloudflare R2                Zero egress fees, S3-compatible, better than AWS S3 for media
+Email               Resend                       Developer-friendly, excellent template support
+Payments (global)   Stripe                       International cards, diaspora audience
+Payments (BD)       SSLCommerz or ShurjoPay      bKash, Nagad, local card support for Bangladesh
+Analytics           PostHog                      Open source, self-hostable, replaces GA for product analytics
+Background jobs     Trigger.dev                  Serverless job queue, TypeScript-native, badge calculations, digests
+Deployment          Vercel (frontend)            Current
+                    Railway or Supabase (DB)     Managed PostgreSQL in production
+```
+
+Migration path:
+
+```txt
+Phase B1-B2
+  Next.js API Routes + Prisma + Supabase (DB + Auth)
+  No separate backend service needed
+
+Phase B3-B5
+  Add Upstash Redis (session cache, rate limiting)
+  Add Typesense (search index)
+  Add Trigger.dev (badge jobs, email digests)
+
+Phase B6-B7
+  Add Stripe + SSLCommerz/ShurjoPay (payments)
+  Add Resend (transactional email)
+
+Phase B8-B9
+  Add PostHog (product analytics)
+  Add GraphQL layer on Next.js API Routes (if REST becomes complex for non-AI queries)
+  Introduce FastAPI as a dedicated AI/ML service (separate deployment, Python)
+    → FastAPI connects to Supabase PostgreSQL (shared data layer with Next.js)
+    → FastAPI handles: semantic search, citation-grounded Q&A, embeddings, recommendations
+    → Next.js API Routes remain the source of truth for auth, reading, paths, notes, payments
+    → Both services read/write the same Supabase DB — no data duplication
+  Deploy FastAPI on Railway or Fly.io (Docker, Python runtime)
+```
+
 ### Advanced reference architecture
 
 ```txt
 Users
   ↓
-Next.js Frontend
+Next.js Frontend (Vercel)
   ↓
-Backend API
-  ↓
-PostgreSQL + Search Engine + Object Storage
-  ↓
-Optional Knowledge Graph / Linked Data Layer
+┌─────────────────────────────────────────────────────────┐
+│  Next.js API Routes (B1–B7)    FastAPI / Python (B8–B9) │
+│  Auth, reading, paths, notes,  Semantic search, Q&A,    │
+│  payments, collections, API    embeddings, gap detect,   │
+│  keys, subscriptions           recommendations, translate│
+└─────────────┬───────────────────────────┬───────────────┘
+              │                           │
+              └──────────┬────────────────┘
+                         ↓
+           Supabase PostgreSQL + Supabase Auth
+           (shared data layer for both services)
+                         ↓
+  Typesense (search) + Upstash Redis (cache) + Cloudflare R2 (assets)
+                         ↓
+  Trigger.dev (background jobs: badges, digests, gap detection)
+                         ↓
+  Optional Knowledge Graph / Linked Data Layer (Phase B9+)
 ```
 
 ---
