@@ -72,6 +72,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.75,
         alternates: { languages: localeAlternates("/glossary") },
       },
+      {
+        url: withLocale(locale, "/methodology"),
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.65,
+        alternates: { languages: localeAlternates("/methodology") },
+      },
     );
 
     for (const slug of SUPPORTED_EVENT_SLUGS) {

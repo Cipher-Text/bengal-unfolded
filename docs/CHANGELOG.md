@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-05-20
+
+### Completed
+
+- RM-TRUTH-010 public methodology page rollout:
+  - Model: No schema/type additions required.
+  - Validation: No validator changes required.
+  - UI/runtime:
+    - Added localized methodology page at `/{locale}/methodology`.
+    - Added page metadata and locale alternates through the existing SEO helper.
+    - Added methodology route entries to `src/app/sitemap.ts`.
+    - Added a footer link so the page is reachable from all locale views.
+  - Backfill: No content backfill required.
+  - Docs: Updated roadmap checkbox state in `docs/ROADMAP.md`.
+
+- Figure registry sync for existing 1971 content:
+  - Content: No content-file changes required; existing bilingual figure metadata already existed for `major-rafiqul-islam`, `m-hamidullah-khan`, `mk-bashar`, `mohiuddin-jahangir`, and `major-ma-manzur`, and those IDs were already referenced by existing event content.
+  - Model: Added the missing figure IDs to `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` so runtime loaders and static generation recognize the existing figures.
+  - Validation: No validator rule changes required.
+
 ## 2026-05-09
 
 ### Completed

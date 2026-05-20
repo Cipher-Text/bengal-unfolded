@@ -181,7 +181,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [ ] RM-TRUTH-007 Sensitive political history writing guideline
 - [ ] RM-TRUTH-008 Version history for major event pages
 - [ ] RM-TRUTH-009 Correction request workflow
-- [ ] RM-TRUTH-010 Public methodology page
+- [x] RM-TRUTH-010 Public methodology page
 
 ### Recommended v1 behavior
 

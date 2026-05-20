@@ -24,6 +24,11 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           {isBangla ? "কারিগরি অংশীদার " : "Technical Partner: "}
           <a href="https://www.ciphertextlabs.com/" target="_blank" rel="noopener noreferrer" className="link-underline text-accent">CipherText</a>
         </p>
+        <div className="mt-3">
+          <a href={`/${locale}/methodology`} className="text-eyebrow link-underline text-accent">
+            {isBangla ? "পদ্ধতি" : "Methodology"}
+          </a>
+        </div>
       </footer>
     </div>
   );

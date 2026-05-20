@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { absoluteUrl } from "@/lib/seo";
 
 type ShareActionsLabels = {
@@ -18,12 +18,8 @@ type ShareActionsProps = {
 
 export function ShareActions({ title, path, labels }: ShareActionsProps) {
   const [status, setStatus] = useState<"idle" | "copied" | "failed">("idle");
-  const [canNativeShare, setCanNativeShare] = useState(false);
   const url = absoluteUrl(path);
-
-  useEffect(() => {
-    setCanNativeShare(typeof navigator !== "undefined" && typeof navigator.share === "function");
-  }, []);
+  const canNativeShare = typeof navigator !== "undefined" && typeof navigator.share === "function";
 
   async function handleCopyLink() {
     try {
