@@ -127,6 +127,20 @@ User drop-off points on long event pages
 Search query data (what users look for that doesn't exist yet)
 ```
 
+> Pre-backend scope boundary: The following categories of features must not be built
+> in the static phase regardless of how they are framed:
+>
+> - Any progress tracking intended to persist across sessions or devices
+> - Any badge award or unlock logic
+> - Any personalised recommendation engine
+> - Any correction or contribution queue requiring an editorial inbox
+> - Any version history requiring DB diffs or author attribution
+> - Any graph explorer requiring more than 1-degree static relationship display
+>
+> If a feature in v1–v2 starts to resemble any of the above, defer it to the
+> appropriate backend phase rather than approximating it with localStorage or
+> client-side state.
+
 ### Stage 2: Backend Platform (Future)
 
 Priority: Build auth, user engagement, contribution, and revenue infrastructure — sequenced by dependency, not by ambition. Each phase must be stable before the next begins.
@@ -241,8 +255,8 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-TRUTH-005 Historical debate explanation block
 - [ ] RM-TRUTH-006 Editorial neutrality guideline
 - [ ] RM-TRUTH-007 Sensitive political history writing guideline
-- [ ] RM-TRUTH-008 Version history for major event pages
-- [ ] RM-TRUTH-009 Correction request workflow
+- [ ] RM-TRUTH-008 Version history for major event pages — shifted to B5 (covered by RB-COM-010); requires DB diffs, timestamps, and author attribution — not a static JSON feature
+- [ ] RM-TRUTH-009 Correction request workflow — shifted to B5 (covered by RB-COM-001 to RB-COM-003); use a Tally or Typeform embed as placeholder until editorial queue infrastructure exists
 - [x] RM-TRUTH-010 Public methodology page
 
 ### Recommended v1 behavior
@@ -312,11 +326,15 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 
 ### Roadmap-style learning additions
 
+> Scope constraint: localStorage progress, badge award logic, and recommendation engine
+> are intentionally deferred to B3. In v2, build path structure and UI only. Do not
+> implement persistence, badge awards, or cross-session state in the static phase.
+
 - [ ] RM-011A Learning path detail pages (`/{locale}/paths/[slug]`)
 - [ ] RM-011B Roadmap-style step UI for history topics
-- [ ] RM-011C Local progress tracking with `localStorage`
-- [ ] RM-011D Basic learning badges without account dependency
-- [ ] RM-011E Recommended next topic engine based on completed path
+- [ ] RM-011C Local progress tracking — shifted to B3 (server-persisted); in v2 render path UI and step structure only, no progress state stored locally
+- [ ] RM-011D Learning badge display (show available badges and unlock criteria only); badge award logic shifted to B3 — badges without accounts have no persistence, shareability, or verification value
+- [ ] RM-011E Static "what to read next" suggestion per path (hardcoded editorial pick); personalised recommendation engine shifted to B3 after read tracking data exists
 - [ ] RM-011F Topic difficulty labels (`beginner`, `intermediate`, `advanced`)
 
 ### Visualization-first learning model
@@ -366,14 +384,14 @@ Priority: Build scalable, source-backed historical intelligence using normalized
 - [ ] RM-KG-010 Evidence confidence system for entities and relationships (`high`, `medium`, `low`, `disputed`, `unknown`)
 - [ ] RM-KG-011 Primary vs secondary source classification rules enforced in relation and claim metadata
 - [ ] RM-KG-012 Glossary and historical terminology system connected to entities, periods, and contested concepts
-- [ ] RM-KG-013 `Explore Next` recommendation engine using relation graph proximity, path progress, and thematic continuity
+- [ ] RM-KG-013 `Explore Next` recommendation engine — static related-events display only in v2 (covered by RM-REL-003); personalised engine shifted to B3 after read tracking exists; ML-powered version shifted to B8
 - [ ] RM-KG-014 Thematic learning paths generated from graph-linked events, figures, places, and sources
 - [ ] RM-KG-015 Cross-era historical linking (idea continuity, policy legacy, institutional inheritance, recurring conflicts)
 - [ ] RM-KG-016 Quote/archive reference support with citation anchors, archive IDs, and context snippets
 - [ ] RM-KG-017 Historical debate/disputed interpretation section backed by competing sourced viewpoints
 - [ ] RM-KG-018 Entity preview cards and hover previews with key metadata, relation summary, and source indicators
-- [ ] RM-KG-019 Graph-based navigation between historical entities (`Explore Connections`) with progressive disclosure
-- [ ] RM-KG-020 Interactive relationship graph view (`/{locale}/graph`) with filters for relation type, era, theme, and evidence confidence
+- [ ] RM-KG-019 Graph-based navigation between historical entities — shifted to B8/B9; full graph navigation over static JSON is either too slow or too limited at scale; requires DB-backed graph query layer; in v2 use RM-KG-018 entity preview cards for 1-degree relationships only
+- [ ] RM-KG-020 Interactive relationship graph view (`/{locale}/graph`) — shifted to B8/B9; requires PostgreSQL relationship tables or graph DB layer; do not attempt as a static frontend feature
 - [ ] RM-KG-021 Map-based exploration mode connecting events, routes, institutions, and cultural centers to graph entities
 
 ### Relationship ID migration and compatibility
@@ -446,8 +464,8 @@ This phase should support students, teachers, researchers, and serious readers.
 ### Online reader and archive additions
 
 - [ ] RM-015A Online book/resource reader shell
-- [ ] RM-015B Reading progress for books/resources using `localStorage`
-- [ ] RM-015C Bookmark and continue-reading UX
+- [ ] RM-015B Reading progress for books/resources — shifted to B2 (server-persisted alongside RB-READ-001/002); localStorage version not worth building for a cross-device diaspora and mobile audience
+- [ ] RM-015C Bookmark and continue-reading UX — shifted to B2 (server-persisted); until then show copy-link button only so users can save URLs manually
 - [ ] RM-015D Book/resource table of contents
 - [ ] RM-015E Book-to-event linking (`bookId -> eventIds`, `chapterId -> eventIds`)
 - [ ] RM-015F Public-domain/licensed-resource policy page
@@ -714,6 +732,8 @@ Priority: First user-facing backend feature after auth. Low risk, high signal. G
 - [ ] RB-READ-010 Reading time estimates displayed per event
 - [ ] RB-READ-011 Weekly reading summary email digest (opt-in)
 - [ ] RB-READ-012 Daily history card push notification (opt-in, web push)
+- [ ] RB-READ-013 Reading progress for books/resources (migrated from RM-015B; server-persisted scroll depth per book/resource per user)
+- [ ] RB-READ-014 Bookmark and continue-reading UX (migrated from RM-015C; server-persisted bookmarks replacing manual copy-link placeholder)
 
 Expands: RM-022 (cloud-synced progress and bookmarks)
 
@@ -738,6 +758,9 @@ Priority: Core engagement and retention mechanic. Depends on read tracking being
 - [ ] RB-LEARN-013 Completion certificate (printable PDF, institution-branded option)
 - [ ] RB-LEARN-014 Recommended next path engine (based on completed steps and weak eras)
 - [ ] RB-LEARN-015 Path discovery page (`/{locale}/paths`) with filter by level and theme
+- [ ] RB-LEARN-016 Server-persisted learning path progress (migrated from RM-011C; replaces localStorage-only approach)
+- [ ] RB-LEARN-017 Badge award logic and unlock system (migrated from RM-011D; awards on path completion, streak milestones, era mastery with account dependency)
+- [ ] RB-LEARN-018 Personalised recommended next path engine (migrated from RM-011E and RM-KG-013; uses read tracking history and weak-era detection from B2)
 
 Expands: RM-008 (learning paths), RM-011A to RM-011F (roadmap-style step UI, local progress, badges, recommendations)
 
@@ -906,6 +929,8 @@ Priority: Only begin after source trust infrastructure (RM-001, RM-002, RM-005) 
 - [ ] RB-AI-005 AI content gap detector (flags events missing sources, relations, or BN parity)
 - [ ] RB-AI-006 AI translation assistant for BN content drafts (editor-reviewed before publish)
 - [ ] RB-AI-007 FastAPI service setup with Supabase PostgreSQL connection, LangChain or direct Anthropic SDK integration, and citation-grounding middleware (every AI response must carry traceable source IDs before being returned to the client)
+- [ ] RB-AI-008 Graph-based entity navigation with progressive disclosure (migrated from RM-KG-019; requires indexed relationship tables in PostgreSQL)
+- [ ] RB-AI-009 Interactive relationship graph explorer at `/{locale}/graph` (migrated from RM-KG-020; filters by relation type, era, theme, evidence confidence; requires graph query layer)
 
 AI rule: Every AI-generated or AI-assisted response must be grounded in cited source content. No AI feature may answer from unsourced historical content or generate claims without traceable source IDs.
 
@@ -974,7 +999,7 @@ Revenue should not weaken trust. Bengal Unfolded should remain educational and s
 - [ ] REV-022 "On this day in Bengal" daily email (free tier with Reader Pro upgrade prompt)
 - [ ] REV-023 Shareable badge and certificate system (free to earn, PDF export is Reader Pro)
 - [ ] REV-024 Public reader collections (free), private annotated collections (Reader Pro)
-- [ ] REV-025 Diaspora family history connector ("Your region is Sylhet — here are connected events")
+- [ ] REV-025 Diaspora family history connector ("Your region is Sylhet — here are connected events") — static diaspora content pages in v2 (RM-CULT-009); personalised connector experience requires auth and profile (B1) and is a B6-phase revenue feature
 
 ### Curriculum and institutional revenue
 
