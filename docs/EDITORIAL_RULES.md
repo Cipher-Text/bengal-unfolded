@@ -2,6 +2,9 @@
 
 These rules keep writing quality and historical framing consistent across human and AI contributors.
 
+Primary neutrality policy: `docs/EDITORIAL_NEUTRALITY.md`.
+Primary sensitive political history policy: `docs/SENSITIVE_POLITICAL_HISTORY.md`.
+
 ## Voice and tone
 
 - Neutral, evidence-first, non-propagandistic writing.
@@ -14,6 +17,7 @@ These rules keep writing quality and historical framing consistent across human 
 - Interpretive statements should be clearly signposted as interpretation/context.
 - Sensitive or potentially contested claims must use high-quality sources where available.
 - Do not label a source as `primary` unless it is first-hand or an institutional record; analysis/synthesis sources are `secondary` (see `docs/SOURCE_QUALITY.md`).
+- Follow neutrality handling rules in `docs/EDITORIAL_NEUTRALITY.md` for politically sensitive or contested framing decisions.
 
 ## Sensitive history policy
 
@@ -27,6 +31,7 @@ These rules keep writing quality and historical framing consistent across human 
   - `sensitive: true`
   - `contentWarnings: string[]` (localized, specific, non-empty)
   - `requiresSources: true` so summary and why-it-matters claims remain citation-backed.
+- For politically sensitive or disputed accountability history, apply the full handling protocol in `docs/SENSITIVE_POLITICAL_HISTORY.md`.
 
 ## Localization policy (EN/BN)
 

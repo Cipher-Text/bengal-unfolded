@@ -253,8 +253,8 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-TRUTH-003 Primary vs secondary source distinction
 - [x] RM-TRUTH-004 Contested history marker
 - [x] RM-TRUTH-005 Historical debate explanation block
-- [ ] RM-TRUTH-006 Editorial neutrality guideline
-- [ ] RM-TRUTH-007 Sensitive political history writing guideline
+- [x] RM-TRUTH-006 Editorial neutrality guideline
+- [x] RM-TRUTH-007 Sensitive political history writing guideline
 - [ ] RM-TRUTH-008 Version history for major event pages — shifted to B5 (covered by RB-COM-010); requires DB diffs, timestamps, and author attribution — not a static JSON feature
 - [ ] RM-TRUTH-009 Correction request workflow — shifted to B5 (covered by RB-COM-001 to RB-COM-003); use a Tally or Typeform embed as placeholder until editorial queue infrastructure exists
 - [x] RM-TRUTH-010 Public methodology page
@@ -819,8 +819,8 @@ Priority: Highest governance risk. Do not begin this phase until a written edito
 #### Pre-requisite checklist before starting B5
 
 ```txt
-[ ] Written editorial neutrality policy published
-[ ] Written sensitive history writing policy published
+[x] Written editorial neutrality policy published
+[x] Written sensitive history writing policy published
 [ ] At least one editor committed to reviewing submissions daily
 [ ] Moderation queue infrastructure ready (internal dashboard)
 [ ] Correction and source request forms designed

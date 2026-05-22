@@ -28,6 +28,30 @@
     - Updated `docs/AI_CONTRACT.md` to require using the rubric distinction tests for `primary` vs `secondary` assignment.
     - Marked RM-TRUTH-003 complete in `docs/ROADMAP.md`.
 
+- RM-TRUTH-006 editorial neutrality guideline completion:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - No validator code changes required; existing sensitive/contested metadata checks remain the enforcement baseline.
+  - Policy/docs:
+    - Added published neutrality policy: `docs/EDITORIAL_NEUTRALITY.md`.
+    - Linked neutrality policy from `docs/EDITORIAL_RULES.md`.
+    - Added neutrality-policy requirement to `docs/AI_CONTRACT.md`.
+    - Marked `RM-TRUTH-006` complete in `docs/ROADMAP.md`.
+    - Marked governance checkpoint `Written editorial neutrality policy published` as complete in `docs/ROADMAP.md`.
+
+- RM-TRUTH-007 sensitive political history writing guideline completion:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - No validator code changes required; existing sensitive/contested metadata checks remain in effect.
+  - Policy/docs:
+    - Added published policy document: `docs/SENSITIVE_POLITICAL_HISTORY.md`.
+    - Linked policy from `docs/EDITORIAL_RULES.md`.
+    - Added policy requirement to `docs/AI_CONTRACT.md`.
+    - Marked `RM-TRUTH-007` complete in `docs/ROADMAP.md`.
+    - Marked governance checkpoint `Written sensitive history writing policy published` as complete in `docs/ROADMAP.md`.
+
 ## 2026-05-20
 
 ### Completed
