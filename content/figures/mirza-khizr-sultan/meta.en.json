@@ -1,14 +1,15 @@
 {
   "name": "Mirza Khizr Sultan",
   "name_en": "Mirza Khizr Sultan",
-  "role": "Mughal prince and field commander in the 1857 uprising",
+  "role": "Mughal prince associated with the Delhi phase of the 1857 uprising",
   "group": "coordinator",
-  "contribution": "He was associated with the Indian Rebellion of 1857 through leadership, mobilization, and battlefield action in North and central India.",
-  "context": "North and central India during the anti-colonial uprising of 1857-1859.",
-  "impact": "Remembered in 1857 historiography as part of the coalition that challenged East India Company rule.",
+  "contribution": "He appears in historical accounts as one of Bahadur Shah II's sons who took part in the 1857 rebellion around Delhi, including its military mobilization phase.",
+  "context": "Delhi and nearby North Indian theatres during the 1857-1858 anti-colonial uprising against East India Company rule.",
+  "impact": "He is remembered in rebellion historiography as part of the Mughal wartime leadership circle that became a key target of British retribution after the fall of Delhi.",
   "tags": [
     "1857",
     "rebellion",
+    "Delhi",
     "anti-colonial"
   ],
   "image": "/figures/mirza-khizr-sultan.jpg"
