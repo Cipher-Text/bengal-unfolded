@@ -6,9 +6,9 @@ import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import Link from "next/link";
 import { getAllEvents, getHomeContent } from "@/lib/content";
+import { EVENT_THEME_BY_SLUG, getPhaseLabel } from "@/lib/event-presentation";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
-import type { TimelineTheme } from "@/types/content";
 
 const EventTimeline = dynamic(
 	() => import("@/components/EventTimeline").then((mod) => mod.EventTimeline),
@@ -25,27 +25,6 @@ const EventTimeline = dynamic(
 	},
 );
 const HOMEPAGE_LANDMARK_LIMIT = 15;
-const EVENT_THEME_BY_SLUG: Record<string, TimelineTheme[]> = {
-	"1757": ["war", "economy"],
-	"1765": ["economy", "democracy"],
-	"1793": ["economy", "democracy"],
-	"1857": ["war", "democracy"],
-	"1906": ["democracy", "culture"],
-	"1911": ["democracy", "culture"],
-	"1943": ["economy", "war"],
-	"1947": ["war", "democracy"],
-	"1952": ["language", "culture", "democracy"],
-	"1954": ["democracy"],
-	"1958": ["democracy"],
-	"1966": ["democracy", "economy"],
-	"1969": ["democracy"],
-	"1971": ["war", "democracy"],
-	"1975": ["democracy"],
-	"1990": ["democracy"],
-	"2006": ["democracy"],
-	"2013": ["democracy"],
-	"2024": ["democracy", "economy"],
-};
 
 export async function generateMetadata({
 	params,
@@ -86,44 +65,13 @@ export default async function LocaleHomePage({
 		.filter((event) => event.showOnLanding !== false)
 		.slice(0, HOMEPAGE_LANDMARK_LIMIT);
 
-	const phaseBySlug: Record<string, string> =
-		locale === "bn"
-			? {
-					"1757": "পলাশী",
-					"1765": "দেওয়ানি",
-					"1793": "বন্দোবস্ত",
-					"1857": "বিদ্রোহ",
-					"1947": "বিভাজন",
-					"1952": "ভাষা",
-					"1969": "অভ্যুত্থান",
-					"1971": "স্বাধীনতা",
-					"1975": "বাকশাল",
-					"1990": "গণতন্ত্র",
-					"2006": "তত্ত্বাবধায়ক সংকট",
-					"2024": "ন্যায্যতা",
-				}
-			: {
-					"1757": "Plassey",
-					"1765": "Diwani",
-					"1793": "Settlement",
-					"1857": "Revolt",
-					"1947": "Partition",
-					"1952": "Language",
-					"1969": "Uprising",
-					"1971": "Liberation",
-					"1975": "BAKSAL",
-					"1990": "Democracy",
-					"2006": "Caretaker Crisis",
-					"2024": "Justice",
-				};
-
 	const timelineItems = landingEvents.map((event) => ({
 		year: event.year,
 		title: event.title,
 		detail: event.summary,
 		href: `/${locale}/events/${event.slug}`,
 		ctaLabel: event.ctaLabel || "Details",
-		phaseLabel: phaseBySlug[event.slug],
+		phaseLabel: getPhaseLabel(locale as Locale, event.slug),
 		themeColor: event.themeColor,
 		themes: EVENT_THEME_BY_SLUG[event.slug] ?? ["culture"],
 		emphasis:

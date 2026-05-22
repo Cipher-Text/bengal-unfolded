@@ -5,6 +5,7 @@ import { EventGrid } from "@/components/EventGrid";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getAllEvents } from "@/lib/content";
+import { EVENT_THEME_BY_SLUG } from "@/lib/event-presentation";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type EventImportance, type Locale } from "@/types/content";
 import type { TimelineTheme } from "@/types/content";
@@ -48,28 +49,6 @@ const IMPORTANCE_LABELS: Record<Locale, Record<EventImportance, string>> = {
     medium: "মধ্যম",
     reference: "রেফারেন্স",
   },
-};
-
-const EVENT_THEME_BY_SLUG: Record<string, TimelineTheme[]> = {
-  "1757": ["war", "economy"],
-  "1765": ["economy", "democracy"],
-  "1793": ["economy", "democracy"],
-  "1857": ["war", "democracy"],
-  "1906": ["democracy", "culture"],
-  "1911": ["democracy", "culture"],
-  "1943": ["economy", "war"],
-  "1947": ["war", "democracy"],
-  "1952": ["language", "culture", "democracy"],
-  "1954": ["democracy"],
-  "1958": ["democracy"],
-  "1966": ["democracy", "economy"],
-  "1969": ["democracy"],
-  "1971": ["war", "democracy"],
-  "1975": ["democracy"],
-  "1990": ["democracy"],
-  "2006": ["democracy"],
-  "2013": ["democracy"],
-  "2024": ["democracy", "economy"],
 };
 
 const THEME_LABELS: Record<Locale, Record<TimelineTheme, string>> = {
