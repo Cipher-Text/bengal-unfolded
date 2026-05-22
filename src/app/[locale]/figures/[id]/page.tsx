@@ -17,9 +17,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_FIGURE_IDS.includes(id as FigureId)) return {};
   const figure = await getFigure(locale, id);
+  const role = figure.role?.trim();
+  const context = figure.context?.trim();
+  const title = locale === "bn"
+    ? (role && context
+        ? `${figure.name} — ${context} এ ${role} | Bengal Unfolded`
+        : role
+          ? `${figure.name} — ${role} | Bengal Unfolded`
+          : `${figure.name} | Bengal Unfolded`)
+    : (role && context
+        ? `${figure.name} — ${role} in ${context} | Bengal Unfolded`
+        : role
+          ? `${figure.name} — ${role} | Bengal Unfolded`
+          : `${figure.name} | Bengal Unfolded`);
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${figure.name}${figure.role ? `: ${figure.role}` : ""} | Bengal Unfolded`,
+    title,
     description: figure.highlight ?? figure.contribution,
     canonicalPath: `/${locale}/figures/${id}`,
     languagePathWithoutLocale: `/figures/${id}`,

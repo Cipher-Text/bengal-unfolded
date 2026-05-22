@@ -63,6 +63,18 @@
   - Docs:
     - Roadmap deferment state remains unchanged for RM-TRUTH-008 (backend B5 dependency preserved).
 
+- RM-SEO-001 contextual figure title rewrite:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - No validator changes required.
+  - UI/runtime:
+    - Updated figure page metadata title generation to use contextual formula on `/{locale}/figures/{id}` pages.
+    - EN format: `{Name} — {Role} in {Historical Context} | Bengal Unfolded`.
+    - BN format: locale-adapted contextual equivalent with graceful fallback when role/context is missing.
+  - Docs:
+    - Marked `RM-SEO-001` complete in `docs/ROADMAP.md`.
+
 ## 2026-05-20
 
 ### Completed
