@@ -16,7 +16,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }): Promise<Metadata> {
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_FIGURE_IDS.includes(id as FigureId)) return {};
-  const figure = await getFigure(locale, id);
+  const [figure, events] = await Promise.all([
+    getFigure(locale, id),
+    getEventsByFigureIdChronological(locale, id),
+  ]);
   const role = figure.role?.trim();
   const context = figure.context?.trim();
   const title = locale === "bn"
@@ -30,10 +33,34 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         : role
           ? `${figure.name} — ${role} | Bengal Unfolded`
           : `${figure.name} | Bengal Unfolded`);
+  const period = events.length > 0
+    ? (events[0].year === events[events.length - 1].year
+        ? events[0].year
+        : `${events[0].year}–${events[events.length - 1].year}`)
+    : null;
+  const why = (figure.highlight ?? figure.contribution).trim();
+  const baseDescription = locale === "bn"
+    ? [
+        role ? `${figure.name} কে জানুন, যিনি ${role}` : `${figure.name} কে জানুন`,
+        context ? `${context} প্রেক্ষাপটে` : null,
+        period ? `সময়কাল: ${period}` : null,
+        why,
+        "এই ব্যক্তিত্বের ঐতিহাসিক ভূমিকা, প্রভাব ও সংশ্লিষ্ট ঘটনাগুলো এক নজরে দেখুন।",
+      ].filter(Boolean).join(" ")
+    : [
+        role ? `Learn about ${figure.name}, a ${role}.` : `Learn about ${figure.name}.`,
+        context ? `Historical context: ${context}.` : null,
+        period ? `Period: ${period}.` : null,
+        why,
+        "See their historical role, impact, and connected events in one place.",
+      ].filter(Boolean).join(" ");
+  const description = baseDescription.length > 320
+    ? `${baseDescription.slice(0, 317).trimEnd()}...`
+    : baseDescription;
   return buildPageMetadata({
     locale: locale as Locale,
     title,
-    description: figure.highlight ?? figure.contribution,
+    description,
     canonicalPath: `/${locale}/figures/${id}`,
     languagePathWithoutLocale: `/figures/${id}`,
     type: "profile",

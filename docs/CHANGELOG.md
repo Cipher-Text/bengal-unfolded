@@ -75,6 +75,21 @@
   - Docs:
     - Marked `RM-SEO-001` complete in `docs/ROADMAP.md`.
 
+- RM-SEO-002 contextual figure meta-description rewrite:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - No validator changes required.
+  - UI/runtime:
+    - Updated figure page metadata description generation on `/{locale}/figures/{id}` to include:
+      - who (person + role)
+      - why (highlight/contribution value proposition)
+      - period (derived from chronological linked events)
+      - reader outcome (what the page helps the reader understand)
+    - Added locale-aware EN/BN description templates with graceful fallbacks and length clamp.
+  - Docs:
+    - Marked `RM-SEO-002` complete in `docs/ROADMAP.md`.
+
 ## 2026-05-20
 
 ### Completed
