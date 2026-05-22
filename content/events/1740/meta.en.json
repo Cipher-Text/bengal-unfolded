@@ -23,7 +23,7 @@
       "relationType": "background"
     },
     {
-      "eventId": "1741-1751",
+      "eventId": "1741-1751-maratha-raids-bengal",
       "relationType": "effect"
     },
     {
@@ -33,7 +33,7 @@
   ],
   "relatedEventIds": [
     "1717",
-    "1741-1751",
+    "1741-1751-maratha-raids-bengal",
     "1757"
   ],
   "periodLabel": "Mughal Incorporation and Consolidation",

@@ -19,7 +19,7 @@
   "importance": "major",
   "relatedEvents": [
     {
-      "eventId": "1919-1924",
+      "eventId": "1919-1924-khilafat-movement-bengal",
       "relationType": "background"
     },
     {
@@ -32,7 +32,7 @@
     }
   ],
   "relatedEventIds": [
-    "1919-1924",
+    "1919-1924-khilafat-movement-bengal",
     "1937",
     "1946"
   ],

@@ -154,9 +154,9 @@
 
 - Historical timeline expansion with three new Bengal/Bangladesh chapters:
   - Added event chapters `1764` (Battle of Buxar), `1770` (Great Bengal Famine), `1935` (Government of India Act 1935), and `1937` (Bengal Provincial Election and Coalition Ministry) with full EN/BN event packs.
-  - Added event chapter `2007-2008` (Emergency-era Caretaker Rule) with full EN/BN event packs.
+  - Added event chapter `2007-2008-emergency-caretaker-rule` (Emergency-era Caretaker Rule) with full EN/BN event packs.
   - Added supporting resource entries for Buxar, the 1770 famine, the 1935 constitutional framework, and the 1937 Bengal provincial election.
-  - Updated `2006` child-event wiring to include `2007-2008` so the cluster remains parent-child consistent.
+  - Updated `2006` child-event wiring to include `2007-2008-emergency-caretaker-rule` so the cluster remains parent-child consistent.
   - Updated `SUPPORTED_EVENT_SLUGS` in `src/types/content.ts` to register the new event routes.
   - Validation: `pnpm content:validate` passed after the additions.
 
