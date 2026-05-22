@@ -88,6 +88,8 @@ const EVENT_LABELS = {
     copyLink: "Copy link",
     copied: "Copied",
     copyFailed: "Copy failed",
+    revisionHistoryPlanned: "Public revision history for this chapter is planned in backend phase B5.",
+    learnMethodology: "Learn how this chapter is reviewed",
   },
   bn: {
     overview: "ওভারভিউ",
@@ -136,6 +138,8 @@ const EVENT_LABELS = {
     copyLink: "লিংক কপি",
     copied: "কপি হয়েছে",
     copyFailed: "কপি ব্যর্থ",
+    revisionHistoryPlanned: "এই অধ্যায়ের পাবলিক রিভিশন ইতিহাস backend পর্যায় B5-এ যুক্ত করা হবে।",
+    learnMethodology: "এই অধ্যায়ের রিভিউ পদ্ধতি দেখুন",
   },
 } as const;
 
@@ -292,6 +296,15 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
               ) : null}
             </div>
           ) : null}
+          <div className="theme-surface-soft mt-3 rounded-xl border border-amber-500/25 p-3 text-xs md:text-sm">
+            <p className="theme-muted">{labels.revisionHistoryPlanned}</p>
+            <Link
+              href={`/${locale}/methodology`}
+              className="mt-1 inline-flex min-h-[36px] items-center text-accent underline-offset-2 hover:underline"
+            >
+              {labels.learnMethodology}
+            </Link>
+          </div>
           {relatedTopics.length > 0 ? (
             <div className="mt-3 flex flex-wrap gap-2">
               {relatedTopics.map((topic) => (

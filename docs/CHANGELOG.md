@@ -52,6 +52,17 @@
     - Marked `RM-TRUTH-007` complete in `docs/ROADMAP.md`.
     - Marked governance checkpoint `Written sensitive history writing policy published` as complete in `docs/ROADMAP.md`.
 
+- RM-TRUTH-008 deferment UX clarification (static phase):
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - No validator changes required.
+  - UI/runtime:
+    - Added a localized placeholder note on event detail pages clarifying that public revision history is planned for backend phase B5.
+    - Added a direct link from that note to `/{locale}/methodology` for trust-method explanation.
+  - Docs:
+    - Roadmap deferment state remains unchanged for RM-TRUTH-008 (backend B5 dependency preserved).
+
 ## 2026-05-20
 
 ### Completed
