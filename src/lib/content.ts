@@ -153,7 +153,7 @@ function normalizeEventResource(
     qualityRaw === "archive" ||
     qualityRaw === "editorial"
       ? (qualityRaw as EventResource["quality"])
-      : undefined;
+      : "secondary";
   const category =
     typeof resource.category === "string" ? resource.category : undefined;
   const subcategory =

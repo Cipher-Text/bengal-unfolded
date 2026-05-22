@@ -303,7 +303,7 @@ Priority: Improve discoverability and social distribution with minimal architect
 
 - [x] RM-SEO-001 Rewrite high-impression figure page titles using contextual formula: `{Name} — {Role} in {Historical Context} | Bengal Unfolded`
 - [x] RM-SEO-002 Rewrite high-impression figure meta descriptions to include who/why/period/reader outcome
-- [ ] RM-SEO-003 Add `Related` blocks on figure pages: related figures, events, places, and books/resources
+- [x] RM-SEO-003 Add `Related` blocks on figure pages: related figures, events, places, and books/resources
 - [ ] RM-SEO-004 Create timeline cluster pages with heavy internal linking for flagship moments (1757 Plassey, 1905 Partition, 1947 Partition, 1952 Language Movement, 1971 Liberation War)
 - [ ] RM-SEO-005 Add weekly Search Console optimization loop with tracked actions (title refreshes, description refreshes, internal link boosts, re-index submissions)
 - [ ] RM-SEO-006 Expand and validate structured data consistency for figure/event pages (`Person`, `Event`, `Article`, `BreadcrumbList`)

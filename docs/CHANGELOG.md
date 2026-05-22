@@ -90,6 +90,21 @@
   - Docs:
     - Marked `RM-SEO-002` complete in `docs/ROADMAP.md`.
 
+- RM-SEO-003 related blocks on figure pages:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - No validator changes required.
+  - UI/runtime:
+    - Added `Related` section to `/{locale}/figures/{id}` pages with four blocks:
+      - related figures (co-occurrence across linked events)
+      - related events
+      - related places
+      - related resources
+    - Added localized EN/BN labels and empty-state messages for each block.
+  - Docs:
+    - Marked `RM-SEO-003` complete in `docs/ROADMAP.md`.
+
 ## 2026-05-20
 
 ### Completed

@@ -5,7 +5,7 @@ import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ShareActions } from "@/components/ShareActions";
-import { getEventsByFigureIdChronological, getFigure, getTopicsByFigureId } from "@/lib/content";
+import { getEventContent, getEventsByFigureIdChronological, getFigure, getTopicsByFigureId } from "@/lib/content";
 import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag } from "@/lib/seo";
 import { SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, type FigureId, type Locale } from "@/types/content";
 
@@ -96,6 +96,11 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
         impact: "প্রভাব",
         appearsIn: "ঘটনাসমূহে অংশগ্রহণ",
         timelineView: "ঘটনাপঞ্জি ভিউ",
+        related: "সম্পর্কিত",
+        relatedFigures: "সম্পর্কিত ব্যক্তিত্ব",
+        relatedEvents: "সম্পর্কিত ঘটনা",
+        relatedPlaces: "সম্পর্কিত স্থান",
+        relatedResources: "সম্পর্কিত রিসোর্স",
         topicHub: "টপিক হাব",
         exploreTopicHub: "সম্পর্কিত টপিক দেখুন",
         share: "শেয়ার",
@@ -103,12 +108,17 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
         copied: "কপি হয়েছে",
         copyFailed: "কপি ব্যর্থ",
       }
-    : {
+      : {
         context: "Context",
         contribution: "Contribution",
         impact: "Impact",
         appearsIn: "Appears In Events",
         timelineView: "Timeline View",
+        related: "Related",
+        relatedFigures: "Related Figures",
+        relatedEvents: "Related Events",
+        relatedPlaces: "Related Places",
+        relatedResources: "Related Resources",
         topicHub: "Topic Hub",
         exploreTopicHub: "Explore related topics",
         share: "Share",
@@ -116,6 +126,55 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
         copied: "Copied",
         copyFailed: "Copy failed",
       };
+
+  const eventContents = await Promise.all(
+    events.map((eventMeta) => getEventContent(locale, eventMeta.slug)),
+  );
+  const relatedFigureMap = new Map<string, { id: string; name: string; role: string; count: number }>();
+  const relatedResourceMap = new Map<string, { id: string; title: string; note: string; count: number }>();
+  for (const content of eventContents) {
+    for (const relatedFigure of content.figures) {
+      if (relatedFigure.id === id) continue;
+      const current = relatedFigureMap.get(relatedFigure.id);
+      if (current) {
+        current.count += 1;
+      } else {
+        relatedFigureMap.set(relatedFigure.id, {
+          id: relatedFigure.id,
+          name: relatedFigure.name,
+          role: relatedFigure.role,
+          count: 1,
+        });
+      }
+    }
+    for (const resource of content.resources) {
+      const current = relatedResourceMap.get(resource.id);
+      if (current) {
+        current.count += 1;
+      } else {
+        relatedResourceMap.set(resource.id, {
+          id: resource.id,
+          title: resource.title,
+          note: resource.note,
+          count: 1,
+        });
+      }
+    }
+  }
+  const relatedFigures = Array.from(relatedFigureMap.values())
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+    .slice(0, 6);
+  const relatedResources = Array.from(relatedResourceMap.values())
+    .sort((a, b) => b.count - a.count || a.title.localeCompare(b.title))
+    .slice(0, 6);
+  const relatedPlaces = Array.from(
+    new Map(
+      events
+        .filter((event) => event.placeId && event.placeLabel)
+        .map((event) => [event.placeId as string, { id: event.placeId as string, label: event.placeLabel as string }]),
+    ).values(),
+  ).slice(0, 6);
+  const relatedEvents = events.slice(0, 6);
 
   return (
     <div className="space-y-8">
@@ -169,6 +228,55 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>
+        <SectionTitle title={labels.related} />
+        <div className="mt-4 grid gap-4 lg:grid-cols-2">
+          <div className="theme-surface rounded-xl border p-4">
+            <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.relatedFigures}</h3>
+            <div className="mt-3 space-y-2">
+              {relatedFigures.length ? relatedFigures.map((relatedFigure) => (
+                <Link key={relatedFigure.id} href={`/${locale}/figures/${relatedFigure.id}`} className="block rounded-lg border border-amber-500/30 p-3 hover:bg-amber-500/10">
+                  <p className="font-semibold">{relatedFigure.name}</p>
+                  <p className="theme-muted mt-1 text-sm">{relatedFigure.role}</p>
+                </Link>
+              )) : <p className="theme-muted text-sm">{locale === "bn" ? "এখনও কোনো সম্পর্কিত ব্যক্তিত্ব পাওয়া যায়নি।" : "No related figures found yet."}</p>}
+            </div>
+          </div>
+          <div className="theme-surface rounded-xl border p-4">
+            <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.relatedEvents}</h3>
+            <div className="mt-3 space-y-2">
+              {relatedEvents.length ? relatedEvents.map((event) => (
+                <Link key={event.slug} href={`/${locale}/events/${event.slug}`} className="block rounded-lg border border-amber-500/30 p-3 hover:bg-amber-500/10">
+                  <p className="theme-muted text-xs tracking-[0.18em] uppercase">{event.year}</p>
+                  <p className="mt-1 font-semibold">{event.title}</p>
+                </Link>
+              )) : <p className="theme-muted text-sm">{locale === "bn" ? "এখনও কোনো সম্পর্কিত ঘটনা পাওয়া যায়নি।" : "No related events found yet."}</p>}
+            </div>
+          </div>
+          <div className="theme-surface rounded-xl border p-4">
+            <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.relatedPlaces}</h3>
+            <div className="mt-3 space-y-2">
+              {relatedPlaces.length ? relatedPlaces.map((place) => (
+                <Link key={place.id} href={`/${locale}/places/${place.id}`} className="block rounded-lg border border-amber-500/30 p-3 hover:bg-amber-500/10">
+                  <p className="font-semibold">{place.label}</p>
+                </Link>
+              )) : <p className="theme-muted text-sm">{locale === "bn" ? "এখনও কোনো সম্পর্কিত স্থান পাওয়া যায়নি।" : "No related places found yet."}</p>}
+            </div>
+          </div>
+          <div className="theme-surface rounded-xl border p-4">
+            <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.relatedResources}</h3>
+            <div className="mt-3 space-y-2">
+              {relatedResources.length ? relatedResources.map((resource) => (
+                <Link key={resource.id} href={`/${locale}/resources/${resource.id}`} className="block rounded-lg border border-amber-500/30 p-3 hover:bg-amber-500/10">
+                  <p className="font-semibold">{resource.title}</p>
+                  <p className="theme-muted mt-1 text-sm">{resource.note}</p>
+                </Link>
+              )) : <p className="theme-muted text-sm">{locale === "bn" ? "এখনও কোনো সম্পর্কিত রিসোর্স পাওয়া যায়নি।" : "No related resources found yet."}</p>}
+            </div>
+          </div>
+        </div>
+      </AnimatedContainer>
+
+      <AnimatedContainer delay={0.06}>
         <SectionTitle title={labels.appearsIn} subtitle={labels.timelineView} />
         <div className="mt-4 space-y-3">
           {events.map((event, index) => (
