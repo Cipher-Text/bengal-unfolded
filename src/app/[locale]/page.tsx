@@ -126,7 +126,10 @@ export default async function LocaleHomePage({
 		phaseLabel: phaseBySlug[event.slug],
 		themeColor: event.themeColor,
 		themes: EVENT_THEME_BY_SLUG[event.slug] ?? ["culture"],
-		emphasis: event.slug === "1971" ? ("peak" as const) : ("normal" as const),
+		emphasis:
+			event.slug === "1971-liberation-war"
+				? ("peak" as const)
+				: ("normal" as const),
 	}));
 
 	const startHeading = locale === "bn" ? "শুরু করার পথ" : "Start Exploring";
