@@ -11,12 +11,12 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1990",
+      "eventId": "1990-mass-uprising",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
-    "1990"
+    "1990-mass-uprising"
   ],
   "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",

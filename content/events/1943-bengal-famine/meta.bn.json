@@ -1,0 +1,65 @@
+{
+  "slug": "1943-bengal-famine",
+  "year": "১৯৪৩",
+  "title": "বাংলার দুর্ভিক্ষ",
+  "subtitle": "ঔপনিবেশিক শাসনে গণঅনাহার, প্রশাসনিক ব্যর্থতা ও সামাজিক বিপর্যয়।",
+  "summary": "১৯৪৩ সালের বাংলার দুর্ভিক্ষে ভয়াবহ অনাহার ও মৃত্যুর ঢেউ ছড়িয়ে পড়ে। যুদ্ধকালীন অস্থিরতা, মূল্যস্ফীতি, খাদ্যবাজারের ভাঙন এবং ব্রিটিশ ঔপনিবেশিক প্রশাসনের নীতিগত ব্যর্থতা সংকটকে আরও তীব্র করে, যার প্রধান আঘাত পড়ে গ্রামীণ পরিবার ও শহুরে দরিদ্র জনগোষ্ঠীর ওপর।",
+  "themeColor": "#7a4b2a",
+  "ctaLabel": "দুর্ভিক্ষ বুঝুন",
+  "heroTagline": "১৯৪৩-এ অনাহার বাংলার ইতিহাসে এক গভীর রাজনৈতিক ছেদ তৈরি করে।",
+  "whyItMatters": "এই দুর্ভিক্ষ শাসনব্যবস্থার ওপর জনবিশ্বাস ভেঙে দেয়, ঔপনিবেশিক শাসনের বিরুদ্ধে ক্ষোভকে তীব্র করে এবং বাংলার পরবর্তী রাজনীতিতে দীর্ঘস্থায়ী প্রভাব ফেলে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "দেশভাগ ও রাজনৈতিক প্রতিনিধিত্ব",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "archive-collection",
+    "research-volume"
+  ],
+  "whyItMattersSourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৪৩ সালের বাংলার দুর্ভিক্ষে ভয়াবহ অনাহার ও মৃত্যুর ঢেউ ছড়িয়ে পড়ে। যুদ্ধকালীন অস্থিরতা, মূল্যস্ফীতি, খাদ্যবাজারের ভাঙন এবং ব্রিটিশ ঔপনিবেশিক প্রশাসনের নীতিগত ব্যর্থতা সংকটকে আরও তীব্র করে, যার প্রধান আঘাত পড়ে গ্রামীণ পরিবার ও শহুরে দরিদ্র জনগোষ্ঠীর ওপর।",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই দুর্ভিক্ষ শাসনব্যবস্থার ওপর জনবিশ্বাস ভেঙে দেয়, ঔপনিবেশিক শাসনের বিরুদ্ধে ক্ষোভকে তীব্র করে এবং বাংলার পরবর্তী রাজনীতিতে দীর্ঘস্থায়ী প্রভাব ফেলে।",
+      "sourceIds": [
+        "midnights-furies",
+        "the-spoils-of-partition"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

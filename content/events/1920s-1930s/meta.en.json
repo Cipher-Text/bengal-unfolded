@@ -23,18 +23,18 @@
       "relationType": "background"
     },
     {
-      "eventId": "1937",
+      "eventId": "1937-bengal-provincial-election-and-coalition-ministry",
       "relationType": "effect"
     },
     {
-      "eventId": "1946",
+      "eventId": "1946-direct-action-day-and-the-great-calcutta-killing",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
     "1919-1924-khilafat-movement-bengal",
-    "1937",
-    "1946"
+    "1937-bengal-provincial-election-and-coalition-ministry",
+    "1946-direct-action-day-and-the-great-calcutta-killing"
   ],
   "periodLabel": "Partition and Late Colonial Politics",
   "periodId": "partition-and-late-colonial-politics",

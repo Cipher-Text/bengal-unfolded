@@ -11,12 +11,12 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1757",
+      "eventId": "1757-battle-of-plassey",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
-    "1757"
+    "1757-battle-of-plassey"
   ],
   "periodLabel": "Colonial Rule and Resistance",
   "movementLabel": "Language, autonomy, and liberation",

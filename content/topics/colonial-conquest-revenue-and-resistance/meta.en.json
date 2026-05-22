@@ -6,15 +6,15 @@
   "intro": "Understand how military conquest became revenue rule and how social resistance evolved in response.",
   "description": "A structural topic linking conquest, diwani, famine, settlement, and resistance movements in colonial Bengal.",
   "eventSlugs": [
-    "1757",
-    "1764",
-    "1765",
-    "1770",
-    "1793",
-    "1818",
-    "1831",
-    "1857",
-    "1874"
+    "1757-battle-of-plassey",
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine",
+    "1793-permanent-settlement-in-bengal",
+    "1818-faraizi-movement-begins-in-eastern-bengal",
+    "1831-titumir-s-bamboo-fort-uprising",
+    "1857-sipahi-revolt",
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment"
   ],
   "figureIds": [
     "siraj-ud-daulah",

@@ -1,0 +1,132 @@
+{
+  "slug": "1971-liberation-war",
+  "year": "১৯৭১",
+  "title": "মুক্তিযুদ্ধ",
+  "subtitle": "একটি জাতির স্বাধীনতা, সংগ্রাম ও আত্মত্যাগের ইতিহাস।",
+  "summary": "১৯৭১ সালের মুক্তিযুদ্ধ ছিল পূর্ব পাকিস্তানের মানুষের দীর্ঘদিনের রাজনৈতিক, অর্থনৈতিক ও সাংস্কৃতিক বৈষম্যের বিরুদ্ধে চূড়ান্ত প্রতিরোধ। ১৯৭০ সালের নির্বাচনে জনগণের রায় অস্বীকার এবং ২৫ মার্চের সামরিক অভিযানের পর এই সংগ্রাম সশস্ত্র মুক্তিযুদ্ধে রূপ নেয়, যার মাধ্যমে জন্ম নেয় স্বাধীন বাংলাদেশ।",
+  "themeColor": "#2f7f66",
+  "ctaLabel": "মুক্তিযুদ্ধ অন্বেষণ করুন",
+  "heroTagline": "রক্ত, সংগ্রাম ও স্বপ্নের মধ্য দিয়ে জন্ম নেয় একটি জাতি।",
+  "summarySourceIds": [
+    "1971-a-global-history-of-the-creation-of-bangladesh",
+    "history-of-the-1971-liberation-war"
+  ],
+  "whyItMatters": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+  "whyItMattersSourceIds": [
+    "the-blood-telegram",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "importance": "landmark",
+  "parentEvent": "1970-bhola-cyclone-and-the-1970-election",
+  "childEventIds": [
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1952-language-movement",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1969-mass-uprising",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1970-bhola-cyclone-and-the-1970-election",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1972-state-formation-and-the-1972-constitution",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1975-baksal-formation-and-collapse",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2013-shahbag-movement",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement",
+    "1969-mass-uprising",
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1972-state-formation-and-the-1972-constitution",
+    "1975-baksal-formation-and-collapse",
+    "2013-shahbag-movement"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": true,
+  "contentWarnings": [
+    "যুদ্ধকালীন সহিংসতা",
+    "গণঅত্যাচার"
+  ],
+  "requiresSources": true,
+  "culturalImpact": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+  "culturalImpactSourceIds": [
+    "the-blood-telegram",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+  "identityMemorySourceIds": [
+    "the-blood-telegram",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের মুক্তিযুদ্ধ ছিল পূর্ব পাকিস্তানের মানুষের দীর্ঘদিনের রাজনৈতিক, অর্থনৈতিক ও সাংস্কৃতিক বৈষম্যের বিরুদ্ধে চূড়ান্ত প্রতিরোধ। ১৯৭০ সালের নির্বাচনে জনগণের রায় অস্বীকার এবং ২৫ মার্চের সামরিক অভিযানের পর এই সংগ্রাম সশস্ত্র মুক্তিযুদ্ধে রূপ নেয়, যার মাধ্যমে জন্ম নেয় স্বাধীন বাংলাদেশ।",
+      "sourceIds": [
+        "1971-a-global-history-of-the-creation-of-bangladesh",
+        "history-of-the-1971-liberation-war"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৭১ শুধু স্বাধীনতার গল্প নয়—এটি ন্যায়, প্রতিনিধিত্ব এবং মানুষের অধিকার প্রতিষ্ঠার সংগ্রাম। আজকের বাংলাদেশ রাষ্ট্র, তার পরিচয় ও রাজনৈতিক কাঠামো এই যুদ্ধের ফলাফল, যা এখনো সমতা, মানবিক মর্যাদা ও গণতন্ত্রের আলোচনায় প্রাসঙ্গিক।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

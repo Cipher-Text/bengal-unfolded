@@ -11,11 +11,11 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1972",
+      "eventId": "1972-state-formation-and-the-1972-constitution",
       "relationType": "background"
     },
     {
-      "eventId": "1982",
+      "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
       "relationType": "parallel"
     },
     {
@@ -24,8 +24,8 @@
     }
   ],
   "relatedEventIds": [
-    "1972",
-    "1982",
+    "1972-state-formation-and-the-1972-constitution",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
     "1991-return-to-parliamentary-democracy"
   ],
   "periodLabel": "স্বাধীনতার পর রাষ্ট্র ও গণতন্ত্র",

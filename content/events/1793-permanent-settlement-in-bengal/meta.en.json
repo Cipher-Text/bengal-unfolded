@@ -1,0 +1,114 @@
+{
+  "slug": "1793-permanent-settlement-in-bengal",
+  "year": "1793",
+  "title": "Permanent Settlement in Bengal",
+  "subtitle": "Land revenue is fixed permanently and zamindars are recast as landed proprietors.",
+  "summary": "In 1793, the East India Company introduced the Permanent Settlement in Bengal. Revenue demand was fixed permanently, and zamindars and talukdars were recognized as hereditary proprietors under colonial law. The measure aimed to stabilize revenue and bind local landed elites to Company rule, but it also deepened agrarian inequality and weakened the customary position of cultivators.",
+  "themeColor": "#6b5436",
+  "ctaLabel": "Explore 1793",
+  "heroTagline": "Permanent Settlement turned revenue administration into a long-term social order built around landlord power and colonial certainty.",
+  "summarySourceIds": [
+    "permanent-settlement-banglapedia",
+    "cornwallis-code-britannica"
+  ],
+  "whyItMatters": "Permanent Settlement matters because it helps explain how colonial rule in Bengal became embedded in land, class power, and extraction. Its effects shaped peasant life, landlord authority, and the agrarian tensions that echoed into later famines, resistance, and political change.",
+  "whyItMattersSourceIds": [
+    "permanent-settlement-banglapedia",
+    "revenue-sale-law-1793-banglapedia",
+    "cornwallis-code-britannica"
+  ],
+  "importance": "major",
+  "parentEvent": "1765-east-india-company-gets-diwani-rights-in-bengal",
+  "childEventIds": [
+    "1818-faraizi-movement-begins-in-eastern-bengal",
+    "1831-titumir-s-bamboo-fort-uprising",
+    "1857-sipahi-revolt"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1765-east-india-company-gets-diwani-rights-in-bengal",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1857-sipahi-revolt",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1943-bengal-famine",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1857-sipahi-revolt",
+    "1943-bengal-famine"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "Permanent Settlement matters because it helps explain how colonial rule in Bengal became embedded in land, class power, and extraction. Its effects shaped peasant life, landlord authority, and the agrarian tensions that echoed into later famines, resistance, and political change.",
+  "longTermLegacySourceIds": [
+    "permanent-settlement-banglapedia",
+    "revenue-sale-law-1793-banglapedia",
+    "cornwallis-code-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "Permanent Settlement matters because it helps explain how colonial rule in Bengal became embedded in land, class power, and extraction. Its effects shaped peasant life, landlord authority, and the agrarian tensions that echoed into later famines, resistance, and political change.",
+  "identityMemorySourceIds": [
+    "permanent-settlement-banglapedia",
+    "revenue-sale-law-1793-banglapedia",
+    "cornwallis-code-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1793, the East India Company introduced the Permanent Settlement in Bengal. Revenue demand was fixed permanently, and zamindars and talukdars were recognized as hereditary proprietors under colonial law. The measure aimed to stabilize revenue and bind local landed elites to Company rule, but it also deepened agrarian inequality and weakened the customary position of cultivators.",
+      "sourceIds": [
+        "permanent-settlement-banglapedia",
+        "cornwallis-code-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Permanent Settlement matters because it helps explain how colonial rule in Bengal became embedded in land, class power, and extraction. Its effects shaped peasant life, landlord authority, and the agrarian tensions that echoed into later famines, resistance, and political change.",
+      "sourceIds": [
+        "permanent-settlement-banglapedia",
+        "revenue-sale-law-1793-banglapedia",
+        "cornwallis-code-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Permanent Settlement matters because it helps explain how colonial rule in Bengal became embedded in land, class power, and extraction. Its effects shaped peasant life, landlord authority, and the agrarian tensions that echoed into later famines, resistance, and political change.",
+      "sourceIds": [
+        "permanent-settlement-banglapedia",
+        "revenue-sale-law-1793-banglapedia",
+        "cornwallis-code-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Permanent Settlement matters because it helps explain how colonial rule in Bengal became embedded in land, class power, and extraction. Its effects shaped peasant life, landlord authority, and the agrarian tensions that echoed into later famines, resistance, and political change.",
+      "sourceIds": [
+        "permanent-settlement-banglapedia",
+        "revenue-sale-law-1793-banglapedia",
+        "cornwallis-code-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

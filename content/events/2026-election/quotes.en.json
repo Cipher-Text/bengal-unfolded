@@ -1,6 +1,18 @@
 [
-  {"text":"Why is the 2026 election discussed as more than a single voting day? Because process design, participation, and trust are treated as core democratic outcomes.","source":"FAQ · See also: /en/events/2006"},
-  {"text":"How does 2026 connect to earlier elections? It inherits unresolved arguments about legitimacy, competition, and institutional neutrality.","source":"FAQ · See also: /en/events/2018-election"},
-  {"text":"Why does participation matter in the 13th election context? Broad participation is central to whether results are viewed as politically durable.","source":"FAQ · See also: /en/events/2014"},
-  {"text":"2026 is framed as a test of whether electoral credibility can be rebuilt after prolonged distrust.","source":"Historical reflection on the 13th election context"}
+  {
+    "text": "Why is the 2026 election discussed as more than a single voting day? Because process design, participation, and trust are treated as core democratic outcomes.",
+    "source": "FAQ · See also: /en/events/2006-caretaker-crisis-and-emergency-rule"
+  },
+  {
+    "text": "How does 2026 connect to earlier elections? It inherits unresolved arguments about legitimacy, competition, and institutional neutrality.",
+    "source": "FAQ · See also: /en/events/2018-a-year-of-protest-control-and-contested-legitimacy-election"
+  },
+  {
+    "text": "Why does participation matter in the 13th election context? Broad participation is central to whether results are viewed as politically durable.",
+    "source": "FAQ · See also: /en/events/2014-10th-parliamentary-election"
+  },
+  {
+    "text": "2026 is framed as a test of whether electoral credibility can be rebuilt after prolonged distrust.",
+    "source": "Historical reflection on the 13th election context"
+  }
 ]

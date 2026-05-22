@@ -11,7 +11,7 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1947",
+      "eventId": "1947-partition-and-eastern-bengal",
       "relationType": "background"
     },
     {
@@ -19,14 +19,14 @@
       "relationType": "effect"
     },
     {
-      "eventId": "1966",
+      "eventId": "1966-six-point-programme-announced",
       "relationType": "effect"
     }
   ],
   "relatedEventIds": [
-    "1947",
+    "1947-partition-and-eastern-bengal",
     "1965-indo-pak-war-east-pakistan-insecurity",
-    "1966"
+    "1966-six-point-programme-announced"
   ],
   "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",

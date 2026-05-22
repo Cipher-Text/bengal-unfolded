@@ -1,0 +1,122 @@
+{
+  "slug": "1765-east-india-company-gets-diwani-rights-in-bengal",
+  "year": "1765",
+  "title": "East India Company Gets Diwani Rights in Bengal",
+  "subtitle": "Revenue authority passes from the nawabi state to the Company.",
+  "summary": "In 1765, the East India Company secured the diwani, or the right to collect revenue, in Bengal, Bihar, and Orissa. That settlement turned post-Plassey influence into formal fiscal power. Revenue extraction, administrative leverage, and political authority began to flow through the Company, even as Mughal and nawabi institutions remained in place.",
+  "themeColor": "#6f4a2f",
+  "ctaLabel": "Explore 1765",
+  "heroTagline": "Diwani made Company power structural: not just military influence, but control over Bengal's revenues.",
+  "summarySourceIds": [
+    "diwani-banglapedia",
+    "east-india-company-britannica"
+  ],
+  "whyItMatters": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+  "whyItMattersSourceIds": [
+    "diwani-banglapedia",
+    "robert-clive-britannica",
+    "east-india-company-britannica"
+  ],
+  "importance": "major",
+  "parentEvent": "1757-battle-of-plassey",
+  "childEventIds": [
+    "1793-permanent-settlement-in-bengal"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1757-battle-of-plassey",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1793-permanent-settlement-in-bengal",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1857-sipahi-revolt",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1943-bengal-famine",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1760-1800-fakir-sannyasi-resistance",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1757-battle-of-plassey",
+    "1793-permanent-settlement-in-bengal",
+    "1857-sipahi-revolt",
+    "1943-bengal-famine",
+    "1760-1800-fakir-sannyasi-resistance"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+  "longTermLegacySourceIds": [
+    "diwani-banglapedia",
+    "robert-clive-britannica",
+    "east-india-company-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+  "identityMemorySourceIds": [
+    "diwani-banglapedia",
+    "robert-clive-britannica",
+    "east-india-company-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1765, the East India Company secured the diwani, or the right to collect revenue, in Bengal, Bihar, and Orissa. This turned the Company's influence after Plassey into formal fiscal power. Revenue extraction, administrative leverage, and political authority now began to flow through the Company, even while older Mughal and nawabi institutions were still kept in place.",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The grant of diwani rights matters because it explains how Bengal moved from indirect Company influence after 1757 to a deeper system of colonial extraction and governance that shaped later crises, resistance, and empire.",
+      "sourceIds": [
+        "diwani-banglapedia",
+        "robert-clive-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

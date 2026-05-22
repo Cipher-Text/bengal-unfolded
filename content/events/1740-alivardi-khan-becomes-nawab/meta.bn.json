@@ -1,0 +1,100 @@
+{
+  "slug": "1740-alivardi-khan-becomes-nawab",
+  "year": "1740",
+  "title": "আলীবর্দী খান নবাব হন",
+  "subtitle": "আলিবর্দি খানের ক্ষমতায় আগমন বাংলার নবাবি রাজনীতিতে নতুন ভারসাম্য তৈরি করে।",
+  "summary": "আলিবর্দি খানের ক্ষমতায় আগমন বাংলার নবাবি রাজনীতিতে নতুন ভারসাম্য তৈরি করে।",
+  "themeColor": "#6a4a2f",
+  "ctaLabel": "1740 দেখুন",
+  "heroTagline": "আলীবর্দী খানের নবাব হওয়া বাংলার ক্ষমতা ও শাসন কাঠামোয় গুরুত্বপূর্ণ পরিবর্তন আনে।",
+  "summarySourceIds": [
+    "alivardi-khan-banglapedia",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলার প্রাতিষ্ঠানিক ভারসাম্য, রাজনৈতিক জোট বা জনমobilization-এ বড় পরিবর্তন আনে।",
+  "whyItMattersSourceIds": [
+    "alivardi-khan-banglapedia",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1717-murshid-quli-khan-formally-appointed-nawab",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1741-1751-maratha-raids-bengal",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1757-battle-of-plassey",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1717-murshid-quli-khan-formally-appointed-nawab",
+    "1741-1751-maratha-raids-bengal",
+    "1757-battle-of-plassey"
+  ],
+  "periodLabel": "মুঘল অন্তর্ভুক্তি ও সংহতি পর্ব",
+  "periodId": "mughal-incorporation-and-consolidation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "এই পর্ব পরবর্তী রাজনৈতিক রূপান্তর, ক্ষমতার বিন্যাস ও জনস্মৃতিকে গভীরভাবে প্রভাবিত করে।",
+  "longTermLegacySourceIds": [
+    "alivardi-khan-banglapedia",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলার দীর্ঘ ইতিহাস-স্মৃতিতে এই ঘটনা একটি প্রধান সংযোগবিন্দু।",
+  "identityMemorySourceIds": [
+    "alivardi-khan-banglapedia",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Alivardi Khan Becomes Nawab marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "sourceIds": [
+        "alivardi-khan-banglapedia",
+        "a-comprehensive-history-of-modern-bengal-1700-1950"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "sourceIds": [
+        "alivardi-khan-banglapedia",
+        "a-comprehensive-history-of-modern-bengal-1700-1950"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Alivardi Khan Becomes Nawab influenced later transitions in Bengal's state, society, and political imagination.",
+      "sourceIds": [
+        "alivardi-khan-banglapedia",
+        "a-comprehensive-history-of-modern-bengal-1700-1950"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Alivardi Khan Becomes Nawab remains a key memory node in long-run Bengal historical narratives.",
+      "sourceIds": [
+        "alivardi-khan-banglapedia",
+        "a-comprehensive-history-of-modern-bengal-1700-1950"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

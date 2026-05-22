@@ -9,10 +9,10 @@
   "heroTagline": "The election result was decisive on paper, but its legitimacy remained a matter of fierce public dispute.",
   "whyItMatters": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
   "importance": "major",
-  "parentEvent": "2018",
+  "parentEvent": "2018-a-year-of-protest-control-and-contested-legitimacy",
   "relatedEvents": [
     {
-      "eventId": "2014",
+      "eventId": "2014-10th-parliamentary-election",
       "relationType": "background"
     },
     {
@@ -20,14 +20,14 @@
       "relationType": "background"
     },
     {
-      "eventId": "2024",
+      "eventId": "2024-anti-discrimination-movement",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
-    "2014",
+    "2014-10th-parliamentary-election",
     "2018-digital-security-act",
-    "2024"
+    "2024-anti-discrimination-movement"
   ],
   "periodLabel": "Contemporary Memory and Civic Protest",
   "movementLabel": "Memory, justice, and civic dissent",

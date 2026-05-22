@@ -1,0 +1,77 @@
+{
+  "slug": "2014-10th-parliamentary-election",
+  "year": "2014",
+  "title": "10th Parliamentary Election",
+  "subtitle": "A boycotted national election deepened Bangladesh's crisis of electoral legitimacy.",
+  "summary": "Bangladesh's 10th Parliamentary Election took place on 5 January 2014 after months of conflict over whether polls should be held under a neutral caretaker arrangement. The main opposition alliance boycotted the vote, many seats were left uncontested, and election day was marked by deadly violence, making the result one of the most disputed turning points in post-1990 Bangladeshi politics.",
+  "themeColor": "#7f1d1d",
+  "ctaLabel": "Study the election",
+  "heroTagline": "The 2014 vote asked whether an election without broad participation could still command public legitimacy.",
+  "whyItMatters": "The 2014 election matters because it reshaped Bangladesh's democratic trajectory. It hardened mistrust between major parties, weakened confidence in electoral inclusiveness, and became a key reference point for later debates about representation, state power, and the conditions for credible national elections.",
+  "importance": "high",
+  "parentEvent": "2013-shahbag-movement",
+  "relatedEvents": [
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2013-shahbag-movement",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2013-shahbag-movement",
+    "2024-anti-discrimination-movement"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "bangladesh-elections-scarred-by-violence-hrw",
+    "caretaker-government-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bangladesh-elections-scarred-by-violence-hrw",
+    "newly-elected-bangladesh-mps-sworn-in-al-jazeera"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "election violence",
+    "political repression allegations"
+  ],
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Bangladesh's 10th Parliamentary Election took place on 5 January 2014 after months of conflict over whether polls should be held under a neutral caretaker arrangement. The main opposition alliance boycotted the vote, many seats were left uncontested, and election day was marked by deadly violence, making the result one of the most disputed turning points in post-1990 Bangladeshi politics.",
+      "sourceIds": [
+        "bangladesh-elections-scarred-by-violence-hrw",
+        "caretaker-government-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 2014 election matters because it reshaped Bangladesh's democratic trajectory. It hardened mistrust between major parties, weakened confidence in electoral inclusiveness, and became a key reference point for later debates about representation, state power, and the conditions for credible national elections.",
+      "sourceIds": [
+        "bangladesh-elections-scarred-by-violence-hrw",
+        "newly-elected-bangladesh-mps-sworn-in-al-jazeera"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

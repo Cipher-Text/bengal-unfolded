@@ -1,0 +1,80 @@
+{
+  "slug": "2013-shahbag-movement",
+  "year": "2013",
+  "title": "Shahbag Movement",
+  "subtitle": "A youth-led public demand for justice and historical accountability.",
+  "summary": "In early 2013, mass gatherings at Shahbag in Dhaka called for stronger accountability for war crimes linked to 1971. Students, bloggers, cultural activists, and citizens transformed the square into a sustained protest space, turning memory politics and justice debates into a central national question.",
+  "themeColor": "#b45309",
+  "ctaLabel": "Follow the movement",
+  "heroTagline": "Shahbag became a civic square where memory, justice, and protest converged.",
+  "whyItMatters": "The Shahbag movement marked a major moment in contemporary Bangladesh, showing how public memory of 1971 could mobilize a new generation and reshape debate on justice, political legitimacy, and civic participation.",
+  "importance": "high",
+  "parentEvent": "1990-mass-uprising",
+  "childEventIds": [
+    "2014-10th-parliamentary-election"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "parallel"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1990-mass-uprising",
+    "2024-anti-discrimination-movement"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "archive-collection",
+    "research-volume"
+  ],
+  "whyItMattersSourceIds": [
+    "archive-collection",
+    "research-volume"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "political violence",
+    "execution-related unrest"
+  ],
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In early 2013, mass gatherings at Shahbag in Dhaka called for stronger accountability for war crimes linked to 1971. Students, bloggers, cultural activists, and citizens transformed the square into a sustained protest space, turning memory politics and justice debates into a central national question.",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Shahbag movement marked a major moment in contemporary Bangladesh, showing how public memory of 1971 could mobilize a new generation and reshape debate on justice, political legitimacy, and civic participation.",
+      "sourceIds": [
+        "archive-collection",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

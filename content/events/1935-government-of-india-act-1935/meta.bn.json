@@ -1,0 +1,73 @@
+{
+  "slug": "1935-government-of-india-act-1935",
+  "year": "১৯৩৫",
+  "title": "গভর্নমেন্ট অব ইন্ডিয়া অ্যাক্ট ১৯৩৫",
+  "subtitle": "নতুন সাংবিধানিক কাঠামো বাংলায় প্রাদেশিক স্বায়ত্তশাসন ও নির্বাচনী রাজনীতির নিয়ম বদলে দেয়।",
+  "summary": "গভর্নমেন্ট অব ইন্ডিয়া অ্যাক্ট ১৯৩৫ দেরি-ঔপনিবেশিক ভারতে সবচেয়ে বড় সাংবিধানিক পুনর্গঠনের একটি, যেখানে প্রাদেশিক স্বায়ত্তশাসন সম্প্রসারণ এবং নির্বাচনী কাঠামো বিস্তৃত করা হয়। বাংলায় এই নতুন বিধান জোট-রাজনীতি, আইনসভা প্রতিযোগিতা এবং প্রতিনিধিত্বের রূপ পাল্টে দেয়; ১৯৩৭-এর প্রাদেশিক নির্বাচন ও পরবর্তী বিভাজন-পর্বের সাংবিধানিক সংঘাতের ভিত এখানেই তৈরি হয়।",
+  "themeColor": "#5f5840",
+  "ctaLabel": "১৯৩৫ অধ্যায় দেখুন",
+  "heroTagline": "১৯৩৫ সালের সাংবিধানিক নকশা বাংলার প্রাদেশিক ক্ষমতার বাস্তব নিয়ম পুনর্লিখন করে।",
+  "summarySourceIds": [
+    "government-of-india-act-1935-britannica",
+    "constitutional-development-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMatters": "১৯৩৫ বোঝা জরুরি, কারণ এখানে সাংবিধানিক প্রকৌশল সরাসরি গণরাজনীতির সঙ্গে যুক্ত হয়ে বাংলায় ক্ষমতার প্রতিদ্বন্দ্বিতার ধরন বদলে দেয়।",
+  "whyItMattersSourceIds": [
+    "government-of-india-act-1935-britannica",
+    "partition-politics-banglapedia"
+  ],
+  "whyItMattersEvidenceLevel": "medium",
+  "importance": "high",
+  "childEventIds": [
+    "1937-bengal-provincial-election-and-coalition-ministry"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1937-bengal-provincial-election-and-coalition-ministry",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1940-lahore-resolution",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1937-bengal-provincial-election-and-coalition-ministry",
+    "1940-lahore-resolution",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "periodLabel": "বিভাজন ও দেরি-ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "বিভাজন ও রাজনৈতিক প্রতিনিধিত্ব",
+  "showOnLanding": false,
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "গভর্নমেন্ট অব ইন্ডিয়া অ্যাক্ট ১৯৩৫ দেরি-ঔপনিবেশিক ভারতে সবচেয়ে বড় সাংবিধানিক পুনর্গঠনের একটি, যেখানে প্রাদেশিক স্বায়ত্তশাসন সম্প্রসারণ এবং নির্বাচনী কাঠামো বিস্তৃত করা হয়। বাংলায় এই নতুন বিধান জোট-রাজনীতি, আইনসভা প্রতিযোগিতা এবং প্রতিনিধিত্বের রূপ পাল্টে দেয়; ১৯৩৭-এর প্রাদেশিক নির্বাচন ও পরবর্তী বিভাজন-পর্বের সাংবিধানিক সংঘাতের ভিত এখানেই তৈরি হয়।",
+      "sourceIds": [
+        "government-of-india-act-1935-britannica",
+        "constitutional-development-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৩৫ বোঝা জরুরি, কারণ এখানে সাংবিধানিক প্রকৌশল সরাসরি গণরাজনীতির সঙ্গে যুক্ত হয়ে বাংলায় ক্ষমতার প্রতিদ্বন্দ্বিতার ধরন বদলে দেয়।",
+      "sourceIds": [
+        "government-of-india-act-1935-britannica",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

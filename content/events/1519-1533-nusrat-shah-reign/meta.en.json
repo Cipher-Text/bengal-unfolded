@@ -11,17 +11,17 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1494",
+      "eventId": "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
       "relationType": "background"
     },
     {
-      "eventId": "1538",
+      "eventId": "1538-humayun-enters-bengal-and-occupies-gaur",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
-    "1494",
-    "1538"
+    "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
+    "1538-humayun-enters-bengal-and-occupies-gaur"
   ],
   "periodLabel": "Colonial Rule and Resistance",
   "movementLabel": "Language, autonomy, and liberation",

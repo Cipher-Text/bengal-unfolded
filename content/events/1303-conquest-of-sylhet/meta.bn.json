@@ -1,0 +1,95 @@
+{
+  "slug": "1303-conquest-of-sylhet",
+  "year": "1303",
+  "title": "সিলেট বিজয়",
+  "subtitle": "শাহ জালাল ও সিকান্দার খান গাজীর সঙ্গে যুক্ত সিলেট জয়পর্ব।",
+  "summary": "শাহ জালাল ও সিকান্দার খান গাজীর সঙ্গে যুক্ত সিলেট জয়পর্ব।",
+  "themeColor": "#6a4a2f",
+  "ctaLabel": "1303 দেখুন",
+  "heroTagline": "সিলেট বিজয় বাংলার ক্ষমতা ও শাসন কাঠামোয় গুরুত্বপূর্ণ পরিবর্তন আনে।",
+  "summarySourceIds": [
+    "conquest-of-sylhet-wikipedia",
+    "shah-jalal-banglapedia"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলার প্রাতিষ্ঠানিক ভারসাম্য, রাজনৈতিক জোট বা জনমobilization-এ বড় পরিবর্তন আনে।",
+  "whyItMattersSourceIds": [
+    "conquest-of-sylhet-wikipedia",
+    "shah-jalal-banglapedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1352-bengal-sultanate-independence-and-unification",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1414-raja-ganesha-seizes-power-in-bengal",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1352-bengal-sultanate-independence-and-unification",
+    "1414-raja-ganesha-seizes-power-in-bengal"
+  ],
+  "periodLabel": "সুলতানি গঠন-পূর্ব রূপান্তর",
+  "periodId": "transition-to-sultanate-formation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "এই পর্ব পরবর্তী রাজনৈতিক রূপান্তর, ক্ষমতার বিন্যাস ও জনস্মৃতিকে গভীরভাবে প্রভাবিত করে।",
+  "longTermLegacySourceIds": [
+    "conquest-of-sylhet-wikipedia",
+    "shah-jalal-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলার দীর্ঘ ইতিহাস-স্মৃতিতে এই ঘটনা একটি প্রধান সংযোগবিন্দু।",
+  "identityMemorySourceIds": [
+    "conquest-of-sylhet-wikipedia",
+    "shah-jalal-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Conquest of Sylhet marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "sourceIds": [
+        "conquest-of-sylhet-wikipedia",
+        "shah-jalal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "sourceIds": [
+        "conquest-of-sylhet-wikipedia",
+        "shah-jalal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Conquest of Sylhet influenced later transitions in Bengal's state, society, and political imagination.",
+      "sourceIds": [
+        "conquest-of-sylhet-wikipedia",
+        "shah-jalal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Conquest of Sylhet remains a key memory node in long-run Bengal historical narratives.",
+      "sourceIds": [
+        "conquest-of-sylhet-wikipedia",
+        "shah-jalal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

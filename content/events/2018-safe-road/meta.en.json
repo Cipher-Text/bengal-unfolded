@@ -9,20 +9,20 @@
   "heroTagline": "The call for safe roads became a public lesson in how children and teenagers could challenge state neglect.",
   "whyItMatters": "The Safe Road Movement matters because it broadened the meaning of protest in Bangladesh. It linked everyday safety to questions of governance, discipline, policing, and civic dignity, and it exposed how quickly a moral public demand could meet repression.",
   "importance": "high",
-  "parentEvent": "2018",
+  "parentEvent": "2018-a-year-of-protest-control-and-contested-legitimacy",
   "relatedEvents": [
     {
       "eventId": "2018-quota-reform",
       "relationType": "parallel"
     },
     {
-      "eventId": "2024",
+      "eventId": "2024-anti-discrimination-movement",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
     "2018-quota-reform",
-    "2024"
+    "2024-anti-discrimination-movement"
   ],
   "periodLabel": "Contemporary Memory and Civic Protest",
   "movementLabel": "Memory, justice, and civic dissent",

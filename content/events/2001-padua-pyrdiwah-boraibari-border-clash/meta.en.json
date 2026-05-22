@@ -15,13 +15,13 @@
       "relationType": "background"
     },
     {
-      "eventId": "2006",
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
     "1991-return-to-parliamentary-democracy",
-    "2006"
+    "2006-caretaker-crisis-and-emergency-rule"
   ],
   "periodLabel": "Post-Liberation State and Democracy",
   "movementLabel": "State power and democratic transition",

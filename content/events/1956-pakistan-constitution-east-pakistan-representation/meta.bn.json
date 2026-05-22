@@ -11,22 +11,22 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1954",
+      "eventId": "1954-united-front-election-victory-in-east-bengal",
       "relationType": "background"
     },
     {
-      "eventId": "1958",
+      "eventId": "1958-martial-law-in-pakistan",
       "relationType": "effect"
     },
     {
-      "eventId": "1962",
+      "eventId": "1962-education-movement-in-east-pakistan",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
-    "1954",
-    "1958",
-    "1962"
+    "1954-united-front-election-victory-in-east-bengal",
+    "1958-martial-law-in-pakistan",
+    "1962-education-movement-in-east-pakistan"
   ],
   "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",

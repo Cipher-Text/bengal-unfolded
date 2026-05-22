@@ -1,0 +1,70 @@
+{
+  "slug": "1764-battle-of-buxar",
+  "year": "1764",
+  "title": "Battle of Buxar",
+  "subtitle": "A decisive military outcome that strengthened Company authority before formal fiscal control in Bengal.",
+  "summary": "In 1764, the Battle of Buxar gave the East India Company a decisive military advantage over the combined forces of Mir Qasim, Shuja-ud-Daula, and Shah Alam II. While Plassey opened the gate in Bengal, Buxar consolidated Company coercive power at a wider regional scale. The outcome set the stage for the 1765 diwani arrangement and deeper colonial revenue extraction.",
+  "themeColor": "#6d4630",
+  "ctaLabel": "Explore Buxar 1764",
+  "heroTagline": "Buxar converted earlier influence into enforceable imperial leverage.",
+  "summarySourceIds": [
+    "battle-of-buxar-britannica",
+    "east-india-company-britannica"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMatters": "Buxar matters because it explains how military victory translated into constitutional and fiscal reordering, linking battlefield outcomes to long-term colonial governance in Bengal.",
+  "whyItMattersSourceIds": [
+    "battle-of-buxar-britannica",
+    "diwani-banglapedia"
+  ],
+  "whyItMattersEvidenceLevel": "medium",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1757-battle-of-plassey",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1765-east-india-company-gets-diwani-rights-in-bengal",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1793-permanent-settlement-in-bengal",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1757-battle-of-plassey",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1793-permanent-settlement-in-bengal"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1764, the Battle of Buxar gave the East India Company a decisive military advantage over the combined forces of Mir Qasim, Shuja-ud-Daula, and Shah Alam II. While Plassey opened the gate in Bengal, Buxar consolidated Company coercive power at a wider regional scale. The outcome set the stage for the 1765 diwani arrangement and deeper colonial revenue extraction.",
+      "sourceIds": [
+        "battle-of-buxar-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Buxar matters because it explains how military victory translated into constitutional and fiscal reordering, linking battlefield outcomes to long-term colonial governance in Bengal.",
+      "sourceIds": [
+        "battle-of-buxar-britannica",
+        "diwani-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

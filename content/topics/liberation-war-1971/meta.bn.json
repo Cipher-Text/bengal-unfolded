@@ -6,13 +6,13 @@
   "intro": "পাকিস্তান-পর্বের শেষ সংকট থেকে যুদ্ধ, রাষ্ট্রগঠন ও পরবর্তী স্বল্পমেয়াদি রূপান্তর অনুসরণ করুন।",
   "description": "যুদ্ধ-পূর্ব, যুদ্ধকালীন ও যুদ্ধ-পরবর্তী প্রাথমিক পরিবর্তনের একটি কেন্দ্রীভূত হাব।",
   "eventSlugs": [
-    "1966",
-    "1968",
-    "1969",
-    "1970",
-    "1971",
-    "1972",
-    "1974"
+    "1966-six-point-programme-announced",
+    "1968-agartala-conspiracy-case",
+    "1969-mass-uprising",
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution",
+    "1974-famine-emergency-and-state-crisis"
   ],
   "figureIds": [
     "sheikh-mujibur-rahman",

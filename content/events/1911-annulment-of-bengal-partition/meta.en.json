@@ -1,0 +1,79 @@
+{
+  "slug": "1911-annulment-of-bengal-partition",
+  "year": "1911",
+  "title": "Annulment of Bengal Partition",
+  "subtitle": "Reversal of the 1905 partition after sustained political mobilization.",
+  "summary": "In 1911, the British government annulled the 1905 partition of Bengal and reunited Bengal as a single province. The reversal followed years of protest, boycott, and political mobilization, while also introducing a new imperial administrative order with the transfer of the capital from Calcutta to Delhi.",
+  "themeColor": "#6f4a2f",
+  "ctaLabel": "Explore the reversal",
+  "heroTagline": "The annulment marked both a political concession and a strategic imperial reconfiguration.",
+  "whyItMatters": "The 1911 annulment showed how sustained public pressure could reshape colonial decisions, while leaving unresolved tensions over representation, communal politics, and regional power that continued into later decades.",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "partition-politics-banglapedia",
+    "archive-collection"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "archive-collection"
+  ],
+  "importance": "high",
+  "parentEvent": "1905-partition-of-bengal",
+  "childEventIds": [
+    "1930-chittagong-armoury-raid"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1905-partition-of-bengal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1906-all-india-muslim-league-founded-in-dhaka",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1930-chittagong-armoury-raid",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1906-all-india-muslim-league-founded-in-dhaka",
+    "1930-chittagong-armoury-raid",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1911, the British government annulled the 1905 partition of Bengal and reunited Bengal as a single province. The reversal followed years of protest, boycott, and political mobilization, while also introducing a new imperial administrative order with the transfer of the capital from Calcutta to Delhi.",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1911 annulment showed how sustained public pressure could reshape colonial decisions, while leaving unresolved tensions over representation, communal politics, and regional power that continued into later decades.",
+      "sourceIds": [
+        "research-volume",
+        "archive-collection"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

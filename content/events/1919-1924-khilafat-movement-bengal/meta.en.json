@@ -19,22 +19,22 @@
   "importance": "major",
   "relatedEvents": [
     {
-      "eventId": "1905",
+      "eventId": "1905-partition-of-bengal",
       "relationType": "background"
     },
     {
-      "eventId": "1911",
+      "eventId": "1911-annulment-of-bengal-partition",
       "relationType": "background"
     },
     {
-      "eventId": "1937",
+      "eventId": "1937-bengal-provincial-election-and-coalition-ministry",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
-    "1905",
-    "1911",
-    "1937"
+    "1905-partition-of-bengal",
+    "1911-annulment-of-bengal-partition",
+    "1937-bengal-provincial-election-and-coalition-ministry"
   ],
   "periodLabel": "Partition and Late Colonial Politics",
   "periodId": "partition-and-late-colonial-politics",

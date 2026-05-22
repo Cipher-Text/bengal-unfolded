@@ -6,16 +6,16 @@
   "intro": "রাষ্ট্রগঠন থেকে মুক্তিযুদ্ধের প্রাক্কাল পর্যন্ত পূর্ব পাকিস্তানের রাজনৈতিক ধারাবাহিকতা বিশ্লেষণ করুন।",
   "description": "সাংবিধানিক সংকট, ভাষা-প্রশ্ন এবং জনআন্দোলনের ক্রমবর্ধমান সংযোগকে একত্রে দেখার প্রাক-১৯৭১ টপিক।",
   "eventSlugs": [
-    "1948",
-    "1949",
-    "1952",
-    "1954",
-    "1958",
-    "1962",
-    "1966",
-    "1968",
-    "1969",
-    "1970"
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1949-founding-of-awami-muslim-league",
+    "1952-language-movement",
+    "1954-united-front-election-victory-in-east-bengal",
+    "1958-martial-law-in-pakistan",
+    "1962-education-movement-in-east-pakistan",
+    "1966-six-point-programme-announced",
+    "1968-agartala-conspiracy-case",
+    "1969-mass-uprising",
+    "1970-bhola-cyclone-and-the-1970-election"
   ],
   "figureIds": [
     "sheikh-mujibur-rahman",

@@ -1,0 +1,115 @@
+{
+  "slug": "1940-lahore-resolution",
+  "year": "১৯৪০",
+  "title": "লাহোর প্রস্তাব",
+  "subtitle": "বাংলার নেতৃত্ব লাহোর প্রস্তাবকে অন্তিম ঔপনিবেশিক রাজনীতিতে নিয়ে আসে।",
+  "summary": "১৯৪০ সালের মার্চে অল-ইন্ডিয়া মুসলিম লীগের লাহোর অধিবেশনে লাহোর প্রস্তাব গৃহীত হয় এবং বাংলার এ. কে. ফজলুল হক আনুষ্ঠানিকভাবে প্রস্তাবটি উত্থাপন করেন। প্রস্তাবের ভাষায় বলা হয় যে ব্রিটিশ ভারতের উত্তর-পশ্চিম ও পূর্বাঞ্চলের মুসলিম-অধ্যুষিত এলাকাগুলোকে 'স্বাধীন রাষ্ট্রসমূহে' বিন্যস্ত করতে হবে, যেখানে গঠনতান্ত্রিক এককগুলো হবে স্বায়ত্তশাসিত ও সার্বভৌম। 'পাকিস্তান' শব্দটি না থাকলেও এটি সাংবিধানিক রাজনীতির এক বড় মোড় তৈরি করে।",
+  "themeColor": "#6f5a36",
+  "ctaLabel": "প্রস্তাবের ইতিহাস দেখুন",
+  "heroTagline": "একজন বাঙালি নেতার উত্থাপিত প্রস্তাব ব্রিটিশ ভারত ও বাংলার ভবিষ্যৎকে নতুনভাবে সংজ্ঞায়িত করে।",
+  "summarySourceIds": [
+    "lahore-resolution-banglapedia",
+    "lahore-resolution-britannica"
+  ],
+  "whyItMatters": "লাহোর প্রস্তাব গুরুত্বপূর্ণ, কারণ এটি দেশভাগের দিকে যাওয়া সাংবিধানিক রাজনীতিতে বাংলাকে একটি নির্ণায়ক অবস্থানে নিয়ে আসে। মুসলিম জাতিসত্তা, প্রাদেশিক স্বায়ত্তশাসন এবং পূর্বাঞ্চলের ভবিষ্যৎ নিয়ে বিতর্ককে এটি তীব্র করে এবং ১৯৪৭ সালের বঙ্গভাগের পথে একটি স্পষ্ট রাজনৈতিক সেতু তৈরি করে।",
+  "whyItMattersSourceIds": [
+    "lahore-resolution-banglapedia",
+    "the-great-partition"
+  ],
+  "importance": "major",
+  "childEventIds": [
+    "1946-direct-action-day-and-the-great-calcutta-killing"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1906-all-india-muslim-league-founded-in-dhaka",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1911-annulment-of-bengal-partition",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1943-bengal-famine",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1946-direct-action-day-and-the-great-calcutta-killing",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1906-all-india-muslim-league-founded-in-dhaka",
+    "1911-annulment-of-bengal-partition",
+    "1943-bengal-famine",
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "দেশভাগ ও রাজনৈতিক প্রতিনিধিত্ব",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "longTermLegacy": "লাহোর প্রস্তাব গুরুত্বপূর্ণ, কারণ এটি দেশভাগের দিকে যাওয়া সাংবিধানিক রাজনীতিতে বাংলাকে একটি নির্ণায়ক অবস্থানে নিয়ে আসে। মুসলিম জাতিসত্তা, প্রাদেশিক স্বায়ত্তশাসন এবং পূর্বাঞ্চলের ভবিষ্যৎ নিয়ে বিতর্ককে এটি তীব্র করে এবং ১৯৪৭ সালের বঙ্গভাগের পথে একটি স্পষ্ট রাজনৈতিক সেতু তৈরি করে।",
+  "longTermLegacySourceIds": [
+    "lahore-resolution-banglapedia",
+    "the-great-partition"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "লাহোর প্রস্তাব গুরুত্বপূর্ণ, কারণ এটি দেশভাগের দিকে যাওয়া সাংবিধানিক রাজনীতিতে বাংলাকে একটি নির্ণায়ক অবস্থানে নিয়ে আসে। মুসলিম জাতিসত্তা, প্রাদেশিক স্বায়ত্তশাসন এবং পূর্বাঞ্চলের ভবিষ্যৎ নিয়ে বিতর্ককে এটি তীব্র করে এবং ১৯৪৭ সালের বঙ্গভাগের পথে একটি স্পষ্ট রাজনৈতিক সেতু তৈরি করে।",
+  "identityMemorySourceIds": [
+    "lahore-resolution-banglapedia",
+    "the-great-partition"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৪০ সালের মার্চে অল-ইন্ডিয়া মুসলিম লীগের লাহোর অধিবেশনে লাহোর প্রস্তাব গৃহীত হয় এবং বাংলার এ. কে. ফজলুল হক আনুষ্ঠানিকভাবে প্রস্তাবটি উত্থাপন করেন। প্রস্তাবের ভাষায় বলা হয় যে ব্রিটিশ ভারতের উত্তর-পশ্চিম ও পূর্বাঞ্চলের মুসলিম-অধ্যুষিত এলাকাগুলোকে এমন 'স্বাধীন রাষ্ট্রসমূহে' বিন্যস্ত করতে হবে, যেখানে গঠনতান্ত্রিক এককগুলো হবে স্বায়ত্তশাসিত ও সার্বভৌম। প্রস্তাবে 'পাকিস্তান' শব্দটি ছিল না, তবু এটি এক বড় রাজনৈতিক মোড় তৈরি করে, কারণ সাংবিধানিক বিতর্ককে এটি পৃথক মুসলিম রাজনৈতিক অস্তিত্বের গণদাবিতে রূপ দেয়।",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "lahore-resolution-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "লাহোর প্রস্তাব গুরুত্বপূর্ণ, কারণ এটি দেশভাগের দিকে যাওয়া সাংবিধানিক রাজনীতিতে বাংলাকে একটি নির্ণায়ক অবস্থানে নিয়ে আসে। মুসলিম জাতিসত্তা, প্রাদেশিক স্বায়ত্তশাসন এবং পূর্বাঞ্চলের ভবিষ্যৎ নিয়ে বিতর্ককে এটি তীব্র করে এবং ১৯৪৭ সালের বঙ্গভাগের পথে একটি স্পষ্ট রাজনৈতিক সেতু তৈরি করে।",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "লাহোর প্রস্তাব গুরুত্বপূর্ণ, কারণ এটি দেশভাগের দিকে যাওয়া সাংবিধানিক রাজনীতিতে বাংলাকে একটি নির্ণায়ক অবস্থানে নিয়ে আসে। মুসলিম জাতিসত্তা, প্রাদেশিক স্বায়ত্তশাসন এবং পূর্বাঞ্চলের ভবিষ্যৎ নিয়ে বিতর্ককে এটি তীব্র করে এবং ১৯৪৭ সালের বঙ্গভাগের পথে একটি স্পষ্ট রাজনৈতিক সেতু তৈরি করে।",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "লাহোর প্রস্তাব গুরুত্বপূর্ণ, কারণ এটি দেশভাগের দিকে যাওয়া সাংবিধানিক রাজনীতিতে বাংলাকে একটি নির্ণায়ক অবস্থানে নিয়ে আসে। মুসলিম জাতিসত্তা, প্রাদেশিক স্বায়ত্তশাসন এবং পূর্বাঞ্চলের ভবিষ্যৎ নিয়ে বিতর্ককে এটি তীব্র করে এবং ১৯৪৭ সালের বঙ্গভাগের পথে একটি স্পষ্ট রাজনৈতিক সেতু তৈরি করে।",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

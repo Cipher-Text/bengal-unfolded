@@ -1,0 +1,122 @@
+{
+  "slug": "1975-baksal-formation-and-collapse",
+  "year": "১৯৭৫",
+  "title": "বাকশাল প্রতিষ্ঠা ও পতন",
+  "subtitle": "একদলীয় রূপান্তর, রাজনৈতিক বিচ্ছেদ ও সহিংস ক্ষমতা-পরিবর্তন।",
+  "summary": "১৯৭৫ সালে বাংলাদেশ এক ঐতিহাসিক মোড়ে দাঁড়ায়: বাকশাল কাঠামোর দিকে অগ্রসর হওয়া, রাজনৈতিক ক্ষমতার কেন্দ্রীকরণ, ১৫ আগস্ট বঙ্গবন্ধু শেখ মুজিবুর রহমানের হত্যাকাণ্ড, এবং ৩ নভেম্বর জেলহত্যা। এই ধারাবাহিক ঘটনা রাষ্ট্র, দলীয় রাজনীতি ও সামরিক-বেসামরিক সম্পর্ককে দীর্ঘমেয়াদে বদলে দেয়।",
+  "themeColor": "#7b2f2f",
+  "ctaLabel": "টার্নিং পয়েন্ট অন্বেষণ করুন",
+  "heroTagline": "১৯৭৫ একক ঘটনা নয়; এটি ছিল প্রজাতন্ত্রের গতিপথ বদলে দেওয়া ধারাবাহিক ভাঙন।",
+  "whyItMatters": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+  "importance": "major",
+  "parentEvent": "1974-famine-emergency-and-state-crisis",
+  "childEventIds": [
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1972-state-formation-and-the-1972-constitution",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1974-famine-emergency-and-state-crisis",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution",
+    "1974-famine-emergency-and-state-crisis",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising",
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "periodLabel": "স্বাধীনতার পর রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "whyItMattersSourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "longTermLegacy": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+  "longTermLegacySourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+  "identityMemorySourceIds": [
+    "the-blood-telegram",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭৫ সালে বাংলাদেশ এক ঐতিহাসিক মোড়ে দাঁড়ায়: বাকশাল কাঠামোর দিকে অগ্রসর হওয়া, রাজনৈতিক ক্ষমতার কেন্দ্রীকরণ, ১৫ আগস্ট বঙ্গবন্ধু শেখ মুজিবুর রহমানের হত্যাকাণ্ড, এবং ৩ নভেম্বর জেলহত্যা। এই ধারাবাহিক ঘটনা রাষ্ট্র, দলীয় রাজনীতি ও সামরিক-বেসামরিক সম্পর্ককে দীর্ঘমেয়াদে বদলে দেয়।",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "বাংলাদেশের পরবর্তী সাংবিধানিক পরিবর্তন, সামরিক হস্তক্ষেপ এবং গণতান্ত্রিক বৈধতা নিয়ে বিতর্ক বুঝতে ১৯৭৫ অনিবার্য অধ্যায়।",
+      "sourceIds": [
+        "the-blood-telegram",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

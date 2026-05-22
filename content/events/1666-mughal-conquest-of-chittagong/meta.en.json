@@ -1,0 +1,87 @@
+{
+  "slug": "1666-mughal-conquest-of-chittagong",
+  "year": "1666 (January 27)",
+  "title": "Mughal Conquest of Chittagong",
+  "subtitle": "Mughal forces end Arakanese control and incorporate Chittagong.",
+  "summary": "In 1666, Mughal forces under the Bengal administration captured Chittagong from Arakanese control after coordinated land-naval operations. The conquest integrated a strategic port frontier into Mughal Bengal.",
+  "themeColor": "#5f432e",
+  "ctaLabel": "Explore 1666",
+  "heroTagline": "Chittagong's capture secured Bengal's southeastern maritime frontier for the Mughals.",
+  "summarySourceIds": [
+    "mughal-conquest-of-chittagong-wikipedia"
+  ],
+  "whyItMatters": "This event matters because it expanded provincial control to a key coastal node, reducing frontier instability and strengthening maritime-security governance.",
+  "whyItMattersSourceIds": [
+    "mughal-conquest-of-chittagong-wikipedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1612-mughal-conquest-phase-in-bengal-largely-completed",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1612-mughal-conquest-phase-in-bengal-largely-completed",
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad"
+  ],
+  "periodLabel": "Mughal Incorporation and Consolidation",
+  "periodId": "mughal-incorporation-and-consolidation",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "The annexation of Chittagong improved the coherence of Bengal's territorial administration and reshaped long-term coastal governance dynamics.",
+  "longTermLegacySourceIds": [
+    "mughal-conquest-of-chittagong-wikipedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "In Bengal's memory, 1666 marks a turning point in securing the southeastern frontier and linking delta governance to Bay-facing strategy.",
+  "identityMemorySourceIds": [
+    "mughal-conquest-of-chittagong-wikipedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1666, Mughal forces under the Bengal administration captured Chittagong from Arakanese control after coordinated land-naval operations. The conquest integrated a strategic port frontier into Mughal Bengal.",
+      "sourceIds": [
+        "mughal-conquest-of-chittagong-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it expanded provincial control to a key coastal node, reducing frontier instability and strengthening maritime-security governance.",
+      "sourceIds": [
+        "mughal-conquest-of-chittagong-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The annexation of Chittagong improved the coherence of Bengal's territorial administration and reshaped long-term coastal governance dynamics.",
+      "sourceIds": [
+        "mughal-conquest-of-chittagong-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "In Bengal's memory, 1666 marks a turning point in securing the southeastern frontier and linking delta governance to Bay-facing strategy.",
+      "sourceIds": [
+        "mughal-conquest-of-chittagong-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

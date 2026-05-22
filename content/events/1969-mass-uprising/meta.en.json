@@ -1,0 +1,116 @@
+{
+  "slug": "1969-mass-uprising",
+  "year": "1969",
+  "title": "Mass Uprising",
+  "subtitle": "A nationwide uprising against Ayub-era authoritarian rule.",
+  "summary": "The 1969 Mass Uprising in East Pakistan brought together students, workers, opposition parties, and ordinary citizens against prolonged military-backed authoritarianism. It accelerated the collapse of the Ayub regime, widened the demand for democratic rights and regional autonomy, and prepared the political ground for the decisive elections of 1970 and the liberation struggle that followed.",
+  "themeColor": "#c25a2c",
+  "ctaLabel": "Explore the 1969 chapter",
+  "heroTagline": "In 1969, coordinated street resistance transformed political frustration into mass democratic momentum.",
+  "whyItMatters": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+  "importance": "major",
+  "parentEvent": "1968-agartala-conspiracy-case",
+  "childEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1966-six-point-programme-announced",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1968-agartala-conspiracy-case",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1970-bhola-cyclone-and-the-1970-election",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "parallel"
+    }
+  ],
+  "relatedEventIds": [
+    "1966-six-point-programme-announced",
+    "1968-agartala-conspiracy-case",
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war",
+    "1990-mass-uprising"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "bangladesh-awami-league-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+  "longTermLegacySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+  "identityMemorySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The 1969 Mass Uprising in East Pakistan brought together students, workers, opposition parties, and ordinary citizens against prolonged military-backed authoritarianism. It accelerated the collapse of the Ayub regime, widened the demand for democratic rights and regional autonomy, and prepared the political ground for the decisive elections of 1970 and the liberation struggle that followed.",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Mass Uprising explains how popular mobilization, student leadership, and anti-authoritarian coalitions reshaped East Pakistan's political horizon before 1971.",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

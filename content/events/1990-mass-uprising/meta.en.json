@@ -1,0 +1,118 @@
+{
+  "slug": "1990-mass-uprising",
+  "year": "1990",
+  "title": "Mass Uprising",
+  "subtitle": "The democratic uprising that ended the Ershad regime.",
+  "summary": "The 1990 Mass Uprising was the culmination of years of resistance to military-backed authoritarian rule in Bangladesh. Students, political alliances, professional associations, and ordinary citizens converged in a coordinated movement that forced Hussain Muhammad Ershad to resign and opened the path to caretaker-led democratic transition.",
+  "themeColor": "#d97706",
+  "ctaLabel": "See the movement",
+  "heroTagline": "In 1990, the demand for democracy became a countrywide act of political courage.",
+  "whyItMatters": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+  "importance": "landmark",
+  "parentEvent": "1982-ershad-s-coup-and-the-return-of-military-rule",
+  "childEventIds": [
+    "2013-shahbag-movement",
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1969-mass-uprising",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1975-baksal-formation-and-collapse",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "contrast"
+    }
+  ],
+  "relatedEventIds": [
+    "1969-mass-uprising",
+    "1975-baksal-formation-and-collapse",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2024-anti-discrimination-movement"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "nur-hossain-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "culturalImpact": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+  "culturalImpactSourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+  "identityMemorySourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The 1990 Mass Uprising was the culmination of years of resistance to military-backed authoritarian rule in Bangladesh. Students, political alliances, professional associations, and ordinary citizens converged in a coordinated movement that forced Hussain Muhammad Ershad to resign and opened the path to caretaker-led democratic transition.",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "nur-hossain-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

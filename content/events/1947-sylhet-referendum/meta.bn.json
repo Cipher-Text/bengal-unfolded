@@ -11,17 +11,17 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1947",
+      "eventId": "1947-partition-and-eastern-bengal",
       "relationType": "background"
     },
     {
-      "eventId": "1874",
+      "eventId": "1874-assam-reorganization-and-sylhet-s-administrative-detachment",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
-    "1947",
-    "1874"
+    "1947-partition-and-eastern-bengal",
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment"
   ],
   "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",

@@ -1,0 +1,73 @@
+{
+  "slug": "1935-government-of-india-act-1935",
+  "year": "1935",
+  "title": "Government of India Act 1935",
+  "subtitle": "A new constitutional framework expanded provincial autonomy and transformed electoral politics in Bengal.",
+  "summary": "The Government of India Act 1935 introduced the most extensive constitutional restructuring of late British India, including broader provincial autonomy and an expanded electoral framework. In Bengal, the new architecture reshaped coalition-building, legislative competition, and representation politics, setting the stage for the 1937 provincial election and later partition-era constitutional struggles.",
+  "themeColor": "#5f5840",
+  "ctaLabel": "Explore 1935",
+  "heroTagline": "Constitutional design in 1935 redrew the practical rules of power in Bengal's provincial politics.",
+  "summarySourceIds": [
+    "government-of-india-act-1935-britannica",
+    "constitutional-development-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMatters": "1935 matters because it linked constitutional engineering to mass politics, changing how parties, elites, and social blocs contested authority in Bengal.",
+  "whyItMattersSourceIds": [
+    "government-of-india-act-1935-britannica",
+    "partition-politics-banglapedia"
+  ],
+  "whyItMattersEvidenceLevel": "medium",
+  "importance": "high",
+  "childEventIds": [
+    "1937-bengal-provincial-election-and-coalition-ministry"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1937-bengal-provincial-election-and-coalition-ministry",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1940-lahore-resolution",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1937-bengal-provincial-election-and-coalition-ministry",
+    "1940-lahore-resolution",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
+  "showOnLanding": false,
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Government of India Act 1935 introduced the most extensive constitutional restructuring of late British India, including broader provincial autonomy and an expanded electoral framework. In Bengal, the new architecture reshaped coalition-building, legislative competition, and representation politics, setting the stage for the 1937 provincial election and later partition-era constitutional struggles.",
+      "sourceIds": [
+        "government-of-india-act-1935-britannica",
+        "constitutional-development-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "1935 matters because it linked constitutional engineering to mass politics, changing how parties, elites, and social blocs contested authority in Bengal.",
+      "sourceIds": [
+        "government-of-india-act-1935-britannica",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

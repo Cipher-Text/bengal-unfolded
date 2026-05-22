@@ -19,28 +19,28 @@
   ],
   "whyItMattersEvidenceLevel": "medium",
   "importance": "high",
-  "parentEvent": "2006",
+  "parentEvent": "2006-caretaker-crisis-and-emergency-rule",
   "childEventIds": [
-    "2009"
+    "2009-bdr-mutiny-pilkhana-massacre"
   ],
   "relatedEvents": [
     {
-      "eventId": "2006",
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
       "relationType": "background"
     },
     {
-      "eventId": "2009",
+      "eventId": "2009-bdr-mutiny-pilkhana-massacre",
       "relationType": "effect"
     },
     {
-      "eventId": "2014",
+      "eventId": "2014-10th-parliamentary-election",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
-    "2006",
-    "2009",
-    "2014"
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2009-bdr-mutiny-pilkhana-massacre",
+    "2014-10th-parliamentary-election"
   ],
   "periodLabel": "Post-Liberation State and Democracy",
   "movementLabel": "State power and democratic transition",

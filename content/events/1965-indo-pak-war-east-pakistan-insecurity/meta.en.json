@@ -11,22 +11,22 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1962",
+      "eventId": "1962-education-movement-in-east-pakistan",
       "relationType": "background"
     },
     {
-      "eventId": "1966",
+      "eventId": "1966-six-point-programme-announced",
       "relationType": "effect"
     },
     {
-      "eventId": "1971",
+      "eventId": "1971-liberation-war",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
-    "1962",
-    "1966",
-    "1971"
+    "1962-education-movement-in-east-pakistan",
+    "1966-six-point-programme-announced",
+    "1971-liberation-war"
   ],
   "periodLabel": "Pakistan Period and National Awakening",
   "movementLabel": "Language, autonomy, and liberation",

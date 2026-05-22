@@ -1,0 +1,74 @@
+{
+  "slug": "1962-education-movement-in-east-pakistan",
+  "year": "১৯৬২",
+  "title": "পূর্ব পাকিস্তানের শিক্ষা আন্দোলন",
+  "subtitle": "কর্তৃত্ববাদী শিক্ষা নীতি ও রাজনৈতিক নিয়ন্ত্রণের বিরুদ্ধে ছাত্রনেতৃত্বাধীন প্রতিরোধ।",
+  "summary": "১৯৬২ সালে পূর্ব পাকিস্তানে ছাত্রসমাজ শরীফ কমিশন-সংশ্লিষ্ট শিক্ষা নীতি ও সামরিক শাসনের বিস্তৃত নিয়ন্ত্রণের বিরুদ্ধে বড় আকারের আন্দোলন গড়ে তোলে। এই আন্দোলন ক্যাম্পাসভিত্তিক গণতান্ত্রিক রাজনীতিকে নতুন গতি দেয় এবং শিক্ষাগত দাবি ও সাংবিধানিক অধিকারের প্রশ্নকে আরও ঘনিষ্ঠভাবে যুক্ত করে।",
+  "themeColor": "#6b4f82",
+  "ctaLabel": "১৯৬২-এর আন্দোলন দেখুন",
+  "heroTagline": "১৯৬২-এ শিক্ষার দাবি গণতান্ত্রিক সংগ্রামের সাথে সরাসরি যুক্ত হয়।",
+  "whyItMatters": "১৯৬২ গুরুত্বপূর্ণ, কারণ এটি ১৯৫৮-এর সামরিক শাসন-পরবর্তী স্থবিরতা ভেঙে প্রতিবাদের ধারাকে পুনরুজ্জীবিত করে এবং ছয়-দফা ও ১৯৬৯-এর গণঅভ্যুত্থানের রাজনৈতিক জমিন তৈরি করে।",
+  "importance": "high",
+  "parentEvent": "1958-martial-law-in-pakistan",
+  "childEventIds": [
+    "1966-six-point-programme-announced"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1958-martial-law-in-pakistan",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1966-six-point-programme-announced",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1969-mass-uprising",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1958-martial-law-in-pakistan",
+    "1966-six-point-programme-announced",
+    "1969-mass-uprising"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "research-volume"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৬২ সালে পূর্ব পাকিস্তানে ছাত্রসমাজ শরীফ কমিশন-সংশ্লিষ্ট শিক্ষা নীতি ও সামরিক শাসনের বিস্তৃত নিয়ন্ত্রণের বিরুদ্ধে বড় আকারের আন্দোলন গড়ে তোলে। এই আন্দোলন ক্যাম্পাসভিত্তিক গণতান্ত্রিক রাজনীতিকে নতুন গতি দেয় এবং শিক্ষাগত দাবি ও সাংবিধানিক অধিকারের প্রশ্নকে আরও ঘনিষ্ঠভাবে যুক্ত করে।",
+      "sourceIds": [
+        "history-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৬২ গুরুত্বপূর্ণ, কারণ এটি ১৯৫৮-এর সামরিক শাসন-পরবর্তী স্থবিরতা ভেঙে প্রতিবাদের ধারাকে পুনরুজ্জীবিত করে এবং ছয়-দফা ও ১৯৬৯-এর গণঅভ্যুত্থানের রাজনৈতিক জমিন তৈরি করে।",
+      "sourceIds": [
+        "history-banglapedia",
+        "research-volume"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "1966-six-point-programme-announced",
+  "year": "১৯৬৬",
+  "title": "ছয়-দফা কর্মসূচি ঘোষণা",
+  "subtitle": "পূর্ব পাকিস্তানের স্বায়ত্তশাসনের সাংবিধানিক রূপরেখা।",
+  "summary": "১৯৬৬ সালে শেখ মুজিবুর রহমান ছয়-দফা কর্মসূচি উপস্থাপন করেন, যা পাকিস্তানের কাঠামোর ভেতরে পূর্ব পাকিস্তানের স্বায়ত্তশাসনের সুস্পষ্ট সাংবিধানিক দাবি হিসেবে সামনে আসে। প্রতিনিধিত্ব, আর্থিক নিয়ন্ত্রণ এবং ফেডারেল পুনর্গঠনকে কেন্দ্র করে এই কর্মসূচি দ্রুত বাঙালি জাতীয়তাবাদী রাজনীতির কেন্দ্রীয় প্ল্যাটফর্মে পরিণত হয়।",
+  "themeColor": "#b45309",
+  "ctaLabel": "ছয় দফা অন্বেষণ করুন",
+  "heroTagline": "ছয় দফা স্বায়ত্তশাসনের দাবিকে সাংবিধানিক ভাষায় নতুনভাবে সংজ্ঞায়িত করে।",
+  "whyItMatters": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+  "importance": "major",
+  "parentEvent": "1962-education-movement-in-east-pakistan",
+  "childEventIds": [
+    "1968-agartala-conspiracy-case",
+    "1969-mass-uprising"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1952-language-movement",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1969-mass-uprising",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1968-agartala-conspiracy-case",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1952-language-movement",
+    "1968-agartala-conspiracy-case",
+    "1969-mass-uprising",
+    "1971-liberation-war"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "bangladesh-awami-league-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+  "longTermLegacySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+  "identityMemorySourceIds": [
+    "research-volume",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৬৬ সালে শেখ মুজিবুর রহমান ছয়-দফা কর্মসূচি উপস্থাপন করেন, যা পাকিস্তানের কাঠামোর ভেতরে পূর্ব পাকিস্তানের স্বায়ত্তশাসনের সুস্পষ্ট সাংবিধানিক দাবি হিসেবে সামনে আসে। প্রতিনিধিত্ব, আর্থিক নিয়ন্ত্রণ এবং ফেডারেল পুনর্গঠনকে কেন্দ্র করে এই কর্মসূচি দ্রুত বাঙালি জাতীয়তাবাদী রাজনীতির কেন্দ্রীয় প্ল্যাটফর্মে পরিণত হয়।",
+      "sourceIds": [
+        "bangladesh-awami-league-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "ছয়-দফা বিচ্ছিন্ন অসন্তোষকে একটি সুসংহত রাজনৈতিক কর্মসূচিতে রূপ দেয় এবং ১৯৬৯-এর গণঅভ্যুত্থান ও পরবর্তী স্বাধীনতা সংগ্রামের ভিত্তি শক্তিশালী করে।",
+      "sourceIds": [
+        "research-volume",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

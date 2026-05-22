@@ -1,0 +1,103 @@
+{
+  "slug": "1831-titumir-s-bamboo-fort-uprising",
+  "year": "1831",
+  "title": "Titumir's Bamboo Fort Uprising",
+  "subtitle": "An anti-colonial and anti-zamindari rural rebellion culminates at Narkelberia.",
+  "summary": "In 1831, Syed Mir Nisar Ali (Titumir) led an armed uprising in Bengal that combined Islamic reform activism with resistance to oppressive zamindari and colonial authority. The movement culminated in the defense of the bamboo fort at Narkelberia, where Company forces eventually crushed the rebellion.",
+  "themeColor": "#6b5935",
+  "ctaLabel": "Explore 1831",
+  "heroTagline": "The bamboo fort at Narkelberia became a symbol of rural Muslim resistance in colonial Bengal.",
+  "summarySourceIds": [
+    "titu-mir-banglapedia",
+    "titu-mir-wikipedia"
+  ],
+  "whyItMatters": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+  "whyItMattersSourceIds": [
+    "titu-mir-banglapedia",
+    "narkelberia-banglapedia"
+  ],
+  "importance": "major",
+  "parentEvent": "1793-permanent-settlement-in-bengal",
+  "relatedEvents": [
+    {
+      "eventId": "1818-faraizi-movement-begins-in-eastern-bengal",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1857-sipahi-revolt",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1906-all-india-muslim-league-founded-in-dhaka",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1818-faraizi-movement-begins-in-eastern-bengal",
+    "1857-sipahi-revolt",
+    "1906-all-india-muslim-league-founded-in-dhaka"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+  "longTermLegacySourceIds": [
+    "titu-mir-banglapedia",
+    "narkelberia-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+  "identityMemorySourceIds": [
+    "titu-mir-banglapedia",
+    "narkelberia-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1831, Syed Mir Nisar Ali (Titumir) led an armed uprising in Bengal that combined Islamic reform activism with resistance to oppressive zamindari and colonial authority. The movement culminated in the defense of the bamboo fort at Narkelberia, where Company forces eventually crushed the rebellion.",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "titu-mir-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because Titumir's uprising shows how religious reform, agrarian grievances, and anti-colonial anger could fuse into organized armed resistance in Bengal. Its memory endured as a landmark of peasant defiance and Muslim political assertion in the nineteenth century.",
+      "sourceIds": [
+        "titu-mir-banglapedia",
+        "narkelberia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

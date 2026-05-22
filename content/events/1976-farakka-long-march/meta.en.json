@@ -11,17 +11,17 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1974",
+      "eventId": "1974-famine-emergency-and-state-crisis",
       "relationType": "background"
     },
     {
-      "eventId": "1975",
+      "eventId": "1975-baksal-formation-and-collapse",
       "relationType": "parallel"
     }
   ],
   "relatedEventIds": [
-    "1974",
-    "1975"
+    "1974-famine-emergency-and-state-crisis",
+    "1975-baksal-formation-and-collapse"
   ],
   "periodLabel": "Post-Liberation State and Democracy",
   "movementLabel": "State power and democratic transition",

@@ -6,12 +6,12 @@
   "intro": "পূর্ববাংলা কীভাবে সুলতানি কাঠামোর সঙ্গে যুক্ত হলো—তার সীমান্ত-রাজনীতি ও সামাজিক প্রক্রিয়া অনুসরণ করুন।",
   "description": "জয়, রাজনৈতিক বন্দোবস্ত এবং আঞ্চলিক ধর্মীয়-সামাজিক পরিবর্তনকে একত্রে দেখার রূপান্তরধর্মী টপিক।",
   "eventSlugs": [
-    "1303",
-    "1352",
-    "1414",
-    "1494",
-    "1538",
-    "1539"
+    "1303-conquest-of-sylhet",
+    "1352-bengal-sultanate-independence-and-unification",
+    "1414-raja-ganesha-seizes-power-in-bengal",
+    "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
+    "1538-humayun-enters-bengal-and-occupies-gaur",
+    "1539-battle-of-chausa"
   ],
   "figureIds": [
     "shah-jalal",

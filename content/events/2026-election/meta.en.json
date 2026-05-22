@@ -9,14 +9,14 @@
   "heroTagline": "Beyond the date of voting, legitimacy depended on trust in process, participation, and oversight.",
   "whyItMatters": "This election cycle matters because it sits at the intersection of constitutional continuity and post-2024 political transition. How rules are set, disputes are managed, and participation is secured will influence public trust in electoral democracy for years.",
   "importance": "major",
-  "parentEvent": "2024",
+  "parentEvent": "2024-anti-discrimination-movement",
   "relatedEvents": [
     {
-      "eventId": "2006",
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
       "relationType": "background"
     },
     {
-      "eventId": "2014",
+      "eventId": "2014-10th-parliamentary-election",
       "relationType": "background"
     },
     {
@@ -24,15 +24,15 @@
       "relationType": "legacy"
     },
     {
-      "eventId": "2024",
+      "eventId": "2024-anti-discrimination-movement",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
-    "2006",
-    "2014",
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2014-10th-parliamentary-election",
     "2018-election",
-    "2024"
+    "2024-anti-discrimination-movement"
   ],
   "periodLabel": "Contemporary Memory and Civic Protest",
   "movementLabel": "Memory, justice, and civic dissent",

@@ -1,0 +1,87 @@
+{
+  "slug": "1539-battle-of-chausa",
+  "year": "১৫৩৯ (২৬ জুন)",
+  "title": "চৌসার যুদ্ধ",
+  "subtitle": "শের শাহের কাছে হুমায়ূনের পরাজয়ে পূর্বাঞ্চলে মুঘল অগ্রযাত্রা থেমে যায়।",
+  "summary": "১৫৩৯ সালের ২৬ জুন চৌসার যুদ্ধে শের শাহ হুমায়ূনকে পরাজিত করেন। এই পরাজয়ে পূর্বাঞ্চলে মুঘল অগ্রগতি দুর্বল হয় এবং আফগান শক্তির উত্থান বাংলার রাজনৈতিক গতিপথে প্রত্যক্ষ প্রভাব ফেলে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "১৫৩৯ দেখুন",
+  "heroTagline": "চৌসার ফলাফল ক্ষমতার ভারসাম্য পাল্টে দিয়ে বাংলায় মুঘল সংহতি বিলম্বিত করে।",
+  "summarySourceIds": [
+    "battle-of-chausa-britannica"
+  ],
+  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বোঝায় কেন প্রথম মুঘল হস্তক্ষেপ তৎক্ষণাৎ বাংলায় স্থায়ী শাসনে রূপ নেয়নি।",
+  "whyItMattersSourceIds": [
+    "battle-of-chausa-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1538-humayun-enters-bengal-and-occupies-gaur",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1576-battle-of-rajmahal",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1538-humayun-enters-bengal-and-occupies-gaur",
+    "1576-battle-of-rajmahal"
+  ],
+  "periodLabel": "স্বাধীন বাংলা সুলতানাত পর্ব",
+  "periodId": "independent-bengal-sultanate-era",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "চৌসার পরাজয় পূর্বাঞ্চলে আফগান প্রভাব বাড়ায় এবং বাংলায় স্থিতিশীল মুঘল বন্দোবস্তকে দীর্ঘ সময় পিছিয়ে দেয়।",
+  "longTermLegacySourceIds": [
+    "battle-of-chausa-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "চৌসা স্মরণ করায় যে গঙ্গা-পূর্বাঞ্চলের যুদ্ধক্ষেত্রের উলটপালট বাংলার দীর্ঘ রাজনৈতিক রূপান্তরে গভীর প্রভাব ফেলেছিল।",
+  "identityMemorySourceIds": [
+    "battle-of-chausa-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৫৩৯ সালের ২৬ জুন চৌসার যুদ্ধে শের শাহ হুমায়ূনকে পরাজিত করেন। এই পরাজয়ে পূর্বাঞ্চলে মুঘল অগ্রগতি দুর্বল হয় এবং আফগান শক্তির উত্থান বাংলার রাজনৈতিক গতিপথে প্রত্যক্ষ প্রভাব ফেলে।",
+      "sourceIds": [
+        "battle-of-chausa-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বোঝায় কেন প্রথম মুঘল হস্তক্ষেপ তৎক্ষণাৎ বাংলায় স্থায়ী শাসনে রূপ নেয়নি।",
+      "sourceIds": [
+        "battle-of-chausa-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "চৌসার পরাজয় পূর্বাঞ্চলে আফগান প্রভাব বাড়ায় এবং বাংলায় স্থিতিশীল মুঘল বন্দোবস্তকে দীর্ঘ সময় পিছিয়ে দেয়।",
+      "sourceIds": [
+        "battle-of-chausa-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "চৌসা স্মরণ করায় যে গঙ্গা-পূর্বাঞ্চলের যুদ্ধক্ষেত্রের উলটপালট বাংলার দীর্ঘ রাজনৈতিক রূপান্তরে গভীর প্রভাব ফেলেছিল।",
+      "sourceIds": [
+        "battle-of-chausa-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

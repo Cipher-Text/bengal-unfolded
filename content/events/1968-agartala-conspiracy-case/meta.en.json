@@ -1,0 +1,106 @@
+{
+  "slug": "1968-agartala-conspiracy-case",
+  "year": "1968",
+  "title": "Agartala Conspiracy Case",
+  "subtitle": "A state prosecution that intensified nationalist mobilization in East Pakistan.",
+  "summary": "In 1968, the Pakistan government prosecuted Sheikh Mujibur Rahman and others in the Agartala Conspiracy Case, alleging plans to separate East Pakistan with Indian support. The case became a flashpoint of political anger, expanded solidarity across student and public spheres, and directly fed into the 1969 mass uprising.",
+  "themeColor": "#8f4b3d",
+  "ctaLabel": "Explore the Agartala case",
+  "heroTagline": "The 1968 trial transformed legal prosecution into mass political resistance.",
+  "whyItMatters": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+  "importance": "major",
+  "parentEvent": "1966-six-point-programme-announced",
+  "childEventIds": [
+    "1969-mass-uprising"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1966-six-point-programme-announced",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1969-mass-uprising",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1966-six-point-programme-announced",
+    "1969-mass-uprising",
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "military-rule-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "bangladesh-awami-league-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+  "longTermLegacySourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "bangladesh-awami-league-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+  "identityMemorySourceIds": [
+    "agartala-conspiracy-case-banglapedia",
+    "bangladesh-awami-league-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1968, the Pakistan government prosecuted Sheikh Mujibur Rahman and others in the Agartala Conspiracy Case, alleging plans to separate East Pakistan with Indian support. The case became a flashpoint of political anger, expanded solidarity across student and public spheres, and directly fed into the 1969 mass uprising.",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "military-rule-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The Agartala case matters because it exposed the legitimacy crisis of centralized rule and helped convert constitutional autonomy politics into a mass anti-authoritarian movement.",
+      "sourceIds": [
+        "agartala-conspiracy-case-banglapedia",
+        "bangladesh-awami-league-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

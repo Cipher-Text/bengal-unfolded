@@ -1,0 +1,118 @@
+{
+  "slug": "1990-mass-uprising",
+  "year": "১৯৯০",
+  "title": "গণঅভ্যুত্থান",
+  "subtitle": "এরশাদ শাসনের পতন ঘটানো গণতান্ত্রিক অভ্যুত্থান।",
+  "summary": "১৯৯০ সালের গণঅভ্যুত্থান ছিল বাংলাদেশে সামরিক-সমর্থিত কর্তৃত্ববাদী শাসনের বিরুদ্ধে বহু বছরের প্রতিরোধের চূড়ান্ত পর্ব। ছাত্রসমাজ, বিরোধী রাজনৈতিক জোট, পেশাজীবী সংগঠন এবং সাধারণ মানুষ সম্মিলিত আন্দোলনের মাধ্যমে হুসেইন মুহম্মদ এরশাদকে পদত্যাগে বাধ্য করে এবং তত্ত্বাবধায়ক-নেতৃত্বাধীন গণতান্ত্রিক রূপান্তরের পথ তৈরি করে।",
+  "themeColor": "#d97706",
+  "ctaLabel": "আন্দোলন দেখুন",
+  "heroTagline": "১৯৯০-এ গণতন্ত্রের দাবি সারা দেশের রাজনৈতিক সাহসের এক সম্মিলিত ঘোষণায় পরিণত হয়।",
+  "whyItMatters": "১৯৯০-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্ররাজনীতি, বিরোধী জোট এবং নাগরিক প্রতিরোধ একত্র হয়ে নির্বাচনী গণতন্ত্র পুনঃপ্রতিষ্ঠা করে।",
+  "importance": "landmark",
+  "parentEvent": "1982-ershad-s-coup-and-the-return-of-military-rule",
+  "childEventIds": [
+    "2013-shahbag-movement",
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1969-mass-uprising",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1975-baksal-formation-and-collapse",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "contrast"
+    }
+  ],
+  "relatedEventIds": [
+    "1969-mass-uprising",
+    "1975-baksal-formation-and-collapse",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2024-anti-discrimination-movement"
+  ],
+  "periodLabel": "স্বাধীনতার পর রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": true,
+  "summarySourceIds": [
+    "military-rule-banglapedia",
+    "nur-hossain-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "culturalImpact": "১৯৯০-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্ররাজনীতি, বিরোধী জোট এবং নাগরিক প্রতিরোধ একত্র হয়ে নির্বাচনী গণতন্ত্র পুনঃপ্রতিষ্ঠা করে।",
+  "culturalImpactSourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "১৯৯০-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্ররাজনীতি, বিরোধী জোট এবং নাগরিক প্রতিরোধ একত্র হয়ে নির্বাচনী গণতন্ত্র পুনঃপ্রতিষ্ঠা করে।",
+  "identityMemorySourceIds": [
+    "bangladesh-from-mujib-to-ershad",
+    "bangladesh-under-mujib-zia-and-ershad"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৯০ সালের গণঅভ্যুত্থান ছিল বাংলাদেশে সামরিক-সমর্থিত কর্তৃত্ববাদী শাসনের বিরুদ্ধে বহু বছরের প্রতিরোধের চূড়ান্ত পর্ব। ছাত্রসমাজ, বিরোধী রাজনৈতিক জোট, পেশাজীবী সংগঠন এবং সাধারণ মানুষ সম্মিলিত আন্দোলনের মাধ্যমে হুসেইন মুহম্মদ এরশাদকে পদত্যাগে বাধ্য করে এবং তত্ত্বাবধায়ক-নেতৃত্বাধীন গণতান্ত্রিক রূপান্তরের পথ তৈরি করে।",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "nur-hossain-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৯০-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্ররাজনীতি, বিরোধী জোট এবং নাগরিক প্রতিরোধ একত্র হয়ে নির্বাচনী গণতন্ত্র পুনঃপ্রতিষ্ঠা করে।",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "১৯৯০-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্ররাজনীতি, বিরোধী জোট এবং নাগরিক প্রতিরোধ একত্র হয়ে নির্বাচনী গণতন্ত্র পুনঃপ্রতিষ্ঠা করে।",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯৯০-এর গণঅভ্যুত্থান বোঝা জরুরি, কারণ এখানেই ছাত্ররাজনীতি, বিরোধী জোট এবং নাগরিক প্রতিরোধ একত্র হয়ে নির্বাচনী গণতন্ত্র পুনঃপ্রতিষ্ঠা করে।",
+      "sourceIds": [
+        "bangladesh-from-mujib-to-ershad",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

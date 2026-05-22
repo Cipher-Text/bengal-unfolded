@@ -9,20 +9,20 @@
   "heroTagline": "The quota question became a wider struggle over merit, dignity, and how the state responds to youth protest.",
   "whyItMatters": "The Quota Reform Movement matters because it showed the organizing power of a new generation before 2024. It transformed a technical policy issue into a national question of equity and public legitimacy, and it became an important precursor to later youth mobilizations.",
   "importance": "high",
-  "parentEvent": "2018",
+  "parentEvent": "2018-a-year-of-protest-control-and-contested-legitimacy",
   "relatedEvents": [
     {
       "eventId": "2018-safe-road",
       "relationType": "parallel"
     },
     {
-      "eventId": "2024",
+      "eventId": "2024-anti-discrimination-movement",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
     "2018-safe-road",
-    "2024"
+    "2024-anti-discrimination-movement"
   ],
   "periodLabel": "Contemporary Memory and Civic Protest",
   "movementLabel": "Memory, justice, and civic dissent",

@@ -121,7 +121,7 @@
     - Added a contested-history badge to event overview metadata on event detail pages.
     - Added localized `Historical Debate` jump-nav entry and debate block on event pages with inline citations and evidence badge rendering.
   - Backfill:
-    - Backfilled contested-history metadata for `1905`, `1947`, and `1947-united-bengal-proposal` in EN/BN using already-linked event resources.
+    - Backfilled contested-history metadata for `1905-partition-of-bengal`, `1947-partition-and-eastern-bengal`, and `1947-united-bengal-proposal` in EN/BN using already-linked event resources.
   - Docs:
     - Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and roadmap checkbox state in `docs/ROADMAP.md`.
 
@@ -147,16 +147,16 @@
 
 - 2024 figure backfill for Sharif Osman Hadi:
   - Content: Added `sharif-osman-hadi` figure metadata in EN/BN as a 2024 student-activist / Inquilab Mancha spokesperson profile.
-  - Content: Linked the figure into `content/events/2024/figure-ids.json` and the `democracy-and-civic-movements` and `bangladesh-history` topic hubs for discoverability.
+  - Content: Linked the figure into `content/events/2024-anti-discrimination-movement/figure-ids.json` and the `democracy-and-civic-movements` and `bangladesh-history` topic hubs for discoverability.
   - Model: Updated `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` so the figure route and loaders recognize the new profile.
   - Validation: No new validator rules were required; existing figure ID and EN/BN parity checks cover the backfill.
   - Docs: Added this changelog entry to record the content sync.
 
 - Historical timeline expansion with three new Bengal/Bangladesh chapters:
-  - Added event chapters `1764` (Battle of Buxar), `1770` (Great Bengal Famine), `1935` (Government of India Act 1935), and `1937` (Bengal Provincial Election and Coalition Ministry) with full EN/BN event packs.
+  - Added event chapters `1764-battle-of-buxar` (Battle of Buxar), `1770-great-bengal-famine` (Great Bengal Famine), `1935-government-of-india-act-1935` (Government of India Act 1935), and `1937-bengal-provincial-election-and-coalition-ministry` (Bengal Provincial Election and Coalition Ministry) with full EN/BN event packs.
   - Added event chapter `2007-2008-emergency-caretaker-rule` (Emergency-era Caretaker Rule) with full EN/BN event packs.
   - Added supporting resource entries for Buxar, the 1770 famine, the 1935 constitutional framework, and the 1937 Bengal provincial election.
-  - Updated `2006` child-event wiring to include `2007-2008-emergency-caretaker-rule` so the cluster remains parent-child consistent.
+  - Updated `2006-caretaker-crisis-and-emergency-rule` child-event wiring to include `2007-2008-emergency-caretaker-rule` so the cluster remains parent-child consistent.
   - Updated `SUPPORTED_EVENT_SLUGS` in `src/types/content.ts` to register the new event routes.
   - Validation: `pnpm content:validate` passed after the additions.
 
@@ -269,11 +269,11 @@
   - Model: Added `sensitive?: boolean`, `contentWarnings?: string[]`, and `requiresSources?: boolean` to `EventMeta` in `src/types/content.ts`.
   - Validation: Extended `scripts/validate-content.mjs` with type checks for all three fields, `contentWarnings` entry validation, and `requiresSources=true` enforcement for non-empty `summarySourceIds` and `whyItMattersSourceIds`.
   - UI/runtime: Updated event detail page UI to show a localized sensitive-content badge and warning panel with optional warning labels and source requirement note.
-  - Backfill: Marked an initial curated set of high-sensitivity chapters in EN/BN (`1946`, `1971`, `1974`, `2009`, `2013`, `2014`, `2018-digital-security-act`, `2024`) with `sensitive`, `contentWarnings`, and `requiresSources`.
+  - Backfill: Marked an initial curated set of high-sensitivity chapters in EN/BN (`1946-direct-action-day-and-the-great-calcutta-killing`, `1971-liberation-war`, `1974-famine-emergency-and-state-crisis`, `2009-bdr-mutiny-pilkhana-massacre`, `2013-shahbag-movement`, `2014-10th-parliamentary-election`, `2018-digital-security-act`, `2024-anti-discrimination-movement`) with `sensitive`, `contentWarnings`, and `requiresSources`.
   - Docs: Updated `docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, and roadmap checkbox state in `docs/ROADMAP.md`.
 
 - Historical timeline gap backfill (6 chapters) with full EN/BN content packs:
-  - Added event chapters: `1874`, `1930`, `1948`, `1949`, `1962`, `1968`.
+  - Added event chapters: `1874-assam-reorganization-and-sylhet-s-administrative-detachment`, `1930-chittagong-armoury-raid`, `1948-language-question-becomes-a-mass-political-issue`, `1949-founding-of-awami-muslim-league`, `1962-education-movement-in-east-pakistan`, `1968-agartala-conspiracy-case`.
   - Added shared source entities: `assam-banglapedia`, `surya-sen-banglapedia`, `awami-league-britannica`, `agartala-conspiracy-case-banglapedia`.
   - Updated chronology wiring for parent/child integrity around `1911 -> 1930`, `1947 -> 1948`, and `1958 -> 1962 -> 1966 -> 1968 -> 1969`.
   - Updated `SUPPORTED_EVENT_SLUGS` in `src/types/content.ts` for all six new chapters.
@@ -315,16 +315,16 @@
 
 ### Completed
 
-- Figure data correction and expansion for `2013` (Shahbag / Gonojagoron Moncho):
-  - Content: Replaced mismatched event figure links in `content/events/2013/figure-ids.json` with movement-relevant profiles.
+- Figure data correction and expansion for `2013-shahbag-movement` (Shahbag / Gonojagoron Moncho):
+  - Content: Replaced mismatched event figure links in `content/events/2013-shahbag-movement/figure-ids.json` with movement-relevant profiles.
   - Content: Added missing figure entities with EN/BN metadata for core 2013 movement actors.
-  - Content: Expanded the `2013` chapter with additional related actors requested during curation.
+  - Content: Expanded the `2013-shahbag-movement` chapter with additional related actors requested during curation.
   - Model: Updated `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` for all newly added figure IDs.
   - Validation: No validator logic changes required; integrity enforced through existing ID checks.
   - Backfill: EN/BN parity maintained for all newly created figure metadata files.
 
-- Key-figure rollout for `2009` (BDR Mutiny / Pilkhana Massacre):
-  - Content: Added event-level key figures in `content/events/2009/figure-ids.json`.
+- Key-figure rollout for `2009-bdr-mutiny-pilkhana-massacre` (BDR Mutiny / Pilkhana Massacre):
+  - Content: Added event-level key figures in `content/events/2009-bdr-mutiny-pilkhana-massacre/figure-ids.json`.
   - Content: Added EN/BN figure metadata for primary 2009 crisis actors, then expanded with additional investigation-era/testimony-linked figures as requested.
   - Model: Updated `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` for all newly added 2009 figure IDs.
   - Validation: Existing `content:validate` checks passed after updates.
@@ -339,60 +339,60 @@
 
 ### Completed
 
-- Period-level refactor for the long arc from `1204` to `1757`:
+- Period-level refactor for the long arc from `1204-bakhtiyar-khalji-s-conquest-of-nadia` to `1757-battle-of-plassey`:
   - Model: Added three historical period IDs in `src/types/content.ts`:
     - `transition-to-sultanate-formation` (`1204–1352`)
     - `independent-bengal-sultanate-era` (`1352–1576`)
     - `mughal-incorporation-and-consolidation` (`1576–1757`)
   - Validation: Extended `scripts/validate-content.mjs` `allowedPeriodIds` to enforce the new period IDs.
   - Content: Added new period metadata entities in `content/periods/` (EN/BN) for all three periods.
-  - Backfill: Assigned `periodId`/`periodLabel` across pre-colonial event chapters (`1204`, `1352`, `1414`, `1494`, `1576`, `1612`, `1704`) while keeping `1757` in `colonial-rule-and-resistance` as the transition boundary.
+  - Backfill: Assigned `periodId`/`periodLabel` across pre-colonial event chapters (`1204-bakhtiyar-khalji-s-conquest-of-nadia`, `1352-bengal-sultanate-independence-and-unification`, `1414-raja-ganesha-seizes-power-in-bengal`, `1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal`, `1576-battle-of-rajmahal`, `1612-mughal-conquest-phase-in-bengal-largely-completed`, `1704-murshid-quli-khan-shifts-the-capital-to-murshidabad`) while keeping `1757-battle-of-plassey` in `colonial-rule-and-resistance` as the transition boundary.
   - Docs: Updated `docs/CONTENT_MODEL.md` supported period ID list.
   - UI/runtime: No code-path changes required because period pages and event-period filters already consume period IDs generically.
-- Added a new `2018` event cluster with four child chapters:
+- Added a new `2018-a-year-of-protest-control-and-contested-legitimacy` event cluster with four child chapters:
   - Content: Created bilingual parent metadata plus four bilingual child event chapters for the Quota Reform Movement, Safe Road Movement, Digital Security Act, and 11th Parliamentary Election.
   - Sources: Added shared resources for Human Rights Watch's `Creating Panic` report, Human Rights Watch's road-safety protest statement, and Amnesty International's Digital Security Act coverage.
-  - Hierarchy: Inserted `2018` under `1990` and attached the four sub-events with `parentEvent` / `childEventIds`.
-- Added the missing `2014` chapter for the `10th Parliamentary Election`:
-  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/2014/`.
+  - Hierarchy: Inserted `2018-a-year-of-protest-control-and-contested-legitimacy` under `1990-mass-uprising` and attached the four sub-events with `parentEvent` / `childEventIds`.
+- Added the missing `2014-10th-parliamentary-election` chapter for the `10th Parliamentary Election`:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/2014-10th-parliamentary-election/`.
   - Sources: Added shared resources for Human Rights Watch's 2014 election violence report and Al Jazeera's reporting on the immediate parliamentary aftermath.
-  - Hierarchy: Inserted `2014` as a child chapter of `2013`, linking the Shahbag-era political climate to the contested January 5 election.
-- Added the missing `2009` Bangladesh chapter for the `BDR Mutiny / Pilkhana Massacre`:
-  - Content: Created bilingual event metadata, timeline, quotes, and resource links under `content/events/2009/`.
+  - Hierarchy: Inserted `2014-10th-parliamentary-election` as a child chapter of `2013-shahbag-movement`, linking the Shahbag-era political climate to the contested January 5 election.
+- Added the missing `2009-bdr-mutiny-pilkhana-massacre` Bangladesh chapter for the `BDR Mutiny / Pilkhana Massacre`:
+  - Content: Created bilingual event metadata, timeline, quotes, and resource links under `content/events/2009-bdr-mutiny-pilkhana-massacre/`.
   - Sources: Added shared resources for Banglapedia's Bangladesh Rifles entry and Human Rights Watch's reporting on the mutiny's aftermath.
-  - Hierarchy: Inserted `2009` as a child chapter of `2006`, linking the post-emergency transition to the Pilkhana crisis.
-- Added the missing `1982` authoritarian-transition chapter:
-  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1982/`.
+  - Hierarchy: Inserted `2009-bdr-mutiny-pilkhana-massacre` as a child chapter of `2006-caretaker-crisis-and-emergency-rule`, linking the post-emergency transition to the Pilkhana crisis.
+- Added the missing `1982-ershad-s-coup-and-the-return-of-military-rule` authoritarian-transition chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1982-ershad-s-coup-and-the-return-of-military-rule/`.
   - Sources: Added shared resources for Ershad's political order and broader 1980s Bangladesh history.
   - Figures: Added `hussain-muhammad-ershad` and `abdus-sattar`.
   - Hierarchy: Rewired the late post-liberation chain from `1975 -> 1990` to `1975 -> 1982 -> 1990`.
-- Added the missing `1974` crisis chapter:
-  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1974/`.
+- Added the missing `1974-famine-emergency-and-state-crisis` crisis chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1974-famine-emergency-and-state-crisis/`.
   - Sources: Added shared resources for the 1974 famine, Banglapedia's famine history, and the Special Powers Act.
   - Hierarchy: Rewired the post-liberation crisis chain from `1972 -> 1975` to `1972 -> 1974 -> 1975`.
-- Added the missing `1972` state-formation chapter:
-  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1972/`.
+- Added the missing `1972-state-formation-and-the-1972-constitution` state-formation chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1972-state-formation-and-the-1972-constitution/`.
   - Sources: Added shared resources for the 1972 Constitution, constitutional development, and early post-independence political transition.
   - Figures: Added `kamal-hossain`.
   - Hierarchy: Rewired the immediate postwar chain from `1971 -> 1975` to `1971 -> 1972 -> 1975`.
-- Added the missing `1970` prewar crisis chapter:
-  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1970/`.
+- Added the missing `1970-bhola-cyclone-and-the-1970-election` prewar crisis chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1970-bhola-cyclone-and-the-1970-election/`.
   - Sources: Added shared resources covering the Bhola cyclone, the 1970 general election, and Banglapedia background on Pakistan and the Liberation War.
   - Figures: Added `yahya-khan`.
   - Hierarchy: Rewired the autonomy-to-war chain from `1969 -> 1971` to `1969 -> 1970 -> 1971`.
-- Added the missing `1946` Direct Action Day chapter:
-  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1946/`.
+- Added the missing `1946-direct-action-day-and-the-great-calcutta-killing` Direct Action Day chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1946-direct-action-day-and-the-great-calcutta-killing/`.
   - Sources: Added dedicated shared resources for Direct Action Day and the 1946 Calcutta riot.
   - Hierarchy: Rewired the late-colonial partition cluster from `1940 -> 1947` to `1940 -> 1946 -> 1947`.
-- Added the missing `1940` Lahore Resolution chapter:
-  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1940/`.
+- Added the missing `1940-lahore-resolution` Lahore Resolution chapter:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1940-lahore-resolution/`.
   - Sources: Added dedicated shared resources for Banglapedia and Britannica coverage of the Lahore Resolution.
-  - Hierarchy: Rewired `1947` to use `1940` as its parent event, making the late-colonial partition path clearer in timeline discovery.
-- Added the missing `1905` event chapter for the Partition of Bengal:
-  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1905/`.
+  - Hierarchy: Rewired `1947-partition-and-eastern-bengal` to use `1940-lahore-resolution` as its parent event, making the late-colonial partition path clearer in timeline discovery.
+- Added the missing `1905-partition-of-bengal` event chapter for the Partition of Bengal:
+  - Content: Created bilingual event metadata, timeline, quotes, figure links, and resource links under `content/events/1905-partition-of-bengal/`.
   - Sources: Added dedicated shared resources for the 1905 partition, Swadeshi movement, and Dhaka Nawab family context.
   - Figures: Added `lord-curzon`, `rabindranath-tagore`, `surendranath-banerjea`, and `nawab-salimullah`.
-  - Hierarchy: Rewired the timeline cluster so `1905` is the parent event for `1906` and `1911`, aligning event discovery with the historical sequence.
+  - Hierarchy: Rewired the timeline cluster so `1905-partition-of-bengal` is the parent event for `1906-all-india-muslim-league-founded-in-dhaka` and `1911-annulment-of-bengal-partition`, aligning event discovery with the historical sequence.
 
 ## 2026-05-04
 
@@ -470,7 +470,7 @@
     - `summarySourceIds`
     - `whyItMattersSourceIds`
   - Backfilled citation fields for all event locale metadata files and validated content integrity.
-  - Performed manual QA refinement for key events (`1757`, `1906`, `2024`) to improve claim-to-source pairing quality.
+  - Performed manual QA refinement for key events (`1757-battle-of-plassey`, `1906-all-india-muslim-league-founded-in-dhaka`, `2024-anti-discrimination-movement`) to improve claim-to-source pairing quality.
 - Roadmap synchronization:
   - Marked RM-006B as complete.
   - Marked RM-001 as complete with full-coverage note.
@@ -523,7 +523,7 @@
 - Added homepage CTA to open full timeline explorer.
 - Added localized timeline explorer entries to sitemap.
 - Expanded timeline citations rollout to all events:
-  - Added `sourceIds` across timeline entries for `1757`, `1857`, `1947`, `1969`, `1971`, `1990`, and `2024` (EN/BN).
+  - Added `sourceIds` across timeline entries for `1757-battle-of-plassey`, `1857-sipahi-revolt`, `1947-partition-and-eastern-bengal`, `1969-mass-uprising`, `1971-liberation-war`, `1990-mass-uprising`, and `2024-anti-discrimination-movement` (EN/BN).
 - Tightened content validation rules (`pnpm content:validate`):
   - Every timeline item must include non-empty `sourceIds`.
   - Every `sourceId` must exist in both global resources and the event-level `resource-ids.json`.
@@ -532,16 +532,16 @@
   - Event timeline UI now renders source chips/links when `sourceIds` exist.
   - Event page now passes shared resources to timeline for source label resolution.
 - Seeded citations for 1952 timeline entries in both locales:
-  - `content/events/1952/timeline.en.json`
-  - `content/events/1952/timeline.bn.json`
+  - `content/events/1952-language-movement/timeline.en.json`
+  - `content/events/1952-language-movement/timeline.bn.json`
 - Added new event content chapters:
-  - `1757` (Battle of Plassey / পলাশীর যুদ্ধ)
-  - `1857` (Sipahi Revolt / সিপাহী বিদ্রোহ)
-  - `1969` (Mass Uprising / গণঅভ্যুত্থান)
+  - `1757-battle-of-plassey` (Battle of Plassey / পলাশীর যুদ্ধ)
+  - `1857-sipahi-revolt` (Sipahi Revolt / সিপাহী বিদ্রোহ)
+  - `1969-mass-uprising` (Mass Uprising / গণঅভ্যুত্থান)
 - Updated supported event slug registry in `src/types/content.ts`.
 - Expanded figure dataset with new chapter-specific profiles and localization:
-  - Added Plassey-related figure profiles for `1757`.
-  - Added 40 figure profiles for `1857` (EN/BN metadata).
+  - Added Plassey-related figure profiles for `1757-battle-of-plassey`.
+  - Added 40 figure profiles for `1857-sipahi-revolt` (EN/BN metadata).
 - Fixed `content/site/home.bn.json` malformed JSON string causing prerender failure.
 - Updated root layout script handling to use `next/script` for initialization scripts.
 - Synced docs with current content contract:

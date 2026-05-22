@@ -1,0 +1,120 @@
+{
+  "slug": "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+  "year": "1704-1717",
+  "title": "Murshid Quli Khan Shifts the Capital to Murshidabad",
+  "subtitle": "From Dhaka to Murshidabad, Bengal's administrative and fiscal center is recast.",
+  "summary": "In the early eighteenth century, Murshid Quli Khan shifted Bengal's effective administrative center from Dhaka to Makhsudabad, later known as Murshidabad. The move strengthened centralized revenue management, aligned court and banking networks around a new political hub, and reoriented the province's governing geography before Plassey.",
+  "themeColor": "#6a4a2a",
+  "ctaLabel": "Explore 1704-1717",
+  "heroTagline": "The capital shift to Murshidabad reorganized power, finance, and administration in pre-1757 Bengal.",
+  "summarySourceIds": [
+    "murshid-quli-khan-banglapedia",
+    "murshidabad-britannica"
+  ],
+  "whyItMatters": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+  "whyItMattersSourceIds": [
+    "murshid-quli-khan-banglapedia",
+    "murshidabad-banglapedia"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1612-mughal-conquest-phase-in-bengal-largely-completed",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1576-battle-of-rajmahal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1414-raja-ganesha-seizes-power-in-bengal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1757-battle-of-plassey",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1666-mughal-conquest-of-chittagong",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1717-murshid-quli-khan-formally-appointed-nawab",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1612-mughal-conquest-phase-in-bengal-largely-completed",
+    "1576-battle-of-rajmahal",
+    "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
+    "1414-raja-ganesha-seizes-power-in-bengal",
+    "1757-battle-of-plassey",
+    "1666-mughal-conquest-of-chittagong",
+    "1717-murshid-quli-khan-formally-appointed-nawab"
+  ],
+  "periodLabel": "Mughal Incorporation and Consolidation",
+  "periodId": "mughal-incorporation-and-consolidation",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+  "longTermLegacySourceIds": [
+    "murshid-quli-khan-banglapedia",
+    "murshidabad-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+  "identityMemorySourceIds": [
+    "murshid-quli-khan-banglapedia",
+    "murshidabad-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In the early eighteenth century, Murshid Quli Khan shifted Bengal's effective administrative center from Dhaka to Makhsudabad, later known as Murshidabad. The move strengthened centralized revenue management, aligned court and banking networks around a new political hub, and reoriented the province's governing geography before Plassey.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshidabad-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshidabad-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshidabad-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This transition matters because it helps explain the institutional landscape inherited by later nawabi politics and by the actors involved in the 1757 crisis. Murshidabad's rise as the fiscal-political center shaped how power, elite alliances, and state revenue operated in Bengal.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshidabad-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

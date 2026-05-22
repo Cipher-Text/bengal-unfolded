@@ -1,0 +1,95 @@
+{
+  "slug": "1204-bakhtiyar-khalji-s-conquest-of-nadia",
+  "year": "1204-1205",
+  "title": "Bakhtiyar Khalji's Conquest of Nadia",
+  "subtitle": "A decisive political rupture in late Sena-era Bengal.",
+  "summary": "Ikhtiyar al-Din Muhammad Bakhtiyar Khalji's capture of Nadia, associated with 1204-1205, marked a major turning point in Bengal's political history. The fall of the Sena capital center and subsequent movement toward Lakhnauti/Gaur shifted the region's ruling structure and opened a new phase of Turkic-led state formation in Bengal.",
+  "themeColor": "#5a4632",
+  "ctaLabel": "Explore 1204-1205",
+  "heroTagline": "The conquest of Nadia reshaped power in Bengal and altered the region's long-term political trajectory.",
+  "summarySourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "sena-dynasty-britannica"
+  ],
+  "whyItMatters": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+  "whyItMattersSourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1352-bengal-sultanate-independence-and-unification",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1352-bengal-sultanate-independence-and-unification",
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad"
+  ],
+  "periodLabel": "Transition to Sultanate Formation",
+  "periodId": "transition-to-sultanate-formation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "longTermLegacy": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+  "longTermLegacySourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+  "identityMemorySourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "bakhtiyar-khalji-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Ikhtiyar al-Din Muhammad Bakhtiyar Khalji's capture of Nadia, associated with 1204-1205, marked a major turning point in Bengal's political history. The fall of the Sena capital center and subsequent movement toward Lakhnauti/Gaur shifted the region's ruling structure and opened a new phase of Turkic-led state formation in Bengal.",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "sena-dynasty-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because it marks the collapse of Sena dominance in western Bengal and the beginning of a durable reordering of military, political, and administrative authority that eventually fed into later sultanate-era state formation.",
+      "sourceIds": [
+        "bakhtiyar-khalji-banglapedia",
+        "bakhtiyar-khalji-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

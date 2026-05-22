@@ -1,0 +1,113 @@
+{
+  "slug": "1905-partition-of-bengal",
+  "year": "১৯০৫",
+  "title": "বঙ্গভঙ্গ",
+  "subtitle": "ঔপনিবেশিক পুনর্বিন্যাস, গণপ্রতিবাদ, এবং বাংলার রাজনীতিতে নতুন বিভাজনরেখা।",
+  "summary": "১৯০৫ সালে ব্রিটিশ ঔপনিবেশিক সরকার বাংলা প্রদেশকে বিভক্ত করে ঢাকাকে রাজধানী করে পূর্ববঙ্গ ও আসাম নামে নতুন প্রদেশ গঠন করে। সরকারি ব্যাখ্যায় এটি ছিল প্রশাসনিক সংস্কার, কিন্তু বাংলার বহু সমালোচকের কাছে এটি ছিল বাঙালির রাজনৈতিক প্রভাব দুর্বল করার বিভাজননীতির অংশ। এই সিদ্ধান্ত বয়কট, স্বদেশী আন্দোলন এবং আঞ্চলিক রাজনৈতিক অবস্থানগুলোর দীর্ঘমেয়াদি পুনর্গঠনকে ত্বরান্বিত করে।",
+  "themeColor": "#7a5b2e",
+  "ctaLabel": "বঙ্গভঙ্গের অধ্যায় দেখুন",
+  "heroTagline": "প্রশাসনিক সংস্কার নামে ঘোষিত সিদ্ধান্তটি বাংলার ইতিহাসে গভীর রাজনৈতিক বিচ্ছেদে পরিণত হয়।",
+  "summarySourceIds": [
+    "partition-of-bengal-1905-banglapedia",
+    "partition-of-bengal-britannica"
+  ],
+  "whyItMatters": "১৯০৫ সালের বঙ্গভঙ্গ গুরুত্বপূর্ণ, কারণ এটি বাংলাকে উপনিবেশবিরোধী প্রতিবাদের কেন্দ্রভূমিতে পরিণত করে, প্রতিনিধিত্ব ও সাম্প্রদায়িক স্বার্থ নিয়ে বিতর্ক তীব্র করে, এবং এমন এক রাজনৈতিক উত্তরাধিকার তৈরি করে যা ১৯১১ সালের রদ থেকে ১৯৪৭ সালের দেশভাগ-সংকট পর্যন্ত বিস্তৃত থাকে।",
+  "whyItMattersSourceIds": [
+    "swadeshi-movement-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "importance": "landmark",
+  "childEventIds": [
+    "1906-all-india-muslim-league-founded-in-dhaka",
+    "1911-annulment-of-bengal-partition"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1906-all-india-muslim-league-founded-in-dhaka",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1911-annulment-of-bengal-partition",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1906-all-india-muslim-league-founded-in-dhaka",
+    "1911-annulment-of-bengal-partition",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "দেশভাগ ও রাজনৈতিক প্রতিনিধিত্ব",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "culturalImpact": "১৯০৫ সালের বঙ্গভঙ্গ গুরুত্বপূর্ণ, কারণ এটি বাংলাকে উপনিবেশবিরোধী প্রতিবাদের কেন্দ্রভূমিতে পরিণত করে, প্রতিনিধিত্ব ও সাম্প্রদায়িক স্বার্থ নিয়ে বিতর্ক তীব্র করে, এবং এমন এক রাজনৈতিক উত্তরাধিকার তৈরি করে যা ১৯১১ সালের রদ থেকে ১৯৪৭ সালের দেশভাগ-সংকট পর্যন্ত বিস্তৃত থাকে।",
+  "culturalImpactSourceIds": [
+    "swadeshi-movement-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "১৯০৫ সালের বঙ্গভঙ্গ গুরুত্বপূর্ণ, কারণ এটি বাংলাকে উপনিবেশবিরোধী প্রতিবাদের কেন্দ্রভূমিতে পরিণত করে, প্রতিনিধিত্ব ও সাম্প্রদায়িক স্বার্থ নিয়ে বিতর্ক তীব্র করে, এবং এমন এক রাজনৈতিক উত্তরাধিকার তৈরি করে যা ১৯১১ সালের রদ থেকে ১৯৪৭ সালের দেশভাগ-সংকট পর্যন্ত বিস্তৃত থাকে।",
+  "identityMemorySourceIds": [
+    "swadeshi-movement-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "১৯০৫ সালের ক্ষেত্রে মূল বিতর্কটি বঙ্গভঙ্গ হয়েছিল কি না তা নয়, বরং এটিকে কীভাবে ব্যাখ্যা করা হবে তা নিয়ে। ঔপনিবেশিক কর্তৃপক্ষ একে প্রশাসনিক সংস্কার বলে তুলে ধরে, কিন্তু বহু বঙ্গভঙ্গবিরোধী সমালোচকের কাছে এটি ছিল বাঙালির রাজনৈতিক প্রভাব দুর্বল করার বিভাজননীতি। একই সঙ্গে ইতিহাসবিদেরা দেখিয়েছেন, মুসলিম রাজনৈতিক প্রতিক্রিয়া ও ভদ্রলোক হিন্দু বিরোধিতা একরকম ছিল না; তাই ঘটনাটি উপনিবেশবিরোধী মোড়ের পাশাপাশি প্রতিনিধিত্বের বিতর্কও বহন করে।",
+  "historicalDebateSourceIds": [
+    "partition-of-bengal-1905-banglapedia",
+    "partition-politics-banglapedia"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯০৫ সালে ব্রিটিশ ঔপনিবেশিক সরকার বাংলা প্রদেশকে বিভক্ত করে ঢাকাকে রাজধানী করে পূর্ববঙ্গ ও আসাম নামে নতুন প্রদেশ গঠন করে। সরকারি ব্যাখ্যায় এটি ছিল প্রশাসনিক সংস্কার, কিন্তু বাংলার বহু সমালোচকের কাছে এটি ছিল বাঙালির রাজনৈতিক প্রভাব দুর্বল করার বিভাজননীতির অংশ। এই সিদ্ধান্ত বয়কট, স্বদেশী আন্দোলন এবং আঞ্চলিক রাজনৈতিক অবস্থানগুলোর দীর্ঘমেয়াদি পুনর্গঠনকে ত্বরান্বিত করে।",
+      "sourceIds": [
+        "partition-of-bengal-1905-banglapedia",
+        "partition-of-bengal-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯০৫ সালের বঙ্গভঙ্গ গুরুত্বপূর্ণ, কারণ এটি বাংলাকে উপনিবেশবিরোধী প্রতিবাদের কেন্দ্রভূমিতে পরিণত করে, প্রতিনিধিত্ব ও সাম্প্রদায়িক স্বার্থ নিয়ে বিতর্ক তীব্র করে, এবং এমন এক রাজনৈতিক উত্তরাধিকার তৈরি করে যা ১৯১১ সালের রদ থেকে ১৯৪৭ সালের দেশভাগ-সংকট পর্যন্ত বিস্তৃত থাকে।",
+      "sourceIds": [
+        "swadeshi-movement-banglapedia",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "১৯০৫ সালের বঙ্গভঙ্গ গুরুত্বপূর্ণ, কারণ এটি বাংলাকে উপনিবেশবিরোধী প্রতিবাদের কেন্দ্রভূমিতে পরিণত করে, প্রতিনিধিত্ব ও সাম্প্রদায়িক স্বার্থ নিয়ে বিতর্ক তীব্র করে, এবং এমন এক রাজনৈতিক উত্তরাধিকার তৈরি করে যা ১৯১১ সালের রদ থেকে ১৯৪৭ সালের দেশভাগ-সংকট পর্যন্ত বিস্তৃত থাকে।",
+      "sourceIds": [
+        "swadeshi-movement-banglapedia",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "১৯০৫ সালের বঙ্গভঙ্গ গুরুত্বপূর্ণ, কারণ এটি বাংলাকে উপনিবেশবিরোধী প্রতিবাদের কেন্দ্রভূমিতে পরিণত করে, প্রতিনিধিত্ব ও সাম্প্রদায়িক স্বার্থ নিয়ে বিতর্ক তীব্র করে, এবং এমন এক রাজনৈতিক উত্তরাধিকার তৈরি করে যা ১৯১১ সালের রদ থেকে ১৯৪৭ সালের দেশভাগ-সংকট পর্যন্ত বিস্তৃত থাকে।",
+      "sourceIds": [
+        "swadeshi-movement-banglapedia",
+        "partition-politics-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

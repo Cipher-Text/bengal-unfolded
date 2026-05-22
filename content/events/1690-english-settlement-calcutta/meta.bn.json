@@ -11,17 +11,17 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1704",
+      "eventId": "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
       "relationType": "background"
     },
     {
-      "eventId": "1757",
+      "eventId": "1757-battle-of-plassey",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
-    "1704",
-    "1757"
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1757-battle-of-plassey"
   ],
   "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",

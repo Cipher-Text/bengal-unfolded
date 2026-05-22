@@ -19,17 +19,17 @@
   "importance": "major",
   "relatedEvents": [
     {
-      "eventId": "1740",
+      "eventId": "1740-alivardi-khan-becomes-nawab",
       "relationType": "background"
     },
     {
-      "eventId": "1757",
+      "eventId": "1757-battle-of-plassey",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
-    "1740",
-    "1757"
+    "1740-alivardi-khan-becomes-nawab",
+    "1757-battle-of-plassey"
   ],
   "periodLabel": "Mughal Incorporation and Consolidation",
   "periodId": "mughal-incorporation-and-consolidation",

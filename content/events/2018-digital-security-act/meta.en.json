@@ -9,20 +9,20 @@
   "heroTagline": "The law made digital rights a core political issue rather than a narrow technical one.",
   "whyItMatters": "The Digital Security Act matters because it tied digital expression directly to the politics of fear, censorship, and state authority. It shaped the environment for journalists, activists, and online critics for years and became a major background condition for later struggles over civic and political speech before its eventual replacement by the Cyber Security Act in 2023.",
   "importance": "high",
-  "parentEvent": "2018",
+  "parentEvent": "2018-a-year-of-protest-control-and-contested-legitimacy",
   "relatedEvents": [
     {
       "eventId": "2018-election",
       "relationType": "background"
     },
     {
-      "eventId": "2024",
+      "eventId": "2024-anti-discrimination-movement",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
     "2018-election",
-    "2024"
+    "2024-anti-discrimination-movement"
   ],
   "periodLabel": "Contemporary Memory and Civic Protest",
   "movementLabel": "Memory, justice, and civic dissent",

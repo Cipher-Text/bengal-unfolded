@@ -1,0 +1,140 @@
+{
+  "slug": "1947-partition-and-eastern-bengal",
+  "year": "1947",
+  "title": "Partition and Eastern Bengal",
+  "subtitle": "The partition of British India and the making of East Bengal.",
+  "summary": "In 1947, British India was divided into India and Pakistan, and Bengal itself was split into West Bengal and East Bengal. This chapter traces how rushed borders, communal politics, and mass displacement reshaped the region and set the stage for later struggles over language, autonomy, and identity.",
+  "themeColor": "#8b5e3c",
+  "ctaLabel": "See the history",
+  "heroTagline": "1947 did not only divide territory. It transformed memory, belonging, and political destiny.",
+  "summarySourceIds": [
+    "partition-of-british-india-national-archives",
+    "partition-of-bengal-1947-banglapedia"
+  ],
+  "whyItMatters": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+  "whyItMattersSourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
+  "importance": "landmark",
+  "parentEvent": "1946-direct-action-day-and-the-great-calcutta-killing",
+  "childEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement",
+    "1971-liberation-war"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1940-lahore-resolution",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1946-direct-action-day-and-the-great-calcutta-killing",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1906-all-india-muslim-league-founded-in-dhaka",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1911-annulment-of-bengal-partition",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1943-bengal-famine",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1952-language-movement",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1948-language-question-becomes-a-mass-political-issue",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1940-lahore-resolution",
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1906-all-india-muslim-league-founded-in-dhaka",
+    "1911-annulment-of-bengal-partition",
+    "1943-bengal-famine",
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement",
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "culturalImpact": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+  "culturalImpactSourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
+  "culturalImpactEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+  "identityMemorySourceIds": [
+    "midnights-furies",
+    "the-spoils-of-partition"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "There is broad agreement that 1947 partition brought displacement, violence, and a lasting political rupture, but historians still debate emphasis and causation: some readings stress all-India constitutional collapse and elite negotiations, while others foreground communal mobilization, provincial calculations, and the lived asymmetry of refugee experience in Bengal. The debate is therefore less about whether partition mattered than about which forces and memories should frame it.",
+  "historicalDebateSourceIds": [
+    "partition-of-bengal-1947-banglapedia",
+    "the-spoils-of-partition"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1947, British India was divided into India and Pakistan, and Bengal itself was split into West Bengal and East Bengal. This chapter traces how rushed borders, communal politics, and mass displacement reshaped the region and set the stage for later struggles over language, autonomy, and identity.",
+      "sourceIds": [
+        "partition-of-british-india-national-archives",
+        "partition-of-bengal-1947-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+      "sourceIds": [
+        "midnights-furies",
+        "the-spoils-of-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "culturalImpact-claim-1",
+      "section": "culturalImpact",
+      "claim": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+      "sourceIds": [
+        "midnights-furies",
+        "the-spoils-of-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+      "sourceIds": [
+        "midnights-furies",
+        "the-spoils-of-partition"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

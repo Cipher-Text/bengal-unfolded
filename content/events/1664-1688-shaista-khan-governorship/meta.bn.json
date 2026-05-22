@@ -11,17 +11,17 @@
   "importance": "high",
   "relatedEvents": [
     {
-      "eventId": "1666",
+      "eventId": "1666-mughal-conquest-of-chittagong",
       "relationType": "background"
     },
     {
-      "eventId": "1704",
+      "eventId": "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
       "relationType": "background"
     }
   ],
   "relatedEventIds": [
-    "1666",
-    "1704"
+    "1666-mughal-conquest-of-chittagong",
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad"
   ],
   "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",

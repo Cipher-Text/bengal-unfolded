@@ -1,0 +1,75 @@
+{
+  "slug": "1770-great-bengal-famine",
+  "year": "১৭৭০",
+  "title": "মহা বাংলা দুর্ভিক্ষ",
+  "subtitle": "প্রারম্ভিক ঔপনিবেশিক রাজস্ব কাঠামোর মধ্যে ব্যাপক প্রাণহানি শাসনের সহিংস চরিত্রকে উন্মোচিত করে।",
+  "summary": "১৭৭০ সালের দুর্ভিক্ষ বাংলাকে ভয়াবহ মানবিক বিপর্যয়ে ফেলেছিল। ফসলহানি, খাদ্যবাজারের বিকৃতি এবং ইস্ট ইন্ডিয়া কোম্পানির কঠোর রাজস্ব আদায় একত্রে পরিবেশগত সংকটকে সামাজিক ধসের দিকে ঠেলে দেয়। এই অধ্যায় দেখায়, ঔপনিবেশিক রাজনৈতিক অর্থনীতি কীভাবে দুর্বল জনগোষ্ঠীর ঝুঁকি বহুগুণ বাড়িয়ে দিতে পারে।",
+  "themeColor": "#6a3f2a",
+  "ctaLabel": "দুর্ভিক্ষ অধ্যায় দেখুন",
+  "heroTagline": "১৭৭০ প্রমাণ করে: শাসন যদি নির্যাসমুখী হয়, তবে সংকট দ্রুত গণবিপর্যয়ে রূপ নেয়।",
+  "summarySourceIds": [
+    "great-bengal-famine-1770-britannica",
+    "history-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMatters": "১৭৭০ সালের দুর্ভিক্ষ বোঝা জরুরি, কারণ এখানে রাজস্বনীতি, বাজারক্ষমতা ও রাষ্ট্রীয় জবাবদিহি সরাসরি জীবন-মৃত্যুর প্রশ্নে রূপ নেয়।",
+  "whyItMattersSourceIds": [
+    "great-bengal-famine-1770-britannica",
+    "east-india-company-britannica"
+  ],
+  "whyItMattersEvidenceLevel": "medium",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1765-east-india-company-gets-diwani-rights-in-bengal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1793-permanent-settlement-in-bengal",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1857-sipahi-revolt",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1760-1800-fakir-sannyasi-resistance",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1793-permanent-settlement-in-bengal",
+    "1857-sipahi-revolt",
+    "1760-1800-fakir-sannyasi-resistance"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": false,
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৭৭০ সালের দুর্ভিক্ষ বাংলাকে ভয়াবহ মানবিক বিপর্যয়ে ফেলেছিল। ফসলহানি, খাদ্যবাজারের বিকৃতি এবং ইস্ট ইন্ডিয়া কোম্পানির কঠোর রাজস্ব আদায় একত্রে পরিবেশগত সংকটকে সামাজিক ধসের দিকে ঠেলে দেয়। এই অধ্যায় দেখায়, ঔপনিবেশিক রাজনৈতিক অর্থনীতি কীভাবে দুর্বল জনগোষ্ঠীর ঝুঁকি বহুগুণ বাড়িয়ে দিতে পারে।",
+      "sourceIds": [
+        "great-bengal-famine-1770-britannica",
+        "history-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৭৭০ সালের দুর্ভিক্ষ বোঝা জরুরি, কারণ এখানে রাজস্বনীতি, বাজারক্ষমতা ও রাষ্ট্রীয় জবাবদিহি সরাসরি জীবন-মৃত্যুর প্রশ্নে রূপ নেয়।",
+      "sourceIds": [
+        "great-bengal-famine-1770-britannica",
+        "east-india-company-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

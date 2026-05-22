@@ -19,27 +19,27 @@
   "importance": "major",
   "relatedEvents": [
     {
-      "eventId": "1757",
+      "eventId": "1757-battle-of-plassey",
       "relationType": "background"
     },
     {
-      "eventId": "1765",
+      "eventId": "1765-east-india-company-gets-diwani-rights-in-bengal",
       "relationType": "cause"
     },
     {
-      "eventId": "1770",
+      "eventId": "1770-great-bengal-famine",
       "relationType": "effect"
     },
     {
-      "eventId": "1793",
+      "eventId": "1793-permanent-settlement-in-bengal",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
-    "1757",
-    "1765",
-    "1770",
-    "1793"
+    "1757-battle-of-plassey",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine",
+    "1793-permanent-settlement-in-bengal"
   ],
   "periodLabel": "Colonial Rule and Resistance",
   "movementLabel": "Colonial capture and resistance",

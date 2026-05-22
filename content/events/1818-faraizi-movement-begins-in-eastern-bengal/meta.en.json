@@ -1,0 +1,103 @@
+{
+  "slug": "1818-faraizi-movement-begins-in-eastern-bengal",
+  "year": "1818",
+  "title": "Faraizi Movement Begins in Eastern Bengal",
+  "subtitle": "A major Muslim reform and agrarian mobilization emerges under Haji Shariatullah.",
+  "summary": "From 1818, Haji Shariatullah's Faraizi movement spread across parts of eastern Bengal as a religious reform movement that also intersected with agrarian grievances under colonial and zamindari structures. It promoted Islamic obligations and social discipline while building organized rural networks among Muslim peasants.",
+  "themeColor": "#5d6a3a",
+  "ctaLabel": "Explore 1818",
+  "heroTagline": "The Faraizi movement joined religious reform with rural social mobilization in colonial Bengal.",
+  "summarySourceIds": [
+    "faraizi-movement-banglapedia",
+    "faraizi-movement-wikipedia"
+  ],
+  "whyItMatters": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+  "whyItMattersSourceIds": [
+    "faraizi-movement-banglapedia",
+    "haji-shariatullah-banglapedia"
+  ],
+  "importance": "major",
+  "parentEvent": "1793-permanent-settlement-in-bengal",
+  "relatedEvents": [
+    {
+      "eventId": "1793-permanent-settlement-in-bengal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1857-sipahi-revolt",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1906-all-india-muslim-league-founded-in-dhaka",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1793-permanent-settlement-in-bengal",
+    "1857-sipahi-revolt",
+    "1906-all-india-muslim-league-founded-in-dhaka"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "longTermLegacy": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+  "longTermLegacySourceIds": [
+    "faraizi-movement-banglapedia",
+    "haji-shariatullah-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+  "identityMemorySourceIds": [
+    "faraizi-movement-banglapedia",
+    "haji-shariatullah-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "From 1818, Haji Shariatullah's Faraizi movement spread across parts of eastern Bengal as a religious reform movement that also intersected with agrarian grievances under colonial and zamindari structures. It promoted Islamic obligations and social discipline while building organized rural networks among Muslim peasants.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "faraizi-movement-wikipedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "This event matters because the Faraizi movement connected faith, social reform, and peasant politics in eastern Bengal. Its networks and claims shaped later Muslim political consciousness, rural protest traditions, and debates on authority under colonial rule.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

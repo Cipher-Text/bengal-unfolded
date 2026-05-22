@@ -1,0 +1,75 @@
+{
+  "slug": "2006-caretaker-crisis-and-emergency-rule",
+  "year": "2006-2008",
+  "title": "Caretaker Crisis and Emergency Rule",
+  "subtitle": "Electoral deadlock, emergency governance, and political transition.",
+  "summary": "Between late 2006 and 2008, Bangladesh passed through a severe caretaker-system crisis marked by disputed electoral arrangements, escalating street conflict, the 11 January emergency, and prolonged non-elected rule before returning to electoral politics.",
+  "themeColor": "#4d5a7a",
+  "ctaLabel": "Explore the transition",
+  "heroTagline": "The caretaker framework entered its most contested phase under emergency conditions.",
+  "whyItMatters": "This period reshaped debates on constitutional design, election credibility, civil-military boundaries, and democratic resilience in Bangladesh.",
+  "importance": "high",
+  "parentEvent": "1975-baksal-formation-and-collapse",
+  "childEventIds": [
+    "2007-2008-emergency-caretaker-rule",
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1975-baksal-formation-and-collapse",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "contrast"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse",
+    "1990-mass-uprising",
+    "2024-anti-discrimination-movement"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "caretaker-government-banglapedia",
+    "khaleda-zia-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "caretaker-government-banglapedia",
+    "khaleda-zia-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Between late 2006 and 2008, Bangladesh passed through a severe caretaker-system crisis marked by disputed electoral arrangements, escalating street conflict, the 11 January emergency, and prolonged non-elected rule before returning to electoral politics.",
+      "sourceIds": [
+        "caretaker-government-banglapedia",
+        "khaleda-zia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This period reshaped debates on constitutional design, election credibility, civil-military boundaries, and democratic resilience in Bangladesh.",
+      "sourceIds": [
+        "caretaker-government-banglapedia",
+        "khaleda-zia-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

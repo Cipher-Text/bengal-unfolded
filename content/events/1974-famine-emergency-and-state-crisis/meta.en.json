@@ -1,0 +1,112 @@
+{
+  "slug": "1974-famine-emergency-and-state-crisis",
+  "year": "1974",
+  "title": "Famine, Emergency, and State Crisis",
+  "subtitle": "Scarcity, coercion, and the narrowing of democratic space in early independent Bangladesh.",
+  "summary": "In 1974, Bangladesh faced one of the most severe crises of its early independence period. Floods, food-market failures, wartime economic damage, inflation, and weak administration converged into the famine remembered as the famine of '74, with rural Bangladesh suffering the worst effects. The same year also saw the Special Powers Act and a broader tightening of state power, showing how post-liberation hopes were giving way to fear, scarcity, and coercive governance.",
+  "themeColor": "#6d5848",
+  "ctaLabel": "Explore 1974",
+  "heroTagline": "The republic confronted hunger, distrust, and a shrinking political horizon.",
+  "summarySourceIds": [
+    "famine-banglapedia",
+    "bangladesh-famine-britannica"
+  ],
+  "whyItMatters": "The crisis of 1974 matters because it explains why the legitimacy of the post-1971 order weakened so quickly. Famine exposed the fragility of reconstruction, while emergency-style governance and preventive detention laws signaled a state moving away from the promise of 1972 and toward the ruptures of 1975.",
+  "whyItMattersSourceIds": [
+    "special-powers-act-1974-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "importance": "major",
+  "parentEvent": "1972-state-formation-and-the-1972-constitution",
+  "childEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1972-state-formation-and-the-1972-constitution",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1975-baksal-formation-and-collapse",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1943-bengal-famine",
+      "relationType": "contrast"
+    }
+  ],
+  "relatedEventIds": [
+    "1972-state-formation-and-the-1972-constitution",
+    "1975-baksal-formation-and-collapse",
+    "1943-bengal-famine"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "contentWarnings": [
+    "famine",
+    "mass mortality"
+  ],
+  "requiresSources": true,
+  "longTermLegacy": "The crisis of 1974 matters because it explains why the legitimacy of the post-1971 order weakened so quickly. Famine exposed the fragility of reconstruction, while emergency-style governance and preventive detention laws signaled a state moving away from the promise of 1972 and toward the ruptures of 1975.",
+  "longTermLegacySourceIds": [
+    "special-powers-act-1974-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "The crisis of 1974 matters because it explains why the legitimacy of the post-1971 order weakened so quickly. Famine exposed the fragility of reconstruction, while emergency-style governance and preventive detention laws signaled a state moving away from the promise of 1972 and toward the ruptures of 1975.",
+  "identityMemorySourceIds": [
+    "special-powers-act-1974-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1974, Bangladesh faced one of the most severe crises of its early independence period. Floods, food-market failures, wartime economic damage, inflation, and weak administration converged into the famine remembered as the famine of '74, with rural Bangladesh suffering the worst effects. The same year also saw the Special Powers Act and a broader tightening of state power, showing how post-liberation hopes were giving way to fear, scarcity, and coercive governance.",
+      "sourceIds": [
+        "famine-banglapedia",
+        "bangladesh-famine-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The crisis of 1974 matters because it explains why the legitimacy of the post-1971 order weakened so quickly. Famine exposed the fragility of reconstruction, while emergency-style governance and preventive detention laws signaled a state moving away from the promise of 1972 and toward the ruptures of 1975.",
+      "sourceIds": [
+        "special-powers-act-1974-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The crisis of 1974 matters because it explains why the legitimacy of the post-1971 order weakened so quickly. Famine exposed the fragility of reconstruction, while emergency-style governance and preventive detention laws signaled a state moving away from the promise of 1972 and toward the ruptures of 1975.",
+      "sourceIds": [
+        "special-powers-act-1974-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The crisis of 1974 matters because it explains why the legitimacy of the post-1971 order weakened so quickly. Famine exposed the fragility of reconstruction, while emergency-style governance and preventive detention laws signaled a state moving away from the promise of 1972 and toward the ruptures of 1975.",
+      "sourceIds": [
+        "special-powers-act-1974-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

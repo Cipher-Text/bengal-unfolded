@@ -6,15 +6,15 @@
   "intro": "সামরিক জয় কীভাবে রাজস্বশাসনে রূপ নিল এবং তার প্রতিক্রিয়ায় সামাজিক-রাজনৈতিক প্রতিরোধ কীভাবে গড়ে উঠল—তা বুঝুন।",
   "description": "দখল, দেওয়ানি, দুর্ভিক্ষ, পার্মানেন্ট সেটেলমেন্ট ও প্রতিরোধ আন্দোলনকে একত্রে বিশ্লেষণকারী একটি কাঠামোগত টপিক।",
   "eventSlugs": [
-    "1757",
-    "1764",
-    "1765",
-    "1770",
-    "1793",
-    "1818",
-    "1831",
-    "1857",
-    "1874"
+    "1757-battle-of-plassey",
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine",
+    "1793-permanent-settlement-in-bengal",
+    "1818-faraizi-movement-begins-in-eastern-bengal",
+    "1831-titumir-s-bamboo-fort-uprising",
+    "1857-sipahi-revolt",
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment"
   ],
   "figureIds": [
     "siraj-ud-daulah",

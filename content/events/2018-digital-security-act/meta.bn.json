@@ -9,20 +9,20 @@
   "heroTagline": "এই আইন ডিজিটাল অধিকারকে কেবল প্রযুক্তিগত নয়, একেবারে রাজনৈতিক প্রশ্নে পরিণত করে।",
   "whyItMatters": "ডিজিটাল সিকিউরিটি অ্যাক্ট গুরুত্বপূর্ণ, কারণ এটি ডিজিটাল মতপ্রকাশকে ভয়, সেন্সরশিপ ও রাষ্ট্রীয় কর্তৃত্বের রাজনীতির সঙ্গে সরাসরি যুক্ত করে। এটি বহু বছর সাংবাদিক, অধিকারকর্মী ও অনলাইন সমালোচকদের পরিবেশকে প্রভাবিত করে এবং ২০২৩ সালে সাইবার সিকিউরিটি অ্যাক্টে প্রতিস্থাপিত হওয়ার আগ পর্যন্ত নাগরিক ও রাজনৈতিক বক্তব্যের জন্য একটি মৌলিক পটভূমি তৈরি করে।",
   "importance": "high",
-  "parentEvent": "2018",
+  "parentEvent": "2018-a-year-of-protest-control-and-contested-legitimacy",
   "relatedEvents": [
     {
       "eventId": "2018-election",
       "relationType": "background"
     },
     {
-      "eventId": "2024",
+      "eventId": "2024-anti-discrimination-movement",
       "relationType": "legacy"
     }
   ],
   "relatedEventIds": [
     "2018-election",
-    "2024"
+    "2024-anti-discrimination-movement"
   ],
   "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
   "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
