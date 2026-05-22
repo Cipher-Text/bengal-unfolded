@@ -42,6 +42,8 @@ For every schema or field change:
 - IDs must reference existing entities.
 - Arrays must not contain duplicates where relationship uniqueness is required.
 - Enum-like fields must only use allowed values.
+- Resource metadata under `content/resources/*/meta.<locale>.json` must include `quality` in `primary | secondary | archive | editorial` (see `docs/SOURCE_QUALITY.md`).
+- `primary` vs `secondary` assignments must follow the distinction tests defined in `docs/SOURCE_QUALITY.md` (origin, processing, proximity, reproduction, commentary boundary).
 - If a claim has citations, its evidence-level metadata is required.
 - EN/BN parity is required for required locale files.
 - Figure `image` paths in `content/figures/*/meta.<locale>.json` should use stable files under `public/figures/`; strict file-existence enforcement is optional.

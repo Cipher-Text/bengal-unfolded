@@ -265,6 +265,7 @@ Supported place IDs:
   - `attribution` (credit line; supports writer/director/cartographer/organization; loader falls back to legacy `creator` or `author`)
   - `creatorType?` (`person` | `organization`) used for creator page schema typing and SEO; defaults to `person` when omitted
   - `note`
+  - `quality` in `primary | secondary | archive | editorial`
   - `category` in `read | watch | explore | understand`
   - `subcategory` in:
     - `historical-literature`
@@ -279,6 +280,8 @@ Supported place IDs:
     - `research`
     - `papers`
   - `href?`
+
+Source quality classification is governed by [docs/SOURCE_QUALITY.md](./SOURCE_QUALITY.md).
 
 ## Topic schema
 

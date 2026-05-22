@@ -13,6 +13,7 @@ These rules keep writing quality and historical framing consistent across human 
 - Historical claims should include supporting `sourceIds`.
 - Interpretive statements should be clearly signposted as interpretation/context.
 - Sensitive or potentially contested claims must use high-quality sources where available.
+- Do not label a source as `primary` unless it is first-hand or an institutional record; analysis/synthesis sources are `secondary` (see `docs/SOURCE_QUALITY.md`).
 
 ## Sensitive history policy
 

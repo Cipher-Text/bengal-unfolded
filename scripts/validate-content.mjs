@@ -620,14 +620,12 @@ async function main() {
       }
       const meta = await readJson(metaPath, errors);
       if (!meta || typeof meta !== "object") continue;
-      if ("quality" in meta && meta.quality !== undefined) {
-        if (typeof meta.quality !== "string") {
-          errors.push(`quality must be string at content/resources/${resourceId}/meta.${locale}.json`);
-          continue;
-        }
-        if (!allowedQuality.has(meta.quality)) {
-          errors.push(`Invalid quality '${meta.quality}' at content/resources/${resourceId}/meta.${locale}.json`);
-        }
+      if (typeof meta.quality !== "string") {
+        errors.push(`Missing or invalid quality at content/resources/${resourceId}/meta.${locale}.json`);
+        continue;
+      }
+      if (!allowedQuality.has(meta.quality)) {
+        errors.push(`Invalid quality '${meta.quality}' at content/resources/${resourceId}/meta.${locale}.json`);
       }
     }
   }

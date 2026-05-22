@@ -788,7 +788,7 @@ export type EventResource = {
   creatorId: string;
   creatorType?: "person" | "organization";
   note: string;
-  quality?: SourceQuality;
+  quality: SourceQuality;
   category: ResourceCategory;
   subcategory:
     | "historical-literature"

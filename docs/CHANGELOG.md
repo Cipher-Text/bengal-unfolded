@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-05-22
+
+### Completed
+
+- RM-TRUTH-002 source reliability rubric completion:
+  - Model:
+    - Updated `EventResource.quality` in `src/types/content.ts` from optional to required.
+  - Validation:
+    - Updated `scripts/validate-content.mjs` to require `quality` on every `content/resources/*/meta.<locale>.json`.
+    - Kept strict enum enforcement for `quality` values: `primary | secondary | archive | editorial`.
+  - Backfill:
+    - Added missing `quality: "secondary"` for `content/resources/caretaker-government-banglapedia/meta.en.json` and `meta.bn.json`.
+  - Docs:
+    - Updated `docs/CONTENT_MODEL.md` resource schema to explicitly include `quality`.
+    - Updated `docs/AI_CONTRACT.md` contract rules to require resource `quality` classification and reference `docs/SOURCE_QUALITY.md`.
+    - Marked RM-TRUTH-002 complete in `docs/ROADMAP.md`.
+
+- RM-TRUTH-003 primary vs secondary distinction completion:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - No new validator checks required beyond required `quality` enum enforcement already implemented in RM-TRUTH-002.
+  - Policy/docs:
+    - Expanded `docs/SOURCE_QUALITY.md` with explicit primary-vs-secondary decision tests and examples (origin, processing, proximity, reproduction, commentary boundary).
+    - Updated `docs/EDITORIAL_RULES.md` with a hard rule against mislabeling interpretive sources as `primary`.
+    - Updated `docs/AI_CONTRACT.md` to require using the rubric distinction tests for `primary` vs `secondary` assignment.
+    - Marked RM-TRUTH-003 complete in `docs/ROADMAP.md`.
+
 ## 2026-05-20
 
 ### Completed
