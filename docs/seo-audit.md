@@ -1,6 +1,6 @@
 # SEO Audit and Fixes - Bengal Unfolded
 
-Date: 2026-05-08
+Date: 2026-05-22
 Canonical domain: `https://bengalunfolded.com`
 
 ## Status legend
@@ -130,6 +130,47 @@ File updated:
 ### Priority level
 - Technical SEO foundation: Mostly complete
 - Current focus: Keyword strategy, content hubs, search-intent pages, internal linking, and Search Console improvement loop
+
+## Search Console Insight Update (2026-05)
+
+Recent query/page signals show Google is already treating Bengal Unfolded as:
+- a historical reference site
+- a figure/entity knowledge base
+- an educational resource platform
+
+This is the strongest early-stage signal so far. Discovery is being driven mainly by figure pages and long-tail historical entities, not only broad timeline terms.
+
+### What is working
+- Figure/entity pages are earning impressions for specific historical names.
+- English routes (`/en/...`) are contributing strongly to discoverability.
+- Existing site structure (entity pages + connected history routes) is indexable and understandable by Google.
+
+### Main gap
+- CTR is underperforming on multiple pages with meaningful impressions.
+- Pattern: high impressions + very low clicks usually indicates weak SERP positioning (title/description context is too generic).
+
+### Immediate SEO execution playbook
+1. Rewrite figure titles using contextual role + moment formula.
+2. Rewrite figure meta descriptions to answer: who, significance, period, and reader outcome.
+3. Add related-entity blocks to figure pages (related figures, events, places, books/resources).
+4. Build tight timeline clusters around key years/moments and interlink all pages in each cluster.
+5. Expand structured data consistency for entity and event context where missing.
+
+### Title formula (figure pages)
+`{Name} — {Role} in {Historical Context} | Bengal Unfolded`
+
+Examples:
+- `Rai Durlabh Ram — Banker, Politics, and the Battle of Plassey | Bengal Unfolded`
+- `Umichand — Merchant Networks and Plassey-Era Conspiracy | Bengal Unfolded`
+
+### Description formula (figure pages)
+`Learn about {Name}, {role}, and how they shaped {event/period} in Bengal history, with timeline context and sources.`
+
+### Strategic note
+Current phase is not a technical-indexing problem. It is a CTR and authority-depth phase:
+- stronger SERP copy
+- denser semantic internal linking
+- deeper entity coverage per figure
 
 ## 1) Search Console workflow (must add)
 
