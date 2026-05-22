@@ -1,8 +1,8 @@
 [
   {
     "year": "Jul 1946",
-    "title": "Muslim League declares a programme of direct action",
-    "detail": "After the collapse of agreement around the Cabinet Mission framework, the Muslim League resolved to abandon reliance on constitutional negotiation alone and declared 16 August as Direct Action Day.",
+    "title": "Muslim League announces Direct Action programme",
+    "detail": "After political deadlock around the Cabinet Mission framework, the Muslim League declared that 16 August would be observed as Direct Action Day.",
     "sourceIds": [
       "direct-action-day-banglapedia",
       "direct-action-day-britannica"
@@ -14,8 +14,8 @@
   },
   {
     "year": "16 Aug 1946",
-    "title": "Hartal and rally in Calcutta escalate into violence",
-    "detail": "In Bengal the League ministry backed a public holiday and a major rally in Calcutta. Street confrontations, forced closures, retaliatory mobilization, and inflammatory political atmosphere quickly turned the day into organized communal bloodshed.",
+    "title": "Hartal and rally in Calcutta turn violent",
+    "detail": "In Bengal, a public holiday and large mobilization in Calcutta were followed by escalating street clashes, reprisals, and organized communal attacks.",
     "sourceIds": [
       "direct-action-day-banglapedia",
       "calcutta-riot-1946-banglapedia",
@@ -29,8 +29,8 @@
   },
   {
     "year": "16-22 Aug 1946",
-    "title": "The Great Calcutta Killing devastates the city",
-    "detail": "For several days Calcutta experienced killings, arson, looting, and reprisals between Hindus and Muslims on a massive scale, while administrative response and political responsibility became deeply contested.",
+    "title": "Great Calcutta Killing devastates the city",
+    "detail": "For days, Calcutta saw mass killings, arson, looting, and retaliatory violence between communities. Historical accounts vary on precise casualty totals, but agree on very large-scale loss of life and displacement.",
     "sourceIds": [
       "calcutta-riot-1946-banglapedia",
       "direct-action-day-britannica"
@@ -43,11 +43,11 @@
   },
   {
     "year": "Oct-Nov 1946",
-    "title": "Violence spreads to Noakhali, Bihar, and beyond",
-    "detail": "The Calcutta killings became both precedent and provocation for further communal massacres elsewhere, deepening the sense that coexistence under a united constitutional future was collapsing.",
+    "title": "Communal violence spreads beyond Calcutta",
+    "detail": "Later in 1946, major communal massacres in regions including Noakhali and Bihar deepened fear, revenge cycles, and political separation.",
     "sourceIds": [
-      "direct-action-day-banglapedia",
-      "direct-action-day-britannica"
+      "direct-action-day-britannica",
+      "the-great-partition"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -55,12 +55,12 @@
     ]
   },
   {
-    "year": "Long-term impact",
-    "title": "Partition of Bengal becomes more likely",
-    "detail": "Direct Action Day and its aftermath hardened political positions in Bengal and across India, helping make the final partition settlement of 1947 appear increasingly unavoidable.",
+    "year": "1947 outcome",
+    "title": "Partition politics harden in Bengal",
+    "detail": "The 1946 violence became one of the strongest arguments used by competing political camps that coexistence had failed, reinforcing momentum toward Bengal's partition in 1947.",
     "sourceIds": [
-      "direct-action-day-banglapedia",
-      "the-great-partition"
+      "the-great-partition",
+      "partition-of-bengal-1947-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
