@@ -123,6 +123,21 @@
   - Docs:
     - Marked `RM-SEO-006` complete in `docs/ROADMAP.md`.
 
+- RM-SHARE-004 canonical URL and locale-aware metadata consistency checks:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - Added central metadata consistency guards in `src/lib/seo.ts`:
+      - `canonicalPath` must start with locale prefix (`/en` or `/bn`).
+      - `languagePathWithoutLocale` must not include locale prefix.
+      - `canonicalPath` must exactly match `/${locale}${languagePathWithoutLocale}` when language path is provided.
+    - Lint verification run (`pnpm lint`) completed with warnings only (no errors).
+  - UI/runtime:
+    - `buildPageMetadata` now emits absolute canonical URLs and absolute Open Graph page URLs derived from `CANONICAL_ORIGIN`.
+    - Existing page-level metadata calls now inherit strict locale/canonical consistency checks automatically.
+  - Docs:
+    - Marked `RM-SHARE-004` complete in `docs/ROADMAP.md`.
+
 ## 2026-05-20
 
 ### Completed

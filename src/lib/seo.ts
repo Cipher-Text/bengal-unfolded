@@ -58,16 +58,32 @@ export function buildPageMetadata(input: {
   const ogType = input.type ?? "website";
   const languagePath = input.languagePathWithoutLocale;
   const locale = input.locale;
+  const localePrefix = `/${locale}`;
+  const expectedCanonical = `${localePrefix}${languagePath ?? ""}`;
+
+  if (!input.canonicalPath.startsWith(localePrefix)) {
+    throw new Error(`canonicalPath must start with locale prefix "${localePrefix}", got "${input.canonicalPath}"`);
+  }
+  if (languagePath && (languagePath.startsWith("/en") || languagePath.startsWith("/bn"))) {
+    throw new Error(`languagePathWithoutLocale must not include locale prefix, got "${languagePath}"`);
+  }
+  if (languagePath !== undefined && input.canonicalPath !== expectedCanonical) {
+    throw new Error(
+      `canonicalPath "${input.canonicalPath}" must match locale + languagePathWithoutLocale "${expectedCanonical}"`,
+    );
+  }
+
   const localeAlternates = languagePath ? languageAlternates(languagePath, true) : undefined;
   const ogLocaleAlternates = locale === "bn" ? ["en_US"] : ["bn_BD"];
 
+  const canonicalUrl = absoluteUrl(input.canonicalPath);
   const ogImage = input.ogImagePath ? absoluteUrl(input.ogImagePath) : DEFAULT_OG_IMAGE;
 
   return {
     title: input.title,
     description: input.description,
     alternates: {
-      canonical: input.canonicalPath,
+      canonical: canonicalUrl,
       languages: localeAlternates,
     },
     robots: input.noIndex ? { index: false, follow: true } : undefined,
@@ -76,7 +92,7 @@ export function buildPageMetadata(input: {
       title: input.title,
       description: input.description,
       siteName: SITE_NAME,
-      url: input.canonicalPath,
+      url: canonicalUrl,
       locale: localeCode(input.locale),
       alternateLocale: ogLocaleAlternates,
       images: [
