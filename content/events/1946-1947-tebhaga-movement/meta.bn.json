@@ -1,0 +1,50 @@
+{
+  "slug": "1946-1947-tebhaga-movement",
+  "year": "১৯৪৬-১৯৪৭",
+  "title": "তেভাগা আন্দোলন",
+  "subtitle": "বাংলার বর্গাচাষিরা ফসলের দুই-তৃতীয়াংশ দাবিতে কৃষি বৈষম্যকে গণরাজনীতির কেন্দ্রে নিয়ে আসে।",
+  "summary": "তেভাগা আন্দোলন (১৯৪৬-১৯৪৭) ছিল বাংলার একটি বৃহৎ বর্গাচাষি আন্দোলন, যেখানে বর্গাদাররা দাবি তোলে যে উৎপাদিত ফসলের দুই-তৃতীয়াংশ চাষির হাতে থাকবে, প্রচলিত অর্ধেক ভাগ নয়। বামপন্থী অংশগ্রহণসহ কৃষক সংগঠনগুলোর নেতৃত্বে আন্দোলনটি একাধিক জেলায় ছড়িয়ে পড়ে এবং অন্তিম ঔপনিবেশিক বাংলার অন্যতম গুরুত্বপূর্ণ কৃষি-সংঘাতে রূপ নেয়।",
+  "themeColor": "#166534",
+  "ctaLabel": "তেভাগা দেখুন",
+  "heroTagline": "দেশভাগ-পূর্ব সন্ধিক্ষণে ভূমি, শ্রেণি ও রাজনৈতিক রূপান্তরকে যুক্ত করা এক গ্রামীণ গণসংগ্রাম।",
+  "summarySourceIds": [
+    "partition-politics-banglapedia",
+    "inside-bengal-politics-1936-1947",
+    "different-nationalisms-bengal-1905-1947"
+  ],
+  "whyItMatters": "তেভাগা গুরুত্বপূর্ণ, কারণ দুর্ভিক্ষ-পরবর্তী সংকট, সাম্প্রদায়িক উত্তেজনা ও সাংবিধানিক রূপান্তরের সময়ে এটি কৃষক-শোষণের প্রশ্নকে কেন্দ্রীয় রাজনৈতিক ইস্যুতে পরিণত করে। দেশভাগের রাজনীতি তীব্র হওয়ার মধ্যেও বহু এলাকায় এটি দেখায় যে শ্রেণিভিত্তিক কৃষক দাবি সাম্প্রদায়িক বিভাজনকে আংশিকভাবে অতিক্রম করতে পারে।",
+  "whyItMattersSourceIds": [
+    "inside-bengal-politics-1936-1947",
+    "partition-politics-banglapedia",
+    "from-fascism-to-famine-complicity-conscience-and-peasant-passivity"
+  ],
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1943-bengal-famine",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1954-united-front-election-victory-in-east-bengal",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1943-bengal-famine",
+    "1947-partition-and-eastern-bengal",
+    "1954-united-front-election-victory-in-east-bengal"
+  ],
+  "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "দেশভাগ ও রাজনৈতিক প্রতিনিধিত্ব",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল"
+}

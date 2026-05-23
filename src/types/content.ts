@@ -31,6 +31,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1937-bengal-provincial-election-and-coalition-ministry",
   "1940-lahore-resolution",
   "1946-direct-action-day-and-the-great-calcutta-killing",
+  "1946-1947-tebhaga-movement",
   "1946-noakhali-riots",
   "1943-bengal-famine",
   "1947-partition-and-eastern-bengal",

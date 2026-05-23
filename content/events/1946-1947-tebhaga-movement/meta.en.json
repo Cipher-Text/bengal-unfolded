@@ -1,0 +1,50 @@
+{
+  "slug": "1946-1947-tebhaga-movement",
+  "year": "1946-1947",
+  "title": "Tebhaga Movement",
+  "subtitle": "Sharecroppers in Bengal demanded two-thirds of produce, turning agrarian inequality into mass politics.",
+  "summary": "The Tebhaga Movement (1946-1947) was a major sharecropper mobilization in Bengal in which bargadars demanded that two-thirds of harvested produce should remain with cultivators instead of the customary half-share claimed by jotedars. Organized through peasant networks with strong left participation, the movement spread across multiple districts and became one of late-colonial Bengal's most significant agrarian confrontations.",
+  "themeColor": "#166534",
+  "ctaLabel": "Explore Tebhaga",
+  "heroTagline": "A rural mass struggle that linked land, class, and political transition on the eve of partition.",
+  "summarySourceIds": [
+    "partition-politics-banglapedia",
+    "inside-bengal-politics-1936-1947",
+    "different-nationalisms-bengal-1905-1947"
+  ],
+  "whyItMatters": "Tebhaga matters because it made agrarian exploitation a central political question at the exact moment Bengal faced famine aftermath, communal tension, and constitutional transition. It demonstrated that class-based peasant demands could cut across communal lines in many local settings, even as partition politics hardened elsewhere.",
+  "whyItMattersSourceIds": [
+    "inside-bengal-politics-1936-1947",
+    "partition-politics-banglapedia",
+    "from-fascism-to-famine-complicity-conscience-and-peasant-passivity"
+  ],
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1943-bengal-famine",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1954-united-front-election-victory-in-east-bengal",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1943-bengal-famine",
+    "1947-partition-and-eastern-bengal",
+    "1954-united-front-election-victory-in-east-bengal"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region"
+}

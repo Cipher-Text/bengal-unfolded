@@ -1,0 +1,58 @@
+[
+  {
+    "year": "1943-1945 background",
+    "title": "Famine aftermath deepens rural crisis",
+    "detail": "The social and economic aftershocks of wartime scarcity and famine intensified grievances among poor peasants and sharecroppers in Bengal.",
+    "sourceIds": [
+      "indian-famines-and-peasant-victims-bengal-1943-44",
+      "from-fascism-to-famine-complicity-conscience-and-peasant-passivity"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Late 1946",
+    "title": "Demand for tebhaga becomes organized rural campaign",
+    "detail": "Sharecroppers in several districts mobilized around the demand that cultivators retain two-thirds of the crop and store produce in their own granaries.",
+    "sourceIds": [
+      "inside-bengal-politics-1936-1947",
+      "partition-politics-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1946-1947",
+    "title": "Confrontations with landlords and state repression",
+    "detail": "Local confrontations, arrests, and coercive responses followed as jotedar interests and authorities attempted to contain the movement.",
+    "sourceIds": [
+      "inside-bengal-politics-1936-1947",
+      "different-nationalisms-bengal-1905-1947"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  },
+  {
+    "year": "1947 and after",
+    "title": "Tebhaga leaves durable agrarian-political legacy",
+    "detail": "Although fragmented by partition-era transition, Tebhaga shaped later East Bengal and West Bengal debates on peasant rights, tenancy, and land reform politics.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "inside-bengal-politics-1936-1947"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  }
+]

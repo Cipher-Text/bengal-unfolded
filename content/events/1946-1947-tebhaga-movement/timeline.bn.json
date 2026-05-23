@@ -1,0 +1,58 @@
+[
+  {
+    "year": "১৯৪৩-১৯৪৫ পটভূমি",
+    "title": "দুর্ভিক্ষ-পরবর্তী সংকটে গ্রামীণ সমাজে চাপ বাড়ে",
+    "detail": "যুদ্ধকালীন সংকট ও দুর্ভিক্ষের সামাজিক-অর্থনৈতিক অভিঘাতে বাংলার দরিদ্র কৃষক ও বর্গাচাষিদের অসন্তোষ তীব্র হয়।",
+    "sourceIds": [
+      "indian-famines-and-peasant-victims-bengal-1943-44",
+      "from-fascism-to-famine-complicity-conscience-and-peasant-passivity"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "culture"
+    ]
+  },
+  {
+    "year": "১৯৪৬-এর শেষভাগ",
+    "title": "তেভাগা দাবি সংগঠিত গ্রামীণ আন্দোলনে রূপ নেয়",
+    "detail": "বহু জেলায় বর্গাচাষিরা ফসলের দুই-তৃতীয়াংশ চাষির দখলে রাখা এবং চাষির গোলায় ধান তোলার দাবিতে সংগঠিত হয়।",
+    "sourceIds": [
+      "inside-bengal-politics-1936-1947",
+      "partition-politics-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৪৬-১৯৪৭",
+    "title": "জোতদার স্বার্থ ও প্রশাসনের সঙ্গে সংঘাত",
+    "detail": "আন্দোলন দমনে বহু এলাকায় জোতদারপক্ষ ও প্রশাসনিক প্রতিক্রিয়া, গ্রেপ্তার এবং বলপ্রয়োগমূলক পরিস্থিতি তৈরি হয়।",
+    "sourceIds": [
+      "inside-bengal-politics-1936-1947",
+      "different-nationalisms-bengal-1905-1947"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "economy"
+    ]
+  },
+  {
+    "year": "১৯৪৭ ও পরবর্তী সময়",
+    "title": "তেভাগা কৃষি-রাজনীতিতে দীর্ঘস্থায়ী উত্তরাধিকার রাখে",
+    "detail": "দেশভাগ-সংক্রমণে আন্দোলনের গতি ভেঙে গেলেও পূর্ববাংলা ও পশ্চিমবঙ্গে কৃষকের অধিকার, বর্গাচাষ ও ভূমি-সংস্কার বিতর্কে তেভাগা স্থায়ী প্রভাব ফেলে।",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "inside-bengal-politics-1936-1947"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  }
+]
