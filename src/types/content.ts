@@ -594,6 +594,45 @@ export type EventRelation = {
   relationType: EventRelationType;
 };
 
+export type FaqItem = {
+  question: string;
+  answer: string;
+  sourceIds?: string[];
+};
+
+export type EventMisconception = {
+  title: string;
+  explanation: string;
+  sourceIds?: string[];
+};
+
+export type EventMapPointRole =
+  | "battlefield"
+  | "capital"
+  | "route"
+  | "birthplace"
+  | "deathplace"
+  | "treaty-place"
+  | "movement-center"
+  | "administrative-center"
+  | "other";
+
+export type EventMapPoint = {
+  placeId: string;
+  label: string;
+  lat?: number;
+  lon?: number;
+  role?: EventMapPointRole;
+  year?: string;
+  note?: string;
+};
+
+export type LearningPathItem = {
+  type: "event" | "figure" | "resource" | "place" | "period" | "topic";
+  id: string;
+  reason?: string;
+};
+
 export type EventClaimSection =
   | "summary"
   | "whyItMatters"
@@ -614,6 +653,9 @@ export type EventMeta = {
   year: string;
   title: string;
   subtitle: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  quickAnswer?: string;
   summary: string;
   summarySourceIds?: string[];
   summaryEvidenceLevel?: EvidenceLevel;
@@ -621,6 +663,11 @@ export type EventMeta = {
   ctaLabel: string;
   heroTagline: string;
   whyItMatters: string;
+  causes?: string[];
+  consequences?: string[];
+  misconceptions?: EventMisconception[];
+  faq?: FaqItem[];
+  mapPoints?: EventMapPoint[];
   whyItMattersSourceIds?: string[];
   whyItMattersEvidenceLevel?: EvidenceLevel;
   longTermLegacy?: string;
@@ -686,6 +733,12 @@ export type Figure = {
   id: FigureId;
   name: string;
   name_en?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  shortAnswer?: string;
+  birthYear?: string;
+  deathYear?: string;
+  activePeriod?: string;
   role: string;
   group: "leader" | "coordinator" | "martyr" | "organization" | "collective";
   contribution: string;
@@ -693,6 +746,11 @@ export type Figure = {
   impact: string;
   highlight?: string;
   tags?: string[];
+  primaryEventIds?: EventSlug[];
+  relatedPlaceIds?: PlaceId[];
+  alternateNames?: string[];
+  searchAliases?: string[];
+  faq?: FaqItem[];
   image?: string;
 };
 
@@ -743,6 +801,13 @@ export type PlaceMeta = {
   description: string;
   regionType: "region" | "city" | "district" | "site";
   themeColor: string;
+  lat?: number;
+  lon?: number;
+  modernCountry?: string;
+  historicalNames?: string[];
+  relatedEventIds?: EventSlug[];
+  relatedFigureIds?: FigureId[];
+  mapNote?: string;
 };
 
 export type Place = PlaceMeta;
@@ -752,12 +817,20 @@ export type TopicMeta = {
   priority?: number;
   title: string;
   tagline: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  beginnerSummary?: string;
+  advancedSummary?: string;
   intro: string;
   description: string;
   eventSlugs: EventSlug[];
   figureIds?: FigureId[];
   resourceIds?: ResourceId[];
   keywords?: string[];
+  primaryKeywords?: string[];
+  secondaryKeywords?: string[];
+  faq?: FaqItem[];
+  learningPath?: LearningPathItem[];
 };
 
 export type Topic = TopicMeta;
@@ -773,6 +846,14 @@ export type Book = {
 
 export type ResourceCategory = "read" | "watch" | "explore" | "understand";
 export type SourceQuality = "primary" | "secondary" | "archive" | "editorial";
+export type ResourceSourceQuality =
+  | "primary"
+  | "secondary"
+  | "archive"
+  | "academic"
+  | "editorial"
+  | "reference"
+  | "unknown";
 export type EvidenceLevel = "high" | "medium" | "low";
 export type TimelineTheme =
   | "language"
@@ -789,6 +870,8 @@ export type EventResource = {
   creatorType?: "person" | "organization";
   note: string;
   quality: SourceQuality;
+  sourceQuality?: ResourceSourceQuality;
+  evidenceLevel?: EvidenceLevel;
   category: ResourceCategory;
   subcategory:
     | "historical-literature"
@@ -803,6 +886,10 @@ export type EventResource = {
     | "research"
     | "papers";
   href?: string;
+  relatedEventIds?: EventSlug[];
+  relatedFigureIds?: FigureId[];
+  relatedTopicIds?: string[];
+  whyItMatters?: string;
 };
 
 export type Creator = {

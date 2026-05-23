@@ -160,6 +160,47 @@ function normalizeEventResource(
     typeof resource.subcategory === "string" ? resource.subcategory : undefined;
   const legacyType =
     typeof resource.type === "string" ? resource.type : undefined;
+  const sourceQualityRaw =
+    typeof resource.sourceQuality === "string"
+      ? resource.sourceQuality.toLowerCase()
+      : undefined;
+  const sourceQuality =
+    sourceQualityRaw === "primary" ||
+    sourceQualityRaw === "secondary" ||
+    sourceQualityRaw === "archive" ||
+    sourceQualityRaw === "academic" ||
+    sourceQualityRaw === "editorial" ||
+    sourceQualityRaw === "reference" ||
+    sourceQualityRaw === "unknown"
+      ? sourceQualityRaw
+      : undefined;
+  const evidenceLevelRaw =
+    typeof resource.evidenceLevel === "string"
+      ? resource.evidenceLevel.toLowerCase()
+      : undefined;
+  const evidenceLevel =
+    evidenceLevelRaw === "high" ||
+    evidenceLevelRaw === "medium" ||
+    evidenceLevelRaw === "low"
+      ? evidenceLevelRaw
+      : undefined;
+  const relatedEventIds = Array.isArray(resource.relatedEventIds)
+    ? resource.relatedEventIds
+        .filter((value): value is string => typeof value === "string")
+        .filter((value): value is EventSlug => isEventSlug(value))
+    : undefined;
+  const relatedFigureIds = Array.isArray(resource.relatedFigureIds)
+    ? resource.relatedFigureIds
+        .filter((value): value is string => typeof value === "string")
+        .filter((value): value is FigureId => isFigureId(value))
+    : undefined;
+  const relatedTopicIds = Array.isArray(resource.relatedTopicIds)
+    ? resource.relatedTopicIds.filter(
+        (value): value is string => typeof value === "string" && value.trim().length > 0,
+      )
+    : undefined;
+  const whyItMatters =
+    typeof resource.whyItMatters === "string" ? resource.whyItMatters : undefined;
 
   if (category && subcategory) {
     return {
@@ -170,9 +211,15 @@ function normalizeEventResource(
       creatorType,
       note,
       quality,
+      sourceQuality,
+      evidenceLevel,
       href,
       category: category as EventResource["category"],
       subcategory: subcategory as EventResource["subcategory"],
+      relatedEventIds,
+      relatedFigureIds,
+      relatedTopicIds,
+      whyItMatters,
     };
   }
 
@@ -185,9 +232,15 @@ function normalizeEventResource(
       creatorType,
       note,
       quality,
+      sourceQuality,
+      evidenceLevel,
       href,
       category: "read",
       subcategory: "historical-literature",
+      relatedEventIds,
+      relatedFigureIds,
+      relatedTopicIds,
+      whyItMatters,
     };
   }
   if (legacyType === "article") {
@@ -199,9 +252,15 @@ function normalizeEventResource(
       creatorType,
       note,
       quality,
+      sourceQuality,
+      evidenceLevel,
       href,
       category: "understand",
       subcategory: "research",
+      relatedEventIds,
+      relatedFigureIds,
+      relatedTopicIds,
+      whyItMatters,
     };
   }
   return {
@@ -212,9 +271,15 @@ function normalizeEventResource(
     creatorType,
     note,
     quality,
+    sourceQuality,
+    evidenceLevel,
     href,
     category: "explore",
     subcategory: "archive",
+    relatedEventIds,
+    relatedFigureIds,
+    relatedTopicIds,
+    whyItMatters,
   };
 }
 
@@ -312,6 +377,15 @@ function normalizeFigure(
     id,
     name,
     name_en: typeof figure.name_en === "string" ? figure.name_en : undefined,
+    seoTitle: typeof figure.seoTitle === "string" ? figure.seoTitle : undefined,
+    seoDescription:
+      typeof figure.seoDescription === "string" ? figure.seoDescription : undefined,
+    shortAnswer:
+      typeof figure.shortAnswer === "string" ? figure.shortAnswer : undefined,
+    birthYear: typeof figure.birthYear === "string" ? figure.birthYear : undefined,
+    deathYear: typeof figure.deathYear === "string" ? figure.deathYear : undefined,
+    activePeriod:
+      typeof figure.activePeriod === "string" ? figure.activePeriod : undefined,
     role,
     group,
     contribution,
@@ -320,6 +394,37 @@ function normalizeFigure(
     highlight:
       typeof figure.highlight === "string" ? figure.highlight : undefined,
     tags,
+    primaryEventIds: Array.isArray(figure.primaryEventIds)
+      ? figure.primaryEventIds
+          .filter((value): value is string => typeof value === "string")
+          .filter((value): value is EventSlug => isEventSlug(value))
+      : undefined,
+    relatedPlaceIds: Array.isArray(figure.relatedPlaceIds)
+      ? figure.relatedPlaceIds
+          .filter((value): value is string => typeof value === "string")
+          .filter((value): value is PlaceId => isPlaceId(value))
+      : undefined,
+    alternateNames: Array.isArray(figure.alternateNames)
+      ? figure.alternateNames.filter(
+          (value): value is string => typeof value === "string" && value.trim().length > 0,
+        )
+      : undefined,
+    searchAliases: Array.isArray(figure.searchAliases)
+      ? figure.searchAliases.filter(
+          (value): value is string => typeof value === "string" && value.trim().length > 0,
+        )
+      : undefined,
+    faq: Array.isArray(figure.faq)
+      ? figure.faq
+          .filter((item): item is Record<string, unknown> => Boolean(item) && typeof item === "object")
+          .map((item) => ({
+            question: typeof item.question === "string" ? item.question : "",
+            answer: typeof item.answer === "string" ? item.answer : "",
+            sourceIds: Array.isArray(item.sourceIds)
+              ? item.sourceIds.filter((value): value is string => typeof value === "string")
+              : undefined,
+          }))
+      : undefined,
     image: typeof figure.image === "string" ? figure.image : undefined,
   };
 }

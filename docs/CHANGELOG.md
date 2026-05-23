@@ -1,5 +1,41 @@
 # Changelog
 
+## 2026-05-23
+
+### Completed
+
+- Content schema extension for SEO, relationships, maps, learning paths, and backend-readiness:
+  - Model:
+    - Added optional Figure metadata fields in `src/types/content.ts`:
+      - `seoTitle`, `seoDescription`, `shortAnswer`, `birthYear`, `deathYear`, `activePeriod`
+      - `primaryEventIds`, `relatedPlaceIds`, `alternateNames`, `searchAliases`, `faq`
+    - Added optional Event metadata fields:
+      - `seoTitle`, `seoDescription`, `quickAnswer`
+      - `causes`, `consequences`, `misconceptions`, `faq`, `mapPoints`
+    - Added optional Topic metadata fields:
+      - `seoTitle`, `seoDescription`, `beginnerSummary`, `advancedSummary`
+      - `primaryKeywords`, `secondaryKeywords`, `faq`, `learningPath`
+    - Added optional Resource metadata fields:
+      - `sourceQuality`, `evidenceLevel`, `relatedEventIds`, `relatedFigureIds`, `relatedTopicIds`, `whyItMatters`
+    - Added optional Place metadata fields:
+      - `lat`, `lon`, `modernCountry`, `historicalNames`, `relatedEventIds`, `relatedFigureIds`, `mapNote`
+    - Added shared helper types for FAQ, misconceptions, map points, and learning-path items.
+  - Validation:
+    - Added optional-field checks in `scripts/validate-content.mjs` without requiring backfill:
+      - FAQ entry shape validation (`question`, `answer`, optional `sourceIds`)
+      - Event `mapPoints` shape and `placeId` existence checks
+      - Topic `learningPath` type/id shape checks with entity-aware ID validation
+      - Figure `alternateNames` and `searchAliases` string-array validation
+      - Resource `sourceQuality` and `evidenceLevel` enum validation
+      - Added Place/Resource/Figure optional relation/metadata checks
+  - UI/runtime:
+    - Updated normalization in `src/lib/content.ts` to safely pass through new optional Figure/Resource fields when present.
+  - Backfill:
+    - No historical content backfill required; all new fields are optional.
+  - Docs:
+    - Updated `docs/CONTENT_MODEL.md` with optional-field definitions, rationale, examples, and migration note.
+    - Updated `docs/AI_CONTRACT.md` contract rule for optional metadata extension validation.
+
 ## 2026-05-22
 
 ### Completed

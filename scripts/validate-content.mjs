@@ -31,6 +31,58 @@ function assertArray(value, label, errors) {
   return true;
 }
 
+function validateOptionalStringArray(value, label, errors, { nonEmpty = true } = {}) {
+  if (value === undefined) return;
+  if (!Array.isArray(value)) {
+    errors.push(`${label} must be an array`);
+    return;
+  }
+  for (const item of value) {
+    if (typeof item !== "string" || (nonEmpty && item.trim().length === 0)) {
+      errors.push(`Invalid string entry '${item}' at ${label}`);
+    }
+  }
+}
+
+function validateFaqArray(value, label, errors, resourceIdsFile, resourceIds) {
+  if (value === undefined) return;
+  if (!Array.isArray(value)) {
+    errors.push(`${label} must be an array`);
+    return;
+  }
+  for (let i = 0; i < value.length; i += 1) {
+    const entry = value[i];
+    if (!entry || typeof entry !== "object") {
+      errors.push(`Invalid faq entry at ${label}[${i}]`);
+      continue;
+    }
+    if (typeof entry.question !== "string" || entry.question.trim().length === 0) {
+      errors.push(`Missing or invalid faq.question at ${label}[${i}]`);
+    }
+    if (typeof entry.answer !== "string" || entry.answer.trim().length === 0) {
+      errors.push(`Missing or invalid faq.answer at ${label}[${i}]`);
+    }
+    if ("sourceIds" in entry && entry.sourceIds !== undefined) {
+      if (!Array.isArray(entry.sourceIds)) {
+        errors.push(`faq.sourceIds must be an array at ${label}[${i}]`);
+        continue;
+      }
+      for (const sourceId of entry.sourceIds) {
+        if (typeof sourceId !== "string") {
+          errors.push(`Non-string faq.sourceId at ${label}[${i}]`);
+          continue;
+        }
+        if (resourceIdsFile && Array.isArray(resourceIdsFile) && !resourceIdsFile.includes(sourceId)) {
+          errors.push(`faq sourceId '${sourceId}' not listed in event resource-ids at ${label}[${i}]`);
+        }
+        if (resourceIds && !resourceIds.has(sourceId)) {
+          errors.push(`Unknown faq sourceId '${sourceId}' at ${label}[${i}]`);
+        }
+      }
+    }
+  }
+}
+
 function hasBangla(text) {
   return /[\u0980-\u09FF]/.test(text);
 }
@@ -60,8 +112,23 @@ async function main() {
   const resourceIds = new Set(await fs.readdir(resourceDir));
   const eventSlugs = await fs.readdir(eventDir);
   const eventSlugSet = new Set(eventSlugs);
+  const placeEntries = await fs.readdir(placesDir);
+  const placeIdSet = new Set(placeEntries);
   const allowedQuality = new Set(["primary", "secondary", "archive", "editorial"]);
+  const allowedSourceQuality = new Set(["primary", "secondary", "archive", "academic", "editorial", "reference", "unknown"]);
   const allowedEvidenceLevel = new Set(["high", "medium", "low"]);
+  const allowedMapPointRoles = new Set([
+    "battlefield",
+    "capital",
+    "route",
+    "birthplace",
+    "deathplace",
+    "treaty-place",
+    "movement-center",
+    "administrative-center",
+    "other",
+  ]);
+  const allowedLearningPathTypes = new Set(["event", "figure", "resource", "place", "period", "topic"]);
   const allowedThemes = new Set(["language", "democracy", "war", "culture", "economy"]);
   const allowedImportance = new Set(["landmark", "major", "high", "medium", "reference"]);
   const allowedRelationTypes = new Set(["cause", "effect", "background", "parallel", "legacy", "contrast"]);
@@ -175,6 +242,9 @@ async function main() {
       for (const localizedField of [
         "title",
         "subtitle",
+        "seoTitle",
+        "seoDescription",
+        "quickAnswer",
         "summary",
         "heroTagline",
         "whyItMatters",
@@ -193,6 +263,90 @@ async function main() {
             `content/events/${slug}/meta.${locale}.json field '${localizedField}'`,
             errors,
           );
+        }
+      }
+      validateOptionalStringArray(meta.causes, `content/events/${slug}/meta.${locale}.json causes`, errors);
+      validateOptionalStringArray(meta.consequences, `content/events/${slug}/meta.${locale}.json consequences`, errors);
+      validateFaqArray(
+        meta.faq,
+        `content/events/${slug}/meta.${locale}.json faq`,
+        errors,
+        resourceIdsFile,
+        resourceIds,
+      );
+      if ("misconceptions" in meta && meta.misconceptions !== undefined) {
+        if (!Array.isArray(meta.misconceptions)) {
+          errors.push(`misconceptions must be an array at content/events/${slug}/meta.${locale}.json`);
+        } else {
+          for (let i = 0; i < meta.misconceptions.length; i += 1) {
+            const item = meta.misconceptions[i];
+            if (!item || typeof item !== "object") {
+              errors.push(`Invalid misconceptions entry at content/events/${slug}/meta.${locale}.json[${i}]`);
+              continue;
+            }
+            if (typeof item.title !== "string" || item.title.trim().length === 0) {
+              errors.push(`Invalid misconceptions.title at content/events/${slug}/meta.${locale}.json[${i}]`);
+            }
+            if (typeof item.explanation !== "string" || item.explanation.trim().length === 0) {
+              errors.push(`Invalid misconceptions.explanation at content/events/${slug}/meta.${locale}.json[${i}]`);
+            }
+            if ("sourceIds" in item && item.sourceIds !== undefined) {
+              if (!Array.isArray(item.sourceIds)) {
+                errors.push(`misconceptions.sourceIds must be an array at content/events/${slug}/meta.${locale}.json[${i}]`);
+              } else {
+                for (const sourceId of item.sourceIds) {
+                  if (typeof sourceId !== "string") {
+                    errors.push(`Non-string misconceptions.sourceId at content/events/${slug}/meta.${locale}.json[${i}]`);
+                    continue;
+                  }
+                  if (resourceIdsFile && Array.isArray(resourceIdsFile) && !resourceIdsFile.includes(sourceId)) {
+                    errors.push(`misconceptions sourceId '${sourceId}' not listed in content/events/${slug}/resource-ids.json`);
+                  }
+                  if (!resourceIds.has(sourceId)) {
+                    errors.push(`Unknown misconceptions sourceId '${sourceId}' at content/events/${slug}/meta.${locale}.json`);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      if ("mapPoints" in meta && meta.mapPoints !== undefined) {
+        if (!Array.isArray(meta.mapPoints)) {
+          errors.push(`mapPoints must be an array at content/events/${slug}/meta.${locale}.json`);
+        } else {
+          for (let i = 0; i < meta.mapPoints.length; i += 1) {
+            const point = meta.mapPoints[i];
+            if (!point || typeof point !== "object") {
+              errors.push(`Invalid mapPoints entry at content/events/${slug}/meta.${locale}.json[${i}]`);
+              continue;
+            }
+            if (typeof point.placeId !== "string" || point.placeId.trim().length === 0) {
+              errors.push(`Invalid mapPoints.placeId at content/events/${slug}/meta.${locale}.json[${i}]`);
+            } else if (!placeIdSet.has(point.placeId)) {
+              errors.push(`Unknown mapPoints.placeId '${point.placeId}' at content/events/${slug}/meta.${locale}.json[${i}]`);
+            }
+            if (typeof point.label !== "string" || point.label.trim().length === 0) {
+              errors.push(`Invalid mapPoints.label at content/events/${slug}/meta.${locale}.json[${i}]`);
+            }
+            if ("lat" in point && point.lat !== undefined && typeof point.lat !== "number") {
+              errors.push(`mapPoints.lat must be number at content/events/${slug}/meta.${locale}.json[${i}]`);
+            }
+            if ("lon" in point && point.lon !== undefined && typeof point.lon !== "number") {
+              errors.push(`mapPoints.lon must be number at content/events/${slug}/meta.${locale}.json[${i}]`);
+            }
+            if ("role" in point && point.role !== undefined) {
+              if (typeof point.role !== "string" || !allowedMapPointRoles.has(point.role)) {
+                errors.push(`Invalid mapPoints.role '${point.role}' at content/events/${slug}/meta.${locale}.json[${i}]`);
+              }
+            }
+            if ("year" in point && point.year !== undefined && typeof point.year !== "string") {
+              errors.push(`mapPoints.year must be string at content/events/${slug}/meta.${locale}.json[${i}]`);
+            }
+            if ("note" in point && point.note !== undefined && typeof point.note !== "string") {
+              errors.push(`mapPoints.note must be string at content/events/${slug}/meta.${locale}.json[${i}]`);
+            }
+          }
         }
       }
       if ("parentEvent" in meta && meta.parentEvent !== undefined) {
@@ -572,8 +726,8 @@ async function main() {
     }
   }
 
-  const placeEntries = await fs.readdir(placesDir);
-  for (const placeId of placeEntries) {
+  const validatedPlaceEntries = await fs.readdir(placesDir);
+  for (const placeId of validatedPlaceEntries) {
     for (const locale of ["en", "bn"]) {
       const metaPath = path.join(placesDir, placeId, `meta.${locale}.json`);
       if (!(await exists(metaPath))) {
@@ -607,6 +761,41 @@ async function main() {
       if (typeof meta.regionType !== "string" || !allowedRegionTypes.has(meta.regionType)) {
         errors.push(`Invalid regionType at content/places/${placeId}/meta.${locale}.json`);
       }
+      if ("lat" in meta && meta.lat !== undefined && typeof meta.lat !== "number") {
+        errors.push(`lat must be number at content/places/${placeId}/meta.${locale}.json`);
+      }
+      if ("lon" in meta && meta.lon !== undefined && typeof meta.lon !== "number") {
+        errors.push(`lon must be number at content/places/${placeId}/meta.${locale}.json`);
+      }
+      if ("modernCountry" in meta && meta.modernCountry !== undefined && typeof meta.modernCountry !== "string") {
+        errors.push(`modernCountry must be string at content/places/${placeId}/meta.${locale}.json`);
+      }
+      validateOptionalStringArray(meta.historicalNames, `content/places/${placeId}/meta.${locale}.json historicalNames`, errors);
+      if ("relatedEventIds" in meta && meta.relatedEventIds !== undefined) {
+        if (!Array.isArray(meta.relatedEventIds)) {
+          errors.push(`relatedEventIds must be an array at content/places/${placeId}/meta.${locale}.json`);
+        } else {
+          for (const eventId of meta.relatedEventIds) {
+            if (typeof eventId !== "string" || !eventSlugSet.has(eventId)) {
+              errors.push(`Invalid relatedEventIds entry '${eventId}' at content/places/${placeId}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
+      if ("relatedFigureIds" in meta && meta.relatedFigureIds !== undefined) {
+        if (!Array.isArray(meta.relatedFigureIds)) {
+          errors.push(`relatedFigureIds must be an array at content/places/${placeId}/meta.${locale}.json`);
+        } else {
+          for (const figureId of meta.relatedFigureIds) {
+            if (typeof figureId !== "string" || !figureIds.has(figureId)) {
+              errors.push(`Invalid relatedFigureIds entry '${figureId}' at content/places/${placeId}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
+      if ("mapNote" in meta && meta.mapNote !== undefined && typeof meta.mapNote !== "string") {
+        errors.push(`mapNote must be string at content/places/${placeId}/meta.${locale}.json`);
+      }
     }
   }
 
@@ -627,6 +816,47 @@ async function main() {
       if (!allowedQuality.has(meta.quality)) {
         errors.push(`Invalid quality '${meta.quality}' at content/resources/${resourceId}/meta.${locale}.json`);
       }
+      if ("sourceQuality" in meta && meta.sourceQuality !== undefined) {
+        if (typeof meta.sourceQuality !== "string" || !allowedSourceQuality.has(meta.sourceQuality)) {
+          errors.push(`Invalid sourceQuality '${meta.sourceQuality}' at content/resources/${resourceId}/meta.${locale}.json`);
+        }
+      }
+      if ("evidenceLevel" in meta && meta.evidenceLevel !== undefined) {
+        if (typeof meta.evidenceLevel !== "string" || !allowedEvidenceLevel.has(meta.evidenceLevel)) {
+          errors.push(`Invalid evidenceLevel '${meta.evidenceLevel}' at content/resources/${resourceId}/meta.${locale}.json`);
+        }
+      }
+      for (const relationField of ["relatedEventIds", "relatedFigureIds", "relatedTopicIds"]) {
+        if (!(relationField in meta) || meta[relationField] === undefined) continue;
+        if (!Array.isArray(meta[relationField])) {
+          errors.push(`${relationField} must be an array at content/resources/${resourceId}/meta.${locale}.json`);
+          continue;
+        }
+      }
+      if (Array.isArray(meta.relatedEventIds)) {
+        for (const eventId of meta.relatedEventIds) {
+          if (typeof eventId !== "string" || !eventSlugSet.has(eventId)) {
+            errors.push(`Invalid relatedEventIds entry '${eventId}' at content/resources/${resourceId}/meta.${locale}.json`);
+          }
+        }
+      }
+      if (Array.isArray(meta.relatedFigureIds)) {
+        for (const figureId of meta.relatedFigureIds) {
+          if (typeof figureId !== "string" || !figureIds.has(figureId)) {
+            errors.push(`Invalid relatedFigureIds entry '${figureId}' at content/resources/${resourceId}/meta.${locale}.json`);
+          }
+        }
+      }
+      if (Array.isArray(meta.relatedTopicIds)) {
+        for (const topicId of meta.relatedTopicIds) {
+          if (typeof topicId !== "string" || topicId.trim().length === 0) {
+            errors.push(`Invalid relatedTopicIds entry '${topicId}' at content/resources/${resourceId}/meta.${locale}.json`);
+          }
+        }
+      }
+      if ("whyItMatters" in meta && meta.whyItMatters !== undefined && typeof meta.whyItMatters !== "string") {
+        errors.push(`whyItMatters must be string at content/resources/${resourceId}/meta.${locale}.json`);
+      }
     }
   }
 
@@ -644,6 +874,37 @@ async function main() {
       for (const key of ["name", "role", "context", "impact"]) {
         if (key in meta && meta[key] !== undefined) {
           assertLocaleScript(meta[key], locale, `content/figures/${figureId}/meta.${locale}.json field '${key}'`, errors);
+        }
+      }
+      validateOptionalStringArray(meta.alternateNames, `content/figures/${figureId}/meta.${locale}.json alternateNames`, errors);
+      validateOptionalStringArray(meta.searchAliases, `content/figures/${figureId}/meta.${locale}.json searchAliases`, errors);
+      validateFaqArray(
+        meta.faq,
+        `content/figures/${figureId}/meta.${locale}.json faq`,
+        errors,
+        null,
+        resourceIds,
+      );
+      if ("primaryEventIds" in meta && meta.primaryEventIds !== undefined) {
+        if (!Array.isArray(meta.primaryEventIds)) {
+          errors.push(`primaryEventIds must be an array at content/figures/${figureId}/meta.${locale}.json`);
+        } else {
+          for (const eventId of meta.primaryEventIds) {
+            if (typeof eventId !== "string" || !eventSlugSet.has(eventId)) {
+              errors.push(`Invalid primaryEventIds entry '${eventId}' at content/figures/${figureId}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
+      if ("relatedPlaceIds" in meta && meta.relatedPlaceIds !== undefined) {
+        if (!Array.isArray(meta.relatedPlaceIds)) {
+          errors.push(`relatedPlaceIds must be an array at content/figures/${figureId}/meta.${locale}.json`);
+        } else {
+          for (const placeId of meta.relatedPlaceIds) {
+            if (typeof placeId !== "string" || !placeIdSet.has(placeId)) {
+              errors.push(`Invalid relatedPlaceIds entry '${placeId}' at content/figures/${figureId}/meta.${locale}.json`);
+            }
+          }
         }
       }
     }
@@ -699,6 +960,15 @@ async function main() {
       }
       for (const key of ["title", "tagline", "intro", "description"]) {
         assertLocaleScript(meta[key], locale, `content/topics/${topicSlug}/meta.${locale}.json field '${key}'`, errors);
+      }
+      for (const key of ["seoTitle", "seoDescription", "beginnerSummary", "advancedSummary"]) {
+        if (key in meta && meta[key] !== undefined) {
+          if (typeof meta[key] !== "string" || meta[key].trim().length === 0) {
+            errors.push(`Invalid '${key}' at content/topics/${topicSlug}/meta.${locale}.json`);
+          } else {
+            assertLocaleScript(meta[key], locale, `content/topics/${topicSlug}/meta.${locale}.json field '${key}'`, errors);
+          }
+        }
       }
       if (meta.slug !== topicSlug) {
         errors.push(`Topic slug mismatch at content/topics/${topicSlug}/meta.${locale}.json`);
@@ -764,6 +1034,53 @@ async function main() {
           for (const keyword of meta.keywords) {
             if (typeof keyword !== "string" || keyword.trim().length === 0) {
               errors.push(`Invalid keywords entry '${keyword}' at content/topics/${topicSlug}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
+      validateOptionalStringArray(meta.primaryKeywords, `content/topics/${topicSlug}/meta.${locale}.json primaryKeywords`, errors);
+      validateOptionalStringArray(meta.secondaryKeywords, `content/topics/${topicSlug}/meta.${locale}.json secondaryKeywords`, errors);
+      validateFaqArray(
+        meta.faq,
+        `content/topics/${topicSlug}/meta.${locale}.json faq`,
+        errors,
+        null,
+        resourceIds,
+      );
+      if ("learningPath" in meta && meta.learningPath !== undefined) {
+        if (!Array.isArray(meta.learningPath)) {
+          errors.push(`learningPath must be an array at content/topics/${topicSlug}/meta.${locale}.json`);
+        } else {
+          for (let i = 0; i < meta.learningPath.length; i += 1) {
+            const item = meta.learningPath[i];
+            if (!item || typeof item !== "object") {
+              errors.push(`Invalid learningPath item at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
+              continue;
+            }
+            if (typeof item.type !== "string" || !allowedLearningPathTypes.has(item.type)) {
+              errors.push(`Invalid learningPath.type '${item.type}' at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
+            }
+            if (typeof item.id !== "string" || item.id.trim().length === 0) {
+              errors.push(`Invalid learningPath.id at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
+              continue;
+            }
+            if (item.type === "event" && !eventSlugSet.has(item.id)) {
+              errors.push(`Unknown learningPath event id '${item.id}' at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
+            }
+            if (item.type === "figure" && !figureIds.has(item.id)) {
+              errors.push(`Unknown learningPath figure id '${item.id}' at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
+            }
+            if (item.type === "resource" && !resourceIds.has(item.id)) {
+              errors.push(`Unknown learningPath resource id '${item.id}' at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
+            }
+            if (item.type === "place" && !placeIdSet.has(item.id)) {
+              errors.push(`Unknown learningPath place id '${item.id}' at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
+            }
+            if (item.type === "period" && !allowedPeriodIds.has(item.id)) {
+              errors.push(`Unknown learningPath period id '${item.id}' at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
+            }
+            if ("reason" in item && item.reason !== undefined && typeof item.reason !== "string") {
+              errors.push(`learningPath.reason must be string at content/topics/${topicSlug}/meta.${locale}.json[${i}]`);
             }
           }
         }

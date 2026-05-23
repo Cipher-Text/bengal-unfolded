@@ -20,6 +20,236 @@ Contract companion docs:
 - `EventContent`
 - `Topic`
 
+## 2026 schema extensions (optional, backward-compatible)
+
+These fields are additive and optional. Existing JSON files remain valid when these fields are absent.
+
+Why these fields exist:
+
+- SEO:
+  - entity-level `seoTitle`/`seoDescription`
+  - short direct-answer fields (`shortAnswer`, `quickAnswer`)
+- Entity disambiguation:
+  - aliases (`alternateNames`, `searchAliases`, `historicalNames`)
+  - temporal markers (`birthYear`, `deathYear`, `activePeriod`)
+- Future map visualization:
+  - `Place.lat/lon` and `Event.mapPoints[]`
+- Learning paths:
+  - `Topic.learningPath[]` for cross-entity guided reading
+- Evidence quality:
+  - `Resource.sourceQuality` and `Resource.evidenceLevel`
+- Backend migration readiness:
+  - explicit relation IDs and FAQ/citation-ready nested structures that can be mapped 1:1 from CMS records
+
+### Figure optional fields
+
+- `seoTitle?: string`
+- `seoDescription?: string`
+- `shortAnswer?: string`
+- `birthYear?: string`
+- `deathYear?: string`
+- `activePeriod?: string`
+- `primaryEventIds?: string[]`
+- `relatedPlaceIds?: string[]`
+- `alternateNames?: string[]`
+- `searchAliases?: string[]`
+- `faq?: Array<{ question: string; answer: string; sourceIds?: string[] }>`
+
+Example:
+
+```json
+{
+  "name": "Example Figure",
+  "role": "Political organizer",
+  "group": "leader",
+  "contribution": "Organized key campaigns.",
+  "context": "Late colonial Bengal.",
+  "impact": "Influenced mass politics.",
+  "seoTitle": "Example Figure and Mass Politics",
+  "seoDescription": "Profile and historical significance of Example Figure.",
+  "shortAnswer": "A major organizer in late colonial Bengal.",
+  "birthYear": "1890",
+  "deathYear": "1958",
+  "activePeriod": "1915-1950",
+  "primaryEventIds": ["1940-lahore-resolution"],
+  "relatedPlaceIds": ["bengal-region"],
+  "alternateNames": ["Example Ali", "E. Ali"],
+  "searchAliases": ["example leader", "ali organizer"],
+  "faq": [
+    {
+      "question": "Why is this figure important?",
+      "answer": "They connected local activism to wider constitutional politics.",
+      "sourceIds": ["history-banglapedia"]
+    }
+  ]
+}
+```
+
+### Event optional fields
+
+- `seoTitle?: string`
+- `seoDescription?: string`
+- `quickAnswer?: string`
+- `causes?: string[]`
+- `consequences?: string[]`
+- `misconceptions?: Array<{ title: string; explanation: string; sourceIds?: string[] }>`
+- `faq?: Array<{ question: string; answer: string; sourceIds?: string[] }>`
+- `mapPoints?: Array<{ placeId: string; label: string; lat?: number; lon?: number; role?: 'battlefield' | 'capital' | 'route' | 'birthplace' | 'deathplace' | 'treaty-place' | 'movement-center' | 'administrative-center' | 'other'; year?: string; note?: string }>`
+
+Example:
+
+```json
+{
+  "slug": "1940-lahore-resolution",
+  "year": "1940",
+  "title": "Lahore Resolution",
+  "subtitle": "A constitutional turning point",
+  "summary": "Set a new political direction.",
+  "themeColor": "#1f6f78",
+  "ctaLabel": "Explore",
+  "heroTagline": "A major shift in representation politics",
+  "whyItMatters": "It shaped later constitutional debates.",
+  "importance": "major",
+  "seoTitle": "Lahore Resolution Explained",
+  "seoDescription": "Context, causes, and consequences of the Lahore Resolution.",
+  "quickAnswer": "It formalized a separate-state demand framework.",
+  "causes": ["Representation disputes", "Constitutional deadlock"],
+  "consequences": ["Reframed provincial politics", "Accelerated partition debates"],
+  "misconceptions": [
+    {
+      "title": "It was a fully detailed partition blueprint",
+      "explanation": "The text was broad and later interpreted differently.",
+      "sourceIds": ["lahore-resolution-banglapedia"]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Did it immediately create Pakistan?",
+      "answer": "No, it became a later political foundation.",
+      "sourceIds": ["lahore-resolution-banglapedia"]
+    }
+  ],
+  "mapPoints": [
+    {
+      "placeId": "bengal-region",
+      "label": "Political reception in Bengal",
+      "role": "movement-center",
+      "year": "1940"
+    }
+  ]
+}
+```
+
+### Topic optional fields
+
+- `seoTitle?: string`
+- `seoDescription?: string`
+- `beginnerSummary?: string`
+- `advancedSummary?: string`
+- `primaryKeywords?: string[]`
+- `secondaryKeywords?: string[]`
+- `faq?: Array<{ question: string; answer: string; sourceIds?: string[] }>`
+- `learningPath?: Array<{ type: 'event' | 'figure' | 'resource' | 'place' | 'period' | 'topic'; id: string; reason?: string }>`
+
+Example:
+
+```json
+{
+  "slug": "partition-and-identity",
+  "title": "Partition and Identity",
+  "tagline": "State formation and belonging",
+  "intro": "How identity was negotiated through rupture.",
+  "description": "Tracks political, social, and memory shifts.",
+  "eventSlugs": ["1947-partition-and-eastern-bengal"],
+  "seoTitle": "Partition and Identity in Bengal",
+  "seoDescription": "A structured pathway through partition-era identity formation.",
+  "beginnerSummary": "A quick overview of identity and partition politics.",
+  "advancedSummary": "Compares legal frameworks, representation, and memory narratives.",
+  "primaryKeywords": ["partition", "identity", "representation"],
+  "secondaryKeywords": ["migration", "memory", "citizenship"],
+  "faq": [
+    {
+      "question": "Why is identity central to partition history?",
+      "answer": "Identity shaped claims to representation and state power."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1947-partition-and-eastern-bengal",
+      "reason": "Start with the central rupture point."
+    },
+    {
+      "type": "resource",
+      "id": "partition-of-british-india-national-archives",
+      "reason": "Then read a primary archival source."
+    }
+  ]
+}
+```
+
+### Resource optional fields
+
+- `sourceQuality?: 'primary' | 'secondary' | 'archive' | 'academic' | 'editorial' | 'reference' | 'unknown'`
+- `evidenceLevel?: 'high' | 'medium' | 'low'`
+- `relatedEventIds?: string[]`
+- `relatedFigureIds?: string[]`
+- `relatedTopicIds?: string[]`
+- `whyItMatters?: string`
+
+Example:
+
+```json
+{
+  "title": "Example Archival Resource",
+  "attribution": "National Archives",
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "relatedEventIds": ["1947-partition-and-eastern-bengal"],
+  "relatedFigureIds": ["muhammad-ali-jinnah"],
+  "relatedTopicIds": ["partition-and-identity"],
+  "whyItMatters": "Provides direct documentary context for constitutional claims."
+}
+```
+
+### Place optional fields
+
+- `lat?: number`
+- `lon?: number`
+- `modernCountry?: string`
+- `historicalNames?: string[]`
+- `relatedEventIds?: string[]`
+- `relatedFigureIds?: string[]`
+- `mapNote?: string`
+
+Example:
+
+```json
+{
+  "id": "bengal-region",
+  "title": "Bengal Region",
+  "subtitle": "Historical macro-region",
+  "description": "Central to multiple state formations.",
+  "regionType": "region",
+  "themeColor": "#24527a",
+  "lat": 23.685,
+  "lon": 90.3563,
+  "modernCountry": "Bangladesh/India",
+  "historicalNames": ["Banga", "Bangala"],
+  "relatedEventIds": ["1947-partition-and-eastern-bengal"],
+  "relatedFigureIds": ["sheikh-mujibur-rahman"],
+  "mapNote": "Coordinates are representative, not boundary centroids."
+}
+```
+
+## Migration note
+
+- Static JSON under `content/**` remains the source of truth today.
+- No backend/CMS is required for this phase.
+- Future backend or CMS integrations must preserve these contracts.
+- Use an adapter layer to map backend records into the same TypeScript types in `src/types/content.ts`.
+
 ## Figure schema
 
 - `Figure` metadata is stored at `content/figures/<figure-id>/meta.<locale>.json`.

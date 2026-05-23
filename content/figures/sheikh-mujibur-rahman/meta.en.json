@@ -1,6 +1,12 @@
 {
   "name": "Sheikh Mujibur Rahman",
   "name_en": "Sheikh Mujibur Rahman",
+  "seoTitle": "Sheikh Mujibur Rahman - Leader in Bangladesh's Independence History",
+  "seoDescription": "Profile of Sheikh Mujibur Rahman, tracing his role from language politics to autonomy and Bangladesh's independence movement.",
+  "shortAnswer": "A central political leader whose career linked post-partition language and autonomy struggles to Bangladesh's statehood.",
+  "birthYear": "1920",
+  "deathYear": "1975",
+  "activePeriod": "1948-1975",
   "role": "Student Organizer and National Leader",
   "group": "leader",
   "contribution": "From the immediate post-partition years onward, he emerged as a student and political organizer in East Bengal, supporting language rights, provincial autonomy, and later the mass movement that led to Bangladesh's independence.",
@@ -8,6 +14,31 @@
   "impact": "His political trajectory connected the post-1947 crisis of representation and language to the later demand for self-determination and statehood.",
   "highlight": "His public life linked the first wounds of partition to the final struggle for independence.",
   "image": "/figures/sheikh-mujibur-rahman.jpg",
+  "primaryEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1966-six-point-programme-announced",
+    "1969-mass-uprising",
+    "1971-march-7-speech",
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Bangabandhu Sheikh Mujibur Rahman"
+  ],
+  "searchAliases": [
+    "Bangabandhu",
+    "Sheikh Mujib",
+    "Mujib"
+  ],
+  "faq": [
+    {
+      "question": "Why is Sheikh Mujibur Rahman a foundational figure in this timeline?",
+      "answer": "He connected early language-rights mobilization, constitutional autonomy demands, and the political path that led to Bangladesh's independence."
+    }
+  ],
   "tags": [
     "language-rights",
     "autonomy",

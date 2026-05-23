@@ -52,6 +52,7 @@ For every schema or field change:
 - Image cleanup (delete/rename/format swap such as `.jpeg` -> `.jpg`) must update figure metadata paths in both locales in the same change set.
 - Topic metadata under `content/topics/*/meta.<locale>.json` must keep EN/BN parity and valid linked IDs (`eventSlugs`, `figureIds`, `resourceIds`).
 - Place metadata under `content/places/*/meta.<locale>.json` must keep EN/BN parity and valid allowed `placeId`.
+- Optional metadata extensions (SEO fields, FAQ blocks, map points, learning paths, alias arrays, relation IDs, and resource evidence metadata) must follow type/shape checks in `scripts/validate-content.mjs` when present; absence must not fail validation.
 
 ## Event relationship contract
 
