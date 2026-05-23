@@ -2,12 +2,12 @@
   "slug": "1353-1359-ilyas-shah-delhi-sultanate-conflict",
   "year": "১৩৫৩-১৩৫৯",
   "title": "ইলিয়াস শাহ ও দিল্লি সুলতানাতের সংঘাত",
-  "subtitle": "বাংলা একীকরণের পর প্রারম্ভিক সার্বভৌমত্বের লড়াই।",
-  "summary": "একীকরণের পর শামসুদ্দিন ইলিয়াস শাহ দিল্লি সুলতানাতের সামরিক চাপের মুখে পড়েন; এই সংঘাত বাংলার সুলতানি সার্বভৌমত্বের বাস্তব সীমা নির্ধারণে ভূমিকা রাখে।",
+  "subtitle": "দিল্লির অভিযান বাংলার নতুন সার্বভৌমত্ব ভাঙতে পারেনি।",
+  "summary": "বাংলা একীকরণের পর সুলতান শামসুদ্দিন ইলিয়াস শাহ ১৩৫৩-৫৪ সালে ফিরোজ শাহ তুঘলকের বঙ্গ অভিযানের মুখে একডালা দুর্গে আশ্রয় নেন। ইলিয়াস শাহের মৃত্যুর পর ১৩৫৯-৬০ সালের দ্বিতীয় দিল্লি অভিযানও বাংলার ওপর স্থায়ী নিয়ন্ত্রণ প্রতিষ্ঠায় ব্যর্থ হয়।",
   "themeColor": "#9a3412",
   "ctaLabel": "প্রেক্ষাপট দেখুন",
-  "heroTagline": "বাংলা একীকরণের পর প্রারম্ভিক সার্বভৌমত্বের লড়াই।",
-  "whyItMatters": "পুনঃপুন সাম্রাজ্যিক প্রতিদ্বন্দ্বিতার মধ্যেও এই পর্ব বাংলা সুলতানাতকে নিজস্ব রাজনৈতিক কেন্দ্রসহ টেকসই আঞ্চলিক শক্তি হিসেবে প্রতিষ্ঠিত করে।",
+  "heroTagline": "চতুর্দশ শতকের মধ্যভাগের এই যুদ্ধ বাংলার স্বাধীনতাকে কঠিন পরীক্ষায় ফেলে।",
+  "whyItMatters": "এই সংঘাত দেখায় যে বাংলা সালতানাত দিল্লির বড় সামরিক আক্রমণ টিকিয়ে দিয়ে পৃথক রাজনৈতিক কেন্দ্র বজায় রাখতে পেরেছিল, যা আঞ্চলিক সার্বভৌমত্বের স্থায়ী ধারা গড়ে দেয়।",
   "importance": "high",
   "relatedEvents": [
     {
@@ -18,21 +18,20 @@
   "relatedEventIds": [
     "1352-bengal-sultanate-independence-and-unification"
   ],
-  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
-  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "periodLabel": "স্বাধীন বাংলা সালতানাতের যুগ",
   "showOnLanding": true,
   "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "iliyas-shah-banglapedia",
+    "ekdala-banglapedia",
+    "firuz-shah-tughlaq-banglapedia"
   ],
   "whyItMattersSourceIds": [
-    "history-banglapedia",
+    "iliyas-shah-banglapedia",
     "a-history-of-bangladesh"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "colonial-rule-and-resistance",
-  "movementId": "language-autonomy-and-liberation",
+  "periodId": "independent-bengal-sultanate-era",
   "placeId": "bengal-region",
   "placeLabel": "বাংলা অঞ্চল"
 }

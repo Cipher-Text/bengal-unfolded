@@ -1,23 +1,9 @@
 [
   {
-    "year": "2018",
-    "title": "Opposition candidates and critics face pressure before the vote",
-    "detail": "The pre-election period was marked by arrests, intimidation, and violence that narrowed opposition space and raised concern about whether competition would be meaningfully free.",
+    "year": "2018-12-22",
+    "title": "HRW reports restrictive pre-election environment",
+    "detail": "Human Rights Watch documented arrests, intimidation, and pressure on opposition and critics ahead of the vote, warning that these conditions were undermining credibility.",
     "sourceIds": [
-      "creating-panic-hrw",
-      "archive-collection"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy"
-    ]
-  },
-  {
-    "year": "30 Dec 2018",
-    "title": "Voting takes place for the 11th Parliamentary Election",
-    "detail": "Bangladesh held national elections for 300 directly elected parliamentary seats.",
-    "sourceIds": [
-      "election-guide-bangladesh-2018",
       "creating-panic-hrw"
     ],
     "evidenceLevel": "medium",
@@ -26,11 +12,25 @@
     ]
   },
   {
-    "year": "30-31 Dec 2018",
-    "title": "Awami League wins a landslide victory",
-    "detail": "The ruling alliance secured an overwhelming majority, while opposition parties rejected the result and alleged major irregularities.",
+    "year": "2018-12-30",
+    "title": "Voting held for 300 directly elected seats",
+    "detail": "The 11th parliamentary election was held on 30 December 2018 for 300 constituency seats in the Jatiya Sangsad.",
     "sourceIds": [
       "election-guide-bangladesh-2018",
+      "ipu-parline-bangladesh-2018-election"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2018-12-31",
+    "title": "Official result records a landslide for the ruling alliance",
+    "detail": "Reference election datasets recorded an overwhelming majority for the Awami League-led alliance; opposition leaders publicly rejected the result.",
+    "sourceIds": [
+      "election-guide-bangladesh-2018",
+      "ipu-parline-bangladesh-2018-election",
       "creating-panic-hrw"
     ],
     "evidenceLevel": "medium",
@@ -39,12 +39,12 @@
     ]
   },
   {
-    "year": "After the vote",
-    "title": "The election becomes a reference point for democratic backsliding",
-    "detail": "The controversy surrounding the vote hardened long-term debate about legitimacy, civic freedom, and the narrowing of competitive politics.",
+    "year": "2019",
+    "title": "2018 election becomes a democratic reference point",
+    "detail": "Subsequent analysis and rights reporting repeatedly used the 2018 cycle as a reference in debates about democratic backsliding and electoral trust.",
     "sourceIds": [
       "creating-panic-hrw",
-      "election-guide-bangladesh-2018"
+      "ipu-parline-bangladesh-2018-election"
     ],
     "evidenceLevel": "medium",
     "themes": [

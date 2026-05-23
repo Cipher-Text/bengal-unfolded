@@ -1,27 +1,28 @@
 [
   {
-    "year": "1353-1359",
-    "title": "Political context develops",
-    "detail": "After unification, Shamsuddin Ilyas Shah faced military pressure from the Delhi Sultanate, and the resulting conflict helped define the practical boundaries of Bengal sultanate sovereignty.",
+    "year": "1353-1354",
+    "title": "First Delhi campaign reaches Bengal",
+    "detail": "Firuz Shah Tughlaq launched a major campaign into Bengal; Ilyas Shah avoided open battle and took shelter at Ekdala, where Delhi failed to secure a decisive conquest.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "firuz-shah-tughlaq-banglapedia",
+      "ekdala-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
+      "war"
     ]
   },
   {
-    "year": "1353-1359",
-    "title": "Key transition point",
-    "detail": "It established Bengal as a durable regional power with its own political center despite repeated imperial contestation.",
+    "year": "1359-1360",
+    "title": "Second campaign fails to impose lasting Delhi control",
+    "detail": "After Ilyas Shah's death, Delhi mounted another expedition during Sikandar Shah's reign, but Bengal's sultanate polity remained intact after the fighting and negotiation cycle.",
     "sourceIds": [
-      "history-banglapedia",
+      "firuz-shah-tughlaq-banglapedia",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
     "themes": [
+      "war",
       "culture"
     ]
   }

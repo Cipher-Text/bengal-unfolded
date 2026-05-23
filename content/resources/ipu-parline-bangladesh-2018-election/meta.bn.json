@@ -1,0 +1,16 @@
+{
+  "title": "বাংলাদেশ সংসদ নির্বাচন ডিসেম্বর ২০১৮ (আইপিইউ পারলাইন)",
+  "note": "ইন্টার-পার্লামেন্টারি ইউনিয়নের পারলাইন এন্ট্রিতে ৩০ ডিসেম্বর ২০১৮ নির্বাচনের সময়, সংসদীয় প্রেক্ষাপট ও ফলাফল-সংক্রান্ত মেটাডেটা রয়েছে।",
+  "category": "understand",
+  "subcategory": "research",
+  "href": "https://data.ipu.org/parliament/BD/BD-LC01/election/BD-LC01-E20181230",
+  "attribution": "ইন্টার-পার্লামেন্টারি ইউনিয়ন (আইপিইউ) পারলাইন",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "high",
+  "relatedEventIds": [
+    "2018-election"
+  ],
+  "whyItMatters": "তারিখ ও ফল যাচাইয়ের জন্য কাঠামোবদ্ধ সংসদীয় নির্বাচনী রেফারেন্স ডেটা দেয়।"
+}

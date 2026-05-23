@@ -2,12 +2,12 @@
   "slug": "2018-election",
   "year": "2018",
   "title": "11th Parliamentary Election",
-  "subtitle": "An overwhelming ruling-party victory was shadowed by deep dispute over the pre-election environment and the credibility of the vote.",
-  "summary": "The 11th Parliamentary Election was held on 30 December 2018 and returned the Awami League to power with a very large majority. Opposition parties rejected the result and alleged widespread irregularities, while rights groups and observers raised serious concerns about the pre-election crackdown, violence, arrests, and the overall climate in which the vote took place.",
+  "subtitle": "Held on 30 December 2018, the election produced a landslide result while drawing sustained dispute over pre-election and election-day conditions.",
+  "summary": "Bangladesh held its 11th parliamentary election on 30 December 2018 for 300 directly elected seats. Official and reference-election datasets recorded a sweeping victory for the Awami League-led alliance, while opposition leaders rejected the outcome and rights reporting documented a restrictive pre-election environment.",
   "themeColor": "#991b1b",
   "ctaLabel": "Review the election",
-  "heroTagline": "The election result was decisive on paper, but its legitimacy remained a matter of fierce public dispute.",
-  "whyItMatters": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+  "heroTagline": "The numerical outcome was decisive, but public and political legitimacy remained heavily contested.",
+  "whyItMatters": "The election became a major benchmark in later debates on democratic backsliding in Bangladesh because it linked three issues in one cycle: candidate and campaign conditions before voting, confidence in polling-day integrity, and acceptance of the final result by major political actors.",
   "importance": "major",
   "parentEvent": "2018-a-year-of-protest-control-and-contested-legitimacy",
   "relatedEvents": [
@@ -33,69 +33,81 @@
   "movementLabel": "Memory, justice, and civic dissent",
   "showOnLanding": false,
   "summarySourceIds": [
-    "creating-panic-hrw",
-    "election-guide-bangladesh-2018"
+    "election-guide-bangladesh-2018",
+    "ipu-parline-bangladesh-2018-election",
+    "creating-panic-hrw"
   ],
   "whyItMattersSourceIds": [
     "creating-panic-hrw",
-    "election-guide-bangladesh-2018"
+    "ipu-parline-bangladesh-2018-election"
   ],
-  "summaryEvidenceLevel": "medium",
+  "summaryEvidenceLevel": "high",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "memory-justice-and-civic-dissent",
-  "longTermLegacy": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+  "longTermLegacy": "In retrospective assessments, the 2018 vote is frequently used as a reference case for how electoral process concerns can persist even when seat outcomes are clear and formally declared.",
   "longTermLegacySourceIds": [
     "creating-panic-hrw",
-    "election-guide-bangladesh-2018"
+    "ipu-parline-bangladesh-2018-election"
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region",
-  "identityMemoryNotes": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+  "identityMemoryNotes": "In civic memory, 30 December 2018 is often discussed not only as a landslide result but as a turning point in arguments over electoral competitiveness and institutional trust.",
   "identityMemorySourceIds": [
     "creating-panic-hrw",
-    "election-guide-bangladesh-2018"
+    "ipu-parline-bangladesh-2018-election"
   ],
   "identityMemoryEvidenceLevel": "medium",
   "claimCitations": [
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "The 11th Parliamentary Election was held on 30 December 2018 and returned the Awami League to power with a very large majority. Opposition parties rejected the result and alleged widespread irregularities, while rights groups and observers raised serious concerns about the pre-election crackdown, violence, arrests, and the overall climate in which the vote took place.",
+      "claim": "Bangladesh held its 11th parliamentary election on 30 December 2018 for 300 directly elected seats.",
       "sourceIds": [
-        "creating-panic-hrw",
-        "election-guide-bangladesh-2018"
+        "election-guide-bangladesh-2018",
+        "ipu-parline-bangladesh-2018-election"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "summary-claim-2",
+      "section": "summary",
+      "claim": "Reference datasets recorded a sweeping victory for the Awami League-led alliance, while opposition leaders rejected the outcome and rights reporting documented a restrictive pre-election environment.",
+      "sourceIds": [
+        "election-guide-bangladesh-2018",
+        "ipu-parline-bangladesh-2018-election",
+        "creating-panic-hrw"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+      "claim": "The election became a benchmark in democratic-backsliding debates because process conditions, polling-day confidence, and opposition acceptance all remained contested.",
       "sourceIds": [
         "creating-panic-hrw",
-        "election-guide-bangladesh-2018"
+        "ipu-parline-bangladesh-2018-election"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "longTermLegacy-claim-1",
       "section": "longTermLegacy",
-      "claim": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+      "claim": "In retrospective assessments, the 2018 vote is frequently used as a reference case for how electoral process concerns can persist even when seat outcomes are clear and formally declared.",
       "sourceIds": [
         "creating-panic-hrw",
-        "election-guide-bangladesh-2018"
+        "ipu-parline-bangladesh-2018-election"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "The 2018 election matters because it deepened the democratic crisis that had sharpened after 2014. It reinforced the sense that electoral competition, opposition space, and civil liberties were being narrowed together, and it became a major reference point for later arguments about democratic backsliding in Bangladesh.",
+      "claim": "In civic memory, 30 December 2018 is often discussed not only as a landslide result but as a turning point in arguments over electoral competitiveness and institutional trust.",
       "sourceIds": [
         "creating-panic-hrw",
-        "election-guide-bangladesh-2018"
+        "ipu-parline-bangladesh-2018-election"
       ],
       "evidenceLevel": "medium"
     }

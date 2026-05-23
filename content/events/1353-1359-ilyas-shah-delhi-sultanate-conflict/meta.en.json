@@ -2,12 +2,12 @@
   "slug": "1353-1359-ilyas-shah-delhi-sultanate-conflict",
   "year": "1353-1359",
   "title": "Ilyas Shah vs Delhi Sultanate Conflict",
-  "subtitle": "Early sovereignty contests after Bengal unification.",
-  "summary": "After unification, Shamsuddin Ilyas Shah faced military pressure from the Delhi Sultanate, and the resulting conflict helped define the practical boundaries of Bengal sultanate sovereignty.",
+  "subtitle": "Delhi's campaigns failed to reverse Bengal's new sovereignty.",
+  "summary": "After Bengal's unification, Sultan Shamsuddin Ilyas Shah faced Firuz Shah Tughlaq's Bengal campaign of 1353-54 and withdrew into the fort of Ekdala. A second Delhi expedition in 1359-60, after Ilyas Shah's death, again failed to secure lasting control over Bengal.",
   "themeColor": "#9a3412",
   "ctaLabel": "Explore context",
-  "heroTagline": "Early sovereignty contests after Bengal unification.",
-  "whyItMatters": "It established Bengal as a durable regional power with its own political center despite repeated imperial contestation.",
+  "heroTagline": "Mid-fourteenth-century war tested Bengal's independence from Delhi.",
+  "whyItMatters": "The conflict showed that the Bengal Sultanate could survive major Delhi invasions and maintain a separate political center, shaping a durable pattern of regional sovereignty.",
   "importance": "high",
   "relatedEvents": [
     {
@@ -18,21 +18,20 @@
   "relatedEventIds": [
     "1352-bengal-sultanate-independence-and-unification"
   ],
-  "periodLabel": "Colonial Rule and Resistance",
-  "movementLabel": "Language, autonomy, and liberation",
+  "periodLabel": "Independent Bengal Sultanate Era",
   "showOnLanding": true,
   "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "iliyas-shah-banglapedia",
+    "ekdala-banglapedia",
+    "firuz-shah-tughlaq-banglapedia"
   ],
   "whyItMattersSourceIds": [
-    "history-banglapedia",
+    "iliyas-shah-banglapedia",
     "a-history-of-bangladesh"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "colonial-rule-and-resistance",
-  "movementId": "language-autonomy-and-liberation",
+  "periodId": "independent-bengal-sultanate-era",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region"
 }

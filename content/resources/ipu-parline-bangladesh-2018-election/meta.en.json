@@ -1,0 +1,16 @@
+{
+  "title": "Bangladesh Parliament December 2018 Election (IPU Parline)",
+  "note": "Inter-Parliamentary Union Parline entry with election timing, parliamentary context, and result metadata for the 30 December 2018 election.",
+  "category": "understand",
+  "subcategory": "research",
+  "href": "https://data.ipu.org/parliament/BD/BD-LC01/election/BD-LC01-E20181230",
+  "attribution": "Inter-Parliamentary Union (IPU) Parline",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "high",
+  "relatedEventIds": [
+    "2018-election"
+  ],
+  "whyItMatters": "Provides structured parliamentary election reference data used for date and outcome verification."
+}
