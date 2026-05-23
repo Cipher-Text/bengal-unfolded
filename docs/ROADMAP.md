@@ -1443,25 +1443,6 @@ Next.js Frontend (Vercel)
 14. Update this file by toggling checkboxes only.
 15. Add a dated entry in `docs/CHANGELOG.md` when items move to done.
 16. **Feature Review 2026-05-21:** Removed 19 items that violated pre-backend scope boundary, required graph database infrastructure, or created perverse incentives. Key changes: deferred progress tracking/badges/recommendations to B3; removed dynasty/alliance/participation models; removed contributor leaderboard; consolidated knowledge graph to 1-degree relationships in static phase. All section numbering revised for consistency.
+17. Next-task selection must follow phase order strictly: do not pick unchecked items from later phases while any earlier-phase unchecked items remain; exclude items explicitly deferred to backend B-phases when selecting static/frontend next tasks.
 
 ---
-
-## Immediate Next Sprint Recommendation
-
-Recommended next sprint items:
-
-- [x] RM-001 Inline citations on event/timeline claims
-- [x] RM-002 Source quality badges
-- [x] RM-005 Evidence metadata fields
-- [x] RM-006A Timeline importance levels
-- [x] RM-006D Parent-child event clustering
-- [x] RM-REL-001 Cause/effect fields in event content model
-- [x] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
-- [ ] RM-VIS-002 Cause -> event -> effect visual chain
-- [ ] RM-VIS-003 Before/after event navigation cards
-- [ ] RM-VIS-008 Place-event mini map on event pages
-- [ ] RM-TRUTH-010 Public methodology page
-
-Reason:
-
-The next sprint should establish Bengal Unfolded's foundation as a visual, source-backed, relationship-based learning and historical truth platform before adding too many events or community features.
