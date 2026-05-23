@@ -1,11 +1,22 @@
 [
   {
-    "year": "2026",
-    "title": "Election roadmap becomes a central political question",
-    "detail": "Public attention intensifies around election scheduling, legal framework, and administrative preparedness for the 13th parliamentary vote.",
+    "year": "2025-12-11",
+    "title": "Election schedule announced for 12 February 2026",
+    "detail": "The Chief Election Commissioner announced that the 13th parliamentary election and a national referendum would be held on 12 February 2026, with nomination, scrutiny, appeal, and campaign dates also outlined.",
     "sourceIds": [
-      "archive-collection",
-      "research-volume"
+      "dhaka-tribune-cec-13th-election-schedule-2025"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2025-12-04",
+    "title": "UN briefs political parties on election assistance",
+    "detail": "United Nations Bangladesh held a briefing for registered political parties on technical support to the Bangladesh Election Commission; the note reported that the BALLOT project had added almost 8 million new voters since its 2025 launch.",
+    "sourceIds": [
+      "un-bangladesh-briefing-political-parties-election-support-2025"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,30 +24,15 @@
     ]
   },
   {
-    "year": "2026",
-    "title": "Debate centers on participation and credibility",
-    "detail": "Political actors and civil voices debate whether participation conditions, oversight, and campaign space are sufficient for broad legitimacy.",
+    "year": "2025-12-22",
+    "title": "EU deploys Election Observation Mission",
+    "detail": "The EU stated that, following an invitation from Bangladesh authorities, it deployed an Election Observation Mission for the parliamentary election scheduled for 12 February 2026.",
     "sourceIds": [
-      "archive-collection",
-      "research-volume"
+      "eeas-eu-eom-bangladesh-2026"
     ],
-    "evidenceLevel": "medium",
+    "evidenceLevel": "high",
     "themes": [
       "democracy"
-    ]
-  },
-  {
-    "year": "2026",
-    "title": "Election discourse linked to longer democratic trajectory",
-    "detail": "The 2026 cycle is widely interpreted in relation to unresolved debates from earlier election periods, especially around trust, rules, and transfer of power.",
-    "sourceIds": [
-      "archive-collection",
-      "research-volume"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy",
-      "culture"
     ]
   }
 ]

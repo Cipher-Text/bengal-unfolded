@@ -1,0 +1,15 @@
+{
+  "title": "CEC: 13th Parliamentary election, referendum on Feb 12",
+  "note": "News report on the 11 December 2025 announcement of the 12 February 2026 election and referendum schedule, including key procedural dates.",
+  "category": "explore",
+  "subcategory": "archive",
+  "attribution": "Dhaka Tribune",
+  "quality": "archive",
+  "sourceQuality": "archive",
+  "evidenceLevel": "medium",
+  "relatedEventIds": [
+    "2026-election"
+  ],
+  "whyItMatters": "Provides date-specific schedule details used in the event timeline.",
+  "href": "https://www.dhakatribune.com/bangladesh/election/398498/cec-13th-parliamentary-election-set-for-february"
+}

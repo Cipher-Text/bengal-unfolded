@@ -2,12 +2,12 @@
   "slug": "2026-election",
   "year": "২০২৬",
   "title": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন",
-  "subtitle": "নির্বাচনের সময়সূচি, প্রশাসনিক কাঠামো ও অংশগ্রহণের শর্ত ২০২৬-এর রাজনীতিতে কেন্দ্রীয় বিতর্কে পরিণত হয়।",
-  "summary": "২০২৬ সালে বাংলাদেশের ত্রয়োদশ জাতীয় সংসদ নির্বাচনকে ঘিরে আলোচনা জাতীয় রাজনীতির একটি কেন্দ্রীয় ইস্যু হয়ে ওঠে। বিতর্কের কেন্দ্র ছিল নির্বাচনের সময়, প্রাতিষ্ঠানিক ব্যবস্থাপনা এবং প্রধান দল ও ভোটারদের চোখে প্রক্রিয়াটি কতটা বিশ্বাসযোগ্য ও অংশগ্রহণমূলক হবে।",
+  "subtitle": "বাংলাদেশ নির্বাচন কমিশন ১২ ফেব্রুয়ারি ২০২৬-এ জাতীয় সংসদ নির্বাচন ও গণভোটের তারিখ নির্ধারণ করে; রূপান্তর-পর্বে প্রক্রিয়ার বিশ্বাসযোগ্যতা তখন কেন্দ্রীয় বিতর্কে ওঠে।",
+  "summary": "২০২৫ সালের ১১ ডিসেম্বর প্রধান নির্বাচন কমিশনার এএমএম নাসির উদ্দিন ঘোষণা করেন যে বাংলাদেশের ত্রয়োদশ জাতীয় সংসদ নির্বাচন ও একটি জাতীয় গণভোট ২০২৬ সালের ১২ ফেব্রুয়ারি অনুষ্ঠিত হবে। এরপর নির্বাচন ব্যবস্থাপনা, অংশগ্রহণ ও প্রক্রিয়ার ওপর আস্থা নিয়ে দেশীয় ও আন্তর্জাতিক মনোযোগ বাড়ে।",
   "themeColor": "#7c2d12",
   "ctaLabel": "নির্বাচনের প্রেক্ষাপট দেখুন",
-  "heroTagline": "শুধু ভোটের তারিখ নয়, প্রক্রিয়া, অংশগ্রহণ ও তদারকিতে আস্থাই বৈধতার মূল নির্ধারক।",
-  "whyItMatters": "এই নির্বাচন-চক্র গুরুত্বপূর্ণ, কারণ এটি সাংবিধানিক ধারাবাহিকতা ও ২০২৪-পরবর্তী রাজনৈতিক রূপান্তরের সংযোগস্থলে দাঁড়িয়ে আছে। নিয়ম নির্ধারণ, বিরোধ নিষ্পত্তি ও অংশগ্রহণ নিশ্চিত করার ধরন দীর্ঘমেয়াদে নির্বাচনী গণতন্ত্রে জনআস্থাকে প্রভাবিত করবে।",
+  "heroTagline": "মূল প্রশ্ন ছিল: প্রতিষ্ঠান, দল ও পর্যবেক্ষকরা প্রক্রিয়াটিকে কতটা অন্তর্ভুক্তিমূলক ও বিশ্বাসযোগ্য বলে গণ্য করবে।",
+  "whyItMatters": "নির্বাচনী প্রেক্ষাপটে জাতিসংঘের কারিগরি সহায়তা ও আন্তর্জাতিক পর্যবেক্ষণ গুরুত্বপূর্ণ উপাদান হয়ে ওঠে: ইউএনডিপি জানায়, নির্বাচন কমিশনের অনুরোধে ডিসেম্বর ২০২৪ থেকে সহায়তা চলমান ছিল; আর সরকারি আমন্ত্রণের পর ইউরোপীয় ইউনিয়ন নির্বাচন পর্যবেক্ষক মিশন মোতায়েন করে। ফলে শুধু ভোটের দিনের আয়োজন নয়, পুরো প্রক্রিয়ার মান জনআলোচনার প্রধান মানদণ্ডে পরিণত হয়।",
   "importance": "major",
   "parentEvent": "2024-anti-discrimination-movement",
   "relatedEvents": [
@@ -38,69 +38,79 @@
   "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
   "showOnLanding": true,
   "summarySourceIds": [
-    "archive-collection",
-    "research-volume"
+    "dhaka-tribune-cec-13th-election-schedule-2025"
   ],
   "whyItMattersSourceIds": [
-    "archive-collection",
-    "research-volume"
+    "undp-support-13th-parliamentary-electoral-cycle-2026",
+    "eeas-eu-eom-bangladesh-2026",
+    "un-bangladesh-briefing-political-parties-election-support-2025"
   ],
-  "summaryEvidenceLevel": "medium",
+  "summaryEvidenceLevel": "high",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "memory-justice-and-civic-dissent",
-  "longTermLegacy": "২০২৬ সালের নির্বাচন প্রক্রিয়া রূপান্তর-পরবর্তী সময়ে নির্বাচনী বৈধতা নিয়ে নাগরিকদের মূল্যায়নকে দীর্ঘমেয়াদে প্রভাবিত করতে পারে। এর প্রভাব কেবল একটি ফলাফলে নয়, বরং প্রতিষ্ঠানগুলো প্রতিযোগিতামূলক ও বিশ্বাসযোগ্য অংশগ্রহণ ধরে রাখতে পারে কি না, তার ওপর নির্ভরশীল।",
+  "longTermLegacy": "দীর্ঘমেয়াদে ২০২৬ নির্বাচনী চক্রের মূল্যায়ন অনেকটাই নির্ভর করবে এই প্রশ্নে: নিয়ম, অংশগ্রহণের শর্ত ও তদারকি-ব্যবস্থা একটি নির্বাচনী তারিখের বাইরে টেকসই বলে বিবেচিত হয়েছে কি না।",
   "longTermLegacySourceIds": [
-    "archive-collection",
-    "research-volume"
+    "undp-support-13th-parliamentary-electoral-cycle-2026",
+    "eeas-eu-eom-bangladesh-2026"
   ],
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
   "placeLabel": "বাংলা অঞ্চল",
-  "identityMemoryNotes": "সমষ্টিগত স্মৃতিতে ২০২৬-কে অনেক সময় শুধু একটি ভোটদিন নয়, বরং বহু বছরের বিতর্কের পর নির্বাচনী রাজনীতির বৈধতা পুনর্গঠনের পরীক্ষাক্ষণ হিসেবে দেখা হয়।",
+  "identityMemoryNotes": "২০২৬ সালের ফেব্রুয়ারি নাগাদ ত্রয়োদশ নির্বাচনকে ঘিরে জনআলোচনায় শুধু সময়সূচি নয়, বরং প্রক্রিয়ার বিশ্বাসযোগ্যতা, অন্তর্ভুক্তি ও পর্যবেক্ষণ সক্ষমতাই বেশি গুরুত্ব পায়।",
   "identityMemorySourceIds": [
-    "archive-collection",
-    "research-volume"
+    "undp-support-13th-parliamentary-electoral-cycle-2026",
+    "un-bangladesh-briefing-political-parties-election-support-2025",
+    "eeas-eu-eom-bangladesh-2026"
   ],
   "identityMemoryEvidenceLevel": "medium",
   "claimCitations": [
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "২০২৬ সালে বাংলাদেশের ত্রয়োদশ জাতীয় সংসদ নির্বাচনকে ঘিরে আলোচনা জাতীয় রাজনীতির একটি কেন্দ্রীয় ইস্যু হয়ে ওঠে। বিতর্কের কেন্দ্র ছিল নির্বাচনের সময়, প্রাতিষ্ঠানিক ব্যবস্থাপনা এবং প্রধান দল ও ভোটারদের চোখে প্রক্রিয়াটি কতটা বিশ্বাসযোগ্য ও অংশগ্রহণমূলক হবে।",
+      "claim": "২০২৫ সালের ১১ ডিসেম্বর প্রধান নির্বাচন কমিশনার এএমএম নাসির উদ্দিন ঘোষণা করেন যে বাংলাদেশের ত্রয়োদশ জাতীয় সংসদ নির্বাচন ও একটি জাতীয় গণভোট ২০২৬ সালের ১২ ফেব্রুয়ারি অনুষ্ঠিত হবে।",
       "sourceIds": [
-        "archive-collection",
-        "research-volume"
+        "dhaka-tribune-cec-13th-election-schedule-2025"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "high"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "এই নির্বাচন-চক্র গুরুত্বপূর্ণ, কারণ এটি সাংবিধানিক ধারাবাহিকতা ও ২০২৪-পরবর্তী রাজনৈতিক রূপান্তরের সংযোগস্থলে দাঁড়িয়ে আছে। নিয়ম নির্ধারণ, বিরোধ নিষ্পত্তি ও অংশগ্রহণ নিশ্চিত করার ধরন দীর্ঘমেয়াদে নির্বাচনী গণতন্ত্রে জনআস্থাকে প্রভাবিত করবে।",
+      "claim": "ইউএনডিপি অনুযায়ী নির্বাচন কমিশনের অনুরোধে ডিসেম্বর ২০২৪ থেকে জাতিসংঘের সহায়তা চলমান ছিল, এবং সরকারি আমন্ত্রণের পর ইউরোপীয় ইউনিয়ন নির্বাচন পর্যবেক্ষক মিশন মোতায়েন করে।",
       "sourceIds": [
-        "archive-collection",
-        "research-volume"
+        "undp-support-13th-parliamentary-electoral-cycle-2026",
+        "eeas-eu-eom-bangladesh-2026"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-2",
+      "section": "whyItMatters",
+      "claim": "২০২৫ সালের ৪ ডিসেম্বর রাজনৈতিক দলগুলোর সঙ্গে জাতিসংঘের ব্রিফিংয়ে নির্বাচন কমিশনকে কারিগরি সহায়তা ও ভোটার নিবন্ধন সম্প্রসারণসহ বিভিন্ন সহায়তার কথা উল্লেখ করা হয়।",
+      "sourceIds": [
+        "un-bangladesh-briefing-political-parties-election-support-2025"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "longTermLegacy-claim-1",
       "section": "longTermLegacy",
-      "claim": "২০২৬ সালের নির্বাচন প্রক্রিয়া রূপান্তর-পরবর্তী সময়ে নির্বাচনী বৈধতা নিয়ে নাগরিকদের মূল্যায়নকে দীর্ঘমেয়াদে প্রভাবিত করতে পারে। এর প্রভাব কেবল একটি ফলাফলে নয়, বরং প্রতিষ্ঠানগুলো প্রতিযোগিতামূলক ও বিশ্বাসযোগ্য অংশগ্রহণ ধরে রাখতে পারে কি না, তার ওপর নির্ভরশীল।",
+      "claim": "দীর্ঘমেয়াদে ২০২৬ নির্বাচনী চক্রের মূল্যায়ন অনেকটাই নির্ভর করবে এই প্রশ্নে: নিয়ম, অংশগ্রহণের শর্ত ও তদারকি-ব্যবস্থা একটি নির্বাচনী তারিখের বাইরে টেকসই বলে বিবেচিত হয়েছে কি না।",
       "sourceIds": [
-        "archive-collection",
-        "research-volume"
+        "undp-support-13th-parliamentary-electoral-cycle-2026",
+        "eeas-eu-eom-bangladesh-2026"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "সমষ্টিগত স্মৃতিতে ২০২৬-কে অনেক সময় শুধু একটি ভোটদিন নয়, বরং বহু বছরের বিতর্কের পর নির্বাচনী রাজনীতির বৈধতা পুনর্গঠনের পরীক্ষাক্ষণ হিসেবে দেখা হয়।",
+      "claim": "২০২৬ সালের ফেব্রুয়ারি নাগাদ ত্রয়োদশ নির্বাচনকে ঘিরে জনআলোচনায় শুধু সময়সূচি নয়, বরং প্রক্রিয়ার বিশ্বাসযোগ্যতা, অন্তর্ভুক্তি ও পর্যবেক্ষণ সক্ষমতাই বেশি গুরুত্ব পায়।",
       "sourceIds": [
-        "archive-collection",
-        "research-volume"
+        "undp-support-13th-parliamentary-electoral-cycle-2026",
+        "un-bangladesh-briefing-political-parties-election-support-2025",
+        "eeas-eu-eom-bangladesh-2026"
       ],
       "evidenceLevel": "medium"
     }

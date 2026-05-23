@@ -129,6 +129,12 @@ Rank the top 20 additions across events, figures, and resources.
 Rules:
 - Do not modify content/events, content/figures, or content/resources.
 - Do not create new event/figure/resource JSON files.
+- When proposing future additions, include optional schema fields where useful:
+  - Figure: shortAnswer, years/activePeriod, alternateNames/searchAliases, faq, primaryEventIds/relatedPlaceIds, seoTitle/seoDescription
+  - Event: quickAnswer, causes/consequences, misconceptions, faq, mapPoints, seoTitle/seoDescription
+  - Topic: beginnerSummary/advancedSummary, learningPath, faq, keyword split, seoTitle/seoDescription
+  - Resource: sourceQuality, evidenceLevel, related IDs, whyItMatters
+  - Place: lat/lon, modernCountry, historicalNames, related IDs, mapNote
 - Do not add speculative items without a reliable source basis.
 - Do not rely on Wikipedia alone.
 - If an item is disputed or legendary, mark it as 'needs careful sourcing'.
@@ -195,6 +201,7 @@ Rules:
 - Do not change production content.
 - Do not invent facts.
 - Do not use Wikipedia as the only source.
+- In backlog recommendations, mention optional schema fields to populate for each item when applicable (faq, mapPoints, learningPath, alias fields, sourceQuality/evidenceLevel, related IDs).
 - Prefer Banglapedia, academic, archive, institutional, official, and recognized historical sources.
 - Clearly mark disputed or source-sensitive topics.
 - Final response should include a concise summary and the path docs/content-gap-audit.md."

@@ -36,15 +36,17 @@ Instructions:
 5. Do not use weak blogs or unsourced social media.
 6. Extract only source-backed claims.
 7. Enrich summary, whyItMatters, longTermLegacy, culturalImpact, identityMemoryNotes, historicalDebate if relevant.
-8. Enrich timeline items with sourceIds, evidenceLevel, themes, and accurate dates.
-9. Add missing resources under content/resources only when needed.
-10. Update resource-ids.json with valid source IDs.
-11. Keep English and Bangla content meaningfully equivalent, not word-for-word mechanical translation.
-12. Use neutral historical language. For disputed or legendary/traditional claims, clearly mark uncertainty.
-13. Do not invent facts, people, dates, quotations, or sources.
-14. Run pnpm content:validate.
-15. Fix all validation errors.
-16. At the end, provide a concise report:
+8. Also enrich optional event fields when supported by sources: seoTitle, seoDescription, quickAnswer, causes, consequences, misconceptions, faq, and mapPoints.
+9. Enrich timeline items with sourceIds, evidenceLevel, themes, and accurate dates.
+10. Add missing resources under content/resources only when needed.
+11. Update resource-ids.json with valid source IDs.
+12. Keep English and Bangla content meaningfully equivalent, not word-for-word mechanical translation.
+13. Use neutral historical language. For disputed or legendary/traditional claims, clearly mark uncertainty.
+14. Ensure new optional fields pass shape rules in scripts/validate-content.mjs (faq shape, mapPoints shape/placeId, enum checks).
+15. Do not invent facts, people, dates, quotations, or sources.
+16. Run pnpm content:validate.
+17. Fix all validation errors.
+18. At the end, provide a concise report:
    - sources added
    - claims enriched
    - uncertainty/dispute notes
@@ -121,13 +123,15 @@ Instructions:
 3. Search the web for reliable sources about this person.
 4. Prefer academic, encyclopedia, archive, official, book, or recognized historical sources.
 5. Enrich role, contribution, context, impact, highlight, and tags.
-6. Keep historical claims concise and source-backed.
-7. Do not overstate legends, disputed roles, or nationalist/political claims.
-8. If the person is linked to events, verify existing related events and add figure ID to event figure-ids.json only when clearly supported.
-9. Keep EN and BN content aligned.
-10. Update figure index files if needed.
-11. Run pnpm content:validate and fix errors.
-12. Report:
+6. Also enrich optional figure fields when supported: seoTitle, seoDescription, shortAnswer, birthYear, deathYear, activePeriod, alternateNames, searchAliases, faq, primaryEventIds, relatedPlaceIds.
+7. Keep historical claims concise and source-backed.
+8. Do not overstate legends, disputed roles, or nationalist/political claims.
+9. If the person is linked to events, verify existing related events and add figure ID to event figure-ids.json only when clearly supported.
+10. Keep EN and BN content aligned.
+11. Ensure optional fields follow validator shape rules (faq + alias arrays + ID arrays).
+12. Update figure index files if needed.
+13. Run pnpm content:validate and fix errors.
+14. Report:
    - sources consulted
    - claims improved
    - events linked
@@ -165,9 +169,11 @@ Instructions:
 5. Do not add pirated book links or illegal downloads.
 6. If no official/readable URL exists, use metadata only or a trusted archive/catalog page.
 7. Create or update EN and BN resource metadata.
-8. Link the resource to related event resource-ids.json only when it directly supports the event.
-9. Run pnpm content:validate and fix errors.
-10. Report:
+8. Add optional resource fields when supported: sourceQuality, evidenceLevel, relatedEventIds, relatedFigureIds, relatedTopicIds, whyItMatters.
+9. Link the resource to related event resource-ids.json only when it directly supports the event.
+10. Ensure enum and ID shapes pass validator checks.
+11. Run pnpm content:validate and fix errors.
+12. Report:
    - resource metadata added/updated
    - quality classification reason
    - related events linked
