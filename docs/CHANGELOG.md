@@ -105,6 +105,24 @@
   - Docs:
     - Marked `RM-SEO-003` complete in `docs/ROADMAP.md`.
 
+- RM-SEO-006 structured data consistency for figure/event pages:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - Added JSON-LD serialization helper in `src/lib/seo.ts` to safely escape `<` characters in structured data payloads.
+    - Lint verification run (`pnpm lint`) completed with warnings only (no errors).
+  - UI/runtime:
+    - Figure detail pages (`/{locale}/figures/{id}`):
+      - Kept `Person` schema and expanded it with `@id` and `mainEntityOfPage`.
+      - Added `BreadcrumbList` schema.
+    - Event detail pages (`/{locale}/events/{slug}`):
+      - Added `Event` schema.
+      - Added `Article` schema linked to the event entity.
+      - Added `BreadcrumbList` schema.
+    - Switched figure/event JSON-LD script serialization to shared safe serializer.
+  - Docs:
+    - Marked `RM-SEO-006` complete in `docs/ROADMAP.md`.
+
 ## 2026-05-20
 
 ### Completed

@@ -6,7 +6,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ShareActions } from "@/components/ShareActions";
 import { getEventContent, getEventsByFigureIdChronological, getFigure, getTopicsByFigureId } from "@/lib/content";
-import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag } from "@/lib/seo";
+import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, serializeJsonLd } from "@/lib/seo";
 import { SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, type FigureId, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -81,12 +81,38 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
   const personJsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": `https://bengalunfolded.com/${locale}/figures/${id}#person`,
     name: figure.name,
     description: figure.highlight ?? figure.contribution,
     url: `https://bengalunfolded.com/${locale}/figures/${id}`,
     image: figure.image,
     knowsAbout: figure.tags,
     inLanguage: localeLanguageTag(locale as Locale),
+    mainEntityOfPage: `https://bengalunfolded.com/${locale}/figures/${id}`,
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: locale === "bn" ? "হোম" : "Home",
+        item: absoluteUrl(`/${locale}`),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: locale === "bn" ? "ব্যক্তিত্ব" : "Figures",
+        item: absoluteUrl(`/${locale}/figures`),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: figure.name,
+        item: absoluteUrl(`/${locale}/figures/${id}`),
+      },
+    ],
   };
 
   const labels = locale === "bn"
@@ -178,7 +204,8 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
 
   return (
     <div className="space-y-8">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(personJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }} />
       <HeroSection
         title={figure.name}
         tagline={figure.role}

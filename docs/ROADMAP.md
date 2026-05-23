@@ -304,8 +304,7 @@ Priority: Improve discoverability and social distribution with minimal architect
 - [x] RM-SEO-001 Rewrite high-impression figure page titles using contextual formula: `{Name} — {Role} in {Historical Context} | Bengal Unfolded`
 - [x] RM-SEO-002 Rewrite high-impression figure meta descriptions to include who/why/period/reader outcome
 - [x] RM-SEO-003 Add `Related` blocks on figure pages: related figures, events, places, and books/resources
-- [ ] RM-SEO-005 Add weekly Search Console optimization loop with tracked actions (title refreshes, description refreshes, internal link boosts, re-index submissions)
-- [ ] RM-SEO-006 Expand and validate structured data consistency for figure/event pages (`Person`, `Event`, `Article`, `BreadcrumbList`)
+- [x] RM-SEO-006 Expand and validate structured data consistency for figure/event pages (`Person`, `Event`, `Article`, `BreadcrumbList`)
 - [ ] RM-SEO-007 Expand figure-page content depth model: biography, timeline placement, related events, references, and legacy summary
 
 ### Social sharing baseline
@@ -709,6 +708,12 @@ Version history saved
 ## Stage 2: Backend Platform
 
 Detailed phase breakdown for the backend platform. These phases expand on the high-level items in the Final Phase section above (RM-021 to RM-027, RM-COM-001 to RM-COM-010) and Phase v3 (authenticated resource hub, reader features). Each phase has its own completion criteria aligned with the AI Integration Completion Criteria defined above.
+
+---
+
+### Backend SEO Operations
+
+- [ ] RM-SEO-005 Add weekly Search Console optimization loop with tracked actions (title refreshes, description refreshes, internal link boosts, re-index submissions)
 
 ---
 

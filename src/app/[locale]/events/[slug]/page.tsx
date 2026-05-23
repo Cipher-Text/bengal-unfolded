@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { buildDynamicOgImagePath, buildPageMetadata } from "@/lib/seo";
+import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, serializeJsonLd } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
@@ -221,8 +221,80 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   ].filter((group) => group.items.length > 0);
   const faqEntries = event.quotes.filter((quote) => quote.source.startsWith("FAQ"));
   const quoteEntries = event.quotes.filter((quote) => !quote.source.startsWith("FAQ"));
+  const canonicalPath = `/${locale}/events/${slug}`;
+  const canonicalUrl = absoluteUrl(canonicalPath);
+  const eventJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "@id": `${canonicalUrl}#event`,
+    name: `${event.meta.year} - ${event.meta.title}`,
+    description: event.meta.summary,
+    url: canonicalUrl,
+    inLanguage: localeLanguageTag(locale as Locale),
+    location: event.meta.placeLabel
+      ? {
+          "@type": "Place",
+          name: event.meta.placeLabel,
+        }
+      : undefined,
+    eventStatus: "https://schema.org/EventCompleted",
+  };
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${canonicalUrl}#article`,
+    headline: `${event.meta.year} - ${event.meta.title}`,
+    description: event.meta.summary,
+    url: canonicalUrl,
+    mainEntityOfPage: canonicalUrl,
+    inLanguage: localeLanguageTag(locale as Locale),
+    author: {
+      "@type": "Organization",
+      name: "Bengal Unfolded",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Bengal Unfolded",
+      url: absoluteUrl("/"),
+    },
+    about: {
+      "@id": `${canonicalUrl}#event`,
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Bengal Unfolded",
+      url: absoluteUrl("/"),
+    },
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: locale === "bn" ? "হোম" : "Home",
+        item: absoluteUrl(`/${locale}`),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: locale === "bn" ? "টাইমলাইন" : "Timeline",
+        item: absoluteUrl(`/${locale}/timeline`),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: event.meta.title,
+        item: canonicalUrl,
+      },
+    ],
+  };
   return (
     <div className="space-y-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(eventJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }} />
       <HeroSection
         title={`${event.meta.year} — ${event.meta.title}`}
         tagline={event.meta.heroTagline}
