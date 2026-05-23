@@ -116,3 +116,14 @@ export function buildPageMetadata(input: {
 export function serializeJsonLd(data: unknown): string {
   return JSON.stringify(data).replace(/</g, "\\u003c");
 }
+
+export function normalizeMetaDescription(
+  value: string | null | undefined,
+  fallback: string,
+  maxLength = 320,
+): string {
+  const raw = (value ?? "").trim();
+  const base = raw.length > 0 ? raw : fallback.trim();
+  if (base.length <= maxLength) return base;
+  return `${base.slice(0, maxLength - 3).trimEnd()}...`;
+}

@@ -305,15 +305,15 @@ Priority: Improve discoverability and social distribution with minimal architect
 - [x] RM-SEO-002 Rewrite high-impression figure meta descriptions to include who/why/period/reader outcome
 - [x] RM-SEO-003 Add `Related` blocks on figure pages: related figures, events, places, and books/resources
 - [x] RM-SEO-006 Expand and validate structured data consistency for figure/event pages (`Person`, `Event`, `Article`, `BreadcrumbList`)
-- [ ] RM-SEO-007 Expand figure-page content depth model: biography, timeline placement, related events, references, and legacy summary
+- [x] RM-SEO-007 Expand figure-page content depth model: biography, timeline placement, related events, references, and legacy summary
 
 ### Social sharing baseline
 
-- [ ] RM-SHARE-001 Social metadata baseline for event/figure/book pages (`title`, `description`, `image`)
+- [x] RM-SHARE-001 Social metadata baseline for event/figure/book pages (`title`, `description`, `image`)
 - [x] RM-SHARE-002 Dynamic Open Graph image generation per content type (localized EN/BN)
 - [x] RM-SHARE-003 Share action UI on detail pages (copy link + native share where available)
 - [x] RM-SHARE-004 Canonical URL and locale-aware metadata consistency checks
-- [ ] RM-SHARE-005 Optional downloadable share card images for manual posting
+- [x] RM-SHARE-005 Optional downloadable share card images for manual posting
 - [x] RM-SHARE-006 Dynamic topic hubs and cluster linking (`/{locale}/topics`, `/{locale}/topics/{slug}`) with sitemap and multi-entity internal links
 
 ---

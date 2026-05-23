@@ -138,6 +138,58 @@
   - Docs:
     - Marked `RM-SHARE-004` complete in `docs/ROADMAP.md`.
 
+- RM-SHARE-001 social metadata baseline for event/figure/book pages:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - Added shared metadata description normalizer `normalizeMetaDescription` in `src/lib/seo.ts` (trim, fallback, max-length clamp).
+    - Lint verification run (`pnpm lint`) completed with warnings only (no errors).
+  - UI/runtime:
+    - Event pages (`/{locale}/events/{slug}`): metadata now uses normalized description with locale-aware fallback text.
+    - Figure pages (`/{locale}/figures/{id}`): metadata description now uses shared normalizer for consistent clamp/fallback behavior.
+    - Book pages (`/{locale}/books/{id}`): metadata now uses normalized description with locale-aware fallback text.
+    - Dynamic OG image baseline for event/figure/book remains active via existing `buildDynamicOgImagePath` integration.
+  - Docs:
+    - Marked `RM-SHARE-001` complete in `docs/ROADMAP.md`.
+
+- RM-SEO-007 figure-page content depth expansion:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - Reused existing normalized figure/event/resource data model; no validator rule changes required.
+    - Lint verification run (`pnpm lint`) completed with warnings only (no errors).
+  - UI/runtime:
+    - Expanded `/{locale}/figures/{id}` page structure with explicit depth sections:
+      - biography summary
+      - timeline placement
+      - legacy summary
+      - references
+      - related events (retained via existing related blocks)
+    - Added derived timeline placement metrics from linked events:
+      - first appearance year
+      - latest appearance year
+      - active span
+      - linked event count
+    - Promoted source-backed reference visibility by creating a dedicated references section from related resources with citation frequency (`cited in N events`).
+  - Docs:
+    - Marked `RM-SEO-007` complete in `docs/ROADMAP.md`.
+
+- RM-SHARE-005 downloadable share card images:
+  - Model:
+    - No schema/type changes required.
+  - Validation:
+    - Reused existing dynamic OG image endpoint (`/api/og`) and URL builder.
+    - Lint verification run (`pnpm lint`) completed with warnings only (no errors).
+  - UI/runtime:
+    - Extended `ShareActions` with optional download-card action (`downloadImagePath`, `downloadFileName`, localized label).
+    - Added manual download controls on detail pages:
+      - `/{locale}/events/{slug}`
+      - `/{locale}/figures/{id}`
+      - `/{locale}/books/{id}`
+    - Download action points to corresponding dynamic OG image URL and suggests deterministic file names for manual posting workflows.
+  - Docs:
+    - Marked `RM-SHARE-005` complete in `docs/ROADMAP.md`.
+
 ## 2026-05-20
 
 ### Completed

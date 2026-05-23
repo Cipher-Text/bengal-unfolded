@@ -6,7 +6,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ShareActions } from "@/components/ShareActions";
 import { getBook, getEventsByBookIdChronological } from "@/lib/content";
-import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag } from "@/lib/seo";
+import { buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, normalizeMetaDescription } from "@/lib/seo";
 import { SUPPORTED_BOOK_IDS, SUPPORTED_LOCALES, type BookId, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -17,10 +17,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, id } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_BOOK_IDS.includes(id as BookId)) return {};
   const book = await getBook(locale, id);
+  const description = normalizeMetaDescription(
+    book.note,
+    locale === "bn"
+      ? "বইটির সারাংশ, লেখক তথ্য, এবং কোন কোন ঐতিহাসিক ঘটনায় এটি উল্লেখিত হয়েছে তা দেখুন।"
+      : "Read the book summary, author context, and the historical events where this source is referenced.",
+  );
   return buildPageMetadata({
     locale: locale as Locale,
     title: `${book.title} | Bengal Unfolded`,
-    description: book.note,
+    description,
     canonicalPath: `/${locale}/books/${id}`,
     languagePathWithoutLocale: `/books/${id}`,
     type: "book",
@@ -47,6 +53,7 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
         timelineView: "ঘটনাপঞ্জি ভিউ",
         share: "শেয়ার",
         copyLink: "লিংক কপি",
+        downloadCard: "কার্ড ডাউনলোড",
         copied: "কপি হয়েছে",
         copyFailed: "কপি ব্যর্থ",
       }
@@ -56,9 +63,16 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
         timelineView: "Timeline View",
         share: "Share",
         copyLink: "Copy link",
+        downloadCard: "Download card",
         copied: "Copied",
         copyFailed: "Copy failed",
       };
+  const shareImagePath = buildDynamicOgImagePath({
+    locale: locale as Locale,
+    type: "book",
+    title: book.title,
+    subtitle: book.author ?? undefined,
+  });
   const bookJsonLd = {
     "@context": "https://schema.org",
     "@type": "Book",
@@ -80,7 +94,9 @@ export default async function BookDetailPage({ params }: { params: Promise<{ loc
           <ShareActions
             title={book.title}
             path={`/${locale}/books/${id}`}
-            labels={{ share: labels.share, copyLink: labels.copyLink, copied: labels.copied, copyFailed: labels.copyFailed }}
+            labels={{ share: labels.share, copyLink: labels.copyLink, downloadCard: labels.downloadCard, copied: labels.copied, copyFailed: labels.copyFailed }}
+            downloadImagePath={shareImagePath}
+            downloadFileName={`bengal-unfolded-book-${id}-${locale}.png`}
           />
         }
       />

@@ -6,7 +6,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ShareActions } from "@/components/ShareActions";
 import { getEventContent, getEventsByFigureIdChronological, getFigure, getTopicsByFigureId } from "@/lib/content";
-import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, serializeJsonLd } from "@/lib/seo";
+import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, normalizeMetaDescription, serializeJsonLd } from "@/lib/seo";
 import { SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, type FigureId, type Locale } from "@/types/content";
 
 export function generateStaticParams() {
@@ -54,9 +54,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         why,
         "See their historical role, impact, and connected events in one place.",
       ].filter(Boolean).join(" ");
-  const description = baseDescription.length > 320
-    ? `${baseDescription.slice(0, 317).trimEnd()}...`
-    : baseDescription;
+  const description = normalizeMetaDescription(
+    baseDescription,
+    locale === "bn"
+      ? "এই ব্যক্তিত্বের ঐতিহাসিক ভূমিকা, প্রভাব ও সংশ্লিষ্ট ঘটনাগুলো এক নজরে দেখুন।"
+      : "See this figure's historical role, impact, and connected events in one place.",
+  );
   return buildPageMetadata({
     locale: locale as Locale,
     title,
@@ -117,9 +120,19 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
 
   const labels = locale === "bn"
     ? {
+        biography: "জীবনী",
         context: "প্রেক্ষাপট",
         contribution: "অবদান",
         impact: "প্রভাব",
+        timelinePlacement: "টাইমলাইন অবস্থান",
+        firstAppearance: "প্রথম উপস্থিতি",
+        latestAppearance: "সর্বশেষ উপস্থিতি",
+        activitySpan: "সময় বিস্তৃতি",
+        linkedEventsCount: "সংযুক্ত ঘটনার সংখ্যা",
+        legacySummary: "উত্তরাধিকার সারাংশ",
+        references: "রেফারেন্স",
+        referencesSubtitle: "এই ব্যক্তিত্বকে বোঝার জন্য গুরুত্বপূর্ণ সূত্রসমূহ",
+        citedIn: "উল্লেখিত",
         appearsIn: "ঘটনাসমূহে অংশগ্রহণ",
         timelineView: "ঘটনাপঞ্জি ভিউ",
         related: "সম্পর্কিত",
@@ -131,13 +144,24 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
         exploreTopicHub: "সম্পর্কিত টপিক দেখুন",
         share: "শেয়ার",
         copyLink: "লিংক কপি",
+        downloadCard: "কার্ড ডাউনলোড",
         copied: "কপি হয়েছে",
         copyFailed: "কপি ব্যর্থ",
       }
       : {
+        biography: "Biography",
         context: "Context",
         contribution: "Contribution",
         impact: "Impact",
+        timelinePlacement: "Timeline Placement",
+        firstAppearance: "First Appearance",
+        latestAppearance: "Latest Appearance",
+        activitySpan: "Active Span",
+        linkedEventsCount: "Linked Events",
+        legacySummary: "Legacy Summary",
+        references: "References",
+        referencesSubtitle: "Key sources for understanding this figure",
+        citedIn: "Cited in",
         appearsIn: "Appears In Events",
         timelineView: "Timeline View",
         related: "Related",
@@ -149,6 +173,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
         exploreTopicHub: "Explore related topics",
         share: "Share",
         copyLink: "Copy link",
+        downloadCard: "Download card",
         copied: "Copied",
         copyFailed: "Copy failed",
       };
@@ -201,6 +226,26 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
     ).values(),
   ).slice(0, 6);
   const relatedEvents = events.slice(0, 6);
+  const firstEvent = events[0];
+  const latestEvent = events[events.length - 1];
+  const activeSpan = firstEvent && latestEvent
+    ? (firstEvent.year === latestEvent.year ? firstEvent.year : `${firstEvent.year} - ${latestEvent.year}`)
+    : (locale === "bn" ? "প্রযোজ্য নয়" : "Not available");
+  const timelinePlacementSummary = locale === "bn"
+    ? `${figure.name} এই টাইমলাইনে ${events.length}টি সংযুক্ত ঘটনার মাধ্যমে উপস্থিত, যা ${activeSpan} সময়জুড়ে বিস্তৃত।`
+    : `${figure.name} appears in ${events.length} linked timeline events, spanning ${activeSpan}.`;
+  const biographySummary = locale === "bn"
+    ? `${figure.context} প্রেক্ষাপটে ${figure.name} ${figure.role} হিসেবে পরিচিত। ${figure.highlight ?? figure.contribution}`
+    : `In the context of ${figure.context}, ${figure.name} is recognized as ${figure.role}. ${figure.highlight ?? figure.contribution}`;
+  const legacySummary = locale === "bn"
+    ? `${figure.impact} ${events.length > 0 ? `এই প্রভাব ${events.length}টি সংশ্লিষ্ট ঘটনার বর্ণনায় প্রতিফলিত হয়েছে।` : ""}`
+    : `${figure.impact} ${events.length > 0 ? `This influence is reflected across ${events.length} connected events.` : ""}`;
+  const shareImagePath = buildDynamicOgImagePath({
+    locale: locale as Locale,
+    type: "figure",
+    title: figure.name,
+    subtitle: figure.role,
+  });
 
   return (
     <div className="space-y-8">
@@ -214,19 +259,22 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
           <ShareActions
             title={figure.name}
             path={`/${locale}/figures/${id}`}
-            labels={{ share: labels.share, copyLink: labels.copyLink, copied: labels.copied, copyFailed: labels.copyFailed }}
+            labels={{ share: labels.share, copyLink: labels.copyLink, downloadCard: labels.downloadCard, copied: labels.copied, copyFailed: labels.copyFailed }}
+            downloadImagePath={shareImagePath}
+            downloadFileName={`bengal-unfolded-figure-${id}-${locale}.png`}
           />
         }
       />
 
       <AnimatedContainer>
-        <SectionTitle title={labels.context} subtitle={figure.context} />
+        <SectionTitle title={labels.biography} subtitle={labels.context} />
         <div className="theme-surface mt-4 rounded-xl border p-4">
           {figure.image ? (
             <div className="theme-surface mb-4 overflow-hidden rounded-xl border border-amber-500/25 p-2">
               <img src={figure.image} alt={figure.name} loading="lazy" className="h-auto max-h-[32rem] w-full object-contain" />
             </div>
           ) : null}
+          <p className="theme-muted text-sm leading-relaxed">{biographySummary}</p>
           <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.contribution}</h3>
           <p className="mt-2 text-sm">{figure.contribution}</p>
           <h3 className="text-positive mt-4 text-sm tracking-[0.18em] uppercase">{labels.impact}</h3>
@@ -255,6 +303,53 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>
+        <SectionTitle title={labels.timelinePlacement} />
+        <div className="theme-surface mt-4 rounded-xl border p-4">
+          <p className="theme-muted text-sm">{timelinePlacementSummary}</p>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <div className="rounded-lg border border-amber-500/30 p-3">
+              <p className="theme-muted text-xs tracking-[0.16em] uppercase">{labels.firstAppearance}</p>
+              <p className="mt-1 font-semibold">{firstEvent ? firstEvent.year : (locale === "bn" ? "প্রযোজ্য নয়" : "N/A")}</p>
+            </div>
+            <div className="rounded-lg border border-amber-500/30 p-3">
+              <p className="theme-muted text-xs tracking-[0.16em] uppercase">{labels.latestAppearance}</p>
+              <p className="mt-1 font-semibold">{latestEvent ? latestEvent.year : (locale === "bn" ? "প্রযোজ্য নয়" : "N/A")}</p>
+            </div>
+            <div className="rounded-lg border border-amber-500/30 p-3">
+              <p className="theme-muted text-xs tracking-[0.16em] uppercase">{labels.activitySpan}</p>
+              <p className="mt-1 font-semibold">{activeSpan}</p>
+            </div>
+            <div className="rounded-lg border border-amber-500/30 p-3">
+              <p className="theme-muted text-xs tracking-[0.16em] uppercase">{labels.linkedEventsCount}</p>
+              <p className="mt-1 font-semibold">{events.length}</p>
+            </div>
+          </div>
+        </div>
+      </AnimatedContainer>
+
+      <AnimatedContainer delay={0.055}>
+        <SectionTitle title={labels.legacySummary} />
+        <div className="theme-surface mt-4 rounded-xl border p-4">
+          <p className="text-sm leading-relaxed">{legacySummary}</p>
+        </div>
+      </AnimatedContainer>
+
+      <AnimatedContainer delay={0.058}>
+        <SectionTitle title={labels.references} subtitle={labels.referencesSubtitle} />
+        <div className="theme-surface mt-4 rounded-xl border p-4">
+          <div className="space-y-2">
+            {relatedResources.length ? relatedResources.map((resource) => (
+              <Link key={resource.id} href={`/${locale}/resources/${resource.id}`} className="block rounded-lg border border-amber-500/30 p-3 hover:bg-amber-500/10">
+                <p className="font-semibold">{resource.title}</p>
+                <p className="theme-muted mt-1 text-sm">{resource.note}</p>
+                <p className="theme-muted mt-1 text-xs">{labels.citedIn}: {resource.count} {locale === "bn" ? "ঘটনা" : "events"}</p>
+              </Link>
+            )) : <p className="theme-muted text-sm">{locale === "bn" ? "এখনও কোনো রেফারেন্স পাওয়া যায়নি।" : "No references found yet."}</p>}
+          </div>
+        </div>
+      </AnimatedContainer>
+
+      <AnimatedContainer delay={0.06}>
         <SectionTitle title={labels.related} />
         <div className="mt-4 grid gap-4 lg:grid-cols-2">
           <div className="theme-surface rounded-xl border p-4">
@@ -289,21 +384,10 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
               )) : <p className="theme-muted text-sm">{locale === "bn" ? "এখনও কোনো সম্পর্কিত স্থান পাওয়া যায়নি।" : "No related places found yet."}</p>}
             </div>
           </div>
-          <div className="theme-surface rounded-xl border p-4">
-            <h3 className="text-sm tracking-[0.18em] text-accent uppercase">{labels.relatedResources}</h3>
-            <div className="mt-3 space-y-2">
-              {relatedResources.length ? relatedResources.map((resource) => (
-                <Link key={resource.id} href={`/${locale}/resources/${resource.id}`} className="block rounded-lg border border-amber-500/30 p-3 hover:bg-amber-500/10">
-                  <p className="font-semibold">{resource.title}</p>
-                  <p className="theme-muted mt-1 text-sm">{resource.note}</p>
-                </Link>
-              )) : <p className="theme-muted text-sm">{locale === "bn" ? "এখনও কোনো সম্পর্কিত রিসোর্স পাওয়া যায়নি।" : "No related resources found yet."}</p>}
-            </div>
-          </div>
         </div>
       </AnimatedContainer>
 
-      <AnimatedContainer delay={0.06}>
+      <AnimatedContainer delay={0.065}>
         <SectionTitle title={labels.appearsIn} subtitle={labels.timelineView} />
         <div className="mt-4 space-y-3">
           {events.map((event, index) => (

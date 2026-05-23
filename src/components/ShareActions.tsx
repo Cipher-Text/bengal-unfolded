@@ -8,17 +8,21 @@ type ShareActionsLabels = {
   copyLink: string;
   copied: string;
   copyFailed: string;
+  downloadCard?: string;
 };
 
 type ShareActionsProps = {
   title: string;
   path: string;
   labels: ShareActionsLabels;
+  downloadImagePath?: string;
+  downloadFileName?: string;
 };
 
-export function ShareActions({ title, path, labels }: ShareActionsProps) {
+export function ShareActions({ title, path, labels, downloadImagePath, downloadFileName }: ShareActionsProps) {
   const [status, setStatus] = useState<"idle" | "copied" | "failed">("idle");
   const url = absoluteUrl(path);
+  const downloadUrl = downloadImagePath ? absoluteUrl(downloadImagePath) : null;
   const canNativeShare = useSyncExternalStore(
     () => () => {},
     () => typeof navigator !== "undefined" && typeof navigator.share === "function",
@@ -63,6 +67,16 @@ export function ShareActions({ title, path, labels }: ShareActionsProps) {
       >
         {labels.copyLink}
       </button>
+      {downloadUrl ? (
+        <a
+          href={downloadUrl}
+          download={downloadFileName}
+          className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/35 px-3 text-sm text-accent hover:bg-amber-500/10"
+          aria-label={labels.downloadCard ?? "Download share card"}
+        >
+          {labels.downloadCard ?? "Download card"}
+        </a>
+      ) : null}
       {status === "copied" ? <span className="text-xs text-emerald-300">{labels.copied}</span> : null}
       {status === "failed" ? <span className="text-xs text-rose-300">{labels.copyFailed}</span> : null}
     </div>

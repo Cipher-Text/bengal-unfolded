@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, serializeJsonLd } from "@/lib/seo";
+import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, normalizeMetaDescription, serializeJsonLd } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
@@ -24,10 +24,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) return {};
   const event = await getEventContent(locale, slug);
+  const description = normalizeMetaDescription(
+    event.meta.summary,
+    locale === "bn"
+      ? "ঐতিহাসিক ঘটনাটির প্রেক্ষাপট, টাইমলাইন, গুরুত্বপূর্ণ ব্যক্তি ও নির্ভরযোগ্য সূত্র একসাথে পড়ুন।"
+      : "Explore this historical event's context, timeline, key figures, and source-backed analysis.",
+  );
   return buildPageMetadata({
     locale: locale as Locale,
     title: `${event.meta.year} - ${event.meta.title}${event.meta.subtitle ? `: ${event.meta.subtitle}` : ""} | Bengal Unfolded`,
-    description: event.meta.summary,
+    description,
     canonicalPath: `/${locale}/events/${slug}`,
     languagePathWithoutLocale: `/events/${slug}`,
     type: "article",
@@ -86,6 +92,7 @@ const EVENT_LABELS = {
     contrast: "Useful contrasts",
     share: "Share",
     copyLink: "Copy link",
+    downloadCard: "Download card",
     copied: "Copied",
     copyFailed: "Copy failed",
     revisionHistoryPlanned: "Public revision history for this chapter is planned in backend phase B5.",
@@ -136,6 +143,7 @@ const EVENT_LABELS = {
     contrast: "তুলনামূলক অধ্যায়",
     share: "শেয়ার",
     copyLink: "লিংক কপি",
+    downloadCard: "কার্ড ডাউনলোড",
     copied: "কপি হয়েছে",
     copyFailed: "কপি ব্যর্থ",
     revisionHistoryPlanned: "এই অধ্যায়ের পাবলিক রিভিশন ইতিহাস backend পর্যায় B5-এ যুক্ত করা হবে।",
@@ -221,6 +229,12 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   ].filter((group) => group.items.length > 0);
   const faqEntries = event.quotes.filter((quote) => quote.source.startsWith("FAQ"));
   const quoteEntries = event.quotes.filter((quote) => !quote.source.startsWith("FAQ"));
+  const shareImagePath = buildDynamicOgImagePath({
+    locale: locale as Locale,
+    type: "event",
+    title: `${event.meta.year} - ${event.meta.title}`,
+    subtitle: event.meta.heroTagline,
+  });
   const canonicalPath = `/${locale}/events/${slug}`;
   const canonicalUrl = absoluteUrl(canonicalPath);
   const eventJsonLd = {
@@ -303,7 +317,9 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           <ShareActions
             title={`${event.meta.year} — ${event.meta.title}`}
             path={`/${locale}/events/${slug}`}
-            labels={{ share: labels.share, copyLink: labels.copyLink, copied: labels.copied, copyFailed: labels.copyFailed }}
+            labels={{ share: labels.share, copyLink: labels.copyLink, downloadCard: labels.downloadCard, copied: labels.copied, copyFailed: labels.copyFailed }}
+            downloadImagePath={shareImagePath}
+            downloadFileName={`bengal-unfolded-event-${slug}-${locale}.png`}
           />
         }
       />
