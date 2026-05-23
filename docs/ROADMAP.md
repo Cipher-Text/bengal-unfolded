@@ -351,7 +351,6 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 
 ### Visualization-first learning model
 
-- [ ] RM-VIS-001 Visual event cards with timeline, place, figures, and source indicators
 - [ ] RM-VIS-002 Cause -> event -> effect visual chain
 - [ ] RM-VIS-003 Before/after event navigation cards
 - [ ] RM-VIS-004 Relationship graph for event detail pages
@@ -1458,7 +1457,6 @@ Recommended next sprint items:
 - [x] RM-006D Parent-child event clustering
 - [x] RM-REL-001 Cause/effect fields in event content model
 - [x] RM-REL-002 Related event relationship types (`cause`, `effect`, `parallel`, `background`, `legacy`, `contrast`)
-- [ ] RM-VIS-001 Visual event cards with timeline, place, figures, and source indicators
 - [ ] RM-VIS-002 Cause -> event -> effect visual chain
 - [ ] RM-VIS-003 Before/after event navigation cards
 - [ ] RM-VIS-008 Place-event mini map on event pages
