@@ -1,0 +1,59 @@
+[
+  {
+    "year": "Aug 1946",
+    "title": "Communal polarization intensifies after Calcutta killings",
+    "detail": "The aftermath of the Great Calcutta Killing contributed to rising fear, rumor, and retaliatory sentiment across Bengal and beyond.",
+    "sourceIds": [
+      "calcutta-riot-1946-banglapedia",
+      "direct-action-day-britannica",
+      "the-great-partition"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "Oct 1946",
+    "title": "Large-scale violence erupts in Noakhali region",
+    "detail": "In parts of Noakhali and adjacent areas, communal attacks resulted in killings, displacement, and severe social disruption.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "the-great-partition",
+      "midnights-furies"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "Oct-Nov 1946",
+    "title": "Relief, peace missions, and political contest over narrative",
+    "detail": "Public leaders and activists attempted relief and reconciliation efforts while rival political camps framed the events to support competing constitutional claims.",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "midnights-furies"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "1947 outcome",
+    "title": "Noakhali becomes a partition-era reference point",
+    "detail": "The memory of Noakhali fed reciprocal insecurity and was repeatedly invoked in arguments about separation during partition negotiations.",
+    "sourceIds": [
+      "the-great-partition",
+      "partition-politics-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

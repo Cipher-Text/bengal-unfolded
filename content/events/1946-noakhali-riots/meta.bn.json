@@ -1,0 +1,124 @@
+{
+  "slug": "1946-noakhali-riots",
+  "year": "১৯৪৬",
+  "title": "নোয়াখালি দাঙ্গা",
+  "subtitle": "নোয়াখালির সাম্প্রদায়িক সহিংসতা দেশভাগ-পূর্ব ভীতি ও মেরুকরণকে তীব্র করে।",
+  "summary": "১৯৪৬ সালের অক্টোবর মাসে পূর্ব বাংলার নোয়াখালি ও সংলগ্ন অঞ্চলে ব্যাপক সাম্প্রদায়িক সহিংসতায় হত্যাকাণ্ড, জোরপূর্বক বাস্তুচ্যুতি এবং কিছু এলাকায় জবরদস্তিমূলক ধর্মান্তরের অভিযোগ দেখা যায়। ক্যালকাটার হত্যাযজ্ঞ-পরবর্তী উত্তেজনা ও উপমহাদেশজুড়ে প্রতিশোধমূলক সহিংসতার প্রেক্ষাপটে নোয়াখালি ঘটনাবলি সাম্প্রদায়িক নিরাপত্তাহীনতাকে গভীর করে এবং অন্তিম ঔপনিবেশিক ভারতে সহাবস্থান ভেঙে পড়ছে—এই রাজনৈতিক যুক্তিকে শক্তিশালী করে।",
+  "themeColor": "#7f1d1d",
+  "ctaLabel": "নোয়াখালি ১৯৪৬ দেখুন",
+  "heroTagline": "গ্রামীণ সমাজে সাম্প্রদায়িক বিপর্যয়, যা দেশভাগের আগে আবেগগত ও রাজনৈতিক আবহকে বদলে দেয়।",
+  "summarySourceIds": [
+    "direct-action-day-britannica",
+    "partition-politics-banglapedia",
+    "the-great-partition"
+  ],
+  "whyItMatters": "নোয়াখালি দাঙ্গা গুরুত্বপূর্ণ, কারণ এটি দেখায় সাম্প্রদায়িক সহিংসতা শুধু শহরকেন্দ্রিক ছিল না; তা গ্রামীণ দুর্বল সমাজেও বিস্তৃত হয়েছিল। এই অভিজ্ঞতা নিরাপত্তা, প্রতিশোধ ও রাজনৈতিক বিচ্ছেদের বয়ানকে আরও তীব্র করে এবং দেশভাগের আগের বছরে জনমত ও উচ্চপর্যায়ের আলোচনাকে প্রভাবিত করে।",
+  "whyItMattersSourceIds": [
+    "partition-politics-banglapedia",
+    "the-great-partition",
+    "midnights-furies"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1946-direct-action-day-and-the-great-calcutta-killing",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1947-united-bengal-proposal",
+      "relationType": "contrast"
+    }
+  ],
+  "relatedEventIds": [
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1947-partition-and-eastern-bengal",
+    "1947-united-bengal-proposal"
+  ],
+  "periodLabel": "দেশভাগ ও অন্তিম ঔপনিবেশিক রাজনীতি",
+  "movementLabel": "দেশভাগ ও রাজনৈতিক প্রতিনিধিত্ব",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "sensitive": true,
+  "contentWarnings": [
+    "গণহিংসা",
+    "সাম্প্রদায়িক সহিংসতা",
+    "জোরপূর্বক বাস্তুচ্যুতি"
+  ],
+  "requiresSources": true,
+  "longTermLegacy": "দেশভাগ-ইতিহাসচর্চায় নোয়াখালি একটি স্থায়ী রেফারেন্সে পরিণত হয়, যা দেখায় সাম্প্রদায়িক ভাঙন কেবল নগর দাঙ্গায় সীমাবদ্ধ ছিল না। এর স্মৃতি সংখ্যালঘু নিরাপত্তাহীনতা ও পারস্পরিক ভীতিকে গভীর করে এবং ১৯৪৭ সালের বিভাজনের গতিকে আরও কঠোর করে।",
+  "longTermLegacySourceIds": [
+    "partition-politics-banglapedia",
+    "the-great-partition",
+    "midnights-furies"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "বাঙালির স্মৃতিতে নোয়াখালি এমন এক সামাজিক ট্রমা, যেখানে প্রতিবেশী-সমাজ দ্রুত সাম্প্রদায়িক লক্ষ্যবস্তুতে পরিণত হয়। দেশভাগ-পূর্ব রাজনীতিতে ভীতিনির্ভর মবিলাইজেশন, সংখ্যালঘু নিরাপত্তা এবং নৈতিক দায়বণ্টনের আলোচনায় এ ঘটনা এখনো কেন্দ্রীয়।",
+  "identityMemorySourceIds": [
+    "partition-politics-banglapedia",
+    "the-great-partition",
+    "midnights-furies"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "ঐতিহাসিকরা ১৯৪৬ সালের নোয়াখালিতে গুরুতর সাম্প্রদায়িক সহিংসতার বিষয়ে একমত হলেও নিহতের সুনির্দিষ্ট সংখ্যা, জবরদস্তির প্রকৃতি ও বিস্তার, প্রাদেশিক প্রশাসনের প্রতিক্রিয়ার পর্যাপ্ততা, এবং নোয়াখালি-বিহার-ক্যালকাটা ঘটনাগুলোর তুলনামূলক পাঠ নিয়ে মতভেদ রয়েছে।",
+  "historicalDebateSourceIds": [
+    "partition-politics-banglapedia",
+    "the-great-partition",
+    "midnights-furies"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৪৬ সালের অক্টোবর মাসে নোয়াখালি ও সংলগ্ন অঞ্চলে ব্যাপক সাম্প্রদায়িক সহিংসতায় হত্যাকাণ্ড, বাস্তুচ্যুতি এবং কিছু এলাকায় জবরদস্তির অভিযোগ দেখা যায়।",
+      "sourceIds": [
+        "direct-action-day-britannica",
+        "partition-politics-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "নোয়াখালির সহিংসতা সাম্প্রদায়িক ভীতির ভূগোলকে শহর থেকে গ্রামে বিস্তৃত করে এবং দেশভাগ-পূর্ব রাজনৈতিক বয়ানকে প্রভাবিত করে।",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "the-great-partition",
+        "midnights-furies"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "নোয়াখালির স্মৃতি পারস্পরিক নিরাপত্তাহীনতাকে জোরদার করে এবং ১৯৪৭-এর আগে সাংবিধানিক সমঝোতার সম্ভাবনা দুর্বল হওয়ার যুক্তিকে শক্তিশালী করে।",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "বাঙালির ঐতিহাসিক স্মৃতিতে নোয়াখালি সংখ্যালঘু ঝুঁকি, সামাজিক ট্রমা এবং ভীতিনির্ভর রাজনীতির একটি কেন্দ্রীয় উদাহরণ হিসেবে রয়ে গেছে।",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "the-great-partition",
+        "midnights-furies"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

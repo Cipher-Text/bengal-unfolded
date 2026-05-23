@@ -1,0 +1,59 @@
+[
+  {
+    "year": "আগস্ট ১৯৪৬",
+    "title": "ক্যালকাটা হত্যাযজ্ঞের পর সাম্প্রদায়িক মেরুকরণ তীব্র হয়",
+    "detail": "গ্রেট ক্যালকাটা কিলিং-এর পর বাংলাজুড়ে ভয়, গুজব ও প্রতিশোধমূলক মানসিকতা দ্রুত বাড়তে থাকে।",
+    "sourceIds": [
+      "calcutta-riot-1946-banglapedia",
+      "direct-action-day-britannica",
+      "the-great-partition"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "অক্টোবর ১৯৪৬",
+    "title": "নোয়াখালি অঞ্চলে ব্যাপক সহিংসতা শুরু হয়",
+    "detail": "নোয়াখালি ও সংলগ্ন কিছু এলাকায় সাম্প্রদায়িক আক্রমণে হত্যাকাণ্ড, বাস্তুচ্যুতি এবং সামাজিক বিপর্যয় দেখা যায়।",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "the-great-partition",
+      "midnights-furies"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "অক্টোবর-নভেম্বর ১৯৪৬",
+    "title": "ত্রাণ, শান্তি-মিশন এবং ঘটনার বয়ান নিয়ে রাজনৈতিক টানাপড়েন",
+    "detail": "ত্রাণ ও মীমাংসার উদ্যোগ নেওয়া হলেও প্রতিদ্বন্দ্বী রাজনৈতিক শক্তিগুলো নিজ নিজ সাংবিধানিক অবস্থান জোরালো করতে ঘটনাটির ভিন্ন ব্যাখ্যা তুলে ধরে।",
+    "sourceIds": [
+      "partition-politics-banglapedia",
+      "midnights-furies"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "১৯৪৭-এর ফলাফল",
+    "title": "নোয়াখালি দেশভাগ-পূর্ব রাজনীতির একটি স্থায়ী রেফারেন্সে পরিণত হয়",
+    "detail": "নোয়াখালির স্মৃতি পারস্পরিক নিরাপত্তাহীনতা বাড়ায় এবং দেশভাগ-আলোচনায় বিচ্ছেদের পক্ষে রাজনৈতিক যুক্তিতে বারবার ব্যবহৃত হয়।",
+    "sourceIds": [
+      "the-great-partition",
+      "partition-politics-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

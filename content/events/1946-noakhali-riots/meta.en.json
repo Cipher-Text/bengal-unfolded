@@ -1,0 +1,124 @@
+{
+  "slug": "1946-noakhali-riots",
+  "year": "1946",
+  "title": "Noakhali Riots",
+  "subtitle": "Communal violence in Noakhali deepened partition-era fear and polarization.",
+  "summary": "In October 1946, large-scale communal violence in Noakhali and nearby areas of eastern Bengal led to killings, forced displacement, and coercive conversions in some localities. Coming after the Calcutta killings and amid wider retaliatory violence across the subcontinent, the Noakhali riots intensified insecurity among communities and fed arguments that coexistence was collapsing in late colonial India.",
+  "themeColor": "#7f1d1d",
+  "ctaLabel": "Explore Noakhali 1946",
+  "heroTagline": "A rural communal catastrophe that shaped the emotional and political climate before partition.",
+  "summarySourceIds": [
+    "direct-action-day-britannica",
+    "partition-politics-banglapedia",
+    "the-great-partition"
+  ],
+  "whyItMatters": "The Noakhali riots matter because they shifted communal violence from major urban centers to vulnerable rural society, expanding the geography of fear. The episode became central to political narratives about protection, retaliation, and separation, and it influenced both elite negotiations and popular perceptions in the final year before partition.",
+  "whyItMattersSourceIds": [
+    "partition-politics-banglapedia",
+    "the-great-partition",
+    "midnights-furies"
+  ],
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1946-direct-action-day-and-the-great-calcutta-killing",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1947-partition-and-eastern-bengal",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1947-united-bengal-proposal",
+      "relationType": "contrast"
+    }
+  ],
+  "relatedEventIds": [
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1947-partition-and-eastern-bengal",
+    "1947-united-bengal-proposal"
+  ],
+  "periodLabel": "Partition and Late Colonial Politics",
+  "movementLabel": "Partition and political representation",
+  "showOnLanding": true,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "partition-and-late-colonial-politics",
+  "movementId": "partition-and-political-representation",
+  "sensitive": true,
+  "contentWarnings": [
+    "mass violence",
+    "communal violence",
+    "forced displacement"
+  ],
+  "requiresSources": true,
+  "longTermLegacy": "Noakhali became a lasting reference in partition historiography as evidence that communal breakdown was not confined to city riots. Its memory reinforced minority insecurity, reciprocal fear, and hardened claims that constitutional compromise was failing, contributing to the political momentum of 1947 division.",
+  "longTermLegacySourceIds": [
+    "partition-politics-banglapedia",
+    "the-great-partition",
+    "midnights-furies"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "In Bengali memory, Noakhali is recalled as a trauma of everyday social rupture where neighbors became targets under communal mobilization. The event continues to frame discussions on minority vulnerability, moral responsibility, and how fear-driven politics reshaped Bengal on the eve of partition.",
+  "identityMemorySourceIds": [
+    "partition-politics-banglapedia",
+    "the-great-partition",
+    "midnights-furies"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "Scholars agree that severe communal violence occurred in Noakhali in 1946, but debates continue over precise casualty totals, the scale and pattern of coercion, the adequacy of provincial response, and the comparative framing of Noakhali with Bihar and Calcutta in partition narratives.",
+  "historicalDebateSourceIds": [
+    "partition-politics-banglapedia",
+    "the-great-partition",
+    "midnights-furies"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In October 1946, large-scale communal violence in Noakhali and nearby eastern Bengal areas led to killings, displacement, and coercion in some localities.",
+      "sourceIds": [
+        "direct-action-day-britannica",
+        "partition-politics-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Noakhali violence expanded the geography of communal fear from cities to rural society and influenced partition-era political narratives.",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "the-great-partition",
+        "midnights-furies"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Memory of Noakhali reinforced reciprocal insecurity and hardened arguments that constitutional compromise was failing before 1947.",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "the-great-partition"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "In Bengali memory, Noakhali remains a key reference for minority vulnerability and fear-driven communal politics before partition.",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "the-great-partition",
+        "midnights-furies"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}
