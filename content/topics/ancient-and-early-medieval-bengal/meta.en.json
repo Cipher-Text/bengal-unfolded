@@ -1,30 +1,79 @@
 {
   "slug": "ancient-and-early-medieval-bengal",
-  "priority": 7,
-  "title": "Ancient and Early Medieval Bengal",
-  "tagline": "Early polities, religious centers, and state transitions",
-  "intro": "Explore pre-sultanate Bengal through urban emergence, dynastic consolidation, and institutional-religious landscapes.",
-  "description": "A foundational topic connecting the earliest political formations to the eve of the 1204 transition.",
+  "priority": 2,
+  "title": "Ancient Bengal and Urban Civilization",
+  "tagline": "Urban emergence, early kingdoms, and regional state formation",
+  "intro": "Study how early settlements, trade routes, and dynastic shifts shaped Bengal before the Sultanate era.",
+  "description": "A foundation hub on ancient Bengal linking Mahasthangarh, Gauda, and early institutional-religious centers.",
+  "seoTitle": "Ancient Bengal and Urban Civilization | Bengal Unfolded",
+  "seoDescription": "Learn ancient Bengal history through urban growth, Gauda politics, and early state formation before the Sultanate.",
+  "beginnerSummary": "Covers early urban and political foundations of Bengal.",
+  "advancedSummary": "Useful for tracing ecology, political geography, and institutional continuity into medieval transitions.",
+  "primaryKeywords": [
+    "ancient bengal",
+    "urban civilization bengal",
+    "early bengal history"
+  ],
+  "secondaryKeywords": [
+    "mahasthangarh history",
+    "gauda kingdom",
+    "pre-sultanate bengal"
+  ],
   "eventSlugs": [
     "0400bce-0300bce-mahasthangarh-urban-emergence",
     "0600-0637-shashanka-gauda-kingdom",
     "0750-1170-pala-dynasty-foundation",
     "0800-1200-somapura-mahavihara",
-    "1178-1204-sena-transition",
-    "1204-bakhtiyar-khalji-s-conquest-of-nadia"
+    "1178-1204-sena-transition"
   ],
   "figureIds": [
     "dharmapala",
-    "devapala",
     "gopala-i",
-    "mahipala-i",
-    "vijaya-sena",
-    "ballala-sena",
     "lakshmana-sena"
   ],
-  "keywords": [
-    "ancient bengal",
-    "pala sena history",
-    "early medieval bengal"
+  "resourceIds": [
+    "bakhtiyar-khalji-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "faq": [
+    {
+      "question": "Why does ancient Bengal matter for Bangladesh history?",
+      "answer": "It establishes long-term patterns of governance, religion, and regional identity."
+    },
+    {
+      "question": "Is this only about kings?",
+      "answer": "No. It includes cities, monasteries, institutions, and social landscapes."
+    },
+    {
+      "question": "Which site is central here?",
+      "answer": "Mahasthangarh is a major early urban reference point."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "0400bce-0300bce-mahasthangarh-urban-emergence",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "dharmapala",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "ancient-and-pre-sultanate-bengal",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

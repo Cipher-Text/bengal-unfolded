@@ -1,35 +1,84 @@
 {
   "slug": "democracy-and-civic-movements",
-  "priority": 3,
+  "priority": 15,
   "title": "গণতন্ত্র ও নাগরিক আন্দোলন",
-  "tagline": "গণআন্দোলন, শাসনসংকট ও গণতান্ত্রিক পুনরুদ্ধার",
-  "intro": "পাকিস্তান পর্বের শেষভাগ থেকে স্বাধীন বাংলাদেশে গণতান্ত্রিক প্রতিদ্বন্দ্বিতার বড় পর্বগুলো অনুসরণ করুন।",
-  "description": "গণআন্দোলন, কর্তৃত্ববাদী মোড় এবং নির্বাচনকেন্দ্রিক রূপান্তরের একটি নাগরিক-রাজনীতি হাব।",
+  "tagline": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে কাঠামোবদ্ধ শেখার হাব",
+  "intro": "গণতন্ত্র ও নাগরিক আন্দোলন ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
+  "description": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে SEO-উপযোগী টপিক হাব; এতে ইভেন্ট, ব্যক্তিত্ব, রিসোর্স ও শেখার পথ একত্রে আছে।",
+  "seoTitle": "গণতন্ত্র ও নাগরিক আন্দোলন | Bengal Unfolded টপিক হাব",
+  "seoDescription": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
+  "beginnerSummary": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
+  "advancedSummary": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "primaryKeywords": [
+    "গণতন্ত্র ও নাগরিক আন্দোলন",
+    "বাংলাদেশ ইতিহাস টপিক হাব",
+    "বাংলার ইতিহাস"
+  ],
+  "secondaryKeywords": [
+    "ইতিহাস শেখার পথ",
+    "সংযুক্ত টাইমলাইন",
+    "শিক্ষামূলক ইতিহাস"
+  ],
   "eventSlugs": [
-    "1958-martial-law-in-pakistan",
-    "1969-mass-uprising",
-    "1975-baksal-formation-and-collapse",
-    "1982-ershad-s-coup-and-the-return-of-military-rule",
     "1990-mass-uprising",
     "2006-caretaker-crisis-and-emergency-rule",
     "2007-2008-emergency-caretaker-rule",
     "2013-shahbag-movement",
+    "2014-10th-parliamentary-election",
     "2018-quota-reform",
     "2018-safe-road",
-    "2024-anti-discrimination-movement",
-    "2026-election"
+    "2018-digital-security-act",
+    "2018-election",
+    "2024-anti-discrimination-movement"
   ],
   "figureIds": [
-    "nur-hossain",
-    "sheikh-hasina",
-    "khaleda-zia",
-    "nahid-islam",
-    "sharif-osman-hadi",
-    "abu-sayed-2024"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "বাংলাদেশে গণতন্ত্র আন্দোলন",
-    "গণঅভ্যুত্থান",
-    "নাগরিক আন্দোলন"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "এই গণতন্ত্র ও নাগরিক আন্দোলন হাবে কী আছে?",
+      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+    },
+    {
+      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
+      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+    },
+    {
+      "question": "এই টপিকের পর কী পড়ব?",
+      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1990-mass-uprising",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

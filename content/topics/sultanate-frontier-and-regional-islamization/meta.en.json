@@ -1,29 +1,80 @@
 {
   "slug": "sultanate-frontier-and-regional-islamization",
-  "priority": 8,
-  "title": "Sultanate Frontier and Regional Islamization",
-  "tagline": "Frontier expansion, sovereignty, and regional society",
-  "intro": "Follow the frontier processes through which eastern Bengal was integrated into wider sultanate structures.",
-  "description": "A transitional topic linking conquest frontiers, political settlement, and evolving regional social-religious worlds.",
+  "priority": 4,
+  "title": "Bengal Sultanate and Regional Power",
+  "tagline": "Structured learning hub: Bengal Sultanate and Regional Power",
+  "intro": "Follow connected events to understand bengal sultanate and regional power in historical context.",
+  "description": "SEO-focused topic hub for bengal sultanate and regional power with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Bengal Sultanate and Regional Power | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn bengal sultanate and regional power through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of bengal sultanate and regional power.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in bengal sultanate and regional power.",
+  "primaryKeywords": [
+    "bengal sultanate and regional power",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
   "eventSlugs": [
     "1303-conquest-of-sylhet",
     "1352-bengal-sultanate-independence-and-unification",
     "1414-raja-ganesha-seizes-power-in-bengal",
     "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
-    "1538-humayun-enters-bengal-and-occupies-gaur",
-    "1539-battle-of-chausa"
+    "1338-1352-pre-ilyas-shah-regional-bengal-sultanates",
+    "1353-1359-ilyas-shah-delhi-sultanate-conflict"
   ],
   "figureIds": [
-    "shah-jalal",
-    "sikandar-khan-ghazi",
-    "raja-ganesh",
-    "jalaluddin-muhammad-shah",
-    "alauddin-husain-shah",
-    "nusrat-shah"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "bengal sultanate frontier",
-    "sylhet conquest",
-    "regional islamization"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this Bengal Sultanate and Regional Power hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1303-conquest-of-sylhet",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

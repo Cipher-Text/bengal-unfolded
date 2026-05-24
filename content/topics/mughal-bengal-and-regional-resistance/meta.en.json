@@ -1,38 +1,80 @@
 {
   "slug": "mughal-bengal-and-regional-resistance",
-  "priority": 9,
-  "title": "Mughal Bengal and Regional Resistance",
-  "tagline": "Imperial incorporation, delta warfare, provincial consolidation",
-  "intro": "Trace the long Mughal incorporation of Bengal through resistance networks, capital shifts, and frontier campaigns.",
-  "description": "A high-impact topic connecting Rajmahal, Baro-Bhuyans resistance, Dhaka consolidation, and early nawabi transitions.",
+  "priority": 5,
+  "title": "Mughal Bengal, Baro-Bhuyans, and Frontier Politics",
+  "tagline": "Structured learning hub: Mughal Bengal, Baro-Bhuyans, and Frontier Politics",
+  "intro": "Follow connected events to understand mughal bengal, baro-bhuyans, and frontier politics in historical context.",
+  "description": "SEO-focused topic hub for mughal bengal, baro-bhuyans, and frontier politics with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Mughal Bengal, Baro-Bhuyans, and Frontier Politics | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn mughal bengal, baro-bhuyans, and frontier politics through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of mughal bengal, baro-bhuyans, and frontier politics.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in mughal bengal, baro-bhuyans, and frontier politics.",
+  "primaryKeywords": [
+    "mughal bengal, baro-bhuyans, and frontier politics",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
   "eventSlugs": [
     "1576-battle-of-rajmahal",
     "1599-baro-bhuyans-resistance-in-bhati",
     "1610-capital-shift-to-dhaka-jahangirnagar",
     "1612-mughal-conquest-phase-in-bengal-largely-completed",
-    "1632-mughal-attack-on-portuguese-hooghly",
-    "1666-mughal-conquest-of-chittagong",
-    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
-    "1717-murshid-quli-khan-formally-appointed-nawab",
-    "1740-alivardi-khan-becomes-nawab",
-    "1741-1751-maratha-raids-bengal"
+    "1664-1688-shaista-khan-governorship",
+    "1666-mughal-conquest-of-chittagong"
   ],
   "figureIds": [
-    "akbar",
-    "isa-khan",
-    "musa-khan",
-    "man-singh-i",
-    "islam-khan-chishti",
-    "jahangir-mughal",
-    "shaista-khan",
-    "murshid-quli-khan",
-    "farrukhsiyar",
-    "alivardi-khan"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "mughal bengal",
-    "baro bhuyans",
-    "dhaka jahangirnagar",
-    "murshidabad transition"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this Mughal Bengal, Baro-Bhuyans, and Frontier Politics hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1576-battle-of-rajmahal",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

@@ -1,20 +1,30 @@
 {
   "slug": "bangladesh-history",
   "priority": 1,
-  "title": "বাংলাদেশের ইতিহাস",
-  "tagline": "প্রাচীন বাংলা থেকে আধুনিক বাংলাদেশের দীর্ঘ ধারাবাহিকতা",
-  "intro": "প্রাচীন শাসনব্যবস্থা থেকে সমসাময়িক বাংলাদেশ পর্যন্ত প্রধান মোড়গুলোর ধারাবাহিক মানচিত্র অনুসরণ করুন।",
-  "description": "রাষ্ট্রগঠন, ঔপনিবেশিক পুনর্বিন্যাস, জাতীয়তাবাদ ও আধুনিক নাগরিক রাজনীতিকে একত্রে দেখার একটি প্রধান হাব।",
+  "title": "বাংলাদেশের ইতিহাস টাইমলাইন",
+  "tagline": "প্রাচীন বাংলা থেকে সমসাময়িক বাংলাদেশ পর্যন্ত ধারাবাহিক ইতিহাস",
+  "intro": "এই হাবে যুগভিত্তিক বড় মোড়গুলো যুক্তভাবে দেখে ধারাবাহিকতা, ভাঙন ও রাষ্ট্রগঠনের পথ বুঝুন।",
+  "description": "প্রাচীন বাংলা, মধ্যযুগ, ঔপনিবেশিক পুনর্গঠন, দেশভাগ, মুক্তিযুদ্ধ ও সমকালীন নাগরিক রাজনীতিকে যুক্ত করা একটি ম্যাক্রো হাব।",
+  "seoTitle": "বাংলাদেশের ইতিহাস টাইমলাইন: প্রাচীন থেকে বর্তমান | Bengal Unfolded",
+  "seoDescription": "প্রাচীন বাংলা থেকে বর্তমান বাংলাদেশ পর্যন্ত ইতিহাস টাইমলাইন, সংশ্লিষ্ট ইভেন্ট, ব্যক্তিত্ব ও শেখার পথসহ দেখুন।",
+  "beginnerSummary": "বাংলাদেশের দীর্ঘ ইতিহাস দ্রুত বুঝতে শুরু করার জন্য এটি প্রধান প্রবেশদ্বার।",
+  "advancedSummary": "রাষ্ট্র, অর্থনীতি, পরিচয় ও নাগরিক শক্তির দীর্ঘমেয়াদি রূপান্তর তুলনামূলকভাবে বোঝার হাব।",
+  "primaryKeywords": [
+    "বাংলাদেশের ইতিহাস টাইমলাইন",
+    "বাংলার ইতিহাস",
+    "বাংলাদেশের ইতিহাস"
+  ],
+  "secondaryKeywords": [
+    "প্রাচীন বাংলা থেকে বাংলাদেশ",
+    "বাংলাদেশ রাজনৈতিক ইতিহাস",
+    "ইতিহাসের ধারাবাহিকতা"
+  ],
   "eventSlugs": [
     "0400bce-0300bce-mahasthangarh-urban-emergence",
     "0750-1170-pala-dynasty-foundation",
     "1204-bakhtiyar-khalji-s-conquest-of-nadia",
     "1352-bengal-sultanate-independence-and-unification",
-    "1414-raja-ganesha-seizes-power-in-bengal",
-    "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
     "1576-battle-of-rajmahal",
-    "1612-mughal-conquest-phase-in-bengal-largely-completed",
-    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
     "1757-battle-of-plassey",
     "1765-east-india-company-gets-diwani-rights-in-bengal",
     "1905-partition-of-bengal",
@@ -22,23 +32,59 @@
     "1952-language-movement",
     "1971-liberation-war",
     "1990-mass-uprising",
-    "2024-anti-discrimination-movement",
-    "2026-election"
+    "2024-anti-discrimination-movement"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "tajuddin-ahmad",
     "dharmapala",
-    "lakshmana-sena",
-    "alauddin-husain-shah",
-    "isa-khan",
+    "ikhtiyar-al-din-muhammad-bakhtiyar-khalji",
     "murshid-quli-khan",
     "siraj-ud-daulah",
-    "abu-sayed-2024"
+    "sheikh-mujibur-rahman",
+    "nahid-islam"
   ],
-  "keywords": [
-    "বাংলাদেশের ইতিহাস",
-    "বাংলার ইতিহাস",
-    "ইতিহাসের প্রধান মোড়"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
+  ],
+  "faq": [
+    {
+      "question": "এটি কেন টাইমলাইন হাব?",
+      "answer": "বিভিন্ন যুগের প্রধান মোড়গুলোকে একসাথে যুক্ত করে ইতিহাসের ধারাবাহিকতা বোঝাতে।"
+    },
+    {
+      "question": "এখানে কি ১৯৪৭-পূর্ব ও ১৯৪৭-পরবর্তী ইতিহাস আছে?",
+      "answer": "হ্যাঁ। প্রাচীন, ঔপনিবেশিক, দেশভাগ, মুক্তিযুদ্ধ ও সমকালীন পর্ব একত্রে আছে।"
+    },
+    {
+      "question": "গভীরভাবে পড়তে চাইলে কীভাবে ব্যবহার করব?",
+      "answer": "ইভেন্ট-লিংক ধরে রাষ্ট্র, পরিচয় ও নাগরিক রাজনীতির দীর্ঘ পরিবর্তন তুলনা করুন।"
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1757-battle-of-plassey",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

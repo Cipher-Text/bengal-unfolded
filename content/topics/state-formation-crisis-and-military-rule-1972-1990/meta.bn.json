@@ -1,0 +1,82 @@
+{
+  "slug": "state-formation-crisis-and-military-rule-1972-1990",
+  "priority": 14,
+  "title": "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন",
+  "tagline": "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন বিষয়ে কাঠামোবদ্ধ শেখার হাব",
+  "intro": "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
+  "description": "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন বিষয়ে SEO-উপযোগী টপিক হাব; এতে ইভেন্ট, ব্যক্তিত্ব, রিসোর্স ও শেখার পথ একত্রে আছে।",
+  "seoTitle": "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন | Bengal Unfolded টপিক হাব",
+  "seoDescription": "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
+  "beginnerSummary": "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
+  "advancedSummary": "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "primaryKeywords": [
+    "১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন",
+    "বাংলাদেশ ইতিহাস টপিক হাব",
+    "বাংলার ইতিহাস"
+  ],
+  "secondaryKeywords": [
+    "ইতিহাস শেখার পথ",
+    "সংযুক্ত টাইমলাইন",
+    "শিক্ষামূলক ইতিহাস"
+  ],
+  "eventSlugs": [
+    "1972-state-formation-and-the-1972-constitution",
+    "1974-famine-emergency-and-state-crisis",
+    "1975-baksal-formation-and-collapse",
+    "1975-jail-killing",
+    "1976-farakka-long-march",
+    "1976-1997-shanti-bahini-insurgency",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising"
+  ],
+  "figureIds": [
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
+  ],
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "এই ১৯৭২–১৯৯০: রাষ্ট্রগঠন, সংকট ও সামরিক শাসন হাবে কী আছে?",
+      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+    },
+    {
+      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
+      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+    },
+    {
+      "question": "এই টপিকের পর কী পড়ব?",
+      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1972-state-formation-and-the-1972-constitution",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
+  ]
+}

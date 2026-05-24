@@ -1,35 +1,84 @@
 {
   "slug": "democracy-and-civic-movements",
-  "priority": 3,
+  "priority": 15,
   "title": "Democracy and Civic Movements",
-  "tagline": "Protest waves, institutional rupture, democratic restoration",
-  "intro": "Track major episodes of democratic contestation across late Pakistan and post-1971 Bangladesh.",
-  "description": "A civic-politics hub connecting mass mobilization, authoritarian turns, and electoral-democratic transitions.",
+  "tagline": "Structured learning hub: Democracy and Civic Movements",
+  "intro": "Follow connected events to understand democracy and civic movements in historical context.",
+  "description": "SEO-focused topic hub for democracy and civic movements with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Democracy and Civic Movements | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn democracy and civic movements through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of democracy and civic movements.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in democracy and civic movements.",
+  "primaryKeywords": [
+    "democracy and civic movements",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
   "eventSlugs": [
-    "1958-martial-law-in-pakistan",
-    "1969-mass-uprising",
-    "1975-baksal-formation-and-collapse",
-    "1982-ershad-s-coup-and-the-return-of-military-rule",
     "1990-mass-uprising",
     "2006-caretaker-crisis-and-emergency-rule",
     "2007-2008-emergency-caretaker-rule",
     "2013-shahbag-movement",
+    "2014-10th-parliamentary-election",
     "2018-quota-reform",
     "2018-safe-road",
-    "2024-anti-discrimination-movement",
-    "2026-election"
+    "2018-digital-security-act",
+    "2018-election",
+    "2024-anti-discrimination-movement"
   ],
   "figureIds": [
-    "nur-hossain",
-    "sheikh-hasina",
-    "khaleda-zia",
-    "nahid-islam",
-    "sharif-osman-hadi",
-    "abu-sayed-2024"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "bangladesh democracy movement",
-    "mass uprising bangladesh",
-    "civic protest bangladesh"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this Democracy and Civic Movements hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1990-mass-uprising",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

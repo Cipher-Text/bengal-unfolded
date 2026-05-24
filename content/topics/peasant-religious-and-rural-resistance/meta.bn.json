@@ -1,0 +1,79 @@
+{
+  "slug": "peasant-religious-and-rural-resistance",
+  "priority": 7,
+  "title": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ",
+  "tagline": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে কাঠামোবদ্ধ শেখার হাব",
+  "intro": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
+  "description": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে SEO-উপযোগী টপিক হাব; এতে ইভেন্ট, ব্যক্তিত্ব, রিসোর্স ও শেখার পথ একত্রে আছে।",
+  "seoTitle": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ | Bengal Unfolded টপিক হাব",
+  "seoDescription": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
+  "beginnerSummary": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
+  "advancedSummary": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "primaryKeywords": [
+    "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ",
+    "বাংলাদেশ ইতিহাস টপিক হাব",
+    "বাংলার ইতিহাস"
+  ],
+  "secondaryKeywords": [
+    "ইতিহাস শেখার পথ",
+    "সংযুক্ত টাইমলাইন",
+    "শিক্ষামূলক ইতিহাস"
+  ],
+  "eventSlugs": [
+    "1760-1800-fakir-sannyasi-resistance",
+    "1818-faraizi-movement-begins-in-eastern-bengal",
+    "1831-titumir-s-bamboo-fort-uprising",
+    "1859-1860-indigo-revolt",
+    "1946-1947-tebhaga-movement"
+  ],
+  "figureIds": [
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
+  ],
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "এই কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ হাবে কী আছে?",
+      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+    },
+    {
+      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
+      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+    },
+    {
+      "question": "এই টপিকের পর কী পড়ব?",
+      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1760-1800-fakir-sannyasi-resistance",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
+  ]
+}

@@ -1,38 +1,80 @@
 {
   "slug": "mughal-bengal-and-regional-resistance",
-  "priority": 9,
-  "title": "মুঘল বাংলা ও আঞ্চলিক প্রতিরোধ",
-  "tagline": "সাম্রাজ্যিক অন্তর্ভুক্তি, বদ্বীপ-যুদ্ধ ও প্রাদেশিক সংহতি",
-  "intro": "রাজমহল থেকে নবাবি রূপান্তর পর্যন্ত মুঘল সংহতির দীর্ঘ প্রক্রিয়া এবং আঞ্চলিক প্রতিরোধের ধারাবাহিকতা অনুসরণ করুন।",
-  "description": "বারো ভূঁইয়া, রাজধানী স্থানান্তর, সীমান্ত অভিযান ও প্রারম্ভিক নবাবি বিন্যাসকে যুক্ত করা একটি উচ্চ-প্রভাব টপিক।",
+  "priority": 5,
+  "title": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি",
+  "tagline": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে কাঠামোবদ্ধ শেখার হাব",
+  "intro": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
+  "description": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে SEO-উপযোগী টপিক হাব; এতে ইভেন্ট, ব্যক্তিত্ব, রিসোর্স ও শেখার পথ একত্রে আছে।",
+  "seoTitle": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি | Bengal Unfolded টপিক হাব",
+  "seoDescription": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
+  "beginnerSummary": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
+  "advancedSummary": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "primaryKeywords": [
+    "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি",
+    "বাংলাদেশ ইতিহাস টপিক হাব",
+    "বাংলার ইতিহাস"
+  ],
+  "secondaryKeywords": [
+    "ইতিহাস শেখার পথ",
+    "সংযুক্ত টাইমলাইন",
+    "শিক্ষামূলক ইতিহাস"
+  ],
   "eventSlugs": [
     "1576-battle-of-rajmahal",
     "1599-baro-bhuyans-resistance-in-bhati",
     "1610-capital-shift-to-dhaka-jahangirnagar",
     "1612-mughal-conquest-phase-in-bengal-largely-completed",
-    "1632-mughal-attack-on-portuguese-hooghly",
-    "1666-mughal-conquest-of-chittagong",
-    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
-    "1717-murshid-quli-khan-formally-appointed-nawab",
-    "1740-alivardi-khan-becomes-nawab",
-    "1741-1751-maratha-raids-bengal"
+    "1664-1688-shaista-khan-governorship",
+    "1666-mughal-conquest-of-chittagong"
   ],
   "figureIds": [
-    "akbar",
-    "isa-khan",
-    "musa-khan",
-    "man-singh-i",
-    "islam-khan-chishti",
-    "jahangir-mughal",
-    "shaista-khan",
-    "murshid-quli-khan",
-    "farrukhsiyar",
-    "alivardi-khan"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "মুঘল বাংলা",
-    "বারো ভূঁইয়া",
-    "ঢাকা জাহাঙ্গীরনগর",
-    "মুর্শিদাবাদ রূপান্তর"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "এই মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি হাবে কী আছে?",
+      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+    },
+    {
+      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
+      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+    },
+    {
+      "question": "এই টপিকের পর কী পড়ব?",
+      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1576-battle-of-rajmahal",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

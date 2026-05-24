@@ -155,34 +155,34 @@ Example:
 
 ```json
 {
-  "slug": "partition-and-identity",
-  "title": "Partition and Identity",
-  "tagline": "State formation and belonging",
-  "intro": "How identity was negotiated through rupture.",
-  "description": "Tracks political, social, and memory shifts.",
-  "eventSlugs": ["1947-partition-and-eastern-bengal"],
-  "seoTitle": "Partition and Identity in Bengal",
-  "seoDescription": "A structured pathway through partition-era identity formation.",
-  "beginnerSummary": "A quick overview of identity and partition politics.",
-  "advancedSummary": "Compares legal frameworks, representation, and memory narratives.",
-  "primaryKeywords": ["partition", "identity", "representation"],
-  "secondaryKeywords": ["migration", "memory", "citizenship"],
+  "slug": "bangladesh-history",
+  "title": "Bangladesh History Timeline",
+  "tagline": "Long arc from ancient Bengal to modern Bangladesh",
+  "intro": "A chronological entry point for major historical turning points.",
+  "description": "Links ancient, medieval, colonial, partition, liberation, and contemporary chapters.",
+  "eventSlugs": ["1757-battle-of-plassey", "1947-partition-and-eastern-bengal", "1971-liberation-war"],
+  "seoTitle": "Bangladesh History Timeline: Ancient to Present",
+  "seoDescription": "Explore Bangladesh history through connected events, figures, and guided learning paths.",
+  "beginnerSummary": "Start here for a fast overview of Bangladesh history.",
+  "advancedSummary": "Compare state formation, identity politics, and civic change across periods.",
+  "primaryKeywords": ["bangladesh history timeline", "history of bangladesh"],
+  "secondaryKeywords": ["bengal history", "historical turning points"],
   "faq": [
     {
-      "question": "Why is identity central to partition history?",
-      "answer": "Identity shaped claims to representation and state power."
+      "question": "Why use a timeline hub first?",
+      "answer": "It gives chronological context before deep-diving into subtopics."
     }
   ],
   "learningPath": [
     {
       "type": "event",
-      "id": "1947-partition-and-eastern-bengal",
-      "reason": "Start with the central rupture point."
+      "id": "1971-liberation-war",
+      "reason": "Start with a defining turning point."
     },
     {
       "type": "resource",
-      "id": "partition-of-british-india-national-archives",
-      "reason": "Then read a primary archival source."
+      "id": "a-history-of-bangladesh",
+      "reason": "Then read a source-backed overview."
     }
   ]
 }

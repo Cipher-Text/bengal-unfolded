@@ -1,28 +1,79 @@
 {
   "slug": "partition-and-identity",
-  "priority": 2,
-  "title": "Partition and Identity",
-  "tagline": "Constitutional bargaining, communal politics, identity shifts",
-  "intro": "Follow how late-colonial political bargaining reshaped representation, belonging, and state imagination.",
-  "description": "A macro partition-politics hub from 1905 to language-era identity crystallization.",
+  "priority": 10,
+  "title": "Partition, Identity, and Eastern Bengal",
+  "tagline": "Structured learning hub: Partition, Identity, and Eastern Bengal",
+  "intro": "Follow connected events to understand partition, identity, and eastern bengal in historical context.",
+  "description": "SEO-focused topic hub for partition, identity, and eastern bengal with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Partition, Identity, and Eastern Bengal | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn partition, identity, and eastern bengal through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of partition, identity, and eastern bengal.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in partition, identity, and eastern bengal.",
+  "primaryKeywords": [
+    "partition, identity, and eastern bengal",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
   "eventSlugs": [
-    "1905-partition-of-bengal",
-    "1911-annulment-of-bengal-partition",
-    "1940-lahore-resolution",
     "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1946-noakhali-riots",
+    "1947-united-bengal-proposal",
     "1947-partition-and-eastern-bengal",
-    "1952-language-movement"
+    "1947-sylhet-referendum"
   ],
   "figureIds": [
-    "lord-curzon",
-    "nawab-salimullah",
-    "muhammad-ali-jinnah",
-    "dhirendranath-datta",
-    "abdul-matin"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "partition politics",
-    "bengal identity",
-    "late colonial bengal"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this Partition, Identity, and Eastern Bengal hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1946-direct-action-day-and-the-great-calcutta-killing",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

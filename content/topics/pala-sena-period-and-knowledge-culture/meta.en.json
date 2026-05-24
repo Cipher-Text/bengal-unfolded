@@ -1,0 +1,80 @@
+{
+  "slug": "pala-sena-period-and-knowledge-culture",
+  "priority": 3,
+  "title": "Pala-Sena Period and Knowledge Culture",
+  "tagline": "Monastic networks, court culture, and transitions in authority",
+  "intro": "Focus on knowledge production, Buddhist institutions, and the Pala-Sena transition in Bengal.",
+  "description": "A thematic hub on intellectual culture and political transitions under Pala and Sena rule.",
+  "seoTitle": "Pala-Sena Period and Knowledge Culture | Bengal Unfolded",
+  "seoDescription": "Explore Pala-Sena Bengal through Somapura, court culture, and political transition in early medieval history.",
+  "beginnerSummary": "Introduces Pala-Sena rulers and major learning institutions.",
+  "advancedSummary": "Highlights state patronage, religion, and cultural change in early medieval Bengal.",
+  "primaryKeywords": [
+    "pala sena period",
+    "somapura mahavihara",
+    "early medieval bengal knowledge"
+  ],
+  "secondaryKeywords": [
+    "pala dynasty bengal",
+    "sena court culture",
+    "bengal monastic networks"
+  ],
+  "eventSlugs": [
+    "0750-1170-pala-dynasty-foundation",
+    "0800-1200-somapura-mahavihara",
+    "1095-1205-sena-rise-and-lakshman-sen-court-culture",
+    "1178-1204-sena-transition"
+  ],
+  "figureIds": [
+    "dharmapala",
+    "devapala",
+    "ballala-sena",
+    "lakshmana-sena",
+    "atisha-dipankara-srijnana"
+  ],
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
+  ],
+  "faq": [
+    {
+      "question": "What makes the Pala period distinct?",
+      "answer": "Its monastic institutions and transregional Buddhist networks are historically significant."
+    },
+    {
+      "question": "How does the Sena period differ?",
+      "answer": "The Sena phase is associated with shifts in court culture and political alignment."
+    },
+    {
+      "question": "Why is this topic separate from ancient Bengal?",
+      "answer": "It allows deeper focus on intellectual life and dynastic transitions."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "0800-1200-somapura-mahavihara",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "dharmapala",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "ancient-and-pre-sultanate-bengal",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
+  ]
+}

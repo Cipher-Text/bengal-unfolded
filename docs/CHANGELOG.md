@@ -1,5 +1,36 @@
 # Changelog
 
+## 2026-05-25
+
+### Completed
+
+- Topic hub revision for historical balance + SEO structure:
+  - Model/content:
+    - Reworked `content/topics/**` into a 17-topic BN/EN hub system with clearer historical sequencing and search-friendly naming.
+    - Preserved existing indexed topic slugs wherever possible (no breaking slug migrations for existing hubs).
+    - Added four new topic hubs:
+      - `pala-sena-period-and-knowledge-culture`
+      - `peasant-religious-and-rural-resistance`
+      - `state-formation-crisis-and-military-rule-1972-1990`
+      - `bengal-culture-literature-and-memory`
+    - Added/standardized per-topic optional metadata fields:
+      - `seoTitle`, `seoDescription`, `beginnerSummary`, `advancedSummary`
+      - `primaryKeywords`, `secondaryKeywords`, `resourceIds`, `faq`, `learningPath`
+  - Validation/backfill:
+    - Ensured each topic has both BN and EN metadata files with required core fields and valid event mappings.
+    - Removed future-sensitive `2026-election` from topic hubs to avoid presenting future events as settled history.
+  - UI/runtime:
+    - Updated topic detail page (`src/app/[locale]/topics/[slug]/page.tsx`) to render stronger internal links:
+      - connected events
+      - related figures
+      - related resources
+      - structured learning path (event/figure/resource/place/period/topic links)
+      - FAQ block
+    - Topic metadata generation now prioritizes `seoTitle`/`seoDescription` when present.
+  - Docs:
+    - Updated `docs/seo-audit.md` with revised topic hub status and next priority topic pages.
+    - Updated `docs/CONTENT_MODEL.md` topic example to align with the new topic-hub SEO/learning structure.
+
 ## 2026-05-23
 
 ### Completed

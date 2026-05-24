@@ -1,16 +1,16 @@
 {
-  "slug": "pakistan-period-state-and-national-awakening",
-  "priority": 12,
-  "title": "Pakistan Period: Autonomy to Mass Uprising",
-  "tagline": "Structured learning hub: Pakistan Period: Autonomy to Mass Uprising",
-  "intro": "Follow connected events to understand pakistan period: autonomy to mass uprising in historical context.",
-  "description": "SEO-focused topic hub for pakistan period: autonomy to mass uprising with linked events, figures, resources, and guided learning paths.",
-  "seoTitle": "Pakistan Period: Autonomy to Mass Uprising | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn pakistan period: autonomy to mass uprising through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of pakistan period: autonomy to mass uprising.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in pakistan period: autonomy to mass uprising.",
+  "slug": "peasant-religious-and-rural-resistance",
+  "priority": 7,
+  "title": "Peasant, Religious, and Rural Resistance",
+  "tagline": "Structured learning hub: Peasant, Religious, and Rural Resistance",
+  "intro": "Follow connected events to understand peasant, religious, and rural resistance in historical context.",
+  "description": "SEO-focused topic hub for peasant, religious, and rural resistance with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Peasant, Religious, and Rural Resistance | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn peasant, religious, and rural resistance through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of peasant, religious, and rural resistance.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in peasant, religious, and rural resistance.",
   "primaryKeywords": [
-    "pakistan period: autonomy to mass uprising",
+    "peasant, religious, and rural resistance",
     "bangladesh history topic hub",
     "bengal history"
   ],
@@ -20,13 +20,11 @@
     "connected timeline events"
   ],
   "eventSlugs": [
-    "1954-united-front-election-victory-in-east-bengal",
-    "1956-pakistan-constitution-east-pakistan-representation",
-    "1958-martial-law-in-pakistan",
-    "1966-six-point-programme-announced",
-    "1968-agartala-conspiracy-case",
-    "1969-mass-uprising",
-    "1970-bhola-cyclone-and-the-1970-election"
+    "1760-1800-fakir-sannyasi-resistance",
+    "1818-faraizi-movement-begins-in-eastern-bengal",
+    "1831-titumir-s-bamboo-fort-uprising",
+    "1859-1860-indigo-revolt",
+    "1946-1947-tebhaga-movement"
   ],
   "figureIds": [
     "sheikh-mujibur-rahman",
@@ -39,7 +37,7 @@
   ],
   "faq": [
     {
-      "question": "What does this Pakistan Period: Autonomy to Mass Uprising hub cover?",
+      "question": "What does this Peasant, Religious, and Rural Resistance hub cover?",
       "answer": "It covers major events, key actors, and core debates with educational context."
     },
     {
@@ -54,7 +52,7 @@
   "learningPath": [
     {
       "type": "event",
-      "id": "1954-united-front-election-victory-in-east-bengal",
+      "id": "1760-1800-fakir-sannyasi-resistance",
       "reason": "Start with a key turning point."
     },
     {

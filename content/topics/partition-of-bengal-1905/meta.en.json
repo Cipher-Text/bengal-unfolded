@@ -1,25 +1,78 @@
 {
   "slug": "partition-of-bengal-1905",
-  "priority": 6,
-  "title": "Partition of Bengal 1905",
-  "tagline": "A focused case study of partition, agitation, and reversal",
-  "intro": "Study the 1905 partition as a bounded historical case with local and imperial consequences.",
-  "description": "A micro-hub centered on the 1905-1911 sequence and its long afterlives.",
+  "priority": 8,
+  "title": "Bengal Partition, Swadeshi, and Nationalism",
+  "tagline": "Structured learning hub: Bengal Partition, Swadeshi, and Nationalism",
+  "intro": "Follow connected events to understand bengal partition, swadeshi, and nationalism in historical context.",
+  "description": "SEO-focused topic hub for bengal partition, swadeshi, and nationalism with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Bengal Partition, Swadeshi, and Nationalism | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn bengal partition, swadeshi, and nationalism through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of bengal partition, swadeshi, and nationalism.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in bengal partition, swadeshi, and nationalism.",
+  "primaryKeywords": [
+    "bengal partition, swadeshi, and nationalism",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
   "eventSlugs": [
     "1905-partition-of-bengal",
     "1906-all-india-muslim-league-founded-in-dhaka",
-    "1911-annulment-of-bengal-partition"
+    "1911-annulment-of-bengal-partition",
+    "1923-bengal-pact"
   ],
   "figureIds": [
-    "lord-curzon",
-    "rabindranath-tagore",
-    "surendranath-banerjea",
-    "nawab-salimullah",
-    "ak-fazlul-huq"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "partition of bengal 1905",
-    "swadeshi movement",
-    "annulment 1911"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this Bengal Partition, Swadeshi, and Nationalism hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1905-partition-of-bengal",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

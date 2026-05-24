@@ -1,29 +1,78 @@
 {
   "slug": "language-movement-and-mother-language-day",
-  "priority": 5,
-  "title": "Language Movement and Mother Language Day",
-  "tagline": "Language rights, representation, and national consciousness",
-  "intro": "Understand how language politics evolved from partition-era tensions to global recognition.",
-  "description": "A focused hub on the political genealogy of Bengali language rights and collective identity.",
+  "priority": 11,
+  "title": "Language Movement and Cultural Nationalism",
+  "tagline": "Structured learning hub: Language Movement and Cultural Nationalism",
+  "intro": "Follow connected events to understand language movement and cultural nationalism in historical context.",
+  "description": "SEO-focused topic hub for language movement and cultural nationalism with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Language Movement and Cultural Nationalism | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn language movement and cultural nationalism through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of language movement and cultural nationalism.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in language movement and cultural nationalism.",
+  "primaryKeywords": [
+    "language movement and cultural nationalism",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
   "eventSlugs": [
-    "1905-partition-of-bengal",
-    "1947-partition-and-eastern-bengal",
     "1948-language-question-becomes-a-mass-political-issue",
     "1952-language-movement",
-    "1954-united-front-election-victory-in-east-bengal",
-    "1962-education-movement-in-east-pakistan",
-    "1971-liberation-war"
+    "1921-dhaka-university-establishment",
+    "1962-education-movement-in-east-pakistan"
   ],
   "figureIds": [
-    "dhirendranath-datta",
-    "abdul-matin",
-    "gaziul-huq",
-    "abdus-salam-1952",
-    "abul-barkat-1952"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "language movement 1952",
-    "international mother language day",
-    "bangla language rights"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this Language Movement and Cultural Nationalism hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1948-language-question-becomes-a-mass-political-issue",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

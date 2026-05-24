@@ -1,30 +1,79 @@
 {
   "slug": "ancient-and-early-medieval-bengal",
-  "priority": 7,
-  "title": "প্রাচীন ও প্রারম্ভিক মধ্যযুগীয় বাংলা",
-  "tagline": "প্রাথমিক রাজ্য, ধর্মীয় কেন্দ্র ও রাষ্ট্র-রূপান্তর",
-  "intro": "সুলতানি-পূর্ব বাংলার নগরায়ণ, রাজবংশীয় সংহতি ও সাংস্কৃতিক-ধর্মীয় প্রতিষ্ঠানগুলো অনুসন্ধান করুন।",
-  "description": "প্রাচীন রাজনৈতিক গঠন থেকে ১২০৪-র মোড় পর্যন্ত ধারাবাহিকতা ধরার একটি ভিত্তিমূলক টপিক।",
+  "priority": 2,
+  "title": "প্রাচীন বাংলা ও নগর সভ্যতা",
+  "tagline": "নগরায়ণ, প্রারম্ভিক রাজ্য ও আঞ্চলিক রাষ্ট্রগঠন",
+  "intro": "সুলতানি যুগের আগে নগর, বাণিজ্যপথ ও রাজবংশীয় পরিবর্তন কীভাবে বাংলাকে গড়ে তুলেছে তা দেখুন।",
+  "description": "মহাস্থানগড়, গৌড় ও প্রারম্ভিক প্রতিষ্ঠানভিত্তিক ইতিহাসকে যুক্ত করা প্রাচীন বাংলার ভিত্তিমূলক হাব।",
+  "seoTitle": "প্রাচীন বাংলা ও নগর সভ্যতা | Bengal Unfolded",
+  "seoDescription": "নগরায়ণ, গৌড় রাজনীতি ও সুলতানি-পূর্ব রাষ্ট্রগঠনের ধারায় প্রাচীন বাংলার ইতিহাস জানুন।",
+  "beginnerSummary": "বাংলার প্রাথমিক নগর ও রাজনৈতিক ভিত্তি বুঝতে এই হাব ব্যবহার করুন।",
+  "advancedSummary": "প্রাকৃতিক ভূগোল, রাজনৈতিক কেন্দ্র ও প্রাতিষ্ঠানিক ধারাবাহিকতার দীর্ঘ বিশ্লেষণের উপযোগী।",
+  "primaryKeywords": [
+    "প্রাচীন বাংলা",
+    "বাংলার নগর সভ্যতা",
+    "সুলতানি-পূর্ব বাংলা"
+  ],
+  "secondaryKeywords": [
+    "মহাস্থানগড় ইতিহাস",
+    "গৌড় রাজ্য",
+    "প্রাচীন বাংলার ইতিহাস"
+  ],
   "eventSlugs": [
     "0400bce-0300bce-mahasthangarh-urban-emergence",
     "0600-0637-shashanka-gauda-kingdom",
     "0750-1170-pala-dynasty-foundation",
     "0800-1200-somapura-mahavihara",
-    "1178-1204-sena-transition",
-    "1204-bakhtiyar-khalji-s-conquest-of-nadia"
+    "1178-1204-sena-transition"
   ],
   "figureIds": [
     "dharmapala",
-    "devapala",
     "gopala-i",
-    "mahipala-i",
-    "vijaya-sena",
-    "ballala-sena",
     "lakshmana-sena"
   ],
-  "keywords": [
-    "প্রাচীন বাংলা",
-    "পাল-সেন ইতিহাস",
-    "মধ্যযুগীয় বাংলা"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "bakhtiyar-khalji-banglapedia"
+  ],
+  "faq": [
+    {
+      "question": "বাংলাদেশের ইতিহাস বুঝতে প্রাচীন বাংলা কেন গুরুত্বপূর্ণ?",
+      "answer": "শাসন, ধর্মীয় প্রতিষ্ঠান ও আঞ্চলিক পরিচয়ের দীর্ঘ ভিত্তি এখানেই তৈরি হয়।"
+    },
+    {
+      "question": "এটা কি শুধু রাজাদের ইতিহাস?",
+      "answer": "না। নগর, শিক্ষা-কেন্দ্র, মঠ ও সামাজিক পরিবর্তনও এতে অন্তর্ভুক্ত।"
+    },
+    {
+      "question": "কোন স্থানটি এখানে বিশেষ গুরুত্বপূর্ণ?",
+      "answer": "মহাস্থানগড় প্রাচীন নগরায়ণের প্রধান উদাহরণ।"
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "0400bce-0300bce-mahasthangarh-urban-emergence",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "dharmapala",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "ancient-and-pre-sultanate-bengal",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

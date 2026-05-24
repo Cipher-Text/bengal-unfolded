@@ -1,29 +1,77 @@
 {
   "slug": "liberation-war-1971",
-  "priority": 4,
+  "priority": 13,
   "title": "Liberation War 1971",
-  "tagline": "From constitutional rupture to independence",
-  "intro": "Trace the pathway from late Pakistan crisis to war, state formation, and immediate aftermath.",
-  "description": "A war-focused hub with prewar, wartime, and short postwar transitions.",
+  "tagline": "Structured learning hub: Liberation War 1971",
+  "intro": "Follow connected events to understand liberation war 1971 in historical context.",
+  "description": "SEO-focused topic hub for liberation war 1971 with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Liberation War 1971 | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn liberation war 1971 through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of liberation war 1971.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in liberation war 1971.",
+  "primaryKeywords": [
+    "liberation war 1971",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
   "eventSlugs": [
-    "1966-six-point-programme-announced",
-    "1968-agartala-conspiracy-case",
-    "1969-mass-uprising",
-    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-march-7-speech",
     "1971-liberation-war",
-    "1972-state-formation-and-the-1972-constitution",
-    "1974-famine-emergency-and-state-crisis"
+    "1971-mujibnagar-government"
   ],
   "figureIds": [
     "sheikh-mujibur-rahman",
-    "tajuddin-ahmad",
-    "syed-nazrul-islam",
-    "mag-osmani",
-    "ziaur-rahman"
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "bangladesh liberation war",
-    "1971 war of independence",
-    "mukti bahini history"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this Liberation War 1971 hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1971-march-7-speech",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

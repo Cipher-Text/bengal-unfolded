@@ -1,35 +1,79 @@
 {
   "slug": "colonial-conquest-revenue-and-resistance",
-  "priority": 10,
-  "title": "Colonial Conquest, Revenue, and Resistance",
-  "tagline": "From Plassey to agrarian restructuring and anti-colonial resistance",
-  "intro": "Understand how military conquest became revenue rule and how social resistance evolved in response.",
-  "description": "A structural topic linking conquest, diwani, famine, settlement, and resistance movements in colonial Bengal.",
+  "priority": 6,
+  "title": "Colonial Bengal: From Plassey to Permanent Settlement",
+  "tagline": "Structured learning hub: Colonial Bengal: From Plassey to Permanent Settlement",
+  "intro": "Follow connected events to understand colonial bengal: from plassey to permanent settlement in historical context.",
+  "description": "SEO-focused topic hub for colonial bengal: from plassey to permanent settlement with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "Colonial Bengal: From Plassey to Permanent Settlement | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn colonial bengal: from plassey to permanent settlement through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of colonial bengal: from plassey to permanent settlement.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in colonial bengal: from plassey to permanent settlement.",
+  "primaryKeywords": [
+    "colonial bengal: from plassey to permanent settlement",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
   "eventSlugs": [
     "1757-battle-of-plassey",
     "1764-battle-of-buxar",
     "1765-east-india-company-gets-diwani-rights-in-bengal",
     "1770-great-bengal-famine",
-    "1793-permanent-settlement-in-bengal",
-    "1818-faraizi-movement-begins-in-eastern-bengal",
-    "1831-titumir-s-bamboo-fort-uprising",
-    "1857-sipahi-revolt",
-    "1874-assam-reorganization-and-sylhet-s-administrative-detachment"
+    "1793-permanent-settlement-in-bengal"
   ],
   "figureIds": [
-    "siraj-ud-daulah",
-    "robert-clive",
-    "mir-jafar",
-    "haji-shariatullah",
-    "dudu-miyan",
-    "titu-mir",
-    "bahadur-shah-ii"
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
   ],
-  "keywords": [
-    "colonial bengal",
-    "diwani",
-    "permanent settlement",
-    "faraizi",
-    "anti-colonial resistance"
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this Colonial Bengal: From Plassey to Permanent Settlement hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1757-battle-of-plassey",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
   ]
 }

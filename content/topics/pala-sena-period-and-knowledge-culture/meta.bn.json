@@ -1,0 +1,80 @@
+{
+  "slug": "pala-sena-period-and-knowledge-culture",
+  "priority": 3,
+  "title": "পাল-সেন যুগ ও জ্ঞানচর্চা",
+  "tagline": "বৌদ্ধ শিক্ষাকেন্দ্র, দরবারি সংস্কৃতি ও ক্ষমতার রূপান্তর",
+  "intro": "পাল-সেন শাসনপর্বে জ্ঞান উৎপাদন, ধর্মীয় প্রতিষ্ঠান ও রাজনৈতিক রূপান্তরকে কেন্দ্র করে পড়ুন।",
+  "description": "পাল-সেন যুগের জ্ঞানচর্চা, সোমপুর, ও রাজ্যান্তরের ধারাকে বিশ্লেষণকারী একটি থিম্যাটিক হাব।",
+  "seoTitle": "পাল-সেন যুগ ও জ্ঞানচর্চা | Bengal Unfolded",
+  "seoDescription": "সোমপুর মহাবিহার, দরবারি সংস্কৃতি ও পাল-সেন রূপান্তরের আলোকে প্রারম্ভিক মধ্যযুগীয় বাংলা জানুন।",
+  "beginnerSummary": "পাল-সেন শাসন ও প্রধান শিক্ষাকেন্দ্রের পরিচিতি দেয়।",
+  "advancedSummary": "রাষ্ট্রের পৃষ্ঠপোষকতা, ধর্মীয় প্রতিষ্ঠান ও সাংস্কৃতিক পরিবর্তনের গভীর বিশ্লেষণ সম্ভব।",
+  "primaryKeywords": [
+    "পাল-সেন যুগ",
+    "সোমপুর মহাবিহার",
+    "প্রারম্ভিক মধ্যযুগীয় বাংলা"
+  ],
+  "secondaryKeywords": [
+    "পাল রাজবংশ",
+    "সেন দরবার",
+    "বাংলায় জ্ঞানচর্চা"
+  ],
+  "eventSlugs": [
+    "0750-1170-pala-dynasty-foundation",
+    "0800-1200-somapura-mahavihara",
+    "1095-1205-sena-rise-and-lakshman-sen-court-culture",
+    "1178-1204-sena-transition"
+  ],
+  "figureIds": [
+    "dharmapala",
+    "devapala",
+    "ballala-sena",
+    "lakshmana-sena",
+    "atisha-dipankara-srijnana"
+  ],
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
+  ],
+  "faq": [
+    {
+      "question": "পাল যুগকে বিশেষ করে কী?",
+      "answer": "বৌদ্ধ মহাবিহার ও আন্তঃআঞ্চলিক জ্ঞান-নেটওয়ার্ক এই পর্বকে আলাদা করে।"
+    },
+    {
+      "question": "সেন যুগে কী পরিবর্তন দেখা যায়?",
+      "answer": "দরবারি সংস্কৃতি ও রাজনৈতিক ভারসাম্যে গুরুত্বপূর্ণ পরিবর্তন ঘটে।"
+    },
+    {
+      "question": "প্রাচীন বাংলা থেকে আলাদা হাব কেন?",
+      "answer": "জ্ঞানচর্চা ও রাজবংশীয় রূপান্তরকে গভীরভাবে দেখার জন্য।"
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "0800-1200-somapura-mahavihara",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "dharmapala",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "ancient-and-pre-sultanate-bengal",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
+  ]
+}

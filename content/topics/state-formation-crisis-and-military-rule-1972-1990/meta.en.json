@@ -1,0 +1,82 @@
+{
+  "slug": "state-formation-crisis-and-military-rule-1972-1990",
+  "priority": 14,
+  "title": "1972–1990: State Formation, Crisis, and Military Rule",
+  "tagline": "Structured learning hub: 1972–1990: State Formation, Crisis, and Military Rule",
+  "intro": "Follow connected events to understand 1972–1990: state formation, crisis, and military rule in historical context.",
+  "description": "SEO-focused topic hub for 1972–1990: state formation, crisis, and military rule with linked events, figures, resources, and guided learning paths.",
+  "seoTitle": "1972–1990: State Formation, Crisis, and Military Rule | Bengal Unfolded Topic Hub",
+  "seoDescription": "Learn 1972–1990: state formation, crisis, and military rule through connected events, key figures, and educational FAQs in one structured hub.",
+  "beginnerSummary": "A beginner-friendly overview of 1972–1990: state formation, crisis, and military rule.",
+  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in 1972–1990: state formation, crisis, and military rule.",
+  "primaryKeywords": [
+    "1972–1990: state formation, crisis, and military rule",
+    "bangladesh history topic hub",
+    "bengal history"
+  ],
+  "secondaryKeywords": [
+    "historical learning path",
+    "seo topic page",
+    "connected timeline events"
+  ],
+  "eventSlugs": [
+    "1972-state-formation-and-the-1972-constitution",
+    "1974-famine-emergency-and-state-crisis",
+    "1975-baksal-formation-and-collapse",
+    "1975-jail-killing",
+    "1976-farakka-long-march",
+    "1976-1997-shanti-bahini-insurgency",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising"
+  ],
+  "figureIds": [
+    "sheikh-mujibur-rahman",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy"
+  ],
+  "resourceIds": [
+    "a-history-of-bangladesh",
+    "a-case-study-of-swadeshi-bengal"
+  ],
+  "faq": [
+    {
+      "question": "What does this 1972–1990: State Formation, Crisis, and Military Rule hub cover?",
+      "answer": "It covers major events, key actors, and core debates with educational context."
+    },
+    {
+      "question": "How is this useful for exam or research reading?",
+      "answer": "It provides a curated sequence of turning points and related references."
+    },
+    {
+      "question": "How should I continue after this topic?",
+      "answer": "Use the learning path links to move into related events, figures, and period pages."
+    }
+  ],
+  "learningPath": [
+    {
+      "type": "event",
+      "id": "1972-state-formation-and-the-1972-constitution",
+      "reason": "Start with a key turning point."
+    },
+    {
+      "type": "figure",
+      "id": "sheikh-mujibur-rahman",
+      "reason": "Study a key historical actor."
+    },
+    {
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read a source-backed explainer."
+    },
+    {
+      "type": "period",
+      "id": "post-liberation-state-and-democracy",
+      "reason": "Place the topic in long-term chronology."
+    },
+    {
+      "type": "place",
+      "id": "bengal-region",
+      "reason": "Anchor changes in the Bengal region context."
+    }
+  ]
+}

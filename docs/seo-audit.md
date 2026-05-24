@@ -1,6 +1,6 @@
 # SEO Audit and Fixes - Bengal Unfolded
 
-Date: 2026-05-22
+Date: 2026-05-25
 Canonical domain: `https://bengalunfolded.com`
 
 ## Status legend
@@ -40,7 +40,7 @@ Canonical domain: `https://bengalunfolded.com`
   - `/{locale}/periods/{id}`
   - `/{locale}/glossary/{term}`
 - Content model is folder-based in `content/` with bilingual JSON documents.
-- `/topics/*` route family is now live with dynamic multi-topic hubs.
+- `/topics/*` route family is live with a revised 17-hub BN/EN historical structure.
 
 ## Findings and fixes applied (technical SEO)
 
@@ -129,7 +129,24 @@ File updated:
 
 ### Priority level
 - Technical SEO foundation: Mostly complete
-- Current focus: Keyword strategy, content hubs, search-intent pages, internal linking, and Search Console improvement loop
+- Current focus: Keyword strategy, topic-hub depth, search-intent pages, internal linking, and Search Console improvement loop
+
+## Topic Hub Revision Status (2026-05-25)
+
+- `[x]` BN/EN topic hubs expanded to 17 historically balanced learning hubs
+- `[x]` Topic naming rewritten for SEO clarity (timeline, era, period, and movement intent)
+- `[x]` Topic pages now expose internal links to events, figures, resources, and learning-path steps
+- `[x]` Topic metadata enriched with `seoTitle`, `seoDescription`, summaries, keywords, FAQ, and learningPath
+- `[x]` Future-sensitive event `2026-election` removed from historical hubs
+- `[~]` Editorial/source refinement by domain experts for final wording and source curation
+
+### Next priority pages
+
+1. `/bn/topics/bangladesh-history` and `/en/topics/bangladesh-history`
+2. `/bn/topics/pakistan-period-state-and-national-awakening` and `/en/topics/pakistan-period-state-and-national-awakening`
+3. `/bn/topics/liberation-war-1971` and `/en/topics/liberation-war-1971`
+4. `/bn/topics/democracy-and-civic-movements` and `/en/topics/democracy-and-civic-movements`
+5. `/bn/topics/bengal-culture-literature-and-memory` and `/en/topics/bengal-culture-literature-and-memory`
 
 ## Search Console Insight Update (2026-05)
 
