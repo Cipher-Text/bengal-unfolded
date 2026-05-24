@@ -1,0 +1,29 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1757 Battle of Plassey">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8f7447"/>
+      <stop offset="100%" stop-color="#3f2e1b"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="25%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#d7be8c" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#d7be8c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#sun)"/>
+  <path d="M0 650 Q130 610 230 650 T470 650 T710 650 T950 650 T1200 650 L1200 900 L0 900 Z" fill="#2f2318" opacity="0.8"/>
+  <g fill="#eadcc0" opacity="0.9">
+    <rect x="210" y="350" width="6" height="220"/>
+    <path d="M216 355 L330 390 L216 425 Z"/>
+    <rect x="480" y="335" width="6" height="240"/>
+    <path d="M486 340 L605 380 L486 420 Z"/>
+    <rect x="760" y="360" width="6" height="215"/>
+    <path d="M766 365 L880 400 L766 435 Z"/>
+  </g>
+  <g stroke="#1f1710" stroke-width="7" stroke-linecap="round" opacity="0.8">
+    <line x1="280" y1="600" x2="360" y2="545"/>
+    <line x1="360" y1="600" x2="440" y2="540"/>
+    <line x1="660" y1="610" x2="760" y2="550"/>
+    <line x1="760" y1="610" x2="860" y2="545"/>
+  </g>
+</svg>

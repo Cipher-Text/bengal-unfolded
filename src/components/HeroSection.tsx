@@ -1,14 +1,25 @@
 import type { ReactNode } from "react";
 
-function PhotoPlaceholder({ caption, rotation, className }: { caption: string; rotation: string; className?: string }) {
+function PhotoPlaceholder({
+  caption,
+  rotation,
+  className,
+  src,
+  alt,
+}: {
+  caption: string;
+  rotation: string;
+  className?: string;
+  src: string;
+  alt: string;
+}) {
   return (
     <figure
       className={`photo-frame relative shadow-xl ${className ?? ""}`}
       style={{ transform: rotation }}
       aria-label={caption}
     >
-      {/* IMAGE SLOT — drop <img src="..." alt="..." /> here. Placeholder gradient renders meanwhile. */}
-      <div className="aspect-[4/3] w-full" />
+      <img src={src} alt={alt} loading="lazy" className="aspect-[4/3] h-auto w-full object-cover" />
       <figcaption className="absolute inset-x-0 bottom-1 text-center text-[10px] font-medium uppercase tracking-[0.2em] text-amber-50/85">
         {caption}
       </figcaption>
@@ -37,24 +48,32 @@ export function HeroSection({
           <div className="compass-watermark -top-12 -right-16 hidden md:block" />
           <div className="relative grid grid-cols-2 items-end gap-2 sm:gap-3 md:grid-cols-12 md:gap-5">
             <PhotoPlaceholder
-              caption="1857 · Revolt"
+              caption="1757 · Plassey"
               rotation="rotate(-3deg)"
               className="md:col-span-3 -translate-y-1"
+              src="/hero-events/1757-plassey.svg"
+              alt="Battle of Plassey, 1757"
             />
             <PhotoPlaceholder
               caption="1952 · Language"
               rotation="rotate(2deg)"
               className="md:col-span-4 translate-y-1"
+              src="/hero-events/1952-language-movement.svg"
+              alt="Language Movement, 1952"
             />
             <PhotoPlaceholder
               caption="1971 · Liberation"
               rotation="rotate(-2deg)"
               className="md:col-span-3 -translate-y-2"
+              src="/hero-events/1971-liberation-war.svg"
+              alt="Liberation War, 1971"
             />
             <PhotoPlaceholder
-              caption="2024 · Justice"
+              caption="1905 · Partition"
               rotation="rotate(3deg)"
               className="md:col-span-2 translate-y-2"
+              src="/hero-events/1905-partition-swadeshi.svg"
+              alt="Partition of Bengal and Swadeshi movement, 1905"
             />
           </div>
         </div>

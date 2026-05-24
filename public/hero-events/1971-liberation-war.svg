@@ -1,0 +1,29 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1971 Liberation War">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#86663a"/>
+      <stop offset="100%" stop-color="#2f2012"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#cfb37f" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#cfb37f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <g fill="#eadcc1" opacity="0.95">
+    <path d="M170 690 h160 v-220 h-160 z"/>
+    <path d="M360 690 h160 v-290 h-160 z"/>
+    <path d="M550 690 h160 v-360 h-160 z"/>
+    <path d="M740 690 h160 v-260 h-160 z"/>
+    <path d="M930 690 h110 v-180 h-110 z"/>
+  </g>
+  <g stroke="#1f150e" stroke-width="10" stroke-linecap="round" opacity="0.84">
+    <line x1="160" y1="690" x2="1050" y2="690"/>
+    <line x1="420" y1="380" x2="420" y2="250"/>
+    <line x1="420" y1="250" x2="560" y2="300"/>
+    <line x1="760" y1="440" x2="760" y2="320"/>
+    <line x1="760" y1="320" x2="890" y2="365"/>
+  </g>
+  <circle cx="980" cy="220" r="70" fill="#d14c3b" opacity="0.45"/>
+</svg>

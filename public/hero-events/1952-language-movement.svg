@@ -1,0 +1,29 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1952 Language Movement">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8c7044"/>
+      <stop offset="100%" stop-color="#342517"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="48%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#d8c29a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#d8c29a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#mist)"/>
+  <g fill="#e8dbc0" opacity="0.95">
+    <path d="M270 710 h70 v-210 h-70 z"/>
+    <path d="M430 710 h70 v-270 h-70 z"/>
+    <path d="M590 710 h70 v-330 h-70 z"/>
+    <path d="M750 710 h70 v-270 h-70 z"/>
+    <path d="M910 710 h70 v-210 h-70 z"/>
+  </g>
+  <g stroke="#241910" stroke-width="9" opacity="0.8">
+    <line x1="170" y1="710" x2="1030" y2="710"/>
+    <line x1="260" y1="540" x2="350" y2="470"/>
+    <line x1="415" y1="510" x2="515" y2="435"/>
+    <line x1="680" y1="510" x2="785" y2="430"/>
+    <line x1="845" y1="540" x2="945" y2="468"/>
+  </g>
+  <circle cx="602" cy="318" r="58" fill="#d14c3b" opacity="0.5"/>
+</svg>
