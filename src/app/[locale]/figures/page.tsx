@@ -24,19 +24,12 @@ export async function generateMetadata({
   const { page, q, entity, group } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
   const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
-  const query = new URLSearchParams();
-  if (q?.trim()) query.set("q", q.trim());
-  if (entity?.trim()) query.set("entity", entity.trim());
-  if (group?.trim()) query.set("group", group.trim());
-  if (currentPage > 1) query.set("page", String(currentPage));
-  const qs = query.toString();
-  const canonical = qs ? `/${locale}/figures?${qs}` : `/${locale}/figures`;
   const hasFilters = Boolean(q?.trim() || entity?.trim() || group?.trim());
   return buildPageMetadata({
     locale: locale as Locale,
     title: `Figures | ${locale.toUpperCase()} | Bengal Unfolded`,
     description: "Explore all figures and historical actors connected to Bengal Unfolded events.",
-    canonicalPath: canonical,
+    canonicalPath: `/${locale}/figures`,
     languagePathWithoutLocale: "/figures",
     noIndex: currentPage > 1 || hasFilters,
   });
