@@ -8,7 +8,7 @@ import Link from "next/link";
 import { getAllEvents, getHomeContent } from "@/lib/content";
 import { EVENT_THEME_BY_SLUG, getPhaseLabel } from "@/lib/event-presentation";
 import { buildPageMetadata } from "@/lib/seo";
-import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
+import { SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 
 const EventTimeline = dynamic(
 	() => import("@/components/EventTimeline").then((mod) => mod.EventTimeline),
@@ -24,7 +24,28 @@ const EventTimeline = dynamic(
 		),
 	},
 );
-const HOMEPAGE_LANDMARK_LIMIT = 15;
+const LANDING_MAJOR_EVENT_SLUGS: EventSlug[] = [
+	"0750-1170-pala-dynasty-foundation",
+	"1204-bakhtiyar-khalji-s-conquest-of-nadia",
+	"1303-conquest-of-sylhet",
+	"1352-bengal-sultanate-independence-and-unification",
+	"1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
+	"1576-battle-of-rajmahal",
+	"1666-mughal-conquest-of-chittagong",
+	"1757-battle-of-plassey",
+	"1765-east-india-company-gets-diwani-rights-in-bengal",
+	"1770-great-bengal-famine",
+	"1793-permanent-settlement-in-bengal",
+	"1859-1860-indigo-revolt",
+	"1905-partition-of-bengal",
+	"1930-chittagong-armoury-raid",
+	"1940-lahore-resolution",
+	"1947-partition-and-eastern-bengal",
+	"1952-language-movement",
+	"1969-mass-uprising",
+	"1971-liberation-war",
+	"1991-return-to-parliamentary-democracy",
+];
 
 export async function generateMetadata({
 	params,
@@ -61,9 +82,8 @@ export default async function LocaleHomePage({
 		getAllEvents(locale),
 	]);
 	const isBn = locale === "bn";
-	const landingEvents = events
-		.filter((event) => event.showOnLanding !== false)
-		.slice(0, HOMEPAGE_LANDMARK_LIMIT);
+	const landingEventSet = new Set<EventSlug>(LANDING_MAJOR_EVENT_SLUGS);
+	const landingEvents = events.filter((event) => landingEventSet.has(event.slug));
 
 	const timelineItems = landingEvents.map((event) => ({
 		year: event.year,
