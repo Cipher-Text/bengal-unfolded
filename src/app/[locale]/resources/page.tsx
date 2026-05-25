@@ -111,14 +111,6 @@ export async function generateMetadata({
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
 
   const currentPage = toPage(page);
-  const query = new URLSearchParams();
-  if (q?.trim()) query.set("q", q.trim());
-  if (category?.trim()) query.set("category", category.trim());
-  if (subcategory?.trim()) query.set("subcategory", subcategory.trim());
-  if (quality?.trim()) query.set("quality", quality.trim());
-  if (currentPage > 1) query.set("page", String(currentPage));
-  const qs = query.toString();
-  const canonical = qs ? `/${locale}/resources?${qs}` : `/${locale}/resources`;
   const hasFilters = Boolean(q?.trim() || category?.trim() || subcategory?.trim() || quality?.trim());
   const isBn = locale === "bn";
 
@@ -128,7 +120,7 @@ export async function generateMetadata({
     description: isBn
       ? "রিড, ভিডিও, অন্বেষণ ও গবেষণা রিসোর্স সার্চ ও ফিল্টার দিয়ে দেখুন।"
       : "Explore read, watch, understand, and archive resources with search and filters.",
-    canonicalPath: canonical,
+    canonicalPath: `/${locale}/resources`,
     languagePathWithoutLocale: "/resources",
     type: "website",
     noIndex: currentPage > 1 || hasFilters,
