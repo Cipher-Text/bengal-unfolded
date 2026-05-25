@@ -1,5 +1,18 @@
 # AI Docs Changelog
 
+## 2026-05-26
+
+Changed docs:
+- `docs/ai/PROJECT_CONTEXT.md` (refreshed verification date and current content inventory counts)
+- `docs/ai/ARCHITECTURE.md` (refreshed verification date and added missing locale route entries)
+- `docs/ai/API_MAP.md` (refreshed verification date; added topic/place accessors and route mappings)
+- `docs/ai/DECISIONS.md` (refreshed verification date)
+- `docs/ai/CHANGELOG_AI.md` (this entry)
+
+Important project changes/state discovered:
+- AI docs were stale relative to current content inventory (`events`, `figures`, `resources`, `topics`, `places`).
+- AI API map was missing topic/place functions and sitemap topic-slug dependency.
+
 ## 2026-05-08
 
 Changed docs:

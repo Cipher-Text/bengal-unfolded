@@ -1,6 +1,6 @@
 # API Map (AI)
 
-Last verified: 2026-05-08
+Last verified: 2026-05-26
 
 This project has no backend HTTP API layer. The practical API is the content access module:
 
@@ -19,6 +19,11 @@ Core reads:
 - `getAllBooks(locale)`
 - `getResource(locale, resourceId)`
 - `getAllResources(locale)`
+- `getTopic(locale, slug)`
+- `getAllTopics(locale)`
+- `getAllTopicSlugs()`
+- `getPlace(locale, placeId)`
+- `getAllPlaces(locale)`
 
 Relationship/derived reads:
 - `getPreviousAndNextEvents(locale, slug)`
@@ -31,8 +36,13 @@ Relationship/derived reads:
 - `getAllCreators(locale)`
 - `getCreatorById(locale, creatorId)`
 - `getResourcesByCreatorId(locale, creatorId)`
+- `getTopicsByEventSlug(locale, slug)`
+- `getTopicsByFigureId(locale, figureId)`
+- `getTopicsByResourceId(locale, resourceId)`
+- `getEventsByPlaceId(locale, placeId)`
+- `getEventsByPlaceIdChronological(locale, placeId)`
 
-Period/movement/glossary:
+Period/movement/glossary/topic/place:
 - `getPeriod(locale, periodId)`
 - `getAllPeriods(locale)`
 - `getEventsByPeriodId(locale, periodId)`
@@ -57,9 +67,13 @@ Period/movement/glossary:
 - `/:locale/creators/:id` -> `getAllCreators`, `getResourcesByCreatorId`, `getEventsByResourceId`
 - `/:locale/glossary` -> `getAllGlossaryTerms`
 - `/:locale/glossary/:term` -> `getAllGlossaryTermIds`, `getGlossaryTerm`
+- `/:locale/topics` -> `getAllTopics`
+- `/:locale/topics/:slug` -> `getAllTopicSlugs`, `getTopic`
 - `/:locale/periods/:id` -> `getPeriod`, `getEventsByPeriodId`
 - `/:locale/movements/:id` -> `getMovement`, `getEventsByMovementId`
-- `/sitemap.xml` -> `getAllResourceIds`, `getAllGlossaryTermIds`, `getAllCreators`
+- `/:locale/places` -> `getAllPlaces`
+- `/:locale/places/:id` -> `getPlace`, `getEventsByPlaceIdChronological`, `getTopicsByEventSlug`
+- `/sitemap.xml` -> `getAllResourceIds`, `getAllGlossaryTermIds`, `getAllTopicSlugs`, `getAllCreators`
 
 ## Validation pipeline
 

@@ -1,6 +1,6 @@
 # Architecture (AI)
 
-Last verified: 2026-05-14
+Last verified: 2026-05-26
 
 ## High-level
 
@@ -28,6 +28,7 @@ Global:
 Locale-scoped routes:
 - `/:locale`
 - `/:locale/timeline`
+- `/:locale/methodology`
 - `/:locale/events/:slug`
 - `/:locale/events/:slug/figures`
 - `/:locale/events/:slug/resources`
@@ -38,7 +39,9 @@ Locale-scoped routes:
 - `/:locale/creators/:id`
 - `/:locale/glossary`
 - `/:locale/glossary/:term`
+- `/:locale/periods`
 - `/:locale/periods/:id`
+- `/:locale/movements`
 - `/:locale/movements/:id`
 - `/:locale/places`
 - `/:locale/places/:id`
