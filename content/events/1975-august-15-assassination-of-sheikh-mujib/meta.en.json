@@ -1,0 +1,77 @@
+{
+  "slug": "1975-august-15-assassination-of-sheikh-mujib",
+  "year": "1975",
+  "title": "15 August Assassination of Sheikh Mujib",
+  "subtitle": "The killings at Dhanmondi 32 abruptly ended Bangladesh's founding leadership phase.",
+  "summary": "On 15 August 1975, Sheikh Mujibur Rahman and most of his family were killed in a military-backed coup in Dhaka. The event marked a foundational rupture in post-independence politics and opened a prolonged period of military and quasi-military dominance.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "The killings at Dhanmondi 32 abruptly ended Bangladesh's founding leadership phase.",
+  "whyItMatters": "The assassination matters because it reordered the state, constitutional trajectory, and legitimacy narratives of modern Bangladesh for decades.",
+  "importance": "high",
+  "parentEvent": "1975-baksal-formation-and-collapse",
+  "relatedEvents": [
+    {
+      "eventId": "1975-jail-killing",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1972-state-formation-and-the-1972-constitution",
+      "relationType": "contrast"
+    }
+  ],
+  "relatedEventIds": [
+    "1975-jail-killing",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "bangabandhu-sheikh-mujibur-rahman-1920-75",
+    "mujibur-rahman-britannica"
+  ],
+  "whyItMattersSourceIds": [
+    "bangabandhu-sheikh-mujibur-rahman-1920-75",
+    "mujibur-rahman-britannica"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "political assassination",
+    "state violence"
+  ],
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On 15 August 1975, Sheikh Mujibur Rahman and most of his family were killed in a military-backed coup in Dhaka. The event marked a foundational rupture in post-independence politics and opened a prolonged period of military and quasi-military dominance.",
+      "sourceIds": [
+        "bangabandhu-sheikh-mujibur-rahman-1920-75",
+        "mujibur-rahman-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The assassination matters because it reordered the state, constitutional trajectory, and legitimacy narratives of modern Bangladesh for decades.",
+      "sourceIds": [
+        "bangabandhu-sheikh-mujibur-rahman-1920-75",
+        "mujibur-rahman-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

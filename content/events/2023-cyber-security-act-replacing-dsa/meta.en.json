@@ -1,0 +1,76 @@
+{
+  "slug": "2023-cyber-security-act-replacing-dsa",
+  "year": "2023",
+  "title": "Cyber Security Act Replaces DSA",
+  "subtitle": "The government replaced the 2018 DSA amid sustained criticism, while debate over free expression persisted.",
+  "summary": "In 2023, Bangladesh enacted the Cyber Security Act replacing the Digital Security Act 2018. Critics and rights groups debated whether key coercive provisions were meaningfully reduced or largely retained under a new legal label.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "The government replaced the 2018 DSA amid sustained criticism, while debate over free expression persisted.",
+  "whyItMatters": "The replacement matters because it tests whether legal reform in Bangladesh changes enforcement practice or mainly repackages existing control logics.",
+  "importance": "high",
+  "parentEvent": "2018-a-year-of-protest-control-and-contested-legitimacy",
+  "relatedEvents": [
+    {
+      "eventId": "2018-digital-security-act",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2018-election",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2018-digital-security-act",
+    "2024-anti-discrimination-movement",
+    "2018-election"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "cyber-security-act-2023-official",
+    "digital-security-act-2018-official"
+  ],
+  "whyItMattersSourceIds": [
+    "cyber-security-act-2023-official",
+    "digital-security-act-2018-official"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "speech restrictions"
+  ],
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 2023, Bangladesh enacted the Cyber Security Act replacing the Digital Security Act 2018. Critics and rights groups debated whether key coercive provisions were meaningfully reduced or largely retained under a new legal label.",
+      "sourceIds": [
+        "cyber-security-act-2023-official",
+        "digital-security-act-2018-official"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The replacement matters because it tests whether legal reform in Bangladesh changes enforcement practice or mainly repackages existing control logics.",
+      "sourceIds": [
+        "cyber-security-act-2023-official",
+        "digital-security-act-2018-official"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

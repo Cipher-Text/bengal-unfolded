@@ -1,0 +1,29 @@
+[
+  {
+    "year": "2023",
+    "title": "Event context",
+    "detail": "In 2023, Bangladesh enacted the Cyber Security Act replacing the Digital Security Act 2018. Critics and rights groups debated whether key coercive provisions were meaningfully reduced or largely retained under a new legal label.",
+    "sourceIds": [
+      "cyber-security-act-2023-official",
+      "digital-security-act-2018-official"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "The replacement matters because it tests whether legal reform in Bangladesh changes enforcement practice or mainly repackages existing control logics.",
+    "sourceIds": [
+      "cyber-security-act-2023-official",
+      "digital-security-act-2018-official"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

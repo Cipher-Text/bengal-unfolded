@@ -1,0 +1,77 @@
+{
+  "slug": "1975-august-15-assassination-of-sheikh-mujib",
+  "year": "১৯৭৫",
+  "title": "১৫ আগস্ট বঙ্গবন্ধু হত্যাকাণ্ড",
+  "subtitle": "ধানমন্ডি ৩২-এর হত্যাকাণ্ড বাংলাদেশের প্রতিষ্ঠাকালীন নেতৃত্বের অধ্যায় হঠাৎ সমাপ্ত করে।",
+  "summary": "১৯৭৫ সালের ১৫ আগস্ট ঢাকায় সামরিক-সমর্থিত অভ্যুত্থানে শেখ মুজিবুর রহমান ও তাঁর পরিবারের অধিকাংশ সদস্য নিহত হন। এই ঘটনা স্বাধীনতা-পরবর্তী রাজনীতিতে এক মৌলিক বিচ্ছেদ তৈরি করে এবং দীর্ঘ সামরিক/অর্ধসামরিক প্রভাবের পথ খুলে দেয়।",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "ধানমন্ডি ৩২-এর হত্যাকাণ্ড বাংলাদেশের প্রতিষ্ঠাকালীন নেতৃত্বের অধ্যায় হঠাৎ সমাপ্ত করে।",
+  "whyItMatters": "এই হত্যাকাণ্ড গুরুত্বপূর্ণ, কারণ এটি বাংলাদেশের রাষ্ট্র, সংবিধানগত গতিপথ ও বৈধতার বয়ানকে বহু দশক ধরে পুনর্বিন্যাস করে।",
+  "importance": "high",
+  "parentEvent": "1975-baksal-formation-and-collapse",
+  "relatedEvents": [
+    {
+      "eventId": "1975-jail-killing",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1972-state-formation-and-the-1972-constitution",
+      "relationType": "contrast"
+    }
+  ],
+  "relatedEventIds": [
+    "1975-jail-killing",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "bangabandhu-sheikh-mujibur-rahman-1920-75",
+    "mujibur-rahman-britannica"
+  ],
+  "whyItMattersSourceIds": [
+    "bangabandhu-sheikh-mujibur-rahman-1920-75",
+    "mujibur-rahman-britannica"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "রাজনৈতিক হত্যাকাণ্ড",
+    "রাষ্ট্রীয় সহিংসতা"
+  ],
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭৫ সালের ১৫ আগস্ট ঢাকায় সামরিক-সমর্থিত অভ্যুত্থানে শেখ মুজিবুর রহমান ও তাঁর পরিবারের অধিকাংশ সদস্য নিহত হন। এই ঘটনা স্বাধীনতা-পরবর্তী রাজনীতিতে এক মৌলিক বিচ্ছেদ তৈরি করে এবং দীর্ঘ সামরিক/অর্ধসামরিক প্রভাবের পথ খুলে দেয়।",
+      "sourceIds": [
+        "bangabandhu-sheikh-mujibur-rahman-1920-75",
+        "mujibur-rahman-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই হত্যাকাণ্ড গুরুত্বপূর্ণ, কারণ এটি বাংলাদেশের রাষ্ট্র, সংবিধানগত গতিপথ ও বৈধতার বয়ানকে বহু দশক ধরে পুনর্বিন্যাস করে।",
+      "sourceIds": [
+        "bangabandhu-sheikh-mujibur-rahman-1920-75",
+        "mujibur-rahman-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

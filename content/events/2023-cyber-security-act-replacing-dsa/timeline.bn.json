@@ -1,0 +1,29 @@
+[
+  {
+    "year": "২০২৩",
+    "title": "ঘটনার প্রেক্ষিত",
+    "detail": "২০২৩ সালে বাংলাদেশ সরকার ডিজিটাল সিকিউরিটি অ্যাক্ট ২০১৮ বাতিল করে সাইবার সিকিউরিটি অ্যাক্ট প্রণয়ন করে। সমালোচক ও অধিকারকর্মীরা প্রশ্ন তোলেন, দমনমূলক অনেক ধারা কতটা প্রকৃতভাবে কমেছে, নাকি নতুন নামে অনেকাংশে বজায় আছে।",
+    "sourceIds": [
+      "cyber-security-act-2023-official",
+      "digital-security-act-2018-official"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "উত্তরাধিকার",
+    "title": "কেন গুরুত্বপূর্ণ",
+    "detail": "এই প্রতিস্থাপন গুরুত্বপূর্ণ, কারণ এটি দেখায় আইনি সংস্কার বাস্তব প্রয়োগ বদলায় কিনা, নাকি বিদ্যমান নিয়ন্ত্রণ-তর্ককে নতুন নামে পুনরায় সাজায়।",
+    "sourceIds": [
+      "cyber-security-act-2023-official",
+      "digital-security-act-2018-official"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

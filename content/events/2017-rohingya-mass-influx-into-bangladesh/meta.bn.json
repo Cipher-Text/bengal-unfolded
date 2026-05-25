@@ -1,0 +1,77 @@
+{
+  "slug": "2017-rohingya-mass-influx-into-bangladesh",
+  "year": "২০১৭",
+  "title": "বাংলাদেশে রোহিঙ্গা গণ-আশ্রয় প্রবাহ",
+  "subtitle": "মিয়ানমারের সহিংসতা দক্ষিণ এশিয়ার সাম্প্রতিক ইতিহাসে দ্রুততম শরণার্থী প্রবাহের একটি সৃষ্টি করে।",
+  "summary": "২০১৭ সালের আগস্টের শেষভাগ থেকে মিয়ানমারের রাখাইন রাজ্য থেকে বিপুলসংখ্যক রোহিঙ্গা কক্সবাজারে আশ্রয় নেন। অল্প সময়ে এটি বাংলাদেশ সরকার, জাতিসংঘ সংস্থা ও আন্তর্জাতিক সহায়তা নেটওয়ার্ককে যুক্ত করে বড় মানবিক সংকটে পরিণত হয়।",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "মিয়ানমারের সহিংসতা দক্ষিণ এশিয়ার সাম্প্রতিক ইতিহাসে দ্রুততম শরণার্থী প্রবাহের একটি সৃষ্টি করে।",
+  "whyItMatters": "২০১৭ সালের এই প্রবাহ বাংলাদেশের মানবিক নীতি, সীমান্ত রাজনীতি ও দীর্ঘমেয়াদি আঞ্চলিক কূটনীতিকে পুনর্গঠন করে।",
+  "importance": "high",
+  "parentEvent": "2018-a-year-of-protest-control-and-contested-legitimacy",
+  "relatedEvents": [
+    {
+      "eventId": "2018-election",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "contrast"
+    },
+    {
+      "eventId": "2001-padua-pyrdiwah-boraibari-border-clash",
+      "relationType": "contrast"
+    }
+  ],
+  "relatedEventIds": [
+    "2018-election",
+    "2024-anti-discrimination-movement",
+    "2001-padua-pyrdiwah-boraibari-border-clash"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "unhcr-rohingya-emergency",
+    "unhcr-joint-statement-rohingya-2017"
+  ],
+  "whyItMattersSourceIds": [
+    "unhcr-rohingya-emergency",
+    "unhcr-joint-statement-rohingya-2017"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "জোরপূর্বক বাস্তুচ্যুতি",
+    "গণ-নির্যাতনের অভিযোগ"
+  ],
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১৭ সালের আগস্টের শেষভাগ থেকে মিয়ানমারের রাখাইন রাজ্য থেকে বিপুলসংখ্যক রোহিঙ্গা কক্সবাজারে আশ্রয় নেন। অল্প সময়ে এটি বাংলাদেশ সরকার, জাতিসংঘ সংস্থা ও আন্তর্জাতিক সহায়তা নেটওয়ার্ককে যুক্ত করে বড় মানবিক সংকটে পরিণত হয়।",
+      "sourceIds": [
+        "unhcr-rohingya-emergency",
+        "unhcr-joint-statement-rohingya-2017"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "২০১৭ সালের এই প্রবাহ বাংলাদেশের মানবিক নীতি, সীমান্ত রাজনীতি ও দীর্ঘমেয়াদি আঞ্চলিক কূটনীতিকে পুনর্গঠন করে।",
+      "sourceIds": [
+        "unhcr-rohingya-emergency",
+        "unhcr-joint-statement-rohingya-2017"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

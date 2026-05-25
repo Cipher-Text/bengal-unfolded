@@ -11,7 +11,8 @@
   "importance": "high",
   "parentEvent": "1990-mass-uprising",
   "childEventIds": [
-    "2014-10th-parliamentary-election"
+    "2014-10th-parliamentary-election",
+    "2013-rana-plaza-collapse"
   ],
   "relatedEvents": [
     {

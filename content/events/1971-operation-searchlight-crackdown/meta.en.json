@@ -1,0 +1,77 @@
+{
+  "slug": "1971-operation-searchlight-crackdown",
+  "year": "1971",
+  "title": "Operation Searchlight Crackdown",
+  "subtitle": "The Pakistan Army's 25 March operation turned a political crisis into full-scale war.",
+  "summary": "On the night of 25 March 1971, the Pakistan Army launched Operation Searchlight in East Pakistan to suppress Bengali political mobilization. The operation targeted Dhaka and other urban centers, including students, political activists, and civilian neighborhoods, and became a decisive trigger for the Bangladesh Liberation War.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "The Pakistan Army's 25 March operation turned a political crisis into full-scale war.",
+  "whyItMatters": "Operation Searchlight is central because it marked the collapse of negotiated constitutional politics and accelerated armed resistance, mass displacement, and the internationalization of the conflict.",
+  "importance": "high",
+  "parentEvent": "1971-liberation-war",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1970-bhola-cyclone-and-the-1970-election",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1972-state-formation-and-the-1972-constitution",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "operation-searchlight-banglapedia",
+    "operation-searchlight-britannica"
+  ],
+  "whyItMattersSourceIds": [
+    "operation-searchlight-banglapedia",
+    "operation-searchlight-britannica"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "mass violence",
+    "state repression"
+  ],
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On the night of 25 March 1971, the Pakistan Army launched Operation Searchlight in East Pakistan to suppress Bengali political mobilization. The operation targeted Dhaka and other urban centers, including students, political activists, and civilian neighborhoods, and became a decisive trigger for the Bangladesh Liberation War.",
+      "sourceIds": [
+        "operation-searchlight-banglapedia",
+        "operation-searchlight-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Operation Searchlight is central because it marked the collapse of negotiated constitutional politics and accelerated armed resistance, mass displacement, and the internationalization of the conflict.",
+      "sourceIds": [
+        "operation-searchlight-banglapedia",
+        "operation-searchlight-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

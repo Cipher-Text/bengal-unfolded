@@ -1,10 +1,10 @@
 {
-  "name": "Key Figure 1",
-  "name_en": "Key Figure 1",
-  "role": "Leadership",
+  "name": "Khwaja Salimullah",
+  "name_en": "Khwaja Salimullah",
+  "role": "Muslim Political Organizer and Patron",
   "group": "leader",
-  "contribution": "This figure influenced the event trajectory.",
-  "context": "",
-  "impact": "Long-term impact on public memory.",
-  "image": "/figures/key-figure-1.jpg"
+  "contribution": "Khwaja Salimullah was central to late-colonial Muslim elite politics in Bengal and is closely associated with the Dhaka context of the All-India Muslim League founding period.",
+  "context": "Late colonial Bengal, especially Dhaka-centered Muslim political mobilization in the early 20th century.",
+  "impact": "His patronage networks and organizational role influenced constitutional and communal politics that later shaped partition-era trajectories.",
+  "image": "/figures/khwaja-salimullah.jpg"
 }

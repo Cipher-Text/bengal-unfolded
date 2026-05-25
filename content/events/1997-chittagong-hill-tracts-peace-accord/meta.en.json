@@ -1,0 +1,77 @@
+{
+  "slug": "1997-chittagong-hill-tracts-peace-accord",
+  "year": "1997",
+  "title": "Chittagong Hill Tracts Peace Accord",
+  "subtitle": "A formal peace agreement ended two decades of insurgency but left contested implementation questions.",
+  "summary": "On 2 December 1997, the Government of Bangladesh and PCJSS signed the Chittagong Hill Tracts Peace Accord. The accord ended large-scale insurgency under the Shanti Bahini framework, introduced institutional commitments on autonomy and land issues, and began a long implementation process.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "A formal peace agreement ended two decades of insurgency but left contested implementation questions.",
+  "whyItMatters": "The accord remains crucial for understanding citizenship, indigeneity, land rights, and center-periphery state relations in Bangladesh.",
+  "importance": "high",
+  "parentEvent": "1976-1997-shanti-bahini-insurgency",
+  "relatedEvents": [
+    {
+      "eventId": "1976-1997-shanti-bahini-insurgency",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1991-return-to-parliamentary-democracy",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1976-1997-shanti-bahini-insurgency",
+    "1990-mass-uprising",
+    "1991-return-to-parliamentary-democracy"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "chittagong-hill-tracts-accord-1997-full-text",
+    "chittagong-hill-tracts-peace-accord-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "chittagong-hill-tracts-accord-1997-full-text",
+    "chittagong-hill-tracts-peace-accord-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contentWarnings": [
+    "armed conflict legacy",
+    "displacement"
+  ],
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On 2 December 1997, the Government of Bangladesh and PCJSS signed the Chittagong Hill Tracts Peace Accord. The accord ended large-scale insurgency under the Shanti Bahini framework, introduced institutional commitments on autonomy and land issues, and began a long implementation process.",
+      "sourceIds": [
+        "chittagong-hill-tracts-accord-1997-full-text",
+        "chittagong-hill-tracts-peace-accord-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The accord remains crucial for understanding citizenship, indigeneity, land rights, and center-periphery state relations in Bangladesh.",
+      "sourceIds": [
+        "chittagong-hill-tracts-accord-1997-full-text",
+        "chittagong-hill-tracts-peace-accord-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

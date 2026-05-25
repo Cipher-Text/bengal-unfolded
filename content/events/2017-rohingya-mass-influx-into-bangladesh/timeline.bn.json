@@ -1,0 +1,29 @@
+[
+  {
+    "year": "২০১৭",
+    "title": "ঘটনার প্রেক্ষিত",
+    "detail": "২০১৭ সালের আগস্টের শেষভাগ থেকে মিয়ানমারের রাখাইন রাজ্য থেকে বিপুলসংখ্যক রোহিঙ্গা কক্সবাজারে আশ্রয় নেন। অল্প সময়ে এটি বাংলাদেশ সরকার, জাতিসংঘ সংস্থা ও আন্তর্জাতিক সহায়তা নেটওয়ার্ককে যুক্ত করে বড় মানবিক সংকটে পরিণত হয়।",
+    "sourceIds": [
+      "unhcr-rohingya-emergency",
+      "unhcr-joint-statement-rohingya-2017"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "উত্তরাধিকার",
+    "title": "কেন গুরুত্বপূর্ণ",
+    "detail": "২০১৭ সালের এই প্রবাহ বাংলাদেশের মানবিক নীতি, সীমান্ত রাজনীতি ও দীর্ঘমেয়াদি আঞ্চলিক কূটনীতিকে পুনর্গঠন করে।",
+    "sourceIds": [
+      "unhcr-rohingya-emergency",
+      "unhcr-joint-statement-rohingya-2017"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

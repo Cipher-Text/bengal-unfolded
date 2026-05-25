@@ -1,0 +1,29 @@
+[
+  {
+    "year": "2017",
+    "title": "Event context",
+    "detail": "From late August 2017, large numbers of Rohingya fled Myanmar's Rakhine State into Cox's Bazar, Bangladesh. The influx rapidly became a major humanitarian emergency involving the Bangladesh government, UN agencies, and international aid networks.",
+    "sourceIds": [
+      "unhcr-rohingya-emergency",
+      "unhcr-joint-statement-rohingya-2017"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "The 2017 influx reshaped Bangladesh's humanitarian policy, border politics, and long-term regional diplomacy.",
+    "sourceIds": [
+      "unhcr-rohingya-emergency",
+      "unhcr-joint-statement-rohingya-2017"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "year": "2013",
+    "title": "Event context",
+    "detail": "On 24 April 2013, Rana Plaza in Savar collapsed, killing over a thousand people and injuring many more. The disaster triggered domestic and international scrutiny of factory safety, labor governance, and global supply-chain accountability.",
+    "sourceIds": [
+      "rana-plaza-ilo-overview",
+      "rana-plaza-arrangement"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "Rana Plaza became a structural turning point for labor rights policy, building compliance regimes, and international buyer responsibility in Bangladesh.",
+    "sourceIds": [
+      "rana-plaza-ilo-overview",
+      "rana-plaza-arrangement"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]
