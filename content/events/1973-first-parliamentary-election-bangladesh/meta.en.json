@@ -1,0 +1,55 @@
+{
+  "slug": "1973-first-parliamentary-election-bangladesh",
+  "year": "1973",
+  "title": "First Parliamentary Election in Bangladesh",
+  "subtitle": "State Formation in Bengal/Bangladesh history.",
+  "summary": "First Parliamentary Election in Bangladesh was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "A key state formation chapter in the wider historical timeline.",
+  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "importance": "high",
+  "relatedEvents": [],
+  "relatedEventIds": [],
+  "periodLabel": "Historical Transitions",
+  "movementLabel": "State, society, and political change",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "bangladesh-era-of-sheikh-mujibur-rahman",
+    "bangladesh-since-independence-britannica"
+  ],
+  "whyItMattersSourceIds": [
+    "bangladesh-era-of-sheikh-mujibur-rahman",
+    "bangladesh-since-independence-britannica"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "First Parliamentary Election in Bangladesh was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "sourceIds": [
+        "bangladesh-era-of-sheikh-mujibur-rahman",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "sourceIds": [
+        "bangladesh-era-of-sheikh-mujibur-rahman",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

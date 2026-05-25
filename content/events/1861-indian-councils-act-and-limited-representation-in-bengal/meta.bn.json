@@ -1,0 +1,55 @@
+{
+  "slug": "1861-indian-councils-act-and-limited-representation-in-bengal",
+  "year": "1861",
+  "title": "ইন্ডিয়ান কাউন্সিলস অ্যাক্ট ও বাংলায় সীমিত প্রতিনিধিত্ব",
+  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Colonial Constitutionalism প্রেক্ষিত।",
+  "summary": "ইন্ডিয়ান কাউন্সিলস অ্যাক্ট ও বাংলায় সীমিত প্রতিনিধিত্ব বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
+  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "importance": "high",
+  "relatedEvents": [],
+  "relatedEventIds": [],
+  "periodLabel": "ঐতিহাসিক রূপান্তর",
+  "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "ইন্ডিয়ান কাউন্সিলস অ্যাক্ট ও বাংলায় সীমিত প্রতিনিধিত্ব বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+      "sourceIds": [
+        "history-banglapedia",
+        "a-history-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+      "sourceIds": [
+        "history-banglapedia",
+        "a-history-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

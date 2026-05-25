@@ -1,0 +1,58 @@
+{
+  "slug": "1971-december-16-instrument-of-surrender",
+  "year": "1971",
+  "title": "16 December Instrument of Surrender",
+  "subtitle": "Liberation War in Bengal/Bangladesh history.",
+  "summary": "16 December Instrument of Surrender was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "A key liberation war chapter in the wider historical timeline.",
+  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "importance": "high",
+  "relatedEvents": [],
+  "relatedEventIds": [],
+  "periodLabel": "Historical Transitions",
+  "movementLabel": "State, society, and political change",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "instrument-of-surrender-1971-text",
+    "witness-to-surrender"
+  ],
+  "whyItMattersSourceIds": [
+    "instrument-of-surrender-1971-text",
+    "witness-to-surrender"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "16 December Instrument of Surrender was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "sourceIds": [
+        "instrument-of-surrender-1971-text",
+        "witness-to-surrender"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "sourceIds": [
+        "instrument-of-surrender-1971-text",
+        "witness-to-surrender"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "political violence"
+  ]
+}

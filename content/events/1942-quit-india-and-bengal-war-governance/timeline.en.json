@@ -1,0 +1,29 @@
+[
+  {
+    "year": "1942",
+    "title": "Context",
+    "detail": "Quit India Phase and Bengal War Governance was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "sourceIds": [
+      "bengal-famine-1943-das",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Long-term impact",
+    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "sourceIds": [
+      "bengal-famine-1943-das",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

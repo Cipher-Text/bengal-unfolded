@@ -1,0 +1,29 @@
+[
+  {
+    "year": "1971",
+    "title": "Context",
+    "detail": "16 December Instrument of Surrender was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "sourceIds": [
+      "instrument-of-surrender-1971-text",
+      "witness-to-surrender"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Long-term impact",
+    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "sourceIds": [
+      "instrument-of-surrender-1971-text",
+      "witness-to-surrender"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

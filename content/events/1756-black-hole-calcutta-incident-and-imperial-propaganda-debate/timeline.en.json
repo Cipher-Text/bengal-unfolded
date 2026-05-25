@@ -1,0 +1,29 @@
+[
+  {
+    "year": "1756",
+    "title": "Context",
+    "detail": "Black Hole of Calcutta and Imperial Propaganda Debate was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "sourceIds": [
+      "battle-of-plassey-britannica",
+      "a-comprehensive-history-of-modern-bengal-1700-1950"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Long-term impact",
+    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "sourceIds": [
+      "battle-of-plassey-britannica",
+      "a-comprehensive-history-of-modern-bengal-1700-1950"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "slug": "1861-indian-councils-act-and-limited-representation-in-bengal",
+  "year": "1861",
+  "title": "Indian Councils Act and Limited Representation in Bengal",
+  "subtitle": "Colonial Constitutionalism in Bengal/Bangladesh history.",
+  "summary": "Indian Councils Act and Limited Representation in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "A key colonial constitutionalism chapter in the wider historical timeline.",
+  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "importance": "high",
+  "relatedEvents": [],
+  "relatedEventIds": [],
+  "periodLabel": "Historical Transitions",
+  "movementLabel": "State, society, and political change",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMattersSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Indian Councils Act and Limited Representation in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "sourceIds": [
+        "history-banglapedia",
+        "a-history-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "sourceIds": [
+        "history-banglapedia",
+        "a-history-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

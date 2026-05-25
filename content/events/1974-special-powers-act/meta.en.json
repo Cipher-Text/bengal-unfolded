@@ -1,0 +1,55 @@
+{
+  "slug": "1974-special-powers-act",
+  "year": "1974",
+  "title": "Special Powers Act, 1974",
+  "subtitle": "Post-Independence State in Bengal/Bangladesh history.",
+  "summary": "Special Powers Act, 1974 was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "A key post-independence state chapter in the wider historical timeline.",
+  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "importance": "high",
+  "relatedEvents": [],
+  "relatedEventIds": [],
+  "periodLabel": "Historical Transitions",
+  "movementLabel": "State, society, and political change",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "special-powers-act-1974-banglapedia",
+    "bangladesh-era-of-sheikh-mujibur-rahman"
+  ],
+  "whyItMattersSourceIds": [
+    "special-powers-act-1974-banglapedia",
+    "bangladesh-era-of-sheikh-mujibur-rahman"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Special Powers Act, 1974 was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "sourceIds": [
+        "special-powers-act-1974-banglapedia",
+        "bangladesh-era-of-sheikh-mujibur-rahman"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "sourceIds": [
+        "special-powers-act-1974-banglapedia",
+        "bangladesh-era-of-sheikh-mujibur-rahman"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

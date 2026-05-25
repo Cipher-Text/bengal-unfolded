@@ -1,0 +1,55 @@
+{
+  "slug": "1947-radcliffe-award-border-demarcation-implementation",
+  "year": "1947",
+  "title": "Radcliffe Award Border Demarcation Implementation",
+  "subtitle": "Partition in Bengal/Bangladesh history.",
+  "summary": "Radcliffe Award Border Demarcation Implementation was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "A key partition chapter in the wider historical timeline.",
+  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "importance": "high",
+  "relatedEvents": [],
+  "relatedEventIds": [],
+  "periodLabel": "Historical Transitions",
+  "movementLabel": "State, society, and political change",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "radcliffe-award-documents",
+    "indian-annual-register-1947"
+  ],
+  "whyItMattersSourceIds": [
+    "radcliffe-award-documents",
+    "indian-annual-register-1947"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Radcliffe Award Border Demarcation Implementation was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "sourceIds": [
+        "radcliffe-award-documents",
+        "indian-annual-register-1947"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "sourceIds": [
+        "radcliffe-award-documents",
+        "indian-annual-register-1947"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

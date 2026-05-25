@@ -1,0 +1,29 @@
+[
+  {
+    "year": "1947",
+    "title": "Context",
+    "detail": "Radcliffe Award Border Demarcation Implementation was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "sourceIds": [
+      "radcliffe-award-documents",
+      "indian-annual-register-1947"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Long-term impact",
+    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "sourceIds": [
+      "radcliffe-award-documents",
+      "indian-annual-register-1947"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

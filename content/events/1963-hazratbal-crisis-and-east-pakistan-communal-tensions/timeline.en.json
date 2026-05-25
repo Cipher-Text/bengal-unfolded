@@ -1,0 +1,29 @@
+[
+  {
+    "year": "1963",
+    "title": "Context",
+    "detail": "Hazratbal Crisis and Communal Tensions in East Pakistan was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Long-term impact",
+    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

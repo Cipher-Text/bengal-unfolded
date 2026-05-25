@@ -1,0 +1,29 @@
+[
+  {
+    "year": "1973",
+    "title": "Context",
+    "detail": "First Parliamentary Election in Bangladesh was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "sourceIds": [
+      "bangladesh-era-of-sheikh-mujibur-rahman",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Long-term impact",
+    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "sourceIds": [
+      "bangladesh-era-of-sheikh-mujibur-rahman",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

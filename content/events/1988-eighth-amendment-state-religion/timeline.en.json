@@ -1,0 +1,29 @@
+[
+  {
+    "year": "1988",
+    "title": "Context",
+    "detail": "Eighth Amendment and State Religion was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "sourceIds": [
+      "constitution-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Long-term impact",
+    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "sourceIds": [
+      "constitution-banglapedia",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

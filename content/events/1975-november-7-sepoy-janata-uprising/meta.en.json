@@ -1,0 +1,55 @@
+{
+  "slug": "1975-november-7-sepoy-janata-uprising",
+  "year": "1975",
+  "title": "7 November Sepoy-Janata Uprising",
+  "subtitle": "Post-1975 Crisis in Bengal/Bangladesh history.",
+  "summary": "7 November Sepoy-Janata Uprising was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "themeColor": "#2f6b7a",
+  "ctaLabel": "Explore",
+  "heroTagline": "A key post-1975 crisis chapter in the wider historical timeline.",
+  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "importance": "high",
+  "relatedEvents": [],
+  "relatedEventIds": [],
+  "periodLabel": "Historical Transitions",
+  "movementLabel": "State, society, and political change",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "fire-dekha-shob-chokhe-november-1975",
+    "bangladesh-a-legacy-of-blood"
+  ],
+  "whyItMattersSourceIds": [
+    "fire-dekha-shob-chokhe-november-1975",
+    "bangladesh-a-legacy-of-blood"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "7 November Sepoy-Janata Uprising was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "sourceIds": [
+        "fire-dekha-shob-chokhe-november-1975",
+        "bangladesh-a-legacy-of-blood"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "sourceIds": [
+        "fire-dekha-shob-chokhe-november-1975",
+        "bangladesh-a-legacy-of-blood"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}
