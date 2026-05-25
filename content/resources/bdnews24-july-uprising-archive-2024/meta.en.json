@@ -1,8 +1,11 @@
 {
   "title": "Quota Reform / July Uprising Archive",
   "note": "Useful news archive for breaking updates, court developments, internet shutdown, government statements, and the transition period.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "bdnews24.com",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful news archive for breaking updates, court developments, internet shutdown, government statements, and the transition period."
 }

@@ -1,9 +1,12 @@
 {
   "title": "অসমাপ্ত আত্মজীবনী",
   "note": "শেখ মুজিবুর রহমানের আত্মজীবনী ১৯৩০-৫০-এর দশকের বঙ্গ রাজনীতি, মুসলিম লীগ, এবং ভাষা আন্দোলন বোঝার জন্য গুরুত্বপূর্ণ।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "href": "https://openlibrary.org/books/OL28190600M/The_Unfinished_Memoirs",
   "attribution": "শেখ মুজিবুর রহমান",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "শেখ মুজিবুর রহমানের আত্মজীবনী ১৯৩০-৫০-এর দশকের বঙ্গ রাজনীতি, মুসলিম লীগ, এবং ভাষা আন্দোলন বোঝার জন্য গুরুত্বপূর্ণ।"
 }

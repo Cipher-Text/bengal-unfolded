@@ -1,10 +1,13 @@
 {
   "title": "কাজী ইমদাদুল হক",
   "note": "বাঙালি মুসলিম সমাজসংস্কার ও সাহিত্যিক আধুনিকতার গুরুত্বপূর্ণ নাম; Abdullah তার প্রধান উপন্যাসগুলোর একটি।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Qazi_Imdadul_Haq",
   "attribution": "উইকিপিডিয়া",
   "creatorType": "organization",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "বাঙালি মুসলিম সমাজসংস্কার ও সাহিত্যিক আধুনিকতার গুরুত্বপূর্ণ নাম; Abdullah তার প্রধান উপন্যাসগুলোর একটি।"
 }

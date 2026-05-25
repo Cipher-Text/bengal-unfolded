@@ -1,8 +1,11 @@
 {
   "title": "একাদশ জাতীয় সংসদ নির্বাচন ২০১৮: সংঘাত ও প্রচারণা আর্কাইভ",
   "note": "নির্বাচনী প্রচারণা, সহিংসতা, গ্রেপ্তার, polling day allegations ও opposition reaction trace করার জন্য archive source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "দৈনিক সংবাদপত্র আর্কাইভ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "নির্বাচনী প্রচারণা, সহিংসতা, গ্রেপ্তার, polling day allegations ও opposition reaction trace করার জন্য archive source."
 }

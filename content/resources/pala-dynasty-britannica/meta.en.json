@@ -1,9 +1,12 @@
 {
   "title": "Pala dynasty",
   "note": "Britannica reference for the rise of the Pala dynasty in mid-8th century Bengal and its major political and Buddhist influence.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Pala-dynasty",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Britannica reference for the rise of the Pala dynasty in mid-8th century Bengal and its major political and Buddhist influence."
 }

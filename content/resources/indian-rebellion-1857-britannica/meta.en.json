@@ -1,9 +1,12 @@
 {
   "title": "Indian Rebellion of 1857",
   "note": "Foundational overview of causes, spread, key theatres, and suppression of the 1857-59 uprising.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/event/Indian-Rebellion-of-1857",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Foundational overview of causes, spread, key theatres, and suppression of the 1857-59 uprising."
 }

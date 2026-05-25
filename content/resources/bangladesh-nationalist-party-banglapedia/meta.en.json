@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh Nationalist Party",
   "note": "Provides context on BNP's role in the alliance politics that led to the 1990 transition.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Bangladesh_Nationalist_Party",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Provides context on BNP's role in the alliance politics that led to the 1990 transition."
 }

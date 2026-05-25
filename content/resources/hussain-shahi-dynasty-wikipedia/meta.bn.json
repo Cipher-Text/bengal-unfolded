@@ -1,9 +1,12 @@
 {
   "title": "Hussain Shahi dynasty",
   "note": "বাংলায় হোসেন শাহী রাজবংশের (১৪৯৪-১৫৩৮) শাসনকাল, শাসকক্রম এবং রাজবংশীয় ধারাবাহিকতা নিয়ে রেফারেন্সভিত্তিক সারসংক্ষেপ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Hussain_Shahi_dynasty",
   "attribution": "উইকিপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "বাংলায় হোসেন শাহী রাজবংশের (১৪৯৪-১৫৩৮) শাসনকাল, শাসকক্রম এবং রাজবংশীয় ধারাবাহিকতা নিয়ে রেফারেন্সভিত্তিক সারসংক্ষেপ।"
 }

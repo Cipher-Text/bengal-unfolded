@@ -1,8 +1,11 @@
 {
   "title": "Alat Chakra",
   "note": "A literary text that helps frame wartime mental strain and political reality.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Ahmad Sofa",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A literary text that helps frame wartime mental strain and political reality."
 }

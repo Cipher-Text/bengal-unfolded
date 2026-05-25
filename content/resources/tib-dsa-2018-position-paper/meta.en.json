@@ -1,8 +1,11 @@
 {
   "title": "Digital Security Act 2018 and the Draft Cyber Security Act 2023",
   "note": "Civil-society analysis of the DSA’s use, criticism, and the later Cyber Security Act debate.",
-  "category": "understand",
-  "subcategory": "papers",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Transparency International Bangladesh",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Civil-society analysis of the DSA’s use, criticism, and the later Cyber Security Act debate."
 }

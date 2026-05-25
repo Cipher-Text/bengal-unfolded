@@ -1,8 +1,11 @@
 {
   "title": "পিলখানা / বিডিআর বিদ্রোহ আর্কাইভ",
   "note": "ঘটনার সময়কার news updates, aftermath, investigation ও trial coverage trace করার জন্য useful news archive.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "বিডিনিউজ২৪.কম",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "ঘটনার সময়কার news updates, aftermath, investigation ও trial coverage trace করার জন্য useful news archive."
 }

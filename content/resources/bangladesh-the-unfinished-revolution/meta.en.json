@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh: The Unfinished Revolution",
   "note": "A useful secondary source for understanding independence, crisis, and the unfinished nature of the political project.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Lawrence Lifschultz",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A useful secondary source for understanding independence, crisis, and the unfinished nature of the political project."
 }

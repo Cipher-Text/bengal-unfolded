@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh under Mujib, Zia, and Ershad",
   "note": "A wider political history that includes the Ershad era and the democratic crisis leading to 1990.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://openlibrary.org/books/OL639246M/Bangladesh_under_Mujib_Zia_and_Ershad",
   "attribution": "S. R. Chakravarti",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A wider political history that includes the Ershad era and the democratic crisis leading to 1990."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Krishak Praja Party",
   "note": "Reference on peasant politics and A.K. Fazlul Huq's agrarian-political mobilization.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Krishak_Praja_Party",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference on peasant politics and A.K. Fazlul Huq's agrarian-political mobilization."
 }

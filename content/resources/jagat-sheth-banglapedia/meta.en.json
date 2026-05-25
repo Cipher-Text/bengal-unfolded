@@ -1,9 +1,12 @@
 {
   "title": "Jagat Sheth",
   "note": "Entry on the banking house linked to Murshidabad court finance and the political economy surrounding Plassey.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Jagat_Sheth",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Entry on the banking house linked to Murshidabad court finance and the political economy surrounding Plassey."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Partition of British India",
   "note": "আর্কাইভ নথি, ব্রিটিশ প্রশাসনিক দৃষ্টিভঙ্গি এবং মৌখিক সাক্ষ্যকে সামনে এনে দেশভাগ ব্যাখ্যা করা একটি সংক্ষিপ্ত ডকুমেন্টারি-ধর্মী ভিডিও।",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.youtube.com/watch?v=Yb_gq-wZDig",
   "attribution": "দ্য ন্যাশনাল আর্কাইভস ইউকে",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "আর্কাইভ নথি, ব্রিটিশ প্রশাসনিক দৃষ্টিভঙ্গি এবং মৌখিক সাক্ষ্যকে সামনে এনে দেশভাগ ব্যাখ্যা করা একটি সংক্ষিপ্ত ডকুমেন্টারি-ধর্মী ভিডিও।"
 }

@@ -1,9 +1,12 @@
 {
   "title": "Ahmed, Justice Shahabuddin",
   "note": "Useful for understanding the caretaker transfer of power that followed Ershad's fall.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Ahmed%2C_Justice_Shahabuddin",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful for understanding the caretaker transfer of power that followed Ershad's fall."
 }

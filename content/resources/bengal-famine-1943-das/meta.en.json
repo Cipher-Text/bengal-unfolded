@@ -1,9 +1,12 @@
 {
   "title": "Bengal Famine (1943)",
   "note": "Tarakchandra Das's survey-based study of the destitutes in Calcutta during the 1943 Bengal famine.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://books.google.com/books/about/Bengal_Famine_1943.html?id=X6R6twEACAAJ",
   "attribution": "Tarakchandra Das",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Tarakchandra Das's survey-based study of the destitutes in Calcutta during the 1943 Bengal famine."
 }

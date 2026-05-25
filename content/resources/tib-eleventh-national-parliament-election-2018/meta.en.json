@@ -1,8 +1,11 @@
 {
   "title": "The Eleventh National Parliament Election 2018",
   "note": "Structured research review of the election process, commission, administration, law enforcement, parties, and irregularity allegations.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Transparency International Bangladesh",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Structured research review of the election process, commission, administration, law enforcement, parties, and irregularity allegations."
 }

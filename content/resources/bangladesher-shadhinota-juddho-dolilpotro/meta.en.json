@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh Liberation War: Documents",
   "note": "A core document collection for the Liberation War, useful for timelines, claim citations, and evidence-backed writing.",
-  "category": "read",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Hasan Hafizur Rahman",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A core document collection for the Liberation War, useful for timelines, claim citations, and evidence-backed writing."
 }

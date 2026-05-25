@@ -1,9 +1,12 @@
 {
   "title": "Pakistan",
   "note": "Useful background on the 1970 constitutional framework, seat distribution, and election outcome in Pakistan's two wings.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Pakistan",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful background on the 1970 constitutional framework, seat distribution, and election outcome in Pakistan's two wings."
 }

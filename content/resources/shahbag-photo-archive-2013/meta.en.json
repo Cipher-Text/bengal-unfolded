@@ -1,8 +1,11 @@
 {
   "title": "Shahbag Movement Photo Archive, 2013",
   "note": "Photo archive for visual memory of Projonmo Chattar, candles, flags, slogans, posters, and public gatherings.",
-  "category": "explore",
-  "subcategory": "photos",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Photojournalists / newspaper archive",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Photo archive for visual memory of Projonmo Chattar, candles, flags, slogans, posters, and public gatherings."
 }

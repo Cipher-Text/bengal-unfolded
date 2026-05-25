@@ -1,9 +1,12 @@
 {
   "title": "Surya Sen, Mastarda",
   "note": "Banglapedia profile on Surya Sen, including the Chittagong Armoury Raid context and revolutionary network.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Surya_Sen%2C_Mastarda",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia profile on Surya Sen, including the Chittagong Armoury Raid context and revolutionary network."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Chowdhury, Munier",
   "note": "Useful for understanding the literary and intellectual afterlife of the language movement through “Kabar” and later cultural resistance.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Chowdhury%2C_Munier",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful for understanding the literary and intellectual afterlife of the language movement through “Kabar” and later cultural resistance."
 }

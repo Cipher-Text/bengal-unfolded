@@ -1,8 +1,11 @@
 {
   "title": "ডাকসু ও এরশাদবিরোধী ছাত্র আন্দোলন",
   "note": "ঢাকা বিশ্ববিদ্যালয়, ছাত্র সংগ্রাম পরিষদ, ছাত্রনেতৃত্ব ও গণঅভ্যুত্থানে শিক্ষার্থীদের ভূমিকা বোঝার জন্য needed contextual source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "ছাত্র আন্দোলনের ইতিহাস / আর্কাইভ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "ঢাকা বিশ্ববিদ্যালয়, ছাত্র সংগ্রাম পরিষদ, ছাত্রনেতৃত্ব ও গণঅভ্যুত্থানে শিক্ষার্থীদের ভূমিকা বোঝার জন্য needed contextual source."
 }

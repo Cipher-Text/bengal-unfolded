@@ -1,8 +1,11 @@
 {
   "title": "Mutineers on Trial in Bangladesh",
   "note": "International rights-focused source on detention, due process, and human-rights concerns after the mutiny.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Amnesty International",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "International rights-focused source on detention, due process, and human-rights concerns after the mutiny."
 }

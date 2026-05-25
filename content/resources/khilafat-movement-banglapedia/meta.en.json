@@ -1,9 +1,12 @@
 {
   "title": "Khilafat Movement",
   "note": "Reference on Khilafat politics in Bengal and wider South Asia (1919-1924).",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Khilafat_Movement",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference on Khilafat politics in Bengal and wider South Asia (1919-1924)."
 }

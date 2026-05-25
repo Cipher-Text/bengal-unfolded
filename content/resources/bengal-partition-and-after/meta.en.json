@@ -1,8 +1,11 @@
 {
   "title": "Partition, Bengal and After: The Great Tragedy of India",
   "note": "A supplementary source for understanding the social and humanitarian consequences of partition, especially minority experience and the East Pakistan context.",
-  "category": "understand",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Kalidas Nag / related partition account",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A supplementary source for understanding the social and humanitarian consequences of partition, especially minority experience and the East Pakistan context."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Payer Awaj Pawa Jai",
   "note": "Verse play set in the final days of the war, exploring collaborator psychology and collapse.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Syed Shamsul Haq",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Verse play set in the final days of the war, exploring collaborator psychology and collapse."
 }

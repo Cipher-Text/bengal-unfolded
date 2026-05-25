@@ -1,8 +1,11 @@
 {
   "title": "আহমেদ রাজীব হায়দার ও শাহবাগের প্রেক্ষাপট",
   "note": "শাহবাগ-পরবর্তী ব্লগার রাজীব হায়দার হত্যাকাণ্ড, secular blogger debate ও আন্দোলনের নতুন polarisation বোঝার জন্য sensitive archive source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "সংবাদপত্র আর্কাইভ / মানবাধিকার দলিল",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "শাহবাগ-পরবর্তী ব্লগার রাজীব হায়দার হত্যাকাণ্ড, secular blogger debate ও আন্দোলনের নতুন polarisation বোঝার জন্য sensitive archive source."
 }

@@ -1,9 +1,12 @@
 {
   "title": "'Capture & Death of the Shahzadaghs', 1857",
   "note": "Museum catalog record describing the capture of Bahadur Shah Zafar and the subsequent shooting of three Mughal princes after Delhi's fall.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://collection.nam.ac.uk/detail.php?acc=1971-02-33-495-24",
   "attribution": "National Army Museum",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Museum catalog record describing the capture of Bahadur Shah Zafar and the subsequent shooting of three Mughal princes after Delhi's fall."
 }

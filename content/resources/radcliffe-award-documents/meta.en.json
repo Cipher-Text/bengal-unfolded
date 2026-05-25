@@ -1,8 +1,11 @@
 {
   "title": "Radcliffe Award Documents",
   "note": "A primary archive for Bengal boundary drawing, the Radcliffe Line, and district-level division.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Boundary Commission archival records",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A primary archive for Bengal boundary drawing, the Radcliffe Line, and district-level division."
 }

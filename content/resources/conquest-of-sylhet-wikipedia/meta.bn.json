@@ -1,9 +1,12 @@
 {
   "title": "Conquest of Sylhet",
   "note": "Reference summary of the 1303 campaign associated with Shah Jalal and the expansion of Muslim rule in Sylhet.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Conquest_of_Sylhet",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference summary of the 1303 campaign associated with Shah Jalal and the expansion of Muslim rule in Sylhet."
 }

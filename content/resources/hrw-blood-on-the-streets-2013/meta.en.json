@@ -1,9 +1,12 @@
 {
   "title": "Blood on the Streets: The Use of Excessive Force during Bangladesh Protests",
   "note": "Rights-focused source on security-force response during the 2013 protests around the ICT verdict and subsequent mobilisations.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Human Rights Watch",
   "quality": "secondary",
-  "href": "https://www.hrw.org/report/2013/08/01/blood-streets/use-excessive-force-during-bangladesh-protests"
+  "href": "https://www.hrw.org/report/2013/08/01/blood-streets/use-excessive-force-during-bangladesh-protests",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Rights-focused source on security-force response during the 2013 protests around the ICT verdict and subsequent mobilisations."
 }

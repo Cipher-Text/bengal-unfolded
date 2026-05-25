@@ -1,8 +1,11 @@
 {
   "title": "Ekattorer Dinguli (Days of '71)",
   "note": "Iconic diary-style memoir chronicling war-time life, loss, and resistance through a mother's perspective.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Jahanara Imam",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Iconic diary-style memoir chronicling war-time life, loss, and resistance through a mother's perspective."
 }

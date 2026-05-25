@@ -1,8 +1,11 @@
 {
   "title": "1990 Mass Uprising: Newspaper Archive",
   "note": "Archive resource for verifying hartals, processions, emergency coverage, resignation, and transition reporting from October to December 1990.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Newspaper archive",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Archive resource for verifying hartals, processions, emergency coverage, resignation, and transition reporting from October to December 1990."
 }

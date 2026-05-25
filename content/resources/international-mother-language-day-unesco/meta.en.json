@@ -1,9 +1,12 @@
 {
   "title": "International Mother Language Day at UNESCO",
   "note": "A useful modern institutional reference showing the global legacy of 21 February and the continuing significance of linguistic rights.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.unesco.org/en/articles/international-mother-language-day-unesco",
   "attribution": "UNESCO",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A useful modern institutional reference showing the global legacy of 21 February and the continuing significance of linguistic rights."
 }

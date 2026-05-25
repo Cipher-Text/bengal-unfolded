@@ -1,8 +1,11 @@
 {
   "title": "BAKSAL: A Significant Chapter of Bangladesh’s History",
   "note": "Official party perspective that presents BAKSAL as national unity, administrative decentralization, and the second revolution. Read it alongside critical accounts.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Bangladesh Awami League",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Official party perspective that presents BAKSAL as national unity, administrative decentralization, and the second revolution. Read it alongside critical accounts."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Road Transport Act, 2018",
   "note": "Primary legal source for the policy aftermath of the road-safety movement and transport governance.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Government of Bangladesh / Bangladesh Parliament",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Primary legal source for the policy aftermath of the road-safety movement and transport governance."
 }

@@ -1,8 +1,11 @@
 {
   "title": "নেতা ও পিতা",
   "note": "শেখ মুজিবুর রহমানের রাজনৈতিক নেতৃত্ব ও জাতির পিতা বয়ান বোঝার জন্য সহায়ক পাঠ.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Biography study of Sheikh Mujibur Rahman",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "শেখ মুজিবুর রহমানের রাজনৈতিক নেতৃত্ব ও জাতির পিতা বয়ান বোঝার জন্য সহায়ক পাঠ."
 }

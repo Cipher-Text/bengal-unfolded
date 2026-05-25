@@ -1,8 +1,11 @@
 {
   "title": "১৯৯০ গণঅভ্যুত্থান: সংবাদপত্র আর্কাইভ",
   "note": "অক্টোবর–ডিসেম্বর ১৯৯০ এর hartal, procession, emergency, resignation ও transition coverage যাচাইয়ের জন্য archive resource.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "দৈনিক সংবাদপত্র আর্কাইভ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "অক্টোবর–ডিসেম্বর ১৯৯০ এর hartal, procession, emergency, resignation ও transition coverage যাচাইয়ের জন্য archive resource."
 }

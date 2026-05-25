@@ -1,9 +1,12 @@
 {
   "title": "Historic Farakka Long March Day today",
   "note": "Report citing the date (16 May 1976), route (Rajshahi toward Farakka), and Bhashani's leadership of the long march.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.prothomalo.com/bangladesh/historic-farakka-long-march-day-today",
   "attribution": "Prothom Alo / UNB",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Report citing the date (16 May 1976), route (Rajshahi toward Farakka), and Bhashani's leadership of the long march."
 }

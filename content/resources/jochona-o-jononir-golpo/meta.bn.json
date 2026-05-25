@@ -1,8 +1,11 @@
 {
   "title": "জোছনা ও জননীর গল্প",
   "note": "সাধারণ মানুষের জীবন, ইতিহাস ও যুদ্ধের নির্মমতা মিলিয়ে লেখা আধুনিক ক্লাসিক।",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "হুমায়ূন আহমেদ",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "সাধারণ মানুষের জীবন, ইতিহাস ও যুদ্ধের নির্মমতা মিলিয়ে লেখা আধুনিক ক্লাসিক।"
 }

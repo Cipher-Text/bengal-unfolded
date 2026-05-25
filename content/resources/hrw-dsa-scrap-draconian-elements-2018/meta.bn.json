@@ -1,9 +1,12 @@
 {
   "title": "বাংলাদেশ: ডিজিটাল নিরাপত্তা আইনের দমনমূলক উপাদান বাতিল করুন",
   "note": "Digital Security Act প্রণয়নের আগে vague speech offences, surveillance power ও free expression concern বোঝার জন্য rights-focused source.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "হিউম্যান রাইটস ওয়াচ",
   "quality": "secondary",
-  "href": "https://www.hrw.org/news/2018/02/23/bangladesh-scrap-draconian-elements-digital-security-act"
+  "href": "https://www.hrw.org/news/2018/02/23/bangladesh-scrap-draconian-elements-digital-security-act",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Digital Security Act প্রণয়নের আগে vague speech offences, surveillance power ও free expression concern বোঝার জন্য rights-focused source."
 }

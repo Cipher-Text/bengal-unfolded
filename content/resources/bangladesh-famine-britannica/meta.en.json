@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh famine",
   "note": "A concise overview of the 1974 famine and the policy failures that shaped its severity.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Bangladesh-famine",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A concise overview of the 1974 famine and the policy failures that shaped its severity."
 }

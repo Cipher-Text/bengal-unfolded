@@ -1,9 +1,12 @@
 {
   "title": "United Front",
   "note": "Banglapedia overview of the 1954 United Front alliance, its 21-point program, and its landslide victory in East Bengal.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=United_Front",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia overview of the 1954 United Front alliance, its 21-point program, and its landslide victory in East Bengal."
 }

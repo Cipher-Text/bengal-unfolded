@@ -7,41 +7,48 @@ import { getEventContent, getEventMetaForDisplay } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventResource, type EventSlug, type Locale } from "@/types/content";
 
-const CATEGORY_ORDER: EventResource["category"][] = ["read", "watch", "explore", "understand"];
+const CATEGORY_ORDER: EventResource["category"][] = [
+  "primary-sources",
+  "academic-books",
+  "research-articles-and-papers",
+  "reference-sources",
+  "news-and-contemporary-reports",
+  "documentary-and-video",
+  "maps-and-visual-sources",
+  "memoirs-and-eyewitness-accounts",
+  "cultural-and-literary-resources",
+  "further-reading",
+];
 
 const CATEGORY_LABELS = {
-  en: { read: "Read", watch: "Watch", explore: "Explore", understand: "Understand" },
-  bn: { read: "পড়ুন", watch: "দেখুন", explore: "অন্বেষণ", understand: "বোঝুন" },
-} as const;
-
-const SUBCATEGORY_LABELS = {
   en: {
-    "historical-literature": "Historical Literature",
-    novel: "Novel",
-    memoir: "Memoir",
-    movie: "Movie",
-    documentary: "Documentary",
-    drama: "Drama",
-    archive: "Archive",
-    documents: "Documents",
-    photos: "Photos",
-    research: "Research",
-    papers: "Papers",
+    "primary-sources": "Primary Sources",
+    "academic-books": "Academic Books",
+    "research-articles-and-papers": "Academic / Research",
+    "reference-sources": "Reference",
+    "news-and-contemporary-reports": "Editorial / News",
+    "documentary-and-video": "Documentary / Video",
+    "maps-and-visual-sources": "Maps / Archive",
+    "memoirs-and-eyewitness-accounts": "Memoirs and Eyewitness Accounts",
+    "cultural-and-literary-resources": "Cultural and Literary Resources",
+    "further-reading": "Further Reading",
   },
   bn: {
-    "historical-literature": "ঐতিহাসিক সাহিত্য",
-    novel: "উপন্যাস",
-    memoir: "স্মৃতিকথা",
-    movie: "চলচ্চিত্র",
-    documentary: "ডকুমেন্টারি",
-    drama: "নাটক",
-    archive: "আর্কাইভ",
-    documents: "ডকুমেন্টস",
-    photos: "ছবি",
-    research: "গবেষণা",
-    papers: "পেপারস",
+    "primary-sources": "প্রাথমিক সূত্র",
+    "academic-books": "অ্যাকাডেমিক বই",
+    "research-articles-and-papers": "একাডেমিক / গবেষণা",
+    "reference-sources": "রেফারেন্স",
+    "news-and-contemporary-reports": "সম্পাদকীয় / সংবাদ",
+    "documentary-and-video": "ডকুমেন্টারি / ভিডিও",
+    "maps-and-visual-sources": "মানচিত্র / আর্কাইভ",
+    "memoirs-and-eyewitness-accounts": "স্মৃতিকথা ও প্রত্যক্ষদর্শীর বর্ণনা",
+    "cultural-and-literary-resources": "সাংস্কৃতিক ও সাহিত্যিক রিসোর্স",
+    "further-reading": "আরও পড়ুন",
   },
 } as const;
+
+const EVIDENCE_ORDER = { high: 0, medium: 1, low: 2 } as const;
+const SOURCE_QUALITY_ORDER = { primary: 0, archive: 1, academic: 2, reference: 3, secondary: 4, editorial: 5, unknown: 6 } as const;
 
 export function generateStaticParams() {
   return SUPPORTED_LOCALES.flatMap((locale) => SUPPORTED_EVENT_SLUGS.map((slug) => ({ locale, slug })));
@@ -73,6 +80,17 @@ export default async function EventResourceCategoriesPage({ params }: { params: 
       acc[resource.subcategory] = [...(acc[resource.subcategory] ?? []), resource];
       return acc;
     }, {});
+    for (const key of Object.keys(bySubcategory)) {
+      bySubcategory[key] = bySubcategory[key].sort((a, b) => {
+        const aSource = a.sourceQuality ? SOURCE_QUALITY_ORDER[a.sourceQuality] : Number.MAX_SAFE_INTEGER;
+        const bSource = b.sourceQuality ? SOURCE_QUALITY_ORDER[b.sourceQuality] : Number.MAX_SAFE_INTEGER;
+        if (aSource !== bSource) return aSource - bSource;
+        const aEvidence = a.evidenceLevel ? EVIDENCE_ORDER[a.evidenceLevel] : Number.MAX_SAFE_INTEGER;
+        const bEvidence = b.evidenceLevel ? EVIDENCE_ORDER[b.evidenceLevel] : Number.MAX_SAFE_INTEGER;
+        if (aEvidence !== bEvidence) return aEvidence - bEvidence;
+        return a.title.localeCompare(b.title);
+      });
+    }
     return { category, bySubcategory };
   });
 
@@ -93,7 +111,7 @@ export default async function EventResourceCategoriesPage({ params }: { params: 
             <SectionTitle title={CATEGORY_LABELS[locale as Locale][category]} />
             {subcategories.map((subcategory) => (
               <div key={subcategory} className="space-y-3">
-                <h3 className="text-lg font-semibold text-amber-400">{SUBCATEGORY_LABELS[locale as Locale][subcategory as keyof typeof SUBCATEGORY_LABELS.en]}</h3>
+                <h3 className="text-lg font-semibold text-amber-400">{subcategory}</h3>
                 <div className="grid gap-3 md:grid-cols-2">
                   {bySubcategory[subcategory].map((resource) => (
                     <ResourceCard key={resource.id} resource={resource} locale={locale as Locale} />

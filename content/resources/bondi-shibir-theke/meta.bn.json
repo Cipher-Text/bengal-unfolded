@@ -1,8 +1,11 @@
 {
   "title": "বন্দী শিবির থেকে",
   "note": "অধিকৃত ঢাকার দমবন্ধ পরিবেশ, ভয় ও প্রতিরোধের কবিতাময় দলিল।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "শামসুর রাহমান",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "অধিকৃত ঢাকার দমবন্ধ পরিবেশ, ভয় ও প্রতিরোধের কবিতাময় দলিল।"
 }

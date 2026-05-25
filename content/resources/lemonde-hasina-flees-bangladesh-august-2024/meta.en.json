@@ -1,8 +1,11 @@
 {
   "title": "Prime Minister Hasina Forced to Flee Bangladesh by Helicopter",
   "note": "International archive source on the 5 August 2024 resignation/departure and the start of the interim transition.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Le Monde",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "International archive source on the 5 August 2024 resignation/departure and the start of the interim transition."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Zia, Begum Khaleda",
   "note": "এরশাদ শাসনের অবসান ঘটানো জোট-নেতৃত্বাধীন গণঅভ্যুত্থানে খালেদা জিয়ার ভূমিকা বোঝার জন্য একটি রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Zia%2C_Begum_Khaleda",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "এরশাদ শাসনের অবসান ঘটানো জোট-নেতৃত্বাধীন গণঅভ্যুত্থানে খালেদা জিয়ার ভূমিকা বোঝার জন্য একটি রেফারেন্স।"
 }

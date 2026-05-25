@@ -1,9 +1,12 @@
 {
   "title": "Hasina, Sheikh",
   "note": "A useful reference on Sheikh Hasina's role in the anti-Ershad movement and the 1990 alliance politics.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Hasina%2C_Sheikh",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A useful reference on Sheikh Hasina's role in the anti-Ershad movement and the 1990 alliance politics."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh General Election 1991: Election Report",
   "note": "Important institutional source for understanding the parliamentary democracy restoration after the fall of Ershad.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Election Commission Bangladesh / observer reports",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Important institutional source for understanding the parliamentary democracy restoration after the fall of Ershad."
 }

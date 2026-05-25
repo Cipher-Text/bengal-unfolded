@@ -1,8 +1,11 @@
 {
   "title": "জুলাই থেকে বাংলাদেশে সহিংসতায় ১,০০০-এর বেশি নিহত: স্বাস্থ্য মন্ত্রণালয় প্রধান",
   "note": "Interim health ministry estimate, injuries এবং protest violence casualty debate বোঝার জন্য important contemporary news archive.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "রয়টার্স",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Interim health ministry estimate, injuries এবং protest violence casualty debate বোঝার জন্য important contemporary news archive."
 }

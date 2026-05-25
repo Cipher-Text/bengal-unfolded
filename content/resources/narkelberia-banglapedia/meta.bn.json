@@ -1,9 +1,12 @@
 {
   "title": "Narkelberia",
   "note": "নারকেলবেড়িয়া এবং তিতুমীরের বাঁশের কেল্লা অধ্যায় নিয়ে বাংলাপিডিয়ার রেফারেন্সভিত্তিক তথ্য।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Narkelberia",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "নারকেলবেড়িয়া এবং তিতুমীরের বাঁশের কেল্লা অধ্যায় নিয়ে বাংলাপিডিয়ার রেফারেন্সভিত্তিক তথ্য।"
 }

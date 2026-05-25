@@ -1,8 +1,11 @@
 {
   "title": "Archive collection",
   "note": "Documents, images, and primary material.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Public archives",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Documents, images, and primary material."
 }

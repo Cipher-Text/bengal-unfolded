@@ -1,9 +1,12 @@
 {
   "title": "Chittagong Hill Tracts Peace Accord",
   "note": "Overview of the 2 December 1997 accord between the Government of Bangladesh and PCJSS that formally ended the insurgency phase.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Chittagong_Hill_Tracts_Peace_Accord",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Overview of the 2 December 1997 accord between the Government of Bangladesh and PCJSS that formally ended the insurgency phase."
 }

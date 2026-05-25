@@ -1,10 +1,13 @@
 {
   "title": "বাংলাদেশ: অনলাইনে ভিন্নমত স্তব্ধ করা",
   "note": "ডিজিটাল সিকিউরিটি অ্যাক্টের অস্পষ্ট অপরাধধারা, নজরদারি ক্ষমতা এবং সাংবাদিক ও অনলাইন মতপ্রকাশের ওপর ঝুঁকি নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের বিশ্লেষণ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.amnesty.org/en/documents/asa13/9364/2018/en/",
   "attribution": "অ্যামনেস্টি ইন্টারন্যাশনাল",
   "creatorType": "organization",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "ডিজিটাল সিকিউরিটি অ্যাক্টের অস্পষ্ট অপরাধধারা, নজরদারি ক্ষমতা এবং সাংবাদিক ও অনলাইন মতপ্রকাশের ওপর ঝুঁকি নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের বিশ্লেষণ।"
 }

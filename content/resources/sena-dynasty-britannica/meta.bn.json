@@ -1,9 +1,12 @@
 {
   "title": "Sena dynasty",
   "note": "নদীয়া-কেন্দ্রিক শেষ সেন শাসন এবং বখতিয়ার খলজির আক্রমণের পর লক্ষ্মণ সেনের সরে যাওয়ার প্রেক্ষাপটের জন্য Britannica রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Sena-dynasty",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "নদীয়া-কেন্দ্রিক শেষ সেন শাসন এবং বখতিয়ার খলজির আক্রমণের পর লক্ষ্মণ সেনের সরে যাওয়ার প্রেক্ষাপটের জন্য Britannica রেফারেন্স।"
 }

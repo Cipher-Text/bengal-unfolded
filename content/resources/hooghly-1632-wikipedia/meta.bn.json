@@ -1,9 +1,12 @@
 {
   "title": "Mughal Attack on Hooghly (1632)",
   "note": "Reference summary of Shah Jahan-era Mughal assault on Portuguese Hooghly settlement.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Siege_of_Hooghly",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference summary of Shah Jahan-era Mughal assault on Portuguese Hooghly settlement."
 }

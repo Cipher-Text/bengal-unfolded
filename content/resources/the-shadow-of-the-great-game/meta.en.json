@@ -1,8 +1,11 @@
 {
   "title": "The Shadow of the Great Game: The Untold Story of India's Partition",
   "note": "A useful comparison source that explains partition through geopolitics and British strategic interests.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Narendra Singh Sarila",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A useful comparison source that explains partition through geopolitics and British strategic interests."
 }

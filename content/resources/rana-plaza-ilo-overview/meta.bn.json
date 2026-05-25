@@ -1,9 +1,12 @@
 {
   "title": "Rana Plaza and building safety reforms",
   "note": "ILO overview of post-Rana Plaza safety reform architecture.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "International Labour Organization",
   "quality": "secondary",
-  "href": "https://www.ilo.org/global/topics/geip/WCMS_614394/lang--en/index.htm"
+  "href": "https://www.ilo.org/global/topics/geip/WCMS_614394/lang--en/index.htm",
+  "sourceQuality": "archive",
+  "evidenceLevel": "high",
+  "whyItMatters": "ILO overview of post-Rana Plaza safety reform architecture."
 }

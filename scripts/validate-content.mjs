@@ -117,6 +117,18 @@ async function main() {
   const allowedQuality = new Set(["primary", "secondary", "archive", "editorial"]);
   const allowedSourceQuality = new Set(["primary", "secondary", "archive", "academic", "editorial", "reference", "unknown"]);
   const allowedEvidenceLevel = new Set(["high", "medium", "low"]);
+  const allowedResourceCategories = new Set([
+    "primary-sources",
+    "academic-books",
+    "reference-sources",
+    "research-articles-and-papers",
+    "memoirs-and-eyewitness-accounts",
+    "maps-and-visual-sources",
+    "documentary-and-video",
+    "cultural-and-literary-resources",
+    "news-and-contemporary-reports",
+    "further-reading",
+  ]);
   const allowedMapPointRoles = new Set([
     "battlefield",
     "capital",
@@ -815,6 +827,19 @@ async function main() {
       }
       if (!allowedQuality.has(meta.quality)) {
         errors.push(`Invalid quality '${meta.quality}' at content/resources/${resourceId}/meta.${locale}.json`);
+      }
+      if (typeof meta.category !== "string" || !allowedResourceCategories.has(meta.category)) {
+        errors.push(`Invalid category '${meta.category}' at content/resources/${resourceId}/meta.${locale}.json`);
+      }
+      if (typeof meta.subcategory !== "string" || meta.subcategory.trim().length === 0) {
+        errors.push(`Missing or invalid subcategory at content/resources/${resourceId}/meta.${locale}.json`);
+      }
+      if ("href" in meta && meta.href !== undefined) {
+        if (typeof meta.href !== "string" || meta.href.trim().length === 0) {
+          errors.push(`Invalid href at content/resources/${resourceId}/meta.${locale}.json`);
+        } else if (!/^https?:\/\//i.test(meta.href)) {
+          errors.push(`href must be absolute http(s) URL at content/resources/${resourceId}/meta.${locale}.json`);
+        }
       }
       if ("sourceQuality" in meta && meta.sourceQuality !== undefined) {
         if (typeof meta.sourceQuality !== "string" || !allowedSourceQuality.has(meta.sourceQuality)) {

@@ -1,8 +1,11 @@
 {
   "title": "Is the Bangladesh Paradox Sustainable? — Institutional Diagnostic",
   "note": "Modern academic context for the 1975 constitutional amendment, one-party system, and institutional development.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Cambridge University Press",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Modern academic context for the 1975 constitutional amendment, one-party system, and institutional development."
 }

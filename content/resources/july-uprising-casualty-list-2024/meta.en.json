@@ -1,8 +1,11 @@
 {
   "title": "July Uprising 2024 Casualty and Injured List",
   "note": "Sensitive documentation source for killed, injured, eye injuries, children casualties, and casualty-count debates. Verify version/date.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Interim government / health ministry / movement documentation",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Sensitive documentation source for killed, injured, eye injuries, children casualties, and casualty-count debates. Verify version/date."
 }

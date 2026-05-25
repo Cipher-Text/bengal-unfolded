@@ -1,9 +1,12 @@
 {
   "title": "বাংলাদেশে বিডিআর বিদ্রোহ: জাতীয় ও আঞ্চলিক প্রভাব বোঝা",
   "note": "বিদ্রোহের জাতীয় নিরাপত্তা, regional security ও institutional impact বোঝার জন্য policy-analysis source.",
-  "category": "understand",
-  "subcategory": "papers",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "শফকত মুনির, আরইউএসআই",
   "quality": "secondary",
-  "href": "https://www.rusi.org/publication/bdr-mutiny-bangladesh-understanding-national-and-regional-implications"
+  "href": "https://www.rusi.org/publication/bdr-mutiny-bangladesh-understanding-national-and-regional-implications",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "বিদ্রোহের জাতীয় নিরাপত্তা, regional security ও institutional impact বোঝার জন্য policy-analysis source."
 }

@@ -32,8 +32,11 @@
     "huseyn-shaheed-suhrawardy"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "titu-mir-banglapedia",
+    "narkelberia-banglapedia",
+    "role-of-the-fakir-leaders-in-18th-century-bengal",
+    "sannyasi-fakir-rebellion-1770-1800",
+    "faraizi-movement-banglapedia"
   ],
   "faq": [
     {
@@ -61,11 +64,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
       "reason": "Place the topic in long-term chronology."
@@ -74,6 +72,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "titu-mir-banglapedia",
+      "reason": "Recommended source 1 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "narkelberia-banglapedia",
+      "reason": "Recommended source 2 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "role-of-the-fakir-leaders-in-18th-century-bengal",
+      "reason": "Recommended source 3 for this topic"
     }
   ]
 }

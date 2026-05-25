@@ -1,9 +1,12 @@
 {
   "title": "Nana Sahib",
   "note": "নানা সাহেবের জীবন, কানপুরে তার ভূমিকা এবং ১৮৫৭ বিদ্রোহের নেতৃত্ব কাঠামোয় অবস্থান বোঝার জন্য জীবনীমূলক রেফারেন্স।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/biography/Nana-Sahib",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "নানা সাহেবের জীবন, কানপুরে তার ভূমিকা এবং ১৮৫৭ বিদ্রোহের নেতৃত্ব কাঠামোয় অবস্থান বোঝার জন্য জীবনীমূলক রেফারেন্স।"
 }

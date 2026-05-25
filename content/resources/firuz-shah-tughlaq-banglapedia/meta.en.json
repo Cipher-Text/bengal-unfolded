@@ -1,9 +1,12 @@
 {
   "title": "Firuz Shah Tughlaq",
   "note": "Banglapedia reference for Firuz Shah Tughlaq's reign, including Bengal expeditions relevant to 1353-54 and 1359-60.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Firuz_Shah_Tughlaq",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia reference for Firuz Shah Tughlaq's reign, including Bengal expeditions relevant to 1353-54 and 1359-60."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Shariatullah, Haji",
   "note": "Banglapedia biography of Haji Shariatullah, founder of the Faraizi movement.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Shariatullah,_Haji",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia biography of Haji Shariatullah, founder of the Faraizi movement."
 }

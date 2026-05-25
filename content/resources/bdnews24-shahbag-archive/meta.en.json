@@ -1,8 +1,11 @@
 {
   "title": "Shahbag / Gonojagoron Moncho Archive",
   "note": "Useful Bangladeshi news archive for live coverage, activist statements, cyber debate, rallies, and counter-reactions.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "bdnews24.com",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful Bangladeshi news archive for live coverage, activist statements, cyber debate, rallies, and counter-reactions."
 }

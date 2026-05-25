@@ -1,9 +1,12 @@
 {
   "title": "Matin, Abdul",
   "note": "ভাষা মতিনের জীবন ও ভাষা আন্দোলনে তার কেন্দ্রীয় ভূমিকাকে বোঝার জন্য একটি গুরুত্বপূর্ণ জীবনীমূলক উৎস।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Matin%2C_Abdul",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "ভাষা মতিনের জীবন ও ভাষা আন্দোলনে তার কেন্দ্রীয় ভূমিকাকে বোঝার জন্য একটি গুরুত্বপূর্ণ জীবনীমূলক উৎস।"
 }

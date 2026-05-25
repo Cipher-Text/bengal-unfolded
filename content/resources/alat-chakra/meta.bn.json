@@ -1,8 +1,11 @@
 {
   "title": "অলাতচক্র",
   "note": "মুক্তিযুদ্ধকালীন বুদ্ধিজীবী সমাজ, মানসিক সংকট ও রাজনৈতিক বাস্তবতা নিয়ে সাহিত্যিক পাঠ.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Ahmad Sofa",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুক্তিযুদ্ধকালীন বুদ্ধিজীবী সমাজ, মানসিক সংকট ও রাজনৈতিক বাস্তবতা নিয়ে সাহিত্যিক পাঠ."
 }

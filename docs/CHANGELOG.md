@@ -4,6 +4,32 @@
 
 ### Completed
 
+- Resource system revision for historical trust + SEO + linking:
+  - Model:
+    - Upgraded resource taxonomy in `src/types/content.ts` from legacy broad groups to 10 trust/learning categories:
+      - `primary-sources`, `academic-books`, `reference-sources`, `research-articles-and-papers`, `memoirs-and-eyewitness-accounts`, `maps-and-visual-sources`, `documentary-and-video`, `cultural-and-literary-resources`, `news-and-contemporary-reports`, `further-reading`
+    - Made `EventResource.subcategory` string-based to support curated sublabels without repeated type churn.
+  - Validation:
+    - Added hard validation for resource `category` against the 10-category taxonomy.
+    - Added hard validation for non-empty `subcategory`.
+    - Added hard validation that `href` (if present) is absolute `http(s)`.
+  - UI/runtime:
+    - Updated resource card and resource index/event-resource pages to use the revised category labels and ordering.
+    - Event resource pages now sort within category/subcategory by trust precedence (`sourceQuality`, then `evidenceLevel`) so strongest sources appear first.
+    - Content loader now maps legacy category values (`read/watch/explore/understand`) to new taxonomy for backward compatibility.
+  - Backfill:
+    - Normalized all `content/resources/*/meta.en.json` and `meta.bn.json` entries:
+      - category/subcategory normalization
+      - standardized `sourceQuality`
+      - standardized `evidenceLevel`
+      - added/fixed `whyItMatters`
+      - added reverse topic linking via `relatedTopicIds` where topic hubs referenced resource IDs
+      - removed non-absolute `href` values
+    - Curated strong resource sets and resource-based learning-path entries in major topic hubs.
+  - Docs:
+    - Updated `docs/CONTENT_MODEL.md` with 2026 resource taxonomy rules and quality/evidence mapping.
+    - Updated `docs/seo-audit.md` with resource SEO strategy revision.
+
 - Topic hub revision for historical balance + SEO structure:
   - Model/content:
     - Reworked `content/topics/**` into a 17-topic BN/EN hub system with clearer historical sequencing and search-friendly naming.

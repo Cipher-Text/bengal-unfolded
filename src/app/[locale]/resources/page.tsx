@@ -9,21 +9,44 @@ import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale, type ResourceCategory, type SourceQuality } from "@/types/content";
 
 const PAGE_SIZE = 20;
-const CATEGORY_VALUES: ResourceCategory[] = ["read", "watch", "explore", "understand"];
+const CATEGORY_VALUES: ResourceCategory[] = [
+  "primary-sources",
+  "academic-books",
+  "reference-sources",
+  "research-articles-and-papers",
+  "memoirs-and-eyewitness-accounts",
+  "maps-and-visual-sources",
+  "documentary-and-video",
+  "cultural-and-literary-resources",
+  "news-and-contemporary-reports",
+  "further-reading",
+];
 const QUALITY_VALUES: SourceQuality[] = ["primary", "secondary", "archive", "editorial"];
 
 const CATEGORY_LABELS: Record<Locale, Record<ResourceCategory, string>> = {
   en: {
-    read: "Read",
-    watch: "Watch",
-    explore: "Explore",
-    understand: "Understand",
+    "primary-sources": "Primary Sources",
+    "academic-books": "Academic Books",
+    "reference-sources": "Reference Sources",
+    "research-articles-and-papers": "Research Articles and Papers",
+    "memoirs-and-eyewitness-accounts": "Memoirs and Eyewitness Accounts",
+    "maps-and-visual-sources": "Maps and Visual Sources",
+    "documentary-and-video": "Documentary and Video",
+    "cultural-and-literary-resources": "Cultural and Literary Resources",
+    "news-and-contemporary-reports": "News and Contemporary Reports",
+    "further-reading": "Further Reading",
   },
   bn: {
-    read: "পড়ুন",
-    watch: "দেখুন",
-    explore: "অন্বেষণ",
-    understand: "বোঝুন",
+    "primary-sources": "প্রাথমিক সূত্র",
+    "academic-books": "অ্যাকাডেমিক বই",
+    "reference-sources": "রেফারেন্স সূত্র",
+    "research-articles-and-papers": "গবেষণা প্রবন্ধ ও পেপার",
+    "memoirs-and-eyewitness-accounts": "স্মৃতিকথা ও প্রত্যক্ষদর্শীর বর্ণনা",
+    "maps-and-visual-sources": "মানচিত্র ও ভিজ্যুয়াল সূত্র",
+    "documentary-and-video": "ডকুমেন্টারি ও ভিডিও",
+    "cultural-and-literary-resources": "সাংস্কৃতিক ও সাহিত্যিক রিসোর্স",
+    "news-and-contemporary-reports": "সংবাদ ও সমসাময়িক প্রতিবেদন",
+    "further-reading": "আরও পড়ুন",
   },
 };
 
@@ -41,35 +64,6 @@ const QUALITY_LABELS: Record<Locale, Record<SourceQuality, string>> = {
     editorial: "সম্পাদকীয়",
   },
 };
-
-const SUBCATEGORY_LABELS = {
-  en: {
-    "historical-literature": "Historical Literature",
-    novel: "Novel",
-    memoir: "Memoir",
-    movie: "Movie",
-    documentary: "Documentary",
-    drama: "Drama",
-    archive: "Archive",
-    documents: "Documents",
-    photos: "Photos",
-    research: "Research",
-    papers: "Papers",
-  },
-  bn: {
-    "historical-literature": "ঐতিহাসিক সাহিত্য",
-    novel: "উপন্যাস",
-    memoir: "স্মৃতিকথা",
-    movie: "চলচ্চিত্র",
-    documentary: "ডকুমেন্টারি",
-    drama: "নাটক",
-    archive: "আর্কাইভ",
-    documents: "ডকুমেন্টস",
-    photos: "ছবি",
-    research: "গবেষণা",
-    papers: "পেপারস",
-  },
-} as const;
 
 function normalize(v: string): string {
   return v.trim().toLowerCase();
@@ -118,8 +112,8 @@ export async function generateMetadata({
     locale: locale as Locale,
     title: isBn ? "রিসোর্স ডিরেক্টরি | Bengal Unfolded" : "Resource Directory | Bengal Unfolded",
     description: isBn
-      ? "রিড, ভিডিও, অন্বেষণ ও গবেষণা রিসোর্স সার্চ ও ফিল্টার দিয়ে দেখুন।"
-      : "Explore read, watch, understand, and archive resources with search and filters.",
+      ? "প্রাথমিক সূত্র, বই, গবেষণা, মানচিত্র, ভিডিও ও রেফারেন্স রিসোর্স সার্চ ও ফিল্টার করে দেখুন।"
+      : "Explore primary sources, books, research, maps, video, and reference resources with search and filters.",
     canonicalPath: `/${locale}/resources`,
     languagePathWithoutLocale: "/resources",
     type: "website",
@@ -147,9 +141,7 @@ export default async function ResourcesIndexPage({
 
   const categoryOptions = uniqueValues(allResources.map((resource) => resource.category));
   const subcategoryOptions = uniqueValues(allResources.map((resource) => resource.subcategory)).sort((a, b) => {
-    const labelA = SUBCATEGORY_LABELS[locale as Locale][a as keyof typeof SUBCATEGORY_LABELS.en];
-    const labelB = SUBCATEGORY_LABELS[locale as Locale][b as keyof typeof SUBCATEGORY_LABELS.en];
-    return labelA.localeCompare(labelB);
+    return a.localeCompare(b);
   });
   const qualityOptions = uniqueValues(allResources.flatMap((resource) => (resource.quality ? [resource.quality] : []))).sort();
 
@@ -191,8 +183,8 @@ export default async function ResourcesIndexPage({
   const title = isBn ? "রিসোর্স ডিরেক্টরি" : "Resource Directory";
   const tagline = isBn ? "সার্চ ও ফিল্টারসহ সম্পূর্ণ রিসোর্স তালিকা" : "Complete resource list with search and filters";
   const intro = isBn
-    ? "রিড, ভিডিও, অন্বেষণ, এবং গবেষণা রিসোর্সগুলো বিভাগ, উপবিভাগ, এবং মানভিত্তিকভাবে সাজানো।"
-    : "Browse read, watch, explore, and understand resources organized by category, subcategory, and quality.";
+    ? "ইতিহাস শেখার উপযোগী বিভাগ, উপবিভাগ এবং সূত্র-মান অনুযায়ী সাজানো কিউরেটেড রিসোর্সসমূহ দেখুন।"
+    : "Browse curated resources organized by learning-focused category, subcategory, and source quality.";
 
   return (
     <div className="space-y-8">
@@ -222,7 +214,7 @@ export default async function ResourcesIndexPage({
             <option value="">{isBn ? "সব উপবিভাগ" : "All subcategories"}</option>
             {subcategoryOptions.map((value) => (
               <option key={value} value={value}>
-                {SUBCATEGORY_LABELS[locale as Locale][value as keyof typeof SUBCATEGORY_LABELS.en]}
+                {value}
               </option>
             ))}
           </select>

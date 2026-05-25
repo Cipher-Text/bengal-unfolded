@@ -1,9 +1,12 @@
 {
   "title": "Mughal Conquest of Chittagong",
   "note": "Reference summary on the 1665-1666 Mughal campaign ending Arakanese control over Chittagong.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Mughal_conquest_of_Chittagong",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference summary on the 1665-1666 Mughal campaign ending Arakanese control over Chittagong."
 }

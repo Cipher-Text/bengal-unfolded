@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশ: ফ্রিডম ইন দ্য ওয়ার্ল্ড ২০১৮",
   "note": "২০১৮ সালের political rights, civil liberties, enforced disappearance, opposition pressure ও democratic backsliding context বোঝার জন্য background source.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "ফ্রিডম হাউস",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "২০১৮ সালের political rights, civil liberties, enforced disappearance, opposition pressure ও democratic backsliding context বোঝার জন্য background source."
 }

@@ -1,9 +1,12 @@
 {
   "title": "ডাইরেক্ট অ্যাকশন ডে",
   "note": "১৬ আগস্ট ১৯৪৬-এর কর্মসূচি, ক্যালকাটার দাঙ্গা এবং দেশভাগ-পূর্ব রাজনীতিতে এর গুরুত্বের একটি সংক্ষিপ্ত সারাংশ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/event/Direct-Action-Day-India-1946",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৬ আগস্ট ১৯৪৬-এর কর্মসূচি, ক্যালকাটার দাঙ্গা এবং দেশভাগ-পূর্ব রাজনীতিতে এর গুরুত্বের একটি সংক্ষিপ্ত সারাংশ।"
 }

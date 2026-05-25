@@ -1,8 +1,11 @@
 {
   "title": "পার্টিশন, বেঙ্গল অ্যান্ড আফটার: দ্য গ্রেট ট্র্যাজেডি অফ ইন্ডিয়া",
   "note": "দেশভাগের সামাজিক ও মানবিক অভিঘাত, বিশেষত minority experience ও East Pakistan context বোঝার জন্য supplementary source; critical reading দরকার.",
-  "category": "understand",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "কালিদাস নাগ / সংশ্লিষ্ট দেশভাগ বিবরণ",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "দেশভাগের সামাজিক ও মানবিক অভিঘাত, বিশেষত minority experience ও East Pakistan context বোঝার জন্য supplementary source; critical reading দরকার."
 }

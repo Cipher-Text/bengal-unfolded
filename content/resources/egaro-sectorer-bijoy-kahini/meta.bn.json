@@ -1,8 +1,11 @@
 {
   "title": "এগারোটি সেক্টরের বিজয় কাহিনী",
   "note": "মুক্তিযুদ্ধের সেক্টরভিত্তিক সামরিক কাঠামো ও বিজয়ের ধারাবাহিকতা বোঝার জন্য সহায়ক.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Sector-based Liberation War account",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "মুক্তিযুদ্ধের সেক্টরভিত্তিক সামরিক কাঠামো ও বিজয়ের ধারাবাহিকতা বোঝার জন্য সহায়ক."
 }

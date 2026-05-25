@@ -1,9 +1,12 @@
 {
   "title": "The Rana Plaza Arrangement",
   "note": "Compensation and claims mechanism documentation after the collapse.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "ILO / Rana Plaza Coordination Committee",
   "quality": "archive",
-  "href": "https://ranaplaza-arrangement.org/"
+  "href": "https://ranaplaza-arrangement.org/",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Compensation and claims mechanism documentation after the collapse."
 }

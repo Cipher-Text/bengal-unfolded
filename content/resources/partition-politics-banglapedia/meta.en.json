@@ -1,9 +1,12 @@
 {
   "title": "Partition Politics",
   "note": "A Bengal-centered reference entry on the politics, contradictions, and communal dynamics that produced partition.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Partition_Politics",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A Bengal-centered reference entry on the politics, contradictions, and communal dynamics that produced partition."
 }

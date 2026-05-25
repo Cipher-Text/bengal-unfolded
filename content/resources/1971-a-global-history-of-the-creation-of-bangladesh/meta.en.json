@@ -1,8 +1,11 @@
 {
   "title": "1971: A Global History of the Creation of Bangladesh",
   "note": "Global perspective on the war across India, Pakistan, the U.S., USSR, and China.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Srinath Raghavan",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Global perspective on the war across India, Pakistan, the U.S., USSR, and China."
 }

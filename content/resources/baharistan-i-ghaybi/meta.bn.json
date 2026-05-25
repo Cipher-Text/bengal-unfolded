@@ -1,9 +1,12 @@
 {
   "title": "Baharistan-i-Ghaybi",
   "note": "জাহাঙ্গীরের আমলে বাংলা, আসাম, ও পার্শ্ববর্তী অঞ্চলের ওপর মির্জা নাথনের প্রত্যক্ষদর্শী ক্রনিকল।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Baharistan-i-Ghaibi",
   "attribution": "মির্জা নাথন",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "জাহাঙ্গীরের আমলে বাংলা, আসাম, ও পার্শ্ববর্তী অঞ্চলের ওপর মির্জা নাথনের প্রত্যক্ষদর্শী ক্রনিকল।"
 }

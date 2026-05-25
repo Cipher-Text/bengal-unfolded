@@ -1,9 +1,12 @@
 {
   "title": "Shaista Khan",
   "note": "Banglapedia profile covering Shaista Khan's Bengal administration and reforms.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Shaista_Khan",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia profile covering Shaista Khan's Bengal administration and reforms."
 }

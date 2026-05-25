@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশ রাইফেলস বিদ্রোহ",
   "note": "দ্রুত timeline overview, casualty summary, trial overview ও related references দেখার জন্য starting point; final citation হিসেবে court/report source দিয়ে cross-check করা উচিত.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "উইকিপিডিয়া সম্পাদকবৃন্দ",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "দ্রুত timeline overview, casualty summary, trial overview ও related references দেখার জন্য starting point; final citation হিসেবে court/report source দিয়ে cross-check করা উচিত."
 }

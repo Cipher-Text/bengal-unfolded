@@ -1,9 +1,12 @@
 {
   "title": "Murshidabad",
   "note": "মুর্শিদাবাদে রাজধানী স্থানান্তর ও শহরটির ঐতিহাসিক গুরুত্ব নিয়ে Britannica-র সংক্ষিপ্ত রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/place/Murshidabad",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুর্শিদাবাদে রাজধানী স্থানান্তর ও শহরটির ঐতিহাসিক গুরুত্ব নিয়ে Britannica-র সংক্ষিপ্ত রেফারেন্স।"
 }

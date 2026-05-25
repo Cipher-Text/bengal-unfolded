@@ -1,8 +1,11 @@
 {
   "title": "The Constitution (Thirteenth Amendment) Act, 1996",
   "note": "Core legal source for the neutral caretaker system that formed the constitutional background of the 2006 crisis.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Government of Bangladesh / Bangladesh Parliament",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Core legal source for the neutral caretaker system that formed the constitutional background of the 2006 crisis."
 }

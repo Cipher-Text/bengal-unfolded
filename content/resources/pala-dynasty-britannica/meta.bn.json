@@ -1,9 +1,12 @@
 {
   "title": "Pala dynasty",
   "note": "মধ্য অষ্টম শতকে পাল রাজবংশের উত্থান এবং বাংলা-কেন্দ্রিক তাদের রাজনৈতিক ও বৌদ্ধ পৃষ্ঠপোষকতার জন্য Britannica রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Pala-dynasty",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মধ্য অষ্টম শতকে পাল রাজবংশের উত্থান এবং বাংলা-কেন্দ্রিক তাদের রাজনৈতিক ও বৌদ্ধ পৃষ্ঠপোষকতার জন্য Britannica রেফারেন্স।"
 }

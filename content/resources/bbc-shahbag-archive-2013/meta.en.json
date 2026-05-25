@@ -1,8 +1,11 @@
 {
   "title": "Shahbag Movement 2013: BBC News / BBC Bangla Archive",
   "note": "Useful archive for breaking coverage, nationwide spread, political reactions, and international framing.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "BBC News / BBC Bangla",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful archive for breaking coverage, nationwide spread, political reactions, and international framing."
 }

@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশে যুদ্ধাপরাধবিরোধী আন্দোলনে হাজারো মানুষ",
   "note": "শাহবাগ আন্দোলনের early international news coverage; external reporting perspective বোঝার জন্য useful archive.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "আল জাজিরা ইংলিশ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "শাহবাগ আন্দোলনের early international news coverage; external reporting perspective বোঝার জন্য useful archive."
 }

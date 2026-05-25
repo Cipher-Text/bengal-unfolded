@@ -1,8 +1,11 @@
 {
   "title": "১৯৭১: ভেতরে বাইরে",
   "note": "মুক্তিযুদ্ধের অভ্যন্তরীণ অভিজ্ঞতা ও সামরিক-রাজনৈতিক পর্যবেক্ষণের স্মৃতিকথা.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "A. K. Khondker",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুক্তিযুদ্ধের অভ্যন্তরীণ অভিজ্ঞতা ও সামরিক-রাজনৈতিক পর্যবেক্ষণের স্মৃতিকথা."
 }

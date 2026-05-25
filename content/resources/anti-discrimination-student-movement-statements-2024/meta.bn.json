@@ -1,8 +1,11 @@
 {
   "title": "বৈষম্যবিরোধী ছাত্র আন্দোলনের দাবি, কর্মসূচি ও বিবৃতি, ২০২৪",
   "note": "আন্দোলনের self-description, quota reform দাবি, Bangla Blockade, March for Justice, অসহযোগ/এক দফা এবং সংগঠক-নেতৃত্ব বোঝার জন্য primary movement source.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "বৈষম্যবিরোধী ছাত্র আন্দোলন / স্টুডেন্টস এগেইনস্ট ডিসক্রিমিনেশন",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "আন্দোলনের self-description, quota reform দাবি, Bangla Blockade, March for Justice, অসহযোগ/এক দফা এবং সংগঠক-নেতৃত্ব বোঝার জন্য primary movement source."
 }

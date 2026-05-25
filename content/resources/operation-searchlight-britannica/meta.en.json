@@ -1,9 +1,12 @@
 {
   "title": "What was Operation Searchlight?",
   "note": "Britannica explainer on Operation Searchlight and its role in 1971.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Encyclopaedia Britannica",
   "quality": "secondary",
-  "href": "https://www.britannica.com/question/What-was-Operation-Searchlight"
+  "href": "https://www.britannica.com/question/What-was-Operation-Searchlight",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Britannica explainer on Operation Searchlight and its role in 1971."
 }

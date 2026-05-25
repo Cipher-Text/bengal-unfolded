@@ -1,9 +1,12 @@
 {
   "title": "Narkelberia",
   "note": "Banglapedia reference on Narkelberia and the bamboo fort episode connected to Titumir's uprising.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Narkelberia",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia reference on Narkelberia and the bamboo fort episode connected to Titumir's uprising."
 }

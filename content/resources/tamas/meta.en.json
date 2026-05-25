@@ -1,8 +1,11 @@
 {
   "title": "Tamas",
   "note": "An important novel on partition-era communal violence and subcontinental partition memory.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Bhisham Sahni",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "An important novel on partition-era communal violence and subcontinental partition memory."
 }

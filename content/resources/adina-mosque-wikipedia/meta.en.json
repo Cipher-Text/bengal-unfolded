@@ -1,9 +1,12 @@
 {
   "title": "Adina Mosque",
   "note": "Reference for one of the major architectural expressions of the Bengal Sultanate period.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Adina_Mosque",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference for one of the major architectural expressions of the Bengal Sultanate period."
 }

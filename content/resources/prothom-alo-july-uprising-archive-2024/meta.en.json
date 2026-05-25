@@ -1,8 +1,11 @@
 {
   "title": "Anti-Discrimination Movement / July Uprising: Prothom Alo Archive",
   "note": "Bangla news archive for local timeline, casualties, campus events, internet shutdown, arrests, 5 August transition, and aftermath.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Prothom Alo",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Bangla news archive for local timeline, casualties, campus events, internet shutdown, arrests, 5 August transition, and aftermath."
 }

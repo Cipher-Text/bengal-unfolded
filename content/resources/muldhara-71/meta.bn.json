@@ -1,8 +1,11 @@
 {
   "title": "মূলধারা '৭১",
   "note": "তাজউদ্দীন আহমদের নেতৃত্বাধীন অস্থায়ী সরকারের রাজনৈতিক ও কূটনৈতিক কৌশলের অন্তর্দৃষ্টিমূলক বিবরণ।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "মঈদুল হাসান",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "তাজউদ্দীন আহমদের নেতৃত্বাধীন অস্থায়ী সরকারের রাজনৈতিক ও কূটনৈতিক কৌশলের অন্তর্দৃষ্টিমূলক বিবরণ।"
 }

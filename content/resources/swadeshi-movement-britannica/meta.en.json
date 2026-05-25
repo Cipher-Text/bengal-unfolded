@@ -1,9 +1,12 @@
 {
   "title": "Swadeshi movement",
   "note": "A concise overview of the anti-partition boycott and nationalist mobilization associated with Swadeshi politics.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Swadeshi-movement",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A concise overview of the anti-partition boycott and nationalist mobilization associated with Swadeshi politics."
 }

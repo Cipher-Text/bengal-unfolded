@@ -1,10 +1,13 @@
 {
   "title": "তত্ত্বাবধায়ক সরকার",
   "note": "বাংলাদেশের তত্ত্বাবধায়ক কাঠামো, ২০০৬-২০০৮ সংকট এবং জরুরি অবস্থাকালীন রাজনৈতিক রূপান্তর বোঝার গুরুত্বপূর্ণ রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "quality": "secondary",
   "href": "https://en.banglapedia.org/index.php/Caretaker_Government",
   "attribution": "বাংলাপিডিয়া",
-  "creatorType": "organization"
+  "creatorType": "organization",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "বাংলাদেশের তত্ত্বাবধায়ক কাঠামো, ২০০৬-২০০৮ সংকট এবং জরুরি অবস্থাকালীন রাজনৈতিক রূপান্তর বোঝার গুরুত্বপূর্ণ রেফারেন্স।"
 }

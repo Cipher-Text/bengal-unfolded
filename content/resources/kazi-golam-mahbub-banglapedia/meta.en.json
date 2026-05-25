@@ -1,9 +1,12 @@
 {
   "title": "Mahbub, Kazi Golam",
   "note": "Biographical context on the convener of the All-Party State Language Action Committee.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Mahbub%2C_Kazi_Golam",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Biographical context on the convener of the All-Party State Language Action Committee."
 }

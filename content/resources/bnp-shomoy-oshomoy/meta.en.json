@@ -1,8 +1,11 @@
 {
   "title": "BNP: In Time and Out of Time",
   "note": "A useful source on the rise of the BNP, post-1975 politics, and later political continuity.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "BNP history research",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A useful source on the rise of the BNP, post-1975 politics, and later political continuity."
 }

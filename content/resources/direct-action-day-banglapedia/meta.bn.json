@@ -1,9 +1,12 @@
 {
   "title": "ডাইরেক্ট অ্যাকশন ডে",
   "note": "১৬ আগস্ট ১৯৪৬-এর হরতাল, ক্যালকাটার সহিংসতা এবং দেশভাগের পথে তার ভূমিকা বোঝার জন্য বাংলা-কেন্দ্রিক রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Direct_Action_Day",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৬ আগস্ট ১৯৪৬-এর হরতাল, ক্যালকাটার সহিংসতা এবং দেশভাগের পথে তার ভূমিকা বোঝার জন্য বাংলা-কেন্দ্রিক রেফারেন্স।"
 }

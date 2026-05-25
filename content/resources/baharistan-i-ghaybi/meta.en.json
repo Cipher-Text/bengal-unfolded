@@ -1,9 +1,12 @@
 {
   "title": "Baharistan-i-Ghaybi",
   "note": "Mirza Nathan’s eyewitness chronicle of Bengal, Assam, and neighboring regions under Jahangir.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Baharistan-i-Ghaibi",
   "attribution": "Mirza Nathan",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Mirza Nathan’s eyewitness chronicle of Bengal, Assam, and neighboring regions under Jahangir."
 }

@@ -1,8 +1,11 @@
 {
   "title": "DUCSU and the Anti-Ershad Student Movement",
   "note": "Contextual archive on DUCSU, the student front, and the role of students in the mass uprising.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Student movement history / archive",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Contextual archive on DUCSU, the student front, and the role of students in the mass uprising."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Those Turbulent Days of the Sundarbans in the Liberation War",
   "note": "A valuable regional memory source for understanding local resistance in the Sundarbans.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Sundarbans Liberation War memory collection",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A valuable regional memory source for understanding local resistance in the Sundarbans."
 }

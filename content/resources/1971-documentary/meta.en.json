@@ -1,9 +1,12 @@
 {
   "title": "1971",
   "note": "A mega-documentary on the Bangladesh Liberation War, valuable as a broad visual archive of the year 1971.",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.imdb.com/title/tt6461678/",
   "attribution": "Tanvir Mokammel",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A mega-documentary on the Bangladesh Liberation War, valuable as a broad visual archive of the year 1971."
 }

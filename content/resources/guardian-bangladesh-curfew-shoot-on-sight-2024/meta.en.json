@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh Police Given “Shoot-on-Sight” Orders amid National Curfew",
   "note": "International news archive on the curfew, communications blackout, and the escalation of the protests into wider unrest.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "The Guardian",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "International news archive on the curfew, communications blackout, and the escalation of the protests into wider unrest."
 }

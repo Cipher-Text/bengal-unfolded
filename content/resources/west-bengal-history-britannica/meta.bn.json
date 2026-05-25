@@ -1,9 +1,12 @@
 {
   "title": "West Bengal - History",
   "note": "মধ্যযুগীয় বাংলা ও আঞ্চলিক রাষ্ট্রগঠনের পটভূমি বোঝাতে ব্যবহৃত Britannica-র ঐতিহাসিক সারসংক্ষেপ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/place/West-Bengal/History",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মধ্যযুগীয় বাংলা ও আঞ্চলিক রাষ্ট্রগঠনের পটভূমি বোঝাতে ব্যবহৃত Britannica-র ঐতিহাসিক সারসংক্ষেপ।"
 }

@@ -1,9 +1,12 @@
 {
   "title": "Famine",
   "note": "Includes a Bangladesh-centered account of the 1974 famine, its causes, mortality debates, and social effects.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Famine",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Includes a Bangladesh-centered account of the 1974 famine, its causes, mortality debates, and social effects."
 }

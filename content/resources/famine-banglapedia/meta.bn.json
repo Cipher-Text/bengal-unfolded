@@ -1,9 +1,12 @@
 {
   "title": "দুর্ভিক্ষ",
   "note": "চুয়াত্তরের দুর্ভিক্ষের কারণ, মৃত্যুসংখ্যা নিয়ে বিতর্ক, এবং সামাজিক অভিঘাত বোঝার জন্য বাংলাদেশ-কেন্দ্রিক রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Famine",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "চুয়াত্তরের দুর্ভিক্ষের কারণ, মৃত্যুসংখ্যা নিয়ে বিতর্ক, এবং সামাজিক অভিঘাত বোঝার জন্য বাংলাদেশ-কেন্দ্রিক রেফারেন্স।"
 }

@@ -1,8 +1,11 @@
 {
   "title": "Pilkhana Tragedy: Families’ Memories and Testimonies",
   "note": "Sensitive memory source on the families of the killed officers, grief, justice demands, and public memory.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Families, memory collection, and newspaper archive",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Sensitive memory source on the families of the killed officers, grief, justice demands, and public memory."
 }

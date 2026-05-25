@@ -1,8 +1,11 @@
 {
   "title": "বাকশাল নিয়ে দীর্ঘ নীরবতা ভাঙা",
   "note": "বাকশাল এবং সমকালীন বাংলাদেশি public debate-এ এর অবস্থান নিয়ে Dhaka Tribune-এর editorial আলোচনা। factual claim-এর জন্য সতর্কতা প্রয়োজন.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "ঢাকা ট্রিবিউন",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "বাকশাল এবং সমকালীন বাংলাদেশি public debate-এ এর অবস্থান নিয়ে Dhaka Tribune-এর editorial আলোচনা। factual claim-এর জন্য সতর্কতা প্রয়োজন."
 }

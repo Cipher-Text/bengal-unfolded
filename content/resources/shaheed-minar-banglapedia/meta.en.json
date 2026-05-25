@@ -1,9 +1,12 @@
 {
   "title": "Shaheed Minar",
   "note": "Useful for understanding how the memory of 1952 was transformed into a permanent monument and political symbol.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Shaheed_Minar",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful for understanding how the memory of 1952 was transformed into a permanent monument and political symbol."
 }

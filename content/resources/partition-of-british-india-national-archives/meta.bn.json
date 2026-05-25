@@ -1,9 +1,12 @@
 {
   "title": "Partition of British India",
   "note": "আর্কাইভ নথি, মৌখিক সাক্ষ্য এবং ঐতিহাসিক ব্যাখ্যাসহ দেশভাগ বোঝার জন্য একটি সরকারি শিক্ষামূলক রিসোর্স।",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.nationalarchives.gov.uk/education/resources/partition-of-british-india/",
   "attribution": "দ্য ন্যাশনাল আর্কাইভস (যুক্তরাজ্য)",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "আর্কাইভ নথি, মৌখিক সাক্ষ্য এবং ঐতিহাসিক ব্যাখ্যাসহ দেশভাগ বোঝার জন্য একটি সরকারি শিক্ষামূলক রিসোর্স।"
 }

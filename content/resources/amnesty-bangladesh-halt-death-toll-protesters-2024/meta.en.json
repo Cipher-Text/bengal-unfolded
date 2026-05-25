@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh: Government Must Urgently Halt Mounting Death Toll of Protesters",
   "note": "Early warning source on rising deaths, protest repression, and the urgent need to stop violence.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Amnesty International",
   "quality": "secondary",
-  "href": "https://amnesty.ca/human-rights-news/bangladesh-halt-mounting-death-toll-protestors/"
+  "href": "https://amnesty.ca/human-rights-news/bangladesh-halt-mounting-death-toll-protestors/",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Early warning source on rising deaths, protest repression, and the urgent need to stop violence."
 }

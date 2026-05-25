@@ -1,9 +1,12 @@
 {
   "title": "Barak Language Movement (19 May 1961)",
   "note": "A documentary explainer on the 1961 Barak language movement in Assam; useful for comparative Bengali-language struggles beyond East Pakistan.",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.youtube.com/watch?v=XoGgPJZ3-n4",
   "attribution": "YouTube documentary/explainer",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A documentary explainer on the 1961 Barak language movement in Assam; useful for comparative Bengali-language struggles beyond East Pakistan."
 }

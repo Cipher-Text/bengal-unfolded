@@ -1,8 +1,11 @@
 {
   "title": "Days of the Liberation War in Exile",
   "note": "A useful memoir for understanding organization, public opinion, and advocacy in the diaspora.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Diaspora Liberation War memory collection",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A useful memoir for understanding organization, public opinion, and advocacy in the diaspora."
 }

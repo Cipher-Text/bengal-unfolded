@@ -203,6 +203,16 @@ function normalizeEventResource(
     typeof resource.whyItMatters === "string" ? resource.whyItMatters : undefined;
 
   if (category && subcategory) {
+    const normalizedCategory =
+      category === "read"
+        ? "academic-books"
+        : category === "watch"
+          ? "documentary-and-video"
+          : category === "explore"
+            ? "maps-and-visual-sources"
+            : category === "understand"
+              ? "reference-sources"
+              : category;
     return {
       id: resourceId,
       title,
@@ -214,7 +224,7 @@ function normalizeEventResource(
       sourceQuality,
       evidenceLevel,
       href,
-      category: category as EventResource["category"],
+      category: normalizedCategory as EventResource["category"],
       subcategory: subcategory as EventResource["subcategory"],
       relatedEventIds,
       relatedFigureIds,
@@ -235,8 +245,8 @@ function normalizeEventResource(
       sourceQuality,
       evidenceLevel,
       href,
-      category: "read",
-      subcategory: "historical-literature",
+      category: "academic-books",
+      subcategory: "Book",
       relatedEventIds,
       relatedFigureIds,
       relatedTopicIds,
@@ -255,8 +265,8 @@ function normalizeEventResource(
       sourceQuality,
       evidenceLevel,
       href,
-      category: "understand",
-      subcategory: "research",
+      category: "research-articles-and-papers",
+      subcategory: "Research Article",
       relatedEventIds,
       relatedFigureIds,
       relatedTopicIds,
@@ -274,8 +284,8 @@ function normalizeEventResource(
     sourceQuality,
     evidenceLevel,
     href,
-    category: "explore",
-    subcategory: "archive",
+    category: "further-reading",
+    subcategory: "General",
     relatedEventIds,
     relatedFigureIds,
     relatedTopicIds,

@@ -1,9 +1,12 @@
 {
   "title": "Battle of Rajmahal",
   "note": "১৫৭৬ সালের ১২ জুলাইয়ের রাজমহল যুদ্ধ ও দাউদ খান কররানির পরাজয় নিয়ে রেফারেন্সভিত্তিক সারসংক্ষেপ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Battle_of_Rajmahal",
   "attribution": "উইকিপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৫৭৬ সালের ১২ জুলাইয়ের রাজমহল যুদ্ধ ও দাউদ খান কররানির পরাজয় নিয়ে রেফারেন্সভিত্তিক সারসংক্ষেপ।"
 }

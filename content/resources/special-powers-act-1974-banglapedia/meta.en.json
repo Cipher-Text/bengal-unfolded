@@ -1,9 +1,12 @@
 {
   "title": "Special Powers Act, 1974",
   "note": "A reference on the preventive detention law that marked a major expansion of coercive state authority in 1974.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Special_Powers_Act%2C_1974",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A reference on the preventive detention law that marked a major expansion of coercive state authority in 1974."
 }

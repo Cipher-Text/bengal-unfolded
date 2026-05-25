@@ -1,8 +1,11 @@
 {
   "title": "আবদুল কাদের মোল্লার আপিল রায়, ২০১৩",
   "note": "ICT রায়ের appeal, death sentence এবং judicial reasoning বোঝার জন্য primary judicial document.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "বাংলাদেশ সুপ্রিম কোর্ট / আপিল বিভাগ",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "ICT রায়ের appeal, death sentence এবং judicial reasoning বোঝার জন্য primary judicial document."
 }

@@ -1,9 +1,12 @@
 {
   "title": "The Great Partition: The Making of India and Pakistan",
   "note": "A clear historical overview of how British withdrawal, elite negotiation, and mass violence produced partition in 1947.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://yalebooks.yale.edu/book/9780300233643/the-great-partition/",
   "attribution": "Yasmin Khan",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A clear historical overview of how British withdrawal, elite negotiation, and mass violence produced partition in 1947."
 }

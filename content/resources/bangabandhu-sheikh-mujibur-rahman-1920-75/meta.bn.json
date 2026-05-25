@@ -1,8 +1,11 @@
 {
   "title": "বঙ্গবন্ধু শেখ মুজিবুর রহমান (১৯২০–৭৫)",
   "note": "শেখ মুজিবের রাজনৈতিক জীবন, একদলীয় ব্যবস্থা এবং ১৯৭৫ সালের হত্যাকাণ্ডের প্রেক্ষাপট নিয়ে biographical-academic reading.",
-  "category": "understand",
-  "subcategory": "papers",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "হাসান রশিদ / সাউথ এশিয়া ইনস্টিটিউট পেপার",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "শেখ মুজিবের রাজনৈতিক জীবন, একদলীয় ব্যবস্থা এবং ১৯৭৫ সালের হত্যাকাণ্ডের প্রেক্ষাপট নিয়ে biographical-academic reading."
 }

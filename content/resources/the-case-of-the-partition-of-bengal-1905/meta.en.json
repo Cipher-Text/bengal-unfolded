@@ -1,9 +1,12 @@
 {
   "title": "The Case of the Partition of Bengal 1905",
   "note": "Strong for the political background of the 1905 partition and the immediate reactions to the reorganization.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.jstor.org/stable/3520087",
   "attribution": "A. B. Ray",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Strong for the political background of the 1905 partition and the immediate reactions to the reorganization."
 }

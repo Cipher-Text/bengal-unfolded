@@ -32,8 +32,11 @@
     "huseyn-shaheed-suhrawardy"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "lahore-resolution-banglapedia",
+    "the-bengal-muslims-1871-1906",
+    "the-making-of-pakistan",
+    "awami-league-utthan-porbo-1948-1970",
+    "bengal-provincial-election-1937-banglapedia"
   ],
   "faq": [
     {
@@ -61,11 +64,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
       "reason": "Place the topic in long-term chronology."
@@ -74,6 +72,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "lahore-resolution-banglapedia",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+    },
+    {
+      "type": "resource",
+      "id": "the-bengal-muslims-1871-1906",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+    },
+    {
+      "type": "resource",
+      "id": "the-making-of-pakistan",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
     }
   ]
 }

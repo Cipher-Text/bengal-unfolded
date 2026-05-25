@@ -1,8 +1,11 @@
 {
   "title": "২০১৩ সালের শাহবাগ আন্দোলন",
   "note": "শাহবাগ আন্দোলনের timeline, দাবি, key actors ও media references দ্রুত দেখার starting point; final claim citation হিসেবে primary/academic source দিয়ে cross-check করতে হবে.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "উইকিপিডিয়া সম্পাদকবৃন্দ",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "শাহবাগ আন্দোলনের timeline, দাবি, key actors ও media references দ্রুত দেখার starting point; final claim citation হিসেবে primary/academic source দিয়ে cross-check করতে হবে."
 }

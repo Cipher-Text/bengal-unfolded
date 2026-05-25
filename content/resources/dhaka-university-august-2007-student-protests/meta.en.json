@@ -1,8 +1,11 @@
 {
   "title": "Dhaka University August 2007 Student Protests",
   "note": "Archive resource on student-front protests, military presence, curfew, and arrests at Dhaka University during the emergency.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Newspaper archive / human rights documentation",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Archive resource on student-front protests, military presence, curfew, and arrests at Dhaka University during the emergency."
 }

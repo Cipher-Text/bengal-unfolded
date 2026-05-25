@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh: Freedom in the World 2018",
   "note": "Background source on political rights, civil liberties, enforced disappearance, opposition pressure, and democratic backsliding.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Freedom House",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Background source on political rights, civil liberties, enforced disappearance, opposition pressure, and democratic backsliding."
 }

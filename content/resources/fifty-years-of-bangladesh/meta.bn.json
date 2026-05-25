@@ -1,9 +1,12 @@
 {
   "title": "Fifty Years of Bangladesh",
   "note": "বাংলাদেশের প্রথম পাঁচ দশকের অর্থনীতি, রাজনীতি, সমাজ, এবং সংস্কৃতি নিয়ে একটি বহুমাত্রিক সংকলন।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://www.routledge.com/Fifty-Years-of-Bangladesh-Economy-Politics-Society-and-Culture/Jahan-Sobhan/p/book/9781032532837",
   "attribution": "রওনক জাহান, রেহমান সোবহান",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "বাংলাদেশের প্রথম পাঁচ দশকের অর্থনীতি, রাজনীতি, সমাজ, এবং সংস্কৃতি নিয়ে একটি বহুমাত্রিক সংকলন।"
 }

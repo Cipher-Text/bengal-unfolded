@@ -1,8 +1,11 @@
 {
   "title": "UN Support to Bangladesh Electoral Process, 2007–2008",
   "note": "International institutional source on voter registration, election support, institutional capacity, and election preparation.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "United Nations / UNDP",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "International institutional source on voter registration, election support, institutional capacity, and election preparation."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Language Movement in East Bengal",
   "note": "পূর্ববঙ্গে ভাষা আন্দোলনের রাজনৈতিক পটভূমি, প্রবাহ এবং তাৎপর্য নিয়ে একটি সংক্ষিপ্ত কিন্তু গুরুত্বপূর্ণ ঐতিহাসিক কাজ।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://openlibrary.org/books/OL9199046M/Language_movement_in_East_Bengal",
   "attribution": "বদরুদ্দীন উমর",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "পূর্ববঙ্গে ভাষা আন্দোলনের রাজনৈতিক পটভূমি, প্রবাহ এবং তাৎপর্য নিয়ে একটি সংক্ষিপ্ত কিন্তু গুরুত্বপূর্ণ ঐতিহাসিক কাজ।"
 }

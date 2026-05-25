@@ -1,9 +1,12 @@
 {
   "title": "Shanti Bahini",
   "note": "স্বায়ত্তশাসন দাবি, সংগঠনগত প্রেক্ষাপট এবং ১৯৭৬ সালের শুরুর দিকের সশস্ত্র অভিযানের উল্লেখসহ বাংলাপিডিয়ার নিবন্ধ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Shanti_Bahini",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "স্বায়ত্তশাসন দাবি, সংগঠনগত প্রেক্ষাপট এবং ১৯৭৬ সালের শুরুর দিকের সশস্ত্র অভিযানের উল্লেখসহ বাংলাপিডিয়ার নিবন্ধ।"
 }

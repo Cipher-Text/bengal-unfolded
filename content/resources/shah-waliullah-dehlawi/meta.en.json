@@ -1,10 +1,13 @@
 {
   "title": "Shah Waliullah Dehlawi",
   "note": "Foundational South Asian Islamic reformer whose works such as Hujjat Allah al-Baligha, Al-Fawz al-Kabir fi Usul al-Tafsir, and Izalat al-Khafa 'an Khilafat al-Khulafa shaped later Muslim political and reformist thought.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Shah_Waliullah_Dehlawi",
   "attribution": "Wikipedia",
   "creatorType": "organization",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Foundational South Asian Islamic reformer whose works such as Hujjat Allah al-Baligha, Al-Fawz al-Kabir fi Usul al-Tafsir, and Izalat al-Khafa 'an Khilafat al-Khulafa shaped later Muslim political and reformist thought."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Battle of Buxar",
   "note": "Overview of the 1764 battle that consolidated East India Company military-political leverage in eastern India.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/event/Battle-of-Buxar",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Overview of the 1764 battle that consolidated East India Company military-political leverage in eastern India."
 }

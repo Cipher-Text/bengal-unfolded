@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh: A Legacy of Blood",
   "note": "An important international account of post-independence Bangladesh, political killings, coups, and state instability.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Anthony Mascarenhas",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "An important international account of post-independence Bangladesh, political killings, coups, and state instability."
 }

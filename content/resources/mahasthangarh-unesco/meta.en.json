@@ -1,9 +1,12 @@
 {
   "title": "Cultural Landscape of Mahasthan and Karatoya River",
   "note": "UNESCO dossier documenting Mahasthangarh as an early fortified urban center in Bengal, established around the 4th-3rd century BCE.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://whc.unesco.org/en/tentativelists/6671/",
   "attribution": "UNESCO World Heritage Centre",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "UNESCO dossier documenting Mahasthangarh as an early fortified urban center in Bengal, established around the 4th-3rd century BCE."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Rifle, Roti, Aurat",
   "note": "War-time novel written during 1971, reflecting fear, violence, and collapse in occupied Dhaka.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Anwar Pasha",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "War-time novel written during 1971, reflecting fear, violence, and collapse in occupied Dhaka."
 }

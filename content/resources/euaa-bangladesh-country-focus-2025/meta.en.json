@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh: Country Focus",
   "note": "External institutional source for political change, security situation, protest aftermath, and country context in 2024–2025.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "European Union Agency for Asylum",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "External institutional source for political change, security situation, protest aftermath, and country context in 2024–2025."
 }

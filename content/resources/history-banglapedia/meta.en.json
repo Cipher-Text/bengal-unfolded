@@ -1,9 +1,12 @@
 {
   "title": "History",
   "note": "General Bangladesh history reference useful for political chronology around the Ershad takeover and the 1980s authoritarian period.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=History",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "General Bangladesh history reference useful for political chronology around the Ershad takeover and the 1980s authoritarian period."
 }

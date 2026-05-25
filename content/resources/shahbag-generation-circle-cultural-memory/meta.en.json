@@ -1,8 +1,11 @@
 {
   "title": "Projonmo Chattar: Shahbag’s Cultural Memory",
   "note": "Cultural-memory source on songs, poetry, candles, the national flag, 1971 memory, and civic nationalism.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Cultural memory essays / newspaper features",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Cultural-memory source on songs, poetry, candles, the national flag, 1971 memory, and civic nationalism."
 }

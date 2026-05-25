@@ -1,9 +1,12 @@
 {
   "title": "Mirza Khizr Sultan",
   "note": "Figure-specific profile covering his identity as a Mughal prince, role in the 1857 rebellion, and death during the fall of Delhi.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Mirza_Khizr_Sultan",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Figure-specific profile covering his identity as a Mughal prince, role in the 1857 rebellion, and death during the fall of Delhi."
 }

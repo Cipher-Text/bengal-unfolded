@@ -1,9 +1,12 @@
 {
   "title": "Proclamation of Independence of Bangladesh (1971)",
   "note": "Primary documentary text of the 1971 proclamation used by the provisional government.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Bangladesh constitutional archives",
   "quality": "primary",
-  "href": "https://www.constitutionnet.org/sites/default/files/1971.04.10_-_proclamation_of_independence.pdf"
+  "href": "https://www.constitutionnet.org/sites/default/files/1971.04.10_-_proclamation_of_independence.pdf",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Primary documentary text of the 1971 proclamation used by the provisional government."
 }

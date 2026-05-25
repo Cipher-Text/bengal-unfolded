@@ -1,9 +1,12 @@
 {
   "title": "India-Bangladesh Cease-Fire Holding (April 21, 2001)",
   "note": "Contemporary report on ceasefire status, local fighting context, and immediate post-clash diplomatic messaging.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.latimes.com/archives/la-xpm-2001-apr-21-mn-53830-story.html",
   "attribution": "Los Angeles Times",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Contemporary report on ceasefire status, local fighting context, and immediate post-clash diplomatic messaging."
 }

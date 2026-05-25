@@ -1,9 +1,12 @@
 {
   "title": "Rana Plaza collapse (overview)",
   "note": "Background chronology used as a navigational secondary source.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "attribution": "Wikipedia",
   "quality": "secondary",
-  "href": "https://en.wikipedia.org/wiki/Rana_Plaza_collapse"
+  "href": "https://en.wikipedia.org/wiki/Rana_Plaza_collapse",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Background chronology used as a navigational secondary source."
 }

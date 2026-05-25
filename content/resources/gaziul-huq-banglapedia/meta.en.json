@@ -1,9 +1,12 @@
 {
   "title": "Haque, ANM Gaziul",
   "note": "A major reference entry on the leader who presided over the historic Amtala meeting of 21 February 1952.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Haque%2C_ANM_Gaziul",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A major reference entry on the leader who presided over the historic Amtala meeting of 21 February 1952."
 }

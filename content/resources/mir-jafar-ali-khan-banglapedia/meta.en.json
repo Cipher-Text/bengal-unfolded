@@ -1,9 +1,12 @@
 {
   "title": "Mir Jafar Ali Khan",
   "note": "Reference entry on Mir Jafar's role in court-military realignment and his installation after Plassey.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Mir_Jafar_Ali_Khan",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference entry on Mir Jafar's role in court-military realignment and his installation after Plassey."
 }

@@ -1,8 +1,11 @@
 {
   "title": "বর্ডার গার্ড বাংলাদেশ: সরকারি ইতিহাস ও রূপান্তর",
   "note": "BDR থেকে BGB পুনর্গঠন, institutional identity ও official narrative বোঝার জন্য official organization source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "বর্ডার গার্ড বাংলাদেশ",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "BDR থেকে BGB পুনর্গঠন, institutional identity ও official narrative বোঝার জন্য official organization source."
 }

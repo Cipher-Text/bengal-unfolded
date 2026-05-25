@@ -1,9 +1,12 @@
 {
   "title": "Palashi, The Battle of",
   "note": "Core Bengal-focused reference on the background, conspiracy, battle sequence, and long-term political consequences of Plassey (1757).",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Palashi%2C_The_Battle_of",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Core Bengal-focused reference on the background, conspiracy, battle sequence, and long-term political consequences of Plassey (1757)."
 }

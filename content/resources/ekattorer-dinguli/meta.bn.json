@@ -1,8 +1,11 @@
 {
   "title": "একাত্তরের দিনগুলি",
   "note": "ডায়েরি আকারে লেখা মুক্তিযুদ্ধের অন্যতম শ্রেষ্ঠ স্মৃতিকথা; ব্যক্তিগত ক্ষতি ও প্রতিরোধের দলিল।",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "জাহানারা ইমাম",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "ডায়েরি আকারে লেখা মুক্তিযুদ্ধের অন্যতম শ্রেষ্ঠ স্মৃতিকথা; ব্যক্তিগত ক্ষতি ও প্রতিরোধের দলিল।"
 }

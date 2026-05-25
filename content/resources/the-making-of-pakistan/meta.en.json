@@ -1,8 +1,11 @@
 {
   "title": "The Making of Pakistan",
   "note": "Useful for understanding the Pakistan movement, Muslim League politics, and the context of state formation in 1947.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "K. K. Aziz",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Useful for understanding the Pakistan movement, Muslim League politics, and the context of state formation in 1947."
 }

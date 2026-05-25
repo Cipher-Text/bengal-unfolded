@@ -1,8 +1,11 @@
 {
   "title": "2013 Shahbag Protests",
   "note": "Quick starting point for the movement timeline, demands, key actors, and media references. Cross-check before citing.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Wikipedia contributors",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Quick starting point for the movement timeline, demands, key actors, and media references. Cross-check before citing."
 }

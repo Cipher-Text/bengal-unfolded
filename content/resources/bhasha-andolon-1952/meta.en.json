@@ -1,9 +1,12 @@
 {
   "title": "Bhasha Andolon 1952",
   "note": "A Bangla explainer on the 1952 Language Movement; useful for introductory viewing, with production quality best checked before treating it as a core source.",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.youtube.com/watch?v=fr_q2feJl-Y",
   "attribution": "ATN Bangla / documentary-animation style",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A Bangla explainer on the 1952 Language Movement; useful for introductory viewing, with production quality best checked before treating it as a core source."
 }

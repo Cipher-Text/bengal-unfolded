@@ -1,9 +1,12 @@
 {
   "title": "লাহোর প্রস্তাব",
   "note": "১৯৪০ সালের লাহোর প্রস্তাব, বাংলার ভূমিকা, এবং পরে গড়ে ওঠা সাংবিধানিক বিতর্কের সংক্ষিপ্ত রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Lahore-Resolution",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৯৪০ সালের লাহোর প্রস্তাব, বাংলার ভূমিকা, এবং পরে গড়ে ওঠা সাংবিধানিক বিতর্কের সংক্ষিপ্ত রেফারেন্স।"
 }

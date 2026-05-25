@@ -1,8 +1,11 @@
 {
   "title": "The Blood Telegram",
   "note": "Detailed political history of U.S. policy, diplomatic cables, and the genocide context of 1971.",
-  "category": "understand",
-  "subcategory": "papers",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Gary J. Bass",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Detailed political history of U.S. policy, diplomatic cables, and the genocide context of 1971."
 }

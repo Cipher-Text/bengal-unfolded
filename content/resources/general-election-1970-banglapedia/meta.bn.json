@@ -1,9 +1,12 @@
 {
   "title": "১৯৭০-এর সাধারণ নির্বাচন",
   "note": "১৯৭০ সালের নির্বাচনের ফলাফল, ভোটার উপস্থিতি, এবং পূর্ব পাকিস্তানে আওয়ামী লীগের বিপুল গণরায় বোঝার জন্য বাংলাদেশ-কেন্দ্রিক রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Election",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৯৭০ সালের নির্বাচনের ফলাফল, ভোটার উপস্থিতি, এবং পূর্ব পাকিস্তানে আওয়ামী লীগের বিপুল গণরায় বোঝার জন্য বাংলাদেশ-কেন্দ্রিক রেফারেন্স।"
 }

@@ -1,8 +1,11 @@
 {
   "title": "মৃত্যু থেকে জীবন: বাংলাদেশ",
   "note": "মুক্তিযুদ্ধ ও বাংলাদেশের জন্ম নিয়ে একটি আন্তর্জাতিক বিবরণ.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "International account of Bangladesh",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুক্তিযুদ্ধ ও বাংলাদেশের জন্ম নিয়ে একটি আন্তর্জাতিক বিবরণ."
 }

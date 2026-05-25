@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশ বিডিআর বিদ্রোহের সংবাদ",
   "note": "আন্তর্জাতিক breaking-news coverage ও external reporting perspective বোঝার জন্য archive source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "বিবিসি নিউজ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "আন্তর্জাতিক breaking-news coverage ও external reporting perspective বোঝার জন্য archive source."
 }

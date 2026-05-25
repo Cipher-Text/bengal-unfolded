@@ -30,8 +30,11 @@
     "huseyn-shaheed-suhrawardy"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "bangladesher-shadhinota-juddho-dolilpotro",
+    "proclamation-of-independence-1971-text",
+    "war-of-liberation-banglapedia",
+    "1971-a-global-history-of-the-creation-of-bangladesh",
+    "genocide-in-bangladesh"
   ],
   "faq": [
     {
@@ -59,11 +62,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
       "reason": "Place the topic in long-term chronology."
@@ -72,6 +70,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "bangladesher-shadhinota-juddho-dolilpotro",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+    },
+    {
+      "type": "resource",
+      "id": "proclamation-of-independence-1971-text",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+    },
+    {
+      "type": "resource",
+      "id": "war-of-liberation-banglapedia",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
     }
   ]
 }

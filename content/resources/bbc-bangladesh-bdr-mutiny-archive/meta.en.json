@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh BDR Mutiny Coverage",
   "note": "International breaking-news coverage and an external reporting perspective on the mutiny.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "BBC News",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "International breaking-news coverage and an external reporting perspective on the mutiny."
 }

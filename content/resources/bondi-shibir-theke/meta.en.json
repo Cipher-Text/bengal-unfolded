@@ -1,8 +1,11 @@
 {
   "title": "Bondi Shibir Theke",
   "note": "Poetry from occupied Dhaka capturing fear, defiance, and resistance.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Shamsur Rahman",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Poetry from occupied Dhaka capturing fear, defiance, and resistance."
 }

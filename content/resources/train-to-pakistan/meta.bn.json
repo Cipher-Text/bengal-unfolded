@@ -1,9 +1,12 @@
 {
   "title": "Train to Pakistan",
   "note": "দেশভাগের ভয়, বিচ্ছেদ ও সহিংসতাকে সীমান্তবর্তী গ্রামীণ জীবনের ভেতর দিয়ে দেখানো এক ক্লাসিক উপন্যাস।",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://openlibrary.org/works/OL318479W/Train_to_Pakistan",
   "attribution": "খুশবন্ত সিং",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "দেশভাগের ভয়, বিচ্ছেদ ও সহিংসতাকে সীমান্তবর্তী গ্রামীণ জীবনের ভেতর দিয়ে দেখানো এক ক্লাসিক উপন্যাস।"
 }

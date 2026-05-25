@@ -1,9 +1,12 @@
 {
   "title": "Bengali Muslim Literati and the Development of Muslim Community in Bengal",
   "note": "উপনিবেশিক বাংলায় বাঙালি মুসলিম বুদ্ধিজীবী ও সম্প্রদায় গঠনের ওপর একটি গবেষণামূলক গ্রন্থ।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://www.bagchee.com/books/BB5108/bengali-muslim-literati-and-the-development-of-muslim-community-in-bengal",
   "attribution": "অশোক কুমার চক্রবর্তী",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "উপনিবেশিক বাংলায় বাঙালি মুসলিম বুদ্ধিজীবী ও সম্প্রদায় গঠনের ওপর একটি গবেষণামূলক গ্রন্থ।"
 }

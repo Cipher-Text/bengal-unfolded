@@ -1,8 +1,11 @@
 {
   "title": "Jinnah of Pakistan",
   "note": "A widely read biography for understanding Muhammad Ali Jinnah and the partition politics background.",
-  "category": "understand",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Stanley Wolpert",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A widely read biography for understanding Muhammad Ali Jinnah and the partition politics background."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Elections in Bangladesh in 2008",
   "note": "Institutional report on the 2008 election, voter roll reform, political transition, and election credibility.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "UK Parliament / House of Commons Library",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Institutional report on the 2008 election, voter roll reform, political transition, and election credibility."
 }

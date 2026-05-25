@@ -1,8 +1,11 @@
 {
   "title": "Three Alliances Framework, 1990",
   "note": "Core political document outlining the democratic platform of the Awami League-led, BNP-led, and left alliances.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Three alliances / political document",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Core political document outlining the democratic platform of the Awami League-led, BNP-led, and left alliances."
 }

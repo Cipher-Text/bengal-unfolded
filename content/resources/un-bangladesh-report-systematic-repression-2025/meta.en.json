@@ -1,9 +1,12 @@
 {
   "title": "UN Report Finds Brutal, Systematic Repression of Protests",
   "note": "Accessible overview of OHCHR findings on the former government, security and intelligence services, and party-linked violence.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "United Nations Bangladesh / OHCHR",
   "quality": "secondary",
-  "href": "https://bangladesh.un.org/en/289108-bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice-serious"
+  "href": "https://bangladesh.un.org/en/289108-bangladesh-un-report-finds-brutal-systematic-repression-protests-calls-justice-serious",
+  "sourceQuality": "archive",
+  "evidenceLevel": "high",
+  "whyItMatters": "Accessible overview of OHCHR findings on the former government, security and intelligence services, and party-linked violence."
 }

@@ -1,8 +1,11 @@
 {
   "title": "2008 Bangladeshi General Election",
   "note": "Starting reference for the election date, alliances, seat distribution, and transition overview. Cross-check with the Election Commission before citing.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Election overview / encyclopedia source",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Starting reference for the election date, alliances, seat distribution, and transition overview. Cross-check with the Election Commission before citing."
 }

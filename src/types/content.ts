@@ -49,8 +49,10 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1969-mass-uprising",
   "1970-bhola-cyclone-and-the-1970-election",
   "1971-liberation-war",
+  "1971-operation-searchlight-crackdown",
   "1972-state-formation-and-the-1972-constitution",
   "1974-famine-emergency-and-state-crisis",
+  "1975-august-15-assassination-of-sheikh-mujib",
   "1975-baksal-formation-and-collapse",
   "1976-farakka-long-march",
   "1976-1997-shanti-bahini-insurgency",
@@ -60,13 +62,17 @@ export const SUPPORTED_EVENT_SLUGS = [
   "2007-2008-emergency-caretaker-rule",
   "2009-bdr-mutiny-pilkhana-massacre",
   "2001-padua-pyrdiwah-boraibari-border-clash",
+  "1997-chittagong-hill-tracts-peace-accord",
+  "2013-rana-plaza-collapse",
   "2013-shahbag-movement",
   "2014-10th-parliamentary-election",
+  "2017-rohingya-mass-influx-into-bangladesh",
   "2018-a-year-of-protest-control-and-contested-legitimacy",
   "2018-quota-reform",
   "2018-safe-road",
   "2018-digital-security-act",
   "2018-election",
+  "2023-cyber-security-act-replacing-dsa",
   "2024-anti-discrimination-movement",
   "2026-election",
   "1538-humayun-enters-bengal-and-occupies-gaur",
@@ -856,7 +862,17 @@ export type Book = {
   note: string;
 };
 
-export type ResourceCategory = "read" | "watch" | "explore" | "understand";
+export type ResourceCategory =
+  | "primary-sources"
+  | "academic-books"
+  | "reference-sources"
+  | "research-articles-and-papers"
+  | "memoirs-and-eyewitness-accounts"
+  | "maps-and-visual-sources"
+  | "documentary-and-video"
+  | "cultural-and-literary-resources"
+  | "news-and-contemporary-reports"
+  | "further-reading";
 export type SourceQuality = "primary" | "secondary" | "archive" | "editorial";
 export type ResourceSourceQuality =
   | "primary"
@@ -885,18 +901,7 @@ export type EventResource = {
   sourceQuality?: ResourceSourceQuality;
   evidenceLevel?: EvidenceLevel;
   category: ResourceCategory;
-  subcategory:
-    | "historical-literature"
-    | "novel"
-    | "memoir"
-    | "movie"
-    | "documentary"
-    | "drama"
-    | "archive"
-    | "documents"
-    | "photos"
-    | "research"
-    | "papers";
+  subcategory: string;
   href?: string;
   relatedEventIds?: EventSlug[];
   relatedFigureIds?: FigureId[];

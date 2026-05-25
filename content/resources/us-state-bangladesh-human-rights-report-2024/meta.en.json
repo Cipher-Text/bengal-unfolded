@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh 2024 Human Rights Report",
   "note": "Annual U.S. State Department report on human rights, student protests, killings, detention, and the transition context.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "U.S. Department of State",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Annual U.S. State Department report on human rights, student protests, killings, detention, and the transition context."
 }

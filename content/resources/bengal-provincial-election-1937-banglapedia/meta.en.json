@@ -1,9 +1,12 @@
 {
   "title": "Bengal Legislative Election, 1937",
   "note": "Contextual reference on the 1937 provincial election and coalition outcomes in Bengal under the 1935 constitutional framework.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Bengal_Legislative_Assembly",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Contextual reference on the 1937 provincial election and coalition outcomes in Bengal under the 1935 constitutional framework."
 }

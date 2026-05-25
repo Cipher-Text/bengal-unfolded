@@ -1,9 +1,12 @@
 {
   "title": "Ekdala",
   "note": "Banglapedia reference on the Ekdala fort context used in describing Delhi's Bengal campaigns.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Ekdala",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia reference on the Ekdala fort context used in describing Delhi's Bengal campaigns."
 }

@@ -1,8 +1,11 @@
 {
   "title": "জিন্নাহ অফ পাকিস্তান",
   "note": "মুহাম্মদ আলী জিন্নাহ এবং দেশভাগ রাজনীতির পটভূমি বোঝার জন্য বহুলপঠিত জীবনী.",
-  "category": "understand",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "স্ট্যানলি উলপার্ট",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুহাম্মদ আলী জিন্নাহ এবং দেশভাগ রাজনীতির পটভূমি বোঝার জন্য বহুলপঠিত জীবনী."
 }

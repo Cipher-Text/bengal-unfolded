@@ -1,8 +1,11 @@
 {
   "title": "আমি বীরাঙ্গনা বলছি",
   "note": "বীরাঙ্গনাদের সাক্ষ্যভিত্তিক গুরুত্বপূর্ণ গ্রন্থ; যুদ্ধকালীন লিঙ্গভিত্তিক সহিংসতার ঐতিহাসিক দলিল।",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "নীলিমা ইব্রাহিম",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "বীরাঙ্গনাদের সাক্ষ্যভিত্তিক গুরুত্বপূর্ণ গ্রন্থ; যুদ্ধকালীন লিঙ্গভিত্তিক সহিংসতার ঐতিহাসিক দলিল।"
 }

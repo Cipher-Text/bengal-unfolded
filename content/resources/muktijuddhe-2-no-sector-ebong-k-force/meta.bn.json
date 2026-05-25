@@ -1,8 +1,11 @@
 {
   "title": "মুক্তিযুদ্ধে ২ নং সেক্টর এবং কে ফোর্স",
   "note": "২ নম্বর সেক্টর ও কে ফোর্সের সামরিক ভূমিকা বোঝার জন্য গুরুত্বপূর্ণ source.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Khaled Mosharraf",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "২ নম্বর সেক্টর ও কে ফোর্সের সামরিক ভূমিকা বোঝার জন্য গুরুত্বপূর্ণ source."
 }

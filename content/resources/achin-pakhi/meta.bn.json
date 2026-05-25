@@ -1,9 +1,12 @@
 {
   "title": "Achin Pakhi / The Unknown Bard",
   "note": "বাউল ও লালনের লোক-আধ্যাত্মিক জগৎ নিয়ে একটি ডকুমেন্টারি; বাঙালি সাংস্কৃতিক ইতিহাসে গুরুত্বপূর্ণ।",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.imdb.com/title/tt6455874/",
   "attribution": "Tanvir Mokammel",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "বাউল ও লালনের লোক-আধ্যাত্মিক জগৎ নিয়ে একটি ডকুমেন্টারি; বাঙালি সাংস্কৃতিক ইতিহাসে গুরুত্বপূর্ণ।"
 }

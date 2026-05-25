@@ -1,8 +1,11 @@
 {
   "title": "জাতীয় কারফিউ চলাকালে বাংলাদেশ পুলিশের “শ্যুট-অন-সাইট” নির্দেশ",
   "note": "Curfew, communications blackout, quota protests turning into broader unrest এবং state response নিয়ে international news archive.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "দ্য গার্ডিয়ান",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Curfew, communications blackout, quota protests turning into broader unrest এবং state response নিয়ে international news archive."
 }

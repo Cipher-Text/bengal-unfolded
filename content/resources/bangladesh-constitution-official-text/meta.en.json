@@ -1,9 +1,12 @@
 {
   "title": "The Constitution of the People’s Republic of Bangladesh",
   "note": "Official legal text of the Bangladesh Constitution. Useful for tracing constitutional changes after the 1975 amendments.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Legislative and Parliamentary Affairs Division, Ministry of Law",
   "quality": "primary",
-  "href": "https://bdlaws.minlaw.gov.bd/"
+  "href": "https://bdlaws.minlaw.gov.bd/",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Official legal text of the Bangladesh Constitution. Useful for tracing constitutional changes after the 1975 amendments."
 }

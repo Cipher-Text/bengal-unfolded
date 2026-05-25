@@ -1,9 +1,12 @@
 {
   "title": "বাংলাদেশ কৃষক শ্রমিক আওয়ামী লীগ (বাকশাল)",
   "note": "বাকশাল সম্পর্কে সংক্ষিপ্ত encyclopedic reference। দ্রুত factual overview-এর জন্য useful.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "বাংলাপিডিয়া",
   "quality": "secondary",
-  "href": "https://en.banglapedia.org/index.php/BAKSAL"
+  "href": "https://en.banglapedia.org/index.php/BAKSAL",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "বাকশাল সম্পর্কে সংক্ষিপ্ত encyclopedic reference। দ্রুত factual overview-এর জন্য useful."
 }

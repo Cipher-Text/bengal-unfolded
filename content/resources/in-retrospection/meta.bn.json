@@ -1,9 +1,12 @@
 {
   "title": "In Retrospection",
   "note": "আবুল হাশিমের স্মৃতিকথা বঙ্গীয় মুসলিম লীগের রাজনীতি, পাকিস্তান আন্দোলন, এবং দেশভাগ বিতর্ক বুঝতে কাজে লাগে।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://www.rokomari.com/book/153559/in-retrospection",
   "attribution": "আবুল হাশিম",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "আবুল হাশিমের স্মৃতিকথা বঙ্গীয় মুসলিম লীগের রাজনীতি, পাকিস্তান আন্দোলন, এবং দেশভাগ বিতর্ক বুঝতে কাজে লাগে।"
 }

@@ -1,10 +1,13 @@
 {
   "title": "Caretaker Government",
   "note": "A core reference on Bangladesh's caretaker framework, the 2006-2008 crisis period, and emergency-era political transition.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "quality": "secondary",
   "href": "https://en.banglapedia.org/index.php/Caretaker_Government",
   "attribution": "Banglapedia",
-  "creatorType": "organization"
+  "creatorType": "organization",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A core reference on Bangladesh's caretaker framework, the 2006-2008 crisis period, and emergency-era political transition."
 }

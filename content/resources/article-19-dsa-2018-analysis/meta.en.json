@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh Digital Security Act 2018: Free Expression Analysis",
   "note": "Legal-rights analysis of expression, journalism, digital rights, and vague offences.",
-  "category": "understand",
-  "subcategory": "papers",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "ARTICLE 19",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Legal-rights analysis of expression, journalism, digital rights, and vague offences."
 }

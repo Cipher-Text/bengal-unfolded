@@ -1,9 +1,12 @@
 {
   "title": "Language Movement",
   "note": "A broad reference entry covering the origins, phases, clashes, and long-term significance of the language movement.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Language_Movement",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A broad reference entry covering the origins, phases, clashes, and long-term significance of the language movement."
 }

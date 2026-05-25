@@ -1,8 +1,11 @@
 {
   "title": "আর্কাইভ সংকলন",
   "note": "দলিল, ছবি ও প্রাথমিক উৎস।",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "জনআর্কাইভ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "দলিল, ছবি ও প্রাথমিক উৎস।"
 }

@@ -1,9 +1,12 @@
 {
   "title": "Alivardi Khan",
   "note": "Banglapedia entry on Alivardi Khan's accession and rule in Bengal.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Alivardi_Khan",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia entry on Alivardi Khan's accession and rule in Bengal."
 }

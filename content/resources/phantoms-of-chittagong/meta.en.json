@@ -1,8 +1,11 @@
 {
   "title": "Phantoms of Chittagong: The Fifth Army in Bangladesh",
   "note": "A supplementary source for the military and political context around Chittagong during the war.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Chittagong war research compilation",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A supplementary source for the military and political context around Chittagong during the war."
 }

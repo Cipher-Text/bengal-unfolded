@@ -1,8 +1,11 @@
 {
   "title": "Forbidden Incense",
   "note": "A Liberation War novel useful for cultural memory and wartime imagination.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Syed Shamsul Haq",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A Liberation War novel useful for cultural memory and wartime imagination."
 }

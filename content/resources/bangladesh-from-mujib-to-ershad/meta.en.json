@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh: From Mujib to Ershad",
   "note": "A political study covering the road to the end of the Ershad regime and the transition out of military-backed rule.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://openlibrary.org/books/OL7395130M/Bangladesh_From_Mujib_to_Ershad",
   "attribution": "Lawrence Ziring",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A political study covering the road to the end of the Ershad regime and the transition out of military-backed rule."
 }

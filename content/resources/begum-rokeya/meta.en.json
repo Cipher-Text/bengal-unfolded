@@ -1,10 +1,13 @@
 {
   "title": "Begum Rokeya",
   "note": "Her reformist writings and feminist imagination, including Matichur, Sultana's Dream, Stri Shikkha, Turoshko Bhromon, and Oborodhbashini, are central to Bengali Muslim modernity.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Begum_Rokeya",
   "attribution": "Wikipedia",
   "creatorType": "organization",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Her reformist writings and feminist imagination, including Matichur, Sultana's Dream, Stri Shikkha, Turoshko Bhromon, and Oborodhbashini, are central to Bengali Muslim modernity."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh Rifles Revolt",
   "note": "Useful starting point for the timeline, casualties, trial overview, and related references. Cross-check with court and report sources.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Wikipedia contributors",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful starting point for the timeline, casualties, trial overview, and related references. Cross-check with court and report sources."
 }

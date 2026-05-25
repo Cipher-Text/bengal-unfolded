@@ -1,9 +1,12 @@
 {
   "title": "House of Ganesha",
   "note": "Reference overview of the 1414-1436 House of Ganesha interregnum in the Bengal Sultanate and related succession context.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/House_of_Ganesha",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference overview of the 1414-1436 House of Ganesha interregnum in the Bengal Sultanate and related succession context."
 }

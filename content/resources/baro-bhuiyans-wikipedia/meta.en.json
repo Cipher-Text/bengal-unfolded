@@ -1,9 +1,12 @@
 {
   "title": "Baro-Bhuiyans",
   "note": "Reference overview of the Baro-Bhuiyan confederacies and their resistance role in late sixteenth and early seventeenth-century Bengal.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Baro-Bhuiyans",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference overview of the Baro-Bhuiyan confederacies and their resistance role in late sixteenth and early seventeenth-century Bengal."
 }

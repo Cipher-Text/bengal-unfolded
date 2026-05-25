@@ -1,9 +1,12 @@
 {
   "title": "Rohingya emergency | UNHCR",
   "note": "UNHCR emergency overview on the post-August 2017 influx into Bangladesh.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "UNHCR",
   "quality": "primary",
-  "href": "https://www.unhcr.org/emergencies/rohingya-emergency"
+  "href": "https://www.unhcr.org/emergencies/rohingya-emergency",
+  "sourceQuality": "archive",
+  "evidenceLevel": "high",
+  "whyItMatters": "UNHCR emergency overview on the post-August 2017 influx into Bangladesh."
 }

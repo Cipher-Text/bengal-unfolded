@@ -1,9 +1,12 @@
 {
   "title": "The History of Bengal, Vol. II: Muslim Period, 1200-1757",
   "note": "তুর্কি বিজয় থেকে ১৭৫৭ পর্যন্ত বাংলার মুসলিম শাসনের একটি মানক সার্ভে।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://archive.org/details/in.ernet.dli.2015.283729",
   "attribution": "জাদুনাথ সরকার",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "তুর্কি বিজয় থেকে ১৭৫৭ পর্যন্ত বাংলার মুসলিম শাসনের একটি মানক সার্ভে।"
 }

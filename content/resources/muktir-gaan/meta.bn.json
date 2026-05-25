@@ -1,9 +1,12 @@
 {
   "title": "Muktir Gaan / Song of Freedom",
   "note": "লার লেভিনের ১৯৭১ সালের ফুটেজ ব্যবহার করে দেখায়, কীভাবে সংগীত, নাটক, এবং সংস্কৃতি যুদ্ধচেষ্টার অংশ হয়ে ওঠে।",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.imdb.com/title/tt0325853/",
   "attribution": "Tareque Masud & Catherine Masud",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "লার লেভিনের ১৯৭১ সালের ফুটেজ ব্যবহার করে দেখায়, কীভাবে সংগীত, নাটক, এবং সংস্কৃতি যুদ্ধচেষ্টার অংশ হয়ে ওঠে।"
 }

@@ -1,9 +1,12 @@
 {
   "title": "India-Bangladesh Cease-Fire Holding (April 21, 2001)",
   "note": "সংঘর্ষ-পরবর্তী যুদ্ধবিরতির অবস্থা, স্থানীয় লড়াইয়ের প্রেক্ষাপট ও তাৎক্ষণিক কূটনৈতিক বার্তা নিয়ে সমসাময়িক প্রতিবেদন।",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.latimes.com/archives/la-xpm-2001-apr-21-mn-53830-story.html",
   "attribution": "লস অ্যাঞ্জেলেস টাইমস",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "সংঘর্ষ-পরবর্তী যুদ্ধবিরতির অবস্থা, স্থানীয় লড়াইয়ের প্রেক্ষাপট ও তাৎক্ষণিক কূটনৈতিক বার্তা নিয়ে সমসাময়িক প্রতিবেদন।"
 }

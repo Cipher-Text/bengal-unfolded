@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশের প্যারাডক্স কি টেকসই? — একটি প্রাতিষ্ঠানিক বিশ্লেষণ",
   "note": "১৯৭৫ সালের সাংবিধানিক সংশোধনী, একদলীয় ব্যবস্থা এবং প্রাতিষ্ঠানিক বিকাশ বোঝার জন্য আধুনিক academic context.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "কেমব্রিজ ইউনিভার্সিটি প্রেস",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "১৯৭৫ সালের সাংবিধানিক সংশোধনী, একদলীয় ব্যবস্থা এবং প্রাতিষ্ঠানিক বিকাশ বোঝার জন্য আধুনিক academic context."
 }

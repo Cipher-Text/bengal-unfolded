@@ -1,8 +1,11 @@
 {
   "title": "Border Guard Bangladesh: Official History and Transformation",
   "note": "Official organization source on the BDR-to-BGB reconstruction, institutional identity, and the state narrative.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Border Guard Bangladesh",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Official organization source on the BDR-to-BGB reconstruction, institutional identity, and the state narrative."
 }

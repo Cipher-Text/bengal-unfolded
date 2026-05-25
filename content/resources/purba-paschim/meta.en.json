@@ -1,8 +1,11 @@
 {
   "title": "Purba-Paschim",
   "note": "A large-scale novel on family, migration, politics, and memory across the two Bengals after partition.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Sunil Gangopadhyay",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A large-scale novel on family, migration, politics, and memory across the two Bengals after partition."
 }

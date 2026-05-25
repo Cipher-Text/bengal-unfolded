@@ -1,8 +1,11 @@
 {
   "title": "Bangladeshi Students Bring Dhaka to a Standstill With Protests Over Road Safety",
   "note": "International media framing of the road-safety protests, urban paralysis, student-led traffic regulation, and government response.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "TIME",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "International media framing of the road-safety protests, urban paralysis, student-led traffic regulation, and government response."
 }

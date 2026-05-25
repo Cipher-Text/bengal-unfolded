@@ -1,9 +1,12 @@
 {
   "title": "Partition of British India",
   "note": "An official educational resource built around archival documents, testimony, and historical context on partition.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.nationalarchives.gov.uk/education/resources/partition-of-british-india/",
   "attribution": "The National Archives (UK)",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "An official educational resource built around archival documents, testimony, and historical context on partition."
 }

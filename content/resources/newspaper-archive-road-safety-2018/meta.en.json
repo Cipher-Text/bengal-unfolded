@@ -1,8 +1,11 @@
 {
   "title": "Road Safety Movement 2018: Newspaper Archive",
   "note": "Archive source for the student movement, licence checking, road blockades, attack allegations, and the Shahidul Alam case.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Newspaper archive",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Archive source for the student movement, licence checking, road blockades, attack allegations, and the Shahidul Alam case."
 }

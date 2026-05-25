@@ -1,8 +1,11 @@
 {
   "title": "তামস",
   "note": "দেশভাগ-পর্বের সাম্প্রদায়িক সহিংসতা এবং উপমহাদেশীয় partition memory নিয়ে গুরুত্বপূর্ণ উপন্যাস.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "ভীষ্ম সাহনি",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "দেশভাগ-পর্বের সাম্প্রদায়িক সহিংসতা এবং উপমহাদেশীয় partition memory নিয়ে গুরুত্বপূর্ণ উপন্যাস."
 }

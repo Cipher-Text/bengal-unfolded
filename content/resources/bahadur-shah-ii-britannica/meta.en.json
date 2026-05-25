@@ -1,9 +1,12 @@
 {
   "title": "Bahadur Shah II",
   "note": "Profile of the last Mughal emperor and his symbolic role in Delhi during the rebellion.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/biography/Bahadur-Shah-II",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Profile of the last Mughal emperor and his symbolic role in Delhi during the rebellion."
 }

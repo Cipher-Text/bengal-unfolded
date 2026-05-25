@@ -1,9 +1,12 @@
 {
   "title": "Titu Mir",
   "note": "Banglapedia overview of Syed Mir Nisar Ali (Titu Mir), his movement, and the 1831 uprising.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Titu_Mir",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia overview of Syed Mir Nisar Ali (Titu Mir), his movement, and the 1831 uprising."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Swapnabhumi / The Promised Land",
   "note": "উর্দুভাষী/বিহারি stranded community, ১৯৪৭ অভিবাসন, ১৯৭১ সংঘাত, এবং দীর্ঘমেয়াদি রাষ্ট্রহীনতা নিয়ে ডকুমেন্টারি।",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.imdb.com/title/tt1201164/",
   "attribution": "Tanvir Mokammel",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "উর্দুভাষী/বিহারি stranded community, ১৯৪৭ অভিবাসন, ১৯৭১ সংঘাত, এবং দীর্ঘমেয়াদি রাষ্ট্রহীনতা নিয়ে ডকুমেন্টারি।"
 }

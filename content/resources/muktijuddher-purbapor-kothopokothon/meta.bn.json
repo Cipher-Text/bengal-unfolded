@@ -1,8 +1,11 @@
 {
   "title": "মুক্তিযুদ্ধের পূর্বাপর কথোপকথন",
   "note": "মুক্তিযুদ্ধকে ঘিরে সাক্ষাৎকার ও মৌখিক ইতিহাসভিত্তিক সংকলন.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Oral history interview collection",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুক্তিযুদ্ধকে ঘিরে সাক্ষাৎকার ও মৌখিক ইতিহাসভিত্তিক সংকলন."
 }

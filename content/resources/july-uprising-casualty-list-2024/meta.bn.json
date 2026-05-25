@@ -1,8 +1,11 @@
 {
   "title": "জুলাই অভ্যুত্থান ২০২৪: নিহত ও আহতের তালিকা",
   "note": "নিহত, আহত, চোখের আঘাত, শিশু casualties এবং casualty count debate বোঝার জন্য sensitive documentation source; always verify version/date.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "অন্তর্বর্তী সরকার / স্বাস্থ্য মন্ত্রণালয় / আন্দোলনের দলিল",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "নিহত, আহত, চোখের আঘাত, শিশু casualties এবং casualty count debate বোঝার জন্য sensitive documentation source; always verify version/date."
 }

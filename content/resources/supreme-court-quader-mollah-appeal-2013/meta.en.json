@@ -1,8 +1,11 @@
 {
   "title": "Abdul Quader Mollah Appeal Judgment, 2013",
   "note": "Primary appellate judicial document on the appeal, death sentence, and reasoning in the ICT case.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Supreme Court of Bangladesh / Appellate Division",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Primary appellate judicial document on the appeal, death sentence, and reasoning in the ICT case."
 }

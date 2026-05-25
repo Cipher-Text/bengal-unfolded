@@ -1,9 +1,12 @@
 {
   "title": "লাহোর প্রস্তাব",
   "note": "১৯৪০ সালের প্রস্তাব, তার ভাষা, বাংলার ভূমিকা এবং পরবর্তী সাংবিধানিক পুনর্ব্যাখ্যা বোঝার জন্য বাংলাদেশ-সম্পর্কিত গুরুত্বপূর্ণ রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Lahore_Resolution",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৯৪০ সালের প্রস্তাব, তার ভাষা, বাংলার ভূমিকা এবং পরবর্তী সাংবিধানিক পুনর্ব্যাখ্যা বোঝার জন্য বাংলাদেশ-সম্পর্কিত গুরুত্বপূর্ণ রেফারেন্স।"
 }

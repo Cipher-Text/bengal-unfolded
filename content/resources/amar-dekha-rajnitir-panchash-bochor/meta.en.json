@@ -1,9 +1,12 @@
 {
   "title": "Amar Dekha Rajnitir Panchash Bochor",
   "note": "Abul Mansur Ahmad's political memoir spans anti-British politics, the Pakistan period, and the emergence of Bangladesh.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "href": "https://www.rokomari.com/book/152201/amar-dekha-rajnitir-ponchash-bochor",
   "attribution": "Abul Mansur Ahmad",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Abul Mansur Ahmad's political memoir spans anti-British politics, the Pakistan period, and the emergence of Bangladesh."
 }

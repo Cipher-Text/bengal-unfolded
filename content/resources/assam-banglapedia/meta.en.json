@@ -1,9 +1,12 @@
 {
   "title": "Assam",
   "note": "Reference entry covering Assam's 1874 administrative separation from Bengal and related Sylhet/Cachar implications.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Assam",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference entry covering Assam's 1874 administrative separation from Bengal and related Sylhet/Cachar implications."
 }

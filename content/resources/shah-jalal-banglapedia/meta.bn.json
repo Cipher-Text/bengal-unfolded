@@ -1,9 +1,12 @@
 {
   "title": "Shah Jalal",
   "note": "Banglapedia entry on Shah Jalal and his historical role in Sylhet.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Shah_Jalal",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia entry on Shah Jalal and his historical role in Sylhet."
 }

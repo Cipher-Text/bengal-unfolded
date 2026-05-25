@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশ: কান্ট্রি ফোকাস",
   "note": "২০২৪–২০২৫ political changes, security situation, protests aftermath ও country context বোঝার জন্য external institutional source.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "ইউরোপীয় ইউনিয়ন আশ্রয় সংস্থা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "২০২৪–২০২৫ political changes, security situation, protests aftermath ও country context বোঝার জন্য external institutional source."
 }

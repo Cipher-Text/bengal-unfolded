@@ -1,9 +1,12 @@
 {
   "title": "Language Movement",
   "note": "ভাষা আন্দোলনের সূচনা, ধাপ, সংঘর্ষ এবং দীর্ঘমেয়াদি তাৎপর্য বোঝার জন্য একটি মৌলিক রেফারেন্স নিবন্ধ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Language_Movement",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "ভাষা আন্দোলনের সূচনা, ধাপ, সংঘর্ষ এবং দীর্ঘমেয়াদি তাৎপর্য বোঝার জন্য একটি মৌলিক রেফারেন্স নিবন্ধ।"
 }

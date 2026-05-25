@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh 2013 Protest and Human Rights Reports",
   "note": "Rights-focused cross-check for political violence, expression, detention, and human-rights concerns during 2013.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Amnesty International",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Rights-focused cross-check for political violence, expression, detention, and human-rights concerns during 2013."
 }

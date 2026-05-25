@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশ: রক্তের ঋণ",
   "note": "স্বাধীনতা-পরবর্তী বাংলাদেশ, রাজনৈতিক হত্যাকাণ্ড, অভ্যুত্থান ও রাষ্ট্রীয় অস্থিরতার গুরুত্বপূর্ণ আন্তর্জাতিক বিবরণ.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Anthony Mascarenhas",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "স্বাধীনতা-পরবর্তী বাংলাদেশ, রাজনৈতিক হত্যাকাণ্ড, অভ্যুত্থান ও রাষ্ট্রীয় অস্থিরতার গুরুত্বপূর্ণ আন্তর্জাতিক বিবরণ."
 }

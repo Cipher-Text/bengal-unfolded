@@ -1,9 +1,12 @@
 {
   "title": "The Bengal Borderland",
   "note": "A study of borderlands, partition, and state formation across Bengal, India, Pakistan, Bangladesh, and Burma.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://books.google.com/books/about/The_Bengal_Borderland.html?id=vTyP0zJ8140C",
   "attribution": "Willem van Schendel",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A study of borderlands, partition, and state formation across Bengal, India, Pakistan, Bangladesh, and Burma."
 }

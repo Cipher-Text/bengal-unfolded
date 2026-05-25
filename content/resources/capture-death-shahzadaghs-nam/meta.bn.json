@@ -1,9 +1,12 @@
 {
   "title": "'Capture & Death of the Shahzadaghs', 1857",
   "note": "দিল্লি পতনের পর বাহাদুর শাহ জাফরের আত্মসমর্পণ এবং তিন মুঘল যুবরাজকে গুলি করে হত্যার ঘটনার জাদুঘর-ক্যাটালগ রেকর্ড।",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://collection.nam.ac.uk/detail.php?acc=1971-02-33-495-24",
   "attribution": "ন্যাশনাল আর্মি মিউজিয়াম",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "দিল্লি পতনের পর বাহাদুর শাহ জাফরের আত্মসমর্পণ এবং তিন মুঘল যুবরাজকে গুলি করে হত্যার ঘটনার জাদুঘর-ক্যাটালগ রেকর্ড।"
 }

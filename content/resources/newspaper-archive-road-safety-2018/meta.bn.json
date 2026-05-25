@@ -1,8 +1,11 @@
 {
   "title": "নিরাপদ সড়ক আন্দোলন ২০১৮: সংবাদপত্র আর্কাইভ",
   "note": "জুলাই–আগস্ট ২০১৮ শিক্ষার্থী আন্দোলন, licence checking, road blockade, হামলার অভিযোগ ও Shahidul Alam case trace করার জন্য archive source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "দৈনিক সংবাদপত্র আর্কাইভ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "জুলাই–আগস্ট ২০১৮ শিক্ষার্থী আন্দোলন, licence checking, road blockade, হামলার অভিযোগ ও Shahidul Alam case trace করার জন্য archive source."
 }

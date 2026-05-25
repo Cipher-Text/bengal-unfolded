@@ -1,9 +1,12 @@
 {
   "title": "Mangal Pandey",
   "note": "ব্যারাকপুরের সিপাহী মঙ্গল পান্ডের জীবন ও ১৮৫৭ বিদ্রোহের সূচনাপর্বে তার ভূমিকা নিয়ে প্রামাণ্য জীবনীমূলক নিবন্ধ।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/biography/Mangal-Pandey",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "ব্যারাকপুরের সিপাহী মঙ্গল পান্ডের জীবন ও ১৮৫৭ বিদ্রোহের সূচনাপর্বে তার ভূমিকা নিয়ে প্রামাণ্য জীবনীমূলক নিবন্ধ।"
 }

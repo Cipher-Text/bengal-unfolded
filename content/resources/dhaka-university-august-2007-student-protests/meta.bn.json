@@ -1,8 +1,11 @@
 {
   "title": "ঢাকা বিশ্ববিদ্যালয়ের আগস্ট ২০০৭ ছাত্র প্রতিবাদ",
   "note": "জরুরি অবস্থার মধ্যে ঢাকা বিশ্ববিদ্যালয়ের ছাত্র-সেনা সংঘর্ষ, protest, curfew ও arrests বোঝার জন্য important event archive.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "সংবাদপত্র আর্কাইভ / মানবাধিকার দলিল",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "জরুরি অবস্থার মধ্যে ঢাকা বিশ্ববিদ্যালয়ের ছাত্র-সেনা সংঘর্ষ, protest, curfew ও arrests বোঝার জন্য important event archive."
 }

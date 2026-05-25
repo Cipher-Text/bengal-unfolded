@@ -1,9 +1,12 @@
 {
   "title": "Faraizi Movement",
   "note": "পূর্ব বাংলায় ফরায়েজি আন্দোলনের উৎপত্তি, নেতৃত্ব ও সামাজিক প্রভাব নিয়ে বাংলাপিডিয়ার সারসংক্ষেপ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Faraizi_Movement",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "পূর্ব বাংলায় ফরায়েজি আন্দোলনের উৎপত্তি, নেতৃত্ব ও সামাজিক প্রভাব নিয়ে বাংলাপিডিয়ার সারসংক্ষেপ।"
 }

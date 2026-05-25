@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশের যুদ্ধাপরাধবিরোধী আন্দোলনের সংবাদ",
   "note": "আন্দোলনের crowd size, political reaction, public anger ও evolving demands trace করার জন্য international wire archive.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "রয়টার্স",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "আন্দোলনের crowd size, political reaction, public anger ও evolving demands trace করার জন্য international wire archive."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Great Bengal Famine of 1770",
   "note": "Overview of the 1770 famine in Bengal, including mortality scale and structural causes under early Company rule.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/event/Bengal-famine-of-1770",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Overview of the 1770 famine in Bengal, including mortality scale and structural causes under early Company rule."
 }

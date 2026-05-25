@@ -1,8 +1,11 @@
 {
   "title": "প্রধানমন্ত্রী হাসিনাকে হেলিকপ্টারে বাংলাদেশ ছাড়তে বাধ্য করা হয়",
   "note": "৫ আগস্ট ২০২৪ শেখ হাসিনার পদত্যাগ/দেশত্যাগ, army announcement এবং interim government transition বোঝার জন্য international archive source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "লে মোঁদ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "৫ আগস্ট ২০২৪ শেখ হাসিনার পদত্যাগ/দেশত্যাগ, army announcement এবং interim government transition বোঝার জন্য international archive source."
 }

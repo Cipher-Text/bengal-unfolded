@@ -1,10 +1,13 @@
 {
   "title": "Newly elected Bangladesh MPs sworn in",
   "note": "Al Jazeera's report on the immediate parliamentary aftermath of the 5 January 2014 election, including the oath-taking and continuing legitimacy dispute.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.aljazeera.com/news/2014/1/9/newly-elected-bangladesh-mps-sworn-in",
   "attribution": "Al Jazeera",
   "creatorType": "organization",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Al Jazeera's report on the immediate parliamentary aftermath of the 5 January 2014 election, including the oath-taking and continuing legitimacy dispute."
 }

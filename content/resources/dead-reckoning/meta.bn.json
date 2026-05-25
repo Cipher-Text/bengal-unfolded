@@ -1,9 +1,12 @@
 {
   "title": "Dead Reckoning: Memories of the 1971 Bangladesh War",
   "note": "১৯৭১ যুদ্ধের একটি বিতর্কিত পুনর্বিবেচনামূলক পাঠ; সমালোচনামূলক টীকাসহ ব্যবহার করা উচিত।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Dead_Reckoning:_Memories_of_the_1971_Bangladesh_War",
   "attribution": "শর্মিলা বসু",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৯৭১ যুদ্ধের একটি বিতর্কিত পুনর্বিবেচনামূলক পাঠ; সমালোচনামূলক টীকাসহ ব্যবহার করা উচিত।"
 }

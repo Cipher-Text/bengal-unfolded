@@ -1,8 +1,11 @@
 {
   "title": "দ্য ইমার্জেন্স অফ পাকিস্তান",
   "note": "পাকিস্তান আন্দোলন ও রাষ্ট্রগঠনের অন্তর্দৃষ্টিমূলক রাজনৈতিক বিবরণ; critical reading source হিসেবে উপযোগী.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "চৌধরি মুহাম্মদ আলী",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "পাকিস্তান আন্দোলন ও রাষ্ট্রগঠনের অন্তর্দৃষ্টিমূলক রাজনৈতিক বিবরণ; critical reading source হিসেবে উপযোগী."
 }

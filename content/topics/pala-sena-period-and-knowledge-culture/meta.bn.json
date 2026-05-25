@@ -33,8 +33,10 @@
     "atisha-dipankara-srijnana"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-comprehensive-history-of-modern-bengal-1700-1950"
+    "pala-dynasty-britannica",
+    "sena-dynasty-britannica",
+    "somapura-mahavira-britannica",
+    "the-history-of-bengal-vol-1-hindu-period"
   ],
   "faq": [
     {
@@ -62,11 +64,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "ancient-and-pre-sultanate-bengal",
       "reason": "Place the topic in long-term chronology."
@@ -75,6 +72,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "pala-dynasty-britannica",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+    },
+    {
+      "type": "resource",
+      "id": "sena-dynasty-britannica",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+    },
+    {
+      "type": "resource",
+      "id": "somapura-mahavira-britannica",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
     }
   ]
 }

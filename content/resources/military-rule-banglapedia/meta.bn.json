@@ -1,9 +1,12 @@
 {
   "title": "Military Rule",
   "note": "সামরিক শাসন, এরশাদবিরোধী আন্দোলন এবং ১৯৯০-এর ক্ষমতা হস্তান্তরের একটি সংক্ষিপ্ত কিন্তু গুরুত্বপূর্ণ রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Military_Rule",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "সামরিক শাসন, এরশাদবিরোধী আন্দোলন এবং ১৯৯০-এর ক্ষমতা হস্তান্তরের একটি সংক্ষিপ্ত কিন্তু গুরুত্বপূর্ণ রেফারেন্স।"
 }

@@ -1,8 +1,11 @@
 {
   "title": "Lifting the Long Silence on Baksal",
   "note": "Editorial discussion from Dhaka Tribune on Baksal and how it appears in contemporary Bangladeshi public debate. Use with care for factual claims.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Dhaka Tribune",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Editorial discussion from Dhaka Tribune on Baksal and how it appears in contemporary Bangladeshi public debate. Use with care for factual claims."
 }

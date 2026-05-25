@@ -37,8 +37,12 @@
     "huseyn-shaheed-suhrawardy"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "1990-mass-uprising-wikipedia",
+    "noor-hossain-democracy-memory",
+    "election-commission-2008-general-election-report",
+    "quota-reform-movement-2018-overview",
+    "road-safety-protests-2018-overview",
+    "ohchr-preliminary-analysis-bangladesh-protests-2024"
   ],
   "faq": [
     {
@@ -66,11 +70,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
       "reason": "Place the topic in long-term chronology."
@@ -79,6 +78,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "1990-mass-uprising-wikipedia",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+    },
+    {
+      "type": "resource",
+      "id": "noor-hossain-democracy-memory",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+    },
+    {
+      "type": "resource",
+      "id": "election-commission-2008-general-election-report",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
     }
   ]
 }

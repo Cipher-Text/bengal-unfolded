@@ -1,9 +1,12 @@
 {
   "title": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান",
   "note": "বাংলাদেশ সংবিধানের official legal text। ১৯৭৫ সালের সংশোধনী-পরবর্তী সাংবিধানিক পরিবর্তন trace করার জন্য এটি প্রয়োজনীয়.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়ের লেজিসলেটিভ ও সংসদবিষয়ক বিভাগ",
   "quality": "primary",
-  "href": "https://bdlaws.minlaw.gov.bd/"
+  "href": "https://bdlaws.minlaw.gov.bd/",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "বাংলাদেশ সংবিধানের official legal text। ১৯৭৫ সালের সংশোধনী-পরবর্তী সাংবিধানিক পরিবর্তন trace করার জন্য এটি প্রয়োজনীয়."
 }

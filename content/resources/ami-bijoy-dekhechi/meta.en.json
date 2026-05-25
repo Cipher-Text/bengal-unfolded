@@ -1,9 +1,12 @@
 {
   "title": "Ami Bijoy Dekhechi",
   "note": "M. R. Akhtar Mukul's memoir of the 1971 liberation war and broadcasting experience.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "href": "https://books.com.bd/10615",
   "attribution": "M. R. Akhtar Mukul",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "M. R. Akhtar Mukul's memoir of the 1971 liberation war and broadcasting experience."
 }

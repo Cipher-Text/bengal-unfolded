@@ -1,9 +1,12 @@
 {
   "title": "Zia, Begum Khaleda",
   "note": "A reference on Khaleda Zia's role in the alliance-led mass upsurge that ended Ershad's rule.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Zia%2C_Begum_Khaleda",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A reference on Khaleda Zia's role in the alliance-led mass upsurge that ended Ershad's rule."
 }

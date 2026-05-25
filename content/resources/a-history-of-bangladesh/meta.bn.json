@@ -1,9 +1,31 @@
 {
   "title": "A History of Bangladesh",
   "note": "দীর্ঘ ইতিহাস, ঔপনিবেশিক সংঘর্ষ, পূর্ব পাকিস্তান, যুদ্ধ, এবং স্বাধীন বাংলাদেশের একটি সমন্বিত ইতিহাস।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://www.cambridge.org/core/books/history-of-bangladesh/history-of-bangladesh/4A86522E2A6C7E4DC877A4088C947FBE",
   "attribution": "উইলেম ভ্যান শেনডেল",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "দীর্ঘ ইতিহাস, ঔপনিবেশিক সংঘর্ষ, পূর্ব পাকিস্তান, যুদ্ধ, এবং স্বাধীন বাংলাদেশের একটি সমন্বিত ইতিহাস।",
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal",
+    "bangladesh-history",
+    "bengal-culture-literature-and-memory",
+    "colonial-conquest-revenue-and-resistance",
+    "democracy-and-civic-movements",
+    "language-movement-and-mother-language-day",
+    "late-colonial-muslim-politics-and-agrarian-mobilization",
+    "liberation-war-1971",
+    "mughal-bengal-and-regional-resistance",
+    "pakistan-period-state-and-national-awakening",
+    "pala-sena-period-and-knowledge-culture",
+    "partition-and-identity",
+    "partition-of-bengal-1905",
+    "peasant-religious-and-rural-resistance",
+    "post-1971-state-crises-and-civic-contestation",
+    "state-formation-crisis-and-military-rule-1972-1990",
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

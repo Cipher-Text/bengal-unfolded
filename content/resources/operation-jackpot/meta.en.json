@@ -1,8 +1,11 @@
 {
   "title": "Operation Jackpot",
   "note": "An important source on naval commando operations and sabotage during the Liberation War.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Operation Jackpot research compilation",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "An important source on naval commando operations and sabotage during the Liberation War."
 }

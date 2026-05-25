@@ -1,9 +1,12 @@
 {
   "title": "Battle of Rajmahal",
   "note": "Reference summary of the 12 July 1576 battle and the defeat of Daud Khan Karrani.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Battle_of_Rajmahal",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference summary of the 12 July 1576 battle and the defeat of Daud Khan Karrani."
 }

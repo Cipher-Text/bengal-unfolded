@@ -1,9 +1,12 @@
 {
   "title": "Fifty Years of Bangladesh",
   "note": "A multidisciplinary volume on the first five decades of Bangladesh's economy, politics, society, and culture.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://www.routledge.com/Fifty-Years-of-Bangladesh-Economy-Politics-Society-and-Culture/Jahan-Sobhan/p/book/9781032532837",
   "attribution": "Rounaq Jahan, Rehman Sobhan",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A multidisciplinary volume on the first five decades of Bangladesh's economy, politics, society, and culture."
 }

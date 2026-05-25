@@ -1,8 +1,11 @@
 {
   "title": "কোটা সংস্কার বিষয়ে সরকারি গেজেট, ২০২৪",
   "note": "Supreme Court order-এর পর quota policy implementation বোঝার জন্য official policy source.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "বাংলাদেশ সরকার / জনপ্রশাসন মন্ত্রণালয়",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Supreme Court order-এর পর quota policy implementation বোঝার জন্য official policy source."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh: Quest for Freedom and Justice",
   "note": "Kamal Hossain's memoir traces liberation, constitution-making, democracy, and the justice question.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://openlibrary.org/works/OL23275667W/Bangladesh_quest_for_freedom_and_justice",
   "attribution": "Kamal Hossain",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Kamal Hossain's memoir traces liberation, constitution-making, democracy, and the justice question."
 }

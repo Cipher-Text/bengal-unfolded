@@ -1,8 +1,11 @@
 {
   "title": "The Truths and Myths of the Rakkhi Bahini",
   "note": "A critical source on the debates, accusations, and counter-narratives around the Rakkhi Bahini.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Rakkhi Bahini research",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A critical source on the debates, accusations, and counter-narratives around the Rakkhi Bahini."
 }

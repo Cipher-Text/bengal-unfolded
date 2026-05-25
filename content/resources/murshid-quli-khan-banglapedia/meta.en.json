@@ -1,9 +1,12 @@
 {
   "title": "Murshid Quli Khan",
   "note": "Banglapedia entry outlining Murshid Quli Khan's administrative role and the capital transfer context in early eighteenth-century Bengal.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Murshid_Quli_Khan",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia entry outlining Murshid Quli Khan's administrative role and the capital transfer context in early eighteenth-century Bengal."
 }

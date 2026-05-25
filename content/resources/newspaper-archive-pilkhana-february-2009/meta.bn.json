@@ -1,8 +1,11 @@
 {
   "title": "পিলখানা হত্যাকাণ্ড: ফেব্রুয়ারি–মার্চ ২০০৯ সংবাদপত্র আর্কাইভ",
   "note": "২৫ ফেব্রুয়ারি থেকে পরবর্তী দিনগুলোর breaking coverage, casualty confirmation, hostage situation, surrender ও state response যাচাইয়ের জন্য archive source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "দৈনিক সংবাদপত্র আর্কাইভ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "২৫ ফেব্রুয়ারি থেকে পরবর্তী দিনগুলোর breaking coverage, casualty confirmation, hostage situation, surrender ও state response যাচাইয়ের জন্য archive source."
 }

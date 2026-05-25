@@ -1,8 +1,11 @@
 {
   "title": "The Emergence of Pakistan",
   "note": "An insider political account of Pakistan movement and state formation; useful as a critical reading source.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Chaudhri Muhammad Ali",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "An insider political account of Pakistan movement and state formation; useful as a critical reading source."
 }

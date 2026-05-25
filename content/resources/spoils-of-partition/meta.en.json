@@ -1,8 +1,11 @@
 {
   "title": "The Spoils of Partition: Bengal and India, 1947-1967",
   "note": "Important for understanding post-partition West Bengal, refugees, citizenship, borders, and the long-term impact of partition.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Joya Chatterji",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Important for understanding post-partition West Bengal, refugees, citizenship, borders, and the long-term impact of partition."
 }

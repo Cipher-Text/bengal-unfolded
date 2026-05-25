@@ -1,9 +1,12 @@
 {
   "title": "In Retrospection",
   "note": "Abul Hashim's memoir is useful for Bengal Muslim League politics, the Pakistan movement, and the partition debate.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "href": "https://www.rokomari.com/book/153559/in-retrospection",
   "attribution": "Abul Hashim",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Abul Hashim's memoir is useful for Bengal Muslim League politics, the Pakistan movement, and the partition debate."
 }

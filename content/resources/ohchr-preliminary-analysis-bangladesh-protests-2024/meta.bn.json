@@ -1,9 +1,12 @@
 {
   "title": "বাংলাদেশে সাম্প্রতিক প্রতিবাদ ও অস্থিরতার প্রাথমিক বিশ্লেষণ",
   "note": "জুলাই–আগস্ট ২০২৪ protest, unrest, alleged extrajudicial killings, arbitrary arrests, enforced disappearances, torture, ill-treatment এবং expression/assembly restrictions নিয়ে early UN analysis.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "জাতিসংঘ মানবাধিকার হাইকমিশনারের কার্যালয়",
   "quality": "secondary",
-  "href": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+  "href": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf",
+  "sourceQuality": "archive",
+  "evidenceLevel": "high",
+  "whyItMatters": "জুলাই–আগস্ট ২০২৪ protest, unrest, alleged extrajudicial killings, arbitrary arrests, enforced disappearances, torture, ill-treatment এবং expression/assembly restrictions নিয়ে early UN analysis."
 }

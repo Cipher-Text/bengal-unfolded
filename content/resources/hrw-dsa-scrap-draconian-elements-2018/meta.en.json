@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh: Scrap Draconian Elements of Digital Security Act",
   "note": "Rights-focused source on vague speech offences, surveillance power, and free-expression concerns before the law was passed.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Human Rights Watch",
   "quality": "secondary",
-  "href": "https://www.hrw.org/news/2018/02/23/bangladesh-scrap-draconian-elements-digital-security-act"
+  "href": "https://www.hrw.org/news/2018/02/23/bangladesh-scrap-draconian-elements-digital-security-act",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Rights-focused source on vague speech offences, surveillance power, and free-expression concerns before the law was passed."
 }

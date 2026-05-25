@@ -1,8 +1,11 @@
 {
   "title": "সংবিধান (ত্রয়োদশ সংশোধনী) আইন, ১৯৯৬",
   "note": "নির্দলীয় তত্ত্বাবধায়ক সরকার ব্যবস্থার সাংবিধানিক ভিত্তি বোঝার জন্য core primary source; ২০০৬ সংকটের legal background.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "বাংলাদেশ সরকার / বাংলাদেশ সংসদ",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "নির্দলীয় তত্ত্বাবধায়ক সরকার ব্যবস্থার সাংবিধানিক ভিত্তি বোঝার জন্য core primary source; ২০০৬ সংকটের legal background."
 }

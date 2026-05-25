@@ -1,8 +1,11 @@
 {
   "title": "Mountbatten Plan and 3 June 1947 Documents",
   "note": "Primary documents for the partition plan, British transfer of power, and the Bengal division background.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "British Indian Government archival records",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Primary documents for the partition plan, British transfer of power, and the Bengal division background."
 }

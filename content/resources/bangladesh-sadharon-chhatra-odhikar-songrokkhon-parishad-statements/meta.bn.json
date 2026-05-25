@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশ সাধারণ ছাত্র অধিকার সংরক্ষণ পরিষদের দাবি ও বিবৃতি",
   "note": "কোটা সংস্কার আন্দোলনের self-description, দাবি, কর্মসূচি ও student leadership বোঝার জন্য primary movement source.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "বাংলাদেশ সাধারণ ছাত্র অধিকার সংরক্ষণ পরিষদ",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "কোটা সংস্কার আন্দোলনের self-description, দাবি, কর্মসূচি ও student leadership বোঝার জন্য primary movement source."
 }

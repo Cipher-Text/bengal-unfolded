@@ -1,8 +1,11 @@
 {
   "title": "July Uprising 2024 Photo Archive",
   "note": "Photo archive for visual memory of the Bangla Blockade, campus protests, graffiti, memorials, and civic mobilisation.",
-  "category": "explore",
-  "subcategory": "photos",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Photojournalists / newspaper archive / citizen documentation",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Photo archive for visual memory of the Bangla Blockade, campus protests, graffiti, memorials, and civic mobilisation."
 }

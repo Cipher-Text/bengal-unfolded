@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh Photo Voter List and National ID Reform",
   "note": "Useful institutional source for understanding the 2007–2008 voter list reform, photo ID, and electoral modernization.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "UNDP / Bangladesh Election Commission support materials",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Useful institutional source for understanding the 2007–2008 voter list reform, photo ID, and electoral modernization."
 }

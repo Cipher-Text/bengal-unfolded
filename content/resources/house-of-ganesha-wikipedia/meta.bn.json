@@ -1,9 +1,12 @@
 {
   "title": "House of Ganesha",
   "note": "১৪১৪-১৪৩৬ সময়ের হাউস অব গণেশ শাসনপর্ব, উত্তরাধিকার রাজনীতি এবং বাংলা সালতানাতের অন্তর্বর্তী কাঠামো নিয়ে রেফারেন্সভিত্তিক সারসংক্ষেপ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/House_of_Ganesha",
   "attribution": "উইকিপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৪১৪-১৪৩৬ সময়ের হাউস অব গণেশ শাসনপর্ব, উত্তরাধিকার রাজনীতি এবং বাংলা সালতানাতের অন্তর্বর্তী কাঠামো নিয়ে রেফারেন্সভিত্তিক সারসংক্ষেপ।"
 }

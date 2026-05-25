@@ -1,9 +1,12 @@
 {
   "title": "Chittagong Hill Tracts Peace Accord",
   "note": "বাংলাদেশ সরকার ও পিসিজেএসএসের মধ্যে ১৯৯৭ সালের ২ ডিসেম্বর স্বাক্ষরিত চুক্তির সারসংক্ষেপ, যা সংঘাতপর্বের আনুষ্ঠানিক সমাপ্তি নির্দেশ করে।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Chittagong_Hill_Tracts_Peace_Accord",
   "attribution": "উইকিপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "বাংলাদেশ সরকার ও পিসিজেএসএসের মধ্যে ১৯৯৭ সালের ২ ডিসেম্বর স্বাক্ষরিত চুক্তির সারসংক্ষেপ, যা সংঘাতপর্বের আনুষ্ঠানিক সমাপ্তি নির্দেশ করে।"
 }

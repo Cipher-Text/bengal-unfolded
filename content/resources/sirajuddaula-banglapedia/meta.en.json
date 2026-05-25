@@ -1,9 +1,12 @@
 {
   "title": "Sirajuddaula",
   "note": "Biographical entry on Nawab Sirajuddaula, including court politics, conflict with the Company, and the fall after Plassey.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Sirajuddaula",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Biographical entry on Nawab Sirajuddaula, including court politics, conflict with the Company, and the fall after Plassey."
 }

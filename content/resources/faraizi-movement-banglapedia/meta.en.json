@@ -1,9 +1,12 @@
 {
   "title": "Faraizi Movement",
   "note": "Banglapedia overview of the Faraizi movement's origins, leadership, and social impact in eastern Bengal.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Faraizi_Movement",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia overview of the Faraizi movement's origins, leadership, and social impact in eastern Bengal."
 }

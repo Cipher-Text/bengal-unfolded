@@ -213,6 +213,32 @@ Example:
 }
 ```
 
+### Resource taxonomy rules (2026-05 revision)
+
+All `content/resources/*/meta.<locale>.json` entries must use one learning-oriented category:
+
+- `primary-sources`
+- `academic-books`
+- `reference-sources`
+- `research-articles-and-papers`
+- `memoirs-and-eyewitness-accounts`
+- `maps-and-visual-sources`
+- `documentary-and-video`
+- `cultural-and-literary-resources`
+- `news-and-contemporary-reports`
+- `further-reading`
+
+Additional requirements:
+
+- `subcategory` is required and must be a non-empty string.
+- `href` (if present) must be absolute `http(s)` URL.
+- `sourceQuality` and `evidenceLevel` must follow enum constraints and should reflect trust hierarchy:
+  - official legal/administrative/archival records -> `primary`/`archive`, evidence `high`
+  - scholarly books and papers -> `academic`, evidence `high`
+  - encyclopedia/reference compendia -> `reference`, evidence `medium` or `high`
+  - news/editorial reports -> `editorial`, evidence `medium` by default unless heavily sourced
+  - unknown provenance -> `unknown`, evidence `low`
+
 ### Place optional fields
 
 - `lat?: number`

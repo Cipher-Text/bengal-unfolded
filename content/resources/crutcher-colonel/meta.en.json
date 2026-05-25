@@ -1,8 +1,11 @@
 {
   "title": "Crutch Colonel",
   "note": "A historical novel for understanding Colonel Taher, JASAD, and the political memory of 7 November.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Shahaduzzaman",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A historical novel for understanding Colonel Taher, JASAD, and the political memory of 7 November."
 }

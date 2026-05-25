@@ -31,8 +31,11 @@
     "huseyn-shaheed-suhrawardy"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "language-movement-banglapedia",
+    "state-language-movement-in-east-bengal-1947-1956",
+    "international-mother-language-day-unesco",
+    "bhasha-andolon-1952",
+    "bhasha-andolana-pariprekshita-o-itihasa"
   ],
   "faq": [
     {
@@ -60,11 +63,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
       "reason": "Place the topic in long-term chronology."
@@ -73,6 +71,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "language-movement-banglapedia",
+      "reason": "Recommended source 1 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "state-language-movement-in-east-bengal-1947-1956",
+      "reason": "Recommended source 2 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "international-mother-language-day-unesco",
+      "reason": "Recommended source 3 for this topic"
     }
   ]
 }

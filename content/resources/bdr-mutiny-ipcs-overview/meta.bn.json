@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশ: বিডিআর বিদ্রোহ",
   "note": "পিলখানা বিদ্রোহের overview, timeline, immediate political/security implication বোঝার জন্য early policy brief.",
-  "category": "understand",
-  "subcategory": "papers",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "সন্দীপ ভরদ্বাজ, আইপিসিএস",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "পিলখানা বিদ্রোহের overview, timeline, immediate political/security implication বোঝার জন্য early policy brief."
 }

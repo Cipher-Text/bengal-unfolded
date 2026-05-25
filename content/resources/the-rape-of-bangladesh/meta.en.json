@@ -1,8 +1,11 @@
 {
   "title": "The Rape of Bangladesh",
   "note": "Influential account that helped expose atrocities in East Pakistan to a global audience.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Anthony Mascarenhas",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Influential account that helped expose atrocities in East Pakistan to a global audience."
 }

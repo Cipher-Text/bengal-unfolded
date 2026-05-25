@@ -1,9 +1,12 @@
 {
   "title": "History of the 1971 Liberation War",
   "note": "১৯৭১-এর ঘটনাপ্রবাহ ও ঐতিহাসিক প্রেক্ষাপট বোঝার জন্য ডকুমেন্টারি-ধর্মী ভিজ্যুয়াল রিসোর্স।",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.youtube.com/watch?v=F_fIOfz2Tlk",
   "attribution": "ডকুমেন্টারি ভিডিও",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "১৯৭১-এর ঘটনাপ্রবাহ ও ঐতিহাসিক প্রেক্ষাপট বোঝার জন্য ডকুমেন্টারি-ধর্মী ভিজ্যুয়াল রিসোর্স।"
 }

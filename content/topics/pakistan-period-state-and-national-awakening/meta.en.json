@@ -34,8 +34,11 @@
     "huseyn-shaheed-suhrawardy"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "six-point-programme-banglapedia",
+    "mass-upsurge-1969-banglapedia",
+    "legal-framework-order-1970-text",
+    "bhola-cyclone-britannica",
+    "pakistan-banglapedia"
   ],
   "faq": [
     {
@@ -63,11 +66,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
       "reason": "Place the topic in long-term chronology."
@@ -76,6 +74,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "six-point-programme-banglapedia",
+      "reason": "Recommended source 1 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "mass-upsurge-1969-banglapedia",
+      "reason": "Recommended source 2 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "legal-framework-order-1970-text",
+      "reason": "Recommended source 3 for this topic"
     }
   ]
 }

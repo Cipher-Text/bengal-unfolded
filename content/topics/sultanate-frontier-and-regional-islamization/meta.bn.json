@@ -33,8 +33,10 @@
     "huseyn-shaheed-suhrawardy"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "bengal-sultanate-wikipedia",
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+    "the-rise-of-islam-and-the-bengal-frontier-1204-1760",
+    "shah-jalal-banglapedia"
   ],
   "faq": [
     {
@@ -62,11 +64,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
       "reason": "Place the topic in long-term chronology."
@@ -75,6 +72,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "bengal-sultanate-wikipedia",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+    },
+    {
+      "type": "resource",
+      "id": "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+    },
+    {
+      "type": "resource",
+      "id": "the-rise-of-islam-and-the-bengal-frontier-1204-1760",
+      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
     }
   ]
 }

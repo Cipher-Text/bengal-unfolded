@@ -1,9 +1,12 @@
 {
   "title": "Nawab Family of Dhaka",
   "note": "Background on the Dhaka Nawab family and its political influence in the years around the 1905 partition.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Nawab_Family_of_Dhaka",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Background on the Dhaka Nawab family and its political influence in the years around the 1905 partition."
 }

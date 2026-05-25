@@ -1,8 +1,11 @@
 {
   "title": "রক্ষীবাহিনীর সত্য-মিথ্যা",
   "note": "রক্ষীবাহিনী ঘিরে বিতর্ক, অভিযোগ ও পাল্টা-বয়ান বোঝার জন্য critical source.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Rakkhibahini research",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "রক্ষীবাহিনী ঘিরে বিতর্ক, অভিযোগ ও পাল্টা-বয়ান বোঝার জন্য critical source."
 }

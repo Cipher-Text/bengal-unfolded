@@ -1,8 +1,11 @@
 {
   "title": "The Victory Story of the Eleven Sectors",
   "note": "Useful for understanding the Liberation War's sector-based military structure and the sequence of victories.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Sector-based Liberation War account",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Useful for understanding the Liberation War's sector-based military structure and the sequence of victories."
 }

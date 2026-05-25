@@ -1,8 +1,11 @@
 {
   "title": "দ্য ইন্ডিয়ান অ্যানুয়াল রেজিস্টার, ১৯৪৭",
   "note": "১৯৪৭ সালের রাজনৈতিক বিকাশ, বক্তৃতা, প্রস্তাব এবং জনরেকর্ড ট্র্যাক করার জন্য উপযোগী সংকলন.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "বার্ষিক রাজনৈতিক রেকর্ড সংকলন",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "১৯৪৭ সালের রাজনৈতিক বিকাশ, বক্তৃতা, প্রস্তাব এবং জনরেকর্ড ট্র্যাক করার জন্য উপযোগী সংকলন."
 }

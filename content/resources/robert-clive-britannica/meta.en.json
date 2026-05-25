@@ -1,9 +1,12 @@
 {
   "title": "Robert Clive",
   "note": "Profile of Clive with focus on Plassey, Bengal administration, and the expansion of Company power.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/biography/Robert-Clive",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Profile of Clive with focus on Plassey, Bengal administration, and the expansion of Company power."
 }

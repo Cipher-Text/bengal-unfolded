@@ -1,9 +1,12 @@
 {
   "title": "The Prison Diaries",
   "note": "Sheikh Mujibur Rahman's jail diaries cover the 1966-1968 repression cycle and the Six-Point era.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/The_Prison_Diaries",
   "attribution": "Sheikh Mujibur Rahman",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Sheikh Mujibur Rahman's jail diaries cover the 1966-1968 repression cycle and the Six-Point era."
 }

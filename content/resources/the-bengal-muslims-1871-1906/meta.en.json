@@ -1,9 +1,12 @@
 {
   "title": "The Bengal Muslims, 1871-1906: A Quest for Identity",
   "note": "A study of early Bengali Muslim identity formation and political-social change in colonial Bengal.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://openlibrary.org/works/OL11318850W/The_Bengal_Muslims_1871-1906",
   "attribution": "Rafiuddin Ahmed",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A study of early Bengali Muslim identity formation and political-social change in colonial Bengal."
 }

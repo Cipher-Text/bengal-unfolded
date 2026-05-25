@@ -1,8 +1,11 @@
 {
   "title": "BDR Mutiny: Witness and Testimony Collection",
   "note": "Useful collection of testimonies, court records, and survivor/family accounts. Each claim should still be verified against the record.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Testimony, court documents, and newspaper collection",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Useful collection of testimonies, court records, and survivor/family accounts. Each claim should still be verified against the record."
 }

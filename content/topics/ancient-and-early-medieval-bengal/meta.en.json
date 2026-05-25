@@ -32,7 +32,9 @@
     "lakshmana-sena"
   ],
   "resourceIds": [
-    "bakhtiyar-khalji-banglapedia",
+    "mahasthangarh-unesco",
+    "shashanka-britannica",
+    "the-history-of-bengal-vol-1-hindu-period",
     "a-history-of-bangladesh"
   ],
   "faq": [
@@ -61,11 +63,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "ancient-and-pre-sultanate-bengal",
       "reason": "Place the topic in long-term chronology."
@@ -74,6 +71,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "mahasthangarh-unesco",
+      "reason": "Recommended source 1 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "shashanka-britannica",
+      "reason": "Recommended source 2 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "the-history-of-bengal-vol-1-hindu-period",
+      "reason": "Recommended source 3 for this topic"
     }
   ]
 }

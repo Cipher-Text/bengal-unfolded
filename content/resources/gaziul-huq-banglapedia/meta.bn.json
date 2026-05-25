@@ -1,9 +1,12 @@
 {
   "title": "Haque, ANM Gaziul",
   "note": "২১ ফেব্রুয়ারি ১৯৫২-এর ঐতিহাসিক আমতলা সভার সভাপতিত্বকারী গাজীউল হকের ওপর একটি গুরুত্বপূর্ণ রেফারেন্স উৎস।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Haque%2C_ANM_Gaziul",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "২১ ফেব্রুয়ারি ১৯৫২-এর ঐতিহাসিক আমতলা সভার সভাপতিত্বকারী গাজীউল হকের ওপর একটি গুরুত্বপূর্ণ রেফারেন্স উৎস।"
 }

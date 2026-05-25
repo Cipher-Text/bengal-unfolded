@@ -1,9 +1,28 @@
 {
   "title": "A Case Study of Swadeshi Bengal",
   "note": "স্বদেশী জাগরণের স্থানীয় গতিশীলতা এবং বাংলায় জাতীয়তাবাদী চিন্তার গঠন বুঝতে এক ক্লাসিক গবেষণা।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://www.jstor.org/stable/44138513",
   "attribution": "Sumit Sarkar",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "স্বদেশী জাগরণের স্থানীয় গতিশীলতা এবং বাংলায় জাতীয়তাবাদী চিন্তার গঠন বুঝতে এক ক্লাসিক গবেষণা।",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory",
+    "colonial-conquest-revenue-and-resistance",
+    "democracy-and-civic-movements",
+    "language-movement-and-mother-language-day",
+    "late-colonial-muslim-politics-and-agrarian-mobilization",
+    "liberation-war-1971",
+    "mughal-bengal-and-regional-resistance",
+    "pakistan-period-state-and-national-awakening",
+    "partition-and-identity",
+    "partition-of-bengal-1905",
+    "peasant-religious-and-rural-resistance",
+    "post-1971-state-crises-and-civic-contestation",
+    "state-formation-crisis-and-military-rule-1972-1990",
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

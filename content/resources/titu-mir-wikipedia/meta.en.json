@@ -1,9 +1,12 @@
 {
   "title": "Titu Mir",
   "note": "Reference summary of Titumir's life, leadership, and the 1831 bamboo-fort uprising.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Titumir",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Reference summary of Titumir's life, leadership, and the 1831 bamboo-fort uprising."
 }

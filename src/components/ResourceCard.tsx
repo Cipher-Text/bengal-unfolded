@@ -2,36 +2,29 @@ import Link from "next/link";
 import type { EventResource, Locale } from "@/types/content";
 
 const CATEGORY_LABELS = {
-  en: { read: "Read", watch: "Watch", explore: "Explore", understand: "Understand" },
-  bn: { read: "পড়ুন", watch: "দেখুন", explore: "অন্বেষণ", understand: "বোঝুন" },
-} as const;
-
-const SUBCATEGORY_LABELS = {
   en: {
-    "historical-literature": "Historical Literature",
-    novel: "Novel",
-    memoir: "Memoir",
-    movie: "Movie",
-    documentary: "Documentary",
-    drama: "Drama",
-    archive: "Archive",
-    documents: "Documents",
-    photos: "Photos",
-    research: "Research",
-    papers: "Papers",
+    "primary-sources": "Primary Sources",
+    "academic-books": "Academic Books",
+    "reference-sources": "Reference Sources",
+    "research-articles-and-papers": "Research Articles and Papers",
+    "memoirs-and-eyewitness-accounts": "Memoirs and Eyewitness Accounts",
+    "maps-and-visual-sources": "Maps and Visual Sources",
+    "documentary-and-video": "Documentary and Video",
+    "cultural-and-literary-resources": "Cultural and Literary Resources",
+    "news-and-contemporary-reports": "News and Contemporary Reports",
+    "further-reading": "Further Reading",
   },
   bn: {
-    "historical-literature": "ঐতিহাসিক সাহিত্য",
-    novel: "উপন্যাস",
-    memoir: "স্মৃতিকথা",
-    movie: "চলচ্চিত্র",
-    documentary: "ডকুমেন্টারি",
-    drama: "নাটক",
-    archive: "আর্কাইভ",
-    documents: "ডকুমেন্টস",
-    photos: "ছবি",
-    research: "গবেষণা",
-    papers: "পেপারস",
+    "primary-sources": "প্রাথমিক সূত্র",
+    "academic-books": "অ্যাকাডেমিক বই",
+    "reference-sources": "রেফারেন্স সূত্র",
+    "research-articles-and-papers": "গবেষণা প্রবন্ধ ও পেপার",
+    "memoirs-and-eyewitness-accounts": "স্মৃতিকথা ও প্রত্যক্ষদর্শীর বর্ণনা",
+    "maps-and-visual-sources": "মানচিত্র ও ভিজ্যুয়াল সূত্র",
+    "documentary-and-video": "ডকুমেন্টারি ও ভিডিও",
+    "cultural-and-literary-resources": "সাংস্কৃতিক ও সাহিত্যিক রিসোর্স",
+    "news-and-contemporary-reports": "সংবাদ ও সমসাময়িক প্রতিবেদন",
+    "further-reading": "আরও পড়ুন",
   },
 } as const;
 
@@ -46,9 +39,7 @@ export function ResourceCard({ resource, locale, index = 0 }: { resource: EventR
 
   return (
     <article className={`postcard ${tiltClass} relative p-5`}>
-      <p className="text-eyebrow">
-        {CATEGORY_LABELS[locale][resource.category]} · {SUBCATEGORY_LABELS[locale][resource.subcategory]}
-      </p>
+      <p className="text-eyebrow">{CATEGORY_LABELS[locale][resource.category]} · {resource.subcategory}</p>
       <h3 className="text-display mt-3 text-lg font-semibold leading-snug md:text-xl">
         <Link href={`/${locale}/resources/${resource.id}`} className="link-ink">
           {resource.title}

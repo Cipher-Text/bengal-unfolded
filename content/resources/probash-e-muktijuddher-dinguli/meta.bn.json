@@ -1,8 +1,11 @@
 {
   "title": "প্রবাসে মুক্তিযুদ্ধের দিনগুলি",
   "note": "প্রবাসে সংগঠন, জনমত এবং মুক্তিযুদ্ধের পক্ষে প্রচারণা বোঝার জন্য সহায়ক স্মৃতিকথা.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Diaspora Liberation War memory collection",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "প্রবাসে সংগঠন, জনমত এবং মুক্তিযুদ্ধের পক্ষে প্রচারণা বোঝার জন্য সহায়ক স্মৃতিকথা."
 }

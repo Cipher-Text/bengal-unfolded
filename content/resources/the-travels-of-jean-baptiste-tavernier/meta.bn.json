@@ -1,9 +1,12 @@
 {
   "title": "The Travels of Jean-Baptiste Tavernier",
   "note": "সপ্তদশ শতকের ভ্রমণকথা; বাণিজ্যপথ, বিলাসপণ্য, ও মুঘল-যুগের বাণিজ্য বোঝার কাজে লাগে।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Jean-Baptiste_Tavernier",
   "attribution": "জঁ-ব্যাপ্টিস্ট তাভার্নিয়ে",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "সপ্তদশ শতকের ভ্রমণকথা; বাণিজ্যপথ, বিলাসপণ্য, ও মুঘল-যুগের বাণিজ্য বোঝার কাজে লাগে।"
 }

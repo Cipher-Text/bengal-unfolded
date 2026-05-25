@@ -1,8 +1,11 @@
 {
   "title": "রাইফেল, রোটি, আওরাত",
   "note": "১৯৭১ চলাকালীন লেখা উপন্যাস; দখলদার ঢাকার ভীতি ও অস্থিরতার শক্তিশালী চিত্র।",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "আনোয়ার পাশা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৯৭১ চলাকালীন লেখা উপন্যাস; দখলদার ঢাকার ভীতি ও অস্থিরতার শক্তিশালী চিত্র।"
 }

@@ -1,8 +1,11 @@
 {
   "title": "Government Moves SC to Scrap HC Verdict that Reinstated Quota System",
   "note": "Useful newspaper source on the High Court verdict, government appeal, and early July legal-political timeline.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "The Daily Star",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful newspaper source on the High Court verdict, government appeal, and early July legal-political timeline."
 }

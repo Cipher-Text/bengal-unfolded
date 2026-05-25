@@ -1,9 +1,12 @@
 {
   "title": "Karnaphulir Kanna / Teardrops of Karnaphuli",
   "note": "চট্টগ্রাম পার্বত্যাঞ্চলের আদিবাসী মানুষের দুর্দশা এবং উদ্বাস্তু-রাজনীতি নিয়ে একটি ডকুমেন্টারি।",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.imdb.com/title/tt6070438/",
   "attribution": "Tanvir Mokammel",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "চট্টগ্রাম পার্বত্যাঞ্চলের আদিবাসী মানুষের দুর্দশা এবং উদ্বাস্তু-রাজনীতি নিয়ে একটি ডকুমেন্টারি।"
 }

@@ -1,9 +1,12 @@
 {
   "title": "Jatiya Party",
   "note": "A reference on the party Ershad built to civilianize and legitimize the regime born from the 1982 coup.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Jatiya_Party",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A reference on the party Ershad built to civilianize and legitimize the regime born from the 1982 coup."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Ninth Parliamentary Election 2008: Election Report",
   "note": "Primary institutional source on the 29 December 2008 election, results, voter list, process, and turnout.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Bangladesh Election Commission",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Primary institutional source on the 29 December 2008 election, results, voter list, process, and turnout."
 }

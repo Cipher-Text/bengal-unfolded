@@ -1,9 +1,12 @@
 {
   "title": "Lakshmi Bai",
   "note": "ঝাঁসির রানি লক্ষ্মীবাইয়ের জীবন, সামরিক প্রতিরোধ এবং ১৮৫৭-৫৮ বিদ্রোহে তার নেতৃত্ব নিয়ে প্রামাণ্য রেফারেন্স।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/biography/Lakshmi-Bai",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "ঝাঁসির রানি লক্ষ্মীবাইয়ের জীবন, সামরিক প্রতিরোধ এবং ১৮৫৭-৫৮ বিদ্রোহে তার নেতৃত্ব নিয়ে প্রামাণ্য রেফারেন্স।"
 }

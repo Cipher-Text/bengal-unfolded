@@ -1,9 +1,12 @@
 {
   "title": "Somapura Mahavira",
   "note": "Britannica reference for the 8th-century Somapura monastery at Paharpur as a major intellectual and architectural center.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Somapura-Mahavira",
   "attribution": "Encyclopaedia Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Britannica reference for the 8th-century Somapura monastery at Paharpur as a major intellectual and architectural center."
 }

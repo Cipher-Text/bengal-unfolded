@@ -1,9 +1,12 @@
 {
   "title": "Bengal Famine (1943)",
   "note": "১৯৪৩ সালের বাংলার দুর্ভিক্ষে কলকাতার হতদরিদ্র মানুষের পরিস্থিতি নিয়ে তরকচন্দ্র দাসের জরিপভিত্তিক গবেষণা।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://books.google.com/books/about/Bengal_Famine_1943.html?id=X6R6twEACAAJ",
   "attribution": "তরকচন্দ্র দাস",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৯৪৩ সালের বাংলার দুর্ভিক্ষে কলকাতার হতদরিদ্র মানুষের পরিস্থিতি নিয়ে তরকচন্দ্র দাসের জরিপভিত্তিক গবেষণা।"
 }

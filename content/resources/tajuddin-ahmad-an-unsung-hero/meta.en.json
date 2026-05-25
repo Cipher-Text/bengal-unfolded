@@ -1,9 +1,12 @@
 {
   "title": "Tajuddin Ahmad: An Unsung Hero",
   "note": "Important for Mujibnagar leadership and Tajuddin Ahmad’s role in 1971 political command.",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.imdb.com/title/tt6456004/",
   "attribution": "Tanvir Mokammel",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Important for Mujibnagar leadership and Tajuddin Ahmad’s role in 1971 political command."
 }

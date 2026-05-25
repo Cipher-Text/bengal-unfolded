@@ -1,9 +1,12 @@
 {
   "title": "Firuz Shah Tughlaq",
   "note": "১৩৫৩-৫৪ ও ১৩৫৯-৬০ সালের বঙ্গ অভিযানের প্রেক্ষাপট ধরতে ফিরোজ শাহ তুঘলকের শাসনকালভিত্তিক বাংলাপিডিয়া রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Firuz_Shah_Tughlaq",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৩৫৩-৫৪ ও ১৩৫৯-৬০ সালের বঙ্গ অভিযানের প্রেক্ষাপট ধরতে ফিরোজ শাহ তুঘলকের শাসনকালভিত্তিক বাংলাপিডিয়া রেফারেন্স।"
 }

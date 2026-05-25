@@ -1,9 +1,12 @@
 {
   "title": "Shaheed Minar",
   "note": "১৯৫২ সালের স্মৃতিকে কীভাবে স্থায়ী স্মারক ও রাজনৈতিক প্রতীকে রূপ দেওয়া হয়েছিল, তা বোঝার জন্য গুরুত্বপূর্ণ।",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Shaheed_Minar",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৯৫২ সালের স্মৃতিকে কীভাবে স্থায়ী স্মারক ও রাজনৈতিক প্রতীকে রূপ দেওয়া হয়েছিল, তা বোঝার জন্য গুরুত্বপূর্ণ।"
 }

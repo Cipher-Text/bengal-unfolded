@@ -1,8 +1,11 @@
 {
   "title": "Omkar",
   "note": "A literary text on language, nationhood, and cultural identity that helps illuminate the long background to 1971.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Ahmad Sofa",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A literary text on language, nationhood, and cultural identity that helps illuminate the long background to 1971."
 }

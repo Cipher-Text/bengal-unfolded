@@ -1,8 +1,11 @@
 {
   "title": "Ice-Candy-Man / Cracking India",
   "note": "A major novel on partition trauma, gendered violence, and the Lahore context.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Bapsi Sidhwa",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A major novel on partition trauma, gendered violence, and the Lahore context."
 }

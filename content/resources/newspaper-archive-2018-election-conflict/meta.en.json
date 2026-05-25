@@ -1,8 +1,11 @@
 {
   "title": "Eleventh National Parliament Election 2018: Conflict and Campaign Archive",
   "note": "Archive source for campaign coverage, violence, arrests, polling-day allegations, and opposition reactions.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Newspaper archive",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Archive source for campaign coverage, violence, arrests, polling-day allegations, and opposition reactions."
 }

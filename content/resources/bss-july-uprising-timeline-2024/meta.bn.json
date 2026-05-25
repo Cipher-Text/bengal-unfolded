@@ -1,8 +1,11 @@
 {
   "title": "ছাত্র-জনতার জুলাই অভ্যুত্থানের সময়রেখা",
   "note": "Bangla Blockade, key dates, movement escalation, one-point demand এবং July uprising timeline-এর state news agency summary; cross-check দরকার.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "বাংলাদেশ সংবাদ সংস্থা",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Bangla Blockade, key dates, movement escalation, one-point demand এবং July uprising timeline-এর state news agency summary; cross-check দরকার."
 }

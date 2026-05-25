@@ -1,9 +1,12 @@
 {
   "title": "Adina Mosque",
   "note": "বাংলা সালতানাতের স্থাপত্য ধারার একটি গুরুত্বপূর্ণ নিদর্শন হিসেবে আদিনা মসজিদ সম্পর্কে রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Adina_Mosque",
   "attribution": "উইকিপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "বাংলা সালতানাতের স্থাপত্য ধারার একটি গুরুত্বপূর্ণ নিদর্শন হিসেবে আদিনা মসজিদ সম্পর্কে রেফারেন্স।"
 }

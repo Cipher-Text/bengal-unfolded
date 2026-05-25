@@ -1,10 +1,13 @@
 {
   "title": "Syed Ahmad Khan",
   "note": "Sir Syed's writings and reformist program, including Asbab-e-Baghawat-e-Hind and Athar-us-Sanadid, are key to understanding Muslim modernism, education reform, and colonial-era political consciousness.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Syed_Ahmad_Khan",
   "attribution": "Wikipedia",
   "creatorType": "organization",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Sir Syed's writings and reformist program, including Asbab-e-Baghawat-e-Hind and Athar-us-Sanadid, are key to understanding Muslim modernism, education reform, and colonial-era political consciousness."
 }

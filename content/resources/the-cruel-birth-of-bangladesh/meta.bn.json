@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশের নির্মম জন্ম",
   "note": "আর্চার ব্লাডের দৃষ্টিকোণ থেকে ১৯৭১-এর রাজনৈতিক ও মানবিক সংকট.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Archer Blood",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "আর্চার ব্লাডের দৃষ্টিকোণ থেকে ১৯৭১-এর রাজনৈতিক ও মানবিক সংকট."
 }

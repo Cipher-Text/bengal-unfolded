@@ -1,8 +1,11 @@
 {
   "title": "2018 Bangladesh Road Safety Protests",
   "note": "Starting source for the road-safety movement after the deaths of two students, student traffic control, and public accountability demands.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Movement overview / newspaper archive",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Starting source for the road-safety movement after the deaths of two students, student traffic control, and public accountability demands."
 }

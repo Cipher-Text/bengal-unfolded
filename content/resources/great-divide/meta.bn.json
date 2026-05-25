@@ -1,8 +1,11 @@
 {
   "title": "দ্য গ্রেট ডিভাইড: ব্রিটেন, ভারত, পাকিস্তান",
   "note": "ব্রিটিশ প্রত্যাহার, দেশভাগ কূটনীতি এবং ভারত-পাকিস্তান সৃষ্টি নিয়ে বিস্তৃত রাজনৈতিক ইতিহাস.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "এইচ. ভি. হডসন",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "ব্রিটিশ প্রত্যাহার, দেশভাগ কূটনীতি এবং ভারত-পাকিস্তান সৃষ্টি নিয়ে বিস্তৃত রাজনৈতিক ইতিহাস."
 }

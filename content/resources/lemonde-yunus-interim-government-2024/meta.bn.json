@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশি সেনাবাহিনী ও ছাত্র প্রতিবাদকারীরা মুহাম্মদ ইউনূসকে অন্তর্বর্তী সরকারের প্রধান হিসেবে মানলেন",
   "note": "President, army, student representatives এবং Muhammad Yunus-led interim government formation বোঝার জন্য transition source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "লে মোঁদ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "President, army, student representatives এবং Muhammad Yunus-led interim government formation বোঝার জন্য transition source."
 }

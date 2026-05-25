@@ -1,9 +1,12 @@
 {
   "title": "বাংলাদেশের কোটা সংস্কার আন্দোলনে কী ঘটেছিল?",
   "note": "কোটা সংস্কার আন্দোলনের background, Supreme Court order, curfew, internet shutdown, deaths, arrests এবং accountability demand বোঝার জন্য useful rights-focused explainer.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "অ্যামনেস্টি ইন্টারন্যাশনাল",
   "quality": "secondary",
-  "href": "https://www.amnesty.org/en/latest/news/2024/07/what-is-happening-at-the-quota-reform-protests-in-bangladesh/"
+  "href": "https://www.amnesty.org/en/latest/news/2024/07/what-is-happening-at-the-quota-reform-protests-in-bangladesh/",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "কোটা সংস্কার আন্দোলনের background, Supreme Court order, curfew, internet shutdown, deaths, arrests এবং accountability demand বোঝার জন্য useful rights-focused explainer."
 }

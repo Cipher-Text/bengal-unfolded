@@ -1,9 +1,12 @@
 {
   "title": "আওয়ামী লীগ",
   "note": "পূর্ব পাকিস্তান ও বাংলাদেশের রাজনীতিতে আওয়ামী লীগের প্রতিষ্ঠা-প্রেক্ষিত, বিকাশ ও ভূমিকায় ব্রিটানিকার সংক্ষিপ্ত বিশ্লেষণ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Awami-League",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "পূর্ব পাকিস্তান ও বাংলাদেশের রাজনীতিতে আওয়ামী লীগের প্রতিষ্ঠা-প্রেক্ষিত, বিকাশ ও ভূমিকায় ব্রিটানিকার সংক্ষিপ্ত বিশ্লেষণ।"
 }

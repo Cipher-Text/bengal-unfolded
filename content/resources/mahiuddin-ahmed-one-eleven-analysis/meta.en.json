@@ -1,8 +1,11 @@
 {
   "title": "1/11 and Bangladesh’s Political Shift",
   "note": "Bangla secondary reading on party politics, Awami League-BNP dynamics, reform politics, and the political impact of 1/11. Edition should be verified.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Mahiuddin Ahmed / political analysis",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Bangla secondary reading on party politics, Awami League-BNP dynamics, reform politics, and the political impact of 1/11. Edition should be verified."
 }

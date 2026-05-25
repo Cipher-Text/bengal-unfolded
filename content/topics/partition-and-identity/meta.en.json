@@ -32,8 +32,11 @@
     "huseyn-shaheed-suhrawardy"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "partition-of-british-india-national-archives",
+    "mountbatten-plan-documents",
+    "radcliffe-award-documents",
+    "indian-annual-register-1947",
+    "partition-of-bengal-1947-banglapedia"
   ],
   "faq": [
     {
@@ -61,11 +64,6 @@
       "reason": "Study a key historical actor."
     },
     {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
-    },
-    {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
       "reason": "Place the topic in long-term chronology."
@@ -74,6 +72,21 @@
       "type": "place",
       "id": "bengal-region",
       "reason": "Anchor changes in the Bengal region context."
+    },
+    {
+      "type": "resource",
+      "id": "partition-of-british-india-national-archives",
+      "reason": "Recommended source 1 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "mountbatten-plan-documents",
+      "reason": "Recommended source 2 for this topic"
+    },
+    {
+      "type": "resource",
+      "id": "radcliffe-award-documents",
+      "reason": "Recommended source 3 for this topic"
     }
   ]
 }

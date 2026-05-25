@@ -1,9 +1,12 @@
 {
   "title": "Partition of Bengal",
   "note": "A Bengal-centered reference on the origins, implementation, and political consequences of the 1905 partition.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Partition_of_Bengal",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A Bengal-centered reference on the origins, implementation, and political consequences of the 1905 partition."
 }

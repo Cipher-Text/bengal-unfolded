@@ -1,8 +1,11 @@
 {
   "title": "The Military’s Role in Bangladesh, 2007–2008",
   "note": "Critical academic and policy reading on military influence, indirect rule debates, and civilian transition.",
-  "category": "understand",
-  "subcategory": "papers",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Academic / policy analysis",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Critical academic and policy reading on military influence, indirect rule debates, and civilian transition."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Agunpakhi",
   "note": "A major literary source on Bengal partition, family memory, and displacement.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Hasan Azizul Huq",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A major literary source on Bengal partition, family memory, and displacement."
 }

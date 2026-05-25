@@ -1,8 +1,11 @@
 {
   "title": "Genocide in Bangladesh",
   "note": "An early account of the 1971 genocide, international reaction, and atrocity documentation.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Kalyan Chaudhuri",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "An early account of the 1971 genocide, international reaction, and atrocity documentation."
 }

@@ -1,8 +1,11 @@
 {
   "title": "দ্য পার্টিশন অফ বেঙ্গল অ্যান্ড আসাম, ১৯৩২-১৯৪৭",
   "note": "বঙ্গ ও আসামের দেশভাগ, ডিকলোনাইজেশন এবং আঞ্চলিক খণ্ডিতকরণের রাজনৈতিক প্রক্রিয়া বোঝার জন্য গুরুত্বপূর্ণ.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "বিদ্যুৎ চক্রবর্তী",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "বঙ্গ ও আসামের দেশভাগ, ডিকলোনাইজেশন এবং আঞ্চলিক খণ্ডিতকরণের রাজনৈতিক প্রক্রিয়া বোঝার জন্য গুরুত্বপূর্ণ."
 }

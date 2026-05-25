@@ -1,8 +1,11 @@
 {
   "title": "গণজাগরণ মঞ্চের দাবি ও বিবৃতি, ২০১৩",
   "note": "আন্দোলনের self-description, ছয় দফা/দাবি, কর্মসূচি ও সাংগঠনিক ভাষা বোঝার জন্য primary movement source.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "গণজাগরণ মঞ্চ / শাহবাগ আন্দোলনকারীরা",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "আন্দোলনের self-description, ছয় দফা/দাবি, কর্মসূচি ও সাংগঠনিক ভাষা বোঝার জন্য primary movement source."
 }

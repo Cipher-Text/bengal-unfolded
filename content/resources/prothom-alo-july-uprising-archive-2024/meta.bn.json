@@ -1,8 +1,11 @@
 {
   "title": "বৈষম্যবিরোধী আন্দোলন / জুলাই গণঅভ্যুত্থান: প্রথম আলো আর্কাইভ",
   "note": "আন্দোলনের local timeline, নিহত-আহত, campus events, internet shutdown, arrests, ৫ আগস্ট transition ও aftermath বোঝার জন্য Bangla news archive.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "প্রথম আলো",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "আন্দোলনের local timeline, নিহত-আহত, campus events, internet shutdown, arrests, ৫ আগস্ট transition ও aftermath বোঝার জন্য Bangla news archive."
 }

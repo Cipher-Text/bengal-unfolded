@@ -1,9 +1,12 @@
 {
   "title": "Bonojatri / Riders to the Sunderbans",
   "note": "A documentary on Sundarbans life and ecology; useful for riverine and forest Bengal context.",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.youtube.com/watch?v=TsMTukaa1Lo",
   "attribution": "Tanvir Mokammel / Kino-Eye Films",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "A documentary on Sundarbans life and ecology; useful for riverine and forest Bengal context."
 }

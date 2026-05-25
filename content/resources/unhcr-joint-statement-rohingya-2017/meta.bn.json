@@ -1,9 +1,12 @@
 {
   "title": "Joint Statement on the Rohingya Refugee Crisis (2017)",
   "note": "UN agencies' joint crisis statement from October 2017.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "UNHCR",
   "quality": "primary",
-  "href": "https://www.unhcr.org/news/news-releases/joint-statement-rohingya-refugee-crisis"
+  "href": "https://www.unhcr.org/news/news-releases/joint-statement-rohingya-refugee-crisis",
+  "sourceQuality": "archive",
+  "evidenceLevel": "high",
+  "whyItMatters": "UN agencies' joint crisis statement from October 2017."
 }

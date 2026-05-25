@@ -1,9 +1,12 @@
 {
   "title": "Humayun",
   "note": "Britannica biography and campaign context on Humayun, including the Bengal campaign before Chausa.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/biography/Humayun-Mughal-emperor",
   "attribution": "Britannica",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Britannica biography and campaign context on Humayun, including the Bengal campaign before Chausa."
 }

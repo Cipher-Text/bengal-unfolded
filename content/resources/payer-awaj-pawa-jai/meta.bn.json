@@ -1,8 +1,11 @@
 {
   "title": "পায়ের আওয়াজ পাওয়া যায়",
   "note": "যুদ্ধের শেষ দিনগুলোর প্রেক্ষাপটে লেখা বিখ্যাত কাব্যনাট্য; সহযোগী শক্তির মানসিক ভাঙন তুলে ধরে।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "সৈয়দ শামসুল হক",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "যুদ্ধের শেষ দিনগুলোর প্রেক্ষাপটে লেখা বিখ্যাত কাব্যনাট্য; সহযোগী শক্তির মানসিক ভাঙন তুলে ধরে।"
 }

@@ -1,9 +1,12 @@
 {
   "title": "Alauddin Husain Shah",
   "note": "Biographical overview of Alauddin Husain Shah, founder of the Hussain Shahi ruling line in Bengal.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Alauddin_Husain_Shah",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Biographical overview of Alauddin Husain Shah, founder of the Hussain Shahi ruling line in Bengal."
 }

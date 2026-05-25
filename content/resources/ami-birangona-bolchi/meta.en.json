@@ -1,8 +1,11 @@
 {
   "title": "Ami Birangona Bolchi (A War Heroine, I Speak)",
   "note": "Groundbreaking testimonies of Birangonas documenting gendered violence during the war.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Nilima Ibrahim",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Groundbreaking testimonies of Birangonas documenting gendered violence during the war."
 }

@@ -1,9 +1,12 @@
 {
   "title": "Permanent Settlement, The",
   "note": "Bengal-focused reference on the 1793 settlement, zamindari property rights, and its impact on raiyats and agrarian relations.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Permanent_Settlement%2C_The",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Bengal-focused reference on the 1793 settlement, zamindari property rights, and its impact on raiyats and agrarian relations."
 }

@@ -1,9 +1,12 @@
 {
   "title": "The Fear Never Leaves Me: Torture, Custodial Deaths, and Unfair Trials after the 2009 Mutiny",
   "note": "Major human-rights source on post-Pilkhana detention, torture allegations, custodial deaths, mass trials, and fair-trial concerns.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Human Rights Watch",
   "quality": "secondary",
-  "href": "https://www.hrw.org/report/2012/07/04/fear-never-leaves-me/torture-custodial-deaths-and-unfair-trials-after-2009-mutiny"
+  "href": "https://www.hrw.org/report/2012/07/04/fear-never-leaves-me/torture-custodial-deaths-and-unfair-trials-after-2009-mutiny",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Major human-rights source on post-Pilkhana detention, torture allegations, custodial deaths, mass trials, and fair-trial concerns."
 }

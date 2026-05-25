@@ -1,9 +1,12 @@
 {
   "title": "Midnight's Furies: The Deadly Legacy of India's Partition",
   "note": "A narrative history focused on the political breakdown, communal escalation, and human cost surrounding partition.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://openlibrary.org/books/OL29241247M/Midnight%27s_Furies",
   "attribution": "Nisid Hajari",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A narrative history focused on the political breakdown, communal escalation, and human cost surrounding partition."
 }

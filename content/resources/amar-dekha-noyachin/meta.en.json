@@ -1,9 +1,12 @@
 {
   "title": "Amar Dekha Noya Chin",
   "note": "Sheikh Mujibur Rahman's travelogue about his 1952 China visit and postcolonial Asian politics.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://www.tbsnews.net/bangladesh/pm-unveils-new-graphic-novel-bangabandhus-travel-china-785682",
   "attribution": "Sheikh Mujibur Rahman",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Sheikh Mujibur Rahman's travelogue about his 1952 China visit and postcolonial Asian politics."
 }

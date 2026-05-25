@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh Nationalist Party",
   "note": "১৯৯০-এর রূপান্তরে পৌঁছানো জোট রাজনীতিতে বিএনপির ভূমিকা বোঝার জন্য একটি গুরুত্বপূর্ণ উৎস।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Bangladesh_Nationalist_Party",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৯৯০-এর রূপান্তরে পৌঁছানো জোট রাজনীতিতে বিএনপির ভূমিকা বোঝার জন্য একটি গুরুত্বপূর্ণ উৎস।"
 }

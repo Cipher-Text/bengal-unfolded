@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh: World Report 2008 Country Summary",
   "note": "Annual rights summary of the caretaker government, emergency rule, reforms, arrests, and the rights environment.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Human Rights Watch",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Annual rights summary of the caretaker government, emergency rule, reforms, arrests, and the rights environment."
 }

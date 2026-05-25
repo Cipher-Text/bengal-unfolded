@@ -1,9 +1,12 @@
 {
   "title": "The Islamic Heritage of Bengal",
   "note": "A UNESCO volume on Bengal Sultanate and Mughal-era Islamic architecture, inscriptions, and material culture.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://digitallibrary.un.org/record/711",
   "attribution": "George Michell / UNESCO",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "archive",
+  "evidenceLevel": "high",
+  "whyItMatters": "A UNESCO volume on Bengal Sultanate and Mughal-era Islamic architecture, inscriptions, and material culture."
 }

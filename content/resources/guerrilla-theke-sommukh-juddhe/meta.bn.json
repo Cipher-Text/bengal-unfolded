@@ -1,8 +1,11 @@
 {
   "title": "গেরিলা থেকে সম্মুখযুদ্ধে",
   "note": "গেরিলা যুদ্ধ থেকে সম্মুখযুদ্ধের রূপান্তর বোঝার জন্য field-level মুক্তিযোদ্ধা account.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Mahbub Alam",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "গেরিলা যুদ্ধ থেকে সম্মুখযুদ্ধের রূপান্তর বোঝার জন্য field-level মুক্তিযোদ্ধা account."
 }

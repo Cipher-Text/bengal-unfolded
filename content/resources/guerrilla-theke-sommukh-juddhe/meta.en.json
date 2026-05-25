@@ -1,8 +1,11 @@
 {
   "title": "From Guerrilla to Frontline Combat",
   "note": "A field-level freedom fighter account that helps explain the shift from guerrilla war to direct battle.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Mahbub Alam",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A field-level freedom fighter account that helps explain the shift from guerrilla war to direct battle."
 }

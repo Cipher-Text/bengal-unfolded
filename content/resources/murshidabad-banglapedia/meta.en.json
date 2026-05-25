@@ -1,9 +1,12 @@
 {
   "title": "Murshidabad",
   "note": "Background on why Murshidabad rose as the political and financial center of Bengal and how the city developed under the nawabs.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Murshidabad",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Background on why Murshidabad rose as the political and financial center of Bengal and how the city developed under the nawabs."
 }

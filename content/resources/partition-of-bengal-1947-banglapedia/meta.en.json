@@ -1,9 +1,12 @@
 {
   "title": "Partition of Bengal, 1947",
   "note": "A focused reference entry on the procedures, votes, commissions, and political decisions that divided Bengal in 1947.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Partition_of_Bengal%2C_1947",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A focused reference entry on the procedures, votes, commissions, and political decisions that divided Bengal in 1947."
 }

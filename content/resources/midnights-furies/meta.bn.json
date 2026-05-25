@@ -1,9 +1,12 @@
 {
   "title": "Midnight's Furies: The Deadly Legacy of India's Partition",
   "note": "দেশভাগকে ঘিরে রাজনৈতিক ভাঙন, সাম্প্রদায়িক সহিংসতার বিস্তার এবং মানবিক বিপর্যয়ের একটি বর্ণনামূলক ইতিহাস।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://openlibrary.org/books/OL29241247M/Midnight%27s_Furies",
   "attribution": "নিসিদ হাজরি",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "দেশভাগকে ঘিরে রাজনৈতিক ভাঙন, সাম্প্রদায়িক সহিংসতার বিস্তার এবং মানবিক বিপর্যয়ের একটি বর্ণনামূলক ইতিহাস।"
 }

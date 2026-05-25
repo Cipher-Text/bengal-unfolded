@@ -1,8 +1,11 @@
 {
   "title": "জুলাই অভ্যুত্থান ২০২৪ আলোকচিত্র আর্কাইভ",
   "note": "Bangla Blockade, campus protests, graffiti, wall writing, traffic control, memorials এবং civic mobilisation visual memory বোঝার জন্য photo archive.",
-  "category": "explore",
-  "subcategory": "photos",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "ফটোজার্নালিস্ট / সংবাদপত্র আর্কাইভ / নাগরিক দলিল",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Bangla Blockade, campus protests, graffiti, wall writing, traffic control, memorials এবং civic mobilisation visual memory বোঝার জন্য photo archive."
 }

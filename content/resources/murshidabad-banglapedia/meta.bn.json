@@ -1,9 +1,12 @@
 {
   "title": "Murshidabad",
   "note": "মুর্শিদাবাদ কীভাবে বাংলার রাজনৈতিক-অর্থনৈতিক কেন্দ্রে পরিণত হয় এবং নবাবি আমলে শহরটির বিকাশ সম্পর্কে Banglapedia-র প্রামাণ্য সারসংক্ষেপ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Murshidabad",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুর্শিদাবাদ কীভাবে বাংলার রাজনৈতিক-অর্থনৈতিক কেন্দ্রে পরিণত হয় এবং নবাবি আমলে শহরটির বিকাশ সম্পর্কে Banglapedia-র প্রামাণ্য সারসংক্ষেপ।"
 }

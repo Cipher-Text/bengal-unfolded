@@ -1,8 +1,11 @@
 {
   "title": "Emergency Proclamation, 11 January 2007",
   "note": "Primary legal basis for the emergency declaration, suspension of civil liberties, and restriction of political activity.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Government of Bangladesh / President’s Office",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Primary legal basis for the emergency declaration, suspension of civil liberties, and restriction of political activity."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Hangor Nodi Grenade",
   "note": "Powerful fiction of sacrifice, resistance, and moral crisis in a rural wartime setting.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "Selina Hossain",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Powerful fiction of sacrifice, resistance, and moral crisis in a rural wartime setting."
 }

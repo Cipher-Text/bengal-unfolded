@@ -1,8 +1,11 @@
 {
   "title": "Internet Shutdown and Communication Restrictions during July 2024 Protests",
   "note": "Digital-rights source on internet blackout, mobile-data restriction, social-media blocking, and information control.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Access Now / NetBlocks / rights documentation",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Digital-rights source on internet blackout, mobile-data restriction, social-media blocking, and information control."
 }

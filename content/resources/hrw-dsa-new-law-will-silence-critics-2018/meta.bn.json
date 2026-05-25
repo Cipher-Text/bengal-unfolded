@@ -1,9 +1,12 @@
 {
   "title": "বাংলাদেশ: নতুন আইন সমালোচকদের নীরব করবে",
   "note": "Digital Security Act পাস হওয়ার পর HRW-এর free speech critique; ২০১৮-এর legal-control chapter-এর জন্য important secondary source.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "হিউম্যান রাইটস ওয়াচ",
   "quality": "secondary",
-  "href": "https://www.hrw.org/news/2018/09/25/bangladesh-new-law-will-silence-critics"
+  "href": "https://www.hrw.org/news/2018/09/25/bangladesh-new-law-will-silence-critics",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Digital Security Act পাস হওয়ার পর HRW-এর free speech critique; ২০১৮-এর legal-control chapter-এর জন্য important secondary source."
 }

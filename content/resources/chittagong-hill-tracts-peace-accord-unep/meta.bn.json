@@ -1,9 +1,12 @@
 {
   "title": "Chittagong Hill Tracts Treaty, 1997",
   "note": "Legal repository metadata for the CHT treaty text.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "UNEP Law and Environment Assistance Platform",
   "quality": "archive",
-  "href": "https://leap.unep.org/en/countries/bd/national-legislation/chittagong-hill-tracts-treaty-1997"
+  "href": "https://leap.unep.org/en/countries/bd/national-legislation/chittagong-hill-tracts-treaty-1997",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Legal repository metadata for the CHT treaty text."
 }

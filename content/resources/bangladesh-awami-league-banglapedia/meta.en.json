@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh Awami League",
   "note": "Useful for tracing the Awami League's parliamentary and street opposition to Ershad.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Bangladesh_Awami_League",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful for tracing the Awami League's parliamentary and street opposition to Ershad."
 }

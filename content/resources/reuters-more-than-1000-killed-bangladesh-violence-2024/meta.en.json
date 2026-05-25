@@ -1,8 +1,11 @@
 {
   "title": "More than 1,000 Killed in Bangladesh Violence since July, Health Ministry Chief Says",
   "note": "Contemporary news archive on the interim health ministry’s casualty estimate and the death-toll debate.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Reuters",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Contemporary news archive on the interim health ministry’s casualty estimate and the death-toll debate."
 }

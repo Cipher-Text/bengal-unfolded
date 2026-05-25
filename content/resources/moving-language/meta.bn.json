@@ -1,9 +1,12 @@
 {
   "title": "Moving Language",
   "note": "১৯৫২ সালের ভাষা আন্দোলন নিয়ে ইংরেজি সাবটাইটেলসহ একটি সংক্ষিপ্ত ডকুমেন্টারি; আন্তর্জাতিক পাঠকের জন্য ভালো পরিচিতি।",
-  "category": "watch",
-  "subcategory": "documentary",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.youtube.com/watch?v=OuXywJjyXxg",
   "attribution": "ডকুমেন্টারি শর্ট",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "১৯৫২ সালের ভাষা আন্দোলন নিয়ে ইংরেজি সাবটাইটেলসহ একটি সংক্ষিপ্ত ডকুমেন্টারি; আন্তর্জাতিক পাঠকের জন্য ভালো পরিচিতি।"
 }

@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh: Quest for Freedom and Justice",
   "note": "কামাল হোসেনের স্মৃতিকথা মুক্তিযুদ্ধ, সংবিধান, গণতন্ত্র, এবং ন্যায়বিচারের প্রশ্নকে ধরে।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://openlibrary.org/works/OL23275667W/Bangladesh_quest_for_freedom_and_justice",
   "attribution": "কামাল হোসেন",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "কামাল হোসেনের স্মৃতিকথা মুক্তিযুদ্ধ, সংবিধান, গণতন্ত্র, এবং ন্যায়বিচারের প্রশ্নকে ধরে।"
 }

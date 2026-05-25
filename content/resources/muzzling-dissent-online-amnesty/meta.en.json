@@ -1,10 +1,13 @@
 {
   "title": "Bangladesh: Muzzling dissent online",
   "note": "Amnesty International briefing on the Digital Security Act's vague offences, surveillance powers, and threats to journalists and online expression.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.amnesty.org/en/documents/asa13/9364/2018/en/",
   "attribution": "Amnesty International",
   "creatorType": "organization",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Amnesty International briefing on the Digital Security Act's vague offences, surveillance powers, and threats to journalists and online expression."
 }

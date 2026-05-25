@@ -1,10 +1,13 @@
 {
   "title": "বাংলাদেশ: নতুন ডিজিটাল সিকিউরিটি অ্যাক্ট মতপ্রকাশের স্বাধীনতায় বিপজ্জনক সীমাবদ্ধতা আরোপ করে",
   "note": "২০১৮ সালে ডিজিটাল সিকিউরিটি অ্যাক্ট কার্যকর হওয়ার পর মতপ্রকাশ ও সংবাদমাধ্যমের স্বাধীনতা নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের প্রতিক্রিয়া।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://www.amnesty.org/en/latest/news/2018/09/bangladesh-new-digital-security-act-imposes-dangerous-restrictions-on-freedom-of-expression/",
   "attribution": "অ্যামনেস্টি ইন্টারন্যাশনাল",
   "creatorType": "organization",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "২০১৮ সালে ডিজিটাল সিকিউরিটি অ্যাক্ট কার্যকর হওয়ার পর মতপ্রকাশ ও সংবাদমাধ্যমের স্বাধীনতা নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের প্রতিক্রিয়া।"
 }

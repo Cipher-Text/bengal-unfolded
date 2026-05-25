@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh: The BDR Mutiny",
   "note": "Early policy brief giving an overview, timeline, and immediate political-security implications of the revolt.",
-  "category": "understand",
-  "subcategory": "papers",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Sandeep Bhardwaj, IPCS",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Early policy brief giving an overview, timeline, and immediate political-security implications of the revolt."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Pilkhana / BDR Mutiny Archive",
   "note": "Useful news archive for event-time updates, aftermath, investigation, and trial coverage.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "bdnews24.com",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Useful news archive for event-time updates, aftermath, investigation, and trial coverage."
 }

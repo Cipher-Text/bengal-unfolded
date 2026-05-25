@@ -1,8 +1,11 @@
 {
   "title": "হাঙর নদী গ্রেনেড",
   "note": "গ্রামীণ প্রেক্ষাপটে আত্মত্যাগ, প্রতিরোধ ও নৈতিক সংকটের শক্তিশালী সাহিত্যিক উপস্থাপন।",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "সেলিনা হোসেন",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "গ্রামীণ প্রেক্ষাপটে আত্মত্যাগ, প্রতিরোধ ও নৈতিক সংকটের শক্তিশালী সাহিত্যিক উপস্থাপন।"
 }

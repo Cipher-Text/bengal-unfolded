@@ -1,8 +1,11 @@
 {
   "title": "ইনসাইড বেঙ্গল পলিটিকস, ১৯৩৬-১৯৪৭: পার্টিশন লিডারদের অপ্রকাশিত চিঠিপত্র",
   "note": "১৯৩৬ থেকে ১৯৪৭ সময়ের বঙ্গ রাজনীতি ও দেশভাগ-নেতাদের সিদ্ধান্তগ্রহণ বোঝার জন্য চিঠিপত্রভিত্তিক source.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "সম্পাদিত চিঠিপত্র সংকলন",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "১৯৩৬ থেকে ১৯৪৭ সময়ের বঙ্গ রাজনীতি ও দেশভাগ-নেতাদের সিদ্ধান্তগ্রহণ বোঝার জন্য চিঠিপত্রভিত্তিক source."
 }

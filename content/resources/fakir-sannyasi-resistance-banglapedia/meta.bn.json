@@ -1,9 +1,12 @@
 {
   "title": "ফকির-সন্ন্যাসী প্রতিরোধ",
   "note": "বঙ্গপিডিয়া বাংলা অঞ্চলে ১৭৬০ সাল থেকে ইংরেজ ইস্ট ইন্ডিয়া কোম্পানির বিরুদ্ধে ফকির ও সন্ন্যাসীদের যৌথ প্রতিরোধকে ব্যাখ্যা করে।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Fakir-Sannyasi_Resistance",
   "attribution": "বঙ্গপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "বঙ্গপিডিয়া বাংলা অঞ্চলে ১৭৬০ সাল থেকে ইংরেজ ইস্ট ইন্ডিয়া কোম্পানির বিরুদ্ধে ফকির ও সন্ন্যাসীদের যৌথ প্রতিরোধকে ব্যাখ্যা করে।"
 }

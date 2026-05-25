@@ -1,9 +1,12 @@
 {
   "title": "Bangladesh Liberation War of 1971: Narratives, Impacts and the Actors",
   "note": "প্রতিদ্বন্দ্বী বর্ণনা, প্রভাব, এবং ১৯৭১-এর রাজনৈতিক স্মৃতি বোঝার জন্য উপযোগী।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://journals.sagepub.com/doi/abs/10.1177/0974928416637921",
   "attribution": "Amit Ranjan",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "প্রতিদ্বন্দ্বী বর্ণনা, প্রভাব, এবং ১৯৭১-এর রাজনৈতিক স্মৃতি বোঝার জন্য উপযোগী।"
 }

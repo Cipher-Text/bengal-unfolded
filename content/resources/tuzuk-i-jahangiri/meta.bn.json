@@ -1,9 +1,12 @@
 {
   "title": "Tuzuk-i-Jahangiri / Jahangirnama",
   "note": "জাহাঙ্গীরের স্মৃতিকথা; সপ্তদশ শতকের শুরুতে মুঘল রাজনীতি ও বাংলা অভিযান বোঝার উৎস।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Tuzk-e-Jahangiri",
   "attribution": "সম্রাট জাহাঙ্গীর",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "জাহাঙ্গীরের স্মৃতিকথা; সপ্তদশ শতকের শুরুতে মুঘল রাজনীতি ও বাংলা অভিযান বোঝার উৎস।"
 }

@@ -1,8 +1,11 @@
 {
   "title": "একাত্তরের ডায়েরি",
   "note": "মুক্তিযুদ্ধকালীন নাগরিক জীবন, সংস্কৃতি এবং ব্যক্তিগত অভিজ্ঞতার গুরুত্বপূর্ণ স্মৃতিকথা.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Sufia Kamal",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুক্তিযুদ্ধকালীন নাগরিক জীবন, সংস্কৃতি এবং ব্যক্তিগত অভিজ্ঞতার গুরুত্বপূর্ণ স্মৃতিকথা."
 }

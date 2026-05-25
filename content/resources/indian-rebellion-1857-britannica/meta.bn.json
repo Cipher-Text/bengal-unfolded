@@ -1,9 +1,12 @@
 {
   "title": "Indian Rebellion of 1857",
   "note": "১৮৫৭-৫৯ সালের বিদ্রোহের কারণ, বিস্তার, প্রধান যুদ্ধক্ষেত্র ও দমনপ্রক্রিয়া বোঝার জন্য একটি মৌলিক সামগ্রিক রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/event/Indian-Rebellion-of-1857",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৮৫৭-৫৯ সালের বিদ্রোহের কারণ, বিস্তার, প্রধান যুদ্ধক্ষেত্র ও দমনপ্রক্রিয়া বোঝার জন্য একটি মৌলিক সামগ্রিক রেফারেন্স।"
 }

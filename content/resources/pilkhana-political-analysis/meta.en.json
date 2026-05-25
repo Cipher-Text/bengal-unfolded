@@ -1,8 +1,11 @@
 {
   "title": "Pilkhana Massacre: State, Military, and Political Analysis",
   "note": "Secondary analysis of the political interpretation, security failure, civil-military relations, and conspiracy debate around the event.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Political/security analysis collection",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "Secondary analysis of the political interpretation, security failure, civil-military relations, and conspiracy debate around the event."
 }

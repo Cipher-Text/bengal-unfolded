@@ -1,8 +1,11 @@
 {
   "title": "Dialogue Before and After the Liberation War",
   "note": "An oral-history style compilation of testimony and reflection around the Liberation War.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "Oral history interview collection",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "An oral-history style compilation of testimony and reflection around the Liberation War."
 }

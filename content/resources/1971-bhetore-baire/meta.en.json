@@ -1,8 +1,11 @@
 {
   "title": "1971: Inside and Outside",
   "note": "A post-1971 reflection on the war and its internal experience and political observation.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "A. K. Khondker",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A post-1971 reflection on the war and its internal experience and political observation."
 }

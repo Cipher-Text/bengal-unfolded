@@ -1,9 +1,12 @@
 {
   "title": "The Emergence of Bangladesh",
   "note": "An interdisciplinary volume on the making of Bangladesh, from language politics to the 1971 war and beyond.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://link.springer.com/book/10.1007/978-981-16-5521-0",
   "attribution": "Habibul Khondker, Olav Muurlink, Asif Bin Ali",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "An interdisciplinary volume on the making of Bangladesh, from language politics to the 1971 war and beyond."
 }

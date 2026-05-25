@@ -1,8 +1,11 @@
 {
   "title": "বর্ডার গার্ড বাংলাদেশ আইন, ২০১০",
   "note": "BDR থেকে Border Guard Bangladesh-এ institutional transformation, আইনগত কাঠামো ও post-mutiny reform বোঝার জন্য primary legal source.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "বাংলাদেশ সরকার / বাংলাদেশ সংসদ",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "BDR থেকে Border Guard Bangladesh-এ institutional transformation, আইনগত কাঠামো ও post-mutiny reform বোঝার জন্য primary legal source."
 }

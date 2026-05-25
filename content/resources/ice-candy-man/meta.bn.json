@@ -1,8 +1,11 @@
 {
   "title": "আইস-ক্যান্ডি ম্যান / ক্র্যাকিং ইন্ডিয়া",
   "note": "দেশভাগের ট্রমা, লিঙ্গভিত্তিক সহিংসতা এবং লাহোর প্রেক্ষাপট নিয়ে গুরুত্বপূর্ণ উপন্যাস.",
-  "category": "read",
-  "subcategory": "novel",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "attribution": "ব্যাপসি সিধওয়া",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "দেশভাগের ট্রমা, লিঙ্গভিত্তিক সহিংসতা এবং লাহোর প্রেক্ষাপট নিয়ে গুরুত্বপূর্ণ উপন্যাস."
 }

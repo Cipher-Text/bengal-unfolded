@@ -1,9 +1,12 @@
 {
   "title": "স্বাধীনতার পর বাংলাদেশ",
   "note": "মুজিবের প্রত্যাবর্তন এবং প্রাথমিক সাংবিধানিক রাষ্ট্রগঠনের একটি সংক্ষিপ্ত ঐতিহাসিক সারাংশ।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/place/Bangladesh/Bangladesh-since-independence",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মুজিবের প্রত্যাবর্তন এবং প্রাথমিক সাংবিধানিক রাষ্ট্রগঠনের একটি সংক্ষিপ্ত ঐতিহাসিক সারাংশ।"
 }

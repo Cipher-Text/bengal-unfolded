@@ -1,9 +1,12 @@
 {
   "title": "Cornwallis Code",
   "note": "১৭৯৩ সালের বিধিমালা, বঙ্গীয় প্রশাসনিক কাঠামো এবং স্থায়ী রাজস্ব বন্দোবস্তের আইনি কাঠামো বোঝার জন্য একটি সংক্ষিপ্ত অথচ কার্যকর রেফারেন্স।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://www.britannica.com/topic/Cornwallis-Code",
   "attribution": "এনসাইক্লোপিডিয়া ব্রিটানিকা",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "১৭৯৩ সালের বিধিমালা, বঙ্গীয় প্রশাসনিক কাঠামো এবং স্থায়ী রাজস্ব বন্দোবস্তের আইনি কাঠামো বোঝার জন্য একটি সংক্ষিপ্ত অথচ কার্যকর রেফারেন্স।"
 }

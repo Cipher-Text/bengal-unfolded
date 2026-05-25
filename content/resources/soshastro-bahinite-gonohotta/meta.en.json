@@ -1,8 +1,11 @@
 {
   "title": "Massacres in the Armed Forces",
   "note": "A sensitive-history source on killings, purges, and state violence in the armed forces after independence.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "attribution": "Armed forces purge research",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A sensitive-history source on killings, purges, and state violence in the armed forces after independence."
 }

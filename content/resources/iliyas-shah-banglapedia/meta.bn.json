@@ -1,9 +1,12 @@
 {
   "title": "Iliyas Shah",
   "note": "শামসুদ্দিন ইলিয়াস শাহের ক্ষমতা সংহতি ও দিল্লির সঙ্গে সংঘাতের সময়রেখা ধরতে ব্যবহৃত বাংলাপিডিয়া প্রোফাইল।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Iliyas_Shah",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "শামসুদ্দিন ইলিয়াস শাহের ক্ষমতা সংহতি ও দিল্লির সঙ্গে সংঘাতের সময়রেখা ধরতে ব্যবহৃত বাংলাপিডিয়া প্রোফাইল।"
 }

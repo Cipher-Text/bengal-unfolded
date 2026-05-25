@@ -140,6 +140,24 @@ File updated:
 - `[x]` Future-sensitive event `2026-election` removed from historical hubs
 - `[~]` Editorial/source refinement by domain experts for final wording and source curation
 
+## Resource SEO strategy revision (2026-05-25)
+
+- Replaced legacy generic resource buckets with trust-oriented taxonomy for search intent clarity:
+  - Primary Sources
+  - Academic Books
+  - Reference Sources
+  - Research Articles and Papers
+  - Memoirs and Eyewitness Accounts
+  - Maps and Visual Sources
+  - Documentary and Video
+  - Cultural and Literary Resources
+  - News and Contemporary Reports
+  - Further Reading
+- Standardized `sourceQuality` + `evidenceLevel` values for all resources to support transparent credibility labeling.
+- Added reverse-linking metadata (`relatedTopicIds`) from topic hubs to resource detail pages for richer crawl paths.
+- Updated `/[locale]/resources` filtering and category ordering for educational intent and cleaner SERP alignment.
+- Updated event resource grouping to prioritize strongest evidence first (primary/archive/academic before editorial/video).
+
 ### Next priority pages
 
 1. `/bn/topics/bangladesh-history` and `/en/topics/bangladesh-history`

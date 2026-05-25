@@ -1,8 +1,11 @@
 {
   "title": "শাহবাগ আন্দোলন আর্কাইভ",
   "note": "শাহবাগ আন্দোলনের national coverage, editorials, opinion, photo features ও long-term reflections বোঝার জন্য useful newspaper archive.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "দ্য ডেইলি স্টার",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "শাহবাগ আন্দোলনের national coverage, editorials, opinion, photo features ও long-term reflections বোঝার জন্য useful newspaper archive."
 }

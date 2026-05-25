@@ -1,9 +1,12 @@
 {
   "title": "Constitution",
   "note": "A Bangladesh-centered reference on the adoption, structure, principles, and later amendment history of the 1972 Constitution.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Constitution",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A Bangladesh-centered reference on the adoption, structure, principles, and later amendment history of the 1972 Constitution."
 }

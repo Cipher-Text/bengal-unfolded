@@ -1,8 +1,11 @@
 {
   "title": "অক্টোবর ২০০৬ রাজনৈতিক সহিংসতা ও লগি-বৈঠা সংঘর্ষ: সংবাদপত্র আর্কাইভ",
   "note": "২৮ অক্টোবর ২০০৬ রাজনৈতিক সংঘর্ষ, তত্ত্বাবধায়ক সরকার গঠন সংকট ও street violence trace করার জন্য archive source.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "দৈনিক সংবাদপত্র আর্কাইভ",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "২৮ অক্টোবর ২০০৬ রাজনৈতিক সংঘর্ষ, তত্ত্বাবধায়ক সরকার গঠন সংকট ও street violence trace করার জন্য archive source."
 }

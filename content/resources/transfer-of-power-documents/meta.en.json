@@ -1,8 +1,11 @@
 {
   "title": "The Transfer of Power, 1942-7",
   "note": "Primary and archive-quality documents for British withdrawal, the Mountbatten Plan, Cabinet Mission, and the partition decision.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "British Government document collection",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Primary and archive-quality documents for British withdrawal, the Mountbatten Plan, Cabinet Mission, and the partition decision."
 }

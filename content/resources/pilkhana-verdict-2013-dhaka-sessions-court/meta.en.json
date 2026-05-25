@@ -1,8 +1,11 @@
 {
   "title": "Pilkhana Murder Case Verdict, 2013",
   "note": "Primary judicial source on the verdict, sentences, acquittals, and judicial reasoning in the case.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Dhaka Metropolitan Sessions Court",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Primary judicial source on the verdict, sentences, acquittals, and judicial reasoning in the case."
 }

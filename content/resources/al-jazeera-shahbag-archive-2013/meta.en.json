@@ -1,8 +1,11 @@
 {
   "title": "Thousands in Bangladesh War Crimes Protest",
   "note": "Early international coverage of the Shahbag movement and an external reporting perspective on the protests.",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Al Jazeera English",
-  "quality": "archive"
+  "quality": "archive",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Early international coverage of the Shahbag movement and an external reporting perspective on the protests."
 }

@@ -1,8 +1,11 @@
 {
   "title": "Revolt at the BDR Headquarters situated at Peelkhana: Government Investigation Report",
   "note": "Core government investigation report on the 2009 Peelkhana killings. Useful for the event sequence, causes, responsibility, and administrative failure.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Government Investigation Committee, Chairman: Anis Uz Zaman Khan",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Core government investigation report on the 2009 Peelkhana killings. Useful for the event sequence, causes, responsibility, and administrative failure."
 }

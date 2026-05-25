@@ -1,9 +1,12 @@
 {
   "title": "Ahmed, Justice Shahabuddin",
   "note": "এরশাদের পতনের পর তত্ত্বাবধায়ক ক্ষমতা হস্তান্তর বোঝার জন্য একটি গুরুত্বপূর্ণ উৎস।",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Ahmed%2C_Justice_Shahabuddin",
   "attribution": "বাংলাপিডিয়া",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "এরশাদের পতনের পর তত্ত্বাবধায়ক ক্ষমতা হস্তান্তর বোঝার জন্য একটি গুরুত্বপূর্ণ উৎস।"
 }

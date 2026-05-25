@@ -1,9 +1,12 @@
 {
   "title": "The Bengal Borderland",
   "note": "বঙ্গ, ভারত, পাকিস্তান, বাংলাদেশ, ও বার্মা জুড়ে সীমান্ত, দেশভাগ, ও রাষ্ট্রগঠনের একটি গবেষণা।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "href": "https://books.google.com/books/about/The_Bengal_Borderland.html?id=vTyP0zJ8140C",
   "attribution": "উইলেম ভ্যান শেনডেল",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "বঙ্গ, ভারত, পাকিস্তান, বাংলাদেশ, ও বার্মা জুড়ে সীমান্ত, দেশভাগ, ও রাষ্ট্রগঠনের একটি গবেষণা।"
 }

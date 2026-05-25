@@ -1,9 +1,12 @@
 {
   "title": "Mughal conquest of Bengal",
   "note": "Overview of Mughal campaigns in Bengal, including Rajmahal and post-1576 consolidation.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Mughal_conquest_of_Bengal",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Overview of Mughal campaigns in Bengal, including Rajmahal and post-1576 consolidation."
 }

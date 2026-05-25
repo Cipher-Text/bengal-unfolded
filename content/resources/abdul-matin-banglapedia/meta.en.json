@@ -1,9 +1,12 @@
 {
   "title": "Matin, Abdul",
   "note": "A key biographical entry on Bhasha Matin and his central role in the language movement.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Matin%2C_Abdul",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A key biographical entry on Bhasha Matin and his central role in the language movement."
 }

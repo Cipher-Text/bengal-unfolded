@@ -1,8 +1,11 @@
 {
   "title": "গবেষণা গ্রন্থ",
   "note": "প্রাথমিক পটভূমি বোঝার জন্য উপযোগী।",
-  "category": "explore",
-  "subcategory": "archive",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "বিভিন্ন লেখক",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "প্রাথমিক পটভূমি বোঝার জন্য উপযোগী।"
 }

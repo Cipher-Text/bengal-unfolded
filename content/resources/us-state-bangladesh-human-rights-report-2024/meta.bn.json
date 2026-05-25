@@ -1,8 +1,11 @@
 {
   "title": "বাংলাদেশ ২০২৪ মানবাধিকার প্রতিবেদন",
   "note": "২০২৪ সালের human-rights situation, mass student protests, killings, detention এবং transition context নিয়ে annual external state report.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "মার্কিন পররাষ্ট্র দপ্তর",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "২০২৪ সালের human-rights situation, mass student protests, killings, detention এবং transition context নিয়ে annual external state report."
 }

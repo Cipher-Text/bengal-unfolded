@@ -1,9 +1,12 @@
 {
   "title": "General Election, 1970",
   "note": "A Bangladesh-centered reference on the 1970 election results, turnout, and the Awami League's overwhelming mandate in East Pakistan.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php?title=Election",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "A Bangladesh-centered reference on the 1970 election results, turnout, and the Awami League's overwhelming mandate in East Pakistan."
 }

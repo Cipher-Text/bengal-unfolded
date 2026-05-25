@@ -1,9 +1,12 @@
 {
   "title": "Maratha Raids in Bengal (Bargi invasions)",
   "note": "Banglapedia-style historical reference on Maratha incursions in Bengal during Alivardi's reign.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
   "href": "https://en.banglapedia.org/index.php/Maratha_Invasion",
   "attribution": "Banglapedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia-style historical reference on Maratha incursions in Bengal during Alivardi's reign."
 }

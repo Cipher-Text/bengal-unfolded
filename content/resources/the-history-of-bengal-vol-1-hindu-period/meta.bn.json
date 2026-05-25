@@ -1,9 +1,12 @@
 {
   "title": "The History of Bengal, Vol. I: Hindu Period",
   "note": "প্রাচীন বাংলা ও হিন্দু পর্বের একটি মৌলিক গবেষণাধর্মী সারাংশ।",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literature and Cultural Texts",
   "href": "https://books.google.com/books/about/The_History_of_Bengal_Hindu_period_edite.html?id=2vHrnQAACAAJ",
   "attribution": "আর. সি. মজুমদার",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "প্রাচীন বাংলা ও হিন্দু পর্বের একটি মৌলিক গবেষণাধর্মী সারাংশ।"
 }

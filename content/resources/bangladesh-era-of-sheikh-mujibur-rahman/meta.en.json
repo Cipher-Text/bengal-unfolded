@@ -1,8 +1,11 @@
 {
   "title": "Bangladesh: Era of Sheikh Mujibur Rahman",
   "note": "Important insider-political account of the 1972–1975 Mujib years, covering administration, constitution, emergency rule, BAKSAL, and political crisis.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Moudud Ahmed",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Important insider-political account of the 1972–1975 Mujib years, covering administration, constitution, emergency rule, BAKSAL, and political crisis."
 }

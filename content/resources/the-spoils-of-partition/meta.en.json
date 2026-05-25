@@ -1,9 +1,12 @@
 {
   "title": "The Spoils of Partition: Bengal and India, 1947-1967",
   "note": "A major Bengal-focused study of partition's aftermath, displacement, state formation, and long political consequences.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "research-articles-and-papers",
+  "subcategory": "Scholarly Articles and Papers",
   "href": "https://www.cambridge.org/core/books/spoils-of-partition/introduction/6363F4902DA5D4F82FA351F5F0B3CFEC",
   "attribution": "Joya Chatterji",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A major Bengal-focused study of partition's aftermath, displacement, state formation, and long political consequences."
 }

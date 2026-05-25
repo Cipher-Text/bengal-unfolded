@@ -1,8 +1,11 @@
 {
   "title": "1990 Bangladesh Mass Uprising",
   "note": "Quick starting point for the timeline, key actors, and event sequence. Cross-check with academic and primary sources before citing.",
-  "category": "read",
-  "subcategory": "historical-literature",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Wikipedia contributors",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Quick starting point for the timeline, key actors, and event sequence. Cross-check with academic and primary sources before citing."
 }

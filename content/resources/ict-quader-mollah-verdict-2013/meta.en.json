@@ -1,8 +1,11 @@
 {
   "title": "Abdul Quader Mollah Verdict, 2013",
   "note": "Core judicial source for the 5 February 2013 verdict that triggered the Shahbag movement.",
-  "category": "explore",
-  "subcategory": "documents",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "International Crimes Tribunal Bangladesh",
-  "quality": "primary"
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Core judicial source for the 5 February 2013 verdict that triggered the Shahbag movement."
 }

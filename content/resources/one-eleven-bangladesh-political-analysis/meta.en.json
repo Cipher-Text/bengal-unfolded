@@ -1,8 +1,11 @@
 {
   "title": "1/11: Political Analysis of the Military-Backed Caretaker Rule in Bangladesh",
   "note": "Contextual research on the causes of 1/11, the military role, reform politics, and democratic accountability debates.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
   "attribution": "Political analysis / research collection",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Contextual research on the causes of 1/11, the military role, reform politics, and democratic accountability debates."
 }

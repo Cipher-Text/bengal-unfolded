@@ -1,8 +1,11 @@
 {
   "title": "ঢাকায় আত্মসমর্পণ: এক জাতির জন্ম",
   "note": "যুদ্ধের শেষ পর্যায় এবং ঢাকায় আত্মসমর্পণের গুরুত্বপূর্ণ বিবরণ.",
-  "category": "read",
-  "subcategory": "memoir",
+  "category": "memoirs-and-eyewitness-accounts",
+  "subcategory": "Memoirs and Testimonies",
   "attribution": "J. F. R. Jacob",
-  "quality": "editorial"
+  "quality": "editorial",
+  "sourceQuality": "secondary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "যুদ্ধের শেষ পর্যায় এবং ঢাকায় আত্মসমর্পণের গুরুত্বপূর্ণ বিবরণ."
 }

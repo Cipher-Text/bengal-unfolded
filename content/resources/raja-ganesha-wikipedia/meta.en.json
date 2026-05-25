@@ -1,9 +1,12 @@
 {
   "title": "Raja Ganesha",
   "note": "Biographical and political overview of Raja Ganesha's seizure of power in early fifteenth-century Bengal.",
-  "category": "understand",
-  "subcategory": "research",
+  "category": "reference-sources",
+  "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/Raja_Ganesha",
   "attribution": "Wikipedia",
-  "quality": "secondary"
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Biographical and political overview of Raja Ganesha's seizure of power in early fifteenth-century Bengal."
 }
