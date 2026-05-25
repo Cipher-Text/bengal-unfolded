@@ -1150,10 +1150,13 @@ export const getEventsByPlaceId = cache(
     assertSupportedLocale(locale);
     assertSupportedPlaceId(placeId);
 
+    const place = await getPlace(locale, placeId);
+    const relatedEventIds = new Set(place.relatedEventIds ?? []);
+
     const allEvents = await Promise.all(
       SUPPORTED_EVENT_SLUGS.map(async (slug) => {
         const meta = await getEventMeta(locale, slug);
-        return meta.placeId === placeId ? meta : null;
+        return meta.placeId === placeId || relatedEventIds.has(meta.slug) ? meta : null;
       }),
     );
 
