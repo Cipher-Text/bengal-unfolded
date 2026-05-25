@@ -1,0 +1,74 @@
+{
+  "id": "palashi-plassey",
+  "title": "Palashi (Plassey)",
+  "subtitle": "Site of the 1757 Battle That Changed Bengal's History",
+  "description": "A small village in Bengal where the 1757 Battle of Plassey took place, marking the beginning of British colonial rule in India. The battlefield witnessed the defeat of Nawab Siraj ud-Daulah by the East India Company's forces under Robert Clive.",
+  "placeType": "battlefield",
+  "themeColor": "#8b4513",
+  "lat": 23.8056,
+  "lon": 88.2511,
+  "coordinateConfidence": "approximate",
+  "modernCountry": "India",
+  "modernAdministrativeUnit": "Nadia District, West Bengal",
+  "historicalNames": ["Palashi", "Plassey"],
+  "nameHistory": [
+    {
+      "name": "পলাশী (Palashi)",
+      "language": "bn",
+      "note": "Bengali name, derived from the Palash tree (Flame of the Forest) that grew abundantly in the area"
+    },
+    {
+      "name": "Plassey",
+      "language": "en",
+      "fromYear": "1757",
+      "note": "English colonial romanization used in British historical records"
+    }
+  ],
+  "administrativeHistory": [
+    {
+      "label": "Part of Bengal Subah",
+      "toYear": "1757",
+      "authority": "Mughal Empire / Nawabs of Bengal",
+      "note": "Under the autonomous rule of the Nawabs of Bengal"
+    },
+    {
+      "label": "Under British Control",
+      "fromYear": "1757",
+      "toYear": "1947",
+      "authority": "East India Company / British Raj",
+      "note": "After the Battle of Plassey, the region came under British influence and later direct rule"
+    },
+    {
+      "label": "Part of West Bengal, India",
+      "fromYear": "1947",
+      "authority": "India",
+      "modernEquivalent": "Village in Nadia District",
+      "note": "Became part of West Bengal state after 1947 partition"
+    }
+  ],
+  "relatedEventIds": [
+    "1757-battle-of-plassey",
+    "1756-siraj-ud-daulah-captures-calcutta",
+    "1765-east-india-company-gets-diwani-rights-in-bengal"
+  ],
+  "relatedPeriodIds": [
+    "colonial-rule-and-resistance"
+  ],
+  "mapNote": "The exact location of the 1757 battlefield is approximate. The modern village of Palashi is near the historical battle site. The battlefield extended across mango groves and open fields along the Bhagirathi River.",
+  "seoTitle": "Palashi (Plassey): 1757 Battlefield and Bengal's Colonial Turning Point",
+  "seoDescription": "Explore the site of the 1757 Battle of Plassey (Palashi), where British forces defeated Nawab Siraj ud-Daulah, marking the beginning of colonial rule in Bengal and India.",
+  "faq": [
+    {
+      "question": "Why is it called both Palashi and Plassey?",
+      "answer": "Palashi is the Bengali name, derived from the Palash tree (Butea monosperma or Flame of the Forest) that grew in the area. Plassey is the English romanization used in British colonial records."
+    },
+    {
+      "question": "What happened at the Battle of Plassey?",
+      "answer": "On June 23, 1757, the forces of the East India Company under Robert Clive defeated Nawab Siraj ud-Daulah's army. The battle was decided by betrayal—key commanders like Mir Jafar defected to the British side. This victory gave the British control over Bengal and marked the beginning of colonial rule in India."
+    },
+    {
+      "question": "Where exactly is Palashi located?",
+      "answer": "Palashi is a small village in Nadia District of West Bengal, India, located on the east bank of the Bhagirathi River, about 50 km north of Krishnanagar and approximately 150 km from Kolkata."
+    }
+  ]
+}

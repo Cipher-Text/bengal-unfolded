@@ -23,7 +23,20 @@ No test suite exists yet.
 
 All user-facing routes live under `src/app/[locale]/`. The root `/` redirects to `/en`. Supported locales are `"en"` and `"bn"` (defined in `src/types/content.ts`). The locale layout at `src/app/[locale]/layout.tsx` calls `generateStaticParams()` to pre-render both locales.
 
-Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/` and `/resources/`. Creator and resource detail pages live under `/[locale]/creators/[id]/` and `/[locale]/resources/[id]/`. Supported slugs are hardcoded in `src/types/content.ts` as `SUPPORTED_EVENT_SLUGS`.
+Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/` and `/resources/`. Additional entity routes include:
+- `/[locale]/figures/[id]` — figure detail pages
+- `/[locale]/creators/[id]` — creator pages (for resource attributions)
+- `/[locale]/resources/[id]` — resource detail pages
+- `/[locale]/books/[id]` — book detail pages
+- `/[locale]/topics/` and `/[locale]/topics/[slug]` — topic hub index and detail
+- `/[locale]/movements/[id]` — movement detail pages
+- `/[locale]/periods/[id]` — period detail pages
+- `/[locale]/places/[id]` — place detail pages
+- `/[locale]/glossary/` and `/[locale]/glossary/[term]` — glossary index and term pages
+- `/[locale]/timeline` — full timeline explorer
+- `/[locale]/methodology` — public methodology page
+
+Supported event slugs are defined in `src/types/content.ts` as `SUPPORTED_EVENT_SLUGS`. Other entity IDs are similarly defined with `SUPPORTED_*` constants.
 
 ### Data layer (`src/lib/content.ts`)
 
@@ -32,10 +45,15 @@ All content lives in `/content/` as JSON files. Every content file has locale va
 Content hierarchy:
 ```
 content/
-  events/<slug>/   meta, timeline, quotes, figure-ids.json, resource-ids.json
-  figures/<id>/    meta (people, groups, collectives)
-  resources/<id>/  meta (includes books/articles/maps/videos via category/subcategory)
-  site/            home copy
+  events/<slug>/    meta, timeline, quotes, figure-ids.json, resource-ids.json
+  figures/<id>/     meta (people, groups, collectives)
+  resources/<id>/   meta (includes books/articles/maps/videos via category/subcategory)
+  movements/<id>/   meta (historical movements/themes)
+  periods/<id>/     meta (historical periods)
+  places/<id>/      meta (geographic locations)
+  topics/<slug>/    meta (topic hubs with learning paths)
+  glossary/<term>/  meta (terminology definitions)
+  site/             home copy
 ```
 
 **Key patterns:**

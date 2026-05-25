@@ -4,6 +4,55 @@
 
 ### Completed
 
+- Historical place system expansion (RM-REL-009 enhancement):
+  - Model:
+    - Extended `PlaceMeta` in `src/types/content.ts` with time-aware fields:
+      - `placeType: PlaceType` — expanded taxonomy (region | city | capital | district | division | river | port | battlefield | religious-site | educational-site | archaeological-site | frontier | route | other)
+      - `coordinateConfidence?: CoordinateConfidence` — exact | approximate | representative | unknown
+      - `nameHistory?: NameHistoryEntry[]` — time-aware name timeline with language, period, and sources
+      - `administrativeHistory?: AdministrativeHistoryEntry[]` — time-aware governance timeline
+      - `modernAdministrativeUnit?: string`
+      - `relatedTopicIds?: string[]`
+      - `relatedPeriodIds?: PeriodId[]`
+      - `seoTitle?: string`, `seoDescription?: string`
+      - `faq?: FaqItem[]`, `sourceIds?: string[]`
+    - Deprecated `regionType` in favor of `placeType` (backward compatible)
+    - Added 24 new place IDs to `SUPPORTED_PLACE_IDS` for specific historical places:
+      - bangladesh, west-bengal, dhaka-jahangirnagar, gaur-lakhnauti, murshidabad, sonargaon
+      - mahasthangarh, somapura-mahavihara, sylhet, chittagong-chattogram, chittagong-hill-tracts
+      - nadia-nabadwip, rajmahal, palashi-plassey, buxar, calcutta-kolkata, hooghly, satgaon
+      - farakka, noakhali, mujibnagar, dhaka-university, pilkhana-dhaka, shahbag-dhaka
+  - Validation:
+    - Added `placeType` enum validation with 14 allowed types
+    - Added `coordinateConfidence` enum validation
+    - Added `nameHistory` shape validation (name, language, period, year range, sourceIds)
+    - Added `administrativeHistory` shape validation (label, authority, year range, sourceIds)
+    - Added validation for `relatedTopicIds`, `relatedPeriodIds`, `seoTitle`, `seoDescription`, `faq`, `sourceIds`
+    - Added warning when place has lat/lon but no coordinateConfidence
+    - Added warning when historical place (with historicalNames or nameHistory) has no mapNote
+    - Updated allowed place IDs to include all 25 places
+  - Docs:
+    - Updated `docs/CONTENT_MODEL.md` with comprehensive historical place schema documentation
+    - Added place type taxonomy explanation and examples
+    - Added Dhaka/Jahangirnagar complete example with nameHistory and administrativeHistory
+    - Added rule: "Historical boundaries changed. Do not pretend modern coordinates represent historical borders exactly."
+  - Content backfill (Phase 1):
+    - Created 2 high-priority places with full historical metadata:
+      - `dhaka-jahangirnagar` — Capital with 9 related events, complete nameHistory (4 entries) and administrativeHistory (5 eras from Mughal to modern Bangladesh)
+      - `palashi-plassey` — 1757 battlefield with 3 related events, nameHistory, and administrative transitions
+    - Both places include: placeType, coordinateConfidence, modernCountry, historicalNames, nameHistory, administrativeHistory, relatedEventIds, relatedPeriodIds, mapNote, seoTitle, seoDescription, faq
+    - Updated `bengal-region` to use new `placeType` field with coordinateConfidence and mapNote
+    - Activated 2 places in SUPPORTED_PLACE_IDS (22 remaining for future backfill)
+  - UI:
+    - Place index and detail pages working with new schema fields
+    - TODO (future): Render nameHistory and administrativeHistory timelines on place detail pages
+    - TODO (future): Group place index by placeType (capitals, battlefields, sites, etc.)
+    - TODO (future): Add coordinateConfidence indicator to map displays
+
+## 2026-05-25
+
+### Completed
+
 - Resource system revision for historical trust + SEO + linking:
   - Model:
     - Upgraded resource taxonomy in `src/types/content.ts` from legacy broad groups to 10 trust/learning categories:

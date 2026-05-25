@@ -170,6 +170,31 @@ async function main() {
   await fs.readdir(movementDir);
   const allowedPlaceIds = new Set([
     "bengal-region",
+    "dhaka-jahangirnagar",
+    "palashi-plassey",
+    // TODO: Uncomment as content files are created:
+    // "bangladesh",
+    // "west-bengal",
+    // "gaur-lakhnauti",
+    // "murshidabad",
+    // "sonargaon",
+    // "mahasthangarh",
+    // "somapura-mahavihara",
+    // "sylhet",
+    // "chittagong-chattogram",
+    // "chittagong-hill-tracts",
+    // "nadia-nabadwip",
+    // "rajmahal",
+    // "buxar",
+    // "calcutta-kolkata",
+    // "hooghly",
+    // "satgaon",
+    // "farakka",
+    // "noakhali",
+    // "mujibnagar",
+    // "dhaka-university",
+    // "pilkhana-dhaka",
+    // "shahbag-dhaka",
   ]);
   await fs.readdir(placesDir);
 
@@ -769,9 +794,20 @@ async function main() {
       if (typeof meta.themeColor !== "string" || meta.themeColor.trim().length === 0) {
         errors.push(`Invalid or missing themeColor at content/places/${placeId}/meta.${locale}.json`);
       }
+      const allowedPlaceTypes = new Set([
+        "region", "city", "capital", "district", "division", "river", "port",
+        "battlefield", "religious-site", "educational-site", "archaeological-site",
+        "frontier", "route", "other"
+      ]);
       const allowedRegionTypes = new Set(["region", "city", "district", "site"]);
-      if (typeof meta.regionType !== "string" || !allowedRegionTypes.has(meta.regionType)) {
-        errors.push(`Invalid regionType at content/places/${placeId}/meta.${locale}.json`);
+
+      // Check placeType (new required field) or fallback to regionType (deprecated)
+      if ("placeType" in meta) {
+        if (typeof meta.placeType !== "string" || !allowedPlaceTypes.has(meta.placeType)) {
+          errors.push(`Invalid placeType at content/places/${placeId}/meta.${locale}.json`);
+        }
+      } else if (typeof meta.regionType !== "string" || !allowedRegionTypes.has(meta.regionType)) {
+        errors.push(`Invalid regionType at content/places/${placeId}/meta.${locale}.json (consider migrating to placeType)`);
       }
       if ("lat" in meta && meta.lat !== undefined && typeof meta.lat !== "number") {
         errors.push(`lat must be number at content/places/${placeId}/meta.${locale}.json`);
@@ -807,6 +843,143 @@ async function main() {
       }
       if ("mapNote" in meta && meta.mapNote !== undefined && typeof meta.mapNote !== "string") {
         errors.push(`mapNote must be string at content/places/${placeId}/meta.${locale}.json`);
+      }
+
+      // Validate new place schema fields (2026-05 historical place system)
+      if ("modernAdministrativeUnit" in meta && meta.modernAdministrativeUnit !== undefined && typeof meta.modernAdministrativeUnit !== "string") {
+        errors.push(`modernAdministrativeUnit must be string at content/places/${placeId}/meta.${locale}.json`);
+      }
+
+      const allowedCoordinateConfidence = new Set(["exact", "approximate", "representative", "unknown"]);
+      if ("coordinateConfidence" in meta && meta.coordinateConfidence !== undefined) {
+        if (typeof meta.coordinateConfidence !== "string" || !allowedCoordinateConfidence.has(meta.coordinateConfidence)) {
+          errors.push(`Invalid coordinateConfidence at content/places/${placeId}/meta.${locale}.json (must be: exact | approximate | representative | unknown)`);
+        }
+      }
+
+      // Warn if lat/lon exists but no coordinateConfidence
+      if (((meta.lat !== undefined && meta.lat !== null) || (meta.lon !== undefined && meta.lon !== null)) &&
+          !meta.coordinateConfidence) {
+        errors.push(`WARN: Place has lat/lon but no coordinateConfidence at content/places/${placeId}/meta.${locale}.json`);
+      }
+
+      // Warn if historical place (not "region" or modern) has no mapNote
+      const isHistoricalPlace = meta.placeType && meta.placeType !== "region" &&
+        (meta.historicalNames && meta.historicalNames.length > 0 || meta.nameHistory);
+      if (isHistoricalPlace && !meta.mapNote) {
+        errors.push(`WARN: Historical place has no mapNote at content/places/${placeId}/meta.${locale}.json`);
+      }
+
+      // Validate nameHistory array shape
+      if ("nameHistory" in meta && meta.nameHistory !== undefined) {
+        if (!Array.isArray(meta.nameHistory)) {
+          errors.push(`nameHistory must be an array at content/places/${placeId}/meta.${locale}.json`);
+        } else {
+          const allowedLanguages = new Set(["bn", "en", "fa", "ar", "sa", "pt", "other"]);
+          for (let i = 0; i < meta.nameHistory.length; i++) {
+            const entry = meta.nameHistory[i];
+            if (!entry || typeof entry !== "object") {
+              errors.push(`Invalid nameHistory entry at content/places/${placeId}/meta.${locale}.json[${i}]`);
+              continue;
+            }
+            if (typeof entry.name !== "string" || entry.name.trim().length === 0) {
+              errors.push(`Missing or invalid nameHistory.name at content/places/${placeId}/meta.${locale}.json[${i}]`);
+            }
+            if ("language" in entry && entry.language !== undefined && !allowedLanguages.has(entry.language)) {
+              errors.push(`Invalid nameHistory.language at content/places/${placeId}/meta.${locale}.json[${i}]`);
+            }
+            if ("sourceIds" in entry && entry.sourceIds !== undefined) {
+              if (!Array.isArray(entry.sourceIds)) {
+                errors.push(`nameHistory.sourceIds must be array at content/places/${placeId}/meta.${locale}.json[${i}]`);
+              } else {
+                for (const sourceId of entry.sourceIds) {
+                  if (typeof sourceId !== "string" || !resourceIds.has(sourceId)) {
+                    errors.push(`Invalid nameHistory.sourceIds entry '${sourceId}' at content/places/${placeId}/meta.${locale}.json[${i}]`);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // Validate administrativeHistory array shape
+      if ("administrativeHistory" in meta && meta.administrativeHistory !== undefined) {
+        if (!Array.isArray(meta.administrativeHistory)) {
+          errors.push(`administrativeHistory must be an array at content/places/${placeId}/meta.${locale}.json`);
+        } else {
+          for (let i = 0; i < meta.administrativeHistory.length; i++) {
+            const entry = meta.administrativeHistory[i];
+            if (!entry || typeof entry !== "object") {
+              errors.push(`Invalid administrativeHistory entry at content/places/${placeId}/meta.${locale}.json[${i}]`);
+              continue;
+            }
+            if (typeof entry.label !== "string" || entry.label.trim().length === 0) {
+              errors.push(`Missing or invalid administrativeHistory.label at content/places/${placeId}/meta.${locale}.json[${i}]`);
+            }
+            if ("sourceIds" in entry && entry.sourceIds !== undefined) {
+              if (!Array.isArray(entry.sourceIds)) {
+                errors.push(`administrativeHistory.sourceIds must be array at content/places/${placeId}/meta.${locale}.json[${i}]`);
+              } else {
+                for (const sourceId of entry.sourceIds) {
+                  if (typeof sourceId !== "string" || !resourceIds.has(sourceId)) {
+                    errors.push(`Invalid administrativeHistory.sourceIds entry '${sourceId}' at content/places/${placeId}/meta.${locale}.json[${i}]`);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // Validate relatedTopicIds
+      if ("relatedTopicIds" in meta && meta.relatedTopicIds !== undefined) {
+        if (!Array.isArray(meta.relatedTopicIds)) {
+          errors.push(`relatedTopicIds must be an array at content/places/${placeId}/meta.${locale}.json`);
+        } else {
+          for (const topicId of meta.relatedTopicIds) {
+            if (typeof topicId !== "string" || topicId.trim().length === 0) {
+              errors.push(`Invalid relatedTopicIds entry '${topicId}' at content/places/${placeId}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
+
+      // Validate relatedPeriodIds
+      if ("relatedPeriodIds" in meta && meta.relatedPeriodIds !== undefined) {
+        if (!Array.isArray(meta.relatedPeriodIds)) {
+          errors.push(`relatedPeriodIds must be an array at content/places/${placeId}/meta.${locale}.json`);
+        } else {
+          for (const periodId of meta.relatedPeriodIds) {
+            if (typeof periodId !== "string" || !allowedPeriodIds.has(periodId)) {
+              errors.push(`Invalid relatedPeriodIds entry '${periodId}' at content/places/${placeId}/meta.${locale}.json`);
+            }
+          }
+        }
+      }
+
+      // Validate seoTitle and seoDescription
+      if ("seoTitle" in meta && meta.seoTitle !== undefined && (typeof meta.seoTitle !== "string" || meta.seoTitle.trim().length === 0)) {
+        errors.push(`Invalid seoTitle at content/places/${placeId}/meta.${locale}.json`);
+      }
+      if ("seoDescription" in meta && meta.seoDescription !== undefined && (typeof meta.seoDescription !== "string" || meta.seoDescription.trim().length === 0)) {
+        errors.push(`Invalid seoDescription at content/places/${placeId}/meta.${locale}.json`);
+      }
+
+      // Validate faq array
+      validateFaqArray(meta.faq, `content/places/${placeId}/meta.${locale}.json faq`, errors, null, resourceIds);
+
+      // Validate sourceIds
+      if ("sourceIds" in meta && meta.sourceIds !== undefined) {
+        if (!Array.isArray(meta.sourceIds)) {
+          errors.push(`sourceIds must be an array at content/places/${placeId}/meta.${locale}.json`);
+        } else {
+          for (const sourceId of meta.sourceIds) {
+            if (typeof sourceId !== "string" || !resourceIds.has(sourceId)) {
+              errors.push(`Invalid sourceIds entry '${sourceId}' at content/places/${placeId}/meta.${locale}.json`);
+            }
+          }
+        }
       }
     }
   }

@@ -239,35 +239,155 @@ Additional requirements:
   - news/editorial reports -> `editorial`, evidence `medium` by default unless heavily sourced
   - unknown provenance -> `unknown`, evidence `low`
 
-### Place optional fields
+### Place schema (2026-05 revision: historical place system)
 
+Places are **time-aware historical entities**, not just map points. Each place tracks name changes, administrative transitions, and period-specific identities across Bengal/Bangladesh history.
+
+**Required fields:**
+- `id: PlaceId`
+- `title: string`
+- `subtitle: string`
+- `description: string`
+- `placeType: PlaceType` — specific type from expanded taxonomy
+- `themeColor: string`
+
+**Optional fields:**
 - `lat?: number`
 - `lon?: number`
+- `coordinateConfidence?: "exact" | "approximate" | "representative" | "unknown"`
 - `modernCountry?: string`
-- `historicalNames?: string[]`
-- `relatedEventIds?: string[]`
-- `relatedFigureIds?: string[]`
+- `modernAdministrativeUnit?: string`
+- `historicalNames?: string[]` — quick list for display
+- `nameHistory?: NameHistoryEntry[]` — time-aware name timeline
+- `administrativeHistory?: AdministrativeHistoryEntry[]` — time-aware governance timeline
+- `relatedEventIds?: EventSlug[]`
+- `relatedFigureIds?: FigureId[]`
+- `relatedTopicIds?: string[]`
+- `relatedPeriodIds?: PeriodId[]`
 - `mapNote?: string`
+- `seoTitle?: string`
+- `seoDescription?: string`
+- `faq?: FaqItem[]`
+- `sourceIds?: string[]`
+- `regionType?: "region" | "city" | "district" | "site"` — deprecated, use `placeType`
 
-Example:
+**PlaceType taxonomy:**
+`region | city | capital | district | division | river | port | battlefield | religious-site | educational-site | archaeological-site | frontier | route | other`
+
+**Name history shape:**
+```typescript
+{
+  name: string;
+  language?: "bn" | "en" | "fa" | "ar" | "sa" | "pt" | "other";
+  fromYear?: string;
+  toYear?: string;
+  period?: string;
+  note?: string;
+  sourceIds?: string[];
+}
+```
+
+**Administrative history shape:**
+```typescript
+{
+  label: string;
+  fromYear?: string;
+  toYear?: string;
+  authority?: string;
+  modernEquivalent?: string;
+  note?: string;
+  sourceIds?: string[];
+}
+```
+
+**Historical boundary rule:**
+Historical boundaries changed. Do not pretend modern coordinates represent historical borders exactly. Always use `mapNote` and `coordinateConfidence` to clarify approximation level. If a place has `lat`/`lon` but no `coordinateConfidence`, validation should warn.
+
+Example (Dhaka/Jahangirnagar):
 
 ```json
 {
-  "id": "bengal-region",
-  "title": "Bengal Region",
-  "subtitle": "Historical macro-region",
-  "description": "Central to multiple state formations.",
-  "regionType": "region",
+  "id": "dhaka-jahangirnagar",
+  "title": "Dhaka",
+  "subtitle": "Historical Capital of Bengal and Bangladesh",
+  "description": "Modern capital of Bangladesh, historically known as Jahangirnagar during Mughal rule.",
+  "placeType": "capital",
   "themeColor": "#24527a",
-  "lat": 23.685,
-  "lon": 90.3563,
-  "modernCountry": "Bangladesh/India",
-  "historicalNames": ["Banga", "Bangala"],
-  "relatedEventIds": ["1947-partition-and-eastern-bengal"],
+  "lat": 23.8103,
+  "lon": 90.4125,
+  "coordinateConfidence": "exact",
+  "modernCountry": "Bangladesh",
+  "modernAdministrativeUnit": "Dhaka Division",
+  "historicalNames": ["Jahangirnagar", "Dacca", "Dhaka"],
+  "nameHistory": [
+    {
+      "name": "Dhaka",
+      "language": "bn",
+      "fromYear": "ancient",
+      "note": "Traditional name in Bangla"
+    },
+    {
+      "name": "Jahangirnagar",
+      "language": "fa",
+      "fromYear": "1610",
+      "toYear": "1947",
+      "period": "mughal-incorporation-and-consolidation",
+      "note": "Named after Mughal Emperor Jahangir when it became the capital",
+      "sourceIds": ["dhaka-history-banglapedia"]
+    },
+    {
+      "name": "Dacca",
+      "language": "en",
+      "fromYear": "1765",
+      "toYear": "1982",
+      "note": "British/colonial romanization",
+      "sourceIds": ["dhaka-history-banglapedia"]
+    }
+  ],
+  "administrativeHistory": [
+    {
+      "label": "Mughal provincial capital",
+      "fromYear": "1610",
+      "toYear": "1717",
+      "authority": "Mughal Empire",
+      "note": "Capital of Bengal subah under Mughal governors"
+    },
+    {
+      "label": "Capital of East Pakistan",
+      "fromYear": "1947",
+      "toYear": "1971",
+      "authority": "Pakistan",
+      "modernEquivalent": "Provincial capital"
+    },
+    {
+      "label": "Capital of Bangladesh",
+      "fromYear": "1971",
+      "authority": "Bangladesh",
+      "modernEquivalent": "National capital"
+    }
+  ],
+  "relatedEventIds": [
+    "1610-capital-shift-to-dhaka-jahangirnagar",
+    "1952-language-movement",
+    "1971-liberation-war"
+  ],
   "relatedFigureIds": ["sheikh-mujibur-rahman"],
-  "mapNote": "Coordinates are representative, not boundary centroids."
+  "mapNote": "Coordinates point to central Dhaka. Historical boundaries expanded over time.",
+  "seoTitle": "Dhaka / Jahangirnagar: Historical Capital of Bengal and Bangladesh",
+  "seoDescription": "Explore Dhaka's history from Mughal Jahangirnagar to modern Bangladesh capital, with related events, figures, and administrative transitions.",
+  "faq": [
+    {
+      "question": "Why was Dhaka called Jahangirnagar?",
+      "answer": "When the Mughal Empire made it the capital of Bengal in 1610, it was renamed Jahangirnagar after Emperor Jahangir.",
+      "sourceIds": ["dhaka-history-banglapedia"]
+    }
+  ],
+  "sourceIds": ["dhaka-history-banglapedia"]
 }
 ```
+
+**Supported place IDs:**
+`bengal-region | bangladesh | west-bengal | dhaka-jahangirnagar | gaur-lakhnauti | murshidabad | sonargaon | mahasthangarh | somapura-mahavihara | sylhet | chittagong-chattogram | chittagong-hill-tracts | nadia-nabadwip | rajmahal | palashi-plassey | buxar | calcutta-kolkata | hooghly | satgaon | farakka | noakhali | mujibnagar | dhaka-university | pilkhana-dhaka | shahbag-dhaka`
 
 ## Migration note
 

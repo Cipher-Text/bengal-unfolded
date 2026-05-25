@@ -85,7 +85,7 @@ export default async function PlacesIndexPage({
               className="theme-surface block rounded-2xl border p-5 hover:border-amber-500/40"
             >
               <p className="theme-muted text-xs tracking-[0.2em] uppercase">
-                {place.regionType}
+                {place.placeType || place.regionType}
               </p>
               <h3 className="mt-2 text-xl font-semibold">{place.title}</h3>
               <p className="theme-muted mt-2 text-sm">{place.subtitle}</p>

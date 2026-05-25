@@ -105,6 +105,32 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1971-mujibnagar-government",
   "1975-jail-killing",
   "1991-return-to-parliamentary-democracy",
+  "0000-0450-gangaridai-and-early-delta-polities",
+  "1230s-1280s-bengal-under-delhi-governorates-fragmentation",
+  "1658-1707-aurangzeb-era-revenue-military-pressure-in-bengal",
+  "1727-1739-suja-ud-din-muhammad-khan-administrative-phase",
+  "1756-black-hole-calcutta-incident-and-imperial-propaganda-debate",
+  "1781-rangpur-dhing-uprising",
+  "1828-brahmo-samaj-and-bengal-social-reform",
+  "1835-macaulay-education-policy-impact-in-bengal",
+  "1861-indian-councils-act-and-limited-representation-in-bengal",
+  "1876-indian-association-calcutta-political-mobilization",
+  "1885-indian-national-congress-foundation-and-bengal-response",
+  "1909-minto-morley-reforms-and-separate-electorates-in-bengal",
+  "1916-lucknow-pact-bengal-implications",
+  "1942-quit-india-and-bengal-war-governance",
+  "1947-radcliffe-award-border-demarcation-implementation",
+  "1963-hazratbal-crisis-and-east-pakistan-communal-tensions",
+  "1967-naxalbari-uprising-and-bengal-left-radicalization",
+  "1971-december-14-intellectual-killings",
+  "1971-december-16-instrument-of-surrender",
+  "1973-first-parliamentary-election-bangladesh",
+  "1974-special-powers-act",
+  "1975-november-7-sepoy-janata-uprising",
+  "1988-eighth-amendment-state-religion",
+  "1996-ganges-water-sharing-treaty",
+  "2012-ramu-communal-violence",
+  "2016-holey-artisan-attack",
 ] as const;
 export const SUPPORTED_FIGURE_IDS = [
   "sheikh-mujibur-rahman",
@@ -559,6 +585,55 @@ export const SUPPORTED_FIGURE_IDS = [
   "aak-niazi",
   "khandaker-mushtaq-ahmed",
   "manabendra-narayan-larma",
+  "abdul-jalil",
+  "abdur-rab-serniabat",
+  "abdur-razzaq-politician",
+  "abul-khair-language",
+  "anwar-hossain-manju",
+  "ayub-khan",
+  "binod-bihari-chowdhury",
+  "dinesh-chandra-sen",
+  "fakhruddin-ahmed",
+  "ghyasuddin-ahmed",
+  "humayun-azad",
+  "iajuddin-ahmed",
+  "jadunath-sarkar",
+  "jagadish-chandra-bose",
+  "jatin-das",
+  "k-m-obaidur-rahman",
+  "kalpana-datta",
+  "kazi-arif-ahmed",
+  "khwaja-salimullah",
+  "matia-chowdhury",
+  "meghnad-saha",
+  "mofazzal-haider-chaudhury",
+  "moin-u-ahmed",
+  "muhammad-kamaruzzaman",
+  "mujibul-haque-chunnu",
+  "nawab-ali-chowdhury",
+  "nihar-ranjan-ray",
+  "nizamul-huq-judge",
+  "prafulla-chandra-ray",
+  "preetilata-waddedar",
+  "r-c-majumdar",
+  "rafiq-uddin-ahmed",
+  "rokeya-kabir",
+  "salahuddin-quader-chowdhury",
+  "selina-hossain",
+  "selina-parvin",
+  "shafiur-rahman",
+  "shah-ams-kibria",
+  "shah-azizur-rahman",
+  "shahidullah-kaiser",
+  "shamsur-rahman",
+  "sheikh-fazlul-haque-moni",
+  "siraj-sikder",
+  "suniti-kumar-chatterji",
+  "syed-amir-ali",
+  "syed-shamsul-haq",
+  "tikka-khan",
+  "zahir-raihan",
+  "zohra-tajuddin",
 ] as const;
 export const SUPPORTED_BOOK_IDS = [
   "research-volume",
@@ -584,6 +659,31 @@ export const SUPPORTED_MOVEMENT_IDS = [
 ] as const;
 export const SUPPORTED_PLACE_IDS = [
   "bengal-region",
+  "dhaka-jahangirnagar",
+  "palashi-plassey",
+  // TODO: Add remaining place IDs as content files are created:
+  // "bangladesh",
+  // "west-bengal",
+  // "gaur-lakhnauti",
+  // "murshidabad",
+  // "sonargaon",
+  // "mahasthangarh",
+  // "somapura-mahavihara",
+  // "sylhet",
+  // "chittagong-chattogram",
+  // "chittagong-hill-tracts",
+  // "nadia-nabadwip",
+  // "rajmahal",
+  // "buxar",
+  // "calcutta-kolkata",
+  // "hooghly",
+  // "satgaon",
+  // "farakka",
+  // "noakhali",
+  // "mujibnagar",
+  // "dhaka-university",
+  // "pilkhana-dhaka",
+  // "shahbag-dhaka",
 ] as const;
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
@@ -812,20 +912,73 @@ export type Movement = {
   icon?: string;
 };
 
+export type PlaceType =
+  | "region"
+  | "city"
+  | "capital"
+  | "district"
+  | "division"
+  | "river"
+  | "port"
+  | "battlefield"
+  | "religious-site"
+  | "educational-site"
+  | "archaeological-site"
+  | "frontier"
+  | "route"
+  | "other";
+
+export type CoordinateConfidence =
+  | "exact"
+  | "approximate"
+  | "representative"
+  | "unknown";
+
+export type NameHistoryEntry = {
+  name: string;
+  language?: "bn" | "en" | "fa" | "ar" | "sa" | "pt" | "other";
+  fromYear?: string;
+  toYear?: string;
+  period?: string;
+  note?: string;
+  sourceIds?: string[];
+};
+
+export type AdministrativeHistoryEntry = {
+  label: string;
+  fromYear?: string;
+  toYear?: string;
+  authority?: string;
+  modernEquivalent?: string;
+  note?: string;
+  sourceIds?: string[];
+};
+
 export type PlaceMeta = {
   id: PlaceId;
   title: string;
   subtitle: string;
   description: string;
-  regionType: "region" | "city" | "district" | "site";
+  placeType: PlaceType;
+  regionType?: "region" | "city" | "district" | "site"; // deprecated, use placeType
   themeColor: string;
   lat?: number;
   lon?: number;
+  coordinateConfidence?: CoordinateConfidence;
   modernCountry?: string;
+  modernAdministrativeUnit?: string;
   historicalNames?: string[];
+  nameHistory?: NameHistoryEntry[];
+  administrativeHistory?: AdministrativeHistoryEntry[];
   relatedEventIds?: EventSlug[];
   relatedFigureIds?: FigureId[];
+  relatedTopicIds?: string[];
+  relatedPeriodIds?: PeriodId[];
   mapNote?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  faq?: FaqItem[];
+  sourceIds?: string[];
 };
 
 export type Place = PlaceMeta;

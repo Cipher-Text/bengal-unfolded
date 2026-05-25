@@ -1,0 +1,104 @@
+{
+  "id": "dhaka-jahangirnagar",
+  "title": "Dhaka",
+  "subtitle": "Capital of Bengal and Bangladesh",
+  "description": "Modern capital of Bangladesh, known as Jahangirnagar during Mughal rule. A major political, cultural, and educational center throughout Bengal's history, from Mughal provincial capital to the heart of the Language Movement and Liberation War.",
+  "placeType": "capital",
+  "themeColor": "#24527a",
+  "lat": 23.8103,
+  "lon": 90.4125,
+  "coordinateConfidence": "exact",
+  "modernCountry": "Bangladesh",
+  "modernAdministrativeUnit": "Dhaka Division",
+  "historicalNames": ["Jahangirnagar", "Dacca", "Dhaka"],
+  "nameHistory": [
+    {
+      "name": "Dhaka",
+      "language": "bn",
+      "note": "Traditional Bengali name, used throughout history"
+    },
+    {
+      "name": "Jahangirnagar",
+      "language": "fa",
+      "fromYear": "1610",
+      "toYear": "1947",
+      "period": "mughal-incorporation-and-consolidation",
+      "note": "Named after Mughal Emperor Jahangir when it became the provincial capital of Bengal"
+    },
+    {
+      "name": "Dacca",
+      "language": "en",
+      "fromYear": "1765",
+      "toYear": "1982",
+      "note": "British colonial romanization, used officially until 1982"
+    },
+    {
+      "name": "Dhaka",
+      "language": "en",
+      "fromYear": "1982",
+      "note": "Official Bengali spelling adopted in English"
+    }
+  ],
+  "administrativeHistory": [
+    {
+      "label": "Mughal Provincial Capital",
+      "fromYear": "1610",
+      "toYear": "1717",
+      "authority": "Mughal Empire",
+      "note": "Capital of Bengal Subah under Mughal governors. Islam Khan Chishti shifted the capital from Rajmahal to Dhaka and renamed it Jahangirnagar."
+    },
+    {
+      "label": "District Headquarters",
+      "fromYear": "1765",
+      "toYear": "1905",
+      "authority": "East India Company / British Raj",
+      "note": "After the capital shifted to Murshidabad and then Calcutta, Dhaka became a district administrative center."
+    },
+    {
+      "label": "Provincial Capital of Eastern Bengal and Assam",
+      "fromYear": "1905",
+      "toYear": "1911",
+      "authority": "British Raj",
+      "note": "During the 1905 Partition of Bengal, Dhaka became the capital of the new province."
+    },
+    {
+      "label": "Capital of East Pakistan",
+      "fromYear": "1947",
+      "toYear": "1971",
+      "authority": "Pakistan",
+      "modernEquivalent": "Provincial capital",
+      "note": "After partition, Dhaka became the capital of East Pakistan province."
+    },
+    {
+      "label": "Capital of Bangladesh",
+      "fromYear": "1971",
+      "authority": "Bangladesh",
+      "modernEquivalent": "National capital",
+      "note": "Since independence in 1971, Dhaka has been the capital of Bangladesh."
+    }
+  ],
+  "relatedEventIds": [
+    "1610-capital-shift-to-dhaka-jahangirnagar",
+    "1905-partition-of-bengal",
+    "1906-all-india-muslim-league-founded-in-dhaka",
+    "1921-dhaka-university-establishment",
+    "1947-partition-and-eastern-bengal",
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement",
+    "1971-liberation-war",
+    "2024-anti-discrimination-movement"
+  ],
+  "mapNote": "Coordinates point to central Dhaka (near the old city and university area). Historical Dhaka was much smaller; modern Dhaka has expanded significantly since 1971.",
+  "seoTitle": "Dhaka / Jahangirnagar: Capital of Bengal and Bangladesh | Historical Timeline",
+  "seoDescription": "Explore Dhaka's transformation from Mughal Jahangirnagar to modern Bangladesh capital. Discover its role in the Language Movement, Liberation War, and Bengal's political history.",
+  "faq": [
+    {
+      "question": "Why was Dhaka called Jahangirnagar?",
+      "answer": "In 1610, when Mughal governor Islam Khan Chishti made Dhaka the capital of Bengal Subah, he renamed it Jahangirnagar in honor of Emperor Jahangir. The name was used officially during the Mughal period."
+    },
+    {
+      "question": "When did Dhaka become the capital of Bangladesh?",
+      "answer": "Dhaka became the capital of independent Bangladesh on December 16, 1971, after the Liberation War. It had previously been the capital of East Pakistan since 1947."
+    }
+  ]
+}
