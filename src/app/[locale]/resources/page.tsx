@@ -12,13 +12,13 @@ const PAGE_SIZE = 20;
 const CATEGORY_VALUES: ResourceCategory[] = [
   "primary-sources",
   "academic-books",
-  "reference-sources",
   "research-articles-and-papers",
+  "reference-sources",
   "memoirs-and-eyewitness-accounts",
   "maps-and-visual-sources",
   "documentary-and-video",
-  "cultural-and-literary-resources",
   "news-and-contemporary-reports",
+  "cultural-and-literary-resources",
   "further-reading",
 ];
 const QUALITY_VALUES: SourceQuality[] = ["primary", "secondary", "archive", "editorial"];
