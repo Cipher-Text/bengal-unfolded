@@ -1,0 +1,13 @@
+{
+  "id": "bhola",
+  "title": "Bhola",
+  "subtitle": "Cyclone-disaster and electoral turning-point region",
+  "description": "Bhola is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "district",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "naxalbari",
+  "title": "নকশালবাড়ি",
+  "subtitle": "বামপন্থী র‌্যাডিকালাইজেশনের সঙ্গে যুক্ত গ্রামীণ বিদ্রোহের স্থান",
+  "description": "নকশালবাড়ি বাংলা/বাংলাদেশের ইতিহাসে সংশ্লিষ্ট ঘটনাগুলোকে স্থানভিত্তিকভাবে দেখানোর জন্য ব্যবহৃত হচ্ছে।",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1967-naxalbari-uprising-and-bengal-left-radicalization"
+  ]
+}

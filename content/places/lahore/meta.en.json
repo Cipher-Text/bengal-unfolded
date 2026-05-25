@@ -1,0 +1,13 @@
+{
+  "id": "lahore",
+  "title": "Lahore",
+  "subtitle": "Political resolution site shaping partition debates",
+  "description": "Lahore is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "city",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1940-lahore-resolution"
+  ]
+}

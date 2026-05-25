@@ -1,0 +1,13 @@
+{
+  "id": "naxalbari",
+  "title": "Naxalbari",
+  "subtitle": "Rural uprising site linked to left radicalization",
+  "description": "Naxalbari is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1967-naxalbari-uprising-and-bengal-left-radicalization"
+  ]
+}

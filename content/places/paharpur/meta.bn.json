@@ -1,0 +1,14 @@
+{
+  "id": "paharpur",
+  "title": "পাহাড়পুর",
+  "subtitle": "সোমপুর মহাবিহারের প্রত্নস্থল",
+  "description": "পাহাড়পুর বাংলা/বাংলাদেশের ইতিহাসে সংশ্লিষ্ট ঘটনাগুলোকে স্থানভিত্তিকভাবে দেখানোর জন্য ব্যবহৃত হচ্ছে।",
+  "placeType": "archaeological-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "0800-1200-somapura-mahavihara",
+    "0750-1170-pala-dynasty-foundation"
+  ]
+}

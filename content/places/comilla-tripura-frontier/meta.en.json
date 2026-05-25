@@ -1,0 +1,14 @@
+{
+  "id": "comilla-tripura-frontier",
+  "title": "Comilla-Tripura Frontier",
+  "subtitle": "Frontier corridor in war and border-security history",
+  "description": "Comilla-Tripura Frontier is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "frontier",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "2001-padua-pyrdiwah-boraibari-border-clash"
+  ]
+}

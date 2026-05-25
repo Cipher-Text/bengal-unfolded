@@ -1,0 +1,14 @@
+{
+  "id": "satgaon",
+  "title": "Satgaon",
+  "subtitle": "Early Bengal river-port network",
+  "description": "Satgaon is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "port",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1632-mughal-attack-on-portuguese-hooghly",
+    "1690-english-settlement-calcutta"
+  ]
+}

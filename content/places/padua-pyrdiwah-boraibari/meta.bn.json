@@ -1,0 +1,13 @@
+{
+  "id": "padua-pyrdiwah-boraibari",
+  "title": "পাদুয়া-পিরদিওয়া-বড়াইবাড়ি",
+  "subtitle": "বাংলাদেশ-ভারত সীমান্ত সংঘর্ষের এলাকা",
+  "description": "পাদুয়া-পিরদিওয়া-বড়াইবাড়ি বাংলা/বাংলাদেশের ইতিহাসে সংশ্লিষ্ট ঘটনাগুলোকে স্থানভিত্তিকভাবে দেখানোর জন্য ব্যবহৃত হচ্ছে।",
+  "placeType": "frontier",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "2001-padua-pyrdiwah-boraibari-border-clash"
+  ]
+}

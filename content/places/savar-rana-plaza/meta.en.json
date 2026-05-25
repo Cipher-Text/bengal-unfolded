@@ -1,0 +1,13 @@
+{
+  "id": "savar-rana-plaza",
+  "title": "Savar (Rana Plaza)",
+  "subtitle": "Site of 2013 industrial disaster",
+  "description": "Savar (Rana Plaza) is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "2013-rana-plaza-collapse"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "gauda-rajmahal-corridor",
+  "title": "Gauda-Rajmahal Corridor",
+  "subtitle": "Power corridor in early and medieval Bengal",
+  "description": "Gauda-Rajmahal Corridor is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "route",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "0600-0637-shashanka-gauda-kingdom",
+    "1576-battle-of-rajmahal",
+    "1610-capital-shift-to-dhaka-jahangirnagar"
+  ]
+}

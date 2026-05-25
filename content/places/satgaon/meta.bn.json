@@ -1,0 +1,14 @@
+{
+  "id": "satgaon",
+  "title": "সাতগাঁও",
+  "subtitle": "প্রারম্ভিক বাংলার নদীবন্দর নেটওয়ার্ক",
+  "description": "সাতগাঁও বাংলা/বাংলাদেশের ইতিহাসে সংশ্লিষ্ট ঘটনাগুলোকে স্থানভিত্তিকভাবে দেখানোর জন্য ব্যবহৃত হচ্ছে।",
+  "placeType": "port",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1632-mughal-attack-on-portuguese-hooghly",
+    "1690-english-settlement-calcutta"
+  ]
+}

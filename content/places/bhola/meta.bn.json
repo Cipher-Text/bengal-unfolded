@@ -1,0 +1,13 @@
+{
+  "id": "bhola",
+  "title": "ভোলা",
+  "subtitle": "ঘূর্ণিঝড় ও নির্বাচনী মোড়-ফেরার অঞ্চল",
+  "description": "ভোলা বাংলা/বাংলাদেশের ইতিহাসে সংশ্লিষ্ট ঘটনাগুলোকে স্থানভিত্তিকভাবে দেখানোর জন্য ব্যবহৃত হচ্ছে।",
+  "placeType": "district",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election"
+  ]
+}

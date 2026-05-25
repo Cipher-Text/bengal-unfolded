@@ -1,0 +1,14 @@
+{
+  "id": "chittagong-hill-tracts",
+  "title": "Chittagong Hill Tracts",
+  "subtitle": "Frontier region of conflict and peace accord",
+  "description": "Chittagong Hill Tracts is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1997-chittagong-hill-tracts-peace-accord",
+    "1976-1997-shanti-bahini-insurgency"
+  ]
+}

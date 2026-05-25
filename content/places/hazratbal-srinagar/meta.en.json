@@ -1,0 +1,13 @@
+{
+  "id": "hazratbal-srinagar",
+  "title": "Hazratbal (Srinagar)",
+  "subtitle": "Symbolic trigger point for regional communal tensions",
+  "description": "Hazratbal (Srinagar) is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "religious-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1963-hazratbal-crisis-and-east-pakistan-communal-tensions"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chittagong-hill-tracts",
+  "title": "চট্টগ্রাম পার্বত্য চট্টগ্রাম",
+  "subtitle": "সংঘাত ও শান্তিচুক্তির সীমান্ত অঞ্চল",
+  "description": "চট্টগ্রাম পার্বত্য চট্টগ্রাম বাংলা/বাংলাদেশের ইতিহাসে সংশ্লিষ্ট ঘটনাগুলোকে স্থানভিত্তিকভাবে দেখানোর জন্য ব্যবহৃত হচ্ছে।",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1997-chittagong-hill-tracts-peace-accord",
+    "1976-1997-shanti-bahini-insurgency"
+  ]
+}

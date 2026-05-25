@@ -1,0 +1,14 @@
+{
+  "id": "barisal-bakerganj",
+  "title": "Barisal / Bakerganj",
+  "subtitle": "Delta district with agrarian and partition-era shifts",
+  "description": "Barisal / Bakerganj is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "district",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1818-faraizi-movement-begins-in-eastern-bengal",
+    "1947-partition-and-eastern-bengal"
+  ]
+}

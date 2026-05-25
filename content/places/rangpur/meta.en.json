@@ -1,0 +1,14 @@
+{
+  "id": "rangpur",
+  "title": "Rangpur",
+  "subtitle": "Agrarian resistance zone in north Bengal",
+  "description": "Rangpur is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "district",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1781-rangpur-dhing-uprising",
+    "1859-1860-indigo-revolt"
+  ]
+}

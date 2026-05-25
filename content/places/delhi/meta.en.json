@@ -1,0 +1,14 @@
+{
+  "id": "delhi",
+  "title": "Delhi",
+  "subtitle": "Imperial center in Bengal-Delhi power relations",
+  "description": "Delhi is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "capital",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1230s-1280s-bengal-under-delhi-governorates-fragmentation",
+    "1353-1359-ilyas-shah-delhi-sultanate-conflict"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "padua-pyrdiwah-boraibari",
+  "title": "Padua-Pyrdiwah-Boraibari",
+  "subtitle": "Border-clash zone between Bangladesh and India",
+  "description": "Padua-Pyrdiwah-Boraibari is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "frontier",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "2001-padua-pyrdiwah-boraibari-border-clash"
+  ]
+}

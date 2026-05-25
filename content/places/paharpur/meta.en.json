@@ -1,0 +1,14 @@
+{
+  "id": "paharpur",
+  "title": "Paharpur",
+  "subtitle": "Archaeological site of Somapura Mahavihara",
+  "description": "Paharpur is used as a place timeline node for connected historical events in Bengal/Bangladesh history.",
+  "placeType": "archaeological-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "0800-1200-somapura-mahavihara",
+    "0750-1170-pala-dynasty-foundation"
+  ]
+}
