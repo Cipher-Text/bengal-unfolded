@@ -1,0 +1,15 @@
+{
+  "id": "sylhet",
+  "title": "Sylhet",
+  "subtitle": "Frontier and migration-linked region",
+  "description": "Sylhet is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1303-conquest-of-sylhet",
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment",
+    "1947-sylhet-referendum"
+  ]
+}

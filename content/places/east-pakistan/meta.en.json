@@ -1,0 +1,16 @@
+{
+  "id": "east-pakistan",
+  "title": "East Pakistan",
+  "subtitle": "Province of Pakistan from 1947 to 1971",
+  "description": "East Pakistan is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1956-pakistan-constitution-east-pakistan-representation",
+    "1962-education-movement-in-east-pakistan",
+    "1966-six-point-programme-announced",
+    "1969-mass-uprising"
+  ]
+}

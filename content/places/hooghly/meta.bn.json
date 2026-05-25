@@ -1,0 +1,14 @@
+{
+  "id": "hooghly",
+  "title": "হুগলি",
+  "subtitle": "ঔপনিবেশিক বাণিজ্যের নদীবন্দর করিডর",
+  "description": "হুগলি নদীপথ ও বন্দরের মাধ্যমে বাংলার বৈশ্বিক বাণিজ্যিক সংযোগকে ত্বরান্বিত করে।",
+  "placeType": "river",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1632-mughal-attack-on-portuguese-hooghly",
+    "1690-english-settlement-calcutta"
+  ]
+}

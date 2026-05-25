@@ -1,0 +1,14 @@
+{
+  "id": "farakka",
+  "title": "ফারাক্কা",
+  "subtitle": "সীমান্ত-অতিক্রমী নদী নিয়ন্ত্রণ ও চুক্তি-সংযুক্ত স্থান",
+  "description": "ফারাক্কা পানি বণ্টন, আন্তঃরাষ্ট্রীয় কূটনীতি ও নদীনীতির দীর্ঘস্থায়ী বিতর্কের কেন্দ্র।",
+  "placeType": "route",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1976-farakka-long-march",
+    "1996-ganges-water-sharing-treaty"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "east-pakistan",
+  "title": "পূর্ব পাকিস্তান",
+  "subtitle": "১৯৪৭ থেকে ১৯৭১ পর্যন্ত পাকিস্তানের প্রদেশ",
+  "description": "পূর্ব পাকিস্তান পর্ব ভাষা আন্দোলন, স্বায়ত্তশাসন দাবি ও মুক্তিযুদ্ধের পূর্বশর্ত তৈরি করে।",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1956-pakistan-constitution-east-pakistan-representation",
+    "1962-education-movement-in-east-pakistan",
+    "1966-six-point-programme-announced",
+    "1969-mass-uprising"
+  ]
+}

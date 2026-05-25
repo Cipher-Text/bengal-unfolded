@@ -1,0 +1,13 @@
+{
+  "id": "barasat-narkelberia",
+  "title": "বারাসাত / নারকেলবাড়িয়া",
+  "subtitle": "ঔপনিবেশিকবিরোধী কৃষক প্রতিরোধের সঙ্গে যুক্ত স্থান",
+  "description": "বারাসাত/নারকেলবাড়িয়া তিতুমীর-পর্বসহ গ্রামীণ প্রতিরোধের স্মৃতি বহন করে।",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1831-titumir-s-bamboo-fort-uprising"
+  ]
+}

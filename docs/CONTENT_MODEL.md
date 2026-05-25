@@ -387,7 +387,7 @@ Example (Dhaka/Jahangirnagar):
 ```
 
 **Supported place IDs:**
-`bengal-region | bangladesh | west-bengal | dhaka-jahangirnagar | gaur-lakhnauti | murshidabad | sonargaon | mahasthangarh | somapura-mahavihara | sylhet | chittagong-chattogram | chittagong-hill-tracts | nadia-nabadwip | rajmahal | palashi-plassey | buxar | calcutta-kolkata | hooghly | satgaon | farakka | noakhali | mujibnagar | dhaka-university | pilkhana-dhaka | shahbag-dhaka`
+`bengal-region | bangladesh | east-bengal | east-pakistan | west-bengal | mahasthangarh | somapura-mahavihara | gaur-lakhnauti | nadia-nabadwip | sonargaon | sylhet | dhaka-jahangirnagar | murshidabad | chittagong-chattogram | rajmahal | hooghly | calcutta-kolkata | palashi-plassey | buxar | faridpur | barasat-narkelberia | noakhali | dhaka-university | dhaka-medical-college | central-shaheed-minar | racecourse-suhrawardy-udyan | mujibnagar | farakka | shahbag-dhaka | pilkhana-dhaka`
 
 ## Migration note
 
@@ -632,6 +632,35 @@ Supported movement IDs:
 Supported place IDs:
 
 - `bengal-region`
+- `bangladesh`
+- `east-bengal`
+- `east-pakistan`
+- `west-bengal`
+- `mahasthangarh`
+- `somapura-mahavihara`
+- `gaur-lakhnauti`
+- `nadia-nabadwip`
+- `sonargaon`
+- `sylhet`
+- `dhaka-jahangirnagar`
+- `murshidabad`
+- `chittagong-chattogram`
+- `rajmahal`
+- `hooghly`
+- `calcutta-kolkata`
+- `palashi-plassey`
+- `buxar`
+- `faridpur`
+- `barasat-narkelberia`
+- `noakhali`
+- `dhaka-university`
+- `dhaka-medical-college`
+- `central-shaheed-minar`
+- `racecourse-suhrawardy-udyan`
+- `mujibnagar`
+- `farakka`
+- `shahbag-dhaka`
+- `pilkhana-dhaka`
 
 ## Resource schema
 

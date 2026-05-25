@@ -1,0 +1,15 @@
+{
+  "id": "chittagong-chattogram",
+  "title": "চট্টগ্রাম / চাট্টগ্রাম",
+  "subtitle": "বন্দরনগরী ও কৌশলগত উপকূলীয় প্রবেশদ্বার",
+  "description": "চট্টগ্রাম/চাট্টগ্রাম বন্দর, বাণিজ্য, ঔপনিবেশিক প্রতিরোধ ও সামুদ্রিক যোগাযোগে গুরুত্বপূর্ণ।",
+  "placeType": "port",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1666-mughal-conquest-of-chittagong",
+    "1930-chittagong-armoury-raid",
+    "1997-chittagong-hill-tracts-peace-accord"
+  ]
+}

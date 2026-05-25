@@ -1,0 +1,16 @@
+{
+  "id": "east-bengal",
+  "title": "East Bengal",
+  "subtitle": "Colonial and partition-era political geography",
+  "description": "East Bengal is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement",
+    "1954-united-front-election-victory-in-east-bengal"
+  ]
+}

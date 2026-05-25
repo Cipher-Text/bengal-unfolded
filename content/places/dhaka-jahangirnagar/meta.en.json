@@ -1,6 +1,6 @@
 {
   "id": "dhaka-jahangirnagar",
-  "title": "Dhaka",
+  "title": "Dhaka / Jahangirnagar",
   "subtitle": "Capital of Bengal and Bangladesh",
   "description": "Modern capital of Bangladesh, known as Jahangirnagar during Mughal rule. A major political, cultural, and educational center throughout Bengal's history, from Mughal provincial capital to the heart of the Language Movement and Liberation War.",
   "placeType": "capital",
@@ -10,7 +10,11 @@
   "coordinateConfidence": "exact",
   "modernCountry": "Bangladesh",
   "modernAdministrativeUnit": "Dhaka Division",
-  "historicalNames": ["Jahangirnagar", "Dacca", "Dhaka"],
+  "historicalNames": [
+    "Jahangirnagar",
+    "Dacca",
+    "Dhaka"
+  ],
   "nameHistory": [
     {
       "name": "Dhaka",
@@ -86,7 +90,8 @@
     "1948-language-question-becomes-a-mass-political-issue",
     "1952-language-movement",
     "1971-liberation-war",
-    "2024-anti-discrimination-movement"
+    "2024-anti-discrimination-movement",
+    "1971-march-7-speech"
   ],
   "mapNote": "Coordinates point to central Dhaka (near the old city and university area). Historical Dhaka was much smaller; modern Dhaka has expanded significantly since 1971.",
   "seoTitle": "Dhaka / Jahangirnagar: Capital of Bengal and Bangladesh | Historical Timeline",

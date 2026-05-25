@@ -1,0 +1,14 @@
+{
+  "id": "mujibnagar",
+  "title": "Mujibnagar",
+  "subtitle": "Provisional government site in 1971",
+  "description": "Mujibnagar is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1971-mujibnagar-government",
+    "1971-liberation-war"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "hooghly",
+  "title": "Hooghly",
+  "subtitle": "River-port corridor of colonial commerce",
+  "description": "Hooghly is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "river",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1632-mughal-attack-on-portuguese-hooghly",
+    "1690-english-settlement-calcutta"
+  ]
+}

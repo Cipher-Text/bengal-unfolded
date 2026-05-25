@@ -1,0 +1,14 @@
+{
+  "id": "sonargaon",
+  "title": "Sonargaon",
+  "subtitle": "Historic administrative and trading center",
+  "description": "Sonargaon is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "city",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1599-baro-bhuyans-resistance-in-bhati",
+    "1664-1688-shaista-khan-governorship"
+  ]
+}

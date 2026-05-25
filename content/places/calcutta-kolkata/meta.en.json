@@ -1,0 +1,15 @@
+{
+  "id": "calcutta-kolkata",
+  "title": "Calcutta / Kolkata",
+  "subtitle": "Colonial capital and metropolitan center",
+  "description": "Calcutta / Kolkata is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "city",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1690-english-settlement-calcutta",
+    "1756-black-hole-calcutta-incident-and-imperial-propaganda-debate",
+    "1946-direct-action-day-and-the-great-calcutta-killing"
+  ]
+}

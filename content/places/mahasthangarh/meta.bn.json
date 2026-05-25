@@ -1,0 +1,14 @@
+{
+  "id": "mahasthangarh",
+  "title": "মহাস্থানগড়",
+  "subtitle": "বাংলার প্রাচীন নগর ও প্রত্নতাত্ত্বিক কেন্দ্র",
+  "description": "মহাস্থানগড় প্রাচীন বাংলার নগরজীবন, শাসন ও বাণিজ্যের গুরুত্বপূর্ণ সাক্ষ্য।",
+  "placeType": "archaeological-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence",
+    "0000-0450-gangaridai-and-early-delta-polities"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "dhaka-jahangirnagar",
-  "title": "ঢাকা",
+  "title": "ঢাকা / জাহাঙ্গীরনগর",
   "subtitle": "বাংলা ও বাংলাদেশের রাজধানী",
   "description": "বাংলাদেশের আধুনিক রাজধানী, মুঘল শাসনামলে জাহাঙ্গীরনগর নামে পরিচিত। বাংলার ইতিহাসে মুঘল প্রাদেশিক রাজধানী থেকে ভাষা আন্দোলন ও মুক্তিযুদ্ধের কেন্দ্রবিন্দু পর্যন্ত একটি প্রধান রাজনৈতিক, সাংস্কৃতিক ও শিক্ষাকেন্দ্র।",
   "placeType": "capital",
@@ -10,7 +10,11 @@
   "coordinateConfidence": "exact",
   "modernCountry": "বাংলাদেশ",
   "modernAdministrativeUnit": "ঢাকা বিভাগ",
-  "historicalNames": ["জাহাঙ্গীরনগর", "ঢাকা", "Dacca"],
+  "historicalNames": [
+    "জাহাঙ্গীরনগর",
+    "ঢাকা",
+    "Dacca"
+  ],
   "nameHistory": [
     {
       "name": "ঢাকা",
@@ -86,7 +90,8 @@
     "1948-language-question-becomes-a-mass-political-issue",
     "1952-language-movement",
     "1971-liberation-war",
-    "2024-anti-discrimination-movement"
+    "2024-anti-discrimination-movement",
+    "1971-march-7-speech"
   ],
   "mapNote": "স্থানাঙ্কগুলো কেন্দ্রীয় ঢাকার দিকে নির্দেশ করে (পুরান ঢাকা এবং বিশ্ববিদ্যালয় এলাকার কাছে)। ঐতিহাসিক ঢাকা অনেক ছোট ছিল; আধুনিক ঢাকা ১৯৭১ সালের পর থেকে উল্লেখযোগ্যভাবে সম্প্রসারিত হয়েছে।",
   "seoTitle": "ঢাকা / জাহাঙ্গীরনগর: বাংলা ও বাংলাদেশের রাজধানী | ঐতিহাসিক টাইমলাইন",

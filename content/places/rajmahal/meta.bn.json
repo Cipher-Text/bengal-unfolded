@@ -1,0 +1,14 @@
+{
+  "id": "rajmahal",
+  "title": "রাজমহল",
+  "subtitle": "প্রারম্ভিক মুঘল-পর্বের রাজধানী অবস্থান",
+  "description": "রাজমহল বাংলায় মুঘল কর্তৃত্ব প্রতিষ্ঠার প্রাথমিক প্রশাসনিক ঘাঁটি হিসেবে ব্যবহৃত হয়।",
+  "placeType": "city",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1576-battle-of-rajmahal",
+    "1610-capital-shift-to-dhaka-jahangirnagar"
+  ]
+}

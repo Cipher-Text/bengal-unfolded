@@ -1,0 +1,14 @@
+{
+  "id": "buxar",
+  "title": "বক্সার",
+  "subtitle": "কোম্পানির আঞ্চলিক ক্ষমতার সঙ্গে যুক্ত যুদ্ধক্ষেত্র",
+  "description": "বক্সারের যুদ্ধ ইস্ট ইন্ডিয়া কোম্পানির আর্থিক-রাজনৈতিক কর্তৃত্ব দৃঢ় করতে গুরুত্বপূর্ণ ছিল।",
+  "placeType": "battlefield",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal"
+  ]
+}

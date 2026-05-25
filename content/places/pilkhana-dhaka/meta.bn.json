@@ -1,0 +1,13 @@
+{
+  "id": "pilkhana-dhaka",
+  "title": "পিলখানা, ঢাকা",
+  "subtitle": "২০০৯ সালের বিডিআর বিদ্রোহ ও হত্যাকাণ্ডের স্থান",
+  "description": "পিলখানা ২০০৯ সালের বিডিআর বিদ্রোহ, রাষ্ট্র-নিরাপত্তা বিতর্ক ও বিচার-স্মৃতির কেন্দ্রে রয়েছে।",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ]
+}

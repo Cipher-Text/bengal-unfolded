@@ -1,6 +1,6 @@
 {
   "id": "palashi-plassey",
-  "title": "পলাশী",
+  "title": "পলাশী / প্লাসি",
   "subtitle": "১৭৫৭ সালের যুদ্ধের স্থান যা বাংলার ইতিহাস বদলে দেয়",
   "description": "বাংলার একটি ছোট গ্রাম যেখানে ১৭৫৭ সালের পলাশীর যুদ্ধ সংঘটিত হয়, যা ভারতে ব্রিটিশ ঔপনিবেশিক শাসনের সূচনা চিহ্নিত করে। এই যুদ্ধক্ষেত্রে রবার্ট ক্লাইভের নেতৃত্বে ইস্ট ইন্ডিয়া কোম্পানির বাহিনীর কাছে নবাব সিরাজউদ্দৌলার পরাজয় ঘটে।",
   "placeType": "battlefield",
@@ -10,7 +10,10 @@
   "coordinateConfidence": "approximate",
   "modernCountry": "ভারত",
   "modernAdministrativeUnit": "নদিয়া জেলা, পশ্চিমবঙ্গ",
-  "historicalNames": ["পলাশী", "Plassey"],
+  "historicalNames": [
+    "পলাশী",
+    "Plassey"
+  ],
   "nameHistory": [
     {
       "name": "পলাশী",

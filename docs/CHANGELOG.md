@@ -4,6 +4,13 @@
 
 ### Completed
 
+- Place backfill batch for `/[locale]/places` coverage:
+  - Activated 30 place IDs in `src/types/content.ts` and `scripts/validate-content.mjs`:
+    - `bengal-region`, `bangladesh`, `east-bengal`, `east-pakistan`, `west-bengal`, `mahasthangarh`, `somapura-mahavihara`, `gaur-lakhnauti`, `nadia-nabadwip`, `sonargaon`, `sylhet`, `dhaka-jahangirnagar`, `murshidabad`, `chittagong-chattogram`, `rajmahal`, `hooghly`, `calcutta-kolkata`, `palashi-plassey`, `buxar`, `faridpur`, `barasat-narkelberia`, `noakhali`, `dhaka-university`, `dhaka-medical-college`, `central-shaheed-minar`, `racecourse-suhrawardy-udyan`, `mujibnagar`, `farakka`, `shahbag-dhaka`, `pilkhana-dhaka`.
+  - Added bilingual place metadata files (`meta.en.json`, `meta.bn.json`) for the newly introduced place IDs under `content/places/<place-id>/`.
+  - Applied combined historical/modern display naming for core dual-name places:
+    - `Dhaka / Jahangirnagar`, `Gaur / Lakhnauti`, `Calcutta / Kolkata`, `Chittagong / Chattogram`, `Palashi / Plassey`, `Nabadwip / Nadia`.
+
 - Historical place system expansion (RM-REL-009 enhancement):
   - Model:
     - Extended `PlaceMeta` in `src/types/content.ts` with time-aware fields:

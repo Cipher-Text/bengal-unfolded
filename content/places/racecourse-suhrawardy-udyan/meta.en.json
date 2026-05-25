@@ -1,0 +1,14 @@
+{
+  "id": "racecourse-suhrawardy-udyan",
+  "title": "Racecourse / Suhrawardy Udyan",
+  "subtitle": "Ground of major mass political moments",
+  "description": "Racecourse / Suhrawardy Udyan is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1971-march-7-speech",
+    "1971-december-16-instrument-of-surrender"
+  ]
+}

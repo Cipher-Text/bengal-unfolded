@@ -1,0 +1,15 @@
+{
+  "id": "chittagong-chattogram",
+  "title": "Chittagong / Chattogram",
+  "subtitle": "Port city and strategic coastal gateway",
+  "description": "Chittagong / Chattogram is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "port",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1666-mughal-conquest-of-chittagong",
+    "1930-chittagong-armoury-raid",
+    "1997-chittagong-hill-tracts-peace-accord"
+  ]
+}

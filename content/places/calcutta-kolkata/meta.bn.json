@@ -1,0 +1,15 @@
+{
+  "id": "calcutta-kolkata",
+  "title": "ক্যালকাটা / কলকাতা",
+  "subtitle": "ঔপনিবেশিক রাজধানী ও মহানগর কেন্দ্র",
+  "description": "ক্যালকাটা/কলকাতা ব্রিটিশ ঔপনিবেশিক প্রশাসন, বাণিজ্য ও রাজনৈতিক আধুনিকতার কেন্দ্র ছিল।",
+  "placeType": "city",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1690-english-settlement-calcutta",
+    "1756-black-hole-calcutta-incident-and-imperial-propaganda-debate",
+    "1946-direct-action-day-and-the-great-calcutta-killing"
+  ]
+}

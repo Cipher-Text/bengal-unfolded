@@ -1,0 +1,13 @@
+{
+  "id": "pilkhana-dhaka",
+  "title": "Pilkhana, Dhaka",
+  "subtitle": "Site of the 2009 BDR mutiny killings",
+  "description": "Pilkhana, Dhaka is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ]
+}

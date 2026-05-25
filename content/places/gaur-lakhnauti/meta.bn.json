@@ -1,0 +1,15 @@
+{
+  "id": "gaur-lakhnauti",
+  "title": "গৌড় / লাখনৌতি",
+  "subtitle": "মধ্যযুগীয় বাংলার প্রধান রাজধানী",
+  "description": "গৌড়/লাখনৌতি বাংলার সুলতানি ও আঞ্চলিক রাষ্ট্রশক্তির গুরুত্বপূর্ণ প্রশাসনিক কেন্দ্র ছিল।",
+  "placeType": "capital",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "0600-0637-shashanka-gauda-kingdom",
+    "1352-bengal-sultanate-independence-and-unification",
+    "1538-humayun-enters-bengal-and-occupies-gaur"
+  ]
+}

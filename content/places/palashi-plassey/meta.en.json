@@ -1,6 +1,6 @@
 {
   "id": "palashi-plassey",
-  "title": "Palashi (Plassey)",
+  "title": "Palashi / Plassey",
   "subtitle": "Site of the 1757 Battle That Changed Bengal's History",
   "description": "A small village in Bengal where the 1757 Battle of Plassey took place, marking the beginning of British colonial rule in India. The battlefield witnessed the defeat of Nawab Siraj ud-Daulah by the East India Company's forces under Robert Clive.",
   "placeType": "battlefield",
@@ -10,7 +10,10 @@
   "coordinateConfidence": "approximate",
   "modernCountry": "India",
   "modernAdministrativeUnit": "Nadia District, West Bengal",
-  "historicalNames": ["Palashi", "Plassey"],
+  "historicalNames": [
+    "Palashi",
+    "Plassey"
+  ],
   "nameHistory": [
     {
       "name": "পলাশী (Palashi)",

@@ -1,0 +1,15 @@
+{
+  "id": "dhaka-university",
+  "title": "ঢাকা বিশ্ববিদ্যালয়",
+  "subtitle": "রাজনৈতিক আন্দোলনের শিক্ষাকেন্দ্র",
+  "description": "ঢাকা বিশ্ববিদ্যালয় ভাষা আন্দোলন, গণআন্দোলন ও জাতীয় রাজনৈতিক চেতনার প্রধান ঘাঁটি।",
+  "placeType": "educational-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1921-dhaka-university-establishment",
+    "1952-language-movement",
+    "1969-mass-uprising"
+  ]
+}

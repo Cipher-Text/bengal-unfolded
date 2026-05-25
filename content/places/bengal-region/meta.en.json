@@ -6,5 +6,12 @@
   "placeType": "region",
   "themeColor": "#d8b166",
   "coordinateConfidence": "representative",
-  "mapNote": "Bengal Region is a broad historical geography covering present-day Bangladesh and adjacent areas. Coordinates are representative, not precise boundaries."
+  "mapNote": "Bengal Region is a broad historical geography covering present-day Bangladesh and adjacent areas. Coordinates are representative, not precise boundaries.",
+  "relatedEventIds": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence",
+    "1352-bengal-sultanate-independence-and-unification",
+    "1757-battle-of-plassey",
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "gaur-lakhnauti",
+  "title": "Gaur / Lakhnauti",
+  "subtitle": "Major medieval capital in Bengal",
+  "description": "Gaur / Lakhnauti is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "capital",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "0600-0637-shashanka-gauda-kingdom",
+    "1352-bengal-sultanate-independence-and-unification",
+    "1538-humayun-enters-bengal-and-occupies-gaur"
+  ]
+}

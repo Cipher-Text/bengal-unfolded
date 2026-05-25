@@ -1,0 +1,14 @@
+{
+  "id": "nadia-nabadwip",
+  "title": "নবদ্বীপ / নদিয়া",
+  "subtitle": "বাংলার জ্ঞানচর্চা ও ধর্মীয় ঐতিহ্যের কেন্দ্র",
+  "description": "নবদ্বীপ/নদিয়া শিক্ষা, ন্যায়শাস্ত্র ও ভক্তি আন্দোলনের জন্য ঐতিহাসিকভাবে গুরুত্বপূর্ণ।",
+  "placeType": "city",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1204-bakhtiyar-khalji-s-conquest-of-nadia",
+    "1095-1205-sena-rise-and-lakshman-sen-court-culture"
+  ]
+}

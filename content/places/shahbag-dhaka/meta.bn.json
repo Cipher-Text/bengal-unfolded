@@ -1,0 +1,14 @@
+{
+  "id": "shahbag-dhaka",
+  "title": "শাহবাগ, ঢাকা",
+  "subtitle": "নাগরিক প্রতিবাদ ও স্মৃতি-রাজনীতির কেন্দ্র",
+  "description": "শাহবাগ সমকালীন নাগরিক আন্দোলন, ন্যায়বিচারের দাবি ও জনপরিসরের রাজনীতির গুরুত্বপূর্ণ স্থান।",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "2013-shahbag-movement",
+    "2024-anti-discrimination-movement"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sonargaon",
+  "title": "সোনারগাঁও",
+  "subtitle": "ঐতিহাসিক প্রশাসনিক ও বাণিজ্যিক কেন্দ্র",
+  "description": "সোনারগাঁও সুলতানি ও মুঘল পর্বে প্রশাসন, হস্তশিল্প ও বাণিজ্যের জন্য পরিচিত ছিল।",
+  "placeType": "city",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1599-baro-bhuyans-resistance-in-bhati",
+    "1664-1688-shaista-khan-governorship"
+  ]
+}

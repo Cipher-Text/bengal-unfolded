@@ -1,0 +1,17 @@
+{
+  "id": "bangladesh",
+  "title": "Bangladesh",
+  "subtitle": "Modern state formed in 1971",
+  "description": "Bangladesh is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution",
+    "1991-return-to-parliamentary-democracy",
+    "2013-rana-plaza-collapse",
+    "2024-anti-discrimination-movement"
+  ]
+}

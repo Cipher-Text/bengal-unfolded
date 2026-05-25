@@ -1,0 +1,13 @@
+{
+  "id": "faridpur",
+  "title": "Faridpur",
+  "subtitle": "District linked to agrarian and political mobilization",
+  "description": "Faridpur is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "district",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1818-faraizi-movement-begins-in-eastern-bengal"
+  ]
+}

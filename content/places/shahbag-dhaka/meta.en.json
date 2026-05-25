@@ -1,0 +1,14 @@
+{
+  "id": "shahbag-dhaka",
+  "title": "Shahbag, Dhaka",
+  "subtitle": "Civic protest and memory movement hub",
+  "description": "Shahbag, Dhaka is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "2013-shahbag-movement",
+    "2024-anti-discrimination-movement"
+  ]
+}

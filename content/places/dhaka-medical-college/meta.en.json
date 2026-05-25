@@ -1,0 +1,13 @@
+{
+  "id": "dhaka-medical-college",
+  "title": "Dhaka Medical College",
+  "subtitle": "Key site in Language Movement memory",
+  "description": "Dhaka Medical College is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "educational-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ]
+}

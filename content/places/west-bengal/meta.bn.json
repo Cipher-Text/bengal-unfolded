@@ -1,0 +1,15 @@
+{
+  "id": "west-bengal",
+  "title": "পশ্চিমবঙ্গ",
+  "subtitle": "বাংলা ইতিহাসের যৌথ উত্তরাধিকারের ভারতীয় রাজ্য",
+  "description": "পশ্চিমবঙ্গ বিভাজনের পরও বাংলা ভাষা, সংস্কৃতি ও রাজনীতির ধারাবাহিকতার অংশ।",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1947-radcliffe-award-border-demarcation-implementation",
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1967-naxalbari-uprising-and-bengal-left-radicalization"
+  ]
+}

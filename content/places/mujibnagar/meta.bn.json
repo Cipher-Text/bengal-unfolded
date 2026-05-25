@@ -1,0 +1,14 @@
+{
+  "id": "mujibnagar",
+  "title": "মুজিবনগর",
+  "subtitle": "১৯৭১ সালের অস্থায়ী সরকারের স্থান",
+  "description": "মুজিবনগর ১৯৭১ সালে অস্থায়ী সরকারের শপথ ও যুদ্ধকালীন রাষ্ট্রিক বৈধতার প্রতীকী কেন্দ্র।",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1971-mujibnagar-government",
+    "1971-liberation-war"
+  ]
+}

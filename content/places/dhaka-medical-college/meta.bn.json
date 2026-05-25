@@ -1,0 +1,13 @@
+{
+  "id": "dhaka-medical-college",
+  "title": "ঢাকা মেডিকেল কলেজ",
+  "subtitle": "ভাষা আন্দোলনের স্মৃতি-সংযুক্ত প্রধান স্থান",
+  "description": "ঢাকা মেডিকেল কলেজ ১৯৫২ সালের প্রতিবাদ, আহতদের চিকিৎসা ও স্মৃতির সঙ্গে গভীরভাবে যুক্ত।",
+  "placeType": "educational-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ]
+}

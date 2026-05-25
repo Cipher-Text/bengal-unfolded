@@ -1,0 +1,14 @@
+{
+  "id": "somapura-mahavihara",
+  "title": "সোমপুর মহাবিহার",
+  "subtitle": "বৌদ্ধ শিক্ষা ও স্থাপত্যের প্রধান কেন্দ্র",
+  "description": "সোমপুর মহাবিহার মধ্যযুগ-পূর্ব বাংলার ধর্মীয় ও জ্ঞানচর্চার বিশ্বমানের নিদর্শন।",
+  "placeType": "religious-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "0800-1200-somapura-mahavihara",
+    "0750-1170-pala-dynasty-foundation"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bangladesh",
+  "title": "বাংলাদেশ",
+  "subtitle": "১৯৭১ সালে গঠিত আধুনিক রাষ্ট্র",
+  "description": "বাংলাদেশের রাষ্ট্রগঠন, রাজনীতি ও সমাজগত রূপান্তরের কেন্দ্রীয় ভূখণ্ড।",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution",
+    "1991-return-to-parliamentary-democracy",
+    "2013-rana-plaza-collapse",
+    "2024-anti-discrimination-movement"
+  ]
+}

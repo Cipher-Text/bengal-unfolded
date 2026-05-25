@@ -1,0 +1,14 @@
+{
+  "id": "mahasthangarh",
+  "title": "Mahasthangarh",
+  "subtitle": "Early urban and archaeological center in Bengal",
+  "description": "Mahasthangarh is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "archaeological-site",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence",
+    "0000-0450-gangaridai-and-early-delta-polities"
+  ]
+}

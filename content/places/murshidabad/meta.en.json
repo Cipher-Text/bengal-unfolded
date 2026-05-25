@@ -1,0 +1,15 @@
+{
+  "id": "murshidabad",
+  "title": "Murshidabad",
+  "subtitle": "Nawabi capital and revenue center",
+  "description": "Murshidabad is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "capital",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1717-murshid-quli-khan-formally-appointed-nawab",
+    "1757-battle-of-plassey"
+  ]
+}

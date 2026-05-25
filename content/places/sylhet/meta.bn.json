@@ -1,0 +1,15 @@
+{
+  "id": "sylhet",
+  "title": "সিলেট",
+  "subtitle": "সীমান্ত ও অভিবাসন-সংযুক্ত অঞ্চল",
+  "description": "সিলেট ধর্মীয় বিস্তার, সীমান্ত রাজনীতি ও গণভোট-পর্বের ইতিহাসে বিশেষভাবে গুরুত্বপূর্ণ।",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1303-conquest-of-sylhet",
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment",
+    "1947-sylhet-referendum"
+  ]
+}

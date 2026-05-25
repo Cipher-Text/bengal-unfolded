@@ -1,0 +1,15 @@
+{
+  "id": "west-bengal",
+  "title": "West Bengal",
+  "subtitle": "Indian state with shared Bengal historical links",
+  "description": "West Bengal is a historical place node used to organize related Bengal/Bangladesh timeline events.",
+  "placeType": "region",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
+  "relatedEventIds": [
+    "1947-radcliffe-award-border-demarcation-implementation",
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1967-naxalbari-uprising-and-bengal-left-radicalization"
+  ]
+}

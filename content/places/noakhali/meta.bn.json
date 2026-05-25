@@ -1,0 +1,14 @@
+{
+  "id": "noakhali",
+  "title": "নোয়াখালী",
+  "subtitle": "সাম্প্রদায়িক সহিংসতা ও বিভাজন-পর্বের স্মৃতিধারক জেলা",
+  "description": "নোয়াখালী ১৯৪৬-এর সহিংসতা ও পরবর্তী সাম্প্রদায়িক রাজনীতির আলোচনায় কেন্দ্রীয় স্থান।",
+  "placeType": "district",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1946-noakhali-riots",
+    "1947-partition-and-eastern-bengal"
+  ]
+}

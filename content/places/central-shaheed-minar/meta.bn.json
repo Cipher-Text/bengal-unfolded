@@ -1,0 +1,14 @@
+{
+  "id": "central-shaheed-minar",
+  "title": "কেন্দ্রীয় শহীদ মিনার",
+  "subtitle": "ভাষা শহীদদের স্মৃতিস্তম্ভ",
+  "description": "কেন্দ্রীয় শহীদ মিনার ভাষা শহীদদের স্মৃতি, সাংস্কৃতিক অধিকার ও জাতীয় পরিচয়ের প্রতীক।",
+  "placeType": "other",
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
+  "relatedEventIds": [
+    "1952-language-movement",
+    "1948-language-question-becomes-a-mass-political-issue"
+  ]
+}
