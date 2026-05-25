@@ -1,14 +1,10 @@
 {
-  "name": "Golam Azam",
-  "name_en": "Golam Azam",
-  "role": "Historical Jamaat leadership reference",
+  "name": "Ghulam Azam",
+  "name_en": "Ghulam Azam",
+  "role": "Islamist political leader",
   "group": "leader",
-  "contribution": "Referenced in the political memory and justice narratives that fed into the 2013 Shahbag-Gonojagoron mobilization.",
-  "context": "Longer history of war-crimes accountability debates and party-politics alignment in Bangladesh.",
-  "impact": "Served as a central reference point in arguments about accountability, historical responsibility, and political legitimacy.",
-  "tags": [
-    "shahbag",
-    "2013"
-  ],
+  "contribution": "Ghulam Azam played a significant role in the political developments tied to Bangladesh's state trajectory.",
+  "context": "Pakistan and Bangladesh period political transitions.",
+  "impact": "The figure remains important in debates over political legitimacy, state power, and historical memory.",
   "image": "/figures/golam-azam.jpg"
 }

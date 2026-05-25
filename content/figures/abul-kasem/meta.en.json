@@ -1,9 +1,10 @@
 {
   "name": "Abul Kashem",
-  "role": "Intellectual Founder of the Language Movement",
+  "name_en": "Abul Kashem",
+  "role": "Language movement organizer",
   "group": "leader",
-  "contribution": "Through Tamaddun Majlish, he helped launch the earliest organized campaign for Bangla as a state language of Pakistan.",
-  "context": "Dhaka's post-partition intellectual and student circles, especially from 1947 onward.",
-  "impact": "He provided one of the movement's first coherent intellectual frameworks and helped move language into formal public politics.",
+  "contribution": "Abul Kashem played a significant role in the political developments tied to Bangladesh's state trajectory.",
+  "context": "Pakistan and Bangladesh period political transitions.",
+  "impact": "The figure remains important in debates over political legitimacy, state power, and historical memory.",
   "image": "/figures/abul-kasem.jpg"
 }

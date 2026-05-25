@@ -1,16 +1,10 @@
 {
   "name": "Abu Taher",
   "name_en": "Abu Taher",
-  "role": "Sector 11 Commander",
+  "role": "Military officer and political actor",
   "group": "leader",
-  "contribution": "He played a major combat role in Sector 11 and became known for aggressive operations despite serious injury.",
-  "context": "Northern fronts and Sector 11 operations, 1971.",
-  "impact": "His command helped sustain high-intensity resistance in difficult battlefield conditions.",
-  "highlight": "A commander remembered for frontline resolve under fire.",
-  "tags": [
-    "sector-11",
-    "frontline",
-    "combat"
-  ],
-  "image": "/figures/abu-taher.jpeg"
+  "contribution": "Abu Taher played a significant role in the political developments tied to Bangladesh's state trajectory.",
+  "context": "Pakistan and Bangladesh period political transitions.",
+  "impact": "The figure remains important in debates over political legitimacy, state power, and historical memory.",
+  "image": "/figures/abu-taher.jpg"
 }
