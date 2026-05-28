@@ -73,6 +73,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: { languages: localeAlternates("/topics") },
       },
       {
+        url: withLocale(locale, "/paths"),
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.8,
+        alternates: { languages: localeAlternates("/paths") },
+      },
+      {
         url: withLocale(locale, "/glossary"),
         lastModified: now,
         changeFrequency: "weekly",
@@ -161,6 +168,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "weekly",
         priority: 0.8,
         alternates: { languages: localeAlternates(`/topics/${topicSlug}`) },
+      });
+      entries.push({
+        url: withLocale(locale, `/paths/${topicSlug}`),
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.75,
+        alternates: { languages: localeAlternates(`/paths/${topicSlug}`) },
       });
     }
 

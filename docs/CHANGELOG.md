@@ -4,6 +4,19 @@
 
 ### Completed
 
+- RM-008/RM-011A/RM-011B/RM-011F Learning paths:
+  - UI/runtime:
+    - Added `/[locale]/paths` learning-path discovery with static mode filters: beginner, student, researcher, and exam-prep.
+    - Added `/[locale]/paths/[slug]` detail pages derived from existing `Topic.learningPath[]` metadata.
+    - Added roadmap-style numbered step UI for guided reading across events, figures, resources, places, periods, and topics.
+    - Added topic-backed difficulty labels (`beginner`, `intermediate`, `advanced`) without progress tracking or badge logic.
+  - SEO/discovery:
+    - Added localized metadata for path index/detail routes.
+    - Added `/paths` and `/paths/[slug]` routes to sitemap alternates and header navigation.
+  - Model/validation/backfill:
+    - No new JSON schema fields required; pages reuse already-validated `Topic.learningPath[]`.
+    - No content backfill required because current topic hubs already include bilingual learning-path data.
+
 - RM-007 Compare events view (`/{locale}/compare`):
   - UI/runtime:
     - Added a static, server-rendered bilingual compare page for selecting two events via query params.

@@ -7,6 +7,7 @@ import type { Locale } from "@/types/content";
 export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAfterLocale?: string }) {
   const navItems: Array<{ href: string; label: string }> = [
     { href: `/${locale}/topics`, label: locale === "bn" ? "টপিকস" : "Topics" },
+    { href: `/${locale}/paths`, label: locale === "bn" ? "পথ" : "Paths" },
     { href: `/${locale}/compare`, label: locale === "bn" ? "তুলনা" : "Compare" },
     { href: `/${locale}/figures`, label: locale === "bn" ? "ব্যক্তিত্ব" : "Figures" },
     { href: `/${locale}/resources`, label: locale === "bn" ? "রিসোর্স" : "Resources" },

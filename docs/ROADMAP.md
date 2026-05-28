@@ -327,7 +327,7 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 ### Existing planned items
 
 - [x] RM-007 Compare events view (`/{locale}/compare`)
-- [ ] RM-008 Learning paths (`beginner`, `student`, `researcher`, `exam-prep`)
+- [x] RM-008 Learning paths (`beginner`, `student`, `researcher`, `exam-prep`)
 - [ ] RM-009 Knowledge checks — deferred to B3 (RB-LEARN-005); in v2 use Typeform/Google Form placeholder for "Test your understanding" prompts; static quiz without score storage creates dead-end implementation
 - [ ] RM-010 Content density controls (`quick read` vs `deep read`)
 - [ ] RM-011 Glossary hover/tooltips in narrative content
@@ -338,9 +338,9 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 > are intentionally deferred to B3. In v2, build path structure and UI only. Do not
 > implement persistence, badge awards, or cross-session state in the static phase.
 
-- [ ] RM-011A Learning path detail pages (`/{locale}/paths/[slug]`)
-- [ ] RM-011B Roadmap-style step UI for history topics with visual learning path display
-- [ ] RM-011F Topic difficulty labels (`beginner`, `intermediate`, `advanced`)
+- [x] RM-011A Learning path detail pages (`/{locale}/paths/[slug]`)
+- [x] RM-011B Roadmap-style step UI for history topics with visual learning path display
+- [x] RM-011F Topic difficulty labels (`beginner`, `intermediate`, `advanced`)
 
 **Removed from v2 (violate pre-backend scope boundary):**
 - ~~RM-011C Local progress tracking~~ → deferred to B3 (RB-LEARN-003)

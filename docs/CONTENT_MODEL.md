@@ -151,6 +151,12 @@ Example:
 - `faq?: Array<{ question: string; answer: string; sourceIds?: string[] }>`
 - `learningPath?: Array<{ type: 'event' | 'figure' | 'resource' | 'place' | 'period' | 'topic'; id: string; reason?: string }>`
 
+Runtime learning-path pages derive from this field:
+
+- `/{locale}/paths` lists topic-backed learning paths and groups them into reader modes (`beginner`, `student`, `researcher`, `exam-prep`).
+- `/{locale}/paths/{slug}` renders the topic's `learningPath[]` as a static step sequence.
+- Reader progress, enrolment, badges, scoring, and personalized recommendations are intentionally not part of this static model.
+
 Example:
 
 ```json
