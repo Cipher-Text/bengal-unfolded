@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-05-29
+
+### Completed
+
+- RM-007 Compare events view (`/{locale}/compare`):
+  - UI/runtime:
+    - Added a static, server-rendered bilingual compare page for selecting two events via query params.
+    - Shows side-by-side event chronology, period, movement, place, importance, evidence posture, overview, why-it-matters text, causes, consequences, and chapter links.
+    - Adds shared-context blocks for overlapping figures, resources, and related chapters.
+  - SEO/discovery:
+    - Added localized metadata for the compare route.
+    - Added `/compare` to header navigation and sitemap alternates.
+  - Model/validation/backfill:
+    - No schema changes required.
+    - No content backfill required; the page uses existing event, figure, resource, and relationship metadata.
+
 ## 2026-05-25
 
 ### Completed

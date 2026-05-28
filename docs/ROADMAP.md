@@ -326,7 +326,7 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 
 ### Existing planned items
 
-- [ ] RM-007 Compare events view (`/{locale}/compare`)
+- [x] RM-007 Compare events view (`/{locale}/compare`)
 - [ ] RM-008 Learning paths (`beginner`, `student`, `researcher`, `exam-prep`)
 - [ ] RM-009 Knowledge checks — deferred to B3 (RB-LEARN-005); in v2 use Typeform/Google Form placeholder for "Test your understanding" prompts; static quiz without score storage creates dead-end implementation
 - [ ] RM-010 Content density controls (`quick read` vs `deep read`)
