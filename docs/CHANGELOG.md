@@ -4,6 +4,16 @@
 
 ### Completed
 
+- Creator directory:
+  - UI/runtime:
+    - Added `/[locale]/creators` list page with keyword search, creator type filter, resource category filter, minimum resource count filter, and pagination.
+    - Added creator counts and resource previews so users can browse resource contributors before opening profile pages.
+  - SEO/discovery:
+    - Added localized metadata, sitemap entries, and header navigation for the creator directory.
+  - Model/validation/backfill:
+    - No schema changes required; the page reuses creators derived from existing resource attribution metadata.
+    - No content backfill required.
+
 - RM-011 Glossary hover/tooltips:
   - UI/runtime:
     - Upgraded inline glossary links in event narrative and timeline detail text with localized hover/focus previews.

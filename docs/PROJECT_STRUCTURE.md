@@ -55,8 +55,10 @@ src/
         page.tsx
         [id]/page.tsx
       creators/
+        page.tsx
         [id]/page.tsx
       resources/
+        page.tsx
         [id]/page.tsx
       books/
         [id]/page.tsx

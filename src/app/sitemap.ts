@@ -52,6 +52,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: { languages: localeAlternates("/figures") },
       },
       {
+        url: withLocale(locale, "/creators"),
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.72,
+        alternates: { languages: localeAlternates("/creators") },
+      },
+      {
         url: withLocale(locale, "/timeline"),
         lastModified: now,
         changeFrequency: "weekly",
