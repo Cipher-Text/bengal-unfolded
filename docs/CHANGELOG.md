@@ -4,6 +4,15 @@
 
 ### Completed
 
+- RM-011 Glossary hover/tooltips:
+  - UI/runtime:
+    - Upgraded inline glossary links in event narrative and timeline detail text with localized hover/focus previews.
+    - Kept glossary links navigable to `/{locale}/glossary/[term]` while exposing definitions through accessible labels and CSS tooltips.
+    - Extended controlled glossary linking to render multiple terms per narrative string.
+  - Model/validation/backfill:
+    - No schema changes required; previews reuse existing glossary term definitions.
+    - No content backfill required.
+
 - RM-010 Content density controls:
   - UI/runtime:
     - Added event-page reading mode controls for `quick read` and `deep read`.
