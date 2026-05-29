@@ -4,6 +4,16 @@
 
 ### Completed
 
+- Glossary expansion batch 1:
+  - Content/backfill:
+    - Added 26 bilingual high-value glossary entries covering ancient Bengal, Pala-Sena history, Sultanate and Mughal administration, colonial revenue and peasant resistance, late-colonial constitutional politics, Pakistan period, Liberation War, and contemporary Bangladesh.
+    - Expanded glossary coverage from 8 to 34 terms.
+  - UI/runtime:
+    - Added controlled term-linking patterns for the new glossary entries in EN/BN narrative text.
+    - Updated the glossary index to display terms chronologically from ancient Bengal to contemporary Bangladesh, grouped by historical era.
+  - Model/validation:
+    - No schema changes required; entries use the existing `GlossaryTerm` contract.
+
 - RM-008/RM-011A/RM-011B/RM-011F Learning paths:
   - UI/runtime:
     - Added `/[locale]/paths` learning-path discovery with static mode filters: beginner, student, researcher, and exam-prep.
