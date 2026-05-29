@@ -1,11 +1,11 @@
 {
-  "title": "Bangladesh Rifles Revolt",
-  "note": "Useful starting point for the timeline, casualties, trial overview, and related references. Cross-check with court and report sources.",
+  "title": "Revolt at the BDR Headquarters situated at Peelkhana: Government Investigation Report",
+  "note": "Government investigation report on the 2009 Peelkhana killings, useful for the event sequence, causes, responsibility, and administrative failure.",
   "category": "primary-sources",
   "subcategory": "Official Documents and Legal Texts",
-  "attribution": "Wikipedia contributors",
-  "quality": "editorial",
-  "sourceQuality": "reference",
-  "evidenceLevel": "medium",
-  "whyItMatters": "Useful starting point for the timeline, casualties, trial overview, and related references. Cross-check with court and report sources."
+  "attribution": "Government Investigation Committee, Chairman: Anis Uz Zaman Khan",
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Government investigation report on the 2009 Peelkhana killings, useful for the event sequence, causes, responsibility, and administrative failure."
 }

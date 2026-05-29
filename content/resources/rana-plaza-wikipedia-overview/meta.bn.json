@@ -1,12 +1,12 @@
 {
-  "title": "Rana Plaza collapse (overview)",
-  "note": "Background chronology used as a navigational secondary source.",
-  "category": "reference-sources",
-  "subcategory": "General Reference",
-  "attribution": "Wikipedia",
+  "title": "রানা প্লাজা ও ভবন-নিরাপত্তা সংস্কার",
+  "note": "রানা প্লাজার পর ভবন-নিরাপত্তা সংস্কার কাঠামো নিয়ে আইএলও ওভারভিউ।",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
+  "attribution": "আন্তর্জাতিক শ্রম সংস্থা",
   "quality": "secondary",
-  "href": "https://en.wikipedia.org/wiki/Rana_Plaza_collapse",
-  "sourceQuality": "reference",
-  "evidenceLevel": "medium",
-  "whyItMatters": "Background chronology used as a navigational secondary source."
+  "href": "https://www.ilo.org/global/topics/geip/WCMS_614394/lang--en/index.htm",
+  "sourceQuality": "archive",
+  "evidenceLevel": "high",
+  "whyItMatters": "রানা প্লাজার পর ভবন-নিরাপত্তা সংস্কার কাঠামো নিয়ে আইএলও ওভারভিউ।"
 }
