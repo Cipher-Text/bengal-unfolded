@@ -100,7 +100,7 @@ const EVENT_LABELS = {
     quickRead: "Quick read",
     deepRead: "Deep read",
     quickAnswer: "Quick Answer",
-    revisionHistoryPlanned: "Public revision history for this chapter is planned in backend phase B5.",
+    revisionHistoryPlanned: "This chapter is reviewed against the site methodology. Public change history will be added in a future release.",
     learnMethodology: "Learn how this chapter is reviewed",
   },
   bn: {
@@ -155,7 +155,7 @@ const EVENT_LABELS = {
     quickRead: "দ্রুত পাঠ",
     deepRead: "গভীর পাঠ",
     quickAnswer: "দ্রুত উত্তর",
-    revisionHistoryPlanned: "এই অধ্যায়ের পাবলিক রিভিশন ইতিহাস backend পর্যায় B5-এ যুক্ত করা হবে।",
+    revisionHistoryPlanned: "এই অধ্যায়টি সাইটের পদ্ধতি অনুযায়ী পর্যালোচিত। ভবিষ্যৎ সংস্করণে পরিবর্তনের ইতিহাস প্রকাশ করা হবে।",
     learnMethodology: "এই অধ্যায়ের রিভিউ পদ্ধতি দেখুন",
   },
 } as const;
