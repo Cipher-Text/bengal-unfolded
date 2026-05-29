@@ -674,7 +674,7 @@ Supported place IDs:
   - `id`
   - `title`
   - `attribution` (credit line; supports writer/director/cartographer/organization; loader falls back to legacy `creator` or `author`)
-  - `creatorType?` (`person` | `organization`) used for creator page schema typing and SEO; defaults to `person` when omitted
+  - `creatorType?` (`person` | `organization`) used for creator index filters, creator page schema typing, and SEO; defaults to `person` when omitted
   - `note`
   - `quality` in `primary | secondary | archive | editorial`
   - `category` in `read | watch | explore | understand`
@@ -693,6 +693,13 @@ Supported place IDs:
   - `href?`
 
 Source quality classification is governed by [docs/SOURCE_QUALITY.md](./SOURCE_QUALITY.md).
+
+## Creator graph
+
+- Creators are derived at runtime from resource `attribution`; there is no separate `content/creators/` data model.
+- `creatorId` is generated from attribution by `getCreatorIdFromAttribution()`.
+- `/{locale}/creators` lists derived creators with search, creator type, resource category, and minimum resource count filters.
+- `/{locale}/creators/{id}` shows resources attributed to one creator and related events.
 
 ## Topic schema
 

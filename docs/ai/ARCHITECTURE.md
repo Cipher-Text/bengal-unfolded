@@ -1,6 +1,6 @@
 # Architecture (AI)
 
-Last verified: 2026-05-26
+Last verified: 2026-05-29
 
 ## High-level
 
@@ -35,7 +35,9 @@ Locale-scoped routes:
 - `/:locale/figures`
 - `/:locale/figures/:id`
 - `/:locale/books/:id`
+- `/:locale/resources`
 - `/:locale/resources/:id`
+- `/:locale/creators`
 - `/:locale/creators/:id`
 - `/:locale/glossary`
 - `/:locale/glossary/:term`
@@ -62,7 +64,7 @@ Locale-scoped routes:
   - `normalizeEventResource()`
   - `normalizeFigure()`
   - `normalizeBook()`
-- Creator graph is derived from resources (`creatorsCached`).
+- Creator graph is derived from resources (`creatorsCached`); the creator index page combines `getAllCreators()` with `getAllResources()` for resource counts, category filters, and previews.
 
 ## Client components (current)
 

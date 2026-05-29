@@ -1,5 +1,17 @@
 # AI Docs Changelog
 
+## 2026-05-29
+
+Changed docs:
+- `docs/ai/PROJECT_CONTEXT.md` (refreshed verification date and documented derived creator browsing)
+- `docs/ai/ARCHITECTURE.md` (added `/[locale]/creators` and `/[locale]/resources` route inventory entries)
+- `docs/ai/API_MAP.md` (added route/data mapping for creator and resource index pages)
+- `docs/ai/CHANGELOG_AI.md` (this entry)
+
+Important project changes/state discovered:
+- Creator browsing now includes a paginated `/[locale]/creators` index page backed by resource attribution metadata.
+- The creator index reuses existing resource/creator accessors; no content schema changes were introduced.
+
 ## 2026-05-26
 
 Changed docs:

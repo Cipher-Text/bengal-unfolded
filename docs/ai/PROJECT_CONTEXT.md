@@ -1,6 +1,6 @@
 # Project Context (AI)
 
-Last verified: 2026-05-26
+Last verified: 2026-05-29
 
 ## What this repository is
 
@@ -17,6 +17,7 @@ Bengal Unfolded is a bilingual historical learning site (English/Bangla) built w
 - Events: 130 slugs in `SUPPORTED_EVENT_SLUGS`
 - Figures: 502 figure folders in `content/figures/`
 - Resources: 486 resource folders in `content/resources/`
+- Creators: derived from resource attribution; browsable at `/{locale}/creators` and `/{locale}/creators/{id}`
 - Books: 2 IDs in `SUPPORTED_BOOK_IDS`
 - Periods: 9
 - Movements: 5

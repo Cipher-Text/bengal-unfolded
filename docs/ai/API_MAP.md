@@ -1,6 +1,6 @@
 # API Map (AI)
 
-Last verified: 2026-05-26
+Last verified: 2026-05-29
 
 This project has no backend HTTP API layer. The practical API is the content access module:
 
@@ -63,7 +63,9 @@ Period/movement/glossary/topic/place:
 - `/:locale/figures` -> `getAllFigures`
 - `/:locale/figures/:id` -> `getFigure`, `getEventsByFigureId`
 - `/:locale/books/:id` -> `getBook`, `getEventsByBookId`
+- `/:locale/resources` -> `getAllResources`
 - `/:locale/resources/:id` -> `getResource`, `getEventsByResourceId`
+- `/:locale/creators` -> `getAllCreators`, `getAllResources`
 - `/:locale/creators/:id` -> `getAllCreators`, `getResourcesByCreatorId`, `getEventsByResourceId`
 - `/:locale/glossary` -> `getAllGlossaryTerms`
 - `/:locale/glossary/:term` -> `getAllGlossaryTermIds`, `getGlossaryTerm`

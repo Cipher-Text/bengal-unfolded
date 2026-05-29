@@ -35,6 +35,9 @@ Canonical domain: `https://bengalunfolded.com`
   - `/{locale}/events/{slug}/resources`
   - `/{locale}/figures/{id}`
   - `/{locale}/books/{id}`
+  - `/{locale}/creators`
+  - `/{locale}/creators/{id}`
+  - `/{locale}/resources`
   - `/{locale}/resources/{id}`
   - `/{locale}/movements/{id}`
   - `/{locale}/periods/{id}`
@@ -57,6 +60,7 @@ Files updated:
 - `src/app/[locale]/figures/[id]/page.tsx`
 - `src/app/[locale]/books/[id]/page.tsx`
 - `src/app/[locale]/figures/page.tsx`
+- `src/app/[locale]/creators/page.tsx`
 - `src/app/[locale]/events/[slug]/figures/page.tsx`
 - `src/app/[locale]/events/[slug]/resources/page.tsx`
 
@@ -409,6 +413,8 @@ Add `BreadcrumbList` schema to:
 - `/{locale}/events/{slug}`
 - `/{locale}/figures/{id}`
 - `/{locale}/books/{id}`
+- `/{locale}/creators`
+- `/{locale}/creators/{id}`
 - `/{locale}/topics/{slug}` (when introduced)
 - `/{locale}/events/{slug}/figures`
 - `/{locale}/events/{slug}/resources`
