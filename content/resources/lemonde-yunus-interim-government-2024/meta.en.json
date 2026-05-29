@@ -4,6 +4,8 @@
   "category": "reference-sources",
   "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Le Monde",
+  "creatorId": "le-monde",
+  "creatorType": "organization",
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",

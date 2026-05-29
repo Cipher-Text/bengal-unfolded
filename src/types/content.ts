@@ -1091,6 +1091,10 @@ export type EventResource = {
   id: ResourceId;
   title: string;
   attribution: string;
+  /**
+   * Locale-stable creator key. When absent, the loader derives this from
+   * attribution for legacy resources.
+   */
   creatorId: string;
   creatorType?: "person" | "organization";
   note: string;

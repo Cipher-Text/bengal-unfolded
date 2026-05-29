@@ -4,6 +4,8 @@
   "category": "reference-sources",
   "subcategory": "Encyclopedia and Archive Reference",
   "attribution": "Reuters",
+  "creatorId": "reuters",
+  "creatorType": "organization",
   "quality": "archive",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",

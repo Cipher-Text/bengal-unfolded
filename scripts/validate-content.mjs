@@ -99,6 +99,14 @@ function assertLocaleScript(value, locale, label, errors) {
   }
 }
 
+function normalizeCreatorId(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 async function main() {
   const errors = [];
   const eventDir = path.join(contentDir, "events");
@@ -1010,6 +1018,7 @@ async function main() {
 
   const resourceEntries = await fs.readdir(resourceDir);
   for (const resourceId of resourceEntries) {
+    const resourceMetasByLocale = new Map();
     for (const locale of ["en", "bn"]) {
       const metaPath = path.join(resourceDir, resourceId, `meta.${locale}.json`);
       if (!(await exists(metaPath))) {
@@ -1018,6 +1027,19 @@ async function main() {
       }
       const meta = await readJson(metaPath, errors);
       if (!meta || typeof meta !== "object") continue;
+      resourceMetasByLocale.set(locale, meta);
+      if ("creatorId" in meta && meta.creatorId !== undefined) {
+        if (typeof meta.creatorId !== "string" || meta.creatorId.trim().length === 0) {
+          errors.push(`Invalid creatorId at content/resources/${resourceId}/meta.${locale}.json`);
+        } else if (normalizeCreatorId(meta.creatorId) !== meta.creatorId) {
+          errors.push(`creatorId must be lowercase slug at content/resources/${resourceId}/meta.${locale}.json`);
+        }
+      }
+      if ("creatorType" in meta && meta.creatorType !== undefined) {
+        if (meta.creatorType !== "person" && meta.creatorType !== "organization") {
+          errors.push(`Invalid creatorType '${meta.creatorType}' at content/resources/${resourceId}/meta.${locale}.json`);
+        }
+      }
       if (typeof meta.quality !== "string") {
         errors.push(`Missing or invalid quality at content/resources/${resourceId}/meta.${locale}.json`);
         continue;
@@ -1078,6 +1100,32 @@ async function main() {
       }
       if ("whyItMatters" in meta && meta.whyItMatters !== undefined && typeof meta.whyItMatters !== "string") {
         errors.push(`whyItMatters must be string at content/resources/${resourceId}/meta.${locale}.json`);
+      }
+    }
+    const enMeta = resourceMetasByLocale.get("en");
+    const bnMeta = resourceMetasByLocale.get("bn");
+    if (enMeta && bnMeta) {
+      const enCreatorId =
+        typeof enMeta.creatorId === "string" && enMeta.creatorId.trim()
+          ? enMeta.creatorId
+          : normalizeCreatorId(enMeta.attribution ?? enMeta.creator ?? enMeta.author);
+      const bnCreatorId =
+        typeof bnMeta.creatorId === "string" && bnMeta.creatorId.trim()
+          ? bnMeta.creatorId
+          : normalizeCreatorId(bnMeta.attribution ?? bnMeta.creator ?? bnMeta.author);
+      if (!enCreatorId) {
+        errors.push(`Missing derivable creatorId at content/resources/${resourceId}/meta.en.json`);
+      }
+      if (!bnCreatorId) {
+        errors.push(`Missing derivable creatorId at content/resources/${resourceId}/meta.bn.json`);
+      }
+      if (enCreatorId && bnCreatorId && enCreatorId !== bnCreatorId) {
+        errors.push(`Mismatched resource creatorId between locales at content/resources/${resourceId}`);
+      }
+      const enCreatorType = enMeta.creatorType;
+      const bnCreatorType = bnMeta.creatorType;
+      if (enCreatorType && bnCreatorType && enCreatorType !== bnCreatorType) {
+        errors.push(`Mismatched resource creatorType between locales at content/resources/${resourceId}`);
       }
     }
   }

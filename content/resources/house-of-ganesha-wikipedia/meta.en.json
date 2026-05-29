@@ -5,6 +5,8 @@
   "subcategory": "General Reference",
   "href": "https://en.wikipedia.org/wiki/House_of_Ganesha",
   "attribution": "Wikipedia",
+  "creatorId": "wikipedia",
+  "creatorType": "organization",
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",

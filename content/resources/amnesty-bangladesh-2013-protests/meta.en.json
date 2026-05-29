@@ -4,6 +4,8 @@
   "category": "primary-sources",
   "subcategory": "Official Documents and Legal Texts",
   "attribution": "Amnesty International",
+  "creatorId": "amnesty-international",
+  "creatorType": "organization",
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",

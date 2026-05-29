@@ -134,7 +134,11 @@ function normalizeEventResource(
   const attribution = String(
     resource.attribution ?? resource.creator ?? resource.author ?? "",
   );
-  const creatorId = getCreatorIdFromAttribution(attribution);
+  const explicitCreatorId =
+    typeof resource.creatorId === "string"
+      ? getCreatorIdFromAttribution(resource.creatorId)
+      : "";
+  const creatorId = explicitCreatorId || getCreatorIdFromAttribution(attribution);
   const creatorTypeRaw =
     typeof resource.creatorType === "string"
       ? resource.creatorType.toLowerCase()

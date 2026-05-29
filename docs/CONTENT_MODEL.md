@@ -674,6 +674,7 @@ Supported place IDs:
   - `id`
   - `title`
   - `attribution` (credit line; supports writer/director/cartographer/organization; loader falls back to legacy `creator` or `author`)
+  - `creatorId?` (locale-stable lowercase slug for derived creator pages; when absent, the loader falls back to deriving from `attribution`)
   - `creatorType?` (`person` | `organization`) used for creator index filters, creator page schema typing, and SEO; defaults to `person` when omitted
   - `note`
   - `quality` in `primary | secondary | archive | editorial`
@@ -697,7 +698,8 @@ Source quality classification is governed by [docs/SOURCE_QUALITY.md](./SOURCE_Q
 ## Creator graph
 
 - Creators are derived at runtime from resource `attribution`; there is no separate `content/creators/` data model.
-- `creatorId` is generated from attribution by `getCreatorIdFromAttribution()`.
+- `creatorId` is read from resource metadata when present; otherwise it is generated from attribution by `getCreatorIdFromAttribution()` for legacy content.
+- EN/BN resource files should share the same `creatorId` so localized attributions group into the same creator route.
 - `/{locale}/creators` lists derived creators with search, creator type, resource category, and minimum resource count filters.
 - `/{locale}/creators/{id}` shows resources attributed to one creator and related events.
 

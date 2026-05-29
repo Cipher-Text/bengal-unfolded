@@ -127,6 +127,15 @@
 
 ### Completed
 
+- Resource creator identity hardening:
+  - Model/runtime:
+    - Added optional resource `creatorId` support so derived creator routes can use locale-stable keys while preserving localized attribution labels.
+    - Kept attribution-derived IDs as a legacy fallback.
+  - Validation:
+    - Added resource `creatorId` slug validation.
+    - Added EN/BN creator ID consistency checks.
+    - Added resource `creatorType` enum validation and locale consistency checks.
+
 - Resource system revision for historical trust + SEO + linking:
   - Model:
     - Upgraded resource taxonomy in `src/types/content.ts` from legacy broad groups to 10 trust/learning categories:

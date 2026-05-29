@@ -4,6 +4,8 @@
   "category": "research-articles-and-papers",
   "subcategory": "Scholarly Articles and Papers",
   "attribution": "Amnesty International",
+  "creatorId": "amnesty-international",
+  "creatorType": "organization",
   "quality": "secondary",
   "href": "https://amnesty.ca/human-rights-news/bangladesh-halt-mounting-death-toll-protestors/",
   "sourceQuality": "academic",
