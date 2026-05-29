@@ -1,0 +1,15 @@
+{
+  "title": "Harkat-ul-Jihad-al Islami Bangladesh (HuJI-B)",
+  "note": "South Asia Terrorism Portal profile on HuJI-B, including references to Mufti Abdul Hannan and militant cases in Bangladesh.",
+  "category": "reference-sources",
+  "subcategory": "Security research profile",
+  "href": "https://www.satp.org/satporgtp/countries/bangladesh/terroristoutfits/huj.htm",
+  "attribution": "South Asia Terrorism Portal",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "relatedFigureIds": [
+    "mufti-hannan"
+  ],
+  "whyItMatters": "Offers a structured security-reference profile for HuJI-B and Mufti Hannan's place in Bangladesh's militant history."
+}

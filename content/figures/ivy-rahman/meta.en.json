@@ -1,0 +1,36 @@
+{
+  "name": "Ivy Rahman",
+  "name_en": "Ivy Rahman",
+  "role": "Awami League leader and August 21 attack victim",
+  "group": "leader",
+  "contribution": "A senior Awami League organizer, she was fatally injured in the 21 August 2004 grenade attack on a party rally in Dhaka and died three days later.",
+  "context": "Bangladesh's violent and polarized political climate in the early 2000s, especially the aftermath of the 2004 grenade attack.",
+  "impact": "Her death became one of the most remembered personal losses from the attack and remains central to public memory of political violence in that period.",
+  "tags": [
+    "awami-league",
+    "political-violence",
+    "2004"
+  ],
+  "primaryEventIds": [
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
+  ],
+  "alternateNames": [
+    "Ivy Zillur Rahman"
+  ],
+  "searchAliases": [
+    "Ivy Rahman August 21 attack",
+    "Ivy Rahman grenade attack"
+  ],
+  "faq": [
+    {
+      "question": "Why is Ivy Rahman historically significant?",
+      "answer": "She is remembered as a senior Awami League figure who died from injuries sustained in the 21 August 2004 grenade attack, a major episode of political violence in Bangladesh.",
+      "sourceIds": [
+        "ivy-rahman-daily-star-archive"
+      ]
+    }
+  ]
+}

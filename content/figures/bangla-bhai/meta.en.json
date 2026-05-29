@@ -1,0 +1,36 @@
+{
+  "name": "Siddique ul-Islam (Bangla Bhai)",
+  "name_en": "Siddique ul-Islam (Bangla Bhai)",
+  "role": "JMJB/JMB militant commander",
+  "group": "leader",
+  "contribution": "Known as Bangla Bhai, he became a prominent militant organizer in northwestern Bangladesh and was executed in 2007 after conviction in the Jhalakathi judges murder case.",
+  "context": "The rise of militant groups including JMJB and JMB in Bangladesh during the early and mid-2000s.",
+  "impact": "His activities made militant violence in the northwest a national security issue and became closely linked to public memory of the 2005 bombing wave.",
+  "tags": [
+    "militancy",
+    "jmb",
+    "jmjb"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
+  ],
+  "alternateNames": [
+    "Bangla Bhai",
+    "Siddiqul Islam",
+    "Azizur Rahman"
+  ],
+  "searchAliases": [
+    "Bangla Bhai JMB",
+    "Siddique ul-Islam JMJB",
+    "Bangla Bhai Bangladesh"
+  ],
+  "faq": [
+    {
+      "question": "Why is Bangla Bhai significant?",
+      "answer": "He became one of the most visible militant figures of the mid-2000s, associated with JMJB/JMB activity in northwestern Bangladesh and later with prosecutions after the 2005 bombing wave.",
+      "sourceIds": [
+        "satp-jmb-bangladesh-profile"
+      ]
+    }
+  ]
+}

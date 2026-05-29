@@ -1,0 +1,35 @@
+{
+  "name": "Mufti Abdul Hannan",
+  "name_en": "Mufti Abdul Hannan",
+  "role": "HuJI-B militant leader and convicted attacker",
+  "group": "leader",
+  "contribution": "He was identified in security and research reporting as a leading figure in Harkat-ul-Jihad-al-Islami Bangladesh and was executed in 2017 after conviction in the 2004 attack on the British High Commissioner in Sylhet.",
+  "context": "Bangladesh's militant violence and counter-terrorism history from the late 1990s through the 2000s.",
+  "impact": "His cases became central to public understanding of HuJI-B networks, militant prosecutions, and the security politics of the period.",
+  "tags": [
+    "militancy",
+    "huji-b",
+    "counter-terrorism"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "sylhet"
+  ],
+  "alternateNames": [
+    "Abdul Hannan Munshi",
+    "Mufti Hannan"
+  ],
+  "searchAliases": [
+    "Mufti Hannan HuJI-B",
+    "Abdul Hannan militant"
+  ],
+  "faq": [
+    {
+      "question": "How should claims about Mufti Hannan be framed?",
+      "answer": "Use court outcomes and rights/security research carefully: he was convicted and executed for the Sylhet attack case, while broader allegations should be attributed to specific reports or legal records.",
+      "sourceIds": [
+        "satp-huji-bangladesh-profile"
+      ]
+    }
+  ]
+}

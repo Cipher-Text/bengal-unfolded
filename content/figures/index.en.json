@@ -775,5 +775,26 @@
     "role": "Muslim reformer and education modernizer",
     "bio": "Syed Ahmad Khan is listed among notable historical figures in this project timeline.",
     "impact": "Influenced Muslim educational reform and constitutional political thought in colonial South Asia."
+  },
+  {
+    "id": "ivy-rahman",
+    "name": "Ivy Rahman",
+    "role": "Awami League leader and August 21 attack victim",
+    "bio": "Ivy Rahman was a senior Awami League organizer who died from injuries sustained in the 21 August 2004 grenade attack.",
+    "impact": "Her death remains central to public memory of political violence in early-2000s Bangladesh."
+  },
+  {
+    "id": "mufti-hannan",
+    "name": "Mufti Abdul Hannan",
+    "role": "HuJI-B militant leader and convicted attacker",
+    "bio": "Mufti Abdul Hannan was identified in security reporting as a HuJI-B leader and was executed after conviction in the Sylhet attack case.",
+    "impact": "His cases became central to public understanding of militant prosecutions and counter-terrorism politics."
+  },
+  {
+    "id": "bangla-bhai",
+    "name": "Siddique ul-Islam (Bangla Bhai)",
+    "role": "JMJB/JMB militant commander",
+    "bio": "Siddique ul-Islam, widely known as Bangla Bhai, became a prominent militant organizer in northwestern Bangladesh.",
+    "impact": "His activities made militant violence in the northwest a national security issue in the mid-2000s."
   }
 ]
