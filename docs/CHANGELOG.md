@@ -4,6 +4,15 @@
 
 ### Completed
 
+- RM-010 Content density controls:
+  - UI/runtime:
+    - Added event-page reading mode controls for `quick read` and `deep read`.
+    - Quick read keeps the event overview, quick answer, and why-it-matters sections visible while hiding deeper reference sections.
+    - Deep read remains the default complete chapter view with timeline, figures, resources, citations, debates, and legacy sections.
+  - Model/validation/backfill:
+    - No schema changes required; quick mode uses existing `quickAnswer` when present and falls back to `summary`.
+    - No content backfill required.
+
 - Glossary expansion batch 1:
   - Content/backfill:
     - Added 26 bilingual high-value glossary entries covering ancient Bengal, Pala-Sena history, Sultanate and Mughal administration, colonial revenue and peasant resistance, late-colonial constitutional politics, Pakistan period, Liberation War, and contemporary Bangladesh.

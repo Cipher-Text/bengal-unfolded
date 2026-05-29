@@ -133,6 +133,20 @@ html[data-theme="dark"] body::after {
   opacity: 0.14;
 }
 
+/* Reader density controls keep all content server-rendered while letting readers
+   switch between a brief chapter and the complete reference view. */
+.density-quick {
+  display: none;
+}
+
+[data-density-mode="quick"] .density-quick {
+  display: block;
+}
+
+[data-density-mode="quick"] .density-deep {
+  display: none;
+}
+
 /* ============ Paper helpers ============ */
 .paper {
   position: relative;

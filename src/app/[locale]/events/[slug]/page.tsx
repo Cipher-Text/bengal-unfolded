@@ -3,6 +3,7 @@ import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguage
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
+import { ContentDensityControls } from "@/components/ContentDensityControls";
 import { EventNavigation } from "@/components/EventNavigation";
 import { EventTimeline } from "@/components/EventTimeline";
 import { FigureProfileCard } from "@/components/FigureProfileCard";
@@ -95,6 +96,10 @@ const EVENT_LABELS = {
     downloadCard: "Download card",
     copied: "Copied",
     copyFailed: "Copy failed",
+    densityTitle: "Reading mode",
+    quickRead: "Quick read",
+    deepRead: "Deep read",
+    quickAnswer: "Quick Answer",
     revisionHistoryPlanned: "Public revision history for this chapter is planned in backend phase B5.",
     learnMethodology: "Learn how this chapter is reviewed",
   },
@@ -146,6 +151,10 @@ const EVENT_LABELS = {
     downloadCard: "কার্ড ডাউনলোড",
     copied: "কপি হয়েছে",
     copyFailed: "কপি ব্যর্থ",
+    densityTitle: "পাঠের ধরন",
+    quickRead: "দ্রুত পাঠ",
+    deepRead: "গভীর পাঠ",
+    quickAnswer: "দ্রুত উত্তর",
     revisionHistoryPlanned: "এই অধ্যায়ের পাবলিক রিভিশন ইতিহাস backend পর্যায় B5-এ যুক্ত করা হবে।",
     learnMethodology: "এই অধ্যায়ের রিভিউ পদ্ধতি দেখুন",
   },
@@ -324,21 +333,28 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         }
       />
 
+      <ContentDensityControls
+        labels={{
+          title: labels.densityTitle,
+          quick: labels.quickRead,
+          deep: labels.deepRead,
+        }}
+      >
       <nav aria-label={labels.jumpTo} className="theme-surface-soft rounded-xl border border-amber-500/25 p-3">
         <p className="theme-muted mb-2 text-xs">{labels.jumpTo}</p>
         <div className="flex flex-wrap gap-2">
           <a href="#overview" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.overview}</a>
-          <a href="#timeline" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.timeline}</a>
-          <a href="#figures" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.figures}</a>
-          <a href="#resources" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.resourcesTitle}</a>
-          {faqEntries.length > 0 ? <a href="#faq" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.faq}</a> : null}
-          {quoteEntries.length > 0 ? <a href="#quotes" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
-          {event.meta.claimCitations?.length ? <a href="#claim-citations" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.claimCitations}</a> : null}
+          <a href="#timeline" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.timeline}</a>
+          <a href="#figures" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.figures}</a>
+          <a href="#resources" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.resourcesTitle}</a>
+          {faqEntries.length > 0 ? <a href="#faq" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.faq}</a> : null}
+          {quoteEntries.length > 0 ? <a href="#quotes" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
+          {event.meta.claimCitations?.length ? <a href="#claim-citations" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.claimCitations}</a> : null}
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
-          {event.meta.historicalDebate ? <a href="#historical-debate" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.historicalDebate}</a> : null}
-          {event.meta.longTermLegacy ? <a href="#long-term-legacy" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.legacyNarrative}</a> : null}
-          {event.meta.culturalImpact ? <a href="#cultural-impact" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.culturalImpact}</a> : null}
-          {event.meta.identityMemoryNotes ? <a href="#identity-memory" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.identityMemory}</a> : null}
+          {event.meta.historicalDebate ? <a href="#historical-debate" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.historicalDebate}</a> : null}
+          {event.meta.longTermLegacy ? <a href="#long-term-legacy" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.legacyNarrative}</a> : null}
+          {event.meta.culturalImpact ? <a href="#cultural-impact" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.culturalImpact}</a> : null}
+          {event.meta.identityMemoryNotes ? <a href="#identity-memory" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.identityMemory}</a> : null}
         </div>
       </nav>
 
@@ -393,6 +409,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
               {labels.learnMethodology}
             </Link>
           </div>
+          <div className="density-quick mt-3 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4">
+            <p className="text-eyebrow mb-2">{labels.quickAnswer}</p>
+            <p className="text-sm leading-relaxed md:text-base">
+              {renderGlossaryLinkedText(event.meta.quickAnswer ?? event.meta.summary, locale as Locale)}
+              {renderInlineCitations(event.meta.summarySourceIds, resourceById)}
+              {renderEvidenceBadge(event.meta.summaryEvidenceLevel)}
+            </p>
+          </div>
           {relatedTopics.length > 0 ? (
             <div className="mt-3 flex flex-wrap gap-2">
               {relatedTopics.map((topic) => (
@@ -411,7 +435,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </AnimatedContainer>
 
       {(hierarchy.parent || hierarchy.children.length > 0 || hierarchy.related.length > 0) ? (
-        <AnimatedContainer delay={0.04}>
+        <AnimatedContainer delay={0.04} className="density-deep">
           <section className="scroll-mt-24">
             <SectionTitle title={labels.hierarchy} />
             <div className="mt-4 grid gap-4 lg:grid-cols-3">
@@ -457,7 +481,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       ) : null}
 
       {relationGroups.length ? (
-        <AnimatedContainer delay={0.045}>
+        <AnimatedContainer delay={0.045} className="density-deep">
           <section className="scroll-mt-24">
             <SectionTitle title={locale === "bn" ? "ঐতিহাসিক সম্পর্ক" : "Historical Relationships"} />
             <div className="mt-4 grid gap-4 lg:grid-cols-2 xl:grid-cols-3">
@@ -480,7 +504,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         </AnimatedContainer>
       ) : null}
 
-      <AnimatedContainer delay={0.05}>
+      <AnimatedContainer delay={0.05} className="density-deep">
         <section id="timeline" className="scroll-mt-24">
         <SectionTitle title={labels.timeline} />
         <div className="mt-4">
@@ -489,7 +513,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         </section>
       </AnimatedContainer>
 
-      <AnimatedContainer delay={0.1}>
+      <AnimatedContainer delay={0.1} className="density-deep">
         <section id="figures" className="scroll-mt-24">
         <SectionTitle title={labels.figures} />
         <div className="mt-4 grid gap-4 md:grid-cols-2">
@@ -505,7 +529,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         </section>
       </AnimatedContainer>
 
-      <AnimatedContainer delay={0.15}>
+      <AnimatedContainer delay={0.15} className="density-deep">
         <section id="resources" className="scroll-mt-24">
         <SectionTitle title={labels.resourcesTitle} subtitle={labels.resourcesSubtitle} />
         <div className="mt-4 grid gap-3 md:grid-cols-2">
@@ -522,7 +546,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </AnimatedContainer>
 
       {faqEntries.length > 0 ? (
-        <AnimatedContainer delay={0.2}>
+        <AnimatedContainer delay={0.2} className="density-deep">
           <section id="faq" className="scroll-mt-24">
           <SectionTitle title={labels.faq} />
           <div className="mt-4 grid gap-3">
@@ -535,7 +559,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       ) : null}
 
       {quoteEntries.length > 0 ? (
-        <AnimatedContainer delay={0.22}>
+        <AnimatedContainer delay={0.22} className="density-deep">
           <section id="quotes" className="scroll-mt-24">
           <SectionTitle title={labels.quotes} />
           <div className="mt-4 grid gap-3">
@@ -548,7 +572,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       ) : null}
 
       {event.meta.claimCitations?.length ? (
-        <AnimatedContainer delay={0.23}>
+        <AnimatedContainer delay={0.23} className="density-deep">
           <section id="claim-citations" className="scroll-mt-24">
           <SectionTitle title={labels.claimCitations} />
           <div className="mt-4 grid gap-3">
@@ -573,7 +597,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       </AnimatedContainer>
 
       {event.meta.historicalDebate ? (
-        <AnimatedContainer delay={0.26}>
+        <AnimatedContainer delay={0.26} className="density-deep">
           <section id="historical-debate" className="scroll-mt-24">
           <SectionTitle title={labels.historicalDebate} />
           <div className="mt-4 rounded-2xl border border-sky-500/30 bg-sky-950/10 p-4">
@@ -589,7 +613,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       ) : null}
 
       {event.meta.longTermLegacy ? (
-        <AnimatedContainer delay={0.27}>
+        <AnimatedContainer delay={0.27} className="density-deep">
           <section id="long-term-legacy" className="scroll-mt-24">
           <SectionTitle title={labels.legacyNarrative} subtitle={<>{renderGlossaryLinkedText(event.meta.longTermLegacy, locale as Locale)}{renderInlineCitations(event.meta.longTermLegacySourceIds, resourceById)}{renderEvidenceBadge(event.meta.longTermLegacyEvidenceLevel)}</>} />
           </section>
@@ -597,7 +621,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       ) : null}
 
       {event.meta.culturalImpact ? (
-        <AnimatedContainer delay={0.28}>
+        <AnimatedContainer delay={0.28} className="density-deep">
           <section id="cultural-impact" className="scroll-mt-24">
           <SectionTitle title={labels.culturalImpact} subtitle={<>{renderGlossaryLinkedText(event.meta.culturalImpact, locale as Locale)}{renderInlineCitations(event.meta.culturalImpactSourceIds, resourceById)}{renderEvidenceBadge(event.meta.culturalImpactEvidenceLevel)}</>} />
           </section>
@@ -605,7 +629,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       ) : null}
 
       {event.meta.identityMemoryNotes ? (
-        <AnimatedContainer delay={0.29}>
+        <AnimatedContainer delay={0.29} className="density-deep">
           <section id="identity-memory" className="scroll-mt-24">
           <SectionTitle title={labels.identityMemory} subtitle={<>{renderGlossaryLinkedText(event.meta.identityMemoryNotes, locale as Locale)}{renderInlineCitations(event.meta.identityMemorySourceIds, resourceById)}{renderEvidenceBadge(event.meta.identityMemoryEvidenceLevel)}</>} />
           </section>
@@ -615,6 +639,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       <AnimatedContainer delay={0.3}>
         <EventNavigation locale={locale as Locale} previous={previous} next={next} />
       </AnimatedContainer>
+      </ContentDensityControls>
     </div>
   );
 }
