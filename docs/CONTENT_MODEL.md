@@ -14,11 +14,15 @@ Contract companion docs:
 - `TimelineItem`
 - `Figure`
 - `Period`
+- `Movement`
+- `Place`
 - `Book`
 - `EventResource`
 - `Quote`
 - `EventContent`
 - `Topic`
+- `GlossaryTerm`
+- `Creator` (derived from resources, no separate content directory)
 
 ## 2026 schema extensions (optional, backward-compatible)
 

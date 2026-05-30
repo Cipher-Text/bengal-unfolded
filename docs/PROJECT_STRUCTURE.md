@@ -16,8 +16,6 @@ content/
       figure-ids.json
       resource-ids.json
   figures/
-    index.en.json
-    index.bn.json
     <figure-id>/
       meta.en.json
       meta.bn.json
@@ -47,8 +45,18 @@ content/
       meta.bn.json
 src/
   app/
+    layout.tsx
+    page.tsx (root redirect)
+    robots.ts
+    sitemap.ts
+    api/
+      og/
+        route.tsx (Open Graph image generation)
     [locale]/
+      layout.tsx
       page.tsx
+      compare/
+        page.tsx (event comparison)
       timeline/
         page.tsx
       figures/
@@ -65,11 +73,15 @@ src/
       topics/
         page.tsx
         [slug]/page.tsx
+      paths/
+        page.tsx (learning paths)
+        [slug]/page.tsx
       movements/
         [id]/page.tsx
       periods/
         [id]/page.tsx
       places/
+        page.tsx
         [id]/page.tsx
       glossary/
         page.tsx
@@ -81,10 +93,16 @@ src/
         figures/page.tsx
         resources/page.tsx
   components/
+    (16 components - see CLAUDE.md for details)
   lib/
-    content.ts
-    seo.ts
-  types/content.ts
+    content.ts (main data layer)
+    seo.ts (metadata generation)
+    figures.ts (figure utilities)
+    learning-paths.ts (path resolution)
+    event-presentation.ts (display helpers)
+    glossary-linking.tsx (auto-linking)
+  types/
+    content.ts (all type definitions)
 docs/
   PROJECT_DETAILS.en.md
   PROJECT_DETAILS.bn.md

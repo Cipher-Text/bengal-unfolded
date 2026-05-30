@@ -24,19 +24,24 @@ No test suite exists yet.
 All user-facing routes live under `src/app/[locale]/`. The root `/` redirects to `/en`. Supported locales are `"en"` and `"bn"` (defined in `src/types/content.ts`). The locale layout at `src/app/[locale]/layout.tsx` calls `generateStaticParams()` to pre-render both locales.
 
 Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/` and `/resources/`. Additional entity routes include:
-- `/[locale]/figures/[id]` — figure detail pages
-- `/[locale]/creators/[id]` — creator pages (for resource attributions)
-- `/[locale]/resources/[id]` — resource detail pages
+- `/[locale]/figures/` and `/[locale]/figures/[id]` — figure index and detail pages
+- `/[locale]/creators/` and `/[locale]/creators/[id]` — creator index and detail pages (for resource attributions)
+- `/[locale]/resources/` and `/[locale]/resources/[id]` — resource index and detail pages
 - `/[locale]/books/[id]` — book detail pages
 - `/[locale]/topics/` and `/[locale]/topics/[slug]` — topic hub index and detail
+- `/[locale]/paths/` and `/[locale]/paths/[slug]` — learning paths index and detail (curated routes through topics)
 - `/[locale]/movements/[id]` — movement detail pages
 - `/[locale]/periods/[id]` — period detail pages
-- `/[locale]/places/[id]` — place detail pages
+- `/[locale]/places/` and `/[locale]/places/[id]` — place index and detail pages
 - `/[locale]/glossary/` and `/[locale]/glossary/[term]` — glossary index and term pages
 - `/[locale]/timeline` — full timeline explorer
+- `/[locale]/compare` — event comparison page
 - `/[locale]/methodology` — public methodology page
 
-Supported event slugs are defined in `src/types/content.ts` as `SUPPORTED_EVENT_SLUGS`. Other entity IDs are similarly defined with `SUPPORTED_*` constants.
+**Entity discovery:**
+- Events, figures, books, periods, movements, places: hardcoded in `SUPPORTED_*` constants in `src/types/content.ts`
+- Topics, glossary terms: discovered from filesystem via `fs.readdir()`
+- Creators: derived from resource attributions (no separate content directory)
 
 ### Data layer (`src/lib/content.ts`)
 
@@ -60,7 +65,7 @@ content/
 - React `cache()` wraps all file readers to deduplicate reads within a render cycle.
 - `assertSupportedLocale()`, `assertSupportedEventSlug()`, and the specific ID guards (figure/book) guard against invalid params and throw at the top of page components.
 - Normalization functions (`normalizeFigure()`, `normalizeEventResource()`, `normalizeBook()`) handle schema evolution and legacy field migration. When adding new fields, add them here with fallback defaults.
-- The comment at line ~267 marks the CMS migration seam: file readers can be swapped for API adapters without changing return types.
+- The comment at line 1204 marks the CMS migration seam: file readers can be swapped for API adapters without changing return types.
 
 **Performance-optimized loaders:**
 - `getEventContent()` — Full event data (meta + timeline + figures + resources). Use for event detail pages.
@@ -91,10 +96,13 @@ Theme (light/dark) is stored in `localStorage` and applied via an inline `<scrip
 ### Client vs. Server Components
 
 Default to Server Components. The only Client Components are:
-- `AnimatedContainer` — Framer Motion scroll-triggered fade-ins
 - `EventTimeline` — Interactive timeline with load-more functionality
-- `ThemeToggle` — reads/writes localStorage
-- `LanguageSwitcher` — navigates between `/en/` and `/bn/` paths
+- `ThemeToggle` — reads/writes localStorage and manages theme state
+- `ContentDensityControls` — manages reading density preference
+- `ShareActions` — handles native share API
+- `HeaderScroll` — scroll-based header visibility
+
+Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS animations and Next.js Link respectively.
 
 ### Path aliases
 
@@ -102,11 +110,17 @@ Default to Server Components. The only Client Components are:
 
 ### Adding content
 
-New figures: add a folder under `content/figures/<id>/` with `meta.en.json` and `meta.bn.json`, then add the ID to `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` and to the relevant event's `figure-ids.json`.
+**New events:** add slug to `SUPPORTED_EVENT_SLUGS`, create the folder structure under `content/events/<slug>/`, and add a page at `src/app/[locale]/events/[slug]/`.
 
-New resources: same pattern under `content/resources/<id>/`, add ID to event `resource-ids.json`. Use `attribution` and optional `creatorType` (`person` or `organization`) in resource metadata.
+**New figures:** add a folder under `content/figures/<id>/` with `meta.en.json` and `meta.bn.json`, then add the ID to `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` and to the relevant event's `figure-ids.json`.
 
-New events: add slug to `SUPPORTED_EVENT_SLUGS`, create the folder structure under `content/events/<slug>/`, and add a page at `src/app/[locale]/events/[slug]/`.
+**New resources:** same pattern under `content/resources/<id>/`, add ID to event `resource-ids.json`. Use `attribution` and optional `creatorType` (`person` or `organization`) in resource metadata. Creators are auto-derived from resource attributions.
+
+**New topics:** add a folder under `content/topics/<slug>/` with `meta.en.json` and `meta.bn.json`. Topics are filesystem-discovered — no constant registration needed. Include optional `learningPath` array for curated reading sequences.
+
+**New glossary terms:** add a folder under `content/glossary/<term-id>/` with `meta.en.json` and `meta.bn.json`. Glossary terms are filesystem-discovered — no constant registration needed.
+
+**New periods, movements, places, books:** add ID to corresponding `SUPPORTED_*` constant in `src/types/content.ts`, then add content folder and files.
 
 ## Documentation
 
