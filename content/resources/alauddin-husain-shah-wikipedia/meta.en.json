@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia biographical overview of Alauddin Husain Shah, founder of the Husain Shahi ruling line in Bengal."
+  "whyItMatters": "Banglapedia biographical overview of Alauddin Husain Shah, founder of the Husain Shahi ruling line in Bengal.",
+  "relatedTopicIds": [
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

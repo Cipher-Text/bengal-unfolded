@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "সামরিক শাসন, এরশাদবিরোধী আন্দোলন এবং ১৯৯০-এর ক্ষমতা হস্তান্তরের একটি সংক্ষিপ্ত কিন্তু গুরুত্বপূর্ণ রেফারেন্স।"
+  "whyItMatters": "সামরিক শাসন, এরশাদবিরোধী আন্দোলন এবং ১৯৯০-এর ক্ষমতা হস্তান্তরের একটি সংক্ষিপ্ত কিন্তু গুরুত্বপূর্ণ রেফারেন্স।",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening",
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

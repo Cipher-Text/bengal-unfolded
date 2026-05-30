@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "মুক্তিযুদ্ধের হত্যাযজ্ঞ, শরণার্থী, এবং মুজিবনগর সরকারকে ঘিরে একটি প্রাথমিক যুদ্ধকালীন ডকুমেন্টারি।"
+  "whyItMatters": "মুক্তিযুদ্ধের হত্যাযজ্ঞ, শরণার্থী, এবং মুজিবনগর সরকারকে ঘিরে একটি প্রাথমিক যুদ্ধকালীন ডকুমেন্টারি।",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory"
+  ]
 }

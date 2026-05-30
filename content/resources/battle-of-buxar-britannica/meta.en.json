@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Overview of the 1764 battle that consolidated East India Company military-political leverage in eastern India."
+  "whyItMatters": "Overview of the 1764 battle that consolidated East India Company military-political leverage in eastern India.",
+  "relatedTopicIds": [
+    "colonial-conquest-revenue-and-resistance"
+  ]
 }

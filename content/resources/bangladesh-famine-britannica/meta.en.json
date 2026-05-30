@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A concise overview of the 1974 famine and the policy failures that shaped its severity."
+  "whyItMatters": "A concise overview of the 1974 famine and the policy failures that shaped its severity.",
+  "relatedTopicIds": [
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

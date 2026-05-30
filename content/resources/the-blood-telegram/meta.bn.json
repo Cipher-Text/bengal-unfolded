@@ -8,5 +8,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "যুক্তরাষ্ট্রের নীতি, কূটনৈতিক বার্তা এবং ১৯৭১-এর গণহত্যার প্রেক্ষাপটে গুরুত্বপূর্ণ বিশ্লেষণ।"
+  "whyItMatters": "যুক্তরাষ্ট্রের নীতি, কূটনৈতিক বার্তা এবং ১৯৭১-এর গণহত্যার প্রেক্ষাপটে গুরুত্বপূর্ণ বিশ্লেষণ।",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ]
 }

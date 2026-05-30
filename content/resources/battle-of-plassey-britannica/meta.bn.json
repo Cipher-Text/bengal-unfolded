@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "২৩ জুন ১৭৫৭ সালের যুদ্ধের পক্ষসমূহ, সামরিক প্রেক্ষাপট ও সাম্রাজ্যিক প্রভাবের একটি সংক্ষিপ্ত অথচ মানসম্পন্ন রেফারেন্স।"
+  "whyItMatters": "২৩ জুন ১৭৫৭ সালের যুদ্ধের পক্ষসমূহ, সামরিক প্রেক্ষাপট ও সাম্রাজ্যিক প্রভাবের একটি সংক্ষিপ্ত অথচ মানসম্পন্ন রেফারেন্স।",
+  "relatedTopicIds": [
+    "colonial-conquest-revenue-and-resistance"
+  ]
 }

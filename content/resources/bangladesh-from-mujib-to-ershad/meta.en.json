@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A political study covering the road to the end of the Ershad regime and the transition out of military-backed rule."
+  "whyItMatters": "A political study covering the road to the end of the Ershad regime and the transition out of military-backed rule.",
+  "relatedTopicIds": [
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

@@ -9,5 +9,8 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "আকবরের রাজত্বের অফিসিয়াল ক্রনিকল; বাংলার মুঘল বিজয় ও সংহতকরণের গুরুত্বপূর্ণ উৎস।"
+  "whyItMatters": "আকবরের রাজত্বের অফিসিয়াল ক্রনিকল; বাংলার মুঘল বিজয় ও সংহতকরণের গুরুত্বপূর্ণ উৎস।",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "আওয়ামী লীগ নেতৃত্বাধীন জোট, বিএনপি নেতৃত্বাধীন জোট এবং বাম জোটের গণতান্ত্রিক রূপরেখা; post-Ershad transition বোঝার জন্য core political document."
+  "whyItMatters": "আওয়ামী লীগ নেতৃত্বাধীন জোট, বিএনপি নেতৃত্বাধীন জোট এবং বাম জোটের গণতান্ত্রিক রূপরেখা; post-Ershad transition বোঝার জন্য core political document.",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "গণপরিষদ, খসড়া কমিটি এবং ১৯৭২ সালের সংবিধান গ্রহণের প্রক্রিয়া বোঝার জন্য একটি বিশদ রেফারেন্স।"
+  "whyItMatters": "গণপরিষদ, খসড়া কমিটি এবং ১৯৭২ সালের সংবিধান গ্রহণের প্রক্রিয়া বোঝার জন্য একটি বিশদ রেফারেন্স।",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

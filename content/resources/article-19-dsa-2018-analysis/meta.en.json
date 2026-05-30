@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Legal-rights analysis of expression, journalism, digital rights, and vague offences."
+  "whyItMatters": "Legal-rights analysis of expression, journalism, digital rights, and vague offences.",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

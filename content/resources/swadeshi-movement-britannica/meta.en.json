@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A concise overview of the anti-partition boycott and nationalist mobilization associated with Swadeshi politics."
+  "whyItMatters": "A concise overview of the anti-partition boycott and nationalist mobilization associated with Swadeshi politics.",
+  "relatedTopicIds": [
+    "partition-of-bengal-1905"
+  ]
 }

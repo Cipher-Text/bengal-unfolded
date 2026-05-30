@@ -9,5 +9,8 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Abu l-Fazl’s administrative record of Akbar’s empire, including Bengal’s geography and revenue administration."
+  "whyItMatters": "Abu l-Fazl’s administrative record of Akbar’s empire, including Bengal’s geography and revenue administration.",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

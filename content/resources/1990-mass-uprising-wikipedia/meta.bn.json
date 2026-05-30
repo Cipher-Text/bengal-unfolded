@@ -8,5 +8,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "এরশাদবিরোধী আন্দোলন, দলীয় জোট, ছাত্রসমাবেশ ও নাগরিক প্রতিরোধের রাজনৈতিক সমাজতত্ত্ব নিয়ে একাডেমিক গবেষণা।"
+  "whyItMatters": "এরশাদবিরোধী আন্দোলন, দলীয় জোট, ছাত্রসমাবেশ ও নাগরিক প্রতিরোধের রাজনৈতিক সমাজতত্ত্ব নিয়ে একাডেমিক গবেষণা।",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements"
+  ]
 }

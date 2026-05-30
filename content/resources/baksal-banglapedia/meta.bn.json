@@ -10,5 +10,8 @@
   "href": "https://en.banglapedia.org/index.php/BAKSAL",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাকশাল সম্পর্কে সংক্ষিপ্ত encyclopedic reference। দ্রুত factual overview-এর জন্য useful."
+  "whyItMatters": "বাকশাল সম্পর্কে সংক্ষিপ্ত encyclopedic reference। দ্রুত factual overview-এর জন্য useful.",
+  "relatedTopicIds": [
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

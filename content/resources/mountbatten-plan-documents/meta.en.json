@@ -8,5 +8,8 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary documents for the partition plan, British transfer of power, and the Bengal division background."
+  "whyItMatters": "Primary documents for the partition plan, British transfer of power, and the Bengal division background.",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

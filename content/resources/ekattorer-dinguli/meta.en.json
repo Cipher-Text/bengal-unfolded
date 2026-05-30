@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Iconic diary-style memoir chronicling war-time life, loss, and resistance through a mother's perspective."
+  "whyItMatters": "Iconic diary-style memoir chronicling war-time life, loss, and resistance through a mother's perspective.",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory",
+    "liberation-war-1971"
+  ]
 }

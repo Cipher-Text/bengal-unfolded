@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Concise reference on the actors, military context, and imperial consequences of the 23 June 1757 battle."
+  "whyItMatters": "Concise reference on the actors, military context, and imperial consequences of the 23 June 1757 battle.",
+  "relatedTopicIds": [
+    "colonial-conquest-revenue-and-resistance"
+  ]
 }

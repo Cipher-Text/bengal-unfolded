@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Core Bengal-focused reference on the background, conspiracy, battle sequence, and long-term political consequences of Plassey (1757)."
+  "whyItMatters": "Core Bengal-focused reference on the background, conspiracy, battle sequence, and long-term political consequences of Plassey (1757).",
+  "relatedTopicIds": [
+    "colonial-conquest-revenue-and-resistance"
+  ]
 }

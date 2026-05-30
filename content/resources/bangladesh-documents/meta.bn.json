@@ -8,5 +8,8 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৭১-এর আন্তর্জাতিক কূটনীতি, সরকারি যোগাযোগ এবং রাষ্ট্রীয় দলিল বোঝার জন্য গুরুত্বপূর্ণ সংকলন."
+  "whyItMatters": "১৯৭১-এর আন্তর্জাতিক কূটনীতি, সরকারি যোগাযোগ এবং রাষ্ট্রীয় দলিল বোঝার জন্য গুরুত্বপূর্ণ সংকলন.",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ]
 }

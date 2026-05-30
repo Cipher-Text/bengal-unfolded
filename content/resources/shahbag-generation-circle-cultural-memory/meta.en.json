@@ -8,5 +8,8 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Cultural-memory source on songs, poetry, candles, the national flag, 1971 memory, and civic nationalism."
+  "whyItMatters": "Cultural-memory source on songs, poetry, candles, the national flag, 1971 memory, and civic nationalism.",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory"
+  ]
 }

@@ -8,5 +8,8 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "দুই শিক্ষার্থীর মৃত্যুর পর নিরাপদ সড়ক আন্দোলন, শিক্ষার্থীদের traffic management, licence checking ও public accountability demand বোঝার জন্য starting source."
+  "whyItMatters": "দুই শিক্ষার্থীর মৃত্যুর পর নিরাপদ সড়ক আন্দোলন, শিক্ষার্থীদের traffic management, licence checking ও public accountability demand বোঝার জন্য starting source.",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements"
+  ]
 }

@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A concise overview of the 16 August 1946 protests, the Calcutta riots, and the event's wider significance in partition-era politics."
+  "whyItMatters": "A concise overview of the 16 August 1946 protests, the Calcutta riots, and the event's wider significance in partition-era politics.",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

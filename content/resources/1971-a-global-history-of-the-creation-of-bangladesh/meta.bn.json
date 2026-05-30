@@ -8,5 +8,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "যুক্তরাষ্ট্র, সোভিয়েত ইউনিয়ন, চীন ও ভারতের ভূ-রাজনৈতিক প্রেক্ষাপটে মুক্তিযুদ্ধের বৈশ্বিক বিশ্লেষণ।"
+  "whyItMatters": "যুক্তরাষ্ট্র, সোভিয়েত ইউনিয়ন, চীন ও ভারতের ভূ-রাজনৈতিক প্রেক্ষাপটে মুক্তিযুদ্ধের বৈশ্বিক বিশ্লেষণ।",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ]
 }

@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "ফরায়েজি আন্দোলনের প্রতিষ্ঠাতা হাজী শরীয়তুল্লাহ সম্পর্কে বাংলাপিডিয়ার জীবনীভিত্তিক তথ্য।"
+  "whyItMatters": "ফরায়েজি আন্দোলনের প্রতিষ্ঠাতা হাজী শরীয়তুল্লাহ সম্পর্কে বাংলাপিডিয়ার জীবনীভিত্তিক তথ্য।",
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ]
 }

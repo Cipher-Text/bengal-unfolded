@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A broad reference entry covering the origins, phases, clashes, and long-term significance of the language movement."
+  "whyItMatters": "A broad reference entry covering the origins, phases, clashes, and long-term significance of the language movement.",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "bengal-culture-literature-and-memory",
+    "language-movement-and-mother-language-day"
+  ]
 }

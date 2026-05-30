@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "শেখ মুজিবুর রহমানের আত্মজীবনী ১৯৩০-৫০-এর দশকের বঙ্গ রাজনীতি, মুসলিম লীগ, এবং ভাষা আন্দোলন বোঝার জন্য গুরুত্বপূর্ণ।"
+  "whyItMatters": "শেখ মুজিবুর রহমানের আত্মজীবনী ১৯৩০-৫০-এর দশকের বঙ্গ রাজনীতি, মুসলিম লীগ, এবং ভাষা আন্দোলন বোঝার জন্য গুরুত্বপূর্ণ।",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

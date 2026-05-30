@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Human Rights Watch report covering the pre-election crackdown, and situating the 2018 quota and road-safety protests within a broader pattern of repression."
+  "whyItMatters": "Human Rights Watch report covering the pre-election crackdown, and situating the 2018 quota and road-safety protests within a broader pattern of repression.",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

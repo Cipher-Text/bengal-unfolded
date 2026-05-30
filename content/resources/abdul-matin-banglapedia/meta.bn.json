@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "ভাষা মতিনের জীবন ও ভাষা আন্দোলনে তার কেন্দ্রীয় ভূমিকাকে বোঝার জন্য একটি গুরুত্বপূর্ণ জীবনীমূলক উৎস।"
+  "whyItMatters": "ভাষা মতিনের জীবন ও ভাষা আন্দোলনে তার কেন্দ্রীয় ভূমিকাকে বোঝার জন্য একটি গুরুত্বপূর্ণ জীবনীমূলক উৎস।",
+  "relatedTopicIds": [
+    "language-movement-and-mother-language-day"
+  ]
 }

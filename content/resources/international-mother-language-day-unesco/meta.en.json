@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A useful modern institutional reference showing the global legacy of 21 February and the continuing significance of linguistic rights."
+  "whyItMatters": "A useful modern institutional reference showing the global legacy of 21 February and the continuing significance of linguistic rights.",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory",
+    "language-movement-and-mother-language-day"
+  ]
 }

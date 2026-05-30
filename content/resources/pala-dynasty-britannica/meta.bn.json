@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "মধ্য অষ্টম শতকে পাল রাজবংশের উত্থান এবং বাংলা-কেন্দ্রিক তাদের রাজনৈতিক ও বৌদ্ধ পৃষ্ঠপোষকতার জন্য Britannica রেফারেন্স।"
+  "whyItMatters": "মধ্য অষ্টম শতকে পাল রাজবংশের উত্থান এবং বাংলা-কেন্দ্রিক তাদের রাজনৈতিক ও বৌদ্ধ পৃষ্ঠপোষকতার জন্য Britannica রেফারেন্স।",
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal",
+    "pala-sena-period-and-knowledge-culture"
+  ]
 }

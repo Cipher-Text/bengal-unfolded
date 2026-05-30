@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A reference entry on boycott, indigenous production, and protest culture in the anti-partition movement."
+  "whyItMatters": "A reference entry on boycott, indigenous production, and protest culture in the anti-partition movement.",
+  "relatedTopicIds": [
+    "partition-of-bengal-1905"
+  ]
 }

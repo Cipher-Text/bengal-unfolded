@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Overview of Mughal campaigns in Bengal, including Rajmahal and post-1576 consolidation."
+  "whyItMatters": "Overview of Mughal campaigns in Bengal, including Rajmahal and post-1576 consolidation.",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A wider political history that includes the Ershad era and the democratic crisis leading to 1990."
+  "whyItMatters": "A wider political history that includes the Ershad era and the democratic crisis leading to 1990.",
+  "relatedTopicIds": [
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

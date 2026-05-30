@@ -8,5 +8,8 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "বীরাঙ্গনাদের সাক্ষ্যভিত্তিক গুরুত্বপূর্ণ গ্রন্থ; যুদ্ধকালীন লিঙ্গভিত্তিক সহিংসতার ঐতিহাসিক দলিল।"
+  "whyItMatters": "বীরাঙ্গনাদের সাক্ষ্যভিত্তিক গুরুত্বপূর্ণ গ্রন্থ; যুদ্ধকালীন লিঙ্গভিত্তিক সহিংসতার ঐতিহাসিক দলিল।",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ]
 }

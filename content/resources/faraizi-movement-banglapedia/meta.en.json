@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia overview of the Faraizi movement's origins, leadership, and social impact in eastern Bengal."
+  "whyItMatters": "Banglapedia overview of the Faraizi movement's origins, leadership, and social impact in eastern Bengal.",
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ]
 }

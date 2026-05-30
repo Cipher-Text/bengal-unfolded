@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A foundational academic survey of ancient Bengal and the Hindu period, useful for the long pre-Muslim history of the region."
+  "whyItMatters": "A foundational academic survey of ancient Bengal and the Hindu period, useful for the long pre-Muslim history of the region.",
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal",
+    "bangladesh-history",
+    "pala-sena-period-and-knowledge-culture"
+  ]
 }

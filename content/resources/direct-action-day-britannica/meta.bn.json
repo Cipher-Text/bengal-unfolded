@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৬ আগস্ট ১৯৪৬-এর কর্মসূচি, ক্যালকাটার দাঙ্গা এবং দেশভাগ-পূর্ব রাজনীতিতে এর গুরুত্বের একটি সংক্ষিপ্ত সারাংশ।"
+  "whyItMatters": "১৬ আগস্ট ১৯৪৬-এর কর্মসূচি, ক্যালকাটার দাঙ্গা এবং দেশভাগ-পূর্ব রাজনীতিতে এর গুরুত্বের একটি সংক্ষিপ্ত সারাংশ।",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

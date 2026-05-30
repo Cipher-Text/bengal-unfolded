@@ -8,5 +8,8 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০০৯ সালের পিলখানা হত্যাকাণ্ড নিয়ে সরকারি তদন্ত কমিটির রিপোর্ট; ঘটনা, কারণ, দায় ও প্রশাসনিক ব্যর্থতা বোঝার জন্য core primary/source document."
+  "whyItMatters": "২০০৯ সালের পিলখানা হত্যাকাণ্ড নিয়ে সরকারি তদন্ত কমিটির রিপোর্ট; ঘটনা, কারণ, দায় ও প্রশাসনিক ব্যর্থতা বোঝার জন্য core primary/source document.",
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

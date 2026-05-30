@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful for understanding how the memory of 1952 was transformed into a permanent monument and political symbol."
+  "whyItMatters": "Useful for understanding how the memory of 1952 was transformed into a permanent monument and political symbol.",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory",
+    "language-movement-and-mother-language-day"
+  ]
 }

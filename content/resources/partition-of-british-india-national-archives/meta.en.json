@@ -9,5 +9,8 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "An official educational resource built around archival documents, testimony, and historical context on partition."
+  "whyItMatters": "An official educational resource built around archival documents, testimony, and historical context on partition.",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

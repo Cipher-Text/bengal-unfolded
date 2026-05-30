@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৭৭০ সালের বাংলার দুর্ভিক্ষের মাত্রা, মৃত্যুহার এবং কোম্পানি-শাসনের কাঠামোগত কারণ নিয়ে একটি সংক্ষিপ্ত রেফারেন্স।"
+  "whyItMatters": "১৭৭০ সালের বাংলার দুর্ভিক্ষের মাত্রা, মৃত্যুহার এবং কোম্পানি-শাসনের কাঠামোগত কারণ নিয়ে একটি সংক্ষিপ্ত রেফারেন্স।",
+  "relatedTopicIds": [
+    "colonial-conquest-revenue-and-resistance"
+  ]
 }

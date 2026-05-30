@@ -8,5 +8,8 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A key archive for 1971 international diplomacy, official communication, and state documentation."
+  "whyItMatters": "A key archive for 1971 international diplomacy, official communication, and state documentation.",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ]
 }

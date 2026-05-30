@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A Bangladesh-centered reference on the adoption, structure, principles, and later amendment history of the 1972 Constitution."
+  "whyItMatters": "A Bangladesh-centered reference on the adoption, structure, principles, and later amendment history of the 1972 Constitution.",
+  "relatedTopicIds": [
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

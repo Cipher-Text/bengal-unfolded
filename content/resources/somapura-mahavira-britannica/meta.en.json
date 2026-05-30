@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica reference for the 8th-century Somapura monastery at Paharpur as a major intellectual and architectural center."
+  "whyItMatters": "Britannica reference for the 8th-century Somapura monastery at Paharpur as a major intellectual and architectural center.",
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal",
+    "pala-sena-period-and-knowledge-culture"
+  ]
 }

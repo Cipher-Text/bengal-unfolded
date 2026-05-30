@@ -9,5 +9,8 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "আবুল ফজলের প্রশাসনিক গ্রন্থ; আকবরের সাম্রাজ্যে বাংলার ভূগোল ও রাজস্ব ব্যবস্থার গুরুত্বপূর্ণ উৎস।"
+  "whyItMatters": "আবুল ফজলের প্রশাসনিক গ্রন্থ; আকবরের সাম্রাজ্যে বাংলার ভূগোল ও রাজস্ব ব্যবস্থার গুরুত্বপূর্ণ উৎস।",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

@@ -9,5 +9,8 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "UNESCO dossier documenting Mahasthangarh as an early fortified urban center in Bengal, established around the 4th-3rd century BCE."
+  "whyItMatters": "UNESCO dossier documenting Mahasthangarh as an early fortified urban center in Bengal, established around the 4th-3rd century BCE.",
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal"
+  ]
 }

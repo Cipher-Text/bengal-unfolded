@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A Bangladesh-centered overview that explains how the denied 1970 mandate fed into the 1971 war."
+  "whyItMatters": "A Bangladesh-centered overview that explains how the denied 1970 mandate fed into the 1971 war.",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "liberation-war-1971"
+  ]
 }

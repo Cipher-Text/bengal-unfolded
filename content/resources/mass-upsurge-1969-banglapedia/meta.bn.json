@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "ছাত্র আন্দোলন থেকে গড়ে ওঠা ১৯৬৯ সালের গণঅভ্যুত্থান, তার রাজনৈতিক পটভূমি এবং আইয়ুববিরোধী সংগ্রামে এর ভূমিকা নিয়ে বাংলাপিডিয়ার সারসংক্ষেপ।"
+  "whyItMatters": "ছাত্র আন্দোলন থেকে গড়ে ওঠা ১৯৬৯ সালের গণঅভ্যুত্থান, তার রাজনৈতিক পটভূমি এবং আইয়ুববিরোধী সংগ্রামে এর ভূমিকা নিয়ে বাংলাপিডিয়ার সারসংক্ষেপ।",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

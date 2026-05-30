@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Reference on Khilafat politics in Bengal and wider South Asia (1919-1924)."
+  "whyItMatters": "Reference on Khilafat politics in Bengal and wider South Asia (1919-1924).",
+  "relatedTopicIds": [
+    "late-colonial-muslim-politics-and-agrarian-mobilization"
+  ]
 }

@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A clear historical overview of how British withdrawal, elite negotiation, and mass violence produced partition in 1947."
+  "whyItMatters": "A clear historical overview of how British withdrawal, elite negotiation, and mass violence produced partition in 1947.",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

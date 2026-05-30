@@ -10,5 +10,9 @@
   "creatorType": "organization",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A core reference on Bangladesh's caretaker framework, the 2006-2008 crisis period, and emergency-era political transition."
+  "whyItMatters": "A core reference on Bangladesh's caretaker framework, the 2006-2008 crisis period, and emergency-era political transition.",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

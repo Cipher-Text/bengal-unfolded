@@ -9,5 +9,8 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "জাহাঙ্গীরের স্মৃতিকথা; সপ্তদশ শতকের শুরুতে মুঘল রাজনীতি ও বাংলা অভিযান বোঝার উৎস।"
+  "whyItMatters": "জাহাঙ্গীরের স্মৃতিকথা; সপ্তদশ শতকের শুরুতে মুঘল রাজনীতি ও বাংলা অভিযান বোঝার উৎস।",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

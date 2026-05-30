@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৭০-এর গণরায় অস্বীকার কীভাবে ১৯৭১ সালের যুদ্ধে গড়ায়, তা বোঝার জন্য বাংলাদেশ-কেন্দ্রিক রেফারেন্স।"
+  "whyItMatters": "১৯৭০-এর গণরায় অস্বীকার কীভাবে ১৯৭১ সালের যুদ্ধে গড়ায়, তা বোঝার জন্য বাংলাদেশ-কেন্দ্রিক রেফারেন্স।",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "liberation-war-1971"
+  ]
 }

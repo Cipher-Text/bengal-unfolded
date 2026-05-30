@@ -9,5 +9,8 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "The official chronicle of Akbar’s reign, useful for the Mughal conquest and consolidation of Bengal."
+  "whyItMatters": "The official chronicle of Akbar’s reign, useful for the Mughal conquest and consolidation of Bengal.",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

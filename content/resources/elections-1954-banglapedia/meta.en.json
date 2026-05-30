@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia summary of the 1954 East Bengal elections, the United Front campaign, and the scale of the result."
+  "whyItMatters": "Banglapedia summary of the 1954 East Bengal elections, the United Front campaign, and the scale of the result.",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

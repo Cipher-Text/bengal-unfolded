@@ -10,5 +10,11 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A concise overview of Bangladesh's immediate post-1971 political transition, including Mujib's return and the early constitutional order."
+  "whyItMatters": "A concise overview of Bangladesh's immediate post-1971 political transition, including Mujib's return and the early constitutional order.",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation",
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

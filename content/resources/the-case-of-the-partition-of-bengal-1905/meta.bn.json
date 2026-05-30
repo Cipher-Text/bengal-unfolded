@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯০৫ বঙ্গভঙ্গের রাজনৈতিক পটভূমি ও তাৎক্ষণিক প্রতিক্রিয়া বোঝার জন্য শক্তিশালী উৎস।"
+  "whyItMatters": "১৯০৫ বঙ্গভঙ্গের রাজনৈতিক পটভূমি ও তাৎক্ষণিক প্রতিক্রিয়া বোঝার জন্য শক্তিশালী উৎস।",
+  "relatedTopicIds": [
+    "partition-of-bengal-1905"
+  ]
 }

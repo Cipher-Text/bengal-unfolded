@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia biography of Haji Shariatullah, founder of the Faraizi movement."
+  "whyItMatters": "Banglapedia biography of Haji Shariatullah, founder of the Faraizi movement.",
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ]
 }

@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "তুর্কি বিজয় থেকে ১৭৫৭ পর্যন্ত বাংলার মুসলিম শাসনের একটি মানক সার্ভে।"
+  "whyItMatters": "তুর্কি বিজয় থেকে ১৭৫৭ পর্যন্ত বাংলার মুসলিম শাসনের একটি মানক সার্ভে।",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

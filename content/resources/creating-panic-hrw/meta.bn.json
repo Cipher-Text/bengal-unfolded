@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "হিউম্যান রাইটস ওয়াচের এই প্রতিবেদনটি নির্বাচন-পূর্ব দমনচিত্র তুলে ধরে এবং ২০১৮ সালের কোটা ও নিরাপদ সড়ক আন্দোলনকেও বৃহত্তর দমন-প্যাটার্নের অংশ হিসেবে দেখায়।"
+  "whyItMatters": "হিউম্যান রাইটস ওয়াচের এই প্রতিবেদনটি নির্বাচন-পূর্ব দমনচিত্র তুলে ধরে এবং ২০১৮ সালের কোটা ও নিরাপদ সড়ক আন্দোলনকেও বৃহত্তর দমন-প্যাটার্নের অংশ হিসেবে দেখায়।",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

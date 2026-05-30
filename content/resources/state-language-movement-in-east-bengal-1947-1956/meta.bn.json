@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "রাষ্ট্রভাষা আন্দোলনের সাংগঠনিক, রাজনৈতিক এবং সামাজিক বিকাশ বোঝার জন্য একটি কেন্দ্রীভূত গবেষণামূলক রিসোর্স।"
+  "whyItMatters": "রাষ্ট্রভাষা আন্দোলনের সাংগঠনিক, রাজনৈতিক এবং সামাজিক বিকাশ বোঝার জন্য একটি কেন্দ্রীভূত গবেষণামূলক রিসোর্স।",
+  "relatedTopicIds": [
+    "language-movement-and-mother-language-day"
+  ]
 }

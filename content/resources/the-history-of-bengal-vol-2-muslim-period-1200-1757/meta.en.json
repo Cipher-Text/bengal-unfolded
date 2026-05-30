@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A standard survey of Bengal from the Turkish conquest through the end of Muslim rule in 1757."
+  "whyItMatters": "A standard survey of Bengal from the Turkish conquest through the end of Muslim rule in 1757.",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

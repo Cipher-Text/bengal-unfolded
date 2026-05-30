@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "মতপ্রকাশ, সাংবাদিকতা, digital rights ও vague offences নিয়ে legal-rights analysis."
+  "whyItMatters": "মতপ্রকাশ, সাংবাদিকতা, digital rights ও vague offences নিয়ে legal-rights analysis.",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

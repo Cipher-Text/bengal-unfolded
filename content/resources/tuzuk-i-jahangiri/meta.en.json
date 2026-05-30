@@ -9,5 +9,8 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Jahangir’s memoirs for the early seventeenth century, useful for Mughal politics and Bengal campaigns."
+  "whyItMatters": "Jahangir’s memoirs for the early seventeenth century, useful for Mughal politics and Bengal campaigns.",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

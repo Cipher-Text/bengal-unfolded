@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia entry on Shah Jalal and his historical role in Sylhet."
+  "whyItMatters": "Banglapedia entry on Shah Jalal and his historical role in Sylhet.",
+  "relatedTopicIds": [
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

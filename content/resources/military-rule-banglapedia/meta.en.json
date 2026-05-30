@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A concise reference overview of military rule, the anti-Ershad movement, and the 1990 transfer of power."
+  "whyItMatters": "A concise reference overview of military rule, the anti-Ershad movement, and the 1990 transfer of power.",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening",
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

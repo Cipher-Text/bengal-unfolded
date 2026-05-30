@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলায় হোসেন শাহী রাজবংশের প্রতিষ্ঠাতা আলাউদ্দিন হোসেন শাহের জীবন ও শাসন প্রসঙ্গে বাংলাপিডিয়া পরিচিতি।"
+  "whyItMatters": "বাংলায় হোসেন শাহী রাজবংশের প্রতিষ্ঠাতা আলাউদ্দিন হোসেন শাহের জীবন ও শাসন প্রসঙ্গে বাংলাপিডিয়া পরিচিতি।",
+  "relatedTopicIds": [
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

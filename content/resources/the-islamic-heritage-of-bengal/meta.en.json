@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "archive",
   "evidenceLevel": "high",
-  "whyItMatters": "A UNESCO volume on Bengal Sultanate and Mughal-era Islamic architecture, inscriptions, and material culture."
+  "whyItMatters": "A UNESCO volume on Bengal Sultanate and Mughal-era Islamic architecture, inscriptions, and material culture.",
+  "relatedTopicIds": [
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

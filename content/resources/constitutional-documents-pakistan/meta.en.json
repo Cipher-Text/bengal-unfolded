@@ -8,5 +8,8 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "An archive-quality source for understanding Pakistan's state formation and East Bengal's constitutional position after 1947."
+  "whyItMatters": "An archive-quality source for understanding Pakistan's state formation and East Bengal's constitutional position after 1947.",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

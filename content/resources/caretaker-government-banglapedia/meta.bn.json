@@ -10,5 +10,9 @@
   "creatorType": "organization",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলাদেশের তত্ত্বাবধায়ক কাঠামো, ২০০৬-২০০৮ সংকট এবং জরুরি অবস্থাকালীন রাজনৈতিক রূপান্তর বোঝার গুরুত্বপূর্ণ রেফারেন্স।"
+  "whyItMatters": "বাংলাদেশের তত্ত্বাবধায়ক কাঠামো, ২০০৬-২০০৮ সংকট এবং জরুরি অবস্থাকালীন রাজনৈতিক রূপান্তর বোঝার গুরুত্বপূর্ণ রেফারেন্স।",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

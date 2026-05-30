@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A focused reference on the Calcutta killings that followed Direct Action Day and their impact on Hindu-Muslim relations."
+  "whyItMatters": "A focused reference on the Calcutta killings that followed Direct Action Day and their impact on Hindu-Muslim relations.",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

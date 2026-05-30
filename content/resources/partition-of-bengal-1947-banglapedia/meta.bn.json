@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৪৭ সালে বাংলা কীভাবে ভোট, কমিশন ও রাজনৈতিক সিদ্ধান্তের মাধ্যমে ভাগ হলো, তার একটি বিশদ রেফারেন্স নিবন্ধ।"
+  "whyItMatters": "১৯৪৭ সালে বাংলা কীভাবে ভোট, কমিশন ও রাজনৈতিক সিদ্ধান্তের মাধ্যমে ভাগ হলো, তার একটি বিশদ রেফারেন্স নিবন্ধ।",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

@@ -8,5 +8,8 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A correspondence-based source for understanding Bengal politics and the decision-making of partition leaders between 1936 and 1947."
+  "whyItMatters": "A correspondence-based source for understanding Bengal politics and the decision-making of partition leaders between 1936 and 1947.",
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ]
 }

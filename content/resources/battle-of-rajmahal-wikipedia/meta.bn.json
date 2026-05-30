@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৫৭৬ সালের ১২ জুলাইয়ের রাজমহল যুদ্ধ ও দাউদ খান কররানির পরাজয় নিয়ে বাংলাপিডিয়া সারসংক্ষেপ।"
+  "whyItMatters": "১৫৭৬ সালের ১২ জুলাইয়ের রাজমহল যুদ্ধ ও দাউদ খান কররানির পরাজয় নিয়ে বাংলাপিডিয়া সারসংক্ষেপ।",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

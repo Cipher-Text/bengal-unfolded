@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বারো-ভূঁইয়া জোটসমূহ এবং ষোড়শ শতকের শেষভাগ থেকে সপ্তদশ শতকের শুরু পর্যন্ত বাংলায় তাদের প্রতিরোধ ভূমিকা নিয়ে বাংলাপিডিয়া সারসংক্ষেপ।"
+  "whyItMatters": "বারো-ভূঁইয়া জোটসমূহ এবং ষোড়শ শতকের শেষভাগ থেকে সপ্তদশ শতকের শুরু পর্যন্ত বাংলায় তাদের প্রতিরোধ ভূমিকা নিয়ে বাংলাপিডিয়া সারসংক্ষেপ।",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

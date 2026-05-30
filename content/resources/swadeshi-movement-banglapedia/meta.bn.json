@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বয়কট, দেশীয় পণ্য, এবং বঙ্গভঙ্গবিরোধী রাজনৈতিক সংস্কৃতির বিকাশ বোঝার জন্য একটি মৌলিক রেফারেন্স।"
+  "whyItMatters": "বয়কট, দেশীয় পণ্য, এবং বঙ্গভঙ্গবিরোধী রাজনৈতিক সংস্কৃতির বিকাশ বোঝার জন্য একটি মৌলিক রেফারেন্স।",
+  "relatedTopicIds": [
+    "partition-of-bengal-1905"
+  ]
 }

@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A primary archive for Bengal boundary drawing, the Radcliffe Line, and district-level division."
+  "whyItMatters": "A primary archive for Bengal boundary drawing, the Radcliffe Line, and district-level division.",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "partition-and-identity"
+  ]
 }

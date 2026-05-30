@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful for tracing the Awami League's parliamentary and street opposition to Ershad."
+  "whyItMatters": "Useful for tracing the Awami League's parliamentary and street opposition to Ershad.",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

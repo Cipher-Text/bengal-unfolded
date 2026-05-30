@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia summary of the 12 July 1576 battle and the defeat of Daud Khan Karrani."
+  "whyItMatters": "Banglapedia summary of the 12 July 1576 battle and the defeat of Daud Khan Karrani.",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

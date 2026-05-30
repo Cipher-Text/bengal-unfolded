@@ -10,5 +10,11 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুজিবের প্রত্যাবর্তন এবং প্রাথমিক সাংবিধানিক রাষ্ট্রগঠনের একটি সংক্ষিপ্ত ঐতিহাসিক সারাংশ।"
+  "whyItMatters": "মুজিবের প্রত্যাবর্তন এবং প্রাথমিক সাংবিধানিক রাষ্ট্রগঠনের একটি সংক্ষিপ্ত ঐতিহাসিক সারাংশ।",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation",
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

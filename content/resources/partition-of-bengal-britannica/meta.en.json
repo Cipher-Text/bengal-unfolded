@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A concise overview of the 1905 partition, its rationale, and its reversal within wider British Indian politics."
+  "whyItMatters": "A concise overview of the 1905 partition, its rationale, and its reversal within wider British Indian politics.",
+  "relatedTopicIds": [
+    "partition-of-bengal-1905"
+  ]
 }

@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Contextual reference on the 1937 provincial election and coalition outcomes in Bengal under the 1935 constitutional framework."
+  "whyItMatters": "Contextual reference on the 1937 provincial election and coalition outcomes in Bengal under the 1935 constitutional framework.",
+  "relatedTopicIds": [
+    "late-colonial-muslim-politics-and-agrarian-mobilization"
+  ]
 }

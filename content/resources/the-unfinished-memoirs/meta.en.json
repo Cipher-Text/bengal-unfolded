@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Sheikh Mujibur Rahman's autobiography is central to understanding 1930s-1950s Bengal politics, the Muslim League, and the Language Movement."
+  "whyItMatters": "Sheikh Mujibur Rahman's autobiography is central to understanding 1930s-1950s Bengal politics, the Muslim League, and the Language Movement.",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

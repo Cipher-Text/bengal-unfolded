@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "২০১৮ নির্বাচনের প্রক্রিয়া, নির্বাচন কমিশন, প্রশাসন, আইনশৃঙ্খলা বাহিনী, political parties এবং অনিয়মের অভিযোগ নিয়ে structured research review."
+  "whyItMatters": "২০১৮ নির্বাচনের প্রক্রিয়া, নির্বাচন কমিশন, প্রশাসন, আইনশৃঙ্খলা বাহিনী, political parties এবং অনিয়মের অভিযোগ নিয়ে structured research review.",
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

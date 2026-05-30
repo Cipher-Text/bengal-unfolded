@@ -8,5 +8,8 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Detailed political history of U.S. policy, diplomatic cables, and the genocide context of 1971."
+  "whyItMatters": "Detailed political history of U.S. policy, diplomatic cables, and the genocide context of 1971.",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ]
 }

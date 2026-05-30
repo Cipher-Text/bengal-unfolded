@@ -8,5 +8,8 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "সরকারি চাকরির কোটা সংস্কার, শিক্ষার্থী সংগঠন, শাহবাগ-ঢাকা বিশ্ববিদ্যালয় কেন্দ্রিক mobilization এবং দেশব্যাপী আন্দোলনের timeline বোঝার জন্য starting source."
+  "whyItMatters": "সরকারি চাকরির কোটা সংস্কার, শিক্ষার্থী সংগঠন, শাহবাগ-ঢাকা বিশ্ববিদ্যালয় কেন্দ্রিক mobilization এবং দেশব্যাপী আন্দোলনের timeline বোঝার জন্য starting source.",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements"
+  ]
 }

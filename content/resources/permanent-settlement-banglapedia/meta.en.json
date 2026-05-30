@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Bengal-focused reference on the 1793 settlement, zamindari property rights, and its impact on raiyats and agrarian relations."
+  "whyItMatters": "Bengal-focused reference on the 1793 settlement, zamindari property rights, and its impact on raiyats and agrarian relations.",
+  "relatedTopicIds": [
+    "colonial-conquest-revenue-and-resistance"
+  ]
 }

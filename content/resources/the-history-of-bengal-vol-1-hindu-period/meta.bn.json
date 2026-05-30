@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "প্রাচীন বাংলা ও হিন্দু পর্বের একটি মৌলিক গবেষণাধর্মী সারাংশ।"
+  "whyItMatters": "প্রাচীন বাংলা ও হিন্দু পর্বের একটি মৌলিক গবেষণাধর্মী সারাংশ।",
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal",
+    "bangladesh-history",
+    "pala-sena-period-and-knowledge-culture"
+  ]
 }

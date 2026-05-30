@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A Bengal-centered reference entry on the politics, contradictions, and communal dynamics that produced partition."
+  "whyItMatters": "A Bengal-centered reference entry on the politics, contradictions, and communal dynamics that produced partition.",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "late-colonial-muslim-politics-and-agrarian-mobilization",
+    "partition-and-identity"
+  ]
 }

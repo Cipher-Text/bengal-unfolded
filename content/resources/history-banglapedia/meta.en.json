@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "General Bangladesh history reference useful for political chronology around the Ershad takeover and the 1980s authoritarian period."
+  "whyItMatters": "General Bangladesh history reference useful for political chronology around the Ershad takeover and the 1980s authoritarian period.",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "peasant-religious-and-rural-resistance"
+  ]
 }

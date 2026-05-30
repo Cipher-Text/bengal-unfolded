@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলাপিডিয়ার রাষ্ট্রগঠন নিবন্ধ, যেখানে বাংলা সালতানাত পর্যায় ও তার প্রাতিষ্ঠানিক বৈশিষ্ট্য আলোচিত।"
+  "whyItMatters": "বাংলাপিডিয়ার রাষ্ট্রগঠন নিবন্ধ, যেখানে বাংলা সালতানাত পর্যায় ও তার প্রাতিষ্ঠানিক বৈশিষ্ট্য আলোচিত।",
+  "relatedTopicIds": [
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

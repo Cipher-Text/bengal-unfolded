@@ -8,5 +8,8 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Groundbreaking testimonies of Birangonas documenting gendered violence during the war."
+  "whyItMatters": "Groundbreaking testimonies of Birangonas documenting gendered violence during the war.",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ]
 }

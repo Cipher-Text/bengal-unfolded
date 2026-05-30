@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A major modern study of Islam, frontier society, agrarian expansion, and state power in Bengal."
+  "whyItMatters": "A major modern study of Islam, frontier society, agrarian expansion, and state power in Bengal.",
+  "relatedTopicIds": [
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

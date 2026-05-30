@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A Bengal-centered reference on the 16 August 1946 hartal, the Calcutta violence, and its role in making partition more likely."
+  "whyItMatters": "A Bengal-centered reference on the 16 August 1946 hartal, the Calcutta violence, and its role in making partition more likely.",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

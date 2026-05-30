@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "archive",
   "evidenceLevel": "high",
-  "whyItMatters": "বঙ্গ সুলতানি ও মুঘল পর্বের ইসলামী স্থাপত্য, শিলালিপি, এবং বস্তুগত সংস্কৃতি নিয়ে একটি ইউনেস্কো সংকলন।"
+  "whyItMatters": "বঙ্গ সুলতানি ও মুঘল পর্বের ইসলামী স্থাপত্য, শিলালিপি, এবং বস্তুগত সংস্কৃতি নিয়ে একটি ইউনেস্কো সংকলন।",
+  "relatedTopicIds": [
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Structured research review of the election process, commission, administration, law enforcement, parties, and irregularity allegations."
+  "whyItMatters": "Structured research review of the election process, commission, administration, law enforcement, parties, and irregularity allegations.",
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

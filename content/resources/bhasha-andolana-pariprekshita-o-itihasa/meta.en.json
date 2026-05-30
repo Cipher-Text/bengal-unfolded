@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A Bangla-language resource centered on the background and history of the language movement."
+  "whyItMatters": "A Bangla-language resource centered on the background and history of the language movement.",
+  "relatedTopicIds": [
+    "language-movement-and-mother-language-day"
+  ]
 }

@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Core political document outlining the democratic platform of the Awami League-led, BNP-led, and left alliances."
+  "whyItMatters": "Core political document outlining the democratic platform of the Awami League-led, BNP-led, and left alliances.",
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ]
 }

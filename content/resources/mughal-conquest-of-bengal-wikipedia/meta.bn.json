@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলায় মুঘল বিজয় অভিযানের সারসংক্ষেপ, যেখানে রাজমহল যুদ্ধ এবং ১৫৭৬-পরবর্তী সংহতি প্রক্রিয়া অন্তর্ভুক্ত।"
+  "whyItMatters": "বাংলায় মুঘল বিজয় অভিযানের সারসংক্ষেপ, যেখানে রাজমহল যুদ্ধ এবং ১৫৭৬-পরবর্তী সংহতি প্রক্রিয়া অন্তর্ভুক্ত।",
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ]
 }

@@ -8,5 +8,8 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A core document collection for the Liberation War, useful for timelines, claim citations, and evidence-backed writing."
+  "whyItMatters": "A core document collection for the Liberation War, useful for timelines, claim citations, and evidence-backed writing.",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ]
 }

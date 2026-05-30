@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A detailed account of the Constituent Assembly, drafting committee, and adoption process behind the 1972 Constitution."
+  "whyItMatters": "A detailed account of the Constituent Assembly, drafting committee, and adoption process behind the 1972 Constitution.",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

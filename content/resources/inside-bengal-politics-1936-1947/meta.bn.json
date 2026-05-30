@@ -8,5 +8,8 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৩৬ থেকে ১৯৪৭ সময়ের বঙ্গ রাজনীতি ও দেশভাগ-নেতাদের সিদ্ধান্তগ্রহণ বোঝার জন্য চিঠিপত্রভিত্তিক source."
+  "whyItMatters": "১৯৩৬ থেকে ১৯৪৭ সময়ের বঙ্গ রাজনীতি ও দেশভাগ-নেতাদের সিদ্ধান্তগ্রহণ বোঝার জন্য চিঠিপত্রভিত্তিক source.",
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ]
 }

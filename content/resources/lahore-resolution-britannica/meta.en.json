@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A concise reference on the 1940 Lahore Resolution, Bengal's role, and the constitutional debate that followed."
+  "whyItMatters": "A concise reference on the 1940 Lahore Resolution, Bengal's role, and the constitutional debate that followed.",
+  "relatedTopicIds": [
+    "late-colonial-muslim-politics-and-agrarian-mobilization"
+  ]
 }

@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলার দেশভাগের পেছনের রাজনীতি, সাম্প্রদায়িকতা, এবং ঐতিহাসিক বৈপরীত্য বোঝার জন্য একটি গুরুত্বপূর্ণ রেফারেন্স নিবন্ধ।"
+  "whyItMatters": "বাংলার দেশভাগের পেছনের রাজনীতি, সাম্প্রদায়িকতা, এবং ঐতিহাসিক বৈপরীত্য বোঝার জন্য একটি গুরুত্বপূর্ণ রেফারেন্স নিবন্ধ।",
+  "relatedTopicIds": [
+    "bangladesh-history",
+    "late-colonial-muslim-politics-and-agrarian-mobilization",
+    "partition-and-identity"
+  ]
 }

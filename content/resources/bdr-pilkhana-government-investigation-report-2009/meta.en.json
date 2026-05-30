@@ -8,5 +8,8 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Core government investigation report on the 2009 Peelkhana killings. Useful for the event sequence, causes, responsibility, and administrative failure."
+  "whyItMatters": "Core government investigation report on the 2009 Peelkhana killings. Useful for the event sequence, causes, responsibility, and administrative failure.",
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }

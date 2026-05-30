@@ -9,5 +9,8 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "আর্কাইভ নথি, মৌখিক সাক্ষ্য এবং ঐতিহাসিক ব্যাখ্যাসহ দেশভাগ বোঝার জন্য একটি সরকারি শিক্ষামূলক রিসোর্স।"
+  "whyItMatters": "আর্কাইভ নথি, মৌখিক সাক্ষ্য এবং ঐতিহাসিক ব্যাখ্যাসহ দেশভাগ বোঝার জন্য একটি সরকারি শিক্ষামূলক রিসোর্স।",
+  "relatedTopicIds": [
+    "partition-and-identity"
+  ]
 }

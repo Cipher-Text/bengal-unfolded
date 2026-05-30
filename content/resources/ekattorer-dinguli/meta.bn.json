@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "ডায়েরি আকারে লেখা মুক্তিযুদ্ধের অন্যতম শ্রেষ্ঠ স্মৃতিকথা; ব্যক্তিগত ক্ষতি ও প্রতিরোধের দলিল।"
+  "whyItMatters": "ডায়েরি আকারে লেখা মুক্তিযুদ্ধের অন্যতম শ্রেষ্ঠ স্মৃতিকথা; ব্যক্তিগত ক্ষতি ও প্রতিরোধের দলিল।",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory",
+    "liberation-war-1971"
+  ]
 }

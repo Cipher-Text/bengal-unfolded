@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia traces the anti-Company alliance of Muslim fakirs and Hindu sannyasis in Bengal from 1760 onward."
+  "whyItMatters": "Banglapedia traces the anti-Company alliance of Muslim fakirs and Hindu sannyasis in Bengal from 1760 onward.",
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ]
 }

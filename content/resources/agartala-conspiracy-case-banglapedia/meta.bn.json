@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৬৮ সালের আগরতলা মামলার কাঠামো, বিচারপ্রক্রিয়া এবং ১৯৬৯ গণঅভ্যুত্থানের সাথে এর সম্পর্ক নিয়ে বাংলাপিডিয়া নিবন্ধ।"
+  "whyItMatters": "১৯৬৮ সালের আগরতলা মামলার কাঠামো, বিচারপ্রক্রিয়া এবং ১৯৬৯ গণঅভ্যুত্থানের সাথে এর সম্পর্ক নিয়ে বাংলাপিডিয়া নিবন্ধ।",
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ]
 }

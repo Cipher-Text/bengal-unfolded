@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica describes the Fakir-Sannyasi uprisings as a long resistance wave against East India Company authority from 1763 to 1800."
+  "whyItMatters": "Britannica describes the Fakir-Sannyasi uprisings as a long resistance wave against East India Company authority from 1763 to 1800.",
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ]
 }

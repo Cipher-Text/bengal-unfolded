@@ -9,5 +9,8 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলায় মুসলিম শাসনের এক গুরুত্বপূর্ণ ফার্সি ক্রনিকল, যা ১২০৪-০৫ থেকে ১৭৫৭ পর্যন্ত বিস্তৃত।"
+  "whyItMatters": "বাংলায় মুসলিম শাসনের এক গুরুত্বপূর্ণ ফার্সি ক্রনিকল, যা ১২০৪-০৫ থেকে ১৭৫৭ পর্যন্ত বিস্তৃত।",
+  "relatedTopicIds": [
+    "sultanate-frontier-and-regional-islamization"
+  ]
 }

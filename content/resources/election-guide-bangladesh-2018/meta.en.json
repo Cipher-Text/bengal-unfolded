@@ -10,5 +10,8 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Election Guide entry summarizing the structure, date, and seat results of Bangladesh's 2018 parliamentary election."
+  "whyItMatters": "Election Guide entry summarizing the structure, date, and seat results of Bangladesh's 2018 parliamentary election.",
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation"
+  ]
 }
