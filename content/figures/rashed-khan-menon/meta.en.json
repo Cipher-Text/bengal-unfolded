@@ -24,7 +24,11 @@
   "shortAnswer": "Rashed Khan Menon is linked to the 1971 Liberation War in this timeline as Workers Party leader, left political organizer, parliamentarian, and former minister.",
   "activePeriod": "1971",
   "primaryEventIds": [
-    "1971-liberation-war"
+    "1969-mass-uprising",
+    "1971-liberation-war",
+    "1990-mass-uprising",
+    "2014-10th-parliamentary-election",
+    "2018-election"
   ],
   "relatedPlaceIds": [
     "bangladesh",

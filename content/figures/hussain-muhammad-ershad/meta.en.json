@@ -5,5 +5,41 @@
   "contribution": "He led the 1982 coup, imposed martial law, and built the military-backed political order that dominated Bangladesh through most of the 1980s.",
   "context": "Bangladesh's authoritarian transition from 1982 to 1990.",
   "impact": "His rule redefined the relationship between army, presidency, party politics, and street opposition in post-liberation Bangladesh.",
-  "image": "/figures/hussain-muhammad-ershad.jpg"
+  "image": "/figures/hussain-muhammad-ershad.jpg",
+  "name_en": "Hussain Muhammad Ershad",
+  "seoTitle": "Hussain Muhammad Ershad - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Hussain Muhammad Ershad, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Hussain Muhammad Ershad is linked to the 1990 Mass Uprising in this timeline as Army Chief and Military Ruler.",
+  "activePeriod": "1982-1990",
+  "primaryEventIds": [
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1988-eighth-amendment-state-religion",
+    "1990-mass-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Hussain Muhammad Ershad"
+  ],
+  "searchAliases": [
+    "Hussain Muhammad Ershad",
+    "Hussain",
+    "Muhammad",
+    "Ershad"
+  ],
+  "faq": [
+    {
+      "question": "How is Hussain Muhammad Ershad connected to the 1990 Mass Uprising?",
+      "answer": "Hussain Muhammad Ershad is connected to the anti-Ershad democratic movement as Army Chief and Military Ruler. He led the 1982 coup, imposed martial law, and built the military-backed political order that dominated Bangladesh through most of the 1980s."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics",
+    "caretaker-transition"
+  ]
 }

@@ -5,5 +5,47 @@
   "contribution": "As the Awami League leader, she helped sustain one of the principal anti-Ershad alliance fronts through the decisive 1990 uprising.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/sheikh-hasina.jpg"
+  "image": "/figures/sheikh-hasina.jpg",
+  "name_en": "Sheikh Hasina",
+  "seoTitle": "Sheikh Hasina - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Sheikh Hasina, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Sheikh Hasina is linked to the 1990 Mass Uprising in this timeline as Leader of the 8-Party Alliance.",
+  "activePeriod": "1982-2024",
+  "primaryEventIds": [
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising",
+    "1991-return-to-parliamentary-democracy",
+    "1997-chittagong-hill-tracts-peace-accord",
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2007-2008-emergency-caretaker-rule",
+    "2014-10th-parliamentary-election",
+    "2018-election",
+    "2024-anti-discrimination-movement",
+    "2013-rana-plaza-collapse"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Sheikh Hasina"
+  ],
+  "searchAliases": [
+    "Sheikh Hasina",
+    "Sheikh",
+    "Hasina"
+  ],
+  "faq": [
+    {
+      "question": "How is Sheikh Hasina connected to the 1990 Mass Uprising?",
+      "answer": "Sheikh Hasina is connected to the anti-Ershad democratic movement as Leader of the 8-Party Alliance. As the Awami League leader, she helped sustain one of the principal anti-Ershad alliance fronts through the decisive 1990 uprising."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics",
+    "caretaker-transition"
+  ]
 }

@@ -5,5 +5,37 @@
   "contribution": "At the end of the regime, his resignation cleared the final procedural path for power to pass to Shahabuddin Ahmed.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/moudud-ahmed.jpg"
+  "image": "/figures/moudud-ahmed.jpg",
+  "name_en": "Moudud Ahmed",
+  "seoTitle": "Moudud Ahmed - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Moudud Ahmed, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Moudud Ahmed is linked to the 1990 Mass Uprising in this timeline as Constitutional Intermediary.",
+  "activePeriod": "1990",
+  "primaryEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Moudud Ahmed"
+  ],
+  "searchAliases": [
+    "Moudud Ahmed",
+    "Moudud",
+    "Ahmed"
+  ],
+  "faq": [
+    {
+      "question": "How is Moudud Ahmed connected to the 1990 Mass Uprising?",
+      "answer": "Moudud Ahmed is connected to the anti-Ershad democratic movement as Constitutional Intermediary. At the end of the regime, his resignation cleared the final procedural path for power to pass to Shahabuddin Ahmed."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "caretaker-transition"
+  ]
 }

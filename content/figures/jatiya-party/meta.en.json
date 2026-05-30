@@ -4,5 +4,39 @@
   "group": "organization",
   "contribution": "Formed under Hussain Muhammad Ershad, the party became a key force in authoritarian-era and post-transition parliamentary politics.",
   "context": "Military rule aftermath, anti-autocracy movement period, and the reconfiguration of electoral politics after 1990.",
-  "impact": "It institutionalized an enduring third-force bloc in Bangladesh politics and affected coalition arithmetic across multiple elections."
+  "impact": "It institutionalized an enduring third-force bloc in Bangladesh politics and affected coalition arithmetic across multiple elections.",
+  "name_en": "Jatiya Party",
+  "seoTitle": "Jatiya Party - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Jatiya Party, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Jatiya Party is linked to the 1990 Mass Uprising in this timeline as Political Party in Bangladesh.",
+  "activePeriod": "1982-1990",
+  "primaryEventIds": [
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Jatiya Party"
+  ],
+  "searchAliases": [
+    "Jatiya Party",
+    "Jatiya",
+    "Party"
+  ],
+  "faq": [
+    {
+      "question": "How is Jatiya Party connected to the 1990 Mass Uprising?",
+      "answer": "Jatiya Party is connected to the anti-Ershad democratic movement as Political Party in Bangladesh. Formed under Hussain Muhammad Ershad, the party became a key force in authoritarian-era and post-transition parliamentary politics."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics",
+    "caretaker-transition"
+  ]
 }

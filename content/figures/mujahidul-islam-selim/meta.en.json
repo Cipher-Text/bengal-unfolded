@@ -5,5 +5,39 @@
   "contribution": "He kept the organized left active inside the broader anti-Ershad democratic coalition.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/mujahidul-islam-selim.jpg"
+  "image": "/figures/mujahidul-islam-selim.jpg",
+  "name_en": "Mujahidul Islam Selim",
+  "seoTitle": "Mujahidul Islam Selim - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Mujahidul Islam Selim, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Mujahidul Islam Selim is linked to the 1990 Mass Uprising in this timeline as Left Political Organizer.",
+  "activePeriod": "1990",
+  "primaryEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Mujahidul Islam Selim"
+  ],
+  "searchAliases": [
+    "Mujahidul Islam Selim",
+    "Mujahidul",
+    "Islam",
+    "Selim"
+  ],
+  "faq": [
+    {
+      "question": "How is Mujahidul Islam Selim connected to the 1990 Mass Uprising?",
+      "answer": "Mujahidul Islam Selim is connected to the anti-Ershad democratic movement as Left Political Organizer. He kept the organized left active inside the broader anti-Ershad democratic coalition."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics",
+    "caretaker-transition"
+  ]
 }

@@ -19,5 +19,30 @@
     "contested-politics",
     "post-1971-bangladesh"
   ],
-  "image": "/figures/hasanul-haq-inu.jpg"
+  "image": "/figures/hasanul-haq-inu.jpg",
+  "seoTitle": "Hasanul Haq Inu - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Hasanul Haq Inu, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Hasanul Haq Inu is linked to the 1990 Mass Uprising in this timeline as JASAD politician, former member of parliament, and former information minister.",
+  "activePeriod": "1990-2018",
+  "primaryEventIds": [
+    "1990-mass-uprising",
+    "2018-election"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Hasanul Haq Inu"
+  ],
+  "searchAliases": [
+    "Hasanul Haq Inu",
+    "Hasanul"
+  ],
+  "faq": [
+    {
+      "question": "How is Hasanul Haq Inu connected to the 1990 Mass Uprising?",
+      "answer": "Hasanul Haq Inu is connected to the anti-Ershad democratic movement as JASAD politician, former member of parliament, and former information minister. He has been active across student politics, post-liberation JASAD politics, the anti-Ershad movement, parliamentary politics, and the."
+    }
+  ]
 }

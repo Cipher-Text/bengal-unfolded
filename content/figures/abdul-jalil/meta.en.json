@@ -6,5 +6,37 @@
   "contribution": "Abdul Jalil was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
   "context": "South Asian political and intellectual history in the Bengal region.",
   "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history.",
-  "image": "/figures/abdul-jalil.jpg"
+  "image": "/figures/abdul-jalil.jpg",
+  "seoTitle": "Abdul Jalil - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Abdul Jalil, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Abdul Jalil is linked to the 1990 Mass Uprising in this timeline as Politician.",
+  "activePeriod": "1990-2006",
+  "primaryEventIds": [
+    "1990-mass-uprising",
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
+  ],
+  "alternateNames": [
+    "Abdul Jalil"
+  ],
+  "searchAliases": [
+    "Abdul Jalil",
+    "Abdul",
+    "Jalil"
+  ],
+  "faq": [
+    {
+      "question": "How is Abdul Jalil connected to the 1990 Mass Uprising?",
+      "answer": "Abdul Jalil is connected to the anti-Ershad democratic movement as Politician. Abdul Jalil was an important figure in the political and historical trajectory of Bengal and Bangladesh."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics",
+    "civic-culture"
+  ]
 }

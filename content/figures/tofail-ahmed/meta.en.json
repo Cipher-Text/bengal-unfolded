@@ -5,5 +5,39 @@
   "contribution": "He helped connect party structure with the wider protest environment during the anti-Ershad years.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/tofail-ahmed.jpg"
+  "image": "/figures/tofail-ahmed.jpg",
+  "name_en": "Tofail Ahmed",
+  "seoTitle": "Tofail Ahmed - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Tofail Ahmed, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Tofail Ahmed is linked to the 1990 Mass Uprising in this timeline as Awami League Organizer.",
+  "activePeriod": "1969-1990",
+  "primaryEventIds": [
+    "1969-mass-uprising",
+    "1990-mass-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Tofail Ahmed"
+  ],
+  "searchAliases": [
+    "Tofail Ahmed",
+    "Tofail",
+    "Ahmed"
+  ],
+  "faq": [
+    {
+      "question": "How is Tofail Ahmed connected to the 1990 Mass Uprising?",
+      "answer": "Tofail Ahmed is connected to the anti-Ershad democratic movement as Awami League Organizer. He helped connect party structure with the wider protest environment during the anti-Ershad years."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics",
+    "caretaker-transition"
+  ]
 }

@@ -12,7 +12,9 @@
   "shortAnswer": "আ স ম আবদুর রব ১৯৭১ সালের মার্চের ছাত্রমোবিলাইজেশন ও জাতীয় প্রতীকের রাজনীতির সঙ্গে যুক্ত ছাত্রনেতা।",
   "activePeriod": "১৯৭১",
   "primaryEventIds": [
-    "1971-liberation-war"
+    "1969-mass-uprising",
+    "1971-liberation-war",
+    "1990-mass-uprising"
   ],
   "relatedPlaceIds": [
     "bangladesh",

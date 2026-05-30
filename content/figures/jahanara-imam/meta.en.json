@@ -5,5 +5,38 @@
   "contribution": "She stood for the wider civic conscience that kept democratic legitimacy alive beyond party structures.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/jahanara-imam.jpg"
+  "image": "/figures/jahanara-imam.jpg",
+  "name_en": "Jahanara Imam",
+  "seoTitle": "Jahanara Imam - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Jahanara Imam, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Jahanara Imam is linked to the 1990 Mass Uprising in this timeline as Public Moral Voice.",
+  "activePeriod": "1990",
+  "primaryEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Jahanara Imam"
+  ],
+  "searchAliases": [
+    "Jahanara Imam",
+    "Jahanara",
+    "Imam"
+  ],
+  "faq": [
+    {
+      "question": "How is Jahanara Imam connected to the 1990 Mass Uprising?",
+      "answer": "Jahanara Imam is connected to the anti-Ershad democratic movement as Public Moral Voice. She stood for the wider civic conscience that kept democratic legitimacy alive beyond party structures."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics",
+    "caretaker-transition"
+  ]
 }

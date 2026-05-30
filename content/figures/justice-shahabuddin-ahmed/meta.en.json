@@ -5,5 +5,41 @@
   "contribution": "Accepted as a neutral transition figure, he oversaw the caretaker handover after Ershad's fall.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/justice-shahabuddin-ahmed.jpg"
+  "image": "/figures/justice-shahabuddin-ahmed.jpg",
+  "name_en": "Justice Shahabuddin Ahmed",
+  "seoTitle": "Justice Shahabuddin Ahmed - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Justice Shahabuddin Ahmed, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Justice Shahabuddin Ahmed is linked to the 1990 Mass Uprising in this timeline as Caretaker Transition Figure.",
+  "activePeriod": "1990-2008",
+  "primaryEventIds": [
+    "1990-mass-uprising",
+    "1991-return-to-parliamentary-democracy",
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Justice Shahabuddin Ahmed"
+  ],
+  "searchAliases": [
+    "Justice Shahabuddin Ahmed",
+    "Justice",
+    "Shahabuddin",
+    "Ahmed"
+  ],
+  "faq": [
+    {
+      "question": "How is Justice Shahabuddin Ahmed connected to the 1990 Mass Uprising?",
+      "answer": "Justice Shahabuddin Ahmed is connected to the anti-Ershad democratic movement as Caretaker Transition Figure. Accepted as a neutral transition figure, he oversaw the caretaker handover after Ershad's fall."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "caretaker-transition"
+  ]
 }

@@ -24,7 +24,11 @@
   "shortAnswer": "রাশেদ খান মেনন এই টাইমলাইনে ১৯৭১ সালের মুক্তিযুদ্ধের সঙ্গে যুক্ত ওয়ার্কার্স পার্টির নেতা, বামপন্থী রাজনৈতিক সংগঠক, সংসদ সদস্য ও সাবেক মন্ত্রী।",
   "activePeriod": "১৯৭১",
   "primaryEventIds": [
-    "1971-liberation-war"
+    "1969-mass-uprising",
+    "1971-liberation-war",
+    "1990-mass-uprising",
+    "2014-10th-parliamentary-election",
+    "2018-election"
   ],
   "relatedPlaceIds": [
     "bangladesh",

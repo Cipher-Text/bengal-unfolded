@@ -5,5 +5,38 @@
   "contribution": "He linked parliamentary criticism to wider pro-democracy mobilization.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/suranjit-sengupta.jpg"
+  "image": "/figures/suranjit-sengupta.jpg",
+  "name_en": "Suranjit Sengupta",
+  "seoTitle": "Suranjit Sengupta - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Suranjit Sengupta, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Suranjit Sengupta is linked to the 1990 Mass Uprising in this timeline as Parliamentary and Street Opposition Voice.",
+  "activePeriod": "1990",
+  "primaryEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar",
+    "shahbag-dhaka"
+  ],
+  "alternateNames": [
+    "Suranjit Sengupta"
+  ],
+  "searchAliases": [
+    "Suranjit Sengupta",
+    "Suranjit",
+    "Sengupta"
+  ],
+  "faq": [
+    {
+      "question": "How is Suranjit Sengupta connected to the 1990 Mass Uprising?",
+      "answer": "Suranjit Sengupta is connected to the anti-Ershad democratic movement as Parliamentary and Street Opposition Voice. He linked parliamentary criticism to wider pro-democracy mobilization."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "caretaker-transition"
+  ]
 }

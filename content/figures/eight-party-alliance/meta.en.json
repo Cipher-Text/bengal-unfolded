@@ -5,5 +5,38 @@
   "contribution": "This collective helped widen the anti-Ershad movement beyond a narrow party struggle and made democratic protest more socially durable.",
   "context": "The broader protest culture that shaped the 1990 Mass Uprising.",
   "impact": "Its presence shows that the uprising depended on organizational depth, social alliances, and coordinated public participation.",
-  "image": "/figures/eight-party-alliance.jpg"
+  "image": "/figures/eight-party-alliance.jpg",
+  "name_en": "8-Party Alliance",
+  "seoTitle": "8-Party Alliance - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of 8-Party Alliance, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "8-Party Alliance is linked to the 1990 Mass Uprising in this timeline as Opposition Alliance.",
+  "activePeriod": "1990",
+  "primaryEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "8-Party Alliance"
+  ],
+  "searchAliases": [
+    "8-Party Alliance",
+    "Eight",
+    "Party",
+    "Alliance"
+  ],
+  "faq": [
+    {
+      "question": "How is 8-Party Alliance connected to the 1990 Mass Uprising?",
+      "answer": "8-Party Alliance is connected to the anti-Ershad democratic movement as Opposition Alliance. This collective helped widen the anti-Ershad movement beyond a narrow party struggle and made democratic protest more socially durable."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics"
+  ]
 }

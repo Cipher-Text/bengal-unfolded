@@ -12,7 +12,9 @@
   "shortAnswer": "A S M Abdur Rab is linked to the 1971 Liberation War in this timeline as Student leader and 1971 flag-raising figure.",
   "activePeriod": "1971",
   "primaryEventIds": [
-    "1971-liberation-war"
+    "1969-mass-uprising",
+    "1971-liberation-war",
+    "1990-mass-uprising"
   ],
   "relatedPlaceIds": [
     "bangladesh",

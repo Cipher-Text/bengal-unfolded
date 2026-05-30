@@ -5,5 +5,43 @@
   "contribution": "As BNP chairperson, she led one of the key anti-Ershad alliances that turned the uprising into a truly national confrontation.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/khaleda-zia.jpg"
+  "image": "/figures/khaleda-zia.jpg",
+  "name_en": "Khaleda Zia",
+  "seoTitle": "Khaleda Zia - 1990 Mass Uprising Profile",
+  "seoDescription": "Profile of Khaleda Zia, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
+  "shortAnswer": "Khaleda Zia is linked to the 1990 Mass Uprising in this timeline as Leader of the 7-Party Alliance.",
+  "activePeriod": "1982-2018",
+  "primaryEventIds": [
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising",
+    "1991-return-to-parliamentary-democracy",
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2007-2008-emergency-caretaker-rule",
+    "2014-10th-parliamentary-election",
+    "2018-election"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Khaleda Zia"
+  ],
+  "searchAliases": [
+    "Khaleda Zia",
+    "Khaleda"
+  ],
+  "faq": [
+    {
+      "question": "How is Khaleda Zia connected to the 1990 Mass Uprising?",
+      "answer": "Khaleda Zia is connected to the anti-Ershad democratic movement as Leader of the 7-Party Alliance. As BNP chairperson, she led one of the key anti-Ershad alliances that turned the uprising into a truly national confrontation."
+    }
+  ],
+  "tags": [
+    "1990",
+    "democracy",
+    "anti-ershad-movement",
+    "party-politics",
+    "caretaker-transition"
+  ]
 }
