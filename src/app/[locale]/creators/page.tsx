@@ -93,9 +93,14 @@ function uniqueValues<T extends string>(items: T[]): T[] {
   return Array.from(new Set(items));
 }
 
+function formatNumber(locale: Locale, value: number): string {
+  return new Intl.NumberFormat(locale === "bn" ? "bn-BD" : "en-US").format(value);
+}
+
 function getResourceLabel(locale: Locale, count: number): string {
-  if (locale === "bn") return `${count} রিসোর্স`;
-  return `${count} ${count === 1 ? "resource" : "resources"}`;
+  const formattedCount = formatNumber(locale, count);
+  if (locale === "bn") return `${formattedCount} রিসোর্স`;
+  return `${formattedCount} ${count === 1 ? "resource" : "resources"}`;
 }
 
 export function generateStaticParams() {
@@ -258,7 +263,7 @@ export default async function CreatorsIndexPage({
             <option value="">{isBn ? "যেকোনো সংখ্যা" : "Any count"}</option>
             {RESOURCE_COUNT_VALUES.map((value) => (
               <option key={value} value={value}>
-                {isBn ? `কমপক্ষে ${value}` : `${value}+ resources`}
+                {isBn ? `কমপক্ষে ${formatNumber(currentLocale, Number(value))}` : `${value}+ resources`}
               </option>
             ))}
           </select>
@@ -271,15 +276,15 @@ export default async function CreatorsIndexPage({
       <section className="grid gap-3 md:grid-cols-3">
         <div className="theme-surface rounded-xl border p-4">
           <p className="text-eyebrow">{isBn ? "মোট স্রষ্টা" : "Total Creators"}</p>
-          <p className="mt-2 text-2xl font-semibold">{summaries.length}</p>
+          <p className="mt-2 text-2xl font-semibold">{formatNumber(currentLocale, summaries.length)}</p>
         </div>
         <div className="theme-surface rounded-xl border p-4">
           <p className="text-eyebrow">{isBn ? "ব্যক্তি" : "People"}</p>
-          <p className="mt-2 text-2xl font-semibold">{personCount}</p>
+          <p className="mt-2 text-2xl font-semibold">{formatNumber(currentLocale, personCount)}</p>
         </div>
         <div className="theme-surface rounded-xl border p-4">
           <p className="text-eyebrow">{isBn ? "প্রতিষ্ঠান" : "Organizations"}</p>
-          <p className="mt-2 text-2xl font-semibold">{organizationCount}</p>
+          <p className="mt-2 text-2xl font-semibold">{formatNumber(currentLocale, organizationCount)}</p>
         </div>
       </section>
 
@@ -287,7 +292,7 @@ export default async function CreatorsIndexPage({
         <div className="flex items-center justify-between gap-3">
           <SectionTitle
             title={isBn ? "সব স্রষ্টা" : "All Creators"}
-            subtitle={`${creators.length} ${isBn ? "প্রোফাইল" : "profiles"}`}
+            subtitle={`${formatNumber(currentLocale, creators.length)} ${isBn ? "প্রোফাইল" : "profiles"}`}
           />
           {(q || typeValue || categoryValue || minResourcesValue) ? (
             <Link href={`/${locale}/creators`} className="text-sm font-medium text-amber-400 hover:text-amber-300">
@@ -353,7 +358,11 @@ export default async function CreatorsIndexPage({
           ) : (
             <span />
           )}
-          <p className="theme-muted text-sm">{isBn ? `${safePage} / ${totalPages}` : `Page ${safePage} of ${totalPages}`}</p>
+          <p className="theme-muted text-sm">
+            {isBn
+              ? `${formatNumber(currentLocale, safePage)} / ${formatNumber(currentLocale, totalPages)}`
+              : `Page ${safePage} of ${totalPages}`}
+          </p>
           {safePage < totalPages ? (
             <Link
               href={`/${locale}/creators${buildQuery({ q, type: typeValue, category: categoryValue, minResources: minResourcesValue, page: safePage + 1 })}`}

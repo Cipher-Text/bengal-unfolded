@@ -1,30 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Noto_Serif_Bengali, Playfair_Display, Special_Elite } from "next/font/google";
 import { CANONICAL_ORIGIN, DEFAULT_OG_IMAGE, SITE_NAME } from "@/lib/seo";
 import "./globals.css";
-
-const notoSerifBengali = Noto_Serif_Bengali({
-  weight: ["400", "600"],
-  subsets: ["bengali", "latin"],
-  display: "swap",
-  variable: "--font-sans",
-});
-
-const playfairDisplay = Playfair_Display({
-  weight: ["400", "600", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-display",
-});
-
-const specialElite = Special_Elite({
-  weight: ["400"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-type",
-});
 
 const SITE_DESCRIPTION =
   "Bengal Unfolded is a bilingual Bangladesh and Bengal history and cultural learning platform, not a news portal.";
@@ -97,7 +74,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       lang="en"
       data-theme="light"
       suppressHydrationWarning
-      className={`h-full ${notoSerifBengali.variable} ${playfairDisplay.variable} ${specialElite.variable}`}
+      className="h-full"
+      style={
+        {
+          "--font-sans": '"Hind Siliguri", "SolaimanLipi", Georgia, serif',
+          "--font-display": '"Playfair Display", "Iowan Old Style", "Palatino Linotype", Georgia, serif',
+          "--font-type": '"Special Elite", "Courier New", monospace',
+        } as React.CSSProperties
+      }
     >
       <body className="min-h-full">
         <Script id="theme-init" src="/theme-init.js" strategy="beforeInteractive" />

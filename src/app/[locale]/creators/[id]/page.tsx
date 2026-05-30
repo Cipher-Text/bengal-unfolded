@@ -8,6 +8,14 @@ import { getAllCreators, getEventsByResourceId, getResourcesByCreatorId } from "
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
+function formatNumber(locale: Locale, value: number): string {
+  return new Intl.NumberFormat(locale === "bn" ? "bn-BD" : "en-US").format(value);
+}
+
+function formatYear(locale: Locale, value: string): string {
+  return /^\d+$/.test(value) ? formatNumber(locale, Number(value)) : value;
+}
+
 export async function generateStaticParams() {
   const params = await Promise.all(
     SUPPORTED_LOCALES.map(async (locale) => {
@@ -76,7 +84,7 @@ export default async function CreatorDetailPage({ params }: { params: Promise<{ 
       />
 
       <AnimatedContainer>
-        <SectionTitle title={locale === "bn" ? "রিসোর্সসমূহ" : "Resources"} subtitle={`${resources.length}`} />
+        <SectionTitle title={locale === "bn" ? "রিসোর্সসমূহ" : "Resources"} subtitle={formatNumber(locale as Locale, resources.length)} />
         <div className="mt-4 grid gap-3">
           {resources.map((resource) => (
             <Link key={resource.id} href={`/${locale}/resources/${resource.id}`} className="theme-surface rounded-xl border p-4 hover:border-amber-400/40">
@@ -89,11 +97,11 @@ export default async function CreatorDetailPage({ params }: { params: Promise<{ 
       </AnimatedContainer>
 
       <AnimatedContainer delay={0.05}>
-        <SectionTitle title={locale === "bn" ? "সম্পর্কিত ইভেন্ট" : "Related Events"} subtitle={`${relatedEvents.length}`} />
+        <SectionTitle title={locale === "bn" ? "সম্পর্কিত ইভেন্ট" : "Related Events"} subtitle={formatNumber(locale as Locale, relatedEvents.length)} />
         <div className="mt-4 grid gap-3">
           {relatedEvents.map((event) => (
             <Link key={event.slug} href={`/${locale}/events/${event.slug}`} className="theme-surface rounded-xl border p-4 hover:border-amber-400/40">
-              <p className="theme-muted text-xs tracking-[0.2em] uppercase">{event.year}</p>
+              <p className="theme-muted text-xs tracking-[0.2em] uppercase">{formatYear(locale as Locale, event.year)}</p>
               <h3 className="mt-1 text-lg font-semibold">{event.title}</h3>
               <p className="theme-muted mt-1 text-sm">{event.summary}</p>
             </Link>
