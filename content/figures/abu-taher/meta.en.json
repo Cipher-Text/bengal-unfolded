@@ -3,19 +3,19 @@
   "name_en": "Abu Taher",
   "role": "Military officer and political actor",
   "group": "leader",
-  "contribution": "Abu Taher played a significant role in the political developments tied to Bangladesh's state trajectory.",
-  "context": "Pakistan and Bangladesh period political transitions.",
-  "impact": "The figure remains important in debates over political legitimacy, state power, and historical memory.",
+  "contribution": "He joined the Liberation War, became associated with Sector 11 command, and was wounded in combat at Kamalpur, losing a leg before later becoming a major postwar political actor.",
+  "context": "Liberation War battlefield command and the Kamalpur front, followed by post-1971 military-political upheaval.",
+  "impact": "His profile connects wartime sacrifice, sector command memory, and the contested politics of the early Bangladesh state.",
   "image": "/figures/abu-taher.jpg",
   "seoTitle": "Abu Taher - 1971 Liberation War Profile",
   "seoDescription": "Profile of Abu Taher, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
-  "shortAnswer": "Abu Taher is a Military officer and political actor connected to the 1971 Liberation War in this timeline.",
+  "shortAnswer": "Abu Taher is linked to the 1971 Liberation War in this timeline as Military officer and political actor.",
   "activePeriod": "1971-1975",
   "primaryEventIds": [
     "1971-liberation-war",
+    "1971-battle-of-kamalpur",
     "1975-jail-killing",
-    "1975-november-7-sepoy-janata-uprising",
-    "1971-battle-of-kamalpur"
+    "1975-november-7-sepoy-janata-uprising"
   ],
   "relatedPlaceIds": [
     "bangladesh",
@@ -31,7 +31,7 @@
   "faq": [
     {
       "question": "How is Abu Taher connected to 1971?",
-      "answer": "Abu Taher is linked to the Liberation War through the project timeline as Military officer and political actor. Abu Taher played a significant role in the political developments tied to Bangladesh's state."
+      "answer": "Abu Taher is linked to 1971 through Liberation War command and the Kamalpur front, where he was wounded before becoming a major postwar political actor."
     }
   ],
   "tags": [

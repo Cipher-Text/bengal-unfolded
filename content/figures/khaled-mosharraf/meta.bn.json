@@ -19,9 +19,9 @@
   "activePeriod": "১৯৭১-১৯৭৫",
   "primaryEventIds": [
     "1971-liberation-war",
-    "1975-baksal-formation-and-collapse",
     "1971-akhaura-front-battle-of-daruin",
-    "1971-battle-of-belonia"
+    "1971-battle-of-belonia",
+    "1975-baksal-formation-and-collapse"
   ],
   "relatedPlaceIds": [
     "bangladesh",

@@ -15,13 +15,13 @@
   "image": "/figures/khaled-mosharraf.jpg",
   "seoTitle": "Khaled Mosharraf - 1971 Liberation War Profile",
   "seoDescription": "Profile of Khaled Mosharraf, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
-  "shortAnswer": "Khaled Mosharraf is a Sector 2 Commander and K Force Leader connected to the 1971 Liberation War in this timeline.",
+  "shortAnswer": "Khaled Mosharraf is linked to the 1971 Liberation War in this timeline as Sector 2 Commander and K Force Leader.",
   "activePeriod": "1971-1975",
   "primaryEventIds": [
     "1971-liberation-war",
-    "1975-baksal-formation-and-collapse",
     "1971-akhaura-front-battle-of-daruin",
-    "1971-battle-of-belonia"
+    "1971-battle-of-belonia",
+    "1975-baksal-formation-and-collapse"
   ],
   "relatedPlaceIds": [
     "bangladesh",

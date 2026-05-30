@@ -13,12 +13,12 @@
   "primaryEventIds": [
     "1971-operation-searchlight-crackdown",
     "1971-liberation-war",
-    "1971-december-16-instrument-of-surrender",
     "1971-battle-of-garibpur",
     "1971-battle-of-hilli",
     "1971-battle-of-sylhet",
-    "1971-chuknagar-massacre",
-    "1971-tangail-airdrop"
+    "1971-tangail-airdrop",
+    "1971-december-16-instrument-of-surrender",
+    "1971-chuknagar-massacre"
   ],
   "relatedPlaceIds": [
     "bangladesh",
