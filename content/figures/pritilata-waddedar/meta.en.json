@@ -1,6 +1,12 @@
 {
   "name": "Pritilata Waddedar",
   "name_en": "Pritilata Waddedar",
+  "seoTitle": "Pritilata Waddedar: Chittagong Revolutionary and Anti-Colonial Martyr",
+  "seoDescription": "Profile of Pritilata Waddedar, the Bengali revolutionary linked to the Chittagong armed movement and the 1932 Pahartali European Club attack.",
+  "shortAnswer": "Pritilata Waddedar was a Bengali revolutionary and teacher who joined the Chittagong armed movement and died after the 1932 Pahartali European Club attack.",
+  "birthYear": "1911",
+  "deathYear": "1932",
+  "activePeriod": "1930-1932",
   "role": "Revolutionary of the Chittagong armed movement",
   "group": "martyr",
   "contribution": "She took part in revolutionary operations in Chittagong and led the 1932 Pahartali European Club attack team.",
@@ -12,5 +18,40 @@
     "revolution",
     "women",
     "martyr"
-  ]
+  ],
+  "primaryEventIds": [
+    "1930-chittagong-armoury-raid"
+  ],
+  "relatedPlaceIds": [
+    "chittagong-chattogram"
+  ],
+  "alternateNames": [
+    "Pritilata Waddedar",
+    "Pritilata Waddadar",
+    "Pritilata Wadedar",
+    "Rani"
+  ],
+  "searchAliases": [
+    "chittagong revolutionary",
+    "pahartali european club attack",
+    "women in anti colonial resistance",
+    "surya sen group"
+  ],
+  "faq": [
+    {
+      "question": "Why is Pritilata Waddedar important after 1900?",
+      "answer": "She represents the participation of women in militant anti-colonial politics in Bengal and is remembered for her role in the Chittagong revolutionary network.",
+      "sourceIds": [
+        "surya-sen-banglapedia"
+      ]
+    },
+    {
+      "question": "Which timeline event is she most closely linked to?",
+      "answer": "She is linked to the Chittagong Armoury Raid movement and the wider revolutionary network around Surya Sen in the early 1930s.",
+      "sourceIds": [
+        "surya-sen-banglapedia"
+      ]
+    }
+  ],
+  "image": "/figures/pritilata-waddedar.jpg"
 }

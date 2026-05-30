@@ -208,8 +208,6 @@ export const SUPPORTED_FIGURE_IDS = [
   "kamal-lohani",
   "kamal-hossain",
   "yahya-khan",
-  "key-figure-1",
-  "key-figure-2",
   "ikhtiyar-al-din-muhammad-bakhtiyar-khalji",
   "shamsuddin-ilyas-shah",
   "murshid-quli-khan",

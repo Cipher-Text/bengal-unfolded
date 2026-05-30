@@ -1,10 +1,59 @@
 {
   "name": "Khwaja Salimullah",
   "name_en": "Khwaja Salimullah",
-  "role": "Muslim political organizer",
+  "seoTitle": "Khwaja Salimullah: Dhaka Nawab and Muslim League Patron",
+  "seoDescription": "Profile of Khwaja Salimullah, the Nawab of Dhaka linked to the 1905 Bengal partition and the founding politics of the All-India Muslim League.",
+  "shortAnswer": "Khwaja Salimullah was the Nawab of Dhaka, a Muslim political patron, and a central supporter of early Muslim League organization in Bengal.",
+  "birthYear": "1871",
+  "deathYear": "1915",
+  "activePeriod": "1901-1915",
+  "role": "Nawab of Dhaka and Muslim political patron",
   "group": "leader",
-  "contribution": "Khwaja Salimullah was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history.",
-  "image": "/figures/khwaja-salimullah.jpg"
+  "contribution": "Khwaja Salimullah supported the 1905 partition of Bengal, used the Dhaka Nawab family's networks to organize Muslim political opinion, and became closely associated with the 1906 founding context of the All-India Muslim League in Dhaka.",
+  "context": "Early twentieth-century Bengal, when elite Muslim politics, education patronage, separate representation debates, and anti-partition mobilization reshaped colonial public life.",
+  "impact": "His patronage helped make Dhaka a major center of Muslim political organization, leaving a legacy tied to the Muslim League, the politics of separate electorates, and later partition-era debates.",
+  "highlight": "A Dhaka-based patron whose networks connected the 1905 partition to early Muslim League politics.",
+  "tags": [
+    "dhaka",
+    "muslim league",
+    "partition of bengal",
+    "colonial politics"
+  ],
+  "primaryEventIds": [
+    "1905-partition-of-bengal",
+    "1906-all-india-muslim-league-founded-in-dhaka"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-university",
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Nawab Salimullah",
+    "Nawab Sir Khwaja Salimullah",
+    "Khwaja Salimullah Bahadur"
+  ],
+  "searchAliases": [
+    "nawab of dhaka",
+    "dhaka nawab family",
+    "muslim league founder bengal",
+    "1905 partition supporter"
+  ],
+  "faq": [
+    {
+      "question": "Why is Khwaja Salimullah important after 1900?",
+      "answer": "He became politically prominent after inheriting leadership of the Dhaka Nawab estate and used that position to support Muslim political organization around the 1905 partition and the 1906 Muslim League founding moment.",
+      "sourceIds": [
+        "nawab-family-of-dhaka-banglapedia",
+        "partition-of-bengal-1905-banglapedia"
+      ]
+    },
+    {
+      "question": "Which events in this timeline is he most closely linked to?",
+      "answer": "He is most directly linked to the 1905 Partition of Bengal and the founding of the All-India Muslim League in Dhaka in 1906.",
+      "sourceIds": [
+        "nawab-family-of-dhaka-banglapedia"
+      ]
+    }
+  ],
+  "image": "/figures/nawab-salimullah.jpg"
 }
