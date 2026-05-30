@@ -5,5 +5,44 @@
   "contribution": "He led the demand for Pakistan and negotiated the political framework that brought East Bengal into the new state.",
   "context": "All-India negotiations over constitutional transfer and partition.",
   "impact": "No single figure was more central to the creation of Pakistan, of which East Bengal became a major eastern wing.",
-  "image": "/figures/muhammad-ali-jinnah.jpg"
+  "image": "/figures/muhammad-ali-jinnah.jpg",
+  "name_en": "Muhammad Ali Jinnah",
+  "seoTitle": "Muhammad Ali Jinnah - 1947 Partition Profile",
+  "seoDescription": "Profile of Muhammad Ali Jinnah, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Muhammad Ali Jinnah is linked to the 1947 Partition in this timeline as All-India Muslim League Leader.",
+  "activePeriod": "1940-1952",
+  "primaryEventIds": [
+    "1940-lahore-resolution",
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1946-noakhali-riots",
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "calcutta-kolkata",
+    "west-bengal",
+    "noakhali"
+  ],
+  "alternateNames": [
+    "Muhammad Ali Jinnah"
+  ],
+  "searchAliases": [
+    "Muhammad Ali Jinnah",
+    "Muhammad",
+    "Jinnah"
+  ],
+  "faq": [
+    {
+      "question": "How is Muhammad Ali Jinnah connected to the 1947 Partition?",
+      "answer": "Muhammad Ali Jinnah is connected to the partition era as All-India Muslim League Leader. He led the demand for Pakistan and negotiated the political framework that brought East Bengal into the new state."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "pakistan-movement"
+  ]
 }

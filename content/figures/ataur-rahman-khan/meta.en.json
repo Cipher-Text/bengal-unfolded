@@ -5,5 +5,39 @@
   "contribution": "He became part of the regional political class that challenged centralized rule over East Bengal.",
   "context": "Post-partition East Bengal politics.",
   "impact": "His work contributed to the emergence of a more assertive provincial political voice.",
-  "image": "/figures/ataur-rahman-khan.jpg"
+  "image": "/figures/ataur-rahman-khan.jpg",
+  "name_en": "Ataur Rahman Khan",
+  "seoTitle": "Ataur Rahman Khan - 1947 Partition Profile",
+  "seoDescription": "Profile of Ataur Rahman Khan, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Ataur Rahman Khan is linked to the 1947 Partition in this timeline as Opposition Politician.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Ataur Rahman Khan"
+  ],
+  "searchAliases": [
+    "Ataur Rahman Khan",
+    "Ataur",
+    "Rahman",
+    "Khan"
+  ],
+  "faq": [
+    {
+      "question": "How is Ataur Rahman Khan connected to the 1947 Partition?",
+      "answer": "Ataur Rahman Khan is connected to the partition era as Opposition Politician. He became part of the regional political class that challenged centralized rule over East Bengal."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition"
+  ]
 }

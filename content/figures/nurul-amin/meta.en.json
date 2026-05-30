@@ -5,5 +5,42 @@
   "contribution": "He became a central governing figure in East Bengal after partition.",
   "context": "Early East Bengal under Pakistan.",
   "impact": "His tenure reflected the new province's struggle over representation, language, and governance inside Pakistan.",
-  "image": "/figures/nurul-amin.jpg"
+  "image": "/figures/nurul-amin.jpg",
+  "name_en": "Nurul Amin",
+  "seoTitle": "Nurul Amin - 1947 Partition Profile",
+  "seoDescription": "Profile of Nurul Amin, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Nurul Amin is linked to the 1947 Partition in this timeline as East Bengal Chief Minister.",
+  "activePeriod": "1947-1954",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1947-sylhet-referendum",
+    "1952-language-movement",
+    "1954-united-front-election-victory-in-east-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "sylhet",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Nurul Amin"
+  ],
+  "searchAliases": [
+    "Nurul Amin",
+    "Nurul",
+    "Amin"
+  ],
+  "faq": [
+    {
+      "question": "How is Nurul Amin connected to the 1947 Partition?",
+      "answer": "Nurul Amin is connected to the partition era as East Bengal Chief Minister. He became a central governing figure in East Bengal after partition."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "pakistan-movement"
+  ]
 }

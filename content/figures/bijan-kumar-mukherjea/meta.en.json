@@ -5,5 +5,37 @@
   "contribution": "He sat on the Bengal Boundary Commission during the division of the province.",
   "context": "Boundary deliberations during partition.",
   "impact": "He was part of the formal process that translated political conflict into a new map.",
-  "image": "/figures/bijan-kumar-mukherjea.jpg"
+  "image": "/figures/bijan-kumar-mukherjea.jpg",
+  "name_en": "Bijan Kumar Mukherjea",
+  "seoTitle": "Bijan Kumar Mukherjea - 1947 Partition Profile",
+  "seoDescription": "Profile of Bijan Kumar Mukherjea, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Bijan Kumar Mukherjea is linked to the 1947 Partition in this timeline as Boundary Commission Member.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "delhi"
+  ],
+  "alternateNames": [
+    "Bijan Kumar Mukherjea"
+  ],
+  "searchAliases": [
+    "Bijan Kumar Mukherjea",
+    "Bijan",
+    "Kumar",
+    "Mukherjea"
+  ],
+  "faq": [
+    {
+      "question": "How is Bijan Kumar Mukherjea connected to the 1947 Partition?",
+      "answer": "Bijan Kumar Mukherjea is connected to the partition era as Boundary Commission Member. He sat on the Bengal Boundary Commission during the division of the province."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "boundary-making"
+  ]
 }

@@ -5,5 +5,42 @@
   "contribution": "He contributed to the intellectual defense of Bengali language and culture in East Bengal.",
   "context": "Academic and cultural debate in the early Pakistan period.",
   "impact": "His presence reinforced the scholarly legitimacy of Bengali cultural self-assertion.",
-  "image": "/figures/kazi-motahar-hossain.jpg"
+  "image": "/figures/kazi-motahar-hossain.jpg",
+  "name_en": "Kazi Motahar Hossain",
+  "seoTitle": "Kazi Motahar Hossain - 1947 Partition Profile",
+  "seoDescription": "Profile of Kazi Motahar Hossain, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Kazi Motahar Hossain is linked to the 1947 Partition in this timeline as Scholar and Cultural Intellectual.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Kazi Motahar Hossain"
+  ],
+  "searchAliases": [
+    "Kazi Motahar Hossain",
+    "Kazi",
+    "Motahar",
+    "Hossain"
+  ],
+  "faq": [
+    {
+      "question": "How is Kazi Motahar Hossain connected to the 1947 Partition?",
+      "answer": "Kazi Motahar Hossain is connected to the partition era as Scholar and Cultural Intellectual. He contributed to the intellectual defense of Bengali language and culture in East Bengal."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "pakistan-movement",
+    "intellectual-history"
+  ]
 }

@@ -5,5 +5,43 @@
   "contribution": "He represented elite Muslim League politics in Bengal and later helped lead East Bengal within the new state of Pakistan.",
   "context": "Late colonial Bengal and early Pakistan.",
   "impact": "His career tied the politics of Bengal partition to the institutional formation of East Bengal and Pakistan.",
-  "image": "/figures/khwaja-nazimuddin.jpg"
+  "image": "/figures/khwaja-nazimuddin.jpg",
+  "name_en": "Khwaja Nazimuddin",
+  "seoTitle": "Khwaja Nazimuddin - 1947 Partition Profile",
+  "seoDescription": "Profile of Khwaja Nazimuddin, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Khwaja Nazimuddin is linked to the 1947 Partition in this timeline as Muslim League Leader.",
+  "activePeriod": "1946-1952",
+  "primaryEventIds": [
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1946-noakhali-riots",
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "calcutta-kolkata",
+    "west-bengal",
+    "noakhali"
+  ],
+  "alternateNames": [
+    "Khwaja Nazimuddin"
+  ],
+  "searchAliases": [
+    "Khwaja Nazimuddin",
+    "Khwaja",
+    "Nazimuddin"
+  ],
+  "faq": [
+    {
+      "question": "How is Khwaja Nazimuddin connected to the 1947 Partition?",
+      "answer": "Khwaja Nazimuddin is connected to the partition era as Muslim League Leader. He represented elite Muslim League politics in Bengal and later helped lead East Bengal within the new state of Pakistan."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "pakistan-movement"
+  ]
 }

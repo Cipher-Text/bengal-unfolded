@@ -5,5 +5,41 @@
   "contribution": "He was among the Hindu public figures who participated in efforts to imagine a non-partitioned Bengal.",
   "context": "Civic and political debates over United Bengal in 1947.",
   "impact": "His presence showed that resistance to partition existed across communal lines, even if it did not prevail.",
-  "image": "/figures/satya-ranjan-bakshi.jpg"
+  "image": "/figures/satya-ranjan-bakshi.jpg",
+  "name_en": "Satya Ranjan Bakshi",
+  "seoTitle": "Satya Ranjan Bakshi - 1947 Partition Profile",
+  "seoDescription": "Profile of Satya Ranjan Bakshi, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Satya Ranjan Bakshi is linked to the 1947 Partition in this timeline as United Bengal Supporter.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "calcutta-kolkata",
+    "west-bengal",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Satya Ranjan Bakshi"
+  ],
+  "searchAliases": [
+    "Satya Ranjan Bakshi",
+    "Satya",
+    "Ranjan",
+    "Bakshi"
+  ],
+  "faq": [
+    {
+      "question": "How is Satya Ranjan Bakshi connected to the 1947 Partition?",
+      "answer": "Satya Ranjan Bakshi is connected to the partition era as United Bengal Supporter. He was among the Hindu public figures who participated in efforts to imagine a non-partitioned Bengal."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "united-bengal"
+  ]
 }

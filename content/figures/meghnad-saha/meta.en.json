@@ -6,5 +6,37 @@
   "contribution": "Meghnad Saha significantly influenced Bengal and Bangladesh intellectual-cultural history.",
   "context": "South Asian intellectual and cultural transformations in the Bengal region.",
   "impact": "Their work remains important for understanding modern Bengali identity, knowledge, and public life.",
-  "image": "/figures/meghnad-saha.jpg"
+  "image": "/figures/meghnad-saha.jpg",
+  "seoTitle": "Meghnad Saha - 1947 Partition Profile",
+  "seoDescription": "Profile of Meghnad Saha, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Meghnad Saha is linked to the 1947 Partition in this timeline as Physicist and public intellectual.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "calcutta-kolkata",
+    "west-bengal"
+  ],
+  "alternateNames": [
+    "Meghnad Saha"
+  ],
+  "searchAliases": [
+    "Meghnad Saha",
+    "Meghnad",
+    "Saha"
+  ],
+  "faq": [
+    {
+      "question": "How is Meghnad Saha connected to the 1947 Partition?",
+      "answer": "Meghnad Saha is connected to the partition era as Physicist and public intellectual. Meghnad Saha significantly influenced Bengal and Bangladesh intellectual-cultural history."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "intellectual-history"
+  ]
 }

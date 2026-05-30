@@ -5,5 +5,40 @@
   "contribution": "He was a major left intellectual from Bengal whose politics highlighted class questions often overshadowed by communal narratives.",
   "context": "Left politics in Bengal before and after partition.",
   "impact": "He helps place partition within a larger history of labor, class, and anti-colonial struggle.",
-  "image": "/figures/muzaffar-ahmad.jpg"
+  "image": "/figures/muzaffar-ahmad.jpg",
+  "name_en": "Muzaffar Ahmad",
+  "seoTitle": "Muzaffar Ahmad - 1947 Partition Profile",
+  "seoDescription": "Profile of Muzaffar Ahmad, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Muzaffar Ahmad is linked to the 1947 Partition in this timeline as Left Political Thinker.",
+  "activePeriod": "1946-1947",
+  "primaryEventIds": [
+    "1946-1947-tebhaga-movement",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Muzaffar Ahmad"
+  ],
+  "searchAliases": [
+    "Muzaffar Ahmad",
+    "Muzaffar",
+    "Ahmad"
+  ],
+  "faq": [
+    {
+      "question": "How is Muzaffar Ahmad connected to the 1947 Partition?",
+      "answer": "Muzaffar Ahmad is connected to the partition era as Left Political Thinker. He was a major left intellectual from Bengal whose politics highlighted class questions often overshadowed by communal narratives."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "agrarian-left",
+    "intellectual-history"
+  ]
 }

@@ -5,5 +5,39 @@
   "contribution": "He intervened repeatedly against communal violence, especially after the Bengal and Noakhali killings.",
   "context": "Communal crisis in Bengal and India, 1946-1947.",
   "impact": "He became a moral counterpoint to partition violence even as he failed to stop the final division.",
-  "image": "/figures/mahatma-gandhi.jpg"
+  "image": "/figures/mahatma-gandhi.jpg",
+  "name_en": "Mahatma Gandhi",
+  "seoTitle": "Mahatma Gandhi - 1947 Partition Profile",
+  "seoDescription": "Profile of Mahatma Gandhi, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Mahatma Gandhi is linked to the 1947 Partition in this timeline as Anti-Communal National Leader.",
+  "activePeriod": "1942-1947",
+  "primaryEventIds": [
+    "1942-quit-india-and-bengal-war-governance",
+    "1946-noakhali-riots",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "calcutta-kolkata",
+    "west-bengal",
+    "noakhali"
+  ],
+  "alternateNames": [
+    "Mahatma Gandhi"
+  ],
+  "searchAliases": [
+    "Mahatma Gandhi",
+    "Mahatma",
+    "Gandhi"
+  ],
+  "faq": [
+    {
+      "question": "How is Mahatma Gandhi connected to the 1947 Partition?",
+      "answer": "Mahatma Gandhi is connected to the partition era as Anti-Communal National Leader. He intervened repeatedly against communal violence, especially after the Bengal and Noakhali killings."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition"
+  ]
 }

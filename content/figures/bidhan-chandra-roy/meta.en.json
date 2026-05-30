@@ -5,5 +5,38 @@
   "contribution": "He emerged as a major public leader in West Bengal during and after partition, helping shape rehabilitation and provincial governance.",
   "context": "Transition from undivided Bengal to West Bengal.",
   "impact": "His work symbolized the difficult administrative and humanitarian reorganization caused by partition.",
-  "image": "/figures/bidhan-chandra-roy.jpg"
+  "image": "/figures/bidhan-chandra-roy.jpg",
+  "name_en": "Bidhan Chandra Roy",
+  "seoTitle": "Bidhan Chandra Roy - 1947 Partition Profile",
+  "seoDescription": "Profile of Bidhan Chandra Roy, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Bidhan Chandra Roy is linked to the 1947 Partition in this timeline as Congress Leader and Physician-Statesman.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "calcutta-kolkata",
+    "west-bengal"
+  ],
+  "alternateNames": [
+    "Bidhan Chandra Roy"
+  ],
+  "searchAliases": [
+    "Bidhan Chandra Roy",
+    "Bidhan",
+    "Chandra"
+  ],
+  "faq": [
+    {
+      "question": "How is Bidhan Chandra Roy connected to the 1947 Partition?",
+      "answer": "Bidhan Chandra Roy is connected to the partition era as Congress Leader and Physician-Statesman. He emerged as a major public leader in West Bengal during and after partition, helping shape rehabilitation and provincial governance."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "united-bengal",
+    "congress-politics"
+  ]
 }

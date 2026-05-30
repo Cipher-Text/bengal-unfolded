@@ -5,5 +5,37 @@
   "contribution": "He led the first provincial government of West Bengal after partition.",
   "context": "Immediate post-partition governance in 1947.",
   "impact": "His office reflected how quickly Bengal had to be administratively reassembled after division.",
-  "image": "/figures/prafulla-chandra-ghosh.jpg"
+  "image": "/figures/prafulla-chandra-ghosh.jpg",
+  "name_en": "Prafulla Chandra Ghosh",
+  "seoTitle": "Prafulla Chandra Ghosh - 1947 Partition Profile",
+  "seoDescription": "Profile of Prafulla Chandra Ghosh, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Prafulla Chandra Ghosh is linked to the 1947 Partition in this timeline as First Chief Minister of West Bengal.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "calcutta-kolkata",
+    "west-bengal"
+  ],
+  "alternateNames": [
+    "Prafulla Chandra Ghosh"
+  ],
+  "searchAliases": [
+    "Prafulla Chandra Ghosh",
+    "Prafulla",
+    "Chandra",
+    "Ghosh"
+  ],
+  "faq": [
+    {
+      "question": "How is Prafulla Chandra Ghosh connected to the 1947 Partition?",
+      "answer": "Prafulla Chandra Ghosh is connected to the partition era as First Chief Minister of West Bengal. He led the first provincial government of West Bengal after partition."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition"
+  ]
 }

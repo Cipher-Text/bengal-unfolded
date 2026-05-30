@@ -4,5 +4,42 @@
   "group": "organization",
   "contribution": "The Congress was a central anti-colonial party that shaped constitutional negotiations, mass mobilization, and debates over representation in Bengal and all-India politics.",
   "context": "Swadeshi era agitation, late-colonial provincial politics, and transfer-of-power negotiations.",
-  "impact": "Its political strategy in Bengal and at the all-India level influenced both resistance to partition plans and the eventual constitutional settlement of 1947."
+  "impact": "Its political strategy in Bengal and at the all-India level influenced both resistance to partition plans and the eventual constitutional settlement of 1947.",
+  "name_en": "Indian National Congress",
+  "seoTitle": "Indian National Congress - 1947 Partition Profile",
+  "seoDescription": "Profile of Indian National Congress, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Indian National Congress is linked to the 1947 Partition in this timeline as Political Party in British India.",
+  "activePeriod": "1940-1947",
+  "primaryEventIds": [
+    "1940-lahore-resolution",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "calcutta-kolkata",
+    "west-bengal",
+    "lahore"
+  ],
+  "alternateNames": [
+    "Indian National Congress"
+  ],
+  "searchAliases": [
+    "Indian National Congress",
+    "Indian",
+    "National",
+    "Congress"
+  ],
+  "faq": [
+    {
+      "question": "How is Indian National Congress connected to the 1947 Partition?",
+      "answer": "Indian National Congress is connected to the partition era as Political Party in British India. The Congress was a central anti-colonial party that shaped constitutional negotiations, mass mobilization, and debates over representation in Bengal and all-India politics."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "congress-politics"
+  ]
 }

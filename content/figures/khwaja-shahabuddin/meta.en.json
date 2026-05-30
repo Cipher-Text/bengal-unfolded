@@ -5,5 +5,38 @@
   "contribution": "He belonged to the Dhaka Nawab family network and participated in Muslim League politics during the transition to Pakistan.",
   "context": "Elite political networks in Bengal and Pakistan.",
   "impact": "His career reflects how old landed influence adapted to the new state order after partition.",
-  "image": "/figures/khwaja-shahabuddin.jpg"
+  "image": "/figures/khwaja-shahabuddin.jpg",
+  "name_en": "Khwaja Shahabuddin",
+  "seoTitle": "Khwaja Shahabuddin - 1947 Partition Profile",
+  "seoDescription": "Profile of Khwaja Shahabuddin, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Khwaja Shahabuddin is linked to the 1947 Partition in this timeline as Muslim League Politician.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Khwaja Shahabuddin"
+  ],
+  "searchAliases": [
+    "Khwaja Shahabuddin",
+    "Khwaja",
+    "Shahabuddin"
+  ],
+  "faq": [
+    {
+      "question": "How is Khwaja Shahabuddin connected to the 1947 Partition?",
+      "answer": "Khwaja Shahabuddin is connected to the partition era as Muslim League Politician. He belonged to the Dhaka Nawab family network and participated in Muslim League politics during the transition to Pakistan."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "pakistan-movement"
+  ]
 }

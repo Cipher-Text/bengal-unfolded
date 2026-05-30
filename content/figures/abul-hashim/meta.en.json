@@ -5,5 +5,44 @@
   "contribution": "He was one of the most important ideological and organizational figures in the Bengal Muslim League and later backed the United Bengal idea.",
   "context": "Bengal Muslim politics in the 1940s.",
   "impact": "He helped articulate a specifically Bengali Muslim political language during the partition crisis.",
-  "image": "/figures/abul-hashim.jpg"
+  "image": "/figures/abul-hashim.jpg",
+  "name_en": "Abul Hashim",
+  "seoTitle": "Abul Hashim - 1947 Partition Profile",
+  "seoDescription": "Profile of Abul Hashim, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Abul Hashim is linked to the 1947 Partition in this timeline as Bengal Muslim League Organizer.",
+  "activePeriod": "1940-1952",
+  "primaryEventIds": [
+    "1940-lahore-resolution",
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "calcutta-kolkata",
+    "west-bengal",
+    "lahore"
+  ],
+  "alternateNames": [
+    "Abul Hashim"
+  ],
+  "searchAliases": [
+    "Abul Hashim",
+    "Abul",
+    "Hashim"
+  ],
+  "faq": [
+    {
+      "question": "How is Abul Hashim connected to the 1947 Partition?",
+      "answer": "Abul Hashim is connected to the partition era as Bengal Muslim League Organizer. He was one of the most important ideological and organizational figures in the Bengal Muslim League and later backed the United Bengal idea."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "united-bengal",
+    "pakistan-movement"
+  ]
 }

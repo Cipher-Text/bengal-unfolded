@@ -5,5 +5,40 @@
   "contribution": "He argued strongly for partitioning Bengal rather than allowing the entire province to enter Pakistan or become an uncertain separate state.",
   "context": "High-stakes debate over Bengal's future in 1947.",
   "impact": "He was one of the most important advocates of dividing Bengal along political and communal lines.",
-  "image": "/figures/syama-prasad-mukherjee.jpg"
+  "image": "/figures/syama-prasad-mukherjee.jpg",
+  "name_en": "Syama Prasad Mukherjee",
+  "seoTitle": "Syama Prasad Mukherjee - 1947 Partition Profile",
+  "seoDescription": "Profile of Syama Prasad Mukherjee, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Syama Prasad Mukherjee is linked to the 1947 Partition in this timeline as Hindu Mahasabha Leader.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "calcutta-kolkata",
+    "west-bengal"
+  ],
+  "alternateNames": [
+    "Syama Prasad Mukherjee"
+  ],
+  "searchAliases": [
+    "Syama Prasad Mukherjee",
+    "Syama",
+    "Prasad",
+    "Mukherjee"
+  ],
+  "faq": [
+    {
+      "question": "How is Syama Prasad Mukherjee connected to the 1947 Partition?",
+      "answer": "Syama Prasad Mukherjee is connected to the partition era as Hindu Mahasabha Leader. He argued strongly for partitioning Bengal rather than allowing the entire province to enter Pakistan or become an uncertain separate state."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "pakistan-movement"
+  ]
 }

@@ -5,5 +5,38 @@
   "contribution": "He sought political safeguards for marginalized communities and became a major Scheduled Caste leader in the Bengal-Pakistan transition.",
   "context": "Bengal caste politics and the creation of Pakistan.",
   "impact": "His career highlights how partition was also a crisis of caste, citizenship, and minority rights.",
-  "image": "/figures/jogendranath-mandal.jpg"
+  "image": "/figures/jogendranath-mandal.jpg",
+  "name_en": "Jogendranath Mandal",
+  "seoTitle": "Jogendranath Mandal - 1947 Partition Profile",
+  "seoDescription": "Profile of Jogendranath Mandal, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Jogendranath Mandal is linked to the 1947 Partition in this timeline as Dalit Political Leader.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Jogendranath Mandal"
+  ],
+  "searchAliases": [
+    "Jogendranath Mandal",
+    "Jogendranath",
+    "Mandal"
+  ],
+  "faq": [
+    {
+      "question": "How is Jogendranath Mandal connected to the 1947 Partition?",
+      "answer": "Jogendranath Mandal is connected to the partition era as Dalit Political Leader. He sought political safeguards for marginalized communities and became a major Scheduled Caste leader in the Bengal-Pakistan transition."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "pakistan-movement"
+  ]
 }

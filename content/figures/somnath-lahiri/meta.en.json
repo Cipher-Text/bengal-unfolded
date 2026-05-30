@@ -5,5 +5,41 @@
   "contribution": "He brought a left critique of state power, rights, and constitutional authority into the postcolonial transition.",
   "context": "Constitutional and left politics in Bengal and India.",
   "impact": "He represents a strand of Bengali politics that questioned both communalism and authoritarian state formation.",
-  "image": "/figures/somnath-lahiri.jpg"
+  "image": "/figures/somnath-lahiri.jpg",
+  "name_en": "Somnath Lahiri",
+  "seoTitle": "Somnath Lahiri - 1947 Partition Profile",
+  "seoDescription": "Profile of Somnath Lahiri, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Somnath Lahiri is linked to the 1947 Partition in this timeline as Communist Legislator.",
+  "activePeriod": "1946-1947",
+  "primaryEventIds": [
+    "1946-1947-tebhaga-movement",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "calcutta-kolkata",
+    "west-bengal",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Somnath Lahiri"
+  ],
+  "searchAliases": [
+    "Somnath Lahiri",
+    "Somnath",
+    "Lahiri"
+  ],
+  "faq": [
+    {
+      "question": "How is Somnath Lahiri connected to the 1947 Partition?",
+      "answer": "Somnath Lahiri is connected to the partition era as Communist Legislator. He brought a left critique of state power, rights, and constitutional authority into the postcolonial transition."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "agrarian-left"
+  ]
 }

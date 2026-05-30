@@ -5,5 +5,38 @@
   "contribution": "His writing preserved the language, memory, and rural social world that partition would violently disrupt.",
   "context": "Cultural memory of Bengal across the partition divide.",
   "impact": "He represents the emotional and cultural Bengal that political borders could not fully contain.",
-  "image": "/figures/jasimuddin.jpg"
+  "image": "/figures/jasimuddin.jpg",
+  "name_en": "Jasimuddin",
+  "seoTitle": "Jasimuddin - 1947 Partition Profile",
+  "seoDescription": "Profile of Jasimuddin, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Jasimuddin is linked to the 1947 Partition in this timeline as Poet of Rural Bengal.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Jasimuddin"
+  ],
+  "searchAliases": [
+    "Jasimuddin"
+  ],
+  "faq": [
+    {
+      "question": "How is Jasimuddin connected to the 1947 Partition?",
+      "answer": "Jasimuddin is connected to the partition era as Poet of Rural Bengal. His writing preserved the language, memory, and rural social world that partition would violently disrupt."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "intellectual-history"
+  ]
 }

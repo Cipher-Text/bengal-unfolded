@@ -5,5 +5,39 @@
   "contribution": "He was a key Muslim League negotiator in the final constitutional settlement and became Pakistan's first prime minister.",
   "context": "Transfer of power and early state-building in Pakistan.",
   "impact": "His political role connected the all-India demand for Pakistan to the first phase of governance that included East Bengal.",
-  "image": "/figures/liaquat-ali-khan.jpg"
+  "image": "/figures/liaquat-ali-khan.jpg",
+  "name_en": "Liaquat Ali Khan",
+  "seoTitle": "Liaquat Ali Khan - 1947 Partition Profile",
+  "seoDescription": "Profile of Liaquat Ali Khan, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Liaquat Ali Khan is linked to the 1947 Partition in this timeline as Muslim League Statesman.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Liaquat Ali Khan"
+  ],
+  "searchAliases": [
+    "Liaquat Ali Khan",
+    "Liaquat",
+    "Khan"
+  ],
+  "faq": [
+    {
+      "question": "How is Liaquat Ali Khan connected to the 1947 Partition?",
+      "answer": "Liaquat Ali Khan is connected to the partition era as Muslim League Statesman. He was a key Muslim League negotiator in the final constitutional settlement and became Pakistan's first prime minister."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "pakistan-movement"
+  ]
 }

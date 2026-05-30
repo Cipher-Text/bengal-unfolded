@@ -5,5 +5,38 @@
   "contribution": "He presided over the historic Amtala meeting on 21 February 1952 where students resolved to violate Section 144.",
   "context": "Dhaka University and the decisive hours of 21 February 1952.",
   "impact": "He stands at one of the movement's most consequential turning points: the choice to defy the ban and march.",
-  "image": "/figures/gaziul-huq.jpg"
+  "image": "/figures/gaziul-huq.jpg",
+  "name_en": "ANM Gaziul Huq",
+  "seoTitle": "ANM Gaziul Huq - 1947 Partition Profile",
+  "seoDescription": "Profile of ANM Gaziul Huq, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "ANM Gaziul Huq is linked to the 1947 Partition in this timeline as Language Movement Leader.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "ANM Gaziul Huq"
+  ],
+  "searchAliases": [
+    "ANM Gaziul Huq",
+    "Gaziul"
+  ],
+  "faq": [
+    {
+      "question": "How is ANM Gaziul Huq connected to the 1947 Partition?",
+      "answer": "ANM Gaziul Huq is connected to the partition era as Language Movement Leader. He presided over the historic Amtala meeting on 21 February 1952 where students resolved to violate Section 144."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights"
+  ]
 }

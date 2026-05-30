@@ -5,5 +5,37 @@
   "contribution": "He chaired the boundary commissions that drew the final partition lines for Bengal and Punjab.",
   "context": "Border demarcation in July-August 1947.",
   "impact": "The Radcliffe Award permanently redrew Bengal's map and disrupted settlements, trade, and daily life across the province.",
-  "image": "/figures/cyril-radcliffe.jpg"
+  "image": "/figures/cyril-radcliffe.jpg",
+  "name_en": "Cyril Radcliffe",
+  "seoTitle": "Cyril Radcliffe - 1947 Partition Profile",
+  "seoDescription": "Profile of Cyril Radcliffe, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Cyril Radcliffe is linked to the 1947 Partition in this timeline as Boundary Commission Chair.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1947-radcliffe-award-border-demarcation-implementation"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "delhi"
+  ],
+  "alternateNames": [
+    "Cyril Radcliffe"
+  ],
+  "searchAliases": [
+    "Cyril Radcliffe",
+    "Cyril",
+    "Radcliffe"
+  ],
+  "faq": [
+    {
+      "question": "How is Cyril Radcliffe connected to the 1947 Partition?",
+      "answer": "Cyril Radcliffe is connected to the partition era as Boundary Commission Chair. He chaired the boundary commissions that drew the final partition lines for Bengal and Punjab."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "boundary-making"
+  ]
 }

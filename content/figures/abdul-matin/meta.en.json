@@ -5,5 +5,40 @@
   "contribution": "Popularly known as Bhasha Matin, he was one of the most visible student leaders pressing for direct action in 1952.",
   "context": "Dhaka University and the coordinated phases of the language movement, 1948-1952.",
   "impact": "He helped transform Bengali linguistic grievance into disciplined street-level political action.",
-  "image": "/figures/abdul-matin.jpg"
+  "image": "/figures/abdul-matin.jpg",
+  "name_en": "Abdul Matin",
+  "seoTitle": "Abdul Matin - 1947 Partition Profile",
+  "seoDescription": "Profile of Abdul Matin, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Abdul Matin is linked to the 1947 Partition in this timeline as Language Movement Organizer.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Abdul Matin"
+  ],
+  "searchAliases": [
+    "Abdul Matin",
+    "Abdul",
+    "Matin"
+  ],
+  "faq": [
+    {
+      "question": "How is Abdul Matin connected to the 1947 Partition?",
+      "answer": "Abdul Matin is connected to the partition era as Language Movement Organizer. Popularly known as Bhasha Matin, he was one of the most visible student leaders pressing for direct action in 1952."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights"
+  ]
 }

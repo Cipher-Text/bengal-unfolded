@@ -6,5 +6,40 @@
   "contribution": "Abul Kashem played a significant role in the political developments tied to Bangladesh's state trajectory.",
   "context": "Pakistan and Bangladesh period political transitions.",
   "impact": "The figure remains important in debates over political legitimacy, state power, and historical memory.",
-  "image": "/figures/abul-kasem.jpg"
+  "image": "/figures/abul-kasem.jpg",
+  "seoTitle": "Abul Kashem - 1947 Partition Profile",
+  "seoDescription": "Profile of Abul Kashem, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Abul Kashem is linked to the 1947 Partition in this timeline as Language movement organizer.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Abul Kashem"
+  ],
+  "searchAliases": [
+    "Abul Kashem",
+    "Abul",
+    "Kasem"
+  ],
+  "faq": [
+    {
+      "question": "How is Abul Kashem connected to the 1947 Partition?",
+      "answer": "Abul Kashem is connected to the partition era as Language movement organizer. Abul Kashem played a significant role in the political developments tied to Bangladesh's state trajectory."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "pakistan-movement"
+  ]
 }

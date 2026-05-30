@@ -5,5 +5,40 @@
   "contribution": "He famously demanded that Bengali be used in Pakistan's Constituent Assembly in 1948.",
   "context": "Early constitutional debate in Pakistan after partition.",
   "impact": "He turned language into a constitutional question and helped lay the groundwork for the Bengali language movement.",
-  "image": "/figures/dhirendranath-datta.jpg"
+  "image": "/figures/dhirendranath-datta.jpg",
+  "name_en": "Dhirendranath Datta",
+  "seoTitle": "Dhirendranath Datta - 1947 Partition Profile",
+  "seoDescription": "Profile of Dhirendranath Datta, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Dhirendranath Datta is linked to the 1947 Partition in this timeline as Language Rights Advocate.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Dhirendranath Datta"
+  ],
+  "searchAliases": [
+    "Dhirendranath Datta",
+    "Dhirendranath",
+    "Datta"
+  ],
+  "faq": [
+    {
+      "question": "How is Dhirendranath Datta connected to the 1947 Partition?",
+      "answer": "Dhirendranath Datta is connected to the partition era as Language Rights Advocate. He famously demanded that Bengali be used in Pakistan's Constituent Assembly in 1948."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "pakistan-movement"
+  ]
 }

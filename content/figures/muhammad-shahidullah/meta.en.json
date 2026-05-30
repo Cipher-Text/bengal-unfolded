@@ -5,5 +5,41 @@
   "contribution": "He defended the legitimacy, history, and dignity of Bangla against attempts to reduce it in state policy.",
   "context": "Language and identity debates in early Pakistan.",
   "impact": "His scholarship strengthened the movement's intellectual credibility and cultural confidence.",
-  "image": "/figures/muhammad-shahidullah.jpg"
+  "image": "/figures/muhammad-shahidullah.jpg",
+  "name_en": "Muhammad Shahidullah",
+  "seoTitle": "Muhammad Shahidullah - 1947 Partition Profile",
+  "seoDescription": "Profile of Muhammad Shahidullah, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Muhammad Shahidullah is linked to the 1947 Partition in this timeline as Linguist and Intellectual Authority.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Muhammad Shahidullah"
+  ],
+  "searchAliases": [
+    "Muhammad Shahidullah",
+    "Muhammad",
+    "Shahidullah"
+  ],
+  "faq": [
+    {
+      "question": "How is Muhammad Shahidullah connected to the 1947 Partition?",
+      "answer": "Muhammad Shahidullah is connected to the partition era as Linguist and Intellectual Authority. He defended the legitimacy, history, and dignity of Bangla against attempts to reduce it in state policy."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "pakistan-movement",
+    "intellectual-history"
+  ]
 }

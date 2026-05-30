@@ -5,5 +5,35 @@
   "contribution": "He participated in the Bengal Boundary Commission that advised on the final division of the province.",
   "context": "Boundary-making at the moment of partition.",
   "impact": "He belongs to the small set of legal actors who helped shape the line that would divide Bengal.",
-  "image": "/figures/sa-rahman.jpg"
+  "image": "/figures/sa-rahman.jpg",
+  "name_en": "S. A. Rahman",
+  "seoTitle": "S. A. Rahman - 1947 Partition Profile",
+  "seoDescription": "Profile of S. A. Rahman, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "S. A. Rahman is linked to the 1947 Partition in this timeline as Boundary Commission Member.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "delhi"
+  ],
+  "alternateNames": [
+    "S. A. Rahman"
+  ],
+  "searchAliases": [
+    "S. A. Rahman",
+    "Rahman"
+  ],
+  "faq": [
+    {
+      "question": "How is S. A. Rahman connected to the 1947 Partition?",
+      "answer": "S. A. Rahman is connected to the partition era as Boundary Commission Member. He participated in the Bengal Boundary Commission that advised on the final division of the province."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "boundary-making"
+  ]
 }

@@ -5,5 +5,39 @@
   "contribution": "He worked with Suhrawardy to promote an independent and undivided Bengal as partition approached.",
   "context": "Negotiations over Bengal's future in 1947.",
   "impact": "He became one of the clearest voices against dividing Bengal along communal lines.",
-  "image": "/figures/sarat-chandra-bose.jpg"
+  "image": "/figures/sarat-chandra-bose.jpg",
+  "name_en": "Sarat Chandra Bose",
+  "seoTitle": "Sarat Chandra Bose - 1947 Partition Profile",
+  "seoDescription": "Profile of Sarat Chandra Bose, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Sarat Chandra Bose is linked to the 1947 Partition in this timeline as United Bengal Advocate.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-united-bengal-proposal",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "calcutta-kolkata",
+    "west-bengal"
+  ],
+  "alternateNames": [
+    "Sarat Chandra Bose"
+  ],
+  "searchAliases": [
+    "Sarat Chandra Bose",
+    "Sarat",
+    "Chandra",
+    "Bose"
+  ],
+  "faq": [
+    {
+      "question": "How is Sarat Chandra Bose connected to the 1947 Partition?",
+      "answer": "Sarat Chandra Bose is connected to the partition era as United Bengal Advocate. He worked with Suhrawardy to promote an independent and undivided Bengal as partition approached."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "united-bengal"
+  ]
 }

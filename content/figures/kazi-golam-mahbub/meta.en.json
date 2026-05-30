@@ -5,5 +5,40 @@
   "contribution": "He was the convener of the All-Party State Language Action Committee formed on 31 January 1952 and played a central role in organizing the protest front.",
   "context": "Dhaka student politics and the coordination of the 1952 movement.",
   "impact": "His organizing work helped transform scattered agitation into a disciplined and politically visible mass movement.",
-  "image": "/figures/kazi-golam-mahbub.jpg"
+  "image": "/figures/kazi-golam-mahbub.jpg",
+  "name_en": "Kazi Golam Mahbub",
+  "seoTitle": "Kazi Golam Mahbub - 1947 Partition Profile",
+  "seoDescription": "Profile of Kazi Golam Mahbub, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Kazi Golam Mahbub is linked to the 1947 Partition in this timeline as Student Leader and Convener.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Kazi Golam Mahbub"
+  ],
+  "searchAliases": [
+    "Kazi Golam Mahbub",
+    "Kazi",
+    "Golam",
+    "Mahbub"
+  ],
+  "faq": [
+    {
+      "question": "How is Kazi Golam Mahbub connected to the 1947 Partition?",
+      "answer": "Kazi Golam Mahbub is connected to the partition era as Student Leader and Convener. He was the convener of the All-Party State Language Action Committee formed on 31 January 1952 and played a central role in organizing the protest front."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights"
+  ]
 }

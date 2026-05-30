@@ -5,5 +5,40 @@
   "contribution": "He represented a Bengali liberal-intellectual current in the wider constitutional and educational debates of the period.",
   "context": "Late colonial and early postcolonial public life.",
   "impact": "He stands for the strand of Bengali thought that tried to defend plural, civic, and educational futures beyond communal division.",
-  "image": "/figures/humayun-kabir.jpg"
+  "image": "/figures/humayun-kabir.jpg",
+  "name_en": "Humayun Kabir",
+  "seoTitle": "Humayun Kabir - 1947 Partition Profile",
+  "seoDescription": "Profile of Humayun Kabir, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Humayun Kabir is linked to the 1947 Partition in this timeline as Intellectual and Politician.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Humayun Kabir"
+  ],
+  "searchAliases": [
+    "Humayun Kabir",
+    "Humayun",
+    "Kabir"
+  ],
+  "faq": [
+    {
+      "question": "How is Humayun Kabir connected to the 1947 Partition?",
+      "answer": "Humayun Kabir is connected to the partition era as Intellectual and Politician. He represented a Bengali liberal-intellectual current in the wider constitutional and educational debates of the period."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "intellectual-history"
+  ]
 }

@@ -5,5 +5,40 @@
   "contribution": "He was among the student leaders involved in procession and picketing in the early language movement.",
   "context": "Student mobilization in the late 1940s and early 1950s.",
   "impact": "He reflects the generation of campus activists who sustained the movement between its first demands and its climactic sacrifice.",
-  "image": "/figures/abdul-malek-ukil.svg"
+  "image": "/figures/abdul-malek-ukil.svg",
+  "name_en": "Abdul Malek Ukil",
+  "seoTitle": "Abdul Malek Ukil - 1947 Partition Profile",
+  "seoDescription": "Profile of Abdul Malek Ukil, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Abdul Malek Ukil is linked to the 1947 Partition in this timeline as Student Activist.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Abdul Malek Ukil"
+  ],
+  "searchAliases": [
+    "Abdul Malek Ukil",
+    "Abdul",
+    "Malek",
+    "Ukil"
+  ],
+  "faq": [
+    {
+      "question": "How is Abdul Malek Ukil connected to the 1947 Partition?",
+      "answer": "Abdul Malek Ukil is connected to the partition era as Student Activist. He was among the student leaders involved in procession and picketing in the early language movement."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights"
+  ]
 }

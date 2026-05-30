@@ -5,5 +5,40 @@
   "contribution": "He strongly shaped Congress strategy on partition and opposed political arrangements seen as unstable or unsafe for Indian unity.",
   "context": "Congress decision-making during the last years of British rule.",
   "impact": "His hard bargaining influenced the rejection of some alternatives, including a looser constitutional future for Bengal.",
-  "image": "/figures/vallabhbhai-patel.jpg"
+  "image": "/figures/vallabhbhai-patel.jpg",
+  "name_en": "Vallabhbhai Patel",
+  "seoTitle": "Vallabhbhai Patel - 1947 Partition Profile",
+  "seoDescription": "Profile of Vallabhbhai Patel, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Vallabhbhai Patel is linked to the 1947 Partition in this timeline as Congress Strategist.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "calcutta-kolkata",
+    "west-bengal",
+    "delhi"
+  ],
+  "alternateNames": [
+    "Vallabhbhai Patel"
+  ],
+  "searchAliases": [
+    "Vallabhbhai Patel",
+    "Vallabhbhai",
+    "Patel"
+  ],
+  "faq": [
+    {
+      "question": "How is Vallabhbhai Patel connected to the 1947 Partition?",
+      "answer": "Vallabhbhai Patel is connected to the partition era as Congress Strategist. He strongly shaped Congress strategy on partition and opposed political arrangements seen as unstable or unsafe for Indian unity."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "congress-politics"
+  ]
 }

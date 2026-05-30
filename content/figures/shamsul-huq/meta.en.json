@@ -5,5 +5,39 @@
   "contribution": "He convened an early committee formed to press for Bangla as a state language and helped keep the issue organized after 1948.",
   "context": "The first phase of movement-building in East Bengal.",
   "impact": "He represents the crucial organizational continuity between the first protests and the decisive phase of 1952.",
-  "image": "/figures/shamsul-huq.jpg"
+  "image": "/figures/shamsul-huq.jpg",
+  "name_en": "Shamsul Huq",
+  "seoTitle": "Shamsul Huq - 1947 Partition Profile",
+  "seoDescription": "Profile of Shamsul Huq, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Shamsul Huq is linked to the 1947 Partition in this timeline as Convener of Early Language Committee.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Shamsul Huq"
+  ],
+  "searchAliases": [
+    "Shamsul Huq",
+    "Shamsul"
+  ],
+  "faq": [
+    {
+      "question": "How is Shamsul Huq connected to the 1947 Partition?",
+      "answer": "Shamsul Huq is connected to the partition era as Convener of Early Language Committee. He convened an early committee formed to press for Bangla as a state language and helped keep the issue organized after 1948."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights"
+  ]
 }

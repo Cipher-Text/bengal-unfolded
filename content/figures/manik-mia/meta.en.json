@@ -5,5 +5,40 @@
   "contribution": "Through journalism he helped shape East Bengal's public language around inequality, rights, and regional dignity.",
   "context": "Public discourse in early Pakistan.",
   "impact": "His work helped make the language question part of a larger political consciousness in East Bengal.",
-  "image": "/figures/manik-mia.jpg"
+  "image": "/figures/manik-mia.jpg",
+  "name_en": "Manik Mia",
+  "seoTitle": "Manik Mia - 1947 Partition Profile",
+  "seoDescription": "Profile of Manik Mia, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Manik Mia is linked to the 1947 Partition in this timeline as Journalist and Public Opinion Builder.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Manik Mia"
+  ],
+  "searchAliases": [
+    "Manik Mia",
+    "Manik"
+  ],
+  "faq": [
+    {
+      "question": "How is Manik Mia connected to the 1947 Partition?",
+      "answer": "Manik Mia is connected to the partition era as Journalist and Public Opinion Builder. Through journalism he helped shape East Bengal's public language around inequality, rights, and regional dignity."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "pakistan-movement",
+    "intellectual-history"
+  ]
 }

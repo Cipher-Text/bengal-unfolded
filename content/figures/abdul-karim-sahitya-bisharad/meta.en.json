@@ -5,5 +5,40 @@
   "contribution": "He devoted his life to collecting and preserving Bengali literary heritage, helping anchor cultural continuity in a time of political rupture.",
   "context": "Longer Bengali literary history remembered in the partition era.",
   "impact": "His legacy reinforced the idea that Bengali identity rested on a deep and shared cultural archive.",
-  "image": "/figures/abdul-karim-sahitya-bisharad.jpg"
+  "image": "/figures/abdul-karim-sahitya-bisharad.jpg",
+  "name_en": "Abdul Karim Sahitya Bisharad",
+  "seoTitle": "Abdul Karim Sahitya Bisharad - 1947 Partition Profile",
+  "seoDescription": "Profile of Abdul Karim Sahitya Bisharad, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Abdul Karim Sahitya Bisharad is linked to the 1947 Partition in this timeline as Cultural Archivist.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Abdul Karim Sahitya Bisharad"
+  ],
+  "searchAliases": [
+    "Abdul Karim Sahitya Bisharad",
+    "Abdul",
+    "Karim",
+    "Sahitya",
+    "Bisharad"
+  ],
+  "faq": [
+    {
+      "question": "How is Abdul Karim Sahitya Bisharad connected to the 1947 Partition?",
+      "answer": "Abdul Karim Sahitya Bisharad is connected to the partition era as Cultural Archivist. He devoted his life to collecting and preserving Bengali literary heritage, helping anchor cultural continuity in a time of political rupture."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights"
+  ]
 }

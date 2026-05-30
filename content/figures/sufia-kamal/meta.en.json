@@ -5,5 +5,40 @@
   "contribution": "She gave moral and cultural strength to Bengali identity and stood for a public life rooted in language, culture, and dignity.",
   "context": "East Bengal's cultural sphere during and after the language movement.",
   "impact": "She helped carry the movement's spirit beyond student protest into broader civic culture.",
-  "image": "/figures/sufia-kamal.jpg"
+  "image": "/figures/sufia-kamal.jpg",
+  "name_en": "Sufia Kamal",
+  "seoTitle": "Sufia Kamal - 1947 Partition Profile",
+  "seoDescription": "Profile of Sufia Kamal, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Sufia Kamal is linked to the 1947 Partition in this timeline as Cultural and Civic Voice.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Sufia Kamal"
+  ],
+  "searchAliases": [
+    "Sufia Kamal",
+    "Sufia",
+    "Kamal"
+  ],
+  "faq": [
+    {
+      "question": "How is Sufia Kamal connected to the 1947 Partition?",
+      "answer": "Sufia Kamal is connected to the partition era as Cultural and Civic Voice. She gave moral and cultural strength to Bengali identity and stood for a public life rooted in language, culture, and dignity."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "intellectual-history"
+  ]
 }

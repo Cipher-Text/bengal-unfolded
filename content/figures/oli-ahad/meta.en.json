@@ -5,5 +5,38 @@
   "contribution": "He was one of the combative young organizers of the movement and took part in the protest wave from its early phase.",
   "context": "Student politics and street mobilization in East Bengal.",
   "impact": "He embodied the movement's militant youth energy and its refusal to narrow language into a symbolic issue only.",
-  "image": "/figures/oli-ahad.jpg"
+  "image": "/figures/oli-ahad.jpg",
+  "name_en": "Oli Ahad",
+  "seoTitle": "Oli Ahad - 1947 Partition Profile",
+  "seoDescription": "Profile of Oli Ahad, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Oli Ahad is linked to the 1947 Partition in this timeline as Student and Political Activist.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Oli Ahad"
+  ],
+  "searchAliases": [
+    "Oli Ahad",
+    "Ahad"
+  ],
+  "faq": [
+    {
+      "question": "How is Oli Ahad connected to the 1947 Partition?",
+      "answer": "Oli Ahad is connected to the partition era as Student and Political Activist. He was one of the combative young organizers of the movement and took part in the protest wave from its early phase."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition"
+  ]
 }

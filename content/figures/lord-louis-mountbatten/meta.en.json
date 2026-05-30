@@ -5,5 +5,37 @@
   "contribution": "As the last viceroy, he oversaw the June 3 Plan and the accelerated transfer of power that led directly to partition.",
   "context": "Final British withdrawal from India in 1947.",
   "impact": "His rushed timetable shaped the speed, uncertainty, and violence surrounding Bengal's division.",
-  "image": "/figures/lord-louis-mountbatten.jpg"
+  "image": "/figures/lord-louis-mountbatten.jpg",
+  "name_en": "Lord Louis Mountbatten",
+  "seoTitle": "Lord Louis Mountbatten - 1947 Partition Profile",
+  "seoDescription": "Profile of Lord Louis Mountbatten, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Lord Louis Mountbatten is linked to the 1947 Partition in this timeline as Last Viceroy of India.",
+  "activePeriod": "1947",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1947-radcliffe-award-border-demarcation-implementation"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "delhi"
+  ],
+  "alternateNames": [
+    "Lord Louis Mountbatten"
+  ],
+  "searchAliases": [
+    "Lord Louis Mountbatten",
+    "Lord",
+    "Louis",
+    "Mountbatten"
+  ],
+  "faq": [
+    {
+      "question": "How is Lord Louis Mountbatten connected to the 1947 Partition?",
+      "answer": "Lord Louis Mountbatten is connected to the partition era as Last Viceroy of India. As the last viceroy, he oversaw the June 3 Plan and the accelerated transfer of power that led directly to partition."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition"
+  ]
 }

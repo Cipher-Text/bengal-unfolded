@@ -5,5 +5,41 @@
   "contribution": "He was a major newspaper editor and public figure in Bengali Muslim political life.",
   "context": "Public opinion and Muslim politics in late colonial Bengal.",
   "impact": "He shaped how Bengali Muslim audiences understood representation, community, and statehood.",
-  "image": "/figures/maulana-akram-khan.jpg"
+  "image": "/figures/maulana-akram-khan.jpg",
+  "name_en": "Maulana Akram Khan",
+  "seoTitle": "Maulana Akram Khan - 1947 Partition Profile",
+  "seoDescription": "Profile of Maulana Akram Khan, tracing connections to the 1947 Partition, Eastern Bengal, and related political-cultural history.",
+  "shortAnswer": "Maulana Akram Khan is linked to the 1947 Partition in this timeline as Journalist and Muslim Public Leader.",
+  "activePeriod": "1947-1952",
+  "primaryEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "east-bengal",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Maulana Akram Khan"
+  ],
+  "searchAliases": [
+    "Maulana Akram Khan",
+    "Maulana",
+    "Akram",
+    "Khan"
+  ],
+  "faq": [
+    {
+      "question": "How is Maulana Akram Khan connected to the 1947 Partition?",
+      "answer": "Maulana Akram Khan is connected to the partition era as Journalist and Muslim Public Leader. He was a major newspaper editor and public figure in Bengali Muslim political life."
+    }
+  ],
+  "tags": [
+    "1947",
+    "partition",
+    "language-rights",
+    "intellectual-history"
+  ]
 }
