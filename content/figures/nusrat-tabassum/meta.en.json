@@ -10,7 +10,38 @@
   "tags": [
     "women-leadership",
     "coordination",
-    "db-custody-2024"
+    "db-custody-2024",
+    "2024",
+    "anti-discrimination-movement",
+    "quota-reform",
+    "student-coordination",
+    "rights-accountability",
+    "public-discourse"
   ],
-  "image": "/figures/nusrat-tabassum.jpg"
+  "image": "/figures/nusrat-tabassum.jpg",
+  "seoTitle": "Nusrat Tabassum - 2024 Anti-Discrimination Movement Profile",
+  "seoDescription": "Profile of Nusrat Tabassum, tracing links to the 2024 Anti-Discrimination Movement, quota reform protests, July-August uprising, and transition politics.",
+  "shortAnswer": "Nusrat Tabassum is linked to the 2024 Anti-Discrimination Movement in this timeline as Coordinator.",
+  "activePeriod": "2024",
+  "primaryEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Nusrat Tabassum"
+  ],
+  "searchAliases": [
+    "Nusrat Tabassum",
+    "Nusrat",
+    "Tabassum"
+  ],
+  "faq": [
+    {
+      "question": "How is Nusrat Tabassum connected to the 2024 Anti-Discrimination Movement?",
+      "answer": "Nusrat Tabassum is connected to the 2024 movement as Coordinator. A female student coordinator publicly named among the six leaders held by DB in late July 2024 during the protest crisis."
+    }
+  ]
 }

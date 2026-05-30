@@ -10,7 +10,37 @@
   "tags": [
     "spokesperson",
     "db-custody-2024",
-    "mass-mobilization"
+    "mass-mobilization",
+    "2024",
+    "anti-discrimination-movement",
+    "quota-reform",
+    "student-coordination",
+    "public-discourse"
   ],
-  "image": "/figures/sarjis-alam.jpg"
+  "image": "/figures/sarjis-alam.jpg",
+  "seoTitle": "Sarjis Alam - 2024 Anti-Discrimination Movement Profile",
+  "seoDescription": "Profile of Sarjis Alam, tracing links to the 2024 Anti-Discrimination Movement, quota reform protests, July-August uprising, and transition politics.",
+  "shortAnswer": "Sarjis Alam is linked to the 2024 Anti-Discrimination Movement in this timeline as Coordinator and spokesperson.",
+  "activePeriod": "2024",
+  "primaryEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Sarjis Alam"
+  ],
+  "searchAliases": [
+    "Sarjis Alam",
+    "Sarjis",
+    "Alam"
+  ],
+  "faq": [
+    {
+      "question": "How is Sarjis Alam connected to the 2024 Anti-Discrimination Movement?",
+      "answer": "Sarjis Alam is connected to the 2024 movement as Coordinator and spokesperson. A nationally visible coordinator, he was among the student leaders taken into DB custody in July 2024 and became one of the most quoted public voices of the movement."
+    }
+  ]
 }

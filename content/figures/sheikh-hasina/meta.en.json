@@ -1,15 +1,15 @@
 {
   "name": "Sheikh Hasina",
-  "role": "Leader of the 8-Party Alliance",
+  "role": "Awami League leader and prime minister during the 2024 uprising",
   "group": "leader",
-  "contribution": "As the Awami League leader, she helped sustain one of the principal anti-Ershad alliance fronts through the decisive 1990 uprising.",
-  "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
-  "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
+  "contribution": "As prime minister, she led the Awami League government during the July-August 2024 crackdown and resigned on 5 August 2024 after the student-led uprising reached a decisive national rupture.",
+  "context": "Bangladesh politics from the anti-Ershad movement through the 2024 Anti-Discrimination Movement and post-resignation transition.",
+  "impact": "Her resignation turned the protest wave into a state-transition moment and made accountability for protest repression a central public question.",
   "image": "/figures/sheikh-hasina.jpg",
   "name_en": "Sheikh Hasina",
-  "seoTitle": "Sheikh Hasina - 1990 Mass Uprising Profile",
-  "seoDescription": "Profile of Sheikh Hasina, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
-  "shortAnswer": "Sheikh Hasina is linked to the 1990 Mass Uprising in this timeline as Leader of the 8-Party Alliance.",
+  "seoTitle": "Sheikh Hasina - 2024 Anti-Discrimination Movement Profile",
+  "seoDescription": "Profile of Sheikh Hasina, tracing her role in the 2024 Anti-Discrimination Movement, protest crackdown, resignation, and Bangladesh transition politics.",
+  "shortAnswer": "Sheikh Hasina is linked to the 2024 Anti-Discrimination Movement as the prime minister whose government faced the uprising and resigned on 5 August 2024.",
   "activePeriod": "1982-2024",
   "primaryEventIds": [
     "1982-ershad-s-coup-and-the-return-of-military-rule",
@@ -18,10 +18,12 @@
     "1997-chittagong-hill-tracts-peace-accord",
     "2006-caretaker-crisis-and-emergency-rule",
     "2007-2008-emergency-caretaker-rule",
+    "2009-bdr-mutiny-pilkhana-massacre",
+    "2013-rana-plaza-collapse",
     "2014-10th-parliamentary-election",
+    "2017-rohingya-mass-influx-into-bangladesh",
     "2018-election",
-    "2024-anti-discrimination-movement",
-    "2013-rana-plaza-collapse"
+    "2024-anti-discrimination-movement"
   ],
   "relatedPlaceIds": [
     "bangladesh",
@@ -37,8 +39,8 @@
   ],
   "faq": [
     {
-      "question": "How is Sheikh Hasina connected to the 1990 Mass Uprising?",
-      "answer": "Sheikh Hasina is connected to the anti-Ershad democratic movement as Leader of the 8-Party Alliance. As the Awami League leader, she helped sustain one of the principal anti-Ershad alliance fronts through the decisive 1990 uprising."
+      "question": "How is Sheikh Hasina connected to the 2024 Anti-Discrimination Movement?",
+      "answer": "Sheikh Hasina was prime minister during the July-August 2024 crackdown and resigned on 5 August 2024 after the student-led uprising reached a decisive national rupture."
     }
   ],
   "tags": [
@@ -46,6 +48,11 @@
     "democracy",
     "anti-ershad-movement",
     "party-politics",
-    "caretaker-transition"
+    "caretaker-transition",
+    "2024",
+    "anti-discrimination-movement",
+    "quota-reform",
+    "student-coordination",
+    "interim-government"
   ]
 }

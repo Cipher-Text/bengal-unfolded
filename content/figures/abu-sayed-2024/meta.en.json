@@ -10,7 +10,37 @@
   "tags": [
     "abu-sayed",
     "rangpur",
-    "july-uprising"
+    "july-uprising",
+    "2024",
+    "anti-discrimination-movement",
+    "quota-reform",
+    "student-coordination",
+    "martyr-memory"
   ],
-  "image": "/figures/abu-sayed-2024.jpg"
+  "image": "/figures/abu-sayed-2024.jpg",
+  "seoTitle": "Abu Sayed - 2024 Anti-Discrimination Movement Profile",
+  "seoDescription": "Profile of Abu Sayed, tracing links to the 2024 Anti-Discrimination Movement, quota reform protests, July-August uprising, and transition politics.",
+  "shortAnswer": "Abu Sayed is linked to the 2024 Anti-Discrimination Movement in this timeline as Symbolic martyr.",
+  "activePeriod": "2024",
+  "primaryEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar",
+    "rangpur"
+  ],
+  "alternateNames": [
+    "Abu Sayed"
+  ],
+  "searchAliases": [
+    "Abu Sayed",
+    "Sayed"
+  ],
+  "faq": [
+    {
+      "question": "How is Abu Sayed connected to the 2024 Anti-Discrimination Movement?",
+      "answer": "Abu Sayed is connected to the 2024 movement as Symbolic martyr. A Begum Rokeya University student activist, he was shot dead by police in Rangpur on 16 July 2024 during quota-reform protests."
+    }
+  ]
 }

@@ -13,7 +13,37 @@
     "july-uprising-2024",
     "db-custody-2024",
     "youth-politics",
-    "post-2024-bangladesh"
+    "post-2024-bangladesh",
+    "2024",
+    "anti-discrimination-movement",
+    "quota-reform",
+    "student-coordination"
   ],
-  "image": "/figures/hasnat-abdullah.jpg"
+  "image": "/figures/hasnat-abdullah.jpg",
+  "seoTitle": "Hasnat Abdullah - 2024 Anti-Discrimination Movement Profile",
+  "seoDescription": "Profile of Hasnat Abdullah, tracing links to the 2024 Anti-Discrimination Movement, quota reform protests, July-August uprising, and transition politics.",
+  "shortAnswer": "Hasnat Abdullah is linked to the 2024 Anti-Discrimination Movement in this timeline as Visible coordinator of Students Against Discrimination, student political organizer, and post-2024 youth political voice.",
+  "activePeriod": "2024-2026",
+  "primaryEventIds": [
+    "2024-anti-discrimination-movement",
+    "2026-election"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Hasnat Abdullah"
+  ],
+  "searchAliases": [
+    "Hasnat Abdullah",
+    "Hasnat",
+    "Abdullah"
+  ],
+  "faq": [
+    {
+      "question": "How is Hasnat Abdullah connected to the 2024 Anti-Discrimination Movement?",
+      "answer": "Hasnat Abdullah is connected to the 2024 movement as Visible coordinator of Students Against Discrimination, student political organizer, and post-2024 youth political voice. He became a visible coordinator in the July 2024 quota reform and anti-discrimination movement, was taken into DB custody during the."
+    }
+  ]
 }
