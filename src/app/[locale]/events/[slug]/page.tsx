@@ -39,14 +39,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) return {};
   const event = await getEventContent(locale, slug);
   const description = normalizeMetaDescription(
-    event.meta.summary,
+    event.meta.seoDescription ?? event.meta.summary,
     locale === "bn"
       ? "ঐতিহাসিক ঘটনাটির প্রেক্ষাপট, টাইমলাইন, গুরুত্বপূর্ণ ব্যক্তি ও নির্ভরযোগ্য সূত্র একসাথে পড়ুন।"
       : "Explore this historical event's context, timeline, key figures, and source-backed analysis.",
   );
+  const title =
+    event.meta.seoTitle ??
+    `${event.meta.year} - ${event.meta.title}${event.meta.subtitle ? `: ${event.meta.subtitle}` : ""} | Bengal Unfolded`;
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${event.meta.year} - ${event.meta.title}${event.meta.subtitle ? `: ${event.meta.subtitle}` : ""} | Bengal Unfolded`,
+    title,
     description,
     canonicalPath: `/${locale}/events/${slug}`,
     languagePathWithoutLocale: `/events/${slug}`,

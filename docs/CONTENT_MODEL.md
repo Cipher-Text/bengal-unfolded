@@ -196,6 +196,8 @@ Example:
 
 ### Resource optional fields
 
+- `seoTitle?: string`
+- `seoDescription?: string`
 - `sourceQuality?: 'primary' | 'secondary' | 'archive' | 'academic' | 'editorial' | 'reference' | 'unknown'`
 - `evidenceLevel?: 'high' | 'medium' | 'low'`
 - `relatedEventIds?: string[]`
@@ -208,6 +210,8 @@ Example:
 ```json
 {
   "title": "Example Archival Resource",
+  "seoTitle": "Example Archive - Source Context",
+  "seoDescription": "Source context for an archival item used in Bengal Unfolded event and figure pages.",
   "attribution": "National Archives",
   "quality": "archive",
   "sourceQuality": "primary",

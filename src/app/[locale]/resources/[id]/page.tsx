@@ -5,7 +5,7 @@ import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getAllResourceIds, getEventsByResourceIdChronological, getResource, getTopicsByResourceId } from "@/lib/content";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, normalizeMetaDescription } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
 export async function generateStaticParams() {
@@ -19,10 +19,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   try {
     const resource = await getResource(locale, id);
+    const description = normalizeMetaDescription(
+      resource.seoDescription ?? resource.note,
+      locale === "bn"
+        ? "এই সূত্রের প্রেক্ষাপট, ব্যবহার এবং সম্পর্কিত ঐতিহাসিক ঘটনাগুলো দেখুন।"
+        : "Review this source's context, use, and related historical events.",
+    );
     return buildPageMetadata({
       locale: locale as Locale,
-      title: `${resource.title} | Bengal Unfolded`,
-      description: resource.note,
+      title: resource.seoTitle ?? `${resource.title} | Bengal Unfolded`,
+      description,
       canonicalPath: `/${locale}/resources/${id}`,
       languagePathWithoutLocale: `/resources/${id}`,
       type: "article",

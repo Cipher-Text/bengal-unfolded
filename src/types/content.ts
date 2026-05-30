@@ -1110,6 +1110,8 @@ export type TimelineTheme =
 export type EventResource = {
   id: ResourceId;
   title: string;
+  seoTitle?: string;
+  seoDescription?: string;
   attribution: string;
   /**
    * Locale-stable creator key. When absent, the loader derives this from

@@ -4,6 +4,25 @@
 
 ### Completed
 
+- Manual SEO controls for high-impression entity/resource pages:
+  - Model:
+    - Added optional `EventResource.seoTitle` and `EventResource.seoDescription` fields.
+    - Existing optional event and figure SEO fields remain backward-compatible.
+  - Validation:
+    - Added localized optional validation for resource `seoTitle`/`seoDescription`.
+    - Tightened figure `seoTitle`/`seoDescription` validation when present.
+  - UI/runtime:
+    - Event, figure, and resource metadata generation now prefers manual `seoTitle`/`seoDescription` and falls back to the existing generated title/description logic.
+    - Resource metadata descriptions now use the shared `normalizeMetaDescription` helper.
+  - Content backfill:
+    - Added EN/BN manual SEO titles and descriptions for priority event pages: 1765 Diwani Rights, 1793 Permanent Settlement, and 1906 Muslim League founding in Dhaka.
+    - Added EN/BN manual SEO titles and descriptions for priority figures: Mirza Khizr Sultan and Shaista Khan.
+    - Added EN/BN source-context SEO metadata for the Reuters 2024 violence death-toll resource and the Mirza Khizr Sultan Wikipedia resource.
+    - Renamed the Mirza Khizr Sultan Wikipedia resource title so it no longer duplicates the main figure page title.
+  - Risk/known gaps:
+    - Resource detail pages still need richer explanatory body sections in a follow-up pass.
+    - Locale-aware `<html lang>` remains a separate technical SEO/accessibility task.
+
 - Creator directory:
   - UI/runtime:
     - Added `/[locale]/creators` list page with keyword search, creator type filter, resource category filter, minimum resource count filter, and pagination.

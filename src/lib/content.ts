@@ -131,6 +131,12 @@ function normalizeEventResource(
   resource: Record<string, unknown>,
 ): EventResource {
   const title = String(resource.title ?? "");
+  const seoTitle =
+    typeof resource.seoTitle === "string" ? resource.seoTitle : undefined;
+  const seoDescription =
+    typeof resource.seoDescription === "string"
+      ? resource.seoDescription
+      : undefined;
   const attribution = String(
     resource.attribution ?? resource.creator ?? resource.author ?? "",
   );
@@ -220,6 +226,8 @@ function normalizeEventResource(
     return {
       id: resourceId,
       title,
+      seoTitle,
+      seoDescription,
       attribution,
       creatorId,
       creatorType,
@@ -241,6 +249,8 @@ function normalizeEventResource(
     return {
       id: resourceId,
       title,
+      seoTitle,
+      seoDescription,
       attribution,
       creatorId,
       creatorType,
@@ -261,6 +271,8 @@ function normalizeEventResource(
     return {
       id: resourceId,
       title,
+      seoTitle,
+      seoDescription,
       attribution,
       creatorId,
       creatorType,
@@ -280,6 +292,8 @@ function normalizeEventResource(
   return {
     id: resourceId,
     title,
+    seoTitle,
+    seoDescription,
     attribution,
     creatorId,
     creatorType,

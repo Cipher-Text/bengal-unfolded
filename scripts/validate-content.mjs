@@ -308,6 +308,11 @@ async function main() {
           }
         }
       }
+      for (const key of ["seoTitle", "seoDescription"]) {
+        if (key in meta && meta[key] !== undefined && (typeof meta[key] !== "string" || meta[key].trim().length === 0)) {
+          errors.push(`Invalid ${key} at content/events/${slug}/meta.${locale}.json`);
+        }
+      }
       for (const localizedField of [
         "title",
         "subtitle",
@@ -1101,6 +1106,15 @@ async function main() {
       if ("whyItMatters" in meta && meta.whyItMatters !== undefined && typeof meta.whyItMatters !== "string") {
         errors.push(`whyItMatters must be string at content/resources/${resourceId}/meta.${locale}.json`);
       }
+      for (const key of ["seoTitle", "seoDescription"]) {
+        if (key in meta && meta[key] !== undefined) {
+          if (typeof meta[key] !== "string" || meta[key].trim().length === 0) {
+            errors.push(`Invalid ${key} at content/resources/${resourceId}/meta.${locale}.json`);
+          } else {
+            assertLocaleScript(meta[key], locale, `content/resources/${resourceId}/meta.${locale}.json field '${key}'`, errors);
+          }
+        }
+      }
     }
     const enMeta = resourceMetasByLocale.get("en");
     const bnMeta = resourceMetasByLocale.get("bn");
@@ -1141,9 +1155,13 @@ async function main() {
       }
       const meta = await readJson(metaPath, errors);
       if (!meta || typeof meta !== "object") continue;
-      for (const key of ["name", "role", "context", "impact"]) {
+      for (const key of ["name", "role", "context", "impact", "seoTitle", "seoDescription"]) {
         if (key in meta && meta[key] !== undefined) {
-          assertLocaleScript(meta[key], locale, `content/figures/${figureId}/meta.${locale}.json field '${key}'`, errors);
+          if (typeof meta[key] !== "string" || meta[key].trim().length === 0) {
+            errors.push(`Invalid ${key} at content/figures/${figureId}/meta.${locale}.json`);
+          } else {
+            assertLocaleScript(meta[key], locale, `content/figures/${figureId}/meta.${locale}.json field '${key}'`, errors);
+          }
         }
       }
       validateOptionalStringArray(meta.alternateNames, `content/figures/${figureId}/meta.${locale}.json alternateNames`, errors);

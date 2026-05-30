@@ -53,6 +53,7 @@ For every schema or field change:
 - Topic metadata under `content/topics/*/meta.<locale>.json` must keep EN/BN parity and valid linked IDs (`eventSlugs`, `figureIds`, `resourceIds`).
 - Place metadata under `content/places/*/meta.<locale>.json` must keep EN/BN parity and valid allowed `placeId`.
 - Optional metadata extensions (SEO fields, FAQ blocks, map points, learning paths, alias arrays, relation IDs, and resource evidence metadata) must follow type/shape checks in `scripts/validate-content.mjs` when present; absence must not fail validation.
+- Resource `seoTitle` and `seoDescription` are optional source-context controls. They must be localized when present and must not replace required source title, note, attribution, quality, category, or subcategory fields.
 
 ## Event relationship contract
 
