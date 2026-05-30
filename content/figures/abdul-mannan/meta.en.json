@@ -12,5 +12,30 @@
     "freedom-fighter",
     "local-history"
   ],
-  "image": "/figures/abdul-mannan.jpg"
+  "image": "/figures/abdul-mannan.jpg",
+  "seoTitle": "Abdul Mannan - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Abdul Mannan, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Abdul Mannan is a Freedom Fighter connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Abdul Mannan"
+  ],
+  "searchAliases": [
+    "Abdul Mannan",
+    "Abdul",
+    "Mannan"
+  ],
+  "faq": [
+    {
+      "question": "How is Abdul Mannan connected to 1971?",
+      "answer": "Abdul Mannan is linked to the Liberation War through the project timeline as Freedom Fighter. He is remembered in liberation-war narratives as a participant in resistance and local war."
+    }
+  ]
 }

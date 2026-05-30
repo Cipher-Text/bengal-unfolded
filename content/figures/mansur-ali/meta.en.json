@@ -6,5 +6,36 @@
   "contribution": "Muhammad Mansur Ali played a significant role in the political developments tied to Bangladesh's state trajectory.",
   "context": "Pakistan and Bangladesh period political transitions.",
   "impact": "The figure remains important in debates over political legitimacy, state power, and historical memory.",
-  "image": "/figures/mansur-ali.jpg"
+  "image": "/figures/mansur-ali.jpg",
+  "seoTitle": "Muhammad Mansur Ali - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Muhammad Mansur Ali, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Muhammad Mansur Ali is a National leader and prime minister connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1975",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1975-baksal-formation-and-collapse",
+    "1975-jail-killing"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Muhammad Mansur Ali"
+  ],
+  "searchAliases": [
+    "Muhammad Mansur Ali",
+    "Mansur"
+  ],
+  "faq": [
+    {
+      "question": "How is Muhammad Mansur Ali connected to 1971?",
+      "answer": "Muhammad Mansur Ali is linked to the Liberation War through the project timeline as National leader and prime minister. Muhammad Mansur Ali played a significant role in the political developments tied to Bangladesh's state."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "political-leadership"
+  ]
 }

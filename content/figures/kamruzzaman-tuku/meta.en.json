@@ -12,5 +12,30 @@
     "freedom-fighter",
     "1971"
   ],
-  "image": "/figures/kamruzzaman-tuku.jpg"
+  "image": "/figures/kamruzzaman-tuku.jpg",
+  "seoTitle": "Kamruzzaman Tuku - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Kamruzzaman Tuku, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Kamruzzaman Tuku is a Freedom Fighter connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Kamruzzaman Tuku"
+  ],
+  "searchAliases": [
+    "Kamruzzaman Tuku",
+    "Kamruzzaman",
+    "Tuku"
+  ],
+  "faq": [
+    {
+      "question": "How is Kamruzzaman Tuku connected to 1971?",
+      "answer": "Kamruzzaman Tuku is linked to the Liberation War through the project timeline as Freedom Fighter. He is identified in liberation-war memory as part of resistance participation tied to local organizing and."
+    }
+  ]
 }

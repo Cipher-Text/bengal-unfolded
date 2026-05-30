@@ -12,5 +12,31 @@
     "army",
     "akhaura"
   ],
-  "image": "/figures/mostafa-kamal.jpg"
+  "image": "/figures/mostafa-kamal.jpg",
+  "seoTitle": "Mostafa Kamal - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Mostafa Kamal, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Mostafa Kamal is a Bir Sreshtho (Army Martyr) connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-akhaura-front-battle-of-daruin"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Mostafa Kamal"
+  ],
+  "searchAliases": [
+    "Mostafa Kamal",
+    "Mostafa",
+    "Kamal"
+  ],
+  "faq": [
+    {
+      "question": "How is Mostafa Kamal connected to 1971?",
+      "answer": "Mostafa Kamal is linked to the Liberation War through the project timeline as Bir Sreshtho (Army Martyr). He held defensive position at Daruin against a larger Pakistani assault, covering comrades and fighting until."
+    }
+  ]
 }

@@ -6,5 +6,38 @@
   "contribution": "Abu Taher played a significant role in the political developments tied to Bangladesh's state trajectory.",
   "context": "Pakistan and Bangladesh period political transitions.",
   "impact": "The figure remains important in debates over political legitimacy, state power, and historical memory.",
-  "image": "/figures/abu-taher.jpg"
+  "image": "/figures/abu-taher.jpg",
+  "seoTitle": "Abu Taher - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Abu Taher, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Abu Taher is a Military officer and political actor connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1975",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1975-jail-killing",
+    "1975-november-7-sepoy-janata-uprising",
+    "1971-battle-of-kamalpur"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Abu Taher"
+  ],
+  "searchAliases": [
+    "Abu Taher",
+    "Taher"
+  ],
+  "faq": [
+    {
+      "question": "How is Abu Taher connected to 1971?",
+      "answer": "Abu Taher is linked to the Liberation War through the project timeline as Military officer and political actor. Abu Taher played a significant role in the political developments tied to Bangladesh's state."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "military-command",
+    "political-leadership"
+  ]
 }

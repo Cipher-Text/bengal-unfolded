@@ -12,5 +12,34 @@
     "naval",
     "martyrdom"
   ],
-  "image": "/figures/ruhul-amin.jpg"
+  "image": "/figures/ruhul-amin.jpg",
+  "seoTitle": "Mohammad Ruhul Amin - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Mohammad Ruhul Amin, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Mohammad Ruhul Amin is a Bir Sreshtho (Naval Martyr) connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-operation-jackpot",
+    "1971-riverine-operations"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "jessore-khulna-corridor"
+  ],
+  "alternateNames": [
+    "Mohammad Ruhul Amin"
+  ],
+  "searchAliases": [
+    "Ruhul Amin",
+    "Mohammad Ruhul Amin",
+    "Ruhul",
+    "Amin"
+  ],
+  "faq": [
+    {
+      "question": "How is Mohammad Ruhul Amin connected to 1971?",
+      "answer": "Mohammad Ruhul Amin is linked to the Liberation War through the project timeline as Bir Sreshtho (Naval Martyr). As Engine Room Artificer of gunboat PNS Palash, he continued fighting during attack despite severe danger and was killed in."
+    }
+  ]
 }

@@ -12,5 +12,29 @@
     "sector-formation",
     "military"
   ],
-  "image": "/figures/nazmul-huq.jpg"
+  "image": "/figures/nazmul-huq.jpg",
+  "seoTitle": "Nazmul Huq - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Nazmul Huq, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Nazmul Huq is a Pioneering Sector Commander connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Nazmul Huq"
+  ],
+  "searchAliases": [
+    "Nazmul Huq",
+    "Nazmul"
+  ],
+  "faq": [
+    {
+      "question": "How is Nazmul Huq connected to 1971?",
+      "answer": "Nazmul Huq is linked to the Liberation War through the project timeline as Pioneering Sector Commander. He was among the early military organizers of sector-based resistance and helped shape wartime command."
+    }
+  ]
 }

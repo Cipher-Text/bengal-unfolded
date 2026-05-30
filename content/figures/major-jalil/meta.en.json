@@ -12,5 +12,33 @@
     "southern-front",
     "riverine"
   ],
-  "image": "/figures/major-jalil.jpg"
+  "image": "/figures/major-jalil.jpg",
+  "seoTitle": "Major M. A. Jalil - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Major M. A. Jalil, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Major M. A. Jalil is a Sector 9 Commander connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-battle-of-jessore"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "jessore-khulna-corridor"
+  ],
+  "alternateNames": [
+    "Major M. A. Jalil"
+  ],
+  "searchAliases": [
+    "Major Jalil",
+    "Major M. A. Jalil",
+    "Major",
+    "Jalil"
+  ],
+  "faq": [
+    {
+      "question": "How is Major M. A. Jalil connected to 1971?",
+      "answer": "Major M. A. Jalil is linked to the Liberation War through the project timeline as Sector 9 Commander. He commanded Sector 9 and led operations across the southern riverine theatre, including coordination with naval guerrilla."
+    }
+  ]
 }

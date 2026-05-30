@@ -12,5 +12,30 @@
     "infantry",
     "martyrdom"
   ],
-  "image": "/figures/munir-ahmed.jpg"
+  "image": "/figures/munir-ahmed.jpg",
+  "seoTitle": "Lance Naik Munir Ahmed - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Lance Naik Munir Ahmed, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Lance Naik Munir Ahmed is a Bir Sreshtho (Army Martyr) connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Lance Naik Munir Ahmed"
+  ],
+  "searchAliases": [
+    "Lance Naik Munir Ahmed",
+    "Munir",
+    "Ahmed"
+  ],
+  "faq": [
+    {
+      "question": "How is Lance Naik Munir Ahmed connected to 1971?",
+      "answer": "Lance Naik Munir Ahmed is linked to the Liberation War through the project timeline as Bir Sreshtho (Army Martyr). He continued advancing under fire during an assault and died while pressing the attack on fortified."
+    }
+  ]
 }

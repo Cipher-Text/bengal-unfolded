@@ -12,5 +12,32 @@
     "command-transition",
     "southeastern-front"
   ],
-  "image": "/figures/major-rafiqul-islam.jpg"
+  "image": "/figures/major-rafiqul-islam.jpg",
+  "seoTitle": "Major Rafiqul Islam - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Major Rafiqul Islam, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Major Rafiqul Islam is a Sector 1 Commander (Later Phase) connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "chittagong-chattogram"
+  ],
+  "alternateNames": [
+    "Major Rafiqul Islam"
+  ],
+  "searchAliases": [
+    "Major Rafiqul Islam",
+    "Major",
+    "Rafiqul",
+    "Islam"
+  ],
+  "faq": [
+    {
+      "question": "How is Major Rafiqul Islam connected to 1971?",
+      "answer": "Major Rafiqul Islam is linked to the Liberation War through the project timeline as Sector 1 Commander (Later Phase). After early command transition in Sector 1, he led operations across Chattogram and adjacent fronts against Pakistani."
+    }
+  ]
 }

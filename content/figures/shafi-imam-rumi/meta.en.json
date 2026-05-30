@@ -12,5 +12,31 @@
     "dhaka",
     "youth-sacrifice"
   ],
-  "image": "/figures/shafi-imam-rumi.jpg"
+  "image": "/figures/shafi-imam-rumi.jpg",
+  "seoTitle": "Shafi Imam Rumi - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Shafi Imam Rumi, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Shafi Imam Rumi is a Urban Guerrilla Fighter connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Shafi Imam Rumi"
+  ],
+  "searchAliases": [
+    "Shafi Imam Rumi",
+    "Shafi",
+    "Imam",
+    "Rumi"
+  ],
+  "faq": [
+    {
+      "question": "How is Shafi Imam Rumi connected to 1971?",
+      "answer": "Shafi Imam Rumi is linked to the Liberation War through the project timeline as Urban Guerrilla Fighter. As a young guerrilla linked to urban resistance networks in Dhaka, he participated in sabotage-oriented operations and was later."
+    }
+  ]
 }

@@ -16,5 +16,38 @@
     "contested-legacy",
     "sensitive-history"
   ],
-  "image": "/figures/khandaker-mushtaq-ahmed.jpg"
+  "image": "/figures/khandaker-mushtaq-ahmed.jpg",
+  "name_en": "Khandaker Mushtaq Ahmed",
+  "seoTitle": "Khandaker Mushtaq Ahmed - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Khandaker Mushtaq Ahmed, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Khandaker Mushtaq Ahmed is a Awami League politician connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1975",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-mujibnagar-government",
+    "1972-state-formation-and-the-1972-constitution",
+    "1975-august-15-assassination-of-sheikh-mujib",
+    "1975-baksal-formation-and-collapse",
+    "1975-jail-killing"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "mujibnagar"
+  ],
+  "alternateNames": [
+    "Khandaker Mushtaq Ahmed"
+  ],
+  "searchAliases": [
+    "Khandaker Mushtaq Ahmed",
+    "Khandaker",
+    "Mushtaq",
+    "Ahmed"
+  ],
+  "faq": [
+    {
+      "question": "How is Khandaker Mushtaq Ahmed connected to 1971?",
+      "answer": "Khandaker Mushtaq Ahmed is linked to the Liberation War through the project timeline as Awami League politician. Khandaker Mushtaq Ahmed was active in Awami League politics during the Pakistan period and served in the 1971 wartime provisional-government context and in."
+    }
+  ]
 }

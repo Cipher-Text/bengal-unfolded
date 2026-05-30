@@ -4,5 +4,39 @@
   "group": "organization",
   "contribution": "Founded in 1967, the Pakistan Peoples Party became a major force in national elections and constitutional politics, including the crisis period around East Pakistan in 1970-1971.",
   "context": "Late Pakistan period party competition, federal power struggle, and the transition to post-1971 politics.",
-  "impact": "Its electoral mandate in West Pakistan and political bargaining shaped the constitutional deadlock preceding the Bangladesh Liberation War."
+  "impact": "Its electoral mandate in West Pakistan and political bargaining shaped the constitutional deadlock preceding the Bangladesh Liberation War.",
+  "name_en": "Pakistan Peoples Party",
+  "seoTitle": "Pakistan Peoples Party - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Pakistan Peoples Party, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Pakistan Peoples Party is a Political Party in Pakistan connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1972",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Pakistan Peoples Party"
+  ],
+  "searchAliases": [
+    "Pakistan Peoples Party",
+    "Pakistan",
+    "Peoples",
+    "Party"
+  ],
+  "faq": [
+    {
+      "question": "How is Pakistan Peoples Party connected to 1971?",
+      "answer": "Pakistan Peoples Party is linked to the Liberation War through the project timeline as Political Party in Pakistan. Founded in 1967, the Pakistan Peoples Party became a major force in national elections and constitutional politics, including the crisis period around East."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "military-command",
+    "political-leadership"
+  ]
 }

@@ -12,5 +12,34 @@
     "sector-command",
     "z-force"
   ],
-  "image": "/figures/ziaur-rahman.jpg"
+  "image": "/figures/ziaur-rahman.jpg",
+  "seoTitle": "Ziaur Rahman - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Ziaur Rahman, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Ziaur Rahman is a Sector Commander and Z Force Commander connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1975",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1975-august-15-assassination-of-sheikh-mujib",
+    "1975-baksal-formation-and-collapse",
+    "1975-november-7-sepoy-janata-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "chittagong-chattogram"
+  ],
+  "alternateNames": [
+    "Ziaur Rahman"
+  ],
+  "searchAliases": [
+    "Ziaur Rahman",
+    "Ziaur",
+    "Rahman"
+  ],
+  "faq": [
+    {
+      "question": "How is Ziaur Rahman connected to 1971?",
+      "answer": "Ziaur Rahman is linked to the Liberation War through the project timeline as Sector Commander and Z Force Commander. He announced the declaration of independence over radio at Kalurghat and later commanded Sector 1, Sector 11, and Z Force in combat."
+    }
+  ]
 }

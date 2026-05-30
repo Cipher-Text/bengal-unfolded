@@ -4,5 +4,36 @@
   "group": "leader",
   "contribution": "Indira Gandhi is included as a key historical actor for understanding this chapter's political and social context.",
   "context": "Indias wartime diplomatic and military posture during the 1971 conflict.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period.",
+  "name_en": "Indira Gandhi",
+  "seoTitle": "Indira Gandhi - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Indira Gandhi, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Indira Gandhi is a Prime Minister of India connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Indira Gandhi"
+  ],
+  "searchAliases": [
+    "Indira Gandhi",
+    "Indira",
+    "Gandhi"
+  ],
+  "faq": [
+    {
+      "question": "How is Indira Gandhi connected to 1971?",
+      "answer": "Indira Gandhi is linked to the Liberation War through the project timeline as Prime Minister of India. Indira Gandhi is included as a key historical actor for understanding this chapter's political and social."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "political-leadership"
+  ]
 }

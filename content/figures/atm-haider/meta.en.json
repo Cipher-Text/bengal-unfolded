@@ -12,5 +12,31 @@
     "command-transition",
     "guerrilla"
   ],
-  "image": "/figures/atm-haider.jpg"
+  "image": "/figures/atm-haider.jpg",
+  "seoTitle": "A. T. M. Haider - 1971 Liberation War Profile",
+  "seoDescription": "Profile of A. T. M. Haider, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "A. T. M. Haider is a Sector Commander (Sector 2, later phase) connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-akhaura-front-battle-of-daruin"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "A. T. M. Haider"
+  ],
+  "searchAliases": [
+    "ATM Haider",
+    "A. T. M. Haider",
+    "Haider"
+  ],
+  "faq": [
+    {
+      "question": "How is A. T. M. Haider connected to 1971?",
+      "answer": "A. T. M. Haider is linked to the Liberation War through the project timeline as Sector Commander (Sector 2, later phase). After Khaled Mosharraf was wounded, he took command in Sector 2 and continued major guerrilla."
+    }
+  ]
 }

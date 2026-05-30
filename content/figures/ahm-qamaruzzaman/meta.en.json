@@ -12,5 +12,31 @@
     "governance",
     "leadership"
   ],
-  "image": "/figures/ahm-qamaruzzaman.jpg"
+  "image": "/figures/ahm-qamaruzzaman.jpg",
+  "seoTitle": "A. H. M. Qamaruzzaman - 1971 Liberation War Profile",
+  "seoDescription": "Profile of A. H. M. Qamaruzzaman, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "A. H. M. Qamaruzzaman is a Home Affairs Leader in the Provisional Government connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1975",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1975-baksal-formation-and-collapse",
+    "1975-jail-killing"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "A. H. M. Qamaruzzaman"
+  ],
+  "searchAliases": [
+    "A. H. M. Qamaruzzaman",
+    "Qamaruzzaman"
+  ],
+  "faq": [
+    {
+      "question": "How is A. H. M. Qamaruzzaman connected to 1971?",
+      "answer": "A. H. M. Qamaruzzaman is linked to the Liberation War through the project timeline as Home Affairs Leader in the Provisional Government. He served in the provisional cabinet and helped oversee internal administration and political coordination during the."
+    }
+  ]
 }

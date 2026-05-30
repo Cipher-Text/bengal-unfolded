@@ -12,5 +12,33 @@
     "epr",
     "jessore"
   ],
-  "image": "/figures/noor-mohammad-sheikh.jpg"
+  "image": "/figures/noor-mohammad-sheikh.jpg",
+  "seoTitle": "Noor Mohammad Sheikh - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Noor Mohammad Sheikh, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Noor Mohammad Sheikh is a Bir Sreshtho (EPR Martyr) connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-battle-of-jessore"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "jessore-khulna-corridor"
+  ],
+  "alternateNames": [
+    "Noor Mohammad Sheikh"
+  ],
+  "searchAliases": [
+    "Noor Mohammad Sheikh",
+    "Noor",
+    "Mohammad",
+    "Sheikh"
+  ],
+  "faq": [
+    {
+      "question": "How is Noor Mohammad Sheikh connected to 1971?",
+      "answer": "Noor Mohammad Sheikh is linked to the Liberation War through the project timeline as Bir Sreshtho (EPR Martyr). He protected fellow fighters during a withdrawal by engaging enemy troops at close range and was killed in."
+    }
+  ]
 }

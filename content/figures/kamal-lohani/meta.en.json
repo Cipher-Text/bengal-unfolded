@@ -5,5 +5,36 @@
   "contribution": "He represented the cultural current that aligned artists and civic voices with the democratic movement.",
   "context": "Bangladesh's anti-Ershad movement and democratic transition in the late 1980s and 1990.",
   "impact": "Their role helped expand, legitimize, or complete the democratic uprising that ended authoritarian rule.",
-  "image": "/figures/kamal-lohani.jpg"
+  "image": "/figures/kamal-lohani.jpg",
+  "name_en": "Kamal Lohani",
+  "seoTitle": "Kamal Lohani - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Kamal Lohani, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Kamal Lohani is a Cultural Activist connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Kamal Lohani"
+  ],
+  "searchAliases": [
+    "Kamal Lohani",
+    "Kamal",
+    "Lohani"
+  ],
+  "faq": [
+    {
+      "question": "How is Kamal Lohani connected to 1971?",
+      "answer": "Kamal Lohani is linked to the Liberation War through the project timeline as Cultural Activist. He represented the cultural current that aligned artists and civic voices with the democratic."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "culture"
+  ]
 }

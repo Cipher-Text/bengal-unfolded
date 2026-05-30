@@ -6,5 +6,36 @@
   "contribution": "Zohra Tajuddin was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
   "context": "South Asian political and intellectual history in the Bengal region.",
   "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history.",
-  "image": "/figures/zohra-tajuddin.jpg"
+  "image": "/figures/zohra-tajuddin.jpg",
+  "seoTitle": "Zohra Tajuddin - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Zohra Tajuddin, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Zohra Tajuddin is a Political activist connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1975",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1975-august-15-assassination-of-sheikh-mujib"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Zohra Tajuddin"
+  ],
+  "searchAliases": [
+    "Zohra Tajuddin",
+    "Zohra",
+    "Tajuddin"
+  ],
+  "faq": [
+    {
+      "question": "How is Zohra Tajuddin connected to 1971?",
+      "answer": "Zohra Tajuddin is linked to the Liberation War through the project timeline as Political activist. Zohra Tajuddin was an important figure in the political and historical trajectory of Bengal and."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "political-leadership"
+  ]
 }

@@ -12,5 +12,32 @@
     "mukti-bahini",
     "strategy"
   ],
-  "image": "/figures/mag-osmani.jpg"
+  "image": "/figures/mag-osmani.jpg",
+  "seoTitle": "M. A. G. Osmani - 1971 Liberation War Profile",
+  "seoDescription": "Profile of M. A. G. Osmani, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "M. A. G. Osmani is a Commander-in-Chief of Bangladesh Forces connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-operation-jackpot",
+    "1971-riverine-operations"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "jessore-khulna-corridor"
+  ],
+  "alternateNames": [
+    "M. A. G. Osmani"
+  ],
+  "searchAliases": [
+    "M. A. G. Osmani",
+    "Osmani"
+  ],
+  "faq": [
+    {
+      "question": "How is M. A. G. Osmani connected to 1971?",
+      "answer": "M. A. G. Osmani is linked to the Liberation War through the project timeline as Commander-in-Chief of Bangladesh Forces. As commander-in-chief, he led the overall military structure of the Bangladesh Forces and coordinated sector-based resistance."
+    }
+  ]
 }

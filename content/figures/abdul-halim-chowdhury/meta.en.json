@@ -12,5 +12,31 @@
     "academia",
     "martyrdom"
   ],
-  "image": "/figures/abdul-halim-chowdhury.jpg"
+  "image": "/figures/abdul-halim-chowdhury.jpg",
+  "seoTitle": "Abdul Halim Chowdhury - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Abdul Halim Chowdhury, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Abdul Halim Chowdhury is a Academic and Martyred Intellectual connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Abdul Halim Chowdhury"
+  ],
+  "searchAliases": [
+    "Abdul Halim Chowdhury",
+    "Abdul",
+    "Halim",
+    "Chowdhury"
+  ],
+  "faq": [
+    {
+      "question": "How is Abdul Halim Chowdhury connected to 1971?",
+      "answer": "Abdul Halim Chowdhury is linked to the Liberation War through the project timeline as Academic and Martyred Intellectual. A university academic figure, he is remembered among those intellectuals targeted during the war."
+    }
+  ]
 }

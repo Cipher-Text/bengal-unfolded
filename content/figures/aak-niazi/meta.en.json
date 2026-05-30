@@ -4,5 +4,46 @@
   "group": "leader",
   "contribution": "A. A. K. Niazi is included as a key historical actor for understanding this chapter's political and social context.",
   "context": "Pakistan military command structure in East Pakistan during 1971.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period.",
+  "name_en": "A. A. K. Niazi",
+  "seoTitle": "A. A. K. Niazi - 1971 Liberation War Profile",
+  "seoDescription": "Profile of A. A. K. Niazi, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "A. A. K. Niazi is a Commander of Pakistan Eastern Command connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-operation-searchlight-crackdown",
+    "1971-liberation-war",
+    "1971-december-16-instrument-of-surrender",
+    "1971-battle-of-garibpur",
+    "1971-battle-of-hilli",
+    "1971-battle-of-sylhet",
+    "1971-chuknagar-massacre",
+    "1971-tangail-airdrop"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "dhaka-jahangirnagar",
+    "racecourse-suhrawardy-udyan",
+    "sylhet"
+  ],
+  "alternateNames": [
+    "A. A. K. Niazi"
+  ],
+  "searchAliases": [
+    "A. A. K. Niazi",
+    "Niazi"
+  ],
+  "faq": [
+    {
+      "question": "How is A. A. K. Niazi connected to 1971?",
+      "answer": "A. A. K. Niazi is linked to the Liberation War through the project timeline as Commander of Pakistan Eastern Command. A. A. K. Niazi is included as a key historical actor for understanding this chapter's political and social."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "military-command",
+    "political-leadership"
+  ]
 }

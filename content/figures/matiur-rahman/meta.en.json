@@ -12,5 +12,30 @@
     "air-force",
     "defection"
   ],
-  "image": "/figures/matiur-rahman.jpg"
+  "image": "/figures/matiur-rahman.jpg",
+  "seoTitle": "Matiur Rahman - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Matiur Rahman, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Matiur Rahman is a Bir Sreshtho (Air Force Martyr) connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Matiur Rahman"
+  ],
+  "searchAliases": [
+    "Matiur Rahman",
+    "Matiur",
+    "Rahman"
+  ],
+  "faq": [
+    {
+      "question": "How is Matiur Rahman connected to 1971?",
+      "answer": "Matiur Rahman is linked to the Liberation War through the project timeline as Bir Sreshtho (Air Force Martyr). He attempted to defect with a Pakistani aircraft to join the liberation cause and died when the aircraft."
+    }
+  ]
 }

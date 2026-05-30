@@ -6,5 +6,38 @@
   "contribution": "Zahir Raihan significantly influenced Bengal and Bangladesh intellectual-cultural history.",
   "context": "South Asian intellectual and cultural transformations in the Bengal region.",
   "impact": "Their work remains important for understanding modern Bengali identity, knowledge, and public life.",
-  "image": "/figures/zahir-raihan.jpg"
+  "image": "/figures/zahir-raihan.jpg",
+  "seoTitle": "Zahir Raihan - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Zahir Raihan, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Zahir Raihan is a Filmmaker and writer connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-operation-searchlight-crackdown",
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Zahir Raihan"
+  ],
+  "searchAliases": [
+    "Zahir Raihan",
+    "Zahir",
+    "Raihan"
+  ],
+  "faq": [
+    {
+      "question": "How is Zahir Raihan connected to 1971?",
+      "answer": "Zahir Raihan is linked to the Liberation War through the project timeline as Filmmaker and writer. Zahir Raihan significantly influenced Bengal and Bangladesh intellectual-cultural."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "intellectual-history",
+    "culture"
+  ]
 }

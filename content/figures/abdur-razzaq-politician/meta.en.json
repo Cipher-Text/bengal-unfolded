@@ -6,5 +6,36 @@
   "contribution": "Abdur Razzaq was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
   "context": "South Asian political and intellectual history in the Bengal region.",
   "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history.",
-  "image": "/figures/abdur-razzaq-politician.jpg"
+  "image": "/figures/abdur-razzaq-politician.jpg",
+  "seoTitle": "Abdur Razzaq - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Abdur Razzaq, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Abdur Razzaq is a Politician connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Abdur Razzaq"
+  ],
+  "searchAliases": [
+    "Abdur Razzaq",
+    "Abdur",
+    "Razzaq",
+    "Politician"
+  ],
+  "faq": [
+    {
+      "question": "How is Abdur Razzaq connected to 1971?",
+      "answer": "Abdur Razzaq is linked to the Liberation War through the project timeline as Politician. Abdur Razzaq was an important figure in the political and historical trajectory of Bengal and."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "political-leadership"
+  ]
 }

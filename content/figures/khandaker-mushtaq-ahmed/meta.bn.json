@@ -17,5 +17,35 @@
     "বিতর্কিত-উত্তরাধিকার",
     "সংবেদনশীল-ইতিহাস"
   ],
-  "image": "/figures/khandaker-mushtaq-ahmed.jpg"
+  "image": "/figures/khandaker-mushtaq-ahmed.jpg",
+  "seoTitle": "খন্দকার মোশতাক আহমেদ - ১৯৭১ মুক্তিযুদ্ধ প্রোফাইল",
+  "seoDescription": "খন্দকার মোশতাক আহমেদ প্রোফাইল: ১৯৭১ সালের মুক্তিযুদ্ধ, ঐতিহাসিক ভূমিকা এবং বাংলাদেশের সংশ্লিষ্ট ইতিহাস।",
+  "shortAnswer": "খন্দকার মোশতাক আহমেদ এই টাইমলাইনে ১৯৭১ সালের মুক্তিযুদ্ধের সঙ্গে যুক্ত পাকিস্তান আমলের আওয়ামী লীগ রাজনীতিক।",
+  "activePeriod": "১৯৭১-১৯৭৫",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-mujibnagar-government",
+    "1972-state-formation-and-the-1972-constitution",
+    "1975-august-15-assassination-of-sheikh-mujib",
+    "1975-baksal-formation-and-collapse",
+    "1975-jail-killing"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "mujibnagar"
+  ],
+  "alternateNames": [
+    "খন্দকার মোশতাক আহমেদ"
+  ],
+  "searchAliases": [
+    "খন্দকার মোশতাক আহমেদ",
+    "Khandaker Mushtaq Ahmed"
+  ],
+  "faq": [
+    {
+      "question": "১৯৭১ সালের সঙ্গে খন্দকার মোশতাক আহমেদ কীভাবে যুক্ত?",
+      "answer": "খন্দকার মোশতাক আহমেদ এই টাইমলাইনে পাকিস্তান আমলের আওয়ামী লীগ রাজনীতিক হিসেবে মুক্তিযুদ্ধের সঙ্গে যুক্ত। খন্দকার মোশতাক আহমেদ পাকিস্তান আমলে আওয়ামী লীগের রাজনীতিতে সক্রিয় ছিলেন এবং ১৯৭১ সালের যুদ্ধকালীন অস্থায়ী সরকার-প্রেক্ষাপট ও স্বাধীনতা-পরবর্তী মন্ত্রিসভায় ভূমিকা পালন।"
+    }
+  ]
 }

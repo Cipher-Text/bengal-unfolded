@@ -12,5 +12,32 @@
     "doctor",
     "martyrdom"
   ],
-  "image": "/figures/alim-chowdhury.jpg"
+  "image": "/figures/alim-chowdhury.jpg",
+  "seoTitle": "Dr Alim Chowdhury - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Dr Alim Chowdhury, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Dr Alim Chowdhury is a Martyred Physician-Intellectual connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-december-14-intellectual-killings"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Dr Alim Chowdhury"
+  ],
+  "searchAliases": [
+    "Dr Alim Chowdhury",
+    "Alim",
+    "Chowdhury"
+  ],
+  "faq": [
+    {
+      "question": "How is Dr Alim Chowdhury connected to 1971?",
+      "answer": "Dr Alim Chowdhury is linked to the Liberation War through the project timeline as Martyred Physician-Intellectual. A prominent eye specialist, he was abducted and killed in December 1971 in the targeted killing of."
+    }
+  ]
 }

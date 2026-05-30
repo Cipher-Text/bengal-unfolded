@@ -12,5 +12,30 @@
     "music",
     "patriotic-memory"
   ],
-  "image": "/figures/shahnaz-rahmatullah.jpg"
+  "image": "/figures/shahnaz-rahmatullah.jpg",
+  "seoTitle": "Shahnaz Rahmatullah - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Shahnaz Rahmatullah, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Shahnaz Rahmatullah is a Patriotic Cultural Voice connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Shahnaz Rahmatullah"
+  ],
+  "searchAliases": [
+    "Shahnaz Rahmatullah",
+    "Shahnaz",
+    "Rahmatullah"
+  ],
+  "faq": [
+    {
+      "question": "How is Shahnaz Rahmatullah connected to 1971?",
+      "answer": "Shahnaz Rahmatullah is linked to the Liberation War through the project timeline as Patriotic Cultural Voice. Her songs became deeply associated with Bangladesh’s patriotic memory and wartime-era emotional."
+    }
+  ]
 }

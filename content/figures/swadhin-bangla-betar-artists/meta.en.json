@@ -12,5 +12,32 @@
     "media",
     "collective-memory"
   ],
-  "image": "/figures/swadhin-bangla-betar-artists.jpg"
+  "image": "/figures/swadhin-bangla-betar-artists.jpg",
+  "seoTitle": "Artists of Swadhin Bangla Betar Kendra - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Artists of Swadhin Bangla Betar Kendra, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Artists of Swadhin Bangla Betar Kendra is a Cultural Front connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Artists of Swadhin Bangla Betar Kendra"
+  ],
+  "searchAliases": [
+    "Artists of Swadhin Bangla Betar Kendra",
+    "Swadhin",
+    "Bangla",
+    "Betar",
+    "Artists"
+  ],
+  "faq": [
+    {
+      "question": "How is Artists of Swadhin Bangla Betar Kendra connected to 1971?",
+      "answer": "Artists of Swadhin Bangla Betar Kendra is linked to the Liberation War through the project timeline as Cultural Front. Through songs, poetry, news, and satire, they sustained wartime morale and carried the message of liberation across."
+    }
+  ]
 }

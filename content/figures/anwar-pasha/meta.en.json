@@ -12,5 +12,32 @@
     "literature",
     "december-14"
   ],
-  "image": "/figures/anwar-pasha.jpg"
+  "image": "/figures/anwar-pasha.jpg",
+  "seoTitle": "Anwar Pasha - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Anwar Pasha, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Anwar Pasha is a Martyred Writer and Academic connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-december-14-intellectual-killings"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Anwar Pasha"
+  ],
+  "searchAliases": [
+    "Anwar Pasha",
+    "Anwar",
+    "Pasha"
+  ],
+  "faq": [
+    {
+      "question": "How is Anwar Pasha connected to 1971?",
+      "answer": "Anwar Pasha is linked to the Liberation War through the project timeline as Martyred Writer and Academic. A novelist and professor, he was abducted and killed in the December 1971 intellectual."
+    }
+  ]
 }

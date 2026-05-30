@@ -12,5 +12,32 @@
     "s-force",
     "military-command"
   ],
-  "image": "/figures/km-shafiullah.jpg"
+  "image": "/figures/km-shafiullah.jpg",
+  "seoTitle": "K. M. Shafiullah - 1971 Liberation War Profile",
+  "seoDescription": "Profile of K. M. Shafiullah, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "K. M. Shafiullah is a Sector 3 Commander and S Force Leader connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-december-16-instrument-of-surrender"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "dhaka-jahangirnagar",
+    "racecourse-suhrawardy-udyan"
+  ],
+  "alternateNames": [
+    "K. M. Shafiullah"
+  ],
+  "searchAliases": [
+    "K. M. Shafiullah",
+    "Shafiullah"
+  ],
+  "faq": [
+    {
+      "question": "How is K. M. Shafiullah connected to 1971?",
+      "answer": "K. M. Shafiullah is linked to the Liberation War through the project timeline as Sector 3 Commander and S Force Leader. He commanded Sector 3 and later S Force, leading regular and guerrilla engagements against Pakistani."
+    }
+  ]
 }

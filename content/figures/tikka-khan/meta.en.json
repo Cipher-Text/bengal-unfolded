@@ -6,5 +6,41 @@
   "contribution": "Tikka Khan was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
   "context": "South Asian political and intellectual history in the Bengal region.",
   "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history.",
-  "image": "/figures/tikka-khan.jpg"
+  "image": "/figures/tikka-khan.jpg",
+  "seoTitle": "Tikka Khan - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Tikka Khan, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Tikka Khan is a Pakistan Army general connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-operation-searchlight-crackdown",
+    "1971-liberation-war",
+    "1971-chuknagar-massacre",
+    "1971-jinjira-massacre",
+    "1971-old-dhaka-killings"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Tikka Khan"
+  ],
+  "searchAliases": [
+    "Tikka Khan",
+    "Tikka",
+    "Khan"
+  ],
+  "faq": [
+    {
+      "question": "How is Tikka Khan connected to 1971?",
+      "answer": "Tikka Khan is linked to the Liberation War through the project timeline as Pakistan Army general. Tikka Khan was an important figure in the political and historical trajectory of Bengal and."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "military-command",
+    "political-leadership"
+  ]
 }

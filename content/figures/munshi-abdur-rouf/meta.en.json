@@ -12,5 +12,31 @@
     "rangamati",
     "martyrdom"
   ],
-  "image": "/figures/munshi-abdur-rouf.jpg"
+  "image": "/figures/munshi-abdur-rouf.jpg",
+  "seoTitle": "Munshi Abdur Rouf - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Munshi Abdur Rouf, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Munshi Abdur Rouf is a Bir Sreshtho (Army Martyr) connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Munshi Abdur Rouf"
+  ],
+  "searchAliases": [
+    "Munshi Abdur Rouf",
+    "Munshi",
+    "Abdur",
+    "Rouf"
+  ],
+  "faq": [
+    {
+      "question": "How is Munshi Abdur Rouf connected to 1971?",
+      "answer": "Munshi Abdur Rouf is linked to the Liberation War through the project timeline as Bir Sreshtho (Army Martyr). During fighting near Rangamati, he defended retreating troops with sustained machine-gun fire and died under."
+    }
+  ]
 }

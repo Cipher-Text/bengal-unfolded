@@ -12,5 +12,35 @@
     "leadership",
     "1971"
   ],
-  "image": "/figures/syed-nazrul-islam.jpg"
+  "image": "/figures/syed-nazrul-islam.jpg",
+  "seoTitle": "Syed Nazrul Islam - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Syed Nazrul Islam, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Syed Nazrul Islam is a Acting President of the Provisional Government connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1975",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-mujibnagar-government",
+    "1975-baksal-formation-and-collapse",
+    "1975-jail-killing"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "mujibnagar"
+  ],
+  "alternateNames": [
+    "Syed Nazrul Islam"
+  ],
+  "searchAliases": [
+    "Syed Nazrul Islam",
+    "Syed",
+    "Nazrul",
+    "Islam"
+  ],
+  "faq": [
+    {
+      "question": "How is Syed Nazrul Islam connected to 1971?",
+      "answer": "Syed Nazrul Islam is linked to the Liberation War through the project timeline as Acting President of the Provisional Government. He preserved constitutional continuity of the wartime state and stabilized political decision-making during a period of leadership."
+    }
+  ]
 }

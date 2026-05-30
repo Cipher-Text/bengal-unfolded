@@ -12,5 +12,30 @@
     "freedom-fighter",
     "veteran"
   ],
-  "image": "/figures/hafizuddin-ahmed.jpg"
+  "image": "/figures/hafizuddin-ahmed.jpg",
+  "seoTitle": "Captain Hafizuddin Ahmed - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Captain Hafizuddin Ahmed, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Captain Hafizuddin Ahmed is a Freedom Fighter and Field Officer connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Captain Hafizuddin Ahmed"
+  ],
+  "searchAliases": [
+    "Captain Hafizuddin Ahmed",
+    "Hafizuddin",
+    "Ahmed"
+  ],
+  "faq": [
+    {
+      "question": "How is Captain Hafizuddin Ahmed connected to 1971?",
+      "answer": "Captain Hafizuddin Ahmed is linked to the Liberation War through the project timeline as Freedom Fighter and Field Officer. He served in combat leadership roles during the Liberation War and later remained publicly identified as a veteran freedom."
+    }
+  ]
 }

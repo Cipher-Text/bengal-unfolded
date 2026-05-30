@@ -12,5 +12,28 @@
     "legacy",
     "martyr"
   ],
-  "image": "/figures/shamsuzzoha.jpg"
+  "image": "/figures/shamsuzzoha.jpg",
+  "seoTitle": "Shamsuzzoha - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Shamsuzzoha, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Shamsuzzoha is a Symbol of Pre-1971 Resistance Legacy connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Shamsuzzoha"
+  ],
+  "searchAliases": [
+    "Shamsuzzoha"
+  ],
+  "faq": [
+    {
+      "question": "How is Shamsuzzoha connected to 1971?",
+      "answer": "Shamsuzzoha is linked to the Liberation War through the project timeline as Symbol of Pre-1971 Resistance Legacy. Although martyred in 1969, his sacrifice became part of the political-moral trajectory that fed into the 1971 liberation."
+    }
+  ]
 }

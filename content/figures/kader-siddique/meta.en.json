@@ -12,5 +12,31 @@
     "tangail",
     "guerrilla"
   ],
-  "image": "/figures/kader-siddique.jpg"
+  "image": "/figures/kader-siddique.jpg",
+  "seoTitle": "Abdul Kader Siddique - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Abdul Kader Siddique, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Abdul Kader Siddique is a Guerrilla Commander ('Tiger Siddique') connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-tangail-airdrop"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Abdul Kader Siddique"
+  ],
+  "searchAliases": [
+    "Abdul Kader Siddique",
+    "Kader",
+    "Siddique"
+  ],
+  "faq": [
+    {
+      "question": "How is Abdul Kader Siddique connected to 1971?",
+      "answer": "Abdul Kader Siddique is linked to the Liberation War through the project timeline as Guerrilla Commander ('Tiger Siddique'). He organized and led the Kaderia Bahini in Tangail, conducting persistent guerrilla operations against occupation."
+    }
+  ]
 }

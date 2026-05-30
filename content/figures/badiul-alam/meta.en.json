@@ -12,5 +12,30 @@
     "clandestine",
     "1971"
   ],
-  "image": "/figures/badiul-alam.jpg"
+  "image": "/figures/badiul-alam.jpg",
+  "seoTitle": "Badiul Alam - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Badiul Alam, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Badiul Alam is a Urban Resistance Fighter connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Badiul Alam"
+  ],
+  "searchAliases": [
+    "Badiul Alam",
+    "Badiul",
+    "Alam"
+  ],
+  "faq": [
+    {
+      "question": "How is Badiul Alam connected to 1971?",
+      "answer": "Badiul Alam is linked to the Liberation War through the project timeline as Urban Resistance Fighter. He is remembered among the urban resistance participants who helped sustain clandestine anti-occupation."
+    }
+  ]
 }

@@ -12,5 +12,33 @@
     "নেতৃত্ব",
     "১৯৭১"
   ],
-  "image": "/figures/syed-nazrul-islam.jpg"
+  "image": "/figures/syed-nazrul-islam.jpg",
+  "seoTitle": "সৈয়দ নজরুল ইসলাম - ১৯৭১ মুক্তিযুদ্ধ প্রোফাইল",
+  "seoDescription": "সৈয়দ নজরুল ইসলাম প্রোফাইল: ১৯৭১ সালের মুক্তিযুদ্ধ, ঐতিহাসিক ভূমিকা এবং বাংলাদেশের সংশ্লিষ্ট ইতিহাস।",
+  "shortAnswer": "সৈয়দ নজরুল ইসলাম এই টাইমলাইনে ১৯৭১ সালের মুক্তিযুদ্ধের সঙ্গে যুক্ত অস্থায়ী রাষ্ট্রপতি।",
+  "activePeriod": "১৯৭১-১৯৭৫",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-mujibnagar-government",
+    "1975-baksal-formation-and-collapse",
+    "1975-jail-killing"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "mujibnagar"
+  ],
+  "alternateNames": [
+    "সৈয়দ নজরুল ইসলাম"
+  ],
+  "searchAliases": [
+    "সৈয়দ নজরুল ইসলাম",
+    "Syed Nazrul Islam"
+  ],
+  "faq": [
+    {
+      "question": "১৯৭১ সালের সঙ্গে সৈয়দ নজরুল ইসলাম কীভাবে যুক্ত?",
+      "answer": "সৈয়দ নজরুল ইসলাম এই টাইমলাইনে অস্থায়ী রাষ্ট্রপতি হিসেবে মুক্তিযুদ্ধের সঙ্গে যুক্ত। প্রবাসী রাষ্ট্র কাঠামোর সাংবিধানিক ধারাবাহিকতা রক্ষা করে মুক্তিযুদ্ধের রাজনৈতিক নেতৃত্বকে বৈধতা দেন এবং সিদ্ধান্তপ্রক্রিয়ায় স্থিতি বজায়।"
+    }
+  ]
 }

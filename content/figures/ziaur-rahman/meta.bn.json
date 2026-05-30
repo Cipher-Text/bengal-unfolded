@@ -11,5 +11,34 @@
     "সেক্টর কমান্ড",
     "জেড ফোর্স"
   ],
-  "image": "/figures/ziaur-rahman.jpg"
+  "image": "/figures/ziaur-rahman.jpg",
+  "name_en": "Ziaur Rahman",
+  "seoTitle": "জিয়াউর রহমান - ১৯৭১ মুক্তিযুদ্ধ প্রোফাইল",
+  "seoDescription": "জিয়াউর রহমান প্রোফাইল: ১৯৭১ সালের মুক্তিযুদ্ধ, ঐতিহাসিক ভূমিকা এবং বাংলাদেশের সংশ্লিষ্ট ইতিহাস।",
+  "shortAnswer": "জিয়াউর রহমান এই টাইমলাইনে ১৯৭১ সালের মুক্তিযুদ্ধের সঙ্গে যুক্ত সেক্টর কমান্ডার ও জেড ফোর্স কমান্ডার।",
+  "activePeriod": "১৯৭১-১৯৭৫",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1975-august-15-assassination-of-sheikh-mujib",
+    "1975-baksal-formation-and-collapse",
+    "1975-november-7-sepoy-janata-uprising"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "chittagong-chattogram"
+  ],
+  "alternateNames": [
+    "জিয়াউর রহমান"
+  ],
+  "searchAliases": [
+    "জিয়াউর রহমান",
+    "Ziaur Rahman"
+  ],
+  "faq": [
+    {
+      "question": "১৯৭১ সালের সঙ্গে জিয়াউর রহমান কীভাবে যুক্ত?",
+      "answer": "জিয়াউর রহমান এই টাইমলাইনে সেক্টর কমান্ডার ও জেড ফোর্স কমান্ডার হিসেবে মুক্তিযুদ্ধের সঙ্গে যুক্ত। কালুরঘাট বেতার থেকে স্বাধীনতার ঘোষণা পাঠের মাধ্যমে প্রতিরোধে গতি আনেন; পরে সেক্টর ১, সেক্টর ১১ ও জেড ফোর্সে কমান্ড।"
+    }
+  ]
 }

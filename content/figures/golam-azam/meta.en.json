@@ -6,5 +6,35 @@
   "contribution": "Ghulam Azam played a significant role in the political developments tied to Bangladesh's state trajectory.",
   "context": "Pakistan and Bangladesh period political transitions.",
   "impact": "The figure remains important in debates over political legitimacy, state power, and historical memory.",
-  "image": "/figures/golam-azam.jpg"
+  "image": "/figures/golam-azam.jpg",
+  "seoTitle": "Ghulam Azam - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Ghulam Azam, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Ghulam Azam is a Islamist political leader connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Ghulam Azam"
+  ],
+  "searchAliases": [
+    "Ghulam Azam",
+    "Golam",
+    "Azam"
+  ],
+  "faq": [
+    {
+      "question": "How is Ghulam Azam connected to 1971?",
+      "answer": "Ghulam Azam is linked to the Liberation War through the project timeline as Islamist political leader. Ghulam Azam played a significant role in the political developments tied to Bangladesh's state."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "political-leadership"
+  ]
 }

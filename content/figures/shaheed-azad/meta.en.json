@@ -12,5 +12,30 @@
     "martyr",
     "memory"
   ],
-  "image": "/figures/shaheed-azad.jpg"
+  "image": "/figures/shaheed-azad.jpg",
+  "seoTitle": "Azad (Shaheed Azad) - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Azad (Shaheed Azad), focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Azad (Shaheed Azad) is a Urban Guerrilla Martyr connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Azad (Shaheed Azad)"
+  ],
+  "searchAliases": [
+    "Azad (Shaheed Azad)",
+    "Shaheed",
+    "Azad"
+  ],
+  "faq": [
+    {
+      "question": "How is Azad (Shaheed Azad) connected to 1971?",
+      "answer": "Azad (Shaheed Azad) is linked to the Liberation War through the project timeline as Urban Guerrilla Martyr. Known as 'Shaheed Azad', he became associated with urban guerrilla resistance and paid with his life under occupation-era."
+    }
+  ]
 }

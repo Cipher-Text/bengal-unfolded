@@ -12,5 +12,31 @@
     "international-advocacy",
     "state-legitimacy"
   ],
-  "image": "/figures/abu-sayeed-chowdhury.jpg"
+  "image": "/figures/abu-sayeed-chowdhury.jpg",
+  "seoTitle": "Abu Sayeed Chowdhury - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Abu Sayeed Chowdhury, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Abu Sayeed Chowdhury is a Diplomatic Face of the Liberation Cause connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971-1972",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Abu Sayeed Chowdhury"
+  ],
+  "searchAliases": [
+    "Abu Sayeed Chowdhury",
+    "Sayeed",
+    "Chowdhury"
+  ],
+  "faq": [
+    {
+      "question": "How is Abu Sayeed Chowdhury connected to 1971?",
+      "answer": "Abu Sayeed Chowdhury is linked to the Liberation War through the project timeline as Diplomatic Face of the Liberation Cause. From abroad, he advanced Bangladesh’s diplomatic case and helped communicate the legitimacy of the independence struggle."
+    }
+  ]
 }

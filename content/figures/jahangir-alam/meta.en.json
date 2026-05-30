@@ -12,5 +12,30 @@
     "local-resistance",
     "1971"
   ],
-  "image": "/figures/jahangir-alam.jpg"
+  "image": "/figures/jahangir-alam.jpg",
+  "seoTitle": "Jahangir Alam - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Jahangir Alam, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Jahangir Alam is a Freedom Fighter connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Jahangir Alam"
+  ],
+  "searchAliases": [
+    "Jahangir Alam",
+    "Jahangir",
+    "Alam"
+  ],
+  "faq": [
+    {
+      "question": "How is Jahangir Alam connected to 1971?",
+      "answer": "Jahangir Alam is linked to the Liberation War through the project timeline as Freedom Fighter. He is remembered within liberation-war accounts as part of organized resistance."
+    }
+  ]
 }

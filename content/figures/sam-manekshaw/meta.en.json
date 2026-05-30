@@ -4,5 +4,41 @@
   "group": "leader",
   "contribution": "Sam Manekshaw is included as a key historical actor for understanding this chapter's political and social context.",
   "context": "Indian military command during the Bangladesh Liberation War theatre.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period.",
+  "name_en": "Sam Manekshaw",
+  "seoTitle": "Sam Manekshaw - 1971 Liberation War Profile",
+  "seoDescription": "Profile of Sam Manekshaw, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
+  "shortAnswer": "Sam Manekshaw is a Chief of Army Staff of India connected to the 1971 Liberation War in this timeline.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "1971-battle-of-garibpur",
+    "1971-battle-of-hilli",
+    "1971-battle-of-sylhet",
+    "1971-tangail-airdrop"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "sylhet"
+  ],
+  "alternateNames": [
+    "Sam Manekshaw"
+  ],
+  "searchAliases": [
+    "Sam Manekshaw",
+    "Manekshaw"
+  ],
+  "faq": [
+    {
+      "question": "How is Sam Manekshaw connected to 1971?",
+      "answer": "Sam Manekshaw is linked to the Liberation War through the project timeline as Chief of Army Staff of India. Sam Manekshaw is included as a key historical actor for understanding this chapter's political and social."
+    }
+  ],
+  "tags": [
+    "1971",
+    "liberation-war",
+    "military-command",
+    "political-leadership"
+  ]
 }
