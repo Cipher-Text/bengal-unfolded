@@ -2,22 +2,23 @@
   "slug": "ancient-and-early-medieval-bengal",
   "priority": 2,
   "title": "প্রাচীন বাংলা ও নগর সভ্যতা",
-  "tagline": "নগরায়ণ, প্রারম্ভিক রাজ্য ও আঞ্চলিক রাষ্ট্রগঠন",
-  "intro": "সুলতানি যুগের আগে নগর, বাণিজ্যপথ ও রাজবংশীয় পরিবর্তন কীভাবে বাংলাকে গড়ে তুলেছে তা দেখুন।",
-  "description": "মহাস্থানগড়, গৌড় ও প্রারম্ভিক প্রতিষ্ঠানভিত্তিক ইতিহাসকে যুক্ত করা প্রাচীন বাংলার ভিত্তিমূলক হাব।",
-  "seoTitle": "প্রাচীন বাংলা ও নগর সভ্যতা | Bengal Unfolded",
-  "seoDescription": "নগরায়ণ, গৌড় রাজনীতি ও সুলতানি-পূর্ব রাষ্ট্রগঠনের ধারায় প্রাচীন বাংলার ইতিহাস জানুন।",
-  "beginnerSummary": "বাংলার প্রাথমিক নগর ও রাজনৈতিক ভিত্তি বুঝতে এই হাব ব্যবহার করুন।",
-  "advancedSummary": "প্রাকৃতিক ভূগোল, রাজনৈতিক কেন্দ্র ও প্রাতিষ্ঠানিক ধারাবাহিকতার দীর্ঘ বিশ্লেষণের উপযোগী।",
+  "tagline": "প্রাচীন নগর, গৌড়, পাল প্রতিষ্ঠান ও সেন যুগান্তর",
+  "intro": "প্রত্নতত্ত্ব, আঞ্চলিক রাজ্য, বৌদ্ধ মহাবিহার ও সুলতানি-পূর্ব রাজনৈতিক পরিবর্তনের ভেতর দিয়ে প্রাচীন ও প্রাক-মধ্যযুগীয় বাংলাকে পড়ুন।",
+  "description": "মহাস্থানগড়, শশাঙ্কের গৌড়, পাল-সেন রাষ্ট্রগঠন, সোমপুর মহাবিহার এবং তুর্কি-আফগান বিজয়ের আগের যুগান্তরকে যুক্ত করে এই হাব।",
+  "seoTitle": "প্রাচীন ও প্রাক-মধ্যযুগীয় বাংলা: মহাস্থানগড়, গৌড়, পাল ও সেন ইতিহাস",
+  "seoDescription": "মহাস্থানগড়, শশাঙ্ক, পাল রাজবংশ, সোমপুর মহাবিহার, সেন শাসন, ব্যক্তিত্ব, উৎস ও শেখার পথসহ প্রাচীন বাংলার ইতিহাস পড়ুন।",
+  "beginnerSummary": "সুলতানি যুগের আগে বাংলার নগরজীবন, প্রাথমিক রাজশক্তি, বৌদ্ধ শিক্ষাকেন্দ্র ও সেন যুগের পরিবর্তন বোঝার জন্য এখান থেকে শুরু করুন।",
+  "advancedSummary": "১২০৪-১২০৫ সালের বিজয়ের আগে প্রত্নতাত্ত্বিক প্রমাণ, রাজবংশীয় বিবরণ, ধর্মীয় পৃষ্ঠপোষকতা ও আঞ্চলিক ক্ষমতার গঠন তুলনা করুন।",
   "primaryKeywords": [
-    "প্রাচীন বাংলা",
-    "বাংলার নগর সভ্যতা",
-    "সুলতানি-পূর্ব বাংলা"
+    "প্রাচীন বাংলার ইতিহাস",
+    "পাল সেন বাংলা",
+    "মহাস্থানগড় ও সোমপুর"
   ],
   "secondaryKeywords": [
-    "মহাস্থানগড় ইতিহাস",
-    "গৌড় রাজ্য",
-    "প্রাচীন বাংলার ইতিহাস"
+    "গৌড় রাজ্য",
+    "শশাঙ্ক",
+    "প্রাক-মধ্যযুগীয় বাংলা",
+    "বৌদ্ধ মহাবিহার"
   ],
   "eventSlugs": [
     "0400bce-0300bce-mahasthangarh-urban-emergence",
@@ -28,65 +29,82 @@
     "0000-0450-gangaridai-and-early-delta-polities"
   ],
   "figureIds": [
+    "harshavardhana",
+    "bhaskaravarman",
     "dharmapala",
+    "devapala",
     "gopala-i",
+    "mahipala-i",
+    "atisha-dipankara-srijnana",
+    "vijaya-sena",
+    "ballala-sena",
     "lakshmana-sena"
   ],
   "resourceIds": [
     "mahasthangarh-unesco",
-    "shashanka-britannica",
     "the-history-of-bengal-vol-1-hindu-period",
+    "shashanka-britannica",
+    "pala-dynasty-britannica",
+    "somapura-mahavira-britannica",
+    "sena-dynasty-britannica",
     "a-history-of-bangladesh"
   ],
   "faq": [
     {
-      "question": "বাংলাদেশের ইতিহাস বুঝতে প্রাচীন বাংলা কেন গুরুত্বপূর্ণ?",
-      "answer": "শাসন, ধর্মীয় প্রতিষ্ঠান ও আঞ্চলিক পরিচয়ের দীর্ঘ ভিত্তি এখানেই তৈরি হয়।"
+      "question": "মহাস্থানগড় দিয়ে শুরু করা জরুরি কেন?",
+      "answer": "মহাস্থানগড় পরবর্তী রাজবংশীয় ইতিহাসের আগেই বাংলায় নগর ও প্রশাসনিক জীবনের প্রত্নতাত্ত্বিক ভিত্তি দেখায়।",
+      "sourceIds": [
+        "mahasthangarh-unesco",
+        "the-history-of-bengal-vol-1-hindu-period"
+      ]
     },
     {
-      "question": "এটা কি শুধু রাজাদের ইতিহাস?",
-      "answer": "না। নগর, শিক্ষা-কেন্দ্র, মঠ ও সামাজিক পরিবর্তনও এতে অন্তর্ভুক্ত।"
+      "question": "পাল ও সেন যুগ কীভাবে যুক্ত?",
+      "answer": "পাল যুগে বৌদ্ধ প্রতিষ্ঠান ও আঞ্চলিক রাজশক্তি গুরুত্বপূর্ণ, আর সেন যুগান্তর তুর্কি-আফগান বিজয়ের আগের ক্ষমতা-বদল বোঝায়।",
+      "sourceIds": [
+        "the-history-of-bengal-vol-1-hindu-period",
+        "shashanka-britannica"
+      ]
     },
     {
-      "question": "কোন স্থানটি এখানে বিশেষ গুরুত্বপূর্ণ?",
-      "answer": "মহাস্থানগড় প্রাচীন নগরায়ণের প্রধান উদাহরণ।"
+      "question": "এই টপিকের জন্য কোন উৎস ভালো?",
+      "answer": "মহাস্থানগড় ও সোমপুরের প্রত্নতাত্ত্বিক উৎসের সঙ্গে পাল ও সেন রাজবংশের আঞ্চলিক ইতিহাস একসঙ্গে পড়ুন।",
+      "sourceIds": [
+        "shashanka-britannica",
+        "pala-dynasty-britannica"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "0400bce-0300bce-mahasthangarh-urban-emergence",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "0750-1170-pala-dynasty-foundation",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
       "id": "dharmapala",
-      "reason": "Study a key historical actor."
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
       "id": "ancient-and-pre-sultanate-bengal",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
       "id": "mahasthangarh-unesco",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
-      "id": "shashanka-britannica",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
-    },
-    {
-      "type": "resource",
-      "id": "the-history-of-bengal-vol-1-hindu-period",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "id": "somapura-mahavira-britannica",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

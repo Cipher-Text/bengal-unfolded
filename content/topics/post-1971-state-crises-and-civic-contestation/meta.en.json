@@ -2,22 +2,23 @@
   "slug": "post-1971-state-crises-and-civic-contestation",
   "priority": 16,
   "title": "1991–Present: Elections, Rights, and New Generation Politics",
-  "tagline": "Structured learning hub: 1991–Present: Elections, Rights, and New Generation Politics",
-  "intro": "Follow connected events to understand 1991–present: elections, rights, and new generation politics in historical context.",
-  "description": "Track Bangladesh’s post-1991 politics through elections, rights struggles, state crises, digital control, and new-generation movements.",
-  "seoTitle": "1991–Present: Elections, Rights, and New Generation Politics | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn 1991–present: elections, rights, and new generation politics through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of 1991–present: elections, rights, and new generation politics.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in 1991–present: elections, rights, and new generation politics.",
+  "tagline": "Elections, rights, security crises, border politics, and new-generation movements",
+  "intro": "Track Bangladesh after 1991 through parliamentary return, elections, CHT peace, border clashes, Pilkhana, communal violence, security shocks, digital control, and 2024.",
+  "description": "Track Bangladesh’s post-1991 politics through elections, rights struggles, state crises, security shocks, digital control, and new-generation movements.",
+  "seoTitle": "Bangladesh 1991-Present: Elections, Rights, State Crises, Pilkhana and 2024 Movement",
+  "seoDescription": "Study post-1991 Bangladesh through elections, CHT accord, Pilkhana, Ramu, Holey Artisan, Digital Security Act, 2018, 2024 movement, figures, and sources.",
+  "beginnerSummary": "Begin with the 1991 democratic return, then follow how elections, rights claims, security crises, and digital control reshaped politics.",
+  "advancedSummary": "Compare parliamentary transitions, violence and accountability, border and minority issues, counterterrorism, protest cycles, and interim-state debates.",
   "primaryKeywords": [
-    "Bangladesh politics after 1991",
-    "rights and elections",
-    "new generation movements"
+    "Bangladesh politics 1991 present",
+    "post-1991 Bangladesh",
+    "Bangladesh civic rights"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Pilkhana massacre",
+    "CHT Peace Accord",
+    "2018 election Bangladesh",
+    "2024 anti-discrimination movement"
   ],
   "eventSlugs": [
     "1991-return-to-parliamentary-democracy",
@@ -32,6 +33,38 @@
     "2016-holey-artisan-attack"
   ],
   "figureIds": [
+    "khaleda-zia",
+    "sheikh-hasina",
+    "justice-shahabuddin-ahmed",
+    "kazi-arif-ahmed",
+    "anwar-hossain-manju",
+    "mujibul-haque-chunnu",
+    "shah-ams-kibria",
+    "rokeya-kabir",
+    "shakil-ahmed-bdr",
+    "moeen-u-ahmed",
+    "sahara-khatun",
+    "mainul-islam-bdr",
+    "gulzar-uddin-ahmed",
+    "mohammad-shamsul-alam-bir-pratik",
+    "sheikh-fazle-noor-taposh",
+    "tarique-ahmed-siddique",
+    "sheikh-fazlul-karim-selim",
+    "jahangir-kabir-nanak",
+    "mirza-azam",
+    "afm-bahauddin-nasim",
+    "molla-fazle-akbar",
+    "hasan-mahmud-khandaker",
+    "abdul-kahar-akond",
+    "nur-mohammad-igp",
+    "monirul-islam-police",
+    "alm-fazlur-rahman",
+    "mohammad-jahangir-kabir-talukdar",
+    "awami-league",
+    "bangladesh-nationalist-party",
+    "rashed-khan-menon",
+    "hasanul-haq-inu",
+    "zonayed-saki",
     "nahid-islam",
     "sharif-osman-hadi",
     "asif-mahmud",
@@ -69,8 +102,6 @@
     "tahmid-abdullah",
     "zahid-hossain",
     "muhammad-yunus",
-    "zonayed-saki",
-    "sheikh-hasina",
     "manzur-al-matin",
     "asif-nazrul",
     "pinaki-bhattacharya",
@@ -84,64 +115,75 @@
     "zulkarnain-saer",
     "fahim-ahmed",
     "saima-ahmed",
-    "unknown-protester"
+    "unknown-protester",
+    "hussain-muhammad-ershad"
   ],
   "resourceIds": [
+    "1991-general-election-bangladesh-report",
+    "chittagong-hill-tracts-accord-1997-full-text",
     "bdr-pilkhana-government-investigation-report-2009",
-    "rana-plaza-arrangement",
-    "rana-plaza-ilo-overview",
+    "bdr-mutiny-hrw-fear-never-leaves-me",
+    "tib-eleventh-national-parliament-election-2018",
+    "article-19-dsa-2018-analysis",
     "ohchr-fact-finding-bangladesh-july-august-2024",
-    "amnesty-protect-the-protest-bangladesh-2024"
+    "un-bangladesh-report-systematic-repression-2025"
   ],
   "faq": [
     {
-      "question": "What does this 1991–Present: Elections, Rights, and New Generation Politics hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why start in 1991?",
+      "answer": "The return to parliamentary democracy created the institutional frame for later elections, party competition, and civic contestation.",
+      "sourceIds": [
+        "1991-general-election-bangladesh-report",
+        "chittagong-hill-tracts-accord-1997-full-text"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Why include security crises?",
+      "answer": "Events such as Pilkhana and Holey Artisan shaped trust, accountability, state capacity, and rights debates.",
+      "sourceIds": [
+        "chittagong-hill-tracts-accord-1997-full-text",
+        "bdr-pilkhana-government-investigation-report-2009"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "How should 2024 be read here?",
+      "answer": "Read it as both a protest movement and a state-crisis event connected to elections, rights, policing, and legitimacy.",
+      "sourceIds": [
+        "bdr-pilkhana-government-investigation-report-2009",
+        "bdr-mutiny-hrw-fear-never-leaves-me"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1991-return-to-parliamentary-democracy",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "2009-bdr-mutiny-pilkhana-massacre",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "khaleda-zia",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "contemporary-memory-and-civic-protest",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
-      "id": "bdr-pilkhana-government-investigation-report-2009",
-      "reason": "Recommended source 1 for this topic"
+      "id": "1991-general-election-bangladesh-report",
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
-      "id": "rana-plaza-arrangement",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "rana-plaza-ilo-overview",
-      "reason": "Recommended source 3 for this topic"
+      "id": "ohchr-fact-finding-bangladesh-july-august-2024",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

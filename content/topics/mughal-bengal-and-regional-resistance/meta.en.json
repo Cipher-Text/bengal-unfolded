@@ -2,22 +2,23 @@
   "slug": "mughal-bengal-and-regional-resistance",
   "priority": 5,
   "title": "Mughal Bengal, Baro-Bhuyans, and Frontier Politics",
-  "tagline": "Structured learning hub: Mughal Bengal, Baro-Bhuyans, and Frontier Politics",
-  "intro": "Follow connected events to understand mughal bengal, baro-bhuyans, and frontier politics in historical context.",
-  "description": "Explore Mughal Bengal through regional rulers, frontier politics, Baro-Bhuyan resistance, imperial expansion, and local power struggles.",
-  "seoTitle": "Mughal Bengal, Baro-Bhuyans, and Frontier Politics | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn mughal bengal, baro-bhuyans, and frontier politics through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of mughal bengal, baro-bhuyans, and frontier politics.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in mughal bengal, baro-bhuyans, and frontier politics.",
+  "tagline": "Imperial incorporation, riverine resistance, and subah administration",
+  "intro": "Follow Mughal Bengal through Rajmahal, Baro-Bhuyan resistance, Dhaka’s rise, Chittagong, and Shaista Khan’s long governorship.",
+  "description": "Explore Mughal Bengal through imperial expansion, regional rulers, Bhati resistance, Dhaka-Jahangirnagar, riverine warfare, and local power struggles.",
+  "seoTitle": "Mughal Bengal, Baro-Bhuyans, Isa Khan, Dhaka and Shaista Khan",
+  "seoDescription": "Study Mughal Bengal through the Battle of Rajmahal, Baro-Bhuyan resistance, Isa Khan, Dhaka, Chittagong, Shaista Khan, sources, and figures.",
+  "beginnerSummary": "Begin with Rajmahal and the Baro-Bhuyans to see how Bengal moved from Afghan-Karrani power into Mughal provincial rule.",
+  "advancedSummary": "Compare imperial chronicles with regional resistance, river geography, revenue integration, and the administrative growth of Dhaka.",
   "primaryKeywords": [
-    "Mughal Bengal history",
+    "Mughal Bengal",
     "Baro-Bhuyans",
-    "frontier politics"
+    "Isa Khan resistance"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Dhaka Jahangirnagar",
+    "Shaista Khan",
+    "Battle of Rajmahal",
+    "Mughal conquest of Bengal"
   ],
   "eventSlugs": [
     "1576-battle-of-rajmahal",
@@ -29,66 +30,92 @@
     "1658-1707-aurangzeb-era-revenue-military-pressure-in-bengal"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "daud-khan-karrani",
+    "akbar",
+    "man-singh-i",
+    "sulaiman-khan-karrani",
+    "munim-khan",
+    "todar-mal",
+    "isa-khan",
+    "musa-khan",
+    "islam-khan-chishti",
+    "jahangir-mughal",
+    "kedar-rai",
+    "chand-rai",
+    "pratapaditya",
+    "mukunda-ray-of-bhusna",
+    "khwaja-usman",
+    "shaista-khan",
+    "jadunath-sarkar",
+    "syed-sultan",
+    "alaol"
   ],
   "resourceIds": [
+    "battle-of-rajmahal-wikipedia",
+    "mughal-conquest-of-bengal-wikipedia",
     "ain-i-akbari",
-    "tuzuk-i-jahangiri",
     "akbarnama",
-    "travels-in-the-mogul-empire",
-    "islam-khan-chisti-banglapedia"
+    "baro-bhuiyans-wikipedia",
+    "dhaka-banglapedia",
+    "shaista-khan-banglapedia",
+    "tuzuk-i-jahangiri"
   ],
   "faq": [
     {
-      "question": "What does this Mughal Bengal, Baro-Bhuyans, and Frontier Politics hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why are the Baro-Bhuyans central?",
+      "answer": "They show that Mughal incorporation was contested locally and shaped by Bengal’s riverine geography and regional elites.",
+      "sourceIds": [
+        "battle-of-rajmahal-wikipedia",
+        "mughal-conquest-of-bengal-wikipedia"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Why does Dhaka matter in this topic?",
+      "answer": "Dhaka’s rise as Jahangirnagar marks a major administrative and military center for Mughal consolidation in eastern Bengal.",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "ain-i-akbari"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "How should I use the sources?",
+      "answer": "Read imperial chronicle-based sources alongside regional reference entries on Isa Khan, Shaista Khan, Dhaka, and Chittagong.",
+      "sourceIds": [
+        "ain-i-akbari",
+        "akbarnama"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1576-battle-of-rajmahal",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1599-baro-bhuyans-resistance-in-bhati",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "isa-khan",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "mughal-incorporation-and-consolidation",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
-      "id": "ain-i-akbari",
-      "reason": "Recommended source 1 for this topic"
+      "id": "baro-bhuiyans-wikipedia",
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
-      "id": "tuzuk-i-jahangiri",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "akbarnama",
-      "reason": "Recommended source 3 for this topic"
+      "id": "dhaka-banglapedia",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

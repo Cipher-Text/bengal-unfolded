@@ -2,22 +2,23 @@
   "slug": "democracy-and-civic-movements",
   "priority": 15,
   "title": "Democracy and Civic Movements",
-  "tagline": "Structured learning hub: Democracy and Civic Movements",
-  "intro": "Follow connected events to understand democracy and civic movements in historical context.",
-  "description": "Trace Bangladesh’s democratic and civic movements through student protest, opposition alliances, rights campaigns, and street mobilization.",
-  "seoTitle": "Democracy and Civic Movements | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn democracy and civic movements through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of democracy and civic movements.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in democracy and civic movements.",
+  "tagline": "Street protest, student politics, elections, digital rights, and civic accountability",
+  "intro": "Trace Bangladesh’s civic movements from the 1990 transition through caretaker crises, Shahbag, quota and road-safety protests, digital-rights conflicts, elections, and 2024.",
+  "description": "Trace Bangladesh’s democratic and civic movements through student protest, opposition alliances, rights campaigns, election disputes, digital control, and street mobilization.",
+  "seoTitle": "Democracy and Civic Movements in Bangladesh: 1990, Shahbag, Quota, Safe Road and 2024",
+  "seoDescription": "Explore Bangladesh civic movements through 1990, caretaker politics, Shahbag, quota reform, safe road protests, Digital Security Act, elections, and 2024.",
+  "beginnerSummary": "Start with 1990, then follow how student, civic, professional, and digital movements challenged state power and electoral legitimacy.",
+  "advancedSummary": "Compare protest coalitions, party competition, civil liberties, online mobilization, state repression, legal control, and transitional politics.",
   "primaryKeywords": [
-    "democracy movements in Bangladesh",
-    "civic protest history",
-    "student movements"
+    "democracy movements Bangladesh",
+    "student protest Bangladesh",
+    "civic movements Bangladesh"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Shahbag movement",
+    "quota reform movement",
+    "safe road movement",
+    "Digital Security Act"
   ],
   "eventSlugs": [
     "1990-mass-uprising",
@@ -95,6 +96,38 @@
     "humayun-azad",
     "syed-shamsul-haq",
     "rokeya-kabir",
+    "anwar-hossain-manju",
+    "moin-u-ahmed",
+    "fakhruddin-ahmed",
+    "iajuddin-ahmed",
+    "salahuddin-quader-chowdhury",
+    "moeen-u-ahmed",
+    "imran-h-sarkar",
+    "lucky-akter",
+    "ahmed-rajib-haider",
+    "nasiruddin-yousuff",
+    "muhammed-zafar-iqbal",
+    "asif-mohiuddin",
+    "arif-jebtik",
+    "avijit-roy",
+    "washiqur-rahman",
+    "ananta-bijoy-das",
+    "niloy-neel",
+    "faisal-arefin-dipan",
+    "shah-ahmad-shafi",
+    "junaid-babunagari",
+    "mahmudur-rahman",
+    "abdul-quader-mollah",
+    "delwar-hossain-sayeedi",
+    "motiur-rahman-nizami",
+    "ali-ahsan-mohammad-mujaheed",
+    "golam-azam",
+    "jamiat-e-ulema-e-islam-bangladesh",
+    "muhammad-kamaruzzaman",
+    "nizamul-huq-judge",
+    "selina-hossain",
+    "mujibul-haque-chunnu",
+    "zonayed-saki",
     "nahid-islam",
     "sharif-osman-hadi",
     "asif-mahmud",
@@ -132,7 +165,6 @@
     "tahmid-abdullah",
     "zahid-hossain",
     "muhammad-yunus",
-    "zonayed-saki",
     "manzur-al-matin",
     "asif-nazrul",
     "pinaki-bhattacharya",
@@ -146,65 +178,76 @@
     "zulkarnain-saer",
     "fahim-ahmed",
     "saima-ahmed",
-    "unknown-protester"
+    "unknown-protester",
+    "charu-majumdar",
+    "sheikh-mujibur-rahman"
   ],
   "resourceIds": [
     "1990-mass-uprising-wikipedia",
-    "noor-hossain-democracy-memory",
-    "election-commission-2008-general-election-report",
+    "tin-joter-ruprekha-1990",
+    "shahbag-social-media-movement-research",
     "quota-reform-movement-2018-overview",
     "road-safety-protests-2018-overview",
-    "ohchr-preliminary-analysis-bangladesh-protests-2024"
+    "article-19-dsa-2018-analysis",
+    "ohchr-preliminary-analysis-bangladesh-protests-2024",
+    "ohchr-fact-finding-bangladesh-july-august-2024"
   ],
   "faq": [
     {
-      "question": "What does this Democracy and Civic Movements hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why group protests with elections?",
+      "answer": "In Bangladesh, election legitimacy, street mobilization, civil liberties, and student politics have repeatedly shaped one another.",
+      "sourceIds": [
+        "1990-mass-uprising-wikipedia",
+        "tin-joter-ruprekha-1990"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "How does 2024 fit?",
+      "answer": "The 2024 movement links quota reform, state violence, student organization, and a wider crisis of political legitimacy.",
+      "sourceIds": [
+        "tin-joter-ruprekha-1990",
+        "shahbag-social-media-movement-research"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "What should I compare across events?",
+      "answer": "Compare alliances, demands, state response, media ecology, casualties, legal consequences, and whether movements produced institutional change.",
+      "sourceIds": [
+        "shahbag-social-media-movement-research",
+        "quota-reform-movement-2018-overview"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1990-mass-uprising",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "2024-anti-discrimination-movement",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "nur-hossain",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "contemporary-memory-and-civic-protest",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
-      "id": "1990-mass-uprising-wikipedia",
-      "reason": "Recommended source 1 for this topic"
+      "id": "tin-joter-ruprekha-1990",
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
-      "id": "noor-hossain-democracy-memory",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "election-commission-2008-general-election-report",
-      "reason": "Recommended source 3 for this topic"
+      "id": "ohchr-fact-finding-bangladesh-july-august-2024",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

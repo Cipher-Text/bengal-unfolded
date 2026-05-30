@@ -2,22 +2,23 @@
   "slug": "ancient-and-early-medieval-bengal",
   "priority": 2,
   "title": "Ancient Bengal and Urban Civilization",
-  "tagline": "Urban emergence, early kingdoms, and regional state formation",
-  "intro": "Study how early settlements, trade routes, and dynastic shifts shaped Bengal before the Sultanate era.",
-  "description": "A foundation hub on ancient Bengal linking Mahasthangarh, Gauda, and early institutional-religious centers.",
-  "seoTitle": "Ancient Bengal and Urban Civilization | Bengal Unfolded",
-  "seoDescription": "Learn ancient Bengal history through urban growth, Gauda politics, and early state formation before the Sultanate.",
-  "beginnerSummary": "Covers early urban and political foundations of Bengal.",
-  "advancedSummary": "Useful for tracing ecology, political geography, and institutional continuity into medieval transitions.",
+  "tagline": "Early cities, Gauda power, Pala institutions, and the Sena transition",
+  "intro": "Read ancient and early medieval Bengal through archaeology, regional kingdoms, Buddhist monastic centers, and late pre-Sultanate political change.",
+  "description": "A foundation hub linking Mahasthangarh, Shashanka’s Gauda, Pala-Sena state formation, Somapura Mahavihara, and the transition toward Turko-Afghan conquest.",
+  "seoTitle": "Ancient and Early Medieval Bengal: Mahasthangarh, Gauda, Pala and Sena History",
+  "seoDescription": "Explore ancient and early medieval Bengal through Mahasthangarh, Shashanka, the Pala dynasty, Somapura Mahavihara, Sena rule, figures, sources, and learning paths.",
+  "beginnerSummary": "Start here to understand Bengal before the Sultanate: urban sites, early kingship, Buddhist learning, and the Sena-era political transition.",
+  "advancedSummary": "Compare archaeological evidence, dynastic narratives, religious patronage, and regional power formation before the 1204-1205 conquest.",
   "primaryKeywords": [
-    "ancient bengal",
-    "urban civilization bengal",
-    "early bengal history"
+    "ancient Bengal history",
+    "Pala Sena Bengal",
+    "Mahasthangarh and Somapura"
   ],
   "secondaryKeywords": [
-    "mahasthangarh history",
-    "gauda kingdom",
-    "pre-sultanate bengal"
+    "Gauda kingdom",
+    "Shashanka",
+    "early medieval Bengal",
+    "Buddhist monastic culture"
   ],
   "eventSlugs": [
     "0400bce-0300bce-mahasthangarh-urban-emergence",
@@ -28,65 +29,82 @@
     "0000-0450-gangaridai-and-early-delta-polities"
   ],
   "figureIds": [
+    "harshavardhana",
+    "bhaskaravarman",
     "dharmapala",
+    "devapala",
     "gopala-i",
+    "mahipala-i",
+    "atisha-dipankara-srijnana",
+    "vijaya-sena",
+    "ballala-sena",
     "lakshmana-sena"
   ],
   "resourceIds": [
     "mahasthangarh-unesco",
-    "shashanka-britannica",
     "the-history-of-bengal-vol-1-hindu-period",
+    "shashanka-britannica",
+    "pala-dynasty-britannica",
+    "somapura-mahavira-britannica",
+    "sena-dynasty-britannica",
     "a-history-of-bangladesh"
   ],
   "faq": [
     {
-      "question": "Why does ancient Bengal matter for Bangladesh history?",
-      "answer": "It establishes long-term patterns of governance, religion, and regional identity."
+      "question": "Why begin with Mahasthangarh?",
+      "answer": "Mahasthangarh anchors the hub in archaeological evidence for early urban and administrative life in Bengal before later dynastic histories.",
+      "sourceIds": [
+        "mahasthangarh-unesco",
+        "the-history-of-bengal-vol-1-hindu-period"
+      ]
     },
     {
-      "question": "Is this only about kings?",
-      "answer": "No. It includes cities, monasteries, institutions, and social landscapes."
+      "question": "How do the Pala and Sena periods connect?",
+      "answer": "The Pala period highlights Buddhist institutional patronage and regional kingship, while the Sena transition shows changing elite power before Turko-Afghan conquest.",
+      "sourceIds": [
+        "the-history-of-bengal-vol-1-hindu-period",
+        "shashanka-britannica"
+      ]
     },
     {
-      "question": "Which site is central here?",
-      "answer": "Mahasthangarh is a major early urban reference point."
+      "question": "Which sources are best for this topic?",
+      "answer": "Use archaeological references for Mahasthangarh and Somapura alongside regional histories of the Pala and Sena dynasties.",
+      "sourceIds": [
+        "shashanka-britannica",
+        "pala-dynasty-britannica"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "0400bce-0300bce-mahasthangarh-urban-emergence",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "0750-1170-pala-dynasty-foundation",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
       "id": "dharmapala",
-      "reason": "Study a key historical actor."
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
       "id": "ancient-and-pre-sultanate-bengal",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
       "id": "mahasthangarh-unesco",
-      "reason": "Recommended source 1 for this topic"
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
-      "id": "shashanka-britannica",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "the-history-of-bengal-vol-1-hindu-period",
-      "reason": "Recommended source 3 for this topic"
+      "id": "somapura-mahavira-britannica",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

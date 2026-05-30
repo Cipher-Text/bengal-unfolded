@@ -2,22 +2,23 @@
   "slug": "democracy-and-civic-movements",
   "priority": 15,
   "title": "গণতন্ত্র ও নাগরিক আন্দোলন",
-  "tagline": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "গণতন্ত্র ও নাগরিক আন্দোলন ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "ছাত্র প্রতিবাদ, বিরোধী জোট, অধিকার আন্দোলন ও রাস্তার গণমোবিলাইজেশনের মাধ্যমে বাংলাদেশের গণতান্ত্রিক ও নাগরিক আন্দোলন অনুসরণ করুন।",
-  "seoTitle": "গণতন্ত্র ও নাগরিক আন্দোলন | Bengal Unfolded টপিক হাব",
-  "seoDescription": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "গণতন্ত্র ও নাগরিক আন্দোলন বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "রাস্তার প্রতিবাদ, ছাত্র রাজনীতি, নির্বাচন, ডিজিটাল অধিকার ও নাগরিক জবাবদিহি",
+  "intro": "১৯৯০ রূপান্তর থেকে তত্ত্বাবধায়ক সংকট, শাহবাগ, কোটা ও নিরাপদ সড়ক, ডিজিটাল অধিকার-সংঘাত, নির্বাচন এবং ২০২৪ পর্যন্ত বাংলাদেশের নাগরিক আন্দোলন অনুসরণ করুন।",
+  "description": "ছাত্র প্রতিবাদ, বিরোধী জোট, অধিকার আন্দোলন, নির্বাচন বিতর্ক, ডিজিটাল নিয়ন্ত্রণ ও রাস্তার গণমোবিলাইজেশনের মাধ্যমে বাংলাদেশের গণতান্ত্রিক ও নাগরিক আন্দোলন অনুসরণ করুন।",
+  "seoTitle": "বাংলাদেশে গণতন্ত্র ও নাগরিক আন্দোলন: ১৯৯০, শাহবাগ, কোটা, নিরাপদ সড়ক ও ২০২৪",
+  "seoDescription": "১৯৯০, তত্ত্বাবধায়ক রাজনীতি, শাহবাগ, কোটা সংস্কার, নিরাপদ সড়ক, ডিজিটাল নিরাপত্তা আইন, নির্বাচন ও ২০২৪সহ বাংলাদেশের নাগরিক আন্দোলন পড়ুন।",
+  "beginnerSummary": "রাষ্ট্রক্ষমতা ও নির্বাচনী বৈধতাকে ছাত্র, নাগরিক, পেশাজীবী ও ডিজিটাল আন্দোলন কীভাবে চ্যালেঞ্জ করেছে তা দেখতে ১৯৯০ দিয়ে শুরু করুন।",
+  "advancedSummary": "প্রতিবাদী জোট, দলীয় প্রতিযোগিতা, নাগরিক স্বাধীনতা, অনলাইন মবিলাইজেশন, রাষ্ট্রীয় দমন, আইনি নিয়ন্ত্রণ ও রূপান্তর রাজনীতি তুলনা করুন।",
   "primaryKeywords": [
-    "বাংলাদেশের গণতান্ত্রিক আন্দোলন",
-    "নাগরিক প্রতিবাদের ইতিহাস",
-    "ছাত্র আন্দোলন"
+    "বাংলাদেশে গণতান্ত্রিক আন্দোলন",
+    "বাংলাদেশে ছাত্র প্রতিবাদ",
+    "বাংলাদেশে নাগরিক আন্দোলন"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "শাহবাগ আন্দোলন",
+    "কোটা সংস্কার আন্দোলন",
+    "নিরাপদ সড়ক আন্দোলন",
+    "ডিজিটাল নিরাপত্তা আইন"
   ],
   "eventSlugs": [
     "1990-mass-uprising",
@@ -95,6 +96,38 @@
     "humayun-azad",
     "syed-shamsul-haq",
     "rokeya-kabir",
+    "anwar-hossain-manju",
+    "moin-u-ahmed",
+    "fakhruddin-ahmed",
+    "iajuddin-ahmed",
+    "salahuddin-quader-chowdhury",
+    "moeen-u-ahmed",
+    "imran-h-sarkar",
+    "lucky-akter",
+    "ahmed-rajib-haider",
+    "nasiruddin-yousuff",
+    "muhammed-zafar-iqbal",
+    "asif-mohiuddin",
+    "arif-jebtik",
+    "avijit-roy",
+    "washiqur-rahman",
+    "ananta-bijoy-das",
+    "niloy-neel",
+    "faisal-arefin-dipan",
+    "shah-ahmad-shafi",
+    "junaid-babunagari",
+    "mahmudur-rahman",
+    "abdul-quader-mollah",
+    "delwar-hossain-sayeedi",
+    "motiur-rahman-nizami",
+    "ali-ahsan-mohammad-mujaheed",
+    "golam-azam",
+    "jamiat-e-ulema-e-islam-bangladesh",
+    "muhammad-kamaruzzaman",
+    "nizamul-huq-judge",
+    "selina-hossain",
+    "mujibul-haque-chunnu",
+    "zonayed-saki",
     "nahid-islam",
     "sharif-osman-hadi",
     "asif-mahmud",
@@ -132,7 +165,6 @@
     "tahmid-abdullah",
     "zahid-hossain",
     "muhammad-yunus",
-    "zonayed-saki",
     "manzur-al-matin",
     "asif-nazrul",
     "pinaki-bhattacharya",
@@ -146,65 +178,76 @@
     "zulkarnain-saer",
     "fahim-ahmed",
     "saima-ahmed",
-    "unknown-protester"
+    "unknown-protester",
+    "charu-majumdar",
+    "sheikh-mujibur-rahman"
   ],
   "resourceIds": [
     "1990-mass-uprising-wikipedia",
-    "noor-hossain-democracy-memory",
-    "election-commission-2008-general-election-report",
+    "tin-joter-ruprekha-1990",
+    "shahbag-social-media-movement-research",
     "quota-reform-movement-2018-overview",
     "road-safety-protests-2018-overview",
-    "ohchr-preliminary-analysis-bangladesh-protests-2024"
+    "article-19-dsa-2018-analysis",
+    "ohchr-preliminary-analysis-bangladesh-protests-2024",
+    "ohchr-fact-finding-bangladesh-july-august-2024"
   ],
   "faq": [
     {
-      "question": "এই গণতন্ত্র ও নাগরিক আন্দোলন হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "প্রতিবাদ ও নির্বাচন একসঙ্গে কেন?",
+      "answer": "বাংলাদেশে নির্বাচনী বৈধতা, রাস্তার মবিলাইজেশন, নাগরিক স্বাধীনতা ও ছাত্র রাজনীতি বারবার একে অন্যকে প্রভাবিত করেছে।",
+      "sourceIds": [
+        "1990-mass-uprising-wikipedia",
+        "tin-joter-ruprekha-1990"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "২০২৪ কীভাবে যুক্ত?",
+      "answer": "২০২৪ আন্দোলন কোটা সংস্কার, রাষ্ট্রীয় সহিংসতা, ছাত্র সংগঠন এবং রাজনৈতিক বৈধতার বৃহত্তর সংকটকে যুক্ত করে।",
+      "sourceIds": [
+        "tin-joter-ruprekha-1990",
+        "shahbag-social-media-movement-research"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "ইভেন্টগুলোর মধ্যে কী তুলনা করব?",
+      "answer": "জোট, দাবি, রাষ্ট্রীয় প্রতিক্রিয়া, মিডিয়া পরিবেশ, হতাহতের সংখ্যা, আইনি ফলাফল এবং প্রাতিষ্ঠানিক পরিবর্তন তুলনা করুন।",
+      "sourceIds": [
+        "shahbag-social-media-movement-research",
+        "quota-reform-movement-2018-overview"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1990-mass-uprising",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "2024-anti-discrimination-movement",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "nur-hossain",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "contemporary-memory-and-civic-protest",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
-      "id": "1990-mass-uprising-wikipedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+      "id": "tin-joter-ruprekha-1990",
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
-      "id": "noor-hossain-democracy-memory",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
-    },
-    {
-      "type": "resource",
-      "id": "election-commission-2008-general-election-report",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "id": "ohchr-fact-finding-bangladesh-july-august-2024",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

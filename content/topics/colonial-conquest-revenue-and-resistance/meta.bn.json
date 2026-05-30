@@ -2,22 +2,23 @@
   "slug": "colonial-conquest-revenue-and-resistance",
   "priority": 6,
   "title": "ঔপনিবেশিক বাংলা: পলাশী থেকে স্থায়ী বন্দোবস্ত",
-  "tagline": "ঔপনিবেশিক বাংলা: পলাশী থেকে স্থায়ী বন্দোবস্ত বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "ঔপনিবেশিক বাংলা: পলাশী থেকে স্থায়ী বন্দোবস্ত ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "পলাশী থেকে কোম্পানি শাসন, রাজস্বনীতি, দুর্ভিক্ষের চাপ এবং গ্রামীণ সমাজ বদলে দেওয়া প্রতিরোধ রাজনীতি অনুসরণ করুন।",
-  "seoTitle": "ঔপনিবেশিক বাংলা: পলাশী থেকে স্থায়ী বন্দোবস্ত | Bengal Unfolded টপিক হাব",
-  "seoDescription": "ঔপনিবেশিক বাংলা: পলাশী থেকে স্থায়ী বন্দোবস্ত বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "ঔপনিবেশিক বাংলা: পলাশী থেকে স্থায়ী বন্দোবস্ত বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "ঔপনিবেশিক বাংলা: পলাশী থেকে স্থায়ী বন্দোবস্ত বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "কোম্পানি বিজয়, রাজস্ব আহরণ, দুর্ভিক্ষ ও প্রাথমিক ঔপনিবেশিক রাজনীতি",
+  "intro": "পলাশী ও বক্সার থেকে দেওয়ানি অধিকার, দুর্ভিক্ষ, চিরস্থায়ী বন্দোবস্ত এবং প্রাথমিক প্রতিনিধিত্বমূলক রাজনীতি পর্যন্ত বাংলাকে অনুসরণ করুন।",
+  "description": "শেষ নবাবি শাসন থেকে কোম্পানি বিজয়, রাজস্ব পরীক্ষা, দুর্ভিক্ষের চাপ, চিরস্থায়ী বন্দোবস্ত এবং গ্রামীণ সমাজ বদলে দেওয়া রাজনীতি অনুসরণ করুন।",
+  "seoTitle": "ঔপনিবেশিক বাংলা: পলাশী, বক্সার, দেওয়ানি, দুর্ভিক্ষ ও চিরস্থায়ী বন্দোবস্ত",
+  "seoDescription": "পলাশী, বক্সার, কোম্পানির দেওয়ানি অধিকার, ১৭৭০ সালের দুর্ভিক্ষ, চিরস্থায়ী বন্দোবস্ত, ব্যক্তিত্ব ও উৎসসহ ঔপনিবেশিক বাংলা পড়ুন।",
+  "beginnerSummary": "সামরিক পরাজয়, রাজস্ব ক্ষমতা ও ভূমি-ব্যবস্থা কীভাবে বাংলাকে বদলে দেয় তা বুঝতে পলাশী ও বক্সার দিয়ে শুরু করুন।",
+  "advancedSummary": "যুদ্ধবৃত্তান্তের সঙ্গে রাজস্ব প্রতিষ্ঠান, দুর্ভিক্ষ-ঝুঁকি, জমিদারি পরিবর্তন ও প্রাথমিক ঔপনিবেশিক প্রতিনিধিত্ব তুলনা করুন।",
   "primaryKeywords": [
     "ঔপনিবেশিক বাংলার ইতিহাস",
-    "পলাশী থেকে স্থায়ী বন্দোবস্ত",
-    "রাজস্ব ও প্রতিরোধ"
+    "পলাশীর যুদ্ধ",
+    "চিরস্থায়ী বন্দোবস্ত বাংলা"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "দেওয়ানি অধিকার",
+    "১৭৭০ সালের বাংলার দুর্ভিক্ষ",
+    "ইস্ট ইন্ডিয়া কোম্পানি বাংলা",
+    "বক্সার"
   ],
   "eventSlugs": [
     "1757-battle-of-plassey",
@@ -30,67 +31,92 @@
     "1861-indian-councils-act-and-limited-representation-in-bengal"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "siraj-ud-daulah",
+    "robert-clive",
+    "mir-jafar",
+    "miran",
+    "rai-durlabh-ram",
+    "yar-latif-khan",
+    "mohanlal",
+    "mir-madan",
+    "jagat-seth",
+    "umichand",
+    "charles-watson",
+    "eyre-coote",
+    "alivardi-khan",
+    "murshid-quli-khan",
+    "mir-qasim",
+    "shah-alam-ii",
+    "warren-hastings",
+    "charles-cornwallis",
+    "surendranath-banerjea"
   ],
   "resourceIds": [
     "palashi-battle-banglapedia",
     "battle-of-plassey-britannica",
+    "battle-of-buxar-britannica",
     "diwani-banglapedia",
+    "great-bengal-famine-1770-britannica",
     "permanent-settlement-banglapedia",
     "revenue-sale-law-1793-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
   ],
   "faq": [
     {
-      "question": "এই ঔপনিবেশিক বাংলা: পলাশী থেকে স্থায়ী বন্দোবস্ত হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "পলাশী থেকে চিরস্থায়ী বন্দোবস্ত কেন যুক্ত?",
+      "answer": "এগুলো একসঙ্গে সামরিক-রাজনৈতিক দখল থেকে ঔপনিবেশিক গ্রামীণ বাংলাকে গড়া রাজস্ব ও ভূমি কাঠামোর দিকে পরিবর্তন দেখায়।",
+      "sourceIds": [
+        "palashi-battle-banglapedia",
+        "battle-of-plassey-britannica"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "এটি কি শুধু সামরিক ইতিহাস?",
+      "answer": "না। যুদ্ধ গুরুত্বপূর্ণ হলেও এই হাব কোম্পানি শাসনের পর রাজস্ব, দুর্ভিক্ষ, ভূমি অধিকার ও সামাজিক ফলাফলে জোর দেয়।",
+      "sourceIds": [
+        "battle-of-plassey-britannica",
+        "battle-of-buxar-britannica"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "কোন ব্যক্তিত্ব তুলনা করব?",
+      "answer": "বিজয় ও রাজস্ব পরিবর্তনের ভেতর সিরাজউদ্দৌলা, রবার্ট ক্লাইভ, মীর জাফর, মীর কাসিম, শাহ আলম দ্বিতীয়, ওয়ারেন হেস্টিংস ও কর্নওয়ালিস তুলনা করুন।",
+      "sourceIds": [
+        "battle-of-buxar-britannica",
+        "diwani-banglapedia"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1757-battle-of-plassey",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1765-east-india-company-gets-diwani-rights-in-bengal",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "siraj-ud-daulah",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "colonial-rule-and-resistance",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
       "id": "palashi-battle-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
-      "id": "battle-of-plassey-britannica",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
-    },
-    {
-      "type": "resource",
-      "id": "diwani-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "id": "permanent-settlement-banglapedia",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

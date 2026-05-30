@@ -2,22 +2,23 @@
   "slug": "mughal-bengal-and-regional-resistance",
   "priority": 5,
   "title": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি",
-  "tagline": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "আঞ্চলিক শাসক, সীমান্ত রাজনীতি, বারো-ভুঁইয়া প্রতিরোধ, সাম্রাজ্য বিস্তার ও স্থানীয় ক্ষমতার লড়াইয়ের মাধ্যমে মুঘল বাংলাকে পড়ুন।",
-  "seoTitle": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি | Bengal Unfolded টপিক হাব",
-  "seoDescription": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "সাম্রাজ্যিক সংযোজন, নদীনির্ভর প্রতিরোধ ও সুবা প্রশাসন",
+  "intro": "রাজমহল, বারো ভূঁইয়ার প্রতিরোধ, ঢাকার উত্থান, চট্টগ্রাম এবং শায়েস্তা খানের দীর্ঘ সুবাদারির ভেতর দিয়ে মুঘল বাংলাকে অনুসরণ করুন।",
+  "description": "সাম্রাজ্যিক বিস্তার, আঞ্চলিক শাসক, ভাটি প্রতিরোধ, ঢাকা-জাহাঙ্গীরনগর, নদীনির্ভর যুদ্ধ ও স্থানীয় ক্ষমতা-সংগ্রামের ভেতর দিয়ে মুঘল বাংলা পড়ুন।",
+  "seoTitle": "মুঘল বাংলা, বারো ভূঁইয়া, ঈশা খাঁ, ঢাকা ও শায়েস্তা খান",
+  "seoDescription": "রাজমহলের যুদ্ধ, বারো ভূঁইয়া প্রতিরোধ, ঈশা খাঁ, ঢাকা, চট্টগ্রাম, শায়েস্তা খান, উৎস ও ব্যক্তিত্বসহ মুঘল বাংলার ইতিহাস পড়ুন।",
+  "beginnerSummary": "আফগান-কড়রানি শক্তি থেকে মুঘল সুবা শাসনে বাংলার রূপান্তর দেখতে রাজমহল ও বারো ভূঁইয়া দিয়ে শুরু করুন।",
+  "advancedSummary": "সাম্রাজ্যিক ইতিহাস, আঞ্চলিক প্রতিরোধ, নদীভিত্তিক ভূগোল, রাজস্ব সংযোজন ও ঢাকার প্রশাসনিক উত্থান তুলনা করুন।",
   "primaryKeywords": [
-    "মুঘল বাংলার ইতিহাস",
-    "বারো-ভুঁইয়া",
-    "সীমান্ত রাজনীতি"
+    "মুঘল বাংলা",
+    "বারো ভূঁইয়া",
+    "ঈশা খাঁর প্রতিরোধ"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "ঢাকা জাহাঙ্গীরনগর",
+    "শায়েস্তা খান",
+    "রাজমহলের যুদ্ধ",
+    "বাংলায় মুঘল বিজয়"
   ],
   "eventSlugs": [
     "1576-battle-of-rajmahal",
@@ -29,66 +30,92 @@
     "1658-1707-aurangzeb-era-revenue-military-pressure-in-bengal"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "daud-khan-karrani",
+    "akbar",
+    "man-singh-i",
+    "sulaiman-khan-karrani",
+    "munim-khan",
+    "todar-mal",
+    "isa-khan",
+    "musa-khan",
+    "islam-khan-chishti",
+    "jahangir-mughal",
+    "kedar-rai",
+    "chand-rai",
+    "pratapaditya",
+    "mukunda-ray-of-bhusna",
+    "khwaja-usman",
+    "shaista-khan",
+    "jadunath-sarkar",
+    "syed-sultan",
+    "alaol"
   ],
   "resourceIds": [
+    "battle-of-rajmahal-wikipedia",
+    "mughal-conquest-of-bengal-wikipedia",
     "ain-i-akbari",
-    "tuzuk-i-jahangiri",
     "akbarnama",
-    "travels-in-the-mogul-empire",
-    "islam-khan-chisti-banglapedia"
+    "baro-bhuiyans-wikipedia",
+    "dhaka-banglapedia",
+    "shaista-khan-banglapedia",
+    "tuzuk-i-jahangiri"
   ],
   "faq": [
     {
-      "question": "এই মুঘল বাংলা, বারো-ভুঁইয়া ও সীমান্ত রাজনীতি হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "বারো ভূঁইয়া এত গুরুত্বপূর্ণ কেন?",
+      "answer": "তারা দেখায় মুঘল সংযোজন স্থানীয়ভাবে প্রতিরোধের মুখে পড়েছিল এবং বাংলার নদীভূগোল ও আঞ্চলিক অভিজাতদের দ্বারা গঠিত হয়েছিল।",
+      "sourceIds": [
+        "battle-of-rajmahal-wikipedia",
+        "mughal-conquest-of-bengal-wikipedia"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "এই টপিকে ঢাকার গুরুত্ব কী?",
+      "answer": "জাহাঙ্গীরনগর হিসেবে ঢাকার উত্থান পূর্ব বাংলায় মুঘল সংহতির বড় প্রশাসনিক ও সামরিক কেন্দ্র নির্দেশ করে।",
+      "sourceIds": [
+        "mughal-conquest-of-bengal-wikipedia",
+        "ain-i-akbari"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "উৎসগুলো কীভাবে ব্যবহার করব?",
+      "answer": "ঈশা খাঁ, শায়েস্তা খান, ঢাকা ও চট্টগ্রাম বিষয়ে আঞ্চলিক রেফারেন্সের সঙ্গে সাম্রাজ্যিক ক্রনিকলভিত্তিক উৎস পড়ুন।",
+      "sourceIds": [
+        "ain-i-akbari",
+        "akbarnama"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1576-battle-of-rajmahal",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1599-baro-bhuyans-resistance-in-bhati",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "isa-khan",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "mughal-incorporation-and-consolidation",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
-      "id": "ain-i-akbari",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+      "id": "baro-bhuiyans-wikipedia",
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
-      "id": "tuzuk-i-jahangiri",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
-    },
-    {
-      "type": "resource",
-      "id": "akbarnama",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "id": "dhaka-banglapedia",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

@@ -2,22 +2,23 @@
   "slug": "bengal-culture-literature-and-memory",
   "priority": 17,
   "title": "বাংলা সংস্কৃতি, সাহিত্য ও স্মৃতি",
-  "tagline": "বাংলা সংস্কৃতি, সাহিত্য ও স্মৃতি বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "বাংলা সংস্কৃতি, সাহিত্য ও স্মৃতি ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "বাংলা সাহিত্য, সংগীত, শিল্প, ভাষা ও জনস্মৃতি কীভাবে পরিচয় গঠন করেছে, তা ঔপনিবেশিক সময় থেকে আধুনিক বাংলাদেশ পর্যন্ত অনুসরণ করুন।",
-  "seoTitle": "বাংলা সংস্কৃতি, সাহিত্য ও স্মৃতি | Bengal Unfolded টপিক হাব",
-  "seoDescription": "বাংলা সংস্কৃতি, সাহিত্য ও স্মৃতি বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "বাংলা সংস্কৃতি, সাহিত্য ও স্মৃতি বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "বাংলা সংস্কৃতি, সাহিত্য ও স্মৃতি বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "ভাষা, শিক্ষা, সাহিত্য, জনস্মৃতি ও সাংস্কৃতিক জাতীয়তাবাদ",
+  "intro": "শিক্ষা, সংস্কার, ভাষা রাজনীতি, মুক্তিযুদ্ধের স্মৃতি, সাহিত্য, সঙ্গীত, শিল্প ও স্মারক সংস্কৃতি কীভাবে বাঙালি পরিচয় গড়েছে তা অনুসরণ করুন।",
+  "description": "সাহিত্য, সঙ্গীত, শিল্প, শিক্ষা, ভাষা ও জনস্মৃতি কীভাবে ঔপনিবেশিক, দেশভাগ ও আধুনিক বাংলাদেশের পরিচয় গড়েছে তা দেখুন।",
+  "seoTitle": "বাংলা সংস্কৃতি, সাহিত্য, ভাষা ও জনস্মৃতি",
+  "seoDescription": "ভাষা আন্দোলন, ঢাকা বিশ্ববিদ্যালয়, সংস্কার, মুক্তিযুদ্ধের স্মৃতি, সাহিত্য, সঙ্গীত, শিল্প, ব্যক্তিত্ব ও উৎসসহ বাংলা সংস্কৃতি পড়ুন।",
+  "beginnerSummary": "বাংলা ও বাংলাদেশে সাংস্কৃতিক জীবন কেন রাজনৈতিক হয়ে উঠেছে তা বুঝতে শিক্ষা ও ভাষা দিয়ে শুরু করুন।",
+  "advancedSummary": "ঐতিহাসিক শক্তি হিসেবে সাহিত্যিক স্মৃতি, জনস্মারক, জাতীয়তাবাদী সংস্কৃতি, ভাষা অধিকার, যুদ্ধস্মৃতি ও শিক্ষা তুলনা করুন।",
   "primaryKeywords": [
-    "বাংলা সংস্কৃতি ও সাহিত্য",
-    "বাংলাদেশ ইতিহাসে জনস্মৃতি",
-    "বাঙালি পরিচয়"
+    "বাংলা সংস্কৃতির ইতিহাস",
+    "বাংলা সাহিত্য ও স্মৃতি",
+    "ভাষা আন্দোলনের সংস্কৃতি"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "ঢাকা বিশ্ববিদ্যালয়ের ইতিহাস",
+    "শহীদ মিনার",
+    "মুক্তিযুদ্ধের স্মৃতি",
+    "বাঙালি জাতীয়তাবাদ"
   ],
   "eventSlugs": [
     "1952-language-movement",
@@ -27,53 +28,86 @@
     "1835-macaulay-education-policy-impact-in-bengal"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "rabindranath-tagore",
+    "kazi-nazrul-islam",
+    "begum-rokeya",
+    "sufia-kamal",
+    "muhammad-shahidullah",
+    "munier-chowdhury",
+    "abdul-gaffar-choudhury",
+    "altaf-mahmud",
+    "hamidur-rahman-artist",
+    "zahir-raihan",
+    "jahanara-imam",
+    "shamsur-rahman",
+    "humayun-azad",
+    "syed-shamsul-haq"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "language-movement-banglapedia",
+    "shaheed-minar-banglapedia",
+    "international-mother-language-day-unesco",
+    "ekattorer-dinguli",
+    "stop-genocide",
+    "shahbag-generation-circle-cultural-memory",
+    "a-history-of-bangladesh"
   ],
   "faq": [
     {
-      "question": "এই বাংলা সংস্কৃতি, সাহিত্য ও স্মৃতি হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "সংস্কৃতি কেন ইতিহাসের টপিক?",
+      "answer": "ভাষা, সাহিত্য, শিক্ষা, সঙ্গীত ও স্মারকচর্চা শুধু শিল্প নয়; রাজনৈতিক পরিচয়ও গড়েছে।",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "shaheed-minar-banglapedia"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "মুক্তিযুদ্ধ কেন যুক্ত?",
+      "answer": "১৯৭১ জনস্মৃতি, সাহিত্য, চলচ্চিত্র, গান, স্মারক ও জাতীয় পরিচয় বিতর্কের দীর্ঘ ধারা তৈরি করে।",
+      "sourceIds": [
+        "shaheed-minar-banglapedia",
+        "international-mother-language-day-unesco"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "এই টপিক কীভাবে পড়ব?",
+      "answer": "সাংস্কৃতিক প্রতিষ্ঠান কীভাবে রাজনৈতিক আর্কাইভে পরিণত হয়েছে তা দেখতে ভাষা, শিক্ষা ও স্মৃতি একসঙ্গে পড়ুন।",
+      "sourceIds": [
+        "international-mother-language-day-unesco",
+        "ekattorer-dinguli"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1952-language-movement",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1971-liberation-war",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
-    },
-    {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
+      "id": "abdul-gaffar-choudhury",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
+      "id": "contemporary-memory-and-civic-protest",
+      "reason": "সময়পর্বে বসান।"
     },
     {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "type": "resource",
+      "id": "shaheed-minar-banglapedia",
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
+    },
+    {
+      "type": "resource",
+      "id": "ekattorer-dinguli",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

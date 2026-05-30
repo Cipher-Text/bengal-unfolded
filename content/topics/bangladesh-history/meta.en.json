@@ -2,22 +2,23 @@
   "slug": "bangladesh-history",
   "priority": 1,
   "title": "Bangladesh History Timeline",
-  "tagline": "From ancient Bengal to contemporary Bangladesh in one connected timeline",
-  "intro": "Use this hub to move across major eras and understand continuity, rupture, and state formation.",
-  "description": "A macro learning hub linking ancient Bengal, medieval transitions, colonial restructuring, partition, liberation, and contemporary civic politics.",
-  "seoTitle": "Bangladesh History Timeline: Ancient to Present | Bengal Unfolded",
-  "seoDescription": "Explore Bangladesh history timeline from ancient Bengal to modern politics with linked events, figures, and learning paths.",
-  "beginnerSummary": "Start here for a chronological overview of Bangladesh and Bengal history.",
-  "advancedSummary": "Compare long-term structural shifts across polity, economy, identity, and civic power.",
+  "tagline": "A chronological route from ancient Bengal to contemporary Bangladesh",
+  "intro": "Use this macro hub to move from early urban Bengal through Sultanate, Mughal, colonial, partition, Pakistan, liberation, military rule, and contemporary civic politics.",
+  "description": "A macro learning hub linking ancient Bengal, medieval transitions, colonial restructuring, partition, liberation, state formation, military rule, democratic transitions, and contemporary civic politics.",
+  "seoTitle": "Bangladesh History Timeline: Ancient Bengal to 2024",
+  "seoDescription": "Explore Bangladesh history through connected events from Mahasthangarh, Pala, Sultanate, Mughal Bengal, Plassey, partition, Language Movement, 1971, 1990, and 2024.",
+  "beginnerSummary": "Start here for the broad timeline before entering specialist topics on language, partition, liberation, state formation, and civic movements.",
+  "advancedSummary": "Use this hub to compare long-term continuities in state formation, identity, revenue, representation, violence, memory, and democratic contestation.",
   "primaryKeywords": [
-    "bangladesh history timeline",
-    "history of bangladesh",
-    "bengal history"
+    "Bangladesh history timeline",
+    "history of Bangladesh",
+    "Bengal history"
   ],
   "secondaryKeywords": [
-    "ancient bengal to modern bangladesh",
-    "bangladesh political history",
-    "bangladesh historical timeline"
+    "ancient Bengal",
+    "Liberation War 1971",
+    "Language Movement",
+    "Bangladesh politics"
   ],
   "eventSlugs": [
     "0400bce-0300bce-mahasthangarh-urban-emergence",
@@ -55,54 +56,91 @@
   "figureIds": [
     "dharmapala",
     "ikhtiyar-al-din-muhammad-bakhtiyar-khalji",
-    "murshid-quli-khan",
+    "shamsuddin-ilyas-shah",
+    "isa-khan",
+    "shaista-khan",
     "siraj-ud-daulah",
+    "robert-clive",
+    "lord-curzon",
+    "rabindranath-tagore",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy",
+    "muhammad-ali-jinnah",
     "sheikh-mujibur-rahman",
-    "nahid-islam"
+    "tajuddin-ahmad",
+    "ziaur-rahman",
+    "hussain-muhammad-ershad",
+    "khaleda-zia",
+    "sheikh-hasina",
+    "nahid-islam",
+    "muhammad-yunus"
   ],
   "resourceIds": [
     "a-history-of-bangladesh",
-    "a-comprehensive-history-of-modern-bengal-1700-1950"
+    "history-banglapedia",
+    "the-history-of-bengal-vol-1-hindu-period",
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+    "a-comprehensive-history-of-modern-bengal-1700-1950",
+    "war-of-liberation-banglapedia",
+    "bangladesh-since-independence-britannica",
+    "ohchr-fact-finding-bangladesh-july-august-2024"
   ],
   "faq": [
     {
-      "question": "Why is this a timeline hub?",
-      "answer": "It links major turning points across eras so new learners can follow historical continuity."
+      "question": "What is this macro topic for?",
+      "answer": "It gives a chronological route across the whole archive so readers can locate specialist topics in a wider historical sequence.",
+      "sourceIds": [
+        "a-history-of-bangladesh",
+        "history-banglapedia"
+      ]
     },
     {
-      "question": "Does it include both pre-1947 and post-1947 history?",
-      "answer": "Yes. The hub intentionally connects ancient, colonial, partition, liberation, and contemporary periods."
+      "question": "Should I read every event here first?",
+      "answer": "No. Use it as a map, then enter focused hubs such as partition, language, liberation, or democracy.",
+      "sourceIds": [
+        "history-banglapedia",
+        "the-history-of-bengal-vol-1-hindu-period"
+      ]
     },
     {
-      "question": "How should advanced readers use this page?",
-      "answer": "Use event links to compare state power, identity, and civic contestation over time."
+      "question": "Why include 2024?",
+      "answer": "The archive treats contemporary civic upheaval as part of the same long history of representation, rights, and state legitimacy.",
+      "sourceIds": [
+        "the-history-of-bengal-vol-1-hindu-period",
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
-      "id": "1757-battle-of-plassey",
-      "reason": "Start with a key turning point."
+      "id": "0400bce-0300bce-mahasthangarh-urban-emergence",
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1971-liberation-war",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
       "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
-    },
-    {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
+      "reason": "Place the topic in period context."
     },
     {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "Read the first source-backed reference."
+    },
+    {
+      "type": "resource",
+      "id": "war-of-liberation-banglapedia",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

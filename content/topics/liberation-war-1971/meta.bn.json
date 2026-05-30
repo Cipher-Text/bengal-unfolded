@@ -2,22 +2,23 @@
   "slug": "liberation-war-1971",
   "priority": 13,
   "title": "মুক্তিযুদ্ধ ১৯৭১",
-  "tagline": "মুক্তিযুদ্ধ ১৯৭১ বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "মুক্তিযুদ্ধ ১৯৭১ ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
+  "tagline": "মার্চ সংকট, মুজিবনগর, গণহত্যা, যুদ্ধফ্রন্ট, আত্মসমর্পণ ও স্মৃতি",
+  "intro": "মার্চের রাজনৈতিক সংকট ও অপারেশন সার্চলাইট থেকে মুজিবনগর, গেরিলা অভিযান, যুদ্ধফ্রন্ট, গণহত্যা, আত্মসমর্পণ ও জনস্মৃতি পর্যন্ত ১৯৭১ অনুসরণ করুন।",
   "description": "১৯৭১ সালের মার্চ, মুজিবনগর, যুদ্ধফ্রন্ট, গণহত্যা, আত্মসমর্পণ ও স্মৃতির ধারায় বাংলাদেশের মুক্তিযুদ্ধকে অনুসরণ করুন।",
-  "seoTitle": "মুক্তিযুদ্ধ ১৯৭১ | Bengal Unfolded টপিক হাব",
-  "seoDescription": "মুক্তিযুদ্ধ ১৯৭১ বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "মুক্তিযুদ্ধ ১৯৭১ বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "মুক্তিযুদ্ধ ১৯৭১ বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "seoTitle": "বাংলাদেশের মুক্তিযুদ্ধ ১৯৭১: ৭ মার্চ, মুজিবনগর, যুদ্ধ, গণহত্যা ও বিজয়",
+  "seoDescription": "৭ মার্চ, অপারেশন সার্চলাইট, মুজিবনগর, সেক্টর কমান্ডার, যুদ্ধ, গণহত্যা, আত্মসমর্পণ, ব্যক্তিত্ব ও উৎসসহ ১৯৭১ মুক্তিযুদ্ধ পড়ুন।",
+  "beginnerSummary": "৭ মার্চ ও ২৫ মার্চের দমন অভিযান দিয়ে শুরু করে মুজিবনগর, সংগঠিত প্রতিরোধ, যুদ্ধফ্রন্ট ও ১৬ ডিসেম্বর আত্মসমর্পণ অনুসরণ করুন।",
+  "advancedSummary": "রাজনৈতিক নেতৃত্ব, সামরিক সংগঠন, আন্তর্জাতিক কূটনীতি, গণসহিংসতা, স্থানীয় স্মৃতি ও যুদ্ধোত্তর দায়বদ্ধতার বিতর্ক তুলনা করুন।",
   "primaryKeywords": [
-    "মুক্তিযুদ্ধ ১৯৭১",
-    "বাংলাদেশের স্বাধীনতার ইতিহাস",
-    "মুজিবনগর ও যুদ্ধফ্রন্ট"
+    "বাংলাদেশের মুক্তিযুদ্ধ ১৯৭১",
+    "মুজিবনগর সরকার",
+    "অপারেশন সার্চলাইট"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "৭ মার্চ ভাষণ",
+    "সেক্টর কমান্ডার",
+    "১৯৭১ গণহত্যা",
+    "আত্মসমর্পণ দলিল"
   ],
   "eventSlugs": [
     "1971-march-7-speech",
@@ -121,60 +122,70 @@
   ],
   "resourceIds": [
     "bangladesher-shadhinota-juddho-dolilpotro",
-    "proclamation-of-independence-1971-text",
     "war-of-liberation-banglapedia",
+    "proclamation-of-independence-1971-text",
+    "the-blood-telegram",
     "1971-a-global-history-of-the-creation-of-bangladesh",
-    "genocide-in-bangladesh"
+    "the-rape-of-bangladesh",
+    "ekattorer-dinguli",
+    "ami-birangona-bolchi"
   ],
   "faq": [
     {
-      "question": "এই মুক্তিযুদ্ধ ১৯৭১ হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "১৯৭১ আলাদা পূর্ণ টপিক কেন?",
+      "answer": "এই যুদ্ধ রাজনৈতিক ম্যান্ডেট, সামরিক দমন, প্রবাসী সরকার, সশস্ত্র প্রতিরোধ, গণসহিংসতা ও রাষ্ট্রজন্মকে একসঙ্গে যুক্ত করে।",
+      "sourceIds": [
+        "bangladesher-shadhinota-juddho-dolilpotro",
+        "war-of-liberation-banglapedia"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "নতুন পাঠক কোথা থেকে শুরু করবে?",
+      "answer": "৭ মার্চ ভাষণ, তারপর অপারেশন সার্চলাইট, মুজিবনগর, মূল মুক্তিযুদ্ধ হাব এবং আত্মসমর্পণ ইভেন্ট পড়ুন।",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "proclamation-of-independence-1971-text"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "স্থানীয় গণহত্যা ও যুদ্ধ কেন রাখা হয়েছে?",
+      "answer": "এগুলো যুদ্ধকে শুধু জাতীয় নেতৃত্বে সীমাবদ্ধ না রেখে বিভিন্ন স্থানে সহিংসতা ও প্রতিরোধ কীভাবে ঘটেছে তা দেখায়।",
+      "sourceIds": [
+        "proclamation-of-independence-1971-text",
+        "the-blood-telegram"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1971-march-7-speech",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1971-mujibnagar-government",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
       "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "pakistan-period-and-national-awakening",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
       "id": "bangladesher-shadhinota-juddho-dolilpotro",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
       "id": "proclamation-of-independence-1971-text",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
-    },
-    {
-      "type": "resource",
-      "id": "war-of-liberation-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

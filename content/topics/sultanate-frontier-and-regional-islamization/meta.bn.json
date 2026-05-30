@@ -2,22 +2,23 @@
   "slug": "sultanate-frontier-and-regional-islamization",
   "priority": 4,
   "title": "বাংলা সালতানাত ও আঞ্চলিক ক্ষমতা",
-  "tagline": "বাংলা সালতানাত ও আঞ্চলিক ক্ষমতা বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "বাংলা সালতানাত ও আঞ্চলিক ক্ষমতা ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "বাংলা সালতানাতের ক্ষমতা, সীমান্ত বিস্তার, আঞ্চলিক দরবার, নগর কেন্দ্র এবং ইসলামায়নের দীর্ঘ সাংস্কৃতিক প্রভাব অনুসরণ করুন।",
-  "seoTitle": "বাংলা সালতানাত ও আঞ্চলিক ক্ষমতা | Bengal Unfolded টপিক হাব",
-  "seoDescription": "বাংলা সালতানাত ও আঞ্চলিক ক্ষমতা বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "বাংলা সালতানাত ও আঞ্চলিক ক্ষমতা বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "বাংলা সালতানাত ও আঞ্চলিক ক্ষমতা বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "স্বাধীন সুলতান, সীমান্ত বিস্তার ও আঞ্চলিক ইসলামি সংস্কৃতি",
+  "intro": "সিলেট, আঞ্চলিক সুলতানি, ইলিয়াস শাহী সংহতি, রাজা গণেশ ও হুসেন শাহী বিস্তারের ভেতর দিয়ে বাংলার সুলতানি গঠন পড়ুন।",
+  "description": "বাংলার সুলতানি ক্ষমতা, সীমান্ত বিস্তার, সুফি স্মৃতি, আঞ্চলিক দরবার, নগরকেন্দ্র ও ইসলামায়নের সাংস্কৃতিক প্রভাব অনুসরণ করুন।",
+  "seoTitle": "বাংলার সুলতানি ও সীমান্ত ইসলামায়ন: সিলেট, ইলিয়াস শাহ, রাজা গণেশ, হুসেন শাহ",
+  "seoDescription": "সিলেট, ইলিয়াস শাহ, রাজা গণেশ, হুসেন শাহ, আঞ্চলিক ইসলামায়ন, ব্যক্তিত্ব, উৎস ও ইভেন্টসহ বাংলার সুলতানি ইতিহাস পড়ুন।",
+  "beginnerSummary": "আঞ্চলিক দরবার ও সীমান্ত নেটওয়ার্ক কীভাবে বাংলাকে বদলেছিল তা বুঝতে সিলেট ও সুলতানি সংহতি দিয়ে শুরু করুন।",
+  "advancedSummary": "ইসলামায়নকে একক ঘটনা না ধরে দরবারি ইতিহাস, সুফি স্মৃতি, রাজনৈতিক সংহতি ও আঞ্চলিক পৃষ্ঠপোষকতা তুলনা করুন।",
   "primaryKeywords": [
-    "বাংলা সালতানাতের ইতিহাস",
-    "বাংলায় আঞ্চলিক ক্ষমতা",
-    "ইসলামায়ন ও সীমান্ত"
+    "বাংলার সুলতানি ইতিহাস",
+    "সিলেট বিজয়",
+    "বাংলায় ইসলামায়ন"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "ইলিয়াস শাহ",
+    "রাজা গণেশ",
+    "হুসেন শাহ",
+    "সীমান্ত বাংলা"
   ],
   "eventSlugs": [
     "1303-conquest-of-sylhet",
@@ -29,65 +30,87 @@
     "1230s-1280s-bengal-under-delhi-governorates-fragmentation"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "shah-jalal",
+    "sikandar-khan-ghazi",
+    "shamsuddin-ilyas-shah",
+    "fakhruddin-mubarak-shah",
+    "sikandar-shah",
+    "raja-ganesh",
+    "jalaluddin-muhammad-shah",
+    "ghiyasuddin-azam-shah",
+    "alauddin-husain-shah",
+    "nusrat-shah",
+    "rukunuddin-barbak-shah",
+    "saifuddin-firuz-shah",
+    "paragal-khan",
+    "shah-muhammad-sagir",
+    "ikhtiyar-al-din-muhammad-bakhtiyar-khalji"
   ],
   "resourceIds": [
+    "shah-jalal-banglapedia",
     "bengal-sultanate-wikipedia",
     "the-history-of-bengal-vol-2-muslim-period-1200-1757",
     "the-rise-of-islam-and-the-bengal-frontier-1204-1760",
-    "shah-jalal-banglapedia"
+    "the-islamic-heritage-of-bengal",
+    "riyaz-us-salatin",
+    "alauddin-husain-shah-wikipedia"
   ],
   "faq": [
     {
-      "question": "এই বাংলা সালতানাত ও আঞ্চলিক ক্ষমতা হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "এখানে ইসলামায়ন বলতে কী বোঝানো হয়েছে?",
+      "answer": "এটি বিভিন্ন অঞ্চলের দীর্ঘ সামাজিক, সাংস্কৃতিক, রাজনৈতিক ও ধর্মীয় প্রক্রিয়া; একক বিজয় বা একরৈখিক ধর্মান্তরের গল্প নয়।",
+      "sourceIds": [
+        "shah-jalal-banglapedia",
+        "bengal-sultanate-wikipedia"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "রাজা গণেশকে কেন রাখা হয়েছে?",
+      "answer": "তার ক্ষমতা দখল ও জালালুদ্দিন মুহাম্মদ শাহ পর্যায় দেখায় সুলতানি রাজনীতি ধর্মীয় ও অভিজাত সীমারেখা পেরিয়ে দরকষাকষির ক্ষেত্র ছিল।",
+      "sourceIds": [
+        "bengal-sultanate-wikipedia",
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "কোন ইভেন্ট আগে পড়ব?",
+      "answer": "সবচেয়ে পরিষ্কার ধারাবাহিকতার জন্য সিলেট, তারপর সুলতানি সংহতি ও হুসেন শাহী পর্যায় পড়ুন।",
+      "sourceIds": [
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+        "the-rise-of-islam-and-the-bengal-frontier-1204-1760"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1303-conquest-of-sylhet",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1352-bengal-sultanate-independence-and-unification",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "shamsuddin-ilyas-shah",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "independent-bengal-sultanate-era",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
-      "id": "bengal-sultanate-wikipedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
-    },
-    {
-      "type": "resource",
-      "id": "the-history-of-bengal-vol-2-muslim-period-1200-1757",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+      "id": "shah-jalal-banglapedia",
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
       "id": "the-rise-of-islam-and-the-bengal-frontier-1204-1760",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

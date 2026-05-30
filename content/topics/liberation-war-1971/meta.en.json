@@ -2,22 +2,23 @@
   "slug": "liberation-war-1971",
   "priority": 13,
   "title": "Liberation War 1971",
-  "tagline": "Structured learning hub: Liberation War 1971",
-  "intro": "Follow connected events to understand liberation war 1971 in historical context.",
+  "tagline": "March crisis, Mujibnagar, genocide, battlefield fronts, surrender, and memory",
+  "intro": "Follow 1971 from the March political crisis and Operation Searchlight to Mujibnagar, guerrilla operations, battlefield fronts, massacres, surrender, and public memory.",
   "description": "Follow the road to Bangladesh’s Liberation War through March 1971, Mujibnagar, battlefield fronts, mass violence, surrender, and memory.",
-  "seoTitle": "Liberation War 1971 | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn liberation war 1971 through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of liberation war 1971.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in liberation war 1971.",
+  "seoTitle": "Bangladesh Liberation War 1971: March 7, Mujibnagar, Battles, Genocide and Victory",
+  "seoDescription": "Explore the 1971 Liberation War through March 7, Operation Searchlight, Mujibnagar, sector commanders, battles, massacres, surrender, figures, and sources.",
+  "beginnerSummary": "Begin with March 7 and the 25 March crackdown, then follow Mujibnagar, organized resistance, battlefronts, and 16 December surrender.",
+  "advancedSummary": "Compare political leadership, military organization, international diplomacy, mass violence, local memory, and postwar accountability debates.",
   "primaryKeywords": [
-    "Liberation War 1971",
-    "Bangladesh independence history",
-    "Mujibnagar and war fronts"
+    "Bangladesh Liberation War 1971",
+    "Mujibnagar Government",
+    "Operation Searchlight"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "March 7 speech",
+    "sector commanders",
+    "1971 genocide",
+    "Instrument of Surrender"
   ],
   "eventSlugs": [
     "1971-march-7-speech",
@@ -121,60 +122,70 @@
   ],
   "resourceIds": [
     "bangladesher-shadhinota-juddho-dolilpotro",
-    "proclamation-of-independence-1971-text",
     "war-of-liberation-banglapedia",
+    "proclamation-of-independence-1971-text",
+    "the-blood-telegram",
     "1971-a-global-history-of-the-creation-of-bangladesh",
-    "genocide-in-bangladesh"
+    "the-rape-of-bangladesh",
+    "ekattorer-dinguli",
+    "ami-birangona-bolchi"
   ],
   "faq": [
     {
-      "question": "What does this Liberation War 1971 hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why is 1971 treated as a full topic?",
+      "answer": "The war links political mandate, military crackdown, government-in-exile, armed resistance, mass violence, and state birth.",
+      "sourceIds": [
+        "bangladesher-shadhinota-juddho-dolilpotro",
+        "war-of-liberation-banglapedia"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Where should beginners start?",
+      "answer": "Start with the March 7 speech, then Operation Searchlight, Mujibnagar, the main war hub, and the surrender event.",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "proclamation-of-independence-1971-text"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "Why include local massacres and battles?",
+      "answer": "They prevent the war from being reduced to national leadership alone and show how violence and resistance unfolded across places.",
+      "sourceIds": [
+        "proclamation-of-independence-1971-text",
+        "the-blood-telegram"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1971-march-7-speech",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1971-mujibnagar-government",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
       "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "pakistan-period-and-national-awakening",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
       "id": "bangladesher-shadhinota-juddho-dolilpotro",
-      "reason": "Recommended source 1 for this topic"
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
       "id": "proclamation-of-independence-1971-text",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "war-of-liberation-banglapedia",
-      "reason": "Recommended source 3 for this topic"
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

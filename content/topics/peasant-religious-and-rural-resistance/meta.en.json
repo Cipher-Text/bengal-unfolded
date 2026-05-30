@@ -2,22 +2,23 @@
   "slug": "peasant-religious-and-rural-resistance",
   "priority": 7,
   "title": "Peasant, Religious, and Rural Resistance",
-  "tagline": "Structured learning hub: Peasant, Religious, and Rural Resistance",
-  "intro": "Follow connected events to understand peasant, religious, and rural resistance in historical context.",
-  "description": "Follow peasant, religious, and rural resistance from early anti-colonial struggles to agrarian mobilization and local defiance.",
-  "seoTitle": "Peasant, Religious, and Rural Resistance | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn peasant, religious, and rural resistance through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of peasant, religious, and rural resistance.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in peasant, religious, and rural resistance.",
+  "tagline": "Rural protest, religious reform, and agrarian mobilization",
+  "intro": "Read peasant, religious, and rural resistance from Fakir-Sannyasi mobilization to Faraizi networks, Titumir, Indigo protest, and Tebhaga.",
+  "description": "Follow rural Bengal’s resistance through famine-era unrest, religious reform movements, anti-zamindari mobilization, indigo protest, and sharecropper politics.",
+  "seoTitle": "Peasant, Religious, and Rural Resistance in Bengal: Fakir-Sannyasi to Tebhaga",
+  "seoDescription": "Explore Bengal rural resistance through Fakir-Sannyasi, Faraizi, Titumir, Indigo Revolt, Tebhaga, key figures, events, and sources.",
+  "beginnerSummary": "Use this topic to connect rural protest with land, revenue, religion, colonial authority, and peasant bargaining power.",
+  "advancedSummary": "Compare religious reform, anti-zamindari action, market coercion, and class politics across two centuries of rural resistance.",
   "primaryKeywords": [
-    "peasant resistance in Bengal",
-    "rural protest history",
-    "religious resistance"
+    "peasant resistance Bengal",
+    "Faraizi movement",
+    "Tebhaga movement"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Fakir Sannyasi resistance",
+    "Titumir",
+    "Indigo Revolt",
+    "rural Bengal"
   ],
   "eventSlugs": [
     "1760-1800-fakir-sannyasi-resistance",
@@ -28,66 +29,82 @@
     "1781-rangpur-dhing-uprising"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "haji-shariatullah",
+    "dudu-miyan",
+    "titu-mir",
+    "dinabandhu-mitra",
+    "harish-chandra-mukherjee",
+    "ila-mitra",
+    "muzaffar-ahmad",
+    "somnath-lahiri",
+    "raja-rammohun-roy"
   ],
   "resourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica",
+    "faraizi-movement-banglapedia",
+    "haji-shariatullah-banglapedia",
     "titu-mir-banglapedia",
-    "narkelberia-banglapedia",
-    "role-of-the-fakir-leaders-in-18th-century-bengal",
-    "sannyasi-fakir-rebellion-1770-1800",
-    "faraizi-movement-banglapedia"
+    "history-banglapedia",
+    "inside-bengal-politics-1936-1947",
+    "the-fakir-and-sannyasi-rebellion"
   ],
   "faq": [
     {
-      "question": "What does this Peasant, Religious, and Rural Resistance hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why combine religious and peasant movements?",
+      "answer": "In Bengal, religious reform, agrarian grievance, and anti-zamindari politics often overlapped in rural mobilization.",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Does this topic only cover anti-British revolt?",
+      "answer": "No. It also covers social reform, landlord-peasant conflict, market pressure, and late-colonial sharecropper demands.",
+      "sourceIds": [
+        "sannyasi-rebellion-britannica",
+        "faraizi-movement-banglapedia"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "Which sequence is clearest?",
+      "answer": "Read Fakir-Sannyasi, Faraizi, Titumir, Indigo, and Tebhaga in order to see changes in rural protest over time.",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1760-1800-fakir-sannyasi-resistance",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1818-faraizi-movement-begins-in-eastern-bengal",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "haji-shariatullah",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "colonial-rule-and-resistance",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
-      "id": "titu-mir-banglapedia",
-      "reason": "Recommended source 1 for this topic"
+      "id": "fakir-sannyasi-resistance-banglapedia",
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
-      "id": "narkelberia-banglapedia",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "role-of-the-fakir-leaders-in-18th-century-bengal",
-      "reason": "Recommended source 3 for this topic"
+      "id": "inside-bengal-politics-1936-1947",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

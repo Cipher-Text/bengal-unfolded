@@ -2,22 +2,23 @@
   "slug": "state-formation-crisis-and-military-rule-1972-1990",
   "priority": 14,
   "title": "1972–1990: State Formation, Crisis, and Military Rule",
-  "tagline": "Structured learning hub: 1972–1990: State Formation, Crisis, and Military Rule",
-  "intro": "Follow connected events to understand 1972–1990: state formation, crisis, and military rule in historical context.",
+  "tagline": "Constitution, famine, one-party rule, coups, military regimes, and democratic transition",
+  "intro": "Study Bangladesh from the 1972 Constitution through famine, BAKSAL, assassinations, coups, Farakka, CHT conflict, Ershad rule, and the 1990 uprising.",
   "description": "Study Bangladesh’s early state formation, famine, constitutional rupture, military rule, opposition politics, and the 1990 democratic transition.",
-  "seoTitle": "1972–1990: State Formation, Crisis, and Military Rule | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn 1972–1990: state formation, crisis, and military rule through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of 1972–1990: state formation, crisis, and military rule.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in 1972–1990: state formation, crisis, and military rule.",
+  "seoTitle": "Bangladesh 1972-1990: State Formation, BAKSAL, Coups, Military Rule and Mass Uprising",
+  "seoDescription": "Explore post-1971 Bangladesh through the 1972 Constitution, famine, BAKSAL, 1975 assassinations, Zia, Ershad, CHT conflict, Farakka, and 1990.",
+  "beginnerSummary": "Start with the 1972 Constitution, then follow crisis, one-party rule, 1975 violence, military regimes, and the 1990 transition.",
+  "advancedSummary": "Compare constitutional design, emergency powers, famine governance, civil-military politics, party realignment, and opposition mobilization.",
   "primaryKeywords": [
-    "Bangladesh 1972 to 1990",
-    "military rule and democracy",
-    "state formation crisis"
+    "Bangladesh 1972 1990 history",
+    "BAKSAL and military rule",
+    "1990 mass uprising"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "1972 Constitution Bangladesh",
+    "Farakka Long March",
+    "Ershad regime",
+    "post-liberation state formation"
   ],
   "eventSlugs": [
     "1972-state-formation-and-the-1972-constitution",
@@ -34,9 +35,30 @@
     "1988-eighth-amendment-state-religion"
   ],
   "figureIds": [
-    "hussain-muhammad-ershad",
+    "sheikh-mujibur-rahman",
+    "tajuddin-ahmad",
+    "abu-sayeed-chowdhury",
+    "kamal-hossain",
+    "zulfikar-ali-bhutto",
+    "pakistan-peoples-party",
+    "manabendra-narayan-larma",
+    "khandaker-mushtaq-ahmed",
+    "siraj-sikder",
+    "abdur-rab-serniabat",
+    "mansur-ali",
+    "ahm-qamaruzzaman",
+    "syed-nazrul-islam",
+    "khaled-mosharraf",
+    "ziaur-rahman",
+    "shah-azizur-rahman",
+    "abu-taher",
+    "abdul-hamid-khan-bhashani",
+    "unknown-protester",
     "sheikh-hasina",
+    "hussain-muhammad-ershad",
+    "abdus-sattar",
     "khaleda-zia",
+    "jatiya-party",
     "justice-shahabuddin-ahmed",
     "nur-hossain",
     "moudud-ahmed",
@@ -85,7 +107,6 @@
     "professional-associations-1990",
     "caretaker-transition-supporters-1990",
     "families-of-martyrs-1990",
-    "jatiya-party",
     "shamsur-rahman",
     "kazi-arif-ahmed",
     "matia-chowdhury",
@@ -96,60 +117,70 @@
   ],
   "resourceIds": [
     "bangladesh-constitution-official-text",
-    "bangladesh-constitution-fourth-amendment-1975",
-    "special-powers-act-1974-banglapedia",
+    "constitution-banglapedia",
+    "bangladesh-since-independence-britannica",
+    "bangladesh-under-mujib-zia-and-ershad",
+    "bangladesh-from-mujib-to-ershad",
     "baksal-banglapedia",
-    "awami-league-and-democracy-movement-1980s"
+    "military-rule-banglapedia",
+    "tin-joter-ruprekha-1990"
   ],
   "faq": [
     {
-      "question": "What does this 1972–1990: State Formation, Crisis, and Military Rule hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why does this topic end in 1990?",
+      "answer": "The 1990 uprising is a major break from military-authoritarian rule toward parliamentary democratic transition.",
+      "sourceIds": [
+        "bangladesh-constitution-official-text",
+        "constitution-banglapedia"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Why include famine and Farakka?",
+      "answer": "They show how governance, food security, and regional water politics shaped post-liberation state legitimacy.",
+      "sourceIds": [
+        "constitution-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "How should contested events be read?",
+      "answer": "Use sourced event pages and compare political, legal, military, and memory-based accounts rather than relying on a single narrative.",
+      "sourceIds": [
+        "bangladesh-since-independence-britannica",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1972-state-formation-and-the-1972-constitution",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1975-baksal-formation-and-collapse",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
       "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
       "id": "bangladesh-constitution-official-text",
-      "reason": "Recommended source 1 for this topic"
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
-      "id": "bangladesh-constitution-fourth-amendment-1975",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "special-powers-act-1974-banglapedia",
-      "reason": "Recommended source 3 for this topic"
+      "id": "military-rule-banglapedia",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

@@ -2,22 +2,23 @@
   "slug": "bangladesh-history",
   "priority": 1,
   "title": "বাংলাদেশের ইতিহাস টাইমলাইন",
-  "tagline": "প্রাচীন বাংলা থেকে সমসাময়িক বাংলাদেশ পর্যন্ত ধারাবাহিক ইতিহাস",
-  "intro": "এই হাবে যুগভিত্তিক বড় মোড়গুলো যুক্তভাবে দেখে ধারাবাহিকতা, ভাঙন ও রাষ্ট্রগঠনের পথ বুঝুন।",
-  "description": "প্রাচীন বাংলা, মধ্যযুগ, ঔপনিবেশিক পুনর্গঠন, দেশভাগ, মুক্তিযুদ্ধ ও সমকালীন নাগরিক রাজনীতিকে যুক্ত করা একটি ম্যাক্রো হাব।",
-  "seoTitle": "বাংলাদেশের ইতিহাস টাইমলাইন: প্রাচীন থেকে বর্তমান | Bengal Unfolded",
-  "seoDescription": "প্রাচীন বাংলা থেকে বর্তমান বাংলাদেশ পর্যন্ত ইতিহাস টাইমলাইন, সংশ্লিষ্ট ইভেন্ট, ব্যক্তিত্ব ও শেখার পথসহ দেখুন।",
-  "beginnerSummary": "বাংলাদেশের দীর্ঘ ইতিহাস দ্রুত বুঝতে শুরু করার জন্য এটি প্রধান প্রবেশদ্বার।",
-  "advancedSummary": "রাষ্ট্র, অর্থনীতি, পরিচয় ও নাগরিক শক্তির দীর্ঘমেয়াদি রূপান্তর তুলনামূলকভাবে বোঝার হাব।",
+  "tagline": "প্রাচীন বাংলা থেকে সমকালীন বাংলাদেশ পর্যন্ত কালানুক্রমিক পথ",
+  "intro": "প্রাচীন নগর বাংলা থেকে সুলতানি, মুঘল, ঔপনিবেশিক, দেশভাগ, পাকিস্তান, মুক্তিযুদ্ধ, সামরিক শাসন ও সমকালীন নাগরিক রাজনীতি পর্যন্ত যেতে এই বৃহৎ হাব ব্যবহার করুন।",
+  "description": "প্রাচীন বাংলা, মধ্যযুগীয় পরিবর্তন, ঔপনিবেশিক পুনর্গঠন, দেশভাগ, মুক্তিযুদ্ধ, রাষ্ট্রগঠন, সামরিক শাসন, গণতান্ত্রিক রূপান্তর ও সমকালীন নাগরিক রাজনীতিকে যুক্ত করে এই বৃহৎ শেখার হাব।",
+  "seoTitle": "বাংলাদেশের ইতিহাস টাইমলাইন: প্রাচীন বাংলা থেকে ২০২৪",
+  "seoDescription": "মহাস্থানগড়, পাল, সুলতানি, মুঘল বাংলা, পলাশী, দেশভাগ, ভাষা আন্দোলন, ১৯৭১, ১৯৯০ ও ২০২৪সহ বাংলাদেশের ইতিহাস পড়ুন।",
+  "beginnerSummary": "ভাষা, দেশভাগ, মুক্তিযুদ্ধ, রাষ্ট্রগঠন ও নাগরিক আন্দোলনের বিশেষ টপিকে যাওয়ার আগে বিস্তৃত টাইমলাইন বুঝতে এখান থেকে শুরু করুন।",
+  "advancedSummary": "রাষ্ট্রগঠন, পরিচয়, রাজস্ব, প্রতিনিধিত্ব, সহিংসতা, স্মৃতি ও গণতান্ত্রিক প্রতিদ্বন্দ্বিতার দীর্ঘ ধারাবাহিকতা তুলনা করতে এই হাব ব্যবহার করুন।",
   "primaryKeywords": [
     "বাংলাদেশের ইতিহাস টাইমলাইন",
-    "বাংলার ইতিহাস",
-    "বাংলাদেশের ইতিহাস"
+    "বাংলাদেশের ইতিহাস",
+    "বাংলার ইতিহাস"
   ],
   "secondaryKeywords": [
-    "প্রাচীন বাংলা থেকে বাংলাদেশ",
-    "বাংলাদেশ রাজনৈতিক ইতিহাস",
-    "ইতিহাসের ধারাবাহিকতা"
+    "প্রাচীন বাংলা",
+    "মুক্তিযুদ্ধ ১৯৭১",
+    "ভাষা আন্দোলন",
+    "বাংলাদেশের রাজনীতি"
   ],
   "eventSlugs": [
     "0400bce-0300bce-mahasthangarh-urban-emergence",
@@ -55,54 +56,91 @@
   "figureIds": [
     "dharmapala",
     "ikhtiyar-al-din-muhammad-bakhtiyar-khalji",
-    "murshid-quli-khan",
+    "shamsuddin-ilyas-shah",
+    "isa-khan",
+    "shaista-khan",
     "siraj-ud-daulah",
+    "robert-clive",
+    "lord-curzon",
+    "rabindranath-tagore",
+    "ak-fazlul-huq",
+    "huseyn-shaheed-suhrawardy",
+    "muhammad-ali-jinnah",
     "sheikh-mujibur-rahman",
-    "nahid-islam"
+    "tajuddin-ahmad",
+    "ziaur-rahman",
+    "hussain-muhammad-ershad",
+    "khaleda-zia",
+    "sheikh-hasina",
+    "nahid-islam",
+    "muhammad-yunus"
   ],
   "resourceIds": [
     "a-history-of-bangladesh",
-    "a-comprehensive-history-of-modern-bengal-1700-1950"
+    "history-banglapedia",
+    "the-history-of-bengal-vol-1-hindu-period",
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+    "a-comprehensive-history-of-modern-bengal-1700-1950",
+    "war-of-liberation-banglapedia",
+    "bangladesh-since-independence-britannica",
+    "ohchr-fact-finding-bangladesh-july-august-2024"
   ],
   "faq": [
     {
-      "question": "এটি কেন টাইমলাইন হাব?",
-      "answer": "বিভিন্ন যুগের প্রধান মোড়গুলোকে একসাথে যুক্ত করে ইতিহাসের ধারাবাহিকতা বোঝাতে।"
+      "question": "এই বৃহৎ টপিকের কাজ কী?",
+      "answer": "এটি পুরো আর্কাইভের কালানুক্রমিক পথ দেখায়, যাতে পাঠক বিশেষ টপিকগুলোকে বড় ইতিহাসের ভেতর বসাতে পারে।",
+      "sourceIds": [
+        "a-history-of-bangladesh",
+        "history-banglapedia"
+      ]
     },
     {
-      "question": "এখানে কি ১৯৪৭-পূর্ব ও ১৯৪৭-পরবর্তী ইতিহাস আছে?",
-      "answer": "হ্যাঁ। প্রাচীন, ঔপনিবেশিক, দেশভাগ, মুক্তিযুদ্ধ ও সমকালীন পর্ব একত্রে আছে।"
+      "question": "এখানের সব ইভেন্ট আগে পড়া দরকার?",
+      "answer": "না। এটিকে মানচিত্র হিসেবে ব্যবহার করুন, তারপর দেশভাগ, ভাষা, মুক্তিযুদ্ধ বা গণতন্ত্রের মতো নির্দিষ্ট হাবে যান।",
+      "sourceIds": [
+        "history-banglapedia",
+        "the-history-of-bengal-vol-1-hindu-period"
+      ]
     },
     {
-      "question": "গভীরভাবে পড়তে চাইলে কীভাবে ব্যবহার করব?",
-      "answer": "ইভেন্ট-লিংক ধরে রাষ্ট্র, পরিচয় ও নাগরিক রাজনীতির দীর্ঘ পরিবর্তন তুলনা করুন।"
+      "question": "২০২৪ কেন যুক্ত?",
+      "answer": "সমকালীন নাগরিক অস্থিরতাকে প্রতিনিধিত্ব, অধিকার ও রাষ্ট্রীয় বৈধতার দীর্ঘ ইতিহাসের অংশ হিসেবে এই আর্কাইভ পড়ে।",
+      "sourceIds": [
+        "the-history-of-bengal-vol-1-hindu-period",
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
-      "id": "1757-battle-of-plassey",
-      "reason": "Start with a key turning point."
+      "id": "0400bce-0300bce-mahasthangarh-urban-emergence",
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1971-liberation-war",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
       "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
-    },
-    {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
       "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
+      "reason": "সময়পর্বে বসান।"
     },
     {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "type": "resource",
+      "id": "a-history-of-bangladesh",
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
+    },
+    {
+      "type": "resource",
+      "id": "war-of-liberation-banglapedia",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

@@ -2,22 +2,23 @@
   "slug": "pala-sena-period-and-knowledge-culture",
   "priority": 3,
   "title": "পাল-সেন যুগ ও জ্ঞানচর্চা",
-  "tagline": "বৌদ্ধ শিক্ষাকেন্দ্র, দরবারি সংস্কৃতি ও ক্ষমতার রূপান্তর",
-  "intro": "পাল-সেন শাসনপর্বে জ্ঞান উৎপাদন, ধর্মীয় প্রতিষ্ঠান ও রাজনৈতিক রূপান্তরকে কেন্দ্র করে পড়ুন।",
-  "description": "পাল-সেন যুগের জ্ঞানচর্চা, সোমপুর, ও রাজ্যান্তরের ধারাকে বিশ্লেষণকারী একটি থিম্যাটিক হাব।",
-  "seoTitle": "পাল-সেন যুগ ও জ্ঞানচর্চা | Bengal Unfolded",
-  "seoDescription": "সোমপুর মহাবিহার, দরবারি সংস্কৃতি ও পাল-সেন রূপান্তরের আলোকে প্রারম্ভিক মধ্যযুগীয় বাংলা জানুন।",
-  "beginnerSummary": "পাল-সেন শাসন ও প্রধান শিক্ষাকেন্দ্রের পরিচিতি দেয়।",
-  "advancedSummary": "রাষ্ট্রের পৃষ্ঠপোষকতা, ধর্মীয় প্রতিষ্ঠান ও সাংস্কৃতিক পরিবর্তনের গভীর বিশ্লেষণ সম্ভব।",
+  "tagline": "মহাবিহার, রাজপৃষ্ঠপোষকতা ও সুলতানি-পূর্ব সংস্কৃতি",
+  "intro": "বৌদ্ধ মহাবিহার, দরবারি সংস্কৃতি, আঞ্চলিক রাজশক্তি এবং বখতিয়ার খলজির আগের যুগান্তরের ভেতর দিয়ে পাল-সেন বাংলাকে অনুসরণ করুন।",
+  "description": "পাল-সেন জ্ঞানসংস্কৃতি, সোমপুর মহাবিহার, রাজবংশীয় কর্তৃত্ব, সংস্কৃত-বৌদ্ধ শিক্ষাচর্চা ও শেষ সেন রাজনৈতিক পরিবর্তনের একটি বিষয়ভিত্তিক হাব।",
+  "seoTitle": "পাল-সেন বাংলা: জ্ঞানসংস্কৃতি, সোমপুর ও রাজবংশীয় পরিবর্তন",
+  "seoDescription": "সোমপুর মহাবিহার, ধর্মপাল, অতীশ, লক্ষ্মণ সেন, উৎসভিত্তিক ইভেন্ট, ব্যক্তিত্ব ও পাঠ-রিসোর্সসহ পাল-সেন বাংলার ইতিহাস পড়ুন।",
+  "beginnerSummary": "সুলতানি যুগের আগে মহাবিহার, রাজপৃষ্ঠপোষকতা ও দরবারি সংস্কৃতি কীভাবে বাংলাকে গড়েছিল তা দেখতে এই পথ ধরুন।",
+  "advancedSummary": "পাল থেকে সেন যুগে বৌদ্ধ প্রতিষ্ঠান, সংস্কৃত দরবারি সংস্কৃতি ও রাজনৈতিক খণ্ডীকরণকে তুলনামূলকভাবে পড়ুন।",
   "primaryKeywords": [
-    "পাল-সেন যুগ",
-    "সোমপুর মহাবিহার",
-    "প্রারম্ভিক মধ্যযুগীয় বাংলা"
+    "পাল রাজবংশ বাংলা",
+    "সেন রাজবংশ বাংলা",
+    "সোমপুর মহাবিহারের ইতিহাস"
   ],
   "secondaryKeywords": [
-    "পাল রাজবংশ",
-    "সেন দরবার",
-    "বাংলায় জ্ঞানচর্চা"
+    "অতীশ দীপঙ্কর",
+    "বাংলায় বৌদ্ধ শিক্ষা",
+    "লক্ষ্মণ সেন",
+    "পাহাড়পুর"
   ],
   "eventSlugs": [
     "0750-1170-pala-dynasty-foundation",
@@ -28,65 +29,76 @@
   "figureIds": [
     "dharmapala",
     "devapala",
-    "ballala-sena",
+    "gopala-i",
+    "mahipala-i",
+    "atisha-dipankara-srijnana",
     "lakshmana-sena",
-    "atisha-dipankara-srijnana"
+    "ballala-sena",
+    "vijaya-sena"
   ],
   "resourceIds": [
     "pala-dynasty-britannica",
-    "sena-dynasty-britannica",
     "somapura-mahavira-britannica",
-    "the-history-of-bengal-vol-1-hindu-period"
+    "the-history-of-bengal-vol-1-hindu-period",
+    "sena-dynasty-britannica",
+    "a-history-of-bangladesh"
   ],
   "faq": [
     {
-      "question": "পাল যুগকে বিশেষ করে কী?",
-      "answer": "বৌদ্ধ মহাবিহার ও আন্তঃআঞ্চলিক জ্ঞান-নেটওয়ার্ক এই পর্বকে আলাদা করে।"
+      "question": "এই টপিক প্রাচীন বাংলা থেকে আলাদা কীভাবে?",
+      "answer": "এটি বৃহত্তর প্রাচীন হাবের ভেতর থেকে পাল-সেন প্রতিষ্ঠান, জ্ঞানচর্চা ও শেষ প্রাক-সুলতানি পরিবর্তনকে আলাদা করে পড়ে।",
+      "sourceIds": [
+        "pala-dynasty-britannica",
+        "somapura-mahavira-britannica"
+      ]
     },
     {
-      "question": "সেন যুগে কী পরিবর্তন দেখা যায়?",
-      "answer": "দরবারি সংস্কৃতি ও রাজনৈতিক ভারসাম্যে গুরুত্বপূর্ণ পরিবর্তন ঘটে।"
+      "question": "সোমপুর এত গুরুত্বপূর্ণ কেন?",
+      "answer": "সোমপুর মহাবিহার পাল পৃষ্ঠপোষকতা, বৌদ্ধ শিক্ষাচর্চা, স্থাপত্য ও আঞ্চলিক সাংস্কৃতিক বিনিময়ের বড় উপাদান।",
+      "sourceIds": [
+        "somapura-mahavira-britannica",
+        "the-history-of-bengal-vol-1-hindu-period"
+      ]
     },
     {
-      "question": "প্রাচীন বাংলা থেকে আলাদা হাব কেন?",
-      "answer": "জ্ঞানচর্চা ও রাজবংশীয় রূপান্তরকে গভীরভাবে দেখার জন্য।"
+      "question": "সেন যুগান্তর কীভাবে পড়ব?",
+      "answer": "এটিকে শুধু ১২০৪-১২০৫ সালের সামরিক ঘটনার ভূমিকা নয়, রাজনৈতিক ও সাংস্কৃতিক পরিবর্তন হিসেবেও পড়ুন।",
+      "sourceIds": [
+        "the-history-of-bengal-vol-1-hindu-period",
+        "sena-dynasty-britannica"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
+      "id": "0750-1170-pala-dynasty-foundation",
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
       "id": "0800-1200-somapura-mahavihara",
-      "reason": "Start with a key turning point."
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "dharmapala",
-      "reason": "Study a key historical actor."
+      "id": "atisha-dipankara-srijnana",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
       "id": "ancient-and-pre-sultanate-bengal",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
-    },
-    {
-      "type": "resource",
-      "id": "pala-dynasty-britannica",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
-    },
-    {
-      "type": "resource",
-      "id": "sena-dynasty-britannica",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
       "id": "somapura-mahavira-britannica",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
+    },
+    {
+      "type": "resource",
+      "id": "sena-dynasty-britannica",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

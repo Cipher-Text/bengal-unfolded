@@ -2,22 +2,23 @@
   "slug": "pala-sena-period-and-knowledge-culture",
   "priority": 3,
   "title": "Pala-Sena Period and Knowledge Culture",
-  "tagline": "Monastic networks, court culture, and transitions in authority",
-  "intro": "Focus on knowledge production, Buddhist institutions, and the Pala-Sena transition in Bengal.",
-  "description": "A thematic hub on intellectual culture and political transitions under Pala and Sena rule.",
-  "seoTitle": "Pala-Sena Period and Knowledge Culture | Bengal Unfolded",
-  "seoDescription": "Explore Pala-Sena Bengal through Somapura, court culture, and political transition in early medieval history.",
-  "beginnerSummary": "Introduces Pala-Sena rulers and major learning institutions.",
-  "advancedSummary": "Highlights state patronage, religion, and cultural change in early medieval Bengal.",
+  "tagline": "Monastic learning, dynastic patronage, and late pre-Sultanate culture",
+  "intro": "Follow Pala and Sena Bengal through Buddhist mahaviharas, court culture, regional kingship, and the transition before Bakhtiyar Khalji.",
+  "description": "A thematic hub on Pala-Sena intellectual culture, Somapura Mahavihara, dynastic authority, Sanskrit-Buddhist learning, and the late Sena political transition.",
+  "seoTitle": "Pala-Sena Bengal: Knowledge Culture, Somapura, and Dynastic Change",
+  "seoDescription": "Study Pala and Sena Bengal through Somapura Mahavihara, Dharmapala, Atisha, Lakshmana Sena, source-backed events, figures, and reading resources.",
+  "beginnerSummary": "Use this path to see how monasteries, royal patronage, and courtly culture shaped Bengal before the Sultanate.",
+  "advancedSummary": "Compare Buddhist institutional networks, Sanskritic court culture, and political fragmentation in the long transition from Pala to Sena rule.",
   "primaryKeywords": [
-    "pala sena period",
-    "somapura mahavihara",
-    "early medieval bengal knowledge"
+    "Pala dynasty Bengal",
+    "Sena dynasty Bengal",
+    "Somapura Mahavihara history"
   ],
   "secondaryKeywords": [
-    "pala dynasty bengal",
-    "sena court culture",
-    "bengal monastic networks"
+    "Atisha Dipankara",
+    "Buddhist learning in Bengal",
+    "Lakshmana Sena",
+    "Paharpur"
   ],
   "eventSlugs": [
     "0750-1170-pala-dynasty-foundation",
@@ -28,65 +29,76 @@
   "figureIds": [
     "dharmapala",
     "devapala",
-    "ballala-sena",
+    "gopala-i",
+    "mahipala-i",
+    "atisha-dipankara-srijnana",
     "lakshmana-sena",
-    "atisha-dipankara-srijnana"
+    "ballala-sena",
+    "vijaya-sena"
   ],
   "resourceIds": [
     "pala-dynasty-britannica",
-    "sena-dynasty-britannica",
     "somapura-mahavira-britannica",
-    "the-history-of-bengal-vol-1-hindu-period"
+    "the-history-of-bengal-vol-1-hindu-period",
+    "sena-dynasty-britannica",
+    "a-history-of-bangladesh"
   ],
   "faq": [
     {
-      "question": "What makes the Pala period distinct?",
-      "answer": "Its monastic institutions and transregional Buddhist networks are historically significant."
+      "question": "What makes this topic different from ancient Bengal?",
+      "answer": "It narrows the wider ancient hub to Pala-Sena institutions, learning networks, and the final pre-Sultanate transition.",
+      "sourceIds": [
+        "pala-dynasty-britannica",
+        "somapura-mahavira-britannica"
+      ]
     },
     {
-      "question": "How does the Sena period differ?",
-      "answer": "The Sena phase is associated with shifts in court culture and political alignment."
+      "question": "Why is Somapura central?",
+      "answer": "Somapura Mahavihara is a major material link between Pala patronage, Buddhist scholarship, architecture, and regional cultural exchange.",
+      "sourceIds": [
+        "somapura-mahavira-britannica",
+        "the-history-of-bengal-vol-1-hindu-period"
+      ]
     },
     {
-      "question": "Why is this topic separate from ancient Bengal?",
-      "answer": "It allows deeper focus on intellectual life and dynastic transitions."
+      "question": "How should I read the Sena transition?",
+      "answer": "Read it as a political and cultural transition, not only as a military prelude to the 1204-1205 conquest.",
+      "sourceIds": [
+        "the-history-of-bengal-vol-1-hindu-period",
+        "sena-dynasty-britannica"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
+      "id": "0750-1170-pala-dynasty-foundation",
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
       "id": "0800-1200-somapura-mahavihara",
-      "reason": "Start with a key turning point."
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "dharmapala",
-      "reason": "Study a key historical actor."
+      "id": "atisha-dipankara-srijnana",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
       "id": "ancient-and-pre-sultanate-bengal",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
-    },
-    {
-      "type": "resource",
-      "id": "pala-dynasty-britannica",
-      "reason": "Recommended source 1 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "sena-dynasty-britannica",
-      "reason": "Recommended source 2 for this topic"
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
       "id": "somapura-mahavira-britannica",
-      "reason": "Recommended source 3 for this topic"
+      "reason": "Read the first source-backed reference."
+    },
+    {
+      "type": "resource",
+      "id": "sena-dynasty-britannica",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

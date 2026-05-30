@@ -2,22 +2,23 @@
   "slug": "pakistan-period-state-and-national-awakening",
   "priority": 12,
   "title": "Pakistan Period: Autonomy to Mass Uprising",
-  "tagline": "Structured learning hub: Pakistan Period: Autonomy to Mass Uprising",
-  "intro": "Follow connected events to understand pakistan period: autonomy to mass uprising in historical context.",
-  "description": "Understand East Pakistan’s journey from language rights and constitutional conflict to autonomy demands, mass uprising, and the road to 1971.",
-  "seoTitle": "Pakistan Period: Autonomy to Mass Uprising | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn pakistan period: autonomy to mass uprising through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of pakistan period: autonomy to mass uprising.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in pakistan period: autonomy to mass uprising.",
+  "tagline": "Autonomy, representation, military rule, and the road to liberation",
+  "intro": "Understand East Pakistan from the United Front and constitutional conflict to Six Points, Agartala, mass uprising, Bhola Cyclone, and the 1970 election.",
+  "description": "Understand East Pakistan’s journey from language rights and constitutional conflict to autonomy demands, mass uprising, disaster politics, and the road to 1971.",
+  "seoTitle": "Pakistan Period in East Bengal: Autonomy, Six Points, 1969 and the Road to 1971",
+  "seoDescription": "Study East Pakistan through United Front, martial law, Six Points, Agartala Case, 1969 mass uprising, Bhola Cyclone, 1970 election, figures, and sources.",
+  "beginnerSummary": "Start with the United Front, then follow military rule, autonomy demands, and mass politics that led toward the 1971 rupture.",
+  "advancedSummary": "Compare constitutional imbalance, economic disparity, student movements, party strategies, disaster politics, and nationalist mobilization.",
   "primaryKeywords": [
     "East Pakistan history",
-    "autonomy movement",
-    "mass uprising to 1971"
+    "Six Point Programme",
+    "1969 mass uprising"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "United Front 1954",
+    "Agartala Conspiracy Case",
+    "Bhola Cyclone 1970",
+    "autonomy movement"
   ],
   "eventSlugs": [
     "1954-united-front-election-victory-in-east-bengal",
@@ -31,66 +32,95 @@
     "1967-naxalbari-uprising-and-bengal-left-radicalization"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
     "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "huseyn-shaheed-suhrawardy",
+    "abdul-hamid-khan-bhashani",
+    "awami-league",
+    "nurul-amin",
+    "sheikh-mujibur-rahman",
+    "tamizuddin-khan",
+    "ataur-rahman-khan",
+    "abdur-rashid-tarkabagish",
+    "ayub-khan",
+    "dhaka-university-students",
+    "tofail-ahmed",
+    "asm-abdur-rab",
+    "shamsuzzoha",
+    "rashed-khan-menon",
+    "matia-chowdhury",
+    "abdur-razzaq-politician",
+    "tajuddin-ahmad",
+    "syed-nazrul-islam",
+    "yahya-khan",
+    "zulfikar-ali-bhutto",
+    "pakistan-peoples-party"
   ],
   "resourceIds": [
+    "united-front-banglapedia",
+    "constitutional-development-banglapedia",
+    "military-rule-banglapedia",
     "six-point-programme-banglapedia",
+    "agartala-conspiracy-case-banglapedia",
     "mass-upsurge-1969-banglapedia",
-    "legal-framework-order-1970-text",
     "bhola-cyclone-britannica",
-    "pakistan-banglapedia"
+    "the-unfinished-memoirs"
   ],
   "faq": [
     {
-      "question": "What does this Pakistan Period: Autonomy to Mass Uprising hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why is the Pakistan period central?",
+      "answer": "It shows how representation disputes, economic inequality, and language-cultural politics produced a mass autonomy movement.",
+      "sourceIds": [
+        "united-front-banglapedia",
+        "constitutional-development-banglapedia"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Why include the Bhola Cyclone?",
+      "answer": "The disaster and its political handling intensified distrust before the 1970 election and the 1971 crisis.",
+      "sourceIds": [
+        "constitutional-development-banglapedia",
+        "military-rule-banglapedia"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "Which sequence should I read?",
+      "answer": "Read United Front, martial law, Six Points, Agartala, 1969, and 1970 together as a chain of escalating autonomy politics.",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "six-point-programme-banglapedia"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1954-united-front-election-victory-in-east-bengal",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1966-six-point-programme-announced",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
       "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "pakistan-period-and-national-awakening",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
       "id": "six-point-programme-banglapedia",
-      "reason": "Recommended source 1 for this topic"
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
       "id": "mass-upsurge-1969-banglapedia",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "legal-framework-order-1970-text",
-      "reason": "Recommended source 3 for this topic"
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

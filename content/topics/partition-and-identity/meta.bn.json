@@ -2,22 +2,23 @@
   "slug": "partition-and-identity",
   "priority": 10,
   "title": "দেশভাগ, পরিচয় ও পূর্ব বাংলা",
-  "tagline": "দেশভাগ, পরিচয় ও পূর্ব বাংলা বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "দেশভাগ, পরিচয় ও পূর্ব বাংলা ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "দেশভাগ, সীমানা নির্ধারণ, অভিবাসন, ভাষা ও প্রতিনিধিত্ব কীভাবে পূর্ব বাংলা ও প্রারম্ভিক পাকিস্তানের পরিচয় বদলে দেয়, তা দেখুন।",
-  "seoTitle": "দেশভাগ, পরিচয় ও পূর্ব বাংলা | Bengal Unfolded টপিক হাব",
-  "seoDescription": "দেশভাগ, পরিচয় ও পূর্ব বাংলা বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "দেশভাগ, পরিচয় ও পূর্ব বাংলা বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "দেশভাগ, পরিচয় ও পূর্ব বাংলা বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "সীমান্তরেখা, অভিবাসন, সহিংসতা ও পূর্ব বাংলার পরিচয়",
+  "intro": "ডাইরেক্ট অ্যাকশন ডে, নোয়াখালী, যুক্ত বাংলা, র‍্যাডক্লিফ সীমান্ত, সিলেট এবং পূর্ব পাকিস্তানের প্রাথমিক পরিচয় রাজনীতির ভেতর দিয়ে ১৯৪৬-১৯৪৭ পড়ুন।",
+  "description": "দেশভাগ, সীমান্তরেখা, অভিবাসন, ভাষা, সাম্প্রদায়িক সহিংসতা ও প্রতিনিধিত্ব কীভাবে পূর্ব বাংলা ও প্রারম্ভিক পাকিস্তানের পরিচয় বদলে দেয় তা দেখুন।",
+  "seoTitle": "পূর্ব বাংলায় দেশভাগ ও পরিচয়: ১৯৪৬, ১৯৪৭, সিলেট ও র‍্যাডক্লিফ",
+  "seoDescription": "ডাইরেক্ট অ্যাকশন ডে, নোয়াখালী, যুক্ত বাংলা, র‍্যাডক্লিফ অ্যাওয়ার্ড, সিলেট গণভোট, অভিবাসন, পরিচয়, ব্যক্তিত্ব ও উৎসসহ দেশভাগ পড়ুন।",
+  "beginnerSummary": "পূর্ব বাংলার রাজনৈতিক পরিচয় ও দৈনন্দিন জীবন দেশভাগে কীভাবে বদলেছিল তা বুঝতে ১৯৪৬-এর সহিংসতা ও ১৯৪৭-এর সীমান্তরেখা দিয়ে শুরু করুন।",
+  "advancedSummary": "সাম্প্রদায়িক সহিংসতা, সাংবিধানিক দরকষাকষি, বাউন্ডারি কমিশন, অভিবাসন স্মৃতি ও পূর্ব পাকিস্তানের ভাষা রাজনীতি তুলনা করুন।",
   "primaryKeywords": [
-    "দেশভাগ ও পূর্ব বাংলা",
-    "১৯৪৭-পরবর্তী পরিচয়",
-    "সীমানা ও অভিবাসনের ইতিহাস"
+    "বাংলার দেশভাগ ১৯৪৭",
+    "পূর্ব বাংলার পরিচয়",
+    "র‍্যাডক্লিফ অ্যাওয়ার্ড বাংলা"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "ডাইরেক্ট অ্যাকশন ডে",
+    "নোয়াখালী দাঙ্গা",
+    "যুক্ত বাংলা প্রস্তাব",
+    "সিলেট গণভোট"
   ],
   "eventSlugs": [
     "1946-direct-action-day-and-the-great-calcutta-killing",
@@ -32,12 +33,14 @@
     "1963-hazratbal-crisis-and-east-pakistan-communal-tensions"
   ],
   "figureIds": [
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy",
-    "khwaja-nazimuddin",
+    "all-india-muslim-league",
     "muhammad-ali-jinnah",
+    "huseyn-shaheed-suhrawardy",
     "abul-hashim",
+    "khwaja-nazimuddin",
+    "mahatma-gandhi",
     "sarat-chandra-bose",
+    "ak-fazlul-huq",
     "kiran-shankar-roy",
     "satya-ranjan-bakshi",
     "jogendranath-mandal",
@@ -45,7 +48,6 @@
     "lord-louis-mountbatten",
     "jawaharlal-nehru",
     "vallabhbhai-patel",
-    "mahatma-gandhi",
     "liaquat-ali-khan",
     "syama-prasad-mukherjee",
     "bidhan-chandra-roy",
@@ -83,7 +85,6 @@
     "sa-rahman",
     "cc-biswas",
     "subhas-chandra-bose",
-    "all-india-muslim-league",
     "indian-national-congress",
     "r-c-majumdar",
     "nihar-ranjan-ray",
@@ -91,61 +92,71 @@
     "meghnad-saha"
   ],
   "resourceIds": [
-    "partition-of-british-india-national-archives",
-    "mountbatten-plan-documents",
+    "partition-of-bengal-1947-banglapedia",
+    "partition-politics-banglapedia",
     "radcliffe-award-documents",
-    "indian-annual-register-1947",
-    "partition-of-bengal-1947-banglapedia"
+    "the-great-partition",
+    "the-1947-partition-archive",
+    "bengal-divided",
+    "the-spoils-of-partition",
+    "direct-action-day-banglapedia"
   ],
   "faq": [
     {
-      "question": "এই দেশভাগ, পরিচয় ও পূর্ব বাংলা হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "এই টপিক ১৯৪৭-এর আগে শুরু কেন?",
+      "answer": "১৯৪৬ সালের সহিংসতা ও দরকষাকষি বাংলার দেশভাগ কীভাবে যুক্তি, স্মৃতি ও বাস্তবায়নে গঠিত হয়েছিল তা বোঝায়।",
+      "sourceIds": [
+        "partition-of-bengal-1947-banglapedia",
+        "partition-politics-banglapedia"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "ভাষা রাজনীতি কেন যুক্ত?",
+      "answer": "দেশভাগ পূর্ব পাকিস্তান তৈরি করে, যেখানে অল্প সময়ের মধ্যেই ভাষা প্রশ্ন প্রতিনিধিত্ব ও পরিচয়ের কেন্দ্র হয়ে ওঠে।",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "radcliffe-award-documents"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "রিসোর্সগুলো কীভাবে ব্যবহার করব?",
+      "answer": "সহিংসতা, অভিবাসন ও প্রাদেশিক রাজনীতির ব্যাখ্যার সঙ্গে সরকারি সীমান্ত ও আর্কাইভ উপাদান পড়ুন।",
+      "sourceIds": [
+        "radcliffe-award-documents",
+        "the-great-partition"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1946-direct-action-day-and-the-great-calcutta-killing",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1947-partition-and-eastern-bengal",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "cyril-radcliffe",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "partition-and-late-colonial-politics",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
-      "id": "partition-of-british-india-national-archives",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
-    },
-    {
-      "type": "resource",
-      "id": "mountbatten-plan-documents",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+      "id": "partition-of-bengal-1947-banglapedia",
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
       "id": "radcliffe-award-documents",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

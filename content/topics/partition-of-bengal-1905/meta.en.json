@@ -2,22 +2,23 @@
   "slug": "partition-of-bengal-1905",
   "priority": 8,
   "title": "Bengal Partition, Swadeshi, and Nationalism",
-  "tagline": "Structured learning hub: Bengal Partition, Swadeshi, and Nationalism",
-  "intro": "Follow connected events to understand bengal partition, swadeshi, and nationalism in historical context.",
-  "description": "Read the 1905 Bengal partition through colonial administration, Swadeshi protest, boycott politics, and competing ideas of representation.",
-  "seoTitle": "Bengal Partition, Swadeshi, and Nationalism | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn bengal partition, swadeshi, and nationalism through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of bengal partition, swadeshi, and nationalism.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in bengal partition, swadeshi, and nationalism.",
+  "tagline": "Administrative partition, Swadeshi protest, and competing nationalisms",
+  "intro": "Read the 1905 partition through Curzon’s administrative policy, Swadeshi mobilization, Muslim political organization, and annulment in 1911.",
+  "description": "Read the 1905 Bengal partition through colonial administration, Swadeshi boycott, revolutionary nationalism, Muslim representation, and the founding of the Muslim League in Dhaka.",
+  "seoTitle": "Partition of Bengal 1905, Swadeshi Movement, Dhaka Muslim League and Annulment",
+  "seoDescription": "Study the 1905 Partition of Bengal through Curzon, Swadeshi, Rabindranath Tagore, Nawab Salimullah, Muslim League, annulment, figures, and sources.",
+  "beginnerSummary": "Start with the partition order, then follow protest, boycott, Muslim political organization, and annulment to understand its political consequences.",
+  "advancedSummary": "Compare administrative explanations with nationalist protest, communal representation, provincial identity, and the long road to 1947.",
   "primaryKeywords": [
     "Partition of Bengal 1905",
-    "Swadeshi movement",
-    "colonial representation"
+    "Swadeshi Movement Bengal",
+    "Muslim League Dhaka 1906"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Lord Curzon",
+    "Rabindranath Tagore",
+    "Nawab Salimullah",
+    "annulment of Bengal partition"
   ],
   "eventSlugs": [
     "1905-partition-of-bengal",
@@ -28,66 +29,86 @@
     "1885-indian-national-congress-foundation-and-bengal-response"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "lord-curzon",
+    "rabindranath-tagore",
+    "surendranath-banerjea",
+    "nawab-salimullah",
+    "begum-rokeya",
+    "bankim-chandra-chattopadhyay",
+    "nawab-abdul-latif",
+    "syed-ameer-ali",
+    "abul-kalam-azad",
+    "indian-national-congress",
+    "cr-das",
+    "khwaja-salimullah",
+    "all-india-muslim-league",
+    "mahatma-gandhi"
   ],
   "resourceIds": [
     "partition-of-bengal-1905-banglapedia",
     "partition-of-bengal-britannica",
     "swadeshi-movement-banglapedia",
     "swadeshi-movement-britannica",
-    "the-case-of-the-partition-of-bengal-1905"
+    "partition-agitation-and-congress-bengal-1904-1908",
+    "the-case-of-the-partition-of-bengal-1905",
+    "different-nationalisms-bengal-1905-1947"
   ],
   "faq": [
     {
-      "question": "What does this Bengal Partition, Swadeshi, and Nationalism hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why did the 1905 partition matter?",
+      "answer": "It reorganized Bengal administratively and triggered mass protest, boycott politics, and new arguments about representation.",
+      "sourceIds": [
+        "partition-of-bengal-1905-banglapedia",
+        "partition-of-bengal-britannica"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Was the response uniform?",
+      "answer": "No. Swadeshi opposition, Muslim political support for Eastern Bengal, and later communal-national arguments developed in different directions.",
+      "sourceIds": [
+        "partition-of-bengal-britannica",
+        "swadeshi-movement-banglapedia"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "Why include 1906 and 1911?",
+      "answer": "The founding of the Muslim League in Dhaka and the annulment of partition are direct political consequences of the 1905 decision.",
+      "sourceIds": [
+        "swadeshi-movement-banglapedia",
+        "swadeshi-movement-britannica"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1905-partition-of-bengal",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1911-annulment-of-bengal-partition",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "rabindranath-tagore",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "partition-and-late-colonial-politics",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
       "id": "partition-of-bengal-1905-banglapedia",
-      "reason": "Recommended source 1 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "partition-of-bengal-britannica",
-      "reason": "Recommended source 2 for this topic"
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
       "id": "swadeshi-movement-banglapedia",
-      "reason": "Recommended source 3 for this topic"
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

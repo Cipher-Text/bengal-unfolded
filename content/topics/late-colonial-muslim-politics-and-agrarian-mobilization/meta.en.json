@@ -2,22 +2,23 @@
   "slug": "late-colonial-muslim-politics-and-agrarian-mobilization",
   "priority": 9,
   "title": "Muslim Politics and Peasant Society in Eastern Bengal",
-  "tagline": "Structured learning hub: Muslim Politics and Peasant Society in Eastern Bengal",
-  "intro": "Follow connected events to understand muslim politics and peasant society in eastern bengal in historical context.",
+  "tagline": "Separate electorates, peasant politics, and Muslim League mobilization",
+  "intro": "Connect Khilafat, constitutional reforms, Bengal elections, Lahore Resolution politics, and Sylhet to late-colonial Muslim and agrarian mobilization.",
   "description": "Connect Muslim political organization, peasant mobilization, provincial elections, and agrarian questions in late-colonial eastern Bengal.",
-  "seoTitle": "Muslim Politics and Peasant Society in Eastern Bengal | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn muslim politics and peasant society in eastern bengal through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of muslim politics and peasant society in eastern bengal.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in muslim politics and peasant society in eastern bengal.",
+  "seoTitle": "Muslim Politics and Peasant Society in Late-Colonial Eastern Bengal",
+  "seoDescription": "Study Khilafat, separate electorates, Bengal elections, Lahore Resolution, Sylhet referendum, Fazlul Huq, Suhrawardy, Jinnah, and agrarian politics.",
+  "beginnerSummary": "Use this hub to see how representation, land, peasant politics, and Muslim political organization shaped Eastern Bengal before 1947.",
+  "advancedSummary": "Compare constitutional reform, provincial coalition politics, agrarian demands, and competing Muslim League-Krishak Praja strategies.",
   "primaryKeywords": [
-    "Muslim politics in Bengal",
-    "eastern Bengal peasant society",
-    "late colonial Bengal"
+    "Muslim politics Bengal",
+    "Eastern Bengal peasant society",
+    "Lahore Resolution Bengal"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Khilafat Bengal",
+    "Krishak Praja Party",
+    "Bengal provincial election 1937",
+    "Sylhet referendum"
   ],
   "eventSlugs": [
     "1919-1924-khilafat-movement-bengal",
@@ -29,66 +30,86 @@
     "1916-lucknow-pact-bengal-implications"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
+    "mohammad-ali-jauhar",
+    "shaukat-ali",
     "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "huseyn-shaheed-suhrawardy",
+    "muhammad-ali-jinnah",
+    "abul-hashim",
+    "krishak-praja-party",
+    "all-india-muslim-league",
+    "subhas-chandra-bose",
+    "abul-kalam-azad",
+    "indian-national-congress",
+    "syed-amir-ali",
+    "nurul-amin",
+    "mahatma-gandhi"
   ],
   "resourceIds": [
+    "khilafat-movement-banglapedia",
+    "bengal-provincial-election-1937-banglapedia",
     "lahore-resolution-banglapedia",
-    "the-bengal-muslims-1871-1906",
-    "the-making-of-pakistan",
-    "awami-league-utthan-porbo-1948-1970",
-    "bengal-provincial-election-1937-banglapedia"
+    "lahore-resolution-britannica",
+    "partition-politics-banglapedia",
+    "bengal-muslims-colonial-education-1854-1947",
+    "the-bengal-muslims-1871-1906"
   ],
   "faq": [
     {
-      "question": "What does this Muslim Politics and Peasant Society in Eastern Bengal hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why include agrarian politics?",
+      "answer": "Eastern Bengal’s Muslim political mobilization was closely tied to peasant society, tenancy, debt, and provincial representation.",
+      "sourceIds": [
+        "khilafat-movement-banglapedia",
+        "bengal-provincial-election-1937-banglapedia"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "How does this lead to partition?",
+      "answer": "It shows how constitutional reform, League politics, and provincial demands shaped the political field before 1947.",
+      "sourceIds": [
+        "bengal-provincial-election-1937-banglapedia",
+        "lahore-resolution-banglapedia"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "Which figures are central?",
+      "answer": "Fazlul Huq, Suhrawardy, Jinnah, Abul Hashim, and the Krishak Praja Party help explain competing late-colonial strategies.",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "lahore-resolution-britannica"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1919-1924-khilafat-movement-bengal",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1940-lahore-resolution",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "ak-fazlul-huq",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "partition-and-late-colonial-politics",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
-      "id": "lahore-resolution-banglapedia",
-      "reason": "Recommended source 1 for this topic"
+      "id": "bengal-provincial-election-1937-banglapedia",
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
-      "id": "the-bengal-muslims-1871-1906",
-      "reason": "Recommended source 2 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "the-making-of-pakistan",
-      "reason": "Recommended source 3 for this topic"
+      "id": "partition-politics-banglapedia",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

@@ -2,22 +2,23 @@
   "slug": "pakistan-period-state-and-national-awakening",
   "priority": 12,
   "title": "পাকিস্তান পর্ব: স্বায়ত্তশাসন থেকে গণঅভ্যুত্থান",
-  "tagline": "পাকিস্তান পর্ব: স্বায়ত্তশাসন থেকে গণঅভ্যুত্থান বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "পাকিস্তান পর্ব: স্বায়ত্তশাসন থেকে গণঅভ্যুত্থান ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "ভাষা অধিকার, সাংবিধানিক দ্বন্দ্ব, স্বায়ত্তশাসনের দাবি, গণঅভ্যুত্থান এবং ১৯৭১-এর পথে পূর্ব পাকিস্তানের যাত্রা বুঝুন।",
-  "seoTitle": "পাকিস্তান পর্ব: স্বায়ত্তশাসন থেকে গণঅভ্যুত্থান | Bengal Unfolded টপিক হাব",
-  "seoDescription": "পাকিস্তান পর্ব: স্বায়ত্তশাসন থেকে গণঅভ্যুত্থান বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "পাকিস্তান পর্ব: স্বায়ত্তশাসন থেকে গণঅভ্যুত্থান বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "পাকিস্তান পর্ব: স্বায়ত্তশাসন থেকে গণঅভ্যুত্থান বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "স্বায়ত্তশাসন, প্রতিনিধিত্ব, সামরিক শাসন ও মুক্তিযুদ্ধের পথ",
+  "intro": "যুক্তফ্রন্ট ও সাংবিধানিক দ্বন্দ্ব থেকে ছয় দফা, আগরতলা, গণঅভ্যুত্থান, ভোলা ঘূর্ণিঝড় ও ১৯৭০ নির্বাচন পর্যন্ত পূর্ব পাকিস্তান বুঝুন।",
+  "description": "ভাষা অধিকার ও সাংবিধানিক দ্বন্দ্ব থেকে স্বায়ত্তশাসন দাবি, গণঅভ্যুত্থান, দুর্যোগ রাজনীতি এবং ১৯৭১-এর পথে পূর্ব পাকিস্তানের যাত্রা পড়ুন।",
+  "seoTitle": "পূর্ব পাকিস্তান পর্ব: স্বায়ত্তশাসন, ছয় দফা, ১৯৬৯ ও ১৯৭১-এর পথ",
+  "seoDescription": "যুক্তফ্রন্ট, সামরিক শাসন, ছয় দফা, আগরতলা মামলা, ১৯৬৯ গণঅভ্যুত্থান, ভোলা ঘূর্ণিঝড়, ১৯৭০ নির্বাচন, ব্যক্তিত্ব ও উৎসসহ পূর্ব পাকিস্তান পড়ুন।",
+  "beginnerSummary": "১৯৭১-এর বিচ্ছেদের দিকে নিয়ে যাওয়া সামরিক শাসন, স্বায়ত্তশাসন দাবি ও গণরাজনীতি বুঝতে যুক্তফ্রন্ট দিয়ে শুরু করুন।",
+  "advancedSummary": "সাংবিধানিক বৈষম্য, অর্থনৈতিক ব্যবধান, ছাত্র আন্দোলন, দলীয় কৌশল, দুর্যোগ রাজনীতি ও জাতীয়তাবাদী মবিলাইজেশন তুলনা করুন।",
   "primaryKeywords": [
     "পূর্ব পাকিস্তানের ইতিহাস",
-    "স্বায়ত্তশাসন আন্দোলন",
-    "গণঅভ্যুত্থান থেকে ১৯৭১"
+    "ছয় দফা কর্মসূচি",
+    "১৯৬৯ গণঅভ্যুত্থান"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "যুক্তফ্রন্ট ১৯৫৪",
+    "আগরতলা ষড়যন্ত্র মামলা",
+    "ভোলা ঘূর্ণিঝড় ১৯৭০",
+    "স্বায়ত্তশাসন আন্দোলন"
   ],
   "eventSlugs": [
     "1954-united-front-election-victory-in-east-bengal",
@@ -31,66 +32,95 @@
     "1967-naxalbari-uprising-and-bengal-left-radicalization"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
     "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "huseyn-shaheed-suhrawardy",
+    "abdul-hamid-khan-bhashani",
+    "awami-league",
+    "nurul-amin",
+    "sheikh-mujibur-rahman",
+    "tamizuddin-khan",
+    "ataur-rahman-khan",
+    "abdur-rashid-tarkabagish",
+    "ayub-khan",
+    "dhaka-university-students",
+    "tofail-ahmed",
+    "asm-abdur-rab",
+    "shamsuzzoha",
+    "rashed-khan-menon",
+    "matia-chowdhury",
+    "abdur-razzaq-politician",
+    "tajuddin-ahmad",
+    "syed-nazrul-islam",
+    "yahya-khan",
+    "zulfikar-ali-bhutto",
+    "pakistan-peoples-party"
   ],
   "resourceIds": [
+    "united-front-banglapedia",
+    "constitutional-development-banglapedia",
+    "military-rule-banglapedia",
     "six-point-programme-banglapedia",
+    "agartala-conspiracy-case-banglapedia",
     "mass-upsurge-1969-banglapedia",
-    "legal-framework-order-1970-text",
     "bhola-cyclone-britannica",
-    "pakistan-banglapedia"
+    "the-unfinished-memoirs"
   ],
   "faq": [
     {
-      "question": "এই পাকিস্তান পর্ব: স্বায়ত্তশাসন থেকে গণঅভ্যুত্থান হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "পাকিস্তান পর্ব কেন কেন্দ্রীয়?",
+      "answer": "প্রতিনিধিত্ব বিতর্ক, অর্থনৈতিক বৈষম্য এবং ভাষা-সংস্কৃতির রাজনীতি কীভাবে গণস্বায়ত্তশাসন আন্দোলন তৈরি করে তা এই পর্ব দেখায়।",
+      "sourceIds": [
+        "united-front-banglapedia",
+        "constitutional-development-banglapedia"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "ভোলা ঘূর্ণিঝড় কেন যুক্ত?",
+      "answer": "দুর্যোগ ও তার রাজনৈতিক ব্যবস্থাপনা ১৯৭০ নির্বাচন এবং ১৯৭১ সংকটের আগে অবিশ্বাস বাড়ায়।",
+      "sourceIds": [
+        "constitutional-development-banglapedia",
+        "military-rule-banglapedia"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "কোন ধারাবাহিকতা পড়ব?",
+      "answer": "ক্রমবর্ধমান স্বায়ত্তশাসন রাজনীতি বোঝার জন্য যুক্তফ্রন্ট, সামরিক শাসন, ছয় দফা, আগরতলা, ১৯৬৯ ও ১৯৭০ একসঙ্গে পড়ুন।",
+      "sourceIds": [
+        "military-rule-banglapedia",
+        "six-point-programme-banglapedia"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1954-united-front-election-victory-in-east-bengal",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1966-six-point-programme-announced",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
       "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "pakistan-period-and-national-awakening",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
       "id": "six-point-programme-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
       "id": "mass-upsurge-1969-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
-    },
-    {
-      "type": "resource",
-      "id": "legal-framework-order-1970-text",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

@@ -2,22 +2,23 @@
   "slug": "peasant-religious-and-rural-resistance",
   "priority": 7,
   "title": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ",
-  "tagline": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "প্রারম্ভিক ঔপনিবেশিক প্রতিরোধ থেকে কৃষক মবিলাইজেশন ও স্থানীয় অবাধ্যতা পর্যন্ত কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ অনুসরণ করুন।",
-  "seoTitle": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ | Bengal Unfolded টপিক হাব",
-  "seoDescription": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "গ্রামীণ প্রতিবাদ, ধর্মীয় সংস্কার ও কৃষক মবিলাইজেশন",
+  "intro": "ফকির-সন্ন্যাসী প্রতিরোধ থেকে ফরায়েজি নেটওয়ার্ক, তিতুমীর, নীল বিদ্রোহ ও তেভাগা পর্যন্ত কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ পড়ুন।",
+  "description": "দুর্ভিক্ষ-পরবর্তী অস্থিরতা, ধর্মীয় সংস্কার আন্দোলন, জমিদারি-বিরোধী মবিলাইজেশন, নীলকর-বিরোধী প্রতিবাদ ও ভাগচাষির রাজনীতির ভেতর গ্রামীণ বাংলার প্রতিরোধ অনুসরণ করুন।",
+  "seoTitle": "বাংলায় কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ: ফকির-সন্ন্যাসী থেকে তেভাগা",
+  "seoDescription": "ফকির-সন্ন্যাসী, ফরায়েজি, তিতুমীর, নীল বিদ্রোহ, তেভাগা, গুরুত্বপূর্ণ ব্যক্তিত্ব, ইভেন্ট ও উৎসসহ বাংলার গ্রামীণ প্রতিরোধ পড়ুন।",
+  "beginnerSummary": "ভূমি, রাজস্ব, ধর্ম, ঔপনিবেশিক কর্তৃত্ব ও কৃষকের দরকষাকষির ক্ষমতার সঙ্গে গ্রামীণ প্রতিবাদকে যুক্ত করে এই টপিক।",
+  "advancedSummary": "দুই শতকের গ্রামীণ প্রতিরোধে ধর্মীয় সংস্কার, জমিদারি-বিরোধিতা, বাজারের জবরদস্তি ও শ্রেণি রাজনীতি তুলনা করুন।",
   "primaryKeywords": [
     "বাংলায় কৃষক প্রতিরোধ",
-    "গ্রামীণ প্রতিবাদের ইতিহাস",
-    "ধর্মীয় প্রতিরোধ"
+    "ফরায়েজি আন্দোলন",
+    "তেভাগা আন্দোলন"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "ফকির সন্ন্যাসী প্রতিরোধ",
+    "তিতুমীর",
+    "নীল বিদ্রোহ",
+    "গ্রামীণ বাংলা"
   ],
   "eventSlugs": [
     "1760-1800-fakir-sannyasi-resistance",
@@ -28,66 +29,82 @@
     "1781-rangpur-dhing-uprising"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "haji-shariatullah",
+    "dudu-miyan",
+    "titu-mir",
+    "dinabandhu-mitra",
+    "harish-chandra-mukherjee",
+    "ila-mitra",
+    "muzaffar-ahmad",
+    "somnath-lahiri",
+    "raja-rammohun-roy"
   ],
   "resourceIds": [
+    "fakir-sannyasi-resistance-banglapedia",
+    "sannyasi-rebellion-britannica",
+    "faraizi-movement-banglapedia",
+    "haji-shariatullah-banglapedia",
     "titu-mir-banglapedia",
-    "narkelberia-banglapedia",
-    "role-of-the-fakir-leaders-in-18th-century-bengal",
-    "sannyasi-fakir-rebellion-1770-1800",
-    "faraizi-movement-banglapedia"
+    "history-banglapedia",
+    "inside-bengal-politics-1936-1947",
+    "the-fakir-and-sannyasi-rebellion"
   ],
   "faq": [
     {
-      "question": "এই কৃষক, ধর্মীয় ও গ্রামীণ প্রতিরোধ হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "ধর্মীয় ও কৃষক আন্দোলন একসঙ্গে কেন?",
+      "answer": "বাংলায় ধর্মীয় সংস্কার, কৃষিজ অভিযোগ ও জমিদারি-বিরোধী রাজনীতি গ্রামীণ মবিলাইজেশনে প্রায়ই একসঙ্গে কাজ করেছে।",
+      "sourceIds": [
+        "fakir-sannyasi-resistance-banglapedia",
+        "sannyasi-rebellion-britannica"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "এটি কি শুধু ব্রিটিশবিরোধী বিদ্রোহ?",
+      "answer": "না। এখানে সামাজিক সংস্কার, জমিদার-কৃষক দ্বন্দ্ব, বাজারের চাপ ও শেষ ঔপনিবেশিক ভাগচাষির দাবিও আছে।",
+      "sourceIds": [
+        "sannyasi-rebellion-britannica",
+        "faraizi-movement-banglapedia"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "সবচেয়ে পরিষ্কার ধারাবাহিকতা কোনটি?",
+      "answer": "সময় ধরে পরিবর্তন দেখতে ফকির-সন্ন্যাসী, ফরায়েজি, তিতুমীর, নীল বিদ্রোহ ও তেভাগা পড়ুন।",
+      "sourceIds": [
+        "faraizi-movement-banglapedia",
+        "haji-shariatullah-banglapedia"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1760-1800-fakir-sannyasi-resistance",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1818-faraizi-movement-begins-in-eastern-bengal",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "haji-shariatullah",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "colonial-rule-and-resistance",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
-      "id": "titu-mir-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+      "id": "fakir-sannyasi-resistance-banglapedia",
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
-      "id": "narkelberia-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
-    },
-    {
-      "type": "resource",
-      "id": "role-of-the-fakir-leaders-in-18th-century-bengal",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "id": "inside-bengal-politics-1936-1947",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

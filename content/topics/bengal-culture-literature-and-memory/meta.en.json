@@ -2,22 +2,23 @@
   "slug": "bengal-culture-literature-and-memory",
   "priority": 17,
   "title": "Bengal Culture, Literature, and Memory",
-  "tagline": "Structured learning hub: Bengal Culture, Literature, and Memory",
-  "intro": "Follow connected events to understand bengal culture, literature, and memory in historical context.",
-  "description": "Explore how Bengali literature, music, art, language, and public memory shaped identity across colonial, partition, and modern Bangladesh history.",
-  "seoTitle": "Bengal Culture, Literature, and Memory | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn bengal culture, literature, and memory through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of bengal culture, literature, and memory.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in bengal culture, literature, and memory.",
+  "tagline": "Language, education, literature, public memory, and cultural nationalism",
+  "intro": "Explore how education, reform, language politics, Liberation War memory, literature, music, art, and memorial culture shaped Bengali identity.",
+  "description": "Explore how Bengali literature, music, art, education, language, and public memory shaped identity across colonial, partition, and modern Bangladesh history.",
+  "seoTitle": "Bengal Culture, Literature, Language and Public Memory",
+  "seoDescription": "Study Bengali culture through language movement, Dhaka University, reform, Liberation War memory, literature, music, art, figures, and sources.",
+  "beginnerSummary": "Start with education and language to see why cultural life became political in Bengal and Bangladesh.",
+  "advancedSummary": "Compare literary memory, public monuments, nationalist culture, language rights, war memory, and education as historical forces.",
   "primaryKeywords": [
-    "bengal culture and literature",
-    "public memory in Bangladesh history",
-    "bengali identity"
+    "Bengali culture history",
+    "Bengali literature and memory",
+    "Language Movement culture"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Dhaka University history",
+    "Shaheed Minar",
+    "Liberation War memory",
+    "Bengali nationalism"
   ],
   "eventSlugs": [
     "1952-language-movement",
@@ -27,53 +28,86 @@
     "1835-macaulay-education-policy-impact-in-bengal"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "rabindranath-tagore",
+    "kazi-nazrul-islam",
+    "begum-rokeya",
+    "sufia-kamal",
+    "muhammad-shahidullah",
+    "munier-chowdhury",
+    "abdul-gaffar-choudhury",
+    "altaf-mahmud",
+    "hamidur-rahman-artist",
+    "zahir-raihan",
+    "jahanara-imam",
+    "shamsur-rahman",
+    "humayun-azad",
+    "syed-shamsul-haq"
   ],
   "resourceIds": [
-    "a-history-of-bangladesh",
-    "a-case-study-of-swadeshi-bengal"
+    "language-movement-banglapedia",
+    "shaheed-minar-banglapedia",
+    "international-mother-language-day-unesco",
+    "ekattorer-dinguli",
+    "stop-genocide",
+    "shahbag-generation-circle-cultural-memory",
+    "a-history-of-bangladesh"
   ],
   "faq": [
     {
-      "question": "What does this Bengal Culture, Literature, and Memory hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why is culture a historical topic?",
+      "answer": "Language, literature, education, music, and memorial practices shaped political identity, not only artistic expression.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "shaheed-minar-banglapedia"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Why include the Liberation War?",
+      "answer": "1971 created enduring public memory, literature, cinema, music, monuments, and debates over national identity.",
+      "sourceIds": [
+        "shaheed-minar-banglapedia",
+        "international-mother-language-day-unesco"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "How should I read this topic?",
+      "answer": "Read language, education, and memory together to see how cultural institutions became political archives.",
+      "sourceIds": [
+        "international-mother-language-day-unesco",
+        "ekattorer-dinguli"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1952-language-movement",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1971-liberation-war",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
-    },
-    {
-      "type": "resource",
-      "id": "a-history-of-bangladesh",
-      "reason": "Read a source-backed explainer."
+      "id": "abdul-gaffar-choudhury",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
+      "id": "contemporary-memory-and-civic-protest",
+      "reason": "Place the topic in period context."
     },
     {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "type": "resource",
+      "id": "shaheed-minar-banglapedia",
+      "reason": "Read the first source-backed reference."
+    },
+    {
+      "type": "resource",
+      "id": "ekattorer-dinguli",
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

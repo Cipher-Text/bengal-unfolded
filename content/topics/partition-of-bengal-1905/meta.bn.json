@@ -2,22 +2,23 @@
   "slug": "partition-of-bengal-1905",
   "priority": 8,
   "title": "বঙ্গভঙ্গ, স্বদেশী ও জাতীয়তাবাদ",
-  "tagline": "বঙ্গভঙ্গ, স্বদেশী ও জাতীয়তাবাদ বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "বঙ্গভঙ্গ, স্বদেশী ও জাতীয়তাবাদ ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
-  "description": "ঔপনিবেশিক প্রশাসন, স্বদেশী প্রতিবাদ, বয়কট রাজনীতি ও প্রতিনিধিত্বের ভিন্ন ধারণার আলোকে ১৯০৫ সালের বঙ্গভঙ্গ পড়ুন।",
-  "seoTitle": "বঙ্গভঙ্গ, স্বদেশী ও জাতীয়তাবাদ | Bengal Unfolded টপিক হাব",
-  "seoDescription": "বঙ্গভঙ্গ, স্বদেশী ও জাতীয়তাবাদ বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "বঙ্গভঙ্গ, স্বদেশী ও জাতীয়তাবাদ বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "বঙ্গভঙ্গ, স্বদেশী ও জাতীয়তাবাদ বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "tagline": "প্রশাসনিক বঙ্গভঙ্গ, স্বদেশি প্রতিবাদ ও প্রতিদ্বন্দ্বী জাতীয়তাবাদ",
+  "intro": "কার্জনের প্রশাসনিক নীতি, স্বদেশি মবিলাইজেশন, মুসলিম রাজনৈতিক সংগঠন এবং ১৯১১ সালের রদের ভেতর দিয়ে ১৯০৫ সালের বঙ্গভঙ্গ পড়ুন।",
+  "description": "ঔপনিবেশিক প্রশাসন, স্বদেশি বয়কট, বিপ্লবী জাতীয়তাবাদ, মুসলিম প্রতিনিধিত্ব এবং ঢাকায় মুসলিম লীগ প্রতিষ্ঠার ভেতর দিয়ে ১৯০৫ সালের বঙ্গভঙ্গ পড়ুন।",
+  "seoTitle": "১৯০৫ সালের বঙ্গভঙ্গ, স্বদেশি আন্দোলন, ঢাকার মুসলিম লীগ ও রদ",
+  "seoDescription": "কার্জন, স্বদেশি, রবীন্দ্রনাথ ঠাকুর, নবাব সলিমুল্লাহ, মুসলিম লীগ, বঙ্গভঙ্গ রদ, ব্যক্তিত্ব ও উৎসসহ ১৯০৫ সালের বঙ্গভঙ্গ পড়ুন।",
+  "beginnerSummary": "রাজনৈতিক ফলাফল বুঝতে বঙ্গভঙ্গের আদেশ থেকে প্রতিবাদ, বয়কট, মুসলিম রাজনৈতিক সংগঠন ও রদ পর্যন্ত ধারাবাহিকতা অনুসরণ করুন।",
+  "advancedSummary": "প্রশাসনিক ব্যাখ্যার সঙ্গে জাতীয়তাবাদী প্রতিবাদ, সাম্প্রদায়িক প্রতিনিধিত্ব, প্রাদেশিক পরিচয় ও ১৯৪৭-এর দীর্ঘ পথ তুলনা করুন।",
   "primaryKeywords": [
-    "বঙ্গভঙ্গ ১৯০৫",
-    "স্বদেশী আন্দোলন",
-    "ঔপনিবেশিক প্রতিনিধিত্ব"
+    "১৯০৫ সালের বঙ্গভঙ্গ",
+    "বাংলার স্বদেশি আন্দোলন",
+    "ঢাকা মুসলিম লীগ ১৯০৬"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "লর্ড কার্জন",
+    "রবীন্দ্রনাথ ঠাকুর",
+    "নবাব সলিমুল্লাহ",
+    "বঙ্গভঙ্গ রদ"
   ],
   "eventSlugs": [
     "1905-partition-of-bengal",
@@ -28,66 +29,86 @@
     "1885-indian-national-congress-foundation-and-bengal-response"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "lord-curzon",
+    "rabindranath-tagore",
+    "surendranath-banerjea",
+    "nawab-salimullah",
+    "begum-rokeya",
+    "bankim-chandra-chattopadhyay",
+    "nawab-abdul-latif",
+    "syed-ameer-ali",
+    "abul-kalam-azad",
+    "indian-national-congress",
+    "cr-das",
+    "khwaja-salimullah",
+    "all-india-muslim-league",
+    "mahatma-gandhi"
   ],
   "resourceIds": [
     "partition-of-bengal-1905-banglapedia",
     "partition-of-bengal-britannica",
     "swadeshi-movement-banglapedia",
     "swadeshi-movement-britannica",
-    "the-case-of-the-partition-of-bengal-1905"
+    "partition-agitation-and-congress-bengal-1904-1908",
+    "the-case-of-the-partition-of-bengal-1905",
+    "different-nationalisms-bengal-1905-1947"
   ],
   "faq": [
     {
-      "question": "এই বঙ্গভঙ্গ, স্বদেশী ও জাতীয়তাবাদ হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "১৯০৫ সালের বঙ্গভঙ্গ কেন গুরুত্বপূর্ণ?",
+      "answer": "এটি বাংলাকে প্রশাসনিকভাবে পুনর্গঠন করে এবং গণপ্রতিবাদ, বয়কট রাজনীতি ও প্রতিনিধিত্বের নতুন বিতর্ক তৈরি করে।",
+      "sourceIds": [
+        "partition-of-bengal-1905-banglapedia",
+        "partition-of-bengal-britannica"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "প্রতিক্রিয়া কি একরকম ছিল?",
+      "answer": "না। স্বদেশি বিরোধিতা, পূর্ব বাংলার পক্ষে মুসলিম রাজনৈতিক সমর্থন এবং পরবর্তী সাম্প্রদায়িক-জাতীয় যুক্তি আলাদা পথে এগিয়েছে।",
+      "sourceIds": [
+        "partition-of-bengal-britannica",
+        "swadeshi-movement-banglapedia"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "১৯০৬ ও ১৯১১ কেন যুক্ত?",
+      "answer": "ঢাকায় মুসলিম লীগ প্রতিষ্ঠা এবং বঙ্গভঙ্গ রদ ১৯০৫ সালের সিদ্ধান্তের সরাসরি রাজনৈতিক পরিণতি।",
+      "sourceIds": [
+        "swadeshi-movement-banglapedia",
+        "swadeshi-movement-britannica"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1905-partition-of-bengal",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1911-annulment-of-bengal-partition",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "rabindranath-tagore",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "partition-and-late-colonial-politics",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
       "id": "partition-of-bengal-1905-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
-    },
-    {
-      "type": "resource",
-      "id": "partition-of-bengal-britannica",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
       "id": "swadeshi-movement-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

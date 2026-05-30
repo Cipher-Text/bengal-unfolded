@@ -2,22 +2,23 @@
   "slug": "late-colonial-muslim-politics-and-agrarian-mobilization",
   "priority": 9,
   "title": "মুসলিম রাজনীতি ও পূর্ব বাংলার কৃষক সমাজ",
-  "tagline": "মুসলিম রাজনীতি ও পূর্ব বাংলার কৃষক সমাজ বিষয়ে কাঠামোবদ্ধ শেখার হাব",
-  "intro": "মুসলিম রাজনীতি ও পূর্ব বাংলার কৃষক সমাজ ঐতিহাসিক প্রেক্ষাপটে বোঝার জন্য সংযুক্ত ইভেন্টগুলো ধারাবাহিকভাবে অনুসরণ করুন।",
+  "tagline": "পৃথক নির্বাচন, কৃষক রাজনীতি ও মুসলিম লীগ মবিলাইজেশন",
+  "intro": "খিলাফত, সাংবিধানিক সংস্কার, বাংলার নির্বাচন, লাহোর প্রস্তাবের রাজনীতি ও সিলেটকে শেষ ঔপনিবেশিক মুসলিম ও কৃষক মবিলাইজেশনের সঙ্গে যুক্ত করুন।",
   "description": "শেষ ঔপনিবেশিক পূর্ব বাংলায় মুসলিম রাজনৈতিক সংগঠন, কৃষক আন্দোলন, প্রাদেশিক নির্বাচন ও কৃষি-সমাজের প্রশ্নকে একসঙ্গে পড়ুন।",
-  "seoTitle": "মুসলিম রাজনীতি ও পূর্ব বাংলার কৃষক সমাজ | Bengal Unfolded টপিক হাব",
-  "seoDescription": "মুসলিম রাজনীতি ও পূর্ব বাংলার কৃষক সমাজ বিষয়ে সংযুক্ত ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তিত্ব ও FAQ-সহ একটি শিক্ষামূলক হাব দেখুন।",
-  "beginnerSummary": "মুসলিম রাজনীতি ও পূর্ব বাংলার কৃষক সমাজ বিষয়ে নতুন পাঠকের জন্য সংক্ষিপ্ত ও স্পষ্ট সূচনা।",
-  "advancedSummary": "মুসলিম রাজনীতি ও পূর্ব বাংলার কৃষক সমাজ বিষয়ে কারণ, ধারাবাহিকতা ও দীর্ঘমেয়াদি প্রভাব তুলনামূলকভাবে বিশ্লেষণের পথ।",
+  "seoTitle": "শেষ ঔপনিবেশিক পূর্ব বাংলায় মুসলিম রাজনীতি ও কৃষক সমাজ",
+  "seoDescription": "খিলাফত, পৃথক নির্বাচন, বাংলার নির্বাচন, লাহোর প্রস্তাব, সিলেট গণভোট, ফজলুল হক, সোহরাওয়ার্দী, জিন্নাহ ও কৃষক রাজনীতি পড়ুন।",
+  "beginnerSummary": "১৯৪৭-এর আগে পূর্ব বাংলাকে গড়া প্রতিনিধিত্ব, ভূমি, কৃষক রাজনীতি ও মুসলিম রাজনৈতিক সংগঠন বোঝার জন্য এই হাব ব্যবহার করুন।",
+  "advancedSummary": "সাংবিধানিক সংস্কার, প্রাদেশিক জোটরাজনীতি, কৃষিজ দাবি এবং মুসলিম লীগ-কৃষক প্রজা কৌশলের পার্থক্য তুলনা করুন।",
   "primaryKeywords": [
     "বাংলায় মুসলিম রাজনীতি",
     "পূর্ব বাংলার কৃষক সমাজ",
-    "শেষ ঔপনিবেশিক বাংলা"
+    "লাহোর প্রস্তাব বাংলা"
   ],
   "secondaryKeywords": [
-    "ইতিহাস শেখার পথ",
-    "সংযুক্ত ইভেন্ট ও ব্যক্তিত্ব",
-    "রেফারেন্সভিত্তিক পাঠ"
+    "বাংলায় খিলাফত",
+    "কৃষক প্রজা পার্টি",
+    "১৯৩৭ বাংলার নির্বাচন",
+    "সিলেট গণভোট"
   ],
   "eventSlugs": [
     "1919-1924-khilafat-movement-bengal",
@@ -29,66 +30,86 @@
     "1916-lucknow-pact-bengal-implications"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
+    "mohammad-ali-jauhar",
+    "shaukat-ali",
     "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "huseyn-shaheed-suhrawardy",
+    "muhammad-ali-jinnah",
+    "abul-hashim",
+    "krishak-praja-party",
+    "all-india-muslim-league",
+    "subhas-chandra-bose",
+    "abul-kalam-azad",
+    "indian-national-congress",
+    "syed-amir-ali",
+    "nurul-amin",
+    "mahatma-gandhi"
   ],
   "resourceIds": [
+    "khilafat-movement-banglapedia",
+    "bengal-provincial-election-1937-banglapedia",
     "lahore-resolution-banglapedia",
-    "the-bengal-muslims-1871-1906",
-    "the-making-of-pakistan",
-    "awami-league-utthan-porbo-1948-1970",
-    "bengal-provincial-election-1937-banglapedia"
+    "lahore-resolution-britannica",
+    "partition-politics-banglapedia",
+    "bengal-muslims-colonial-education-1854-1947",
+    "the-bengal-muslims-1871-1906"
   ],
   "faq": [
     {
-      "question": "এই মুসলিম রাজনীতি ও পূর্ব বাংলার কৃষক সমাজ হাবে কী আছে?",
-      "answer": "প্রধান ইভেন্ট, গুরুত্বপূর্ণ ব্যক্তি ও মূল বিতর্কগুলো শিক্ষামূলকভাবে সাজানো আছে।"
+      "question": "কৃষক রাজনীতি কেন যুক্ত?",
+      "answer": "পূর্ব বাংলার মুসলিম রাজনৈতিক মবিলাইজেশন কৃষক সমাজ, প্রজাস্বত্ব, ঋণ ও প্রাদেশিক প্রতিনিধিত্বের সঙ্গে ঘনিষ্ঠভাবে যুক্ত ছিল।",
+      "sourceIds": [
+        "khilafat-movement-banglapedia",
+        "bengal-provincial-election-1937-banglapedia"
+      ]
     },
     {
-      "question": "পরীক্ষা বা গবেষণায় এটি কীভাবে সহায়ক?",
-      "answer": "নির্বাচিত মোড় ও রেফারেন্সের ধারাবাহিক তালিকা দ্রুত প্রেক্ষাপট তৈরি করে।"
+      "question": "এটি কীভাবে দেশভাগের দিকে যায়?",
+      "answer": "সাংবিধানিক সংস্কার, লীগ রাজনীতি ও প্রাদেশিক দাবি ১৯৪৭-এর আগের রাজনৈতিক ক্ষেত্র কীভাবে গড়েছে তা এটি দেখায়।",
+      "sourceIds": [
+        "bengal-provincial-election-1937-banglapedia",
+        "lahore-resolution-banglapedia"
+      ]
     },
     {
-      "question": "এই টপিকের পর কী পড়ব?",
-      "answer": "লার্নিং পাথ ব্যবহার করে সংশ্লিষ্ট ইভেন্ট, ব্যক্তি ও পর্বে যান।"
+      "question": "কোন ব্যক্তিত্ব কেন্দ্রীয়?",
+      "answer": "ফজলুল হক, সোহরাওয়ার্দী, জিন্নাহ, আবুল হাশিম ও কৃষক প্রজা পার্টি শেষ ঔপনিবেশিক কৌশল বোঝায়।",
+      "sourceIds": [
+        "lahore-resolution-banglapedia",
+        "lahore-resolution-britannica"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1919-1924-khilafat-movement-bengal",
-      "reason": "Start with a key turning point."
+      "reason": "মূল ধারাবাহিকতা শুরু করুন।"
+    },
+    {
+      "type": "event",
+      "id": "1940-lahore-resolution",
+      "reason": "পরবর্তী মোড়টি পড়ুন।"
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "ak-fazlul-huq",
+      "reason": "কেন্দ্রীয় ব্যক্তিত্ব দেখুন।"
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "partition-and-late-colonial-politics",
+      "reason": "সময়পর্বে বসান।"
     },
     {
       "type": "resource",
-      "id": "lahore-resolution-banglapedia",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 1"
+      "id": "bengal-provincial-election-1937-banglapedia",
+      "reason": "প্রথম উৎসভিত্তিক পাঠ পড়ুন।"
     },
     {
       "type": "resource",
-      "id": "the-bengal-muslims-1871-1906",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 2"
-    },
-    {
-      "type": "resource",
-      "id": "the-making-of-pakistan",
-      "reason": "এই টপিকের জন্য প্রস্তাবিত উৎস 3"
+      "id": "partition-politics-banglapedia",
+      "reason": "দ্বিতীয় উৎসভিত্তিক পাঠ পড়ুন।"
     }
   ]
 }

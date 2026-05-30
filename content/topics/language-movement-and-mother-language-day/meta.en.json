@@ -2,22 +2,23 @@
   "slug": "language-movement-and-mother-language-day",
   "priority": 11,
   "title": "Language Movement and Cultural Nationalism",
-  "tagline": "Structured learning hub: Language Movement and Cultural Nationalism",
-  "intro": "Follow connected events to understand language movement and cultural nationalism in historical context.",
-  "description": "Study the Language Movement as a struggle over Bangla, representation, cultural dignity, and the roots of later Bengali nationalism.",
-  "seoTitle": "Language Movement and Cultural Nationalism | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn language movement and cultural nationalism through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of language movement and cultural nationalism.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in language movement and cultural nationalism.",
+  "tagline": "Bangla, state language politics, cultural dignity, and global memory",
+  "intro": "Study the Language Movement from the 1948 language question to 21 February 1952, Shaheed Minar memory, and International Mother Language Day.",
+  "description": "Study the Language Movement as a struggle over Bangla, representation, cultural dignity, student politics, and the roots of later Bengali nationalism.",
+  "seoTitle": "Language Movement 1952 and International Mother Language Day",
+  "seoDescription": "Explore the Language Movement through 1948, 1952, Bangla state language demands, martyrs, Shaheed Minar, UNESCO recognition, figures, and sources.",
+  "beginnerSummary": "Begin with the 1948 language question, then read 1952 to see why language became a mass political issue in East Bengal.",
+  "advancedSummary": "Compare linguistic rights, student organization, state repression, cultural memory, and the movement’s connection to later autonomy politics.",
   "primaryKeywords": [
-    "Language Movement history",
-    "Bangla language rights",
-    "cultural nationalism"
+    "Language Movement 1952",
+    "Bangla state language",
+    "International Mother Language Day"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Shaheed Minar",
+    "East Bengal language politics",
+    "Bengali nationalism",
+    "21 February"
   ],
   "eventSlugs": [
     "1948-language-question-becomes-a-mass-political-issue",
@@ -27,65 +28,92 @@
   ],
   "figureIds": [
     "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "abul-kasem",
+    "abdul-matin",
+    "kazi-golam-mahbub",
+    "gaziul-huq",
+    "oli-ahad",
+    "shamsul-huq",
+    "dhirendranath-datta",
+    "muhammad-shahidullah",
+    "sufia-kamal",
+    "munier-chowdhury",
+    "khwaja-nazimuddin",
+    "muhammad-ali-jinnah",
+    "abul-barkat-1952",
+    "rafiq-uddin-ahmed-1952",
+    "abdus-salam-1952",
+    "abdul-jabbar-1952",
+    "shafiur-rahman-1952",
+    "abdul-gaffar-choudhury",
+    "altaf-mahmud",
+    "hamidur-rahman-artist"
   ],
   "resourceIds": [
     "language-movement-banglapedia",
     "state-language-movement-in-east-bengal-1947-1956",
+    "language-movement-in-east-bengal",
+    "bhasha-andolana-pariprekshita-o-itihasa",
+    "shaheed-minar-banglapedia",
     "international-mother-language-day-unesco",
-    "bhasha-andolon-1952",
-    "bhasha-andolana-pariprekshita-o-itihasa"
+    "abdul-matin-banglapedia"
   ],
   "faq": [
     {
-      "question": "What does this Language Movement and Cultural Nationalism hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why did language become political?",
+      "answer": "The state-language dispute connected language to representation, majority rights, education, administration, and cultural dignity.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Why include Dhaka University?",
+      "answer": "Student organization and campus politics were central to turning the language question into a mass movement.",
+      "sourceIds": [
+        "state-language-movement-in-east-bengal-1947-1956",
+        "language-movement-in-east-bengal"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "How does this connect to 1971?",
+      "answer": "The movement helped make language and culture central to Bengali political identity, autonomy demands, and later nationalist politics.",
+      "sourceIds": [
+        "language-movement-in-east-bengal",
+        "bhasha-andolana-pariprekshita-o-itihasa"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1948-language-question-becomes-a-mass-political-issue",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1952-language-movement",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "abdul-matin",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "pakistan-period-and-national-awakening",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
       "id": "language-movement-banglapedia",
-      "reason": "Recommended source 1 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "state-language-movement-in-east-bengal-1947-1956",
-      "reason": "Recommended source 2 for this topic"
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
       "id": "international-mother-language-day-unesco",
-      "reason": "Recommended source 3 for this topic"
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

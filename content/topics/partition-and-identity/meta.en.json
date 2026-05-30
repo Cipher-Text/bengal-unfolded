@@ -2,22 +2,23 @@
   "slug": "partition-and-identity",
   "priority": 10,
   "title": "Partition, Identity, and Eastern Bengal",
-  "tagline": "Structured learning hub: Partition, Identity, and Eastern Bengal",
-  "intro": "Follow connected events to understand partition, identity, and eastern bengal in historical context.",
-  "description": "Examine how partition, border-making, migration, language, and representation remade identity in Eastern Bengal and early Pakistan.",
-  "seoTitle": "Partition, Identity, and Eastern Bengal | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn partition, identity, and eastern bengal through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of partition, identity, and eastern bengal.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in partition, identity, and eastern bengal.",
+  "tagline": "Border-making, migration, violence, and identity in Eastern Bengal",
+  "intro": "Examine 1946-1947 through Direct Action Day, Noakhali, United Bengal, Radcliffe borders, Sylhet, and the early identity politics of East Pakistan.",
+  "description": "Examine how partition, border-making, migration, language, communal violence, and representation remade identity in Eastern Bengal and early Pakistan.",
+  "seoTitle": "Partition and Identity in Eastern Bengal: 1946, 1947, Sylhet and Radcliffe",
+  "seoDescription": "Study Bengal partition through Direct Action Day, Noakhali, United Bengal, Radcliffe Award, Sylhet referendum, migration, identity, figures, and sources.",
+  "beginnerSummary": "Start with 1946 violence and 1947 border-making to understand why partition reshaped political identity and everyday life in Eastern Bengal.",
+  "advancedSummary": "Compare communal violence, constitutional negotiations, boundary commissions, migration memory, and early East Pakistani language politics.",
   "primaryKeywords": [
-    "Partition and Eastern Bengal",
-    "identity after 1947",
-    "border and migration history"
+    "Bengal partition 1947",
+    "Eastern Bengal identity",
+    "Radcliffe Award Bengal"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Direct Action Day",
+    "Noakhali riots",
+    "United Bengal proposal",
+    "Sylhet referendum"
   ],
   "eventSlugs": [
     "1946-direct-action-day-and-the-great-calcutta-killing",
@@ -32,12 +33,14 @@
     "1963-hazratbal-crisis-and-east-pakistan-communal-tensions"
   ],
   "figureIds": [
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy",
-    "khwaja-nazimuddin",
+    "all-india-muslim-league",
     "muhammad-ali-jinnah",
+    "huseyn-shaheed-suhrawardy",
     "abul-hashim",
+    "khwaja-nazimuddin",
+    "mahatma-gandhi",
     "sarat-chandra-bose",
+    "ak-fazlul-huq",
     "kiran-shankar-roy",
     "satya-ranjan-bakshi",
     "jogendranath-mandal",
@@ -45,7 +48,6 @@
     "lord-louis-mountbatten",
     "jawaharlal-nehru",
     "vallabhbhai-patel",
-    "mahatma-gandhi",
     "liaquat-ali-khan",
     "syama-prasad-mukherjee",
     "bidhan-chandra-roy",
@@ -83,7 +85,6 @@
     "sa-rahman",
     "cc-biswas",
     "subhas-chandra-bose",
-    "all-india-muslim-league",
     "indian-national-congress",
     "r-c-majumdar",
     "nihar-ranjan-ray",
@@ -91,61 +92,71 @@
     "meghnad-saha"
   ],
   "resourceIds": [
-    "partition-of-british-india-national-archives",
-    "mountbatten-plan-documents",
+    "partition-of-bengal-1947-banglapedia",
+    "partition-politics-banglapedia",
     "radcliffe-award-documents",
-    "indian-annual-register-1947",
-    "partition-of-bengal-1947-banglapedia"
+    "the-great-partition",
+    "the-1947-partition-archive",
+    "bengal-divided",
+    "the-spoils-of-partition",
+    "direct-action-day-banglapedia"
   ],
   "faq": [
     {
-      "question": "What does this Partition, Identity, and Eastern Bengal hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "Why does this topic begin before 1947?",
+      "answer": "The violence and negotiations of 1946 shaped how Bengal’s partition was argued, remembered, and implemented.",
+      "sourceIds": [
+        "partition-of-bengal-1947-banglapedia",
+        "partition-politics-banglapedia"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Why include language politics?",
+      "answer": "Partition created East Pakistan, where the language question quickly became central to representation and identity.",
+      "sourceIds": [
+        "partition-politics-banglapedia",
+        "radcliffe-award-documents"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "How should I use the resources?",
+      "answer": "Read official border and archive materials alongside historical interpretations of violence, migration, and provincial politics.",
+      "sourceIds": [
+        "radcliffe-award-documents",
+        "the-great-partition"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1946-direct-action-day-and-the-great-calcutta-killing",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1947-partition-and-eastern-bengal",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "cyril-radcliffe",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "partition-and-late-colonial-politics",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
-      "id": "partition-of-british-india-national-archives",
-      "reason": "Recommended source 1 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "mountbatten-plan-documents",
-      "reason": "Recommended source 2 for this topic"
+      "id": "partition-of-bengal-1947-banglapedia",
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
       "id": "radcliffe-award-documents",
-      "reason": "Recommended source 3 for this topic"
+      "reason": "Read the second source-backed reference."
     }
   ]
 }

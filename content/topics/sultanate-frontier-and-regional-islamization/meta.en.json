@@ -2,22 +2,23 @@
   "slug": "sultanate-frontier-and-regional-islamization",
   "priority": 4,
   "title": "Bengal Sultanate and Regional Power",
-  "tagline": "Structured learning hub: Bengal Sultanate and Regional Power",
-  "intro": "Follow connected events to understand bengal sultanate and regional power in historical context.",
-  "description": "Explore Bengal Sultanate power, frontier expansion, regional courts, urban centers, and the long cultural effects of Islamization.",
-  "seoTitle": "Bengal Sultanate and Regional Power | Bengal Unfolded Topic Hub",
-  "seoDescription": "Learn bengal sultanate and regional power through connected events, key figures, and educational FAQs in one structured hub.",
-  "beginnerSummary": "A beginner-friendly overview of bengal sultanate and regional power.",
-  "advancedSummary": "An advanced pathway to compare causes, continuity, and long-term outcomes in bengal sultanate and regional power.",
+  "tagline": "Independent sultans, frontier expansion, and regional Islamicate culture",
+  "intro": "Trace Bengal Sultanate formation from Sylhet and regional sultanates to Ilyas Shahi consolidation, Raja Ganesha, and Husain Shahi expansion.",
+  "description": "Explore Bengal Sultanate power, frontier expansion, Sufi memory, regional courts, urban centers, and the cultural effects of Islamization.",
+  "seoTitle": "Bengal Sultanate and Frontier Islamization: Sylhet, Ilyas Shah, Raja Ganesha, Husain Shah",
+  "seoDescription": "Learn Bengal Sultanate history through Sylhet, Ilyas Shah, Raja Ganesha, Husain Shah, regional Islamization, figures, sources, and events.",
+  "beginnerSummary": "Start with Sylhet and Sultanate consolidation to understand how regional courts and frontier networks changed Bengal. ",
+  "advancedSummary": "Compare court chronicles, Sufi memory, political consolidation, and regional patronage without reducing Islamization to a single event.",
   "primaryKeywords": [
     "Bengal Sultanate history",
-    "regional power in Bengal",
-    "Islamization and frontier"
+    "Sylhet conquest",
+    "Islamization in Bengal"
   ],
   "secondaryKeywords": [
-    "historical learning path",
-    "connected events and figures",
-    "source-guided reading"
+    "Ilyas Shah",
+    "Raja Ganesha",
+    "Husain Shah",
+    "frontier Bengal"
   ],
   "eventSlugs": [
     "1303-conquest-of-sylhet",
@@ -29,65 +30,87 @@
     "1230s-1280s-bengal-under-delhi-governorates-fragmentation"
   ],
   "figureIds": [
-    "sheikh-mujibur-rahman",
-    "ak-fazlul-huq",
-    "huseyn-shaheed-suhrawardy"
+    "shah-jalal",
+    "sikandar-khan-ghazi",
+    "shamsuddin-ilyas-shah",
+    "fakhruddin-mubarak-shah",
+    "sikandar-shah",
+    "raja-ganesh",
+    "jalaluddin-muhammad-shah",
+    "ghiyasuddin-azam-shah",
+    "alauddin-husain-shah",
+    "nusrat-shah",
+    "rukunuddin-barbak-shah",
+    "saifuddin-firuz-shah",
+    "paragal-khan",
+    "shah-muhammad-sagir",
+    "ikhtiyar-al-din-muhammad-bakhtiyar-khalji"
   ],
   "resourceIds": [
+    "shah-jalal-banglapedia",
     "bengal-sultanate-wikipedia",
     "the-history-of-bengal-vol-2-muslim-period-1200-1757",
     "the-rise-of-islam-and-the-bengal-frontier-1204-1760",
-    "shah-jalal-banglapedia"
+    "the-islamic-heritage-of-bengal",
+    "riyaz-us-salatin",
+    "alauddin-husain-shah-wikipedia"
   ],
   "faq": [
     {
-      "question": "What does this Bengal Sultanate and Regional Power hub cover?",
-      "answer": "It covers major events, key actors, and core debates with educational context."
+      "question": "What does Islamization mean here?",
+      "answer": "It refers to long social, cultural, political, and religious processes across regions, not a single conquest or uniform conversion story.",
+      "sourceIds": [
+        "shah-jalal-banglapedia",
+        "bengal-sultanate-wikipedia"
+      ]
     },
     {
-      "question": "How is this useful for exam or research reading?",
-      "answer": "It provides a curated sequence of turning points and related references."
+      "question": "Why include Raja Ganesha?",
+      "answer": "His seizure of power and the Jalaluddin Muhammad Shah transition show how Sultanate politics involved negotiation across religious and elite boundaries.",
+      "sourceIds": [
+        "bengal-sultanate-wikipedia",
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+      ]
     },
     {
-      "question": "How should I continue after this topic?",
-      "answer": "Use the learning path links to move into related events, figures, and period pages."
+      "question": "Which events should I read first?",
+      "answer": "Begin with Sylhet, then move to Sultanate unification and the Husain Shahi phase for the clearest sequence.",
+      "sourceIds": [
+        "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+        "the-rise-of-islam-and-the-bengal-frontier-1204-1760"
+      ]
     }
   ],
   "learningPath": [
     {
       "type": "event",
       "id": "1303-conquest-of-sylhet",
-      "reason": "Start with a key turning point."
+      "reason": "Start the main sequence."
+    },
+    {
+      "type": "event",
+      "id": "1352-bengal-sultanate-independence-and-unification",
+      "reason": "Read the next turning point."
     },
     {
       "type": "figure",
-      "id": "sheikh-mujibur-rahman",
-      "reason": "Study a key historical actor."
+      "id": "shamsuddin-ilyas-shah",
+      "reason": "Review a central figure."
     },
     {
       "type": "period",
-      "id": "post-liberation-state-and-democracy",
-      "reason": "Place the topic in long-term chronology."
-    },
-    {
-      "type": "place",
-      "id": "bengal-region",
-      "reason": "Anchor changes in the Bengal region context."
+      "id": "independent-bengal-sultanate-era",
+      "reason": "Place the topic in period context."
     },
     {
       "type": "resource",
-      "id": "bengal-sultanate-wikipedia",
-      "reason": "Recommended source 1 for this topic"
-    },
-    {
-      "type": "resource",
-      "id": "the-history-of-bengal-vol-2-muslim-period-1200-1757",
-      "reason": "Recommended source 2 for this topic"
+      "id": "shah-jalal-banglapedia",
+      "reason": "Read the first source-backed reference."
     },
     {
       "type": "resource",
       "id": "the-rise-of-islam-and-the-bengal-frontier-1204-1760",
-      "reason": "Recommended source 3 for this topic"
+      "reason": "Read the second source-backed reference."
     }
   ]
 }
