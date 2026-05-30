@@ -1,9 +1,44 @@
 {
   "name": "Abdul Hamid Khan Bhashani",
+  "seoTitle": "Abdul Hamid Khan Bhashani - Maulana Bhashani and East Bengal Mass Politics",
+  "seoDescription": "Profile of Abdul Hamid Khan Bhashani, Maulana Bhashani, covering peasant mobilization, Awami Muslim League, United Front politics, anti-Ayub movements, and the Farakka Long March.",
+  "shortAnswer": "A village-based mass organizer whose politics linked peasant rights, opposition alliances, left-oriented mobilization, and post-independence protest.",
+  "birthYear": "1880",
+  "deathYear": "1976",
+  "activePeriod": "1919-1976",
   "role": "Mass Political Organizer",
   "group": "leader",
   "contribution": "He emerged as a major mobilizer in East Bengal, connecting popular grievances to opposition politics after partition.",
   "context": "East Bengal in the late 1940s and early 1950s.",
   "impact": "He helped turn regional frustration into organized mass politics that challenged central state authority.",
-  "image": "/figures/abdul-hamid-khan-bhashani.jpg"
+  "image": "/figures/abdul-hamid-khan-bhashani.jpg",
+  "primaryEventIds": [
+    "1949-founding-of-awami-muslim-league",
+    "1952-language-movement",
+    "1954-united-front-election-victory-in-east-bengal",
+    "1969-mass-uprising",
+    "1976-farakka-long-march"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-jahangirnagar",
+    "east-bengal",
+    "east-pakistan",
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Maulana Bhashani",
+    "Maulana Abdul Hamid Khan Bhasani"
+  ],
+  "searchAliases": [
+    "Bhashani",
+    "Bhasani",
+    "Red Maulana",
+    "Farakka Long March leader"
+  ],
+  "faq": [
+    {
+      "question": "What made Abdul Hamid Khan Bhashani influential?",
+      "answer": "His influence came from sustained mass organizing among peasants and workers, his role in opposition alliances, and his ability to connect rural grievances to national politics."
+    }
+  ]
 }

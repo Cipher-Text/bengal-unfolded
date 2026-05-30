@@ -1,6 +1,12 @@
 {
   "name": "Tajuddin Ahmad",
   "name_en": "Tajuddin Ahmad",
+  "seoTitle": "Tajuddin Ahmad - Mujibnagar Prime Minister and Liberation War Organizer",
+  "seoDescription": "Profile of Tajuddin Ahmad, first Prime Minister of Bangladesh, covering his role in the Language Movement, Awami League, Mujibnagar Government, and 1971 Liberation War.",
+  "shortAnswer": "A lawyer and politician who became the first Prime Minister of Bangladesh and organized the government-in-exile during the Liberation War.",
+  "birthYear": "1925",
+  "deathYear": "1975",
+  "activePeriod": "1943-1975",
   "role": "Prime Minister of the Provisional Government",
   "group": "coordinator",
   "contribution": "He coordinated wartime governance, diplomatic outreach, and strategic planning of the exile government, turning dispersed resistance into an organized state-led struggle.",
@@ -12,5 +18,30 @@
     "wartime-governance",
     "diplomacy"
   ],
-  "image": "/figures/tajuddin-ahmad.jpg"
+  "image": "/figures/tajuddin-ahmad.jpg",
+  "primaryEventIds": [
+    "1971-mujibnagar-government",
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution",
+    "1975-jail-killing"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-jahangirnagar",
+    "east-pakistan",
+    "mujibnagar"
+  ],
+  "alternateNames": [
+    "Tajuddin Ahmad Khan"
+  ],
+  "searchAliases": [
+    "Tajuddin Ahmed",
+    "Bangladesh first prime minister",
+    "Mujibnagar prime minister"
+  ],
+  "faq": [
+    {
+      "question": "What was Tajuddin Ahmad's role in 1971?",
+      "answer": "After the March 1971 crackdown, he helped form and lead the Bangladesh government-in-exile at Mujibnagar and organized wartime governance during the Liberation War."
+    }
+  ]
 }

@@ -1,9 +1,43 @@
 {
   "name": "Huseyn Shaheed Suhrawardy",
+  "seoTitle": "Huseyn Shaheed Suhrawardy - Bengal Chief Minister and Pakistan Prime Minister",
+  "seoDescription": "Profile of Huseyn Shaheed Suhrawardy, covering his role in late colonial Bengal, Direct Action Day, the United Bengal proposal, and Pakistan constitutional politics.",
+  "shortAnswer": "A Bengal and Pakistan politician whose career spanned Calcutta labour politics, Bengal's last undivided ministry, the United Bengal proposal, and Pakistan's premiership.",
+  "birthYear": "1892",
+  "deathYear": "1963",
+  "activePeriod": "1920-1963",
   "role": "Chief Minister of Bengal",
   "group": "leader",
   "contribution": "As Bengal's last undivided premier, he was a central actor in late colonial crisis politics and a leading advocate of the United Bengal proposal.",
   "context": "Calcutta and Bengal, 1946-1947.",
   "impact": "He shaped the debate over whether Bengal would remain united, be partitioned, or seek an independent path.",
-  "image": "/figures/huseyn-shaheed-suhrawardy.jpg"
+  "image": "/figures/huseyn-shaheed-suhrawardy.jpg",
+  "primaryEventIds": [
+    "1946-direct-action-day-and-the-great-calcutta-killing",
+    "1947-united-bengal-proposal",
+    "1947-partition-and-eastern-bengal",
+    "1956-pakistan-constitution-east-pakistan-representation"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "calcutta-kolkata",
+    "east-bengal",
+    "west-bengal"
+  ],
+  "alternateNames": [
+    "H. S. Suhrawardy",
+    "Huseyn Shaheed Suhrawardy"
+  ],
+  "searchAliases": [
+    "HS Suhrawardy",
+    "Huseyn Suhrawardy",
+    "United Bengal Suhrawardy",
+    "Prime Minister of Pakistan Suhrawardy"
+  ],
+  "faq": [
+    {
+      "question": "Why is Huseyn Shaheed Suhrawardy central to the partition-era timeline?",
+      "answer": "He was Bengal's last undivided chief minister, was linked to the Direct Action Day crisis, and later supported the unsuccessful United Bengal proposal before entering Pakistan politics."
+    }
+  ]
 }

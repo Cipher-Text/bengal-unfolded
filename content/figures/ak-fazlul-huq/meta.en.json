@@ -1,9 +1,44 @@
 {
   "name": "A. K. Fazlul Huq",
+  "seoTitle": "A. K. Fazlul Huq - Sher-e-Bangla and Bengal Mass Politics",
+  "seoDescription": "Profile of A. K. Fazlul Huq, Sher-e-Bangla, tracing his role in peasant politics, Bengal ministries, the Lahore Resolution, and United Front politics.",
+  "shortAnswer": "A major Bengal statesman and mass politician who linked peasant politics, provincial government, the Lahore Resolution, and East Bengal's United Front era.",
+  "birthYear": "1873",
+  "deathYear": "1962",
+  "activePeriod": "1906-1958",
   "role": "Political Leader",
   "group": "leader",
   "contribution": "He moved the Lahore Resolution in 1940 and remained one of Bengal's most important mass politicians as the future of the province was debated.",
   "context": "Bengal politics from the late colonial period through the partition era.",
   "impact": "His leadership linked peasant politics, Muslim representation, and Bengal's place in the making of Pakistan.",
-  "image": "/figures/ak-fazlul-huq.jpg"
+  "image": "/figures/ak-fazlul-huq.jpg",
+  "primaryEventIds": [
+    "1937-bengal-provincial-election-and-coalition-ministry",
+    "1940-lahore-resolution",
+    "1947-partition-and-eastern-bengal",
+    "1954-united-front-election-victory-in-east-bengal"
+  ],
+  "relatedPlaceIds": [
+    "barisal-bakerganj",
+    "bengal-region",
+    "calcutta-kolkata",
+    "east-bengal"
+  ],
+  "alternateNames": [
+    "Abul Kashem Fazlul Huq",
+    "Sher-e-Bangla",
+    "Hak Saheb"
+  ],
+  "searchAliases": [
+    "AK Fazlul Huq",
+    "A K Fazlul Huq",
+    "Sher e Bangla",
+    "Lahore Resolution mover"
+  ],
+  "faq": [
+    {
+      "question": "Why is A. K. Fazlul Huq important in Bengal history?",
+      "answer": "He connected agrarian mass politics, coalition government in undivided Bengal, the Lahore Resolution, and later East Bengal's United Front politics."
+    }
+  ]
 }
