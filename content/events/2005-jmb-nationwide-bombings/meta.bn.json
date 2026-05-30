@@ -1,0 +1,66 @@
+{
+  "slug": "2005-jmb-nationwide-bombings",
+  "year": "2005 (August 17)",
+  "title": "জেএমবির দেশব্যাপী বোমা হামলা",
+  "subtitle": "সমন্বিত বোমা বিস্ফোরণ বাংলাদেশজুড়ে জঙ্গি নেটওয়ার্ক প্রকাশ করে।",
+  "summary": "২০০৫ সালের ১৭ আগস্ট বাংলাদেশজুড়ে সমন্বিত বোমা বিস্ফোরণ ঘটে, যার জন্য জামা'আতুল মুজাহিদিন বাংলাদেশকে দায়ী করা হয়। হামলাগুলো জঙ্গি নেটওয়ার্কের জাতীয় বিস্তার প্রকাশ করে এবং নিরাপত্তা রাজনীতিকে পুনর্গঠন করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "সমন্বিত বোমা বিস্ফোরণ বাংলাদেশজুড়ে জঙ্গি নেটওয়ার্ক প্রকাশ করে।",
+  "whyItMatters": "এই বোমা হামলা পরবর্তী সন্ত্রাসবিরোধী পর্যায়ের আগে জঙ্গি সংঘাতের একটি বড় মোড়।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2016-holey-artisan-attack",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2016-holey-artisan-attack"
+  ],
+  "periodLabel": "মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "jmb-nationwide-bombings-reference",
+    "satp-jmb-bangladesh-profile"
+  ],
+  "whyItMattersSourceIds": [
+    "jmb-nationwide-bombings-reference",
+    "satp-jmb-bangladesh-profile"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০০৫ সালের ১৭ আগস্ট বাংলাদেশজুড়ে সমন্বিত বোমা বিস্ফোরণ ঘটে, যার জন্য জামা'আতুল মুজাহিদিন বাংলাদেশকে দায়ী করা হয়। হামলাগুলো জঙ্গি নেটওয়ার্কের জাতীয় বিস্তার প্রকাশ করে এবং নিরাপত্তা রাজনীতিকে পুনর্গঠন করে।",
+      "sourceIds": [
+        "jmb-nationwide-bombings-reference",
+        "satp-jmb-bangladesh-profile"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই বোমা হামলা পরবর্তী সন্ত্রাসবিরোধী পর্যায়ের আগে জঙ্গি সংঘাতের একটি বড় মোড়।",
+      "sourceIds": [
+        "jmb-nationwide-bombings-reference",
+        "satp-jmb-bangladesh-profile"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "সশস্ত্র সহিংসতা",
+    "বেসামরিক হতাহতের ইতিহাস"
+  ]
+}

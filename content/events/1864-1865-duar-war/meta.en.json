@@ -1,0 +1,58 @@
+{
+  "slug": "1864-1865-duar-war",
+  "year": "1864-1865",
+  "title": "Duar War / Anglo-Bhutanese War",
+  "subtitle": "A frontier war reshapes control over the Bengal Duars.",
+  "summary": "The Duar War of 1864-65 was fought between British India and Bhutan over the Duars frontier. Its settlement transferred Bengal Duars territories into British-controlled arrangements and reshaped the northern frontier.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "A frontier war reshapes control over the Bengal Duars.",
+  "whyItMatters": "The event adds a northern-frontier war often missing from Bengal-centered timelines.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1874-assam-reorganization-and-sylhet-s-administrative-detachment",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "duar-war-reference"
+  ],
+  "whyItMattersSourceIds": [
+    "duar-war-reference"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Duar War of 1864-65 was fought between British India and Bhutan over the Duars frontier. Its settlement transferred Bengal Duars territories into British-controlled arrangements and reshaped the northern frontier.",
+      "sourceIds": [
+        "duar-war-reference"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The event adds a northern-frontier war often missing from Bengal-centered timelines.",
+      "sourceIds": [
+        "duar-war-reference"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

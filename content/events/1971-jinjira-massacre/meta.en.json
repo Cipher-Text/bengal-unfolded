@@ -1,0 +1,66 @@
+{
+  "slug": "1971-jinjira-massacre",
+  "year": "1971 (April 2)",
+  "title": "Jinjira Massacre",
+  "subtitle": "Mass killing near Dhaka after Operation Searchlight.",
+  "summary": "The Jinjira Massacre occurred near Dhaka in early April 1971, after many people crossed the river seeking safety from the crackdown. It remains an important episode of wartime civilian violence around the capital.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Mass killing near Dhaka after Operation Searchlight.",
+  "whyItMatters": "Jinjira connects Operation Searchlight to violence around Dhaka's surrounding settlements.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-operation-searchlight-crackdown",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-operation-searchlight-crackdown"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "jinjira-massacre-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "jinjira-massacre-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Jinjira Massacre occurred near Dhaka in early April 1971, after many people crossed the river seeking safety from the crackdown. It remains an important episode of wartime civilian violence around the capital.",
+      "sourceIds": [
+        "jinjira-massacre-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Jinjira connects Operation Searchlight to violence around Dhaka's surrounding settlements.",
+      "sourceIds": [
+        "jinjira-massacre-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "armed violence",
+    "civilian casualties"
+  ]
+}

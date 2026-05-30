@@ -1,0 +1,58 @@
+{
+  "slug": "1855-1856-santal-rebellion",
+  "year": "1855-1856",
+  "title": "Santal Rebellion",
+  "subtitle": "A major armed uprising against exploitation and colonial authority in the Bengal Presidency.",
+  "summary": "The Santal Rebellion of 1855-56 was an armed uprising against zamindars, moneylenders, police, and colonial structures. It became one of the most extensive adivasi resistance movements in the Bengal Presidency.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "A major armed uprising against exploitation and colonial authority in the Bengal Presidency.",
+  "whyItMatters": "It broadens the timeline beyond elite politics by foregrounding adivasi armed resistance.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1857-sipahi-revolt",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "santal-rebellion-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "santal-rebellion-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Santal Rebellion of 1855-56 was an armed uprising against zamindars, moneylenders, police, and colonial structures. It became one of the most extensive adivasi resistance movements in the Bengal Presidency.",
+      "sourceIds": [
+        "santal-rebellion-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "It broadens the timeline beyond elite politics by foregrounding adivasi armed resistance.",
+      "sourceIds": [
+        "santal-rebellion-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

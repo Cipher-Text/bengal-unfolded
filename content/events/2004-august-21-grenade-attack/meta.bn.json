@@ -1,0 +1,66 @@
+{
+  "slug": "2004-august-21-grenade-attack",
+  "year": "2004 (August 21)",
+  "title": "২১ আগস্ট গ্রেনেড হামলা",
+  "subtitle": "ঢাকায় আওয়ামী লীগের সমাবেশে গ্রেনেড হামলা হয়।",
+  "summary": "২০০৪ সালের ২১ আগস্ট ঢাকায় আওয়ামী লীগের সমাবেশে গ্রেনেড নিক্ষেপ করা হয়, বহু মানুষ নিহত ও আহত হন এবং শেখ হাসিনা অল্পের জন্য বেঁচে যান। এই হামলা সমকালীন বাংলাদেশের সশস্ত্র রাজনৈতিক সহিংসতার একটি নির্ধারক অধ্যায়ে পরিণত হয়।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "ঢাকায় আওয়ামী লীগের সমাবেশে গ্রেনেড হামলা হয়।",
+  "whyItMatters": "১৯৯১-পরবর্তী রাজনৈতিক সহিংসতা ও দলীয় স্মৃতি বোঝার জন্য এই হামলা অপরিহার্য।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "periodLabel": "মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "august-21-grenade-attack-reference",
+    "ivy-rahman-daily-star-archive"
+  ],
+  "whyItMattersSourceIds": [
+    "august-21-grenade-attack-reference",
+    "ivy-rahman-daily-star-archive"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০০৪ সালের ২১ আগস্ট ঢাকায় আওয়ামী লীগের সমাবেশে গ্রেনেড নিক্ষেপ করা হয়, বহু মানুষ নিহত ও আহত হন এবং শেখ হাসিনা অল্পের জন্য বেঁচে যান। এই হামলা সমকালীন বাংলাদেশের সশস্ত্র রাজনৈতিক সহিংসতার একটি নির্ধারক অধ্যায়ে পরিণত হয়।",
+      "sourceIds": [
+        "august-21-grenade-attack-reference",
+        "ivy-rahman-daily-star-archive"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "১৯৯১-পরবর্তী রাজনৈতিক সহিংসতা ও দলীয় স্মৃতি বোঝার জন্য এই হামলা অপরিহার্য।",
+      "sourceIds": [
+        "august-21-grenade-attack-reference",
+        "ivy-rahman-daily-star-archive"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "সশস্ত্র সহিংসতা",
+    "বেসামরিক হতাহতের ইতিহাস"
+  ]
+}

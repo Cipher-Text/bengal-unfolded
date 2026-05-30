@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-garibpur",
+  "year": "1971 (November)",
+  "title": "গরীবপুরের যুদ্ধ",
+  "subtitle": "যশোর ফ্রন্টের একটি যুদ্ধ আনুষ্ঠানিক ভারত-পাকিস্তান যুদ্ধ পর্যায়ের আগে ঘটে।",
+  "summary": "১৯৭১ সালের নভেম্বর মাসে গরীবপুরের যুদ্ধ যশোর ফ্রন্টে বৃহত্তর ভারত-পাকিস্তান যুদ্ধের আনুষ্ঠানিক সূচনার আগে সংঘটিত হয়। এটি পাকিস্তানি অবস্থান দুর্বল করে এবং দক্ষিণ-পশ্চিম অভিযানের গতিপথ প্রভাবিত করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "যশোর ফ্রন্টের একটি যুদ্ধ আনুষ্ঠানিক ভারত-পাকিস্তান যুদ্ধ পর্যায়ের আগে ঘটে।",
+  "whyItMatters": "গরীবপুর দেখায় ডিসেম্বর ১৯৭১-এর আগেই চূড়ান্ত অভিযানের প্রস্তুতি কীভাবে গড়ে উঠেছিল।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-garibpur-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-garibpur-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের নভেম্বর মাসে গরীবপুরের যুদ্ধ যশোর ফ্রন্টে বৃহত্তর ভারত-পাকিস্তান যুদ্ধের আনুষ্ঠানিক সূচনার আগে সংঘটিত হয়। এটি পাকিস্তানি অবস্থান দুর্বল করে এবং দক্ষিণ-পশ্চিম অভিযানের গতিপথ প্রভাবিত করে।",
+      "sourceIds": [
+        "battle-of-garibpur-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "গরীবপুর দেখায় ডিসেম্বর ১৯৭১-এর আগেই চূড়ান্ত অভিযানের প্রস্তুতি কীভাবে গড়ে উঠেছিল।",
+      "sourceIds": [
+        "battle-of-garibpur-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

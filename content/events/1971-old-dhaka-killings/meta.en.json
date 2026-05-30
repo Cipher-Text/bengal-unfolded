@@ -1,0 +1,66 @@
+{
+  "slug": "1971-old-dhaka-killings",
+  "year": "1971",
+  "title": "Old Dhaka Killings",
+  "subtitle": "Urban mass violence in Dhaka during the Liberation War.",
+  "summary": "Old Dhaka experienced targeted killings and mass violence during the 1971 crackdown and war. Including this event helps represent urban civilian suffering within the broader military history of the conflict.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Urban mass violence in Dhaka during the Liberation War.",
+  "whyItMatters": "Old Dhaka adds an urban civilian-violence chapter to the Liberation War timeline.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-operation-searchlight-crackdown",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-operation-searchlight-crackdown"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "old-dhaka-killings-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "old-dhaka-killings-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Old Dhaka experienced targeted killings and mass violence during the 1971 crackdown and war. Including this event helps represent urban civilian suffering within the broader military history of the conflict.",
+      "sourceIds": [
+        "old-dhaka-killings-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Old Dhaka adds an urban civilian-violence chapter to the Liberation War timeline.",
+      "sourceIds": [
+        "old-dhaka-killings-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "armed violence",
+    "civilian casualties"
+  ]
+}

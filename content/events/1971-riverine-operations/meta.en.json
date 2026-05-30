@@ -1,0 +1,62 @@
+{
+  "slug": "1971-riverine-operations",
+  "year": "1971",
+  "title": "Riverine Operations in the Liberation War",
+  "subtitle": "Waterways become a battlefield for sabotage, movement, and supply disruption.",
+  "summary": "During the 1971 war, riverine routes became central to movement, supply, sabotage, and counterinsurgency. Naval commando attacks and local operations targeted the waterways that connected ports, towns, and military logistics.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Waterways become a battlefield for sabotage, movement, and supply disruption.",
+  "whyItMatters": "This event gives the timeline a dedicated frame for Bangladesh's river-war geography.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-operation-jackpot",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-operation-jackpot"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "operation-jackpot",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "operation-jackpot",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "During the 1971 war, riverine routes became central to movement, supply, sabotage, and counterinsurgency. Naval commando attacks and local operations targeted the waterways that connected ports, towns, and military logistics.",
+      "sourceIds": [
+        "operation-jackpot",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This event gives the timeline a dedicated frame for Bangladesh's river-war geography.",
+      "sourceIds": [
+        "operation-jackpot",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-jessore",
+  "year": "1971 (December)",
+  "title": "Battle of Jessore",
+  "subtitle": "The southwest front opens the road toward Khulna and interior routes.",
+  "summary": "The Battle of Jessore was a key southwest-front engagement in December 1971. The fall of Pakistani positions around Jessore opened routes toward Khulna and other interior points.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "The southwest front opens the road toward Khulna and interior routes.",
+  "whyItMatters": "Jessore helps explain the military geography of the southwest campaign.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-jessore-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-jessore-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Battle of Jessore was a key southwest-front engagement in December 1971. The fall of Pakistani positions around Jessore opened routes toward Khulna and other interior points.",
+      "sourceIds": [
+        "battle-of-jessore-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Jessore helps explain the military geography of the southwest campaign.",
+      "sourceIds": [
+        "battle-of-jessore-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

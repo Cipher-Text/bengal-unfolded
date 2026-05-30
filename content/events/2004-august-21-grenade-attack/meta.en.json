@@ -1,0 +1,66 @@
+{
+  "slug": "2004-august-21-grenade-attack",
+  "year": "2004 (August 21)",
+  "title": "21 August Grenade Attack",
+  "subtitle": "A grenade attack targets an Awami League rally in Dhaka.",
+  "summary": "On 21 August 2004, grenades were thrown at an Awami League rally in Dhaka, killing and injuring many people and nearly killing Sheikh Hasina. The attack became a defining episode of armed political violence in contemporary Bangladesh.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "A grenade attack targets an Awami League rally in Dhaka.",
+  "whyItMatters": "The attack is essential for understanding political violence and party memory after 1991.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "august-21-grenade-attack-reference",
+    "ivy-rahman-daily-star-archive"
+  ],
+  "whyItMattersSourceIds": [
+    "august-21-grenade-attack-reference",
+    "ivy-rahman-daily-star-archive"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On 21 August 2004, grenades were thrown at an Awami League rally in Dhaka, killing and injuring many people and nearly killing Sheikh Hasina. The attack became a defining episode of armed political violence in contemporary Bangladesh.",
+      "sourceIds": [
+        "august-21-grenade-attack-reference",
+        "ivy-rahman-daily-star-archive"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The attack is essential for understanding political violence and party memory after 1991.",
+      "sourceIds": [
+        "august-21-grenade-attack-reference",
+        "ivy-rahman-daily-star-archive"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "armed violence",
+    "civilian casualties"
+  ]
+}

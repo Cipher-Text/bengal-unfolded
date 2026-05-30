@@ -1,0 +1,66 @@
+{
+  "slug": "1971-chuknagar-massacre",
+  "year": "1971 (May 20)",
+  "title": "Chuknagar Massacre",
+  "subtitle": "Mass killing of civilians during the Liberation War.",
+  "summary": "The Chuknagar Massacre on 20 May 1971 was one of the major civilian mass killings during the Liberation War. Refugees and local civilians were targeted as violence spread across southwest Bangladesh.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Mass killing of civilians during the Liberation War.",
+  "whyItMatters": "Chuknagar makes civilian wartime violence visible alongside battlefield events.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "chuknagar-massacre-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "chuknagar-massacre-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Chuknagar Massacre on 20 May 1971 was one of the major civilian mass killings during the Liberation War. Refugees and local civilians were targeted as violence spread across southwest Bangladesh.",
+      "sourceIds": [
+        "chuknagar-massacre-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Chuknagar makes civilian wartime violence visible alongside battlefield events.",
+      "sourceIds": [
+        "chuknagar-massacre-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "armed violence",
+    "civilian casualties"
+  ]
+}

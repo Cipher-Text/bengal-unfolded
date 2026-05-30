@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-sylhet",
+  "year": "1971 (December)",
+  "title": "Battle of Sylhet",
+  "subtitle": "Eastern-front fighting isolates Pakistani positions around Sylhet.",
+  "summary": "The Battle of Sylhet unfolded during the final phase of the 1971 war as Indian and Mukti Bahini-linked operations pressured Pakistani forces in the northeast. The battle helped isolate the Sylhet region before surrender.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Eastern-front fighting isolates Pakistani positions around Sylhet.",
+  "whyItMatters": "Sylhet adds the northeastern theater to the final campaign narrative.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-sylhet-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-sylhet-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Battle of Sylhet unfolded during the final phase of the 1971 war as Indian and Mukti Bahini-linked operations pressured Pakistani forces in the northeast. The battle helped isolate the Sylhet region before surrender.",
+      "sourceIds": [
+        "battle-of-sylhet-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Sylhet adds the northeastern theater to the final campaign narrative.",
+      "sourceIds": [
+        "battle-of-sylhet-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

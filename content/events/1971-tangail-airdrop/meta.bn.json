@@ -1,0 +1,62 @@
+{
+  "slug": "1971-tangail-airdrop",
+  "year": "1971 (December 11)",
+  "title": "টাঙ্গাইল এয়ারড্রপ",
+  "subtitle": "একটি বিমান অবতরণ অভিযান ঢাকার দিকে চূড়ান্ত অগ্রযাত্রা দ্রুত করে।",
+  "summary": "১৯৭১ সালের ১১ ডিসেম্বর টাঙ্গাইল এয়ারড্রপে ভারতীয় প্যারাট্রুপাররা ঢাকার উত্তরে পশ্চাদপসরণ ও যোগাযোগের পথ কাটতে টাঙ্গাইলের কাছে অবতরণ করেন। অভিযানটি রাজধানীর দিকে চূড়ান্ত অগ্রযাত্রা দ্রুত করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "একটি বিমান অবতরণ অভিযান ঢাকার দিকে চূড়ান্ত অগ্রযাত্রা দ্রুত করে।",
+  "whyItMatters": "টাঙ্গাইল যুদ্ধক্ষেত্রের কৌশলকে ঢাকার চারপাশের দ্রুত পতনের সঙ্গে যুক্ত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-december-16-instrument-of-surrender",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-december-16-instrument-of-surrender"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "tangail-airdrop-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "tangail-airdrop-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের ১১ ডিসেম্বর টাঙ্গাইল এয়ারড্রপে ভারতীয় প্যারাট্রুপাররা ঢাকার উত্তরে পশ্চাদপসরণ ও যোগাযোগের পথ কাটতে টাঙ্গাইলের কাছে অবতরণ করেন। অভিযানটি রাজধানীর দিকে চূড়ান্ত অগ্রযাত্রা দ্রুত করে।",
+      "sourceIds": [
+        "tangail-airdrop-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "টাঙ্গাইল যুদ্ধক্ষেত্রের কৌশলকে ঢাকার চারপাশের দ্রুত পতনের সঙ্গে যুক্ত করে।",
+      "sourceIds": [
+        "tangail-airdrop-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

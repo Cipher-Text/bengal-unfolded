@@ -1,0 +1,66 @@
+{
+  "slug": "1971-chuknagar-massacre",
+  "year": "1971 (May 20)",
+  "title": "চুকনগর গণহত্যা",
+  "subtitle": "মুক্তিযুদ্ধের সময় বেসামরিক মানুষের গণহত্যা।",
+  "summary": "১৯৭১ সালের ২০ মে চুকনগর গণহত্যা মুক্তিযুদ্ধের অন্যতম বড় বেসামরিক গণহত্যা। দক্ষিণ-পশ্চিম বাংলাদেশে সহিংসতা ছড়িয়ে পড়ার সময় শরণার্থী ও স্থানীয় মানুষ লক্ষ্যবস্তু হন।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "মুক্তিযুদ্ধের সময় বেসামরিক মানুষের গণহত্যা।",
+  "whyItMatters": "চুকনগর যুদ্ধক্ষেত্রের ঘটনার পাশাপাশি বেসামরিক যুদ্ধকালীন সহিংসতাকে দৃশ্যমান করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "chuknagar-massacre-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "chuknagar-massacre-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের ২০ মে চুকনগর গণহত্যা মুক্তিযুদ্ধের অন্যতম বড় বেসামরিক গণহত্যা। দক্ষিণ-পশ্চিম বাংলাদেশে সহিংসতা ছড়িয়ে পড়ার সময় শরণার্থী ও স্থানীয় মানুষ লক্ষ্যবস্তু হন।",
+      "sourceIds": [
+        "chuknagar-massacre-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "চুকনগর যুদ্ধক্ষেত্রের ঘটনার পাশাপাশি বেসামরিক যুদ্ধকালীন সহিংসতাকে দৃশ্যমান করে।",
+      "sourceIds": [
+        "chuknagar-massacre-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "সশস্ত্র সহিংসতা",
+    "বেসামরিক হতাহতের ইতিহাস"
+  ]
+}

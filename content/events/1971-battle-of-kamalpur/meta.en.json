@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-kamalpur",
+  "year": "1971",
+  "title": "Battle of Kamalpur",
+  "subtitle": "Repeated frontier attacks test Pakistani defenses in the northern sector.",
+  "summary": "The Battle of Kamalpur involved repeated Mukti Bahini assaults against a fortified Pakistani position near the border. It became a symbol of persistent guerrilla and conventional pressure during the Liberation War.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Repeated frontier attacks test Pakistani defenses in the northern sector.",
+  "whyItMatters": "Kamalpur helps show the war as a sequence of sector-level battles, not only national milestones.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-kamalpur-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-kamalpur-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Battle of Kamalpur involved repeated Mukti Bahini assaults against a fortified Pakistani position near the border. It became a symbol of persistent guerrilla and conventional pressure during the Liberation War.",
+      "sourceIds": [
+        "battle-of-kamalpur-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Kamalpur helps show the war as a sequence of sector-level battles, not only national milestones.",
+      "sourceIds": [
+        "battle-of-kamalpur-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

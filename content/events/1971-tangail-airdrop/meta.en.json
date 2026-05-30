@@ -1,0 +1,62 @@
+{
+  "slug": "1971-tangail-airdrop",
+  "year": "1971 (December 11)",
+  "title": "Tangail Airdrop",
+  "subtitle": "An airborne operation accelerates the final advance toward Dhaka.",
+  "summary": "The Tangail Airdrop on 11 December 1971 inserted Indian airborne troops near Tangail to cut retreat and communication routes north of Dhaka. The operation helped accelerate the final advance toward the capital.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "An airborne operation accelerates the final advance toward Dhaka.",
+  "whyItMatters": "Tangail connects battlefield maneuver to the rapid collapse around Dhaka.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-december-16-instrument-of-surrender",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-december-16-instrument-of-surrender"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "tangail-airdrop-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "tangail-airdrop-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Tangail Airdrop on 11 December 1971 inserted Indian airborne troops near Tangail to cut retreat and communication routes north of Dhaka. The operation helped accelerate the final advance toward the capital.",
+      "sourceIds": [
+        "tangail-airdrop-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Tangail connects battlefield maneuver to the rapid collapse around Dhaka.",
+      "sourceIds": [
+        "tangail-airdrop-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-kushtia",
+  "year": "1971 (March-April)",
+  "title": "Battle of Kushtia",
+  "subtitle": "Early armed resistance follows Operation Searchlight.",
+  "summary": "The Battle of Kushtia was one of the early armed resistance episodes after Operation Searchlight. Local Bengali forces and civilians challenged Pakistani control before the war settled into longer sector-based fighting.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Early armed resistance follows Operation Searchlight.",
+  "whyItMatters": "Kushtia shows how resistance began locally before becoming a structured liberation campaign.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-operation-searchlight-crackdown",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-operation-searchlight-crackdown"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-kushtia-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-kushtia-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Battle of Kushtia was one of the early armed resistance episodes after Operation Searchlight. Local Bengali forces and civilians challenged Pakistani control before the war settled into longer sector-based fighting.",
+      "sourceIds": [
+        "battle-of-kushtia-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Kushtia shows how resistance began locally before becoming a structured liberation campaign.",
+      "sourceIds": [
+        "battle-of-kushtia-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

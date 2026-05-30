@@ -1,0 +1,58 @@
+{
+  "slug": "1575-battle-of-tukaroi",
+  "year": "1575",
+  "title": "তুকারইয়ের যুদ্ধ",
+  "subtitle": "মুঘল ও আফগান বাংলার বাহিনীর সংঘর্ষে কররানি শক্তির পতনের পথ তৈরি হয়।",
+  "summary": "১৫৭৫ সালের ৩ মার্চ তুকারইয়ের যুদ্ধে আকবরের বাহিনী বাংলার দাউদ খান কররানির সঙ্গে সরাসরি সংঘর্ষে নামে। যুদ্ধ ও পরবর্তী বন্দোবস্ত স্বাধীন আফগান শাসনকে দুর্বল করে এবং ১৫৭৬ সালের রাজমহলের যুদ্ধের পথ তৈরি করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "মুঘল ও আফগান বাংলার বাহিনীর সংঘর্ষে কররানি শক্তির পতনের পথ তৈরি হয়।",
+  "whyItMatters": "তুকারই গুরুত্বপূর্ণ, কারণ এটি রাজমহলকে বিচ্ছিন্ন যুদ্ধ নয়, বরং দীর্ঘ অভিযানের সমাপ্তি হিসেবে বোঝায়।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1576-battle-of-rajmahal",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1576-battle-of-rajmahal"
+  ],
+  "periodLabel": "স্বাধীন বাংলা সুলতানি যুগ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-tukaroi-britannica"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-tukaroi-britannica"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "independent-bengal-sultanate-era",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৫৭৫ সালের ৩ মার্চ তুকারইয়ের যুদ্ধে আকবরের বাহিনী বাংলার দাউদ খান কররানির সঙ্গে সরাসরি সংঘর্ষে নামে। যুদ্ধ ও পরবর্তী বন্দোবস্ত স্বাধীন আফগান শাসনকে দুর্বল করে এবং ১৫৭৬ সালের রাজমহলের যুদ্ধের পথ তৈরি করে।",
+      "sourceIds": [
+        "battle-of-tukaroi-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "তুকারই গুরুত্বপূর্ণ, কারণ এটি রাজমহলকে বিচ্ছিন্ন যুদ্ধ নয়, বরং দীর্ঘ অভিযানের সমাপ্তি হিসেবে বোঝায়।",
+      "sourceIds": [
+        "battle-of-tukaroi-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

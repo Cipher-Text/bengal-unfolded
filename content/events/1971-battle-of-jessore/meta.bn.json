@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-jessore",
+  "year": "1971 (December)",
+  "title": "যশোরের যুদ্ধ",
+  "subtitle": "দক্ষিণ-পশ্চিম ফ্রন্ট খুলনা ও অভ্যন্তরীণ রুটের পথ খুলে দেয়।",
+  "summary": "১৯৭১ সালের ডিসেম্বরে যশোরের যুদ্ধ দক্ষিণ-পশ্চিম ফ্রন্টের একটি গুরুত্বপূর্ণ সংঘর্ষ ছিল। যশোর অঞ্চলে পাকিস্তানি অবস্থানের পতন খুলনা ও অন্যান্য অভ্যন্তরীণ রুটের পথ খুলে দেয়।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "দক্ষিণ-পশ্চিম ফ্রন্ট খুলনা ও অভ্যন্তরীণ রুটের পথ খুলে দেয়।",
+  "whyItMatters": "যশোর দক্ষিণ-পশ্চিম অভিযানের সামরিক ভূগোল বোঝাতে সাহায্য করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-jessore-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-jessore-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের ডিসেম্বরে যশোরের যুদ্ধ দক্ষিণ-পশ্চিম ফ্রন্টের একটি গুরুত্বপূর্ণ সংঘর্ষ ছিল। যশোর অঞ্চলে পাকিস্তানি অবস্থানের পতন খুলনা ও অন্যান্য অভ্যন্তরীণ রুটের পথ খুলে দেয়।",
+      "sourceIds": [
+        "battle-of-jessore-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "যশোর দক্ষিণ-পশ্চিম অভিযানের সামরিক ভূগোল বোঝাতে সাহায্য করে।",
+      "sourceIds": [
+        "battle-of-jessore-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

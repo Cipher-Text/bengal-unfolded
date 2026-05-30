@@ -1,0 +1,62 @@
+{
+  "slug": "1971-riverine-operations",
+  "year": "1971",
+  "title": "মুক্তিযুদ্ধে নদীপথের অভিযান",
+  "subtitle": "নদীপথ নাশকতা, চলাচল ও সরবরাহ ব্যাহত করার যুদ্ধক্ষেত্রে পরিণত হয়।",
+  "summary": "১৯৭১ সালের যুদ্ধে নদীপথ চলাচল, সরবরাহ, নাশকতা ও দমন অভিযানের কেন্দ্রে ছিল। নৌ-কমান্ডো আক্রমণ ও স্থানীয় অভিযান বন্দর, শহর ও সামরিক সরবরাহ সংযোগকারী নৌপথকে লক্ষ্য করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "নদীপথ নাশকতা, চলাচল ও সরবরাহ ব্যাহত করার যুদ্ধক্ষেত্রে পরিণত হয়।",
+  "whyItMatters": "এই ঘটনা বাংলাদেশের নদীনির্ভর যুদ্ধভূগোলের জন্য টাইমলাইনে আলাদা কাঠামো দেয়।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-operation-jackpot",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-operation-jackpot"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "operation-jackpot",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "operation-jackpot",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের যুদ্ধে নদীপথ চলাচল, সরবরাহ, নাশকতা ও দমন অভিযানের কেন্দ্রে ছিল। নৌ-কমান্ডো আক্রমণ ও স্থানীয় অভিযান বন্দর, শহর ও সামরিক সরবরাহ সংযোগকারী নৌপথকে লক্ষ্য করে।",
+      "sourceIds": [
+        "operation-jackpot",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা বাংলাদেশের নদীনির্ভর যুদ্ধভূগোলের জন্য টাইমলাইনে আলাদা কাঠামো দেয়।",
+      "sourceIds": [
+        "operation-jackpot",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

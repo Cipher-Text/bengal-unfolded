@@ -1,0 +1,17 @@
+{
+  "title": "Battle of Hilli",
+  "note": "Reference overview of the hard-fought Hilli battle during the 1971 eastern campaign.",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
+  "href": "https://en.wikipedia.org/wiki/Battle_of_Hilli",
+  "attribution": "Wikipedia",
+  "creatorId": "wikipedia",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "relatedEventIds": [
+    "1971-battle-of-hilli"
+  ],
+  "whyItMatters": "Reference overview of the hard-fought Hilli battle during the 1971 eastern campaign."
+}

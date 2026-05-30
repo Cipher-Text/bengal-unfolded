@@ -1,0 +1,17 @@
+{
+  "title": "Tangail Airdrop",
+  "note": "Reference overview of the December 1971 airborne operation near Tangail during the advance on Dhaka.",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
+  "href": "https://en.wikipedia.org/wiki/Tangail_Airdrop",
+  "attribution": "Wikipedia",
+  "creatorId": "wikipedia",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "relatedEventIds": [
+    "1971-tangail-airdrop"
+  ],
+  "whyItMatters": "Reference overview of the December 1971 airborne operation near Tangail during the advance on Dhaka."
+}

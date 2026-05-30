@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-kamalpur",
+  "year": "1971",
+  "title": "কামালপুরের যুদ্ধ",
+  "subtitle": "উত্তর সেক্টরে ধারাবাহিক সীমান্ত আক্রমণ পাকিস্তানি প্রতিরক্ষা পরীক্ষা করে।",
+  "summary": "কামালপুরের যুদ্ধে সীমান্তের কাছে পাকিস্তানি সুরক্ষিত অবস্থানের বিরুদ্ধে মুক্তিবাহিনীর ধারাবাহিক আক্রমণ হয়। এটি মুক্তিযুদ্ধের গেরিলা ও প্রচলিত সামরিক চাপের প্রতীকে পরিণত হয়।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "উত্তর সেক্টরে ধারাবাহিক সীমান্ত আক্রমণ পাকিস্তানি প্রতিরক্ষা পরীক্ষা করে।",
+  "whyItMatters": "কামালপুর দেখায় যে যুদ্ধটি শুধু জাতীয় মাইলফলক নয়, সেক্টরভিত্তিক যুদ্ধের ধারাবাহিকতাও।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-kamalpur-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-kamalpur-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "কামালপুরের যুদ্ধে সীমান্তের কাছে পাকিস্তানি সুরক্ষিত অবস্থানের বিরুদ্ধে মুক্তিবাহিনীর ধারাবাহিক আক্রমণ হয়। এটি মুক্তিযুদ্ধের গেরিলা ও প্রচলিত সামরিক চাপের প্রতীকে পরিণত হয়।",
+      "sourceIds": [
+        "battle-of-kamalpur-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "কামালপুর দেখায় যে যুদ্ধটি শুধু জাতীয় মাইলফলক নয়, সেক্টরভিত্তিক যুদ্ধের ধারাবাহিকতাও।",
+      "sourceIds": [
+        "battle-of-kamalpur-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

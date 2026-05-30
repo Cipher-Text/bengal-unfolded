@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-garibpur",
+  "year": "1971 (November)",
+  "title": "Battle of Garibpur",
+  "subtitle": "A Jessore-front battle precedes the formal India-Pakistan war phase.",
+  "summary": "The Battle of Garibpur in November 1971 took place on the Jessore front before the formal outbreak of the wider India-Pakistan war. It weakened Pakistani positions and shaped the southwest campaign.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "A Jessore-front battle precedes the formal India-Pakistan war phase.",
+  "whyItMatters": "Garibpur shows how the final campaign was prepared before December 1971.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-garibpur-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-garibpur-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Battle of Garibpur in November 1971 took place on the Jessore front before the formal outbreak of the wider India-Pakistan war. It weakened Pakistani positions and shaped the southwest campaign.",
+      "sourceIds": [
+        "battle-of-garibpur-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Garibpur shows how the final campaign was prepared before December 1971.",
+      "sourceIds": [
+        "battle-of-garibpur-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

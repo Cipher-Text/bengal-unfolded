@@ -1,0 +1,58 @@
+{
+  "slug": "1864-1865-duar-war",
+  "year": "1864-1865",
+  "title": "ডুয়ার যুদ্ধ / অ্যাংলো-ভুটান যুদ্ধ",
+  "subtitle": "একটি সীমান্ত যুদ্ধ বঙ্গ ডুয়ার্সের নিয়ন্ত্রণ বদলে দেয়।",
+  "summary": "১৮৬৪-৬৫ সালের ডুয়ার যুদ্ধ ব্রিটিশ ভারত ও ভুটানের মধ্যে ডুয়ার্স সীমান্ত নিয়ে সংঘটিত হয়। এর বন্দোবস্ত বঙ্গ ডুয়ার্সের অঞ্চলকে ব্রিটিশ নিয়ন্ত্রিত ব্যবস্থায় নিয়ে আসে এবং উত্তর সীমান্তকে পুনর্গঠন করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "একটি সীমান্ত যুদ্ধ বঙ্গ ডুয়ার্সের নিয়ন্ত্রণ বদলে দেয়।",
+  "whyItMatters": "এই ঘটনা বাংলা-কেন্দ্রিক টাইমলাইনে প্রায় অনুপস্থিত উত্তর সীমান্তের যুদ্ধকে যুক্ত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1874-assam-reorganization-and-sylhet-s-administrative-detachment",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "duar-war-reference"
+  ],
+  "whyItMattersSourceIds": [
+    "duar-war-reference"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৮৬৪-৬৫ সালের ডুয়ার যুদ্ধ ব্রিটিশ ভারত ও ভুটানের মধ্যে ডুয়ার্স সীমান্ত নিয়ে সংঘটিত হয়। এর বন্দোবস্ত বঙ্গ ডুয়ার্সের অঞ্চলকে ব্রিটিশ নিয়ন্ত্রিত ব্যবস্থায় নিয়ে আসে এবং উত্তর সীমান্তকে পুনর্গঠন করে।",
+      "sourceIds": [
+        "duar-war-reference"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ঘটনা বাংলা-কেন্দ্রিক টাইমলাইনে প্রায় অনুপস্থিত উত্তর সীমান্তের যুদ্ধকে যুক্ত করে।",
+      "sourceIds": [
+        "duar-war-reference"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

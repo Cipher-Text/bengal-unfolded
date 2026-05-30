@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-belonia",
+  "year": "1971",
+  "title": "বেলোনিয়ার যুদ্ধ",
+  "subtitle": "ত্রিপুরা সীমান্তের কাছে একটি স্যালিয়েন্ট যুদ্ধ মুক্তিবাহিনী ও ভারতীয় অভিযানের সংযোগ দেখায়।",
+  "summary": "বেলোনিয়ার যুদ্ধ ত্রিপুরা সীমান্তের কাছে একটি কৌশলগত স্যালিয়েন্ট ঘিরে সংঘটিত হয়। এটি দেখায় কীভাবে মুক্তিবাহিনী ও ভারতীয় অভিযান সীমান্ত ভূগোল ব্যবহার করে পাকিস্তানি অবস্থানের ওপর চাপ সৃষ্টি করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "ত্রিপুরা সীমান্তের কাছে একটি স্যালিয়েন্ট যুদ্ধ মুক্তিবাহিনী ও ভারতীয় অভিযানের সংযোগ দেখায়।",
+  "whyItMatters": "বেলোনিয়া মুক্তিযুদ্ধের ধারায় সীমান্ত-স্যালিয়েন্ট যুদ্ধের মাত্রা যুক্ত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-belonia-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-belonia-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "বেলোনিয়ার যুদ্ধ ত্রিপুরা সীমান্তের কাছে একটি কৌশলগত স্যালিয়েন্ট ঘিরে সংঘটিত হয়। এটি দেখায় কীভাবে মুক্তিবাহিনী ও ভারতীয় অভিযান সীমান্ত ভূগোল ব্যবহার করে পাকিস্তানি অবস্থানের ওপর চাপ সৃষ্টি করে।",
+      "sourceIds": [
+        "battle-of-belonia-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "বেলোনিয়া মুক্তিযুদ্ধের ধারায় সীমান্ত-স্যালিয়েন্ট যুদ্ধের মাত্রা যুক্ত করে।",
+      "sourceIds": [
+        "battle-of-belonia-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

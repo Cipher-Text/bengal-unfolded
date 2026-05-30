@@ -1,0 +1,66 @@
+{
+  "slug": "2005-jmb-nationwide-bombings",
+  "year": "2005 (August 17)",
+  "title": "JMB Nationwide Bombings",
+  "subtitle": "Coordinated bomb blasts expose militant networks across Bangladesh.",
+  "summary": "On 17 August 2005, coordinated bomb blasts occurred across Bangladesh and were attributed to Jama'atul Mujahideen Bangladesh. The attacks exposed the national reach of militant networks and reshaped security politics.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Coordinated bomb blasts expose militant networks across Bangladesh.",
+  "whyItMatters": "The bombings mark a major militant-conflict turning point before later counterterrorism phases.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2016-holey-artisan-attack",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2016-holey-artisan-attack"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "jmb-nationwide-bombings-reference",
+    "satp-jmb-bangladesh-profile"
+  ],
+  "whyItMattersSourceIds": [
+    "jmb-nationwide-bombings-reference",
+    "satp-jmb-bangladesh-profile"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On 17 August 2005, coordinated bomb blasts occurred across Bangladesh and were attributed to Jama'atul Mujahideen Bangladesh. The attacks exposed the national reach of militant networks and reshaped security politics.",
+      "sourceIds": [
+        "jmb-nationwide-bombings-reference",
+        "satp-jmb-bangladesh-profile"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The bombings mark a major militant-conflict turning point before later counterterrorism phases.",
+      "sourceIds": [
+        "jmb-nationwide-bombings-reference",
+        "satp-jmb-bangladesh-profile"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "armed violence",
+    "civilian casualties"
+  ]
+}

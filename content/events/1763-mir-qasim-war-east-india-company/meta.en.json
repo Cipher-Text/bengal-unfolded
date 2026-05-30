@@ -1,0 +1,58 @@
+{
+  "slug": "1763-mir-qasim-war-east-india-company",
+  "year": "1763",
+  "title": "Mir Qasim's War with the East India Company",
+  "subtitle": "The Nawab of Bengal confronts Company power before Buxar.",
+  "summary": "In 1763, Nawab Mir Qasim entered open conflict with the East India Company after disputes over trade privileges, revenue, and authority. The fighting pushed Bengal politics toward the 1764 Battle of Buxar and the Company's later revenue ascendancy.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "The Nawab of Bengal confronts Company power before Buxar.",
+  "whyItMatters": "This war connects Plassey, Buxar, and Diwani into one military-political sequence.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1764-battle-of-buxar",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1764-battle-of-buxar"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "buxar-battle-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "buxar-battle-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 1763, Nawab Mir Qasim entered open conflict with the East India Company after disputes over trade privileges, revenue, and authority. The fighting pushed Bengal politics toward the 1764 Battle of Buxar and the Company's later revenue ascendancy.",
+      "sourceIds": [
+        "buxar-battle-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This war connects Plassey, Buxar, and Diwani into one military-political sequence.",
+      "sourceIds": [
+        "buxar-battle-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

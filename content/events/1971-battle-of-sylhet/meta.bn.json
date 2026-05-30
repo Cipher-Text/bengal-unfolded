@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-sylhet",
+  "year": "1971 (December)",
+  "title": "সিলেটের যুদ্ধ",
+  "subtitle": "পূর্ব ফ্রন্টে লড়াই সিলেট অঞ্চলে পাকিস্তানি অবস্থান বিচ্ছিন্ন করে।",
+  "summary": "১৯৭১ সালের যুদ্ধের শেষ পর্যায়ে সিলেটের যুদ্ধ ঘটে, যখন ভারতীয় ও মুক্তিবাহিনী-সংযুক্ত অভিযান উত্তর-পূর্বে পাকিস্তানি বাহিনীর ওপর চাপ সৃষ্টি করে। যুদ্ধটি আত্মসমর্পণের আগে সিলেট অঞ্চলকে বিচ্ছিন্ন করতে সাহায্য করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "পূর্ব ফ্রন্টে লড়াই সিলেট অঞ্চলে পাকিস্তানি অবস্থান বিচ্ছিন্ন করে।",
+  "whyItMatters": "সিলেট চূড়ান্ত অভিযানের বর্ণনায় উত্তর-পূর্ব রণাঙ্গনকে যুক্ত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-sylhet-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-sylhet-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের যুদ্ধের শেষ পর্যায়ে সিলেটের যুদ্ধ ঘটে, যখন ভারতীয় ও মুক্তিবাহিনী-সংযুক্ত অভিযান উত্তর-পূর্বে পাকিস্তানি বাহিনীর ওপর চাপ সৃষ্টি করে। যুদ্ধটি আত্মসমর্পণের আগে সিলেট অঞ্চলকে বিচ্ছিন্ন করতে সাহায্য করে।",
+      "sourceIds": [
+        "battle-of-sylhet-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "সিলেট চূড়ান্ত অভিযানের বর্ণনায় উত্তর-পূর্ব রণাঙ্গনকে যুক্ত করে।",
+      "sourceIds": [
+        "battle-of-sylhet-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Battle of Akhaura",
+  "note": "Reference overview of the Akhaura sector fighting in 1971.",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
+  "href": "https://en.wikipedia.org/wiki/Battle_of_Akhaura",
+  "attribution": "Wikipedia",
+  "creatorId": "wikipedia",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "relatedEventIds": [
+    "1971-akhaura-front-battle-of-daruin"
+  ],
+  "whyItMatters": "Reference overview of the Akhaura sector fighting in 1971."
+}

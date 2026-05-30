@@ -1,0 +1,58 @@
+{
+  "slug": "1575-battle-of-tukaroi",
+  "year": "1575",
+  "title": "Battle of Tukaroi",
+  "subtitle": "Mughal and Afghan Bengal forces clash before the fall of Karrani power.",
+  "summary": "The Battle of Tukaroi on 3 March 1575 brought Akbar's forces into direct conflict with Daud Khan Karrani of Bengal. The battle and the subsequent settlement weakened independent Afghan rule and set up the decisive 1576 Battle of Rajmahal.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Mughal and Afghan Bengal forces clash before the fall of Karrani power.",
+  "whyItMatters": "Tukaroi matters because it explains Rajmahal as the end of a campaign, not an isolated battle.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1576-battle-of-rajmahal",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1576-battle-of-rajmahal"
+  ],
+  "periodLabel": "Independent Bengal Sultanate Era",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-tukaroi-britannica"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-tukaroi-britannica"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "independent-bengal-sultanate-era",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Battle of Tukaroi on 3 March 1575 brought Akbar's forces into direct conflict with Daud Khan Karrani of Bengal. The battle and the subsequent settlement weakened independent Afghan rule and set up the decisive 1576 Battle of Rajmahal.",
+      "sourceIds": [
+        "battle-of-tukaroi-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Tukaroi matters because it explains Rajmahal as the end of a campaign, not an isolated battle.",
+      "sourceIds": [
+        "battle-of-tukaroi-britannica"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "1971-akhaura-front-battle-of-daruin",
+  "year": "1971",
+  "title": "Akhaura Front and Battle of Daruin",
+  "subtitle": "Eastern-sector fighting shapes the route toward Brahmanbaria and Dhaka.",
+  "summary": "The Akhaura front, including fighting around Daruin, was part of the eastern-sector campaign in 1971. These engagements pressured Pakistani defenses on routes linking Tripura, Brahmanbaria, and the approach toward Dhaka.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "Eastern-sector fighting shapes the route toward Brahmanbaria and Dhaka.",
+  "whyItMatters": "The event adds an important eastern-front route to the military map of 1971.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-akhaura-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-akhaura-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Akhaura front, including fighting around Daruin, was part of the eastern-sector campaign in 1971. These engagements pressured Pakistani defenses on routes linking Tripura, Brahmanbaria, and the approach toward Dhaka.",
+      "sourceIds": [
+        "battle-of-akhaura-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The event adds an important eastern-front route to the military map of 1971.",
+      "sourceIds": [
+        "battle-of-akhaura-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-kushtia",
+  "year": "1971 (March-April)",
+  "title": "কুষ্টিয়ার যুদ্ধ",
+  "subtitle": "অপারেশন সার্চলাইটের পর প্রাথমিক সশস্ত্র প্রতিরোধ গড়ে ওঠে।",
+  "summary": "কুষ্টিয়ার যুদ্ধ অপারেশন সার্চলাইটের পর প্রাথমিক সশস্ত্র প্রতিরোধের একটি অধ্যায়। স্থানীয় বাঙালি বাহিনী ও সাধারণ মানুষ দীর্ঘ সেক্টরভিত্তিক যুদ্ধের আগে পাকিস্তানি নিয়ন্ত্রণকে চ্যালেঞ্জ করে।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "অপারেশন সার্চলাইটের পর প্রাথমিক সশস্ত্র প্রতিরোধ গড়ে ওঠে।",
+  "whyItMatters": "কুষ্টিয়া দেখায় কীভাবে প্রতিরোধ স্থানীয়ভাবে শুরু হয়ে সংগঠিত মুক্তিযুদ্ধের রূপ নেয়।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-operation-searchlight-crackdown",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-operation-searchlight-crackdown"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-kushtia-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-kushtia-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "কুষ্টিয়ার যুদ্ধ অপারেশন সার্চলাইটের পর প্রাথমিক সশস্ত্র প্রতিরোধের একটি অধ্যায়। স্থানীয় বাঙালি বাহিনী ও সাধারণ মানুষ দীর্ঘ সেক্টরভিত্তিক যুদ্ধের আগে পাকিস্তানি নিয়ন্ত্রণকে চ্যালেঞ্জ করে।",
+      "sourceIds": [
+        "battle-of-kushtia-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "কুষ্টিয়া দেখায় কীভাবে প্রতিরোধ স্থানীয়ভাবে শুরু হয়ে সংগঠিত মুক্তিযুদ্ধের রূপ নেয়।",
+      "sourceIds": [
+        "battle-of-kushtia-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

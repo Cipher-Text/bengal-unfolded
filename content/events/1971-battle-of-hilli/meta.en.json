@@ -1,0 +1,62 @@
+{
+  "slug": "1971-battle-of-hilli",
+  "year": "1971 (November-December)",
+  "title": "Battle of Hilli",
+  "subtitle": "One of the hardest-fought battles on the northern front.",
+  "summary": "The Battle of Hilli was a prolonged and costly engagement on the northern front during the 1971 war. It tied down Pakistani defenses and became one of the most remembered battlefield episodes of the eastern campaign.",
+  "themeColor": "#6a492c",
+  "ctaLabel": "Explore",
+  "heroTagline": "One of the hardest-fought battles on the northern front.",
+  "whyItMatters": "Hilli adds the cost and intensity of the northern front to the timeline.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "battle-of-hilli-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "battle-of-hilli-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Battle of Hilli was a prolonged and costly engagement on the northern front during the 1971 war. It tied down Pakistani defenses and became one of the most remembered battlefield episodes of the eastern campaign.",
+      "sourceIds": [
+        "battle-of-hilli-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Hilli adds the cost and intensity of the northern front to the timeline.",
+      "sourceIds": [
+        "battle-of-hilli-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

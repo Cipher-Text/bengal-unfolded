@@ -1,0 +1,66 @@
+{
+  "slug": "1971-jinjira-massacre",
+  "year": "1971 (April 2)",
+  "title": "জিঞ্জিরা গণহত্যা",
+  "subtitle": "অপারেশন সার্চলাইটের পর ঢাকার কাছে গণহত্যা।",
+  "summary": "১৯৭১ সালের এপ্রিলের শুরুতে ঢাকার কাছে জিঞ্জিরা গণহত্যা ঘটে, যখন বহু মানুষ দমন অভিযান থেকে নিরাপত্তার খোঁজে নদী পেরিয়ে যায়। এটি রাজধানীর আশপাশে যুদ্ধকালীন বেসামরিক সহিংসতার একটি গুরুত্বপূর্ণ অধ্যায়।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "অপারেশন সার্চলাইটের পর ঢাকার কাছে গণহত্যা।",
+  "whyItMatters": "জিঞ্জিরা অপারেশন সার্চলাইটকে ঢাকার আশপাশের বসতিতে সহিংসতার সঙ্গে যুক্ত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1971-operation-searchlight-crackdown",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-operation-searchlight-crackdown"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "jinjira-massacre-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "jinjira-massacre-reference",
+    "war-of-liberation-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের এপ্রিলের শুরুতে ঢাকার কাছে জিঞ্জিরা গণহত্যা ঘটে, যখন বহু মানুষ দমন অভিযান থেকে নিরাপত্তার খোঁজে নদী পেরিয়ে যায়। এটি রাজধানীর আশপাশে যুদ্ধকালীন বেসামরিক সহিংসতার একটি গুরুত্বপূর্ণ অধ্যায়।",
+      "sourceIds": [
+        "jinjira-massacre-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "জিঞ্জিরা অপারেশন সার্চলাইটকে ঢাকার আশপাশের বসতিতে সহিংসতার সঙ্গে যুক্ত করে।",
+      "sourceIds": [
+        "jinjira-massacre-reference",
+        "war-of-liberation-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "সশস্ত্র সহিংসতা",
+    "বেসামরিক হতাহতের ইতিহাস"
+  ]
+}

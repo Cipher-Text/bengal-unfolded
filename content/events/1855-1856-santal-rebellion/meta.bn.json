@@ -1,0 +1,58 @@
+{
+  "slug": "1855-1856-santal-rebellion",
+  "year": "1855-1856",
+  "title": "সাঁওতাল বিদ্রোহ",
+  "subtitle": "বেঙ্গল প্রেসিডেন্সিতে শোষণ ও ঔপনিবেশিক কর্তৃত্বের বিরুদ্ধে বড় সশস্ত্র বিদ্রোহ।",
+  "summary": "১৮৫৫-৫৬ সালের সাঁওতাল বিদ্রোহ ছিল জমিদার, মহাজন, পুলিশ ও ঔপনিবেশিক কাঠামোর বিরুদ্ধে সশস্ত্র অভ্যুত্থান। এটি বেঙ্গল প্রেসিডেন্সির অন্যতম বিস্তৃত আদিবাসী প্রতিরোধ আন্দোলনে পরিণত হয়।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "বেঙ্গল প্রেসিডেন্সিতে শোষণ ও ঔপনিবেশিক কর্তৃত্বের বিরুদ্ধে বড় সশস্ত্র বিদ্রোহ।",
+  "whyItMatters": "এটি অভিজাত রাজনীতির বাইরে আদিবাসী সশস্ত্র প্রতিরোধকে সামনে আনে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1857-sipahi-revolt",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "santal-rebellion-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "santal-rebellion-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৮৫৫-৫৬ সালের সাঁওতাল বিদ্রোহ ছিল জমিদার, মহাজন, পুলিশ ও ঔপনিবেশিক কাঠামোর বিরুদ্ধে সশস্ত্র অভ্যুত্থান। এটি বেঙ্গল প্রেসিডেন্সির অন্যতম বিস্তৃত আদিবাসী প্রতিরোধ আন্দোলনে পরিণত হয়।",
+      "sourceIds": [
+        "santal-rebellion-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এটি অভিজাত রাজনীতির বাইরে আদিবাসী সশস্ত্র প্রতিরোধকে সামনে আনে।",
+      "sourceIds": [
+        "santal-rebellion-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

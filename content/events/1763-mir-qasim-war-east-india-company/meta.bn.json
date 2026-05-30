@@ -1,0 +1,58 @@
+{
+  "slug": "1763-mir-qasim-war-east-india-company",
+  "year": "1763",
+  "title": "মীর কাসিমের সঙ্গে ইস্ট ইন্ডিয়া কোম্পানির যুদ্ধ",
+  "subtitle": "বক্সারের আগে বাংলার নবাব কোম্পানির শক্তির মুখোমুখি হন।",
+  "summary": "১৭৬৩ সালে বাণিজ্য সুবিধা, রাজস্ব ও কর্তৃত্ব নিয়ে বিরোধের পর নবাব মীর কাসিম ইস্ট ইন্ডিয়া কোম্পানির সঙ্গে প্রকাশ্য সংঘর্ষে জড়ান। এই যুদ্ধ বাংলার রাজনীতিকে ১৭৬৪ সালের বক্সারের যুদ্ধ ও কোম্পানির পরবর্তী রাজস্ব আধিপত্যের দিকে ঠেলে দেয়।",
+  "themeColor": "#6a492c",
+  "ctaLabel": "বিস্তারিত দেখুন",
+  "heroTagline": "বক্সারের আগে বাংলার নবাব কোম্পানির শক্তির মুখোমুখি হন।",
+  "whyItMatters": "এই যুদ্ধ পলাশী, বক্সার ও দেওয়ানিকে একটি সামরিক-রাজনৈতিক ধারাবাহিকতায় যুক্ত করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1764-battle-of-buxar",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1764-battle-of-buxar"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "buxar-battle-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "buxar-battle-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৭৬৩ সালে বাণিজ্য সুবিধা, রাজস্ব ও কর্তৃত্ব নিয়ে বিরোধের পর নবাব মীর কাসিম ইস্ট ইন্ডিয়া কোম্পানির সঙ্গে প্রকাশ্য সংঘর্ষে জড়ান। এই যুদ্ধ বাংলার রাজনীতিকে ১৭৬৪ সালের বক্সারের যুদ্ধ ও কোম্পানির পরবর্তী রাজস্ব আধিপত্যের দিকে ঠেলে দেয়।",
+      "sourceIds": [
+        "buxar-battle-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই যুদ্ধ পলাশী, বক্সার ও দেওয়ানিকে একটি সামরিক-রাজনৈতিক ধারাবাহিকতায় যুক্ত করে।",
+      "sourceIds": [
+        "buxar-battle-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}
