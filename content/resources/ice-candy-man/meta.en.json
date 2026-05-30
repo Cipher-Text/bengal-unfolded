@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A major novel on partition trauma, gendered violence, and the Lahore context."
+  "whyItMatters": "A major novel on partition trauma, gendered violence, and the Lahore context.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

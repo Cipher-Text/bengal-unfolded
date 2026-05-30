@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Official record of quota abolition/reform decisions. Useful for understanding the policy outcome."
+  "whyItMatters": "Official record of quota abolition/reform decisions. Useful for understanding the policy outcome.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

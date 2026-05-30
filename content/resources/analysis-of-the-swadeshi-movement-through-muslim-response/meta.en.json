@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for Muslim perspectives and East Bengal responses, especially where Swadeshi is read through cultural memory and social boundary-making."
+  "whyItMatters": "Useful for Muslim perspectives and East Bengal responses, especially where Swadeshi is read through cultural memory and social boundary-making.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1906-all-india-muslim-league-founded-in-dhaka"
+  ],
+  "relatedTopicIds": []
 }

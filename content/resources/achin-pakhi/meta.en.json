@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A documentary on the Bauls and Lalon’s world of folk-spiritual culture, useful for Bengali cultural history."
+  "whyItMatters": "A documentary on the Bauls and Lalon’s world of folk-spiritual culture, useful for Bengali cultural history.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

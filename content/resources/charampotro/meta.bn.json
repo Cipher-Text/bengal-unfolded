@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "স্বাধীন বাংলা বেতার কেন্দ্রের যুদ্ধকালীন রেডিও স্ক্রিপ্টের সংকলন।"
+  "whyItMatters": "স্বাধীন বাংলা বেতার কেন্দ্রের যুদ্ধকালীন রেডিও স্ক্রিপ্টের সংকলন।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

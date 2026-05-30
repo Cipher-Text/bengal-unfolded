@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "নবাব সিরাজউদ্দৌলার জীবন, দরবারি রাজনীতি, কোম্পানির সঙ্গে সংঘাত এবং পলাশী-পরবর্তী পতন নিয়ে প্রামাণ্য জীবনীমূলক নিবন্ধ।"
+  "whyItMatters": "নবাব সিরাজউদ্দৌলার জীবন, দরবারি রাজনীতি, কোম্পানির সঙ্গে সংঘাত এবং পলাশী-পরবর্তী পতন নিয়ে প্রামাণ্য জীবনীমূলক নিবন্ধ।",
+  "relatedEventIds": [
+    "1757-battle-of-plassey"
+  ],
+  "relatedTopicIds": []
 }

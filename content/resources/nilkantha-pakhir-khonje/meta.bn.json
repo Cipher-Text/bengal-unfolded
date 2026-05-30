@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "দেশভাগ ও পূর্ববঙ্গের হারানো জগতের স্মৃতি নিয়ে গুরুত্বপূর্ণ বাংলা সাহিত্য."
+  "whyItMatters": "দেশভাগ ও পূর্ববঙ্গের হারানো জগতের স্মৃতি নিয়ে গুরুত্বপূর্ণ বাংলা সাহিত্য.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

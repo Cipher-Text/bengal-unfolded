@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "International media framing of the road-safety protests, urban paralysis, student-led traffic regulation, and government response."
+  "whyItMatters": "International media framing of the road-safety protests, urban paralysis, student-led traffic regulation, and government response.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

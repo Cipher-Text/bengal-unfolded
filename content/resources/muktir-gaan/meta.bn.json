@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "লার লেভিনের ১৯৭১ সালের ফুটেজ ব্যবহার করে দেখায়, কীভাবে সংগীত, নাটক, এবং সংস্কৃতি যুদ্ধচেষ্টার অংশ হয়ে ওঠে।"
+  "whyItMatters": "লার লেভিনের ১৯৭১ সালের ফুটেজ ব্যবহার করে দেখায়, কীভাবে সংগীত, নাটক, এবং সংস্কৃতি যুদ্ধচেষ্টার অংশ হয়ে ওঠে।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

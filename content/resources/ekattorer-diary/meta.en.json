@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "An important memoir of civic life, culture, and personal experience during the Liberation War."
+  "whyItMatters": "An important memoir of civic life, culture, and personal experience during the Liberation War.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

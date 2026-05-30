@@ -10,5 +10,9 @@
   "href": "https://www.hrw.org/news/2013/10/29/bangladesh-no-justice-mass-trials-mutineers",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Critical HRW response to the trials of 847 accused; useful for understanding fair-trial standards and due process debates."
+  "whyItMatters": "Critical HRW response to the trials of 847 accused; useful for understanding fair-trial standards and due process debates.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

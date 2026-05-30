@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Biographical context on the convener of the All-Party State Language Action Committee."
+  "whyItMatters": "Biographical context on the convener of the All-Party State Language Action Committee.",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

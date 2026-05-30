@@ -10,5 +10,9 @@
   "href": "https://amnesty.ca/human-rights-news/bangladesh-halt-mounting-death-toll-protestors/",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Early warning source on rising deaths, protest repression, and the urgent need to stop violence."
+  "whyItMatters": "Early warning source on rising deaths, protest repression, and the urgent need to stop violence.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০১৮ সালে ডিজিটাল সিকিউরিটি অ্যাক্ট কার্যকর হওয়ার পর মতপ্রকাশ ও সংবাদমাধ্যমের স্বাধীনতা নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের প্রতিক্রিয়া।"
+  "whyItMatters": "২০১৮ সালে ডিজিটাল সিকিউরিটি অ্যাক্ট কার্যকর হওয়ার পর মতপ্রকাশ ও সংবাদমাধ্যমের স্বাধীনতা নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের প্রতিক্রিয়া।",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2018-digital-security-act"
+  ],
+  "relatedTopicIds": []
 }

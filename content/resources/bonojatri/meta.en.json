@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A documentary on Sundarbans life and ecology; useful for riverine and forest Bengal context."
+  "whyItMatters": "A documentary on Sundarbans life and ecology; useful for riverine and forest Bengal context.",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory"
+  ],
+  "relatedEventIds": []
 }

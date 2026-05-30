@@ -9,5 +9,9 @@
   "href": "https://ranaplaza-arrangement.org/",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Compensation and claims mechanism documentation after the collapse."
+  "whyItMatters": "Compensation and claims mechanism documentation after the collapse.",
+  "relatedEventIds": [
+    "2013-rana-plaza-collapse"
+  ],
+  "relatedTopicIds": []
 }

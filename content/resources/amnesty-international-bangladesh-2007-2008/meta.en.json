@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Rights-focused cross-check on detention, due process, torture allegations, and political rights restrictions under emergency rule."
+  "whyItMatters": "Rights-focused cross-check on detention, due process, torture allegations, and political rights restrictions under emergency rule.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

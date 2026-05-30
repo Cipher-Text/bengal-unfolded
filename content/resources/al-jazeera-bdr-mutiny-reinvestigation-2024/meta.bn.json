@@ -9,5 +9,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "২০২৪ সালে পিলখানা হত্যাকাণ্ড পুনঃতদন্ত প্রসঙ্গ ও contemporary political memory বোঝার জন্য recent news source."
+  "whyItMatters": "২০২৪ সালে পিলখানা হত্যাকাণ্ড পুনঃতদন্ত প্রসঙ্গ ও contemporary political memory বোঝার জন্য recent news source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

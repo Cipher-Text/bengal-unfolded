@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Sensitive memory source on the families of the killed officers, grief, justice demands, and public memory."
+  "whyItMatters": "Sensitive memory source on the families of the killed officers, grief, justice demands, and public memory.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

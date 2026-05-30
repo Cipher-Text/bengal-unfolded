@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০১৮ সালের political rights, civil liberties, enforced disappearance, opposition pressure ও democratic backsliding context বোঝার জন্য background source."
+  "whyItMatters": "২০১৮ সালের political rights, civil liberties, enforced disappearance, opposition pressure ও democratic backsliding context বোঝার জন্য background source.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০২৪–২০২৫ political changes, security situation, protests aftermath ও country context বোঝার জন্য external institutional source."
+  "whyItMatters": "২০২৪–২০২৫ political changes, security situation, protests aftermath ও country context বোঝার জন্য external institutional source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

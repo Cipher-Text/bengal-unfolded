@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Voter registration, election support, institutional capacity এবং ২০০৮ election preparation বোঝার জন্য international institutional source."
+  "whyItMatters": "Voter registration, election support, institutional capacity এবং ২০০৮ election preparation বোঝার জন্য international institutional source.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

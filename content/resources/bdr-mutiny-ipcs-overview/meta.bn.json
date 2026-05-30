@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "পিলখানা বিদ্রোহের overview, timeline, immediate political/security implication বোঝার জন্য early policy brief."
+  "whyItMatters": "পিলখানা বিদ্রোহের overview, timeline, immediate political/security implication বোঝার জন্য early policy brief.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

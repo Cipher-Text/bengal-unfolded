@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "বঙ্গ, ভারত, পাকিস্তান, বাংলাদেশ, ও বার্মা জুড়ে সীমান্ত, দেশভাগ, ও রাষ্ট্রগঠনের একটি গবেষণা।"
+  "whyItMatters": "বঙ্গ, ভারত, পাকিস্তান, বাংলাদেশ, ও বার্মা জুড়ে সীমান্ত, দেশভাগ, ও রাষ্ট্রগঠনের একটি গবেষণা।",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

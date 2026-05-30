@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "২১ ফেব্রুয়ারি ১৯৫২-এর ঐতিহাসিক আমতলা সভার সভাপতিত্বকারী গাজীউল হকের ওপর একটি গুরুত্বপূর্ণ রেফারেন্স উৎস।"
+  "whyItMatters": "২১ ফেব্রুয়ারি ১৯৫২-এর ঐতিহাসিক আমতলা সভার সভাপতিত্বকারী গাজীউল হকের ওপর একটি গুরুত্বপূর্ণ রেফারেন্স উৎস।",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

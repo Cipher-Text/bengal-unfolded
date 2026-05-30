@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "শাহবাগ আন্দোলনে সামাজিক মাধ্যম, ব্লগ, হ্যাশট্যাগ activism এবং অনলাইন-থেকে-অফলাইন mobilization নিয়ে একাডেমিক গবেষণা।"
+  "whyItMatters": "শাহবাগ আন্দোলনে সামাজিক মাধ্যম, ব্লগ, হ্যাশট্যাগ activism এবং অনলাইন-থেকে-অফলাইন mobilization নিয়ে একাডেমিক গবেষণা।",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

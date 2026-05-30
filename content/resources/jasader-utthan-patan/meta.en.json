@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A useful source on post-liberation left politics, JASAD, state instability, and the background to 7 November."
+  "whyItMatters": "A useful source on post-liberation left politics, JASAD, state instability, and the background to 7 November.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

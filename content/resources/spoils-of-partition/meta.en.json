@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Important for understanding post-partition West Bengal, refugees, citizenship, borders, and the long-term impact of partition."
+  "whyItMatters": "Important for understanding post-partition West Bengal, refugees, citizenship, borders, and the long-term impact of partition.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

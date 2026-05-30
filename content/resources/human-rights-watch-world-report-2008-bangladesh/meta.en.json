@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Annual rights summary of the caretaker government, emergency rule, reforms, arrests, and the rights environment."
+  "whyItMatters": "Annual rights summary of the caretaker government, emergency rule, reforms, arrests, and the rights environment.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

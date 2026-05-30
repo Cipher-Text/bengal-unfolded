@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "শাহবাগ আন্দোলনের early international news coverage; external reporting perspective বোঝার জন্য useful archive."
+  "whyItMatters": "শাহবাগ আন্দোলনের early international news coverage; external reporting perspective বোঝার জন্য useful archive.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

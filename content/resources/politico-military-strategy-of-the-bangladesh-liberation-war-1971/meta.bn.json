@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "যুদ্ধের কমান্ড কাঠামো, কৌশল, এবং সামরিক-রাজনৈতিক পারস্পরিক সম্পর্ক বোঝার জন্য শক্তিশালী।"
+  "whyItMatters": "যুদ্ধের কমান্ড কাঠামো, কৌশল, এবং সামরিক-রাজনৈতিক পারস্পরিক সম্পর্ক বোঝার জন্য শক্তিশালী।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Sensitive archive source on the murder of blogger Rajib Haider, secular blogger debate, and the movement’s polarisation."
+  "whyItMatters": "Sensitive archive source on the murder of blogger Rajib Haider, secular blogger debate, and the movement’s polarisation.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

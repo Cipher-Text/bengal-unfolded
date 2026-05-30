@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary judicial source on the verdict, sentences, acquittals, and judicial reasoning in the case."
+  "whyItMatters": "Primary judicial source on the verdict, sentences, acquittals, and judicial reasoning in the case.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

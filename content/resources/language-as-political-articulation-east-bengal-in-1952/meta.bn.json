@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "ভাষা আন্দোলন, বাঙালি জাতীয়তাবাদ, এবং ১৯৫২ সালের রাজনৈতিক তাৎপর্য বোঝার জন্য অন্যতম শক্তিশালী প্রবন্ধ।"
+  "whyItMatters": "ভাষা আন্দোলন, বাঙালি জাতীয়তাবাদ, এবং ১৯৫২ সালের রাজনৈতিক তাৎপর্য বোঝার জন্য অন্যতম শক্তিশালী প্রবন্ধ।",
+  "relatedEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

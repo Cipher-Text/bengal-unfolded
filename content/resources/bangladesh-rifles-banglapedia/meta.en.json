@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia's institutional overview of Bangladesh Rifles, including its later renaming as Border Guard Bangladesh and basic historical context for the 2009 crisis."
+  "whyItMatters": "Banglapedia's institutional overview of Bangladesh Rifles, including its later renaming as Border Guard Bangladesh and basic historical context for the 2009 crisis.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

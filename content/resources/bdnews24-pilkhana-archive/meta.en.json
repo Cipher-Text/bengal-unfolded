@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful news archive for event-time updates, aftermath, investigation, and trial coverage."
+  "whyItMatters": "Useful news archive for event-time updates, aftermath, investigation, and trial coverage.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

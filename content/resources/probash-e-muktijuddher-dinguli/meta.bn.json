@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "প্রবাসে সংগঠন, জনমত এবং মুক্তিযুদ্ধের পক্ষে প্রচারণা বোঝার জন্য সহায়ক স্মৃতিকথা."
+  "whyItMatters": "প্রবাসে সংগঠন, জনমত এবং মুক্তিযুদ্ধের পক্ষে প্রচারণা বোঝার জন্য সহায়ক স্মৃতিকথা.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

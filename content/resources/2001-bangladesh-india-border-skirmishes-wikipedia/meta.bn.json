@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "পাদুয়া/পিরদিওয়াহ ও বড়াইবাড়ি সংঘর্ষের টাইমলাইন, হতাহত ও উত্তেজনা প্রশমন নিয়ে একটি সারাংশভিত্তিক রেফারেন্স।"
+  "whyItMatters": "পাদুয়া/পিরদিওয়াহ ও বড়াইবাড়ি সংঘর্ষের টাইমলাইন, হতাহত ও উত্তেজনা প্রশমন নিয়ে একটি সারাংশভিত্তিক রেফারেন্স।",
+  "relatedEventIds": [
+    "2001-padua-pyrdiwah-boraibari-border-clash"
+  ],
+  "relatedTopicIds": []
 }

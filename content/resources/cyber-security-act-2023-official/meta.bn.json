@@ -10,5 +10,9 @@
   "href": "https://bdlaws.minlaw.gov.bd/act-details-1443.html",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Official legal text replacing the Digital Security Act, 2018."
+  "whyItMatters": "Official legal text replacing the Digital Security Act, 2018.",
+  "relatedEventIds": [
+    "2023-cyber-security-act-replacing-dsa"
+  ],
+  "relatedTopicIds": []
 }

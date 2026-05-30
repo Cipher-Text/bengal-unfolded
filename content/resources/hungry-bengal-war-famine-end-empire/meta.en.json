@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A major study of wartime Bengal, the 1943 famine, and the structural crisis at the end of empire."
+  "whyItMatters": "A major study of wartime Bengal, the 1943 famine, and the structural crisis at the end of empire.",
+  "relatedEventIds": [
+    "1943-bengal-famine",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "শেখ মুজিবের রাজনৈতিক জীবন, একদলীয় ব্যবস্থা এবং ১৯৭৫ সালের হত্যাকাণ্ডের প্রেক্ষাপট নিয়ে biographical-academic reading."
+  "whyItMatters": "শেখ মুজিবের রাজনৈতিক জীবন, একদলীয় ব্যবস্থা এবং ১৯৭৫ সালের হত্যাকাণ্ডের প্রেক্ষাপট নিয়ে biographical-academic reading.",
+  "relatedEventIds": [
+    "1975-august-15-assassination-of-sheikh-mujib",
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

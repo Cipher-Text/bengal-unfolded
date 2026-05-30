@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Supplementary civil-society source on emergency rule, law enforcement, judiciary, and human-rights conditions."
+  "whyItMatters": "Supplementary civil-society source on emergency rule, law enforcement, judiciary, and human-rights conditions.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

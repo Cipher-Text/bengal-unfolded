@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "State-news summary of the July uprising timeline, key dates, escalation, and the one-point demand. Cross-check needed."
+  "whyItMatters": "State-news summary of the July uprising timeline, key dates, escalation, and the one-point demand. Cross-check needed.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

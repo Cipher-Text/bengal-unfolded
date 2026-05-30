@@ -13,5 +13,9 @@
   "relatedFigureIds": [
     "ivy-rahman"
   ],
-  "whyItMatters": "Provides contemporary and retrospective reporting for Ivy Rahman's role and death after the August 21 attack."
+  "whyItMatters": "Provides contemporary and retrospective reporting for Ivy Rahman's role and death after the August 21 attack.",
+  "relatedEventIds": [
+    "2004-august-21-grenade-attack"
+  ],
+  "relatedTopicIds": []
 }

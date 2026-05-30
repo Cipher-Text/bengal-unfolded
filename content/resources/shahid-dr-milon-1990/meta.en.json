@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Important memory-and-movement source on how Dr. Milon’s killing intensified the anti-Ershad uprising."
+  "whyItMatters": "Important memory-and-movement source on how Dr. Milon’s killing intensified the anti-Ershad uprising.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

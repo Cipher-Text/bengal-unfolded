@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "কূটনীতি, নীতি এবং ১৯৭১-এর আর্কাইভ রেকর্ড বোঝার জন্য ডিক্লাসিফায়েড মার্কিন দলিলসংকলন."
+  "whyItMatters": "কূটনীতি, নীতি এবং ১৯৭১-এর আর্কাইভ রেকর্ড বোঝার জন্য ডিক্লাসিফায়েড মার্কিন দলিলসংকলন.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

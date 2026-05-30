@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "উর্দুভাষী/বিহারি stranded community, ১৯৪৭ অভিবাসন, ১৯৭১ সংঘাত, এবং দীর্ঘমেয়াদি রাষ্ট্রহীনতা নিয়ে ডকুমেন্টারি।"
+  "whyItMatters": "উর্দুভাষী/বিহারি stranded community, ১৯৪৭ অভিবাসন, ১৯৭১ সংঘাত, এবং দীর্ঘমেয়াদি রাষ্ট্রহীনতা নিয়ে ডকুমেন্টারি।",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

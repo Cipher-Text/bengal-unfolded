@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary movement source for self-description, demands, programme, and organisational language."
+  "whyItMatters": "Primary movement source for self-description, demands, programme, and organisational language.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

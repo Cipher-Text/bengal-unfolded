@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৮৫৭ বিদ্রোহের অন্যতম প্রধান সামরিক কৌশলবিদ তান্তিয়া টোপের জীবন ও অভিযান নিয়ে একটি প্রামাণ্য রেফারেন্স।"
+  "whyItMatters": "১৮৫৭ বিদ্রোহের অন্যতম প্রধান সামরিক কৌশলবিদ তান্তিয়া টোপের জীবন ও অভিযান নিয়ে একটি প্রামাণ্য রেফারেন্স।",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

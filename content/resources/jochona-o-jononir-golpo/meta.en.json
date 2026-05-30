@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Epic narrative weaving ordinary lives with major historical moments of the Liberation War."
+  "whyItMatters": "Epic narrative weaving ordinary lives with major historical moments of the Liberation War.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

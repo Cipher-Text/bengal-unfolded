@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful for understanding the caretaker transfer of power that followed Ershad's fall."
+  "whyItMatters": "Useful for understanding the caretaker transfer of power that followed Ershad's fall.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

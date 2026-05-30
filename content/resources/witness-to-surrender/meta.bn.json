@@ -8,5 +8,10 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৭১-এর পাকিস্তানি সামরিক ও প্রশাসনিক দৃষ্টিকোণ; পক্ষপাতের নোটসহ critical comparison source হিসেবে ব্যবহারযোগ্য."
+  "whyItMatters": "১৯৭১-এর পাকিস্তানি সামরিক ও প্রশাসনিক দৃষ্টিকোণ; পক্ষপাতের নোটসহ critical comparison source হিসেবে ব্যবহারযোগ্য.",
+  "relatedEventIds": [
+    "1971-december-16-instrument-of-surrender",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

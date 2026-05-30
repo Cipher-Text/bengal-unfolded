@@ -10,5 +10,9 @@
   "href": "https://www.unhcr.org/emergencies/rohingya-emergency",
   "sourceQuality": "archive",
   "evidenceLevel": "high",
-  "whyItMatters": "UNHCR emergency overview on the post-August 2017 influx into Bangladesh."
+  "whyItMatters": "UNHCR emergency overview on the post-August 2017 influx into Bangladesh.",
+  "relatedEventIds": [
+    "2017-rohingya-mass-influx-into-bangladesh"
+  ],
+  "relatedTopicIds": []
 }

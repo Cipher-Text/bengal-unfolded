@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary internal investigation from the military perspective on rebellion, conspiracy, command failure, security, and administrative causes."
+  "whyItMatters": "Primary internal investigation from the military perspective on rebellion, conspiracy, command failure, security, and administrative causes.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

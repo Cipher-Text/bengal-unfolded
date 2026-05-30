@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "ডিজিটাল সিকিউরিটি অ্যাক্টের অস্পষ্ট অপরাধধারা, নজরদারি ক্ষমতা এবং সাংবাদিক ও অনলাইন মতপ্রকাশের ওপর ঝুঁকি নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের বিশ্লেষণ।"
+  "whyItMatters": "ডিজিটাল সিকিউরিটি অ্যাক্টের অস্পষ্ট অপরাধধারা, নজরদারি ক্ষমতা এবং সাংবাদিক ও অনলাইন মতপ্রকাশের ওপর ঝুঁকি নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের বিশ্লেষণ।",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2018-digital-security-act"
+  ],
+  "relatedTopicIds": []
 }

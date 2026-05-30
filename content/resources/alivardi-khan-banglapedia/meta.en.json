@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia entry on Alivardi Khan's accession and rule in Bengal."
+  "whyItMatters": "Banglapedia entry on Alivardi Khan's accession and rule in Bengal.",
+  "relatedEventIds": [
+    "1740-alivardi-khan-becomes-nawab"
+  ],
+  "relatedTopicIds": []
 }

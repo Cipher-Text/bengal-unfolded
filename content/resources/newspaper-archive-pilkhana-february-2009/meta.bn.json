@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "২৫ ফেব্রুয়ারি থেকে পরবর্তী দিনগুলোর breaking coverage, casualty confirmation, hostage situation, surrender ও state response যাচাইয়ের জন্য archive source."
+  "whyItMatters": "২৫ ফেব্রুয়ারি থেকে পরবর্তী দিনগুলোর breaking coverage, casualty confirmation, hostage situation, surrender ও state response যাচাইয়ের জন্য archive source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

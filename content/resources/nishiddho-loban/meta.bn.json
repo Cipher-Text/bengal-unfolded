@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুক্তিযুদ্ধভিত্তিক গুরুত্বপূর্ণ সাহিত্য; cultural memory ও wartime imagination বোঝার জন্য."
+  "whyItMatters": "মুক্তিযুদ্ধভিত্তিক গুরুত্বপূর্ণ সাহিত্য; cultural memory ও wartime imagination বোঝার জন্য.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

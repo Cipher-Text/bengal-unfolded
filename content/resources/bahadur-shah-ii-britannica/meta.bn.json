@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "শেষ মুঘল সম্রাট বাহাদুর শাহ দ্বিতীয়ের জীবন, দিল্লিতে তার প্রতীকী নেতৃত্ব এবং বিদ্রোহ-পরবর্তী নির্বাসন নিয়ে রেফারেন্স।"
+  "whyItMatters": "শেষ মুঘল সম্রাট বাহাদুর শাহ দ্বিতীয়ের জীবন, দিল্লিতে তার প্রতীকী নেতৃত্ব এবং বিদ্রোহ-পরবর্তী নির্বাসন নিয়ে রেফারেন্স।",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

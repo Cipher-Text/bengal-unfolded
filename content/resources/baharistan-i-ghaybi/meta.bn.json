@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "জাহাঙ্গীরের আমলে বাংলা, আসাম, ও পার্শ্ববর্তী অঞ্চলের ওপর মির্জা নাথনের প্রত্যক্ষদর্শী ক্রনিকল।"
+  "whyItMatters": "জাহাঙ্গীরের আমলে বাংলা, আসাম, ও পার্শ্ববর্তী অঞ্চলের ওপর মির্জা নাথনের প্রত্যক্ষদর্শী ক্রনিকল।",
+  "relatedEventIds": [
+    "1612-mughal-conquest-phase-in-bengal-largely-completed"
+  ],
+  "relatedTopicIds": []
 }

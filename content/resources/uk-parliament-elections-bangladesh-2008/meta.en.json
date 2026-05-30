@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Institutional report on the 2008 election, voter roll reform, political transition, and election credibility."
+  "whyItMatters": "Institutional report on the 2008 election, voter roll reform, political transition, and election credibility.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

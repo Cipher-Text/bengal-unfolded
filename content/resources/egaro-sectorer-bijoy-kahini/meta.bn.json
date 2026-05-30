@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "মুক্তিযুদ্ধের সেক্টরভিত্তিক সামরিক কাঠামো ও বিজয়ের ধারাবাহিকতা বোঝার জন্য সহায়ক."
+  "whyItMatters": "মুক্তিযুদ্ধের সেক্টরভিত্তিক সামরিক কাঠামো ও বিজয়ের ধারাবাহিকতা বোঝার জন্য সহায়ক.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Poetry from occupied Dhaka capturing fear, defiance, and resistance."
+  "whyItMatters": "Poetry from occupied Dhaka capturing fear, defiance, and resistance.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

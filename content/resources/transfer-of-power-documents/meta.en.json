@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Primary and archive-quality documents for British withdrawal, the Mountbatten Plan, Cabinet Mission, and the partition decision."
+  "whyItMatters": "Primary and archive-quality documents for British withdrawal, the Mountbatten Plan, Cabinet Mission, and the partition decision.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

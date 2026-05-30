@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica profile for Muhammad Iqbal and his role in modern Muslim intellectual and political thought."
+  "whyItMatters": "Britannica profile for Muhammad Iqbal and his role in modern Muslim intellectual and political thought.",
+  "relatedEventIds": [
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Best for the linkage between the cyclone, the 1970 election, and the political break that followed."
+  "whyItMatters": "Best for the linkage between the cyclone, the 1970 election, and the political break that followed.",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

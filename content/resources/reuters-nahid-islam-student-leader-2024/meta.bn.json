@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Nahid Islam, Students Against Discrimination leadership, movement evolution এবং Hasina resignation context বোঝার জন্য useful profile/archive."
+  "whyItMatters": "Nahid Islam, Students Against Discrimination leadership, movement evolution এবং Hasina resignation context বোঝার জন্য useful profile/archive.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

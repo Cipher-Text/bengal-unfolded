@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Core judicial source for the quota reinstatement issue, the High Court verdict, and the Supreme Court status quo/order."
+  "whyItMatters": "Core judicial source for the quota reinstatement issue, the High Court verdict, and the Supreme Court status quo/order.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

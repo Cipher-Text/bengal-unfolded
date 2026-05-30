@@ -8,5 +8,11 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "An important international account of post-independence Bangladesh, political killings, coups, and state instability."
+  "whyItMatters": "An important international account of post-independence Bangladesh, political killings, coups, and state instability.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1975-august-15-assassination-of-sheikh-mujib",
+    "1975-november-7-sepoy-janata-uprising"
+  ],
+  "relatedTopicIds": []
 }

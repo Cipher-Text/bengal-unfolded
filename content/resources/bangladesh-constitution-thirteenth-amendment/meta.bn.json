@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "নির্দলীয় তত্ত্বাবধায়ক সরকার ব্যবস্থার সাংবিধানিক ভিত্তি বোঝার জন্য core primary source; ২০০৬ সংকটের legal background."
+  "whyItMatters": "নির্দলীয় তত্ত্বাবধায়ক সরকার ব্যবস্থার সাংবিধানিক ভিত্তি বোঝার জন্য core primary source; ২০০৬ সংকটের legal background.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

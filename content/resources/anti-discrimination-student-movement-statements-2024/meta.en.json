@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary movement source for the movement’s self-description, quota reform demands, Bangla Blockade, March for Justice, and organisational leadership."
+  "whyItMatters": "Primary movement source for the movement’s self-description, quota reform demands, Bangla Blockade, March for Justice, and organisational leadership.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

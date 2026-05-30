@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Chronology-focused overview of Padua/Pyrdiwah and Boraibari clashes, including timeline and casualty reporting context."
+  "whyItMatters": "Chronology-focused overview of Padua/Pyrdiwah and Boraibari clashes, including timeline and casualty reporting context.",
+  "relatedEventIds": [
+    "2001-padua-pyrdiwah-boraibari-border-clash"
+  ],
+  "relatedTopicIds": []
 }

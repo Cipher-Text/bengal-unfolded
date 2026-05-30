@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "রাজশাহী ও উত্তরবঙ্গে বিদ্রোহের আঞ্চলিক মানচিত্র; স্থানীয় ভূগোল, কৃষক-সমর্থন, এবং বিদ্রোহী চলাচল বোঝার জন্য গুরুত্বপূর্ণ।"
+  "whyItMatters": "রাজশাহী ও উত্তরবঙ্গে বিদ্রোহের আঞ্চলিক মানচিত্র; স্থানীয় ভূগোল, কৃষক-সমর্থন, এবং বিদ্রোহী চলাচল বোঝার জন্য গুরুত্বপূর্ণ।",
+  "relatedEventIds": [
+    "1760-1800-fakir-sannyasi-resistance",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

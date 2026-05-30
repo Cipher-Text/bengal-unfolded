@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "Contemporary news archive on the interim health ministry’s casualty estimate and the death-toll debate."
+  "whyItMatters": "Contemporary news archive on the interim health ministry’s casualty estimate and the death-toll debate.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

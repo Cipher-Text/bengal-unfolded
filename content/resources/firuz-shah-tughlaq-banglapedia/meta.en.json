@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia reference for Firuz Shah Tughlaq's reign, including Bengal expeditions relevant to 1353-54 and 1359-60."
+  "whyItMatters": "Banglapedia reference for Firuz Shah Tughlaq's reign, including Bengal expeditions relevant to 1353-54 and 1359-60.",
+  "relatedEventIds": [
+    "1353-1359-ilyas-shah-delhi-sultanate-conflict"
+  ],
+  "relatedTopicIds": []
 }

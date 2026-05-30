@@ -9,5 +9,9 @@
   "href": "https://leap.unep.org/en/countries/bd/national-legislation/chittagong-hill-tracts-treaty-1997",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Legal repository metadata for the CHT treaty text."
+  "whyItMatters": "Legal repository metadata for the CHT treaty text.",
+  "relatedEventIds": [
+    "1997-chittagong-hill-tracts-peace-accord"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary institutional source on anti-corruption cases, arrests, and the drive against political elites."
+  "whyItMatters": "Primary institutional source on anti-corruption cases, arrests, and the drive against political elites.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

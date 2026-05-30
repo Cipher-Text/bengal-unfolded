@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "দেশভাগ-পরবর্তী দুই বাংলার পরিবার, migration, politics ও memory নিয়ে বড় আকারের উপন্যাস."
+  "whyItMatters": "দেশভাগ-পরবর্তী দুই বাংলার পরিবার, migration, politics ও memory নিয়ে বড় আকারের উপন্যাস.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

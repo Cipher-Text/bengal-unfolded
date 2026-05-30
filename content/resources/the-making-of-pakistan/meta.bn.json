@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "পাকিস্তান আন্দোলন, মুসলিম লীগ রাজনীতি এবং ১৯৪৭-এর রাষ্ট্রগঠন প্রেক্ষাপট বোঝার জন্য সহায়ক."
+  "whyItMatters": "পাকিস্তান আন্দোলন, মুসলিম লীগ রাজনীতি এবং ১৯৪৭-এর রাষ্ট্রগঠন প্রেক্ষাপট বোঝার জন্য সহায়ক.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

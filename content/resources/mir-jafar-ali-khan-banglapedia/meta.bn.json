@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "মীর জাফরের দরবারি-সামরিক ভূমিকা, পলাশীপূর্ব সমীকরণ এবং পলাশীর পর ক্ষমতায় অধিষ্ঠান বোঝার জন্য একটি গুরুত্বপূর্ণ রেফারেন্স।"
+  "whyItMatters": "মীর জাফরের দরবারি-সামরিক ভূমিকা, পলাশীপূর্ব সমীকরণ এবং পলাশীর পর ক্ষমতায় অধিষ্ঠান বোঝার জন্য একটি গুরুত্বপূর্ণ রেফারেন্স।",
+  "relatedEventIds": [
+    "1757-battle-of-plassey"
+  ],
+  "relatedTopicIds": []
 }

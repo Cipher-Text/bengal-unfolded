@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Entry on the banking house linked to Murshidabad court finance and the political economy surrounding Plassey."
+  "whyItMatters": "Entry on the banking house linked to Murshidabad court finance and the political economy surrounding Plassey.",
+  "relatedEventIds": [
+    "1757-battle-of-plassey"
+  ],
+  "relatedTopicIds": []
 }

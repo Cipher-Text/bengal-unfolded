@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A research monograph on Bengali Muslim intellectual growth and community formation under colonial rule."
+  "whyItMatters": "A research monograph on Bengali Muslim intellectual growth and community formation under colonial rule.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "গ্রামীণ প্রেক্ষাপটে আত্মত্যাগ, প্রতিরোধ ও নৈতিক সংকটের শক্তিশালী সাহিত্যিক উপস্থাপন।"
+  "whyItMatters": "গ্রামীণ প্রেক্ষাপটে আত্মত্যাগ, প্রতিরোধ ও নৈতিক সংকটের শক্তিশালী সাহিত্যিক উপস্থাপন।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

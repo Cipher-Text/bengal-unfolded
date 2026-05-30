@@ -10,5 +10,9 @@
   "href": "https://www.hrw.org/news/2007/01/25/bangladesh-stop-killings-security-forces",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Human-rights report on extrajudicial killings and arbitrary arrests during the 2007 emergency."
+  "whyItMatters": "Human-rights report on extrajudicial killings and arbitrary arrests during the 2007 emergency.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "এরশাদবিরোধী আন্দোলন ও গণতান্ত্রিক জোটে সংগঠিত বাম রাজনীতির ভূমিকা বোঝার জন্য উপযোগী।"
+  "whyItMatters": "এরশাদবিরোধী আন্দোলন ও গণতান্ত্রিক জোটে সংগঠিত বাম রাজনীতির ভূমিকা বোঝার জন্য উপযোগী।",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

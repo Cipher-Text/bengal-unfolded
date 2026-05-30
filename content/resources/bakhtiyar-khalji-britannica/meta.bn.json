@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "নদীয়া জয়ের সময়কাল ও বৃহত্তর ঐতিহাসিক প্রেক্ষাপট বোঝাতে ব্যবহৃত Britannica-র সংক্ষিপ্ত জীবনীমূলক রেফারেন্স।"
+  "whyItMatters": "নদীয়া জয়ের সময়কাল ও বৃহত্তর ঐতিহাসিক প্রেক্ষাপট বোঝাতে ব্যবহৃত Britannica-র সংক্ষিপ্ত জীবনীমূলক রেফারেন্স।",
+  "relatedEventIds": [
+    "1178-1204-sena-transition",
+    "1204-bakhtiyar-khalji-s-conquest-of-nadia"
+  ],
+  "relatedTopicIds": []
 }

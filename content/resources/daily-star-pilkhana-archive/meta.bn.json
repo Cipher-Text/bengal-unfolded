@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "ঘটনার তাৎক্ষণিক রিপোর্ট, সম্পাদকীয়, বিচার, নিহত পরিবার ও anniversary coverage বোঝার জন্য useful newspaper archive."
+  "whyItMatters": "ঘটনার তাৎক্ষণিক রিপোর্ট, সম্পাদকীয়, বিচার, নিহত পরিবার ও anniversary coverage বোঝার জন্য useful newspaper archive.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

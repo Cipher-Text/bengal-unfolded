@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "শাহ জালাল ও সিলেট বিজয় সম্পর্কে বাংলাপিডিয়া আলোচনা, যেখানে ঐতিহাসিক ও কিংবদন্তিমূলক ধারার পার্থক্যও উল্লেখ আছে।"
+  "whyItMatters": "শাহ জালাল ও সিলেট বিজয় সম্পর্কে বাংলাপিডিয়া আলোচনা, যেখানে ঐতিহাসিক ও কিংবদন্তিমূলক ধারার পার্থক্যও উল্লেখ আছে।",
+  "relatedEventIds": [
+    "1303-conquest-of-sylhet"
+  ],
+  "relatedTopicIds": []
 }

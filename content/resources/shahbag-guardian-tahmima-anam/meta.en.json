@@ -9,5 +9,9 @@
   "href": "https://www.theguardian.com/world/2013/feb/13/shahbag-protest-bangladesh-quader-mollah",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Influential editorial account on Shahbag’s moral framing, 1971 memory, and the justice demand for war crimes."
+  "whyItMatters": "Influential editorial account on Shahbag’s moral framing, 1971 memory, and the justice demand for war crimes.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

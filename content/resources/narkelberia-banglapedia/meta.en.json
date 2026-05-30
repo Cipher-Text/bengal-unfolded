@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia reference on Narkelberia and the bamboo fort episode connected to Titumir's uprising."
+  "whyItMatters": "Banglapedia reference on Narkelberia and the bamboo fort episode connected to Titumir's uprising.",
+  "relatedEventIds": [
+    "1831-titumir-s-bamboo-fort-uprising"
+  ],
+  "relatedTopicIds": []
 }

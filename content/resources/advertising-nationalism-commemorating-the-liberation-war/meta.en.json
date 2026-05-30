@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Strong for war commemoration, corporate nationalism, and public memory after liberation."
+  "whyItMatters": "Strong for war commemoration, corporate nationalism, and public memory after liberation.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

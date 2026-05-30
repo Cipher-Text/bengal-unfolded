@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "দুই বছরের military-backed caretaker government-এর পর ২০০৮ নির্বাচন, voter roll reform, political transition ও election credibility বোঝার জন্য useful institutional report."
+  "whyItMatters": "দুই বছরের military-backed caretaker government-এর পর ২০০৮ নির্বাচন, voter roll reform, political transition ও election credibility বোঝার জন্য useful institutional report.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A documentary explainer on the 1961 Barak language movement in Assam; useful for comparative Bengali-language struggles beyond East Pakistan."
+  "whyItMatters": "A documentary explainer on the 1961 Barak language movement in Assam; useful for comparative Bengali-language struggles beyond East Pakistan.",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A mega-documentary on the Bangladesh Liberation War, valuable as a broad visual archive of the year 1971."
+  "whyItMatters": "A mega-documentary on the Bangladesh Liberation War, valuable as a broad visual archive of the year 1971.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

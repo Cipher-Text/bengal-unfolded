@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৮৭৪ সালে বাংলার প্রশাসনিক পুনর্গঠনের অংশ হিসেবে আসাম আলাদা হওয়া এবং সিলেট-কাছাড় প্রসঙ্গ বোঝার রেফারেন্স।"
+  "whyItMatters": "১৮৭৪ সালে বাংলার প্রশাসনিক পুনর্গঠনের অংশ হিসেবে আসাম আলাদা হওয়া এবং সিলেট-কাছাড় প্রসঙ্গ বোঝার রেফারেন্স।",
+  "relatedEventIds": [
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Background on the Dhaka Nawab family and its political influence in the years around the 1905 partition."
+  "whyItMatters": "Background on the Dhaka Nawab family and its political influence in the years around the 1905 partition.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal"
+  ],
+  "relatedTopicIds": []
 }

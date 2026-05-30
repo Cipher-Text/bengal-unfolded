@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুক্তিযুদ্ধকে ঘিরে সাক্ষাৎকার ও মৌখিক ইতিহাসভিত্তিক সংকলন."
+  "whyItMatters": "মুক্তিযুদ্ধকে ঘিরে সাক্ষাৎকার ও মৌখিক ইতিহাসভিত্তিক সংকলন.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Powerful fiction of sacrifice, resistance, and moral crisis in a rural wartime setting."
+  "whyItMatters": "Powerful fiction of sacrifice, resistance, and moral crisis in a rural wartime setting.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

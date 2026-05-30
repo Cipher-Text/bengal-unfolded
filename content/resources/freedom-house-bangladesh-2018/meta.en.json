@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Background source on political rights, civil liberties, enforced disappearance, opposition pressure, and democratic backsliding."
+  "whyItMatters": "Background source on political rights, civil liberties, enforced disappearance, opposition pressure, and democratic backsliding.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

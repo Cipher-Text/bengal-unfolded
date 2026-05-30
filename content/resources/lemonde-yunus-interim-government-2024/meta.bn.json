@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "President, army, student representatives এবং Muhammad Yunus-led interim government formation বোঝার জন্য transition source."
+  "whyItMatters": "President, army, student representatives এবং Muhammad Yunus-led interim government formation বোঝার জন্য transition source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

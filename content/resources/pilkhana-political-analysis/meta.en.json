@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Secondary analysis of the political interpretation, security failure, civil-military relations, and conspiracy debate around the event."
+  "whyItMatters": "Secondary analysis of the political interpretation, security failure, civil-military relations, and conspiracy debate around the event.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

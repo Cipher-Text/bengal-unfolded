@@ -8,5 +8,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A key source for understanding the December 1971 intellectual killings, planning, and memory."
+  "whyItMatters": "A key source for understanding the December 1971 intellectual killings, planning, and memory.",
+  "relatedEventIds": [
+    "1971-december-14-intellectual-killings",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

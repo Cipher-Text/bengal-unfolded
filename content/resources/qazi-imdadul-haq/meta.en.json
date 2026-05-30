@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia profile for the Bengali writer whose novel Abdullah is a milestone in Bengali Muslim social reform and literary modernity."
+  "whyItMatters": "Banglapedia profile for the Bengali writer whose novel Abdullah is a milestone in Bengali Muslim social reform and literary modernity.",
+  "relatedEventIds": [
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

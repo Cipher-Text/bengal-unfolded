@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "মুক্তিযুদ্ধের স্মরণচর্চা, করপোরেট জাতীয়তাবাদ, এবং স্বাধীনতার পর জনস্মৃতি বোঝার জন্য শক্তিশালী।"
+  "whyItMatters": "মুক্তিযুদ্ধের স্মরণচর্চা, করপোরেট জাতীয়তাবাদ, এবং স্বাধীনতার পর জনস্মৃতি বোঝার জন্য শক্তিশালী।",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

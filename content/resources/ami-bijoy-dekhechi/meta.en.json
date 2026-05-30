@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "M. R. Akhtar Mukul's memoir of the 1971 liberation war and broadcasting experience."
+  "whyItMatters": "M. R. Akhtar Mukul's memoir of the 1971 liberation war and broadcasting experience.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

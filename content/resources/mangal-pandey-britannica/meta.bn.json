@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "ব্যারাকপুরের সিপাহী মঙ্গল পান্ডের জীবন ও ১৮৫৭ বিদ্রোহের সূচনাপর্বে তার ভূমিকা নিয়ে প্রামাণ্য জীবনীমূলক নিবন্ধ।"
+  "whyItMatters": "ব্যারাকপুরের সিপাহী মঙ্গল পান্ডের জীবন ও ১৮৫৭ বিদ্রোহের সূচনাপর্বে তার ভূমিকা নিয়ে প্রামাণ্য জীবনীমূলক নিবন্ধ।",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

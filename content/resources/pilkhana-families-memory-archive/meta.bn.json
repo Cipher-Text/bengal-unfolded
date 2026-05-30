@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "নিহত সেনা কর্মকর্তা ও পরিবারের স্মৃতি, শোক, ন্যায়বিচার দাবি ও public memory বোঝার জন্য sensitive memory source."
+  "whyItMatters": "নিহত সেনা কর্মকর্তা ও পরিবারের স্মৃতি, শোক, ন্যায়বিচার দাবি ও public memory বোঝার জন্য sensitive memory source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

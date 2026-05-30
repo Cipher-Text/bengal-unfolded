@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৪৩ সালের বাংলার দুর্ভিক্ষে কলকাতার হতদরিদ্র মানুষের পরিস্থিতি নিয়ে তরকচন্দ্র দাসের জরিপভিত্তিক গবেষণা।"
+  "whyItMatters": "১৯৪৩ সালের বাংলার দুর্ভিক্ষে কলকাতার হতদরিদ্র মানুষের পরিস্থিতি নিয়ে তরকচন্দ্র দাসের জরিপভিত্তিক গবেষণা।",
+  "relatedEventIds": [
+    "1942-quit-india-and-bengal-war-governance",
+    "1943-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

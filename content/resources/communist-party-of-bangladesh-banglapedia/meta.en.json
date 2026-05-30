@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Shows the organized left's role in the anti-Ershad movement and the democratic coalition."
+  "whyItMatters": "Shows the organized left's role in the anti-Ershad movement and the democratic coalition.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

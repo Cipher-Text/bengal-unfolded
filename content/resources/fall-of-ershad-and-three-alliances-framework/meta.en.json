@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Contemporary editorial-analysis on the three alliances framework, post-1990 democratic promises, and later reflections on the transition."
+  "whyItMatters": "Contemporary editorial-analysis on the three alliances framework, post-1990 democratic promises, and later reflections on the transition.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

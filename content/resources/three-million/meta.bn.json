@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৪৩ সালের বাংলার দুর্ভিক্ষ, বেঁচে থাকা মানুষের সাক্ষ্য, এবং জনস্মৃতি নিয়ে একটি অডিও ডকুমেন্টারি/পডকাস্ট।"
+  "whyItMatters": "১৯৪৩ সালের বাংলার দুর্ভিক্ষ, বেঁচে থাকা মানুষের সাক্ষ্য, এবং জনস্মৃতি নিয়ে একটি অডিও ডকুমেন্টারি/পডকাস্ট।",
+  "relatedEventIds": [
+    "1943-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

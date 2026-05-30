@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৭১ থেকে ১৯৭৫-এর আগস্ট ও নভেম্বরের রাজনৈতিক ধারাবাহিকতা বোঝার জন্য দরকারি."
+  "whyItMatters": "১৯৭১ থেকে ১৯৭৫-এর আগস্ট ও নভেম্বরের রাজনৈতিক ধারাবাহিকতা বোঝার জন্য দরকারি.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

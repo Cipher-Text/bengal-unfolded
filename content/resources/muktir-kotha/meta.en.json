@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Oral-history documentary built from village screenings of Muktir Gaan and the memories they elicited."
+  "whyItMatters": "Oral-history documentary built from village screenings of Muktir Gaan and the memories they elicited.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

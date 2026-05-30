@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "দুর্যোগ, জাতীয়তাবাদী সংগঠন, এবং রাষ্ট্রীয় বৈধতার সম্পর্ক বোঝার জন্য উপযোগী।"
+  "whyItMatters": "দুর্যোগ, জাতীয়তাবাদী সংগঠন, এবং রাষ্ট্রীয় বৈধতার সম্পর্ক বোঝার জন্য উপযোগী।",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for understanding the Liberation War's sector-based military structure and the sequence of victories."
+  "whyItMatters": "Useful for understanding the Liberation War's sector-based military structure and the sequence of victories.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

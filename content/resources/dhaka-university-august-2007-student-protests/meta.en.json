@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Archive resource on student-front protests, military presence, curfew, and arrests at Dhaka University during the emergency."
+  "whyItMatters": "Archive resource on student-front protests, military presence, curfew, and arrests at Dhaka University during the emergency.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for the relationship between disaster, nationalist mobilization, and state legitimacy."
+  "whyItMatters": "Useful for the relationship between disaster, nationalist mobilization, and state legitimacy.",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Contextual source on the counter-reaction to Shahbag, anti-atheist blogger debate, the 13-point demand, and the May 2013 mobilisation."
+  "whyItMatters": "Contextual source on the counter-reaction to Shahbag, anti-atheist blogger debate, the 13-point demand, and the May 2013 mobilisation.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

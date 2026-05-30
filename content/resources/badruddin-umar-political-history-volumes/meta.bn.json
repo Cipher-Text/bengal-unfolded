@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "href": "https://en.wikipedia.org/wiki/Badruddin_Umar"
+  "href": "https://en.wikipedia.org/wiki/Badruddin_Umar",
+  "relatedTopicIds": [
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ],
+  "relatedEventIds": []
 }

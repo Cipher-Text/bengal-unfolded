@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "এরশাদবিরোধী আন্দোলন ও ১৯৯০ সালের জোট রাজনীতিতে শেখ হাসিনার ভূমিকা বোঝার জন্য একটি প্রাসঙ্গিক রেফারেন্স।"
+  "whyItMatters": "এরশাদবিরোধী আন্দোলন ও ১৯৯০ সালের জোট রাজনীতিতে শেখ হাসিনার ভূমিকা বোঝার জন্য একটি প্রাসঙ্গিক রেফারেন্স।",
+  "relatedEventIds": [
+    "1990-mass-uprising",
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "relatedTopicIds": []
 }

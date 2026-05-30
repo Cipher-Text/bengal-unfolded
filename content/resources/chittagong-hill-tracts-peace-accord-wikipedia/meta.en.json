@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia overview of the 2 December 1997 accord between the Government of Bangladesh and PCJSS that formally ended the insurgency phase."
+  "whyItMatters": "Banglapedia overview of the 2 December 1997 accord between the Government of Bangladesh and PCJSS that formally ended the insurgency phase.",
+  "relatedEventIds": [
+    "1976-1997-shanti-bahini-insurgency"
+  ],
+  "relatedTopicIds": []
 }

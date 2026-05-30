@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "শাহবাগ-পরবর্তী ব্লগার রাজীব হায়দার হত্যাকাণ্ড, secular blogger debate ও আন্দোলনের নতুন polarisation বোঝার জন্য sensitive archive source."
+  "whyItMatters": "শাহবাগ-পরবর্তী ব্লগার রাজীব হায়দার হত্যাকাণ্ড, secular blogger debate ও আন্দোলনের নতুন polarisation বোঝার জন্য sensitive archive source.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

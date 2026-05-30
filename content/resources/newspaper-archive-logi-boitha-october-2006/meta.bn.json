@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "২৮ অক্টোবর ২০০৬ রাজনৈতিক সংঘর্ষ, তত্ত্বাবধায়ক সরকার গঠন সংকট ও street violence trace করার জন্য archive source."
+  "whyItMatters": "২৮ অক্টোবর ২০০৬ রাজনৈতিক সংঘর্ষ, তত্ত্বাবধায়ক সরকার গঠন সংকট ও street violence trace করার জন্য archive source.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

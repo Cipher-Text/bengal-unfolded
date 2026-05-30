@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful institutional source for understanding the 2007–2008 voter list reform, photo ID, and electoral modernization."
+  "whyItMatters": "Useful institutional source for understanding the 2007–2008 voter list reform, photo ID, and electoral modernization.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

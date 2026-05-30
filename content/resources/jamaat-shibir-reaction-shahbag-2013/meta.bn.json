@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "ICT verdict, জামায়াত-শিবিরের প্রতিক্রিয়া, দেশব্যাপী সংঘর্ষ ও political polarisation বোঝার জন্য critical contextual source."
+  "whyItMatters": "ICT verdict, জামায়াত-শিবিরের প্রতিক্রিয়া, দেশব্যাপী সংঘর্ষ ও political polarisation বোঝার জন্য critical contextual source.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

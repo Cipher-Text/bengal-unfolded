@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Profile of the last Mughal emperor and his symbolic role in Delhi during the rebellion."
+  "whyItMatters": "Profile of the last Mughal emperor and his symbolic role in Delhi during the rebellion.",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

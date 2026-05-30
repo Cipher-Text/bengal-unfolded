@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "স্বাধীনতা-পরবর্তী বাংলাদেশি রাজনীতির প্রতিষ্ঠানগত সংকট, সামরিক শাসন ও গণতান্ত্রিক রূপান্তর বোঝার জন্য গুরুত্বপূর্ণ political science reading."
+  "whyItMatters": "স্বাধীনতা-পরবর্তী বাংলাদেশি রাজনীতির প্রতিষ্ঠানগত সংকট, সামরিক শাসন ও গণতান্ত্রিক রূপান্তর বোঝার জন্য গুরুত্বপূর্ণ political science reading.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia profile used for chronology of Shamsuddin Ilyas Shah's consolidation and conflict with Delhi."
+  "whyItMatters": "Banglapedia profile used for chronology of Shamsuddin Ilyas Shah's consolidation and conflict with Delhi.",
+  "relatedEventIds": [
+    "1353-1359-ilyas-shah-delhi-sultanate-conflict"
+  ],
+  "relatedTopicIds": []
 }

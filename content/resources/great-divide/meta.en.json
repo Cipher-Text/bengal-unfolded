@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A broad political history of British withdrawal, partition diplomacy, and the creation of India and Pakistan."
+  "whyItMatters": "A broad political history of British withdrawal, partition diplomacy, and the creation of India and Pakistan.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

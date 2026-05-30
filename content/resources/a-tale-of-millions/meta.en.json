@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A memoir-style account of the Liberation War from the perspective of a freedom fighter and military officer."
+  "whyItMatters": "A memoir-style account of the Liberation War from the perspective of a freedom fighter and military officer.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

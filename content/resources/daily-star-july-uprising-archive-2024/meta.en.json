@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "English-language Bangladesh archive for protest timeline, casualties, arrests, political transition, and accountability debate."
+  "whyItMatters": "English-language Bangladesh archive for protest timeline, casualties, arrests, political transition, and accountability debate.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

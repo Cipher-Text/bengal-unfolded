@@ -10,5 +10,9 @@
   "href": "https://www.hrw.org/report/2013/08/01/blood-streets/use-excessive-force-during-bangladesh-protests",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Rights-focused source on security-force response during the 2013 protests around the ICT verdict and subsequent mobilisations."
+  "whyItMatters": "Rights-focused source on security-force response during the 2013 protests around the ICT verdict and subsequent mobilisations.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

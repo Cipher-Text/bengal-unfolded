@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A documentary on the massacre of Bengali intellectuals in December 1971 and the memory of the intellectual killings."
+  "whyItMatters": "A documentary on the massacre of Bengali intellectuals in December 1971 and the memory of the intellectual killings.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

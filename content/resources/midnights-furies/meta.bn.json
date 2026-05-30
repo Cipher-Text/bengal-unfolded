@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "দেশভাগকে ঘিরে রাজনৈতিক ভাঙন, সাম্প্রদায়িক সহিংসতার বিস্তার এবং মানবিক বিপর্যয়ের একটি বর্ণনামূলক ইতিহাস।"
+  "whyItMatters": "দেশভাগকে ঘিরে রাজনৈতিক ভাঙন, সাম্প্রদায়িক সহিংসতার বিস্তার এবং মানবিক বিপর্যয়ের একটি বর্ণনামূলক ইতিহাস।",
+  "relatedEventIds": [
+    "1943-bengal-famine",
+    "1946-noakhali-riots",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

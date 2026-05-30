@@ -10,5 +10,9 @@
   "href": "https://www.britannica.com/question/What-was-Operation-Searchlight",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica explainer on Operation Searchlight and its role in 1971."
+  "whyItMatters": "Britannica explainer on Operation Searchlight and its role in 1971.",
+  "relatedEventIds": [
+    "1971-operation-searchlight-crackdown"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia-style historical reference on Maratha incursions in Bengal during Alivardi's reign."
+  "whyItMatters": "Banglapedia-style historical reference on Maratha incursions in Bengal during Alivardi's reign.",
+  "relatedEventIds": [
+    "1741-1751-maratha-raids-bengal"
+  ],
+  "relatedTopicIds": []
 }

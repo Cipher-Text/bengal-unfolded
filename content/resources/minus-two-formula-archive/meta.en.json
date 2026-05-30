@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Archive-based critical reading on the alleged plan to remove Sheikh Hasina and Khaleda Zia from politics."
+  "whyItMatters": "Archive-based critical reading on the alleged plan to remove Sheikh Hasina and Khaleda Zia from politics.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

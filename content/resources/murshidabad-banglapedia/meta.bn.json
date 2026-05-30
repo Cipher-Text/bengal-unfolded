@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুর্শিদাবাদ কীভাবে বাংলার রাজনৈতিক-অর্থনৈতিক কেন্দ্রে পরিণত হয় এবং নবাবি আমলে শহরটির বিকাশ সম্পর্কে Banglapedia-র প্রামাণ্য সারসংক্ষেপ।"
+  "whyItMatters": "মুর্শিদাবাদ কীভাবে বাংলার রাজনৈতিক-অর্থনৈতিক কেন্দ্রে পরিণত হয় এবং নবাবি আমলে শহরটির বিকাশ সম্পর্কে Banglapedia-র প্রামাণ্য সারসংক্ষেপ।",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad"
+  ],
+  "relatedTopicIds": []
 }

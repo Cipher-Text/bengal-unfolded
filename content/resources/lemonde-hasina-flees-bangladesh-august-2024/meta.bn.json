@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "৫ আগস্ট ২০২৪ শেখ হাসিনার পদত্যাগ/দেশত্যাগ, army announcement এবং interim government transition বোঝার জন্য international archive source."
+  "whyItMatters": "৫ আগস্ট ২০২৪ শেখ হাসিনার পদত্যাগ/দেশত্যাগ, army announcement এবং interim government transition বোঝার জন্য international archive source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

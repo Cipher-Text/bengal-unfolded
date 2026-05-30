@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Reference entry covering Assam's 1874 administrative separation from Bengal and related Sylhet/Cachar implications."
+  "whyItMatters": "Reference entry covering Assam's 1874 administrative separation from Bengal and related Sylhet/Cachar implications.",
+  "relatedEventIds": [
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,12 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful background on the 1970 constitutional framework, seat distribution, and election outcome in Pakistan's two wings."
+  "whyItMatters": "Useful background on the 1970 constitutional framework, seat distribution, and election outcome in Pakistan's two wings.",
+  "relatedEventIds": [
+    "1956-pakistan-constitution-east-pakistan-representation",
+    "1964-communal-riots-east-pakistan",
+    "1965-indo-pak-war-east-pakistan-insecurity",
+    "1970-bhola-cyclone-and-the-1970-election"
+  ],
+  "relatedTopicIds": []
 }

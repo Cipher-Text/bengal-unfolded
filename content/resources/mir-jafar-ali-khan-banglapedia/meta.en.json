@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Reference entry on Mir Jafar's role in court-military realignment and his installation after Plassey."
+  "whyItMatters": "Reference entry on Mir Jafar's role in court-military realignment and his installation after Plassey.",
+  "relatedEventIds": [
+    "1757-battle-of-plassey"
+  ],
+  "relatedTopicIds": []
 }

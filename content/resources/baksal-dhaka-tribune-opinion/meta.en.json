@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Editorial discussion from Dhaka Tribune on Baksal and how it appears in contemporary Bangladeshi public debate. Use with care for factual claims."
+  "whyItMatters": "Editorial discussion from Dhaka Tribune on Baksal and how it appears in contemporary Bangladeshi public debate. Use with care for factual claims.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

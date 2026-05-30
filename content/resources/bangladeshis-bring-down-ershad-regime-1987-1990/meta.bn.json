@@ -9,5 +9,9 @@
   "href": "https://nvdatabase.swarthmore.edu/content/bangladeshis-bring-down-ershad-regime-1987-1990",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "এরশাদবিরোধী আন্দোলনের লক্ষ্য, কৌশল, সময়রেখা ও গণআন্দোলনের nonviolent action perspective বোঝার জন্য archive-style reference."
+  "whyItMatters": "এরশাদবিরোধী আন্দোলনের লক্ষ্য, কৌশল, সময়রেখা ও গণআন্দোলনের nonviolent action perspective বোঝার জন্য archive-style reference.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

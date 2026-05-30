@@ -8,5 +8,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৭১ সালের ডিসেম্বরের বুদ্ধিজীবী হত্যাকাণ্ড, পরিকল্পনা ও স্মৃতি বোঝার জন্য গুরুত্বপূর্ণ."
+  "whyItMatters": "১৯৭১ সালের ডিসেম্বরের বুদ্ধিজীবী হত্যাকাণ্ড, পরিকল্পনা ও স্মৃতি বোঝার জন্য গুরুত্বপূর্ণ.",
+  "relatedEventIds": [
+    "1971-december-14-intellectual-killings",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

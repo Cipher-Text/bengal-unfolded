@@ -8,5 +8,10 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "৭ নভেম্বর ১৯৭৫ ও পরবর্তী সামরিক-রাজনৈতিক ঘটনাপ্রবাহ বোঝার জন্য স্মৃতিকথাভিত্তিক source."
+  "whyItMatters": "৭ নভেম্বর ১৯৭৫ ও পরবর্তী সামরিক-রাজনৈতিক ঘটনাপ্রবাহ বোঝার জন্য স্মৃতিকথাভিত্তিক source.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1975-november-7-sepoy-janata-uprising"
+  ],
+  "relatedTopicIds": []
 }

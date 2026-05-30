@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুর্শিদাবাদে রাজধানী স্থানান্তর ও শহরটির ঐতিহাসিক গুরুত্ব নিয়ে Britannica-র সংক্ষিপ্ত রেফারেন্স।"
+  "whyItMatters": "মুর্শিদাবাদে রাজধানী স্থানান্তর ও শহরটির ঐতিহাসিক গুরুত্ব নিয়ে Britannica-র সংক্ষিপ্ত রেফারেন্স।",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad"
+  ],
+  "relatedTopicIds": []
 }

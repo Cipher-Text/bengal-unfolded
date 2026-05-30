@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০১৩ সালের ৫ ফেব্রুয়ারি কাদের মোল্লার রায়; শাহবাগ আন্দোলনের immediate trigger বোঝার জন্য core primary judicial source."
+  "whyItMatters": "২০১৩ সালের ৫ ফেব্রুয়ারি কাদের মোল্লার রায়; শাহবাগ আন্দোলনের immediate trigger বোঝার জন্য core primary judicial source.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

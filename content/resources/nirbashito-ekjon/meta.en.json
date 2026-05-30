@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A useful Bengali partition-literature source for understanding displacement and exile memory."
+  "whyItMatters": "A useful Bengali partition-literature source for understanding displacement and exile memory.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

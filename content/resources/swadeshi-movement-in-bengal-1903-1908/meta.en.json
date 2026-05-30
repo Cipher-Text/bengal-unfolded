@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A classic study of the Swadeshi movement, anti-partition politics, nationalist mobilisation, and political culture in Bengal."
+  "whyItMatters": "A classic study of the Swadeshi movement, anti-partition politics, nationalist mobilisation, and political culture in Bengal.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal"
+  ],
+  "relatedTopicIds": []
 }

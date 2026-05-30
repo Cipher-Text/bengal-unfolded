@@ -9,5 +9,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Recent news source on the 2024 reinvestigation debate and the mutiny’s place in contemporary political memory."
+  "whyItMatters": "Recent news source on the 2024 reinvestigation debate and the mutiny’s place in contemporary political memory.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "ভাষা আন্দোলন, বৈষম্য, ছয় দফা, গণঅভ্যুত্থান ও ১৯৭০ নির্বাচনের ধারাবাহিকতায় যুদ্ধের কারণ ব্যাখ্যা করে."
+  "whyItMatters": "ভাষা আন্দোলন, বৈষম্য, ছয় দফা, গণঅভ্যুত্থান ও ১৯৭০ নির্বাচনের ধারাবাহিকতায় যুদ্ধের কারণ ব্যাখ্যা করে.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

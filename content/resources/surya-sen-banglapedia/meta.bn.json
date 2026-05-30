@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "সূর্য সেনের জীবন, চট্টগ্রাম অস্ত্রাগার লুণ্ঠন, এবং সংশ্লিষ্ট বিপ্লবী নেটওয়ার্ক সম্পর্কে বাংলাপিডিয়া রেফারেন্স।"
+  "whyItMatters": "সূর্য সেনের জীবন, চট্টগ্রাম অস্ত্রাগার লুণ্ঠন, এবং সংশ্লিষ্ট বিপ্লবী নেটওয়ার্ক সম্পর্কে বাংলাপিডিয়া রেফারেন্স।",
+  "relatedEventIds": [
+    "1930-chittagong-armoury-raid"
+  ],
+  "relatedTopicIds": []
 }

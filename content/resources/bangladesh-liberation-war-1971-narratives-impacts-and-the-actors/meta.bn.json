@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "প্রতিদ্বন্দ্বী বর্ণনা, প্রভাব, এবং ১৯৭১-এর রাজনৈতিক স্মৃতি বোঝার জন্য উপযোগী।"
+  "whyItMatters": "প্রতিদ্বন্দ্বী বর্ণনা, প্রভাব, এবং ১৯৭১-এর রাজনৈতিক স্মৃতি বোঝার জন্য উপযোগী।",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "relatedTopicIds": []
 }

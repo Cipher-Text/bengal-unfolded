@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Best for comparative famine history and the wartime political economy of Bengal."
+  "whyItMatters": "Best for comparative famine history and the wartime political economy of Bengal.",
+  "relatedEventIds": [
+    "1943-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

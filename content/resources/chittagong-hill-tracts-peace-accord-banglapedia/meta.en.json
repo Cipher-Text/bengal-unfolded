@@ -10,5 +10,9 @@
   "href": "https://en.banglapedia.org/index.php/Chittagong_Hill_Tracts_Peace_Accord%2C_1997",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Reference overview of the accord and signatory framework."
+  "whyItMatters": "Reference overview of the accord and signatory framework.",
+  "relatedEventIds": [
+    "1997-chittagong-hill-tracts-peace-accord"
+  ],
+  "relatedTopicIds": []
 }

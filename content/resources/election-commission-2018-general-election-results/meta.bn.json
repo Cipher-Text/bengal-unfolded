@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "৩০ ডিসেম্বর ২০১৮ একাদশ জাতীয় সংসদ নির্বাচনের official result, turnout, constituency-level data ও institutional record বোঝার জন্য primary source."
+  "whyItMatters": "৩০ ডিসেম্বর ২০১৮ একাদশ জাতীয় সংসদ নির্বাচনের official result, turnout, constituency-level data ও institutional record বোঝার জন্য primary source.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

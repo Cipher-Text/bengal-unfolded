@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Core chronology for Bangladesh politics. Useful for verifying the 1982–1991 movement sequence, Ershad rule, the three alliances, and the mass uprising."
+  "whyItMatters": "Core chronology for Bangladesh politics. Useful for verifying the 1982–1991 movement sequence, Ershad rule, the three alliances, and the mass uprising.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

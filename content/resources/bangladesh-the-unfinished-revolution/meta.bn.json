@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "স্বাধীনতা, সংকট এবং রাজনৈতিক প্রকল্পের অসমাপ্ত স্বভাব বোঝার জন্য গুরুত্বপূর্ণ."
+  "whyItMatters": "স্বাধীনতা, সংকট এবং রাজনৈতিক প্রকল্পের অসমাপ্ত স্বভাব বোঝার জন্য গুরুত্বপূর্ণ.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

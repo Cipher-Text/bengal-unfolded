@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "আবুল হাশিমের স্মৃতিকথা বঙ্গীয় মুসলিম লীগের রাজনীতি, পাকিস্তান আন্দোলন, এবং দেশভাগ বিতর্ক বুঝতে কাজে লাগে।"
+  "whyItMatters": "আবুল হাশিমের স্মৃতিকথা বঙ্গীয় মুসলিম লীগের রাজনীতি, পাকিস্তান আন্দোলন, এবং দেশভাগ বিতর্ক বুঝতে কাজে লাগে।",
+  "relatedEventIds": [
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

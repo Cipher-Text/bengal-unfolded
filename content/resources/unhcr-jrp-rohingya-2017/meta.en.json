@@ -9,5 +9,9 @@
   "href": "https://data.unhcr.org/en/documents/details/111242",
   "sourceQuality": "archive",
   "evidenceLevel": "high",
-  "whyItMatters": "Operational planning document for the Rohingya humanitarian response in Bangladesh."
+  "whyItMatters": "Operational planning document for the Rohingya humanitarian response in Bangladesh.",
+  "relatedEventIds": [
+    "2017-rohingya-mass-influx-into-bangladesh"
+  ],
+  "relatedTopicIds": []
 }

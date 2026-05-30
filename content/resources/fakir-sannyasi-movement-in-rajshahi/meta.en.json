@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Regional mapping of the rebellion in Rajshahi and North Bengal; strong for local geography, peasant support, and rebel routes."
+  "whyItMatters": "Regional mapping of the rebellion in Rajshahi and North Bengal; strong for local geography, peasant support, and rebel routes.",
+  "relatedEventIds": [
+    "1760-1800-fakir-sannyasi-resistance",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

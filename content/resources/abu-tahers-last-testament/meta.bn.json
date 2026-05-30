@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "৭ নভেম্বর ১৯৭৫, কর্নেল তাহেরের বিচার এবং বাকশাল-পরবর্তী সামরিক-রাজনৈতিক পুনর্গঠন বোঝার জন্য প্রাসঙ্গিক source."
+  "whyItMatters": "৭ নভেম্বর ১৯৭৫, কর্নেল তাহেরের বিচার এবং বাকশাল-পরবর্তী সামরিক-রাজনৈতিক পুনর্গঠন বোঝার জন্য প্রাসঙ্গিক source.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

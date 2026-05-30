@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "একটি প্রারম্ভিক পর্যালোচনা; ব্যাকগ্রাউন্ড সারাংশ হিসেবে উপকারী, তবে মূল উৎস হিসেবে ব্যবহার করার আগে যাচাই করা উচিত।"
+  "whyItMatters": "একটি প্রারম্ভিক পর্যালোচনা; ব্যাকগ্রাউন্ড সারাংশ হিসেবে উপকারী, তবে মূল উৎস হিসেবে ব্যবহার করার আগে যাচাই করা উচিত।",
+  "relatedEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Background on why Murshidabad rose as the political and financial center of Bengal and how the city developed under the nawabs."
+  "whyItMatters": "Background on why Murshidabad rose as the political and financial center of Bengal and how the city developed under the nawabs.",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad"
+  ],
+  "relatedTopicIds": []
 }

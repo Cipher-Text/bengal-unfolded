@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Reference overview of the 1414-1436 House of Ganesha interregnum in the Bengal Sultanate and related succession context."
+  "whyItMatters": "Reference overview of the 1414-1436 House of Ganesha interregnum in the Bengal Sultanate and related succession context.",
+  "relatedEventIds": [
+    "1414-raja-ganesha-seizes-power-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

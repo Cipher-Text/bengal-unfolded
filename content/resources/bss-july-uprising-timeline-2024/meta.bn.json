@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Bangla Blockade, key dates, movement escalation, one-point demand এবং July uprising timeline-এর state news agency summary; cross-check দরকার."
+  "whyItMatters": "Bangla Blockade, key dates, movement escalation, one-point demand এবং July uprising timeline-এর state news agency summary; cross-check দরকার.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

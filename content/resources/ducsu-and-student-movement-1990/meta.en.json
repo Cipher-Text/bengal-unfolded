@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Contextual archive on DUCSU, the student front, and the role of students in the mass uprising."
+  "whyItMatters": "Contextual archive on DUCSU, the student front, and the role of students in the mass uprising.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

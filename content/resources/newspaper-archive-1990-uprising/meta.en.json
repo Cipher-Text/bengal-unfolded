@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Archive resource for verifying hartals, processions, emergency coverage, resignation, and transition reporting from October to December 1990."
+  "whyItMatters": "Archive resource for verifying hartals, processions, emergency coverage, resignation, and transition reporting from October to December 1990.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

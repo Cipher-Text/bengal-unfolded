@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "যুদ্ধকালে চট্টগ্রামের সামরিক ও রাজনৈতিক প্রেক্ষাপট বোঝার জন্য supplementary source."
+  "whyItMatters": "যুদ্ধকালে চট্টগ্রামের সামরিক ও রাজনৈতিক প্রেক্ষাপট বোঝার জন্য supplementary source.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

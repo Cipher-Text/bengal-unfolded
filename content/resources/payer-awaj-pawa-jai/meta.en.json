@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Verse play set in the final days of the war, exploring collaborator psychology and collapse."
+  "whyItMatters": "Verse play set in the final days of the war, exploring collaborator psychology and collapse.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

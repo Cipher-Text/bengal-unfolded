@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "১/১১ জরুরি অবস্থা ঘোষণার primary legal basis; civil liberties suspension ও political activity restriction বোঝার জন্য essential document."
+  "whyItMatters": "১/১১ জরুরি অবস্থা ঘোষণার primary legal basis; civil liberties suspension ও political activity restriction বোঝার জন্য essential document.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

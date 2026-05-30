@@ -12,5 +12,8 @@
   "whyItMatters": "A Bangla-language resource centered on the background and history of the language movement.",
   "relatedTopicIds": [
     "language-movement-and-mother-language-day"
+  ],
+  "relatedEventIds": [
+    "1952-language-movement"
   ]
 }

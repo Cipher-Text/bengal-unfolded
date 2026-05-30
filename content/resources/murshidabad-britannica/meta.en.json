@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica summary noting the early eighteenth-century transfer of Bengal's capital from Dhaka to Murshidabad."
+  "whyItMatters": "Britannica summary noting the early eighteenth-century transfer of Bengal's capital from Dhaka to Murshidabad.",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad"
+  ],
+  "relatedTopicIds": []
 }

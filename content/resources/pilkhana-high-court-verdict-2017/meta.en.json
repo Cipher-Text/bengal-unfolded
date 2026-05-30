@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary appellate source on the High Court decision after the 2013 verdict and death references."
+  "whyItMatters": "Primary appellate source on the High Court decision after the 2013 verdict and death references.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

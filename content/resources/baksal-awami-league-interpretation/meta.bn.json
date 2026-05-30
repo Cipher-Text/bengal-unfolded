@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "আওয়ামী লীগের দৃষ্টিভঙ্গি অনুযায়ী বাকশালকে জাতীয় ঐক্য, প্রশাসনিক বিকেন্দ্রীকরণ ও দ্বিতীয় বিপ্লব হিসেবে উপস্থাপন করা হয়েছে। সমতুল্য critical reading-এর সঙ্গে পড়া উচিত."
+  "whyItMatters": "আওয়ামী লীগের দৃষ্টিভঙ্গি অনুযায়ী বাকশালকে জাতীয় ঐক্য, প্রশাসনিক বিকেন্দ্রীকরণ ও দ্বিতীয় বিপ্লব হিসেবে উপস্থাপন করা হয়েছে। সমতুল্য critical reading-এর সঙ্গে পড়া উচিত.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

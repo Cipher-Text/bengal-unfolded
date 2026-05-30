@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলায় ফরায়েজি আন্দোলনের সময়রেখা, নেতৃত্ব ও বিস্তার নিয়ে বাংলাপিডিয়া সারসংক্ষেপ।"
+  "whyItMatters": "বাংলায় ফরায়েজি আন্দোলনের সময়রেখা, নেতৃত্ব ও বিস্তার নিয়ে বাংলাপিডিয়া সারসংক্ষেপ।",
+  "relatedEventIds": [
+    "1818-faraizi-movement-begins-in-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

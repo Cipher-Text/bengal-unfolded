@@ -10,5 +10,9 @@
   "href": "https://www.hrw.org/news/2018/09/25/bangladesh-new-law-will-silence-critics",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "HRW critique of the Digital Security Act after passage, useful for the legal-control chapter of 2018."
+  "whyItMatters": "HRW critique of the Digital Security Act after passage, useful for the legal-control chapter of 2018.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

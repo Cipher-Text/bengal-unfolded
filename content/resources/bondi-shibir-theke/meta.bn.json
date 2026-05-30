@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "অধিকৃত ঢাকার দমবন্ধ পরিবেশ, ভয় ও প্রতিরোধের কবিতাময় দলিল।"
+  "whyItMatters": "অধিকৃত ঢাকার দমবন্ধ পরিবেশ, ভয় ও প্রতিরোধের কবিতাময় দলিল।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

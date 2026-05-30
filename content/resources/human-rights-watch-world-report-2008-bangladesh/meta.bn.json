@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Military-backed caretaker government, state of emergency, reforms promise, arrests ও rights environment বোঝার জন্য annual rights summary."
+  "whyItMatters": "Military-backed caretaker government, state of emergency, reforms promise, arrests ও rights environment বোঝার জন্য annual rights summary.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

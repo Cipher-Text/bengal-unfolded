@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A large-scale novel on family, migration, politics, and memory across the two Bengals after partition."
+  "whyItMatters": "A large-scale novel on family, migration, politics, and memory across the two Bengals after partition.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

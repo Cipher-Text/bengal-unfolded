@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৪৭-এর একটি পাঠযোগ্য কিন্তু নাটকীয় জনপ্রিয় ইতিহাস; partition memory বোঝার জন্য সতর্কতা সহ ব্যবহারযোগ্য."
+  "whyItMatters": "১৯৪৭-এর একটি পাঠযোগ্য কিন্তু নাটকীয় জনপ্রিয় ইতিহাস; partition memory বোঝার জন্য সতর্কতা সহ ব্যবহারযোগ্য.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

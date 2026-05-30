@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Bangla news archive for local timeline, casualties, campus events, internet shutdown, arrests, 5 August transition, and aftermath."
+  "whyItMatters": "Bangla news archive for local timeline, casualties, campus events, internet shutdown, arrests, 5 August transition, and aftermath.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

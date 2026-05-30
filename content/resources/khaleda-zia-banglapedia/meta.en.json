@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A reference on Khaleda Zia's role in the alliance-led mass upsurge that ended Ershad's rule."
+  "whyItMatters": "A reference on Khaleda Zia's role in the alliance-led mass upsurge that ended Ershad's rule.",
+  "relatedEventIds": [
+    "1990-mass-uprising",
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "relatedTopicIds": []
 }

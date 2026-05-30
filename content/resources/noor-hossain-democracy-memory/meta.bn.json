@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "নূর হোসেনের ‘স্বৈরাচার নিপাত যাক, গণতন্ত্র মুক্তি পাক’ প্রতীকী স্মৃতি ও democracy iconography বোঝার জন্য cultural memory source."
+  "whyItMatters": "নূর হোসেনের ‘স্বৈরাচার নিপাত যাক, গণতন্ত্র মুক্তি পাক’ প্রতীকী স্মৃতি ও democracy iconography বোঝার জন্য cultural memory source.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

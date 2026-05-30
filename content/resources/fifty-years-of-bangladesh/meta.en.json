@@ -9,5 +9,18 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A multidisciplinary volume on the first five decades of Bangladesh's economy, politics, society, and culture."
+  "whyItMatters": "A multidisciplinary volume on the first five decades of Bangladesh's economy, politics, society, and culture.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution",
+    "1975-baksal-formation-and-collapse",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising",
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2007-2008-emergency-caretaker-rule",
+    "2013-shahbag-movement",
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

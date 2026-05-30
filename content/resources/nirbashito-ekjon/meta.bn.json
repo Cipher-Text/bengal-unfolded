@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Bangladesh partition literature হিসেবে relevant; displacement ও exile memory বোঝার জন্য useful."
+  "whyItMatters": "Bangladesh partition literature হিসেবে relevant; displacement ও exile memory বোঝার জন্য useful.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

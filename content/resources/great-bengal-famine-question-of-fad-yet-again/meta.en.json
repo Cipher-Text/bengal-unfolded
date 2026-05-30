@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for the food-availability debate and the Sen-era famine interpretation."
+  "whyItMatters": "Useful for the food-availability debate and the Sen-era famine interpretation.",
+  "relatedEventIds": [
+    "1943-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

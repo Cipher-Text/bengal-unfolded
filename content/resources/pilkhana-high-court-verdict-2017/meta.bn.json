@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০১৩ সালের রায়ের বিরুদ্ধে আপিল/ডেথ রেফারেন্সে উচ্চ আদালতের সিদ্ধান্ত বোঝার জন্য primary judicial source."
+  "whyItMatters": "২০১৩ সালের রায়ের বিরুদ্ধে আপিল/ডেথ রেফারেন্সে উচ্চ আদালতের সিদ্ধান্ত বোঝার জন্য primary judicial source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Provides context on BNP's role in the alliance politics that led to the 1990 transition."
+  "whyItMatters": "Provides context on BNP's role in the alliance politics that led to the 1990 transition.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

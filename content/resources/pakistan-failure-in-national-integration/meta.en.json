@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A foundational political science work on state formation crisis and East-West Pakistan inequality."
+  "whyItMatters": "A foundational political science work on state formation crisis and East-West Pakistan inequality.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

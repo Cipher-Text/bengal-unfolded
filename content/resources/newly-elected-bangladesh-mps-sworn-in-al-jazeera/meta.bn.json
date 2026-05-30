@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "৫ জানুয়ারি ২০১৪-র ভোটের পরবর্তী সংসদীয় পরিস্থিতি, শপথগ্রহণ এবং বৈধতা-সংকটের ধারাবাহিকতা নিয়ে আল জাজিরার প্রতিবেদন।"
+  "whyItMatters": "৫ জানুয়ারি ২০১৪-র ভোটের পরবর্তী সংসদীয় পরিস্থিতি, শপথগ্রহণ এবং বৈধতা-সংকটের ধারাবাহিকতা নিয়ে আল জাজিরার প্রতিবেদন।",
+  "relatedEventIds": [
+    "2014-10th-parliamentary-election"
+  ],
+  "relatedTopicIds": []
 }

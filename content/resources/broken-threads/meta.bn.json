@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "পারিবারিক স্মৃতি, empire থেকে independence এবং partition experience নিয়ে আধুনিক স্মৃতিকথা."
+  "whyItMatters": "পারিবারিক স্মৃতি, empire থেকে independence এবং partition experience নিয়ে আধুনিক স্মৃতিকথা.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

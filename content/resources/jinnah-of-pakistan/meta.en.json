@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A widely read biography for understanding Muhammad Ali Jinnah and the partition politics background."
+  "whyItMatters": "A widely read biography for understanding Muhammad Ali Jinnah and the partition politics background.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

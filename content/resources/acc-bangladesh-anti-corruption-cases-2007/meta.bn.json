@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০০৭–২০০৮ দুর্নীতিবিরোধী মামলা, রাজনৈতিক নেতা গ্রেপ্তার ও institutional anti-corruption drive বোঝার জন্য primary/institutional source."
+  "whyItMatters": "২০০৭–২০০৮ দুর্নীতিবিরোধী মামলা, রাজনৈতিক নেতা গ্রেপ্তার ও institutional anti-corruption drive বোঝার জন্য primary/institutional source.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Abul Hashim's memoir is useful for Bengal Muslim League politics, the Pakistan movement, and the partition debate."
+  "whyItMatters": "Abul Hashim's memoir is useful for Bengal Muslim League politics, the Pakistan movement, and the partition debate.",
+  "relatedEventIds": [
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "রংপুরে আবু সাঈদের মৃত্যু কীভাবে আন্দোলনের প্রতীকী স্মৃতি তৈরি করে, তা বোঝার জন্য memory source; graphic detail এড়িয়ে respectful use দরকার."
+  "whyItMatters": "রংপুরে আবু সাঈদের মৃত্যু কীভাবে আন্দোলনের প্রতীকী স্মৃতি তৈরি করে, তা বোঝার জন্য memory source; graphic detail এড়িয়ে respectful use দরকার.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

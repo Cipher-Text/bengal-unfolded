@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "An important novel on partition-era communal violence and subcontinental partition memory."
+  "whyItMatters": "An important novel on partition-era communal violence and subcontinental partition memory.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

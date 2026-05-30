@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Necessary balancing source on the left alliance, worker-student-cultural mobilization, and street politics against Ershad."
+  "whyItMatters": "Necessary balancing source on the left alliance, worker-student-cultural mobilization, and street politics against Ershad.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

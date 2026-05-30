@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful newspaper archive for national coverage, editorials, opinion, photo features, and long-term reflections."
+  "whyItMatters": "Useful newspaper archive for national coverage, editorials, opinion, photo features, and long-term reflections.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

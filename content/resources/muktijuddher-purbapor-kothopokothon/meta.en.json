@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "An oral-history style compilation of testimony and reflection around the Liberation War."
+  "whyItMatters": "An oral-history style compilation of testimony and reflection around the Liberation War.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

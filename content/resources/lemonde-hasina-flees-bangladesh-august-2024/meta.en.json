@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "International archive source on the 5 August 2024 resignation/departure and the start of the interim transition."
+  "whyItMatters": "International archive source on the 5 August 2024 resignation/departure and the start of the interim transition.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

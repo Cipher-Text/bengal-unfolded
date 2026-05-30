@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "International institutional source on voter registration, election support, institutional capacity, and election preparation."
+  "whyItMatters": "International institutional source on voter registration, election support, institutional capacity, and election preparation.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

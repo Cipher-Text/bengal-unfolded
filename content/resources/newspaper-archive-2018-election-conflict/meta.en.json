@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Archive source for campaign coverage, violence, arrests, polling-day allegations, and opposition reactions."
+  "whyItMatters": "Archive source for campaign coverage, violence, arrests, polling-day allegations, and opposition reactions.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

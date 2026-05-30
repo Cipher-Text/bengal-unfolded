@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "রাষ্ট্রপতি ইয়াজউদ্দিন আহমেদের Chief Adviser হওয়া, neutrality crisis, election schedule conflict ও opposition boycott বোঝার জন্য core contextual source."
+  "whyItMatters": "রাষ্ট্রপতি ইয়াজউদ্দিন আহমেদের Chief Adviser হওয়া, neutrality crisis, election schedule conflict ও opposition boycott বোঝার জন্য core contextual source.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "ঢাকা বিশ্ববিদ্যালয়, ছাত্র সংগ্রাম পরিষদ, ছাত্রনেতৃত্ব ও গণঅভ্যুত্থানে শিক্ষার্থীদের ভূমিকা বোঝার জন্য needed contextual source."
+  "whyItMatters": "ঢাকা বিশ্ববিদ্যালয়, ছাত্র সংগ্রাম পরিষদ, ছাত্রনেতৃত্ব ও গণঅভ্যুত্থানে শিক্ষার্থীদের ভূমিকা বোঝার জন্য needed contextual source.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

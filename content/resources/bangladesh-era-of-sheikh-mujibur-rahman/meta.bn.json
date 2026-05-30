@@ -8,5 +8,13 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৭২–১৯৭৫ সময়ের শেখ মুজিব সরকারের প্রশাসন, সংবিধান, জরুরি অবস্থা, বাকশাল এবং রাজনৈতিক সংকট নিয়ে গুরুত্বপূর্ণ insider account."
+  "whyItMatters": "১৯৭২–১৯৭৫ সময়ের শেখ মুজিব সরকারের প্রশাসন, সংবিধান, জরুরি অবস্থা, বাকশাল এবং রাজনৈতিক সংকট নিয়ে গুরুত্বপূর্ণ insider account.",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war",
+    "1973-first-parliamentary-election-bangladesh",
+    "1974-special-powers-act",
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

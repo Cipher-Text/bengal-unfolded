@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "এরশাদ সরকারের self-justification, প্রশাসনিক সংস্কার দাবি ও বিরোধী আন্দোলনের বিপরীত ব্যাখ্যা বোঝার জন্য critical comparison source."
+  "whyItMatters": "এরশাদ সরকারের self-justification, প্রশাসনিক সংস্কার দাবি ও বিরোধী আন্দোলনের বিপরীত ব্যাখ্যা বোঝার জন্য critical comparison source.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

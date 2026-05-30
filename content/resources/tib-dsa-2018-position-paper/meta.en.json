@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Civil-society analysis of the DSA’s use, criticism, and the later Cyber Security Act debate."
+  "whyItMatters": "Civil-society analysis of the DSA’s use, criticism, and the later Cyber Security Act debate.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

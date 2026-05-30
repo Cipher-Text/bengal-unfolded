@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica biographical summary used for date framing and wider South Asian campaign context, including the conquest of Nadia."
+  "whyItMatters": "Britannica biographical summary used for date framing and wider South Asian campaign context, including the conquest of Nadia.",
+  "relatedEventIds": [
+    "1178-1204-sena-transition",
+    "1204-bakhtiyar-khalji-s-conquest-of-nadia"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "২০১৩ সালের রাজনৈতিক সহিংসতা, মতপ্রকাশ, detention ও human-rights concern cross-check করার জন্য rights-focused source."
+  "whyItMatters": "২০১৩ সালের রাজনৈতিক সহিংসতা, মতপ্রকাশ, detention ও human-rights concern cross-check করার জন্য rights-focused source.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

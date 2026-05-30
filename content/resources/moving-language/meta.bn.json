@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৫২ সালের ভাষা আন্দোলন নিয়ে ইংরেজি সাবটাইটেলসহ একটি সংক্ষিপ্ত ডকুমেন্টারি; আন্তর্জাতিক পাঠকের জন্য ভালো পরিচিতি।"
+  "whyItMatters": "১৯৫২ সালের ভাষা আন্দোলন নিয়ে ইংরেজি সাবটাইটেলসহ একটি সংক্ষিপ্ত ডকুমেন্টারি; আন্তর্জাতিক পাঠকের জন্য ভালো পরিচিতি।",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

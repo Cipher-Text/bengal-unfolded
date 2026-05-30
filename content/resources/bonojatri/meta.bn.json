@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "সুন্দরবনের জীবন ও পরিবেশ নিয়ে একটি ডকুমেন্টারি; নদীমাতৃক ও বনভূমিভিত্তিক বাংলার ইতিহাসে কাজে লাগে।"
+  "whyItMatters": "সুন্দরবনের জীবন ও পরিবেশ নিয়ে একটি ডকুমেন্টারি; নদীমাতৃক ও বনভূমিভিত্তিক বাংলার ইতিহাসে কাজে লাগে।",
+  "relatedTopicIds": [
+    "bengal-culture-literature-and-memory"
+  ],
+  "relatedEventIds": []
 }

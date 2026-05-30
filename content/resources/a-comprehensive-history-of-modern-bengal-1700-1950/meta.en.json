@@ -12,7 +12,17 @@
   "whyItMatters": "A three-volume survey covering the Nawabi era, colonial remaking, and the freedom struggle through 1950.",
   "relatedTopicIds": [
     "bangladesh-history",
-    "pala-sena-period-and-knowledge-culture",
     "colonial-conquest-revenue-and-resistance"
+  ],
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1727-1739-suja-ud-din-muhammad-khan-administrative-phase",
+    "1740-alivardi-khan-becomes-nawab",
+    "1741-1751-maratha-raids-bengal",
+    "1756-black-hole-calcutta-incident-and-imperial-propaganda-debate",
+    "1757-battle-of-plassey",
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
   ]
 }

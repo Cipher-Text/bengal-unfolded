@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary legal source for the policy aftermath of the road-safety movement and transport governance."
+  "whyItMatters": "Primary legal source for the policy aftermath of the road-safety movement and transport governance.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

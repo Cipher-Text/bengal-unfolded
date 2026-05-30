@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "যুদ্ধকালীন বাংলা, ১৯৪৩ সালের দুর্ভিক্ষ, এবং সাম্রাজ্যের অন্তিম সঙ্কট বোঝার জন্য একটি গুরুত্বপূর্ণ গবেষণা।"
+  "whyItMatters": "যুদ্ধকালীন বাংলা, ১৯৪৩ সালের দুর্ভিক্ষ, এবং সাম্রাজ্যের অন্তিম সঙ্কট বোঝার জন্য একটি গুরুত্বপূর্ণ গবেষণা।",
+  "relatedEventIds": [
+    "1943-bengal-famine",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

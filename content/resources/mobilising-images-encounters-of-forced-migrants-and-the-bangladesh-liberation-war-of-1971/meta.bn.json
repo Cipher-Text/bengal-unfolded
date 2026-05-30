@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "শরণার্থী, ভিজ্যুয়াল কালচার, এবং যুদ্ধস্মৃতি বোঝার জন্য সবচেয়ে কার্যকর।"
+  "whyItMatters": "শরণার্থী, ভিজ্যুয়াল কালচার, এবং যুদ্ধস্মৃতি বোঝার জন্য সবচেয়ে কার্যকর।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

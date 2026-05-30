@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৮৫৭-৫৯ সালের বিদ্রোহের কারণ, বিস্তার, প্রধান যুদ্ধক্ষেত্র ও দমনপ্রক্রিয়া বোঝার জন্য একটি মৌলিক সামগ্রিক রেফারেন্স।"
+  "whyItMatters": "১৮৫৭-৫৯ সালের বিদ্রোহের কারণ, বিস্তার, প্রধান যুদ্ধক্ষেত্র ও দমনপ্রক্রিয়া বোঝার জন্য একটি মৌলিক সামগ্রিক রেফারেন্স।",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

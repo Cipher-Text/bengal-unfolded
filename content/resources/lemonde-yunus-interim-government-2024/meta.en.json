@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Transition source on the agreement around Muhammad Yunus-led interim government formation."
+  "whyItMatters": "Transition source on the agreement around Muhammad Yunus-led interim government formation.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

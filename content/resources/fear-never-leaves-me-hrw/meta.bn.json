@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০০৯ সালের বাংলাদেশ রাইফেলস বিদ্রোহের পর নির্যাতন, হেফাজতে মৃত্যু এবং বিচারপ্রক্রিয়া নিয়ে হিউম্যান রাইটস ওয়াচের বিশদ প্রতিবেদন।"
+  "whyItMatters": "২০০৯ সালের বাংলাদেশ রাইফেলস বিদ্রোহের পর নির্যাতন, হেফাজতে মৃত্যু এবং বিচারপ্রক্রিয়া নিয়ে হিউম্যান রাইটস ওয়াচের বিশদ প্রতিবেদন।",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

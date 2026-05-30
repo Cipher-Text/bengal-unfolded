@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Digital-rights source on internet blackout, mobile-data restriction, social-media blocking, and information control."
+  "whyItMatters": "Digital-rights source on internet blackout, mobile-data restriction, social-media blocking, and information control.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

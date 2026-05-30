@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for competing narratives, impacts, and the political memory of 1971."
+  "whyItMatters": "Useful for competing narratives, impacts, and the political memory of 1971.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "relatedTopicIds": []
 }

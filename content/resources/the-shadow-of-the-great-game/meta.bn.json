@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "জিওপলিটিক্স ও ব্রিটিশ কৌশলগত স্বার্থের lens দিয়ে দেশভাগ ব্যাখ্যা করা একটি তুলনামূলক source."
+  "whyItMatters": "জিওপলিটিক্স ও ব্রিটিশ কৌশলগত স্বার্থের lens দিয়ে দেশভাগ ব্যাখ্যা করা একটি তুলনামূলক source.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

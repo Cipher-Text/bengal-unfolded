@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুক্তিযুদ্ধ ও বাংলাদেশের জন্ম নিয়ে একটি আন্তর্জাতিক বিবরণ."
+  "whyItMatters": "মুক্তিযুদ্ধ ও বাংলাদেশের জন্ম নিয়ে একটি আন্তর্জাতিক বিবরণ.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

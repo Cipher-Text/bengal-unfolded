@@ -10,5 +10,11 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "সৈয়দ আমীর আলী সম্পর্কে বাংলাপিডিয়া প্রোফাইল; তার রচনা মুসলিম ইতিহাস-চেতনা ও আধুনিক পরিচয় নির্মাণে প্রভাবশালী।"
+  "whyItMatters": "সৈয়দ আমীর আলী সম্পর্কে বাংলাপিডিয়া প্রোফাইল; তার রচনা মুসলিম ইতিহাস-চেতনা ও আধুনিক পরিচয় নির্মাণে প্রভাবশালী।",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

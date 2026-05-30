@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০০৭–২০০৮ voter list reform, photo ID এবং electoral modernization বোঝার জন্য development/institutional source."
+  "whyItMatters": "২০০৭–২০০৮ voter list reform, photo ID এবং electoral modernization বোঝার জন্য development/institutional source.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

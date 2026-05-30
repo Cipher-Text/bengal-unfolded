@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "An important Bengali novel about partition and the lost world of East Bengal."
+  "whyItMatters": "An important Bengali novel about partition and the lost world of East Bengal.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

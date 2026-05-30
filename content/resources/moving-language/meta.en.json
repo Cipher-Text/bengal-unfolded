@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A short documentary on the 1952 Language Movement with English subtitles; useful as an accessible explainer."
+  "whyItMatters": "A short documentary on the 1952 Language Movement with English subtitles; useful as an accessible explainer.",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

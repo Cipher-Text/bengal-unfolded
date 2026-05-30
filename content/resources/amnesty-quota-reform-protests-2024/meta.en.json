@@ -10,5 +10,10 @@
   "href": "https://www.amnesty.org/en/latest/news/2024/07/what-is-happening-at-the-quota-reform-protests-in-bangladesh/",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Rights-focused explainer on the quota-reform background, curfew, internet shutdown, deaths, arrests, and accountability demands."
+  "whyItMatters": "Rights-focused explainer on the quota-reform background, curfew, internet shutdown, deaths, arrests, and accountability demands.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

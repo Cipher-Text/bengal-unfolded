@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Archive source for the 28 October 2006 clashes, caretaker crisis, and the street-violence sequence that preceded 1/11."
+  "whyItMatters": "Archive source for the 28 October 2006 clashes, caretaker crisis, and the street-violence sequence that preceded 1/11.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "href": "https://en.wikipedia.org/wiki/Moudud_Ahmed"
+  "href": "https://en.wikipedia.org/wiki/Moudud_Ahmed",
+  "relatedTopicIds": [
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ],
+  "relatedEventIds": []
 }

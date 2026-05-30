@@ -8,5 +8,10 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A memoir and reflection source for understanding 7 November 1975 and the political events that followed."
+  "whyItMatters": "A memoir and reflection source for understanding 7 November 1975 and the political events that followed.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1975-november-7-sepoy-janata-uprising"
+  ],
+  "relatedTopicIds": []
 }

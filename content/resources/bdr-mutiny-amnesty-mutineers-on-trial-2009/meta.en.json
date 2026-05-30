@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "International rights-focused source on detention, due process, and human-rights concerns after the mutiny."
+  "whyItMatters": "International rights-focused source on detention, due process, and human-rights concerns after the mutiny.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

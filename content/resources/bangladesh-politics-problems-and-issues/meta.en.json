@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Important political science reading on institutional crisis, military rule, and democratic transition in post-independence Bangladesh."
+  "whyItMatters": "Important political science reading on institutional crisis, military rule, and democratic transition in post-independence Bangladesh.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলা দেশভাগ, পারিবারিক স্মৃতি এবং স্থানচ্যুতি নিয়ে গুরুত্বপূর্ণ সাহিত্য."
+  "whyItMatters": "বাংলা দেশভাগ, পারিবারিক স্মৃতি এবং স্থানচ্যুতি নিয়ে গুরুত্বপূর্ণ সাহিত্য.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A useful comparison source that explains partition through geopolitics and British strategic interests."
+  "whyItMatters": "A useful comparison source that explains partition through geopolitics and British strategic interests.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,11 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "An important source on naval commando operations and sabotage during the Liberation War."
+  "whyItMatters": "An important source on naval commando operations and sabotage during the Liberation War.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1971-operation-jackpot",
+    "1971-riverine-operations"
+  ],
+  "relatedTopicIds": []
 }

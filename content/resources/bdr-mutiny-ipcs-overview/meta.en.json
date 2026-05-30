@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Early policy brief giving an overview, timeline, and immediate political-security implications of the revolt."
+  "whyItMatters": "Early policy brief giving an overview, timeline, and immediate political-security implications of the revolt.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,10 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for tracking political developments, speeches, resolutions, and the public record of 1947."
+  "whyItMatters": "Useful for tracking political developments, speeches, resolutions, and the public record of 1947.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1947-radcliffe-award-border-demarcation-implementation"
+  ],
+  "relatedTopicIds": []
 }

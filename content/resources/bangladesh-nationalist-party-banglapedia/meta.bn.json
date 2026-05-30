@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৯০-এর রূপান্তরে পৌঁছানো জোট রাজনীতিতে বিএনপির ভূমিকা বোঝার জন্য একটি গুরুত্বপূর্ণ উৎস।"
+  "whyItMatters": "১৯৯০-এর রূপান্তরে পৌঁছানো জোট রাজনীতিতে বিএনপির ভূমিকা বোঝার জন্য একটি গুরুত্বপূর্ণ উৎস।",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

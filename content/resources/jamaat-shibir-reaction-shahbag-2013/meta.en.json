@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Critical contextual source on ICT verdict reactions, Jamaat-Shibir mobilisation, nationwide clashes, and political polarisation."
+  "whyItMatters": "Critical contextual source on ICT verdict reactions, Jamaat-Shibir mobilisation, nationwide clashes, and political polarisation.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

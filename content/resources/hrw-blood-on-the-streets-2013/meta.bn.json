@@ -10,5 +10,9 @@
   "href": "https://www.hrw.org/report/2013/08/01/blood-streets/use-excessive-force-during-bangladesh-protests",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০১৩ সালে ICT verdict ঘিরে পক্ষে-বিপক্ষে আন্দোলন, Hefazat mobilisation এবং security-force response নিয়ে rights-focused source."
+  "whyItMatters": "২০১৩ সালে ICT verdict ঘিরে পক্ষে-বিপক্ষে আন্দোলন, Hefazat mobilisation এবং security-force response নিয়ে rights-focused source.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

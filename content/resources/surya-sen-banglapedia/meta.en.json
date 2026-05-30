@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia profile on Surya Sen, including the Chittagong Armoury Raid context and revolutionary network."
+  "whyItMatters": "Banglapedia profile on Surya Sen, including the Chittagong Armoury Raid context and revolutionary network.",
+  "relatedEventIds": [
+    "1930-chittagong-armoury-raid"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,13 @@
   "quality": "primary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A late eighteenth-century history of Mughal India that is essential for understanding Bengal Nawabs and Plassey."
+  "whyItMatters": "A late eighteenth-century history of Mughal India that is essential for understanding Bengal Nawabs and Plassey.",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1757-battle-of-plassey",
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

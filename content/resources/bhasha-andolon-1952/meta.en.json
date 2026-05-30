@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A Bangla explainer on the 1952 Language Movement; useful for introductory viewing, with production quality best checked before treating it as a core source."
+  "whyItMatters": "A Bangla explainer on the 1952 Language Movement; useful for introductory viewing, with production quality best checked before treating it as a core source.",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

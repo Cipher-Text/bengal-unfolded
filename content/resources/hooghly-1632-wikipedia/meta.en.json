@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia account of the Portuguese in Bengal, including the Mughal assault on Hughli/Hooghly in 1632."
+  "whyItMatters": "Banglapedia account of the Portuguese in Bengal, including the Mughal assault on Hughli/Hooghly in 1632.",
+  "relatedEventIds": [
+    "1632-mughal-attack-on-portuguese-hooghly"
+  ],
+  "relatedTopicIds": []
 }

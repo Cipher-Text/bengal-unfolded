@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Museum catalog record describing the capture of Bahadur Shah Zafar and the subsequent shooting of three Mughal princes after Delhi's fall."
+  "whyItMatters": "Museum catalog record describing the capture of Bahadur Shah Zafar and the subsequent shooting of three Mughal princes after Delhi's fall.",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

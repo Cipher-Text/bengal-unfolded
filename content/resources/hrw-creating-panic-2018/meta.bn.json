@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০১৮ নির্বাচনের আগে crackdown, arbitrary arrest, fear environment ও political competition সংকুচিত হওয়ার অভিযোগ নিয়ে detailed HRW report."
+  "whyItMatters": "২০১৮ নির্বাচনের আগে crackdown, arbitrary arrest, fear environment ও political competition সংকুচিত হওয়ার অভিযোগ নিয়ে detailed HRW report.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

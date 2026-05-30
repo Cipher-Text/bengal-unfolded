@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A documentary on the Jamuna river, useful for riverine Bengal, ecology, and cultural landscape."
+  "whyItMatters": "A documentary on the Jamuna river, useful for riverine Bengal, ecology, and cultural landscape.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

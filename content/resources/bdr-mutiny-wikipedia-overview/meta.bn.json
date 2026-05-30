@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০০৯ সালের পিলখানা হত্যাকাণ্ড নিয়ে সরকারি তদন্ত প্রতিবেদন; ঘটনা, কারণ, দায় ও প্রশাসনিক ব্যর্থতা বোঝার জন্য গুরুত্বপূর্ণ।"
+  "whyItMatters": "২০০৯ সালের পিলখানা হত্যাকাণ্ড নিয়ে সরকারি তদন্ত প্রতিবেদন; ঘটনা, কারণ, দায় ও প্রশাসনিক ব্যর্থতা বোঝার জন্য গুরুত্বপূর্ণ।",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

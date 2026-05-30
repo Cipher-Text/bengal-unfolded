@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A narrative history focused on the political breakdown, communal escalation, and human cost surrounding partition."
+  "whyItMatters": "A narrative history focused on the political breakdown, communal escalation, and human cost surrounding partition.",
+  "relatedEventIds": [
+    "1943-bengal-famine",
+    "1946-noakhali-riots",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

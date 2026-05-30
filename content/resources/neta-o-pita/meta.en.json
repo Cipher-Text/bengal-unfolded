@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A supplementary reading on Sheikh Mujibur Rahman's political leadership and the nation-founder narrative."
+  "whyItMatters": "A supplementary reading on Sheikh Mujibur Rahman's political leadership and the nation-founder narrative.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

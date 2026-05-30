@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "শহিদ সংখ্যা নিয়ে বিতর্ক, প্রমাণ, পাল্টা-প্রমাণ এবং public memory বোঝার জন্য critical reading."
+  "whyItMatters": "শহিদ সংখ্যা নিয়ে বিতর্ক, প্রমাণ, পাল্টা-প্রমাণ এবং public memory বোঝার জন্য critical reading.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful for understanding the literary and intellectual afterlife of the language movement through “Kabar” and later cultural resistance."
+  "whyItMatters": "Useful for understanding the literary and intellectual afterlife of the language movement through “Kabar” and later cultural resistance.",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

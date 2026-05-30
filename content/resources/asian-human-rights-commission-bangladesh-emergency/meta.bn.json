@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "জরুরি শাসন, আইনশৃঙ্খলা বাহিনী, বিচারব্যবস্থা ও মানবাধিকার পরিস্থিতি নিয়ে supplementary civil-society source."
+  "whyItMatters": "জরুরি শাসন, আইনশৃঙ্খলা বাহিনী, বিচারব্যবস্থা ও মানবাধিকার পরিস্থিতি নিয়ে supplementary civil-society source.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "href": "https://www.ucpress.edu/book/9780520062801/war-and-secession"
+  "href": "https://www.ucpress.edu/book/9780520062801/war-and-secession",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ],
+  "relatedEventIds": []
 }

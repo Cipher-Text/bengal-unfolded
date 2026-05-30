@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A literary text that helps frame wartime mental strain and political reality."
+  "whyItMatters": "A literary text that helps frame wartime mental strain and political reality.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

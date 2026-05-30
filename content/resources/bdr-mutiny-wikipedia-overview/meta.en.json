@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Government investigation report on the 2009 Peelkhana killings, useful for the event sequence, causes, responsibility, and administrative failure."
+  "whyItMatters": "Government investigation report on the 2009 Peelkhana killings, useful for the event sequence, causes, responsibility, and administrative failure.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

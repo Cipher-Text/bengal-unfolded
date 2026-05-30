@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Contextual research on the causes of 1/11, the military role, reform politics, and democratic accountability debates."
+  "whyItMatters": "Contextual research on the causes of 1/11, the military role, reform politics, and democratic accountability debates.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

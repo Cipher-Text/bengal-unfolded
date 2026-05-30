@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "২৫ জুলাই পর্যন্ত confirmed deaths, arrests, crackdown এবং protest rights নিয়ে Amnesty campaign/rights source."
+  "whyItMatters": "২৫ জুলাই পর্যন্ত confirmed deaths, arrests, crackdown এবং protest rights নিয়ে Amnesty campaign/rights source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

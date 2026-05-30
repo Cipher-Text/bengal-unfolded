@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "দেশভাগ-পর্বের সাম্প্রদায়িক সহিংসতা এবং উপমহাদেশীয় partition memory নিয়ে গুরুত্বপূর্ণ উপন্যাস."
+  "whyItMatters": "দেশভাগ-পর্বের সাম্প্রদায়িক সহিংসতা এবং উপমহাদেশীয় partition memory নিয়ে গুরুত্বপূর্ণ উপন্যাস.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

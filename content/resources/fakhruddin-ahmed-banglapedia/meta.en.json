@@ -10,5 +10,9 @@
   "href": "https://en.banglapedia.org/index.php/Ahmed%2C_Fakhruddin",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Concise biographical reference for Fakhruddin Ahmed’s role in the 2007–2008 caretaker government transition."
+  "whyItMatters": "Concise biographical reference for Fakhruddin Ahmed’s role in the 2007–2008 caretaker government transition.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

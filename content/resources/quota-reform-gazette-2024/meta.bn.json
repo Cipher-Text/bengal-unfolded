@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Supreme Court order-এর পর quota policy implementation বোঝার জন্য official policy source."
+  "whyItMatters": "Supreme Court order-এর পর quota policy implementation বোঝার জন্য official policy source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

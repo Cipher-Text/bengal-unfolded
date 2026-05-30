@@ -9,5 +9,12 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A documentary on the plight of indigenous people in the Chittagong Hill Tracts and the politics of displacement."
+  "whyItMatters": "A documentary on the plight of indigenous people in the Chittagong Hill Tracts and the politics of displacement.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse",
+    "1976-1997-shanti-bahini-insurgency",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

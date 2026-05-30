@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "জরুরি অবস্থায় detention, due process, torture allegations ও political rights restriction বোঝার জন্য rights-focused cross-check source."
+  "whyItMatters": "জরুরি অবস্থায় detention, due process, torture allegations ও political rights restriction বোঝার জন্য rights-focused cross-check source.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

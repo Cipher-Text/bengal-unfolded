@@ -10,5 +10,9 @@
   "href": "https://www.hrw.org/news/2018/12/13/bangladesh-crackdown-elections-loom",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Rights-focused source on arrests, intimidation, student/youth wing violence, and the restrictive pre-election environment."
+  "whyItMatters": "Rights-focused source on arrests, intimidation, student/youth wing violence, and the restrictive pre-election environment.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

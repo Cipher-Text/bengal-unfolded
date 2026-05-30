@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "An international account of the Liberation War and the birth of Bangladesh."
+  "whyItMatters": "An international account of the Liberation War and the birth of Bangladesh.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

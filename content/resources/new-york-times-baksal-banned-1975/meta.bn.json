@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৫ আগস্ট ১৯৭৫-এর পর বাকশাল নিষিদ্ধ হওয়ার সমকালীন আন্তর্জাতিক প্রতিবেদন। বাকশালের পতনপর্ব বোঝার জন্য useful."
+  "whyItMatters": "১৫ আগস্ট ১৯৭৫-এর পর বাকশাল নিষিদ্ধ হওয়ার সমকালীন আন্তর্জাতিক প্রতিবেদন। বাকশালের পতনপর্ব বোঝার জন্য useful.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

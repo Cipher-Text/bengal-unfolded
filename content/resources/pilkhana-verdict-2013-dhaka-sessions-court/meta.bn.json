@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "পিলখানা হত্যা মামলার রায়, দণ্ড, খালাস ও বিচারিক reasoning বোঝার জন্য primary judicial source."
+  "whyItMatters": "পিলখানা হত্যা মামলার রায়, দণ্ড, খালাস ও বিচারিক reasoning বোঝার জন্য primary judicial source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

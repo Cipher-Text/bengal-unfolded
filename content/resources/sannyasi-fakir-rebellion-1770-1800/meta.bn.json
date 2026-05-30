@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "আন্দোলনের সময়কাল, কৃষক-প্রতিরোধের কাঠামো, এবং দুর্ভিক্ষ কীভাবে কোম্পানি-বিরোধিতা তীব্র করেছিল তা বোঝার জন্য উপযোগী।"
+  "whyItMatters": "আন্দোলনের সময়কাল, কৃষক-প্রতিরোধের কাঠামো, এবং দুর্ভিক্ষ কীভাবে কোম্পানি-বিরোধিতা তীব্র করেছিল তা বোঝার জন্য উপযোগী।",
+  "relatedEventIds": [
+    "1760-1800-fakir-sannyasi-resistance",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

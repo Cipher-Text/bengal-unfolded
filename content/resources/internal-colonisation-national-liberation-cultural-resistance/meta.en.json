@@ -9,5 +9,12 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Best for the 1969-1971 cultural resistance arc, showing how poetry connected language politics to national liberation."
+  "whyItMatters": "Best for the 1969-1971 cultural resistance arc, showing how poetry connected language politics to national liberation.",
+  "relatedEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement",
+    "1969-mass-uprising",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

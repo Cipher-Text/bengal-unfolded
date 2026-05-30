@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Academic research on social media, blogs, hashtag activism, and online-to-offline mobilisation in the Shahbag movement."
+  "whyItMatters": "Academic research on social media, blogs, hashtag activism, and online-to-offline mobilisation in the Shahbag movement.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

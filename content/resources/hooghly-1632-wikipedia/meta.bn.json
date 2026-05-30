@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলায় পর্তুগিজ উপস্থিতি এবং ১৬৩২ সালে হুগলি/হুগলিতে মুঘল আক্রমণ নিয়ে বাংলাপিডিয়া আলোচনা।"
+  "whyItMatters": "বাংলায় পর্তুগিজ উপস্থিতি এবং ১৬৩২ সালে হুগলি/হুগলিতে মুঘল আক্রমণ নিয়ে বাংলাপিডিয়া আলোচনা।",
+  "relatedEventIds": [
+    "1632-mughal-attack-on-portuguese-hooghly"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "গ্রামের প্রদর্শনী থেকে জন্ম নেওয়া এক মৌখিক-ইতিহাসভিত্তিক ডকুমেন্টারি, যা Muktir Gaan-এর স্মৃতিকে ধরে।"
+  "whyItMatters": "গ্রামের প্রদর্শনী থেকে জন্ম নেওয়া এক মৌখিক-ইতিহাসভিত্তিক ডকুমেন্টারি, যা Muktir Gaan-এর স্মৃতিকে ধরে।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

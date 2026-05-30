@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "এম. আর. আখতার মুকুলের ১৯৭১ যুদ্ধস্মৃতি ও সম্প্রচার-অভিজ্ঞতার স্মৃতিকথা।"
+  "whyItMatters": "এম. আর. আখতার মুকুলের ১৯৭১ যুদ্ধস্মৃতি ও সম্প্রচার-অভিজ্ঞতার স্মৃতিকথা।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

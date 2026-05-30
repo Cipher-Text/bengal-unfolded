@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "International breaking-news coverage and an external reporting perspective on the mutiny."
+  "whyItMatters": "International breaking-news coverage and an external reporting perspective on the mutiny.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

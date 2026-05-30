@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "প্রাদেশিক স্বায়ত্তশাসন সম্প্রসারণকারী সাংবিধানিক কাঠামো, যা দেরি-ঔপনিবেশিক নির্বাচনী রাজনীতিকে গভীরভাবে প্রভাবিত করে।"
+  "whyItMatters": "প্রাদেশিক স্বায়ত্তশাসন সম্প্রসারণকারী সাংবিধানিক কাঠামো, যা দেরি-ঔপনিবেশিক নির্বাচনী রাজনীতিকে গভীরভাবে প্রভাবিত করে।",
+  "relatedEventIds": [
+    "1935-government-of-india-act-1935",
+    "1937-bengal-provincial-election-and-coalition-ministry"
+  ],
+  "relatedTopicIds": []
 }

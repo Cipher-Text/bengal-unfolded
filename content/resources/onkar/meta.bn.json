@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "ভাষা, জাতিসত্তা ও সাংস্কৃতিক পরিচয় নিয়ে সাহিত্যিক পাঠ; ১৯৭১-এর দীর্ঘ পটভূমি বোঝাতে সহায়ক."
+  "whyItMatters": "ভাষা, জাতিসত্তা ও সাংস্কৃতিক পরিচয় নিয়ে সাহিত্যিক পাঠ; ১৯৭১-এর দীর্ঘ পটভূমি বোঝাতে সহায়ক.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

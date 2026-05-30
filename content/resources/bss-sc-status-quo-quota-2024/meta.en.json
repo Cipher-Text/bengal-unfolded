@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Official state-news coverage of the 10 July 2024 Supreme Court status quo order and the legal timeline."
+  "whyItMatters": "Official state-news coverage of the 10 July 2024 Supreme Court status quo order and the legal timeline.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

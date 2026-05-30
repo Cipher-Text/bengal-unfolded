@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "উপনিবেশিক বাংলায় বাঙালি মুসলিম বুদ্ধিজীবী ও সম্প্রদায় গঠনের ওপর একটি গবেষণামূলক গ্রন্থ।"
+  "whyItMatters": "উপনিবেশিক বাংলায় বাঙালি মুসলিম বুদ্ধিজীবী ও সম্প্রদায় গঠনের ওপর একটি গবেষণামূলক গ্রন্থ।",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Reference on Tantia Tope as a major rebel general during the 1857 uprising."
+  "whyItMatters": "Reference on Tantia Tope as a major rebel general during the 1857 uprising.",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

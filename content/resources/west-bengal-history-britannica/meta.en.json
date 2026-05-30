@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica historical background used for broader contextual framing of medieval Bengal and regional state formations."
+  "whyItMatters": "Britannica historical background used for broader contextual framing of medieval Bengal and regional state formations.",
+  "relatedEventIds": [
+    "1352-bengal-sultanate-independence-and-unification"
+  ],
+  "relatedTopicIds": []
 }

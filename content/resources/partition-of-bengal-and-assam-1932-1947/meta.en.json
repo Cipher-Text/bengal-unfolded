@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Important for understanding the political process of partition, decolonization, and regional fragmentation in Bengal and Assam."
+  "whyItMatters": "Important for understanding the political process of partition, decolonization, and regional fragmentation in Bengal and Assam.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

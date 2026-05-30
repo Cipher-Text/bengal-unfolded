@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Insider account of political and diplomatic strategy under the Tajuddin-led provisional government."
+  "whyItMatters": "Insider account of political and diplomatic strategy under the Tajuddin-led provisional government.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

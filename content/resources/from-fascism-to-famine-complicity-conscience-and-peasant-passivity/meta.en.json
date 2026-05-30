@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for wartime Bengal, colonial responsibility, and peasant agency."
+  "whyItMatters": "Useful for wartime Bengal, colonial responsibility, and peasant agency.",
+  "relatedEventIds": [
+    "1943-bengal-famine",
+    "1946-1947-tebhaga-movement"
+  ],
+  "relatedTopicIds": []
 }

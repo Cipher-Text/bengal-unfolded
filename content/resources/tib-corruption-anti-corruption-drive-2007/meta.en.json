@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Relevant source on the anti-corruption drive, governance reform, accountability claims, and the selective-justice debate."
+  "whyItMatters": "Relevant source on the anti-corruption drive, governance reform, accountability claims, and the selective-justice debate.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

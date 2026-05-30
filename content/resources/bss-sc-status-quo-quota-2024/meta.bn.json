@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১০ জুলাই ২০২৪ Supreme Court status quo order নিয়ে official/state news coverage; legal timeline source."
+  "whyItMatters": "১০ জুলাই ২০২৪ Supreme Court status quo order নিয়ে official/state news coverage; legal timeline source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

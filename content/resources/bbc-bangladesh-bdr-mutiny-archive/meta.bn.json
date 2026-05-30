@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "আন্তর্জাতিক breaking-news coverage ও external reporting perspective বোঝার জন্য archive source."
+  "whyItMatters": "আন্তর্জাতিক breaking-news coverage ও external reporting perspective বোঝার জন্য archive source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "সামরিক দৃষ্টিকোণ থেকে বিদ্রোহ, ষড়যন্ত্র, কমান্ড ব্যর্থতা, নিরাপত্তা ও প্রশাসনিক কারণ বিশ্লেষণের জন্য গুরুত্বপূর্ণ primary/internal investigation source."
+  "whyItMatters": "সামরিক দৃষ্টিকোণ থেকে বিদ্রোহ, ষড়যন্ত্র, কমান্ড ব্যর্থতা, নিরাপত্তা ও প্রশাসনিক কারণ বিশ্লেষণের জন্য গুরুত্বপূর্ণ primary/internal investigation source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

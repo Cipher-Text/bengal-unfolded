@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Official policy source for the implementation of quota reform after the Supreme Court order."
+  "whyItMatters": "Official policy source for the implementation of quota reform after the Supreme Court order.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

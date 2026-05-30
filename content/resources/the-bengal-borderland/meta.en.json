@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A study of borderlands, partition, and state formation across Bengal, India, Pakistan, Bangladesh, and Burma."
+  "whyItMatters": "A study of borderlands, partition, and state formation across Bengal, India, Pakistan, Bangladesh, and Burma.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

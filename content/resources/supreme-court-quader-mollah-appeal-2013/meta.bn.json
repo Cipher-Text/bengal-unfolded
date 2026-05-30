@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "ICT রায়ের appeal, death sentence এবং judicial reasoning বোঝার জন্য primary judicial document."
+  "whyItMatters": "ICT রায়ের appeal, death sentence এবং judicial reasoning বোঝার জন্য primary judicial document.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "ঘূর্ণিঝড়, ১৯৭০ নির্বাচন, এবং পরবর্তী রাজনৈতিক ভাঙনকে যুক্ত করার জন্য সবচেয়ে কার্যকর।"
+  "whyItMatters": "ঘূর্ণিঝড়, ১৯৭০ নির্বাচন, এবং পরবর্তী রাজনৈতিক ভাঙনকে যুক্ত করার জন্য সবচেয়ে কার্যকর।",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

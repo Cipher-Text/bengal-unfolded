@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "বাকশাল এবং সমকালীন বাংলাদেশি public debate-এ এর অবস্থান নিয়ে Dhaka Tribune-এর editorial আলোচনা। factual claim-এর জন্য সতর্কতা প্রয়োজন."
+  "whyItMatters": "বাকশাল এবং সমকালীন বাংলাদেশি public debate-এ এর অবস্থান নিয়ে Dhaka Tribune-এর editorial আলোচনা। factual claim-এর জন্য সতর্কতা প্রয়োজন.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

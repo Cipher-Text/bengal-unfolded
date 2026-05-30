@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "তুলনামূলক দুর্ভিক্ষ-ইতিহাস এবং বাংলার যুদ্ধকালীন রাজনৈতিক অর্থনীতি বোঝার জন্য কার্যকর।"
+  "whyItMatters": "তুলনামূলক দুর্ভিক্ষ-ইতিহাস এবং বাংলার যুদ্ধকালীন রাজনৈতিক অর্থনীতি বোঝার জন্য কার্যকর।",
+  "relatedEventIds": [
+    "1943-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

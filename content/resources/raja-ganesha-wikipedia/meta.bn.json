@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "পঞ্চদশ শতকের শুরুতে বাংলায় রাজা গণেশের ক্ষমতা দখল ও রাজনৈতিক প্রেক্ষাপট নিয়ে বাংলাপিডিয়া পরিচিতি।"
+  "whyItMatters": "পঞ্চদশ শতকের শুরুতে বাংলায় রাজা গণেশের ক্ষমতা দখল ও রাজনৈতিক প্রেক্ষাপট নিয়ে বাংলাপিডিয়া পরিচিতি।",
+  "relatedEventIds": [
+    "1414-raja-ganesha-seizes-power-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

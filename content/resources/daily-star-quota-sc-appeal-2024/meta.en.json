@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful newspaper source on the High Court verdict, government appeal, and early July legal-political timeline."
+  "whyItMatters": "Useful newspaper source on the High Court verdict, government appeal, and early July legal-political timeline.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

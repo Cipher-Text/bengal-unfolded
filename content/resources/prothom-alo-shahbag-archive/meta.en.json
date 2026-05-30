@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Important Bengali-language news archive for the movement’s language, crowd dynamics, political reaction, and social debate."
+  "whyItMatters": "Important Bengali-language news archive for the movement’s language, crowd dynamics, political reaction, and social debate.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

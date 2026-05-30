@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২০২৪ সালের human-rights situation, mass student protests, killings, detention এবং transition context নিয়ে annual external state report."
+  "whyItMatters": "২০২৪ সালের human-rights situation, mass student protests, killings, detention এবং transition context নিয়ে annual external state report.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

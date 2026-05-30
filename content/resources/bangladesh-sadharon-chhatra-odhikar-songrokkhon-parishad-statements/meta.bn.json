@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "কোটা সংস্কার আন্দোলনের self-description, দাবি, কর্মসূচি ও student leadership বোঝার জন্য primary movement source."
+  "whyItMatters": "কোটা সংস্কার আন্দোলনের self-description, দাবি, কর্মসূচি ও student leadership বোঝার জন্য primary movement source.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "আন্দোলনের crowd size, political reaction, public anger ও evolving demands trace করার জন্য international wire archive."
+  "whyItMatters": "আন্দোলনের crowd size, political reaction, public anger ও evolving demands trace করার জন্য international wire archive.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

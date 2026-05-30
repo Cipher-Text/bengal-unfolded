@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary institutional source on the 29 December 2008 election, results, voter list, process, and turnout."
+  "whyItMatters": "Primary institutional source on the 29 December 2008 election, results, voter list, process, and turnout.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

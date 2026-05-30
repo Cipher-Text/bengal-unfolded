@@ -10,5 +10,9 @@
   "href": "https://en.banglapedia.org/index.php/Ershad%2C_Lt._General_Hussein_M",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Concise encyclopedic reference for Hussein Muhammad Ershad’s life, military background, and the 1983–1990 rule."
+  "whyItMatters": "Concise encyclopedic reference for Hussein Muhammad Ershad’s life, military background, and the 1983–1990 rule.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

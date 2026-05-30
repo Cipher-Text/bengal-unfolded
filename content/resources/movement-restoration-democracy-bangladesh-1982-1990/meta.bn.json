@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৮২–১৯৯০ এরশাদবিরোধী আন্দোলনের political sociology, party alliance, student movement ও civil resistance বোঝার জন্য relevant academic research."
+  "whyItMatters": "১৯৮২–১৯৯০ এরশাদবিরোধী আন্দোলনের political sociology, party alliance, student movement ও civil resistance বোঝার জন্য relevant academic research.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

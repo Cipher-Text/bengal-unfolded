@@ -10,5 +10,9 @@
   "href": "https://www.britannica.com/biography/Mujibur-Rahman",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica biography covering Sheikh Mujib and the 1975 assassination."
+  "whyItMatters": "Britannica biography covering Sheikh Mujib and the 1975 assassination.",
+  "relatedEventIds": [
+    "1975-august-15-assassination-of-sheikh-mujib"
+  ],
+  "relatedTopicIds": []
 }

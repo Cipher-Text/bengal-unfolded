@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "তাজউদ্দীন আহমদের নেতৃত্বাধীন অস্থায়ী সরকারের রাজনৈতিক ও কূটনৈতিক কৌশলের অন্তর্দৃষ্টিমূলক বিবরণ।"
+  "whyItMatters": "তাজউদ্দীন আহমদের নেতৃত্বাধীন অস্থায়ী সরকারের রাজনৈতিক ও কূটনৈতিক কৌশলের অন্তর্দৃষ্টিমূলক বিবরণ।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৭১ চলাকালীন লেখা উপন্যাস; দখলদার ঢাকার ভীতি ও অস্থিরতার শক্তিশালী চিত্র।"
+  "whyItMatters": "১৯৭১ চলাকালীন লেখা উপন্যাস; দখলদার ঢাকার ভীতি ও অস্থিরতার শক্তিশালী চিত্র।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "৮ দলীয় জোট, শেখ হাসিনার নেতৃত্ব ও এরশাদবিরোধী আন্দোলনে আওয়ামী লীগের ভূমিকা বোঝার জন্য party-perspective source; balance দরকার."
+  "whyItMatters": "৮ দলীয় জোট, শেখ হাসিনার নেতৃত্ব ও এরশাদবিরোধী আন্দোলনে আওয়ামী লীগের ভূমিকা বোঝার জন্য party-perspective source; balance দরকার.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

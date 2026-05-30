@@ -9,5 +9,9 @@
   "href": "https://www.bharat-rakshak.com/ARMY/history/1971war/surrendoc.html",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary surrender document ending the Indo-Pak war in the eastern theatre."
+  "whyItMatters": "Primary surrender document ending the Indo-Pak war in the eastern theatre.",
+  "relatedEventIds": [
+    "1971-december-16-instrument-of-surrender"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৭১-এর গণহত্যা, আন্তর্জাতিক প্রতিক্রিয়া এবং নৃশংসতার নথিবদ্ধকরণের প্রাথমিক বিবরণ."
+  "whyItMatters": "১৯৭১-এর গণহত্যা, আন্তর্জাতিক প্রতিক্রিয়া এবং নৃশংসতার নথিবদ্ধকরণের প্রাথমিক বিবরণ.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

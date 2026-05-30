@@ -10,5 +10,11 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বেগম রোকেয়া সম্পর্কে বাংলাপিডিয়া প্রোফাইল; তার সংস্কারবাদী লেখা ও নারীবাদী কল্পনা বাঙালি মুসলিম আধুনিকতা বোঝার জন্য গুরুত্বপূর্ণ।"
+  "whyItMatters": "বেগম রোকেয়া সম্পর্কে বাংলাপিডিয়া প্রোফাইল; তার সংস্কারবাদী লেখা ও নারীবাদী কল্পনা বাঙালি মুসলিম আধুনিকতা বোঝার জন্য গুরুত্বপূর্ণ।",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

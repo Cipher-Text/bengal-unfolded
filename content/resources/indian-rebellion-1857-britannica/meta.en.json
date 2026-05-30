@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Foundational overview of causes, spread, key theatres, and suppression of the 1857-59 uprising."
+  "whyItMatters": "Foundational overview of causes, spread, key theatres, and suppression of the 1857-59 uprising.",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

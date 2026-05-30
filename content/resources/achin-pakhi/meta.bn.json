@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "বাউল ও লালনের লোক-আধ্যাত্মিক জগৎ নিয়ে একটি ডকুমেন্টারি; বাঙালি সাংস্কৃতিক ইতিহাসে গুরুত্বপূর্ণ।"
+  "whyItMatters": "বাউল ও লালনের লোক-আধ্যাত্মিক জগৎ নিয়ে একটি ডকুমেন্টারি; বাঙালি সাংস্কৃতিক ইতিহাসে গুরুত্বপূর্ণ।",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

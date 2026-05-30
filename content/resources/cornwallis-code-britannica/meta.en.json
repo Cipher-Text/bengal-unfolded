@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Concise overview of the 1793 regulations that codified the Bengal system, including the permanent revenue settlement and the administrative order around it."
+  "whyItMatters": "Concise overview of the 1793 regulations that codified the Bengal system, including the permanent revenue settlement and the administrative order around it.",
+  "relatedEventIds": [
+    "1793-permanent-settlement-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

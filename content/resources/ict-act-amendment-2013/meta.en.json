@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Important legal source for the appeal, sentencing, and prosecution debates that followed the Shahbag protests."
+  "whyItMatters": "Important legal source for the appeal, sentencing, and prosecution debates that followed the Shahbag protests.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

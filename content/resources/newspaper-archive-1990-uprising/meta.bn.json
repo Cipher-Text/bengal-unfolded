@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "অক্টোবর–ডিসেম্বর ১৯৯০ এর hartal, procession, emergency, resignation ও transition coverage যাচাইয়ের জন্য archive resource."
+  "whyItMatters": "অক্টোবর–ডিসেম্বর ১৯৯০ এর hartal, procession, emergency, resignation ও transition coverage যাচাইয়ের জন্য archive resource.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

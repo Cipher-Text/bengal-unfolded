@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "অষ্টাদশ শতকের শুরুতে মুর্শিদ কুলি খানের প্রশাসনিক ভূমিকা ও রাজধানী স্থানান্তরের প্রেক্ষাপট নিয়ে Banglapedia-র বিশদ এন্ট্রি।"
+  "whyItMatters": "অষ্টাদশ শতকের শুরুতে মুর্শিদ কুলি খানের প্রশাসনিক ভূমিকা ও রাজধানী স্থানান্তরের প্রেক্ষাপট নিয়ে Banglapedia-র বিশদ এন্ট্রি।",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1717-murshid-quli-khan-formally-appointed-nawab"
+  ],
+  "relatedTopicIds": []
 }

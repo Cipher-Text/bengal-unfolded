@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A Liberation War novel useful for cultural memory and wartime imagination."
+  "whyItMatters": "A Liberation War novel useful for cultural memory and wartime imagination.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

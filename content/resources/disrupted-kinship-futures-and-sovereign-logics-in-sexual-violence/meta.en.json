@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Handle sensitively: useful for gendered violence, post-war memory, and the ethical politics of testimony."
+  "whyItMatters": "Handle sensitively: useful for gendered violence, post-war memory, and the ethical politics of testimony.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

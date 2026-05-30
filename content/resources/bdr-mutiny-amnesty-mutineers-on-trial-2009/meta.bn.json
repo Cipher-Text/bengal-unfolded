@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "পিলখানা হত্যাকাণ্ড-পরবর্তী বিচার, detention, due process ও human-rights concern নিয়ে international rights-focused source."
+  "whyItMatters": "পিলখানা হত্যাকাণ্ড-পরবর্তী বিচার, detention, due process ও human-rights concern নিয়ে international rights-focused source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

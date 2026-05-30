@@ -8,5 +8,16 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Documents, images, and primary material."
+  "whyItMatters": "Documents, images, and primary material.",
+  "relatedEventIds": [
+    "1906-all-india-muslim-league-founded-in-dhaka",
+    "1911-annulment-of-bengal-partition",
+    "1943-bengal-famine",
+    "2013-shahbag-movement",
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2018-quota-reform",
+    "2018-safe-road",
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

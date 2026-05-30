@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Strong for the war’s command structure, strategy, and military-political interaction."
+  "whyItMatters": "Strong for the war’s command structure, strategy, and military-political interaction.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

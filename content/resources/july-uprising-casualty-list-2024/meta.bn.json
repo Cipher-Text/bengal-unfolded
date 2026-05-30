@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "নিহত, আহত, চোখের আঘাত, শিশু casualties এবং casualty count debate বোঝার জন্য sensitive documentation source; always verify version/date."
+  "whyItMatters": "নিহত, আহত, চোখের আঘাত, শিশু casualties এবং casualty count debate বোঝার জন্য sensitive documentation source; always verify version/date.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

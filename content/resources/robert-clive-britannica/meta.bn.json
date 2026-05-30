@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "রবার্ট ক্লাইভের জীবন, পলাশীর যুদ্ধ, এবং বাংলায় কোম্পানি শাসন বিস্তারের প্রেক্ষাপট নিয়ে প্রামাণ্য প্রোফাইল।"
+  "whyItMatters": "রবার্ট ক্লাইভের জীবন, পলাশীর যুদ্ধ, এবং বাংলায় কোম্পানি শাসন বিস্তারের প্রেক্ষাপট নিয়ে প্রামাণ্য প্রোফাইল।",
+  "relatedEventIds": [
+    "1757-battle-of-plassey",
+    "1765-east-india-company-gets-diwani-rights-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

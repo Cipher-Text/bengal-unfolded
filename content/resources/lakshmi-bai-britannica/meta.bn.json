@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "ঝাঁসির রানি লক্ষ্মীবাইয়ের জীবন, সামরিক প্রতিরোধ এবং ১৮৫৭-৫৮ বিদ্রোহে তার নেতৃত্ব নিয়ে প্রামাণ্য রেফারেন্স।"
+  "whyItMatters": "ঝাঁসির রানি লক্ষ্মীবাইয়ের জীবন, সামরিক প্রতিরোধ এবং ১৮৫৭-৫৮ বিদ্রোহে তার নেতৃত্ব নিয়ে প্রামাণ্য রেফারেন্স।",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "দিল্লির বঙ্গ অভিযানে একডালা দুর্গের প্রাসঙ্গিকতা ব্যাখ্যার জন্য ব্যবহৃত বাংলাপিডিয়া রেফারেন্স।"
+  "whyItMatters": "দিল্লির বঙ্গ অভিযানে একডালা দুর্গের প্রাসঙ্গিকতা ব্যাখ্যার জন্য ব্যবহৃত বাংলাপিডিয়া রেফারেন্স।",
+  "relatedEventIds": [
+    "1353-1359-ilyas-shah-delhi-sultanate-conflict"
+  ],
+  "relatedTopicIds": []
 }

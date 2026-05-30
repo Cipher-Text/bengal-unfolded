@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Human Rights Watch statement on the 2018 road-safety protests, attacks on students, and targeting of journalists and critics."
+  "whyItMatters": "Human Rights Watch statement on the 2018 road-safety protests, attacks on students, and targeting of journalists and critics.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2018-safe-road"
+  ],
+  "relatedTopicIds": []
 }

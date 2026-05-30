@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুহাম্মদ আলী জিন্নাহ এবং দেশভাগ রাজনীতির পটভূমি বোঝার জন্য বহুলপঠিত জীবনী."
+  "whyItMatters": "মুহাম্মদ আলী জিন্নাহ এবং দেশভাগ রাজনীতির পটভূমি বোঝার জন্য বহুলপঠিত জীবনী.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

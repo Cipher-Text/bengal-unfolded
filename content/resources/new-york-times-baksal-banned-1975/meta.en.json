@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Contemporary international reporting on the ban after 15 August 1975. Useful for understanding the fall of BAKSAL."
+  "whyItMatters": "Contemporary international reporting on the ban after 15 August 1975. Useful for understanding the fall of BAKSAL.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

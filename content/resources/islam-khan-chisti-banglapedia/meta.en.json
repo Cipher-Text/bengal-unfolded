@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia entry on Islam Khan's Bengal subahdari and campaigns against Bhuiyan resistance."
+  "whyItMatters": "Banglapedia entry on Islam Khan's Bengal subahdari and campaigns against Bhuiyan resistance.",
+  "relatedEventIds": [
+    "1610-capital-shift-to-dhaka-jahangirnagar"
+  ],
+  "relatedTopicIds": []
 }

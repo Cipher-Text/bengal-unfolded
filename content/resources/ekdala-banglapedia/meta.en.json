@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia reference on the Ekdala fort context used in describing Delhi's Bengal campaigns."
+  "whyItMatters": "Banglapedia reference on the Ekdala fort context used in describing Delhi's Bengal campaigns.",
+  "relatedEventIds": [
+    "1353-1359-ilyas-shah-delhi-sultanate-conflict"
+  ],
+  "relatedTopicIds": []
 }

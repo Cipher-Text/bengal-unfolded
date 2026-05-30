@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary appellate judicial document on the appeal, death sentence, and reasoning in the ICT case."
+  "whyItMatters": "Primary appellate judicial document on the appeal, death sentence, and reasoning in the ICT case.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

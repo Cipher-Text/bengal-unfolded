@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "শেখ মুজিবুর রহমানের রাজনৈতিক নেতৃত্ব ও জাতির পিতা বয়ান বোঝার জন্য সহায়ক পাঠ."
+  "whyItMatters": "শেখ মুজিবুর রহমানের রাজনৈতিক নেতৃত্ব ও জাতির পিতা বয়ান বোঝার জন্য সহায়ক পাঠ.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

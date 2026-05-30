@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "দলীয় রাজনীতি, আওয়ামী লীগ-বিএনপি, reform politics ও ১/১১-এর রাজনৈতিক অভিঘাত বোঝার জন্য useful Bangla secondary reading; exact edition verify করা দরকার."
+  "whyItMatters": "দলীয় রাজনীতি, আওয়ামী লীগ-বিএনপি, reform politics ও ১/১১-এর রাজনৈতিক অভিঘাত বোঝার জন্য useful Bangla secondary reading; exact edition verify করা দরকার.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Research on youth politics, digital mobilisation, secular-national identity, and the online public sphere."
+  "whyItMatters": "Research on youth politics, digital mobilisation, secular-national identity, and the online public sphere.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

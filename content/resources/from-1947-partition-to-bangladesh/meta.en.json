@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for tracing the political continuity from partition to Bangladesh state formation and Bangabandhu's role."
+  "whyItMatters": "Useful for tracing the political continuity from partition to Bangladesh state formation and Bangabandhu's role.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

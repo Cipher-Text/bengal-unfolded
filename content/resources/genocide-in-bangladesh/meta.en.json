@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "An early account of the 1971 genocide, international reaction, and atrocity documentation."
+  "whyItMatters": "An early account of the 1971 genocide, international reaction, and atrocity documentation.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

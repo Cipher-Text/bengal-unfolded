@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "ঘটনার রাজনৈতিক ব্যাখ্যা, security failure, civil-military relations ও conspiracy debate বোঝার জন্য secondary analysis; strong cross-check দরকার."
+  "whyItMatters": "ঘটনার রাজনৈতিক ব্যাখ্যা, security failure, civil-military relations ও conspiracy debate বোঝার জন্য secondary analysis; strong cross-check দরকার.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

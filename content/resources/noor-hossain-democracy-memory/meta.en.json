@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Cultural memory source for Noor Hossain’s symbolic slogan and how he came to represent democratic resistance."
+  "whyItMatters": "Cultural memory source for Noor Hossain’s symbolic slogan and how he came to represent democratic resistance.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

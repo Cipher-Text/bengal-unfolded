@@ -10,5 +10,12 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Overview of the Company's shift from trade to colonial rule, including the grant of diwani rights and its economic consequences in Bengal."
+  "whyItMatters": "Overview of the Company's shift from trade to colonial rule, including the grant of diwani rights and its economic consequences in Bengal.",
+  "relatedEventIds": [
+    "1760-1800-fakir-sannyasi-resistance",
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

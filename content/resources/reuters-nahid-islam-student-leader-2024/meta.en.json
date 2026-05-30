@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "Profile of Nahid Islam and the Students Against Discrimination leadership, useful for movement evolution and resignation context."
+  "whyItMatters": "Profile of Nahid Islam and the Students Against Discrimination leadership, useful for movement evolution and resignation context.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

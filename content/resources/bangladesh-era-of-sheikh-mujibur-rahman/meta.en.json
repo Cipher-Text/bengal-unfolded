@@ -8,5 +8,13 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Important insider-political account of the 1972–1975 Mujib years, covering administration, constitution, emergency rule, BAKSAL, and political crisis."
+  "whyItMatters": "Important insider-political account of the 1972–1975 Mujib years, covering administration, constitution, emergency rule, BAKSAL, and political crisis.",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war",
+    "1973-first-parliamentary-election-bangladesh",
+    "1974-special-powers-act",
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

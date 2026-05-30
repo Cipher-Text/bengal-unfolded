@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful Bangladeshi news archive for live coverage, activist statements, cyber debate, rallies, and counter-reactions."
+  "whyItMatters": "Useful Bangladeshi news archive for live coverage, activist statements, cyber debate, rallies, and counter-reactions.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

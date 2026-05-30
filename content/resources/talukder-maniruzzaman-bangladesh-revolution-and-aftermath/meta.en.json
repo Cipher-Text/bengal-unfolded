@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "href": "https://www.ucpress.edu/books/the-bangladesh-revolution-and-its-aftermath/paper"
+  "href": "https://www.ucpress.edu/books/the-bangladesh-revolution-and-its-aftermath/paper",
+  "relatedTopicIds": [
+    "state-formation-crisis-and-military-rule-1972-1990"
+  ],
+  "relatedEventIds": []
 }

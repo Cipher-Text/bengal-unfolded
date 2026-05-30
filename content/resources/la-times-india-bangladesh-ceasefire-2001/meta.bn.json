@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "সংঘর্ষ-পরবর্তী যুদ্ধবিরতির অবস্থা, স্থানীয় লড়াইয়ের প্রেক্ষাপট ও তাৎক্ষণিক কূটনৈতিক বার্তা নিয়ে সমসাময়িক প্রতিবেদন।"
+  "whyItMatters": "সংঘর্ষ-পরবর্তী যুদ্ধবিরতির অবস্থা, স্থানীয় লড়াইয়ের প্রেক্ষাপট ও তাৎক্ষণিক কূটনৈতিক বার্তা নিয়ে সমসাময়িক প্রতিবেদন।",
+  "relatedEventIds": [
+    "2001-padua-pyrdiwah-boraibari-border-clash"
+  ],
+  "relatedTopicIds": []
 }

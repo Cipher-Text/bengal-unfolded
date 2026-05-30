@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "নতুন প্রজন্ম, digital mobilisation, secular-nationalist identity ও online public sphere বোঝার জন্য research source."
+  "whyItMatters": "নতুন প্রজন্ম, digital mobilisation, secular-nationalist identity ও online public sphere বোঝার জন্য research source.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

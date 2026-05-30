@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "নিরাপদ সড়ক আন্দোলনের international media framing, urban paralysis, student-led traffic regulation ও government response বোঝার জন্য useful archive."
+  "whyItMatters": "নিরাপদ সড়ক আন্দোলনের international media framing, urban paralysis, student-led traffic regulation ও government response বোঝার জন্য useful archive.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

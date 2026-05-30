@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Official party perspective that presents BAKSAL as national unity, administrative decentralization, and the second revolution. Read it alongside critical accounts."
+  "whyItMatters": "Official party perspective that presents BAKSAL as national unity, administrative decentralization, and the second revolution. Read it alongside critical accounts.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

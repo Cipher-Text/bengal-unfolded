@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "An important source for understanding Sector 2 and the military role of K Force."
+  "whyItMatters": "An important source for understanding Sector 2 and the military role of K Force.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

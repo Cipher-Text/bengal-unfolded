@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Party-perspective source on the eight-party alliance, Sheikh Hasina’s leadership, and the Awami League’s role in the anti-Ershad movement."
+  "whyItMatters": "Party-perspective source on the eight-party alliance, Sheikh Hasina’s leadership, and the Awami League’s role in the anti-Ershad movement.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

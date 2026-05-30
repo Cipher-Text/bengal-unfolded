@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "Al Jazeera's report on the immediate parliamentary aftermath of the 5 January 2014 election, including the oath-taking and continuing legitimacy dispute."
+  "whyItMatters": "Al Jazeera's report on the immediate parliamentary aftermath of the 5 January 2014 election, including the oath-taking and continuing legitimacy dispute.",
+  "relatedEventIds": [
+    "2014-10th-parliamentary-election"
+  ],
+  "relatedTopicIds": []
 }

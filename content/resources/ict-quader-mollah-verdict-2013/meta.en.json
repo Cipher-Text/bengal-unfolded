@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Core judicial source for the 5 February 2013 verdict that triggered the Shahbag movement."
+  "whyItMatters": "Core judicial source for the 5 February 2013 verdict that triggered the Shahbag movement.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

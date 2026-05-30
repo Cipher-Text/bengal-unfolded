@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "সাধারণ মানুষের জীবন, ইতিহাস ও যুদ্ধের নির্মমতা মিলিয়ে লেখা আধুনিক ক্লাসিক।"
+  "whyItMatters": "সাধারণ মানুষের জীবন, ইতিহাস ও যুদ্ধের নির্মমতা মিলিয়ে লেখা আধুনিক ক্লাসিক।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

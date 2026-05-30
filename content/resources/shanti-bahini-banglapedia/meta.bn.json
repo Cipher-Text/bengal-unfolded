@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "স্বায়ত্তশাসন দাবি, সংগঠনগত প্রেক্ষাপট এবং ১৯৭৬ সালের শুরুর দিকের সশস্ত্র অভিযানের উল্লেখসহ বাংলাপিডিয়ার নিবন্ধ।"
+  "whyItMatters": "স্বায়ত্তশাসন দাবি, সংগঠনগত প্রেক্ষাপট এবং ১৯৭৬ সালের শুরুর দিকের সশস্ত্র অভিযানের উল্লেখসহ বাংলাপিডিয়ার নিবন্ধ।",
+  "relatedEventIds": [
+    "1976-1997-shanti-bahini-insurgency"
+  ],
+  "relatedTopicIds": []
 }

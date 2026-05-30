@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৭৫ সালের সাংবিধানিক সংশোধনী, একদলীয় ব্যবস্থা এবং প্রাতিষ্ঠানিক বিকাশ বোঝার জন্য আধুনিক academic context."
+  "whyItMatters": "১৯৭৫ সালের সাংবিধানিক সংশোধনী, একদলীয় ব্যবস্থা এবং প্রাতিষ্ঠানিক বিকাশ বোঝার জন্য আধুনিক academic context.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

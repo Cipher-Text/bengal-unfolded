@@ -9,5 +9,19 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "An interdisciplinary volume on the making of Bangladesh, from language politics to the 1971 war and beyond."
+  "whyItMatters": "An interdisciplinary volume on the making of Bangladesh, from language politics to the 1971 war and beyond.",
+  "relatedEventIds": [
+    "1952-language-movement",
+    "1954-united-front-election-victory-in-east-bengal",
+    "1958-martial-law-in-pakistan",
+    "1962-education-movement-in-east-pakistan",
+    "1964-communal-riots-east-pakistan",
+    "1965-indo-pak-war-east-pakistan-insecurity",
+    "1966-six-point-programme-announced",
+    "1969-mass-uprising",
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "relatedTopicIds": []
 }

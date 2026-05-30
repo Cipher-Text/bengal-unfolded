@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica biography and campaign context on Humayun, including the Bengal campaign before Chausa."
+  "whyItMatters": "Britannica biography and campaign context on Humayun, including the Bengal campaign before Chausa.",
+  "relatedEventIds": [
+    "1538-humayun-enters-bengal-and-occupies-gaur",
+    "1539-battle-of-chausa"
+  ],
+  "relatedTopicIds": []
 }

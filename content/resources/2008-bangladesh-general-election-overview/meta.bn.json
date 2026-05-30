@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "২০০৮ নির্বাচনের date, alliances, seat distribution ও transition overview-এর জন্য starting reference; final claim citation হলে Election Commission source দিয়ে cross-check করা উচিত."
+  "whyItMatters": "২০০৮ নির্বাচনের date, alliances, seat distribution ও transition overview-এর জন্য starting reference; final claim citation হলে Election Commission source দিয়ে cross-check করা উচিত.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

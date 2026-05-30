@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia summary of Titumir's life, leadership, and the 1831 bamboo-fort uprising."
+  "whyItMatters": "Banglapedia summary of Titumir's life, leadership, and the 1831 bamboo-fort uprising.",
+  "relatedEventIds": [
+    "1831-titumir-s-bamboo-fort-uprising"
+  ],
+  "relatedTopicIds": []
 }

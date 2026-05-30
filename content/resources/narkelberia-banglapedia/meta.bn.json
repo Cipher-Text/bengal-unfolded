@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "নারকেলবেড়িয়া এবং তিতুমীরের বাঁশের কেল্লা অধ্যায় নিয়ে বাংলাপিডিয়ার রেফারেন্সভিত্তিক তথ্য।"
+  "whyItMatters": "নারকেলবেড়িয়া এবং তিতুমীরের বাঁশের কেল্লা অধ্যায় নিয়ে বাংলাপিডিয়ার রেফারেন্সভিত্তিক তথ্য।",
+  "relatedEventIds": [
+    "1831-titumir-s-bamboo-fort-uprising"
+  ],
+  "relatedTopicIds": []
 }

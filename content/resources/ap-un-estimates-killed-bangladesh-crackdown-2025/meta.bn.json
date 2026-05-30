@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "OHCHR findings-এর news summary; casualty estimate, detention, children casualties এবং possible crimes against humanity framing বোঝার জন্য useful news source."
+  "whyItMatters": "OHCHR findings-এর news summary; casualty estimate, detention, children casualties এবং possible crimes against humanity framing বোঝার জন্য useful news source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

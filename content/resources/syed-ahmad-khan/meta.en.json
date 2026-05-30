@@ -10,5 +10,11 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica profile for Syed Ahmad Khan; useful for Muslim modernism, education reform, and colonial-era political consciousness."
+  "whyItMatters": "Britannica profile for Syed Ahmad Khan; useful for Muslim modernism, education reform, and colonial-era political consciousness.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "href": "https://www.amnesty.org/en/latest/news/2018/08/bangladesh-release-photographer-end-violent-crackdown/",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "International rights perspective on the road-safety movement, Shahidul Alam’s detention, and the crackdown on dissent."
+  "whyItMatters": "International rights perspective on the road-safety movement, Shahidul Alam’s detention, and the crackdown on dissent.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

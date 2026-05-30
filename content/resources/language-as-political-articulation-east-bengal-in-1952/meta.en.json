@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "One of the strongest papers for the Language Movement, Bengali nationalism, and the political meaning of 1952."
+  "whyItMatters": "One of the strongest papers for the Language Movement, Bengali nationalism, and the political meaning of 1952.",
+  "relatedEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

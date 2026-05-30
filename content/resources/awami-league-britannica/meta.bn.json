@@ -10,5 +10,15 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "পূর্ব পাকিস্তান ও বাংলাদেশের রাজনীতিতে আওয়ামী লীগের প্রতিষ্ঠা-প্রেক্ষিত, বিকাশ ও ভূমিকায় ব্রিটানিকার সংক্ষিপ্ত বিশ্লেষণ।"
+  "whyItMatters": "পূর্ব পাকিস্তান ও বাংলাদেশের রাজনীতিতে আওয়ামী লীগের প্রতিষ্ঠা-প্রেক্ষিত, বিকাশ ও ভূমিকায় ব্রিটানিকার সংক্ষিপ্ত বিশ্লেষণ।",
+  "relatedEventIds": [
+    "1949-founding-of-awami-muslim-league",
+    "1952-language-movement",
+    "1954-united-front-election-victory-in-east-bengal",
+    "1958-martial-law-in-pakistan",
+    "1966-six-point-programme-announced",
+    "1969-mass-uprising",
+    "1970-bhola-cyclone-and-the-1970-election"
+  ],
+  "relatedTopicIds": []
 }

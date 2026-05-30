@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Interim health ministry estimate, injuries এবং protest violence casualty debate বোঝার জন্য important contemporary news archive."
+  "whyItMatters": "Interim health ministry estimate, injuries এবং protest violence casualty debate বোঝার জন্য important contemporary news archive.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

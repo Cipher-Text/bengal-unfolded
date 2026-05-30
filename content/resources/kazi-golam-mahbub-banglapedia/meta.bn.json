@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম পরিষদের আহ্বায়ক কাজী গোলাম মাহবুবকে বোঝার জন্য একটি প্রাসঙ্গিক জীবনীসূত্র।"
+  "whyItMatters": "সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম পরিষদের আহ্বায়ক কাজী গোলাম মাহবুবকে বোঝার জন্য একটি প্রাসঙ্গিক জীবনীসূত্র।",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

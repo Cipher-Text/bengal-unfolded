@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica profile and contextual notes on Murshid Quli Khan and Bengal's early 18th-century reorganization."
+  "whyItMatters": "Britannica profile and contextual notes on Murshid Quli Khan and Bengal's early 18th-century reorganization.",
+  "relatedEventIds": [
+    "1717-murshid-quli-khan-formally-appointed-nawab"
+  ],
+  "relatedTopicIds": []
 }

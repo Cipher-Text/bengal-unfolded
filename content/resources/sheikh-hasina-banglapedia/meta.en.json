@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A useful reference on Sheikh Hasina's role in the anti-Ershad movement and the 1990 alliance politics."
+  "whyItMatters": "A useful reference on Sheikh Hasina's role in the anti-Ershad movement and the 1990 alliance politics.",
+  "relatedEventIds": [
+    "1990-mass-uprising",
+    "2006-caretaker-crisis-and-emergency-rule"
+  ],
+  "relatedTopicIds": []
 }

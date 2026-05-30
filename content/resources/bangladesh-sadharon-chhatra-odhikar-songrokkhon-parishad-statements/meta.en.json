@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary movement source for self-description, demands, programme, and student leadership in the quota-reform movement."
+  "whyItMatters": "Primary movement source for self-description, demands, programme, and student leadership in the quota-reform movement.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

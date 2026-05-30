@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "মির্জা খিজর সুলতানের পরিচয়, ১৮৫৭-র বিদ্রোহে তার ভূমিকা এবং দিল্লি পতনের সময় তার মৃত্যুর বিবরণসহ প্রোফাইল।"
+  "whyItMatters": "মির্জা খিজর সুলতানের পরিচয়, ১৮৫৭-র বিদ্রোহে তার ভূমিকা এবং দিল্লি পতনের সময় তার মৃত্যুর বিবরণসহ প্রোফাইল।",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

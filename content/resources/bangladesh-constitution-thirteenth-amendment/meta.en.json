@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Core legal source for the neutral caretaker system that formed the constitutional background of the 2006 crisis."
+  "whyItMatters": "Core legal source for the neutral caretaker system that formed the constitutional background of the 2006 crisis.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

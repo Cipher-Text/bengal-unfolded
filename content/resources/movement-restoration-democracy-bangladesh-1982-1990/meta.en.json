@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Academic research on the political sociology of the anti-Ershad movement, party alliances, student mobilization, and civil resistance."
+  "whyItMatters": "Academic research on the political sociology of the anti-Ershad movement, party alliances, student mobilization, and civil resistance.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

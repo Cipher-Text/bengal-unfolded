@@ -12,5 +12,9 @@
   "relatedFigureIds": [
     "bangla-bhai"
   ],
-  "whyItMatters": "Provides security-reference context for JMB/JMJB and Bangla Bhai's public role in mid-2000s militancy."
+  "whyItMatters": "Provides security-reference context for JMB/JMJB and Bangla Bhai's public role in mid-2000s militancy.",
+  "relatedEventIds": [
+    "2005-jmb-nationwide-bombings"
+  ],
+  "relatedTopicIds": []
 }

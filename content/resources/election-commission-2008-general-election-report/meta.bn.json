@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "২৯ ডিসেম্বর ২০০৮ নির্বাচন, ফলাফল, voter list, electoral process ও turnout বোঝার জন্য primary institutional source."
+  "whyItMatters": "২৯ ডিসেম্বর ২০০৮ নির্বাচন, ফলাফল, voter list, electoral process ও turnout বোঝার জন্য primary institutional source.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

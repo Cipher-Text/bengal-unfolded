@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia account of Shah Jalal and the conquest of Sylhet, including discussion of historical and legendary strands."
+  "whyItMatters": "Banglapedia account of Shah Jalal and the conquest of Sylhet, including discussion of historical and legendary strands.",
+  "relatedEventIds": [
+    "1303-conquest-of-sylhet"
+  ],
+  "relatedTopicIds": []
 }

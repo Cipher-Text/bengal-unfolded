@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "নুর হোসেন সম্পর্কে একটি জীবনীসূত্র, যার মৃত্যু স্বৈরাচারবিরোধী আন্দোলনের অন্যতম প্রধান প্রতীকে পরিণত হয়।"
+  "whyItMatters": "নুর হোসেন সম্পর্কে একটি জীবনীসূত্র, যার মৃত্যু স্বৈরাচারবিরোধী আন্দোলনের অন্যতম প্রধান প্রতীকে পরিণত হয়।",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

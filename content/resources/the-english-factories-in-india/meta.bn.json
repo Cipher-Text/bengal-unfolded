@@ -9,5 +9,14 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "ইস্ট ইন্ডিয়া কোম্পানির বাণিজ্য, ফ্যাক্টরি, এবং ঔপনিবেশিক বাণিজ্য সম্প্রসারণের প্রাথমিক নথি-সংকলন।"
+  "whyItMatters": "ইস্ট ইন্ডিয়া কোম্পানির বাণিজ্য, ফ্যাক্টরি, এবং ঔপনিবেশিক বাণিজ্য সম্প্রসারণের প্রাথমিক নথি-সংকলন।",
+  "relatedEventIds": [
+    "1612-mughal-conquest-phase-in-bengal-largely-completed",
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1757-battle-of-plassey",
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

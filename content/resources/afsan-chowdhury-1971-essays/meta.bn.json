@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "href": "https://en.wikipedia.org/wiki/Afsan_Chowdhury"
+  "href": "https://en.wikipedia.org/wiki/Afsan_Chowdhury",
+  "relatedTopicIds": [
+    "liberation-war-1971"
+  ],
+  "relatedEventIds": []
 }

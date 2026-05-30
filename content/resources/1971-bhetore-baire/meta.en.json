@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A post-1971 reflection on the war and its internal experience and political observation."
+  "whyItMatters": "A post-1971 reflection on the war and its internal experience and political observation.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

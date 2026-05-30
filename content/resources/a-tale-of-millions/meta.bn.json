@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "একজন মুক্তিযোদ্ধা ও সামরিক কর্মকর্তার দৃষ্টিকোণ থেকে মুক্তিযুদ্ধের স্মৃতি ও অভিজ্ঞতা."
+  "whyItMatters": "একজন মুক্তিযোদ্ধা ও সামরিক কর্মকর্তার দৃষ্টিকোণ থেকে মুক্তিযুদ্ধের স্মৃতি ও অভিজ্ঞতা.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

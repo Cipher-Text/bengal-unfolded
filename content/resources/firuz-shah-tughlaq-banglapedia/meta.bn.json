@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৩৫৩-৫৪ ও ১৩৫৯-৬০ সালের বঙ্গ অভিযানের প্রেক্ষাপট ধরতে ফিরোজ শাহ তুঘলকের শাসনকালভিত্তিক বাংলাপিডিয়া রেফারেন্স।"
+  "whyItMatters": "১৩৫৩-৫৪ ও ১৩৫৯-৬০ সালের বঙ্গ অভিযানের প্রেক্ষাপট ধরতে ফিরোজ শাহ তুঘলকের শাসনকালভিত্তিক বাংলাপিডিয়া রেফারেন্স।",
+  "relatedEventIds": [
+    "1353-1359-ilyas-shah-delhi-sultanate-conflict"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,12 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাণিজ্যিক প্রতিষ্ঠান থেকে ঔপনিবেশিক শক্তিতে কোম্পানির রূপান্তর, দেওয়ানি অধিকার এবং বাংলার অর্থনৈতিক পরিণতি বোঝার জন্য একটি কার্যকর রেফারেন্স।"
+  "whyItMatters": "বাণিজ্যিক প্রতিষ্ঠান থেকে ঔপনিবেশিক শক্তিতে কোম্পানির রূপান্তর, দেওয়ানি অধিকার এবং বাংলার অর্থনৈতিক পরিণতি বোঝার জন্য একটি কার্যকর রেফারেন্স।",
+  "relatedEventIds": [
+    "1760-1800-fakir-sannyasi-resistance",
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

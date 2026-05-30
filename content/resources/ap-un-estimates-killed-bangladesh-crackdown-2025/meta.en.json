@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "News summary of OHCHR casualty estimates, detention, children casualties, and the framing of possible crimes against humanity."
+  "whyItMatters": "News summary of OHCHR casualty estimates, detention, children casualties, and the framing of possible crimes against humanity.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

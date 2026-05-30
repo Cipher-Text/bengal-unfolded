@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Strong for disaster governance and how the cyclone fed nationalist politics and state legitimacy debates."
+  "whyItMatters": "Strong for disaster governance and how the cyclone fed nationalist politics and state legitimacy debates.",
+  "relatedEventIds": [
+    "1970-bhola-cyclone-and-the-1970-election",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "মওলানা আবুল কালাম আজাদ সম্পর্কে ব্রিটানিকা প্রোফাইল; উপনিবেশবিরোধী জাতীয়তাবাদ, শিক্ষা নীতি এবং দেশভাগ বিতর্ক বোঝার জন্য উপযোগী।"
+  "whyItMatters": "মওলানা আবুল কালাম আজাদ সম্পর্কে ব্রিটানিকা প্রোফাইল; উপনিবেশবিরোধী জাতীয়তাবাদ, শিক্ষা নীতি এবং দেশভাগ বিতর্ক বোঝার জন্য উপযোগী।",
+  "relatedEventIds": [
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

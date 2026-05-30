@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A useful memoir for understanding organization, public opinion, and advocacy in the diaspora."
+  "whyItMatters": "A useful memoir for understanding organization, public opinion, and advocacy in the diaspora.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "editorial",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A classic partition novel that captures the fear, rupture, and violence of 1947 through village life at the border."
+  "whyItMatters": "A classic partition novel that captures the fear, rupture, and violence of 1947 through village life at the border.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

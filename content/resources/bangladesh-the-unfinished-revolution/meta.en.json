@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A useful secondary source for understanding independence, crisis, and the unfinished nature of the political project."
+  "whyItMatters": "A useful secondary source for understanding independence, crisis, and the unfinished nature of the political project.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary legal basis for the emergency declaration, suspension of civil liberties, and restriction of political activity."
+  "whyItMatters": "Primary legal basis for the emergency declaration, suspension of civil liberties, and restriction of political activity.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

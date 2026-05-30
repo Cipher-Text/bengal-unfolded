@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Archive source for campus mobilisation, police action, attack allegations, and the government response during February–July 2018."
+  "whyItMatters": "Archive source for campus mobilisation, police action, attack allegations, and the government response during February–July 2018.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

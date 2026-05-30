@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Photo archive for visual memory of Projonmo Chattar, candles, flags, slogans, posters, and public gatherings."
+  "whyItMatters": "Photo archive for visual memory of Projonmo Chattar, candles, flags, slogans, posters, and public gatherings.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

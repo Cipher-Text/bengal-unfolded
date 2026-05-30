@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "খাদ্য-প্রাপ্যতা বিতর্ক এবং সেন-সংশ্লিষ্ট দুর্ভিক্ষ ব্যাখ্যার জন্য উপযোগী।"
+  "whyItMatters": "খাদ্য-প্রাপ্যতা বিতর্ক এবং সেন-সংশ্লিষ্ট দুর্ভিক্ষ ব্যাখ্যার জন্য উপযোগী।",
+  "relatedEventIds": [
+    "1943-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

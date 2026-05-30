@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Sheikh Mujibur Rahman's travelogue about his 1952 China visit and postcolonial Asian politics."
+  "whyItMatters": "Sheikh Mujibur Rahman's travelogue about his 1952 China visit and postcolonial Asian politics.",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for cinema, representation, and how the war is reinterpreted in later memory cultures."
+  "whyItMatters": "Useful for cinema, representation, and how the war is reinterpreted in later memory cultures.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

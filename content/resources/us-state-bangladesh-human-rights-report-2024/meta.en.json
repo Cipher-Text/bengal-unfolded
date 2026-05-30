@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Annual U.S. State Department report on human rights, student protests, killings, detention, and the transition context."
+  "whyItMatters": "Annual U.S. State Department report on human rights, student protests, killings, detention, and the transition context.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

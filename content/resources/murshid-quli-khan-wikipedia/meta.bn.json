@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৭১৭ সালে মুর্শিদ কুলি খানের নিয়োগ এবং বাংলায় প্রশাসনিক কেন্দ্রায়ন সম্পর্কে বাংলাপিডিয়া রেফারেন্স।"
+  "whyItMatters": "১৭১৭ সালে মুর্শিদ কুলি খানের নিয়োগ এবং বাংলায় প্রশাসনিক কেন্দ্রায়ন সম্পর্কে বাংলাপিডিয়া রেফারেন্স।",
+  "relatedEventIds": [
+    "1717-murshid-quli-khan-formally-appointed-nawab"
+  ],
+  "relatedTopicIds": []
 }

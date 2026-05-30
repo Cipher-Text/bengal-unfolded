@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Critical comparison source for the Ershad government’s self-justification, reform claims, and alternative interpretation of the movement."
+  "whyItMatters": "Critical comparison source for the Ershad government’s self-justification, reform claims, and alternative interpretation of the movement.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "href": "https://www.unhcr.org/news/news-releases/joint-statement-rohingya-refugee-crisis",
   "sourceQuality": "archive",
   "evidenceLevel": "high",
-  "whyItMatters": "UN agencies' joint crisis statement from October 2017."
+  "whyItMatters": "UN agencies' joint crisis statement from October 2017.",
+  "relatedEventIds": [
+    "2017-rohingya-mass-influx-into-bangladesh"
+  ],
+  "relatedTopicIds": []
 }

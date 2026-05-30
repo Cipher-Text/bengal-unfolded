@@ -9,5 +9,13 @@
   "quality": "primary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "অষ্টাদশ শতকের শেষভাগের মুঘল ভারতের ইতিহাস; বাংলার নবাবি ও প্লাসির পটভূমি বুঝতে অপরিহার্য।"
+  "whyItMatters": "অষ্টাদশ শতকের শেষভাগের মুঘল ভারতের ইতিহাস; বাংলার নবাবি ও প্লাসির পটভূমি বুঝতে অপরিহার্য।",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1757-battle-of-plassey",
+    "1764-battle-of-buxar",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

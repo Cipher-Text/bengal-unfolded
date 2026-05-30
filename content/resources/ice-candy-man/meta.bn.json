@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "দেশভাগের ট্রমা, লিঙ্গভিত্তিক সহিংসতা এবং লাহোর প্রেক্ষাপট নিয়ে গুরুত্বপূর্ণ উপন্যাস."
+  "whyItMatters": "দেশভাগের ট্রমা, লিঙ্গভিত্তিক সহিংসতা এবং লাহোর প্রেক্ষাপট নিয়ে গুরুত্বপূর্ণ উপন্যাস.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

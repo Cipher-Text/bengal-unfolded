@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia entry outlining Murshid Quli Khan's administrative role and the capital transfer context in early eighteenth-century Bengal."
+  "whyItMatters": "Banglapedia entry outlining Murshid Quli Khan's administrative role and the capital transfer context in early eighteenth-century Bengal.",
+  "relatedEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1717-murshid-quli-khan-formally-appointed-nawab"
+  ],
+  "relatedTopicIds": []
 }

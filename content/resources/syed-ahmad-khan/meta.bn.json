@@ -10,5 +10,11 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "সৈয়দ আহমদ খান সম্পর্কে ব্রিটানিকা প্রোফাইল; মুসলিম আধুনিকতা, শিক্ষা সংস্কার এবং ঔপনিবেশিক যুগের রাজনৈতিক চেতনা বোঝার জন্য উপযোগী।"
+  "whyItMatters": "সৈয়দ আহমদ খান সম্পর্কে ব্রিটানিকা প্রোফাইল; মুসলিম আধুনিকতা, শিক্ষা সংস্কার এবং ঔপনিবেশিক যুগের রাজনৈতিক চেতনা বোঝার জন্য উপযোগী।",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

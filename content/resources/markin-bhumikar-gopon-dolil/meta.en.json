@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A declassified U.S. document collection for understanding diplomacy, policy, and the archival record of 1971."
+  "whyItMatters": "A declassified U.S. document collection for understanding diplomacy, policy, and the archival record of 1971.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

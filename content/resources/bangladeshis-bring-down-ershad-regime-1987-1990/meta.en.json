@@ -9,5 +9,9 @@
   "href": "https://nvdatabase.swarthmore.edu/content/bangladeshis-bring-down-ershad-regime-1987-1990",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Archive-style overview of the anti-Ershad movement, its tactics, timeline, and nonviolent action framework."
+  "whyItMatters": "Archive-style overview of the anti-Ershad movement, its tactics, timeline, and nonviolent action framework.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

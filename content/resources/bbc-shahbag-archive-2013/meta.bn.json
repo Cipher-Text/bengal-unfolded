@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "আন্দোলনের breaking coverage, national spread, political reactions ও international framing বোঝার জন্য useful archive source."
+  "whyItMatters": "আন্দোলনের breaking coverage, national spread, political reactions ও international framing বোঝার জন্য useful archive source.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

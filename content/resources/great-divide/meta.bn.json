@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "ব্রিটিশ প্রত্যাহার, দেশভাগ কূটনীতি এবং ভারত-পাকিস্তান সৃষ্টি নিয়ে বিস্তৃত রাজনৈতিক ইতিহাস."
+  "whyItMatters": "ব্রিটিশ প্রত্যাহার, দেশভাগ কূটনীতি এবং ভারত-পাকিস্তান সৃষ্টি নিয়ে বিস্তৃত রাজনৈতিক ইতিহাস.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

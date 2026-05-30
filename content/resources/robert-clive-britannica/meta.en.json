@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Profile of Clive with focus on Plassey, Bengal administration, and the expansion of Company power."
+  "whyItMatters": "Profile of Clive with focus on Plassey, Bengal administration, and the expansion of Company power.",
+  "relatedEventIds": [
+    "1757-battle-of-plassey",
+    "1765-east-india-company-gets-diwani-rights-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A supplementary source for understanding the social and humanitarian consequences of partition, especially minority experience and the East Pakistan context."
+  "whyItMatters": "A supplementary source for understanding the social and humanitarian consequences of partition, especially minority experience and the East Pakistan context.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

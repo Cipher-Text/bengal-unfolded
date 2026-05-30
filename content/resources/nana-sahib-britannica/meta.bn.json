@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "নানা সাহেবের জীবন, কানপুরে তার ভূমিকা এবং ১৮৫৭ বিদ্রোহের নেতৃত্ব কাঠামোয় অবস্থান বোঝার জন্য জীবনীমূলক রেফারেন্স।"
+  "whyItMatters": "নানা সাহেবের জীবন, কানপুরে তার ভূমিকা এবং ১৮৫৭ বিদ্রোহের নেতৃত্ব কাঠামোয় অবস্থান বোঝার জন্য জীবনীমূলক রেফারেন্স।",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

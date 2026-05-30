@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুক্তিযুদ্ধের অভ্যন্তরীণ অভিজ্ঞতা ও সামরিক-রাজনৈতিক পর্যবেক্ষণের স্মৃতিকথা."
+  "whyItMatters": "মুক্তিযুদ্ধের অভ্যন্তরীণ অভিজ্ঞতা ও সামরিক-রাজনৈতিক পর্যবেক্ষণের স্মৃতিকথা.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "জরুরি অবস্থার মধ্যে ঢাকা বিশ্ববিদ্যালয়ের ছাত্র-সেনা সংঘর্ষ, protest, curfew ও arrests বোঝার জন্য important event archive."
+  "whyItMatters": "জরুরি অবস্থার মধ্যে ঢাকা বিশ্ববিদ্যালয়ের ছাত্র-সেনা সংঘর্ষ, protest, curfew ও arrests বোঝার জন্য important event archive.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

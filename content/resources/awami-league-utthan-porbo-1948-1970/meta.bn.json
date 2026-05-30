@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "আওয়ামী লীগের উত্থান, ভাষা-রাজনীতি এবং ১৯৭১-এর পূর্বশর্ত বোঝার জন্য দরকারি."
+  "whyItMatters": "আওয়ামী লীগের উত্থান, ভাষা-রাজনীতি এবং ১৯৭১-এর পূর্বশর্ত বোঝার জন্য দরকারি.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

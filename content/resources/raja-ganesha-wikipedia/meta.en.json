@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia biographical and political overview of Raja Ganesha's seizure of power in early fifteenth-century Bengal."
+  "whyItMatters": "Banglapedia biographical and political overview of Raja Ganesha's seizure of power in early fifteenth-century Bengal.",
+  "relatedEventIds": [
+    "1414-raja-ganesha-seizes-power-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

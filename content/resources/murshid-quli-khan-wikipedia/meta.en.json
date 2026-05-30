@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia reference noting Murshid Quli Khan's appointment in 1717 and administrative centralization in Bengal."
+  "whyItMatters": "Banglapedia reference noting Murshid Quli Khan's appointment in 1717 and administrative centralization in Bengal.",
+  "relatedEventIds": [
+    "1717-murshid-quli-khan-formally-appointed-nawab"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯০৫ সালের বঙ্গভঙ্গের প্রেক্ষাপটে ঢাকার নবাব পরিবারের রাজনৈতিক ভূমিকা বোঝার জন্য সহায়ক রেফারেন্স।"
+  "whyItMatters": "১৯০৫ সালের বঙ্গভঙ্গের প্রেক্ষাপটে ঢাকার নবাব পরিবারের রাজনৈতিক ভূমিকা বোঝার জন্য সহায়ক রেফারেন্স।",
+  "relatedEventIds": [
+    "1905-partition-of-bengal"
+  ],
+  "relatedTopicIds": []
 }

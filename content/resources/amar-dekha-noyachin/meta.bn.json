@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "শেখ মুজিবুর রহমানের ১৯৫২ সালের চীনভ্রমণ ও উত্তর-ঔপনিবেশিক এশীয় রাজনীতির ভ্রমণকথা।"
+  "whyItMatters": "শেখ মুজিবুর রহমানের ১৯৫২ সালের চীনভ্রমণ ও উত্তর-ঔপনিবেশিক এশীয় রাজনীতির ভ্রমণকথা।",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

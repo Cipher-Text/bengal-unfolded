@@ -13,5 +13,6 @@
   "relatedEventIds": [
     "2018-election"
   ],
-  "whyItMatters": "Provides structured parliamentary election reference data used for date and outcome verification."
+  "whyItMatters": "Provides structured parliamentary election reference data used for date and outcome verification.",
+  "relatedTopicIds": []
 }

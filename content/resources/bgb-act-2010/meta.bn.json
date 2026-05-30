@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "BDR থেকে Border Guard Bangladesh-এ institutional transformation, আইনগত কাঠামো ও post-mutiny reform বোঝার জন্য primary legal source."
+  "whyItMatters": "BDR থেকে Border Guard Bangladesh-এ institutional transformation, আইনগত কাঠামো ও post-mutiny reform বোঝার জন্য primary legal source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

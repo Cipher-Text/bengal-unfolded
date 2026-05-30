@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Critical academic and policy reading on military influence, indirect rule debates, and civilian transition."
+  "whyItMatters": "Critical academic and policy reading on military influence, indirect rule debates, and civilian transition.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

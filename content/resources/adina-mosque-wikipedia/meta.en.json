@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia reference for one of the major architectural expressions of the Bengal Sultanate period."
+  "whyItMatters": "Banglapedia reference for one of the major architectural expressions of the Bengal Sultanate period.",
+  "relatedEventIds": [
+    "1352-bengal-sultanate-independence-and-unification"
+  ],
+  "relatedTopicIds": []
 }

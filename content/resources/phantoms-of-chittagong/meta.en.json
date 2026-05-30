@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A supplementary source for the military and political context around Chittagong during the war."
+  "whyItMatters": "A supplementary source for the military and political context around Chittagong during the war.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

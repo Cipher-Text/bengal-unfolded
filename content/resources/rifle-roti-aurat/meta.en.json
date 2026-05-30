@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "War-time novel written during 1971, reflecting fear, violence, and collapse in occupied Dhaka."
+  "whyItMatters": "War-time novel written during 1971, reflecting fear, violence, and collapse in occupied Dhaka.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

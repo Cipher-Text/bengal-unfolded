@@ -8,5 +8,10 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৪৭ সালের রাজনৈতিক বিকাশ, বক্তৃতা, প্রস্তাব এবং জনরেকর্ড ট্র্যাক করার জন্য উপযোগী সংকলন."
+  "whyItMatters": "১৯৪৭ সালের রাজনৈতিক বিকাশ, বক্তৃতা, প্রস্তাব এবং জনরেকর্ড ট্র্যাক করার জন্য উপযোগী সংকলন.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1947-radcliffe-award-border-demarcation-implementation"
+  ],
+  "relatedTopicIds": []
 }

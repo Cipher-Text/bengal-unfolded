@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "ঘটনার সময়কার live coverage, activist statements, cyber debate, rallies ও counter-reactions বোঝার জন্য useful Bangladeshi news archive."
+  "whyItMatters": "ঘটনার সময়কার live coverage, activist statements, cyber debate, rallies ও counter-reactions বোঝার জন্য useful Bangladeshi news archive.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

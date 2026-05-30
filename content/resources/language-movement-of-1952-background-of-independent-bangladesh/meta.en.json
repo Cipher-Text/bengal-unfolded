@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Introductory review; useful as a background summary, but it should be verified before being treated as a core source."
+  "whyItMatters": "Introductory review; useful as a background summary, but it should be verified before being treated as a core source.",
+  "relatedEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

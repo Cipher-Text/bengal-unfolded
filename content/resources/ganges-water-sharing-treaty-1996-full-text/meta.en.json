@@ -10,5 +10,9 @@
   "href": "https://digitallibrary.un.org/record/231765",
   "sourceQuality": "archive",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary treaty text lodged in UN records for India-Bangladesh water sharing."
+  "whyItMatters": "Primary treaty text lodged in UN records for India-Bangladesh water sharing.",
+  "relatedEventIds": [
+    "1996-ganges-water-sharing-treaty"
+  ],
+  "relatedTopicIds": []
 }

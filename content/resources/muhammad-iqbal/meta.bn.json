@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুহাম্মদ ইকবাল এবং আধুনিক মুসলিম বুদ্ধিবৃত্তিক ও রাজনৈতিক চিন্তায় তার ভূমিকা নিয়ে ব্রিটানিকা প্রোফাইল।"
+  "whyItMatters": "মুহাম্মদ ইকবাল এবং আধুনিক মুসলিম বুদ্ধিবৃত্তিক ও রাজনৈতিক চিন্তায় তার ভূমিকা নিয়ে ব্রিটানিকা প্রোফাইল।",
+  "relatedEventIds": [
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

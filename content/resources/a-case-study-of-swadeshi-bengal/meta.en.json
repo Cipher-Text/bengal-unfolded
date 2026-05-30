@@ -10,20 +10,9 @@
   "sourceQuality": "academic",
   "evidenceLevel": "high",
   "whyItMatters": "A classic study for the local dynamics of the Swadeshi upsurge and the way nationalist thought crystallized in Bengal.",
-  "relatedTopicIds": [
-    "bengal-culture-literature-and-memory",
-    "colonial-conquest-revenue-and-resistance",
-    "democracy-and-civic-movements",
-    "language-movement-and-mother-language-day",
-    "late-colonial-muslim-politics-and-agrarian-mobilization",
-    "liberation-war-1971",
-    "mughal-bengal-and-regional-resistance",
-    "pakistan-period-state-and-national-awakening",
-    "partition-and-identity",
-    "partition-of-bengal-1905",
-    "peasant-religious-and-rural-resistance",
-    "post-1971-state-crises-and-civic-contestation",
-    "state-formation-crisis-and-military-rule-1972-1990",
-    "sultanate-frontier-and-regional-islamization"
+  "relatedTopicIds": [],
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1906-all-india-muslim-league-founded-in-dhaka"
   ]
 }

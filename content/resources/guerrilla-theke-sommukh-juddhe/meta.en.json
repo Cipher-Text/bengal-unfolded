@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A field-level freedom fighter account that helps explain the shift from guerrilla war to direct battle."
+  "whyItMatters": "A field-level freedom fighter account that helps explain the shift from guerrilla war to direct battle.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

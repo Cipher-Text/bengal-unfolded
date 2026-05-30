@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "আলাউদ্দিন হোসেন শাহ সম্পর্কে বাংলাপিডিয়া প্রোফাইল, যা বাংলার হোসেন শাহী রাজবংশ, শাসকক্রম ও রাজবংশীয় ধারাবাহিকতা বোঝার জন্য উপযোগী।"
+  "whyItMatters": "আলাউদ্দিন হোসেন শাহ সম্পর্কে বাংলাপিডিয়া প্রোফাইল, যা বাংলার হোসেন শাহী রাজবংশ, শাসকক্রম ও রাজবংশীয় ধারাবাহিকতা বোঝার জন্য উপযোগী।",
+  "relatedEventIds": [
+    "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

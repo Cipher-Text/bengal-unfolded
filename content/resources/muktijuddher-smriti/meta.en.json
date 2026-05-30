@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A memoir-style collection of personal memories and experiences from the Liberation War."
+  "whyItMatters": "A memoir-style collection of personal memories and experiences from the Liberation War.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

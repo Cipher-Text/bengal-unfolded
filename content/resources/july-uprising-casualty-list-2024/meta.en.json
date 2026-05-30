@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Sensitive documentation source for killed, injured, eye injuries, children casualties, and casualty-count debates. Verify version/date."
+  "whyItMatters": "Sensitive documentation source for killed, injured, eye injuries, children casualties, and casualty-count debates. Verify version/date.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

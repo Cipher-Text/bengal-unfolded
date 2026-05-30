@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "কৃষকের দুর্ভোগ, গ্রামীণ সংকট, এবং দুর্ভিক্ষের সামাজিক ফলাফল বোঝার জন্য শক্তিশালী।"
+  "whyItMatters": "কৃষকের দুর্ভোগ, গ্রামীণ সংকট, এবং দুর্ভিক্ষের সামাজিক ফলাফল বোঝার জন্য শক্তিশালী।",
+  "relatedEventIds": [
+    "1943-bengal-famine",
+    "1946-1947-tebhaga-movement"
+  ],
+  "relatedTopicIds": []
 }

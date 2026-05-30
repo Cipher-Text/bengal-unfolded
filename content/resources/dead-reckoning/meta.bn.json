@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৭১ যুদ্ধের একটি বিতর্কিত পুনর্বিবেচনামূলক পাঠ; সমালোচনামূলক টীকাসহ ব্যবহার করা উচিত।"
+  "whyItMatters": "১৯৭১ যুদ্ধের একটি বিতর্কিত পুনর্বিবেচনামূলক পাঠ; সমালোচনামূলক টীকাসহ ব্যবহার করা উচিত।",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

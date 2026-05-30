@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বুজুর্গ উমেদ খান এবং চট্টগ্রামকে মুঘল বাংলার অধীনে আনা সামরিক অভিযানের বিষয়ে বাংলাপিডিয়া আলোচনা।"
+  "whyItMatters": "বুজুর্গ উমেদ খান এবং চট্টগ্রামকে মুঘল বাংলার অধীনে আনা সামরিক অভিযানের বিষয়ে বাংলাপিডিয়া আলোচনা।",
+  "relatedEventIds": [
+    "1666-mughal-conquest-of-chittagong"
+  ],
+  "relatedTopicIds": []
 }

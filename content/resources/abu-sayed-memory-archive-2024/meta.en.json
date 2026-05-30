@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Respectful memory source on how Abu Sayed’s death in Rangpur became a symbolic part of the movement’s public memory."
+  "whyItMatters": "Respectful memory source on how Abu Sayed’s death in Rangpur became a symbolic part of the movement’s public memory.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

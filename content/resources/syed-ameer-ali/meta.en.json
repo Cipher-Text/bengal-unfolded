@@ -10,5 +10,11 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia profile for Syed Ameer Ali, whose major books helped shape modern Muslim historical consciousness in Bengal and beyond."
+  "whyItMatters": "Banglapedia profile for Syed Ameer Ali, whose major books helped shape modern Muslim historical consciousness in Bengal and beyond.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

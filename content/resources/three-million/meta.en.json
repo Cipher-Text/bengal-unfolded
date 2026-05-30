@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "An audio documentary/podcast on the 1943 Bengal Famine, survivor testimony, and public memory."
+  "whyItMatters": "An audio documentary/podcast on the 1943 Bengal Famine, survivor testimony, and public memory.",
+  "relatedEventIds": [
+    "1943-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia entry describing autonomy demands, organizational background, and the start of armed operations in early 1976."
+  "whyItMatters": "Banglapedia entry describing autonomy demands, organizational background, and the start of armed operations in early 1976.",
+  "relatedEventIds": [
+    "1976-1997-shanti-bahini-insurgency"
+  ],
+  "relatedTopicIds": []
 }

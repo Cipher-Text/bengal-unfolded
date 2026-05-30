@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "International wire archive for crowd size, political reaction, public anger, and evolving demands."
+  "whyItMatters": "International wire archive for crowd size, political reaction, public anger, and evolving demands.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

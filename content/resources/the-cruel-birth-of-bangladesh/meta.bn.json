@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "আর্চার ব্লাডের দৃষ্টিকোণ থেকে ১৯৭১-এর রাজনৈতিক ও মানবিক সংকট."
+  "whyItMatters": "আর্চার ব্লাডের দৃষ্টিকোণ থেকে ১৯৭১-এর রাজনৈতিক ও মানবিক সংকট.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

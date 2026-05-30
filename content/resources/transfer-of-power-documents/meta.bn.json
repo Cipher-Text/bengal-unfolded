@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "ব্রিটিশ প্রত্যাহার, মাউন্টব্যাটেন পরিকল্পনা, ক্যাবিনেট মিশন এবং দেশভাগের সিদ্ধান্ত বোঝার জন্য প্রাথমিক দলিল."
+  "whyItMatters": "ব্রিটিশ প্রত্যাহার, মাউন্টব্যাটেন পরিকল্পনা, ক্যাবিনেট মিশন এবং দেশভাগের সিদ্ধান্ত বোঝার জন্য প্রাথমিক দলিল.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

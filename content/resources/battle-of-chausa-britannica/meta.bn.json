@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Britannica entry on the 26 June 1539 battle where Sher Shah defeated Humayun."
+  "whyItMatters": "Britannica entry on the 26 June 1539 battle where Sher Shah defeated Humayun.",
+  "relatedEventIds": [
+    "1539-battle-of-chausa"
+  ],
+  "relatedTopicIds": []
 }

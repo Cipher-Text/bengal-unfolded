@@ -8,5 +8,10 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A Pakistani military and administrative perspective on 1971, best used as a source with explicit bias notes."
+  "whyItMatters": "A Pakistani military and administrative perspective on 1971, best used as a source with explicit bias notes.",
+  "relatedEventIds": [
+    "1971-december-16-instrument-of-surrender",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Reference on the constitutional framework that expanded provincial autonomy and shaped late colonial electoral politics."
+  "whyItMatters": "Reference on the constitutional framework that expanded provincial autonomy and shaped late colonial electoral politics.",
+  "relatedEventIds": [
+    "1935-government-of-india-act-1935",
+    "1937-bengal-provincial-election-and-coalition-ministry"
+  ],
+  "relatedTopicIds": []
 }

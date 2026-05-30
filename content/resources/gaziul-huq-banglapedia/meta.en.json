@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A major reference entry on the leader who presided over the historic Amtala meeting of 21 February 1952."
+  "whyItMatters": "A major reference entry on the leader who presided over the historic Amtala meeting of 21 February 1952.",
+  "relatedEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedTopicIds": []
 }

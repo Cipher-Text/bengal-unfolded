@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Detailed HRW report on the election-period crackdown, arbitrary arrest, fear environment, and shrinking political competition."
+  "whyItMatters": "Detailed HRW report on the election-period crackdown, arbitrary arrest, fear environment, and shrinking political competition.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

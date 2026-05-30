@@ -10,5 +10,11 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Foundational South Asian Islamic reformer whose works such as Hujjat Allah al-Baligha, Al-Fawz al-Kabir fi Usul al-Tafsir, and Izalat al-Khafa 'an Khilafat al-Khulafa shaped later Muslim political and reformist thought."
+  "whyItMatters": "Foundational South Asian Islamic reformer whose works such as Hujjat Allah al-Baligha, Al-Fawz al-Kabir fi Usul al-Tafsir, and Izalat al-Khafa 'an Khilafat al-Khulafa shaped later Muslim political and reformist thought.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1935-government-of-india-act-1935",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

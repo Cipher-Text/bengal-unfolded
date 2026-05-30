@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful for understanding the Pakistan movement, Muslim League politics, and the context of state formation in 1947."
+  "whyItMatters": "Useful for understanding the Pakistan movement, Muslim League politics, and the context of state formation in 1947.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

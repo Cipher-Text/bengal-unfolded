@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Official organization source on the BDR-to-BGB reconstruction, institutional identity, and the state narrative."
+  "whyItMatters": "Official organization source on the BDR-to-BGB reconstruction, institutional identity, and the state narrative.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

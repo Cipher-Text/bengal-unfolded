@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Important for state relief failure, administrative response, and famine governance."
+  "whyItMatters": "Important for state relief failure, administrative response, and famine governance.",
+  "relatedEventIds": [
+    "1943-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

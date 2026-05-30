@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
-  "whyItMatters": "Useful news archive for breaking updates, court developments, internet shutdown, government statements, and the transition period."
+  "whyItMatters": "Useful news archive for breaking updates, court developments, internet shutdown, government statements, and the transition period.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

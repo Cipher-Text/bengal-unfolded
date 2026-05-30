@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "কোটা বাতিল/সংস্কার সিদ্ধান্তের official record; policy outcome বোঝার জন্য primary source."
+  "whyItMatters": "কোটা বাতিল/সংস্কার সিদ্ধান্তের official record; policy outcome বোঝার জন্য primary source.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

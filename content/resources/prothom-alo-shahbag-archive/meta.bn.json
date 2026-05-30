@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাংলা সংবাদমাধ্যমে আন্দোলনের ভাষা, জনসমাগম, রাজনৈতিক প্রতিক্রিয়া ও সামাজিক বিতর্ক বোঝার জন্য গুরুত্বপূর্ণ news archive."
+  "whyItMatters": "বাংলা সংবাদমাধ্যমে আন্দোলনের ভাষা, জনসমাগম, রাজনৈতিক প্রতিক্রিয়া ও সামাজিক বিতর্ক বোঝার জন্য গুরুত্বপূর্ণ news archive.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

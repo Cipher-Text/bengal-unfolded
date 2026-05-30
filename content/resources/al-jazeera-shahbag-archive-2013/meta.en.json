@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Early international coverage of the Shahbag movement and an external reporting perspective on the protests."
+  "whyItMatters": "Early international coverage of the Shahbag movement and an external reporting perspective on the protests.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

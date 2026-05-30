@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Biographical overview of Nana Sahib's role in Kanpur and the wider rebellion command network."
+  "whyItMatters": "Biographical overview of Nana Sahib's role in Kanpur and the wider rebellion command network.",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

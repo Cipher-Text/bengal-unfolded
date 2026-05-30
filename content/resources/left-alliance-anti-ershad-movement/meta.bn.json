@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "৫ দলীয় বাম জোট, শ্রমিক-ছাত্র-সাংস্কৃতিক সংগঠন ও street mobilization বোঝার জন্য necessary balancing source."
+  "whyItMatters": "৫ দলীয় বাম জোট, শ্রমিক-ছাত্র-সাংস্কৃতিক সংগঠন ও street mobilization বোঝার জন্য necessary balancing source.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

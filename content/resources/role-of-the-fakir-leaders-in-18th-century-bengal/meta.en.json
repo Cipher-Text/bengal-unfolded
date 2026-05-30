@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Best for named leaders such as Majnu Shah, Musa Shah, Cherag Ali Shah, Karim Shah, and Tipu Shah."
+  "whyItMatters": "Best for named leaders such as Majnu Shah, Musa Shah, Cherag Ali Shah, Karim Shah, and Tipu Shah.",
+  "relatedEventIds": [
+    "1760-1800-fakir-sannyasi-resistance",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

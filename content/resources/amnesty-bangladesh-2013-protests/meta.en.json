@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Rights-focused cross-check for political violence, expression, detention, and human-rights concerns during 2013."
+  "whyItMatters": "Rights-focused cross-check for political violence, expression, detention, and human-rights concerns during 2013.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

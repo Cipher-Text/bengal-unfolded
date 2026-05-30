@@ -9,5 +9,12 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "চট্টগ্রাম পার্বত্যাঞ্চলের আদিবাসী মানুষের দুর্দশা এবং উদ্বাস্তু-রাজনীতি নিয়ে একটি ডকুমেন্টারি।"
+  "whyItMatters": "চট্টগ্রাম পার্বত্যাঞ্চলের আদিবাসী মানুষের দুর্দশা এবং উদ্বাস্তু-রাজনীতি নিয়ে একটি ডকুমেন্টারি।",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse",
+    "1976-1997-shanti-bahini-insurgency",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

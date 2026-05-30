@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Relevant for understanding 7 November 1975, Colonel Taher’s trial, and the post-BAKSAL military-political reordering."
+  "whyItMatters": "Relevant for understanding 7 November 1975, Colonel Taher’s trial, and the post-BAKSAL military-political reordering.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

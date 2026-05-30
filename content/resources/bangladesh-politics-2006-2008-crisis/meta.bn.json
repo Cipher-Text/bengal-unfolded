@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "২০০৬ শেষভাগের electoral confrontation থেকে ২০০৮ election transition পর্যন্ত political science overview."
+  "whyItMatters": "২০০৬ শেষভাগের electoral confrontation থেকে ২০০৮ election transition পর্যন্ত political science overview.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

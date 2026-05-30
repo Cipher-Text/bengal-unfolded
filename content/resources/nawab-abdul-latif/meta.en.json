@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia profile for a core figure in Bengali Muslim educational modernization and the Mohammedan Literary Society."
+  "whyItMatters": "Banglapedia profile for a core figure in Bengali Muslim educational modernization and the Mohammedan Literary Society.",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

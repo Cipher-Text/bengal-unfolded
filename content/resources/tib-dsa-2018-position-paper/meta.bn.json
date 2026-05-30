@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "DSA 2018-এর ব্যবহার, সমালোচনা ও পরবর্তী Cyber Security Act debate বোঝার জন্য useful civil-society analysis."
+  "whyItMatters": "DSA 2018-এর ব্যবহার, সমালোচনা ও পরবর্তী Cyber Security Act debate বোঝার জন্য useful civil-society analysis.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

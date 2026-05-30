@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "দেশভাগ থেকে বাংলাদেশ রাষ্ট্রগঠন পর্যন্ত রাজনৈতিক ধারাবাহিকতা, বঙ্গবন্ধু এবং state formation বোঝার জন্য সহায়ক."
+  "whyItMatters": "দেশভাগ থেকে বাংলাদেশ রাষ্ট্রগঠন পর্যন্ত রাজনৈতিক ধারাবাহিকতা, বঙ্গবন্ধু এবং state formation বোঝার জন্য সহায়ক.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

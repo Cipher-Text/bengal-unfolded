@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৭১-এর ঘটনাপ্রবাহ ও ঐতিহাসিক প্রেক্ষাপট বোঝার জন্য ডকুমেন্টারি-ধর্মী ভিজ্যুয়াল রিসোর্স।"
+  "whyItMatters": "১৯৭১-এর ঘটনাপ্রবাহ ও ঐতিহাসিক প্রেক্ষাপট বোঝার জন্য ডকুমেন্টারি-ধর্মী ভিজ্যুয়াল রিসোর্স।",
+  "relatedEventIds": [
+    "1971-december-14-intellectual-killings",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

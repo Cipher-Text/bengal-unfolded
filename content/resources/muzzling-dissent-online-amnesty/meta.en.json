@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Amnesty International briefing on the Digital Security Act's vague offences, surveillance powers, and threats to journalists and online expression."
+  "whyItMatters": "Amnesty International briefing on the Digital Security Act's vague offences, surveillance powers, and threats to journalists and online expression.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2018-digital-security-act"
+  ],
+  "relatedTopicIds": []
 }

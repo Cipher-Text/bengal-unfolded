@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia profile of Alauddin Husain Shah, useful for the Husain Shahi dynasty in Bengal (1494-1538), rulers, and dynastic chronology."
+  "whyItMatters": "Banglapedia profile of Alauddin Husain Shah, useful for the Husain Shahi dynasty in Bengal (1494-1538), rulers, and dynastic chronology.",
+  "relatedEventIds": [
+    "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

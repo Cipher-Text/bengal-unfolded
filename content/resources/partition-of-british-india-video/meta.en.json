@@ -9,5 +9,9 @@
   "quality": "editorial",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A short documentary-style video introducing archival records, official attitudes, and oral testimony connected to partition."
+  "whyItMatters": "A short documentary-style video introducing archival records, official attitudes, and oral testimony connected to partition.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

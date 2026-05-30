@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Archive source for the breaking coverage, casualty confirmation, hostage situation, surrender, and state response."
+  "whyItMatters": "Archive source for the breaking coverage, casualty confirmation, hostage situation, surrender, and state response.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

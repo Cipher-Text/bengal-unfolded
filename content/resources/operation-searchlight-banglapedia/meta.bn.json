@@ -10,5 +10,9 @@
   "href": "https://en.banglapedia.org/index.php/Operation_Searchlight",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia entry documenting the March 1971 military operation."
+  "whyItMatters": "Banglapedia entry documenting the March 1971 military operation.",
+  "relatedEventIds": [
+    "1971-operation-searchlight-crackdown"
+  ],
+  "relatedTopicIds": []
 }

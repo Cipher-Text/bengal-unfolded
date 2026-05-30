@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Amnesty campaign source on confirmed deaths, arrests, crackdown, and the right to protest through 25 July."
+  "whyItMatters": "Amnesty campaign source on confirmed deaths, arrests, crackdown, and the right to protest through 25 July.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

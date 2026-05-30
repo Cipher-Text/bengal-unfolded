@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "দেশভাগের সামাজিক ও মানবিক অভিঘাত, বিশেষত minority experience ও East Pakistan context বোঝার জন্য supplementary source; critical reading দরকার."
+  "whyItMatters": "দেশভাগের সামাজিক ও মানবিক অভিঘাত, বিশেষত minority experience ও East Pakistan context বোঝার জন্য supplementary source; critical reading দরকার.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

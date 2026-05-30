@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "An Archer Blood perspective on the political and humanitarian crisis of 1971."
+  "whyItMatters": "An Archer Blood perspective on the political and humanitarian crisis of 1971.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "১/১১-এর কারণ, actors, military role, party reform agenda, civil society support ও democratic accountability debate বোঝার জন্য contextual research."
+  "whyItMatters": "১/১১-এর কারণ, actors, military role, party reform agenda, civil society support ও democratic accountability debate বোঝার জন্য contextual research.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

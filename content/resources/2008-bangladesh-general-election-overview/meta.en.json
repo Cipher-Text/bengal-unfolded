@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "Starting reference for the election date, alliances, seat distribution, and transition overview. Cross-check with the Election Commission before citing."
+  "whyItMatters": "Starting reference for the election date, alliances, seat distribution, and transition overview. Cross-check with the Election Commission before citing.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

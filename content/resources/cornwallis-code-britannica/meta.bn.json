@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৭৯৩ সালের বিধিমালা, বঙ্গীয় প্রশাসনিক কাঠামো এবং স্থায়ী রাজস্ব বন্দোবস্তের আইনি কাঠামো বোঝার জন্য একটি সংক্ষিপ্ত অথচ কার্যকর রেফারেন্স।"
+  "whyItMatters": "১৭৯৩ সালের বিধিমালা, বঙ্গীয় প্রশাসনিক কাঠামো এবং স্থায়ী রাজস্ব বন্দোবস্তের আইনি কাঠামো বোঝার জন্য একটি সংক্ষিপ্ত অথচ কার্যকর রেফারেন্স।",
+  "relatedEventIds": [
+    "1793-permanent-settlement-in-bengal"
+  ],
+  "relatedTopicIds": []
 }

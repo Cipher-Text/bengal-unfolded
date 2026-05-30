@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "প্রজন্ম চত্বর, মোমবাতি, পতাকা, স্লোগান, পোস্টার ও public gathering visual memory বোঝার জন্য photo archive."
+  "whyItMatters": "প্রজন্ম চত্বর, মোমবাতি, পতাকা, স্লোগান, পোস্টার ও public gathering visual memory বোঝার জন্য photo archive.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

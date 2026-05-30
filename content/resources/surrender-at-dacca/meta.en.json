@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "An important account of the final phase of the war and the surrender in Dhaka."
+  "whyItMatters": "An important account of the final phase of the war and the surrender in Dhaka.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

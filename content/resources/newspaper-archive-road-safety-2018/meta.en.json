@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Archive source for the student movement, licence checking, road blockades, attack allegations, and the Shahidul Alam case."
+  "whyItMatters": "Archive source for the student movement, licence checking, road blockades, attack allegations, and the Shahidul Alam case.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

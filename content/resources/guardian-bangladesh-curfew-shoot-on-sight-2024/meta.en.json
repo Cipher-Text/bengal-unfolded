@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "International news archive on the curfew, communications blackout, and the escalation of the protests into wider unrest."
+  "whyItMatters": "International news archive on the curfew, communications blackout, and the escalation of the protests into wider unrest.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

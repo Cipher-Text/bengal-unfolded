@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "তিতুমীরের জীবন, নেতৃত্ব এবং ১৮৩১ সালের বাঁশের কেল্লা বিদ্রোহ নিয়ে বাংলাপিডিয়া সারসংক্ষেপ।"
+  "whyItMatters": "তিতুমীরের জীবন, নেতৃত্ব এবং ১৮৩১ সালের বাঁশের কেল্লা বিদ্রোহ নিয়ে বাংলাপিডিয়া সারসংক্ষেপ।",
+  "relatedEventIds": [
+    "1831-titumir-s-bamboo-fort-uprising"
+  ],
+  "relatedTopicIds": []
 }

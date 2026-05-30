@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "শাহবাগ আন্দোলনের national coverage, editorials, opinion, photo features ও long-term reflections বোঝার জন্য useful newspaper archive."
+  "whyItMatters": "শাহবাগ আন্দোলনের national coverage, editorials, opinion, photo features ও long-term reflections বোঝার জন্য useful newspaper archive.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Biographical reference on the Barrackpore sepoy whose actions are widely linked to the ignition phase of the 1857 revolt."
+  "whyItMatters": "Biographical reference on the Barrackpore sepoy whose actions are widely linked to the ignition phase of the 1857 revolt.",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

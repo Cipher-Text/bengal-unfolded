@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Primary institutional source for the 30 December 2018 election results, turnout, and constituency-level data."
+  "whyItMatters": "Primary institutional source for the 30 December 2018 election results, turnout, and constituency-level data.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

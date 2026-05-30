@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Documentary-style visual overview of 1971 events and context."
+  "whyItMatters": "Documentary-style visual overview of 1971 events and context.",
+  "relatedEventIds": [
+    "1971-december-14-intellectual-killings",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

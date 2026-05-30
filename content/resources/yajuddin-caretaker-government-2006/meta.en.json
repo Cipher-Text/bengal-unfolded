@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Core contextual source on Yajuddin Ahmed becoming Chief Adviser, the neutrality crisis, election-schedule conflict, and the opposition boycott."
+  "whyItMatters": "Core contextual source on Yajuddin Ahmed becoming Chief Adviser, the neutrality crisis, election-schedule conflict, and the opposition boycott.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

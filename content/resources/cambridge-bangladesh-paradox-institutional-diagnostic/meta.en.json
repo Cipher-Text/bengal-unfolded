@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Modern academic context for the 1975 constitutional amendment, one-party system, and institutional development."
+  "whyItMatters": "Modern academic context for the 1975 constitutional amendment, one-party system, and institutional development.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

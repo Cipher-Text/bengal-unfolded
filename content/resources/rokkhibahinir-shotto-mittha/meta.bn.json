@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "রক্ষীবাহিনী ঘিরে বিতর্ক, অভিযোগ ও পাল্টা-বয়ান বোঝার জন্য critical source."
+  "whyItMatters": "রক্ষীবাহিনী ঘিরে বিতর্ক, অভিযোগ ও পাল্টা-বয়ান বোঝার জন্য critical source.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

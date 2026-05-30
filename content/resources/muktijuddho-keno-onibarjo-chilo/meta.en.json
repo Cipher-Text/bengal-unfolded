@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A useful analysis of how language movement, discrimination, six points, and the 1970 election led to war."
+  "whyItMatters": "A useful analysis of how language movement, discrimination, six points, and the 1970 election led to war.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,10 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "বাঙালি মুসলিম শিক্ষা-আধুনিকীকরণ ও মোহামেডান লিটারারি সোসাইটির প্রেক্ষাপটে নবাব আবদুল লতিফ সম্পর্কে বাংলাপিডিয়া প্রোফাইল।"
+  "whyItMatters": "বাঙালি মুসলিম শিক্ষা-আধুনিকীকরণ ও মোহামেডান লিটারারি সোসাইটির প্রেক্ষাপটে নবাব আবদুল লতিফ সম্পর্কে বাংলাপিডিয়া প্রোফাইল।",
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "স্বদেশী আন্দোলন, বঙ্গভঙ্গবিরোধী রাজনীতি, জাতীয় শিক্ষা এবং বিপ্লবী প্রবণতা বোঝার জন্য একটি ক্লাসিক গবেষণা।"
+  "whyItMatters": "স্বদেশী আন্দোলন, বঙ্গভঙ্গবিরোধী রাজনীতি, জাতীয় শিক্ষা এবং বিপ্লবী প্রবণতা বোঝার জন্য একটি ক্লাসিক গবেষণা।",
+  "relatedEventIds": [
+    "1905-partition-of-bengal"
+  ],
+  "relatedTopicIds": []
 }

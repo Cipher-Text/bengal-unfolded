@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Photo archive for visual memory of the Bangla Blockade, campus protests, graffiti, memorials, and civic mobilisation."
+  "whyItMatters": "Photo archive for visual memory of the Bangla Blockade, campus protests, graffiti, memorials, and civic mobilisation.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

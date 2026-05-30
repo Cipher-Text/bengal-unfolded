@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A printed collection of M. R. Akhtar Mukul's wartime radio scripts from the Swadhin Bangla Betar Kendra."
+  "whyItMatters": "A printed collection of M. R. Akhtar Mukul's wartime radio scripts from the Swadhin Bangla Betar Kendra.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

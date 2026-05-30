@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "বাংলাদেশের রাজনৈতিক ঘটনাপঞ্জি। ১৯৮২–১৯৯১ সময়ের আন্দোলন, এরশাদ শাসন, তিন জোট ও গণঅভ্যুত্থানের ধারাবাহিকতা যাচাইয়ের জন্য core reference."
+  "whyItMatters": "বাংলাদেশের রাজনৈতিক ঘটনাপঞ্জি। ১৯৮২–১৯৯১ সময়ের আন্দোলন, এরশাদ শাসন, তিন জোট ও গণঅভ্যুত্থানের ধারাবাহিকতা যাচাইয়ের জন্য core reference.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

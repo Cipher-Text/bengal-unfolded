@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "An important source for understanding local collaboration structures during the Liberation War."
+  "whyItMatters": "An important source for understanding local collaboration structures during the Liberation War.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

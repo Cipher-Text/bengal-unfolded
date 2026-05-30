@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A readable but dramatic popular history of 1947, useful with caution for partition memory."
+  "whyItMatters": "A readable but dramatic popular history of 1947, useful with caution for partition memory.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

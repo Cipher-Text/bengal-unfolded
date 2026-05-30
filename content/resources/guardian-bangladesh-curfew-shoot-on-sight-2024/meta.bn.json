@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Curfew, communications blackout, quota protests turning into broader unrest এবং state response নিয়ে international news archive."
+  "whyItMatters": "Curfew, communications blackout, quota protests turning into broader unrest এবং state response নিয়ে international news archive.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

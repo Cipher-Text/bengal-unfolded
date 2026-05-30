@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুক্তিযুদ্ধকালীন নাগরিক জীবন, সংস্কৃতি এবং ব্যক্তিগত অভিজ্ঞতার গুরুত্বপূর্ণ স্মৃতিকথা."
+  "whyItMatters": "মুক্তিযুদ্ধকালীন নাগরিক জীবন, সংস্কৃতি এবং ব্যক্তিগত অভিজ্ঞতার গুরুত্বপূর্ণ স্মৃতিকথা.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

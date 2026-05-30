@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A reference on the party Ershad built to civilianize and legitimize the regime born from the 1982 coup."
+  "whyItMatters": "A reference on the party Ershad built to civilianize and legitimize the regime born from the 1982 coup.",
+  "relatedEventIds": [
+    "1982-ershad-s-coup-and-the-return-of-military-rule"
+  ],
+  "relatedTopicIds": []
 }

@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "BSS-based reporting on the 1976 long march, including Kansat border reference and follow-on policy context around Ganges water sharing."
+  "whyItMatters": "BSS-based reporting on the 1976 long march, including Kansat border reference and follow-on policy context around Ganges water sharing.",
+  "relatedEventIds": [
+    "1976-farakka-long-march"
+  ],
+  "relatedTopicIds": []
 }

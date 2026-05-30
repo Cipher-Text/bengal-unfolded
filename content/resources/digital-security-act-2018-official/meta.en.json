@@ -10,5 +10,10 @@
   "href": "https://bdlaws.minlaw.gov.bd/act-1261.html",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Official legal text of the DSA. Core primary source for speech regulation, state power, and cybercrime framing."
+  "whyItMatters": "Official legal text of the DSA. Core primary source for speech regulation, state power, and cybercrime framing.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy",
+    "2023-cyber-security-act-replacing-dsa"
+  ],
+  "relatedTopicIds": []
 }

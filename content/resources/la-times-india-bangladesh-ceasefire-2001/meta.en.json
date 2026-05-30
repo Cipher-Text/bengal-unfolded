@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Contemporary report on ceasefire status, local fighting context, and immediate post-clash diplomatic messaging."
+  "whyItMatters": "Contemporary report on ceasefire status, local fighting context, and immediate post-clash diplomatic messaging.",
+  "relatedEventIds": [
+    "2001-padua-pyrdiwah-boraibari-border-clash"
+  ],
+  "relatedTopicIds": []
 }

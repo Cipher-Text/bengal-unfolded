@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A historical novel for understanding Colonel Taher, JASAD, and the political memory of 7 November."
+  "whyItMatters": "A historical novel for understanding Colonel Taher, JASAD, and the political memory of 7 November.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

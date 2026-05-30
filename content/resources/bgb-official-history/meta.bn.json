@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "BDR থেকে BGB পুনর্গঠন, institutional identity ও official narrative বোঝার জন্য official organization source."
+  "whyItMatters": "BDR থেকে BGB পুনর্গঠন, institutional identity ও official narrative বোঝার জন্য official organization source.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

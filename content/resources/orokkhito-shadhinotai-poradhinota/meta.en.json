@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A short analytical reading on sovereignty, insecurity, and the vulnerability of independence."
+  "whyItMatters": "A short analytical reading on sovereignty, insecurity, and the vulnerability of independence.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

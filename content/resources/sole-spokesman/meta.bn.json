@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "মুসলিম লীগের কৌশল, জিন্নাহর দরকষাকষির অবস্থান এবং পাকিস্তান দাবির ওপর গুরুত্বপূর্ণ একাডেমিক কাজ."
+  "whyItMatters": "মুসলিম লীগের কৌশল, জিন্নাহর দরকষাকষির অবস্থান এবং পাকিস্তান দাবির ওপর গুরুত্বপূর্ণ একাডেমিক কাজ.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Figure-specific profile covering his identity as a Mughal prince, role in the 1857 rebellion, and death during the fall of Delhi."
+  "whyItMatters": "Figure-specific profile covering his identity as a Mughal prince, role in the 1857 rebellion, and death during the fall of Delhi.",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

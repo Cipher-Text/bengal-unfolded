@@ -12,5 +12,12 @@
   "whyItMatters": "A wider political history that includes the Ershad era and the democratic crisis leading to 1990.",
   "relatedTopicIds": [
     "state-formation-crisis-and-military-rule-1972-1990"
+  ],
+  "relatedEventIds": [
+    "1972-state-formation-and-the-1972-constitution",
+    "1975-baksal-formation-and-collapse",
+    "1976-farakka-long-march",
+    "1982-ershad-s-coup-and-the-return-of-military-rule",
+    "1990-mass-uprising"
   ]
 }

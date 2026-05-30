@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "আন্দোলনের self-description, ছয় দফা/দাবি, কর্মসূচি ও সাংগঠনিক ভাষা বোঝার জন্য primary movement source."
+  "whyItMatters": "আন্দোলনের self-description, ছয় দফা/দাবি, কর্মসূচি ও সাংগঠনিক ভাষা বোঝার জন্য primary movement source.",
+  "relatedEventIds": [
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

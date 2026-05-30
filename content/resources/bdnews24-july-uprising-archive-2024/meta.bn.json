@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Breaking updates, government statements, court developments, internet shutdown এবং political transition trace করার জন্য useful news archive."
+  "whyItMatters": "Breaking updates, government statements, court developments, internet shutdown এবং political transition trace করার জন্য useful news archive.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

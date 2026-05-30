@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "An insider political account of Pakistan movement and state formation; useful as a critical reading source."
+  "whyItMatters": "An insider political account of Pakistan movement and state formation; useful as a critical reading source.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

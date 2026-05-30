@@ -9,5 +9,9 @@
   "quality": "editorial",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "আর্কাইভ নথি, ব্রিটিশ প্রশাসনিক দৃষ্টিভঙ্গি এবং মৌখিক সাক্ষ্যকে সামনে এনে দেশভাগ ব্যাখ্যা করা একটি সংক্ষিপ্ত ডকুমেন্টারি-ধর্মী ভিডিও।"
+  "whyItMatters": "আর্কাইভ নথি, ব্রিটিশ প্রশাসনিক দৃষ্টিভঙ্গি এবং মৌখিক সাক্ষ্যকে সামনে এনে দেশভাগ ব্যাখ্যা করা একটি সংক্ষিপ্ত ডকুমেন্টারি-ধর্মী ভিডিও।",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

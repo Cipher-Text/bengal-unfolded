@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "A sensitive-history source on killings, purges, and state violence in the armed forces after independence."
+  "whyItMatters": "A sensitive-history source on killings, purges, and state violence in the armed forces after independence.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "নির্বাচনী প্রচারণা, সহিংসতা, গ্রেপ্তার, polling day allegations ও opposition reaction trace করার জন্য archive source."
+  "whyItMatters": "নির্বাচনী প্রচারণা, সহিংসতা, গ্রেপ্তার, polling day allegations ও opposition reaction trace করার জন্য archive source.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

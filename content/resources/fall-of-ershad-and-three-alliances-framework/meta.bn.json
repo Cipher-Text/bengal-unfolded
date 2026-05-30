@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "তিন জোটের রূপরেখা, post-1990 democratic promises ও contemporary reflection বোঝার জন্য recent editorial-analysis source; factual claims cross-check দরকার."
+  "whyItMatters": "তিন জোটের রূপরেখা, post-1990 democratic promises ও contemporary reflection বোঝার জন্য recent editorial-analysis source; factual claims cross-check দরকার.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

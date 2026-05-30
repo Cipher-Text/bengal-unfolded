@@ -8,5 +8,9 @@
   "quality": "primary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "আন্দোলনের self-description, quota reform দাবি, Bangla Blockade, March for Justice, অসহযোগ/এক দফা এবং সংগঠক-নেতৃত্ব বোঝার জন্য primary movement source."
+  "whyItMatters": "আন্দোলনের self-description, quota reform দাবি, Bangla Blockade, March for Justice, অসহযোগ/এক দফা এবং সংগঠক-নেতৃত্ব বোঝার জন্য primary movement source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

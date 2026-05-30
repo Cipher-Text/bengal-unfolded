@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "A biographical entry on Nur Hossain, whose death became one of the defining symbols of the anti-autocracy movement."
+  "whyItMatters": "A biographical entry on Nur Hossain, whose death became one of the defining symbols of the anti-autocracy movement.",
+  "relatedEventIds": [
+    "1990-mass-uprising"
+  ],
+  "relatedTopicIds": []
 }

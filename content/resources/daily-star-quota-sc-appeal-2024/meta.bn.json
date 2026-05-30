@@ -9,5 +9,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "High Court verdict, government appeal, student demonstrations এবং early July legal-political timeline বোঝার জন্য useful newspaper source."
+  "whyItMatters": "High Court verdict, government appeal, student demonstrations এবং early July legal-political timeline বোঝার জন্য useful newspaper source.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

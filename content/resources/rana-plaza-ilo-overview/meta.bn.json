@@ -9,5 +9,9 @@
   "href": "https://www.ilo.org/global/topics/geip/WCMS_614394/lang--en/index.htm",
   "sourceQuality": "archive",
   "evidenceLevel": "high",
-  "whyItMatters": "ILO overview of post-Rana Plaza safety reform architecture."
+  "whyItMatters": "ILO overview of post-Rana Plaza safety reform architecture.",
+  "relatedEventIds": [
+    "2013-rana-plaza-collapse"
+  ],
+  "relatedTopicIds": []
 }

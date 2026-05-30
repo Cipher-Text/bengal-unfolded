@@ -11,7 +11,8 @@
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
   "whyItMatters": "Banglapedia entry covering Bakhtiyar Khalji's Bengal campaign, conquest of Nadia, and early political consolidation in Bengal.",
-  "relatedTopicIds": [
-    "ancient-and-early-medieval-bengal"
+  "relatedTopicIds": [],
+  "relatedEventIds": [
+    "1204-bakhtiyar-khalji-s-conquest-of-nadia"
   ]
 }

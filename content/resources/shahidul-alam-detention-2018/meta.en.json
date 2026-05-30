@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Sensitive archive source on Shahidul Alam’s arrest, DSA-style speech control context, and the global free-speech reaction."
+  "whyItMatters": "Sensitive archive source on Shahidul Alam’s arrest, DSA-style speech control context, and the global free-speech reaction.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedTopicIds": []
 }

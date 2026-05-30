@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "সিনেমা, উপস্থাপন, এবং পরবর্তী স্মৃতি-সংস্কৃতিতে মুক্তিযুদ্ধের পুনর্ব্যাখ্যা বোঝার জন্য কার্যকর।"
+  "whyItMatters": "সিনেমা, উপস্থাপন, এবং পরবর্তী স্মৃতি-সংস্কৃতিতে মুক্তিযুদ্ধের পুনর্ব্যাখ্যা বোঝার জন্য কার্যকর।",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "2013-shahbag-movement"
+  ],
+  "relatedTopicIds": []
 }

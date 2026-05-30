@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "মুক্তিযুদ্ধের ব্যক্তিগত স্মৃতি ও অভিজ্ঞতার সংকলন."
+  "whyItMatters": "মুক্তিযুদ্ধের ব্যক্তিগত স্মৃতি ও অভিজ্ঞতার সংকলন.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

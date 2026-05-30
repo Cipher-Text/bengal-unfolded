@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Reference on the queen of Jhansi and her military leadership during the 1857-58 rebellion."
+  "whyItMatters": "Reference on the queen of Jhansi and her military leadership during the 1857-58 rebellion.",
+  "relatedEventIds": [
+    "1857-sipahi-revolt"
+  ],
+  "relatedTopicIds": []
 }

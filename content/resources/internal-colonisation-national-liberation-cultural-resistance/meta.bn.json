@@ -9,5 +9,12 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "১৯৬৯-১৯৭১-এর সাংস্কৃতিক প্রতিরোধ পর্বের জন্য সবচেয়ে কার্যকর; কবিতা কীভাবে ভাষা-রাজনীতিকে জাতীয় মুক্তির সঙ্গে যুক্ত করে তা দেখায়।"
+  "whyItMatters": "১৯৬৯-১৯৭১-এর সাংস্কৃতিক প্রতিরোধ পর্বের জন্য সবচেয়ে কার্যকর; কবিতা কীভাবে ভাষা-রাজনীতিকে জাতীয় মুক্তির সঙ্গে যুক্ত করে তা দেখায়।",
+  "relatedEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement",
+    "1969-mass-uprising",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

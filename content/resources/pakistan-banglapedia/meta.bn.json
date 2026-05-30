@@ -10,5 +10,12 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "১৯৭০ সালের সাংবিধানিক কাঠামো, আসন বণ্টন এবং দুই অংশের নির্বাচনী ফল বোঝার জন্য সহায়ক রেফারেন্স।"
+  "whyItMatters": "১৯৭০ সালের সাংবিধানিক কাঠামো, আসন বণ্টন এবং দুই অংশের নির্বাচনী ফল বোঝার জন্য সহায়ক রেফারেন্স।",
+  "relatedEventIds": [
+    "1956-pakistan-constitution-east-pakistan-representation",
+    "1964-communal-riots-east-pakistan",
+    "1965-indo-pak-war-east-pakistan-insecurity",
+    "1970-bhola-cyclone-and-the-1970-election"
+  ],
+  "relatedTopicIds": []
 }

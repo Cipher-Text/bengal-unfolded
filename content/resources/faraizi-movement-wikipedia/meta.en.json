@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Banglapedia summary of chronology, leadership, and expansion of the Faraizi movement in Bengal."
+  "whyItMatters": "Banglapedia summary of chronology, leadership, and expansion of the Faraizi movement in Bengal.",
+  "relatedEventIds": [
+    "1818-faraizi-movement-begins-in-eastern-bengal"
+  ],
+  "relatedTopicIds": []
 }

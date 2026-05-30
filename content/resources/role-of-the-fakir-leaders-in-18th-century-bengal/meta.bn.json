@@ -9,5 +9,11 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "মজ্নু শাহ, মুসা শাহ, চেরাগ আলী শাহ, করিম শাহ, ও টিপু শাহের মতো নেতাদের বুঝতে সবচেয়ে ব্যবহারিক।"
+  "whyItMatters": "মজ্নু শাহ, মুসা শাহ, চেরাগ আলী শাহ, করিম শাহ, ও টিপু শাহের মতো নেতাদের বুঝতে সবচেয়ে ব্যবহারিক।",
+  "relatedEventIds": [
+    "1760-1800-fakir-sannyasi-resistance",
+    "1765-east-india-company-gets-diwani-rights-in-bengal",
+    "1770-great-bengal-famine"
+  ],
+  "relatedTopicIds": []
 }

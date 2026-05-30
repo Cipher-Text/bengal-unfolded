@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "দশম জাতীয় সংসদ নির্বাচনকে ঘিরে নির্বাচন-পূর্ব, নির্বাচন-দিন ও পরবর্তী সহিংসতা নিয়ে হিউম্যান রাইটস ওয়াচের বিশ্লেষণ।"
+  "whyItMatters": "দশম জাতীয় সংসদ নির্বাচনকে ঘিরে নির্বাচন-পূর্ব, নির্বাচন-দিন ও পরবর্তী সহিংসতা নিয়ে হিউম্যান রাইটস ওয়াচের বিশ্লেষণ।",
+  "relatedEventIds": [
+    "2014-10th-parliamentary-election"
+  ],
+  "relatedTopicIds": []
 }

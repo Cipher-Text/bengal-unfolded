@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "ডিসেম্বর ১৯৭১-এ বাঙালি বুদ্ধিজীবী হত্যাকাণ্ড ও তার স্মৃতি নিয়ে একটি ডকুমেন্টারি।"
+  "whyItMatters": "ডিসেম্বর ১৯৭১-এ বাঙালি বুদ্ধিজীবী হত্যাকাণ্ড ও তার স্মৃতি নিয়ে একটি ডকুমেন্টারি।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

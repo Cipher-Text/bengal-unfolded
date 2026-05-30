@@ -10,5 +10,9 @@
   "href": "https://www.hrw.org/report/2025/01/27/after-monsoon-revolution/roadmap-lasting-security-sector-reform-bangladesh",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Important post-uprising source on security sector reform, accountability, victims, interim government, and institutional reform."
+  "whyItMatters": "Important post-uprising source on security sector reform, accountability, victims, interim government, and institutional reform.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedTopicIds": []
 }

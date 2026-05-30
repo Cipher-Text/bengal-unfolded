@@ -8,5 +8,9 @@
   "quality": "editorial",
   "sourceQuality": "secondary",
   "evidenceLevel": "medium",
-  "whyItMatters": "A valuable regional memory source for understanding local resistance in the Sundarbans."
+  "whyItMatters": "A valuable regional memory source for understanding local resistance in the Sundarbans.",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

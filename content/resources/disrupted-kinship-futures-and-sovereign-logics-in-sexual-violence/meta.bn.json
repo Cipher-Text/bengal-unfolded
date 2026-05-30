@@ -9,5 +9,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "সংবেদনশীলভাবে ব্যবহারযোগ্য: লিঙ্গভিত্তিক সহিংসতা, যুদ্ধ-পরবর্তী স্মৃতি, এবং সাক্ষ্যের নৈতিক রাজনীতি বোঝার জন্য কার্যকর।"
+  "whyItMatters": "সংবেদনশীলভাবে ব্যবহারযোগ্য: লিঙ্গভিত্তিক সহিংসতা, যুদ্ধ-পরবর্তী স্মৃতি, এবং সাক্ষ্যের নৈতিক রাজনীতি বোঝার জন্য কার্যকর।",
+  "relatedEventIds": [
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

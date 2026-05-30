@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Useful collection of testimonies, court records, and survivor/family accounts. Each claim should still be verified against the record."
+  "whyItMatters": "Useful collection of testimonies, court records, and survivor/family accounts. Each claim should still be verified against the record.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }

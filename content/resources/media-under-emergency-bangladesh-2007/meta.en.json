@@ -8,5 +8,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Relevant source on media restrictions, self-censorship, and public discourse under the emergency."
+  "whyItMatters": "Relevant source on media restrictions, self-censorship, and public discourse under the emergency.",
+  "relatedEventIds": [
+    "2007-2008-emergency-caretaker-rule"
+  ],
+  "relatedTopicIds": []
 }

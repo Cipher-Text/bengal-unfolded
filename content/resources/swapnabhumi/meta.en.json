@@ -9,5 +9,10 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "A documentary on the Urdu-speaking/Bihari stranded communities, connecting 1947 migration, 1971 conflict, and long-term statelessness."
+  "whyItMatters": "A documentary on the Urdu-speaking/Bihari stranded communities, connecting 1947 migration, 1971 conflict, and long-term statelessness.",
+  "relatedEventIds": [
+    "1947-partition-and-eastern-bengal",
+    "1971-liberation-war"
+  ],
+  "relatedTopicIds": []
 }

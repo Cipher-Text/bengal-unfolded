@@ -9,5 +9,9 @@
   "quality": "primary",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Mirza Nathan’s eyewitness chronicle of Bengal, Assam, and neighboring regions under Jahangir."
+  "whyItMatters": "Mirza Nathan’s eyewitness chronicle of Bengal, Assam, and neighboring regions under Jahangir.",
+  "relatedEventIds": [
+    "1612-mughal-conquest-phase-in-bengal-largely-completed"
+  ],
+  "relatedTopicIds": []
 }

@@ -12,5 +12,11 @@
   "whyItMatters": "বঙ্গভঙ্গ, স্বদেশী আন্দোলন, এবং ১৯৪৭ পর্যন্ত বাংলায় প্রতিদ্বন্দ্বী বাঙালি হিন্দু-মুসলিম জাতীয়তাবাদের একটি গুরুত্বপূর্ণ গবেষণা।",
   "relatedTopicIds": [
     "partition-of-bengal-1905"
+  ],
+  "relatedEventIds": [
+    "1905-partition-of-bengal",
+    "1919-1924-khilafat-movement-bengal",
+    "1946-1947-tebhaga-movement",
+    "1947-partition-and-eastern-bengal"
   ]
 }

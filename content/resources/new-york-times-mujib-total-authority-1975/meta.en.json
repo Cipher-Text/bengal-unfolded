@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "Contemporary international reporting on the Fourth Amendment. Useful for cross-checking how the 1975 shift was described externally."
+  "whyItMatters": "Contemporary international reporting on the Fourth Amendment. Useful for cross-checking how the 1975 shift was described externally.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

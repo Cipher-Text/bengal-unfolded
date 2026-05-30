@@ -8,5 +8,9 @@
   "quality": "archive",
   "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "চতুর্থ সংশোধনী নিয়ে সমকালীন আন্তর্জাতিক সংবাদ প্রতিবেদন। ১৯৭৫ সালের পরিবর্তন কীভাবে বাইরে থেকে দেখা হয়েছিল তা cross-check করতে useful."
+  "whyItMatters": "চতুর্থ সংশোধনী নিয়ে সমকালীন আন্তর্জাতিক সংবাদ প্রতিবেদন। ১৯৭৫ সালের পরিবর্তন কীভাবে বাইরে থেকে দেখা হয়েছিল তা cross-check করতে useful.",
+  "relatedEventIds": [
+    "1975-baksal-formation-and-collapse"
+  ],
+  "relatedTopicIds": []
 }

@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "academic",
   "evidenceLevel": "high",
-  "whyItMatters": "Human Rights Watch's review of pre-election, election-day, and post-election violence surrounding the 10th Parliamentary Election."
+  "whyItMatters": "Human Rights Watch's review of pre-election, election-day, and post-election violence surrounding the 10th Parliamentary Election.",
+  "relatedEventIds": [
+    "2014-10th-parliamentary-election"
+  ],
+  "relatedTopicIds": []
 }

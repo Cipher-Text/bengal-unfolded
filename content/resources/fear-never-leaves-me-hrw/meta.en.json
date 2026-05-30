@@ -10,5 +10,9 @@
   "quality": "secondary",
   "sourceQuality": "primary",
   "evidenceLevel": "high",
-  "whyItMatters": "Human Rights Watch's report on torture, custodial deaths, and trial-process concerns in the aftermath of the 2009 Bangladesh Rifles mutiny."
+  "whyItMatters": "Human Rights Watch's report on torture, custodial deaths, and trial-process concerns in the aftermath of the 2009 Bangladesh Rifles mutiny.",
+  "relatedEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedTopicIds": []
 }
