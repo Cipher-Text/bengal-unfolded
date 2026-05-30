@@ -2,8 +2,8 @@
   "name": "Sheikh Mujibur Rahman",
   "name_en": "Sheikh Mujibur Rahman",
   "seoTitle": "Sheikh Mujibur Rahman - Leader in Bangladesh's Independence History",
-  "seoDescription": "Profile of Sheikh Mujibur Rahman, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
-  "shortAnswer": "Sheikh Mujibur Rahman is linked to the 1971 Liberation War in this timeline as Student Organizer and National Leader.",
+  "seoDescription": "Profile of Sheikh Mujibur Rahman, tracing his role from language politics to autonomy and Bangladesh's independence movement.",
+  "shortAnswer": "A central political leader whose career linked post-partition language and autonomy struggles to Bangladesh's statehood.",
   "birthYear": "1920",
   "deathYear": "1975",
   "activePeriod": "1948-1975",
@@ -15,12 +15,12 @@
   "highlight": "His public life linked the first wounds of partition to the final struggle for independence.",
   "image": "/figures/sheikh-mujibur-rahman.jpg",
   "primaryEventIds": [
-    "1971-march-7-speech",
-    "1971-liberation-war",
-    "1972-state-formation-and-the-1972-constitution",
     "1948-language-question-becomes-a-mass-political-issue",
     "1966-six-point-programme-announced",
-    "1969-mass-uprising"
+    "1969-mass-uprising",
+    "1971-march-7-speech",
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
   ],
   "relatedPlaceIds": [
     "bengal-region"
