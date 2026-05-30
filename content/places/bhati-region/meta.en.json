@@ -10,5 +10,24 @@
   "relatedEventIds": [
     "1599-baro-bhuyans-resistance-in-bhati",
     "1612-mughal-conquest-phase-in-bengal-largely-completed"
+  ],
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ],
+  "relatedFigureIds": [
+    "isa-khan",
+    "musa-khan",
+    "akbar",
+    "man-singh-i",
+    "islam-khan-chishti",
+    "daud-khan-karrani",
+    "jahangir-mughal",
+    "kedar-rai",
+    "chand-rai",
+    "pratapaditya",
+    "mukunda-ray-of-bhusna"
+  ],
+  "relatedPeriodIds": [
+    "mughal-incorporation-and-consolidation"
   ]
 }

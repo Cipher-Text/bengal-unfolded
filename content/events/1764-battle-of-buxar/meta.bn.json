@@ -43,7 +43,7 @@
   "showOnLanding": false,
   "periodId": "colonial-rule-and-resistance",
   "movementId": "colonial-capture-and-resistance",
-  "placeId": "bengal-region",
+  "placeId": "buxar",
   "placeLabel": "বাংলা অঞ্চল",
   "claimCitations": [
     {
@@ -65,6 +65,13 @@
         "diwani-banglapedia"
       ],
       "evidenceLevel": "medium"
+    }
+  ],
+  "mapPoints": [
+    {
+      "placeId": "bihar-borderland",
+      "label": "Bihar Borderland",
+      "role": "other"
     }
   ]
 }

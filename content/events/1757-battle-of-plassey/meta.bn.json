@@ -62,7 +62,7 @@
     "jagat-sheth-banglapedia"
   ],
   "culturalImpactEvidenceLevel": "medium",
-  "placeId": "bengal-region",
+  "placeId": "palashi-plassey",
   "placeLabel": "বাংলা অঞ্চল",
   "identityMemoryNotes": "পলাশী বোঝা জরুরি, কারণ এখান থেকেই বাংলায় ঔপনিবেশিক আধিপত্যের সামরিক, রাজনৈতিক ও অর্থনৈতিক ভিত্তি স্পষ্ট হয়ে ওঠে।",
   "identityMemorySourceIds": [
@@ -110,6 +110,13 @@
         "jagat-sheth-banglapedia"
       ],
       "evidenceLevel": "medium"
+    }
+  ],
+  "mapPoints": [
+    {
+      "placeId": "krishnanagar",
+      "label": "Krishnanagar",
+      "role": "other"
     }
   ]
 }

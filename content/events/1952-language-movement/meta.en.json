@@ -60,7 +60,7 @@
     "state-language-movement-in-east-bengal-1947-1956"
   ],
   "culturalImpactEvidenceLevel": "medium",
-  "placeId": "bengal-region",
+  "placeId": "dhaka-medical-college",
   "placeLabel": "Bengal Region",
   "identityMemoryNotes": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
   "identityMemorySourceIds": [
@@ -108,6 +108,18 @@
         "state-language-movement-in-east-bengal-1947-1956"
       ],
       "evidenceLevel": "medium"
+    }
+  ],
+  "mapPoints": [
+    {
+      "placeId": "central-shaheed-minar",
+      "label": "Central Shaheed Minar",
+      "role": "movement-center"
+    },
+    {
+      "placeId": "dhaka-university",
+      "label": "Dhaka University",
+      "role": "movement-center"
     }
   ]
 }

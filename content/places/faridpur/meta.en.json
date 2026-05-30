@@ -8,6 +8,18 @@
   "coordinateConfidence": "representative",
   "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
   "relatedEventIds": [
-    "1818-faraizi-movement-begins-in-eastern-bengal"
+    "1818-faraizi-movement-begins-in-eastern-bengal",
+    "1946-1947-tebhaga-movement"
+  ],
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ],
+  "relatedFigureIds": [
+    "ila-mitra",
+    "muzaffar-ahmad",
+    "somnath-lahiri"
+  ],
+  "relatedPeriodIds": [
+    "partition-and-late-colonial-politics"
   ]
 }

@@ -10,5 +10,17 @@
   "relatedEventIds": [
     "0800-1200-somapura-mahavihara",
     "0750-1170-pala-dynasty-foundation"
+  ],
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal",
+    "pala-sena-period-and-knowledge-culture"
+  ],
+  "relatedFigureIds": [
+    "dharmapala",
+    "devapala",
+    "atisha-dipankara-srijnana"
+  ],
+  "relatedPeriodIds": [
+    "ancient-and-pre-sultanate-bengal"
   ]
 }

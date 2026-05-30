@@ -8,6 +8,19 @@
   "coordinateConfidence": "representative",
   "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
   "relatedEventIds": [
-    "1831-titumir-s-bamboo-fort-uprising"
+    "1831-titumir-s-bamboo-fort-uprising",
+    "1818-faraizi-movement-begins-in-eastern-bengal"
+  ],
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ],
+  "relatedFigureIds": [
+    "haji-shariatullah",
+    "raja-rammohun-roy",
+    "titu-mir",
+    "dudu-miyan"
+  ],
+  "relatedPeriodIds": [
+    "colonial-rule-and-resistance"
   ]
 }

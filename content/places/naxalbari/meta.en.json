@@ -9,5 +9,15 @@
   "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
   "relatedEventIds": [
     "1967-naxalbari-uprising-and-bengal-left-radicalization"
+  ],
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "pakistan-period-state-and-national-awakening"
+  ],
+  "relatedFigureIds": [
+    "charu-majumdar"
+  ],
+  "relatedPeriodIds": [
+    "contemporary-memory-and-civic-protest"
   ]
 }

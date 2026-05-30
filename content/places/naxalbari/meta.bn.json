@@ -9,5 +9,15 @@
   "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
   "relatedEventIds": [
     "1967-naxalbari-uprising-and-bengal-left-radicalization"
+  ],
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "pakistan-period-state-and-national-awakening"
+  ],
+  "relatedFigureIds": [
+    "charu-majumdar"
+  ],
+  "relatedPeriodIds": [
+    "contemporary-memory-and-civic-protest"
   ]
 }

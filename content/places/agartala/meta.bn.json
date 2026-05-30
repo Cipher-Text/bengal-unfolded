@@ -9,5 +9,16 @@
   "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
   "relatedEventIds": [
     "1968-agartala-conspiracy-case"
+  ],
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ],
+  "relatedFigureIds": [
+    "sheikh-mujibur-rahman",
+    "awami-league",
+    "sa-rahman"
+  ],
+  "relatedPeriodIds": [
+    "pakistan-period-and-national-awakening"
   ]
 }

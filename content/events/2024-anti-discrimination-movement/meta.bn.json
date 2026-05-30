@@ -61,7 +61,7 @@
     "archive-collection"
   ],
   "culturalImpactEvidenceLevel": "medium",
-  "placeId": "bengal-region",
+  "placeId": "dhaka-university",
   "placeLabel": "বাংলা অঞ্চল",
   "identityMemoryNotes": "২০২৪ সালের এই আন্দোলন শুধু একটি নীতিগত পরিবর্তনের দাবি নয়—এটি সমতা, ন্যায্যতা এবং তরুণদের ভবিষ্যৎ নিয়ে একটি গুরুত্বপূর্ণ সামাজিক প্রশ্ন তুলে ধরে। এটি দেখায় যে নতুন প্রজন্ম তাদের অধিকার ও সুযোগের বিষয়ে সচেতন এবং সক্রিয়।",
   "identityMemorySourceIds": [
@@ -109,6 +109,13 @@
         "archive-collection"
       ],
       "evidenceLevel": "medium"
+    }
+  ],
+  "mapPoints": [
+    {
+      "placeId": "pilkhana-dhaka",
+      "label": "Pilkhana, Dhaka",
+      "role": "movement-center"
     }
   ]
 }

@@ -42,7 +42,7 @@
     "the-history-of-bengal-vol-2-muslim-period-1200-1757"
   ],
   "longTermLegacyEvidenceLevel": "medium",
-  "placeId": "bengal-region",
+  "placeId": "hooghly",
   "placeLabel": "Bengal Region",
   "identityMemoryNotes": "Mughal Attack on Portuguese Hooghly remains a key memory node in long-run Bengal historical narratives.",
   "identityMemorySourceIds": [
@@ -90,6 +90,13 @@
         "the-history-of-bengal-vol-2-muslim-period-1200-1757"
       ],
       "evidenceLevel": "medium"
+    }
+  ],
+  "mapPoints": [
+    {
+      "placeId": "satgaon",
+      "label": "Satgaon",
+      "role": "route"
     }
   ]
 }

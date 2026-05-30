@@ -10,5 +10,14 @@
   "relatedEventIds": [
     "1632-mughal-attack-on-portuguese-hooghly",
     "1690-english-settlement-calcutta"
+  ],
+  "relatedTopicIds": [
+    "mughal-bengal-and-regional-resistance"
+  ],
+  "relatedFigureIds": [
+    "jahangir-mughal"
+  ],
+  "relatedPeriodIds": [
+    "mughal-incorporation-and-consolidation"
   ]
 }

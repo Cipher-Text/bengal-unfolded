@@ -9,5 +9,17 @@
   "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।",
   "relatedEventIds": [
     "2001-padua-pyrdiwah-boraibari-border-clash"
+  ],
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation"
+  ],
+  "relatedFigureIds": [
+    "sheikh-hasina",
+    "khaleda-zia",
+    "alm-fazlur-rahman",
+    "shah-ams-kibria"
+  ],
+  "relatedPeriodIds": [
+    "post-liberation-state-and-democracy"
   ]
 }

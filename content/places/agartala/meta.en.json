@@ -9,5 +9,16 @@
   "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
   "relatedEventIds": [
     "1968-agartala-conspiracy-case"
+  ],
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ],
+  "relatedFigureIds": [
+    "sheikh-mujibur-rahman",
+    "awami-league",
+    "sa-rahman"
+  ],
+  "relatedPeriodIds": [
+    "pakistan-period-and-national-awakening"
   ]
 }

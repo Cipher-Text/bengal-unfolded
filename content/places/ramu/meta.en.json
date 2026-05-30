@@ -9,5 +9,15 @@
   "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
   "relatedEventIds": [
     "2012-ramu-communal-violence"
+  ],
+  "relatedTopicIds": [
+    "democracy-and-civic-movements",
+    "post-1971-state-crises-and-civic-contestation"
+  ],
+  "relatedFigureIds": [
+    "sheikh-hasina"
+  ],
+  "relatedPeriodIds": [
+    "contemporary-memory-and-civic-protest"
   ]
 }

@@ -9,5 +9,19 @@
   "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries.",
   "relatedEventIds": [
     "1970-bhola-cyclone-and-the-1970-election"
+  ],
+  "relatedTopicIds": [
+    "pakistan-period-state-and-national-awakening"
+  ],
+  "relatedFigureIds": [
+    "sheikh-mujibur-rahman",
+    "tajuddin-ahmad",
+    "syed-nazrul-islam",
+    "yahya-khan",
+    "zulfikar-ali-bhutto",
+    "pakistan-peoples-party"
+  ],
+  "relatedPeriodIds": [
+    "pakistan-period-and-national-awakening"
   ]
 }

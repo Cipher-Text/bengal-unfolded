@@ -62,7 +62,7 @@
     "bengal-sultanate-wikipedia"
   ],
   "longTermLegacyEvidenceLevel": "medium",
-  "placeId": "bengal-region",
+  "placeId": "rajmahal",
   "placeLabel": "বাংলা অঞ্চল",
   "identityMemoryNotes": "এই ঘটনাটি গুরুত্বপূর্ণ, কারণ এটি সুলতানি বাংলার শেষ পর্যায়কে মুঘল প্রাদেশিক শাসনের সঙ্গে যুক্ত করে। দাউদ খান কররানির পরাজয়ের ফলে বাংলায় কর্তৃত্ব, করব্যবস্থা ও সামরিক নিয়ন্ত্রণের কাঠামো বদলে যায়, যা পরবর্তী নবাবি রাজনীতি ও অষ্টাদশ শতকের সংকটগুলোর প্রাতিষ্ঠানিক ভিত্তি তৈরি করে।",
   "identityMemorySourceIds": [
@@ -110,6 +110,13 @@
         "bengal-sultanate-wikipedia"
       ],
       "evidenceLevel": "medium"
+    }
+  ],
+  "mapPoints": [
+    {
+      "placeId": "gauda-rajmahal-corridor",
+      "label": "Gauda-Rajmahal corridor",
+      "role": "route"
     }
   ]
 }

@@ -42,7 +42,7 @@
     "the-history-of-bengal-vol-2-muslim-period-1200-1757"
   ],
   "longTermLegacyEvidenceLevel": "medium",
-  "placeId": "bengal-region",
+  "placeId": "hooghly",
   "placeLabel": "বাংলা অঞ্চল",
   "identityMemoryNotes": "বাংলার দীর্ঘ ইতিহাস-স্মৃতিতে এই ঘটনা একটি প্রধান সংযোগবিন্দু।",
   "identityMemorySourceIds": [
@@ -90,6 +90,13 @@
         "the-history-of-bengal-vol-2-muslim-period-1200-1757"
       ],
       "evidenceLevel": "medium"
+    }
+  ],
+  "mapPoints": [
+    {
+      "placeId": "satgaon",
+      "label": "Satgaon",
+      "role": "route"
     }
   ]
 }
