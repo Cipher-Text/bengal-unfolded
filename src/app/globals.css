@@ -78,9 +78,9 @@ html[data-theme="dark"]  { color-scheme: dark; }
   --color-foreground: var(--fg);
   --color-accent: var(--sepia);
   --color-positive: var(--forest);
-  --font-sans: var(--font-sans), "Hind Siliguri", "SolaimanLipi", Georgia, serif;
-  --font-display: var(--font-display), "Iowan Old Style", "Palatino Linotype", Georgia, serif;
-  --font-type: var(--font-type), "Courier New", monospace;
+  --font-sans: var(--font-sans, "Hind Siliguri"), "SolaimanLipi", Georgia, serif;
+  --font-display: var(--font-display, "Playfair Display"), "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-type: var(--font-type, "Special Elite"), "Courier New", monospace;
 }
 
 /* ============ Base ============ */

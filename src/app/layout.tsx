@@ -1,7 +1,29 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Hind_Siliguri, Playfair_Display, Special_Elite } from "next/font/google";
 import { CANONICAL_ORIGIN, DEFAULT_OG_IMAGE, SITE_NAME } from "@/lib/seo";
 import "./globals.css";
+
+const hindSiliguri = Hind_Siliguri({
+  weight: ["400", "600"],
+  subsets: ["bengali", "latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const playfairDisplay = Playfair_Display({
+  weight: ["400", "600"],
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
+});
+
+const specialElite = Special_Elite({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-type",
+  display: "swap",
+});
 
 const SITE_DESCRIPTION =
   "Bengal Unfolded is a bilingual Bangladesh and Bengal history and cultural learning platform, not a news portal.";
@@ -74,18 +96,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       lang="en"
       data-theme="light"
       suppressHydrationWarning
-      className="h-full"
-      style={
-        {
-          "--font-sans": '"Hind Siliguri", "SolaimanLipi", Georgia, serif',
-          "--font-display": '"Playfair Display", "Iowan Old Style", "Palatino Linotype", Georgia, serif',
-          "--font-type": '"Special Elite", "Courier New", monospace',
-        } as React.CSSProperties
-      }
+      className={`h-full ${hindSiliguri.variable} ${playfairDisplay.variable} ${specialElite.variable}`}
     >
       <body className="min-h-full">
-        <Script id="theme-init" src="/theme-init.js" strategy="beforeInteractive" />
-        <Script id="lang-init" src="/lang-init.js" strategy="beforeInteractive" />
+        <script
+          id="theme-init"
+          dangerouslySetInnerHTML={{
+            __html: `(()=>{try{const saved=localStorage.getItem("theme");const theme=saved==="light"||saved==="dark"?saved:"light";document.documentElement.dataset.theme=theme}catch(_){document.documentElement.dataset.theme="light"}})();`,
+          }}
+        />
+        <script
+          id="lang-init"
+          dangerouslySetInnerHTML={{
+            __html: `(()=>{try{const seg=location.pathname.split("/")[1];if(seg==="bn")document.documentElement.lang="bn"}catch(_){}})();`,
+          }}
+        />
         <script id="website-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
         <script id="organization-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
         {children}

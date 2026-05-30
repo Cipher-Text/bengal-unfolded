@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "content:validate": "node scripts/validate-content.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "update:image-refs": "node scripts/update-image-refs.mjs",
     "lighthouse:mobile": "npx lighthouse https://bengalunfolded.com/bn --only-categories=performance --emulated-form-factor=mobile --throttling-method=simulate",
     "lighthouse:desktop": "npx lighthouse https://bengalunfolded.com/bn --only-categories=performance --preset=desktop --throttling-method=simulate"
   },
@@ -24,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   },

@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 
 function PhotoPlaceholder({
   caption,
@@ -19,7 +20,7 @@ function PhotoPlaceholder({
       style={{ transform: rotation }}
       aria-label={caption}
     >
-      <img src={src} alt={alt} loading="lazy" className="aspect-[4/3] h-auto w-full object-cover" />
+      <Image src={src} alt={alt} width={400} height={300} className="aspect-[4/3] h-auto w-full object-cover" priority={false} quality={90} />
       <figcaption className="absolute inset-x-0 bottom-1 text-center text-[10px] font-medium uppercase tracking-[0.2em] text-amber-50/85">
         {caption}
       </figcaption>

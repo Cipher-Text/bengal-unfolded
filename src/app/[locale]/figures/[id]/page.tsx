@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
@@ -271,7 +272,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
         <div className="theme-surface mt-4 rounded-xl border p-4">
           {figure.image ? (
             <div className="theme-surface mb-4 overflow-hidden rounded-xl border border-amber-500/25 p-2">
-              <img src={figure.image} alt={figure.name} loading="lazy" className="h-auto max-h-[32rem] w-full object-contain" />
+              <Image src={figure.image} alt={figure.name} width={800} height={512} className="h-auto max-h-[32rem] w-full object-contain" priority={false} quality={85} />
             </div>
           ) : null}
           <p className="theme-muted text-sm leading-relaxed">{biographySummary}</p>

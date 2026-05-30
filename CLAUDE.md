@@ -78,10 +78,11 @@ Event pages load data with `Promise.all()` for parallel reads. See `docs/CONTENT
 ### Fonts
 
 Fonts are loaded via `next/font/google` (self-hosted, optimized):
-- **Noto Serif Bengali** — weights 400, 600; subsets: bengali, latin; variable: `--font-sans`
+- **Hind Siliguri** — weights 400, 600; subsets: bengali, latin; variable: `--font-sans`
 - **Playfair Display** — weights 400, 600; subsets: latin; variable: `--font-display`
+- **Special Elite** — weight 400; subsets: latin; variable: `--font-type`
 
-Font variables are injected on `<html>` and referenced in `globals.css` via CSS custom properties. This eliminates FOUT (Flash of Unstyled Text) and reduces CLS.
+Font variables are injected on `<html>` via className and referenced in `globals.css` via CSS custom properties. This provides automatic font optimization, subsetting, and eliminates FOUT (Flash of Unstyled Text) while reducing CLS.
 
 ### Theming
 

@@ -1,11 +1,24 @@
 import type { Metadata } from "next";
 import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, normalizeMetaDescription, serializeJsonLd } from "@/lib/seo";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { ContentDensityControls } from "@/components/ContentDensityControls";
 import { EventNavigation } from "@/components/EventNavigation";
-import { EventTimeline } from "@/components/EventTimeline";
+
+const EventTimeline = dynamic(
+  () => import("@/components/EventTimeline").then((mod) => mod.EventTimeline),
+  {
+    loading: () => (
+      <div className="newspaper-shell">
+        <div className="flipbook-stage min-h-[70vh] flex items-center justify-center">
+          <div className="theme-surface h-96 w-full max-w-4xl animate-pulse rounded-xl border p-8" />
+        </div>
+      </div>
+    ),
+  }
+);
 import { FigureProfileCard } from "@/components/FigureProfileCard";
 import { HeroSection } from "@/components/HeroSection";
 import { QuoteBlock } from "@/components/QuoteBlock";
