@@ -1,0 +1,21 @@
+{
+  "title": "Former Rab CO 'missing'",
+  "note": "Contemporary news report on Hasinur Rahman's alleged pickup near Mirpur DOHS in August 2018, including family claims and agency denials.",
+  "category": "reference-sources",
+  "subcategory": "News Report",
+  "attribution": "The Daily Star",
+  "creatorId": "the-daily-star",
+  "creatorType": "organization",
+  "quality": "archive",
+  "href": "https://www.thedailystar.net/news/city/bangladesh-ex-army-officer-lieutenant-colonel-hasinur-rahman-picked-up-gd-filed-in-pallabi-dhaka-1618297",
+  "sourceQuality": "archive",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Documents the first public reporting around Hasinur Rahman's alleged disappearance in 2018.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedFigureIds": [
+    "hasinur-rahman"
+  ],
+  "relatedTopicIds": []
+}

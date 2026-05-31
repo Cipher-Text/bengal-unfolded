@@ -259,6 +259,7 @@ export const SUPPORTED_FIGURE_IDS = [
   "pinaki-bhattacharya",
   "zafar-sobhan",
   "shahidul-alam",
+  "hasinur-rahman",
   "syeda-rizwana-hasan",
   "adilur-rahman-khan",
   "farhad-mazhar",
