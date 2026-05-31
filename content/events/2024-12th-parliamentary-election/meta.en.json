@@ -1,0 +1,104 @@
+{
+  "slug": "2024-12th-parliamentary-election",
+  "year": "2024",
+  "title": "12th Parliamentary Election",
+  "subtitle": "The January election returned the incumbent government amid an opposition boycott and rights-group criticism.",
+  "summary": "Bangladesh held its 12th National Parliamentary Election on 7 January 2024. The Election Commission published official results, while major opposition boycott politics and rights-group reporting made the election's legitimacy sharply contested.",
+  "themeColor": "#6d4a7a",
+  "ctaLabel": "Review the 2024 election",
+  "heroTagline": "Formal results and political legitimacy moved in different directions.",
+  "whyItMatters": "The election became a key prelude to the 2024 protest cycle because it deepened debates over participation, coercion, constitutional design, and democratic credibility.",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "2018-election",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2018-election",
+    "2024-anti-discrimination-movement"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "election-commission-2024-general-election-results",
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "whyItMattersSourceIds": [
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "Bangladesh",
+  "longTermLegacy": "Its long-term significance lies in how the January vote fed into later arguments about representation, legitimacy, and the conditions that preceded the July-August 2024 uprising.",
+  "longTermLegacySourceIds": [
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "The election is remembered differently by official result narratives and opposition or rights-based accounts of exclusion and repression.",
+  "identityMemorySourceIds": [
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Bangladesh held its 12th National Parliamentary Election on 7 January 2024. The Election Commission published official results, while major opposition boycott politics and rights-group reporting made the election's legitimacy sharply contested.",
+      "sourceIds": [
+        "election-commission-2024-general-election-results",
+        "hrw-bangladesh-2024-election-repression"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The election became a key prelude to the 2024 protest cycle because it deepened debates over participation, coercion, constitutional design, and democratic credibility.",
+      "sourceIds": [
+        "hrw-bangladesh-2024-election-repression"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Its long-term significance lies in how the January vote fed into later arguments about representation, legitimacy, and the conditions that preceded the July-August 2024 uprising.",
+      "sourceIds": [
+        "hrw-bangladesh-2024-election-repression"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The election is remembered differently by official result narratives and opposition or rights-based accounts of exclusion and repression.",
+      "sourceIds": [
+        "hrw-bangladesh-2024-election-repression"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contested": true,
+  "historicalDebate": "Official sources record the election result, while opposition parties and rights organizations questioned the political conditions under which the vote took place.",
+  "historicalDebateSourceIds": [
+    "election-commission-2024-general-election-results",
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "contentWarnings": [
+    "political repression claims",
+    "election legitimacy dispute"
+  ]
+}

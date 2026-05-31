@@ -1,0 +1,109 @@
+{
+  "slug": "2013-shapla-chattar-crackdown",
+  "year": "২০১৩",
+  "title": "শাপলা চত্বর অভিযান",
+  "subtitle": "২০১৩ সালের যুদ্ধাপরাধ-বিচার সংকটের বৃহত্তর প্রেক্ষাপটে মতিঝিলে হেফাজতে ইসলামের সমাবেশ নিরাপত্তা বাহিনী সরিয়ে দেয়।",
+  "summary": "২০১৩ সালের ৫-৬ মে ঢাকার মতিঝিলের শাপলা চত্বর থেকে হেফাজতে ইসলামের সমর্থকদের নিরাপত্তা বাহিনী সরিয়ে দেয়। যুদ্ধাপরাধ বিচার, শাহবাগের গণসমাবেশ ও ইসলামপন্থী পাল্টা-মবিলাইজেশন ঘিরে কয়েক মাসের মেরুকরণের পর এই ঘটনা ঘটে।",
+  "themeColor": "#7f3f46",
+  "ctaLabel": "বিতর্কিত ঘটনা দেখুন",
+  "heroTagline": "রাতের অভিযানটি ২০১৩ সালের সবচেয়ে বিতর্কিত ঘটনাগুলোর একটিতে পরিণত হয়।",
+  "whyItMatters": "এই অভিযান গুরুত্বপূর্ণ, কারণ এটি বিচার-রাজনীতি, ধর্মীয় মবিলাইজেশন, রাষ্ট্রীয় বলপ্রয়োগ ও হতাহতের বিতর্কিত বয়ানকে একই অস্থির পর্বে যুক্ত করে।",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "2013-shahbag-movement",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2013-shahbag-movement",
+    "1971-liberation-war"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "hrw-blood-on-the-streets-2013",
+    "hefazat-e-islam-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "hrw-blood-on-the-streets-2013",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "shahbag-dhaka",
+  "placeLabel": "শাহবাগ-ঢাকা",
+  "longTermLegacy": "এর উত্তরাধিকার প্রতিবাদ দমন, ধর্মীয়-রাজনৈতিক মবিলাইজেশন, বিচার-প্রক্রিয়া ও প্রতিদ্বন্দ্বী হতাহতের দাবির বিশ্বাসযোগ্যতা নিয়ে বিতর্কের সঙ্গে যুক্ত।",
+  "longTermLegacySourceIds": [
+    "hrw-blood-on-the-streets-2013",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "সমর্থক, সমালোচক ও অধিকার সংগঠনগুলোর কাছে শাপলা চত্বর রাষ্ট্রীয় সহিংসতা ও রাজনৈতিক বৈধতা নিয়ে অমীমাংসিত তর্কের সংক্ষিপ্ত প্রতীক হয়ে ওঠে।",
+  "identityMemorySourceIds": [
+    "hrw-blood-on-the-streets-2013",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১৩ সালের ৫-৬ মে ঢাকার মতিঝিলের শাপলা চত্বর থেকে হেফাজতে ইসলামের সমর্থকদের নিরাপত্তা বাহিনী সরিয়ে দেয়। যুদ্ধাপরাধ বিচার, শাহবাগের গণসমাবেশ ও ইসলামপন্থী পাল্টা-মবিলাইজেশন ঘিরে কয়েক মাসের মেরুকরণের পর এই ঘটনা ঘটে।",
+      "sourceIds": [
+        "hrw-blood-on-the-streets-2013",
+        "hefazat-e-islam-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই অভিযান গুরুত্বপূর্ণ, কারণ এটি বিচার-রাজনীতি, ধর্মীয় মবিলাইজেশন, রাষ্ট্রীয় বলপ্রয়োগ ও হতাহতের বিতর্কিত বয়ানকে একই অস্থির পর্বে যুক্ত করে।",
+      "sourceIds": [
+        "hrw-blood-on-the-streets-2013",
+        "international-crimes-tribunal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এর উত্তরাধিকার প্রতিবাদ দমন, ধর্মীয়-রাজনৈতিক মবিলাইজেশন, বিচার-প্রক্রিয়া ও প্রতিদ্বন্দ্বী হতাহতের দাবির বিশ্বাসযোগ্যতা নিয়ে বিতর্কের সঙ্গে যুক্ত।",
+      "sourceIds": [
+        "hrw-blood-on-the-streets-2013",
+        "international-crimes-tribunal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "সমর্থক, সমালোচক ও অধিকার সংগঠনগুলোর কাছে শাপলা চত্বর রাষ্ট্রীয় সহিংসতা ও রাজনৈতিক বৈধতা নিয়ে অমীমাংসিত তর্কের সংক্ষিপ্ত প্রতীক হয়ে ওঠে।",
+      "sourceIds": [
+        "hrw-blood-on-the-streets-2013",
+        "international-crimes-tribunal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contested": true,
+  "historicalDebate": "হতাহতের সংখ্যা ও দায় নিয়ে মতভেদ আছে। অধিকার-সংস্থার প্রতিবেদনে মৃত্যু ও অতিরিক্ত বলপ্রয়োগের উদ্বেগ নথিভুক্ত, আর রাজনৈতিক পক্ষগুলো ভিন্ন ভিন্ন সংখ্যা ও ব্যাখ্যা প্রচার করেছে।",
+  "historicalDebateSourceIds": [
+    "hrw-blood-on-the-streets-2013"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "contentWarnings": [
+    "রাজনৈতিক সহিংসতা",
+    "বিতর্কিত হতাহতের দাবি"
+  ]
+}

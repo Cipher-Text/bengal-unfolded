@@ -1,0 +1,109 @@
+{
+  "slug": "2013-shapla-chattar-crackdown",
+  "year": "2013",
+  "title": "Shapla Chattar Crackdown",
+  "subtitle": "Security forces cleared a Hefazat-e-Islam rally in Motijheel amid the wider 2013 war-crimes-trial crisis.",
+  "summary": "On 5-6 May 2013, security forces cleared Hefazat-e-Islam supporters from Shapla Chattar in Motijheel, Dhaka. The episode followed months of polarization around war-crimes trials, Shahbag mobilization, and Islamist counter-mobilization.",
+  "themeColor": "#7f3f46",
+  "ctaLabel": "Review the contested event",
+  "heroTagline": "A night-time operation became one of the most disputed episodes of 2013.",
+  "whyItMatters": "The crackdown matters because it linked accountability politics, religious mobilization, state force, and contested casualty narratives in one volatile episode of contemporary Bangladesh.",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "2013-shahbag-movement",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2013-shahbag-movement",
+    "1971-liberation-war"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "hrw-blood-on-the-streets-2013",
+    "hefazat-e-islam-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "hrw-blood-on-the-streets-2013",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "shahbag-dhaka",
+  "placeLabel": "Shahbag-Dhaka",
+  "longTermLegacy": "Its legacy remains tied to debates over protest policing, religious-party mobilization, accountability trials, and the reliability of competing casualty claims.",
+  "longTermLegacySourceIds": [
+    "hrw-blood-on-the-streets-2013",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "For supporters, critics, and rights groups, Shapla Chattar became a shorthand for unresolved arguments about state violence and political legitimacy.",
+  "identityMemorySourceIds": [
+    "hrw-blood-on-the-streets-2013",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On 5-6 May 2013, security forces cleared Hefazat-e-Islam supporters from Shapla Chattar in Motijheel, Dhaka. The episode followed months of polarization around war-crimes trials, Shahbag mobilization, and Islamist counter-mobilization.",
+      "sourceIds": [
+        "hrw-blood-on-the-streets-2013",
+        "hefazat-e-islam-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The crackdown matters because it linked accountability politics, religious mobilization, state force, and contested casualty narratives in one volatile episode of contemporary Bangladesh.",
+      "sourceIds": [
+        "hrw-blood-on-the-streets-2013",
+        "international-crimes-tribunal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Its legacy remains tied to debates over protest policing, religious-party mobilization, accountability trials, and the reliability of competing casualty claims.",
+      "sourceIds": [
+        "hrw-blood-on-the-streets-2013",
+        "international-crimes-tribunal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "For supporters, critics, and rights groups, Shapla Chattar became a shorthand for unresolved arguments about state violence and political legitimacy.",
+      "sourceIds": [
+        "hrw-blood-on-the-streets-2013",
+        "international-crimes-tribunal-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contested": true,
+  "historicalDebate": "Casualty figures and responsibility remain disputed. Rights reporting documents deaths and excessive-force concerns, while political actors have circulated sharply different numbers and interpretations.",
+  "historicalDebateSourceIds": [
+    "hrw-blood-on-the-streets-2013"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "contentWarnings": [
+    "political violence",
+    "disputed casualty claims"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "1826-1831-young-bengal-derozian-movement",
+  "year": "1826-1831",
+  "title": "Young Bengal and the Derozian Movement",
+  "subtitle": "A Hindu College circle made free inquiry and social critique part of Bengal's early modern public culture.",
+  "summary": "Between the late 1820s and early 1830s, students influenced by Henry Louis Vivian Derozio at Hindu College became associated with the Young Bengal current. Their debates around reason, custom, education, and public criticism marked an early phase of the Bengal Renaissance.",
+  "themeColor": "#3f5f7f",
+  "ctaLabel": "Explore Young Bengal",
+  "heroTagline": "A small student circle widened Bengal's public argument over reason, reform, and authority.",
+  "whyItMatters": "Young Bengal did not become a mass movement, but it made intellectual dissent, modern education, and criticism of inherited authority visible in colonial Bengal's public sphere.",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1828-brahmo-samaj-and-bengal-social-reform",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1835-macaulay-education-policy-impact-in-bengal",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1828-brahmo-samaj-and-bengal-social-reform",
+    "1835-macaulay-education-policy-impact-in-bengal"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "State, society, and political change",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "young-bengal-banglapedia",
+    "derozio-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "young-bengal-banglapedia",
+    "david-hare-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "calcutta-kolkata",
+  "placeLabel": "Calcutta-Kolkata",
+  "longTermLegacy": "Its legacy is strongest in intellectual history: later reformers and critics looked back to the Derozian circle as an early experiment in secular and rationalist public debate.",
+  "longTermLegacySourceIds": [
+    "young-bengal-banglapedia",
+    "david-hare-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "The movement is remembered as elite and limited in social reach, but important for the vocabulary of modern education and reform in Bengal.",
+  "identityMemorySourceIds": [
+    "young-bengal-banglapedia",
+    "david-hare-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Between the late 1820s and early 1830s, students influenced by Henry Louis Vivian Derozio at Hindu College became associated with the Young Bengal current. Their debates around reason, custom, education, and public criticism marked an early phase of the Bengal Renaissance.",
+      "sourceIds": [
+        "young-bengal-banglapedia",
+        "derozio-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Young Bengal did not become a mass movement, but it made intellectual dissent, modern education, and criticism of inherited authority visible in colonial Bengal's public sphere.",
+      "sourceIds": [
+        "young-bengal-banglapedia",
+        "david-hare-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Its legacy is strongest in intellectual history: later reformers and critics looked back to the Derozian circle as an early experiment in secular and rationalist public debate.",
+      "sourceIds": [
+        "young-bengal-banglapedia",
+        "david-hare-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The movement is remembered as elite and limited in social reach, but important for the vocabulary of modern education and reform in Bengal.",
+      "sourceIds": [
+        "young-bengal-banglapedia",
+        "david-hare-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

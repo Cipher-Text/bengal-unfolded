@@ -1,0 +1,91 @@
+{
+  "slug": "1885-bengal-tenancy-act",
+  "year": "১৮৮৫",
+  "title": "বেঙ্গল টেন্যান্সি অ্যাক্ট",
+  "subtitle": "ঔপনিবেশিক বাংলার জমিদার-প্রজা সম্পর্ক ও ভাড়া-বিতর্ক পুনর্গঠনের গুরুত্বপূর্ণ আইন।",
+  "summary": "১৮৮৫ সালের বেঙ্গল টেন্যান্সি অ্যাক্ট স্থায়ী বন্দোবস্তের কাঠামোর অধীনে দীর্ঘ কৃষক-জমিদার সংঘাত ও আইনি অনিশ্চয়তার পর বাংলার জমিদার-প্রজা সম্পর্কের গুরুত্বপূর্ণ দিকগুলো বিধিবদ্ধ করে।",
+  "themeColor": "#586e44",
+  "ctaLabel": "কৃষি-আইন দেখুন",
+  "heroTagline": "একটি ভূমি-আইন কৃষক, জমিদার ও ঔপনিবেশিক কর্তৃত্বের সম্পর্ক পুনর্গঠন করে।",
+  "whyItMatters": "আইনটি গুরুত্বপূর্ণ, কারণ কৃষিস্বত্ব, দখলদারি দাবি, ভাড়া বৃদ্ধি ও মামলা-মোকদ্দমা বিংশ শতক পর্যন্ত বাংলার গ্রামীণ রাজনীতিকে প্রভাবিত করে।",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1793-permanent-settlement-in-bengal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1946-1947-tebhaga-movement",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1793-permanent-settlement-in-bengal",
+    "1946-1947-tebhaga-movement"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "longTermLegacy": "পরবর্তী প্রজাস্বত্ব, কৃষক সুরক্ষা ও জমিদারি কর্তৃত্বের সীমা নিয়ে বিতর্কে এই আইন একটি গুরুত্বপূর্ণ রেফারেন্সে পরিণত হয়।",
+  "longTermLegacySourceIds": [
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "স্থায়ী বন্দোবস্ত থেকে পরবর্তী ভূমি-সংস্কার রাজনীতির দীর্ঘ কৃষি-অসমতা ও আইনি সংস্কারের স্মৃতিতে এর স্থান রয়েছে।",
+  "identityMemorySourceIds": [
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৮৮৫ সালের বেঙ্গল টেন্যান্সি অ্যাক্ট স্থায়ী বন্দোবস্তের কাঠামোর অধীনে দীর্ঘ কৃষক-জমিদার সংঘাত ও আইনি অনিশ্চয়তার পর বাংলার জমিদার-প্রজা সম্পর্কের গুরুত্বপূর্ণ দিকগুলো বিধিবদ্ধ করে।",
+      "sourceIds": [
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "আইনটি গুরুত্বপূর্ণ, কারণ কৃষিস্বত্ব, দখলদারি দাবি, ভাড়া বৃদ্ধি ও মামলা-মোকদ্দমা বিংশ শতক পর্যন্ত বাংলার গ্রামীণ রাজনীতিকে প্রভাবিত করে।",
+      "sourceIds": [
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "পরবর্তী প্রজাস্বত্ব, কৃষক সুরক্ষা ও জমিদারি কর্তৃত্বের সীমা নিয়ে বিতর্কে এই আইন একটি গুরুত্বপূর্ণ রেফারেন্সে পরিণত হয়।",
+      "sourceIds": [
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "স্থায়ী বন্দোবস্ত থেকে পরবর্তী ভূমি-সংস্কার রাজনীতির দীর্ঘ কৃষি-অসমতা ও আইনি সংস্কারের স্মৃতিতে এর স্থান রয়েছে।",
+      "sourceIds": [
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

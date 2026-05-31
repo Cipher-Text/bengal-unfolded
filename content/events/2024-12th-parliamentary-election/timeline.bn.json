@@ -1,0 +1,26 @@
+[
+  {
+    "year": "২০২৪-০১-০৭",
+    "title": "নির্বাচন অনুষ্ঠিত",
+    "detail": "বাংলাদেশে দ্বাদশ সংসদ নির্বাচন অনুষ্ঠিত হয় এবং নির্বাচন কমিশন পরে সরকারি ফলাফল প্রকাশ করে।",
+    "sourceIds": [
+      "election-commission-2024-general-election-results"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "২০২৪-০১",
+    "title": "বৈধতা বিতর্ক চলতে থাকে",
+    "detail": "হিউম্যান রাইটস ওয়াচ দমন-পীড়ন ও নিরাপত্তা বাহিনীর অপব্যবহারকে নির্বাচনী প্রক্রিয়ার বিশ্বাসযোগ্যতা ক্ষুণ্ণকারী হিসেবে বর্ণনা করে, যা বিরোধী ও অধিকারভিত্তিক বৃহত্তর সমালোচনার প্রতিফলন।",
+    "sourceIds": [
+      "hrw-bangladesh-2024-election-repression"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

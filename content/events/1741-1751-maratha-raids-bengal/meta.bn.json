@@ -3,7 +3,7 @@
   "year": "1741-1751",
   "title": "বাংলায় মারাঠা আক্রমণ (বর্গি হানা)",
   "subtitle": "বারগি হামলার দশক বাংলার গ্রামীণ অর্থনীতি ও নিরাপত্তাকে গভীরভাবে নাড়া দেয়।",
-  "summary": "বারগি হামলার দশক বাংলার গ্রামীণ অর্থনীতি ও নিরাপত্তাকে গভীরভাবে নাড়া দেয়।",
+  "summary": "১৭৪১ থেকে ১৭৫১ সালের মধ্যে বারবার মারাঠা আক্রমণ, বাংলার স্মৃতিতে বর্গি আক্রমণ নামে পরিচিত, বাংলার নানা অঞ্চল বিপর্যস্ত করে এবং আলিবর্দি খানের শাসনকে চাপে ফেলে।",
   "themeColor": "#6a4a2f",
   "ctaLabel": "1741-1751 দেখুন",
   "heroTagline": "বাংলায় মারাঠা আক্রমণ (বর্গি হানা) ক্ষমতা ও শাসন কাঠামোয় গুরুত্বপূর্ণ পরিবর্তন আনে।",
@@ -11,7 +11,7 @@
     "bargi-invasions-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
   ],
-  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলার প্রাতিষ্ঠানিক ভারসাম্য, রাজনৈতিক জোট বা জনমobilization-এ বড় পরিবর্তন আনে।",
+  "whyItMatters": "এই আক্রমণ গুরুত্বপূর্ণ, কারণ এগুলো বাংলার নবাবি রাষ্ট্রের সামরিক ও রাজস্ব দুর্বলতা প্রকাশ করে এবং বর্গির লোকস্মৃতির মাধ্যমে গ্রামীণ মনে গভীর ছাপ রাখে।",
   "whyItMattersSourceIds": [
     "bargi-invasions-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -36,7 +36,7 @@
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "longTermLegacy": "এই পর্ব পরবর্তী রাজনৈতিক রূপান্তর, ক্ষমতার বিন্যাস ও জনস্মৃতিকে গভীরভাবে প্রভাবিত করে।",
+  "longTermLegacy": "বর্গি আক্রমণ আঠারো শতকের বাংলায় নিরাপত্তাহীনতার স্থায়ী প্রতীক হয়ে ওঠে এবং পরবর্তী নবাবি রাজনীতি কেন তীব্র সামরিক ও রাজস্বচাপে চলেছে তা ব্যাখ্যা করতে সাহায্য করে।",
   "longTermLegacySourceIds": [
     "bargi-invasions-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -44,7 +44,7 @@
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
   "placeLabel": "বাংলা অঞ্চল",
-  "identityMemoryNotes": "বাংলার দীর্ঘ ইতিহাস-স্মৃতিতে এই ঘটনা একটি প্রধান সংযোগবিন্দু।",
+  "identityMemoryNotes": "জনস্মৃতি এই আক্রমণকে গ্রামীণ ভয় ও বিপর্যয়ের গল্পে ধরে রাখে, আর রাজনৈতিক ইতিহাস এগুলোকে আঠারো শতকের বাংলার শাসনদুর্বলতার সঙ্গে যুক্ত করে।",
   "identityMemorySourceIds": [
     "bargi-invasions-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -54,7 +54,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Maratha Raids on Bengal (Bargi Invasions) marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "claim": "১৭৪১ থেকে ১৭৫১ সালের মধ্যে বারবার মারাঠা আক্রমণ, বাংলার স্মৃতিতে বর্গি আক্রমণ নামে পরিচিত, বাংলার নানা অঞ্চল বিপর্যস্ত করে এবং আলিবর্দি খানের শাসনকে চাপে ফেলে।",
       "sourceIds": [
         "bargi-invasions-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -64,7 +64,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "claim": "এই আক্রমণ গুরুত্বপূর্ণ, কারণ এগুলো বাংলার নবাবি রাষ্ট্রের সামরিক ও রাজস্ব দুর্বলতা প্রকাশ করে এবং বর্গির লোকস্মৃতির মাধ্যমে গ্রামীণ মনে গভীর ছাপ রাখে।",
       "sourceIds": [
         "bargi-invasions-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -74,7 +74,7 @@
     {
       "id": "longTermLegacy-claim-1",
       "section": "longTermLegacy",
-      "claim": "Maratha Raids on Bengal (Bargi Invasions) influenced later transitions in Bengal's state, society, and political imagination.",
+      "claim": "বর্গি আক্রমণ আঠারো শতকের বাংলায় নিরাপত্তাহীনতার স্থায়ী প্রতীক হয়ে ওঠে এবং পরবর্তী নবাবি রাজনীতি কেন তীব্র সামরিক ও রাজস্বচাপে চলেছে তা ব্যাখ্যা করতে সাহায্য করে।",
       "sourceIds": [
         "bargi-invasions-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -84,7 +84,7 @@
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "Maratha Raids on Bengal (Bargi Invasions) remains a key memory node in long-run Bengal historical narratives.",
+      "claim": "জনস্মৃতি এই আক্রমণকে গ্রামীণ ভয় ও বিপর্যয়ের গল্পে ধরে রাখে, আর রাজনৈতিক ইতিহাস এগুলোকে আঠারো শতকের বাংলার শাসনদুর্বলতার সঙ্গে যুক্ত করে।",
       "sourceIds": [
         "bargi-invasions-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"

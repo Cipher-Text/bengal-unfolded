@@ -3,7 +3,7 @@
   "year": "1741-1751",
   "title": "Maratha Raids on Bengal (Bargi Invasions)",
   "subtitle": "Maratha Raids on Bengal (Bargi Invasions)",
-  "summary": "Maratha Raids on Bengal (Bargi Invasions) marked a major turning point in Bengal's political trajectory and regional power structure.",
+  "summary": "Between 1741 and 1751, repeated Maratha raids, remembered in Bengal as Bargi invasions, devastated parts of Bengal and strained Alivardi Khan's regime.",
   "themeColor": "#6a4a2f",
   "ctaLabel": "Explore 1741-1751",
   "heroTagline": "Maratha Raids on Bengal (Bargi Invasions) reshaped power and governance patterns in Bengal.",
@@ -11,7 +11,7 @@
     "bargi-invasions-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
   ],
-  "whyItMatters": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+  "whyItMatters": "The raids matter because they exposed the fiscal and military fragility of Bengal's nawabi state and left a deep imprint on rural memory, including the folk image of the Bargi.",
   "whyItMattersSourceIds": [
     "bargi-invasions-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -36,7 +36,7 @@
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "longTermLegacy": "Maratha Raids on Bengal (Bargi Invasions) influenced later transitions in Bengal's state, society, and political imagination.",
+  "longTermLegacy": "The Bargi raids became a lasting symbol of insecurity in eighteenth-century Bengal and helped explain why later nawabi politics operated under severe military and revenue pressure.",
   "longTermLegacySourceIds": [
     "bargi-invasions-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -44,7 +44,7 @@
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region",
-  "identityMemoryNotes": "Maratha Raids on Bengal (Bargi Invasions) remains a key memory node in long-run Bengal historical narratives.",
+  "identityMemoryNotes": "Popular memory often preserves the raids through stories of rural fear and disruption, while political history links them to the weakening of Bengal's eighteenth-century regime.",
   "identityMemorySourceIds": [
     "bargi-invasions-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -54,7 +54,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Maratha Raids on Bengal (Bargi Invasions) marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "claim": "Between 1741 and 1751, repeated Maratha raids, remembered in Bengal as Bargi invasions, devastated parts of Bengal and strained Alivardi Khan's regime.",
       "sourceIds": [
         "bargi-invasions-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -64,7 +64,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "claim": "The raids matter because they exposed the fiscal and military fragility of Bengal's nawabi state and left a deep imprint on rural memory, including the folk image of the Bargi.",
       "sourceIds": [
         "bargi-invasions-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -74,7 +74,7 @@
     {
       "id": "longTermLegacy-claim-1",
       "section": "longTermLegacy",
-      "claim": "Maratha Raids on Bengal (Bargi Invasions) influenced later transitions in Bengal's state, society, and political imagination.",
+      "claim": "The Bargi raids became a lasting symbol of insecurity in eighteenth-century Bengal and helped explain why later nawabi politics operated under severe military and revenue pressure.",
       "sourceIds": [
         "bargi-invasions-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -84,7 +84,7 @@
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "Maratha Raids on Bengal (Bargi Invasions) remains a key memory node in long-run Bengal historical narratives.",
+      "claim": "Popular memory often preserves the raids through stories of rural fear and disruption, while political history links them to the weakening of Bengal's eighteenth-century regime.",
       "sourceIds": [
         "bargi-invasions-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"

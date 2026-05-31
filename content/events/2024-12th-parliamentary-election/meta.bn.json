@@ -1,0 +1,104 @@
+{
+  "slug": "2024-12th-parliamentary-election",
+  "year": "২০২৪",
+  "title": "দ্বাদশ জাতীয় সংসদ নির্বাচন",
+  "subtitle": "বিরোধী বয়কট ও অধিকার-সংস্থার সমালোচনার মধ্যে জানুয়ারির নির্বাচন ক্ষমতাসীন সরকারকে ফিরিয়ে আনে।",
+  "summary": "বাংলাদেশে ২০২৪ সালের ৭ জানুয়ারি দ্বাদশ জাতীয় সংসদ নির্বাচন অনুষ্ঠিত হয়। নির্বাচন কমিশন সরকারি ফল প্রকাশ করে, তবে প্রধান বিরোধী বয়কট রাজনীতি ও অধিকার-সংস্থার প্রতিবেদন নির্বাচনের বৈধতা নিয়ে তীব্র বিতর্ক তৈরি করে।",
+  "themeColor": "#6d4a7a",
+  "ctaLabel": "২০২৪ নির্বাচন দেখুন",
+  "heroTagline": "আনুষ্ঠানিক ফলাফল ও রাজনৈতিক বৈধতার প্রশ্ন ভিন্ন পথে এগোয়।",
+  "whyItMatters": "এই নির্বাচন ২০২৪ সালের প্রতিবাদ-চক্রের গুরুত্বপূর্ণ পটভূমি হয়ে ওঠে, কারণ এটি অংশগ্রহণ, দমন, সাংবিধানিক বিন্যাস ও গণতান্ত্রিক বিশ্বাসযোগ্যতা নিয়ে বিতর্ক গভীর করে।",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "2018-election",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2018-election",
+    "2024-anti-discrimination-movement"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "election-commission-2024-general-election-results",
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "whyItMattersSourceIds": [
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "longTermLegacy": "জানুয়ারির ভোট কীভাবে প্রতিনিধিত্ব, বৈধতা ও ২০২৪ সালের জুলাই-আগস্ট অভ্যুত্থানের আগের শর্ত নিয়ে পরবর্তী তর্ককে প্রভাবিত করে, সেখানেই এর দীর্ঘমেয়াদি গুরুত্ব।",
+  "longTermLegacySourceIds": [
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "সরকারি ফলাফলের বয়ান এবং বিরোধী বা অধিকারভিত্তিক বর্জন-দমন বয়ানে এই নির্বাচন ভিন্নভাবে স্মরণ করা হয়।",
+  "identityMemorySourceIds": [
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "বাংলাদেশে ২০২৪ সালের ৭ জানুয়ারি দ্বাদশ জাতীয় সংসদ নির্বাচন অনুষ্ঠিত হয়। নির্বাচন কমিশন সরকারি ফল প্রকাশ করে, তবে প্রধান বিরোধী বয়কট রাজনীতি ও অধিকার-সংস্থার প্রতিবেদন নির্বাচনের বৈধতা নিয়ে তীব্র বিতর্ক তৈরি করে।",
+      "sourceIds": [
+        "election-commission-2024-general-election-results",
+        "hrw-bangladesh-2024-election-repression"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই নির্বাচন ২০২৪ সালের প্রতিবাদ-চক্রের গুরুত্বপূর্ণ পটভূমি হয়ে ওঠে, কারণ এটি অংশগ্রহণ, দমন, সাংবিধানিক বিন্যাস ও গণতান্ত্রিক বিশ্বাসযোগ্যতা নিয়ে বিতর্ক গভীর করে।",
+      "sourceIds": [
+        "hrw-bangladesh-2024-election-repression"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "জানুয়ারির ভোট কীভাবে প্রতিনিধিত্ব, বৈধতা ও ২০২৪ সালের জুলাই-আগস্ট অভ্যুত্থানের আগের শর্ত নিয়ে পরবর্তী তর্ককে প্রভাবিত করে, সেখানেই এর দীর্ঘমেয়াদি গুরুত্ব।",
+      "sourceIds": [
+        "hrw-bangladesh-2024-election-repression"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "সরকারি ফলাফলের বয়ান এবং বিরোধী বা অধিকারভিত্তিক বর্জন-দমন বয়ানে এই নির্বাচন ভিন্নভাবে স্মরণ করা হয়।",
+      "sourceIds": [
+        "hrw-bangladesh-2024-election-repression"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contested": true,
+  "historicalDebate": "সরকারি উৎস নির্বাচনের ফল নথিভুক্ত করে; অন্যদিকে বিরোধী দল ও অধিকার সংগঠন ভোটের রাজনৈতিক পরিবেশ নিয়ে প্রশ্ন তোলে।",
+  "historicalDebateSourceIds": [
+    "election-commission-2024-general-election-results",
+    "hrw-bangladesh-2024-election-repression"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "contentWarnings": [
+    "রাজনৈতিক দমনের দাবি",
+    "নির্বাচনী বৈধতা বিতর্ক"
+  ]
+}

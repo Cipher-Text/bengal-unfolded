@@ -1,0 +1,26 @@
+[
+  {
+    "year": "2024-01-07",
+    "title": "Election held",
+    "detail": "Bangladesh held the 12th parliamentary election and the Election Commission later published official result materials.",
+    "sourceIds": [
+      "election-commission-2024-general-election-results"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2024-01",
+    "title": "Legitimacy dispute continues",
+    "detail": "Human Rights Watch described repression and security-force abuses as discrediting the electoral process, reflecting the wider opposition and rights-based critique.",
+    "sourceIds": [
+      "hrw-bangladesh-2024-election-repression"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

@@ -3,7 +3,7 @@
   "year": "1303",
   "title": "Conquest of Sylhet",
   "subtitle": "The Sylhet campaign associated with Shah Jalal and Sikandar Khan Ghazi.",
-  "summary": "Conquest of Sylhet marked a major turning point in Bengal's political trajectory and regional power structure.",
+  "summary": "The conquest of Sylhet is commonly associated with the expansion of Muslim political and spiritual networks into the Sylhet region around 1303, with Shah Jalal central to later memory. The event is historically important, but details of chronology and military sequence depend on later traditions as well as regional histories.",
   "themeColor": "#6a4a2f",
   "ctaLabel": "Explore 1303",
   "heroTagline": "Conquest of Sylhet reshaped power and governance patterns in Bengal.",
@@ -11,7 +11,7 @@
     "conquest-of-sylhet-wikipedia",
     "shah-jalal-banglapedia"
   ],
-  "whyItMatters": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+  "whyItMatters": "Sylhet's conquest matters because it links frontier politics, Sufi memory, and regional incorporation into wider Bengal histories. It should be read with care because hagiographic traditions and later narratives shape much of the public memory.",
   "whyItMattersSourceIds": [
     "conquest-of-sylhet-wikipedia",
     "shah-jalal-banglapedia"
@@ -36,7 +36,7 @@
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "longTermLegacy": "Conquest of Sylhet influenced later transitions in Bengal's state, society, and political imagination.",
+  "longTermLegacy": "The episode made Sylhet a durable site of Islamic sacred geography and regional identity, while also raising source-critical questions about how conquest memories are preserved.",
   "longTermLegacySourceIds": [
     "conquest-of-sylhet-wikipedia",
     "shah-jalal-banglapedia"
@@ -44,7 +44,7 @@
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region",
-  "identityMemoryNotes": "Conquest of Sylhet remains a key memory node in long-run Bengal historical narratives.",
+  "identityMemoryNotes": "Shah Jalal's memory remains central to Sylhet's religious and regional identity, but precise event details should be framed as historically layered rather than simple fact.",
   "identityMemorySourceIds": [
     "conquest-of-sylhet-wikipedia",
     "shah-jalal-banglapedia"
@@ -54,7 +54,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Conquest of Sylhet marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "claim": "The conquest of Sylhet is commonly associated with the expansion of Muslim political and spiritual networks into the Sylhet region around 1303, with Shah Jalal central to later memory. The event is historically important, but details of chronology and military sequence depend on later traditions as well as regional histories.",
       "sourceIds": [
         "conquest-of-sylhet-wikipedia",
         "shah-jalal-banglapedia"
@@ -64,7 +64,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "claim": "Sylhet's conquest matters because it links frontier politics, Sufi memory, and regional incorporation into wider Bengal histories. It should be read with care because hagiographic traditions and later narratives shape much of the public memory.",
       "sourceIds": [
         "conquest-of-sylhet-wikipedia",
         "shah-jalal-banglapedia"
@@ -74,7 +74,7 @@
     {
       "id": "longTermLegacy-claim-1",
       "section": "longTermLegacy",
-      "claim": "Conquest of Sylhet influenced later transitions in Bengal's state, society, and political imagination.",
+      "claim": "The episode made Sylhet a durable site of Islamic sacred geography and regional identity, while also raising source-critical questions about how conquest memories are preserved.",
       "sourceIds": [
         "conquest-of-sylhet-wikipedia",
         "shah-jalal-banglapedia"
@@ -84,7 +84,7 @@
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "Conquest of Sylhet remains a key memory node in long-run Bengal historical narratives.",
+      "claim": "Shah Jalal's memory remains central to Sylhet's religious and regional identity, but precise event details should be framed as historically layered rather than simple fact.",
       "sourceIds": [
         "conquest-of-sylhet-wikipedia",
         "shah-jalal-banglapedia"

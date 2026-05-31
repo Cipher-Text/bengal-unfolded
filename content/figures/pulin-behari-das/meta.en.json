@@ -1,0 +1,25 @@
+{
+  "name": "Pulin Behari Das",
+  "name_en": "Pulin Behari Das",
+  "role": "Revolutionary organizer in eastern Bengal",
+  "group": "revolutionary",
+  "contribution": "Associated with revolutionary organizing in eastern Bengal, especially Dhaka Anushilan circles.",
+  "context": "Swadeshi-era anti-colonial networks after the 1905 partition of Bengal.",
+  "impact": "His organizing illustrates the eastern Bengal branch of militant anti-colonial politics.",
+  "highlight": "Linked to Dhaka Anushilan organizing.",
+  "tags": [
+    "anushilan",
+    "swadeshi",
+    "anti-colonial",
+    "eastern-bengal"
+  ],
+  "activePeriod": "1900s-1910s",
+  "primaryEventIds": [
+    "1905-partition-of-bengal",
+    "1930-chittagong-armoury-raid"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-jahangirnagar",
+    "bengal-region"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "12th National Parliament Election Results",
+  "note": "Official Election Commission result source for the 7 January 2024 parliamentary election.",
+  "category": "primary-sources",
+  "subcategory": "Official Documents and Legal Texts",
+  "attribution": "Bangladesh Election Commission",
+  "creatorId": "bangladesh-election-commission",
+  "creatorType": "organization",
+  "quality": "primary",
+  "href": "https://ecs.gov.bd/en/page/election-results?lang=en",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "Official Election Commission result source for the 7 January 2024 parliamentary election.",
+  "relatedEventIds": [
+    "2024-12th-parliamentary-election"
+  ],
+  "relatedFigureIds": [],
+  "relatedTopicIds": []
+}

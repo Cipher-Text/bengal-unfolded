@@ -3,7 +3,7 @@
   "year": "1919-1924",
   "title": "Khilafat Movement in Bengal",
   "subtitle": "Khilafat Movement in Bengal",
-  "summary": "Khilafat Movement in Bengal marked a major turning point in Bengal's political trajectory and regional power structure.",
+  "summary": "The Khilafat movement in Bengal connected post-World War I Muslim political mobilization with anti-colonial agitation, local leadership networks, and wider Indian non-cooperation politics.",
   "themeColor": "#6a4a2f",
   "ctaLabel": "Explore 1919-1924",
   "heroTagline": "Khilafat Movement in Bengal reshaped power and governance patterns in Bengal.",
@@ -11,7 +11,7 @@
     "khilafat-movement-banglapedia",
     "different-nationalisms-bengal-1905-1947"
   ],
-  "whyItMatters": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+  "whyItMatters": "It matters because it brought religious sentiment, anti-imperial politics, and mass mobilization into contact, shaping later Muslim political organization and cross-communal nationalist cooperation in Bengal.",
   "whyItMattersSourceIds": [
     "khilafat-movement-banglapedia",
     "different-nationalisms-bengal-1905-1947"
@@ -41,7 +41,7 @@
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "longTermLegacy": "Khilafat Movement in Bengal influenced later transitions in Bengal's state, society, and political imagination.",
+  "longTermLegacy": "The movement's legacy is mixed: it energized anti-colonial politics while also showing the fragility of alliances built around global Islamic and Indian nationalist concerns.",
   "longTermLegacySourceIds": [
     "khilafat-movement-banglapedia",
     "different-nationalisms-bengal-1905-1947"
@@ -49,7 +49,7 @@
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region",
-  "identityMemoryNotes": "Khilafat Movement in Bengal remains a key memory node in long-run Bengal historical narratives.",
+  "identityMemoryNotes": "In Bengal, Khilafat memory sits at the intersection of Muslim public politics, peasant mobilization, and the wider non-cooperation moment.",
   "identityMemorySourceIds": [
     "khilafat-movement-banglapedia",
     "different-nationalisms-bengal-1905-1947"
@@ -59,7 +59,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Khilafat Movement in Bengal marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "claim": "The Khilafat movement in Bengal connected post-World War I Muslim political mobilization with anti-colonial agitation, local leadership networks, and wider Indian non-cooperation politics.",
       "sourceIds": [
         "khilafat-movement-banglapedia",
         "different-nationalisms-bengal-1905-1947"
@@ -69,7 +69,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "claim": "It matters because it brought religious sentiment, anti-imperial politics, and mass mobilization into contact, shaping later Muslim political organization and cross-communal nationalist cooperation in Bengal.",
       "sourceIds": [
         "khilafat-movement-banglapedia",
         "different-nationalisms-bengal-1905-1947"
@@ -79,7 +79,7 @@
     {
       "id": "longTermLegacy-claim-1",
       "section": "longTermLegacy",
-      "claim": "Khilafat Movement in Bengal influenced later transitions in Bengal's state, society, and political imagination.",
+      "claim": "The movement's legacy is mixed: it energized anti-colonial politics while also showing the fragility of alliances built around global Islamic and Indian nationalist concerns.",
       "sourceIds": [
         "khilafat-movement-banglapedia",
         "different-nationalisms-bengal-1905-1947"
@@ -89,7 +89,7 @@
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "Khilafat Movement in Bengal remains a key memory node in long-run Bengal historical narratives.",
+      "claim": "In Bengal, Khilafat memory sits at the intersection of Muslim public politics, peasant mobilization, and the wider non-cooperation moment.",
       "sourceIds": [
         "khilafat-movement-banglapedia",
         "different-nationalisms-bengal-1905-1947"

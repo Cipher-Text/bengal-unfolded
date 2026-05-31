@@ -1,0 +1,23 @@
+{
+  "name": "David Hare",
+  "name_en": "David Hare",
+  "role": "Education reformer in early colonial Calcutta",
+  "group": "intellectual",
+  "contribution": "Supported modern education institutions that formed the setting for later reform and Young Bengal debates.",
+  "context": "Calcutta's early nineteenth-century educational expansion.",
+  "impact": "His work helped institutionalize English and modern education in Bengal's urban public sphere.",
+  "highlight": "A key education reformer connected to Hindu College-era Bengal.",
+  "tags": [
+    "education",
+    "reform",
+    "calcutta",
+    "bengal-renaissance"
+  ],
+  "activePeriod": "1810s-1840s",
+  "primaryEventIds": [
+    "1826-1831-young-bengal-derozian-movement"
+  ],
+  "relatedPlaceIds": [
+    "calcutta-kolkata"
+  ]
+}

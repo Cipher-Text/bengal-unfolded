@@ -3,7 +3,7 @@
   "year": "1740",
   "title": "আলীবর্দী খান নবাব হন",
   "subtitle": "আলিবর্দি খানের ক্ষমতায় আগমন বাংলার নবাবি রাজনীতিতে নতুন ভারসাম্য তৈরি করে।",
-  "summary": "আলিবর্দি খানের ক্ষমতায় আগমন বাংলার নবাবি রাজনীতিতে নতুন ভারসাম্য তৈরি করে।",
+  "summary": "১৭৪০ সালে আলিবর্দি খান সরফরাজ খানকে পরাজিত করে বাংলার ক্ষমতা দখল করেন; এরপরের নবাবি পর্ব সামরিক চাপ, মারাঠা আক্রমণ ও প্রাদেশিক স্বায়ত্তশাসন রক্ষার প্রচেষ্টায় চিহ্নিত হয়।",
   "themeColor": "#6a4a2f",
   "ctaLabel": "1740 দেখুন",
   "heroTagline": "আলীবর্দী খানের নবাব হওয়া বাংলার ক্ষমতা ও শাসন কাঠামোয় গুরুত্বপূর্ণ পরিবর্তন আনে।",
@@ -11,7 +11,7 @@
     "alivardi-khan-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
   ],
-  "whyItMatters": "এই ঘটনা গুরুত্বপূর্ণ, কারণ এটি বাংলার প্রাতিষ্ঠানিক ভারসাম্য, রাজনৈতিক জোট বা জনমobilization-এ বড় পরিবর্তন আনে।",
+  "whyItMatters": "আলিবর্দির ক্ষমতায় আসা গুরুত্বপূর্ণ, কারণ এটি বর্গি আক্রমণ, সিরাজউদ্দৌলার উত্তরাধিকার এবং পলাশীর আগের দশকে বাংলার দুর্বলতার রাজনৈতিক-সামরিক প্রেক্ষাপট তৈরি করে।",
   "whyItMattersSourceIds": [
     "alivardi-khan-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -41,7 +41,7 @@
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "longTermLegacy": "এই পর্ব পরবর্তী রাজনৈতিক রূপান্তর, ক্ষমতার বিন্যাস ও জনস্মৃতিকে গভীরভাবে প্রভাবিত করে।",
+  "longTermLegacy": "তাঁর শাসন চাপের মুখে প্রতিরক্ষামূলক রাষ্ট্রনীতি হিসেবে স্মরণীয়, যা মুঘল প্রাদেশিক স্বায়ত্তশাসন ও ১৭৫৭-এর সংকটের মধ্যে সেতুবন্ধন করে।",
   "longTermLegacySourceIds": [
     "alivardi-khan-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -49,7 +49,7 @@
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "bengal-region",
   "placeLabel": "বাংলা অঞ্চল",
-  "identityMemoryNotes": "বাংলার দীর্ঘ ইতিহাস-স্মৃতিতে এই ঘটনা একটি প্রধান সংযোগবিন্দু।",
+  "identityMemoryNotes": "আলিবর্দি খানের স্মৃতি প্রায়ই মারাঠা আক্রমণ, সিরাজউদ্দৌলা ও কোম্পানির সঙ্গে আসন্ন সংঘাতের গল্পের সঙ্গে যুক্ত হয়ে দেখা যায়।",
   "identityMemorySourceIds": [
     "alivardi-khan-banglapedia",
     "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -59,7 +59,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Alivardi Khan Becomes Nawab marked a major turning point in Bengal's political trajectory and regional power structure.",
+      "claim": "১৭৪০ সালে আলিবর্দি খান সরফরাজ খানকে পরাজিত করে বাংলার ক্ষমতা দখল করেন; এরপরের নবাবি পর্ব সামরিক চাপ, মারাঠা আক্রমণ ও প্রাদেশিক স্বায়ত্তশাসন রক্ষার প্রচেষ্টায় চিহ্নিত হয়।",
       "sourceIds": [
         "alivardi-khan-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -69,7 +69,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters because it changed institutional balance, political alignments, or social mobilization in Bengal.",
+      "claim": "আলিবর্দির ক্ষমতায় আসা গুরুত্বপূর্ণ, কারণ এটি বর্গি আক্রমণ, সিরাজউদ্দৌলার উত্তরাধিকার এবং পলাশীর আগের দশকে বাংলার দুর্বলতার রাজনৈতিক-সামরিক প্রেক্ষাপট তৈরি করে।",
       "sourceIds": [
         "alivardi-khan-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -79,7 +79,7 @@
     {
       "id": "longTermLegacy-claim-1",
       "section": "longTermLegacy",
-      "claim": "Alivardi Khan Becomes Nawab influenced later transitions in Bengal's state, society, and political imagination.",
+      "claim": "তাঁর শাসন চাপের মুখে প্রতিরক্ষামূলক রাষ্ট্রনীতি হিসেবে স্মরণীয়, যা মুঘল প্রাদেশিক স্বায়ত্তশাসন ও ১৭৫৭-এর সংকটের মধ্যে সেতুবন্ধন করে।",
       "sourceIds": [
         "alivardi-khan-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"
@@ -89,7 +89,7 @@
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "Alivardi Khan Becomes Nawab remains a key memory node in long-run Bengal historical narratives.",
+      "claim": "আলিবর্দি খানের স্মৃতি প্রায়ই মারাঠা আক্রমণ, সিরাজউদ্দৌলা ও কোম্পানির সঙ্গে আসন্ন সংঘাতের গল্পের সঙ্গে যুক্ত হয়ে দেখা যায়।",
       "sourceIds": [
         "alivardi-khan-banglapedia",
         "a-comprehensive-history-of-modern-bengal-1700-1950"

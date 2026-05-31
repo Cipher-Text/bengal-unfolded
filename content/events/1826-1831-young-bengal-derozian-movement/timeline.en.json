@@ -1,0 +1,27 @@
+[
+  {
+    "year": "1826",
+    "title": "Derozio joins Hindu College",
+    "detail": "Derozio's teaching at Hindu College created the setting for a circle of students later remembered as Young Bengal.",
+    "sourceIds": [
+      "derozio-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1820s-1830s",
+    "title": "A student circle debates reform",
+    "detail": "Young Bengal students became associated with criticism of social custom, inherited authority, and intellectual conservatism.",
+    "sourceIds": [
+      "young-bengal-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  }
+]

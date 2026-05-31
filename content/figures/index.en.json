@@ -789,5 +789,40 @@
     "role": "JMJB/JMB militant commander",
     "bio": "Siddique ul-Islam, widely known as Bangla Bhai, became a prominent militant organizer in northwestern Bangladesh.",
     "impact": "His activities made militant violence in the northwest a national security issue in the mid-2000s."
+  },
+  {
+    "id": "henry-louis-vivian-derozio",
+    "name": "Henry Louis Vivian Derozio",
+    "role": "Teacher, poet, and early Bengal Renaissance intellectual",
+    "bio": "At Hindu College he encouraged critical inquiry among students later associated with the Young Bengal circle.",
+    "impact": "His short teaching career became a marker of new secular, rationalist, and reformist currents in colonial Bengal."
+  },
+  {
+    "id": "david-hare",
+    "name": "David Hare",
+    "role": "Education reformer in early colonial Calcutta",
+    "bio": "Supported modern education institutions that formed the setting for later reform and Young Bengal debates.",
+    "impact": "His work helped institutionalize English and modern education in Bengal's urban public sphere."
+  },
+  {
+    "id": "debendranath-tagore",
+    "name": "Debendranath Tagore",
+    "role": "Brahmo reformer and intellectual organizer",
+    "bio": "Helped consolidate Brahmo reform currents after Rammohun Roy and shaped Bengal's nineteenth-century religious-intellectual life.",
+    "impact": "His leadership gave institutional continuity to reformist religious and philosophical debate in Bengal."
+  },
+  {
+    "id": "keshab-chandra-sen",
+    "name": "Keshab Chandra Sen",
+    "role": "Brahmo Samaj reformer and public speaker",
+    "bio": "Expanded Brahmo reform debates into wider social, religious, and public reform questions.",
+    "impact": "He made Brahmo reform a more visible part of public controversy and social reform discourse."
+  },
+  {
+    "id": "pulin-behari-das",
+    "name": "Pulin Behari Das",
+    "role": "Revolutionary organizer in eastern Bengal",
+    "bio": "Associated with revolutionary organizing in eastern Bengal, especially Dhaka Anushilan circles.",
+    "impact": "His organizing illustrates the eastern Bengal branch of militant anti-colonial politics."
   }
 ]

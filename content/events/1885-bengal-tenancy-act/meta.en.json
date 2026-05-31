@@ -1,0 +1,91 @@
+{
+  "slug": "1885-bengal-tenancy-act",
+  "year": "1885",
+  "title": "Bengal Tenancy Act",
+  "subtitle": "Colonial Bengal's major landlord-tenant law reworked agrarian rights and rent disputes.",
+  "summary": "The Bengal Tenancy Act of 1885 codified important parts of landlord-tenant relations in Bengal after decades of agrarian conflict and legal uncertainty under the Permanent Settlement framework.",
+  "themeColor": "#586e44",
+  "ctaLabel": "Study the agrarian law",
+  "heroTagline": "A land law reshaped the terms of peasant, landlord, and colonial authority.",
+  "whyItMatters": "The act mattered because agrarian rights, occupancy claims, rent enhancement, and litigation shaped rural politics in Bengal well into the twentieth century.",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1793-permanent-settlement-in-bengal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1946-1947-tebhaga-movement",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1793-permanent-settlement-in-bengal",
+    "1946-1947-tebhaga-movement"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "longTermLegacy": "The act became a key reference point for later debates over tenancy, peasant protection, and the limits of zamindari authority.",
+  "longTermLegacySourceIds": [
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "It belongs to the longer memory of agrarian inequality and legal reform between the Permanent Settlement and later land-reform politics.",
+  "identityMemorySourceIds": [
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The Bengal Tenancy Act of 1885 codified important parts of landlord-tenant relations in Bengal after decades of agrarian conflict and legal uncertainty under the Permanent Settlement framework.",
+      "sourceIds": [
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The act mattered because agrarian rights, occupancy claims, rent enhancement, and litigation shaped rural politics in Bengal well into the twentieth century.",
+      "sourceIds": [
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The act became a key reference point for later debates over tenancy, peasant protection, and the limits of zamindari authority.",
+      "sourceIds": [
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "It belongs to the longer memory of agrarian inequality and legal reform between the Permanent Settlement and later land-reform politics.",
+      "sourceIds": [
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

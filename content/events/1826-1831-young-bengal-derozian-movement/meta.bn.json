@@ -1,0 +1,99 @@
+{
+  "slug": "1826-1831-young-bengal-derozian-movement",
+  "year": "১৮২৬-১৮৩১",
+  "title": "ইয়ং বেঙ্গল ও ডিরোজিয়ান আন্দোলন",
+  "subtitle": "হিন্দু কলেজকেন্দ্রিক এক ছাত্রবৃত্ত যুক্তিবাদ ও সমাজসমালোচনাকে বাংলার আধুনিক জনসংস্কৃতির অংশ করে তোলে।",
+  "summary": "১৮২০-এর দশকের শেষ থেকে ১৮৩০-এর দশকের গোড়ায় হিন্দু কলেজে হেনরি লুই ভিভিয়ান ডিরোজিওর প্রভাবে গড়ে ওঠা ছাত্রসমাজ ইয়ং বেঙ্গল নামে পরিচিত হয়। যুক্তি, প্রথা, শিক্ষা ও জনসমালোচনা নিয়ে তাদের বিতর্ক বাংলা নবজাগরণের প্রারম্ভিক পর্বকে চিহ্নিত করে।",
+  "themeColor": "#3f5f7f",
+  "ctaLabel": "ইয়ং বেঙ্গল দেখুন",
+  "heroTagline": "একটি ছোট ছাত্রবৃত্ত যুক্তি, সংস্কার ও কর্তৃত্ব নিয়ে বাংলার জনআলোচনা প্রসারিত করে।",
+  "whyItMatters": "ইয়ং বেঙ্গল গণআন্দোলন হয়ে ওঠেনি, কিন্তু ঔপনিবেশিক বাংলার জনপরিসরে বুদ্ধিবৃত্তিক ভিন্নমত, আধুনিক শিক্ষা ও উত্তরাধিকারসূত্রে পাওয়া কর্তৃত্বের সমালোচনাকে দৃশ্যমান করে।",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1828-brahmo-samaj-and-bengal-social-reform",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1835-macaulay-education-policy-impact-in-bengal",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1828-brahmo-samaj-and-bengal-social-reform",
+    "1835-macaulay-education-policy-impact-in-bengal"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "young-bengal-banglapedia",
+    "derozio-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "young-bengal-banglapedia",
+    "david-hare-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "calcutta-kolkata",
+  "placeLabel": "কলকাতা",
+  "longTermLegacy": "এর উত্তরাধিকার প্রধানত বুদ্ধিবৃত্তিক ইতিহাসে গুরুত্বপূর্ণ: পরবর্তী সংস্কারক ও সমালোচকেরা ডিরোজিয়ান বৃত্তকে ধর্মনিরপেক্ষ ও যুক্তিবাদী জনবিতর্কের প্রাথমিক পরীক্ষা হিসেবে দেখেছেন।",
+  "longTermLegacySourceIds": [
+    "young-bengal-banglapedia",
+    "david-hare-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "আন্দোলনটি অভিজাত ও সীমিত সামাজিক পরিসরের হলেও বাংলায় আধুনিক শিক্ষা ও সংস্কারের ভাষা গঠনে তা গুরুত্বপূর্ণ স্মৃতি হয়ে আছে।",
+  "identityMemorySourceIds": [
+    "young-bengal-banglapedia",
+    "david-hare-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৮২০-এর দশকের শেষ থেকে ১৮৩০-এর দশকের গোড়ায় হিন্দু কলেজে হেনরি লুই ভিভিয়ান ডিরোজিওর প্রভাবে গড়ে ওঠা ছাত্রসমাজ ইয়ং বেঙ্গল নামে পরিচিত হয়। যুক্তি, প্রথা, শিক্ষা ও জনসমালোচনা নিয়ে তাদের বিতর্ক বাংলা নবজাগরণের প্রারম্ভিক পর্বকে চিহ্নিত করে।",
+      "sourceIds": [
+        "young-bengal-banglapedia",
+        "derozio-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "ইয়ং বেঙ্গল গণআন্দোলন হয়ে ওঠেনি, কিন্তু ঔপনিবেশিক বাংলার জনপরিসরে বুদ্ধিবৃত্তিক ভিন্নমত, আধুনিক শিক্ষা ও উত্তরাধিকারসূত্রে পাওয়া কর্তৃত্বের সমালোচনাকে দৃশ্যমান করে।",
+      "sourceIds": [
+        "young-bengal-banglapedia",
+        "david-hare-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "এর উত্তরাধিকার প্রধানত বুদ্ধিবৃত্তিক ইতিহাসে গুরুত্বপূর্ণ: পরবর্তী সংস্কারক ও সমালোচকেরা ডিরোজিয়ান বৃত্তকে ধর্মনিরপেক্ষ ও যুক্তিবাদী জনবিতর্কের প্রাথমিক পরীক্ষা হিসেবে দেখেছেন।",
+      "sourceIds": [
+        "young-bengal-banglapedia",
+        "david-hare-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "আন্দোলনটি অভিজাত ও সীমিত সামাজিক পরিসরের হলেও বাংলায় আধুনিক শিক্ষা ও সংস্কারের ভাষা গঠনে তা গুরুত্বপূর্ণ স্মৃতি হয়ে আছে।",
+      "sourceIds": [
+        "young-bengal-banglapedia",
+        "david-hare-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

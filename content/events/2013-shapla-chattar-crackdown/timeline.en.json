@@ -1,0 +1,27 @@
+[
+  {
+    "year": "2013-02",
+    "title": "War-crimes verdicts reshape street politics",
+    "detail": "The International Crimes Tribunal and Shahbag mobilization intensified public conflict over justice, memory, and political legitimacy.",
+    "sourceIds": [
+      "international-crimes-tribunal-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2013-05-05/06",
+    "title": "Shapla Chattar cleared",
+    "detail": "Security forces cleared Hefazat-e-Islam supporters from Motijheel; rights reporting later documented deaths and excessive-force concerns while casualty numbers remained disputed.",
+    "sourceIds": [
+      "hrw-blood-on-the-streets-2013",
+      "hefazat-e-islam-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

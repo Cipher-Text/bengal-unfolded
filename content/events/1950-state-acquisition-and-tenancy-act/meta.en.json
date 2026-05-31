@@ -1,0 +1,91 @@
+{
+  "slug": "1950-state-acquisition-and-tenancy-act",
+  "year": "1950",
+  "title": "State Acquisition and Tenancy Act",
+  "subtitle": "East Bengal's landmark land law abolished intermediary interests and transformed rural property relations.",
+  "summary": "The East Bengal State Acquisition and Tenancy Act of 1950 created the legal basis for abolishing zamindari and intermediary rent-receiving interests, bringing land-revenue relations more directly under the state.",
+  "themeColor": "#54705c",
+  "ctaLabel": "Explore land reform",
+  "heroTagline": "A post-Partition land law changed the structure of rural authority.",
+  "whyItMatters": "The act marked one of the most consequential socio-economic reforms in East Bengal, linking Pakistan-period state formation to long-running peasant and land-rights demands.",
+  "importance": "major",
+  "relatedEvents": [
+    {
+      "eventId": "1793-permanent-settlement-in-bengal",
+      "relationType": "contrast"
+    },
+    {
+      "eventId": "1946-1947-tebhaga-movement",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "1793-permanent-settlement-in-bengal",
+    "1946-1947-tebhaga-movement"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "state-acquisition-tenancy-act-1950-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "state-acquisition-tenancy-act-1950-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "east-bengal",
+  "placeLabel": "East Bengal",
+  "longTermLegacy": "The law remained central to Bangladesh's later land administration because it dismantled major colonial-era intermediaries while leaving new questions of land control and rural inequality.",
+  "longTermLegacySourceIds": [
+    "state-acquisition-tenancy-act-1950-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "It is remembered as a structural break from zamindari, though not as a complete solution to rural inequality.",
+  "identityMemorySourceIds": [
+    "state-acquisition-tenancy-act-1950-banglapedia"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "The East Bengal State Acquisition and Tenancy Act of 1950 created the legal basis for abolishing zamindari and intermediary rent-receiving interests, bringing land-revenue relations more directly under the state.",
+      "sourceIds": [
+        "state-acquisition-tenancy-act-1950-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The act marked one of the most consequential socio-economic reforms in East Bengal, linking Pakistan-period state formation to long-running peasant and land-rights demands.",
+      "sourceIds": [
+        "state-acquisition-tenancy-act-1950-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The law remained central to Bangladesh's later land administration because it dismantled major colonial-era intermediaries while leaving new questions of land control and rural inequality.",
+      "sourceIds": [
+        "state-acquisition-tenancy-act-1950-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "It is remembered as a structural break from zamindari, though not as a complete solution to rural inequality.",
+      "sourceIds": [
+        "state-acquisition-tenancy-act-1950-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

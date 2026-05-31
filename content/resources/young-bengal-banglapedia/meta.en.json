@@ -1,0 +1,21 @@
+{
+  "title": "Young Bengal",
+  "note": "Banglapedia reference on the Derozian circle around Hindu College and its role in nineteenth-century intellectual dissent.",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
+  "attribution": "Banglapedia",
+  "creatorId": "banglapedia",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "href": "https://en.banglapedia.org/index.php?title=Young_Bengal",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia reference on the Derozian circle around Hindu College and its role in nineteenth-century intellectual dissent.",
+  "relatedEventIds": [
+    "1826-1831-young-bengal-derozian-movement"
+  ],
+  "relatedFigureIds": [
+    "henry-louis-vivian-derozio"
+  ],
+  "relatedTopicIds": []
+}
