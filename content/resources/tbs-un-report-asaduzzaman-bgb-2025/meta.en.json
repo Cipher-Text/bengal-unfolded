@@ -1,0 +1,21 @@
+{
+  "title": "UN report: How Asaduzzaman used BGB as 'strike force', wanted more helicopters deployed",
+  "note": "News report summarizing OHCHR fact-finding claims about former home minister Asaduzzaman Khan Kamal and security-force coordination during the July-August 2024 uprising.",
+  "href": "https://www.tbsnews.net/bangladesh/un-report-how-asaduzzaman-used-bgb-strike-force-wanted-more-helicopters-deployed-1067506",
+  "category": "news-and-contemporary-reports",
+  "subcategory": "News Report",
+  "attribution": "The Business Standard",
+  "creatorId": "the-business-standard",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "It gives figure-specific reporting on Asaduzzaman Khan Kamal's alleged command and coordination role in the 2024 crackdown, based on the UN/OHCHR report.",
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "relatedFigureIds": [
+    "asaduzzaman-khan-kamal"
+  ],
+  "relatedTopicIds": []
+}

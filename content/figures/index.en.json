@@ -824,5 +824,61 @@
     "role": "Revolutionary organizer in eastern Bengal",
     "bio": "Associated with revolutionary organizing in eastern Bengal, especially Dhaka Anushilan circles.",
     "impact": "His organizing illustrates the eastern Bengal branch of militant anti-colonial politics."
+  },
+  {
+    "id": "united-front-1954",
+    "name": "United Front",
+    "role": "Opposition Electoral Alliance in East Bengal",
+    "bio": "The United Front won the 1954 East Bengal election on a broad autonomy and 21-point programme.",
+    "impact": "Its victory broke Muslim League dominance in East Bengal and strengthened the path from language politics toward autonomy."
+  },
+  {
+    "id": "national-awami-party",
+    "name": "National Awami Party",
+    "role": "Left-Nationalist Political Party",
+    "bio": "National Awami Party linked Bhashani's mass politics with anti-Ayub protest, left-nationalist organizing, and Farakka mobilization.",
+    "impact": "It kept peasant, left, and anti-imperial themes visible in East Pakistan and Bangladesh mass politics."
+  },
+  {
+    "id": "baksal",
+    "name": "Bangladesh Krishak Sramik Awami League",
+    "role": "One-Party Political Framework",
+    "bio": "BAKSAL was the one-party political restructuring introduced in Bangladesh in 1975.",
+    "impact": "Its formation and collapse became central to debates over state power, party rule, and democratic breakdown."
+  },
+  {
+    "id": "communist-party-of-india",
+    "name": "Communist Party of India",
+    "role": "Communist Political Party",
+    "bio": "The Communist Party of India shaped Bengal left politics through labour, peasant, and Tebhaga-era organizing.",
+    "impact": "Its networks made class, land, and peasant rights central to twentieth-century Bengal politics."
+  },
+  {
+    "id": "hindu-mahasabha",
+    "name": "Hindu Mahasabha",
+    "role": "Hindu Nationalist Political Organization",
+    "bio": "Hindu Mahasabha was a major Hindu political organization in late-colonial Bengal partition debates.",
+    "impact": "Its Bengal position helped make partition of the province a central alternative to a united Bengal."
+  },
+  {
+    "id": "asaduzzaman-khan-kamal",
+    "name": "Asaduzzaman Khan Kamal",
+    "role": "Former home minister linked to security-force accountability debates",
+    "bio": "Asaduzzaman Khan Kamal was Bangladesh's home minister during major protest-control and security-crackdown periods.",
+    "impact": "His tenure is tied to public debates over security-force deployment, command responsibility, and 2024 crackdown accountability."
+  },
+  {
+    "id": "benazir-ahmed",
+    "name": "Benazir Ahmed",
+    "role": "Former RAB director general and police chief",
+    "bio": "Benazir Ahmed is a former RAB director general and Bangladesh police chief named in the 2021 U.S. Treasury sanctions action.",
+    "impact": "His designation made RAB-linked rights-abuse allegations an international accountability issue."
+  },
+  {
+    "id": "ziaul-ahsan",
+    "name": "Ziaul Ahsan",
+    "role": "Security and intelligence figure",
+    "bio": "Ziaul Ahsan is a security and intelligence-linked figure repeatedly named in public allegations around disappearance, detention, and surveillance.",
+    "impact": "His profile connects security-sector command structures to post-2024 debates over secret detention, digital monitoring, and accountability."
   }
 ]

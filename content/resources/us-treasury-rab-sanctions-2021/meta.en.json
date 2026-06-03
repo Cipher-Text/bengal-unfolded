@@ -1,0 +1,21 @@
+{
+  "title": "Treasury Sanctions Perpetrators of Serious Human Rights Abuse on International Human Rights Day",
+  "note": "Official U.S. Treasury press release designating RAB and named current/former RAB officials, including Benazir Ahmed, under Global Magnitsky authorities.",
+  "href": "https://home.treasury.gov/news/press-releases/jy0526",
+  "category": "primary-sources",
+  "subcategory": "Government Statement",
+  "attribution": "U.S. Department of the Treasury",
+  "creatorId": "us-department-of-the-treasury",
+  "creatorType": "organization",
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "It is the official sanctions record naming RAB and former RAB Director General Benazir Ahmed in connection with serious human-rights abuse allegations.",
+  "relatedEventIds": [
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "relatedFigureIds": [
+    "benazir-ahmed"
+  ],
+  "relatedTopicIds": []
+}
