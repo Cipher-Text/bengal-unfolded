@@ -1,0 +1,23 @@
+{
+  "title": "Operation Searchlight inked",
+  "note": "Historical report on the 18 March 1971 planning of Operation Searchlight by Khadim Hussain Raja and Rao Farman Ali.",
+  "href": "https://www.thedailystar.net/historical/back-page/news/operation-searchlight-inked-2062417",
+  "category": "news-and-contemporary-reports",
+  "subcategory": "Historical Report",
+  "attribution": "The Daily Star",
+  "creatorId": "the-daily-star",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "It gives figure-specific context for the Pakistani military planning of Operation Searchlight.",
+  "relatedEventIds": [
+    "1971-operation-searchlight-crackdown",
+    "1971-liberation-war"
+  ],
+  "relatedFigureIds": [
+    "rao-farman-ali",
+    "khadim-hussain-raja"
+  ],
+  "relatedTopicIds": []
+}

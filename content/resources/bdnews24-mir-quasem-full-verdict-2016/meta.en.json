@@ -1,0 +1,22 @@
+{
+  "title": "Supreme Court releases full verdict on Mir Quasem Ali's death sentence",
+  "note": "bdnews24 report on the Appellate Division verdict upholding Mir Quasem Ali's death sentence for 1971 war crimes.",
+  "href": "https://bdnews24.com/bangladesh/supreme-court-releases-full-verdict-on-mir-quasem-alis-death-sentence-for-1971-war-crimes",
+  "category": "news-and-contemporary-reports",
+  "subcategory": "Court Report",
+  "attribution": "bdnews24.com",
+  "creatorId": "bdnews24",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "It records the appellate stage of Mir Quasem Ali's war-crimes case and his Al-Badr role as reported in court coverage.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "2013-shahbag-movement"
+  ],
+  "relatedFigureIds": [
+    "mir-quasem-ali"
+  ],
+  "relatedTopicIds": []
+}

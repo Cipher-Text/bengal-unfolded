@@ -1,0 +1,50 @@
+{
+  "name": "Khadim Hussain Raja",
+  "name_en": "Khadim Hussain Raja",
+  "role": "Pakistan Army commander involved in Operation Searchlight planning",
+  "group": "leader",
+  "contribution": "Khadim Hussain Raja, then commander of Pakistan's 14 Division in East Pakistan, is reported as one of the officers who worked on the military-action plan that became Operation Searchlight.",
+  "context": "Pakistan Army planning in Dhaka in March 1971 and the military crackdown that triggered the Liberation War.",
+  "impact": "His role helps identify the command-planning layer behind the March 1971 crackdown.",
+  "highlight": "A Pakistan Army commander tied to the planning stage of Operation Searchlight.",
+  "tags": [
+    "1971",
+    "operation-searchlight",
+    "pakistan-army",
+    "military-command",
+    "crackdown"
+  ],
+  "seoTitle": "Khadim Hussain Raja - Operation Searchlight Planning Profile",
+  "seoDescription": "Profile of Khadim Hussain Raja, Pakistan Army commander linked to the planning of Operation Searchlight in March 1971.",
+  "shortAnswer": "Khadim Hussain Raja is included as a Pakistan Army commander involved in the planning of Operation Searchlight.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-operation-searchlight-crackdown",
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Major General Khadim Hussain Raja",
+    "Khadim Hussain"
+  ],
+  "searchAliases": [
+    "Khadim Hussain Raja",
+    "Khadim Hossain Raja",
+    "Khadim Hussain",
+    "Operation Searchlight"
+  ],
+  "faq": [
+    {
+      "question": "How is Khadim Hussain Raja connected to Operation Searchlight?",
+      "answer": "He is reported as one of the Pakistan Army officers who worked on the March 1971 military-action plan that became Operation Searchlight.",
+      "sourceIds": [
+        "daily-star-operation-searchlight-inked-1971",
+        "operation-searchlight-banglapedia"
+      ]
+    }
+  ]
+}

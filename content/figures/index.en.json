@@ -880,5 +880,61 @@
     "role": "Security and intelligence figure",
     "bio": "Ziaul Ahsan is a security and intelligence-linked figure repeatedly named in public allegations around disappearance, detention, and surveillance.",
     "impact": "His profile connects security-sector command structures to post-2024 debates over secret detention, digital monitoring, and accountability."
+  },
+  {
+    "id": "rao-farman-ali",
+    "name": "Rao Farman Ali",
+    "role": "Pakistan Army command figure",
+    "bio": "Rao Farman Ali is linked in Bangladesh memory and reporting to Operation Searchlight planning and allegations around the intellectual killings.",
+    "impact": "His name remains central to debates over command responsibility and the planning of mass violence in 1971."
+  },
+  {
+    "id": "khadim-hussain-raja",
+    "name": "Khadim Hussain Raja",
+    "role": "Pakistan Army commander",
+    "bio": "Khadim Hussain Raja is reported as one of the officers who worked on the plan that became Operation Searchlight.",
+    "impact": "His profile identifies the command-planning layer behind the March 1971 crackdown."
+  },
+  {
+    "id": "jahanzeb-arbab",
+    "name": "Jahanzeb Arbab",
+    "role": "Pakistan Army brigade commander",
+    "bio": "Jahanzeb Arbab is included as a brigade-level Pakistan Army commander associated with 1971 operations in East Pakistan.",
+    "impact": "His profile connects Operation Searchlight planning with field command and implementation."
+  },
+  {
+    "id": "mir-quasem-ali",
+    "name": "Mir Quasem Ali",
+    "role": "Jamaat and Al-Badr-linked war-crimes case figure",
+    "bio": "Mir Quasem Ali was convicted in a 1971 war-crimes case tied to Al-Badr activity in Chittagong.",
+    "impact": "His case became a major node in debates over 1971 justice, tribunal process, and Jamaat politics."
+  },
+  {
+    "id": "chowdhury-mueen-uddin",
+    "name": "Chowdhury Mueen Uddin",
+    "role": "Al-Badr figure convicted in absentia",
+    "bio": "Chowdhury Mueen Uddin was convicted in absentia by ICT-2 in the December 1971 intellectual-killings case.",
+    "impact": "His case became one of the central tribunal records connecting Al-Badr to the targeted killing of intellectuals."
+  },
+  {
+    "id": "ashrafuzzaman-khan",
+    "name": "Ashrafuzzaman Khan",
+    "role": "Al-Badr figure convicted in absentia",
+    "bio": "Ashrafuzzaman Khan was convicted in absentia by ICT-2 in the December 1971 intellectual-killings case.",
+    "impact": "His case is central to tribunal memory around targeted intellectual killings and Al-Badr involvement."
+  },
+  {
+    "id": "atm-azharul-islam",
+    "name": "ATM Azharul Islam",
+    "role": "Jamaat leader in contested war-crimes proceedings",
+    "bio": "ATM Azharul Islam was convicted by the ICT in a 1971 case, but later reporting says the Appellate Division acquitted him.",
+    "impact": "His case illustrates how 1971 justice and appellate review remained contested long after the tribunal verdict."
+  },
+  {
+    "id": "abul-kalam-azad-bachchu-razakar",
+    "name": "Abul Kalam Azad (Bachchu Razakar)",
+    "role": "Fugitive ICT convict",
+    "bio": "Abul Kalam Azad, known as Bachchu Razakar, was sentenced in absentia in the first Bangladesh ICT verdict over 1971 crimes.",
+    "impact": "His distinct profile avoids confusion with Maulana Abul Kalam Azad and marks the opening judgment in the ICT process."
   }
 ]

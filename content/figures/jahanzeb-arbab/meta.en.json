@@ -1,0 +1,50 @@
+{
+  "name": "Jahanzeb Arbab",
+  "name_en": "Jahanzeb Arbab",
+  "role": "Pakistan Army brigade commander associated with 1971 operations",
+  "group": "leader",
+  "contribution": "Jahanzeb Arbab is included as a Pakistan Army field commander associated with 1971 operations in East Pakistan, including Dhaka-area command contexts in accounts of the crackdown.",
+  "context": "Pakistan Army operational command in East Pakistan during the 1971 crackdown and war.",
+  "impact": "His profile helps connect higher-level Operation Searchlight planning with brigade-level implementation and field command.",
+  "highlight": "A brigade-level Pakistan Army commander associated with the 1971 crackdown and war.",
+  "tags": [
+    "1971",
+    "pakistan-army",
+    "operation-searchlight",
+    "military-command",
+    "field-command"
+  ],
+  "seoTitle": "Jahanzeb Arbab - 1971 Pakistan Army Field Command Profile",
+  "seoDescription": "Profile of Jahanzeb Arbab, a Pakistan Army brigade commander associated with 1971 operations in East Pakistan.",
+  "shortAnswer": "Jahanzeb Arbab is included as a Pakistan Army brigade commander associated with the 1971 crackdown and war in East Pakistan.",
+  "activePeriod": "1971",
+  "primaryEventIds": [
+    "1971-operation-searchlight-crackdown",
+    "1971-liberation-war"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Brigadier Jahanzeb Arbab",
+    "Jahan Zeb Arbab"
+  ],
+  "searchAliases": [
+    "Jahanzeb Arbab",
+    "Jahan Zeb Arbab",
+    "Brigadier Arbab",
+    "Pakistan Army 1971"
+  ],
+  "faq": [
+    {
+      "question": "Why is Jahanzeb Arbab included in the 1971 timeline?",
+      "answer": "He is included as a brigade-level Pakistan Army commander associated with 1971 operational command in East Pakistan.",
+      "sourceIds": [
+        "bangladesher-shadhinota-juddho-dolilpotro",
+        "the-blood-telegram"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "ATM Azharul Islam",
+  "name_en": "ATM Azharul Islam",
+  "role": "Jamaat leader in contested 1971 war-crimes proceedings",
+  "group": "leader",
+  "contribution": "ATM Azharul Islam was convicted by Bangladesh's International Crimes Tribunal in a 1971 crimes-against-humanity case, but later reporting says the Appellate Division acquitted him, making his case important for both war-crimes memory and tribunal-process debate.",
+  "context": "Jamaat-e-Islami politics, 1971 war-crimes accountability, and changing appellate outcomes in Bangladesh's ICT-related cases.",
+  "impact": "His case illustrates how 1971 justice, capital punishment, appellate review, and political legitimacy debates remained contested long after the original tribunal verdict.",
+  "highlight": "A Jamaat leader whose ICT conviction was later reported as overturned by the Appellate Division.",
+  "tags": [
+    "1971",
+    "jamaat-e-islami",
+    "war-crimes-trial",
+    "ict",
+    "appeal",
+    "legal-status-contested"
+  ],
+  "seoTitle": "ATM Azharul Islam - 1971 War Crimes Proceedings Profile",
+  "seoDescription": "Profile of ATM Azharul Islam, a Jamaat leader whose 1971 war-crimes conviction was later reported as overturned on appeal.",
+  "shortAnswer": "ATM Azharul Islam is included as a Jamaat leader whose ICT conviction in a 1971 war-crimes case was later reported as overturned by the Appellate Division.",
+  "activePeriod": "1971-2025",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "2013-shahbag-movement"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan",
+    "rangpur"
+  ],
+  "alternateNames": [
+    "A. T. M. Azharul Islam",
+    "ATM Azhar"
+  ],
+  "searchAliases": [
+    "ATM Azharul Islam",
+    "A T M Azharul Islam",
+    "ATM Azhar",
+    "Jamaat Azharul",
+    "এটিএম আজহারুল ইসলাম"
+  ],
+  "faq": [
+    {
+      "question": "What is the legal-status nuance around ATM Azharul Islam?",
+      "answer": "He was convicted by the ICT and earlier faced a death sentence, but later reporting says the Appellate Division acquitted him, so the profile describes the proceedings and reversal rather than treating conviction as the current legal endpoint.",
+      "sourceIds": [
+        "dhaka-tribune-atm-azhar-acquittal-2025"
+      ]
+    }
+  ]
+}

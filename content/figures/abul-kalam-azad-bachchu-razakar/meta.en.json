@@ -1,0 +1,50 @@
+{
+  "name": "Abul Kalam Azad (Bachchu Razakar)",
+  "name_en": "Abul Kalam Azad (Bachchu Razakar)",
+  "role": "Fugitive ICT convict known as Bachchu Razakar",
+  "group": "leader",
+  "contribution": "Abul Kalam Azad, known as Bachchu Razakar, was sentenced to death in absentia in the first ICT verdict for crimes against humanity and genocide charges connected to 1971.",
+  "context": "Razakar collaboration allegations, the first International Crimes Tribunal verdict, and post-2010 war-crimes accountability politics in Bangladesh.",
+  "impact": "His case became the opening judgment in Bangladesh's ICT process and is important to distinguish from the Indian nationalist scholar also named Abul Kalam Azad.",
+  "highlight": "The first ICT verdict figure, distinct from Maulana Abul Kalam Azad.",
+  "tags": [
+    "1971",
+    "razakar",
+    "war-crimes-trial",
+    "ict",
+    "bachchu-razakar",
+    "in-absentia"
+  ],
+  "seoTitle": "Abul Kalam Azad Bachchu Razakar - First ICT Verdict Profile",
+  "seoDescription": "Profile of Abul Kalam Azad alias Bachchu Razakar, sentenced in absentia in the first Bangladesh ICT verdict over 1971 crimes.",
+  "shortAnswer": "Abul Kalam Azad, known as Bachchu Razakar, is included as the fugitive figure sentenced in absentia in the first Bangladesh ICT verdict over 1971 crimes.",
+  "activePeriod": "1971-2013",
+  "primaryEventIds": [
+    "1971-liberation-war",
+    "2013-shahbag-movement"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "east-pakistan"
+  ],
+  "alternateNames": [
+    "Bachchu Razakar",
+    "Abul Kalam Azad alias Bachchu"
+  ],
+  "searchAliases": [
+    "Abul Kalam Azad Bachchu Razakar",
+    "Bachchu Razakar",
+    "Bachu Razakar",
+    "Abul Kalam Azad ICT",
+    "বাচ্চু রাজাকার"
+  ],
+  "faq": [
+    {
+      "question": "Why does this profile use a distinct slug from Abul Kalam Azad?",
+      "answer": "The slug separates Bachchu Razakar, the fugitive ICT convict in a 1971 case, from Maulana Abul Kalam Azad, the Indian nationalist scholar-politician already represented elsewhere in the figure set.",
+      "sourceIds": [
+        "daily-star-abul-kalam-azad-ict-verdict-2013"
+      ]
+    }
+  ]
+}

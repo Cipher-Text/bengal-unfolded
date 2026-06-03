@@ -1,0 +1,22 @@
+{
+  "title": "SC acquits ATM Azharul in war crimes case",
+  "note": "Dhaka Tribune report that the Appellate Division acquitted ATM Azharul Islam, overturning earlier ICT and appellate death-sentence rulings.",
+  "href": "https://www.dhakatribune.com/bangladesh/court/382345/sc-acquits-atm-azharul-in-war-crimes-case",
+  "category": "news-and-contemporary-reports",
+  "subcategory": "Court Report",
+  "attribution": "Dhaka Tribune",
+  "creatorId": "dhaka-tribune",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "It captures the later reversal of ATM Azharul Islam's legal status after earlier ICT conviction and death-sentence proceedings.",
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "2013-shahbag-movement"
+  ],
+  "relatedFigureIds": [
+    "atm-azharul-islam"
+  ],
+  "relatedTopicIds": []
+}
