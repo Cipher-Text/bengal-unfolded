@@ -1,17 +1,20 @@
 {
   "name": "Nasiruddin Patwary",
   "name_en": "Nasiruddin Patwary",
-  "role": "Coordinator in Students Against Discrimination and post-2024 youth political organizer",
+  "role": "Students Against Discrimination coordinator, Jatiya Nagorik Committee convener, and National Citizen Party chief coordinator",
   "group": "coordinator",
-  "contribution": "He is associated with Students Against Discrimination's coordination network during July-August 2024 and later with youth political organizing and state-reform discussion after the uprising.",
-  "context": "Students Against Discrimination, the distributed coordination structures of the July-August 2024 movement, and post-uprising youth political organization and reform discourse.",
-  "impact": "His profile is linked to the broader coordinator network that helped sustain the movement across institutions and to later youth-centered political discussion after 2024.",
-  "highlight": "Part of the distributed coordination network during the 2024 movement, later associated with youth political organization and reform discussion.",
+  "contribution": "He is associated with Students Against Discrimination's coordination network during July-August 2024. After the uprising, he became convener of the Jatiya Nagorik Committee and later chief coordinator of the National Citizen Party.",
+  "context": "Students Against Discrimination, the distributed coordination structures of the July-August 2024 movement, the Jatiya Nagorik Committee, and the post-uprising National Citizen Party.",
+  "impact": "His profile links the protest coordination network to later attempts to turn uprising-era civic organization into formal youth-led politics and state-reform advocacy.",
+  "highlight": "A 2024 movement coordinator who later became Jatiya Nagorik Committee convener and National Citizen Party chief coordinator.",
   "tags": [
     "students-against-discrimination",
     "quota-reform-2024",
     "july-uprising-2024",
     "post-uprising-reform-politics",
+    "jatiya-nagorik-committee",
+    "national-citizen-party",
+    "ncp",
     "youth-politics",
     "post-2024-bangladesh",
     "2024",
@@ -21,9 +24,9 @@
   ],
   "image": "/figures/nasiruddin-patwary.webp",
   "seoTitle": "Nasiruddin Patwary - 2024 Anti-Discrimination Movement Profile",
-  "seoDescription": "Profile of Nasiruddin Patwary, tracing links to the 2024 Anti-Discrimination Movement, quota reform protests, July-August uprising, and transition politics.",
-  "shortAnswer": "Nasiruddin Patwary is linked to the 2024 Anti-Discrimination Movement in this timeline as Coordinator in Students Against Discrimination and post-2024 youth political organizer.",
-  "activePeriod": "2024",
+  "seoDescription": "Profile of Nasiruddin Patwary, tracing links to the 2024 Anti-Discrimination Movement, Jatiya Nagorik Committee, National Citizen Party, and transition politics.",
+  "shortAnswer": "Nasiruddin Patwary is linked to the 2024 Anti-Discrimination Movement as a coordinator and to post-uprising politics as Jatiya Nagorik Committee convener and National Citizen Party chief coordinator.",
+  "activePeriod": "2024-2025",
   "primaryEventIds": [
     "2024-anti-discrimination-movement"
   ],
@@ -34,17 +37,38 @@
     "pilkhana-dhaka"
   ],
   "alternateNames": [
-    "Nasiruddin Patwary"
+    "Nasiruddin Patwary",
+    "Muhammad Nasiruddin Patwary",
+    "Nasir Uddin Patwary",
+    "Nasiruddin Patwari",
+    "Nasir Uddin Patwari"
   ],
   "searchAliases": [
     "Nasiruddin Patwary",
     "Nasiruddin",
-    "Patwary"
+    "Patwary",
+    "Patwari",
+    "Nasir Uddin Patwary",
+    "Muhammad Nasiruddin Patwary",
+    "Jatiya Nagorik Committee",
+    "National Citizen Party",
+    "NCP"
   ],
   "faq": [
     {
       "question": "How is Nasiruddin Patwary connected to the 2024 Anti-Discrimination Movement?",
-      "answer": "Nasiruddin Patwary is connected to the 2024 movement as Coordinator in Students Against Discrimination and post-2024 youth political organizer. He is associated with Students Against Discrimination's coordination network during July-August 2024 and later with youth political organizing and state-reform."
+      "answer": "Nasiruddin Patwary is connected to the 2024 movement through Students Against Discrimination's coordination network and through the post-uprising Jatiya Nagorik Committee, where he was reported as convener in September 2024.",
+      "sourceIds": [
+        "daily-star-jatiya-nagorik-committee-2024"
+      ]
+    },
+    {
+      "question": "What role did he take after the uprising?",
+      "answer": "After the uprising, Patwary moved into formal political organization: he was reported as convener of the Jatiya Nagorik Committee and, in February 2025, as chief coordinator of the newly launched National Citizen Party.",
+      "sourceIds": [
+        "daily-star-jatiya-nagorik-committee-2024",
+        "daily-star-national-citizen-party-launched-2025"
+      ]
     }
   ]
 }
