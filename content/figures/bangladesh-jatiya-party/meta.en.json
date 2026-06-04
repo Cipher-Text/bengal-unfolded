@@ -1,0 +1,43 @@
+{
+  "name": "Bangladesh Jatiya Party",
+  "name_en": "Bangladesh Jatiya Party",
+  "role": "Political Party in Bangladesh",
+  "group": "organization",
+  "contribution": "Bangladesh Jatiya Party appears in the repo's contemporary election context through Andaleeve Rahman Partho and smaller-party reform debates.",
+  "context": "Post-1990 parliamentary politics, smaller-party coalition bargaining, and the 2026 election period.",
+  "impact": "Its presence highlights how smaller parties and parliamentary voices participate in Bangladesh's coalition, opposition, and reform politics.",
+  "highlight": "A smaller party linked here to Andaleeve Rahman Partho and post-2024 electoral reform debates.",
+  "seoTitle": "Bangladesh Jatiya Party - Contemporary Bangladesh Politics Profile",
+  "seoDescription": "Profile of Bangladesh Jatiya Party in contemporary Bangladesh parliamentary and coalition politics.",
+  "shortAnswer": "Bangladesh Jatiya Party is represented here through Andaleeve Rahman Partho and contemporary coalition-reform politics.",
+  "activePeriod": "2000s-2026",
+  "primaryEventIds": [
+    "2026-election"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Bangladesh Jatiya Party",
+    "BJP"
+  ],
+  "searchAliases": [
+    "Bangladesh Jatiya Party",
+    "BJP Bangladesh",
+    "Andaleeve Rahman Partho party"
+  ],
+  "faq": [
+    {
+      "question": "Why include Bangladesh Jatiya Party?",
+      "answer": "The repo already tracks Andaleeve Rahman Partho in the 2026 election context, so the party profile completes that relationship."
+    }
+  ],
+  "tags": [
+    "election-2026",
+    "parliament",
+    "coalition-politics",
+    "reform",
+    "party-politics"
+  ]
+}
