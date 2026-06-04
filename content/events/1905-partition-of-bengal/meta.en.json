@@ -3,7 +3,7 @@
   "year": "1905",
   "title": "Partition of Bengal",
   "subtitle": "Colonial reorganization, mass protest, and a new political fault line in Bengal.",
-  "summary": "In 1905, the British colonial government partitioned Bengal and created the new province of Eastern Bengal and Assam with Dacca as its capital. Officials defended the move as an administrative reform, but many opponents in Bengal saw it as a divide-and-rule measure that weakened Bengali political influence. The decision triggered boycott campaigns, Swadeshi activism, and a lasting reconfiguration of political alignments across the region.",
+  "summary": "In 1905, the British colonial government partitioned Bengal and created the new province of Eastern Bengal and Assam with Dacca as its capital. Officials defended the move as administrative reform, but many critics treated it as a divide-and-rule intervention that weakened Bengali political influence. The measure triggered boycott campaigns, Swadeshi activism, new cultural forms of protest, and differentiated Hindu and Muslim political responses across Bengal.",
   "themeColor": "#7a5b2e",
   "ctaLabel": "Explore the partition",
   "heroTagline": "What was announced as administrative reform became one of Bengal's most formative political ruptures.",
@@ -11,7 +11,7 @@
     "partition-of-bengal-1905-banglapedia",
     "partition-of-bengal-britannica"
   ],
-  "whyItMatters": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interests, and left a political legacy that continued into the annulment of 1911 and the deeper partition crisis of 1947.",
+  "whyItMatters": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interest, and helped reorganize the political language of boycott, provincial power, and community. Its effects extended well beyond the 1911 annulment into the deeper partition crisis of 1947.",
   "whyItMattersSourceIds": [
     "swadeshi-movement-banglapedia",
     "partition-politics-banglapedia"
@@ -62,7 +62,7 @@
   ],
   "identityMemoryEvidenceLevel": "medium",
   "contested": true,
-  "historicalDebate": "The strongest disagreement around 1905 is not whether Bengal was partitioned, but how to interpret the move: colonial officials described it as administrative reform, while many anti-partition critics treated it as a divide-and-rule intervention aimed at weakening Bengali political influence. Historians also note that Muslim political responses were not identical to Hindu bhadralok opposition, which makes the event important as both an anti-colonial rupture and a debate over representation.",
+  "historicalDebate": "The strongest disagreement around 1905 is not whether Bengal was partitioned, but how to interpret the move and whose politics it empowered. Colonial officials described it as administrative reform, many anti-partition critics treated it as divide and rule, and historians note that Muslim responses were not identical to Hindu bhadralok opposition. The episode therefore matters both as an anti-colonial rupture and as a debate over representation, provincial advantage, and communal political differentiation.",
   "historicalDebateSourceIds": [
     "partition-of-bengal-1905-banglapedia",
     "partition-politics-banglapedia"
@@ -72,7 +72,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "In 1905, the British colonial government partitioned Bengal and created the new province of Eastern Bengal and Assam with Dacca as its capital. Officials defended the move as an administrative reform, but many opponents in Bengal saw it as a divide-and-rule measure that weakened Bengali political influence. The decision triggered boycott campaigns, Swadeshi activism, and a lasting reconfiguration of political alignments across the region.",
+      "claim": "In 1905, the British colonial government partitioned Bengal and created the new province of Eastern Bengal and Assam with Dacca as its capital. Officials defended the move as administrative reform, but many critics treated it as a divide-and-rule intervention; the result was boycott, Swadeshi activism, and differentiated political responses across Bengal.",
       "sourceIds": [
         "partition-of-bengal-1905-banglapedia",
         "partition-of-bengal-britannica"
@@ -82,7 +82,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interests, and left a political legacy that continued into the annulment of 1911 and the deeper partition crisis of 1947.",
+      "claim": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interest, and reorganized the political language of boycott, provincial power, and community in ways that outlived the 1911 annulment.",
       "sourceIds": [
         "swadeshi-movement-banglapedia",
         "partition-politics-banglapedia"
@@ -92,7 +92,7 @@
     {
       "id": "culturalImpact-claim-1",
       "section": "culturalImpact",
-      "claim": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interests, and left a political legacy that continued into the annulment of 1911 and the deeper partition crisis of 1947.",
+      "claim": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interest, and reorganized the political language of boycott, provincial power, and community in ways that outlived the 1911 annulment.",
       "sourceIds": [
         "swadeshi-movement-banglapedia",
         "partition-politics-banglapedia"
@@ -102,7 +102,7 @@
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interests, and left a political legacy that continued into the annulment of 1911 and the deeper partition crisis of 1947.",
+      "claim": "The 1905 partition matters because it transformed Bengal into a central arena of anti-colonial protest, sharpened debates over representation and communal interest, and reorganized the political language of boycott, provincial power, and community in ways that outlived the 1911 annulment.",
       "sourceIds": [
         "swadeshi-movement-banglapedia",
         "partition-politics-banglapedia"

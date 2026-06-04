@@ -2,12 +2,12 @@
   "slug": "2026-election",
   "year": "2026",
   "title": "13th Parliamentary Election",
-  "subtitle": "Bangladesh's Election Commission set the parliamentary election and referendum for 12 February 2026 amid a transition-period political reset.",
-  "summary": "On 11 December 2025, Chief Election Commissioner AMM Nasir Uddin announced that Bangladesh's 13th National Parliamentary Election and a national referendum would be held on 12 February 2026. International and domestic attention then focused on election management, participation, and confidence in the process.",
+  "subtitle": "The first competitive parliamentary vote after the 2024 uprising tested whether electoral legitimacy could be rebuilt in Bangladesh.",
+  "summary": "After the 11 December 2025 schedule announcement, Bangladesh held its 13th National Parliamentary Election on 12 February 2026 under an interim transition. Associated Press reported the next day that local media and BNP leaders said the party had secured a parliamentary majority, making the election the first major post-uprising transfer of parliamentary power.",
   "themeColor": "#7c2d12",
   "ctaLabel": "Review the election context",
-  "heroTagline": "The central question became whether institutions, parties, and observers would view the process as inclusive and credible.",
-  "whyItMatters": "UN technical support and international observation became part of the election environment: UN support was reported as ongoing since December 2024 at the Election Commission's request, and the EU deployed an Election Observation Mission following an official invitation. These steps made process quality, not only polling-day logistics, a major public benchmark.",
+  "heroTagline": "The central question became whether a genuinely competitive election could restore trust after the violence and upheaval of 2024.",
+  "whyItMatters": "The 2026 election mattered not only because it produced a new parliamentary majority, but because it tested whether Bangladesh could return to competitive electoral politics after the 2024 uprising and interim rule. EU observers described the process as credible and competently managed while still noting localized violence and fear, making procedural legitimacy itself a central historical outcome.",
   "importance": "major",
   "parentEvent": "2024-anti-discrimination-movement",
   "relatedEvents": [
@@ -38,81 +38,81 @@
   "movementLabel": "Memory, justice, and civic dissent",
   "showOnLanding": true,
   "summarySourceIds": [
-    "dhaka-tribune-cec-13th-election-schedule-2025"
+    "dhaka-tribune-cec-13th-election-schedule-2025",
+    "ap-bangladesh-election-2026-bnp-majority"
   ],
   "whyItMattersSourceIds": [
-    "undp-support-13th-parliamentary-electoral-cycle-2026",
-    "eeas-eu-eom-bangladesh-2026",
-    "un-bangladesh-briefing-political-parties-election-support-2025"
+    "eeas-bangladesh-election-2026-preliminary-statement",
+    "undp-support-13th-parliamentary-electoral-cycle-2026"
   ],
-  "summaryEvidenceLevel": "high",
-  "whyItMattersEvidenceLevel": "medium",
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "high",
   "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "memory-justice-and-civic-dissent",
-  "longTermLegacy": "The 2026 cycle is likely to be judged over time by whether the rules, participation conditions, and oversight practices were seen as durable beyond one election date.",
+  "longTermLegacy": "The long-term significance of the 2026 election will depend on whether competitive polling, parliamentary turnover, and observer-backed procedural credibility proved durable beyond a single transition election.",
   "longTermLegacySourceIds": [
-    "undp-support-13th-parliamentary-electoral-cycle-2026",
-    "eeas-eu-eom-bangladesh-2026"
+    "eeas-bangladesh-election-2026-preliminary-statement",
+    "undp-support-13th-parliamentary-electoral-cycle-2026"
   ],
-  "longTermLegacyEvidenceLevel": "medium",
+  "longTermLegacyEvidenceLevel": "high",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region",
-  "identityMemoryNotes": "As of February 2026, public framing around the 13th election emphasized process credibility, inclusion, and monitoring capacity rather than only formal scheduling milestones.",
+  "identityMemoryNotes": "As of February 2026, the election was remembered less as a scheduling milestone and more as a test of whether parliamentary politics could resume with public competition, outside observation, and a recognized transfer of legislative power.",
   "identityMemorySourceIds": [
-    "undp-support-13th-parliamentary-electoral-cycle-2026",
-    "un-bangladesh-briefing-political-parties-election-support-2025",
-    "eeas-eu-eom-bangladesh-2026"
+    "ap-bangladesh-election-2026-bnp-majority",
+    "eeas-bangladesh-election-2026-preliminary-statement"
   ],
-  "identityMemoryEvidenceLevel": "medium",
+  "identityMemoryEvidenceLevel": "high",
   "claimCitations": [
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "On 11 December 2025, Chief Election Commissioner AMM Nasir Uddin announced that Bangladesh's 13th National Parliamentary Election and a national referendum would be held on 12 February 2026.",
+      "claim": "On 11 December 2025, Chief Election Commissioner AMM Nasir Uddin announced that Bangladesh's 13th National Parliamentary Election and a national referendum would be held on 12 February 2026, and the vote then took place during the interim transition.",
       "sourceIds": [
-        "dhaka-tribune-cec-13th-election-schedule-2025"
+        "dhaka-tribune-cec-13th-election-schedule-2025",
+        "ap-bangladesh-election-2026-bnp-majority"
       ],
-      "evidenceLevel": "high"
+      "evidenceLevel": "medium"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "UN support was reported as ongoing since December 2024 at the Election Commission's request, and the EU deployed an Election Observation Mission following an official invitation.",
+      "claim": "The 2026 election mattered because it combined a new parliamentary outcome with an observer-assessed return to competitive electoral politics after the 2024 uprising and interim rule.",
       "sourceIds": [
-        "undp-support-13th-parliamentary-electoral-cycle-2026",
-        "eeas-eu-eom-bangladesh-2026"
+        "eeas-bangladesh-election-2026-preliminary-statement",
+        "ap-bangladesh-election-2026-bnp-majority"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "high"
     },
     {
       "id": "whyItMatters-claim-2",
       "section": "whyItMatters",
-      "claim": "A UN briefing to political parties on 4 December 2025 described technical support activities including voter registration expansion and operational support to the Election Commission.",
+      "claim": "The UN-supported electoral cycle and international observation framework made process credibility, not only the result itself, a major benchmark of the 2026 vote.",
       "sourceIds": [
-        "un-bangladesh-briefing-political-parties-election-support-2025"
+        "undp-support-13th-parliamentary-electoral-cycle-2026",
+        "eeas-bangladesh-election-2026-preliminary-statement"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "high"
     },
     {
       "id": "longTermLegacy-claim-1",
       "section": "longTermLegacy",
-      "claim": "The 2026 cycle is likely to be judged over time by whether the rules, participation conditions, and oversight practices were seen as durable beyond one election date.",
+      "claim": "The long-term significance of the 2026 election will depend on whether competitive polling, parliamentary turnover, and observer-backed procedural credibility proved durable beyond a single transition election.",
       "sourceIds": [
-        "undp-support-13th-parliamentary-electoral-cycle-2026",
-        "eeas-eu-eom-bangladesh-2026"
+        "eeas-bangladesh-election-2026-preliminary-statement",
+        "undp-support-13th-parliamentary-electoral-cycle-2026"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "high"
     },
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "As of February 2026, public framing around the 13th election emphasized process credibility, inclusion, and monitoring capacity rather than only formal scheduling milestones.",
+      "claim": "As of February 2026, the election was remembered less as a scheduling milestone and more as a test of whether parliamentary politics could resume with public competition, outside observation, and a recognized transfer of legislative power.",
       "sourceIds": [
-        "undp-support-13th-parliamentary-electoral-cycle-2026",
-        "un-bangladesh-briefing-political-parties-election-support-2025",
-        "eeas-eu-eom-bangladesh-2026"
+        "ap-bangladesh-election-2026-bnp-majority",
+        "eeas-bangladesh-election-2026-preliminary-statement"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "high"
     }
   ]
 }

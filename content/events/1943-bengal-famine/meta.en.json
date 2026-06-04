@@ -3,11 +3,11 @@
   "year": "1943",
   "title": "Bengal Famine",
   "subtitle": "Mass starvation, administrative failure, and social collapse under colonial rule.",
-  "summary": "The Bengal Famine of 1943 caused catastrophic hunger and death across Bengal. Wartime disruption, inflation, grain-market failures, and policy breakdown under British colonial administration intensified the crisis, devastating rural households and urban poor communities alike.",
+  "summary": "The Bengal Famine of 1943 caused catastrophic hunger and death across Bengal. Wartime disruption, rice-market inflation, transport strain, relief failure, and policy breakdown under British colonial administration intensified the crisis, devastating rural households, laboring families, and urban poor communities alike.",
   "themeColor": "#7a4b2a",
   "ctaLabel": "Understand the famine",
   "heroTagline": "In 1943, hunger became a political rupture in Bengal's history.",
-  "whyItMatters": "The famine reshaped public trust in governance, sharpened anti-colonial anger, and left deep social scars that influenced Bengal's later political trajectory.",
+  "whyItMatters": "The famine reshaped public trust in governance, sharpened anti-colonial anger, and left deep agrarian and moral scars in Bengal. Its memory fed later debates over state responsibility, profiteering, peasant suffering, and the legitimacy of colonial rule in the years before partition.",
   "importance": "high",
   "relatedEvents": [
     {
@@ -27,10 +27,11 @@
   "movementLabel": "Partition and political representation",
   "showOnLanding": false,
   "summarySourceIds": [
-    "archive-collection",
-    "research-volume"
+    "hungry-bengal-war-famine-end-empire",
+    "government-famine-relief-in-bengal-1943"
   ],
   "whyItMattersSourceIds": [
+    "hungry-bengal-war-famine-end-empire",
     "midnights-furies",
     "the-spoils-of-partition"
   ],
@@ -44,18 +45,19 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "The Bengal Famine of 1943 caused catastrophic hunger and death across Bengal. Wartime disruption, inflation, grain-market failures, and policy breakdown under British colonial administration intensified the crisis, devastating rural households and urban poor communities alike.",
+      "claim": "The Bengal Famine of 1943 caused catastrophic hunger and death across Bengal. Wartime disruption, rice-market inflation, transport strain, relief failure, and policy breakdown under British colonial administration intensified the crisis, devastating rural and urban poor communities alike.",
       "sourceIds": [
-        "archive-collection",
-        "research-volume"
+        "hungry-bengal-war-famine-end-empire",
+        "government-famine-relief-in-bengal-1943"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "The famine reshaped public trust in governance, sharpened anti-colonial anger, and left deep social scars that influenced Bengal's later political trajectory.",
+      "claim": "The famine reshaped public trust in governance, sharpened anti-colonial anger, and left deep agrarian and moral scars in Bengal. Its memory fed later debates over state responsibility, profiteering, and the legitimacy of colonial rule.",
       "sourceIds": [
+        "hungry-bengal-war-famine-end-empire",
         "midnights-furies",
         "the-spoils-of-partition"
       ],

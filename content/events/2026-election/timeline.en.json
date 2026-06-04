@@ -1,17 +1,5 @@
 [
   {
-    "year": "2025-12-11",
-    "title": "Election schedule announced for 12 February 2026",
-    "detail": "The Chief Election Commissioner announced that the 13th parliamentary election and a national referendum would be held on 12 February 2026, with nomination, scrutiny, appeal, and campaign dates also outlined.",
-    "sourceIds": [
-      "dhaka-tribune-cec-13th-election-schedule-2025"
-    ],
-    "evidenceLevel": "high",
-    "themes": [
-      "democracy"
-    ]
-  },
-  {
     "year": "2025-12-04",
     "title": "UN briefs political parties on election assistance",
     "detail": "United Nations Bangladesh held a briefing for registered political parties on technical support to the Bangladesh Election Commission; the note reported that the BALLOT project had added almost 8 million new voters since its 2025 launch.",
@@ -24,11 +12,60 @@
     ]
   },
   {
+    "year": "2025-12-11",
+    "title": "Election schedule announced for 12 February 2026",
+    "detail": "The Chief Election Commissioner announced that the 13th parliamentary election and a national referendum would be held on 12 February 2026, with nomination, scrutiny, appeal, and campaign dates also outlined.",
+    "sourceIds": [
+      "dhaka-tribune-cec-13th-election-schedule-2025"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
     "year": "2025-12-22",
     "title": "EU deploys Election Observation Mission",
     "detail": "The EU stated that, following an invitation from Bangladesh authorities, it deployed an Election Observation Mission for the parliamentary election scheduled for 12 February 2026.",
     "sourceIds": [
       "eeas-eu-eom-bangladesh-2026"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2026-02-12",
+    "title": "Bangladesh votes in its first competitive parliamentary election since 2008",
+    "detail": "Polling was held for the 13th National Parliament after the 2024 uprising and interim transition. The vote tested whether political competition, institutional management, and public participation could be restored on a nationwide scale.",
+    "sourceIds": [
+      "ap-bangladesh-election-2026-bnp-majority",
+      "eeas-bangladesh-election-2026-preliminary-statement"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2026-02-13",
+    "title": "BNP emerges as the leading parliamentary force",
+    "detail": "Associated Press reported that local media and BNP leaders said the party had secured a parliamentary majority, making the election an immediate political turning point after the interim period.",
+    "sourceIds": [
+      "ap-bangladesh-election-2026-bnp-majority"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "2026-02-14",
+    "title": "EU observers call the process credible but note remaining risks",
+    "detail": "The EU Election Observation Mission described the election as credible and competently managed, while also noting localized violence and continuing fear around manipulated online narratives.",
+    "sourceIds": [
+      "eeas-bangladesh-election-2026-preliminary-statement"
     ],
     "evidenceLevel": "high",
     "themes": [

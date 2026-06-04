@@ -3,7 +3,7 @@
   "year": "1757",
   "title": "Battle of Plassey",
   "subtitle": "The battle that opened the door to Company control in Bengal.",
-  "summary": "The Battle of Plassey in 1757 marked a decisive shift in Bengal's political destiny. A short military encounter turned into a structural transfer of power as the East India Company used alliance, betrayal, and financial leverage to secure influence in Bengal. The aftermath reshaped governance, revenue extraction, and sovereignty, laying the foundation for long-term colonial rule.",
+  "summary": "The Battle of Plassey in 1757 marked a decisive shift in Bengal's political destiny. A short military encounter became a structural transfer of power as the East India Company worked through court conspiracy, military defection, and financial alliance to break Siraj ud-Daulah's position. The aftermath reshaped governance, revenue extraction, and sovereignty, laying the foundation for long-term colonial rule.",
   "themeColor": "#7a3b24",
   "ctaLabel": "Explore Plassey 1757",
   "heroTagline": "Plassey was less a battlefield victory alone and more a political capture of Bengal's state power.",
@@ -11,7 +11,7 @@
     "battle-of-plassey-britannica",
     "palashi-battle-banglapedia"
   ],
-  "whyItMatters": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and economic control.",
+  "whyItMatters": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and financial capture. It also helps connect the fall of the Nawabi order to the later chain of Mir Jafar, Mir Qasim, Buxar, and Diwani.",
   "whyItMattersSourceIds": [
     "robert-clive-britannica",
     "jagat-sheth-banglapedia"
@@ -74,7 +74,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "The Battle of Plassey in 1757 marked a decisive shift in Bengal's political destiny. What appeared as a short military encounter became a structural transfer of power, as the East India Company secured influence through alliance, betrayal, and financial leverage. The aftermath transformed governance, revenue extraction, and sovereignty in Bengal, laying foundations for long-term colonial rule.",
+      "claim": "The Battle of Plassey in 1757 marked a decisive shift in Bengal's political destiny. A short military encounter became a structural transfer of power as the East India Company worked through conspiracy, defection, and financial leverage to break Siraj ud-Daulah's position.",
       "sourceIds": [
         "battle-of-plassey-britannica",
         "palashi-battle-banglapedia"
@@ -84,7 +84,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and economic control.",
+      "claim": "Plassey matters because it helps explain how colonial domination in Bengal began through intertwined military action, elite realignment, and financial capture, and how that process led toward later Company rule and Diwani.",
       "sourceIds": [
         "robert-clive-britannica",
         "jagat-sheth-banglapedia"

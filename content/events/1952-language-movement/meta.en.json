@@ -3,7 +3,7 @@
   "year": "1952",
   "title": "Language Movement",
   "subtitle": "The protests and killings that made Bangla central to Bengali political identity.",
-  "summary": "The Language Movement grew out of post-partition inequality, when East Bengal faced cultural and political pressure from a state that privileged Urdu alone. This chapter follows the protests, the police killings of February 1952, and the way language became central to Bengali political identity.",
+  "summary": "The Language Movement grew out of the post-1947 struggle over representation, when demands for Bangla in the Constituent Assembly, education, administration, and public life collided with the Pakistani state's Urdu-only policy. The movement reached its decisive phase in February 1952, when students and activists defied Section 144 and police opened fire, turning language into the moral center of Bengali political identity.",
   "themeColor": "#b64040",
   "ctaLabel": "Learn the language story",
   "heroTagline": "In 1952, the defense of language became a defense of dignity, memory, and political existence.",
@@ -11,7 +11,7 @@
     "language-movement-banglapedia",
     "shaheed-minar-banglapedia"
   ],
-  "whyItMatters": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+  "whyItMatters": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal. It also formed a political bridge from post-partition grievance to the United Front victory, later autonomy movements, and the national imagination of 1971.",
   "whyItMattersSourceIds": [
     "language-movement-in-east-bengal",
     "state-language-movement-in-east-bengal-1947-1956"
@@ -54,7 +54,7 @@
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "language-autonomy-and-liberation",
-  "culturalImpact": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+  "culturalImpact": "Through martyr memory, Shaheed Minar ritual, poetry, songs, and annual commemoration, the Language Movement became one of the most enduring cultural foundations of Bangladesh's public identity.",
   "culturalImpactSourceIds": [
     "language-movement-in-east-bengal",
     "state-language-movement-in-east-bengal-1947-1956"
@@ -62,7 +62,7 @@
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "dhaka-medical-college",
   "placeLabel": "Bengal Region",
-  "identityMemoryNotes": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+  "identityMemoryNotes": "Public memory of 1952 is built not only around the shootings of 21 February but around a longer defense of linguistic dignity against political marginalization. That memory later shaped both state symbolism and civic protest culture in Bangladesh.",
   "identityMemorySourceIds": [
     "language-movement-in-east-bengal",
     "state-language-movement-in-east-bengal-1947-1956"
@@ -72,7 +72,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "The Language Movement grew out of post-partition inequality, when East Bengal faced cultural and political pressure from a state that privileged Urdu alone. This chapter follows the protests, the police killings of February 1952, and the way language became the moral center of Bengali political identity.",
+      "claim": "The Language Movement grew out of the post-1947 struggle over representation, when demands for Bangla in the Constituent Assembly, education, administration, and public life collided with the Pakistani state's Urdu-only policy. In February 1952, student defiance and police firing turned language into the moral center of Bengali political identity.",
       "sourceIds": [
         "language-movement-banglapedia",
         "shaheed-minar-banglapedia"
@@ -82,7 +82,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+      "claim": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal. It also formed a political bridge from post-partition grievance to later autonomy movements and the national imagination of 1971.",
       "sourceIds": [
         "language-movement-in-east-bengal",
         "state-language-movement-in-east-bengal-1947-1956"
@@ -92,7 +92,7 @@
     {
       "id": "culturalImpact-claim-1",
       "section": "culturalImpact",
-      "claim": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+      "claim": "Through martyr memory, Shaheed Minar ritual, poetry, songs, and annual commemoration, the Language Movement became one of the most enduring cultural foundations of Bangladesh's public identity.",
       "sourceIds": [
         "language-movement-in-east-bengal",
         "state-language-movement-in-east-bengal-1947-1956"
@@ -102,7 +102,7 @@
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "The Language Movement explains why Bengali identity, democratic rights, and cultural autonomy became inseparable in East Bengal and later Bangladesh.",
+      "claim": "Public memory of 1952 is built not only around the shootings of 21 February but around a longer defense of linguistic dignity against political marginalization. That memory later shaped both state symbolism and civic protest culture in Bangladesh.",
       "sourceIds": [
         "language-movement-in-east-bengal",
         "state-language-movement-in-east-bengal-1947-1956"

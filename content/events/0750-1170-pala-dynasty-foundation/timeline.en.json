@@ -24,5 +24,19 @@
       "war",
       "economy"
     ]
+  },
+  {
+    "year": "8th-9th century",
+    "title": "Monastic patronage links Bengal to the Buddhist world",
+    "detail": "Pala patronage helped sustain major Buddhist institutions such as Somapura, linking Bengal to wider intellectual and monastic networks across South Asia.",
+    "sourceIds": [
+      "pala-dynasty-britannica",
+      "somapura-mahavira-britannica"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture",
+      "economy"
+    ]
   }
 ]

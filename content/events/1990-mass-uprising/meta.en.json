@@ -3,11 +3,11 @@
   "year": "1990",
   "title": "Mass Uprising",
   "subtitle": "The democratic uprising that ended the Ershad regime.",
-  "summary": "The 1990 Mass Uprising was the culmination of years of resistance to military-backed authoritarian rule in Bangladesh. Students, political alliances, professional associations, and ordinary citizens converged in a coordinated movement that forced Hussain Muhammad Ershad to resign and opened the path to caretaker-led democratic transition.",
+  "summary": "The 1990 Mass Uprising was the culmination of years of resistance to military-backed authoritarian rule in Bangladesh. Student activism, the martyrdom of Nur Hossain in 1987, opposition-alliance coordination, and professional-civic mobilization converged in a final wave of pressure that forced Hussain Muhammad Ershad to resign and opened the path to the Shahabuddin-led transition and the 1991 restoration of parliamentary democracy.",
   "themeColor": "#d97706",
   "ctaLabel": "See the movement",
   "heroTagline": "In 1990, the demand for democracy became a countrywide act of political courage.",
-  "whyItMatters": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+  "whyItMatters": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order. It also became the benchmark against which later protest movements were measured, especially on the question of whether street mobilization could force institutional transition.",
   "importance": "landmark",
   "parentEvent": "1982-ershad-s-coup-and-the-return-of-military-rule",
   "childEventIds": [
@@ -77,7 +77,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "The 1990 Mass Uprising was the culmination of years of resistance to military-backed authoritarian rule in Bangladesh. Students, political alliances, professional associations, and ordinary citizens converged in a coordinated movement that forced Hussain Muhammad Ershad to resign and opened the path to caretaker-led democratic transition.",
+      "claim": "The 1990 Mass Uprising was the culmination of years of resistance to military-backed authoritarian rule in Bangladesh. Student activism, Nur Hossain's martyrdom, alliance coordination, and wider civic mobilization forced Ershad's resignation and opened the path to the Shahabuddin-led transition and the 1991 restoration of parliamentary democracy.",
       "sourceIds": [
         "military-rule-banglapedia",
         "nur-hossain-banglapedia"
@@ -87,7 +87,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order.",
+      "claim": "The 1990 uprising explains how student politics, opposition alliances, and civic resistance restored electoral democracy and shaped Bangladesh's modern political order. It also became a benchmark for later movements seeking institutional transition through street pressure.",
       "sourceIds": [
         "bangladesh-from-mujib-to-ershad",
         "bangladesh-under-mujib-zia-and-ershad"

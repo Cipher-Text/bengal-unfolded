@@ -24,5 +24,19 @@
       "war",
       "economy"
     ]
+  },
+  {
+    "year": "অষ্টম-নবম শতক",
+    "title": "বৌদ্ধ জ্ঞানজগতের সঙ্গে বাংলার সংযোগ গভীর হয়",
+    "detail": "পাল পৃষ্ঠপোষকতায় সোমপুরের মতো প্রধান বৌদ্ধ প্রতিষ্ঠানগুলো বিকশিত হয়, যা বাংলাকে বৃহত্তর দক্ষিণ এশীয় জ্ঞানচর্চা ও মঠ-নেটওয়ার্কের সঙ্গে যুক্ত করে।",
+    "sourceIds": [
+      "pala-dynasty-britannica",
+      "somapura-mahavira-britannica"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture",
+      "economy"
+    ]
   }
 ]

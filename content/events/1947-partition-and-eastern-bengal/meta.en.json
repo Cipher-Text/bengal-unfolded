@@ -3,7 +3,7 @@
   "year": "1947",
   "title": "Partition and Eastern Bengal",
   "subtitle": "The partition of British India and the making of East Bengal.",
-  "summary": "In 1947, British India was divided into India and Pakistan, and Bengal itself was split into West Bengal and East Bengal. This chapter traces how rushed borders, communal politics, and mass displacement reshaped the region and set the stage for later struggles over language, autonomy, and identity.",
+  "summary": "In 1947, British India was divided into India and Pakistan, and Bengal itself was split into West Bengal and East Bengal. The chapter is not only about constitutional division: the delayed Radcliffe boundary, minority insecurity, refugee movement, and administrative rupture reshaped everyday life and set the stage for later struggles over language, autonomy, and state legitimacy in East Bengal.",
   "themeColor": "#8b5e3c",
   "ctaLabel": "See the history",
   "heroTagline": "1947 did not only divide territory. It transformed memory, belonging, and political destiny.",
@@ -11,7 +11,7 @@
     "partition-of-british-india-national-archives",
     "partition-of-bengal-1947-banglapedia"
   ],
-  "whyItMatters": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+  "whyItMatters": "The partition of Bengal helps explain why language, representation, autonomy, border, and minority questions became central in East Bengal. It linked all-India constitutional collapse to lived experiences of displacement, unequal incorporation into Pakistan, and the later political path toward Bangladesh.",
   "whyItMattersSourceIds": [
     "midnights-furies",
     "the-spoils-of-partition"
@@ -74,7 +74,7 @@
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "partition-and-late-colonial-politics",
   "movementId": "partition-and-political-representation",
-  "culturalImpact": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+  "culturalImpact": "Partition entered Bengal's memory through lost homes, border crossings, altered districts, refugee narratives, and the uneven survival of local communities. That memory remained central to literature, family history, and later nationalist politics.",
   "culturalImpactSourceIds": [
     "midnights-furies",
     "the-spoils-of-partition"
@@ -82,7 +82,7 @@
   "culturalImpactEvidenceLevel": "medium",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region",
-  "identityMemoryNotes": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+  "identityMemoryNotes": "Public memory of 1947 in Bengal is divided between formal independence and traumatic rupture. For many, the date marks not a clean beginning but the start of border anxiety, migration, and a new experience of political subordination in East Bengal.",
   "identityMemorySourceIds": [
     "midnights-furies",
     "the-spoils-of-partition"
@@ -99,7 +99,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "In 1947, British India was divided into India and Pakistan, and Bengal itself was split into West Bengal and East Bengal. This chapter traces how rushed borders, communal politics, and mass displacement reshaped the region and set the stage for later struggles over language, autonomy, and identity.",
+      "claim": "In 1947, British India was divided into India and Pakistan, and Bengal itself was split into West Bengal and East Bengal. The delayed Radcliffe boundary, minority insecurity, refugee movement, and administrative rupture reshaped everyday life and set the stage for later struggles over language, autonomy, and state legitimacy in East Bengal.",
       "sourceIds": [
         "partition-of-british-india-national-archives",
         "partition-of-bengal-1947-banglapedia"
@@ -109,7 +109,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+      "claim": "The partition of Bengal helps explain why language, representation, autonomy, border, and minority questions became central in East Bengal, linking constitutional division to displacement and unequal incorporation into Pakistan.",
       "sourceIds": [
         "midnights-furies",
         "the-spoils-of-partition"
@@ -119,7 +119,7 @@
     {
       "id": "culturalImpact-claim-1",
       "section": "culturalImpact",
-      "claim": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+      "claim": "Partition entered Bengal's memory through lost homes, border crossings, altered districts, refugee narratives, and the uneven survival of local communities.",
       "sourceIds": [
         "midnights-furies",
         "the-spoils-of-partition"
@@ -129,7 +129,7 @@
     {
       "id": "identityMemoryNotes-claim-1",
       "section": "identityMemoryNotes",
-      "claim": "The partition of Bengal helps explain why questions of language, representation, autonomy, and national identity became central in East Bengal and later Bangladesh.",
+      "claim": "Public memory of 1947 in Bengal is divided between formal independence and traumatic rupture, with migration and border anxiety remaining central to how the event is remembered.",
       "sourceIds": [
         "midnights-furies",
         "the-spoils-of-partition"
