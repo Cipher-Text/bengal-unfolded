@@ -417,7 +417,7 @@ Example (Dhaka/Jahangirnagar):
   - `name` (required string)
   - `name_en` (optional string; useful for BN locale canonical name mapping)
   - `role` (required string)
-  - `group` (required string; commonly `leader` or `collective`)
+  - `group` (required string; one of `leader`, `coordinator`, `martyr`, `organization`, `collective`, `intellectual`, `revolutionary`)
   - `contribution` (required string)
   - `context` (required string)
   - `impact` (required string)

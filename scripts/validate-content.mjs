@@ -4,6 +4,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const contentDir = path.join(root, "content");
+const validFigureGroups = new Set(["leader", "coordinator", "martyr", "organization", "collective", "intellectual", "revolutionary"]);
 
 async function exists(p) {
   try {
@@ -1163,6 +1164,9 @@ async function main() {
             assertLocaleScript(meta[key], locale, `content/figures/${figureId}/meta.${locale}.json field '${key}'`, errors);
           }
         }
+      }
+      if (!validFigureGroups.has(meta.group)) {
+        errors.push(`Invalid group '${meta.group}' at content/figures/${figureId}/meta.${locale}.json`);
       }
       validateOptionalStringArray(meta.alternateNames, `content/figures/${figureId}/meta.${locale}.json alternateNames`, errors);
       validateOptionalStringArray(meta.searchAliases, `content/figures/${figureId}/meta.${locale}.json searchAliases`, errors);

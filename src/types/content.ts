@@ -944,7 +944,7 @@ export type Figure = {
   deathYear?: string;
   activePeriod?: string;
   role: string;
-  group: "leader" | "coordinator" | "martyr" | "organization" | "collective";
+  group: "leader" | "coordinator" | "martyr" | "organization" | "collective" | "intellectual" | "revolutionary";
   contribution: string;
   context: string;
   impact: string;

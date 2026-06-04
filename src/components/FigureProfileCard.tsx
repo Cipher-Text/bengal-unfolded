@@ -9,6 +9,8 @@ const GROUP_LABELS: Record<Locale, Record<Figure["group"], string>> = {
     martyr: "Martyr",
     organization: "Organization",
     collective: "Collective",
+    intellectual: "Intellectual",
+    revolutionary: "Revolutionary",
   },
   bn: {
     leader: "নেতৃত্ব",
@@ -16,6 +18,8 @@ const GROUP_LABELS: Record<Locale, Record<Figure["group"], string>> = {
     martyr: "শহীদ",
     organization: "সংগঠন",
     collective: "সম্মিলিত কণ্ঠ",
+    intellectual: "বুদ্ধিজীবী",
+    revolutionary: "বিপ্লবী",
   },
 };
 

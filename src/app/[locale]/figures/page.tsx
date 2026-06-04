@@ -36,7 +36,7 @@ export async function generateMetadata({
 }
 
 const PAGE_SIZE = 20;
-const GROUP_VALUES: Figure["group"][] = ["leader", "coordinator", "martyr", "organization", "collective"];
+const GROUP_VALUES: Figure["group"][] = ["leader", "coordinator", "martyr", "organization", "collective", "intellectual", "revolutionary"];
 const ENTITY_VALUES: FigureEntityType[] = ["person", "party", "alliance", "organization"];
 
 function normalize(v: string): string {
@@ -121,6 +121,8 @@ export default async function FiguresListPage({
             <option value="martyr">{isBn ? "শহীদ" : "Martyr"}</option>
             <option value="organization">{isBn ? "সংগঠন" : "Organization"}</option>
             <option value="collective">{isBn ? "সম্মিলিত কণ্ঠ" : "Collective"}</option>
+            <option value="intellectual">{isBn ? "বুদ্ধিজীবী" : "Intellectual"}</option>
+            <option value="revolutionary">{isBn ? "বিপ্লবী" : "Revolutionary"}</option>
           </select>
           <button type="submit" className="inline-flex min-h-[44px] items-center justify-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent hover:bg-amber-500/10">
             {isBn ? "প্রয়োগ করুন" : "Apply"}

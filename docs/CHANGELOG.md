@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-06-04
+
+### Completed
+
+- Figure entity and group consistency audit:
+  - Model:
+    - Extended `Figure.group` to include `intellectual` and `revolutionary` alongside existing figure groups.
+  - Validation:
+    - Added strict figure `group` validation in `scripts/validate-content.mjs`.
+  - UI/runtime:
+    - Added localized labels and list-filter options for `intellectual` and `revolutionary`.
+    - Confirmed entity-type inference derives `person`, `party`, `alliance`, and `organization` from explicit party/alliance IDs plus organization/collective groups.
+  - Content backfill:
+    - Corrected individual cultural figures previously marked as `collective`.
+    - Corrected plural 1990 organizer records from `coordinator` to `collective`.
+    - Normalized Jamaat-e-Islami Bangladesh from `collective` to `organization`.
+  - Risk/known gaps:
+    - Entity type remains derived rather than stored directly in figure JSON.
+
 ## 2026-05-29
 
 ### Completed

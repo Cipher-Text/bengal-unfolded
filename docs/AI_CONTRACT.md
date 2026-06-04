@@ -48,6 +48,7 @@ For every schema or field change:
 - Sensitive political-history handling must follow `docs/SENSITIVE_POLITICAL_HISTORY.md`, including required sensitive/dispute metadata and EN/BN parity for accountability language.
 - If a claim has citations, its evidence-level metadata is required.
 - EN/BN parity is required for required locale files.
+- Figure `group` values are enum-like and must remain aligned across `src/types/content.ts`, `scripts/validate-content.mjs`, figure-list UI filters, and `docs/CONTENT_MODEL.md`.
 - Figure `image` paths in `content/figures/*/meta.<locale>.json` should use stable files under `public/figures/`; strict file-existence enforcement is optional.
 - Image cleanup (delete/rename/format swap such as `.jpeg` -> `.jpg`) must update figure metadata paths in both locales in the same change set.
 - Topic metadata under `content/topics/*/meta.<locale>.json` must keep EN/BN parity and valid linked IDs (`eventSlugs`, `figureIds`, `resourceIds`).
