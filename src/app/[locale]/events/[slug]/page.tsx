@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { ContentDensityControls } from "@/components/ContentDensityControls";
+import { CauseEffectChain } from "@/components/CauseEffectChain";
 import { EventNavigation } from "@/components/EventNavigation";
 
 const EventTimeline = dynamic(
@@ -76,6 +77,14 @@ const EVENT_LABELS = {
     quotes: "Quotes",
     faq: "FAQ",
     whyItMatters: "Why This Event Matters Today",
+    causeEffectChain: "Cause -> Event -> Effect",
+    causeEffectChainSubtitle: "How this chapter moves history forward",
+    chainCauses: "Causes",
+    chainEvent: "Event",
+    chainEffects: "Effects",
+    chainLinkedChapters: "Linked chapters",
+    chainNoCauses: "No explicit causes have been added yet.",
+    chainNoEffects: "No explicit consequences have been added yet.",
     legacyNarrative: "Long-Term Legacy",
     culturalImpact: "Cultural Impact",
     identityMemory: "Identity and Memory Notes",
@@ -131,6 +140,14 @@ const EVENT_LABELS = {
     quotes: "উদ্ধৃতি",
     faq: "প্রশ্নোত্তর",
     whyItMatters: "কেন এই ঘটনা আজও গুরুত্বপূর্ণ",
+    causeEffectChain: "কারণ -> ঘটনা -> পরিণতি",
+    causeEffectChainSubtitle: "এই অধ্যায় ইতিহাসকে কীভাবে এগিয়ে নেয়",
+    chainCauses: "কারণ",
+    chainEvent: "ঘটনা",
+    chainEffects: "পরিণতি",
+    chainLinkedChapters: "সংযুক্ত অধ্যায়",
+    chainNoCauses: "এখনও স্পষ্ট কারণ যোগ করা হয়নি।",
+    chainNoEffects: "এখনও স্পষ্ট পরিণতি যোগ করা হয়নি।",
     legacyNarrative: "দীর্ঘমেয়াদি উত্তরাধিকার",
     culturalImpact: "সাংস্কৃতিক প্রভাব",
     identityMemory: "পরিচয় ও স্মৃতি নোট",
@@ -366,6 +383,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           {faqEntries.length > 0 ? <a href="#faq" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.faq}</a> : null}
           {quoteEntries.length > 0 ? <a href="#quotes" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
           {event.meta.claimCitations?.length ? <a href="#claim-citations" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.claimCitations}</a> : null}
+          {(event.meta.causes?.length || event.meta.consequences?.length || relationships.cause.length || relationships.effect.length) ? <a href="#cause-effect-chain" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.causeEffectChain}</a> : null}
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
           {event.meta.historicalDebate ? <a href="#historical-debate" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.historicalDebate}</a> : null}
           {event.meta.longTermLegacy ? <a href="#long-term-legacy" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.legacyNarrative}</a> : null}
@@ -449,6 +467,27 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         </div>
         </section>
       </AnimatedContainer>
+
+      {(event.meta.causes?.length || event.meta.consequences?.length || relationships.cause.length || relationships.effect.length) ? (
+        <AnimatedContainer delay={0.035}>
+          <CauseEffectChain
+            locale={locale as Locale}
+            event={event.meta}
+            causeEvents={relationships.cause}
+            effectEvents={relationships.effect}
+            labels={{
+              title: labels.causeEffectChain,
+              subtitle: labels.causeEffectChainSubtitle,
+              causes: labels.chainCauses,
+              event: labels.chainEvent,
+              effects: labels.chainEffects,
+              linkedChapters: labels.chainLinkedChapters,
+              noCauses: labels.chainNoCauses,
+              noEffects: labels.chainNoEffects,
+            }}
+          />
+        </AnimatedContainer>
+      ) : null}
 
       {(hierarchy.parent || hierarchy.children.length > 0 || hierarchy.related.length > 0) ? (
         <AnimatedContainer delay={0.04} className="density-deep">

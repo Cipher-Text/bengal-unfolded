@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-06-06
+
+### Completed
+
+- RM-VIS-002 Cause -> event -> effect visual chain:
+  - UI/runtime:
+    - Added a bilingual visual chain on event detail pages that maps causes to the current event and then to consequences.
+    - Included linked cause/effect chapters from existing typed relationships when available.
+    - Added the chain to event page jump navigation.
+  - Model/validation/backfill:
+    - No schema changes required; the component uses existing `causes`, `consequences`, and `relatedEvents` data.
+    - No content backfill required.
+
 ## 2026-06-04
 
 ### Completed
