@@ -123,6 +123,19 @@ async function main() {
   const eventSlugSet = new Set(eventSlugs);
   const placeEntries = await fs.readdir(placesDir);
   const placeIdSet = new Set(placeEntries);
+  const placeTitlesByLocale = new Map();
+  for (const placeId of placeEntries) {
+    const titles = {};
+    for (const locale of ["en", "bn"]) {
+      const metaPath = path.join(placesDir, placeId, `meta.${locale}.json`);
+      if (!(await exists(metaPath))) continue;
+      const meta = await readJson(metaPath, errors);
+      if (meta && typeof meta === "object" && typeof meta.title === "string") {
+        titles[locale] = meta.title;
+      }
+    }
+    placeTitlesByLocale.set(placeId, titles);
+  }
   const allowedQuality = new Set(["primary", "secondary", "archive", "editorial"]);
   const allowedSourceQuality = new Set(["primary", "secondary", "archive", "academic", "editorial", "reference", "unknown"]);
   const allowedEvidenceLevel = new Set(["high", "medium", "low"]);
@@ -286,6 +299,17 @@ async function main() {
       }
       if ("placeLabel" in meta && (typeof meta.placeLabel !== "string" || meta.placeLabel.trim().length === 0)) {
         errors.push(`Invalid placeLabel at content/events/${slug}/meta.${locale}.json`);
+      }
+      if (
+        typeof meta.placeId === "string" &&
+        allowedPlaceIds.has(meta.placeId) &&
+        typeof meta.placeLabel === "string" &&
+        placeTitlesByLocale.get(meta.placeId)?.[locale] &&
+        meta.placeLabel !== placeTitlesByLocale.get(meta.placeId)[locale]
+      ) {
+        errors.push(
+          `placeLabel must match content/places/${meta.placeId}/meta.${locale}.json title at content/events/${slug}/meta.${locale}.json`,
+        );
       }
       if ("sensitive" in meta && typeof meta.sensitive !== "boolean") {
         errors.push(`sensitive must be boolean at content/events/${slug}/meta.${locale}.json`);
