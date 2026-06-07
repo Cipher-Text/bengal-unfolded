@@ -1,17 +1,17 @@
 # Figure Images Audit Report
 
-**Date:** 2026-05-31  
-**Status:** Analysis Complete
+**Date:** 2026-06-07  
+**Status:** Current after key-figure image backfill
 
 ---
 
 ## Executive Summary
 
-- **Total figures:** 584
-- **Coverage:** 287/584 figures have images (49.1%)
-- **Storage:** 20 MB across 373 files
-- **Data integrity:** ✅ No orphaned images
-- **Issues:** ⚠️ 24 broken metadata references
+- **Total figures:** 547
+- **Coverage:** 384/547 figures have images (70.2%)
+- **Missing:** 163/547 figures still need images (29.8%)
+- **Storage:** 16.8 MB across 383 files
+- **Data integrity:** No orphaned images, broken references, invalid paths, or locale mismatches
 
 ---
 
@@ -19,197 +19,157 @@
 
 ### By Format
 
-| Format | Count | Percentage | Avg Size | Notes |
-|--------|-------|------------|----------|-------|
-| JPG | 277 | 74.3% | ~60 KB | Legacy format |
-| WEBP | 92 | 24.7% | ~40 KB | Modern, optimized |
-| PNG | 1 | 0.3% | ~50 KB | Rare |
-| SVG | 3 | 0.8% | Variable | Organizations |
+| Format | Count | Percentage | Notes |
+| --- | ---: | ---: | --- |
+| WEBP | 380 | 99.2% | Preferred optimized format |
+| SVG | 3 | 0.8% | Organization/alliance marks |
 
-**Total:** 373 files, 20 MB
+**Total:** 383 files, 16.8 MB
 
 ---
 
 ## Coverage Analysis
 
-### Figures with Images: 287 (49.1%)
+### Figures With Images: 384 (70.2%)
 
-All images follow naming convention: `public/figures/<figure-id>.<ext>`
+Images follow the convention:
 
-### Figures Without Images: 297 (50.9%)
-
-Missing images primarily for:
-- 2024 anti-discrimination movement coordinators
-- Historical organizations and collectives
-- Some liberation war figures
-- Pakistan-era political figures
-
----
-
-## Metadata Consistency
-
-### ✅ Healthy Metrics
-- **Zero orphaned images** — Every file in `public/figures/` matches a valid figure ID
-- **Consistent naming** — All files use kebab-case matching figure IDs
-- **No duplicate extensions** — Each figure has only one image format
-
-### ⚠️ Issues Found
-
-**24 Broken Image References**
-
-These figures have `"image"` field in metadata pointing to non-existent files:
-
-```
-k-m-obaidur-rahman
-kazi-arif-ahmed
-m-hamidullah-khan
-major-ma-manzur
-major-rafiqul-islam
-mk-bashar
-mofazzal-haider-chaudhury
-muhammad-kamaruzzaman
-mujibul-haque-chunnu
-nawab-ali-chowdhury
-nizamul-huq-judge
-rafiq-uddin-ahmed
-rokeya-kabir
-salahuddin-quader-chowdhury
-selina-parvin
-shafiur-rahman
-shah-ams-kibria
-shah-azizur-rahman
-shahidullah-kaiser
-shamsur-rahman
-sheikh-fazlul-haque-moni
-siraj-sikder
-syed-amir-ali
-syed-shamsul-haq
+```text
+public/figures/<figure-id>.<ext>
 ```
 
----
+Metadata references use:
 
-## Metadata Statistics
-
-- **Figures with `image` field:** 398 (68.2%)
-- **Figures without `image` field:** 120 (20.5%)
-- **Broken references:** 24 (4.1%)
-- **Valid references:** 374 (64.0%)
-
-**Note:** Some figures have `image` field but file doesn't exist (broken refs). Others exist as files but metadata is missing (need metadata update).
-
----
-
-## Recommendations
-
-### Priority 1: Fix Broken References (24 figures)
-
-**Option A - Remove broken references:**
-```bash
-# For each figure in the list above, edit both meta files:
-# content/figures/<figure-id>/meta.en.json
-# content/figures/<figure-id>/meta.bn.json
-# Remove the "image" field
-```
-
-**Option B - Add missing images:**
-```bash
-# Source and add images for the 24 figures listed above
-# Follow guidelines in docs/CONTENT_MODEL.md
-```
-
-### Priority 2: Optimize Image Formats (277 JPG files)
-
-Convert JPG to WEBP for better performance:
-
-```bash
-pnpm optimize:images
-```
-
-**Expected benefit:**
-- 30-50% file size reduction
-- Faster page loads
-- Better mobile performance
-
-### Priority 3: Increase Coverage (297 missing)
-
-Target order:
-1. **Landmark figures** (liberation war leaders, language movement martyrs)
-2. **Major figures** (political leaders, cultural icons)
-3. **High-importance figures** (coordinators, organizers)
-4. **Supporting figures** (organizations, collectives)
-
----
-
-## Image Guidelines
-
-Per `docs/CONTENT_MODEL.md`:
-
-### Technical Specs
-- **Ratio:** 4:5 portrait (preferred) or 3:2 landscape (archival)
-- **Format:** WEBP (preferred) or JPG
-- **Color:** Near-monochrome with subtle warm sepia
-- **Fit:** `object-contain` (no cropping)
-
-### Metadata Pattern
 ```json
 {
   "image": "/figures/<figure-id>.webp"
 }
 ```
 
-Set in **both** `meta.en.json` and `meta.bn.json`.
+Set the same image path in both:
 
-### Storage Location
+```text
+content/figures/<figure-id>/meta.en.json
+content/figures/<figure-id>/meta.bn.json
 ```
-public/figures/<figure-id>.webp
+
+### Figures Without Images: 163 (29.8%)
+
+The current priority list is maintained in:
+
+```text
+docs/missing-images-report.csv
+```
+
+Top current gaps by event usage:
+
+| Rank | Figure ID | Name | Event Count |
+| ---: | --- | --- | ---: |
+| 1 | `all-india-muslim-league` | All-India Muslim League | 6 |
+| 2 | `indian-national-congress` | Indian National Congress | 6 |
+| 3 | `islam-khan-chishti` | Islam Khan Chishti | 4 |
+| 4 | `nusrat-shah` | Nusrat Shah | 4 |
+| 5 | `ashrafuzzaman-khan` | Ashrafuzzaman Khan | 3 |
+| 6 | `chand-rai` | Chand Rai | 3 |
+| 7 | `chowdhury-mueen-uddin` | Chowdhury Mueen Uddin | 3 |
+| 8 | `kedar-rai` | Kedar Rai | 3 |
+| 9 | `krishnachandra-ray-of-nadia` | Krishnachandra Ray of Nadia | 3 |
+| 10 | `lakshmana-sena` | Lakshmana Sena | 3 |
+
+---
+
+## Metadata Consistency
+
+### Healthy Metrics
+
+- **Zero broken image references** — every declared `image` path exists in `public/`.
+- **Zero orphaned image files** — every `public/figures/*` image stem maps to an existing figure ID.
+- **Zero locale mismatches** — EN and BN metadata point to the same image path where images exist.
+- **Zero invalid paths** — all current image references use public-root absolute paths.
+
+### Recent Backfill
+
+On 2026-06-07, images were added for 10 high-priority key figures:
+
+```text
+aak-niazi
+akbar
+atisha-dipankara-srijnana
+daud-khan-karrani
+haji-shariatullah
+ishwar-chandra-vidyasagar
+jahangir-mughal
+manabendra-narayan-larma
+raja-rammohun-roy
+sam-manekshaw
+```
+
+Source and license notes for those additions are recorded in:
+
+```text
+docs/figure-image-sources.md
 ```
 
 ---
 
-## Data Validation
+## Recommendations
 
-Run content validation after making changes:
+### Priority 1: Continue High-Usage Missing Images
+
+Use `docs/missing-images-report.csv` and prioritize figures with the highest event counts first. For organizations and parties, use only clearly licensed logos/marks or historically appropriate public-domain source material.
+
+### Priority 2: Keep Source Notes Current
+
+For each new image batch, update `docs/figure-image-sources.md` with:
+
+- figure ID
+- source URL
+- license/status noted at source
+- processing notes, if different from the standard workflow
+
+### Priority 3: Validate After Every Batch
+
+Run:
 
 ```bash
 pnpm content:validate
 ```
 
-This will catch:
-- Broken image references
-- Invalid file paths
-- Missing required fields
+This catches broken image references, invalid paths, missing required fields, and relation issues.
 
 ---
 
-## Next Steps
+## Image Guidelines
 
-1. **Immediate:** Fix 24 broken references (remove field or add images)
-2. **Week 1:** Convert high-traffic figure JPGs to WEBP
-3. **Ongoing:** Add images for missing figures (prioritize by importance)
-4. **Monthly:** Re-run this audit to track progress
+Per `docs/CONTENT_MODEL.md` and `docs/ADDING_FIGURE_IMAGES.md`:
+
+- **Ratio:** 4:5 portrait preferred; 3:2 archival fallback when portrait composition is unsafe.
+- **Format:** WEBP preferred.
+- **Color:** Near-monochrome with subtle warm sepia.
+- **Fit:** Preserve full subject visibility; avoid aggressive cropping.
+- **Authenticity:** No face reshaping, beautification, invented portraits, or modern stylization.
 
 ---
 
-## Appendix: Figure Image Discovery Process
+## Appendix: Figure Image Discovery
 
 Images are referenced in figure metadata and discovered at runtime:
 
 ```typescript
-// In content/figures/<id>/meta.en.json and meta.bn.json
+// content/figures/<id>/meta.en.json and meta.bn.json
 {
-  "id": "sheikh-mujibur-rahman",
   "name": "Sheikh Mujibur Rahman",
-  "image": "/figures/sheikh-mujibur-rahman.webp",
-  // ... other fields
+  "image": "/figures/sheikh-mujibur-rahman.webp"
 }
 ```
 
-The UI renders images only when:
-1. `image` field exists in metadata
-2. File exists at the specified path
-3. Display context supports images (detail pages only, not cards)
+The UI renders images when:
+
+1. `image` exists in metadata.
+2. The referenced file exists under `public/`.
+3. The display context renders figure images.
 
 ---
 
-**Report generated:** 2026-05-31  
-**Audit script:** `/tmp/analyze-figures.sh`
+**Report generated:** 2026-06-07  
+**Validation:** `pnpm content:validate`

@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-06-07
+
+### Completed
+
+- Figure image backfill:
+  - Content backfill:
+    - Added sourced WEBP images for 10 high-priority key figures: `aak-niazi`, `sam-manekshaw`, `daud-khan-karrani`, `ishwar-chandra-vidyasagar`, `jahangir-mughal`, `raja-rammohun-roy`, `akbar`, `atisha-dipankara-srijnana`, `haji-shariatullah`, and `manabendra-narayan-larma`.
+    - Updated both EN and BN figure metadata with matching `image` paths.
+  - Documentation:
+    - Added `docs/figure-image-sources.md` with source and license/status notes.
+    - Refreshed `docs/figure-images-audit.md` with current coverage, inventory, and remaining gaps.
+    - Regenerated `docs/missing-images-report.csv` so completed figures no longer appear in the priority list.
+    - Updated `docs/ADDING_FIGURE_IMAGES.md` to require source tracking.
+  - Validation:
+    - `pnpm content:validate` passes.
+  - Model/UI:
+    - No schema or UI changes required; the backfill uses the existing optional figure `image` field.
+
 ## 2026-06-06
 
 ### Completed
