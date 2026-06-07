@@ -1,0 +1,14 @@
+{
+  "id": "kamalpur",
+  "title": "Kamalpur",
+  "subtitle": "1971 border-front battlefield",
+  "description": "Kamalpur is used as a place timeline node for the 1971 Battle of Kamalpur and the northern border-front campaign.",
+  "placeType": "battlefield",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-battle-of-kamalpur"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries."
+}

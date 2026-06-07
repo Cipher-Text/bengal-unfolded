@@ -1,0 +1,14 @@
+{
+  "id": "garibpur",
+  "title": "Garibpur",
+  "subtitle": "1971 Jessore-front battlefield",
+  "description": "Garibpur is used as a place timeline node for the 1971 Battle of Garibpur near the Jessore front.",
+  "placeType": "battlefield",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-battle-of-garibpur"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries."
+}

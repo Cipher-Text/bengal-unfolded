@@ -1,0 +1,14 @@
+{
+  "id": "jinjira-keraniganj",
+  "title": "Jinjira / Keraniganj",
+  "subtitle": "1971 massacre site near Dhaka",
+  "description": "Jinjira / Keraniganj is used as a place timeline node for the 1971 Jinjira Massacre and wartime violence around Dhaka.",
+  "placeType": "other",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-jinjira-massacre"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries."
+}

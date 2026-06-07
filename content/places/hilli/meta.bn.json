@@ -1,0 +1,14 @@
+{
+  "id": "hilli",
+  "title": "হিলি",
+  "subtitle": "১৯৭১ সালের উত্তর ফ্রন্টের যুদ্ধক্ষেত্র",
+  "description": "হিলি ১৯৭১ সালের হিলি যুদ্ধ ও উত্তর ফ্রন্টের সামরিক ইতিহাসের জন্য একটি স্থান-নোড।",
+  "placeType": "battlefield",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-battle-of-hilli"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।"
+}

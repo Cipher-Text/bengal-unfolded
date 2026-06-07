@@ -28,8 +28,8 @@
   "movementId": "memory-justice-and-civic-dissent",
   "sensitive": false,
   "requiresSources": true,
-  "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল",
+  "placeId": "calcutta-kolkata",
+  "placeLabel": "ক্যালকাটা / কলকাতা",
   "claimCitations": [
     {
       "id": "summary-claim-1",

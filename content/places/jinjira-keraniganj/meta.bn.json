@@ -1,0 +1,14 @@
+{
+  "id": "jinjira-keraniganj",
+  "title": "জিঞ্জিরা / কেরানীগঞ্জ",
+  "subtitle": "ঢাকার কাছে ১৯৭১ সালের গণহত্যাস্থল",
+  "description": "জিঞ্জিরা / কেরানীগঞ্জ ১৯৭১ সালের জিঞ্জিরা গণহত্যা ও ঢাকার আশপাশের যুদ্ধকালীন সহিংসতার জন্য একটি স্থান-নোড।",
+  "placeType": "other",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-jinjira-massacre"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।"
+}

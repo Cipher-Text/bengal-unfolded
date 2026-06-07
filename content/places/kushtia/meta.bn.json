@@ -1,0 +1,14 @@
+{
+  "id": "kushtia",
+  "title": "কুষ্টিয়া",
+  "subtitle": "মুক্তিযুদ্ধের প্রতিরোধ ও যুদ্ধস্থল",
+  "description": "কুষ্টিয়া ১৯৭১ সালের কুষ্টিয়া যুদ্ধ ও মুক্তিযুদ্ধের প্রারম্ভিক প্রতিরোধের জন্য একটি স্থান-নোড।",
+  "placeType": "city",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-battle-of-kushtia"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।"
+}

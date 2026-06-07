@@ -35,8 +35,8 @@
   "movementId": "language-autonomy-and-liberation",
   "sensitive": false,
   "requiresSources": true,
-  "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল",
+  "placeId": "sylhet",
+  "placeLabel": "সিলেট",
   "claimCitations": [
     {
       "id": "summary-claim-1",

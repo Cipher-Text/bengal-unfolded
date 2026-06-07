@@ -1,0 +1,14 @@
+{
+  "id": "chuknagar",
+  "title": "Chuknagar",
+  "subtitle": "1971 massacre site in Khulna region",
+  "description": "Chuknagar is used as a place timeline node for the 1971 Chuknagar Massacre and wartime civilian memory.",
+  "placeType": "other",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-chuknagar-massacre"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries."
+}

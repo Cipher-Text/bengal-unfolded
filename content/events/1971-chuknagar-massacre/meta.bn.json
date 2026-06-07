@@ -35,8 +35,8 @@
   "movementId": "language-autonomy-and-liberation",
   "sensitive": true,
   "requiresSources": true,
-  "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল",
+  "placeId": "chuknagar",
+  "placeLabel": "চুকনগর",
   "claimCitations": [
     {
       "id": "summary-claim-1",

@@ -746,6 +746,11 @@ export const SUPPORTED_PLACE_IDS = [
   "dhaka-medical-college",
   "central-shaheed-minar",
   "racecourse-suhrawardy-udyan",
+  "old-dhaka",
+  "jinjira-keraniganj",
+  "dhanmondi-32",
+  "dhaka-central-jail",
+  "gulshan-holey-artisan",
   "mujibnagar",
   "farakka",
   "shahbag-dhaka",
@@ -769,6 +774,11 @@ export const SUPPORTED_PLACE_IDS = [
   "barisal-bakerganj",
   "comilla-tripura-frontier",
   "jessore-khulna-corridor",
+  "hilli",
+  "garibpur",
+  "kamalpur",
+  "kushtia",
+  "chuknagar",
   "bihar-borderland",
 ] as const;
 

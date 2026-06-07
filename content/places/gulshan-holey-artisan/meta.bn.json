@@ -1,0 +1,14 @@
+{
+  "id": "gulshan-holey-artisan",
+  "title": "গুলশান (হলি আর্টিজান)",
+  "subtitle": "২০১৬ সালের হলি আর্টিজান হামলার স্থান",
+  "description": "গুলশান (হলি আর্টিজান) ২০১৬ সালের হলি আর্টিজান হামলা ও সন্ত্রাসবাদ-স্মৃতি বিতর্কের জন্য একটি স্থান-নোড।",
+  "placeType": "other",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "2016-holey-artisan-attack"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।"
+}

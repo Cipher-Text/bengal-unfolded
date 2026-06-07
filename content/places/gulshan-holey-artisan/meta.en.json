@@ -1,0 +1,14 @@
+{
+  "id": "gulshan-holey-artisan",
+  "title": "Gulshan (Holey Artisan)",
+  "subtitle": "Site of the 2016 Holey Artisan attack",
+  "description": "Gulshan (Holey Artisan) is used as a place timeline node for the 2016 Holey Artisan attack and terrorism-memory debates.",
+  "placeType": "other",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "2016-holey-artisan-attack"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries."
+}

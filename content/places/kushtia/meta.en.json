@@ -1,0 +1,14 @@
+{
+  "id": "kushtia",
+  "title": "Kushtia",
+  "subtitle": "Liberation War resistance and battle site",
+  "description": "Kushtia is used as a place timeline node for the 1971 Battle of Kushtia and early Liberation War resistance.",
+  "placeType": "city",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-battle-of-kushtia"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries."
+}

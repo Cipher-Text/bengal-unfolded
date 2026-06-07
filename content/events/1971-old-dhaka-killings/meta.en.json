@@ -35,8 +35,8 @@
   "movementId": "language-autonomy-and-liberation",
   "sensitive": true,
   "requiresSources": true,
-  "placeId": "bengal-region",
-  "placeLabel": "Bengal Region",
+  "placeId": "old-dhaka",
+  "placeLabel": "Old Dhaka",
   "claimCitations": [
     {
       "id": "summary-claim-1",

@@ -1,0 +1,14 @@
+{
+  "id": "hilli",
+  "title": "Hilli",
+  "subtitle": "1971 northern-front battlefield",
+  "description": "Hilli is used as a place timeline node for the 1971 Battle of Hilli and related northern-front military history.",
+  "placeType": "battlefield",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-battle-of-hilli"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "Coordinates are representative for historical orientation, not exact historical boundaries."
+}

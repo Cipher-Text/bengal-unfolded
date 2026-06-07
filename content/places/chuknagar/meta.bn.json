@@ -1,0 +1,14 @@
+{
+  "id": "chuknagar",
+  "title": "চুকনগর",
+  "subtitle": "খুলনা অঞ্চলের ১৯৭১ সালের গণহত্যাস্থল",
+  "description": "চুকনগর ১৯৭১ সালের চুকনগর গণহত্যা ও যুদ্ধকালীন বেসামরিক স্মৃতির জন্য একটি স্থান-নোড।",
+  "placeType": "other",
+  "modernCountry": "Bangladesh",
+  "relatedEventIds": [
+    "1971-chuknagar-massacre"
+  ],
+  "themeColor": "#6b7280",
+  "coordinateConfidence": "representative",
+  "mapNote": "স্থানাঙ্ক ঐতিহাসিক অবস্থান বোঝাতে প্রতিনিধিত্বমূলকভাবে ব্যবহার করা হয়েছে; এটি সুনির্দিষ্ট সীমানা নয়।"
+}

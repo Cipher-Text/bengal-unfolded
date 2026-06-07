@@ -217,6 +217,11 @@ async function main() {
     "dhaka-medical-college",
     "central-shaheed-minar",
     "racecourse-suhrawardy-udyan",
+    "old-dhaka",
+    "jinjira-keraniganj",
+    "dhanmondi-32",
+    "dhaka-central-jail",
+    "gulshan-holey-artisan",
     "mujibnagar",
     "farakka",
     "shahbag-dhaka",
@@ -240,6 +245,11 @@ async function main() {
     "barisal-bakerganj",
     "comilla-tripura-frontier",
     "jessore-khulna-corridor",
+    "hilli",
+    "garibpur",
+    "kamalpur",
+    "kushtia",
+    "chuknagar",
     "bihar-borderland",
   ]);
   await fs.readdir(placesDir);

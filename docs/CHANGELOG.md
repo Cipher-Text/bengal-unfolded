@@ -4,6 +4,21 @@
 
 ### Completed
 
+- Place coverage backfill:
+  - Content backfill:
+    - Relinked 17 existing events from generic `bengal-region` to existing specific places including Sylhet, Chittagong/Chattogram, Calcutta/Kolkata, Lahore, Dhaka University, Racecourse/Suhrawardy Udyan, Mujibnagar, Chittagong Hill Tracts, and Shahbag.
+    - Added 10 bilingual place records for high-value missing sites: `hilli`, `garibpur`, `kamalpur`, `kushtia`, `chuknagar`, `jinjira-keraniganj`, `old-dhaka`, `gulshan-holey-artisan`, `dhanmondi-32`, and `dhaka-central-jail`.
+    - Relinked the matching battle, massacre, and Dhaka urban-site events to the new place records.
+  - Model/validation:
+    - Added the new place IDs to `SUPPORTED_PLACE_IDS`.
+    - Added the new place IDs to `scripts/validate-content.mjs` allowed place validation.
+  - Documentation:
+    - Refreshed AI project inventory counts after the place backfill.
+  - Validation:
+    - `pnpm content:validate` passes.
+  - UI/runtime:
+    - No UI changes required; event and place pages consume the existing `placeId`/`placeLabel` fields.
+
 - Figure image backfill:
   - Content backfill:
     - Added sourced WEBP images for 10 high-priority key figures: `aak-niazi`, `sam-manekshaw`, `daud-khan-karrani`, `ishwar-chandra-vidyasagar`, `jahangir-mughal`, `raja-rammohun-roy`, `akbar`, `atisha-dipankara-srijnana`, `haji-shariatullah`, and `manabendra-narayan-larma`.
