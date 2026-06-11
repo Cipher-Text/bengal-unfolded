@@ -1,15 +1,15 @@
 {
   "name": "Muhammad Mansur Ali",
   "name_en": "Muhammad Mansur Ali",
-  "role": "National leader and prime minister",
+  "role": "Mujibnagar minister and later prime minister",
   "group": "leader",
-  "contribution": "As one of the senior Awami League leaders associated with the wartime national leadership, he remained part of the political authority that carried the independence struggle through 1971.",
-  "context": "Awami League leadership, the Liberation War, and the postwar state-building period.",
-  "impact": "His profile links the 1971 political leadership group to the postwar state and the later memory of the Four National Leaders.",
+  "contribution": "He served in the Mujibnagar government during the Liberation War, later became prime minister of Bangladesh in 1975, and is remembered as one of the Four National Leaders killed in jail on 3 November 1975.",
+  "context": "Mujibnagar wartime leadership, post-independence state politics, and the 1975 Jail Killing.",
+  "impact": "His life links the wartime national leadership to postwar state-building and the memory of the Four National Leaders.",
   "image": "/figures/mansur-ali.webp",
-  "seoTitle": "Muhammad Mansur Ali - 1971 Liberation War Profile",
-  "seoDescription": "Profile of Muhammad Mansur Ali, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
-  "shortAnswer": "Muhammad Mansur Ali is linked to the 1971 Liberation War in this timeline as National leader and prime minister.",
+  "seoTitle": "Muhammad Mansur Ali - Mujibnagar Leader and Four National Leaders Profile",
+  "seoDescription": "Muhammad Mansur Ali served in the Mujibnagar government, later became prime minister of Bangladesh in 1975, and is remembered among the Four National Leaders killed in jail.",
+  "shortAnswer": "A Mujibnagar government leader, later prime minister of Bangladesh, and one of the Four National Leaders killed in jail in 1975.",
   "activePeriod": "1971-1975",
   "primaryEventIds": [
     "1971-liberation-war",
@@ -38,5 +38,6 @@
     "1971",
     "liberation-war",
     "political-leadership"
-  ]
+  ],
+  "highlight": "A wartime national leader whose legacy is inseparable from the Jail Killing of 1975."
 }

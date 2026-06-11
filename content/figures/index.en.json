@@ -2,58 +2,58 @@
   {
     "id": "sheikh-mujibur-rahman",
     "name": "Sheikh Mujibur Rahman",
-    "role": "Liberation War Figure",
-    "bio": "Sheikh Mujibur Rahman is listed among notable 1971 Liberation War figures in this project timeline.",
-    "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+    "role": "National leader",
+    "bio": "Led the Awami League through the Six-Point autonomy campaign, the 1970 electoral mandate, and the March 1971 crisis that shaped Bangladesh's independence struggle.",
+    "impact": "Turned language rights, autonomy, and electoral representation into a mass demand for Bengali self-determination and statehood."
   },
   {
     "id": "syed-nazrul-islam",
     "name": "Syed Nazrul Islam",
-    "role": "Liberation War Figure",
-    "bio": "Syed Nazrul Islam is listed among notable 1971 Liberation War figures in this project timeline.",
-    "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+    "role": "Acting president",
+    "bio": "Served as acting president of the Provisional Government of Bangladesh in 1971 while Sheikh Mujibur Rahman was imprisoned in Pakistan.",
+    "impact": "Gave the wartime state constitutional continuity and helped frame the Liberation War as a legitimate national struggle."
   },
   {
     "id": "tajuddin-ahmad",
     "name": "Tajuddin Ahmad",
-    "role": "Liberation War Figure",
-    "bio": "Tajuddin Ahmad is listed among notable 1971 Liberation War figures in this project timeline.",
-    "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+    "role": "Mujibnagar prime minister",
+    "bio": "Led Bangladesh's first government as prime minister during the Liberation War, organizing Mujibnagar governance, diplomacy, and wartime strategy.",
+    "impact": "Turned dispersed resistance into a state-led independence struggle with political legitimacy, military coordination, and external support."
   },
   {
     "id": "mansur-ali",
-    "name": "Mansur Ali",
-    "role": "Liberation War Figure",
-    "bio": "Mansur Ali is listed among notable 1971 Liberation War figures in this project timeline.",
-    "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+    "name": "Muhammad Mansur Ali",
+    "role": "Mujibnagar leader",
+    "bio": "Served in the Mujibnagar government, later became prime minister of Bangladesh in 1975, and is remembered as one of the Four National Leaders killed in jail.",
+    "impact": "Connects wartime national leadership with postwar state-building and the memory of the 1975 Jail Killing."
   },
   {
     "id": "ahm-qamaruzzaman",
     "name": "A. H. M. Qamaruzzaman",
-    "role": "Liberation War Figure",
-    "bio": "A. H. M. Qamaruzzaman is listed among notable 1971 Liberation War figures in this project timeline.",
-    "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+    "role": "Home affairs leader",
+    "bio": "Served as home affairs leader in the Provisional Government of Bangladesh and helped administer wartime political authority in 1971.",
+    "impact": "Strengthened the wartime government structure and is remembered as one of the Four National Leaders killed in jail in 1975."
   },
   {
     "id": "mag-osmani",
     "name": "M. A. G. Osmani",
-    "role": "Liberation War Figure",
-    "bio": "M. A. G. Osmani is listed among notable 1971 Liberation War figures in this project timeline.",
-    "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+    "role": "Commander-in-chief",
+    "bio": "Commanded the Bangladesh Forces during the Liberation War and shaped the sector-based military structure of the Mukti Bahini.",
+    "impact": "Gave organized command, strategy, and national military identity to the liberation forces."
   },
   {
     "id": "ziaur-rahman",
     "name": "Ziaur Rahman",
-    "role": "Liberation War Figure",
-    "bio": "Ziaur Rahman is listed among notable 1971 Liberation War figures in this project timeline.",
-    "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+    "role": "Sector commander",
+    "bio": "Broadcast the declaration of independence from Kalurghat on behalf of Sheikh Mujibur Rahman and later commanded Sector 1, Sector 11, and Z Force.",
+    "impact": "Combined early symbolic visibility with organized military command during the Liberation War."
   },
   {
     "id": "khaled-mosharraf",
     "name": "Khaled Mosharraf",
-    "role": "Liberation War Figure",
-    "bio": "Khaled Mosharraf is listed among notable 1971 Liberation War figures in this project timeline.",
-    "impact": "Contributed to the political, military, cultural, or intellectual struggle connected to Bangladesh's independence."
+    "role": "Sector 2 commander",
+    "bio": "Commanded Sector 2 and later K Force during the Liberation War, organizing regular-force and guerrilla operations around a strategic theatre.",
+    "impact": "Helped define the operational strength of one of the war's most important sectors."
   },
   {
     "id": "km-shafiullah",
@@ -338,9 +338,9 @@
   {
     "id": "nahid-islam",
     "name": "Nahid Islam",
-    "role": "Core Coordinators & Leaders",
-    "bio": "Nahid Islam was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
-    "impact": "Key coordinator and central face of the movement; later joined interim government advisory role."
+    "role": "Student coordinator and adviser",
+    "bio": "Emerged as a central coordinator of Students Against Discrimination during the 2024 quota reform movement and July uprising.",
+    "impact": "Linked street-level student coordination with the post-uprising interim-government transition."
   },
   {
     "id": "sharif-osman-hadi",
@@ -352,16 +352,16 @@
   {
     "id": "asif-mahmud",
     "name": "Asif Mahmud",
-    "role": "Core Coordinators & Leaders",
-    "bio": "Asif Mahmud was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
-    "impact": "Key coordinator known for leadership during the 'Complete Shutdown'; later joined interim government advisory role."
+    "role": "Student coordinator and adviser",
+    "bio": "Was a key Students Against Discrimination coordinator in 2024 and later joined the interim government as a student adviser.",
+    "impact": "Carried protest-period leadership into the post-uprising reform and governance space."
   },
   {
     "id": "sarjis-alam",
     "name": "Sarjis Alam",
-    "role": "Core Coordinators & Leaders",
-    "bio": "Sarjis Alam was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
-    "impact": "Prominent coordinator and spokesperson recognized for media presence and public speaking."
+    "role": "Student coordinator",
+    "bio": "Was a visible coordinator of Students Against Discrimination, helping carry the quota reform movement into the wider July uprising.",
+    "impact": "Helped sustain public messaging and youth political visibility during and after the 2024 movement."
   },
   {
     "id": "hasnat-abdullah",
@@ -373,9 +373,9 @@
   {
     "id": "abu-baker-majumder",
     "name": "Abu Baker Majumder",
-    "role": "Core Coordinators & Leaders",
-    "bio": "Abu Baker Majumder was identified as an impactful figure in the 2024 Anti-Discrimination Movement.",
-    "impact": "Key coordinator among the first detainees during the protests."
+    "role": "Student coordinator",
+    "bio": "Was a Students Against Discrimination coordinator publicly associated with the 2024 protest leadership and the DB custody episode.",
+    "impact": "His detention became part of wider public concern over pressure on student protest coordinators."
   },
   {
     "id": "abdul-hannan-masud",
