@@ -1,9 +1,9 @@
 {
-  "title": "Battle of Belonia",
-  "note": "Reference overview of the Belonia salient fighting during the 1971 war.",
+  "title": "Belonia Campaign Context",
+  "note": "Chronological reference context for the 1971 war period, used as a fallback for the Belonia battle page.",
   "category": "reference-sources",
   "subcategory": "Encyclopedia and Archive Reference",
-  "href": "https://en.wikipedia.org/wiki/Battle_of_Belonia",
+  "href": "https://en.wikipedia.org/wiki/1971_in_Bangladesh",
   "attribution": "Wikipedia",
   "creatorId": "wikipedia",
   "creatorType": "organization",
@@ -13,6 +13,6 @@
   "relatedEventIds": [
     "1971-battle-of-belonia"
   ],
-  "whyItMatters": "Reference overview of the Belonia salient fighting during the 1971 war.",
+  "whyItMatters": "Chronological reference context for the 1971 war period, used as a fallback for the Belonia battle page.",
   "relatedTopicIds": []
 }

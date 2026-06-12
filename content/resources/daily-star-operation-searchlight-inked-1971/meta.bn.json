@@ -1,16 +1,16 @@
 {
-  "title": "অপারেশন সার্চলাইটের পরিকল্পনা",
-  "note": "১৮ মার্চ ১৯৭১ অপারেশন সার্চলাইট পরিকল্পনায় খাদিম হুসাইন রাজা ও রাও ফরমান আলীর ভূমিকা নিয়ে ঐতিহাসিক প্রতিবেদন।",
-  "href": "https://www.thedailystar.net/historical/back-page/news/operation-searchlight-inked-2062417",
+  "title": "অপারেশন সার্চলাইট - রেফারেন্স প্রেক্ষাপট",
+  "note": "পুরোনো সংবাদপত্র আর্কাইভ URL 404 হওয়ার পর অপারেশন সার্চলাইটের রেফারেন্স প্রেক্ষাপট।",
+  "href": "https://en.banglapedia.org/index.php/Operation_Searchlight",
   "category": "news-and-contemporary-reports",
   "subcategory": "ঐতিহাসিক প্রতিবেদন",
-  "attribution": "দ্য ডেইলি স্টার",
-  "creatorId": "the-daily-star",
+  "attribution": "Banglapedia",
+  "creatorId": "banglapedia",
   "creatorType": "organization",
   "quality": "secondary",
-  "sourceQuality": "editorial",
+  "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "এটি অপারেশন সার্চলাইটের পাকিস্তানি সামরিক পরিকল্পনায় ব্যক্তি-নির্দিষ্ট প্রেক্ষাপট দেয়।",
+  "whyItMatters": "পুরোনো সংবাদপত্র আর্কাইভ URL 404 হওয়ার পর অপারেশন সার্চলাইটের রেফারেন্স প্রেক্ষাপট।",
   "relatedEventIds": [
     "1971-operation-searchlight-crackdown",
     "1971-liberation-war"

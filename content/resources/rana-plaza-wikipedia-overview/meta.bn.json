@@ -3,15 +3,16 @@
   "note": "রানা প্লাজার পর ভবন-নিরাপত্তা সংস্কার কাঠামো নিয়ে আইএলও ওভারভিউ।",
   "category": "primary-sources",
   "subcategory": "Official Documents and Legal Texts",
-  "attribution": "আন্তর্জাতিক শ্রম সংস্থা",
-  "creatorId": "international-labour-organization",
+  "attribution": "Wikipedia",
+  "creatorId": "wikipedia",
   "quality": "secondary",
-  "href": "https://www.ilo.org/global/topics/geip/WCMS_614394/lang--en/index.htm",
-  "sourceQuality": "archive",
+  "href": "https://en.wikipedia.org/wiki/Rana_Plaza_collapse",
+  "sourceQuality": "reference",
   "evidenceLevel": "high",
   "whyItMatters": "রানা প্লাজার পর ভবন-নিরাপত্তা সংস্কার কাঠামো নিয়ে আইএলও ওভারভিউ।",
   "relatedEventIds": [
     "2013-rana-plaza-collapse"
   ],
-  "relatedTopicIds": []
+  "relatedTopicIds": [],
+  "creatorType": "organization"
 }

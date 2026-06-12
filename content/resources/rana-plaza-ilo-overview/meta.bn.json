@@ -3,15 +3,16 @@
   "note": "ILO overview of post-Rana Plaza safety reform architecture.",
   "category": "primary-sources",
   "subcategory": "Official Documents and Legal Texts",
-  "attribution": "International Labour Organization",
-  "creatorId": "international-labour-organization",
+  "attribution": "Wikipedia",
+  "creatorId": "wikipedia",
   "quality": "secondary",
-  "href": "https://www.ilo.org/global/topics/geip/WCMS_614394/lang--en/index.htm",
-  "sourceQuality": "archive",
+  "href": "https://en.wikipedia.org/wiki/Rana_Plaza_collapse",
+  "sourceQuality": "reference",
   "evidenceLevel": "high",
   "whyItMatters": "ILO overview of post-Rana Plaza safety reform architecture.",
   "relatedEventIds": [
     "2013-rana-plaza-collapse"
   ],
-  "relatedTopicIds": []
+  "relatedTopicIds": [],
+  "creatorType": "organization"
 }

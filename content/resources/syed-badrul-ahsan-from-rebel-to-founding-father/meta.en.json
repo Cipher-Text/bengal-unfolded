@@ -3,14 +3,15 @@
   "note": "Political biography focusing on Sheikh Mujibur Rahman and state formation politics.",
   "category": "research-articles-and-papers",
   "subcategory": "Scholarly Articles and Papers",
-  "attribution": "Syed Badrul Ahsan",
-  "creatorId": "syed-badrul-ahsan",
+  "attribution": "Open Library",
+  "creatorId": "open-library",
   "quality": "secondary",
-  "sourceQuality": "secondary",
+  "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "href": "https://www.penguin.co.in/book/from-rebel-to-founding-father/",
+  "href": "https://openlibrary.org/search?q=From+Rebel+to+Founding+Father+Sheikh+Mujibur+Rahman",
   "relatedTopicIds": [
     "liberation-war-1971"
   ],
-  "relatedEventIds": []
+  "relatedEventIds": [],
+  "creatorType": "organization"
 }

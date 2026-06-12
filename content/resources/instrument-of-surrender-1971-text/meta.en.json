@@ -3,15 +3,16 @@
   "note": "Primary surrender document ending the Indo-Pak war in the eastern theatre.",
   "category": "primary-sources",
   "subcategory": "Official Documents and Legal Texts",
-  "attribution": "Historical military archives",
-  "creatorId": "historical-military-archives",
-  "quality": "primary",
-  "href": "https://www.bharat-rakshak.com/ARMY/history/1971war/surrendoc.html",
-  "sourceQuality": "primary",
+  "attribution": "Wikipedia",
+  "creatorId": "wikipedia",
+  "quality": "secondary",
+  "href": "https://en.wikipedia.org/wiki/Instrument_of_Surrender_(1971)",
+  "sourceQuality": "reference",
   "evidenceLevel": "high",
   "whyItMatters": "Primary surrender document ending the Indo-Pak war in the eastern theatre.",
   "relatedEventIds": [
     "1971-december-16-instrument-of-surrender"
   ],
-  "relatedTopicIds": []
+  "relatedTopicIds": [],
+  "creatorType": "organization"
 }

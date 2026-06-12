@@ -1,16 +1,16 @@
 {
-  "title": "Operation Searchlight inked",
-  "note": "Historical report on the 18 March 1971 planning of Operation Searchlight by Khadim Hussain Raja and Rao Farman Ali.",
-  "href": "https://www.thedailystar.net/historical/back-page/news/operation-searchlight-inked-2062417",
+  "title": "Operation Searchlight - Reference Context",
+  "note": "Reference context for Operation Searchlight after a stale newspaper archive URL returned 404.",
+  "href": "https://en.banglapedia.org/index.php/Operation_Searchlight",
   "category": "news-and-contemporary-reports",
   "subcategory": "Historical Report",
-  "attribution": "The Daily Star",
-  "creatorId": "the-daily-star",
+  "attribution": "Banglapedia",
+  "creatorId": "banglapedia",
   "creatorType": "organization",
   "quality": "secondary",
-  "sourceQuality": "editorial",
+  "sourceQuality": "reference",
   "evidenceLevel": "medium",
-  "whyItMatters": "It gives figure-specific context for the Pakistani military planning of Operation Searchlight.",
+  "whyItMatters": "Reference context for Operation Searchlight after a stale newspaper archive URL returned 404.",
   "relatedEventIds": [
     "1971-operation-searchlight-crackdown",
     "1971-liberation-war"

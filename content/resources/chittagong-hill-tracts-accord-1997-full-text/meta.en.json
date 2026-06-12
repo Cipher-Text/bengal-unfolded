@@ -3,10 +3,10 @@
   "note": "Full text of the 1997 peace accord via UN peacemaking repository.",
   "category": "primary-sources",
   "subcategory": "Official Documents and Legal Texts",
-  "attribution": "UN Peacemaker",
-  "creatorId": "un-peacemaker",
-  "quality": "primary",
-  "href": "https://peacemaker.un.org/sites/peacemaker.un.org/files/BD_971202_PeaceAccordChittagongHillTracts.pdf",
+  "attribution": "UNEP Law and Environment Assistance Platform",
+  "creatorId": "unep",
+  "quality": "archive",
+  "href": "https://leap.unep.org/en/countries/bd/national-legislation/chittagong-hill-tracts-treaty-1997",
   "sourceQuality": "archive",
   "evidenceLevel": "high",
   "whyItMatters": "Full text of the 1997 peace accord via UN peacemaking repository.",
@@ -15,5 +15,6 @@
   ],
   "relatedEventIds": [
     "1997-chittagong-hill-tracts-peace-accord"
-  ]
+  ],
+  "creatorType": "organization"
 }

@@ -1,9 +1,9 @@
 {
-  "title": "বেলোনিয়ার যুদ্ধ",
-  "note": "১৯৭১ সালের যুদ্ধে বেলোনিয়া স্যালিয়েন্টের লড়াই সম্পর্কে রেফারেন্স সারাংশ.",
+  "title": "বেলোনিয়া অভিযানের প্রেক্ষাপট",
+  "note": "বেলোনিয়া যুদ্ধ পৃষ্ঠার জন্য ব্যবহৃত ১৯৭১ যুদ্ধকালীন কালানুক্রমিক রেফারেন্স প্রেক্ষাপট।",
   "category": "reference-sources",
   "subcategory": "Encyclopedia and Archive Reference",
-  "href": "https://en.wikipedia.org/wiki/Battle_of_Belonia",
+  "href": "https://en.wikipedia.org/wiki/1971_in_Bangladesh",
   "attribution": "Wikipedia",
   "creatorId": "wikipedia",
   "creatorType": "organization",
@@ -13,6 +13,6 @@
   "relatedEventIds": [
     "1971-battle-of-belonia"
   ],
-  "whyItMatters": "১৯৭১ সালের যুদ্ধে বেলোনিয়া স্যালিয়েন্টের লড়াই সম্পর্কে রেফারেন্স সারাংশ.",
+  "whyItMatters": "বেলোনিয়া যুদ্ধ পৃষ্ঠার জন্য ব্যবহৃত ১৯৭১ যুদ্ধকালীন কালানুক্রমিক রেফারেন্স প্রেক্ষাপট।",
   "relatedTopicIds": []
 }

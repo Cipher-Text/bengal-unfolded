@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-06-13
+
+### Completed
+
+- External resource link audit:
+  - Content backfill:
+    - Crawled all external `content/resources/*/meta.en.json` `href` values and revised stale 404/ENOTFOUND/ECONNREFUSED links where reliable replacements were available.
+    - Updated EN/BN resource metadata together when source attribution changed, including stale Banglapedia, ILO, UN Peacemaker, Daily Star, Penguin, and document-archive links.
+    - Preserved publisher/paywall/access-blocked links where the crawl returned 401/403 but the source remains a valid scholarly, institutional, or publisher reference.
+  - Model/validation:
+    - No schema or validator changes required.
+  - UI/runtime:
+    - No UI changes required; resource pages consume the existing `href`, attribution, and source-quality fields.
+  - Validation:
+    - `pnpm content:validate` passes.
+    - Final crawl found no confirmed 404s; one Daily Star URL timed out during automated crawl and should be treated as transient unless it repeats.
+
 ## 2026-06-11
 
 ### Completed

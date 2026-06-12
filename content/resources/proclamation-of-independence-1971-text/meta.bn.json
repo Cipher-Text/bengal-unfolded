@@ -3,15 +3,16 @@
   "note": "Primary documentary text of the 1971 proclamation used by the provisional government.",
   "category": "primary-sources",
   "subcategory": "Official Documents and Legal Texts",
-  "attribution": "Bangladesh constitutional archives",
-  "creatorId": "bangladesh-constitutional-archives",
-  "quality": "primary",
-  "href": "https://www.constitutionnet.org/sites/default/files/1971.04.10_-_proclamation_of_independence.pdf",
-  "sourceQuality": "primary",
+  "attribution": "Wikipedia",
+  "creatorId": "wikipedia",
+  "quality": "secondary",
+  "href": "https://en.wikipedia.org/wiki/Proclamation_of_Bangladeshi_Independence",
+  "sourceQuality": "reference",
   "evidenceLevel": "high",
   "whyItMatters": "Primary documentary text of the 1971 proclamation used by the provisional government.",
   "relatedTopicIds": [
     "liberation-war-1971"
   ],
-  "relatedEventIds": []
+  "relatedEventIds": [],
+  "creatorType": "organization"
 }
