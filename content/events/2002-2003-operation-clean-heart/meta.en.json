@@ -1,0 +1,83 @@
+{
+  "slug": "2002-2003-operation-clean-heart",
+  "year": "2002-2003",
+  "title": "Operation Clean Heart",
+  "subtitle": "A military-led anti-crime drive raises enduring questions about security, impunity, and rights.",
+  "summary": "Operation Clean Heart was a nationwide anti-crime drive launched in October 2002 with military deployment under a civilian government. Rights groups reported arrests, deaths in custody, and later legal immunity for security personnel, while official accounts framed the drive as a law-and-order operation.",
+  "themeColor": "#58504c",
+  "ctaLabel": "Explore",
+  "heroTagline": "A military-led anti-crime drive raises enduring questions about security, impunity, and rights.",
+  "whyItMatters": "The operation is important for understanding Bangladesh’s later security-state debates, including militarized policing, legal immunity, custodial death allegations, and the normalization of extraordinary law-and-order measures.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2007-2008-emergency-caretaker-rule",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2018-a-year-of-protest-control-and-contested-legitimacy",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2007-2008-emergency-caretaker-rule",
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "operation-clean-heart-hrw",
+    "operation-clean-heart-amnesty"
+  ],
+  "whyItMattersSourceIds": [
+    "operation-clean-heart-hrw",
+    "operation-clean-heart-amnesty"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "Bangladesh",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Operation Clean Heart was a nationwide anti-crime drive launched in October 2002 with military deployment under a civilian government. Rights groups reported arrests, deaths in custody, and later legal immunity for security personnel, while official accounts framed the drive as a law-and-order operation.",
+      "sourceIds": [
+        "operation-clean-heart-hrw",
+        "operation-clean-heart-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The operation is important for understanding Bangladesh’s later security-state debates, including militarized policing, legal immunity, custodial death allegations, and the normalization of extraordinary law-and-order measures.",
+      "sourceIds": [
+        "operation-clean-heart-hrw",
+        "operation-clean-heart-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "custodial death allegations",
+    "security-force abuse allegations"
+  ],
+  "contested": true,
+  "historicalDebate": "Supporters presented the operation as a response to crime and disorder, while human-rights organizations documented alleged abuses and impunity. Casualty and responsibility claims should be attributed to specific sources.",
+  "historicalDebateSourceIds": [
+    "operation-clean-heart-hrw",
+    "operation-clean-heart-amnesty"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
+}

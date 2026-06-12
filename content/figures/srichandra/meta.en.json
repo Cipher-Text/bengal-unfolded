@@ -1,0 +1,21 @@
+{
+  "name": "Srichandra",
+  "name_en": "Srichandra",
+  "role": "Chandra ruler of southeastern Bengal",
+  "group": "leader",
+  "contribution": "A Chandra dynasty ruler associated with southeastern Bengal’s regional state formation.",
+  "context": "His reign helps represent Samatata-Harikela politics and Buddhist institutional patronage outside the Pala heartland.",
+  "impact": "He broadens the pre-sultanate map of Bengal by foregrounding eastern Bengal’s political and monastic networks.",
+  "highlight": "He broadens the pre-sultanate map of Bengal by foregrounding eastern Bengal’s political and monastic networks.",
+  "tags": [
+    "bengal",
+    "regional-history",
+    "content-gap"
+  ],
+  "primaryEventIds": [
+    "0800-1100-chandra-deva-mainamati-regional-polity"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
+  ]
+}

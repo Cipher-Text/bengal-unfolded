@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (March-April)",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "অপারেশন সার্চলাইটের পর, যুদ্ধ সেক্টর কাঠামোয় স্থিত হওয়ার আগে, কুষ্টিয়ায় প্রাথমিক সশস্ত্র প্রতিরোধ দেখা যায়।",
+    "sourceIds": [
+      "battle-of-kushtia-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
     "title": "কুষ্টিয়ার যুদ্ধ",
-    "detail": "Kushtia shows how resistance began locally before becoming a structured liberation campaign.",
+    "detail": "দ্রুত ভাঙন ও তাৎক্ষণিক প্রতিরোধের মুহূর্তে স্থানীয় বাহিনী ও সাধারণ মানুষ পাকিস্তানি নিয়ন্ত্রণকে চ্যালেঞ্জ করে।",
     "sourceIds": [
       "battle-of-kushtia-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "এই যুদ্ধ গুরুত্বপূর্ণ, কারণ এটি দেখায় যে পরবর্তী কমান্ড কাঠামো পূর্ণরূপে গড়ার আগেই সংগঠিত প্রতিরোধ শুরু হয়েছিল।",
+    "sourceIds": [
+      "battle-of-kushtia-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

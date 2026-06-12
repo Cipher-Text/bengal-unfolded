@@ -1,0 +1,89 @@
+{
+  "slug": "2011-fifteenth-amendment-and-caretaker-abolition",
+  "year": "2011",
+  "title": "Fifteenth Amendment and Caretaker Abolition",
+  "subtitle": "A constitutional amendment removes the caretaker-election framework and reshapes electoral legitimacy debates.",
+  "summary": "Bangladesh’s Fifteenth Amendment in 2011 removed the constitutional caretaker-government arrangement that had structured several national elections after the 1990 transition. The change followed a Supreme Court judgment but became politically contentious as opposition parties argued that elections under party governments lacked neutrality.",
+  "themeColor": "#586f7c",
+  "ctaLabel": "Explore",
+  "heroTagline": "A constitutional amendment removes the caretaker-election framework and reshapes electoral legitimacy debates.",
+  "whyItMatters": "The amendment is central to understanding the disputed elections of 2014, 2018, and 2024, and the later debate over whether Bangladesh should restore a neutral election-time government.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1991-return-to-parliamentary-democracy",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1996-ganges-water-sharing-treaty",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "2014-10th-parliamentary-election",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2024-12th-parliamentary-election",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1991-return-to-parliamentary-democracy",
+    "1996-ganges-water-sharing-treaty",
+    "2014-10th-parliamentary-election",
+    "2024-12th-parliamentary-election"
+  ],
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "fifteenth-amendment-bangladesh-constitution",
+    "caretaker-government-fifteenth-amendment-analysis",
+    "bangladesh-constitution-official-text"
+  ],
+  "whyItMattersSourceIds": [
+    "fifteenth-amendment-bangladesh-constitution",
+    "caretaker-government-fifteenth-amendment-analysis",
+    "bangladesh-constitution-official-text"
+  ],
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "Bangladesh",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Bangladesh’s Fifteenth Amendment in 2011 removed the constitutional caretaker-government arrangement that had structured several national elections after the 1990 transition. The change followed a Supreme Court judgment but became politically contentious as opposition parties argued that elections under party governments lacked neutrality.",
+      "sourceIds": [
+        "fifteenth-amendment-bangladesh-constitution",
+        "caretaker-government-fifteenth-amendment-analysis",
+        "bangladesh-constitution-official-text"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The amendment is central to understanding the disputed elections of 2014, 2018, and 2024, and the later debate over whether Bangladesh should restore a neutral election-time government.",
+      "sourceIds": [
+        "fifteenth-amendment-bangladesh-constitution",
+        "caretaker-government-fifteenth-amendment-analysis",
+        "bangladesh-constitution-official-text"
+      ],
+      "evidenceLevel": "high"
+    }
+  ],
+  "contested": true,
+  "historicalDebate": "Legal defenders emphasized constitutional continuity and the Supreme Court judgment; critics argued that abolishing the caretaker framework weakened electoral trust in a polarized political system.",
+  "historicalDebateSourceIds": [
+    "fifteenth-amendment-bangladesh-constitution",
+    "caretaker-government-fifteenth-amendment-analysis",
+    "bangladesh-constitution-official-text"
+  ],
+  "historicalDebateEvidenceLevel": "high"
+}

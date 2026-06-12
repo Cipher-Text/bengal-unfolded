@@ -1,0 +1,46 @@
+[
+  {
+    "year": "2011",
+    "title": "Fifteenth Amendment and Caretaker Abolition",
+    "detail": "Bangladesh’s Fifteenth Amendment in 2011 removed the constitutional caretaker-government arrangement that had structured several national elections after the 1990 transition. The change followed a Supreme Court judgment but became politically contentious as opposition parties argued that elections under party governments lacked neutrality.",
+    "sourceIds": [
+      "fifteenth-amendment-bangladesh-constitution",
+      "caretaker-government-fifteenth-amendment-analysis",
+      "bangladesh-constitution-official-text"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "The amendment is central to understanding the disputed elections of 2014, 2018, and 2024, and the later debate over whether Bangladesh should restore a neutral election-time government.",
+    "sourceIds": [
+      "fifteenth-amendment-bangladesh-constitution",
+      "caretaker-government-fifteenth-amendment-analysis",
+      "bangladesh-constitution-official-text"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Debate",
+    "title": "Disputed interpretations",
+    "detail": "Legal defenders emphasized constitutional continuity and the Supreme Court judgment; critics argued that abolishing the caretaker framework weakened electoral trust in a polarized political system.",
+    "sourceIds": [
+      "fifteenth-amendment-bangladesh-constitution",
+      "caretaker-government-fifteenth-amendment-analysis",
+      "bangladesh-constitution-official-text"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

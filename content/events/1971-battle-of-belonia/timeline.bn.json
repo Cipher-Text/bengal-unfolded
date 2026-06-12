@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "বেলোনিয়া পূর্বাঞ্চলের গুরুত্বপূর্ণ যুদ্ধক্ষেত্র হয়ে ওঠে, যেখানে মুক্তিবাহিনীর চাপ বৃহত্তর মিত্র পরিকল্পনার সঙ্গে যুক্ত হয়।",
+    "sourceIds": [
+      "battle-of-belonia-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
     "title": "বেলোনিয়ার যুদ্ধ",
-    "detail": "Belonia adds border-salient warfare to the Liberation War sequence.",
+    "detail": "এই যুদ্ধ চূড়ান্ত অভিযানের আগে দক্ষিণ-পূর্বে পথ খুলতে ও পাকিস্তানি নিয়ন্ত্রণ দুর্বল করতে সহায়তা করে।",
     "sourceIds": [
       "battle-of-belonia-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "বেলোনিয়া দেখায় যে মুক্তিযুদ্ধ স্থানীয়, সেক্টরভিত্তিক ও সীমান্ত-পার সামরিক কর্মকাণ্ডের সমন্বয় ছিল।",
+    "sourceIds": [
+      "battle-of-belonia-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

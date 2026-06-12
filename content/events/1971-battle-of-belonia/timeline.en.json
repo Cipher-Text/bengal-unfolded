@@ -1,8 +1,22 @@
 [
   {
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Belonia became an important eastern theatre where Mukti Bahini pressure worked with larger Allied planning.",
+    "sourceIds": [
+      "battle-of-belonia-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
     "year": "1971",
     "title": "Battle of Belonia",
-    "detail": "বেলোনিয়ার যুদ্ধ ত্রিপুরা সীমান্তের কাছে একটি কৌশলগত স্যালিয়েন্ট ঘিরে সংঘটিত হয়। এটি দেখায় কীভাবে মুক্তিবাহিনী ও ভারতীয় অভিযান সীমান্ত ভূগোল ব্যবহার করে পাকিস্তানি অবস্থানের ওপর চাপ সৃষ্টি করে।",
+    "detail": "The battle helped open routes and weaken Pakistani control in the southeast before the final campaign.",
     "sourceIds": [
       "battle-of-belonia-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Belonia shows the Liberation War as coordinated local, sector, and cross-border military action.",
+    "sourceIds": [
+      "battle-of-belonia-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

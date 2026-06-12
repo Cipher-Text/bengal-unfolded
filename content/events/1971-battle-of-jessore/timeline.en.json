@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (December)",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Jessore was a major western gateway where retreat, road control, and Allied advance converged.",
+    "sourceIds": [
+      "battle-of-jessore-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
     "title": "Battle of Jessore",
-    "detail": "১৯৭১ সালের ডিসেম্বরে যশোরের যুদ্ধ দক্ষিণ-পশ্চিম ফ্রন্টের একটি গুরুত্বপূর্ণ সংঘর্ষ ছিল। যশোর অঞ্চলে পাকিস্তানি অবস্থানের পতন খুলনা ও অন্যান্য অভ্যন্তরীণ রুটের পথ খুলে দেয়।",
+    "detail": "Operations around Jessore weakened Pakistani hold over the southwest and accelerated movement toward Khulna and other corridors.",
     "sourceIds": [
       "battle-of-jessore-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "The battle anchors the western front within the larger December collapse of Pakistani control.",
+    "sourceIds": [
+      "battle-of-jessore-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

@@ -1,0 +1,32 @@
+[
+  {
+    "year": "2012",
+    "title": "Tazreen Fashions Fire",
+    "detail": "On 24 November 2012, a fire at Tazreen Fashions in Ashulia killed more than one hundred garment workers. Labor-rights groups and international institutions linked the disaster to locked exits, weak inspection, and buyer accountability failures in Bangladesh’s export garment sector.",
+    "sourceIds": [
+      "tazreen-fashions-fire-ilo",
+      "tazreen-fashions-fire-clean-clothes",
+      "rana-plaza-ilo-overview"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "Tazreen was a critical warning before Rana Plaza, showing that Bangladesh’s garment-safety crisis was not a single-building failure but a structural problem in factory governance and global supply chains.",
+    "sourceIds": [
+      "tazreen-fashions-fire-ilo",
+      "tazreen-fashions-fire-clean-clothes",
+      "rana-plaza-ilo-overview"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "বাংলাদেশের নদীময় ভূগোল চলাচল, ধ্বংসাত্মক অভিযান ও রসদ বিঘ্নে নদীপথকে কেন্দ্রীয় করে তোলে।",
+    "sourceIds": [
+      "operation-jackpot",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
     "title": "মুক্তিযুদ্ধে নদীপথের অভিযান",
-    "detail": "This event gives the timeline a dedicated frame for Bangladesh's river-war geography.",
+    "detail": "নদীপথের অভিযান পাকিস্তানি রসদ ব্যবস্থার বিরুদ্ধে স্থানীয় গেরিলা জ্ঞানকে বৃহত্তর সামরিক পরিকল্পনার সঙ্গে যুক্ত করে।",
     "sourceIds": [
       "operation-jackpot",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "এই পৃষ্ঠা পাঠককে বুঝতে সাহায্য করে কেন নদী শুধু পটভূমি নয়, যুদ্ধক্ষেত্রের অংশ ছিল।",
+    "sourceIds": [
+      "operation-jackpot",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

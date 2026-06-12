@@ -1,0 +1,21 @@
+{
+  "name": "Bhavadeva",
+  "name_en": "Bhavadeva",
+  "role": "Deva ruler linked to southeastern Bengal",
+  "group": "leader",
+  "contribution": "A ruler associated with the Deva dynasty and the Mainamati-Lalmai regional context.",
+  "context": "He represents the regional political formations that shaped southeastern Bengal after and alongside larger imperial traditions.",
+  "impact": "His inclusion strengthens coverage of pre-sultanate eastern Bengal and its Buddhist-archaeological landscape.",
+  "highlight": "His inclusion strengthens coverage of pre-sultanate eastern Bengal and its Buddhist-archaeological landscape.",
+  "tags": [
+    "bengal",
+    "regional-history",
+    "content-gap"
+  ],
+  "primaryEventIds": [
+    "0800-1100-chandra-deva-mainamati-regional-polity"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
+  ]
+}

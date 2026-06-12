@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (December)",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Sylhet became a northeastern theatre where airborne, ground, and psychological pressure combined late in the war.",
+    "sourceIds": [
+      "battle-of-sylhet-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
     "title": "Battle of Sylhet",
-    "detail": "১৯৭১ সালের যুদ্ধের শেষ পর্যায়ে সিলেটের যুদ্ধ ঘটে, যখন ভারতীয় ও মুক্তিবাহিনী-সংযুক্ত অভিযান উত্তর-পূর্বে পাকিস্তানি বাহিনীর ওপর চাপ সৃষ্টি করে। যুদ্ধটি আত্মসমর্পণের আগে সিলেট অঞ্চলকে বিচ্ছিন্ন করতে সাহায্য করে।",
+    "detail": "The battle is linked to the wider collapse of Pakistani positions in the northeast during the final campaign.",
     "sourceIds": [
       "battle-of-sylhet-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Sylhet connects regional combat history with the international military dimension of December 1971.",
+    "sourceIds": [
+      "battle-of-sylhet-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

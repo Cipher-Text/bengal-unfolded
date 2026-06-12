@@ -1,15 +1,44 @@
 [
   {
-    "year": "1971 (April 2)",
-    "title": "Jinjira Massacre",
-    "detail": "১৯৭১ সালের এপ্রিলের শুরুতে ঢাকার কাছে জিঞ্জিরা গণহত্যা ঘটে, যখন বহু মানুষ দমন অভিযান থেকে নিরাপত্তার খোঁজে নদী পেরিয়ে যায়। এটি রাজধানীর আশপাশে যুদ্ধকালীন বেসামরিক সহিংসতার একটি গুরুত্বপূর্ণ অধ্যায়।",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Jinjira, across the Buriganga from Dhaka, became a target during the early crackdown period.",
     "sourceIds": [
       "jinjira-massacre-reference",
       "war-of-liberation-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "war"
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
+    "title": "Jinjira Massacre",
+    "detail": "The massacre shows how violence extended beyond central Dhaka into nearby civilian refuge zones.",
+    "sourceIds": [
+      "jinjira-massacre-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Jinjira links Operation Searchlight memory with the geography of displacement around the capital.",
+    "sourceIds": [
+      "jinjira-massacre-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

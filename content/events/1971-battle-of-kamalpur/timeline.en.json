@@ -1,8 +1,22 @@
 [
   {
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Kamalpur was a fortified border position repeatedly attacked by Mukti Bahini forces.",
+    "sourceIds": [
+      "battle-of-kamalpur-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
     "year": "1971",
     "title": "Battle of Kamalpur",
-    "detail": "কামালপুরের যুদ্ধে সীমান্তের কাছে পাকিস্তানি সুরক্ষিত অবস্থানের বিরুদ্ধে মুক্তিবাহিনীর ধারাবাহিক আক্রমণ হয়। এটি মুক্তিযুদ্ধের গেরিলা ও প্রচলিত সামরিক চাপের প্রতীকে পরিণত হয়।",
+    "detail": "The fighting became associated with persistence, pressure, and the transition from guerrilla pressure to larger operations.",
     "sourceIds": [
       "battle-of-kamalpur-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Kamalpur keeps the northern frontier visible in the military history of 1971.",
+    "sourceIds": [
+      "battle-of-kamalpur-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

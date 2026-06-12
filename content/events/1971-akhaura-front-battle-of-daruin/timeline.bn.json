@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "আখাউড়া ছিল পূর্ব দিকের একটি কৌশলগত প্রবেশপথ, যেখানে স্থানীয় প্রতিরোধ, সেক্টর কমান্ড ও ভারতীয় সহায়তা মিলিত হয়।",
+    "sourceIds": [
+      "battle-of-akhaura-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
     "title": "আখাউড়া ফ্রন্ট ও দরুইনের যুদ্ধ",
-    "detail": "The event adds an important eastern-front route to the military map of 1971.",
+    "detail": "দরুইন ও আখাউড়ার লড়াই দেখায় কীভাবে সীমান্ত-ফ্রন্টের অভিযান ডিসেম্বরের আগে পাকিস্তানি প্রতিরক্ষা চাপে ফেলে।",
     "sourceIds": [
       "battle-of-akhaura-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "এই ফ্রন্ট স্থানীয় শহিদ-স্মৃতিকে সেক্টর ২ ও পূর্বাঞ্চলীয় যুদ্ধভূগোলের সঙ্গে যুক্ত করে।",
+    "sourceIds": [
+      "battle-of-akhaura-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

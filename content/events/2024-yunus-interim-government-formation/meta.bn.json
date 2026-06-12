@@ -1,0 +1,72 @@
+{
+  "slug": "2024-yunus-interim-government-formation",
+  "year": "2024",
+  "title": "ইউনূস অন্তর্বর্তী সরকার গঠন",
+  "subtitle": "জুলাই-আগস্ট অভ্যুত্থানের পর অন্তর্বর্তী প্রশাসন দায়িত্ব নেয়।",
+  "summary": "শেখ হাসিনার পদত্যাগ ও সংসদ বিলুপ্তির পর ২০২৪ সালের ৮ আগস্ট নোবেলজয়ী মুহাম্মদ ইউনূস অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা হিসেবে শপথ নেন। নতুন প্রশাসনের সামনে বিচার, প্রাতিষ্ঠানিক সংস্কার এবং বিশ্বাসযোগ্য নির্বাচনের পথ তৈরির দাবি আসে।",
+  "themeColor": "#3d6666",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "জুলাই-আগস্ট অভ্যুত্থানের পর অন্তর্বর্তী প্রশাসন দায়িত্ব নেয়।",
+  "whyItMatters": "অন্তর্বর্তী সরকার অভ্যুত্থান-পরবর্তী সংস্কার বিতর্ক, জবাবদিহির দাবি এবং বাংলাদেশের পরবর্তী নির্বাচনী চক্রের প্রস্তুতির প্রাতিষ্ঠানিক ক্ষেত্র হয়ে ওঠে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2024-august-5-hasina-resignation",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2026-election",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2024-august-5-hasina-resignation",
+    "2026-election"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "lemonde-yunus-interim-government-2024",
+    "bss-july-uprising-timeline-2024",
+    "hrw-after-monsoon-revolution-2025"
+  ],
+  "whyItMattersSourceIds": [
+    "lemonde-yunus-interim-government-2024",
+    "bss-july-uprising-timeline-2024",
+    "hrw-after-monsoon-revolution-2025"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "শেখ হাসিনার পদত্যাগ ও সংসদ বিলুপ্তির পর ২০২৪ সালের ৮ আগস্ট নোবেলজয়ী মুহাম্মদ ইউনূস অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা হিসেবে শপথ নেন। নতুন প্রশাসনের সামনে বিচার, প্রাতিষ্ঠানিক সংস্কার এবং বিশ্বাসযোগ্য নির্বাচনের পথ তৈরির দাবি আসে।",
+      "sourceIds": [
+        "lemonde-yunus-interim-government-2024",
+        "bss-july-uprising-timeline-2024",
+        "hrw-after-monsoon-revolution-2025"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "অন্তর্বর্তী সরকার অভ্যুত্থান-পরবর্তী সংস্কার বিতর্ক, জবাবদিহির দাবি এবং বাংলাদেশের পরবর্তী নির্বাচনী চক্রের প্রস্তুতির প্রাতিষ্ঠানিক ক্ষেত্র হয়ে ওঠে।",
+      "sourceIds": [
+        "lemonde-yunus-interim-government-2024",
+        "bss-july-uprising-timeline-2024",
+        "hrw-after-monsoon-revolution-2025"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "parentEvent": "2024-anti-discrimination-movement"
+}

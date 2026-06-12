@@ -1,0 +1,82 @@
+{
+  "slug": "1981-assassination-of-ziaur-rahman",
+  "year": "1981",
+  "title": "জিয়াউর রহমান হত্যাকাণ্ড",
+  "subtitle": "চট্টগ্রামে বাংলাদেশের রাষ্ট্রপতির হত্যাকাণ্ড সামরিক-রাজনৈতিক অস্থিরতা আবার উন্মুক্ত করে।",
+  "summary": "রাষ্ট্রপতি জিয়াউর রহমান ১৯৮১ সালের ৩০ মে চট্টগ্রামে এক সামরিক বিদ্রোহের সময় নিহত হন। পরবর্তী সময়ে দায় নির্ধারণ নিয়ে বিতর্ক, মেজর জেনারেল এম. এ. মঞ্জুরের মৃত্যু এবং আবদুস সাত্তারের অধীনে বেসামরিক উত্তরাধিকার দেখা যায়; এরপর ১৯৮২ সালে এরশাদের অভ্যুত্থান ঘটে।",
+  "themeColor": "#4d5665",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "চট্টগ্রামে বাংলাদেশের রাষ্ট্রপতির হত্যাকাণ্ড সামরিক-রাজনৈতিক অস্থিরতা আবার উন্মুক্ত করে।",
+  "whyItMatters": "এই হত্যাকাণ্ড ১৯৭৫-পরবর্তী ইতিহাসের গুরুত্বপূর্ণ মোড়, কারণ এটি জিয়ার নির্মিত সামরিক-সমর্থিত রাজনৈতিক ব্যবস্থা ভেঙে দেয় এবং ১৯৮২ সালের আরেক সামরিক ক্ষমতা দখলের পরিস্থিতি তৈরি করে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1975-november-7-sepoy-janata-uprising",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1975-november-7-sepoy-janata-uprising",
+    "1982-ershad-s-coup-and-the-return-of-military-rule"
+  ],
+  "periodLabel": "মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "ziaur-rahman-assassination-reference",
+    "bangladesh-a-legacy-of-blood",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "whyItMattersSourceIds": [
+    "ziaur-rahman-assassination-reference",
+    "bangladesh-a-legacy-of-blood",
+    "bangladesh-from-mujib-to-ershad"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "chittagong-chattogram",
+  "placeLabel": "চট্টগ্রাম / চাট্টগ্রাম",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "রাষ্ট্রপতি জিয়াউর রহমান ১৯৮১ সালের ৩০ মে চট্টগ্রামে এক সামরিক বিদ্রোহের সময় নিহত হন। পরবর্তী সময়ে দায় নির্ধারণ নিয়ে বিতর্ক, মেজর জেনারেল এম. এ. মঞ্জুরের মৃত্যু এবং আবদুস সাত্তারের অধীনে বেসামরিক উত্তরাধিকার দেখা যায়; এরপর ১৯৮২ সালে এরশাদের অভ্যুত্থান ঘটে।",
+      "sourceIds": [
+        "ziaur-rahman-assassination-reference",
+        "bangladesh-a-legacy-of-blood",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই হত্যাকাণ্ড ১৯৭৫-পরবর্তী ইতিহাসের গুরুত্বপূর্ণ মোড়, কারণ এটি জিয়ার নির্মিত সামরিক-সমর্থিত রাজনৈতিক ব্যবস্থা ভেঙে দেয় এবং ১৯৮২ সালের আরেক সামরিক ক্ষমতা দখলের পরিস্থিতি তৈরি করে।",
+      "sourceIds": [
+        "ziaur-rahman-assassination-reference",
+        "bangladesh-a-legacy-of-blood",
+        "bangladesh-from-mujib-to-ershad"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "রাজনৈতিক হত্যাকাণ্ড",
+    "বিতর্কিত অভ্যুত্থান-পরবর্তী প্রেক্ষাপট"
+  ],
+  "contested": true,
+  "historicalDebate": "১৯৮১ সালের বিদ্রোহের দায় ও উদ্দেশ্য নিয়ে স্মৃতিকথা, সাংবাদিকতা ও পরবর্তী রাজনৈতিক বয়ানে বিতর্ক আছে। এই পৃষ্ঠায় জিয়ার হত্যার প্রতিষ্ঠিত ঘটনা এবং বিদ্রোহ ও মঞ্জুরের মৃত্যু সম্পর্কে বিতর্কিত ব্যাখ্যা আলাদা রাখতে হবে।",
+  "historicalDebateSourceIds": [
+    "ziaur-rahman-assassination-reference",
+    "bangladesh-a-legacy-of-blood"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "1873-1876-pabna-peasant-uprising",
+  "year": "1873-1876",
+  "title": "Pabna Peasant Uprising",
+  "subtitle": "Rent resistance in eastern Bengal forces colonial authorities to confront agrarian grievance.",
+  "summary": "From 1873, peasants in Pabna organized rent resistance and legal agitation against zamindari exactions. The movement combined collective organization, litigation, and refusal of enhanced rents, becoming one of the major agrarian mobilizations in colonial Bengal.",
+  "themeColor": "#5b7044",
+  "ctaLabel": "Explore",
+  "heroTagline": "Rent resistance in eastern Bengal forces colonial authorities to confront agrarian grievance.",
+  "whyItMatters": "The Pabna movement helps explain why tenancy, rent, and peasant rights became central questions in Bengal politics before the Bengal Tenancy Act of 1885 and later agrarian movements.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1885-bengal-tenancy-act",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1859-1860-indigo-revolt",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1946-1947-tebhaga-movement",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1885-bengal-tenancy-act",
+    "1859-1860-indigo-revolt",
+    "1946-1947-tebhaga-movement"
+  ],
+  "periodLabel": "Colonial Rule and Resistance",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "pabna-peasant-uprising-banglapedia",
+    "pabna-disturbances-politics-of-rent",
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "pabna-peasant-uprising-banglapedia",
+    "pabna-disturbances-politics-of-rent",
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "east-bengal",
+  "placeLabel": "East Bengal",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "From 1873, peasants in Pabna organized rent resistance and legal agitation against zamindari exactions. The movement combined collective organization, litigation, and refusal of enhanced rents, becoming one of the major agrarian mobilizations in colonial Bengal.",
+      "sourceIds": [
+        "pabna-peasant-uprising-banglapedia",
+        "pabna-disturbances-politics-of-rent",
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The Pabna movement helps explain why tenancy, rent, and peasant rights became central questions in Bengal politics before the Bengal Tenancy Act of 1885 and later agrarian movements.",
+      "sourceIds": [
+        "pabna-peasant-uprising-banglapedia",
+        "pabna-disturbances-politics-of-rent",
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

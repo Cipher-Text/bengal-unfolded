@@ -1,0 +1,67 @@
+{
+  "slug": "0600bce-0400bce-wari-bateshwar-early-urban-centre",
+  "year": "c. 600-400 BCE",
+  "title": "ওয়ারী-বটেশ্বরের প্রাথমিক নগরকেন্দ্র",
+  "subtitle": "প্রত্নতাত্ত্বিক নিদর্শন বাংলার বদ্বীপে বসতি, কারুশিল্প ও বাণিজ্য-যোগের প্রাচীন স্তর দেখায়।",
+  "summary": "বর্তমান নরসিংদীর ওয়ারী-বটেশ্বর প্রত্নতাত্ত্বিক কমপ্লেক্সকে বাংলার অন্যতম প্রাচীন নগর বা প্রোটো-নগর কেন্দ্র হিসেবে আলোচনা করা হয়। উৎখনিত নিদর্শনগুলো পূর্ব বদ্বীপে বসতি, কারুশিল্প, মুদ্রা ও বৃহত্তর বাণিজ্য-যোগের প্রেক্ষাপট তৈরি করে।",
+  "themeColor": "#4f6f61",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "প্রত্নতাত্ত্বিক নিদর্শন বাংলার বদ্বীপে বসতি, কারুশিল্প ও বাণিজ্য-যোগের প্রাচীন স্তর দেখায়।",
+  "whyItMatters": "এই স্থান বাংলার নগর ইতিহাসকে পরিচিত শাস্ত্রীয় ও মধ্যযুগীয় কেন্দ্রের বাইরে আরও প্রাচীন স্তরে নিয়ে যায়; তাই বাংলাদেশের দীর্ঘ ইতিহাসে প্রারম্ভিক বদ্বীপ প্রত্নতত্ত্ব অপরিহার্য।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "0400bce-0300bce-mahasthangarh-urban-emergence",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "0000-0450-gangaridai-and-early-delta-polities",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence",
+    "0000-0450-gangaridai-and-early-delta-polities"
+  ],
+  "periodLabel": "প্রাচীন ও সুলতানাত-পূর্ব বাংলা",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "wari-bateshwar-banglapedia",
+    "wari-bateshwar-early-historic-urban-centre"
+  ],
+  "whyItMattersSourceIds": [
+    "wari-bateshwar-banglapedia",
+    "wari-bateshwar-early-historic-urban-centre"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "বর্তমান নরসিংদীর ওয়ারী-বটেশ্বর প্রত্নতাত্ত্বিক কমপ্লেক্সকে বাংলার অন্যতম প্রাচীন নগর বা প্রোটো-নগর কেন্দ্র হিসেবে আলোচনা করা হয়। উৎখনিত নিদর্শনগুলো পূর্ব বদ্বীপে বসতি, কারুশিল্প, মুদ্রা ও বৃহত্তর বাণিজ্য-যোগের প্রেক্ষাপট তৈরি করে।",
+      "sourceIds": [
+        "wari-bateshwar-banglapedia",
+        "wari-bateshwar-early-historic-urban-centre"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই স্থান বাংলার নগর ইতিহাসকে পরিচিত শাস্ত্রীয় ও মধ্যযুগীয় কেন্দ্রের বাইরে আরও প্রাচীন স্তরে নিয়ে যায়; তাই বাংলাদেশের দীর্ঘ ইতিহাসে প্রারম্ভিক বদ্বীপ প্রত্নতত্ত্ব অপরিহার্য।",
+      "sourceIds": [
+        "wari-bateshwar-banglapedia",
+        "wari-bateshwar-early-historic-urban-centre"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

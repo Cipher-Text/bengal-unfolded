@@ -12,5 +12,11 @@
     "architecture",
     "bagerhat",
     "regional-history"
+  ],
+  "primaryEventIds": [
+    "1459-1470-khan-jahan-ali-and-bagerhat-khalifatabad"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
   ]
 }

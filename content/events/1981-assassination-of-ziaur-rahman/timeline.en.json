@@ -1,0 +1,45 @@
+[
+  {
+    "year": "1981",
+    "title": "Assassination of Ziaur Rahman",
+    "detail": "President Ziaur Rahman was killed in Chittagong on 30 May 1981 during a military revolt. The immediate aftermath included a contested search for responsibility, the death of Major General M. A. Manzur, and a civilian succession under Abdus Sattar before Ershad’s 1982 coup.",
+    "sourceIds": [
+      "ziaur-rahman-assassination-reference",
+      "bangladesh-a-legacy-of-blood",
+      "bangladesh-from-mujib-to-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "The assassination is a key post-1975 turning point because it disrupted the military-backed political order Zia had built and shaped the conditions for another military takeover in 1982.",
+    "sourceIds": [
+      "ziaur-rahman-assassination-reference",
+      "bangladesh-a-legacy-of-blood",
+      "bangladesh-from-mujib-to-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Debate",
+    "title": "Disputed interpretations",
+    "detail": "Responsibility and motive in the 1981 revolt have been debated in memoirs, journalism, and later political narratives. This page should distinguish the established fact of Zia’s killing from disputed interpretations of the revolt and Manzur’s death.",
+    "sourceIds": [
+      "ziaur-rahman-assassination-reference",
+      "bangladesh-a-legacy-of-blood"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

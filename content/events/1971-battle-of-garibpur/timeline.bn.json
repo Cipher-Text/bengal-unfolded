@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (November)",
-    "title": "গরীবপুরের যুদ্ধ",
-    "detail": "Garibpur shows how the final campaign was prepared before December 1971.",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "গরিবপুর পশ্চিম সীমান্তের কাছে সংঘটিত হয়, আনুষ্ঠানিক ভারত-পাকিস্তান যুদ্ধ শুরুর অল্প আগে।",
+    "sourceIds": [
+      "battle-of-garibpur-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
+    "title": "গরিবপুরের যুদ্ধ",
+    "detail": "এই সংঘর্ষ যশোর সেক্টরে পাকিস্তানি অবস্থানের ওপর বাড়তে থাকা প্রচলিত সামরিক চাপ দেখায়।",
     "sourceIds": [
       "battle-of-garibpur-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "গরিবপুর গেরিলা যুদ্ধ ও ডিসেম্বরের প্রচলিত সামরিক অভিযানের মধ্যে একটি গুরুত্বপূর্ণ সেতু।",
+    "sourceIds": [
+      "battle-of-garibpur-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (August 15)",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "অপারেশন জ্যাকপট পাকিস্তানি বাহিনীর ব্যবহৃত বন্দর ও নদীপথে নৌ-কমান্ডো ধ্বংসাত্মক অভিযান সংগঠিত করে।",
+    "sourceIds": [
+      "operation-jackpot",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
     "title": "অপারেশন জ্যাকপট",
-    "detail": "Operation Jackpot adds asymmetric naval warfare to the Liberation War narrative.",
+    "detail": "এই অভিযান সামুদ্রিক রসদ সরবরাহে বিঘ্ন ঘটায় এবং যুদ্ধে নদী ও নৌ-মাত্রাকে উচ্চপ্রোফাইল করে তোলে।",
     "sourceIds": [
       "operation-jackpot",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "এর স্মৃতি দেখায় যে মুক্তিযুদ্ধ স্থলযুদ্ধের পাশাপাশি গোপন, নৌ ও অবকাঠামো-নির্ভর অভিযানেও লড়া হয়েছিল।",
+    "sourceIds": [
+      "operation-jackpot",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

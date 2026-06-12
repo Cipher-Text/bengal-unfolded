@@ -1,15 +1,44 @@
 [
   {
-    "year": "1971 (April 2)",
-    "title": "জিঞ্জিরা গণহত্যা",
-    "detail": "Jinjira connects Operation Searchlight to violence around Dhaka's surrounding settlements.",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "ঢাকার বুড়িগঙ্গার ওপারে জিঞ্জিরা দমন-পীড়নের প্রাথমিক পর্যায়ে আক্রমণের লক্ষ্য হয়।",
     "sourceIds": [
       "jinjira-massacre-reference",
       "war-of-liberation-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "war"
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
+    "title": "জিঞ্জিরা গণহত্যা",
+    "detail": "এই গণহত্যা দেখায় কীভাবে সহিংসতা কেন্দ্রীয় ঢাকার বাইরে নিকটবর্তী বেসামরিক আশ্রয়াঞ্চলে ছড়িয়ে পড়ে।",
+    "sourceIds": [
+      "jinjira-massacre-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "জিঞ্জিরা অপারেশন সার্চলাইটের স্মৃতিকে রাজধানী ঘিরে বাস্তুচ্যুতির ভূগোলের সঙ্গে যুক্ত করে।",
+    "sourceIds": [
+      "jinjira-massacre-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

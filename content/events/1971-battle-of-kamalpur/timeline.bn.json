@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "কামালপুর ছিল সীমান্তবর্তী সুরক্ষিত অবস্থান, যা মুক্তিবাহিনী বারবার আক্রমণ করে।",
+    "sourceIds": [
+      "battle-of-kamalpur-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
     "title": "কামালপুরের যুদ্ধ",
-    "detail": "Kamalpur helps show the war as a sequence of sector-level battles, not only national milestones.",
+    "detail": "এই লড়াই অধ্যবসায়, চাপ এবং গেরিলা চাপ থেকে বৃহত্তর অভিযানে রূপান্তরের সঙ্গে যুক্ত হয়।",
     "sourceIds": [
       "battle-of-kamalpur-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "কামালপুর ১৯৭১-এর সামরিক ইতিহাসে উত্তর সীমান্তকে দৃশ্যমান রাখে।",
+    "sourceIds": [
+      "battle-of-kamalpur-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

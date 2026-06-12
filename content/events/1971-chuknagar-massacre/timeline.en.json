@@ -1,15 +1,44 @@
 [
   {
-    "year": "1971 (May 20)",
-    "title": "Chuknagar Massacre",
-    "detail": "১৯৭১ সালের ২০ মে চুকনগর গণহত্যা মুক্তিযুদ্ধের অন্যতম বড় বেসামরিক গণহত্যা। দক্ষিণ-পশ্চিম বাংলাদেশে সহিংসতা ছড়িয়ে পড়ার সময় শরণার্থী ও স্থানীয় মানুষ লক্ষ্যবস্তু হন।",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Chuknagar became a killing site as civilians moved through the Khulna-Jessore corridor seeking safety.",
     "sourceIds": [
       "chuknagar-massacre-reference",
       "war-of-liberation-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "war"
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
+    "title": "Chuknagar Massacre",
+    "detail": "The massacre is remembered through survivor accounts, local memory, and later documentation of wartime atrocities.",
+    "sourceIds": [
+      "chuknagar-massacre-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Chuknagar keeps civilian vulnerability and local memorial practice at the centre of the 1971 narrative.",
+    "sourceIds": [
+      "chuknagar-massacre-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

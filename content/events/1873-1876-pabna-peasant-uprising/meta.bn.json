@@ -1,0 +1,76 @@
+{
+  "slug": "1873-1876-pabna-peasant-uprising",
+  "year": "1873-1876",
+  "title": "পাবনা কৃষক বিদ্রোহ",
+  "subtitle": "পূর্ব বাংলার খাজনা-প্রতিরোধ ঔপনিবেশিক কর্তৃপক্ষকে কৃষক-অভিযোগের মুখোমুখি করে।",
+  "summary": "১৮৭৩ সাল থেকে পাবনার কৃষকেরা জমিদারি খাজনা-বৃদ্ধি ও নানা আদায়ের বিরুদ্ধে সংগঠিত প্রতিরোধ ও আইনি আন্দোলন গড়ে তোলেন। সম্মিলিত সংগঠন, মামলা-মোকদ্দমা এবং বাড়তি খাজনা দিতে অস্বীকৃতি এই আন্দোলনকে ঔপনিবেশিক বাংলার প্রধান কৃষক আন্দোলনগুলোর একটিতে পরিণত করে।",
+  "themeColor": "#5b7044",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "পূর্ব বাংলার খাজনা-প্রতিরোধ ঔপনিবেশিক কর্তৃপক্ষকে কৃষক-অভিযোগের মুখোমুখি করে।",
+  "whyItMatters": "পাবনা আন্দোলন বোঝায় কেন প্রজাস্বত্ব, খাজনা ও কৃষক অধিকারের প্রশ্ন ১৮৮৫ সালের বঙ্গীয় প্রজাস্বত্ব আইন এবং পরবর্তী কৃষক রাজনীতির কেন্দ্রে আসে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1885-bengal-tenancy-act",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1859-1860-indigo-revolt",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1946-1947-tebhaga-movement",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1885-bengal-tenancy-act",
+    "1859-1860-indigo-revolt",
+    "1946-1947-tebhaga-movement"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "pabna-peasant-uprising-banglapedia",
+    "pabna-disturbances-politics-of-rent",
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "pabna-peasant-uprising-banglapedia",
+    "pabna-disturbances-politics-of-rent",
+    "bengal-tenancy-act-1885-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "east-bengal",
+  "placeLabel": "পূর্ববঙ্গ",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৮৭৩ সাল থেকে পাবনার কৃষকেরা জমিদারি খাজনা-বৃদ্ধি ও নানা আদায়ের বিরুদ্ধে সংগঠিত প্রতিরোধ ও আইনি আন্দোলন গড়ে তোলেন। সম্মিলিত সংগঠন, মামলা-মোকদ্দমা এবং বাড়তি খাজনা দিতে অস্বীকৃতি এই আন্দোলনকে ঔপনিবেশিক বাংলার প্রধান কৃষক আন্দোলনগুলোর একটিতে পরিণত করে।",
+      "sourceIds": [
+        "pabna-peasant-uprising-banglapedia",
+        "pabna-disturbances-politics-of-rent",
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "পাবনা আন্দোলন বোঝায় কেন প্রজাস্বত্ব, খাজনা ও কৃষক অধিকারের প্রশ্ন ১৮৮৫ সালের বঙ্গীয় প্রজাস্বত্ব আইন এবং পরবর্তী কৃষক রাজনীতির কেন্দ্রে আসে।",
+      "sourceIds": [
+        "pabna-peasant-uprising-banglapedia",
+        "pabna-disturbances-politics-of-rent",
+        "bengal-tenancy-act-1885-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

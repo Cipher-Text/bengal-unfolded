@@ -1,8 +1,22 @@
 [
   {
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Bangladesh’s river geography made waterways central to movement, sabotage, and supply disruption.",
+    "sourceIds": [
+      "operation-jackpot",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
     "year": "1971",
     "title": "Riverine Operations in the Liberation War",
-    "detail": "১৯৭১ সালের যুদ্ধে নদীপথ চলাচল, সরবরাহ, নাশকতা ও দমন অভিযানের কেন্দ্রে ছিল। নৌ-কমান্ডো আক্রমণ ও স্থানীয় অভিযান বন্দর, শহর ও সামরিক সরবরাহ সংযোগকারী নৌপথকে লক্ষ্য করে।",
+    "detail": "Riverine operations connected local guerrilla knowledge with wider military planning against Pakistani logistics.",
     "sourceIds": [
       "operation-jackpot",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "This page helps readers understand why rivers were not only background scenery but part of the battlefield.",
+    "sourceIds": [
+      "operation-jackpot",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

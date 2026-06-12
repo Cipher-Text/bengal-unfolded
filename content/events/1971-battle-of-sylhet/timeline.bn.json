@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (December)",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "যুদ্ধের শেষ পর্যায়ে সিলেট উত্তর-পূর্বের এমন থিয়েটার হয়, যেখানে আকাশপথ, স্থল অভিযান ও মনস্তাত্ত্বিক চাপ মিলিত হয়।",
+    "sourceIds": [
+      "battle-of-sylhet-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
     "title": "সিলেটের যুদ্ধ",
-    "detail": "Sylhet adds the northeastern theater to the final campaign narrative.",
+    "detail": "চূড়ান্ত অভিযানে উত্তর-পূর্বে পাকিস্তানি অবস্থান ভেঙে পড়ার বৃহত্তর প্রেক্ষাপটের সঙ্গে এই যুদ্ধ যুক্ত।",
     "sourceIds": [
       "battle-of-sylhet-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "সিলেট আঞ্চলিক যুদ্ধ ইতিহাসকে ডিসেম্বর ১৯৭১-এর আন্তর্জাতিক সামরিক মাত্রার সঙ্গে যুক্ত করে।",
+    "sourceIds": [
+      "battle-of-sylhet-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

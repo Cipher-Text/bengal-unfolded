@@ -1,15 +1,44 @@
 [
   {
-    "year": "1971",
-    "title": "পুরান ঢাকার হত্যাকাণ্ড",
-    "detail": "Old Dhaka adds an urban civilian-violence chapter to the Liberation War timeline.",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "প্রাথমিক সামরিক দমন-পীড়নের সময় পুরান ঢাকার ঘনবসতিপূর্ণ মহল্লাগুলো targeted সহিংসতার মুখে পড়ে।",
     "sourceIds": [
       "old-dhaka-killings-reference",
       "war-of-liberation-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "war"
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
+    "title": "পুরান ঢাকার হত্যাকাণ্ড",
+    "detail": "এই হত্যাকাণ্ড রাজধানীতে নগর ঝুঁকি, সংখ্যালঘু ভয় এবং সামরিক নিয়ন্ত্রণের মিলন দেখায়।",
+    "sourceIds": [
+      "old-dhaka-killings-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "পুরান ঢাকা জাতীয় যুদ্ধবয়ানের মধ্যে মহল্লা-স্তরের বেসামরিক অভিজ্ঞতাকে দৃশ্যমান রাখে।",
+    "sourceIds": [
+      "old-dhaka-killings-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

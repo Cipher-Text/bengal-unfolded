@@ -1,0 +1,18 @@
+{
+  "title": "Operation Clean Heart: Human Rights Concerns",
+  "note": "Human Rights Watch reporting on security-force abuses and accountability concerns around Operation Clean Heart.",
+  "category": "news-and-contemporary-reports",
+  "subcategory": "Human Rights Reports",
+  "attribution": "Human Rights Watch",
+  "creatorId": "human-rights-watch",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "href": "https://www.hrw.org/reports/2006/bangladesh1206/",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Human Rights Watch reporting on security-force abuses and accountability concerns around Operation Clean Heart.",
+  "relatedEventIds": [
+    "2002-2003-operation-clean-heart"
+  ],
+  "relatedTopicIds": []
+}

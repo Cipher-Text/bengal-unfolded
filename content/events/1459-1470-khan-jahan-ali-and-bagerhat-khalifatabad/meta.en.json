@@ -1,0 +1,67 @@
+{
+  "slug": "1459-1470-khan-jahan-ali-and-bagerhat-khalifatabad",
+  "year": "15th century",
+  "title": "Khan Jahan Ali and Bagerhat-Khalifatabad",
+  "subtitle": "A mosque-city in southern Bengal links frontier settlement, architecture, and Sultanate authority.",
+  "summary": "Khan Jahan Ali is associated with the development of Khalifatabad, now Bagerhat, where a dense concentration of mosques, roads, tanks, and civic works emerged in the fifteenth century. The Historic Mosque City of Bagerhat is now recognized as a UNESCO World Heritage site.",
+  "themeColor": "#6b5d3a",
+  "ctaLabel": "Explore",
+  "heroTagline": "A mosque-city in southern Bengal links frontier settlement, architecture, and Sultanate authority.",
+  "whyItMatters": "Bagerhat shows how Sultanate-era authority, religious patronage, and settlement expansion reshaped southern Bengal outside the better-known capitals of Gaur, Pandua, and Sonargaon.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1352-bengal-sultanate-independence-and-unification",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1494-alauddin-husain-shah-begins-hussain-shahi-rule-in-bengal",
+    "1352-bengal-sultanate-independence-and-unification"
+  ],
+  "periodLabel": "Transition to Sultanate Formation",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "historic-mosque-city-bagerhat-unesco",
+    "khan-jahan-ali-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "historic-mosque-city-bagerhat-unesco",
+    "khan-jahan-ali-banglapedia"
+  ],
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high",
+  "periodId": "transition-to-sultanate-formation",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "Bangladesh",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Khan Jahan Ali is associated with the development of Khalifatabad, now Bagerhat, where a dense concentration of mosques, roads, tanks, and civic works emerged in the fifteenth century. The Historic Mosque City of Bagerhat is now recognized as a UNESCO World Heritage site.",
+      "sourceIds": [
+        "historic-mosque-city-bagerhat-unesco",
+        "khan-jahan-ali-banglapedia"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Bagerhat shows how Sultanate-era authority, religious patronage, and settlement expansion reshaped southern Bengal outside the better-known capitals of Gaur, Pandua, and Sonargaon.",
+      "sourceIds": [
+        "historic-mosque-city-bagerhat-unesco",
+        "khan-jahan-ali-banglapedia"
+      ],
+      "evidenceLevel": "high"
+    }
+  ]
+}

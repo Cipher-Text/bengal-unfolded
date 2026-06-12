@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-06-11
+
+### Completed
+
+- Content gap batch from repo/source audit:
+  - Content backfill:
+    - Added bilingual event packs for Wari-Bateshwar, the Chandra-Deva-Mainamati regional polity, Khan Jahan Ali and Bagerhat-Khalifatabad, the Pabna Peasant Uprising, Ziaur Rahman's assassination, Operation Clean Heart, the Fifteenth Amendment/caretaker abolition, and the Tazreen Fashions fire.
+    - Split the 2024 Anti-Discrimination Movement into child chapters for the July crackdown/internet shutdown, the 5 August Hasina resignation, and the Yunus interim government formation while preserving the existing parent overview.
+    - Added missing bilingual figure records for `srichandra`, `bhavadeva`, `ishan-chandra-roy`, `koodi-molla`, `shambhu-nath-pal`, `kalpona-akter`, and `sumi-abedin`; linked the existing `khan-jahan-ali` figure to the new Bagerhat event.
+    - Added bilingual resource records for the new event pages using Banglapedia, UNESCO, HRW, Amnesty, ILO, Clean Clothes Campaign, and constitutional/reference sources.
+    - Enriched thin 1971 battle/massacre pages with fuller source-backed timeline entries and contextual quote cards.
+  - Model/validation:
+    - Registered the new event slugs and figure IDs in `src/types/content.ts`.
+    - No schema or validator rule changes required; existing content validation rules covered the new files.
+  - UI/runtime:
+    - No UI changes required; event, figure, source, and child-event rendering use existing runtime paths.
+  - Risk/known gaps:
+    - Several new pages intentionally use broad existing place nodes because adding precise places requires validator/type allowlist expansion.
+    - Sensitive/contested entries use cautious framing and should be revisited when higher-quality primary records become available.
+  - Validation:
+    - `pnpm content:validate` passes.
+
 ## 2026-06-07
 
 ### Completed

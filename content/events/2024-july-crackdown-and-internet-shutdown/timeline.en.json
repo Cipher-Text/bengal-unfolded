@@ -1,0 +1,48 @@
+[
+  {
+    "year": "2024",
+    "title": "July Crackdown and Internet Shutdown",
+    "detail": "In July 2024, clashes, deaths, curfew, military deployment, and internet restrictions turned the quota-reform protests into a nationwide crisis. UN and rights organizations later documented allegations of excessive and unlawful force, while official and partisan accounts disputed responsibility and casualty framing.",
+    "sourceIds": [
+      "ohchr-preliminary-analysis-bangladesh-protests-2024",
+      "ohchr-fact-finding-bangladesh-july-august-2024",
+      "guardian-bangladesh-curfew-shoot-on-sight-2024",
+      "internet-shutdown-bangladesh-july-2024"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "This phase explains how a policy protest became a broader movement over state violence, accountability, and political legitimacy.",
+    "sourceIds": [
+      "ohchr-preliminary-analysis-bangladesh-protests-2024",
+      "ohchr-fact-finding-bangladesh-july-august-2024",
+      "guardian-bangladesh-curfew-shoot-on-sight-2024",
+      "internet-shutdown-bangladesh-july-2024"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Debate",
+    "title": "Disputed interpretations",
+    "detail": "Casualty numbers, chains of command, and responsibility for violence remain politically contested. Use UN and rights-source estimates carefully and attribute figures to their source.",
+    "sourceIds": [
+      "ohchr-fact-finding-bangladesh-july-august-2024",
+      "un-bangladesh-report-systematic-repression-2025",
+      "ap-un-estimates-killed-bangladesh-crackdown-2025"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

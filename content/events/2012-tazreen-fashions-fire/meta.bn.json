@@ -1,0 +1,69 @@
+{
+  "slug": "2012-tazreen-fashions-fire",
+  "year": "2012",
+  "title": "তাজরীন ফ্যাশনস অগ্নিকাণ্ড",
+  "subtitle": "রানা প্লাজার আগে প্রাণঘাতী কারখানা অগ্নিকাণ্ড পোশাকখাতের নিরাপত্তা ব্যর্থতা উন্মোচন করে।",
+  "summary": "২০১২ সালের ২৪ নভেম্বর আশুলিয়ার তাজরীন ফ্যাশনসে অগ্নিকাণ্ডে একশর বেশি পোশাকশ্রমিক নিহত হন। শ্রম-অধিকার সংগঠন ও আন্তর্জাতিক প্রতিষ্ঠানগুলো এই বিপর্যয়কে বন্ধ দরজা, দুর্বল পরিদর্শন এবং বাংলাদেশের রপ্তানি পোশাকখাতে ক্রেতা-জবাবদিহির ব্যর্থতার সঙ্গে যুক্ত করে।",
+  "themeColor": "#774d3b",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "রানা প্লাজার আগে প্রাণঘাতী কারখানা অগ্নিকাণ্ড পোশাকখাতের নিরাপত্তা ব্যর্থতা উন্মোচন করে।",
+  "whyItMatters": "তাজরীন রানা প্লাজার আগের একটি গুরুতর সতর্কবার্তা ছিল; এটি দেখায় যে পোশাক-নিরাপত্তা সংকট একক ভবন ব্যর্থতা নয়, বরং কারখানা শাসন ও বৈশ্বিক সরবরাহশৃঙ্খলের কাঠামোগত সমস্যা।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2013-rana-plaza-collapse",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2013-rana-plaza-collapse"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, বিচার ও নাগরিক ভিন্নমত",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "tazreen-fashions-fire-ilo",
+    "tazreen-fashions-fire-clean-clothes",
+    "rana-plaza-ilo-overview"
+  ],
+  "whyItMattersSourceIds": [
+    "tazreen-fashions-fire-ilo",
+    "tazreen-fashions-fire-clean-clothes",
+    "rana-plaza-ilo-overview"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১২ সালের ২৪ নভেম্বর আশুলিয়ার তাজরীন ফ্যাশনসে অগ্নিকাণ্ডে একশর বেশি পোশাকশ্রমিক নিহত হন। শ্রম-অধিকার সংগঠন ও আন্তর্জাতিক প্রতিষ্ঠানগুলো এই বিপর্যয়কে বন্ধ দরজা, দুর্বল পরিদর্শন এবং বাংলাদেশের রপ্তানি পোশাকখাতে ক্রেতা-জবাবদিহির ব্যর্থতার সঙ্গে যুক্ত করে।",
+      "sourceIds": [
+        "tazreen-fashions-fire-ilo",
+        "tazreen-fashions-fire-clean-clothes",
+        "rana-plaza-ilo-overview"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "তাজরীন রানা প্লাজার আগের একটি গুরুতর সতর্কবার্তা ছিল; এটি দেখায় যে পোশাক-নিরাপত্তা সংকট একক ভবন ব্যর্থতা নয়, বরং কারখানা শাসন ও বৈশ্বিক সরবরাহশৃঙ্খলের কাঠামোগত সমস্যা।",
+      "sourceIds": [
+        "tazreen-fashions-fire-ilo",
+        "tazreen-fashions-fire-clean-clothes",
+        "rana-plaza-ilo-overview"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "প্রাণঘাতী শিল্প অগ্নিকাণ্ড"
+  ]
+}

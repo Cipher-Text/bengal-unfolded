@@ -1,0 +1,71 @@
+{
+  "slug": "0800-1100-chandra-deva-mainamati-regional-polity",
+  "year": "c. 800-1100",
+  "title": "Chandra-Deva-Mainamati Regional Polity",
+  "subtitle": "Southeastern Bengal’s Buddhist and regional state formation expands beyond the Pala heartland.",
+  "summary": "Between roughly the eighth and eleventh centuries, the Chandra and Deva dynasties shaped southeastern Bengal around Samatata, Harikela, and the Mainamati-Lalmai zone. Their inscriptions, monasteries, and regional political networks show that Bengal’s pre-sultanate history was not only centred on the Pala-Sena heartland.",
+  "themeColor": "#53658a",
+  "ctaLabel": "Explore",
+  "heroTagline": "Southeastern Bengal’s Buddhist and regional state formation expands beyond the Pala heartland.",
+  "whyItMatters": "This cluster gives Bengal Unfolded a stronger eastern Bengal frame for Buddhist institutions, regional kingship, and cross-Bay connections before the Sultanate period.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "0750-1170-pala-dynasty-foundation",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "0800-1200-somapura-mahavihara",
+      "relationType": "parallel"
+    }
+  ],
+  "relatedEventIds": [
+    "0750-1170-pala-dynasty-foundation",
+    "0800-1200-somapura-mahavihara"
+  ],
+  "periodLabel": "Ancient and Pre-Sultanate Bengal",
+  "movementLabel": "Colonial capture and resistance",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "chandra-dynasty-banglapedia",
+    "deva-dynasty-banglapedia",
+    "mainamati-banglapedia"
+  ],
+  "whyItMattersSourceIds": [
+    "chandra-dynasty-banglapedia",
+    "deva-dynasty-banglapedia",
+    "mainamati-banglapedia"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "ancient-and-pre-sultanate-bengal",
+  "movementId": "colonial-capture-and-resistance",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "comilla-tripura-frontier",
+  "placeLabel": "Comilla-Tripura Frontier",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Between roughly the eighth and eleventh centuries, the Chandra and Deva dynasties shaped southeastern Bengal around Samatata, Harikela, and the Mainamati-Lalmai zone. Their inscriptions, monasteries, and regional political networks show that Bengal’s pre-sultanate history was not only centred on the Pala-Sena heartland.",
+      "sourceIds": [
+        "chandra-dynasty-banglapedia",
+        "deva-dynasty-banglapedia",
+        "mainamati-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This cluster gives Bengal Unfolded a stronger eastern Bengal frame for Buddhist institutions, regional kingship, and cross-Bay connections before the Sultanate period.",
+      "sourceIds": [
+        "chandra-dynasty-banglapedia",
+        "deva-dynasty-banglapedia",
+        "mainamati-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

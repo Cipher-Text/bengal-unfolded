@@ -1,0 +1,18 @@
+{
+  "title": "Operation Clean Heart: Amnesty Reporting",
+  "note": "Amnesty International reporting on arrests, deaths in custody, and impunity concerns during Operation Clean Heart.",
+  "category": "news-and-contemporary-reports",
+  "subcategory": "Human Rights Reports",
+  "attribution": "Amnesty International",
+  "creatorId": "amnesty-international",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "href": "https://www.amnesty.org/en/documents/asa13/005/2003/en/",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Amnesty International reporting on arrests, deaths in custody, and impunity concerns during Operation Clean Heart.",
+  "relatedEventIds": [
+    "2002-2003-operation-clean-heart"
+  ],
+  "relatedTopicIds": []
+}

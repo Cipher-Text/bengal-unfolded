@@ -1,0 +1,45 @@
+[
+  {
+    "year": "1981",
+    "title": "জিয়াউর রহমান হত্যাকাণ্ড",
+    "detail": "রাষ্ট্রপতি জিয়াউর রহমান ১৯৮১ সালের ৩০ মে চট্টগ্রামে এক সামরিক বিদ্রোহের সময় নিহত হন। পরবর্তী সময়ে দায় নির্ধারণ নিয়ে বিতর্ক, মেজর জেনারেল এম. এ. মঞ্জুরের মৃত্যু এবং আবদুস সাত্তারের অধীনে বেসামরিক উত্তরাধিকার দেখা যায়; এরপর ১৯৮২ সালে এরশাদের অভ্যুত্থান ঘটে।",
+    "sourceIds": [
+      "ziaur-rahman-assassination-reference",
+      "bangladesh-a-legacy-of-blood",
+      "bangladesh-from-mujib-to-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "উত্তরাধিকার",
+    "title": "কেন গুরুত্বপূর্ণ",
+    "detail": "এই হত্যাকাণ্ড ১৯৭৫-পরবর্তী ইতিহাসের গুরুত্বপূর্ণ মোড়, কারণ এটি জিয়ার নির্মিত সামরিক-সমর্থিত রাজনৈতিক ব্যবস্থা ভেঙে দেয় এবং ১৯৮২ সালের আরেক সামরিক ক্ষমতা দখলের পরিস্থিতি তৈরি করে।",
+    "sourceIds": [
+      "ziaur-rahman-assassination-reference",
+      "bangladesh-a-legacy-of-blood",
+      "bangladesh-from-mujib-to-ershad"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "বিতর্ক",
+    "title": "বিতর্কিত ব্যাখ্যা",
+    "detail": "১৯৮১ সালের বিদ্রোহের দায় ও উদ্দেশ্য নিয়ে স্মৃতিকথা, সাংবাদিকতা ও পরবর্তী রাজনৈতিক বয়ানে বিতর্ক আছে। এই পৃষ্ঠায় জিয়ার হত্যার প্রতিষ্ঠিত ঘটনা এবং বিদ্রোহ ও মঞ্জুরের মৃত্যু সম্পর্কে বিতর্কিত ব্যাখ্যা আলাদা রাখতে হবে।",
+    "sourceIds": [
+      "ziaur-rahman-assassination-reference",
+      "bangladesh-a-legacy-of-blood"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  }
+]

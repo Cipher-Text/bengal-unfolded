@@ -1,0 +1,76 @@
+{
+  "slug": "2024-august-5-hasina-resignation",
+  "year": "2024",
+  "title": "হাসিনার পদত্যাগ ও সরকারের পতন",
+  "subtitle": "ঢাকামুখী লং মার্চ পনেরো বছরের আওয়ামী লীগ সরকারের অবসান ঘটায়।",
+  "summary": "২০২৪ সালের ৫ আগস্ট কয়েক সপ্তাহের গণপ্রতিবাদ এবং ঢাকামুখী লং মার্চের পর শেখ হাসিনা পদত্যাগ করে ভারত চলে যান। প্রতিবাদকারীরা গণভবনে প্রবেশ করে এবং সামরিক নেতৃত্ব অন্তর্বর্তী ব্যবস্থা গঠনের পদক্ষেপের কথা জানায়।",
+  "themeColor": "#514c70",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "ঢাকামুখী লং মার্চ পনেরো বছরের আওয়ামী লীগ সরকারের অবসান ঘটায়।",
+  "whyItMatters": "এই পদত্যাগ ১৯৯০-এর পর বাংলাদেশের অন্যতম গুরুত্বপূর্ণ ক্ষমতা-রূপান্তর; এটি ছাত্র-নেতৃত্বাধীন আন্দোলন ও অন্তর্বর্তী সরকার পর্যায়ের সেতু হয়ে ওঠে।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "parallel"
+    }
+  ],
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement",
+    "1990-mass-uprising"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "lemonde-hasina-flees-bangladesh-august-2024",
+    "bdnews24-july-uprising-archive-2024",
+    "bss-july-uprising-timeline-2024"
+  ],
+  "whyItMattersSourceIds": [
+    "lemonde-hasina-flees-bangladesh-august-2024",
+    "bdnews24-july-uprising-archive-2024",
+    "bss-july-uprising-timeline-2024"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০২৪ সালের ৫ আগস্ট কয়েক সপ্তাহের গণপ্রতিবাদ এবং ঢাকামুখী লং মার্চের পর শেখ হাসিনা পদত্যাগ করে ভারত চলে যান। প্রতিবাদকারীরা গণভবনে প্রবেশ করে এবং সামরিক নেতৃত্ব অন্তর্বর্তী ব্যবস্থা গঠনের পদক্ষেপের কথা জানায়।",
+      "sourceIds": [
+        "lemonde-hasina-flees-bangladesh-august-2024",
+        "bdnews24-july-uprising-archive-2024",
+        "bss-july-uprising-timeline-2024"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই পদত্যাগ ১৯৯০-এর পর বাংলাদেশের অন্যতম গুরুত্বপূর্ণ ক্ষমতা-রূপান্তর; এটি ছাত্র-নেতৃত্বাধীন আন্দোলন ও অন্তর্বর্তী সরকার পর্যায়ের সেতু হয়ে ওঠে।",
+      "sourceIds": [
+        "lemonde-hasina-flees-bangladesh-august-2024",
+        "bdnews24-july-uprising-archive-2024",
+        "bss-july-uprising-timeline-2024"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "parentEvent": "2024-anti-discrimination-movement",
+  "contentWarnings": [
+    "গণঅস্থিরতা",
+    "রাজনৈতিক রূপান্তর"
+  ]
+}

@@ -1,15 +1,44 @@
 [
   {
-    "year": "1971",
-    "title": "Old Dhaka Killings",
-    "detail": "১৯৭১ সালের দমন অভিযান ও যুদ্ধে পুরান ঢাকায় লক্ষ্যভিত্তিক হত্যা ও গণসহিংসতা ঘটে। এই ঘটনা যুক্ত করলে সংঘর্ষের সামরিক ইতিহাসের মধ্যে শহুরে বেসামরিক ভোগান্তি প্রতিনিধিত্ব পায়।",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Old Dhaka’s dense neighbourhoods experienced targeted violence during the early military crackdown.",
     "sourceIds": [
       "old-dhaka-killings-reference",
       "war-of-liberation-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "war"
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
+    "title": "Old Dhaka Killings",
+    "detail": "The killings reflected how urban vulnerability, minority fear, and military control overlapped in the capital.",
+    "sourceIds": [
+      "old-dhaka-killings-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Old Dhaka keeps neighbourhood-scale civilian experience visible within the national war narrative.",
+    "sourceIds": [
+      "old-dhaka-killings-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

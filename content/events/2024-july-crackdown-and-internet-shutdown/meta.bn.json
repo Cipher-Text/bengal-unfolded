@@ -1,0 +1,84 @@
+{
+  "slug": "2024-july-crackdown-and-internet-shutdown",
+  "year": "2024",
+  "title": "জুলাই দমন-পীড়ন ও ইন্টারনেট বন্ধ",
+  "subtitle": "রাষ্ট্রীয় বলপ্রয়োগ, কারফিউ ও যোগাযোগ নিয়ন্ত্রণ কোটা আন্দোলনকে জাতীয় সংকটে রূপ দেয়।",
+  "summary": "২০২৪ সালের জুলাইয়ে সংঘর্ষ, মৃত্যু, কারফিউ, সামরিক মোতায়েন ও ইন্টারনেট বিধিনিষেধ কোটা সংস্কার আন্দোলনকে দেশব্যাপী সংকটে পরিণত করে। পরে জাতিসংঘ ও মানবাধিকার সংস্থাগুলো অতিরিক্ত ও বেআইনি বলপ্রয়োগের অভিযোগ নথিবদ্ধ করে; সরকারি ও দলীয় ভাষ্যে দায় ও casualty framing নিয়ে ভিন্নতা ছিল।",
+  "themeColor": "#683d4a",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "রাষ্ট্রীয় বলপ্রয়োগ, কারফিউ ও যোগাযোগ নিয়ন্ত্রণ কোটা আন্দোলনকে জাতীয় সংকটে রূপ দেয়।",
+  "whyItMatters": "এই ধাপ বোঝায় কীভাবে নীতি-সংক্রান্ত প্রতিবাদ রাষ্ট্রীয় সহিংসতা, জবাবদিহি ও রাজনৈতিক বৈধতার বৃহত্তর আন্দোলনে পরিণত হয়।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2024-anti-discrimination-movement",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2024-anti-discrimination-movement"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, বিচার ও নাগরিক ভিন্নমত",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "ohchr-preliminary-analysis-bangladesh-protests-2024",
+    "ohchr-fact-finding-bangladesh-july-august-2024",
+    "guardian-bangladesh-curfew-shoot-on-sight-2024",
+    "internet-shutdown-bangladesh-july-2024"
+  ],
+  "whyItMattersSourceIds": [
+    "ohchr-preliminary-analysis-bangladesh-protests-2024",
+    "ohchr-fact-finding-bangladesh-july-august-2024",
+    "guardian-bangladesh-curfew-shoot-on-sight-2024",
+    "internet-shutdown-bangladesh-july-2024"
+  ],
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "dhaka-university",
+  "placeLabel": "ঢাকা বিশ্ববিদ্যালয়",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০২৪ সালের জুলাইয়ে সংঘর্ষ, মৃত্যু, কারফিউ, সামরিক মোতায়েন ও ইন্টারনেট বিধিনিষেধ কোটা সংস্কার আন্দোলনকে দেশব্যাপী সংকটে পরিণত করে। পরে জাতিসংঘ ও মানবাধিকার সংস্থাগুলো অতিরিক্ত ও বেআইনি বলপ্রয়োগের অভিযোগ নথিবদ্ধ করে; সরকারি ও দলীয় ভাষ্যে দায় ও casualty framing নিয়ে ভিন্নতা ছিল।",
+      "sourceIds": [
+        "ohchr-preliminary-analysis-bangladesh-protests-2024",
+        "ohchr-fact-finding-bangladesh-july-august-2024",
+        "guardian-bangladesh-curfew-shoot-on-sight-2024",
+        "internet-shutdown-bangladesh-july-2024"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই ধাপ বোঝায় কীভাবে নীতি-সংক্রান্ত প্রতিবাদ রাষ্ট্রীয় সহিংসতা, জবাবদিহি ও রাজনৈতিক বৈধতার বৃহত্তর আন্দোলনে পরিণত হয়।",
+      "sourceIds": [
+        "ohchr-preliminary-analysis-bangladesh-protests-2024",
+        "ohchr-fact-finding-bangladesh-july-august-2024",
+        "guardian-bangladesh-curfew-shoot-on-sight-2024",
+        "internet-shutdown-bangladesh-july-2024"
+      ],
+      "evidenceLevel": "high"
+    }
+  ],
+  "parentEvent": "2024-anti-discrimination-movement",
+  "contentWarnings": [
+    "রাষ্ট্রীয় সহিংসতার অভিযোগ",
+    "মৃত্যু ও আহত",
+    "ইন্টারনেট বন্ধ"
+  ],
+  "contested": true,
+  "historicalDebate": "মৃত্যুর সংখ্যা, কমান্ড চেইন এবং সহিংসতার দায় এখনও রাজনৈতিকভাবে বিতর্কিত। জাতিসংঘ ও মানবাধিকার উৎসের পরিসংখ্যান সতর্কভাবে এবং উৎসের নামে ব্যবহার করতে হবে।",
+  "historicalDebateSourceIds": [
+    "ohchr-fact-finding-bangladesh-july-august-2024",
+    "un-bangladesh-report-systematic-repression-2025",
+    "ap-un-estimates-killed-bangladesh-crackdown-2025"
+  ],
+  "historicalDebateEvidenceLevel": "high"
+}

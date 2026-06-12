@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (November)",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Garibpur was fought near the western border shortly before the formal India-Pakistan war began.",
+    "sourceIds": [
+      "battle-of-garibpur-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
     "title": "Battle of Garibpur",
-    "detail": "১৯৭১ সালের নভেম্বর মাসে গরীবপুরের যুদ্ধ যশোর ফ্রন্টে বৃহত্তর ভারত-পাকিস্তান যুদ্ধের আনুষ্ঠানিক সূচনার আগে সংঘটিত হয়। এটি পাকিস্তানি অবস্থান দুর্বল করে এবং দক্ষিণ-পশ্চিম অভিযানের গতিপথ প্রভাবিত করে।",
+    "detail": "The engagement demonstrated the rising conventional pressure on Pakistani positions in the Jessore sector.",
     "sourceIds": [
       "battle-of-garibpur-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Garibpur is a useful bridge between guerrilla war and the December conventional campaign.",
+    "sourceIds": [
+      "battle-of-garibpur-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

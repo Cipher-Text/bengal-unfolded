@@ -1,15 +1,44 @@
 [
   {
-    "year": "1971 (May 20)",
-    "title": "চুকনগর গণহত্যা",
-    "detail": "Chuknagar makes civilian wartime violence visible alongside battlefield events.",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "খুলনা-যশোর করিডোর দিয়ে নিরাপদ স্থানে যাওয়ার পথে বেসামরিক মানুষ চলাচল করার সময় চুকনগর হত্যাস্থলে পরিণত হয়।",
     "sourceIds": [
       "chuknagar-massacre-reference",
       "war-of-liberation-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "war"
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
+    "title": "চুকনগর গণহত্যা",
+    "detail": "এই গণহত্যা বেঁচে থাকা মানুষের বয়ান, স্থানীয় স্মৃতি এবং পরবর্তী যুদ্ধাপরাধ নথিপত্রে স্মরণীয়।",
+    "sourceIds": [
+      "chuknagar-massacre-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "চুকনগর ১৯৭১-এর বর্ণনায় বেসামরিক মানুষের ঝুঁকি ও স্থানীয় স্মৃতিচর্চাকে কেন্দ্রে রাখে।",
+    "sourceIds": [
+      "chuknagar-massacre-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

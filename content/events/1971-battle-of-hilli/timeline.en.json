@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (November-December)",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Hilli was one of the fiercest northern-front battles because the position guarded a key route in the northwest.",
+    "sourceIds": [
+      "battle-of-hilli-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
     "title": "Battle of Hilli",
-    "detail": "হিলির যুদ্ধ ১৯৭১ সালের উত্তর ফ্রন্টে দীর্ঘ ও ব্যয়বহুল সংঘর্ষ ছিল। এটি পাকিস্তানি প্রতিরক্ষা আটকে রাখে এবং পূর্বাঞ্চলীয় অভিযানের অন্যতম স্মরণীয় যুদ্ধক্ষেত্র অধ্যায় হয়ে ওঠে।",
+    "detail": "Repeated attacks and heavy casualties made Hilli a costly contest over movement and defensive depth.",
     "sourceIds": [
       "battle-of-hilli-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "The battle highlights how the northern theatre could absorb major effort even as the final campaign moved quickly elsewhere.",
+    "sourceIds": [
+      "battle-of-hilli-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

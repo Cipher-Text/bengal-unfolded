@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (March-April)",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Kushtia saw early armed resistance after Operation Searchlight, before the war settled into sector organization.",
+    "sourceIds": [
+      "battle-of-kushtia-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
     "title": "Battle of Kushtia",
-    "detail": "কুষ্টিয়ার যুদ্ধ অপারেশন সার্চলাইটের পর প্রাথমিক সশস্ত্র প্রতিরোধের একটি অধ্যায়। স্থানীয় বাঙালি বাহিনী ও সাধারণ মানুষ দীর্ঘ সেক্টরভিত্তিক যুদ্ধের আগে পাকিস্তানি নিয়ন্ত্রণকে চ্যালেঞ্জ করে।",
+    "detail": "Local forces and civilians challenged Pakistani control in a moment of rapid breakdown and improvised resistance.",
     "sourceIds": [
       "battle-of-kushtia-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "The battle is important because it shows that organized resistance began before the later command structure fully matured.",
+    "sourceIds": [
+      "battle-of-kushtia-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

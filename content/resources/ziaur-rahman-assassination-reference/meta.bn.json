@@ -1,0 +1,18 @@
+{
+  "title": "বাংলাদেশের নেতা অভ্যুত্থানচেষ্টায় গুলিতে নিহত",
+  "note": "জিয়াউর রহমানের হত্যাকাণ্ড ও তাৎক্ষণিক অভ্যুত্থান প্রেক্ষাপট নিয়ে সমসাময়িক আন্তর্জাতিক সংবাদ প্রতিবেদন।",
+  "category": "news-and-contemporary-reports",
+  "subcategory": "Contemporary Press Reports",
+  "attribution": "The New York Times",
+  "creatorId": "the-new-york-times",
+  "creatorType": "organization",
+  "quality": "editorial",
+  "href": "https://www.nytimes.com/1981/05/31/world/bangladesh-leader-is-shot-and-killed-in-a-coup-attempt.html",
+  "sourceQuality": "editorial",
+  "evidenceLevel": "medium",
+  "whyItMatters": "হত্যাকাণ্ড ও তাৎক্ষণিক অভ্যুত্থানচেষ্টার প্রেক্ষাপট সম্পর্কে সমসাময়িক বাহ্যিক সংবাদসূত্র দেয়।",
+  "relatedEventIds": [
+    "1981-assassination-of-ziaur-rahman"
+  ],
+  "relatedTopicIds": []
+}

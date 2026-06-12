@@ -1,0 +1,69 @@
+{
+  "slug": "2012-tazreen-fashions-fire",
+  "year": "2012",
+  "title": "Tazreen Fashions Fire",
+  "subtitle": "A deadly factory fire exposes garment-sector safety failures before Rana Plaza.",
+  "summary": "On 24 November 2012, a fire at Tazreen Fashions in Ashulia killed more than one hundred garment workers. Labor-rights groups and international institutions linked the disaster to locked exits, weak inspection, and buyer accountability failures in Bangladesh’s export garment sector.",
+  "themeColor": "#774d3b",
+  "ctaLabel": "Explore",
+  "heroTagline": "A deadly factory fire exposes garment-sector safety failures before Rana Plaza.",
+  "whyItMatters": "Tazreen was a critical warning before Rana Plaza, showing that Bangladesh’s garment-safety crisis was not a single-building failure but a structural problem in factory governance and global supply chains.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2013-rana-plaza-collapse",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2013-rana-plaza-collapse"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "tazreen-fashions-fire-ilo",
+    "tazreen-fashions-fire-clean-clothes",
+    "rana-plaza-ilo-overview"
+  ],
+  "whyItMattersSourceIds": [
+    "tazreen-fashions-fire-ilo",
+    "tazreen-fashions-fire-clean-clothes",
+    "rana-plaza-ilo-overview"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "Bangladesh",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On 24 November 2012, a fire at Tazreen Fashions in Ashulia killed more than one hundred garment workers. Labor-rights groups and international institutions linked the disaster to locked exits, weak inspection, and buyer accountability failures in Bangladesh’s export garment sector.",
+      "sourceIds": [
+        "tazreen-fashions-fire-ilo",
+        "tazreen-fashions-fire-clean-clothes",
+        "rana-plaza-ilo-overview"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "Tazreen was a critical warning before Rana Plaza, showing that Bangladesh’s garment-safety crisis was not a single-building failure but a structural problem in factory governance and global supply chains.",
+      "sourceIds": [
+        "tazreen-fashions-fire-ilo",
+        "tazreen-fashions-fire-clean-clothes",
+        "rana-plaza-ilo-overview"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "mass casualty industrial fire"
+  ]
+}

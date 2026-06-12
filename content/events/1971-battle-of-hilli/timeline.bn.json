@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (November-December)",
+    "year": "প্রেক্ষাপট",
+    "title": "কৌশলগত অবস্থান",
+    "detail": "হিলি উত্তর-পশ্চিমের একটি গুরুত্বপূর্ণ পথ রক্ষাকারী অবস্থান হওয়ায় উত্তর ফ্রন্টের অন্যতম তীব্র যুদ্ধক্ষেত্র ছিল।",
+    "sourceIds": [
+      "battle-of-hilli-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৭১",
     "title": "হিলির যুদ্ধ",
-    "detail": "Hilli adds the cost and intensity of the northern front to the timeline.",
+    "detail": "পুনরাবৃত্ত আক্রমণ ও বড় ক্ষয়ক্ষতি হিলিকে চলাচল ও প্রতিরক্ষা গভীরতার ব্যয়বহুল লড়াইয়ে পরিণত করে।",
     "sourceIds": [
       "battle-of-hilli-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "স্মৃতি",
+    "title": "ঐতিহাসিক গুরুত্ব",
+    "detail": "এই যুদ্ধ দেখায়, অন্যত্র চূড়ান্ত অভিযান দ্রুত এগোলেও উত্তরাঞ্চলীয় থিয়েটার বড় সামরিক প্রচেষ্টা ধরে রাখতে পারত।",
+    "sourceIds": [
+      "battle-of-hilli-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

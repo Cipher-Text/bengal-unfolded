@@ -1,0 +1,89 @@
+{
+  "slug": "2011-fifteenth-amendment-and-caretaker-abolition",
+  "year": "2011",
+  "title": "পঞ্চদশ সংশোধন ও তত্ত্বাবধায়ক ব্যবস্থা বিলোপ",
+  "subtitle": "এক সাংবিধানিক সংশোধন তত্ত্বাবধায়ক নির্বাচন কাঠামো সরিয়ে দিয়ে নির্বাচনী বৈধতার বিতর্ক বদলে দেয়।",
+  "summary": "২০১১ সালের পঞ্চদশ সংশোধন ১৯৯০-পরবর্তী কয়েকটি জাতীয় নির্বাচনের কাঠামো নির্ধারণকারী সাংবিধানিক তত্ত্বাবধায়ক সরকার ব্যবস্থা বাতিল করে। সুপ্রিম কোর্টের রায়ের পর এই পরিবর্তন এলেও বিরোধী দলগুলো দলীয় সরকারের অধীনে নির্বাচনের নিরপেক্ষতা নিয়ে আপত্তি তোলে।",
+  "themeColor": "#586f7c",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "এক সাংবিধানিক সংশোধন তত্ত্বাবধায়ক নির্বাচন কাঠামো সরিয়ে দিয়ে নির্বাচনী বৈধতার বিতর্ক বদলে দেয়।",
+  "whyItMatters": "২০১৪, ২০১৮ ও ২০২৪ সালের বিতর্কিত নির্বাচন এবং পরবর্তী নিরপেক্ষ নির্বাচনকালীন সরকার পুনর্বহাল বিতর্ক বুঝতে এই সংশোধন কেন্দ্রীয়।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "1991-return-to-parliamentary-democracy",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1996-ganges-water-sharing-treaty",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "2014-10th-parliamentary-election",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2024-12th-parliamentary-election",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1991-return-to-parliamentary-democracy",
+    "1996-ganges-water-sharing-treaty",
+    "2014-10th-parliamentary-election",
+    "2024-12th-parliamentary-election"
+  ],
+  "periodLabel": "মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "fifteenth-amendment-bangladesh-constitution",
+    "caretaker-government-fifteenth-amendment-analysis",
+    "bangladesh-constitution-official-text"
+  ],
+  "whyItMattersSourceIds": [
+    "fifteenth-amendment-bangladesh-constitution",
+    "caretaker-government-fifteenth-amendment-analysis",
+    "bangladesh-constitution-official-text"
+  ],
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "high",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১১ সালের পঞ্চদশ সংশোধন ১৯৯০-পরবর্তী কয়েকটি জাতীয় নির্বাচনের কাঠামো নির্ধারণকারী সাংবিধানিক তত্ত্বাবধায়ক সরকার ব্যবস্থা বাতিল করে। সুপ্রিম কোর্টের রায়ের পর এই পরিবর্তন এলেও বিরোধী দলগুলো দলীয় সরকারের অধীনে নির্বাচনের নিরপেক্ষতা নিয়ে আপত্তি তোলে।",
+      "sourceIds": [
+        "fifteenth-amendment-bangladesh-constitution",
+        "caretaker-government-fifteenth-amendment-analysis",
+        "bangladesh-constitution-official-text"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "২০১৪, ২০১৮ ও ২০২৪ সালের বিতর্কিত নির্বাচন এবং পরবর্তী নিরপেক্ষ নির্বাচনকালীন সরকার পুনর্বহাল বিতর্ক বুঝতে এই সংশোধন কেন্দ্রীয়।",
+      "sourceIds": [
+        "fifteenth-amendment-bangladesh-constitution",
+        "caretaker-government-fifteenth-amendment-analysis",
+        "bangladesh-constitution-official-text"
+      ],
+      "evidenceLevel": "high"
+    }
+  ],
+  "contested": true,
+  "historicalDebate": "আইনি সমর্থকেরা সাংবিধানিক ধারাবাহিকতা ও সুপ্রিম কোর্টের রায়কে গুরুত্ব দেন; সমালোচকেরা বলেন, মেরুকৃত রাজনৈতিক ব্যবস্থায় তত্ত্বাবধায়ক কাঠামো বাতিল নির্বাচনী আস্থা দুর্বল করেছে।",
+  "historicalDebateSourceIds": [
+    "fifteenth-amendment-bangladesh-constitution",
+    "caretaker-government-fifteenth-amendment-analysis",
+    "bangladesh-constitution-official-text"
+  ],
+  "historicalDebateEvidenceLevel": "high"
+}

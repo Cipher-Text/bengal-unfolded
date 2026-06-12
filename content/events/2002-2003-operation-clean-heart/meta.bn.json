@@ -1,0 +1,83 @@
+{
+  "slug": "2002-2003-operation-clean-heart",
+  "year": "2002-2003",
+  "title": "অপারেশন ক্লিন হার্ট",
+  "subtitle": "সামরিক-নেতৃত্বাধীন অপরাধবিরোধী অভিযান নিরাপত্তা, দায়মুক্তি ও মানবাধিকার নিয়ে দীর্ঘস্থায়ী প্রশ্ন তোলে।",
+  "summary": "অপারেশন ক্লিন হার্ট ২০০২ সালের অক্টোবরে বেসামরিক সরকারের অধীনে সামরিক মোতায়েনসহ দেশব্যাপী অপরাধবিরোধী অভিযান হিসেবে শুরু হয়। মানবাধিকার সংস্থাগুলো গ্রেপ্তার, হেফাজতে মৃত্যু এবং পরে নিরাপত্তা সদস্যদের আইনি দায়মুক্তির কথা তুলে ধরে; সরকারি ভাষ্যে এটি আইনশৃঙ্খলা অভিযান হিসেবে উপস্থাপিত হয়।",
+  "themeColor": "#58504c",
+  "ctaLabel": "ঘটনাটি দেখুন",
+  "heroTagline": "সামরিক-নেতৃত্বাধীন অপরাধবিরোধী অভিযান নিরাপত্তা, দায়মুক্তি ও মানবাধিকার নিয়ে দীর্ঘস্থায়ী প্রশ্ন তোলে।",
+  "whyItMatters": "এই অভিযান বাংলাদেশের পরবর্তী নিরাপত্তা-রাষ্ট্র বিতর্ক বুঝতে গুরুত্বপূর্ণ; সামরিকীকৃত পুলিশিং, আইনি দায়মুক্তি, হেফাজতে মৃত্যুর অভিযোগ এবং বিশেষ আইনশৃঙ্খলা ব্যবস্থার স্বাভাবিকীকরণ এতে যুক্ত।",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2007-2008-emergency-caretaker-rule",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2018-a-year-of-protest-control-and-contested-legitimacy",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2007-2008-emergency-caretaker-rule",
+    "2018-a-year-of-protest-control-and-contested-legitimacy"
+  ],
+  "periodLabel": "মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "operation-clean-heart-hrw",
+    "operation-clean-heart-amnesty"
+  ],
+  "whyItMattersSourceIds": [
+    "operation-clean-heart-hrw",
+    "operation-clean-heart-amnesty"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "অপারেশন ক্লিন হার্ট ২০০২ সালের অক্টোবরে বেসামরিক সরকারের অধীনে সামরিক মোতায়েনসহ দেশব্যাপী অপরাধবিরোধী অভিযান হিসেবে শুরু হয়। মানবাধিকার সংস্থাগুলো গ্রেপ্তার, হেফাজতে মৃত্যু এবং পরে নিরাপত্তা সদস্যদের আইনি দায়মুক্তির কথা তুলে ধরে; সরকারি ভাষ্যে এটি আইনশৃঙ্খলা অভিযান হিসেবে উপস্থাপিত হয়।",
+      "sourceIds": [
+        "operation-clean-heart-hrw",
+        "operation-clean-heart-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই অভিযান বাংলাদেশের পরবর্তী নিরাপত্তা-রাষ্ট্র বিতর্ক বুঝতে গুরুত্বপূর্ণ; সামরিকীকৃত পুলিশিং, আইনি দায়মুক্তি, হেফাজতে মৃত্যুর অভিযোগ এবং বিশেষ আইনশৃঙ্খলা ব্যবস্থার স্বাভাবিকীকরণ এতে যুক্ত।",
+      "sourceIds": [
+        "operation-clean-heart-hrw",
+        "operation-clean-heart-amnesty"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "contentWarnings": [
+    "হেফাজতে মৃত্যুর অভিযোগ",
+    "নিরাপত্তা বাহিনীর নির্যাতনের অভিযোগ"
+  ],
+  "contested": true,
+  "historicalDebate": "সমর্থকেরা অভিযানটিকে অপরাধ ও বিশৃঙ্খলার প্রতিক্রিয়া হিসেবে দেখান, আর মানবাধিকার সংস্থাগুলো alleged নির্যাতন ও দায়মুক্তির কথা নথিবদ্ধ করে। মৃত্যু ও দায়বদ্ধতার দাবি নির্দিষ্ট উৎসের নামে উল্লেখ করা উচিত।",
+  "historicalDebateSourceIds": [
+    "operation-clean-heart-hrw",
+    "operation-clean-heart-amnesty"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
+}

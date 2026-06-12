@@ -1,0 +1,32 @@
+[
+  {
+    "year": "2024",
+    "title": "Hasina Resignation and Fall of Government",
+    "detail": "On 5 August 2024, after weeks of mass protests and a planned Long March to Dhaka, Sheikh Hasina resigned and left Bangladesh for India. Protesters entered Ganabhaban, and the military announced steps toward forming an interim arrangement.",
+    "sourceIds": [
+      "lemonde-hasina-flees-bangladesh-august-2024",
+      "bdnews24-july-uprising-archive-2024",
+      "bss-july-uprising-timeline-2024"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "The resignation marked one of the most consequential transfers of power in Bangladesh since 1990 and became the bridge between the student-led movement and the interim-government phase.",
+    "sourceIds": [
+      "lemonde-hasina-flees-bangladesh-august-2024",
+      "bdnews24-july-uprising-archive-2024",
+      "bss-july-uprising-timeline-2024"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

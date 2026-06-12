@@ -1,0 +1,18 @@
+{
+  "title": "Mainamati",
+  "note": "Banglapedia reference entry on the Mainamati-Lalmai archaeological complex.",
+  "category": "reference-sources",
+  "subcategory": "Encyclopedia and Archive Reference",
+  "attribution": "Banglapedia",
+  "creatorId": "banglapedia",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "href": "https://en.banglapedia.org/index.php?title=Mainamati",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Banglapedia reference entry on the Mainamati-Lalmai archaeological complex.",
+  "relatedEventIds": [
+    "0800-1100-chandra-deva-mainamati-regional-polity"
+  ],
+  "relatedTopicIds": []
+}

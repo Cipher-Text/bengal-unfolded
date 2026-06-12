@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (December 11)",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "The Tangail airdrop inserted paratroopers north of Dhaka during the final advance.",
+    "sourceIds": [
+      "tangail-airdrop-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
     "title": "Tangail Airdrop",
-    "detail": "১৯৭১ সালের ১১ ডিসেম্বর টাঙ্গাইল এয়ারড্রপে ভারতীয় প্যারাট্রুপাররা ঢাকার উত্তরে পশ্চাদপসরণ ও যোগাযোগের পথ কাটতে টাঙ্গাইলের কাছে অবতরণ করেন। অভিযানটি রাজধানীর দিকে চূড়ান্ত অগ্রযাত্রা দ্রুত করে।",
+    "detail": "The operation helped accelerate pressure on routes toward Dhaka and became one of December’s most visible airborne actions.",
     "sourceIds": [
       "tangail-airdrop-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Tangail links tactical mobility with the rapid final collapse of Pakistani command in East Pakistan.",
+    "sourceIds": [
+      "tangail-airdrop-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

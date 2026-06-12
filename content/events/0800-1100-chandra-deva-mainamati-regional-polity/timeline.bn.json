@@ -1,0 +1,32 @@
+[
+  {
+    "year": "c. 800-1100",
+    "title": "চন্দ্র-দেব-ময়নামতি আঞ্চলিক রাজনীতি",
+    "detail": "প্রায় অষ্টম থেকে একাদশ শতকের মধ্যে চন্দ্র ও দেব রাজবংশ সমতট, হরিকেল এবং ময়নামতি-লালমাই অঞ্চলকে ঘিরে দক্ষিণ-পূর্ব বাংলার রাজনীতিকে গঠন করে। তাদের লিপি, বিহার ও আঞ্চলিক নেটওয়ার্ক দেখায় যে সুলতানাত-পূর্ব বাংলার ইতিহাস শুধু পাল-সেন কেন্দ্রভূমিতে সীমাবদ্ধ ছিল না।",
+    "sourceIds": [
+      "chandra-dynasty-banglapedia",
+      "deva-dynasty-banglapedia",
+      "mainamati-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "economy"
+    ]
+  },
+  {
+    "year": "উত্তরাধিকার",
+    "title": "কেন গুরুত্বপূর্ণ",
+    "detail": "এই ক্লাস্টার সুলতানাত-পূর্ব বাংলায় বৌদ্ধ প্রতিষ্ঠান, আঞ্চলিক রাজত্ব এবং বঙ্গোপসাগরীয় যোগাযোগ বোঝার জন্য পূর্ববাংলার শক্তিশালী ফ্রেম দেয়।",
+    "sourceIds": [
+      "chandra-dynasty-banglapedia",
+      "deva-dynasty-banglapedia",
+      "mainamati-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

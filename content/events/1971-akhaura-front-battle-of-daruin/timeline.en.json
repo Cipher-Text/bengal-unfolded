@@ -1,8 +1,22 @@
 [
   {
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Akhaura sat on a strategic eastern approach where local resistance, sector command, and Indian support intersected.",
+    "sourceIds": [
+      "battle-of-akhaura-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
     "year": "1971",
     "title": "Akhaura Front and Battle of Daruin",
-    "detail": "দরুইনসহ আখাউড়া ফ্রন্ট ১৯৭১ সালের পূর্ব সেক্টর অভিযানের অংশ ছিল। এসব সংঘর্ষ ত্রিপুরা, ব্রাহ্মণবাড়িয়া ও ঢাকার দিকের রুটে পাকিস্তানি প্রতিরক্ষার ওপর চাপ তৈরি করে।",
+    "detail": "Fighting around Daruin and Akhaura showed how border-front actions could stretch Pakistani defenses before December.",
     "sourceIds": [
       "battle-of-akhaura-reference",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "The front links local martyr memory with the wider military geography of Sector 2 and the eastern theatre.",
+    "sourceIds": [
+      "battle-of-akhaura-reference",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

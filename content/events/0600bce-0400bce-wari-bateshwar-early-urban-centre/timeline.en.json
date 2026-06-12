@@ -1,0 +1,30 @@
+[
+  {
+    "year": "c. 600-400 BCE",
+    "title": "Wari-Bateshwar Early Urban Centre",
+    "detail": "Wari-Bateshwar in present-day Narsingdi is an archaeological complex often discussed as one of Bengal’s earliest urban or proto-urban centres. Excavated material has been used to connect the site with early settlement, craft production, coinage, and wider trade networks in the eastern delta.",
+    "sourceIds": [
+      "wari-bateshwar-banglapedia",
+      "wari-bateshwar-early-historic-urban-centre"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "economy"
+    ]
+  },
+  {
+    "year": "Legacy",
+    "title": "Why it mattered",
+    "detail": "The site widens the timeline of Bengal’s urban history beyond better-known classical and medieval centres, making early delta archaeology a necessary part of Bangladesh’s long historical arc.",
+    "sourceIds": [
+      "wari-bateshwar-banglapedia",
+      "wari-bateshwar-early-historic-urban-centre"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

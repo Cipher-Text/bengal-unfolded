@@ -1,0 +1,32 @@
+[
+  {
+    "year": "2012",
+    "title": "তাজরীন ফ্যাশনস অগ্নিকাণ্ড",
+    "detail": "২০১২ সালের ২৪ নভেম্বর আশুলিয়ার তাজরীন ফ্যাশনসে অগ্নিকাণ্ডে একশর বেশি পোশাকশ্রমিক নিহত হন। শ্রম-অধিকার সংগঠন ও আন্তর্জাতিক প্রতিষ্ঠানগুলো এই বিপর্যয়কে বন্ধ দরজা, দুর্বল পরিদর্শন এবং বাংলাদেশের রপ্তানি পোশাকখাতে ক্রেতা-জবাবদিহির ব্যর্থতার সঙ্গে যুক্ত করে।",
+    "sourceIds": [
+      "tazreen-fashions-fire-ilo",
+      "tazreen-fashions-fire-clean-clothes",
+      "rana-plaza-ilo-overview"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  },
+  {
+    "year": "উত্তরাধিকার",
+    "title": "কেন গুরুত্বপূর্ণ",
+    "detail": "তাজরীন রানা প্লাজার আগের একটি গুরুতর সতর্কবার্তা ছিল; এটি দেখায় যে পোশাক-নিরাপত্তা সংকট একক ভবন ব্যর্থতা নয়, বরং কারখানা শাসন ও বৈশ্বিক সরবরাহশৃঙ্খলের কাঠামোগত সমস্যা।",
+    "sourceIds": [
+      "tazreen-fashions-fire-ilo",
+      "tazreen-fashions-fire-clean-clothes",
+      "rana-plaza-ilo-overview"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

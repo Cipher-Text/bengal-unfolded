@@ -1,8 +1,22 @@
 [
   {
-    "year": "1971 (August 15)",
+    "year": "Context",
+    "title": "Strategic setting",
+    "detail": "Operation Jackpot organized naval commando sabotage against ports and river routes used by Pakistani forces.",
+    "sourceIds": [
+      "operation-jackpot",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1971",
     "title": "Operation Jackpot",
-    "detail": "১৯৭১ সালের ১৫ আগস্ট বাঙালি নৌ-কমান্ডোরা চট্টগ্রাম, মোংলা, চাঁদপুর ও নারায়ণগঞ্জসহ গুরুত্বপূর্ণ নদী ও সমুদ্র বন্দরে একযোগে নাশকতা অভিযান চালান। এই অভিযান পাকিস্তানি নৌযোগাযোগ ব্যাহত করে এবং যুদ্ধের এক স্মরণীয় নৌ অধ্যায়ে পরিণত হয়।",
+    "detail": "The operation disrupted maritime logistics and gave the war a high-profile riverine and naval dimension.",
     "sourceIds": [
       "operation-jackpot",
       "war-of-liberation-banglapedia"
@@ -10,6 +24,20 @@
     "evidenceLevel": "medium",
     "themes": [
       "war"
+    ]
+  },
+  {
+    "year": "Memory",
+    "title": "Historical significance",
+    "detail": "Its memory shows that the Liberation War was fought through covert, naval, and infrastructure-targeted operations as well as land battles.",
+    "sourceIds": [
+      "operation-jackpot",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "culture"
     ]
   }
 ]

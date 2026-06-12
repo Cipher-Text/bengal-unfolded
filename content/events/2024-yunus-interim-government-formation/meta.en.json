@@ -1,0 +1,72 @@
+{
+  "slug": "2024-yunus-interim-government-formation",
+  "year": "2024",
+  "title": "Yunus Interim Government Formation",
+  "subtitle": "An interim administration takes office after the July-August uprising.",
+  "summary": "On 8 August 2024, Nobel laureate Muhammad Yunus took oath as chief adviser of an interim government after Sheikh Hasina’s resignation and the dissolution of parliament. The new administration faced demands for justice, institutional reform, and a credible election pathway.",
+  "themeColor": "#3d6666",
+  "ctaLabel": "Explore",
+  "heroTagline": "An interim administration takes office after the July-August uprising.",
+  "whyItMatters": "The interim government became the institutional container for post-uprising reform debates, accountability demands, and preparation for Bangladesh’s next electoral cycle.",
+  "importance": "high",
+  "relatedEvents": [
+    {
+      "eventId": "2024-august-5-hasina-resignation",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2026-election",
+      "relationType": "background"
+    }
+  ],
+  "relatedEventIds": [
+    "2024-august-5-hasina-resignation",
+    "2026-election"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "State power and democratic transition",
+  "showOnLanding": false,
+  "summarySourceIds": [
+    "lemonde-yunus-interim-government-2024",
+    "bss-july-uprising-timeline-2024",
+    "hrw-after-monsoon-revolution-2025"
+  ],
+  "whyItMattersSourceIds": [
+    "lemonde-yunus-interim-government-2024",
+    "bss-july-uprising-timeline-2024",
+    "hrw-after-monsoon-revolution-2025"
+  ],
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": false,
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "Bangladesh",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "On 8 August 2024, Nobel laureate Muhammad Yunus took oath as chief adviser of an interim government after Sheikh Hasina’s resignation and the dissolution of parliament. The new administration faced demands for justice, institutional reform, and a credible election pathway.",
+      "sourceIds": [
+        "lemonde-yunus-interim-government-2024",
+        "bss-july-uprising-timeline-2024",
+        "hrw-after-monsoon-revolution-2025"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The interim government became the institutional container for post-uprising reform debates, accountability demands, and preparation for Bangladesh’s next electoral cycle.",
+      "sourceIds": [
+        "lemonde-yunus-interim-government-2024",
+        "bss-july-uprising-timeline-2024",
+        "hrw-after-monsoon-revolution-2025"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ],
+  "parentEvent": "2024-anti-discrimination-movement"
+}
