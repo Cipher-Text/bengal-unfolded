@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-06-14
+
+### Completed
+
+- Key-figure image backfill:
+  - Content backfill:
+    - Added sourced figure images for `all-india-muslim-league`, `indian-national-congress`, `islam-khan-chishti`, and `shaista-khan`.
+    - Updated both EN and BN figure metadata with matching `image` paths.
+  - Documentation:
+    - Updated `docs/figure-image-sources.md` with source and license/status notes.
+    - Refreshed `docs/figure-images-audit.md` and regenerated `docs/missing-images-report.csv`.
+  - Validation:
+    - `pnpm content:validate` passes.
+  - Model/UI:
+    - No schema or UI changes required; the backfill uses the existing optional figure `image` field.
+
 ## 2026-06-13
 
 ### Completed

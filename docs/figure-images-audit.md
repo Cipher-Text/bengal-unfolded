@@ -1,16 +1,16 @@
 # Figure Images Audit Report
 
-**Date:** 2026-06-07  
+**Date:** 2026-06-14  
 **Status:** Current after key-figure image backfill
 
 ---
 
 ## Executive Summary
 
-- **Total figures:** 547
-- **Coverage:** 384/547 figures have images (70.2%)
-- **Missing:** 163/547 figures still need images (29.8%)
-- **Storage:** 16.8 MB across 383 files
+- **Total figures:** 554
+- **Coverage:** 388/554 figures have images (70.0%)
+- **Missing:** 166/554 figures still need images (30.0%)
+- **Storage:** 17.1 MB across 387 files
 - **Data integrity:** No orphaned images, broken references, invalid paths, or locale mismatches
 
 ---
@@ -21,16 +21,16 @@
 
 | Format | Count | Percentage | Notes |
 | --- | ---: | ---: | --- |
-| WEBP | 380 | 99.2% | Preferred optimized format |
-| SVG | 3 | 0.8% | Organization/alliance marks |
+| WEBP | 382 | 98.7% | Preferred optimized format |
+| SVG | 5 | 1.3% | Organization/alliance marks |
 
-**Total:** 383 files, 16.8 MB
+**Total:** 387 files, 17.1 MB
 
 ---
 
 ## Coverage Analysis
 
-### Figures With Images: 384 (70.2%)
+### Figures With Images: 388 (70.0%)
 
 Images follow the convention:
 
@@ -42,7 +42,7 @@ Metadata references use:
 
 ```json
 {
-  "image": "/figures/<figure-id>.webp"
+  "image": "/figures/<figure-id>.<ext>"
 }
 ```
 
@@ -53,7 +53,7 @@ content/figures/<figure-id>/meta.en.json
 content/figures/<figure-id>/meta.bn.json
 ```
 
-### Figures Without Images: 163 (29.8%)
+### Figures Without Images: 166 (30.0%)
 
 The current priority list is maintained in:
 
@@ -65,16 +65,16 @@ Top current gaps by event usage:
 
 | Rank | Figure ID | Name | Event Count |
 | ---: | --- | --- | ---: |
-| 1 | `all-india-muslim-league` | All-India Muslim League | 6 |
-| 2 | `indian-national-congress` | Indian National Congress | 6 |
-| 3 | `islam-khan-chishti` | Islam Khan Chishti | 4 |
-| 4 | `nusrat-shah` | Nusrat Shah | 4 |
-| 5 | `ashrafuzzaman-khan` | Ashrafuzzaman Khan | 3 |
-| 6 | `chand-rai` | Chand Rai | 3 |
-| 7 | `chowdhury-mueen-uddin` | Chowdhury Mueen Uddin | 3 |
-| 8 | `kedar-rai` | Kedar Rai | 3 |
-| 9 | `krishnachandra-ray-of-nadia` | Krishnachandra Ray of Nadia | 3 |
-| 10 | `lakshmana-sena` | Lakshmana Sena | 3 |
+| 1 | `nusrat-shah` | Nusrat Shah | 4 |
+| 2 | `asaduzzaman-khan-kamal` | Asaduzzaman Khan Kamal | 3 |
+| 3 | `ashrafuzzaman-khan` | Ashrafuzzaman Khan | 3 |
+| 4 | `chand-rai` | Chand Rai | 3 |
+| 5 | `chowdhury-mueen-uddin` | Chowdhury Mueen Uddin | 3 |
+| 6 | `kedar-rai` | Kedar Rai | 3 |
+| 7 | `krishnachandra-ray-of-nadia` | Krishnachandra Ray of Nadia | 3 |
+| 8 | `lakshmana-sena` | Lakshmana Sena | 3 |
+| 9 | `major-ma-manzur` | Major M. A. Manzur | 3 |
+| 10 | `mukunda-ray-of-bhusna` | Mukunda Ray of Bhusna | 3 |
 
 ---
 
@@ -102,6 +102,15 @@ jahangir-mughal
 manabendra-narayan-larma
 raja-rammohun-roy
 sam-manekshaw
+```
+
+On 2026-06-14, images were added for four additional high-priority missing key figures:
+
+```text
+all-india-muslim-league
+indian-national-congress
+islam-khan-chishti
+shaista-khan
 ```
 
 Source and license notes for those additions are recorded in:

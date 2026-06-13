@@ -1,164 +1,167 @@
 Rank,Figure ID,Name,Role,Group,Event Count,Priority Score,Tags
-1,all-india-muslim-league,All-India Muslim League,Political Party in British India,organization,6,245,"1947, partition, pakistan-movement"
-2,indian-national-congress,Indian National Congress,Political Party in British India,organization,6,245,"1947, partition, congress-politics"
-3,islam-khan-chishti,Islam Khan Chishti,Subahdar associated with final consolidation in Bengal,leader,4,220,"mughal, dhaka, consolidation"
-4,nusrat-shah,Nusrat Shah,Hussain Shahi ruler in the Afghan-Mughal transition era,leader,4,220,"bengal-history, rulership, political-transition"
-5,ashrafuzzaman-khan,Ashrafuzzaman Khan,Al-Badr figure convicted in absentia in the intellectual-killings case,leader,3,190,"1971, al-badr, intellectual-killings, war-crimes-trial, ict"
-6,chand-rai,Chand Rai,Regional landed-military figure linked to Bhati resistance context,leader,3,190,"bengal-history, rulership, political-transition"
-7,chowdhury-mueen-uddin,Chowdhury Mueen Uddin,Al-Badr figure convicted in absentia in the intellectual-killings case,leader,3,190,"1971, al-badr, intellectual-killings, war-crimes-trial, ict"
-8,kedar-rai,Kedar Rai,Regional chief associated with anti-Mughal resistance networks,leader,3,190,"bengal-history, rulership, political-transition"
-9,krishnachandra-ray-of-nadia,Krishnachandra Ray of Nadia,Nadia ruler linked to mid-18th-century political realignments,leader,3,190,"bengal-history, rulership, political-transition"
-10,lakshmana-sena,Lakshmana Sena,Last major Sena ruler before Turkic conquest phase,leader,3,190,"bengal-history, rulership, political-transition"
-11,mukunda-ray-of-bhusna,Mukunda Ray of Bhusna,Regional chief associated with confederate resistance milieu,leader,3,190,"bengal-history, rulership, political-transition"
-12,musa-khan,Musa Khan,Successor figure in Baro-Bhuyans resistance,leader,3,190,"baro-bhuyans, bhati, mughal-era"
-13,nawab-abdul-latif,Nawab Abdul Latif,Muslim education reform advocate in Bengal,leader,3,190,"education, reform, muslim-history, bengal"
-14,pratapaditya,Pratapaditya,Jessore ruler associated with late-16th/early-17th-century regional autonomy struggles,leader,3,190,"bengal-history, rulership, political-transition"
-15,rao-farman-ali,Rao Farman Ali,Pakistan Army major general linked to Operation Searchlight planning and intellectual-killings allegations,leader,3,190,"1971, operation-searchlight, pakistan-army, intellectual-killings, war-crimes-memory, military-command"
-16,shaista-khan,Shaista Khan,Mughal subahdar linked to the Chittagong campaign,leader,3,190,"mughal, chittagong, 1666, frontier"
-17,syed-ameer-ali,Syed Ameer Ali,Jurist and Muslim political intellectual,leader,3,190,"law, politics, muslim-history, colonial"
-18,pakistan-peoples-party,Pakistan Peoples Party,Political Party in Pakistan,organization,3,155,"1971, liberation-war, military-command, political-leadership"
-19,abul-kalam-azad-bachchu-razakar,Abul Kalam Azad (Bachchu Razakar),Fugitive ICT convict known as Bachchu Razakar,leader,2,160,"1971, razakar, war-crimes-trial, ict, bachchu-razakar, in-absentia"
-20,alauddin-husain-shah,Alauddin Husain Shah,Sultan associated with the high phase of the Hussain Shahi period,leader,2,160,"bengal-history, rulership, political-transition"
-21,asaduzzaman-khan-kamal,Asaduzzaman Khan Kamal,Former home minister linked to security-force accountability debates,leader,2,160,"bangladesh, home-ministry, security-forces, state-crackdown, 2018, 2024, accountability"
-22,atm-azharul-islam,ATM Azharul Islam,Jamaat leader in contested 1971 war-crimes proceedings,leader,2,160,"1971, jamaat-e-islami, war-crimes-trial, ict, appeal, legal-status-contested"
-23,ballala-sena,Ballala Sena,Sena ruler tied to elite social ordering and royal consolidation,leader,2,160,"bengal-history, rulership, political-transition"
-24,devapala,Devapala,Pala ruler linked to the high phase of Pala influence,leader,2,160,"bengal-history, rulership, political-transition"
-25,dharmapala,Dharmapala,Pala ruler associated with imperial expansion in early medieval Bengal,leader,2,160,"bengal-history, rulership, political-transition"
-26,dinabandhu-mitra,Dinabandhu Mitra,Playwright and Public Critic,leader,2,160,
-27,fakhruddin-mubarak-shah,Fakhruddin Mubarak Shah,Sultan of Sonargaon,leader,2,160,
-28,farrukhsiyar,Farrukhsiyar,Mughal emperor who formalized Bengal's nawabi phase,leader,2,160,"mughal, nawab, 1717, murshidabad"
-29,gopala-i,Gopala I,Founder of the Pala dynasty in Bengal,leader,2,160,"bengal-history, rulership, political-transition"
-30,harish-chandra-mukherjee,Harish Chandra Mukherjee,Journalist and Editor,leader,2,160,
-31,humayun-mughal,Humayun,Mughal emperor in the Bengal campaign era,leader,2,160,"mughal, bengal, 1538, 1539"
-32,ivy-rahman,Ivy Rahman,Awami League leader and August 21 attack victim,leader,2,160,"awami-league, political-violence, 2004"
-33,jahanzeb-arbab,Jahanzeb Arbab,Pakistan Army brigade commander associated with 1971 operations,leader,2,160,"1971, pakistan-army, operation-searchlight, military-command, field-command"
-34,jalaluddin-muhammad-shah,Jalaluddin Muhammad Shah,Sultan linked to post-Raja Ganesh political settlement,leader,2,160,"bengal-history, rulership, political-transition"
-35,job-charnock,Job Charnock,East India Company Agent,leader,2,160,
-36,k-m-obaidur-rahman,K. M. Obaidur Rahman,Politician,leader,2,160,"1971, liberation-war, political-leadership"
-37,kazi-arif-ahmed,Kazi Arif Ahmed,Left political leader,leader,2,160,"1990, democracy, anti-ershad-movement, party-politics, civic-culture"
-38,khadim-hussain-raja,Khadim Hussain Raja,Pakistan Army commander involved in Operation Searchlight planning,leader,2,160,"1971, operation-searchlight, pakistan-army, military-command, crackdown"
-39,m-hamidullah-khan,Squadron Leader M. Hamidullah Khan,Sector 11 Commander (Later Phase),leader,2,160,"sector-11, north-central-front, command-transition"
-40,major-ma-manzur,Major M. A. Manzur,Sector 8 and Sector 9 Commander (Later Phase),leader,2,160,"sector-8, sector-9, command-transition"
-41,man-singh-i,Man Singh I,Mughal commander in Bengal campaigns,leader,2,160,"mughal, military, bengal-campaigns"
-42,michael-madhusudan-dutt,Michael Madhusudan Dutt,Poet-dramatist and pioneer of modern Bengali literary form,leader,2,160,"poetry, drama, literature, modernity"
-43,mir-qasim,Mir Qasim,Nawab of Bengal,leader,2,160,
-44,mir-quasem-ali,Mir Quasem Ali,Jamaat-e-Islami and Al-Badr figure convicted in a 1971 war-crimes case,leader,2,160,"1971, al-badr, jamaat-e-islami, war-crimes-trial, chittagong, ict"
-45,mk-bashar,Wing Commander M. K. Bashar,Sector 6 Commander,leader,2,160,"sector-6, northern-front, command"
-46,mofazzal-haider-chaudhury,Mofazzal Haider Chaudhury,Academic and intellectual,leader,2,160,"1971, liberation-war, political-leadership, intellectual-history"
-47,muhammad-kamaruzzaman,Muhammad Kamaruzzaman,Jamaat leader,leader,2,160,"1971, liberation-war, political-leadership"
-48,mujibul-haque-chunnu,Mujibul Haque Chunnu,Politician,leader,2,160,
-49,munim-khan,Munim Khan,Mughal Commander,leader,2,160,
-50,nawab-abdul-ghani,Nawab Abdul Ghani,Dhaka Nawab and civic patron,leader,2,160,"dhaka, nawab, civic-history, muslim-history"
-51,nawab-ali-chowdhury,Nawab Ali Chowdhury,Muslim education patron and politician,leader,2,160,
-52,rafiq-uddin-ahmed,Rafiq Uddin Ahmed,Language movement martyr,leader,2,160,
-53,raja-ganesh,Raja Ganesh,Regional ruler central to the 15th-century succession crisis in Bengal,leader,2,160,"bengal-history, rulership, political-transition"
-54,raja-sitaram-ray,Raja Sitaram Ray,Regional zamindar power figure in early-18th-century Bengal,leader,2,160,"bengal-history, rulership, political-transition"
-55,rokeya-kabir,Rokeya Kabir,Women rights organizer,leader,2,160,"1990, democracy, anti-ershad-movement, party-politics, civic-culture"
-56,salahuddin-quader-chowdhury,Salahuddin Quader Chowdhury,Politician,leader,2,160,
-57,selina-parvin,Selina Parvin,Journalist and editor,leader,2,160,"1971, liberation-war, political-leadership, intellectual-history"
-58,shafiur-rahman,Shafiur Rahman,Language movement martyr,leader,2,160,
-59,shah-alam-ii,Shah Alam II,Mughal Emperor,leader,2,160,
-60,shah-ams-kibria,Shah A. M. S. Kibria,Diplomat and finance minister,leader,2,160,
-61,shah-azizur-rahman,Shah Azizur Rahman,Politician and prime minister,leader,2,160,"1971, liberation-war, political-leadership"
-62,shahidullah-kaiser,Shahidullah Kaiser,Writer and journalist,leader,2,160,"1971, liberation-war, political-leadership, intellectual-history"
-63,shamsur-rahman,Shamsur Rahman,Poet and public intellectual,leader,2,160,"1990, democracy, anti-ershad-movement, party-politics, civic-culture"
-64,sheikh-fazlul-haque-moni,Sheikh Fazlul Haque Moni,Political organizer,leader,2,160,"1971, liberation-war, political-leadership"
-65,sher-shah-suri,Sher Shah Suri,Afghan ruler who defeated Humayun at Chausa,leader,2,160,"afghan, chausa, 1539, suri"
-66,sikandar-shah,Sikandar Shah,Sultan of Bengal,leader,2,160,
-67,siraj-sikder,Siraj Sikder,Revolutionary political leader,leader,2,160,
-68,syed-amir-ali,Syed Amir Ali,Jurist and political thinker,leader,2,160,
-69,syed-shamsul-haq,Syed Shamsul Haq,Poet and playwright,leader,2,160,"1971, liberation-war, political-leadership, intellectual-history, culture"
-70,ziaul-ahsan,Ziaul Ahsan,Security and intelligence figure linked to disappearance and surveillance allegations,leader,2,160,"bangladesh, security-forces, intelligence, enforced-disappearance, aynaghar, surveillance, rab, accountability"
-71,communist-party-of-india,Communist Party of India,Communist Political Party in Colonial and Postcolonial India,organization,2,125,"communist-party-of-india, cpi, tebhaga, left-politics, peasant-mobilization, party-politics"
-72,forward-bloc,Forward Bloc,Anti-Colonial Political Party Associated with Subhas Chandra Bose,organization,2,125,"subhas-chandra-bose, anti-colonial, left-nationalism, partition, party-politics"
-73,hindu-mahasabha,Hindu Mahasabha,Hindu Nationalist Political Organization in British India,organization,2,125,"hindu-mahasabha, partition, 1947, syama-prasad-mukherjee, party-politics"
-74,jamiat-e-ulema-e-islam-bangladesh,Jamiat-e-Ulema-e-Islam Bangladesh,Religious-Political Party in Bangladesh,organization,2,125,
-75,jatiya-party,Jatiya Party,Political Party in Bangladesh,organization,2,125,"1990, democracy, anti-ershad-movement, party-politics, caretaker-transition"
-76,krishak-praja-party,Krishak Praja Party,Peasant-Oriented Political Party in Bengal,organization,2,125,
-77,national-awami-party,National Awami Party,Left-Nationalist Political Party in Pakistan and Bangladesh,organization,2,125,"nap, left-politics, bhashani, 1969, farakka, party-politics"
-78,abu-jafar-shamsuddin,Abu Jafar Shamsuddin,Writer and public intellectual in East Pakistan era,leader,1,130,"writer, journalism, culture, muslim-history"
-79,abul-hussain,Abul Hussain,Writer and Modernist Thinker,leader,1,130,
-80,akhtar-ahmed,Akhtar Ahmed,Election Commission senior secretary,leader,1,130,"election-commission, election-2026, administration"
-81,alaol,Alaol,Court Poet,leader,1,130,
-82,amm-nasir-uddin,AMM Nasir Uddin,Chief Election Commissioner,leader,1,130,"election-commission, election-2026, administration"
-83,andaleeve-rahman-partho,Andaleeve Rahman Partho,Chairman of Bangladesh Jatiya Party,leader,1,130,"parliament, reform, election-2026"
-84,asaduzzaman-fuaad,Barrister Asaduzzaman Fuaad,General secretary of AB Party,leader,1,130,"ab-party, election-2026, campaign"
-85,badiul-alam-majumdar,Badiul Alam Majumdar,Chief of the Election Reform Commission,leader,1,130,"reform-commission, election-2026, transparency"
-86,bangla-bhai,Siddique ul-Islam (Bangla Bhai),JMJB/JMB militant commander,leader,1,130,"militancy, jmb, jmjb"
-87,benazir-ahmed,Benazir Ahmed,Former RAB director general and police chief linked to sanctions and rights-abuse allegations,leader,1,130,"bangladesh, rab, police, sanctions, human-rights, enforced-disappearance, accountability"
-88,bhaskaravarman,Bhaskaravarman,Kamarupa King,leader,1,130,
-89,charu-majumdar,Charu Majumdar,Radical left political organizer,leader,1,130,"west-bengal, left-politics, naxalite, contested-history"
-90,dudu-miyan,Dudu Miyan,Organizer of Faraizi peasant mobilization,leader,1,130,"faraizi, peasant, agrarian, muslim-history"
-91,fazlur-rahman,Fazlur Rahman,BNP leader and freedom fighter,leader,1,130,"bnp, election-2026, freedom-fighter"
-92,ghiyasuddin-azam-shah,Ghiyasuddin Azam Shah,Sultan of Bengal,leader,1,130,
-93,harshavardhana,Harshavardhana,North Indian Ruler,leader,1,130,
-94,hasinur-rahman,Hasinur Rahman,Former army and RAB officer; enforced-disappearance witness,leader,1,130,"bangladesh, human-rights, enforced-disappearance, aynaghar, rab, dgfi, military, 2018, 2020, 2026, accountability"
-95,junayed-al-habib,Maulana Junayed Al Habib,Jamiat-e-Ulema-e-Islam Bangladesh vice-president,leader,1,130,"alliance, election-2026, jamiat"
-96,kazi-abdul-wadud,Kazi Abdul Wadud,Essayist and Intellectual,leader,1,130,
-97,khan-bahadur-ahsanullah,Khan Bahadur Ahsanullah,Educationist and social philanthropist,leader,1,130,"education, philanthropy, muslim-history, society"
+1,nusrat-shah,Nusrat Shah,Hussain Shahi ruler in the Afghan-Mughal transition era,leader,4,220,"bengal-history, rulership, political-transition"
+2,asaduzzaman-khan-kamal,Asaduzzaman Khan Kamal,Former home minister linked to security-force accountability debates,leader,3,190,"bangladesh, home-ministry, security-forces, state-crackdown, 2018, 2024, accountability"
+3,ashrafuzzaman-khan,Ashrafuzzaman Khan,Al-Badr figure convicted in absentia in the intellectual-killings case,leader,3,190,"1971, al-badr, intellectual-killings, war-crimes-trial, ict"
+4,chand-rai,Chand Rai,Regional landed-military figure linked to Bhati resistance context,leader,3,190,"bengal-history, rulership, political-transition"
+5,chowdhury-mueen-uddin,Chowdhury Mueen Uddin,Al-Badr figure convicted in absentia in the intellectual-killings case,leader,3,190,"1971, al-badr, intellectual-killings, war-crimes-trial, ict"
+6,kedar-rai,Kedar Rai,Regional chief associated with anti-Mughal resistance networks,leader,3,190,"bengal-history, rulership, political-transition"
+7,krishnachandra-ray-of-nadia,Krishnachandra Ray of Nadia,Nadia ruler linked to mid-18th-century political realignments,leader,3,190,"bengal-history, rulership, political-transition"
+8,lakshmana-sena,Lakshmana Sena,Last major Sena ruler before Turkic conquest phase,leader,3,190,"bengal-history, rulership, political-transition"
+9,major-ma-manzur,Major M. A. Manzur,Sector 8 and Sector 9 Commander (Later Phase),leader,3,190,"sector-8, sector-9, command-transition"
+10,mukunda-ray-of-bhusna,Mukunda Ray of Bhusna,Regional chief associated with confederate resistance milieu,leader,3,190,"bengal-history, rulership, political-transition"
+11,musa-khan,Musa Khan,Successor figure in Baro-Bhuyans resistance,leader,3,190,"baro-bhuyans, bhati, mughal-era"
+12,nawab-abdul-latif,Nawab Abdul Latif,Muslim education reform advocate in Bengal,leader,3,190,"education, reform, muslim-history, bengal"
+13,pratapaditya,Pratapaditya,Jessore ruler associated with late-16th/early-17th-century regional autonomy struggles,leader,3,190,"bengal-history, rulership, political-transition"
+14,rao-farman-ali,Rao Farman Ali,Pakistan Army major general linked to Operation Searchlight planning and intellectual-killings allegations,leader,3,190,"1971, operation-searchlight, pakistan-army, intellectual-killings, war-crimes-memory, military-command"
+15,syed-ameer-ali,Syed Ameer Ali,Jurist and Muslim political intellectual,leader,3,190,"law, politics, muslim-history, colonial"
+16,pakistan-peoples-party,Pakistan Peoples Party,Political Party in Pakistan,organization,3,155,"1971, liberation-war, military-command, political-leadership"
+17,abul-kalam-azad-bachchu-razakar,Abul Kalam Azad (Bachchu Razakar),Fugitive ICT convict known as Bachchu Razakar,leader,2,160,"1971, razakar, war-crimes-trial, ict, bachchu-razakar, in-absentia"
+18,alauddin-husain-shah,Alauddin Husain Shah,Sultan associated with the high phase of the Hussain Shahi period,leader,2,160,"bengal-history, rulership, political-transition"
+19,atm-azharul-islam,ATM Azharul Islam,Jamaat leader in contested 1971 war-crimes proceedings,leader,2,160,"1971, jamaat-e-islami, war-crimes-trial, ict, appeal, legal-status-contested"
+20,ballala-sena,Ballala Sena,Sena ruler tied to elite social ordering and royal consolidation,leader,2,160,"bengal-history, rulership, political-transition"
+21,devapala,Devapala,Pala ruler linked to the high phase of Pala influence,leader,2,160,"bengal-history, rulership, political-transition"
+22,dharmapala,Dharmapala,Pala ruler associated with imperial expansion in early medieval Bengal,leader,2,160,"bengal-history, rulership, political-transition"
+23,dinabandhu-mitra,Dinabandhu Mitra,Playwright and Public Critic,leader,2,160,
+24,fakhruddin-mubarak-shah,Fakhruddin Mubarak Shah,Sultan of Sonargaon,leader,2,160,
+25,farrukhsiyar,Farrukhsiyar,Mughal emperor who formalized Bengal's nawabi phase,leader,2,160,"mughal, nawab, 1717, murshidabad"
+26,gopala-i,Gopala I,Founder of the Pala dynasty in Bengal,leader,2,160,"bengal-history, rulership, political-transition"
+27,harish-chandra-mukherjee,Harish Chandra Mukherjee,Journalist and Editor,leader,2,160,
+28,humayun-mughal,Humayun,Mughal emperor in the Bengal campaign era,leader,2,160,"mughal, bengal, 1538, 1539"
+29,ivy-rahman,Ivy Rahman,Awami League leader and August 21 attack victim,leader,2,160,"awami-league, political-violence, 2004"
+30,jahanzeb-arbab,Jahanzeb Arbab,Pakistan Army brigade commander associated with 1971 operations,leader,2,160,"1971, pakistan-army, operation-searchlight, military-command, field-command"
+31,jalaluddin-muhammad-shah,Jalaluddin Muhammad Shah,Sultan linked to post-Raja Ganesh political settlement,leader,2,160,"bengal-history, rulership, political-transition"
+32,job-charnock,Job Charnock,East India Company Agent,leader,2,160,
+33,k-m-obaidur-rahman,K. M. Obaidur Rahman,Politician,leader,2,160,"1971, liberation-war, political-leadership"
+34,kazi-arif-ahmed,Kazi Arif Ahmed,Left political leader,leader,2,160,"1990, democracy, anti-ershad-movement, party-politics, civic-culture"
+35,khadim-hussain-raja,Khadim Hussain Raja,Pakistan Army commander involved in Operation Searchlight planning,leader,2,160,"1971, operation-searchlight, pakistan-army, military-command, crackdown"
+36,m-hamidullah-khan,Squadron Leader M. Hamidullah Khan,Sector 11 Commander (Later Phase),leader,2,160,"sector-11, north-central-front, command-transition"
+37,man-singh-i,Man Singh I,Mughal commander in Bengal campaigns,leader,2,160,"mughal, military, bengal-campaigns"
+38,michael-madhusudan-dutt,Michael Madhusudan Dutt,Poet-dramatist and pioneer of modern Bengali literary form,leader,2,160,"poetry, drama, literature, modernity"
+39,mir-qasim,Mir Qasim,Nawab of Bengal,leader,2,160,
+40,mir-quasem-ali,Mir Quasem Ali,Jamaat-e-Islami and Al-Badr figure convicted in a 1971 war-crimes case,leader,2,160,"1971, al-badr, jamaat-e-islami, war-crimes-trial, chittagong, ict"
+41,mk-bashar,Wing Commander M. K. Bashar,Sector 6 Commander,leader,2,160,"sector-6, northern-front, command"
+42,mofazzal-haider-chaudhury,Mofazzal Haider Chaudhury,Academic and intellectual,leader,2,160,"1971, liberation-war, political-leadership, intellectual-history"
+43,muhammad-kamaruzzaman,Muhammad Kamaruzzaman,Jamaat leader,leader,2,160,"1971, liberation-war, political-leadership"
+44,mujibul-haque-chunnu,Mujibul Haque Chunnu,Politician,leader,2,160,
+45,munim-khan,Munim Khan,Mughal Commander,leader,2,160,
+46,nawab-abdul-ghani,Nawab Abdul Ghani,Dhaka Nawab and civic patron,leader,2,160,"dhaka, nawab, civic-history, muslim-history"
+47,nawab-ali-chowdhury,Nawab Ali Chowdhury,Muslim education patron and politician,leader,2,160,
+48,rafiq-uddin-ahmed,Rafiq Uddin Ahmed,Language movement martyr,leader,2,160,
+49,raja-ganesh,Raja Ganesh,Regional ruler central to the 15th-century succession crisis in Bengal,leader,2,160,"bengal-history, rulership, political-transition"
+50,raja-sitaram-ray,Raja Sitaram Ray,Regional zamindar power figure in early-18th-century Bengal,leader,2,160,"bengal-history, rulership, political-transition"
+51,rokeya-kabir,Rokeya Kabir,Women rights organizer,leader,2,160,"1990, democracy, anti-ershad-movement, party-politics, civic-culture"
+52,salahuddin-quader-chowdhury,Salahuddin Quader Chowdhury,Politician,leader,2,160,
+53,selina-parvin,Selina Parvin,Journalist and editor,leader,2,160,"1971, liberation-war, political-leadership, intellectual-history"
+54,shafiur-rahman,Shafiur Rahman,Language movement martyr,leader,2,160,
+55,shah-alam-ii,Shah Alam II,Mughal Emperor,leader,2,160,
+56,shah-ams-kibria,Shah A. M. S. Kibria,Diplomat and finance minister,leader,2,160,
+57,shah-azizur-rahman,Shah Azizur Rahman,Politician and prime minister,leader,2,160,"1971, liberation-war, political-leadership"
+58,shahidullah-kaiser,Shahidullah Kaiser,Writer and journalist,leader,2,160,"1971, liberation-war, political-leadership, intellectual-history"
+59,shamsur-rahman,Shamsur Rahman,Poet and public intellectual,leader,2,160,"1990, democracy, anti-ershad-movement, party-politics, civic-culture"
+60,sheikh-fazlul-haque-moni,Sheikh Fazlul Haque Moni,Political organizer,leader,2,160,"1971, liberation-war, political-leadership"
+61,sher-shah-suri,Sher Shah Suri,Afghan ruler who defeated Humayun at Chausa,leader,2,160,"afghan, chausa, 1539, suri"
+62,sikandar-shah,Sikandar Shah,Sultan of Bengal,leader,2,160,
+63,siraj-sikder,Siraj Sikder,Revolutionary political leader,leader,2,160,
+64,syed-amir-ali,Syed Amir Ali,Jurist and political thinker,leader,2,160,
+65,syed-shamsul-haq,Syed Shamsul Haq,Poet and playwright,leader,2,160,"1971, liberation-war, political-leadership, intellectual-history, culture"
+66,ziaul-ahsan,Ziaul Ahsan,Security and intelligence figure linked to disappearance and surveillance allegations,leader,2,160,"bangladesh, security-forces, intelligence, enforced-disappearance, aynaghar, surveillance, rab, accountability"
+67,communist-party-of-india,Communist Party of India,Communist Political Party in Colonial and Postcolonial India,organization,2,125,"communist-party-of-india, cpi, tebhaga, left-politics, peasant-mobilization, party-politics"
+68,forward-bloc,Forward Bloc,Anti-Colonial Political Party Associated with Subhas Chandra Bose,organization,2,125,"subhas-chandra-bose, anti-colonial, left-nationalism, partition, party-politics"
+69,hindu-mahasabha,Hindu Mahasabha,Hindu Nationalist Political Organization in British India,organization,2,125,"hindu-mahasabha, partition, 1947, syama-prasad-mukherjee, party-politics"
+70,jamiat-e-ulema-e-islam-bangladesh,Jamiat-e-Ulema-e-Islam Bangladesh,Religious-Political Party in Bangladesh,organization,2,125,
+71,jatiya-party,Jatiya Party,Political Party in Bangladesh,organization,2,125,"1990, democracy, anti-ershad-movement, party-politics, caretaker-transition"
+72,krishak-praja-party,Krishak Praja Party,Peasant-Oriented Political Party in Bengal,organization,2,125,
+73,national-awami-party,National Awami Party,Left-Nationalist Political Party in Pakistan and Bangladesh,organization,2,125,"nap, left-politics, bhashani, 1969, farakka, party-politics"
+74,pulin-behari-das,Pulin Behari Das,Revolutionary organizer in eastern Bengal,revolutionary,2,100,"anushilan, swadeshi, anti-colonial, eastern-bengal"
+75,abu-jafar-shamsuddin,Abu Jafar Shamsuddin,Writer and public intellectual in East Pakistan era,leader,1,130,"writer, journalism, culture, muslim-history"
+76,abul-hussain,Abul Hussain,Writer and Modernist Thinker,leader,1,130,
+77,akhtar-ahmed,Akhtar Ahmed,Election Commission senior secretary,leader,1,130,"election-commission, election-2026, administration"
+78,alaol,Alaol,Court Poet,leader,1,130,
+79,amm-nasir-uddin,AMM Nasir Uddin,Chief Election Commissioner,leader,1,130,"election-commission, election-2026, administration"
+80,andaleeve-rahman-partho,Andaleeve Rahman Partho,Chairman of Bangladesh Jatiya Party,leader,1,130,"parliament, reform, election-2026"
+81,asaduzzaman-fuaad,Barrister Asaduzzaman Fuaad,General secretary of AB Party,leader,1,130,"ab-party, election-2026, campaign"
+82,badiul-alam-majumdar,Badiul Alam Majumdar,Chief of the Election Reform Commission,leader,1,130,"reform-commission, election-2026, transparency"
+83,bangla-bhai,Siddique ul-Islam (Bangla Bhai),JMJB/JMB militant commander,leader,1,130,"militancy, jmb, jmjb"
+84,benazir-ahmed,Benazir Ahmed,Former RAB director general and police chief linked to sanctions and rights-abuse allegations,leader,1,130,"bangladesh, rab, police, sanctions, human-rights, enforced-disappearance, accountability"
+85,bhaskaravarman,Bhaskaravarman,Kamarupa King,leader,1,130,
+86,bhavadeva,Bhavadeva,Deva ruler linked to southeastern Bengal,leader,1,130,"bengal, regional-history, content-gap"
+87,charu-majumdar,Charu Majumdar,Radical left political organizer,leader,1,130,"west-bengal, left-politics, naxalite, contested-history"
+88,dudu-miyan,Dudu Miyan,Organizer of Faraizi peasant mobilization,leader,1,130,"faraizi, peasant, agrarian, muslim-history"
+89,fazlur-rahman,Fazlur Rahman,BNP leader and freedom fighter,leader,1,130,"bnp, election-2026, freedom-fighter"
+90,ghiyasuddin-azam-shah,Ghiyasuddin Azam Shah,Sultan of Bengal,leader,1,130,
+91,harshavardhana,Harshavardhana,North Indian Ruler,leader,1,130,
+92,hasinur-rahman,Hasinur Rahman,Former army and RAB officer; enforced-disappearance witness,leader,1,130,"bangladesh, human-rights, enforced-disappearance, aynaghar, rab, dgfi, military, 2018, 2020, 2026, accountability"
+93,ishan-chandra-roy,Ishan Chandra Roy,Pabna peasant organizer,leader,1,130,"bengal, regional-history, content-gap"
+94,junayed-al-habib,Maulana Junayed Al Habib,Jamiat-e-Ulema-e-Islam Bangladesh vice-president,leader,1,130,"alliance, election-2026, jamiat"
+95,kazi-abdul-wadud,Kazi Abdul Wadud,Essayist and Intellectual,leader,1,130,
+96,khan-bahadur-ahsanullah,Khan Bahadur Ahsanullah,Educationist and social philanthropist,leader,1,130,"education, philanthropy, muslim-history, society"
+97,khan-jahan-ali,Khan Jahan Ali,Sufi administrator and regional builder in Bengal,leader,1,130,"sultanate, architecture, bagerhat, regional-history"
 98,khwaja-usman,Khwaja Usman,Afghan Resistance Leader,leader,1,130,
-99,mahdi-amin,Mahdi Amin,BNP Central Election Steering Committee spokesperson,leader,1,130,"bnp, election-2026, spokesperson"
-100,mahipala-i,Mahipala I,Later Pala ruler linked to political recovery and consolidation,leader,1,130,"bengal-history, rulership, political-transition"
-101,major-rafiqul-islam,Major Rafiqul Islam,Sector 1 Commander (Later Phase),leader,1,130,"sector-1, command-transition, southeastern-front"
-102,mohammad-ali-jauhar,Mohammad Ali Jauhar,Khilafat leader in anti-colonial mass politics,leader,1,130,"khilafat, anti-colonial, mass-politics"
-103,mufti-hannan,Mufti Abdul Hannan,HuJI-B militant leader and convicted attacker,leader,1,130,"militancy, huji-b, counter-terrorism"
-104,nizamul-huq-judge,Nizamul Huq,Judge,leader,1,130,
-105,paragal-khan,Paragal Khan,Military Governor and Patron,leader,1,130,
-106,rukunuddin-barbak-shah,Rukunuddin Barbak Shah,Sultan of Bengal,leader,1,130,
-107,rumeen-farhana,Rumeen Farhana,Independent candidate and former BNP leader,leader,1,130,"independent, election-2026, bnp"
-108,saifuddin-firuz-shah,Saifuddin Firuz Shah,Sultan of Bengal,leader,1,130,
-109,salahuddin-ahmed,Salahuddin Ahmed,Senior BNP Standing Committee member,leader,1,130,"bnp, election-2026, transition"
-110,shafiqur-rahman,Shafiqur Rahman,Ameer of Bangladesh Jamaat-e-Islami,leader,1,130,"jamaat-e-islami, election-2026, opposition"
-111,shah-jalal,Shah Jalal,Sufi figure associated with the Sylhet conquest era,leader,1,130,"sylhet, sufism, medieval, frontier"
-112,shah-muhammad-sagir,Shah Muhammad Sagir,Poet of Early Bengali Muslim Literature,leader,1,130,
-113,shaukat-ali,Shaukat Ali,Khilafat organizer and movement leader,leader,1,130,"khilafat, mass-movement, politics"
-114,sikandar-khan-ghazi,Sikandar Khan Ghazi,Commander linked to the Sylhet campaign,leader,1,130,"sylhet, campaign, sultanate"
-115,sulaiman-khan-karrani,Sulaiman Khan Karrani,Karrani Ruler of Bengal,leader,1,130,
-116,syed-abdullah-mohammad-taher,Syed Abdullah Mohammad Taher,Deputy leader of Bangladesh Jamaat-e-Islami,leader,1,130,"jamaat-e-islami, election-2026, parliament"
-117,syed-sultan,Syed Sultan,Bengali Muslim Poet,leader,1,130,
-118,tarique-rahman,Tarique Rahman,Chairman of the Bangladesh Nationalist Party,leader,1,130,"bnp, election-2026, prime-minister"
-119,todar-mal,Todar Mal,Mughal Revenue Administrator,leader,1,130,
-120,vijaya-sena,Vijaya Sena,Sena ruler associated with transition in late pre-Sultanate Bengal,leader,1,130,"bengal-history, rulership, political-transition"
-121,warren-hastings,Warren Hastings,Company Governor-General,leader,1,130,
-122,ab-party,AB Party,Political Party in Bangladesh,organization,1,95,
-123,baksal,Bangladesh Krishak Sramik Awami League,One-Party Political Framework in 1975 Bangladesh,organization,1,95,"1975, baksal, one-party-system, state-crisis, party-politics"
-124,bangladesh-jatiya-party,Bangladesh Jatiya Party,Political Party in Bangladesh,organization,1,95,"election-2026, parliament, coalition-politics, reform, party-politics"
-125,ganatantri-dal,Ganatantri Dal,Left-Leaning Political Party in East Bengal,organization,1,95,"1954, united-front, left-politics, east-bengal, party-politics"
-126,gono-forum,Gono Forum,Reform-Oriented Political Party in Bangladesh,organization,1,95,"kamal-hossain, reform-politics, 2018-election, opposition-politics, party-politics"
-127,islami-andolan-bangladesh,Islami Andolan Bangladesh,Islamist Political Party in Bangladesh,organization,1,95,"islamist-politics, election-2026, religious-politics, bangladesh, party-politics"
-128,krishak-sramik-party,Krishak Sramik Party,Peasant-Labour Political Party in East Bengal,organization,1,95,"1954, united-front, ak-fazlul-huq, peasant-politics, party-politics"
-129,national-citizen-party,National Citizen Party,Student-Led Political Party in Bangladesh,organization,1,95,
-130,nizam-e-islam-party,Nizam-e-Islam Party,Islamic Political Party in East Bengal and Pakistan,organization,1,95,"1954, united-front, east-bengal, islamic-politics, party-politics"
-131,united-front-1954,United Front,Opposition Electoral Alliance in East Bengal,organization,1,95,"1954, united-front, east-bengal, autonomy-politics, party-politics"
-132,david-hare,David Hare,Education reformer in early colonial Calcutta,intellectual,1,70,"education, reform, calcutta, bengal-renaissance"
-133,henry-louis-vivian-derozio,Henry Louis Vivian Derozio,"Teacher, poet, and early Bengal Renaissance intellectual",intellectual,1,70,"bengal-renaissance, education, young-bengal, intellectual"
-134,mohiuddin-jahangir,Mohiuddin Jahangir,Bir Sreshtho (Army Martyr),martyr,1,70,"bir-sreshtho, army, chapai-nawabganj"
-135,abul-fazal,Abul Fazal,"Writer, educationist, and rationalist Muslim thinker",leader,0,100,"literature, education, rationalism, bengali-muslim"
-136,ahmad-sirhindi,Imam Ahmad Sirhindi,Naqshbandi scholar and Sunni revivalist,leader,0,100,"naqshbandi, islamic-reform, intellectual-history, south-asia"
-137,ahmad-sofa,Ahmad Sofa,Writer and critic of Bengali Muslim identity,leader,0,100,"literature, identity, bengali-muslim, intellectual-history"
-138,ashraf-ali-thanwi,Ashraf Ali Thanwi,Deobandi scholar and religious-social reform influence,leader,0,100,"deobandi, religious-reform, muslim-history, south-asia"
-139,farrukh-ahmad,Farrukh Ahmad,Poet of Islamic literary modernism,leader,0,100,"poetry, islamic-literature, bengali-muslim, literary-modernism"
-140,jibanananda-das,Jibanananda Das,Poet of modern Bengali literature,leader,0,100,"poetry, literature, modernity, bengali-canon"
-141,karamat-ali-jaunpuri,Karamat Ali Jaunpuri,Islamic preacher and reformist debater,leader,0,100,"islamic-reform, preaching, muslim-history, colonial-bengal"
-142,khan-jahan-ali,Khan Jahan Ali,Sufi administrator and regional builder in Bengal,leader,0,100,"sultanate, architecture, bagerhat, regional-history"
-143,khudiram-bose,Khudiram Bose,Revolutionary anti-colonial activist,leader,0,100,"anti-colonial, revolutionary, swadeshi-era, martyr-memory"
-144,lalon-shah,Lalon Shah,Mystic poet and Baul philosopher,leader,0,100,"baul, folk-culture, spirituality, pluralism"
-145,matangini-hazra,Matangini Hazra,Grassroots anti-colonial activist,leader,0,100,"anti-colonial, women-history, mass-politics, bengal"
-146,maulana-abul-kalam-azad,Maulana Abul Kalam Azad,Muslim scholar-politician of anti-colonial India,leader,0,100,"anti-colonial, education, pluralism, muslim-history"
-147,muhammad-iqbal,Muhammad Iqbal,Philosopher-poet of Muslim selfhood,leader,0,100,"philosophy, poetry, muslim-political-thought, south-asia"
-148,munshi-mohammad-meherullah,Munshi Mohammad Meherullah,Islamic debater and social reform writer,leader,0,100,"islamic-debate, social-reform, muslim-history, colonial-bengal"
-149,professor-abdur-razzaq,Professor Abdur Razzaq,Political thinker and intellectual mentor,leader,0,100,"intellectual-history, political-thought, bangladesh, mentorship"
-150,qasim-nanautavi,Maulana Qasim Nanautavi,Founder figure of Darul Uloom Deoband,leader,0,100,"deoband, madrasa, islamic-scholarship, south-asia"
-151,rashid-ahmad-gangohi,Rashid Ahmad Gangohi,Deobandi scholar of fiqh and tasawwuf,leader,0,100,"deoband, fiqh, tasawwuf, ulama"
-152,satyajit-ray,Satyajit Ray,Filmmaker and literary-cultural figure,leader,0,100,"cinema, culture, bengali-modernity, literature"
-153,sayyid-ahmad-barelvi,Sayyid Ahmad Barelvi,Reformist leader of the Tariqah-i-Muhammadiya,leader,0,100,"tariqah-i-muhammadiya, resistance, islamic-reform, south-asia"
-154,shah-abdul-aziz-dehlawi,Shah Abdul Aziz Dehlawi,Hadith scholar and reformist legal thinker,leader,0,100,"hadith, islamic-reform, legal-thought, south-asia"
-155,shah-ismail-dehlawi,Shah Ismail Dehlawi,Reformist scholar of tawhid and religious purification,leader,0,100,"tawhid, islamic-reform, religious-debate, south-asia"
-156,shah-waliullah-dehlawi,Shah Waliullah Dehlawi,Islamic scholar and reformist intellectual root,leader,0,100,"islamic-reform, intellectual-history, muslim-history, south-asia"
-157,sheikh-abdur-rahim,Sheikh Abdur Rahim,Journalist and Bengali Muslim literary reformer,leader,0,100,"journalism, literature, muslim-history, bengali-prose"
-158,shibli-nomani,Shibli Nomani,Islamic historian and literary scholar,leader,0,100,"islamic-history, biography, nadwa, intellectual-history"
-159,syed-ahmad-khan,Syed Ahmad Khan,Muslim reformer and education modernizer,leader,0,100,"education, reform, muslim-history, colonial"
-160,zainul-abedin,Zainul Abedin,Artist and institution builder,leader,0,100,"art, famine, modernity, culture"
-161,debendranath-tagore,Debendranath Tagore,Brahmo reformer and intellectual organizer,intellectual,0,40,"brahmo-samaj, reform, bengal-renaissance"
-162,keshab-chandra-sen,Keshab Chandra Sen,Brahmo Samaj reformer and public speaker,intellectual,0,40,"brahmo-samaj, reform, public-debate"
-163,pulin-behari-das,Pulin Behari Das,Revolutionary organizer in eastern Bengal,revolutionary,0,40,"anushilan, swadeshi, anti-colonial, eastern-bengal"
+99,koodi-molla,Koodi Molla,Pabna peasant organizer,leader,1,130,"bengal, regional-history, content-gap"
+100,mahdi-amin,Mahdi Amin,BNP Central Election Steering Committee spokesperson,leader,1,130,"bnp, election-2026, spokesperson"
+101,mahipala-i,Mahipala I,Later Pala ruler linked to political recovery and consolidation,leader,1,130,"bengal-history, rulership, political-transition"
+102,major-rafiqul-islam,Major Rafiqul Islam,Sector 1 Commander (Later Phase),leader,1,130,"sector-1, command-transition, southeastern-front"
+103,mohammad-ali-jauhar,Mohammad Ali Jauhar,Khilafat leader in anti-colonial mass politics,leader,1,130,"khilafat, anti-colonial, mass-politics"
+104,mufti-hannan,Mufti Abdul Hannan,HuJI-B militant leader and convicted attacker,leader,1,130,"militancy, huji-b, counter-terrorism"
+105,nizamul-huq-judge,Nizamul Huq,Judge,leader,1,130,
+106,paragal-khan,Paragal Khan,Military Governor and Patron,leader,1,130,
+107,rukunuddin-barbak-shah,Rukunuddin Barbak Shah,Sultan of Bengal,leader,1,130,
+108,rumeen-farhana,Rumeen Farhana,Independent candidate and former BNP leader,leader,1,130,"independent, election-2026, bnp"
+109,saifuddin-firuz-shah,Saifuddin Firuz Shah,Sultan of Bengal,leader,1,130,
+110,salahuddin-ahmed,Salahuddin Ahmed,Senior BNP Standing Committee member,leader,1,130,"bnp, election-2026, transition"
+111,shafiqur-rahman,Shafiqur Rahman,Ameer of Bangladesh Jamaat-e-Islami,leader,1,130,"jamaat-e-islami, election-2026, opposition"
+112,shah-jalal,Shah Jalal,Sufi figure associated with the Sylhet conquest era,leader,1,130,"sylhet, sufism, medieval, frontier"
+113,shah-muhammad-sagir,Shah Muhammad Sagir,Poet of Early Bengali Muslim Literature,leader,1,130,
+114,shambhu-nath-pal,Shambhu Nath Pal,Pabna peasant organizer,leader,1,130,"bengal, regional-history, content-gap"
+115,shaukat-ali,Shaukat Ali,Khilafat organizer and movement leader,leader,1,130,"khilafat, mass-movement, politics"
+116,sikandar-khan-ghazi,Sikandar Khan Ghazi,Commander linked to the Sylhet campaign,leader,1,130,"sylhet, campaign, sultanate"
+117,srichandra,Srichandra,Chandra ruler of southeastern Bengal,leader,1,130,"bengal, regional-history, content-gap"
+118,sulaiman-khan-karrani,Sulaiman Khan Karrani,Karrani Ruler of Bengal,leader,1,130,
+119,syed-abdullah-mohammad-taher,Syed Abdullah Mohammad Taher,Deputy leader of Bangladesh Jamaat-e-Islami,leader,1,130,"jamaat-e-islami, election-2026, parliament"
+120,syed-sultan,Syed Sultan,Bengali Muslim Poet,leader,1,130,
+121,tarique-rahman,Tarique Rahman,Chairman of the Bangladesh Nationalist Party,leader,1,130,"bnp, election-2026, prime-minister"
+122,todar-mal,Todar Mal,Mughal Revenue Administrator,leader,1,130,
+123,vijaya-sena,Vijaya Sena,Sena ruler associated with transition in late pre-Sultanate Bengal,leader,1,130,"bengal-history, rulership, political-transition"
+124,warren-hastings,Warren Hastings,Company Governor-General,leader,1,130,
+125,ab-party,AB Party,Political Party in Bangladesh,organization,1,95,
+126,baksal,Bangladesh Krishak Sramik Awami League,One-Party Political Framework in 1975 Bangladesh,organization,1,95,"1975, baksal, one-party-system, state-crisis, party-politics"
+127,bangladesh-jatiya-party,Bangladesh Jatiya Party,Political Party in Bangladesh,organization,1,95,"election-2026, parliament, coalition-politics, reform, party-politics"
+128,ganatantri-dal,Ganatantri Dal,Left-Leaning Political Party in East Bengal,organization,1,95,"1954, united-front, left-politics, east-bengal, party-politics"
+129,gono-forum,Gono Forum,Reform-Oriented Political Party in Bangladesh,organization,1,95,"kamal-hossain, reform-politics, 2018-election, opposition-politics, party-politics"
+130,islami-andolan-bangladesh,Islami Andolan Bangladesh,Islamist Political Party in Bangladesh,organization,1,95,"islamist-politics, election-2026, religious-politics, bangladesh, party-politics"
+131,krishak-sramik-party,Krishak Sramik Party,Peasant-Labour Political Party in East Bengal,organization,1,95,"1954, united-front, ak-fazlul-huq, peasant-politics, party-politics"
+132,national-citizen-party,National Citizen Party,Student-Led Political Party in Bangladesh,organization,1,95,
+133,nizam-e-islam-party,Nizam-e-Islam Party,Islamic Political Party in East Bengal and Pakistan,organization,1,95,"1954, united-front, east-bengal, islamic-politics, party-politics"
+134,united-front-1954,United Front,Opposition Electoral Alliance in East Bengal,organization,1,95,"1954, united-front, east-bengal, autonomy-politics, party-politics"
+135,david-hare,David Hare,Education reformer in early colonial Calcutta,intellectual,1,70,"education, reform, calcutta, bengal-renaissance"
+136,debendranath-tagore,Debendranath Tagore,Brahmo reformer and intellectual organizer,intellectual,1,70,"brahmo-samaj, reform, bengal-renaissance"
+137,henry-louis-vivian-derozio,Henry Louis Vivian Derozio,"Teacher, poet, and early Bengal Renaissance intellectual",intellectual,1,70,"bengal-renaissance, education, young-bengal, intellectual"
+138,kalpona-akter,Kalpona Akter,Garment labor-rights organizer,coordinator,1,70,"bengal, regional-history, content-gap"
+139,keshab-chandra-sen,Keshab Chandra Sen,Brahmo Samaj reformer and public speaker,intellectual,1,70,"brahmo-samaj, reform, public-debate"
+140,mohiuddin-jahangir,Mohiuddin Jahangir,Bir Sreshtho (Army Martyr),martyr,1,70,"bir-sreshtho, army, chapai-nawabganj"
+141,sumi-abedin,Sumi Abedin,Tazreen survivor and labor-safety witness,coordinator,1,70,"bengal, regional-history, content-gap"
+142,abul-fazal,Abul Fazal,"Writer, educationist, and rationalist Muslim thinker",leader,0,100,"literature, education, rationalism, bengali-muslim"
+143,ahmad-sirhindi,Imam Ahmad Sirhindi,Naqshbandi scholar and Sunni revivalist,leader,0,100,"naqshbandi, islamic-reform, intellectual-history, south-asia"
+144,ahmad-sofa,Ahmad Sofa,Writer and critic of Bengali Muslim identity,leader,0,100,"literature, identity, bengali-muslim, intellectual-history"
+145,ashraf-ali-thanwi,Ashraf Ali Thanwi,Deobandi scholar and religious-social reform influence,leader,0,100,"deobandi, religious-reform, muslim-history, south-asia"
+146,farrukh-ahmad,Farrukh Ahmad,Poet of Islamic literary modernism,leader,0,100,"poetry, islamic-literature, bengali-muslim, literary-modernism"
+147,jibanananda-das,Jibanananda Das,Poet of modern Bengali literature,leader,0,100,"poetry, literature, modernity, bengali-canon"
+148,karamat-ali-jaunpuri,Karamat Ali Jaunpuri,Islamic preacher and reformist debater,leader,0,100,"islamic-reform, preaching, muslim-history, colonial-bengal"
+149,khudiram-bose,Khudiram Bose,Revolutionary anti-colonial activist,leader,0,100,"anti-colonial, revolutionary, swadeshi-era, martyr-memory"
+150,lalon-shah,Lalon Shah,Mystic poet and Baul philosopher,leader,0,100,"baul, folk-culture, spirituality, pluralism"
+151,matangini-hazra,Matangini Hazra,Grassroots anti-colonial activist,leader,0,100,"anti-colonial, women-history, mass-politics, bengal"
+152,maulana-abul-kalam-azad,Maulana Abul Kalam Azad,Muslim scholar-politician of anti-colonial India,leader,0,100,"anti-colonial, education, pluralism, muslim-history"
+153,muhammad-iqbal,Muhammad Iqbal,Philosopher-poet of Muslim selfhood,leader,0,100,"philosophy, poetry, muslim-political-thought, south-asia"
+154,munshi-mohammad-meherullah,Munshi Mohammad Meherullah,Islamic debater and social reform writer,leader,0,100,"islamic-debate, social-reform, muslim-history, colonial-bengal"
+155,professor-abdur-razzaq,Professor Abdur Razzaq,Political thinker and intellectual mentor,leader,0,100,"intellectual-history, political-thought, bangladesh, mentorship"
+156,qasim-nanautavi,Maulana Qasim Nanautavi,Founder figure of Darul Uloom Deoband,leader,0,100,"deoband, madrasa, islamic-scholarship, south-asia"
+157,rashid-ahmad-gangohi,Rashid Ahmad Gangohi,Deobandi scholar of fiqh and tasawwuf,leader,0,100,"deoband, fiqh, tasawwuf, ulama"
+158,satyajit-ray,Satyajit Ray,Filmmaker and literary-cultural figure,leader,0,100,"cinema, culture, bengali-modernity, literature"
+159,sayyid-ahmad-barelvi,Sayyid Ahmad Barelvi,Reformist leader of the Tariqah-i-Muhammadiya,leader,0,100,"tariqah-i-muhammadiya, resistance, islamic-reform, south-asia"
+160,shah-abdul-aziz-dehlawi,Shah Abdul Aziz Dehlawi,Hadith scholar and reformist legal thinker,leader,0,100,"hadith, islamic-reform, legal-thought, south-asia"
+161,shah-ismail-dehlawi,Shah Ismail Dehlawi,Reformist scholar of tawhid and religious purification,leader,0,100,"tawhid, islamic-reform, religious-debate, south-asia"
+162,shah-waliullah-dehlawi,Shah Waliullah Dehlawi,Islamic scholar and reformist intellectual root,leader,0,100,"islamic-reform, intellectual-history, muslim-history, south-asia"
+163,sheikh-abdur-rahim,Sheikh Abdur Rahim,Journalist and Bengali Muslim literary reformer,leader,0,100,"journalism, literature, muslim-history, bengali-prose"
+164,shibli-nomani,Shibli Nomani,Islamic historian and literary scholar,leader,0,100,"islamic-history, biography, nadwa, intellectual-history"
+165,syed-ahmad-khan,Syed Ahmad Khan,Muslim reformer and education modernizer,leader,0,100,"education, reform, muslim-history, colonial"
+166,zainul-abedin,Zainul Abedin,Artist and institution builder,leader,0,100,"art, famine, modernity, culture"
