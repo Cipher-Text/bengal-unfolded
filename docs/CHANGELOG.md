@@ -6,7 +6,7 @@
 
 - Key-figure image backfill:
   - Content backfill:
-    - Added sourced figure images for `all-india-muslim-league`, `indian-national-congress`, `islam-khan-chishti`, and `shaista-khan`.
+    - Added sourced figure images for `all-india-muslim-league`, `indian-national-congress`, `islam-khan-chishti`, `shaista-khan`, `asaduzzaman-khan-kamal`, `rao-farman-ali`, `nawab-abdul-latif`, and `syed-ameer-ali`.
     - Updated both EN and BN figure metadata with matching `image` paths.
   - Documentation:
     - Updated `docs/figure-image-sources.md` with source and license/status notes.

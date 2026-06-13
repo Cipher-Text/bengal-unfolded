@@ -8,9 +8,9 @@
 ## Executive Summary
 
 - **Total figures:** 554
-- **Coverage:** 388/554 figures have images (70.0%)
-- **Missing:** 166/554 figures still need images (30.0%)
-- **Storage:** 17.1 MB across 387 files
+- **Coverage:** 392/554 figures have images (70.8%)
+- **Missing:** 162/554 figures still need images (29.2%)
+- **Storage:** 18.0 MB across 391 files
 - **Data integrity:** No orphaned images, broken references, invalid paths, or locale mismatches
 
 ---
@@ -21,16 +21,16 @@
 
 | Format | Count | Percentage | Notes |
 | --- | ---: | ---: | --- |
-| WEBP | 382 | 98.7% | Preferred optimized format |
+| WEBP | 386 | 98.7% | Preferred optimized format |
 | SVG | 5 | 1.3% | Organization/alliance marks |
 
-**Total:** 387 files, 17.1 MB
+**Total:** 391 files, 18.0 MB
 
 ---
 
 ## Coverage Analysis
 
-### Figures With Images: 388 (70.0%)
+### Figures With Images: 392 (70.8%)
 
 Images follow the convention:
 
@@ -53,7 +53,7 @@ content/figures/<figure-id>/meta.en.json
 content/figures/<figure-id>/meta.bn.json
 ```
 
-### Figures Without Images: 166 (30.0%)
+### Figures Without Images: 162 (29.2%)
 
 The current priority list is maintained in:
 
@@ -66,15 +66,15 @@ Top current gaps by event usage:
 | Rank | Figure ID | Name | Event Count |
 | ---: | --- | --- | ---: |
 | 1 | `nusrat-shah` | Nusrat Shah | 4 |
-| 2 | `asaduzzaman-khan-kamal` | Asaduzzaman Khan Kamal | 3 |
-| 3 | `ashrafuzzaman-khan` | Ashrafuzzaman Khan | 3 |
-| 4 | `chand-rai` | Chand Rai | 3 |
-| 5 | `chowdhury-mueen-uddin` | Chowdhury Mueen Uddin | 3 |
-| 6 | `kedar-rai` | Kedar Rai | 3 |
-| 7 | `krishnachandra-ray-of-nadia` | Krishnachandra Ray of Nadia | 3 |
-| 8 | `lakshmana-sena` | Lakshmana Sena | 3 |
-| 9 | `major-ma-manzur` | Major M. A. Manzur | 3 |
-| 10 | `mukunda-ray-of-bhusna` | Mukunda Ray of Bhusna | 3 |
+| 2 | `ashrafuzzaman-khan` | Ashrafuzzaman Khan | 3 |
+| 3 | `chand-rai` | Chand Rai | 3 |
+| 4 | `chowdhury-mueen-uddin` | Chowdhury Mueen Uddin | 3 |
+| 5 | `kedar-rai` | Kedar Rai | 3 |
+| 6 | `krishnachandra-ray-of-nadia` | Krishnachandra Ray of Nadia | 3 |
+| 7 | `lakshmana-sena` | Lakshmana Sena | 3 |
+| 8 | `major-ma-manzur` | Major M. A. Manzur | 3 |
+| 9 | `mukunda-ray-of-bhusna` | Mukunda Ray of Bhusna | 3 |
+| 10 | `musa-khan` | Musa Khan | 3 |
 
 ---
 
@@ -111,6 +111,15 @@ all-india-muslim-league
 indian-national-congress
 islam-khan-chishti
 shaista-khan
+```
+
+The 2026-06-14 backfill was extended with four more high-priority missing key figures:
+
+```text
+asaduzzaman-khan-kamal
+nawab-abdul-latif
+rao-farman-ali
+syed-ameer-ali
 ```
 
 Source and license notes for those additions are recorded in:

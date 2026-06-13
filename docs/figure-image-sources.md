@@ -8,6 +8,10 @@ This file records source and license notes for figure images added to `public/fi
 | `indian-national-congress` | Wikimedia Commons: [Flag of the Indian National Congress (1931-1971).svg](https://commons.wikimedia.org/wiki/File:Flag_of_the_Indian_National_Congress_(1931%E2%80%931971).svg) | Public domain |
 | `islam-khan-chishti` | Wikimedia Commons: [Islam Khan Tomb, Sasaram.jpg](https://commons.wikimedia.org/wiki/File:Islam_Khan_Tomb,_Sasaram.jpg) | CC BY-SA 4.0 |
 | `shaista-khan` | Wikimedia Commons: [Shaista Khan's home.jpg](https://commons.wikimedia.org/wiki/File:Shaista_Khan%27s_home.jpg) | CC BY-SA 4.0 |
+| `asaduzzaman-khan-kamal` | Wikimedia Commons: [Asaduzzaman Khan 2023.jpg](https://commons.wikimedia.org/wiki/File:Asaduzzaman_Khan_2023.jpg) | CC BY 4.0 |
+| `rao-farman-ali` | Wikimedia Commons: [Rao Farman Ali Khan.webp](https://commons.wikimedia.org/wiki/File:Rao_Farman_Ali_Khan.webp) | CC BY 4.0 |
+| `nawab-abdul-latif` | Wikimedia Commons: [Twelve men of Bengal - Nawab Abdul Latif Khan Bahadur.jpg](https://commons.wikimedia.org/wiki/File:Twelve_men_of_Bengal_-_Nawab_Abdul_Latif_Khan_Bahadur.jpg) | Public domain |
+| `syed-ameer-ali` | Wikimedia Commons: [Syed Ameer Ali Grave Brookwood.jpg](https://commons.wikimedia.org/wiki/File:Syed_Ameer_Ali_Grave_Brookwood.jpg) | CC0 |
 | `aak-niazi` | Wikimedia Commons: [Pakistan Instrument of Surrender signed by A A K Niazi and Jagjit Singh Aurora at Ramna Race Course Maidan 1971-12-16 (PID-h0029).jpg](https://commons.wikimedia.org/wiki/File:Pakistan_Instrument_of_Surrender_signed_by_A_A_K_Niazi_and_Jagjit_Singh_Aurora_at_Ramna_Race_Course_Maidan_1971-12-16_(PID-h0029).jpg) | Public domain / PID archive metadata |
 | `sam-manekshaw` | Wikimedia Commons: [Field marshal SHFJ Manekshaw.jpg](https://commons.wikimedia.org/wiki/File:Field_marshal_SHFJ_Manekshaw.jpg) | Government Open Data License - India |
 | `daud-khan-karrani` | Wikimedia Commons: [Sultan Da'ud of Bengal. Captured in 1576.jpg](https://commons.wikimedia.org/wiki/File:Sultan_Da%27ud_of_Bengal._Captured_in_1576.jpg) | Wikimedia Commons free media metadata |
