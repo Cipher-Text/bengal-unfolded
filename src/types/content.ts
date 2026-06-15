@@ -67,6 +67,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "2006-caretaker-crisis-and-emergency-rule",
   "2007-2008-emergency-caretaker-rule",
   "2009-bdr-mutiny-pilkhana-massacre",
+  "2010-international-crimes-tribunal-begins",
   "2001-padua-pyrdiwah-boraibari-border-clash",
   "2002-2003-operation-clean-heart",
   "1997-chittagong-hill-tracts-peace-accord",

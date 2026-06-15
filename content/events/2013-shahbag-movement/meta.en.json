@@ -9,7 +9,7 @@
   "heroTagline": "Shahbag became a civic square where memory, justice, and protest converged.",
   "whyItMatters": "The Shahbag movement marked a major moment in contemporary Bangladesh, showing how public memory of 1971 could mobilize a new generation and reshape debate on justice, political legitimacy, and civic participation.",
   "importance": "high",
-  "parentEvent": "1990-mass-uprising",
+  "parentEvent": "2010-international-crimes-tribunal-begins",
   "childEventIds": [
     "2014-10th-parliamentary-election",
     "2013-rana-plaza-collapse"
@@ -24,6 +24,10 @@
       "relationType": "background"
     },
     {
+      "eventId": "2010-international-crimes-tribunal-begins",
+      "relationType": "background"
+    },
+    {
       "eventId": "2024-anti-discrimination-movement",
       "relationType": "parallel"
     }
@@ -31,6 +35,7 @@
   "relatedEventIds": [
     "1971-liberation-war",
     "1990-mass-uprising",
+    "2010-international-crimes-tribunal-begins",
     "2024-anti-discrimination-movement"
   ],
   "periodLabel": "Contemporary Memory and Civic Protest",

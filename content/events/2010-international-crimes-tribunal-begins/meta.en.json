@@ -1,0 +1,124 @@
+{
+  "slug": "2010-international-crimes-tribunal-begins",
+  "year": "2010",
+  "title": "International Crimes Tribunal Begins",
+  "subtitle": "A delayed accountability process for 1971 becomes an active institution of law, memory, and political conflict.",
+  "summary": "In 2010, Bangladesh operationalized the International Crimes Tribunal process to prosecute 1971-related crimes under the 1973 law. What had long remained an unresolved justice demand now moved into courts, reopening questions of accountability, public memory, due process, and political legitimacy that soon spilled into mass mobilization and counter-mobilization.",
+  "themeColor": "#8f3c4b",
+  "ctaLabel": "Trace the justice-politics chain",
+  "heroTagline": "The tribunal turned the memory of 1971 into an immediate courtroom and street-level question.",
+  "summarySourceIds": [
+    "international-crimes-tribunal-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMatters": "This chapter matters because it is the clearest bridge between the Liberation War's unresolved accountability question and the civic confrontations of the 2010s. Without the tribunal's start, Shahbag, the 2013 legal amendment cycle, and the Shapla Chattar crackdown appear as disconnected episodes rather than part of one justice-politics sequence.",
+  "whyItMattersSourceIds": [
+    "international-crimes-tribunal-banglapedia",
+    "shahbag-uprising-war-crimes-forgiveness"
+  ],
+  "importance": "major",
+  "childEventIds": [
+    "2013-shahbag-movement",
+    "2013-shapla-chattar-crackdown"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2013-shahbag-movement",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2013-shapla-chattar-crackdown",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1990-mass-uprising",
+    "2013-shahbag-movement",
+    "2013-shapla-chattar-crackdown"
+  ],
+  "periodLabel": "Contemporary Memory and Civic Protest",
+  "movementLabel": "Memory, justice, and civic dissent",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contested": true,
+  "contentWarnings": [
+    "political violence",
+    "execution-related politics"
+  ],
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "Bangladesh",
+  "longTermLegacy": "The tribunal's activation reshaped how 1971 was argued in public life. It made accountability, sentencing, due process, and memory politics recurring parts of national debate, while also setting off legal amendments, appeals, and competing claims about justice and partisan use of history.",
+  "longTermLegacySourceIds": [
+    "international-crimes-tribunal-banglapedia",
+    "ict-act-amendment-2013"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "In public memory, the tribunal is remembered in two overlapping ways: as an overdue attempt to address crimes connected to 1971, and as a politically charged arena where justice, legitimacy, and fairness were argued at once. That tension helps explain why tribunal-era events still sit at the center of debates over national memory and democratic life.",
+  "identityMemorySourceIds": [
+    "shahbag-uprising-war-crimes-forgiveness",
+    "bangladesh-quest-for-freedom-and-justice"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "historicalDebate": "There is far less dispute over the tribunal's importance than over its fairness, legal design, sentencing outcomes, and political effects. Supporters frame it as overdue accountability for 1971, while critics and analysts have debated due-process standards, amendment-driven sentencing politics, and the extent to which tribunal-era mobilization deepened partisan polarization.",
+  "historicalDebateSourceIds": [
+    "shahbag-uprising-war-crimes-forgiveness",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "In 2010, Bangladesh operationalized the International Crimes Tribunal process to prosecute 1971-related crimes under the 1973 law, turning a long-unresolved justice demand into an active legal and political process.",
+      "sourceIds": [
+        "international-crimes-tribunal-banglapedia",
+        "a-history-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "The tribunal's start is the clearest bridge between unresolved 1971 accountability and the civic confrontations of the 2010s, including Shahbag, legal amendment battles, and Islamist counter-mobilization.",
+      "sourceIds": [
+        "international-crimes-tribunal-banglapedia",
+        "shahbag-uprising-war-crimes-forgiveness"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The tribunal made accountability, sentencing, due process, and memory politics recurring parts of Bangladesh's national debate and drove later legal amendments and appeals.",
+      "sourceIds": [
+        "international-crimes-tribunal-banglapedia",
+        "ict-act-amendment-2013"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "In public memory, the tribunal is remembered both as an overdue attempt at justice for 1971 and as a politically charged arena where legitimacy and fairness were fought over together.",
+      "sourceIds": [
+        "shahbag-uprising-war-crimes-forgiveness",
+        "bangladesh-quest-for-freedom-and-justice"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

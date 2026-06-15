@@ -79,6 +79,9 @@ The archive already covers the main Bengal/Bangladesh historical spine well. The
 
 ### 3. 2010-2013 international crimes tribunal and justice politics
 
+- Status:
+  - Implemented on 2026-06-15 as `2010-international-crimes-tribunal-begins`
+
 - Proposed slug: `2010-international-crimes-tribunal-begins`
 - Alternate broader slug: `2010-2013-war-crimes-trials-and-justice-politics`
 - Recommended topic:

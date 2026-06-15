@@ -1,0 +1,124 @@
+{
+  "slug": "2010-international-crimes-tribunal-begins",
+  "year": "২০১০",
+  "title": "আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের কার্যক্রম শুরু",
+  "subtitle": "১৯৭১-সংক্রান্ত দীর্ঘ বিলম্বিত জবাবদিহির প্রশ্ন আইন, স্মৃতি ও রাজনৈতিক সংঘাতের সক্রিয় অঙ্গনে প্রবেশ করে।",
+  "summary": "২০১০ সালে বাংলাদেশ ১৯৭৩ সালের আইনের অধীনে ১৯৭১-সংক্রান্ত অপরাধ বিচারের জন্য আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের কার্যক্রম সক্রিয় করে। বহুদিনের অমীমাংসিত ন্যায়বিচারের দাবি আদালতে প্রবেশ করার সঙ্গে সঙ্গে জবাবদিহি, জনস্মৃতি, প্রক্রিয়াগত ন্যায্যতা এবং রাজনৈতিক বৈধতার প্রশ্ন নতুনভাবে সামনে আসে, যা দ্রুতই গণমোবিলাইজেশন ও পাল্টা-মবিলাইজেশনের রূপ নেয়।",
+  "themeColor": "#8f3c4b",
+  "ctaLabel": "বিচার-রাজনীতির ধারাবাহিকতা দেখুন",
+  "heroTagline": "ট্রাইব্যুনাল ১৯৭১-এর স্মৃতিকে তাৎক্ষণিক আদালত ও রাস্তার রাজনীতির প্রশ্নে রূপান্তর করে।",
+  "summarySourceIds": [
+    "international-crimes-tribunal-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "whyItMatters": "এই অধ্যায়টি গুরুত্বপূর্ণ, কারণ এটি মুক্তিযুদ্ধের অমীমাংসিত জবাবদিহির প্রশ্নকে ২০১০-এর দশকের নাগরিক সংঘাতের সঙ্গে যুক্ত করার সবচেয়ে স্পষ্ট সেতু। ট্রাইব্যুনালের সূচনা না বুঝলে শাহবাগ, ২০১৩ সালের আইনি সংশোধনচক্র, এবং শাপলা চত্বরের অভিযানকে একটি একক বিচার-রাজনীতির ধারাবাহিকতা হিসেবে দেখা কঠিন হয়।",
+  "whyItMattersSourceIds": [
+    "international-crimes-tribunal-banglapedia",
+    "shahbag-uprising-war-crimes-forgiveness"
+  ],
+  "importance": "major",
+  "childEventIds": [
+    "2013-shahbag-movement",
+    "2013-shapla-chattar-crackdown"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2013-shahbag-movement",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "2013-shapla-chattar-crackdown",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-liberation-war",
+    "1990-mass-uprising",
+    "2013-shahbag-movement",
+    "2013-shapla-chattar-crackdown"
+  ],
+  "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",
+  "movementLabel": "স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিরোধ",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "contemporary-memory-and-civic-protest",
+  "movementId": "memory-justice-and-civic-dissent",
+  "sensitive": true,
+  "contested": true,
+  "contentWarnings": [
+    "রাজনৈতিক সহিংসতা",
+    "বিচার ও মৃত্যুদণ্ড-সংক্রান্ত রাজনীতি"
+  ],
+  "requiresSources": true,
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "longTermLegacy": "ট্রাইব্যুনালের সক্রিয়তা ১৯৭১-কে ঘিরে জনতর্কের ভাষা বদলে দেয়। জবাবদিহি, সাজা, প্রক্রিয়াগত ন্যায্যতা ও স্মৃতি-রাজনীতি জাতীয় বিতর্কের স্থায়ী অংশে পরিণত হয়; একই সঙ্গে আইনি সংশোধন, আপিল এবং ইতিহাসের দলীয় ব্যবহার নিয়ে প্রতিদ্বন্দ্বী দাবি সামনে আসে।",
+  "longTermLegacySourceIds": [
+    "international-crimes-tribunal-banglapedia",
+    "ict-act-amendment-2013"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "জনস্মৃতিতে ট্রাইব্যুনালকে দুইভাবে মনে রাখা হয়: ১৯৭১-সংক্রান্ত অপরাধের বিলম্বিত জবাবদিহির এক প্রচেষ্টা হিসেবে, এবং এমন এক রাজনৈতিকভাবে তীব্র অঙ্গন হিসেবে যেখানে ন্যায়বিচার, বৈধতা ও প্রক্রিয়াগত ন্যায্যতা একসঙ্গে বিতর্কিত হয়েছে। এই দ্বৈত স্মৃতিই ব্যাখ্যা করে কেন ট্রাইব্যুনাল-পর্ব এখনো জাতীয় স্মৃতি ও গণতান্ত্রিক জীবনের কেন্দ্রে রয়ে গেছে।",
+  "identityMemorySourceIds": [
+    "shahbag-uprising-war-crimes-forgiveness",
+    "bangladesh-quest-for-freedom-and-justice"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "historicalDebate": "ট্রাইব্যুনালের গুরুত্ব নিয়ে মতভেদ তুলনামূলক কম, কিন্তু এর ন্যায্যতা, আইনি নকশা, সাজা, এবং রাজনৈতিক প্রভাব নিয়ে বড় বিতর্ক আছে। সমর্থকেরা একে ১৯৭১-এর বিলম্বিত জবাবদিহি হিসেবে দেখেন, আর সমালোচক ও বিশ্লেষকেরা প্রক্রিয়াগত মান, সংশোধনভিত্তিক সাজা-রাজনীতি, এবং এই পর্ব কীভাবে দলীয় মেরুকরণ বাড়িয়েছে তা নিয়ে প্রশ্ন তুলেছেন।",
+  "historicalDebateSourceIds": [
+    "shahbag-uprising-war-crimes-forgiveness",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "২০১০ সালে বাংলাদেশ ১৯৭৩ সালের আইনের অধীনে ১৯৭১-সংক্রান্ত অপরাধ বিচারের জন্য আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের কার্যক্রম সক্রিয় করে, ফলে দীর্ঘদিনের বিচার-দাবি সক্রিয় আইনি ও রাজনৈতিক প্রক্রিয়ায় রূপ নেয়।",
+      "sourceIds": [
+        "international-crimes-tribunal-banglapedia",
+        "a-history-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "ট্রাইব্যুনালের সূচনা অমীমাংসিত ১৯৭১-জবাবদিহিকে ২০১০-এর দশকের নাগরিক সংঘাতের সঙ্গে যুক্ত করে এবং শাহবাগ, আইনি সংশোধন-সংগ্রাম ও ইসলামপন্থী পাল্টা-মবিলাইজেশনের ধারাকে বোঝার কেন্দ্রীয় সূত্র দেয়।",
+      "sourceIds": [
+        "international-crimes-tribunal-banglapedia",
+        "shahbag-uprising-war-crimes-forgiveness"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "ট্রাইব্যুনাল জবাবদিহি, সাজা, প্রক্রিয়াগত ন্যায্যতা ও স্মৃতি-রাজনীতিকে বাংলাদেশের জাতীয় বিতর্কের স্থায়ী অংশে পরিণত করে এবং পরবর্তী আইনি সংশোধন ও আপিলকে ত্বরান্বিত করে।",
+      "sourceIds": [
+        "international-crimes-tribunal-banglapedia",
+        "ict-act-amendment-2013"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "জনস্মৃতিতে ট্রাইব্যুনালকে একই সঙ্গে ১৯৭১-সংক্রান্ত বিলম্বিত জবাবদিহির প্রচেষ্টা এবং ন্যায়বিচার, বৈধতা ও ন্যায্যতা-সংক্রান্ত রাজনৈতিক বিতর্কের তীব্র অঙ্গন হিসেবে মনে রাখা হয়।",
+      "sourceIds": [
+        "shahbag-uprising-war-crimes-forgiveness",
+        "bangladesh-quest-for-freedom-and-justice"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

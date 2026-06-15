@@ -9,7 +9,12 @@
   "heroTagline": "রাতের অভিযানটি ২০১৩ সালের সবচেয়ে বিতর্কিত ঘটনাগুলোর একটিতে পরিণত হয়।",
   "whyItMatters": "এই অভিযান গুরুত্বপূর্ণ, কারণ এটি বিচার-রাজনীতি, ধর্মীয় মবিলাইজেশন, রাষ্ট্রীয় বলপ্রয়োগ ও হতাহতের বিতর্কিত বয়ানকে একই অস্থির পর্বে যুক্ত করে।",
   "importance": "major",
+  "parentEvent": "2010-international-crimes-tribunal-begins",
   "relatedEvents": [
+    {
+      "eventId": "2010-international-crimes-tribunal-begins",
+      "relationType": "background"
+    },
     {
       "eventId": "2013-shahbag-movement",
       "relationType": "parallel"
@@ -20,6 +25,7 @@
     }
   ],
   "relatedEventIds": [
+    "2010-international-crimes-tribunal-begins",
     "2013-shahbag-movement",
     "1971-liberation-war"
   ],

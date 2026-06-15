@@ -1,0 +1,58 @@
+[
+  {
+    "year": "March 2010",
+    "title": "The tribunal process becomes operational",
+    "detail": "Bangladesh activates the International Crimes Tribunal process under the 1973 law, moving 1971-related accountability from long-standing political demand into an active judicial framework.",
+    "sourceIds": [
+      "international-crimes-tribunal-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "21 January 2013",
+    "title": "The first ICT verdict signals the tribunal's practical reach",
+    "detail": "The Abul Kalam Azad verdict showed that the tribunal had moved from institutional setup to concrete sentencing, making the justice process newly visible in public life.",
+    "sourceIds": [
+      "daily-star-abul-kalam-azad-ict-verdict-2013",
+      "international-crimes-tribunal-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "5 February 2013",
+    "title": "The Quader Mollah verdict triggers Shahbag",
+    "detail": "The ICT verdict in the Abdul Quader Mollah case was read by many activists as too lenient, and the reaction rapidly developed into the Shahbag movement's demand for stronger accountability.",
+    "sourceIds": [
+      "ict-quader-mollah-verdict-2013",
+      "shahbag-uprising-war-crimes-forgiveness"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "2013",
+    "title": "Amendment and appeal battles intensify justice politics",
+    "detail": "The tribunal era fed directly into legal amendment, appellate judgment, and expanding public argument over sentencing, due process, and the political uses of 1971 memory.",
+    "sourceIds": [
+      "ict-act-amendment-2013",
+      "supreme-court-quader-mollah-appeal-2013"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

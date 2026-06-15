@@ -53,6 +53,10 @@
       "relationType": "legacy"
     },
     {
+      "eventId": "2010-international-crimes-tribunal-begins",
+      "relationType": "legacy"
+    },
+    {
       "eventId": "2013-shahbag-movement",
       "relationType": "legacy"
     }
@@ -65,6 +69,7 @@
     "1971-declaration-and-proclamation-of-independence",
     "1972-state-formation-and-the-1972-constitution",
     "1975-baksal-formation-and-collapse",
+    "2010-international-crimes-tribunal-begins",
     "2013-shahbag-movement"
   ],
   "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",

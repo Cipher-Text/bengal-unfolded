@@ -9,7 +9,7 @@
   "heroTagline": "শাহবাগ স্মৃতি, ন্যায়বিচার ও নাগরিক প্রতিবাদের এক প্রতীকী চত্বরে রূপ নেয়।",
   "whyItMatters": "শাহবাগ আন্দোলন দেখিয়েছে ১৯৭১-এর স্মৃতি কীভাবে নতুন প্রজন্মকে রাজনৈতিকভাবে সক্রিয় করতে পারে এবং ন্যায়বিচার, বৈধতা ও নাগরিক অংশগ্রহণের প্রশ্নকে নতুনভাবে সামনে আনে।",
   "importance": "high",
-  "parentEvent": "1990-mass-uprising",
+  "parentEvent": "2010-international-crimes-tribunal-begins",
   "childEventIds": [
     "2014-10th-parliamentary-election",
     "2013-rana-plaza-collapse"
@@ -24,6 +24,10 @@
       "relationType": "background"
     },
     {
+      "eventId": "2010-international-crimes-tribunal-begins",
+      "relationType": "background"
+    },
+    {
       "eventId": "2024-anti-discrimination-movement",
       "relationType": "parallel"
     }
@@ -31,6 +35,7 @@
   "relatedEventIds": [
     "1971-liberation-war",
     "1990-mass-uprising",
+    "2010-international-crimes-tribunal-begins",
     "2024-anti-discrimination-movement"
   ],
   "periodLabel": "সমসাময়িক স্মৃতি ও নাগরিক প্রতিবাদ",

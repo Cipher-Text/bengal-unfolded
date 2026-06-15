@@ -1,0 +1,58 @@
+[
+  {
+    "year": "মার্চ ২০১০",
+    "title": "ট্রাইব্যুনাল-প্রক্রিয়া সক্রিয় রূপ পায়",
+    "detail": "বাংলাদেশ ১৯৭৩ সালের আইনের অধীনে আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের কার্যক্রম সক্রিয় করে; ফলে ১৯৭১-সংক্রান্ত জবাবদিহি দীর্ঘদিনের রাজনৈতিক দাবি থেকে সক্রিয় বিচারিক কাঠামোতে প্রবেশ করে।",
+    "sourceIds": [
+      "international-crimes-tribunal-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "২১ জানুয়ারি ২০১৩",
+    "title": "প্রথম রায় ট্রাইব্যুনালের বাস্তব প্রভাব দেখায়",
+    "detail": "আবুল কালাম আজাদের মামলার রায় দেখায় যে ট্রাইব্যুনাল কেবল প্রাতিষ্ঠানিক কাঠামো নয়; এটি দৃশ্যমান দণ্ডাদেশে পৌঁছেছে এবং বিচারপ্রক্রিয়াকে জনপরিসরে নতুনভাবে হাজির করেছে।",
+    "sourceIds": [
+      "daily-star-abul-kalam-azad-ict-verdict-2013",
+      "international-crimes-tribunal-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "৫ ফেব্রুয়ারি ২০১৩",
+    "title": "কাদের মোল্লার রায় শাহবাগের সূচনা ত্বরান্বিত করে",
+    "detail": "আব্দুল কাদের মোল্লার মামলার ট্রাইব্যুনাল রায়কে বহু কর্মী অপ্রতুল বলে মনে করেন, এবং সেই প্রতিক্রিয়া দ্রুত শক্তিশালী জবাবদিহির দাবিতে শাহবাগ আন্দোলনে রূপ নেয়।",
+    "sourceIds": [
+      "ict-quader-mollah-verdict-2013",
+      "shahbag-uprising-war-crimes-forgiveness"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "war",
+      "democracy"
+    ]
+  },
+  {
+    "year": "২০১৩",
+    "title": "সংশোধন ও আপিলের লড়াই বিচার-রাজনীতিকে তীব্র করে",
+    "detail": "ট্রাইব্যুনাল-পর্ব সরাসরি আইনি সংশোধন, আপিলের রায়, এবং সাজা, প্রক্রিয়াগত ন্যায্যতা ও ১৯৭১-এর স্মৃতির রাজনৈতিক ব্যবহারের প্রশ্নে বিস্তৃত জনতর্ককে উসকে দেয়।",
+    "sourceIds": [
+      "ict-act-amendment-2013",
+      "supreme-court-quader-mollah-appeal-2013"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

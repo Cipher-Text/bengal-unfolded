@@ -4,6 +4,20 @@
 
 ### Completed
 
+- 2010 tribunal-origin chapter:
+  - Content backfill:
+    - Added bilingual event packs for `2010-international-crimes-tribunal-begins` with source-backed event metadata, timeline, quotes, figure links, and resource links.
+    - Positioned the chapter as the missing bridge between `1971-liberation-war` and the 2013 justice-politics chain.
+    - Rewired `2013-shahbag-movement` and `2013-shapla-chattar-crackdown` so the tribunal-era sequence is explicit in event relationships and topic discovery.
+    - Integrated the chapter into the `post-1971-state-crises-and-civic-contestation`, `democracy-and-civic-movements`, and `liberation-war-1971` topic hubs.
+  - Model/validation:
+    - Registered the new event slug in `src/types/content.ts`.
+    - No schema or validator-rule changes were required beyond the slug registry update.
+  - UI/runtime:
+    - No UI changes required; existing event and topic routes consume the new content pack.
+  - Validation:
+    - `pnpm content:validate` passes.
+
 - 1996 caretaker-system formation chapter:
   - Content backfill:
     - Added bilingual event packs for `1996-thirteenth-amendment-and-caretaker-government` with source-backed event metadata, timeline, quotes, figure links, and resource links.
