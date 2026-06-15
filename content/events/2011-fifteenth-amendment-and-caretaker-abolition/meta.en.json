@@ -15,8 +15,8 @@
       "relationType": "background"
     },
     {
-      "eventId": "1996-ganges-water-sharing-treaty",
-      "relationType": "parallel"
+      "eventId": "1996-thirteenth-amendment-and-caretaker-government",
+      "relationType": "cause"
     },
     {
       "eventId": "2014-10th-parliamentary-election",
@@ -29,7 +29,7 @@
   ],
   "relatedEventIds": [
     "1991-return-to-parliamentary-democracy",
-    "1996-ganges-water-sharing-treaty",
+    "1996-thirteenth-amendment-and-caretaker-government",
     "2014-10th-parliamentary-election",
     "2024-12th-parliamentary-election"
   ],

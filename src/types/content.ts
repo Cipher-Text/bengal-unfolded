@@ -117,6 +117,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1971-mujibnagar-government",
   "1975-jail-killing",
   "1991-return-to-parliamentary-democracy",
+  "1996-thirteenth-amendment-and-caretaker-government",
   "0000-0450-gangaridai-and-early-delta-polities",
   "1230s-1280s-bengal-under-delhi-governorates-fragmentation",
   "1658-1707-aurangzeb-era-revenue-military-pressure-in-bengal",

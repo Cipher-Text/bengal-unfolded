@@ -1,0 +1,117 @@
+{
+  "slug": "1996-thirteenth-amendment-and-caretaker-government",
+  "year": "১৯৯৬",
+  "title": "ত্রয়োদশ সংশোধন ও তত্ত্বাবধায়ক সরকার",
+  "subtitle": "এক সাংবিধানিক সমঝোতা নিরপেক্ষ নির্বাচনকালীন সরকারের কাঠামো গড়ে তোলে।",
+  "summary": "১৯৯৬ সালে বাংলাদেশ ত্রয়োদশ সংশোধন গ্রহণ করে, যার মাধ্যমে সংসদীয় নির্বাচন পরিচালনার জন্য একটি নির্দলীয় তত্ত্বাবধায়ক সরকারব্যবস্থা গড়ে তোলা হয়। বিরোধী দলের বয়কট, বিতর্কিত ফেব্রুয়ারি নির্বাচন, এবং নিরপেক্ষ নির্বাচনকালীন প্রশাসনের দাবির প্রেক্ষাপটে নির্বাচনী বিশ্বাসযোগ্যতা এক সাংবিধানিক প্রশ্নে পরিণত হয়।",
+  "themeColor": "#6b4f8a",
+  "ctaLabel": "সাংবিধানিক পরিবর্তন দেখুন",
+  "heroTagline": "নির্বাচনী আস্থা এক সাংবিধানিক নকশার প্রশ্নে পরিণত হয়, এবং রাষ্ট্র তার উত্তরে একটি অস্থায়ী নিরপেক্ষ-সরকার কাঠামো তৈরি করে।",
+  "summarySourceIds": [
+    "bangladesh-constitution-thirteenth-amendment",
+    "caretaker-government-banglapedia"
+  ],
+  "whyItMatters": "এই অধ্যায়টি গুরুত্বপূর্ণ, কারণ এটি বাংলাদেশের তত্ত্বাবধায়ক নির্বাচনব্যবস্থার সাংবিধানিক উৎপত্তি ব্যাখ্যা করে। ১৯৯৬-কে না বুঝলে ২০০৬-২০০৮ সালের সংকট এবং ২০১১ সালে এই কাঠামো বিলোপের ধারাবাহিকতা স্পষ্টভাবে বোঝা যায় না।",
+  "whyItMattersSourceIds": [
+    "caretaker-government-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "importance": "major",
+  "parentEvent": "1991-return-to-parliamentary-democracy",
+  "childEventIds": [
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2011-fifteenth-amendment-and-caretaker-abolition"
+  ],
+  "relatedEvents": [
+    {
+      "eventId": "1990-mass-uprising",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1991-return-to-parliamentary-democracy",
+      "relationType": "background"
+    },
+    {
+      "eventId": "2006-caretaker-crisis-and-emergency-rule",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2007-2008-emergency-caretaker-rule",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "2011-fifteenth-amendment-and-caretaker-abolition",
+      "relationType": "effect"
+    }
+  ],
+  "relatedEventIds": [
+    "1990-mass-uprising",
+    "1991-return-to-parliamentary-democracy",
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2007-2008-emergency-caretaker-rule",
+    "2011-fifteenth-amendment-and-caretaker-abolition"
+  ],
+  "periodLabel": "মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "high",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "placeId": "bangladesh",
+  "placeLabel": "বাংলাদেশ",
+  "longTermLegacy": "ত্রয়োদশ সংশোধন শুধু একাধিক নির্বাচনী চক্রকে প্রভাবিত করেনি; এটি পরবর্তী সময়ে নিরপেক্ষতা, দলীয় অবিশ্বাস, বিচারিক পর্যালোচনা, এবং নির্দলীয় অন্তর্বর্তী কাঠামো ছাড়া বাংলাদেশে গ্রহণযোগ্য নির্বাচন সম্ভব কি না - এই বিতর্কের মূল সাংবিধানিক রেফারেন্সে পরিণত হয়।",
+  "longTermLegacySourceIds": [
+    "bangladesh-constitution-thirteenth-amendment",
+    "caretaker-government-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "identityMemoryNotes": "রাজনৈতিক স্মৃতিতে ১৯৯৬ কেবল একটি সংশোধন নয়; এটি নির্বাচনী বৈধতা নিয়ে কঠিন এক সমঝোতার স্মৃতি। তত্ত্বাবধায়ক ব্যবস্থার সমর্থক ও সমালোচক - উভয় পক্ষই পরবর্তী বিতর্কে এটিকে দলীয় অবিশ্বাসের সাংবিধানিক সমাধানের প্রাথমিক উদাহরণ হিসেবে উল্লেখ করে।",
+  "identityMemorySourceIds": [
+    "caretaker-government-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৯৬ সালে বাংলাদেশ ত্রয়োদশ সংশোধন গ্রহণ করে, যার মাধ্যমে সংসদীয় নির্বাচন পরিচালনার জন্য একটি নির্দলীয় তত্ত্বাবধায়ক সরকারব্যবস্থা গড়ে তোলা হয়। বিরোধী দলের বয়কট, বিতর্কিত ফেব্রুয়ারি নির্বাচন এবং নিরপেক্ষ নির্বাচনকালীন প্রশাসনের দাবি এই পরিবর্তনের পটভূমি তৈরি করে।",
+      "sourceIds": [
+        "bangladesh-constitution-thirteenth-amendment",
+        "caretaker-government-banglapedia"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই অধ্যায়টি বাংলাদেশের তত্ত্বাবধায়ক নির্বাচনব্যবস্থার সাংবিধানিক উৎপত্তি ব্যাখ্যা করে এবং ২০০৬-২০০৮ সালের সংকট ও ২০১১ সালের বিলোপ বোঝার জন্য কেন্দ্রীয়।",
+      "sourceIds": [
+        "caretaker-government-banglapedia",
+        "a-history-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "ত্রয়োদশ সংশোধন নিরপেক্ষতা, দলীয় অবিশ্বাস, বিচারিক পর্যালোচনা এবং নির্বাচনী বৈধতা নিয়ে পরবর্তী বিতর্কের প্রধান সাংবিধানিক রেফারেন্সে পরিণত হয়।",
+      "sourceIds": [
+        "bangladesh-constitution-thirteenth-amendment",
+        "caretaker-government-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "রাজনৈতিক স্মৃতিতে ১৯৯৬ নির্বাচনী বৈধতা নিয়ে এক কঠিন সমঝোতার মুহূর্ত, যা দলীয় অবিশ্বাসের সাংবিধানিক সমাধানের প্রথম বড় উদাহরণ হিসেবে টিকে আছে।",
+      "sourceIds": [
+        "caretaker-government-banglapedia",
+        "a-history-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

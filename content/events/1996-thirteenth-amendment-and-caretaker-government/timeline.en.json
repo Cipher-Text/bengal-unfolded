@@ -1,0 +1,55 @@
+[
+  {
+    "year": "15 February 1996",
+    "title": "A disputed election intensifies the legitimacy crisis",
+    "detail": "The February 1996 parliamentary election, boycotted by major opposition parties, deepened doubts about whether elections under an incumbent partisan framework could command public legitimacy.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "March 1996",
+    "title": "Parliament passes the Thirteenth Amendment",
+    "detail": "The Constitution (Thirteenth Amendment) Act created a non-party caretaker government system to supervise parliamentary elections and reduce partisan mistrust at the point of transfer of power.",
+    "sourceIds": [
+      "bangladesh-constitution-thirteenth-amendment",
+      "caretaker-government-banglapedia"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "June 1996",
+    "title": "The caretaker framework is tested in a national election",
+    "detail": "The first election under the new framework became a practical test of whether constitutional neutrality could restore broader participation and confidence in the electoral process.",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "Long-term",
+    "title": "The framework becomes the center of later constitutional conflict",
+    "detail": "What began in 1996 as a compromise later became the central reference point for the 2006-2008 crisis, judicial review, and the 2011 abolition of the caretaker system.",
+    "sourceIds": [
+      "bangladesh-constitution-thirteenth-amendment",
+      "caretaker-government-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

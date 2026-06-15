@@ -52,6 +52,9 @@ The archive already covers the main Bengal/Bangladesh historical spine well. The
 
 ### 2. 1996 thirteenth amendment and caretaker system formation
 
+- Status:
+  - Implemented on 2026-06-15 as `1996-thirteenth-amendment-and-caretaker-government`
+
 - Proposed slug: `1996-thirteenth-amendment-and-caretaker-government`
 - Recommended topic:
   - `post-1971-state-crises-and-civic-contestation`

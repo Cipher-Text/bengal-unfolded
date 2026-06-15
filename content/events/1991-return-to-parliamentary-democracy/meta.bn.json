@@ -9,14 +9,22 @@
   "heroTagline": "গণঅভ্যুত্থান-পরবর্তী রূপান্তর ও সাংবিধানিক পুনর্গঠন।",
   "whyItMatters": "এই রূপান্তর পরবর্তী প্রতিদ্বন্দ্বিতামূলক নির্বাচনী রাজনীতির প্রাতিষ্ঠানিক কাঠামো স্থির করে।",
   "importance": "high",
+  "childEventIds": [
+    "1996-thirteenth-amendment-and-caretaker-government"
+  ],
   "relatedEvents": [
     {
       "eventId": "1990-mass-uprising",
       "relationType": "background"
+    },
+    {
+      "eventId": "1996-thirteenth-amendment-and-caretaker-government",
+      "relationType": "effect"
     }
   ],
   "relatedEventIds": [
-    "1990-mass-uprising"
+    "1990-mass-uprising",
+    "1996-thirteenth-amendment-and-caretaker-government"
   ],
   "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",

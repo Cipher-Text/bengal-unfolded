@@ -3,12 +3,12 @@
   "priority": 16,
   "title": "1991–Present: Elections, Rights, and New Generation Politics",
   "tagline": "Elections, rights, security crises, border politics, and new-generation movements",
-  "intro": "Track Bangladesh after 1991 through parliamentary return, elections, CHT peace, border clashes, Pilkhana, communal violence, security shocks, digital control, and 2024.",
-  "description": "Track Bangladesh’s post-1991 politics through elections, rights struggles, state crises, security shocks, digital control, and new-generation movements.",
-  "seoTitle": "Bangladesh 1991-Present: Elections, Rights, State Crises, Pilkhana and 2024 Movement",
-  "seoDescription": "Study post-1991 Bangladesh through elections, CHT accord, Pilkhana, Ramu, Holey Artisan, Digital Security Act, 2018, 2024 movement, figures, and sources.",
-  "beginnerSummary": "Begin with the 1991 democratic return, then follow how elections, rights claims, security crises, and digital control reshaped politics.",
-  "advancedSummary": "Compare parliamentary transitions, violence and accountability, border and minority issues, counterterrorism, protest cycles, and interim-state debates.",
+  "intro": "Track Bangladesh after 1991 through parliamentary return, caretaker formation, elections, CHT peace, border clashes, Pilkhana, communal violence, security shocks, digital control, and 2024.",
+  "description": "Track Bangladesh’s post-1991 politics through elections, caretaker constitutionalism, rights struggles, state crises, security shocks, digital control, and new-generation movements.",
+  "seoTitle": "Bangladesh 1991-Present: Elections, Caretaker Politics, State Crises, Pilkhana and 2024",
+  "seoDescription": "Study post-1991 Bangladesh through the 1996 caretaker amendment, elections, CHT accord, Pilkhana, Ramu, Holey Artisan, 2018, 2024 movement, figures, and sources.",
+  "beginnerSummary": "Begin with the 1991 democratic return, then follow how caretaker politics, elections, security crises, and digital control reshaped politics.",
+  "advancedSummary": "Compare parliamentary transitions, caretaker constitutionalism, violence and accountability, border and minority issues, counterterrorism, protest cycles, and interim-state debates.",
   "primaryKeywords": [
     "Bangladesh politics 1991 present",
     "post-1991 Bangladesh",
@@ -22,13 +22,13 @@
   ],
   "eventSlugs": [
     "1991-return-to-parliamentary-democracy",
+    "1996-thirteenth-amendment-and-caretaker-government",
     "2009-bdr-mutiny-pilkhana-massacre",
     "2014-10th-parliamentary-election",
     "2018-a-year-of-protest-control-and-contested-legitimacy",
     "2018-election",
     "2024-anti-discrimination-movement",
     "1988-eighth-amendment-state-religion",
-    "1996-ganges-water-sharing-treaty",
     "2012-ramu-communal-violence",
     "2016-holey-artisan-attack",
     "1997-chittagong-hill-tracts-peace-accord",
@@ -180,7 +180,7 @@
     },
     {
       "type": "event",
-      "id": "2009-bdr-mutiny-pilkhana-massacre",
+      "id": "1996-thirteenth-amendment-and-caretaker-government",
       "reason": "Read the next turning point."
     },
     {

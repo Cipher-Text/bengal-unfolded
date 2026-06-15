@@ -3,10 +3,10 @@
   "priority": 15,
   "title": "Democracy and Civic Movements",
   "tagline": "Street protest, student politics, elections, digital rights, and civic accountability",
-  "intro": "Trace Bangladesh’s civic movements from the 1990 transition through caretaker crises, Shahbag, quota and road-safety protests, digital-rights conflicts, elections, and 2024.",
-  "description": "Trace Bangladesh’s democratic and civic movements through student protest, opposition alliances, rights campaigns, election disputes, digital control, and street mobilization.",
-  "seoTitle": "Democracy and Civic Movements in Bangladesh: 1990, Shahbag, Quota, Safe Road and 2024",
-  "seoDescription": "Explore Bangladesh civic movements through 1990, caretaker politics, Shahbag, quota reform, safe road protests, Digital Security Act, elections, and 2024.",
+  "intro": "Trace Bangladesh’s civic movements from the 1990 transition through caretaker formation and crisis, Shahbag, quota and road-safety protests, digital-rights conflicts, elections, and 2024.",
+  "description": "Trace Bangladesh’s democratic and civic movements through student protest, opposition alliances, caretaker politics, rights campaigns, election disputes, digital control, and street mobilization.",
+  "seoTitle": "Democracy and Civic Movements in Bangladesh: 1990, Caretaker Politics, Shahbag and 2024",
+  "seoDescription": "Explore Bangladesh civic movements through 1990, the 1996 caretaker amendment, Shahbag, quota reform, safe road protests, Digital Security Act, elections, and 2024.",
   "beginnerSummary": "Start with 1990, then follow how student, civic, professional, and digital movements challenged state power and electoral legitimacy.",
   "advancedSummary": "Compare protest coalitions, party competition, civil liberties, online mobilization, state repression, legal control, and transitional politics.",
   "primaryKeywords": [
@@ -22,6 +22,7 @@
   ],
   "eventSlugs": [
     "1990-mass-uprising",
+    "1996-thirteenth-amendment-and-caretaker-government",
     "2006-caretaker-crisis-and-emergency-rule",
     "2007-2008-emergency-caretaker-rule",
     "2013-shahbag-movement",
@@ -236,7 +237,7 @@
     },
     {
       "type": "event",
-      "id": "2024-anti-discrimination-movement",
+      "id": "1996-thirteenth-amendment-and-caretaker-government",
       "reason": "Read the next turning point."
     },
     {

@@ -4,6 +4,19 @@
 
 ### Completed
 
+- 1996 caretaker-system formation chapter:
+  - Content backfill:
+    - Added bilingual event packs for `1996-thirteenth-amendment-and-caretaker-government` with source-backed event metadata, timeline, quotes, figure links, and resource links.
+    - Linked the new chapter to the 1991 democratic-return event and to the later caretaker-crisis and caretaker-abolition chapters.
+    - Integrated the chapter into the `post-1971-state-crises-and-civic-contestation`, `democracy-and-civic-movements`, and `bangladesh-history` topic hubs.
+  - Model/validation:
+    - Registered the new event slug in `src/types/content.ts`.
+    - No schema or validator-rule changes were required beyond the slug registry update.
+  - UI/runtime:
+    - No UI changes required; existing event and topic routes consume the new content pack.
+  - Validation:
+    - `pnpm content:validate` passes.
+
 - 1971 declaration/proclamation chapter:
   - Content backfill:
     - Added bilingual event packs for `1971-declaration-and-proclamation-of-independence` with source-backed event metadata, timeline, quotes, figure links, and resource links.

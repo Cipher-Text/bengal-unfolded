@@ -1,0 +1,55 @@
+[
+  {
+    "year": "১৫ ফেব্রুয়ারি ১৯৯৬",
+    "title": "বিতর্কিত নির্বাচন বৈধতার সংকট গভীর করে",
+    "detail": "১৯৯৬ সালের ফেব্রুয়ারির সংসদীয় নির্বাচন, যা প্রধান বিরোধী দলগুলো বয়কট করে, বিদ্যমান দলীয় কাঠামোর অধীনে নির্বাচন জনস্বীকৃতি পেতে পারে কি না - সেই প্রশ্নকে আরও তীব্র করে তোলে।",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "মার্চ ১৯৯৬",
+    "title": "সংসদ ত্রয়োদশ সংশোধন পাস করে",
+    "detail": "সংবিধানের ত্রয়োদশ সংশোধন সংসদীয় নির্বাচন তত্ত্বাবধানের জন্য নির্দলীয় তত্ত্বাবধায়ক সরকারব্যবস্থা তৈরি করে, যাতে ক্ষমতা হস্তান্তরের মুহূর্তে দলীয় অবিশ্বাস কমানো যায়।",
+    "sourceIds": [
+      "bangladesh-constitution-thirteenth-amendment",
+      "caretaker-government-banglapedia"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "জুন ১৯৯৬",
+    "title": "জাতীয় নির্বাচনে নতুন কাঠামোর প্রথম পরীক্ষা",
+    "detail": "নতুন কাঠামোর অধীনে প্রথম নির্বাচনটি ছিল এই প্রশ্নের বাস্তব পরীক্ষা - সাংবিধানিক নিরপেক্ষতা কি নির্বাচনী অংশগ্রহণ ও আস্থা পুনর্গঠনে কার্যকর হতে পারে?",
+    "sourceIds": [
+      "caretaker-government-banglapedia",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "দীর্ঘমেয়াদে",
+    "title": "পরে এই কাঠামোই সাংবিধানিক সংঘাতের কেন্দ্রে আসে",
+    "detail": "১৯৯৬ সালের আপসসূত্রটি পরবর্তী সময়ে ২০০৬-২০০৮ সালের সংকট, বিচারিক পর্যালোচনা, এবং ২০১১ সালে তত্ত্বাবধায়ক ব্যবস্থা বিলোপের মূল রেফারেন্সে পরিণত হয়।",
+    "sourceIds": [
+      "bangladesh-constitution-thirteenth-amendment",
+      "caretaker-government-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "culture"
+    ]
+  }
+]

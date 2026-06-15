@@ -9,14 +9,22 @@
   "heroTagline": "Post-uprising transition and constitutional restructuring.",
   "whyItMatters": "This transition established the institutional framework for subsequent competitive electoral politics.",
   "importance": "high",
+  "childEventIds": [
+    "1996-thirteenth-amendment-and-caretaker-government"
+  ],
   "relatedEvents": [
     {
       "eventId": "1990-mass-uprising",
       "relationType": "background"
+    },
+    {
+      "eventId": "1996-thirteenth-amendment-and-caretaker-government",
+      "relationType": "effect"
     }
   ],
   "relatedEventIds": [
-    "1990-mass-uprising"
+    "1990-mass-uprising",
+    "1996-thirteenth-amendment-and-caretaker-government"
   ],
   "periodLabel": "Pakistan Period and National Awakening",
   "movementLabel": "Language, autonomy, and liberation",

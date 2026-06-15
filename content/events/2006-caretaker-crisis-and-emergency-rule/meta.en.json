@@ -20,6 +20,10 @@
       "relationType": "background"
     },
     {
+      "eventId": "1996-thirteenth-amendment-and-caretaker-government",
+      "relationType": "background"
+    },
+    {
       "eventId": "1990-mass-uprising",
       "relationType": "contrast"
     },
@@ -30,6 +34,7 @@
   ],
   "relatedEventIds": [
     "1975-baksal-formation-and-collapse",
+    "1996-thirteenth-amendment-and-caretaker-government",
     "1990-mass-uprising",
     "2024-anti-discrimination-movement"
   ],
