@@ -1,16 +1,36 @@
 {
   "name": "Khudiram Bose",
   "name_en": "Khudiram Bose",
-  "role": "Revolutionary anti-colonial activist",
+  "seoTitle": "Khudiram Bose: Jugantar Revolutionary and Early Anti-Colonial Martyr",
+  "seoDescription": "Profile of Khudiram Bose, the Bengali revolutionary linked to Jugantar, the Swadeshi-era underground, and the 1908 Muzaffarpur bombing case.",
+  "shortAnswer": "Khudiram Bose was a Bengali anti-colonial revolutionary associated with Jugantar who was executed in 1908 after the Muzaffarpur bombing case.",
+  "birthYear": "1889",
+  "deathYear": "1908",
+  "activePeriod": "1905-1908",
+  "role": "Anti-colonial revolutionary associated with Jugantar",
   "group": "leader",
-  "contribution": "As a young revolutionary, he became an emblem of militant anti-colonial resistance in Bengal.",
-  "context": "In the post-1905 partition milieu, underground revolutionary networks in Bengal intensified direct action against colonial authority.",
-  "impact": "He entered nationalist memory as an early martyr of anti-colonial revolutionary politics.",
-  "highlight": "A youthful symbol of revolutionary resistance in Bengal.",
+  "contribution": "He joined Bengal's revolutionary underground during the Swadeshi era and took part in the 1908 Muzaffarpur attack aimed at Magistrate Douglas Kingsford.",
+  "context": "After the 1905 Partition of Bengal, underground networks such as Jugantar pushed parts of anti-colonial politics toward clandestine action and bomb attacks against colonial officials.",
+  "impact": "His execution at age eighteen made him one of the earliest martyr figures of revolutionary nationalism in Bengal.",
+  "highlight": "A teenage revolutionary whose execution became a lasting symbol of militant anti-colonial resistance in Bengal.",
   "tags": [
     "anti-colonial",
     "revolutionary",
     "swadeshi-era",
     "martyr-memory"
+  ],
+  "primaryEventIds": [
+    "1905-partition-of-bengal"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Khudiram Basu"
+  ],
+  "searchAliases": [
+    "Khudiram Basu",
+    "Muzaffarpur bombing case",
+    "Jugantar revolutionary"
   ]
 }
