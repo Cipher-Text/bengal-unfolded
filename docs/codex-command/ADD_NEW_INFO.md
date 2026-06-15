@@ -19,6 +19,9 @@ Steps:
    - content/places/
    - docs/CONTENT_MODEL.md
    - docs/AI_CONTRACT.md
+   - docs/EDITORIAL_RULES.md
+   - docs/EDITORIAL_NEUTRALITY.md
+   - docs/SENSITIVE_POLITICAL_HISTORY.md
    - docs/SOURCE_QUALITY.md
    - docs/ROADMAP.md
 
@@ -129,15 +132,16 @@ Rank the top 20 additions across events, figures, and resources.
 Rules:
 - Do not modify content/events, content/figures, or content/resources.
 - Do not create new event/figure/resource JSON files.
+- Base recommendations on the current repo contract and validator, not on assumed older schema examples.
 - When proposing future additions, include optional schema fields where useful:
   - Figure: shortAnswer, years/activePeriod, alternateNames/searchAliases, faq, primaryEventIds/relatedPlaceIds, seoTitle/seoDescription
-  - Event: quickAnswer, causes/consequences, misconceptions, faq, mapPoints, seoTitle/seoDescription
+  - Event: quickAnswer, causes/consequences, misconceptions, faq, mapPoints, seoTitle/seoDescription, summarySourceIds/whyItMattersSourceIds, paired evidence levels, claimCitations, contested/sensitive metadata when applicable
   - Topic: beginnerSummary/advancedSummary, learningPath, faq, keyword split, seoTitle/seoDescription
   - Resource: sourceQuality, evidenceLevel, related IDs, whyItMatters
-  - Place: lat/lon, modernCountry, historicalNames, related IDs, mapNote
+  - Place: placeType, lat/lon, coordinateConfidence, modernCountry, modernAdministrativeUnit, historicalNames, nameHistory, administrativeHistory, related IDs, mapNote, faq, sourceIds
 - Do not add speculative items without a reliable source basis.
 - Do not rely on Wikipedia alone.
-- If an item is disputed or legendary, mark it as 'needs careful sourcing'.
+- If an item is disputed, legendary, or politically sensitive, mark it as 'needs careful sourcing' and note whether future implementation would likely require contested/sensitive metadata and stronger source coverage.
 - Keep the report practical for future implementation.
 - Include source links or source names where possible.
 - After writing the report, run no content validation unless content files were changed.
@@ -155,7 +159,7 @@ Audit missing events, figures, and resources, then create an implementation-read
 Do not add content JSON yet. Only create/update docs/content-gap-audit.md.
 
 Instructions:
-1. Inspect existing content/events, content/figures, content/resources, content/topics, content/periods, and docs.
+1. Inspect existing content/events, content/figures, content/resources, content/topics, content/periods, content/places, and docs, especially docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, and docs/SOURCE_QUALITY.md.
 2. Search the web for reliable Bengal/Bangladesh history references.
 3. Compare existing coverage with important historical coverage across periods.
 4. Identify missing events, missing figures, missing resources, and weak existing pages.
@@ -201,9 +205,9 @@ Rules:
 - Do not change production content.
 - Do not invent facts.
 - Do not use Wikipedia as the only source.
-- In backlog recommendations, mention optional schema fields to populate for each item when applicable (faq, mapPoints, learningPath, alias fields, sourceQuality/evidenceLevel, related IDs).
+- In backlog recommendations, mention current schema fields to populate for each item when applicable, including evidence metadata for events (summary/why-it-matters source IDs and evidence levels, claimCitations, contested/sensitive metadata), figure alias fields, topic learningPath, resource sourceQuality/evidenceLevel, and place placeType/coordinateConfidence/name history fields.
 - Prefer Banglapedia, academic, archive, institutional, official, and recognized historical sources.
-- Clearly mark disputed or source-sensitive topics.
+- Clearly mark disputed, legendary, or politically sensitive topics and call out where future implementation would need contested/sensitive metadata and stronger source support.
 - Final response should include a concise summary and the path docs/content-gap-audit.md."
 ```
 

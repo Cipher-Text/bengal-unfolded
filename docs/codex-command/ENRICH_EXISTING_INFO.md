@@ -12,7 +12,7 @@ Below are ready-to-use commands.
 
 ## 1. Enrich one specific event
 
-Replace `EVENT_SLUG` with your event folder name, for example `sylhet-conquest-1303`.
+Replace `EVENT_SLUG` with your event folder name, for example `1303-conquest-of-sylhet`.
 
 ```bash
 codex "You are working in the Bengal Unfolded repo.
@@ -29,27 +29,36 @@ Target files:
 - content/resources/**/meta.bn.json
 
 Instructions:
-1. First inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
+1. First inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
 2. Inspect the existing event files for EVENT_SLUG.
 3. Search the web for reliable sources about this event.
 4. Prefer primary, archive, academic, encyclopedia, book, university, official, or recognized historical sources.
 5. Do not use weak blogs or unsourced social media.
 6. Extract only source-backed claims.
 7. Enrich summary, whyItMatters, longTermLegacy, culturalImpact, identityMemoryNotes, historicalDebate if relevant.
-8. Also enrich optional event fields when supported by sources: seoTitle, seoDescription, quickAnswer, causes, consequences, misconceptions, faq, and mapPoints.
-9. Enrich timeline items with sourceIds, evidenceLevel, themes, and accurate dates.
-10. Add missing resources under content/resources only when needed.
-11. Update resource-ids.json with valid source IDs.
-12. Keep English and Bangla content meaningfully equivalent, not word-for-word mechanical translation.
-13. Use neutral historical language. For disputed or legendary/traditional claims, clearly mark uncertainty.
-14. Ensure new optional fields pass shape rules in scripts/validate-content.mjs (faq shape, mapPoints shape/placeId, enum checks).
-15. Do not invent facts, people, dates, quotations, or sources.
-16. Run pnpm content:validate.
-17. Fix all validation errors.
-18. At the end, provide a concise report:
+8. When adding or revising source-backed narrative fields, also maintain the paired evidence metadata required by the repo:
+   - summarySourceIds + summaryEvidenceLevel
+   - whyItMattersSourceIds + whyItMattersEvidenceLevel
+   - longTermLegacySourceIds + longTermLegacyEvidenceLevel
+   - culturalImpactSourceIds + culturalImpactEvidenceLevel
+   - identityMemorySourceIds + identityMemoryEvidenceLevel
+   - historicalDebateSourceIds + historicalDebateEvidenceLevel
+9. If the event is major or landmark, ensure claimCitations are present and valid for key claims. If it is contested or politically sensitive, apply contested/sensitive metadata when warranted: contested, historicalDebate, historicalDebateSourceIds, sensitive, contentWarnings, requiresSources.
+10. Also enrich optional event fields when supported by sources: seoTitle, seoDescription, quickAnswer, causes, consequences, misconceptions, faq, and mapPoints.
+11. Enrich timeline items with sourceIds, evidenceLevel, themes, and accurate dates.
+12. Add missing resources under content/resources only when needed.
+13. Update resource-ids.json with valid source IDs, and keep all event source ID references aligned with it.
+14. Keep English and Bangla content meaningfully equivalent, not word-for-word mechanical translation.
+15. Use neutral historical language. For disputed or legendary/traditional claims, clearly mark uncertainty. When disagreement exists in sources, summarize the disagreement instead of choosing rhetoric.
+16. Ensure new optional and evidence fields pass shape rules in scripts/validate-content.mjs (faq shape, mapPoints shape/placeId, enum checks, claimCitations, evidence levels, sensitive/contested requirements).
+17. Do not invent facts, people, dates, quotations, or sources.
+18. Run pnpm content:validate.
+19. Fix all validation errors.
+20. At the end, provide a concise report:
    - sources added
    - claims enriched
    - uncertainty/dispute notes
+   - sensitive-history handling notes if any
    - files changed
    - validation result
 
@@ -75,7 +84,7 @@ Target files:
 - content/resources/**/meta.bn.json
 
 Instructions:
-1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
+1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
 2. Inspect existing timeline files for EVENT_SLUG.
 3. Search the web for reliable sources about the chronological sequence of this event.
 4. Build or improve timeline items using only source-backed claims.
@@ -118,7 +127,7 @@ Target files:
 - content/resources/**/meta.bn.json only if new sources are needed
 
 Instructions:
-1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
+1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
 2. Inspect existing figure metadata for FIGURE_ID.
 3. Search the web for reliable sources about this person.
 4. Prefer academic, encyclopedia, archive, official, book, or recognized historical sources.
@@ -158,7 +167,7 @@ Target files:
 - related content/events/*/resource-ids.json only if the resource directly supports that event
 
 Instructions:
-1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
+1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
 2. Search the web for reliable bibliographic/source information about TOPIC_OR_BOOK_NAME.
 3. Collect title, author, publisher, year, type, quality, url if available, summary, and relevance.
 4. Classify quality using docs/SOURCE_QUALITY.md:
@@ -170,10 +179,11 @@ Instructions:
 6. If no official/readable URL exists, use metadata only or a trusted archive/catalog page.
 7. Create or update EN and BN resource metadata.
 8. Add optional resource fields when supported: sourceQuality, evidenceLevel, relatedEventIds, relatedFigureIds, relatedTopicIds, whyItMatters.
-9. Link the resource to related event resource-ids.json only when it directly supports the event.
-10. Ensure enum and ID shapes pass validator checks.
-11. Run pnpm content:validate and fix errors.
-12. Report:
+9. Classify `quality` and `sourceQuality` carefully. Do not label a source as `primary` unless it is first-hand or an institutional record.
+10. Link the resource to related event resource-ids.json only when it directly supports the event.
+11. Ensure enum and ID shapes pass validator checks.
+12. Run pnpm content:validate and fix errors.
+13. Report:
    - resource metadata added/updated
    - quality classification reason
    - related events linked
@@ -200,9 +210,10 @@ Instructions:
 4. Identify whether current source coverage is weak, duplicated, too editorial, or missing primary/archive/academic support.
 5. Add only high-value missing resources to content/resources.
 6. Update resource-ids.json.
-7. Do not rewrite event narrative unless needed for source alignment.
-8. Run pnpm content:validate.
-9. Report:
+7. If source coverage changes affect event evidence requirements, update event source reference fields only as needed to keep validation coherent.
+8. Do not rewrite event narrative unless needed for source alignment.
+9. Run pnpm content:validate.
+10. Report:
    - existing source quality
    - new sources added
    - rejected sources and why
@@ -217,7 +228,7 @@ Instructions:
 This is the most reusable version.
 
 ```bash
-EVENT_SLUG="sylhet-conquest-1303"
+EVENT_SLUG="1303-conquest-of-sylhet"
 
 codex "You are working in the Bengal Unfolded repo.
 
@@ -230,12 +241,13 @@ Scope:
 - related figures only if verified
 
 Rules:
-- Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/SOURCE_QUALITY.md first.
+- Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, and docs/SOURCE_QUALITY.md first.
 - Search the web for reliable sources.
 - Use only source-backed claims.
 - Prefer primary/archive/academic/recognized reference sources.
 - Add sources as resources if needed.
 - Update resource-ids.json.
+- Keep event evidence metadata coherent with the validator: paired source IDs and evidence levels, claimCitations for major/landmark events, and contested/sensitive metadata when applicable.
 - Maintain EN/BN parity.
 - Use neutral wording.
 - Mark contested, legendary, disputed, or approximate claims carefully.
@@ -262,10 +274,11 @@ codex "You are working in the Bengal Unfolded repo.
 Enrich the figure with ID: $FIGURE_ID.
 
 Rules:
-- Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/SOURCE_QUALITY.md first.
+- Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, and docs/SOURCE_QUALITY.md first.
 - Inspect existing figure metadata and related events.
 - Search the web for reliable sources.
 - Improve role, contribution, context, impact, highlight, and tags.
+- Add structured optional fields when well supported, especially shortAnswer, years/activePeriod, alternateNames/searchAliases, faq, primaryEventIds, and relatedPlaceIds.
 - Keep EN/BN parity.
 - Avoid unsourced glorification or politically loaded claims.
 - Add or update event links only if strongly supported.
@@ -295,7 +308,7 @@ Task: Enrich these figure profiles only:
 - FIGURE_ID_3
 
 Rules:
-1. Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/SOURCE_QUALITY.md first.
+1. Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, and docs/SOURCE_QUALITY.md first.
 2. For each figure, inspect existing EN/BN metadata.
 3. Search web sources separately for each figure.
 4. Improve only source-backed fields.
@@ -325,7 +338,7 @@ First detect whether this ID is an event slug, figure ID, or resource ID by insp
 
 Then:
 - inspect existing content
-- read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/SOURCE_QUALITY.md
+- read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md
 - search web for reliable sources
 - enrich only that item and directly related resource links
 - maintain EN/BN parity
