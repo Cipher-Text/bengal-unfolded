@@ -1,0 +1,113 @@
+{
+  "slug": "1971-declaration-and-proclamation-of-independence",
+  "year": "March-April 1971",
+  "title": "Declaration and Proclamation of Independence",
+  "subtitle": "The constitutional break that turned resistance into a sovereignty claim.",
+  "summary": "Between late March and April 1971, Bangladesh's independence struggle moved from mass resistance to an explicit claim of statehood. The declaration of independence issued in Sheikh Mujibur Rahman's name after the 25 March crackdown, followed by the formal Proclamation of Independence adopted by the provisional leadership, gave the war a constitutional language, a legal rationale, and an organizing political center.",
+  "themeColor": "#8f3f1d",
+  "ctaLabel": "Explore the founding text",
+  "heroTagline": "The move from resistance to statehood was not only military. It was also constitutional and declaratory.",
+  "summarySourceIds": [
+    "proclamation-of-independence-1971-text",
+    "bangladesher-shadhinota-juddho-dolilpotro"
+  ],
+  "whyItMatters": "This chapter matters because it explains how Bangladesh's war of independence was framed not only as armed resistance but as a legally and politically articulated sovereign project. It connects the 25 March rupture to Mujibnagar, wartime diplomacy, and the later constitutional memory of the Bangladeshi state.",
+  "whyItMattersSourceIds": [
+    "war-of-liberation-banglapedia",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "importance": "major",
+  "parentEvent": "1971-liberation-war",
+  "relatedEvents": [
+    {
+      "eventId": "1971-march-7-speech",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1971-operation-searchlight-crackdown",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1971-mujibnagar-government",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1972-state-formation-and-the-1972-constitution",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-march-7-speech",
+    "1971-operation-searchlight-crackdown",
+    "1971-mujibnagar-government",
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "periodLabel": "Pakistan Period and National Awakening",
+  "movementLabel": "Language, autonomy, and liberation",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "The declaration and proclamation remained central to later understandings of Bangladesh's founding legality. They helped anchor state memory around 26 March, provisional wartime authority, and the constitutional continuity claimed between the liberation struggle and the post-1971 republic.",
+  "longTermLegacySourceIds": [
+    "proclamation-of-independence-1971-text",
+    "bangladesh-documents"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "Bengal Region",
+  "identityMemoryNotes": "Public memory preserves both a moment of emergency declaration and a later act of formal proclamation. Together they are remembered as the point where a denied electoral mandate became an asserted national sovereignty, even though different sites, voices, and wartime transmissions remain part of how that memory is narrated.",
+  "identityMemorySourceIds": [
+    "war-of-liberation-banglapedia",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "Between late March and April 1971, Bangladesh's independence struggle moved from mass resistance to an explicit claim of statehood. The declaration of independence issued in Sheikh Mujibur Rahman's name after the 25 March crackdown, followed by the formal Proclamation of Independence adopted by the provisional leadership, gave the war a constitutional language and political center.",
+      "sourceIds": [
+        "proclamation-of-independence-1971-text",
+        "bangladesher-shadhinota-juddho-dolilpotro"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "This chapter explains how Bangladesh's war of independence was framed not only as armed resistance but as a legally and politically articulated sovereign project linked to Mujibnagar and later constitutional memory.",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The declaration and proclamation remained central to later understandings of Bangladesh's founding legality and to state memory around 26 March and provisional wartime authority.",
+      "sourceIds": [
+        "proclamation-of-independence-1971-text",
+        "bangladesh-documents"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "Public memory preserves both an emergency declaration and a formal proclamation, remembering them together as the point where a denied electoral mandate became an asserted national sovereignty.",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

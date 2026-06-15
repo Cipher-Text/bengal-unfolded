@@ -1,0 +1,113 @@
+{
+  "slug": "1971-declaration-and-proclamation-of-independence",
+  "year": "মার্চ-এপ্রিল ১৯৭১",
+  "title": "স্বাধীনতার ঘোষণা ও স্বাধীনতার ঘোষণাপত্র",
+  "subtitle": "যে সাংবিধানিক বিচ্ছেদ প্রতিরোধকে সার্বভৌমতার দাবিতে রূপ দেয়।",
+  "summary": "১৯৭১ সালের মার্চের শেষভাগ থেকে এপ্রিলের মধ্যে বাংলাদেশের স্বাধীনতার সংগ্রাম গণপ্রতিরোধের পর্যায় থেকে স্পষ্ট রাষ্ট্রদাবির পর্যায়ে পৌঁছে যায়। ২৫ মার্চের দমন অভিযানের পর শেখ মুজিবুর রহমানের নামে প্রচারিত স্বাধীনতার ঘোষণা এবং পরে অস্থায়ী নেতৃত্বের গৃহীত স্বাধীনতার ঘোষণাপত্র যুদ্ধকে সাংবিধানিক ভাষা, রাজনৈতিক বৈধতা এবং সংগঠিত কেন্দ্র দেয়।",
+  "themeColor": "#8f3f1d",
+  "ctaLabel": "প্রতিষ্ঠালগ্নের দলিল দেখুন",
+  "heroTagline": "প্রতিরোধ থেকে রাষ্ট্রদাবিতে উত্তরণ শুধু সামরিক ছিল না; তা ছিল সাংবিধানিক ও ঘোষণামূলকও।",
+  "summarySourceIds": [
+    "proclamation-of-independence-1971-text",
+    "bangladesher-shadhinota-juddho-dolilpotro"
+  ],
+  "whyItMatters": "এই অধ্যায়টি গুরুত্বপূর্ণ, কারণ এটি দেখায় যে বাংলাদেশের স্বাধীনতার যুদ্ধ শুধু সশস্ত্র প্রতিরোধ নয়, বরং আইনগত ও রাজনৈতিকভাবে ঘোষিত একটি সার্বভৌম প্রকল্প হিসেবেও গড়ে উঠেছিল। এটি ২৫ মার্চের বিচ্ছেদ, মুজিবনগর সরকার, যুদ্ধকালীন কূটনীতি এবং পরবর্তী রাষ্ট্রীয় সাংবিধানিক স্মৃতিকে এক সুতোয় বাঁধে।",
+  "whyItMattersSourceIds": [
+    "war-of-liberation-banglapedia",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "importance": "major",
+  "parentEvent": "1971-liberation-war",
+  "relatedEvents": [
+    {
+      "eventId": "1971-march-7-speech",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1971-operation-searchlight-crackdown",
+      "relationType": "cause"
+    },
+    {
+      "eventId": "1971-mujibnagar-government",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1971-liberation-war",
+      "relationType": "effect"
+    },
+    {
+      "eventId": "1972-state-formation-and-the-1972-constitution",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1971-march-7-speech",
+    "1971-operation-searchlight-crackdown",
+    "1971-mujibnagar-government",
+    "1971-liberation-war",
+    "1972-state-formation-and-the-1972-constitution"
+  ],
+  "periodLabel": "পাকিস্তান পর্ব ও জাতীয় জাগরণ",
+  "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
+  "showOnLanding": false,
+  "summaryEvidenceLevel": "medium",
+  "whyItMattersEvidenceLevel": "medium",
+  "periodId": "pakistan-period-and-national-awakening",
+  "movementId": "language-autonomy-and-liberation",
+  "longTermLegacy": "স্বাধীনতার ঘোষণা ও ঘোষণাপত্র পরবর্তী সময়ে বাংলাদেশের রাষ্ট্রগঠনের আইনগত ভিত্তি বোঝার কেন্দ্রে থেকে যায়। ২৬ মার্চ, অস্থায়ী যুদ্ধকালীন কর্তৃত্ব, এবং মুক্তিযুদ্ধ থেকে প্রজাতান্ত্রিক রাষ্ট্রে সাংবিধানিক ধারাবাহিকতার দাবিকে এগুলো দীর্ঘমেয়াদে স্মৃতির কাঠামো দেয়।",
+  "longTermLegacySourceIds": [
+    "proclamation-of-independence-1971-text",
+    "bangladesh-documents"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "placeId": "bengal-region",
+  "placeLabel": "বাংলা অঞ্চল",
+  "identityMemoryNotes": "জনস্মৃতিতে একদিকে জরুরি পরিস্থিতিতে দেওয়া স্বাধীনতার ঘোষণা, অন্যদিকে পরে গৃহীত আনুষ্ঠানিক ঘোষণাপত্র - এই দুই স্তর পাশাপাশি টিকে আছে। একসঙ্গে এগুলোকে স্মরণ করা হয় সেই বিন্দু হিসেবে, যেখানে অস্বীকৃত নির্বাচনী ম্যান্ডেট এক ঘোষিত জাতীয় সার্বভৌমতায় রূপ নেয়; যদিও বিভিন্ন স্থান, কণ্ঠ ও যুদ্ধকালীন প্রচারমাধ্যম সেই স্মৃতিকে নানা ভাবে বর্ণনা করে।",
+  "identityMemorySourceIds": [
+    "war-of-liberation-banglapedia",
+    "1971-a-global-history-of-the-creation-of-bangladesh"
+  ],
+  "identityMemoryEvidenceLevel": "medium",
+  "claimCitations": [
+    {
+      "id": "summary-claim-1",
+      "section": "summary",
+      "claim": "১৯৭১ সালের মার্চের শেষভাগ থেকে এপ্রিলের মধ্যে বাংলাদেশের স্বাধীনতার সংগ্রাম গণপ্রতিরোধের পর্যায় থেকে স্পষ্ট রাষ্ট্রদাবির পর্যায়ে পৌঁছে যায়। শেখ মুজিবুর রহমানের নামে প্রচারিত স্বাধীনতার ঘোষণা এবং পরে গৃহীত স্বাধীনতার ঘোষণাপত্র যুদ্ধকে সাংবিধানিক ভাষা ও রাজনৈতিক কেন্দ্র দেয়।",
+      "sourceIds": [
+        "proclamation-of-independence-1971-text",
+        "bangladesher-shadhinota-juddho-dolilpotro"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "whyItMatters-claim-1",
+      "section": "whyItMatters",
+      "claim": "এই অধ্যায়টি দেখায় যে বাংলাদেশের স্বাধীনতার যুদ্ধ শুধু সশস্ত্র প্রতিরোধ নয়, বরং আইনগত ও রাজনৈতিকভাবে ঘোষিত একটি সার্বভৌম প্রকল্প হিসেবেও গড়ে উঠেছিল, যা মুজিবনগর ও পরবর্তী সাংবিধানিক স্মৃতির সঙ্গে যুক্ত।",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "স্বাধীনতার ঘোষণা ও ঘোষণাপত্র বাংলাদেশের রাষ্ট্রগঠনের আইনগত ভিত্তি এবং ২৬ মার্চকেন্দ্রিক রাষ্ট্রীয় স্মৃতির দীর্ঘমেয়াদি রেফারেন্স হিসেবে গুরুত্বপূর্ণ হয়ে থাকে।",
+      "sourceIds": [
+        "proclamation-of-independence-1971-text",
+        "bangladesh-documents"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "জনস্মৃতিতে জরুরি স্বাধীনতার ঘোষণা ও আনুষ্ঠানিক ঘোষণাপত্র - উভয়কেই একত্রে সেই বিন্দু হিসেবে দেখা হয়, যেখানে অস্বীকৃত নির্বাচনী ম্যান্ডেট ঘোষিত জাতীয় সার্বভৌমতায় রূপ নেয়।",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "1971-a-global-history-of-the-creation-of-bangladesh"
+      ],
+      "evidenceLevel": "medium"
+    }
+  ]
+}

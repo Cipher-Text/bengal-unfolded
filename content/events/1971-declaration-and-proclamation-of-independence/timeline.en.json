@@ -1,0 +1,57 @@
+[
+  {
+    "year": "25-26 March 1971",
+    "title": "Declaration follows the crackdown",
+    "detail": "After the Pakistan Army began its 25 March assault, an independence declaration was circulated in Sheikh Mujibur Rahman's name, recasting the crisis as a struggle for a separate sovereign state.",
+    "sourceIds": [
+      "proclamation-of-independence-1971-text",
+      "war-of-liberation-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "war"
+    ]
+  },
+  {
+    "year": "10 April 1971",
+    "title": "Provisional leadership adopts the proclamation",
+    "detail": "The provisional leadership adopted the Proclamation of Independence, providing a formal constitutional basis for wartime authority and for the emerging state of Bangladesh.",
+    "sourceIds": [
+      "proclamation-of-independence-1971-text",
+      "bangladesher-shadhinota-juddho-dolilpotro"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "17 April 1971",
+    "title": "Mujibnagar gives the proclamation institutional form",
+    "detail": "The oath-taking of the Mujibnagar Government translated the proclamation into an operating wartime administration, linking declaratory sovereignty to organized executive leadership.",
+    "sourceIds": [
+      "bangladesh-documents",
+      "1971-a-global-history-of-the-creation-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy",
+      "war"
+    ]
+  },
+  {
+    "year": "Long-term",
+    "title": "Founding legality enters state memory",
+    "detail": "Later constitutional and public memory narratives treated the declaration and proclamation as core founding texts of Bangladesh's independence and wartime legitimacy.",
+    "sourceIds": [
+      "proclamation-of-independence-1971-text",
+      "1971-a-global-history-of-the-creation-of-bangladesh"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  }
+]

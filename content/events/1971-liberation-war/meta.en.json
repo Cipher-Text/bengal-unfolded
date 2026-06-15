@@ -19,6 +19,7 @@
   "importance": "landmark",
   "parentEvent": "1970-bhola-cyclone-and-the-1970-election",
   "childEventIds": [
+    "1971-declaration-and-proclamation-of-independence",
     "1972-state-formation-and-the-1972-constitution",
     "1971-operation-searchlight-crackdown"
   ],
@@ -40,6 +41,10 @@
       "relationType": "cause"
     },
     {
+      "eventId": "1971-declaration-and-proclamation-of-independence",
+      "relationType": "effect"
+    },
+    {
       "eventId": "1972-state-formation-and-the-1972-constitution",
       "relationType": "effect"
     },
@@ -57,6 +62,7 @@
     "1952-language-movement",
     "1969-mass-uprising",
     "1970-bhola-cyclone-and-the-1970-election",
+    "1971-declaration-and-proclamation-of-independence",
     "1972-state-formation-and-the-1972-constitution",
     "1975-baksal-formation-and-collapse",
     "2013-shahbag-movement"

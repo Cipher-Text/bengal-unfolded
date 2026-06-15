@@ -53,6 +53,7 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1969-mass-uprising",
   "1970-bhola-cyclone-and-the-1970-election",
   "1971-liberation-war",
+  "1971-declaration-and-proclamation-of-independence",
   "1971-operation-searchlight-crackdown",
   "1972-state-formation-and-the-1972-constitution",
   "1974-famine-emergency-and-state-crisis",

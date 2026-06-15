@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-06-15
+
+### Completed
+
+- 1971 declaration/proclamation chapter:
+  - Content backfill:
+    - Added bilingual event packs for `1971-declaration-and-proclamation-of-independence` with source-backed event metadata, timeline, quotes, figure links, and resource links.
+    - Positioned the chapter between the March crisis and Mujibnagar sequence in Liberation War topic discovery.
+    - Linked the new chapter into the `1971-liberation-war` relationship cluster and the macro `bangladesh-history` topic.
+  - Model/validation:
+    - Registered the new event slug in `src/types/content.ts`.
+    - No schema or validator-rule changes were required beyond the slug registry update.
+  - UI/runtime:
+    - No UI changes required; existing event and topic routes consume the new content pack.
+  - Validation:
+    - `pnpm content:validate` passes.
+
+- Content planning audit:
+  - Documentation:
+    - Added `docs/content-gap-priority-events.md` to convert the repo audit into a concrete backlog of missing major event chapters.
+    - Prioritized six high-value event candidates with proposed slugs, topic placement, related-event context, and repo-local source anchors.
+    - Marked the generic `1920s-1930s` chapter for replacement by concrete late-colonial peasant-politics events.
+  - Model/validation/UI:
+    - No schema, validator, UI, or content-data changes in this pass.
+
 ## 2026-06-14
 
 ### Completed
