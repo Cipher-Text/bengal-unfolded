@@ -1,0 +1,23 @@
+{
+  "title": "Mahasthan Brahmi Inscription",
+  "seoTitle": "Mahasthan Brahmi Inscription - Earliest Bengal Epigraphic Record",
+  "seoDescription": "Banglapedia reference on the Mahasthan Brahmi inscription, early urbanization, Mauryan authority, and exchange evidence in Bengal.",
+  "note": "Reference on the fragmentary Brahmi inscription from Mahasthan, described as the earliest epigraphic record in Bengal.",
+  "category": "reference-sources",
+  "subcategory": "Epigraphy and Archaeology",
+  "attribution": "Banglapedia / Sarita Khettry",
+  "creatorId": "banglapedia-sarita-khettry",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "high",
+  "href": "https://en.banglapedia.org/index.php/Mahasthan_Brahmi_Inscription",
+  "whyItMatters": "It directly supports claims about Pundranagara, early urbanization, Mauryan-period administration, relief measures, and early exchange media in Bengal.",
+  "relatedEventIds": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence"
+  ],
+  "relatedFigureIds": [],
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal"
+  ]
+}

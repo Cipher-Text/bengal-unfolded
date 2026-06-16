@@ -1,0 +1,23 @@
+{
+  "title": "মহাস্থান",
+  "seoTitle": "মহাস্থান - প্রত্নতাত্ত্বিক reference",
+  "seoDescription": "মহাস্থান/মহাস্থানগড়, পুণ্ড্রনগর, excavation history এবং early urban settlement evidence নিয়ে Banglapedia reference.",
+  "note": "মহাস্থান/মহাস্থানগড়, পুণ্ড্রনগর, excavation history এবং early urban settlement evidence নিয়ে Banglapedia reference.",
+  "category": "reference-sources",
+  "subcategory": "Archaeology and Site Reference",
+  "attribution": "বাংলাপিডিয়া",
+  "creatorId": "banglapedia",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "high",
+  "href": "https://en.banglapedia.org/index.php/Mahasthan",
+  "whyItMatters": "মহাস্থানগড়ের site context, excavation chronology, cultural phases, radiocarbon ranges এবং urban archaeology বোঝার জন্য এটি Bangladesh-centered reference.",
+  "relatedEventIds": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence"
+  ],
+  "relatedFigureIds": [],
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal"
+  ]
+}

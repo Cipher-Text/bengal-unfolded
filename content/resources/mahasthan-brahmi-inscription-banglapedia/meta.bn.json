@@ -1,0 +1,23 @@
+{
+  "title": "মহাস্থান ব্রাহ্মী লিপি",
+  "seoTitle": "মহাস্থান ব্রাহ্মী লিপি - বাংলার প্রাচীন epigraphic record",
+  "seoDescription": "মহাস্থান ব্রাহ্মী লিপি, early urbanization, Mauryan authority এবং Bengal-এর exchange evidence নিয়ে Banglapedia reference.",
+  "note": "মহাস্থান থেকে পাওয়া fragmentary Brahmi inscription নিয়ে reference; এটি বাংলার earliest epigraphic record হিসেবে গুরুত্বপূর্ণ.",
+  "category": "reference-sources",
+  "subcategory": "Epigraphy and Archaeology",
+  "attribution": "বাংলাপিডিয়া / সরিতা ক্ষেত্রী",
+  "creatorId": "banglapedia-sarita-khettry",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "high",
+  "href": "https://en.banglapedia.org/index.php/Mahasthan_Brahmi_Inscription",
+  "whyItMatters": "Pundranagara, early urbanization, Mauryan-period administration, relief measures এবং Bengal-এর early exchange media নিয়ে claim সমর্থনের জন্য এটি direct reference.",
+  "relatedEventIds": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence"
+  ],
+  "relatedFigureIds": [],
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal"
+  ]
+}

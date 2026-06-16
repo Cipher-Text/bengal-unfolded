@@ -1,0 +1,23 @@
+{
+  "title": "Mahasthan",
+  "seoTitle": "Mahasthan - Archaeological Reference",
+  "seoDescription": "Banglapedia reference on Mahasthan/Mahasthangarh, Pundranagara, excavation history, and early urban settlement evidence.",
+  "note": "Banglapedia reference on Mahasthan/Mahasthangarh, Pundranagara, excavation history, and early urban settlement evidence.",
+  "category": "reference-sources",
+  "subcategory": "Archaeology and Site Reference",
+  "attribution": "Banglapedia",
+  "creatorId": "banglapedia",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "high",
+  "href": "https://en.banglapedia.org/index.php/Mahasthan",
+  "whyItMatters": "It gives Bangladesh-centered site context, excavation chronology, cultural phases, radiocarbon ranges, and urban archaeology details for Mahasthangarh.",
+  "relatedEventIds": [
+    "0400bce-0300bce-mahasthangarh-urban-emergence"
+  ],
+  "relatedFigureIds": [],
+  "relatedTopicIds": [
+    "ancient-and-early-medieval-bengal"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Nil Darpan; or, The Indigo Planting Mirror",
+  "seoTitle": "Nil Darpan - Indigo Revolt Literary Source",
+  "seoDescription": "Dinabandhu Mitra's Indigo Revolt-era play, available through an archive scan of the English translation.",
+  "note": "A contemporary literary-political text associated with the Indigo Revolt and public exposure of planter abuses.",
+  "category": "cultural-and-literary-resources",
+  "subcategory": "Literary Texts and Protest Culture",
+  "attribution": "Dinabandhu Mitra",
+  "creatorId": "dinabandhu-mitra",
+  "creatorType": "person",
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "href": "https://archive.org/details/nildarpanorindig00mitriala",
+  "whyItMatters": "It preserves how the indigo crisis entered public culture and helps connect agrarian protest with print, theatre, and colonial controversy.",
+  "relatedEventIds": [
+    "1859-1860-indigo-revolt"
+  ],
+  "relatedFigureIds": [],
+  "relatedTopicIds": [
+    "peasant-religious-and-rural-resistance"
+  ]
+}
