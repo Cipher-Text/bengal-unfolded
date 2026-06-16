@@ -640,11 +640,11 @@ export async function getTopic(locale: string, slug: string): Promise<Topic> {
   return rawTopic;
 }
 
-export async function getAllTopics(locale: string): Promise<Topic[]> {
+export const getAllTopics = cache(async (locale: string): Promise<Topic[]> => {
   assertSupportedLocale(locale);
   const slugs = await getAllTopicSlugs();
   return Promise.all(slugs.map((slug) => getTopic(locale, slug)));
-}
+});
 
 export async function getTopicsByEventSlug(
   locale: string,
@@ -763,11 +763,11 @@ export async function getEventContent(
   return { meta, timeline, figures, resources, quotes };
 }
 
-export async function getAllEvents(locale: string): Promise<EventMeta[]> {
+export const getAllEvents = cache(async (locale: string): Promise<EventMeta[]> => {
   assertSupportedLocale(locale);
   const chronologicalSlugs = await getChronologicalEventSlugs(locale as Locale);
   return Promise.all(chronologicalSlugs.map((slug) => getEventMeta(locale, slug)));
-}
+});
 
 export async function getEventHierarchy(
   locale: string,
@@ -1048,15 +1048,8 @@ export const getEventsByPeriodId = cache(
   async (locale: string, periodId: string): Promise<EventMeta[]> => {
     assertSupportedLocale(locale);
     assertSupportedPeriodId(periodId);
-
-    const allEvents = await Promise.all(
-      SUPPORTED_EVENT_SLUGS.map(async (slug) => {
-        const meta = await getEventMeta(locale, slug);
-        return meta.periodId === periodId ? meta : null;
-      }),
-    );
-
-    return allEvents.filter((event): event is EventMeta => event !== null);
+    const allEvents = await getAllEvents(locale);
+    return allEvents.filter((e) => e.periodId === periodId);
   },
 );
 
@@ -1086,15 +1079,8 @@ export const getEventsByMovementId = cache(
   async (locale: string, movementId: string): Promise<EventMeta[]> => {
     assertSupportedLocale(locale);
     assertSupportedMovementId(movementId);
-
-    const allEvents = await Promise.all(
-      SUPPORTED_EVENT_SLUGS.map(async (slug) => {
-        const meta = await getEventMeta(locale, slug);
-        return meta.movementId === movementId ? meta : null;
-      }),
-    );
-
-    return allEvents.filter((event): event is EventMeta => event !== null);
+    const allEvents = await getAllEvents(locale);
+    return allEvents.filter((e) => e.movementId === movementId);
   },
 );
 
@@ -1123,17 +1109,14 @@ export const getEventsByPlaceId = cache(
     assertSupportedLocale(locale);
     assertSupportedPlaceId(placeId);
 
-    const place = await getPlace(locale, placeId);
+    const [place, allEvents] = await Promise.all([
+      getPlace(locale, placeId),
+      getAllEvents(locale),
+    ]);
     const relatedEventIds = new Set(place.relatedEventIds ?? []);
-
-    const allEvents = await Promise.all(
-      SUPPORTED_EVENT_SLUGS.map(async (slug) => {
-        const meta = await getEventMeta(locale, slug);
-        return meta.placeId === placeId || relatedEventIds.has(meta.slug) ? meta : null;
-      }),
+    return allEvents.filter(
+      (e) => e.placeId === placeId || relatedEventIds.has(e.slug),
     );
-
-    return allEvents.filter((event): event is EventMeta => event !== null);
   },
 );
 
