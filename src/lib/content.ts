@@ -39,33 +39,26 @@ import {
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
-function isLocale(v: string): v is Locale {
-  return SUPPORTED_LOCALES.includes(v as Locale);
+function makeGuard<T extends string>(arr: readonly T[]) {
+  return (v: string): v is T => (arr as readonly string[]).includes(v);
 }
 
-function isEventSlug(v: string): v is EventSlug {
-  return SUPPORTED_EVENT_SLUGS.includes(v as EventSlug);
+function makeAssert<T extends string>(
+  guard: (v: string) => v is T,
+  label: string,
+): (v: string) => asserts v is T {
+  return (v: string): asserts v is T => {
+    if (!guard(v)) throw new Error(`Unsupported ${label}: ${v}`);
+  };
 }
 
-function isFigureId(v: string): v is FigureId {
-  return SUPPORTED_FIGURE_IDS.includes(v as FigureId);
-}
-
-function isBookId(v: string): v is BookId {
-  return SUPPORTED_BOOK_IDS.includes(v as BookId);
-}
-
-function isPeriodId(v: string): v is PeriodId {
-  return SUPPORTED_PERIOD_IDS.includes(v as PeriodId);
-}
-
-function isMovementId(v: string): v is MovementId {
-  return SUPPORTED_MOVEMENT_IDS.includes(v as MovementId);
-}
-
-function isPlaceId(v: string): v is PlaceId {
-  return SUPPORTED_PLACE_IDS.includes(v as PlaceId);
-}
+const isLocale = makeGuard(SUPPORTED_LOCALES);
+const isEventSlug = makeGuard(SUPPORTED_EVENT_SLUGS);
+const isFigureId = makeGuard(SUPPORTED_FIGURE_IDS);
+const isBookId = makeGuard(SUPPORTED_BOOK_IDS);
+const isPeriodId = makeGuard(SUPPORTED_PERIOD_IDS);
+const isMovementId = makeGuard(SUPPORTED_MOVEMENT_IDS);
+const isPlaceId = makeGuard(SUPPORTED_PLACE_IDS);
 
 function parseEventYearToSortValue(yearLabel: string, slug: EventSlug): number {
   const normalized = yearLabel.toLowerCase();
@@ -492,51 +485,13 @@ const readTopicSlugsCached = cache(async (): Promise<string[]> => {
     .sort((a, b) => a.localeCompare(b));
 });
 
-export function assertSupportedLocale(
-  locale: string,
-): asserts locale is Locale {
-  if (!isLocale(locale)) throw new Error(`Unsupported locale: ${locale}`);
-}
-
-export function assertSupportedEventSlug(
-  slug: string,
-): asserts slug is EventSlug {
-  if (!isEventSlug(slug)) throw new Error(`Unsupported event slug: ${slug}`);
-}
-
-export function assertSupportedFigureId(
-  figureId: string,
-): asserts figureId is FigureId {
-  if (!isFigureId(figureId))
-    throw new Error(`Unsupported figure id: ${figureId}`);
-}
-
-export function assertSupportedBookId(
-  bookId: string,
-): asserts bookId is BookId {
-  if (!isBookId(bookId)) throw new Error(`Unsupported book id: ${bookId}`);
-}
-
-export function assertSupportedPeriodId(
-  periodId: string,
-): asserts periodId is PeriodId {
-  if (!isPeriodId(periodId))
-    throw new Error(`Unsupported period id: ${periodId}`);
-}
-
-export function assertSupportedMovementId(
-  movementId: string,
-): asserts movementId is MovementId {
-  if (!isMovementId(movementId))
-    throw new Error(`Unsupported movement id: ${movementId}`);
-}
-
-export function assertSupportedPlaceId(
-  placeId: string,
-): asserts placeId is PlaceId {
-  if (!isPlaceId(placeId))
-    throw new Error(`Unsupported place id: ${placeId}`);
-}
+export const assertSupportedLocale: (v: string) => asserts v is Locale = makeAssert(isLocale, "locale");
+export const assertSupportedEventSlug: (v: string) => asserts v is EventSlug = makeAssert(isEventSlug, "event slug");
+export const assertSupportedFigureId: (v: string) => asserts v is FigureId = makeAssert(isFigureId, "figure id");
+export const assertSupportedBookId: (v: string) => asserts v is BookId = makeAssert(isBookId, "book id");
+export const assertSupportedPeriodId: (v: string) => asserts v is PeriodId = makeAssert(isPeriodId, "period id");
+export const assertSupportedMovementId: (v: string) => asserts v is MovementId = makeAssert(isMovementId, "movement id");
+export const assertSupportedPlaceId: (v: string) => asserts v is PlaceId = makeAssert(isPlaceId, "place id");
 
 export async function getHomeContent(locale: string): Promise<HomeContent> {
   assertSupportedLocale(locale);

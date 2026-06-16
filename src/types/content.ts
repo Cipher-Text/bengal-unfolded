@@ -1,3 +1,20 @@
+import {
+  COORDINATE_CONFIDENCES,
+  EVIDENCE_LEVELS,
+  EVENT_CLAIM_SECTIONS,
+  EVENT_IMPORTANCE_VALUES,
+  EVENT_MAP_POINT_ROLES,
+  EVENT_RELATION_TYPES,
+  FIGURE_GROUPS,
+  LEARNING_PATH_ITEM_TYPES,
+  NAME_HISTORY_LANGUAGES,
+  PLACE_TYPES,
+  RESOURCE_CATEGORIES,
+  RESOURCE_SOURCE_QUALITIES,
+  SOURCE_QUALITIES,
+  TIMELINE_THEMES,
+} from "@/constants/enums";
+
 export const SUPPORTED_LOCALES = ["en", "bn"] as const;
 export const SUPPORTED_EVENT_SLUGS = [
   "0400bce-0300bce-mahasthangarh-urban-emergence",
@@ -814,19 +831,8 @@ export type PeriodId = (typeof SUPPORTED_PERIOD_IDS)[number];
 export type MovementId = (typeof SUPPORTED_MOVEMENT_IDS)[number];
 export type PlaceId = (typeof SUPPORTED_PLACE_IDS)[number];
 export type ResourceId = string;
-export type EventImportance =
-  | "landmark"
-  | "major"
-  | "high"
-  | "medium"
-  | "reference";
-export type EventRelationType =
-  | "cause"
-  | "effect"
-  | "background"
-  | "parallel"
-  | "legacy"
-  | "contrast";
+export type EventImportance = (typeof EVENT_IMPORTANCE_VALUES)[number];
+export type EventRelationType = (typeof EVENT_RELATION_TYPES)[number];
 export type EventRelation = {
   eventId: EventSlug;
   relationType: EventRelationType;
@@ -844,16 +850,7 @@ export type EventMisconception = {
   sourceIds?: string[];
 };
 
-export type EventMapPointRole =
-  | "battlefield"
-  | "capital"
-  | "route"
-  | "birthplace"
-  | "deathplace"
-  | "treaty-place"
-  | "movement-center"
-  | "administrative-center"
-  | "other";
+export type EventMapPointRole = (typeof EVENT_MAP_POINT_ROLES)[number];
 
 export type EventMapPoint = {
   placeId: string;
@@ -866,17 +863,12 @@ export type EventMapPoint = {
 };
 
 export type LearningPathItem = {
-  type: "event" | "figure" | "resource" | "place" | "period" | "topic";
+  type: (typeof LEARNING_PATH_ITEM_TYPES)[number];
   id: string;
   reason?: string;
 };
 
-export type EventClaimSection =
-  | "summary"
-  | "whyItMatters"
-  | "longTermLegacy"
-  | "culturalImpact"
-  | "identityMemoryNotes";
+export type EventClaimSection = (typeof EVENT_CLAIM_SECTIONS)[number];
 
 export type EventClaimCitation = {
   id: string;
@@ -967,6 +959,8 @@ export type TimelineItem = {
   emphasis?: "normal" | "peak";
 };
 
+export type FigureGroup = (typeof FIGURE_GROUPS)[number];
+
 export type Figure = {
   id: FigureId;
   name: string;
@@ -978,7 +972,7 @@ export type Figure = {
   deathYear?: string;
   activePeriod?: string;
   role: string;
-  group: "leader" | "coordinator" | "martyr" | "organization" | "collective" | "intellectual" | "revolutionary";
+  group: FigureGroup;
   contribution: string;
   context: string;
   impact: string;
@@ -1032,31 +1026,13 @@ export type Movement = {
   icon?: string;
 };
 
-export type PlaceType =
-  | "region"
-  | "city"
-  | "capital"
-  | "district"
-  | "division"
-  | "river"
-  | "port"
-  | "battlefield"
-  | "religious-site"
-  | "educational-site"
-  | "archaeological-site"
-  | "frontier"
-  | "route"
-  | "other";
+export type PlaceType = (typeof PLACE_TYPES)[number];
 
-export type CoordinateConfidence =
-  | "exact"
-  | "approximate"
-  | "representative"
-  | "unknown";
+export type CoordinateConfidence = (typeof COORDINATE_CONFIDENCES)[number];
 
 export type NameHistoryEntry = {
   name: string;
-  language?: "bn" | "en" | "fa" | "ar" | "sa" | "pt" | "other";
+  language?: (typeof NAME_HISTORY_LANGUAGES)[number];
   fromYear?: string;
   toYear?: string;
   period?: string;
@@ -1135,33 +1111,11 @@ export type Book = {
   note: string;
 };
 
-export type ResourceCategory =
-  | "primary-sources"
-  | "academic-books"
-  | "reference-sources"
-  | "research-articles-and-papers"
-  | "memoirs-and-eyewitness-accounts"
-  | "maps-and-visual-sources"
-  | "documentary-and-video"
-  | "cultural-and-literary-resources"
-  | "news-and-contemporary-reports"
-  | "further-reading";
-export type SourceQuality = "primary" | "secondary" | "archive" | "editorial";
-export type ResourceSourceQuality =
-  | "primary"
-  | "secondary"
-  | "archive"
-  | "academic"
-  | "editorial"
-  | "reference"
-  | "unknown";
-export type EvidenceLevel = "high" | "medium" | "low";
-export type TimelineTheme =
-  | "language"
-  | "democracy"
-  | "war"
-  | "culture"
-  | "economy";
+export type ResourceCategory = (typeof RESOURCE_CATEGORIES)[number];
+export type SourceQuality = (typeof SOURCE_QUALITIES)[number];
+export type ResourceSourceQuality = (typeof RESOURCE_SOURCE_QUALITIES)[number];
+export type EvidenceLevel = (typeof EVIDENCE_LEVELS)[number];
+export type TimelineTheme = (typeof TIMELINE_THEMES)[number];
 
 export type EventResource = {
   id: ResourceId;

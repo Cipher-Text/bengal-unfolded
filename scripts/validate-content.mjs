@@ -1,10 +1,28 @@
 #!/usr/bin/env node
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import {
+  FIGURE_GROUPS_SET as validFigureGroups,
+  SOURCE_QUALITIES_SET as allowedQuality,
+  RESOURCE_SOURCE_QUALITIES_SET as allowedSourceQuality,
+  EVIDENCE_LEVELS_SET as allowedEvidenceLevel,
+  RESOURCE_CATEGORIES_SET as allowedResourceCategories,
+  EVENT_MAP_POINT_ROLES_SET as allowedMapPointRoles,
+  LEARNING_PATH_ITEM_TYPES_SET as allowedLearningPathTypes,
+  TIMELINE_THEMES_SET as allowedThemes,
+  EVENT_IMPORTANCE_VALUES_SET as allowedImportance,
+  EVENT_RELATION_TYPES_SET as allowedRelationTypes,
+  EVENT_CLAIM_SECTIONS_SET as allowedClaimSections,
+  SUPPORTED_PERIOD_IDS_SET as allowedPeriodIds,
+  SUPPORTED_MOVEMENT_IDS_SET as allowedMovementIds,
+  SUPPORTED_PLACE_IDS_SET as allowedPlaceIds,
+  PLACE_TYPES_SET as allowedPlaceTypes,
+  COORDINATE_CONFIDENCES_SET as allowedCoordinateConfidence,
+  NAME_HISTORY_LANGUAGES_SET as allowedLanguages,
+} from "./content-enums.mjs";
 
 const root = process.cwd();
 const contentDir = path.join(root, "content");
-const validFigureGroups = new Set(["leader", "coordinator", "martyr", "organization", "collective", "intellectual", "revolutionary"]);
 
 async function exists(p) {
   try {
@@ -136,123 +154,8 @@ async function main() {
     }
     placeTitlesByLocale.set(placeId, titles);
   }
-  const allowedQuality = new Set(["primary", "secondary", "archive", "editorial"]);
-  const allowedSourceQuality = new Set(["primary", "secondary", "archive", "academic", "editorial", "reference", "unknown"]);
-  const allowedEvidenceLevel = new Set(["high", "medium", "low"]);
-  const allowedResourceCategories = new Set([
-    "primary-sources",
-    "academic-books",
-    "reference-sources",
-    "research-articles-and-papers",
-    "memoirs-and-eyewitness-accounts",
-    "maps-and-visual-sources",
-    "documentary-and-video",
-    "cultural-and-literary-resources",
-    "news-and-contemporary-reports",
-    "further-reading",
-  ]);
-  const allowedMapPointRoles = new Set([
-    "battlefield",
-    "capital",
-    "route",
-    "birthplace",
-    "deathplace",
-    "treaty-place",
-    "movement-center",
-    "administrative-center",
-    "other",
-  ]);
-  const allowedLearningPathTypes = new Set(["event", "figure", "resource", "place", "period", "topic"]);
-  const allowedThemes = new Set(["language", "democracy", "war", "culture", "economy"]);
-  const allowedImportance = new Set(["landmark", "major", "high", "medium", "reference"]);
-  const allowedRelationTypes = new Set(["cause", "effect", "background", "parallel", "legacy", "contrast"]);
-  const allowedClaimSections = new Set(["summary", "whyItMatters", "longTermLegacy", "culturalImpact", "identityMemoryNotes"]);
-  const allowedPeriodIds = new Set([
-    "ancient-and-pre-sultanate-bengal",
-    "transition-to-sultanate-formation",
-    "independent-bengal-sultanate-era",
-    "mughal-incorporation-and-consolidation",
-    "colonial-rule-and-resistance",
-    "partition-and-late-colonial-politics",
-    "pakistan-period-and-national-awakening",
-    "post-liberation-state-and-democracy",
-    "contemporary-memory-and-civic-protest",
-  ]);
   const periodDir = path.join(contentDir, "periods");
-  await fs.readdir(periodDir);
-
-  const allowedMovementIds = new Set([
-    "colonial-capture-and-resistance",
-    "partition-and-political-representation",
-    "language-autonomy-and-liberation",
-    "state-power-and-democratic-transition",
-    "memory-justice-and-civic-dissent",
-  ]);
   const movementDir = path.join(contentDir, "movements");
-  await fs.readdir(movementDir);
-  const allowedPlaceIds = new Set([
-    "bengal-region",
-    "bangladesh",
-    "east-bengal",
-    "east-pakistan",
-    "west-bengal",
-    "mahasthangarh",
-    "somapura-mahavihara",
-    "gaur-lakhnauti",
-    "nadia-nabadwip",
-    "sonargaon",
-    "sylhet",
-    "dhaka-jahangirnagar",
-    "murshidabad",
-    "chittagong-chattogram",
-    "rajmahal",
-    "hooghly",
-    "calcutta-kolkata",
-    "palashi-plassey",
-    "buxar",
-    "faridpur",
-    "barasat-narkelberia",
-    "noakhali",
-    "dhaka-university",
-    "dhaka-medical-college",
-    "central-shaheed-minar",
-    "racecourse-suhrawardy-udyan",
-    "old-dhaka",
-    "jinjira-keraniganj",
-    "dhanmondi-32",
-    "dhaka-central-jail",
-    "gulshan-holey-artisan",
-    "mujibnagar",
-    "farakka",
-    "shahbag-dhaka",
-    "pilkhana-dhaka",
-    "chittagong-hill-tracts",
-    "satgaon",
-    "gauda-rajmahal-corridor",
-    "bhati-region",
-    "paharpur",
-    "rangpur",
-    "savar-rana-plaza",
-    "bhola",
-    "ramu",
-    "naxalbari",
-    "agartala",
-    "padua-pyrdiwah-boraibari",
-    "hazratbal-srinagar",
-    "lahore",
-    "delhi",
-    "krishnanagar",
-    "barisal-bakerganj",
-    "comilla-tripura-frontier",
-    "jessore-khulna-corridor",
-    "hilli",
-    "garibpur",
-    "kamalpur",
-    "kushtia",
-    "chuknagar",
-    "bihar-borderland",
-  ]);
-  await fs.readdir(placesDir);
 
   for (const slug of eventSlugs) {
     const base = path.join(eventDir, slug);
@@ -866,11 +769,6 @@ async function main() {
       if (typeof meta.themeColor !== "string" || meta.themeColor.trim().length === 0) {
         errors.push(`Invalid or missing themeColor at content/places/${placeId}/meta.${locale}.json`);
       }
-      const allowedPlaceTypes = new Set([
-        "region", "city", "capital", "district", "division", "river", "port",
-        "battlefield", "religious-site", "educational-site", "archaeological-site",
-        "frontier", "route", "other"
-      ]);
       const allowedRegionTypes = new Set(["region", "city", "district", "site"]);
 
       // Check placeType (new required field) or fallback to regionType (deprecated)
@@ -922,7 +820,6 @@ async function main() {
         errors.push(`modernAdministrativeUnit must be string at content/places/${placeId}/meta.${locale}.json`);
       }
 
-      const allowedCoordinateConfidence = new Set(["exact", "approximate", "representative", "unknown"]);
       if ("coordinateConfidence" in meta && meta.coordinateConfidence !== undefined) {
         if (typeof meta.coordinateConfidence !== "string" || !allowedCoordinateConfidence.has(meta.coordinateConfidence)) {
           errors.push(`Invalid coordinateConfidence at content/places/${placeId}/meta.${locale}.json (must be: exact | approximate | representative | unknown)`);
@@ -947,7 +844,6 @@ async function main() {
         if (!Array.isArray(meta.nameHistory)) {
           errors.push(`nameHistory must be an array at content/places/${placeId}/meta.${locale}.json`);
         } else {
-          const allowedLanguages = new Set(["bn", "en", "fa", "ar", "sa", "pt", "other"]);
           for (let i = 0; i < meta.nameHistory.length; i++) {
             const entry = meta.nameHistory[i];
             if (!entry || typeof entry !== "object") {
