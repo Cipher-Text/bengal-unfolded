@@ -29,7 +29,7 @@ Target files:
 - content/resources/**/meta.bn.json
 
 Instructions:
-1. First inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
+1. First inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md, src/types/content.ts, and scripts/validate-content.mjs.
 2. Inspect the existing event files for EVENT_SLUG.
 3. Search the web for reliable sources about this event.
 4. Prefer primary, archive, academic, encyclopedia, book, university, official, or recognized historical sources.
@@ -84,7 +84,7 @@ Target files:
 - content/resources/**/meta.bn.json
 
 Instructions:
-1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
+1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md, src/types/content.ts, and scripts/validate-content.mjs.
 2. Inspect existing timeline files for EVENT_SLUG.
 3. Search the web for reliable sources about the chronological sequence of this event.
 4. Build or improve timeline items using only source-backed claims.
@@ -127,7 +127,7 @@ Target files:
 - content/resources/**/meta.bn.json only if new sources are needed
 
 Instructions:
-1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
+1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md, src/types/content.ts, and scripts/validate-content.mjs.
 2. Inspect existing figure metadata for FIGURE_ID.
 3. Search the web for reliable sources about this person.
 4. Prefer academic, encyclopedia, archive, official, book, or recognized historical sources.
@@ -167,10 +167,10 @@ Target files:
 - related content/events/*/resource-ids.json only if the resource directly supports that event
 
 Instructions:
-1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md, src/types/content.ts, and scripts/validate-content.mjs.
+1. Inspect docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md, src/types/content.ts, and scripts/validate-content.mjs.
 2. Search the web for reliable bibliographic/source information about TOPIC_OR_BOOK_NAME.
 3. Collect title, author, publisher, year, type, quality, url if available, summary, and relevance.
-4. Classify quality using docs/SOURCE_QUALITY.md:
+4. Classify quality using docs/EDITORIAL_GUIDELINES.md (Source Quality Rubric section):
    - primary
    - secondary
    - archive
@@ -241,7 +241,7 @@ Scope:
 - related figures only if verified
 
 Rules:
-- Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, and docs/SOURCE_QUALITY.md first.
+- Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md first.
 - Search the web for reliable sources.
 - Use only source-backed claims.
 - Prefer primary/archive/academic/recognized reference sources.
@@ -274,7 +274,7 @@ codex "You are working in the Bengal Unfolded repo.
 Enrich the figure with ID: $FIGURE_ID.
 
 Rules:
-- Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, and docs/SOURCE_QUALITY.md first.
+- Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md first.
 - Inspect existing figure metadata and related events.
 - Search the web for reliable sources.
 - Improve role, contribution, context, impact, highlight, and tags.
@@ -308,7 +308,7 @@ Task: Enrich these figure profiles only:
 - FIGURE_ID_3
 
 Rules:
-1. Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, and docs/SOURCE_QUALITY.md first.
+1. Read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md first.
 2. For each figure, inspect existing EN/BN metadata.
 3. Search web sources separately for each figure.
 4. Improve only source-backed fields.
@@ -338,7 +338,7 @@ First detect whether this ID is an event slug, figure ID, or resource ID by insp
 
 Then:
 - inspect existing content
-- read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, docs/SOURCE_QUALITY.md
+- read docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md
 - search web for reliable sources
 - enrich only that item and directly related resource links
 - maintain EN/BN parity

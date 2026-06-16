@@ -19,10 +19,7 @@ Steps:
    - content/places/
    - docs/CONTENT_MODEL.md
    - docs/AI_CONTRACT.md
-   - docs/EDITORIAL_RULES.md
-   - docs/EDITORIAL_NEUTRALITY.md
-   - docs/SENSITIVE_POLITICAL_HISTORY.md
-   - docs/SOURCE_QUALITY.md
+   - docs/EDITORIAL_GUIDELINES.md
    - docs/ROADMAP.md
 
 2. Build an inventory of existing:
@@ -159,7 +156,7 @@ Audit missing events, figures, and resources, then create an implementation-read
 Do not add content JSON yet. Only create/update docs/content-gap-audit.md.
 
 Instructions:
-1. Inspect existing content/events, content/figures, content/resources, content/topics, content/periods, content/places, and docs, especially docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_RULES.md, docs/EDITORIAL_NEUTRALITY.md, docs/SENSITIVE_POLITICAL_HISTORY.md, and docs/SOURCE_QUALITY.md.
+1. Inspect existing content/events, content/figures, content/resources, content/topics, content/periods, content/places, and docs, especially docs/CONTENT_MODEL.md, docs/AI_CONTRACT.md, docs/EDITORIAL_GUIDELINES.md.
 2. Search the web for reliable Bengal/Bangladesh history references.
 3. Compare existing coverage with important historical coverage across periods.
 4. Identify missing events, missing figures, missing resources, and weak existing pages.

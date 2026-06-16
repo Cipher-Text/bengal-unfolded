@@ -1,7 +1,7 @@
 # Adding Figure Images - Workflow Guide
 
 **Status:** 163 figures need images as of 2026-06-07  
-**Priority Report:** `docs/missing-images-report.csv`
+**Priority Report:** `docs/archive/missing-images-report.csv`
 
 ---
 
@@ -13,7 +13,7 @@
 4. Add to project and update metadata
 5. Validate and commit
 
-For source and license tracking, add each accepted image to `docs/figure-image-sources.md`.
+For source and license tracking, add each accepted image to `docs/archive/figure-image-sources.md`.
 
 ---
 
@@ -77,7 +77,7 @@ head -21 docs/missing-images-report.csv | column -t -s,
 **Important:**
 - Verify copyright status
 - Get permissions if needed
-- Document source and license/status in `docs/figure-image-sources.md`
+- Document source and license/status in `docs/archive/figure-image-sources.md`
 
 ### Step 3: Process Image
 
@@ -142,7 +142,7 @@ Edit `content/figures/<figure-id>/meta.en.json`:
 
 **4.3. Document source:**
 
-Update `docs/figure-image-sources.md` with the source URL, license/status, and any non-standard processing notes.
+Update `docs/archive/figure-image-sources.md` with the source URL, license/status, and any non-standard processing notes.
 
 Edit `content/figures/<figure-id>/meta.bn.json`:
 ```json
@@ -313,7 +313,7 @@ If no repo-local audit script exists, regenerate `docs/missing-images-report.csv
 - **Image Guidelines:** `docs/CONTENT_MODEL.md`
 - **Figure Schema:** `docs/CONTENT_MODEL.md`
 - **Priority List:** `docs/missing-images-report.csv`
-- **Source Notes:** `docs/figure-image-sources.md`
+- **Source Notes:** `docs/archive/figure-image-sources.md`
 - **Validation Script:** `scripts/validate-content.mjs`
 
 ---

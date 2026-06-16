@@ -10,7 +10,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 All coding/writing agents (Codex, Claude, Gemini, OpenCode, and similar) must follow:
 
 - `docs/AI_CONTRACT.md`
-- `docs/EDITORIAL_RULES.md`
+- `docs/EDITORIAL_GUIDELINES.md`
 - `docs/CONTENT_MODEL.md`
 
 Hard requirements:

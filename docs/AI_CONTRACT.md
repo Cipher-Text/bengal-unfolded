@@ -42,10 +42,9 @@ For every schema or field change:
 - IDs must reference existing entities.
 - Arrays must not contain duplicates where relationship uniqueness is required.
 - Enum-like fields must only use allowed values.
-- Resource metadata under `content/resources/*/meta.<locale>.json` must include `quality` in `primary | secondary | archive | editorial` (see `docs/SOURCE_QUALITY.md`).
-- `primary` vs `secondary` assignments must follow the distinction tests defined in `docs/SOURCE_QUALITY.md` (origin, processing, proximity, reproduction, commentary boundary).
-- Editorial neutrality handling must follow `docs/EDITORIAL_NEUTRALITY.md` and be applied consistently across EN/BN locales.
-- Sensitive political-history handling must follow `docs/SENSITIVE_POLITICAL_HISTORY.md`, including required sensitive/dispute metadata and EN/BN parity for accountability language.
+- Resource metadata under `content/resources/*/meta.<locale>.json` must include `quality` in `primary | secondary | archive | editorial`.
+- `primary` vs `secondary` assignments must follow the distinction tests defined in `docs/EDITORIAL_GUIDELINES.md` (origin, processing, proximity, reproduction, commentary boundary).
+- Editorial neutrality, source quality, and sensitive-history handling must follow `docs/EDITORIAL_GUIDELINES.md` and be applied consistently across EN/BN locales.
 - If a claim has citations, its evidence-level metadata is required.
 - EN/BN parity is required for required locale files.
 - Figure `group` values are enum-like and must remain aligned across `src/types/content.ts`, `scripts/validate-content.mjs`, figure-list UI filters, and `docs/CONTENT_MODEL.md`.

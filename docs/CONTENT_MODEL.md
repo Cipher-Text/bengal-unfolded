@@ -5,7 +5,7 @@ Static JSON now, adapter-based backend later.
 Contract companion docs:
 
 - `docs/AI_CONTRACT.md`
-- `docs/EDITORIAL_RULES.md`
+- `docs/EDITORIAL_GUIDELINES.md`
 
 ## Core types
 
@@ -701,7 +701,7 @@ Supported place IDs:
     - `papers`
   - `href?`
 
-Source quality classification is governed by [docs/SOURCE_QUALITY.md](./SOURCE_QUALITY.md).
+Source quality classification is governed by `docs/EDITORIAL_GUIDELINES.md` (Source Quality Rubric section).
 
 ## Creator graph
 

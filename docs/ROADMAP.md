@@ -52,7 +52,7 @@ For consistency across Codex, Claude, Gemini, OpenCode, and other agents, roadma
 - validation rules are updated (`scripts/validate-content.mjs`)
 - UI/runtime integration is implemented where relevant
 - EN/BN content backfill is completed where relevant
-- docs are updated (`docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, `docs/EDITORIAL_RULES.md`)
+- docs are updated (`docs/CONTENT_MODEL.md`, `docs/AI_CONTRACT.md`, `docs/EDITORIAL_GUIDELINES.md`)
 - changelog entry is added with model/validation/UI/backfill notes
 
 ---

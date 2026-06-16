@@ -126,6 +126,7 @@ Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS
 
 For deeper context:
 - `docs/CONTENT_MODEL.md` — Content schema, relationships, and file contracts
-- `docs/PROJECT_STRUCTURE.md` — Directory structure overview
+- `docs/EDITORIAL_GUIDELINES.md` — Voice, source quality, neutrality, and sensitive-history standards
+- `docs/AI_CONTRACT.md` — Schema change protocol and content consistency rules
 - `docs/CHANGELOG.md` — Version history
 - `docs/ROADMAP.md` — Future plans
