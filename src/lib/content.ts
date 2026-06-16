@@ -2,6 +2,12 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import {
+  EVIDENCE_LEVELS,
+  FIGURE_GROUPS,
+  RESOURCE_SOURCE_QUALITIES,
+  SOURCE_QUALITIES,
+} from "@/constants/enums";
+import {
   SUPPORTED_BOOK_IDS,
   SUPPORTED_EVENT_SLUGS,
   SUPPORTED_FIGURE_IDS,
@@ -38,6 +44,7 @@ import {
 } from "@/types/content";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
+const CREATOR_TYPES = ["organization", "person"] as const;
 
 function makeGuard<T extends string>(arr: readonly T[]) {
   return (v: string): v is T => (arr as readonly string[]).includes(v);
@@ -59,6 +66,32 @@ const isBookId = makeGuard(SUPPORTED_BOOK_IDS);
 const isPeriodId = makeGuard(SUPPORTED_PERIOD_IDS);
 const isMovementId = makeGuard(SUPPORTED_MOVEMENT_IDS);
 const isPlaceId = makeGuard(SUPPORTED_PLACE_IDS);
+
+function normalizeOptionalString(raw: unknown): string | undefined {
+  return typeof raw === "string" ? raw : undefined;
+}
+
+function normalizeEnum<T extends string>(raw: unknown, allowed: readonly T[], fallback: T): T {
+  const lowered = typeof raw === "string" ? raw.toLowerCase() : "";
+  return (allowed as readonly string[]).includes(lowered) ? (lowered as T) : fallback;
+}
+
+function normalizeOptionalEnum<T extends string>(raw: unknown, allowed: readonly T[]): T | undefined {
+  const lowered = typeof raw === "string" ? raw.toLowerCase() : "";
+  return (allowed as readonly string[]).includes(lowered) ? (lowered as T) : undefined;
+}
+
+function normalizeStringArray(raw: unknown): string[] | undefined {
+  return Array.isArray(raw)
+    ? raw.filter((v): v is string => typeof v === "string")
+    : undefined;
+}
+
+function normalizeNonEmptyStringArray(raw: unknown): string[] | undefined {
+  return Array.isArray(raw)
+    ? raw.filter((v): v is string => typeof v === "string" && v.trim().length > 0)
+    : undefined;
+}
 
 function parseEventYearToSortValue(yearLabel: string, slug: EventSlug): number {
   const normalized = yearLabel.toLowerCase();
@@ -124,12 +157,8 @@ function normalizeEventResource(
   resource: Record<string, unknown>,
 ): EventResource {
   const title = String(resource.title ?? "");
-  const seoTitle =
-    typeof resource.seoTitle === "string" ? resource.seoTitle : undefined;
-  const seoDescription =
-    typeof resource.seoDescription === "string"
-      ? resource.seoDescription
-      : undefined;
+  const seoTitle = normalizeOptionalString(resource.seoTitle);
+  const seoDescription = normalizeOptionalString(resource.seoDescription);
   const attribution = String(
     resource.attribution ?? resource.creator ?? resource.author ?? "",
   );
@@ -138,72 +167,19 @@ function normalizeEventResource(
       ? getCreatorIdFromAttribution(resource.creatorId)
       : "";
   const creatorId = explicitCreatorId || getCreatorIdFromAttribution(attribution);
-  const creatorTypeRaw =
-    typeof resource.creatorType === "string"
-      ? resource.creatorType.toLowerCase()
-      : "";
-  const creatorType =
-    creatorTypeRaw === "organization" || creatorTypeRaw === "person"
-      ? (creatorTypeRaw as EventResource["creatorType"])
-      : undefined;
+  const creatorType = normalizeOptionalEnum(resource.creatorType, CREATOR_TYPES);
   const note = String(resource.note ?? "");
-  const href = typeof resource.href === "string" ? resource.href : undefined;
-  const qualityRaw =
-    typeof resource.quality === "string" ? resource.quality.toLowerCase() : "";
-  const quality =
-    qualityRaw === "primary" ||
-    qualityRaw === "secondary" ||
-    qualityRaw === "archive" ||
-    qualityRaw === "editorial"
-      ? (qualityRaw as EventResource["quality"])
-      : "secondary";
-  const category =
-    typeof resource.category === "string" ? resource.category : undefined;
-  const subcategory =
-    typeof resource.subcategory === "string" ? resource.subcategory : undefined;
-  const legacyType =
-    typeof resource.type === "string" ? resource.type : undefined;
-  const sourceQualityRaw =
-    typeof resource.sourceQuality === "string"
-      ? resource.sourceQuality.toLowerCase()
-      : undefined;
-  const sourceQuality =
-    sourceQualityRaw === "primary" ||
-    sourceQualityRaw === "secondary" ||
-    sourceQualityRaw === "archive" ||
-    sourceQualityRaw === "academic" ||
-    sourceQualityRaw === "editorial" ||
-    sourceQualityRaw === "reference" ||
-    sourceQualityRaw === "unknown"
-      ? sourceQualityRaw
-      : undefined;
-  const evidenceLevelRaw =
-    typeof resource.evidenceLevel === "string"
-      ? resource.evidenceLevel.toLowerCase()
-      : undefined;
-  const evidenceLevel =
-    evidenceLevelRaw === "high" ||
-    evidenceLevelRaw === "medium" ||
-    evidenceLevelRaw === "low"
-      ? evidenceLevelRaw
-      : undefined;
-  const relatedEventIds = Array.isArray(resource.relatedEventIds)
-    ? resource.relatedEventIds
-        .filter((value): value is string => typeof value === "string")
-        .filter((value): value is EventSlug => isEventSlug(value))
-    : undefined;
-  const relatedFigureIds = Array.isArray(resource.relatedFigureIds)
-    ? resource.relatedFigureIds
-        .filter((value): value is string => typeof value === "string")
-        .filter((value): value is FigureId => isFigureId(value))
-    : undefined;
-  const relatedTopicIds = Array.isArray(resource.relatedTopicIds)
-    ? resource.relatedTopicIds.filter(
-        (value): value is string => typeof value === "string" && value.trim().length > 0,
-      )
-    : undefined;
-  const whyItMatters =
-    typeof resource.whyItMatters === "string" ? resource.whyItMatters : undefined;
+  const href = normalizeOptionalString(resource.href);
+  const quality = normalizeEnum(resource.quality, SOURCE_QUALITIES, "secondary");
+  const category = normalizeOptionalString(resource.category);
+  const subcategory = normalizeOptionalString(resource.subcategory);
+  const legacyType = normalizeOptionalString(resource.type);
+  const sourceQuality = normalizeOptionalEnum(resource.sourceQuality, RESOURCE_SOURCE_QUALITIES);
+  const evidenceLevel = normalizeOptionalEnum(resource.evidenceLevel, EVIDENCE_LEVELS);
+  const relatedEventIds = normalizeStringArray(resource.relatedEventIds)?.filter(isEventSlug);
+  const relatedFigureIds = normalizeStringArray(resource.relatedFigureIds)?.filter(isFigureId);
+  const relatedTopicIds = normalizeNonEmptyStringArray(resource.relatedTopicIds);
+  const whyItMatters = normalizeOptionalString(resource.whyItMatters);
 
   if (category && subcategory) {
     const normalizedCategory =
@@ -365,10 +341,7 @@ function normalizeFigure(
   const legacyBio = String(figure.bio ?? "");
   const legacyImpact = String(figure.impact ?? "");
 
-  const group =
-    typeof figure.group === "string"
-      ? (figure.group as Figure["group"])
-      : inferFigureGroup(role);
+  const group = normalizeOptionalEnum(figure.group, FIGURE_GROUPS) ?? inferFigureGroup(role);
   const contribution = String(
     figure.contribution ??
       (legacyBio ||
@@ -397,44 +370,24 @@ function normalizeFigure(
   return {
     id,
     name,
-    name_en: typeof figure.name_en === "string" ? figure.name_en : undefined,
-    seoTitle: typeof figure.seoTitle === "string" ? figure.seoTitle : undefined,
-    seoDescription:
-      typeof figure.seoDescription === "string" ? figure.seoDescription : undefined,
-    shortAnswer:
-      typeof figure.shortAnswer === "string" ? figure.shortAnswer : undefined,
-    birthYear: typeof figure.birthYear === "string" ? figure.birthYear : undefined,
-    deathYear: typeof figure.deathYear === "string" ? figure.deathYear : undefined,
-    activePeriod:
-      typeof figure.activePeriod === "string" ? figure.activePeriod : undefined,
+    name_en: normalizeOptionalString(figure.name_en),
+    seoTitle: normalizeOptionalString(figure.seoTitle),
+    seoDescription: normalizeOptionalString(figure.seoDescription),
+    shortAnswer: normalizeOptionalString(figure.shortAnswer),
+    birthYear: normalizeOptionalString(figure.birthYear),
+    deathYear: normalizeOptionalString(figure.deathYear),
+    activePeriod: normalizeOptionalString(figure.activePeriod),
     role,
     group,
     contribution,
     context,
     impact,
-    highlight:
-      typeof figure.highlight === "string" ? figure.highlight : undefined,
+    highlight: normalizeOptionalString(figure.highlight),
     tags,
-    primaryEventIds: Array.isArray(figure.primaryEventIds)
-      ? figure.primaryEventIds
-          .filter((value): value is string => typeof value === "string")
-          .filter((value): value is EventSlug => isEventSlug(value))
-      : undefined,
-    relatedPlaceIds: Array.isArray(figure.relatedPlaceIds)
-      ? figure.relatedPlaceIds
-          .filter((value): value is string => typeof value === "string")
-          .filter((value): value is PlaceId => isPlaceId(value))
-      : undefined,
-    alternateNames: Array.isArray(figure.alternateNames)
-      ? figure.alternateNames.filter(
-          (value): value is string => typeof value === "string" && value.trim().length > 0,
-        )
-      : undefined,
-    searchAliases: Array.isArray(figure.searchAliases)
-      ? figure.searchAliases.filter(
-          (value): value is string => typeof value === "string" && value.trim().length > 0,
-        )
-      : undefined,
+    primaryEventIds: normalizeStringArray(figure.primaryEventIds)?.filter(isEventSlug),
+    relatedPlaceIds: normalizeStringArray(figure.relatedPlaceIds)?.filter(isPlaceId),
+    alternateNames: normalizeNonEmptyStringArray(figure.alternateNames),
+    searchAliases: normalizeNonEmptyStringArray(figure.searchAliases),
     faq: Array.isArray(figure.faq)
       ? figure.faq
           .filter((item): item is Record<string, unknown> => Boolean(item) && typeof item === "object")
@@ -446,7 +399,7 @@ function normalizeFigure(
               : undefined,
           }))
       : undefined,
-    image: typeof figure.image === "string" ? figure.image : undefined,
+    image: normalizeOptionalString(figure.image),
   };
 }
 
