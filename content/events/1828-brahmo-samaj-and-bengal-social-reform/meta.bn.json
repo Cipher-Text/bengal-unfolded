@@ -2,17 +2,34 @@
   "slug": "1828-brahmo-samaj-and-bengal-social-reform",
   "year": "1828",
   "title": "ব্রাহ্ম সমাজ ও বাংলার সামাজিক সংস্কার",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Social Reform প্রেক্ষিত।",
-  "summary": "ব্রাহ্ম সমাজ ও বাংলার সামাজিক সংস্কার বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "subtitle": "কলকাতার এক সংস্কারমুখী পরিসর একেশ্বরবাদ, শিক্ষা ও সামাজিক সমালোচনাকে উনিশ শতকের বাংলার জনপরিসরে নিয়ে আসে।",
+  "summary": "১৮২৮ সালে কলকাতায় রাজা রামমোহন রায় ও তাঁর সহযোগীরা ব্রাহ্ম সভা/ব্রাহ্ম সমাজ গড়ে তোলেন। এটি উনিশ শতকের বাংলায় ধর্মীয় সংস্কার, একেশ্বরবাদী উপাসনা, সামাজিক সমালোচনা ও আধুনিক শিক্ষার একটি গুরুত্বপূর্ণ পরিসর হয়ে ওঠে।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "ধর্ম, যুক্তি, শিক্ষা ও সামাজিক রীতিনীতির বিতর্ককে নতুন জনপরিসরে আনে এক সংস্কারধারা।",
+  "whyItMatters": "ব্রাহ্ম সমাজ ধর্মীয় সংস্কারকে জনবিতর্ক, মুদ্রণ সংস্কৃতি, শিক্ষা ও পরবর্তী সামাজিক সংস্কার রাজনীতির সঙ্গে যুক্ত করে; ফলে বাংলা নবজাগরণ ও আধুনিক নাগরিক সমালোচনার ভাষা গঠনে এটি গুরুত্বপূর্ণ হয়ে ওঠে।",
   "importance": "high",
-  "relatedEvents": [],
-  "relatedEventIds": [],
-  "periodLabel": "ঐতিহাসিক রূপান্তর",
-  "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
+  "relatedEvents": [
+    {
+      "eventId": "1826-1831-young-bengal-derozian-movement",
+      "relationType": "parallel"
+    },
+    {
+      "eventId": "1835-macaulay-education-policy-impact-in-bengal",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1876-indian-association-calcutta-political-mobilization",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1826-1831-young-bengal-derozian-movement",
+    "1835-macaulay-education-policy-impact-in-bengal",
+    "1876-indian-association-calcutta-political-mobilization"
+  ],
+  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "movementLabel": "ঔপনিবেশিক দখল ও প্রতিরোধ",
   "showOnLanding": false,
   "summarySourceIds": [
     "history-banglapedia",
@@ -24,17 +41,17 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "contemporary-memory-and-civic-protest",
-  "movementId": "memory-justice-and-civic-dissent",
+  "periodId": "colonial-rule-and-resistance",
+  "movementId": "colonial-capture-and-resistance",
   "sensitive": false,
   "requiresSources": true,
-  "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল",
+  "placeId": "calcutta-kolkata",
+  "placeLabel": "ক্যালকাটা / কলকাতা",
   "claimCitations": [
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "ব্রাহ্ম সমাজ ও বাংলার সামাজিক সংস্কার বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+      "claim": "১৮২৮ সালে কলকাতায় রাজা রামমোহন রায় ও তাঁর সহযোগীরা ব্রাহ্ম সভা/ব্রাহ্ম সমাজ গড়ে তোলেন। এটি উনিশ শতকের বাংলায় ধর্মীয় সংস্কার, একেশ্বরবাদী উপাসনা, সামাজিক সমালোচনা ও আধুনিক শিক্ষার একটি গুরুত্বপূর্ণ পরিসর হয়ে ওঠে।",
       "sourceIds": [
         "history-banglapedia",
         "a-history-of-bangladesh"
@@ -44,7 +61,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+      "claim": "ব্রাহ্ম সমাজ ধর্মীয় সংস্কারকে জনবিতর্ক, মুদ্রণ সংস্কৃতি, শিক্ষা ও পরবর্তী সামাজিক সংস্কার রাজনীতির সঙ্গে যুক্ত করে; ফলে বাংলা নবজাগরণ ও আধুনিক নাগরিক সমালোচনার ভাষা গঠনে এটি গুরুত্বপূর্ণ হয়ে ওঠে।",
       "sourceIds": [
         "history-banglapedia",
         "a-history-of-bangladesh"

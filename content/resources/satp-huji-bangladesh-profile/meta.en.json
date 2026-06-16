@@ -13,6 +13,11 @@
     "mufti-hannan"
   ],
   "whyItMatters": "Offers a structured security-reference profile for HuJI-B and Mufti Hannan's place in Bangladesh's militant history.",
-  "relatedTopicIds": [],
-  "relatedEventIds": []
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation",
+    "democracy-and-civic-movements"
+  ],
+  "relatedEventIds": [
+    "2005-jmb-nationwide-bombings"
+  ]
 }

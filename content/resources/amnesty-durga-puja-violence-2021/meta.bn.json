@@ -11,7 +11,12 @@
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
   "whyItMatters": "২০২১ সালের দুর্গাপূজা ঘিরে সাম্প্রদায়িক সহিংসতা নিয়ে অ্যামনেস্টি ইন্টারন্যাশনালের বিবৃতি।",
-  "relatedEventIds": [],
+  "relatedEventIds": [
+    "2012-ramu-communal-violence"
+  ],
   "relatedFigureIds": [],
-  "relatedTopicIds": []
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation",
+    "democracy-and-civic-movements"
+  ]
 }

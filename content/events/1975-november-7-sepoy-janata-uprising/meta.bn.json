@@ -2,17 +2,39 @@
   "slug": "1975-november-7-sepoy-janata-uprising",
   "year": "1975",
   "title": "৭ নভেম্বর সিপাহী-জনতা অভ্যুত্থান",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Post-1975 Crisis প্রেক্ষিত।",
-  "summary": "৭ নভেম্বর সিপাহী-জনতা অভ্যুত্থান বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "subtitle": "সৈনিক অস্থিরতা, গোষ্ঠীগত রাজনীতি ও প্রতিদ্বন্দ্বী স্মৃতি আগস্ট-পরবর্তী ১৯৭৫ সংকটকে নতুন দিকে নিয়ে যায়।",
+  "summary": "আগস্টের হত্যাকাণ্ড ও জেল হত্যার পর অভ্যুত্থান-পাল্টা অভ্যুত্থানের প্রেক্ষাপটে ১৯৭৫ সালের ৭ নভেম্বর ঢাকায় সেনাদের একাংশ ও রাজনৈতিক কর্মীরা সক্রিয় হয়। এই অস্থিরতা জিয়াউর রহমানকে রাষ্ট্রক্ষমতার কেন্দ্রে নিয়ে আসে, তবে ঘটনাটির অর্থ বাংলাদেশের রাজনৈতিক স্মৃতিতে এখনো তীব্রভাবে বিতর্কিত।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "আগস্ট-পরবর্তী সংকটে ব্যারাকের রাজনীতি নতুন জাতীয় ক্ষমতার লড়াইয়ে রূপ নেয়।",
+  "whyItMatters": "নভেম্বরের অস্থিরতা ১৯৭৫ সালের হত্যাকাণ্ডকে পরবর্তী সামরিক-সমর্থিত শাসন, দল গঠন ও প্রতিদ্বন্দ্বী স্মৃতিচর্চার সঙ্গে যুক্ত করে; তাই মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্রিক অস্থিতিশীলতা বুঝতে এটি গুরুত্বপূর্ণ।",
   "importance": "high",
-  "relatedEvents": [],
-  "relatedEventIds": [],
-  "periodLabel": "ঐতিহাসিক রূপান্তর",
-  "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
+  "relatedEvents": [
+    {
+      "eventId": "1975-august-15-assassination-of-sheikh-mujib",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1975-jail-killing",
+      "relationType": "background"
+    },
+    {
+      "eventId": "1981-assassination-of-ziaur-rahman",
+      "relationType": "legacy"
+    },
+    {
+      "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
+      "relationType": "legacy"
+    }
+  ],
+  "relatedEventIds": [
+    "1975-august-15-assassination-of-sheikh-mujib",
+    "1975-jail-killing",
+    "1981-assassination-of-ziaur-rahman",
+    "1982-ershad-s-coup-and-the-return-of-military-rule"
+  ],
+  "periodLabel": "মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
   "showOnLanding": false,
   "summarySourceIds": [
     "fire-dekha-shob-chokhe-november-1975",
@@ -24,17 +46,22 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "contemporary-memory-and-civic-protest",
-  "movementId": "memory-justice-and-civic-dissent",
-  "sensitive": false,
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
+  "sensitive": true,
+  "contentWarnings": [
+    "অভ্যুত্থান-সংক্রান্ত সহিংসতা",
+    "রাজনৈতিক হত্যাকাণ্ড",
+    "বিতর্কিত স্মৃতি"
+  ],
   "requiresSources": true,
-  "placeId": "bengal-region",
-  "placeLabel": "বাংলা অঞ্চল",
+  "placeId": "dhaka-jahangirnagar",
+  "placeLabel": "ঢাকা / জাহাঙ্গীরনগর",
   "claimCitations": [
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "৭ নভেম্বর সিপাহী-জনতা অভ্যুত্থান বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+      "claim": "আগস্টের হত্যাকাণ্ড ও জেল হত্যার পর অভ্যুত্থান-পাল্টা অভ্যুত্থানের প্রেক্ষাপটে ১৯৭৫ সালের ৭ নভেম্বর ঢাকায় সেনাদের একাংশ ও রাজনৈতিক কর্মীরা সক্রিয় হয়। এই অস্থিরতা জিয়াউর রহমানকে রাষ্ট্রক্ষমতার কেন্দ্রে নিয়ে আসে, তবে ঘটনাটির অর্থ বাংলাদেশের রাজনৈতিক স্মৃতিতে এখনো তীব্রভাবে বিতর্কিত।",
       "sourceIds": [
         "fire-dekha-shob-chokhe-november-1975",
         "bangladesh-a-legacy-of-blood"
@@ -44,12 +71,19 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+      "claim": "নভেম্বরের অস্থিরতা ১৯৭৫ সালের হত্যাকাণ্ডকে পরবর্তী সামরিক-সমর্থিত শাসন, দল গঠন ও প্রতিদ্বন্দ্বী স্মৃতিচর্চার সঙ্গে যুক্ত করে; তাই মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্রিক অস্থিতিশীলতা বুঝতে এটি গুরুত্বপূর্ণ।",
       "sourceIds": [
         "fire-dekha-shob-chokhe-november-1975",
         "bangladesh-a-legacy-of-blood"
       ],
       "evidenceLevel": "medium"
     }
-  ]
+  ],
+  "contested": true,
+  "historicalDebate": "রাজনৈতিক ধারাগুলো ৭ নভেম্বরকে ভিন্ন ভিন্নভাবে ব্যাখ্যা করে—সিপাহী-জনতার অভ্যুত্থান, ধারাবাহিক অভ্যুত্থান, অথবা সহিংস গোষ্ঠীগত পুনর্বিন্যাস হিসেবে। এই পৃষ্ঠা পরবর্তী দলীয় স্মৃতি থেকে ঘটনাক্রমকে আলাদা করে পড়ে।",
+  "historicalDebateSourceIds": [
+    "fire-dekha-shob-chokhe-november-1975",
+    "bangladesh-a-legacy-of-blood"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
 }

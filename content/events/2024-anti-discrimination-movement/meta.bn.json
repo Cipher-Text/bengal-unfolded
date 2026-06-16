@@ -130,8 +130,8 @@
   ],
   "mapPoints": [
     {
-      "placeId": "pilkhana-dhaka",
-      "label": "Pilkhana, Dhaka",
+      "placeId": "dhaka-university",
+      "label": "ঢাকা বিশ্ববিদ্যালয়",
       "role": "movement-center"
     }
   ],

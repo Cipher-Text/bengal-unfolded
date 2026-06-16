@@ -13,6 +13,11 @@
     "mufti-hannan"
   ],
   "whyItMatters": "হুজি-বি এবং বাংলাদেশের জঙ্গিবাদী ইতিহাসে মুফতি হান্নানের অবস্থান বোঝার জন্য একটি কাঠামোবদ্ধ নিরাপত্তা-রেফারেন্স দেয়।",
-  "relatedTopicIds": [],
-  "relatedEventIds": []
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation",
+    "democracy-and-civic-movements"
+  ],
+  "relatedEventIds": [
+    "2005-jmb-nationwide-bombings"
+  ]
 }

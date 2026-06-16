@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-06-16
+
+### Completed
+
+- Content relationship and topic-link audit:
+  - Content backfill:
+    - Rewrote placeholder bilingual metadata for `1828-brahmo-samaj-and-bengal-social-reform` and `1975-november-7-sepoy-janata-uprising` with specific, source-backed summaries, why-it-matters copy, period/place/movement placement, and related-event links.
+    - Corrected the 1975 cluster classification and links across the August 15 assassination, jail killing, November 7 uprising, Zia assassination, and Ershad coup sequence.
+    - Fixed the `2024-anti-discrimination-movement` map point from `pilkhana-dhaka` to `dhaka-university`.
+    - Connected previously stranded resources into event resource lists, resource metadata, and topic hubs for post-1991 politics and civic movements.
+  - Model/validation:
+    - No schema, enum, or validator changes required.
+  - UI/runtime:
+    - No UI changes required; existing event, resource, creator, topic, and place routes consume the revised relationships.
+  - Validation:
+    - `pnpm content:validate` passes.
+
 ## 2026-06-15
 
 ### Completed

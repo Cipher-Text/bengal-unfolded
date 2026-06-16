@@ -11,7 +11,12 @@
   "sourceQuality": "editorial",
   "evidenceLevel": "medium",
   "whyItMatters": "Amnesty International statement on communal violence during Durga Puja in 2021.",
-  "relatedEventIds": [],
+  "relatedEventIds": [
+    "2012-ramu-communal-violence"
+  ],
   "relatedFigureIds": [],
-  "relatedTopicIds": []
+  "relatedTopicIds": [
+    "post-1971-state-crises-and-civic-contestation",
+    "democracy-and-civic-movements"
+  ]
 }

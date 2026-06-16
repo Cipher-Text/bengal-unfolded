@@ -16,6 +16,10 @@
       "relationType": "effect"
     },
     {
+      "eventId": "1975-november-7-sepoy-janata-uprising",
+      "relationType": "effect"
+    },
+    {
       "eventId": "1982-ershad-s-coup-and-the-return-of-military-rule",
       "relationType": "legacy"
     },
@@ -26,11 +30,12 @@
   ],
   "relatedEventIds": [
     "1975-jail-killing",
+    "1975-november-7-sepoy-janata-uprising",
     "1982-ershad-s-coup-and-the-return-of-military-rule",
     "1972-state-formation-and-the-1972-constitution"
   ],
-  "periodLabel": "Contemporary Memory and Civic Protest",
-  "movementLabel": "Memory, justice, and civic dissent",
+  "periodLabel": "Post-Liberation State and Democracy",
+  "movementLabel": "State power and democratic transition",
   "showOnLanding": false,
   "summarySourceIds": [
     "bangabandhu-sheikh-mujibur-rahman-1920-75",
@@ -42,8 +47,8 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "contemporary-memory-and-civic-protest",
-  "movementId": "memory-justice-and-civic-dissent",
+  "periodId": "post-liberation-state-and-democracy",
+  "movementId": "state-power-and-democratic-transition",
   "sensitive": true,
   "contentWarnings": [
     "political assassination",
