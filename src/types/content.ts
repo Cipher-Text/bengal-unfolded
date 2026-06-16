@@ -182,6 +182,11 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1971-old-dhaka-killings",
   "2004-august-21-grenade-attack",
   "2005-jmb-nationwide-bombings",
+  "1826-1831-young-bengal-derozian-movement",
+  "1885-bengal-tenancy-act",
+  "1950-state-acquisition-and-tenancy-act",
+  "2013-shapla-chattar-crackdown",
+  "2024-12th-parliamentary-election",
 ] as const;
 export const SUPPORTED_FIGURE_IDS = [
   "sheikh-mujibur-rahman",
