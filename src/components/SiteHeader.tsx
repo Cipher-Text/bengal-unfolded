@@ -10,7 +10,7 @@ export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAf
     { href: `/${locale}/paths`, label: locale === "bn" ? "পথ" : "Paths" },
     { href: `/${locale}/compare`, label: locale === "bn" ? "তুলনা" : "Compare" },
     { href: `/${locale}/figures`, label: locale === "bn" ? "ব্যক্তিত্ব" : "Figures" },
-    { href: `/${locale}/creators`, label: locale === "bn" ? "স্রষ্টা" : "Creators" },
+    { href: `/${locale}/creators`, label: locale === "bn" ? "সূত্রপঞ্জি" : "Sources" },
     { href: `/${locale}/resources`, label: locale === "bn" ? "রিসোর্স" : "Resources" },
     { href: `/${locale}/glossary`, label: locale === "bn" ? "গ্লসারি" : "Glossary" },
   ];

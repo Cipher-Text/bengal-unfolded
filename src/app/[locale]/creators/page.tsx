@@ -124,10 +124,10 @@ export async function generateMetadata({
 
   return buildPageMetadata({
     locale: locale as Locale,
-    title: isBn ? "স্রষ্টা ডিরেক্টরি | Bengal Unfolded" : "Creator Directory | Bengal Unfolded",
+    title: isBn ? "সূত্রপঞ্জি | Bengal Unfolded" : "Source Directory | Bengal Unfolded",
     description: isBn
-      ? "বই, প্রবন্ধ, আর্কাইভ, প্রতিষ্ঠান ও অন্যান্য রিসোর্স স্রষ্টাদের সার্চ ও ফিল্টার করে দেখুন।"
-      : "Browse resource creators and contributors across books, articles, archives, institutions, and source collections.",
+      ? "বেঙ্গল আনফোল্ডেডে উদ্ধৃত ইতিহাসবিদ, প্রকাশনা, আর্কাইভ, গণমাধ্যম, গবেষক, বই ও প্রতিষ্ঠানের তালিকা।"
+      : "Find historians, publishers, archives, media outlets, researchers, books, and institutions cited across Bengal Unfolded.",
     canonicalPath: `/${locale}/creators`,
     languagePathWithoutLocale: "/creators",
     type: "website",
@@ -225,25 +225,32 @@ export default async function CreatorsIndexPage({
   return (
     <div className="space-y-8">
       <HeroSection
-        title={isBn ? "স্রষ্টা ডিরেক্টরি" : "Creator Directory"}
-        tagline={isBn ? "রিসোর্স-ভিত্তিক ব্যক্তি ও প্রতিষ্ঠানের তালিকা" : "Resource-linked people and institutions"}
+        title={isBn ? "সূত্রপঞ্জি" : "Source Directory"}
+        tagline={isBn ? "রেফারেন্স-সংযুক্ত ব্যক্তি ও প্রতিষ্ঠান" : "Resource-linked people and institutions"}
         intro={
           isBn
-            ? "প্রতিটি স্রষ্টা প্রোফাইল তাদের সাথে যুক্ত রিসোর্স এবং সংশ্লিষ্ট ইভেন্ট এক জায়গায় দেখায়।"
-            : "Each creator profile gathers the resources attributed to that name and the events those resources support."
+            ? "বেঙ্গল আনফোল্ডেডে উদ্ধৃত ইতিহাসবিদ, প্রকাশনা, আর্কাইভ, গণমাধ্যম, গবেষক, বই ও প্রতিষ্ঠানের তালিকা।"
+            : "Find historians, publishers, archives, media outlets, researchers, books, and institutions cited across Bengal Unfolded."
+        }
+        rightTitle={isBn ? "সূত্র নিবন্ধন" : "The Source Register"}
+        rightLabel={isBn ? "ব্যক্তি · প্রতিষ্ঠান" : "People · Institutions"}
+        rightSlot={
+          isBn
+            ? "বেঙ্গল আনফোল্ডেডে ব্যবহৃত ইতিহাসবিদ, প্রকাশনা, আর্কাইভ, গণমাধ্যম, গবেষক ও প্রতিষ্ঠানের সংকলিত তালিকা।"
+            : "A curated index of historians, publishers, archives, media outlets, researchers, and institutions referenced across Bengal Unfolded."
         }
       />
 
       <section className="theme-surface rounded-2xl border p-5 md:p-6">
         <SectionTitle
           title={isBn ? "সার্চ ও ফিল্টার" : "Search and Filters"}
-          subtitle={isBn ? "নাম, ধরন, রিসোর্স বিভাগ ও রিসোর্স সংখ্যায় তালিকা বাছাই করুন" : "Filter by name, creator type, resource category, and resource count"}
+          subtitle={isBn ? "নাম, সূত্রের ধরন, রিসোর্স ক্যাটাগরি ও রিসোর্স সংখ্যার ভিত্তিতে ফিল্টার করুন।" : "Filter by name, creator type, resource category, and resource count."}
         />
         <form className="mt-4 grid gap-3 md:grid-cols-[1fr_180px_230px_190px_auto]" method="get" action={`/${locale}/creators`}>
           <input
             name="q"
             defaultValue={q}
-            placeholder={isBn ? "নাম, রিসোর্স বা নোট" : "Search name, resource, or note"}
+            placeholder={isBn ? "নাম, সূত্র, নোট বা রেফারেন্স খুঁজুন" : "Search name, source, note, or reference"}
             className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"
           />
           <select name="type" defaultValue={typeValue} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm">
@@ -275,7 +282,7 @@ export default async function CreatorsIndexPage({
 
       <section className="grid gap-3 md:grid-cols-3">
         <div className="theme-surface rounded-xl border p-4">
-          <p className="text-eyebrow">{isBn ? "মোট স্রষ্টা" : "Total Creators"}</p>
+          <p className="text-eyebrow">{isBn ? "মোট সূত্র" : "Total Sources"}</p>
           <p className="mt-2 text-2xl font-semibold">{formatNumber(currentLocale, summaries.length)}</p>
         </div>
         <div className="theme-surface rounded-xl border p-4">
@@ -291,8 +298,8 @@ export default async function CreatorsIndexPage({
       <div>
         <div className="flex items-center justify-between gap-3">
           <SectionTitle
-            title={isBn ? "সব স্রষ্টা" : "All Creators"}
-            subtitle={`${formatNumber(currentLocale, creators.length)} ${isBn ? "প্রোফাইল" : "profiles"}`}
+            title={isBn ? "সব সূত্র" : "All Sources"}
+            subtitle={`${formatNumber(currentLocale, creators.length)} ${isBn ? "সূত্র" : "sources"}`}
           />
           {(q || typeValue || categoryValue || minResourcesValue) ? (
             <Link href={`/${locale}/creators`} className="text-sm font-medium text-amber-400 hover:text-amber-300">
@@ -332,7 +339,7 @@ export default async function CreatorsIndexPage({
                   </ul>
                 ) : null}
                 <Link href={`/${locale}/creators/${creator.id}`} className="btn-vintage mt-5">
-                  {isBn ? "প্রোফাইল" : "Profile"}
+                  {isBn ? "সূত্র দেখুন" : "View Source"}
                   <span className="arrow">→</span>
                 </Link>
               </article>
@@ -342,7 +349,7 @@ export default async function CreatorsIndexPage({
 
         {!pagedCreators.length ? (
           <div className="theme-surface mt-4 rounded-xl border p-6 text-sm theme-muted">
-            {isBn ? "কোনো স্রষ্টা পাওয়া যায়নি।" : "No creators found."}
+            {isBn ? "কোনো সূত্র পাওয়া যায়নি।" : "No sources found."}
           </div>
         ) : null}
 

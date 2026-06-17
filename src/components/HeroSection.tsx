@@ -34,12 +34,16 @@ export function HeroSection({
   intro,
   rightSlot,
   eyebrow,
+  rightTitle,
+  rightLabel,
 }: {
   title: string;
   tagline: string;
   intro?: ReactNode;
   rightSlot?: ReactNode;
   eyebrow?: string;
+  rightTitle?: string;
+  rightLabel?: string;
 }) {
   return (
     <section className="relative animate-fade-in">
@@ -109,9 +113,9 @@ export function HeroSection({
             </div>
           </div>
           <aside className="relative border-t pt-6 md:border-t-0 md:pl-6 md:pt-0 md:border-l border-[color:var(--sepia)]/30">
-            <div className="text-eyebrow-script">The Bengal Chronicle</div>
+            <div className="text-eyebrow-script">{rightTitle ?? "The Bengal Chronicle"}</div>
             <div className="rule-double mt-2" />
-            <p className="text-eyebrow mt-3">Featured · Timeline</p>
+            <p className="text-eyebrow mt-3">{rightLabel ?? "Featured · Timeline"}</p>
             <div className="mt-2 text-base leading-relaxed">
               {rightSlot ?? "From ancient Bengal to modern Bangladesh — a curated, source-backed journey through the people, events, and eras that shaped our history."}
             </div>
