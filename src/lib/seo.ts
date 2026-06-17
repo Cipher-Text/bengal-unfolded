@@ -120,7 +120,7 @@ export function serializeJsonLd(data: unknown): string {
 export function normalizeMetaDescription(
   value: string | null | undefined,
   fallback: string,
-  maxLength = 320,
+  maxLength = 165,
 ): string {
   const raw = (value ?? "").trim();
   const base = raw.length > 0 ? raw : fallback.trim();

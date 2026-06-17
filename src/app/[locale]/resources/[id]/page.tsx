@@ -59,7 +59,7 @@ export default async function ResourceDetailPage({ params }: { params: Promise<{
     url: `https://bengalunfolded.com/${locale}/resources/${id}`,
     creator: { "@type": "Person", name: resource.attribution },
     isPartOf: events.map((event) => ({
-      "@type": "Event",
+      "@type": "Article",
       name: event.title,
       url: `https://bengalunfolded.com/${locale}/events/${event.slug}`,
     })),
