@@ -109,11 +109,11 @@ export function HeroSection({
             </div>
           </div>
           <aside className="relative border-t pt-6 md:border-t-0 md:pl-6 md:pt-0 md:border-l border-[color:var(--sepia)]/30">
-            <div className="text-eyebrow-script">The Bengal Report</div>
+            <div className="text-eyebrow-script">The Bengal Chronicle</div>
             <div className="rule-double mt-2" />
-            <p className="text-eyebrow mt-3">Today · Featured</p>
+            <p className="text-eyebrow mt-3">Featured · Timeline</p>
             <div className="mt-2 text-base leading-relaxed">
-              {rightSlot ?? "From Plassey to the present — a curated, citation-backed retelling of the events that shaped Bengal and Bangladesh."}
+              {rightSlot ?? "From ancient Bengal to modern Bangladesh — a curated, source-backed journey through the people, events, and eras that shaped our history."}
             </div>
             <div className="mt-5">
               <span className="wax-seal">B</span>
