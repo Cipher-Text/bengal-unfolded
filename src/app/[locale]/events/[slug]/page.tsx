@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   );
   const title =
     event.meta.seoTitle ??
-    `${event.meta.year} - ${event.meta.title}${event.meta.subtitle ? `: ${event.meta.subtitle}` : ""} | Bengal Unfolded`;
+    `${event.meta.title}, ${event.meta.year}${event.meta.subtitle ? `: ${event.meta.subtitle}` : ""} | Bengal Unfolded`;
   return buildPageMetadata({
     locale: locale as Locale,
     title,
@@ -279,22 +279,6 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   });
   const canonicalPath = `/${locale}/events/${slug}`;
   const canonicalUrl = absoluteUrl(canonicalPath);
-  const eventJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "@id": `${canonicalUrl}#event`,
-    name: `${event.meta.year} - ${event.meta.title}`,
-    description: event.meta.summary,
-    url: canonicalUrl,
-    inLanguage: localeLanguageTag(locale as Locale),
-    location: event.meta.placeLabel
-      ? {
-          "@type": "Place",
-          name: event.meta.placeLabel,
-        }
-      : undefined,
-    eventStatus: "https://schema.org/EventCompleted",
-  };
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -314,7 +298,8 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       url: absoluteUrl("/"),
     },
     about: {
-      "@id": `${canonicalUrl}#event`,
+      "@type": "Thing",
+      name: `${event.meta.year} - ${event.meta.title}`,
     },
     isPartOf: {
       "@type": "WebSite",
@@ -348,7 +333,6 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   };
   return (
     <div className="space-y-10">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(eventJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }} />
       <HeroSection
