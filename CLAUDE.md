@@ -25,7 +25,7 @@ All user-facing routes live under `src/app/[locale]/`. The root `/` redirects to
 
 Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/` and `/resources/`. Additional entity routes include:
 - `/[locale]/figures/` and `/[locale]/figures/[id]` — figure index and detail pages
-- `/[locale]/creators/` and `/[locale]/creators/[id]` — creator index and detail pages (for resource attributions)
+- `/[locale]/creators/` and `/[locale]/creators/[id]` — public Source Directory / source detail pages for resource-linked people and institutions; internally derived from resource attributions
 - `/[locale]/resources/` and `/[locale]/resources/[id]` — resource index and detail pages
 - `/[locale]/books/[id]` — book detail pages
 - `/[locale]/topics/` and `/[locale]/topics/[slug]` — topic hub index and detail
@@ -41,7 +41,7 @@ Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/
 **Entity discovery:**
 - Events, figures, books, periods, movements, places: hardcoded in `SUPPORTED_*` constants in `src/types/content.ts`
 - Topics, glossary terms: discovered from filesystem via `fs.readdir()`
-- Creators: derived from resource attributions (no separate content directory)
+- Source Directory entries: internally represented as `Creator` records derived from resource attributions (no separate content directory)
 
 ### Data layer (`src/lib/content.ts`)
 
@@ -71,7 +71,7 @@ content/
 - `getEventContent()` — Full event data (meta + timeline + figures + resources). Use for event detail pages.
 - `getPreviousAndNextEvents()` — Loads only adjacent events for navigation (2 files vs 32). Use instead of `getAllEvents()` for prev/next links.
 - `getEventMetaForDisplay()` — Loads only event metadata (title, year, slug) without timeline/figures/resources. Use for hero sections and page metadata when full content isn't needed.
-- `creatorsCached()` — Internal Map-based cache for O(1) creator lookups. `getCreatorById()` and `getAllCreators()` use this.
+- `creatorsCached()` — Internal Map-based cache for O(1) Source Directory lookups. `getCreatorById()` and `getAllCreators()` use this; keep these API names unless the underlying data model is deliberately renamed.
 
 **When to use which loader:**
 - Event detail page: `getEventContent()` + `getPreviousAndNextEvents()`
@@ -114,7 +114,7 @@ Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS
 
 **New figures:** add a folder under `content/figures/<id>/` with `meta.en.json` and `meta.bn.json`, then add the ID to `SUPPORTED_FIGURE_IDS` in `src/types/content.ts` and to the relevant event's `figure-ids.json`.
 
-**New resources:** same pattern under `content/resources/<id>/`, add ID to event `resource-ids.json`. Use `attribution` and optional `creatorType` (`person` or `organization`) in resource metadata. Creators are auto-derived from resource attributions.
+**New resources:** same pattern under `content/resources/<id>/`, add ID to event `resource-ids.json`. Use `attribution` and optional `creatorType` (`person` or `organization`) in resource metadata. Source Directory entries are auto-derived from resource attributions.
 
 **New topics:** add a folder under `content/topics/<slug>/` with `meta.en.json` and `meta.bn.json`. Topics are filesystem-discovered — no constant registration needed. Include optional `learningPath` array for curated reading sequences.
 

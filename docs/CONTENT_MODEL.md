@@ -22,7 +22,7 @@ Contract companion docs:
 - `EventContent`
 - `Topic`
 - `GlossaryTerm`
-- `Creator` (derived from resources, no separate content directory)
+- `Creator` (internal type for Source Directory entries derived from resources; no separate content directory)
 
 ## 2026 schema extensions (optional, backward-compatible)
 
@@ -682,8 +682,8 @@ Supported place IDs:
   - `id`
   - `title`
   - `attribution` (credit line; supports writer/director/cartographer/organization; loader falls back to legacy `creator` or `author`)
-  - `creatorId?` (locale-stable lowercase slug for derived creator pages; when absent, the loader falls back to deriving from `attribution`)
-  - `creatorType?` (`person` | `organization`) used for creator index filters, creator page schema typing, and SEO; defaults to `person` when omitted
+  - `creatorId?` (locale-stable lowercase slug for derived Source Directory pages; when absent, the loader falls back to deriving from `attribution`)
+  - `creatorType?` (`person` | `organization`) used for Source Directory filters, source page schema typing, and SEO; defaults to `person` when omitted
   - `note`
   - `quality` in `primary | secondary | archive | editorial`
   - `category` in `read | watch | explore | understand`
@@ -703,13 +703,15 @@ Supported place IDs:
 
 Source quality classification is governed by `docs/EDITORIAL_GUIDELINES.md` (Source Quality Rubric section).
 
-## Creator graph
+## Source Directory graph
 
-- Creators are derived at runtime from resource `attribution`; there is no separate `content/creators/` data model.
+- The public `/{locale}/creators` experience is labeled as the Source Directory in English and `সূত্রপঞ্জি` in Bengali.
+- Source Directory entries are derived at runtime from resource `attribution`; there is no separate `content/creators/` data model.
+- Internally, the derived entry type remains `Creator` and the route remains `/creators` for compatibility.
 - `creatorId` is read from resource metadata when present; otherwise it is generated from attribution by `getCreatorIdFromAttribution()` for legacy content.
-- EN/BN resource files should share the same `creatorId` so localized attributions group into the same creator route.
-- `/{locale}/creators` lists derived creators with search, creator type, resource category, and minimum resource count filters.
-- `/{locale}/creators/{id}` shows resources attributed to one creator and related events.
+- EN/BN resource files should share the same `creatorId` so localized attributions group into the same source route.
+- `/{locale}/creators` lists derived source entries with search, source type, resource category, and minimum resource count filters.
+- `/{locale}/creators/{id}` shows resources attributed to one source entry and related events.
 
 ## Topic schema
 

@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-06-18
+
+### Completed
+
+- Source Directory copy refresh:
+  - UI/runtime:
+    - Renamed the public `/[locale]/creators` index experience to Source Directory in English and `সূত্রপঞ্জি` in Bengali, replacing creator-oriented page copy.
+    - Updated hero, search helper text, listing heading, stats labels, empty state, card CTA, and header navigation copy so the page reads as a historical source/reference directory.
+    - Kept route names, filtering, pagination, archive visual design, and bilingual behavior unchanged.
+  - Model/validation/backfill:
+    - No schema changes required; the page still reuses internally derived `Creator` records from existing resource attribution metadata.
+    - No validation-rule or content backfill changes required.
+  - Documentation:
+    - Updated content-model and agent-facing docs to distinguish the public Source Directory naming from the internal `Creator` type/API names.
+
 ## 2026-06-16
 
 ### Completed
@@ -13,7 +28,7 @@
   - Model/validation:
     - No schema, enum, or validator changes required.
   - UI/runtime:
-    - No UI changes required; existing event, resource, creator, topic, and place routes consume the revised relationships.
+    - No UI changes required; existing event, resource, Source Directory, topic, and place routes consume the revised relationships.
   - Validation:
     - `pnpm content:validate` passes.
 
@@ -212,14 +227,14 @@
     - Resource detail pages still need richer explanatory body sections in a follow-up pass.
     - Locale-aware `<html lang>` remains a separate technical SEO/accessibility task.
 
-- Creator directory:
+- Source Directory:
   - UI/runtime:
-    - Added `/[locale]/creators` list page with keyword search, creator type filter, resource category filter, minimum resource count filter, and pagination.
-    - Added creator counts and resource previews so users can browse resource contributors before opening profile pages.
+    - Added `/[locale]/creators` list page with keyword search, source type filter, resource category filter, minimum resource count filter, and pagination.
+    - Added source counts and resource previews so users can browse resource-linked people and institutions before opening detail pages.
   - SEO/discovery:
-    - Added localized metadata, sitemap entries, and header navigation for the creator directory.
+    - Added localized metadata, sitemap entries, and header navigation for the directory.
   - Model/validation/backfill:
-    - No schema changes required; the page reuses creators derived from existing resource attribution metadata.
+    - No schema changes required; the page reuses internally derived `Creator` records from existing resource attribution metadata.
     - No content backfill required.
 
 - RM-011 Glossary hover/tooltips:

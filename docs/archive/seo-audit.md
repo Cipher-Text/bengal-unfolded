@@ -35,8 +35,8 @@ Canonical domain: `https://bengalunfolded.com`
   - `/{locale}/events/{slug}/resources`
   - `/{locale}/figures/{id}`
   - `/{locale}/books/{id}`
-  - `/{locale}/creators`
-  - `/{locale}/creators/{id}`
+  - `/{locale}/creators` (Source Directory / সূত্রপঞ্জি)
+  - `/{locale}/creators/{id}` (source detail)
   - `/{locale}/resources`
   - `/{locale}/resources/{id}`
   - `/{locale}/movements/{id}`
@@ -413,8 +413,8 @@ Add `BreadcrumbList` schema to:
 - `/{locale}/events/{slug}`
 - `/{locale}/figures/{id}`
 - `/{locale}/books/{id}`
-- `/{locale}/creators`
-- `/{locale}/creators/{id}`
+- `/{locale}/creators` (Source Directory / সূত্রপঞ্জি)
+- `/{locale}/creators/{id}` (source detail)
 - `/{locale}/topics/{slug}` (when introduced)
 - `/{locale}/events/{slug}/figures`
 - `/{locale}/events/{slug}/resources`
