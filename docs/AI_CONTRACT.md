@@ -42,6 +42,7 @@ For every schema or field change:
 - IDs must reference existing entities.
 - Arrays must not contain duplicates where relationship uniqueness is required.
 - Enum-like fields must only use allowed values.
+- Live `content/events/*` packs must describe concrete historical chapters, not generic placeholder ranges or holding slugs. Removing a placeholder event requires removing it from `SUPPORTED_EVENT_SLUGS` and all topic/place/resource/event relationship arrays in the same change.
 - Resource metadata under `content/resources/*/meta.<locale>.json` must include `quality` in `primary | secondary | archive | editorial`.
 - `primary` vs `secondary` assignments must follow the distinction tests defined in `docs/EDITORIAL_GUIDELINES.md` (origin, processing, proximity, reproduction, commentary boundary).
 - Editorial neutrality, source quality, and sensitive-history handling must follow `docs/EDITORIAL_GUIDELINES.md` and be applied consistently across EN/BN locales.

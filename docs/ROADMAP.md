@@ -8,7 +8,7 @@ Bengal Unfolded is currently a static JSON + Next.js platform deployed on Vercel
 
 Bengal Unfolded is a source-backed visual historical memory platform for Bengal and Bangladesh, designed for learners, readers, teachers, researchers, diaspora communities, and culturally conscious citizens.
 
-It connects events, people, places, books, sources, causes, consequences, culture, and identity.
+It connects events, people, places, resources, sources, causes, consequences, culture, and identity.
 
 ## Core Learning Principle: Visual Relation-Based History Memory
 
@@ -22,7 +22,7 @@ Users remember history better when they can visually understand:
 - what happened before
 - what happened after
 - what larger movement it belongs to
-- which books and sources support it
+- which resources and sources support it
 - how it connects to culture, identity, and long-term historical truth
 
 ```txt
@@ -185,7 +185,7 @@ Warning for Phase B5: Do not begin community and contribution features until a w
 - [x] RM-MVP-007 Normalized model: events -> figure IDs
 - [x] RM-MVP-007A Normalized model: events -> resource IDs
 - [x] RM-MVP-008 Dedicated figure pages (`/{locale}/figures/{id}`)
-- [x] RM-MVP-009 Dedicated book pages (`/{locale}/books/{id}`) — removed 2026-06-21; books now live as resources.
+- [x] RM-MVP-009 Resource detail pages supersede obsolete dedicated book pages; `/{locale}/books/{id}` was removed on 2026-06-21.
 - [x] RM-MVP-010 Reverse lookups (`getEventsByFigureId`, resource-to-event lookups)
 - [x] RM-MVP-011 Event figure full-list page (`/{locale}/events/{slug}/figures`)
 - [x] RM-MVP-012 Event resources category page (`/{locale}/events/{slug}/resources`)
@@ -303,7 +303,7 @@ Priority: Improve discoverability and social distribution with minimal architect
 
 - [x] RM-SEO-001 Rewrite high-impression figure page titles using contextual formula: `{Name} — {Role} in {Historical Context} | Bengal Unfolded`
 - [x] RM-SEO-002 Rewrite high-impression figure meta descriptions to include who/why/period/reader outcome
-- [x] RM-SEO-003 Add `Related` blocks on figure pages: related figures, events, places, and books/resources
+- [x] RM-SEO-003 Add `Related` blocks on figure pages: related figures, events, places, and resources
 - [x] RM-SEO-006 Expand and validate structured data consistency for figure/event pages (`Person`, `Event`, `Article`, `BreadcrumbList`)
 - [x] RM-SEO-007 Expand figure-page content depth model: biography, timeline placement, related events, references, and legacy summary
 
@@ -354,7 +354,7 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 - [ ] RM-VIS-004 Relationship graph for event detail pages
 - [ ] RM-VIS-005 Period-based visual grouping on timeline explorer
 - [ ] RM-VIS-006 Figure-event connection visualization
-- [ ] RM-VIS-007 Book/source-to-event connection visualization
+- [ ] RM-VIS-007 Resource/source-to-event connection visualization
 - [ ] RM-VIS-008 Place-event mini map on event pages
 - [ ] RM-VIS-009 Event comparison visual layout
 - [ ] RM-VIS-010 Animated historical flow prototype for one flagship topic
@@ -385,7 +385,7 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 
 Priority: Build scalable, source-backed historical intelligence using normalized entities, relationship semantics, and visual exploration. **Scope constraint:** Static phase supports 1-degree relationships only. Multi-hop graph queries, dynasty/alliance models, and interactive graph views require database-backed infrastructure (B8/B9).
 
-- [ ] RM-KG-001 Normalized historical entity relationship model across events, figures, places, books/resources, themes, periods, and institutions (1-degree relationships only in v2)
+- [ ] RM-KG-001 Normalized historical entity relationship model across events, figures, places, resources, themes, periods, and institutions (1-degree relationships only in v2)
 - [ ] RM-KG-002 Linked entity edges (`figure <-> event`, `event <-> place`, `figure <-> resource`, `theme <-> event`) with relation-type taxonomy
 - [ ] RM-KG-003 Historical metadata schema for relationship provenance, temporal scope, geographic scope, and editorial status
 - [ ] RM-KG-004 Related figures and related events system with weighted relevance and relationship context
@@ -443,7 +443,7 @@ Step 5: Partition of Bengal
 Step 6: Migration and violence
 Step 7: Long-term impact on East Bengal
 Step 8: Knowledge check
-Step 9: Recommended sources and books
+Step 9: Recommended sources and resources
 ```
 
 ### Example badges
@@ -478,11 +478,11 @@ This phase should support students, teachers, researchers, and serious readers.
 
 ### Online reader and archive additions
 
-- [ ] RM-015A Online book/resource reader shell
-- [ ] RM-015B Reading progress for books/resources — shifted to B2 (server-persisted alongside RB-READ-001/002); localStorage version not worth building for a cross-device diaspora and mobile audience
+- [ ] RM-015A Online resource reader shell
+- [ ] RM-015B Reading progress for resources — shifted to B2 (server-persisted alongside RB-READ-001/002); localStorage version not worth building for a cross-device diaspora and mobile audience
 - [ ] RM-015C Bookmark and continue-reading UX — shifted to B2 (server-persisted); until then show copy-link button only so users can save URLs manually
-- [ ] RM-015D Book/resource table of contents
-- [ ] RM-015E Book-to-event linking (`bookId -> eventIds`, `chapterId -> eventIds`)
+- [ ] RM-015D Resource table of contents
+- [ ] RM-015E Resource-to-event linking (`resourceId -> eventIds`, `sectionId -> eventIds`)
 - [ ] RM-015F Public-domain/licensed-resource policy page
 
 ### Authenticated resource hub
@@ -506,16 +506,16 @@ Reading progress
 Bookmarks
 Highlights
 Notes
-Search inside book
+Search inside resource text
 Chapter navigation
-Related events from book
-Related people from book
+Related events from resource
+Related people from resource
 Citation export
 ```
 
 ### Copyright and resource policy
 
-Only publish full readable books/resources when they are:
+Only publish full readable resources when they are:
 
 ```txt
 Public domain
@@ -524,7 +524,7 @@ Licensed with permission
 Open access with allowed redistribution
 ```
 
-For copyrighted books without permission, keep only:
+For copyrighted resource works without permission, keep only:
 
 ```txt
 Metadata
@@ -558,14 +558,14 @@ Priority: Evolve from static map visuals to timeline-aware, source-backed, struc
 - [ ] RM-MAP-001 Event-location mapping system linking events to one or many historical locations
 - [ ] RM-MAP-002 Time-aware historical maps with date/year-sensitive spatial state changes
 - [ ] RM-MAP-003 Multiple map layers per event (base geography, movement, territory, context overlays)
-- [ ] RM-MAP-004 Location points linked to entities (`events`, `figures`, `books/resources`, `themes`)
+- [ ] RM-MAP-004 Location points linked to entities (`events`, `figures`, `resources`, `themes`)
 - [ ] RM-MAP-005 Route visualization model for migration, campaigns, trade, travel, invasion, resistance, and political movement
 - [ ] RM-MAP-006 Territory/polygon support for changing boundaries, control zones, and influence regions
 - [ ] RM-MAP-007 Map timeline slider for chronological exploration
 - [ ] RM-MAP-008 Year/date-based map state transitions with source-linked annotations
 - [ ] RM-MAP-009 Related event and figure overlays on map view
 - [ ] RM-MAP-010 Place detail pages with timeline context and reverse-linked events/figures/resources
-- [ ] RM-MAP-011 Clickable locations that deep-link to events, figures, books/resources, and themes
+- [ ] RM-MAP-011 Clickable locations that deep-link to events, figures, resources, and themes
 - [ ] RM-MAP-012 Historical layer taxonomy: battle, empire, migration, trade, political, cultural, religious, economic, administrative
 - [ ] RM-MAP-013 Source attribution required for every map layer and major geometry change
 - [ ] RM-MAP-014 Evidence confidence model for uncertain historical geography (`high`, `medium`, `low`, `disputed`, `approximate`)
@@ -754,7 +754,7 @@ Priority: First user-facing backend feature after auth. Low risk, high signal. G
 - [ ] RB-READ-009 Weak era detection ("You have not read much about the Sultanate period")
 - [ ] RB-READ-010 Reading time estimates displayed per event
 - [ ] RB-READ-011 Weekly reading summary email digest (opt-in)
-- [ ] RB-READ-013 Reading progress for books/resources (migrated from RM-015B; server-persisted scroll depth per book/resource per user)
+- [ ] RB-READ-013 Reading progress for resources (migrated from RM-015B; server-persisted scroll depth per resource per user)
 - [ ] RB-READ-014 Bookmark and continue-reading UX (migrated from RM-015C; server-persisted bookmarks replacing manual copy-link placeholder)
 
 **Deferred to post-B6:**
@@ -1265,7 +1265,7 @@ Next.js Frontend (Vercel)
 {
   "id": "resource-001",
   "resourceType": "book",
-  "title": "Example Book",
+  "title": "Example Resource",
   "creator": "Author Name",
   "year": 1998,
   "license": "public-domain",

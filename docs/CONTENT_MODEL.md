@@ -479,6 +479,8 @@ Suggested naming after export:
 - Academic books are modeled as resources, usually under the `academic-books` category. Dedicated `/books/*` pages are obsolete.
 - `event -> period` is many-to-one via `eventMeta.periodId`.
 - Period detail pages perform reverse lookup to list all events within that period.
+- `event -> movement` is many-to-one via `eventMeta.movementId`.
+- Movement detail pages perform reverse lookup to list all events within that movement.
 - `event -> place` is many-to-one via `eventMeta.placeId`.
 - Place detail pages perform chronological reverse lookup to list all events tied to that place.
 - `topic -> events` is many-to-many via `content/topics/<topic-slug>/meta.<locale>.json` `eventSlugs`.
@@ -738,6 +740,12 @@ Source quality classification is governed by `docs/EDITORIAL_GUIDELINES.md` (Sou
 - `getResource`
 - `getEventsByResourceId`
 - `getEventsByResourceIdChronological`
+- `getPeriod`
+- `getAllPeriods`
+- `getEventsByPeriodId`
+- `getMovement`
+- `getAllMovements`
+- `getEventsByMovementId`
 - `getAllCreators`
 - `getCreatorById`
 - `getResourcesByCreatorId`
