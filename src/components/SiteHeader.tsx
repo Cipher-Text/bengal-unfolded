@@ -6,14 +6,14 @@ import { HeaderScroll } from "@/components/HeaderScroll";
 import type { Locale } from "@/types/content";
 
 export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAfterLocale?: string }) {
-  const navItems: Array<{ href: string; label: string }> = [
+  const desktopNavItems: Array<{ href: string; label: string }> = [
     { href: `/${locale}/topics`, label: locale === "bn" ? "টপিকস" : "Topics" },
+    { href: `/${locale}/timeline`, label: locale === "bn" ? "টাইমলাইন" : "Timeline" },
     { href: `/${locale}/paths`, label: locale === "bn" ? "পথ" : "Paths" },
-    { href: `/${locale}/compare`, label: locale === "bn" ? "তুলনা" : "Compare" },
     { href: `/${locale}/figures`, label: locale === "bn" ? "ব্যক্তিত্ব" : "Figures" },
-    { href: `/${locale}/creators`, label: locale === "bn" ? "সূত্রপঞ্জি" : "Sources" },
+    { href: `/${locale}/places`, label: locale === "bn" ? "স্থান" : "Places" },
+    { href: `/${locale}/compare`, label: locale === "bn" ? "তুলনা" : "Compare" },
     { href: `/${locale}/resources`, label: locale === "bn" ? "রিসোর্স" : "Resources" },
-    { href: `/${locale}/glossary`, label: locale === "bn" ? "গ্লসারি" : "Glossary" },
   ];
 
   return (
@@ -46,7 +46,7 @@ export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAf
           </Link>
 
           <nav className="hidden items-center gap-1 md:flex">
-            {navItems.map((item) => (
+            {desktopNavItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -61,7 +61,7 @@ export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAf
           <div className="flex shrink-0 items-center gap-2">
             <ThemeToggle />
             <LanguageSwitcher locale={locale} pathAfterLocale={pathAfterLocale} />
-            <MobileNav items={navItems} label={locale === "bn" ? "মেনু" : "Menu"} />
+            <MobileNav items={desktopNavItems} label={locale === "bn" ? "মেনু" : "Menu"} />
           </div>
         </div>
       </header>

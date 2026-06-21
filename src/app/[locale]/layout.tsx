@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
@@ -10,6 +11,11 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
   const isBangla = locale === "bn";
+  const referenceLinks = [
+    { href: `/${locale}/creators`, label: isBangla ? "সূত্রপঞ্জি" : "Sources" },
+    { href: `/${locale}/glossary`, label: isBangla ? "গ্লসারি" : "Glossary" },
+    { href: `/${locale}/methodology`, label: isBangla ? "পদ্ধতি" : "Methodology" },
+  ];
 
   return (
     <div className="min-h-screen">
@@ -24,10 +30,13 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           {isBangla ? "কারিগরি অংশীদার " : "Technical Partner: "}
           <a href="https://www.ciphertextlabs.com/" target="_blank" rel="noopener noreferrer" className="link-underline text-accent">CipherText</a>
         </p>
-        <div className="mt-3">
-          <a href={`/${locale}/methodology`} className="text-eyebrow link-underline text-accent">
-            {isBangla ? "পদ্ধতি" : "Methodology"}
-          </a>
+        <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2">
+          <span className="text-eyebrow theme-muted">{isBangla ? "রেফারেন্স" : "Reference"}</span>
+          {referenceLinks.map((item) => (
+            <Link key={item.href} href={item.href} className="text-eyebrow link-underline text-accent">
+              {item.label}
+            </Link>
+          ))}
         </div>
       </footer>
     </div>
