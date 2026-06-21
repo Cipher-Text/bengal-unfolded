@@ -350,7 +350,7 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 ### Visualization-first learning model
 
 - [x] RM-VIS-002 Cause -> event -> effect visual chain
-- [ ] RM-VIS-003 Before/after event navigation cards
+- [x] RM-VIS-003 Before/after event navigation cards
 - [ ] RM-VIS-004 Relationship graph for event detail pages
 - [ ] RM-VIS-005 Period-based visual grouping on timeline explorer
 - [ ] RM-VIS-006 Figure-event connection visualization

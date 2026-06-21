@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-06-22
+
+### Completed
+
+- Before/after event navigation cards:
+  - UI/runtime:
+    - Upgraded event detail page before/after navigation into visual adjacent-chapter cards with summaries, years, period context, and clearer timeline boundary states.
+    - Preserved the existing chronological previous/next lookup and locale-aware event routes.
+  - Model/validation:
+    - No schema or validator changes required; the cards use existing `EventMeta` fields.
+  - Content backfill:
+    - No content-data changes required.
+
 ## 2026-06-21
 
 ### Completed
