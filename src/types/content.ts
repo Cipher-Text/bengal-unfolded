@@ -115,7 +115,6 @@ export const SUPPORTED_EVENT_SLUGS = [
   "1740-alivardi-khan-becomes-nawab",
   "1741-1751-maratha-raids-bengal",
   "1919-1924-khilafat-movement-bengal",
-  "1920s-1930s",
 
   "0700-0750-matsyanyaya-before-pala-rise",
   "1095-1205-sena-rise-and-lakshman-sen-court-culture",

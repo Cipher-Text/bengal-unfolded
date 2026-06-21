@@ -15,6 +15,21 @@
   - Documentation:
     - Updated the content model to state that books are resources, not dedicated page entities.
 
+- Removed live placeholder event content:
+  - Content backfill:
+    - Removed the generic `1920s-1930s` event pack and all references from topic, place, and resource metadata.
+    - Left concrete surrounding chapters such as `1919-1924-khilafat-movement-bengal`, `1923-bengal-pact`, `1937-bengal-provincial-election-and-coalition-ministry`, and `1946-1947-tebhaga-movement` as the discoverable late-colonial sequence.
+  - Model/validation:
+    - Removed the placeholder slug from `SUPPORTED_EVENT_SLUGS`.
+    - No schema changes required.
+
+- Linked period and movement detail pages:
+  - UI/runtime:
+    - Event overview period and movement chips now link to their detail pages when IDs exist.
+    - Added period and movement detail pages to the generated sitemap.
+  - Model/validation:
+    - No schema changes required.
+
 ## 2026-06-18
 
 ### Completed

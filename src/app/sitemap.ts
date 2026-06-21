@@ -1,6 +1,13 @@
 import type { MetadataRoute } from "next";
 import { getAllCreators, getAllGlossaryTermIds, getAllResourceIds, getAllTopicSlugs } from "@/lib/content";
-import { SUPPORTED_EVENT_SLUGS, SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, SUPPORTED_PLACE_IDS } from "@/types/content";
+import {
+  SUPPORTED_EVENT_SLUGS,
+  SUPPORTED_FIGURE_IDS,
+  SUPPORTED_LOCALES,
+  SUPPORTED_MOVEMENT_IDS,
+  SUPPORTED_PERIOD_IDS,
+  SUPPORTED_PLACE_IDS,
+} from "@/types/content";
 
 const BASE_URL = "https://bengalunfolded.com";
 
@@ -182,6 +189,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: localeAlternates(`/places/${placeId}`) },
+      });
+    }
+
+    for (const periodId of SUPPORTED_PERIOD_IDS) {
+      entries.push({
+        url: withLocale(locale, `/periods/${periodId}`),
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.65,
+        alternates: { languages: localeAlternates(`/periods/${periodId}`) },
+      });
+    }
+
+    for (const movementId of SUPPORTED_MOVEMENT_IDS) {
+      entries.push({
+        url: withLocale(locale, `/movements/${movementId}`),
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.65,
+        alternates: { languages: localeAlternates(`/movements/${movementId}`) },
       });
     }
 

@@ -384,8 +384,30 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
             <span className="inline-flex rounded-full border border-amber-500/35 px-2.5 py-1 text-xs text-accent">
               {labels.importance}: {IMPORTANCE_LABELS[locale as Locale][event.meta.importance]}
             </span>
-            {event.meta.periodLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{event.meta.periodLabel}</span> : null}
-            {event.meta.movementLabel ? <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{labels.movement}: {event.meta.movementLabel}</span> : null}
+            {event.meta.periodLabel ? (
+              event.meta.periodId ? (
+                <Link
+                  href={`/${locale}/periods/${event.meta.periodId}`}
+                  className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted hover:border-amber-400/50 hover:text-accent"
+                >
+                  {event.meta.periodLabel}
+                </Link>
+              ) : (
+                <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{event.meta.periodLabel}</span>
+              )
+            ) : null}
+            {event.meta.movementLabel ? (
+              event.meta.movementId ? (
+                <Link
+                  href={`/${locale}/movements/${event.meta.movementId}`}
+                  className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted hover:border-amber-400/50 hover:text-accent"
+                >
+                  {labels.movement}: {event.meta.movementLabel}
+                </Link>
+              ) : (
+                <span className="inline-flex rounded-full border border-amber-500/25 px-2.5 py-1 text-xs theme-muted">{labels.movement}: {event.meta.movementLabel}</span>
+              )
+            ) : null}
             {event.meta.placeId && event.meta.placeLabel ? (
               <Link
                 href={`/${locale}/places/${event.meta.placeId}`}
