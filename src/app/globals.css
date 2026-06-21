@@ -842,15 +842,13 @@ html[data-theme="dark"] .compass-watermark {
 @media (min-width: 640px) {
   .newspaper-shell { padding: 1rem 0 2rem; }
 }
-.flipbook-stage { min-height: 70vh; }
-@media (min-width: 768px) {
-  .flipbook-stage { min-height: 90vh; }
-}
 .flipbook-stage {
   width: 100%;
-  min-height: 90vh;
   position: relative;
   perspective: 2800px;
+}
+@media (min-width: 768px) {
+  .flipbook-stage { min-height: 70vh; }
 }
 
 /* The single newspaper page — heavily aged paper feel */
