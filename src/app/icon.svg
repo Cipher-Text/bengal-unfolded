@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Bengal Unfolded icon">
+  <rect width="256" height="256" rx="52" fill="#efe5cf" />
+  <rect x="14" y="14" width="228" height="228" rx="38" fill="none" stroke="#8a5c00" stroke-width="8" />
+  <circle cx="128" cy="128" r="74" fill="#6b4a1f" />
+  <circle cx="128" cy="128" r="58" fill="none" stroke="#d8b166" stroke-width="8" />
+  <path
+    d="M128 42 142 96 214 128 142 160 128 214 114 160 42 128 114 96Z"
+    fill="#f2e9d2"
+  />
+  <circle cx="128" cy="128" r="18" fill="#8a5c00" />
+  <path d="M128 76v104M76 128h104" stroke="#f2e9d2" stroke-linecap="round" stroke-width="10" />
+</svg>
