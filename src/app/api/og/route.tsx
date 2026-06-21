@@ -13,20 +13,18 @@ export async function GET(request: Request) {
   const subtitle = (searchParams.get("subtitle") ?? "").slice(0, 160);
 
   const labels = locale === "bn"
-    ? {
+      ? {
         site: "বেঙ্গল আনফোল্ডেড",
         event: "ঐতিহাসিক ঘটনা",
         figure: "ঐতিহাসিক ব্যক্তিত্ব",
-        book: "বই ও রিসোর্স",
       }
     : {
         site: "Bengal Unfolded",
         event: "Historical Event",
         figure: "Historical Figure",
-        book: "Book & Resource",
       };
 
-  const typeLabel = type === "figure" ? labels.figure : type === "book" ? labels.book : labels.event;
+  const typeLabel = type === "figure" ? labels.figure : labels.event;
 
   return new ImageResponse(
     (

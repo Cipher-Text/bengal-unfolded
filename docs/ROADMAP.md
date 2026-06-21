@@ -185,8 +185,8 @@ Warning for Phase B5: Do not begin community and contribution features until a w
 - [x] RM-MVP-007 Normalized model: events -> figure IDs
 - [x] RM-MVP-007A Normalized model: events -> resource IDs
 - [x] RM-MVP-008 Dedicated figure pages (`/{locale}/figures/{id}`)
-- [x] RM-MVP-009 Dedicated book pages (`/{locale}/books/{id}`)
-- [x] RM-MVP-010 Reverse lookups (`getEventsByFigureId`, `getEventsByBookId`)
+- [x] RM-MVP-009 Dedicated book pages (`/{locale}/books/{id}`) — removed 2026-06-21; books now live as resources.
+- [x] RM-MVP-010 Reverse lookups (`getEventsByFigureId`, resource-to-event lookups)
 - [x] RM-MVP-011 Event figure full-list page (`/{locale}/events/{slug}/figures`)
 - [x] RM-MVP-012 Event resources category page (`/{locale}/events/{slug}/resources`)
 - [x] RM-MVP-013 Figure index optimization for large lists (`content/figures/index.<locale>.json`)
@@ -241,7 +241,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [x] RM-REL-007 Movement/theme-to-event linking
 - [x] RM-REL-008 Figure-to-event timeline view
 - [x] RM-REL-009 Place-to-event timeline view
-- [x] RM-REL-010 Book/resource-to-event reverse mapping
+- [x] RM-REL-010 Resource-to-event reverse mapping
 - [x] RM-REL-011 Long-term legacy fields for major events
 - [x] RM-REL-012 Cultural impact fields for selected events
 - [x] RM-REL-013 Identity and memory notes for major historical moments
@@ -309,7 +309,7 @@ Priority: Improve discoverability and social distribution with minimal architect
 
 ### Social sharing baseline
 
-- [x] RM-SHARE-001 Social metadata baseline for event/figure/book pages (`title`, `description`, `image`)
+- [x] RM-SHARE-001 Social metadata baseline for event/figure pages (`title`, `description`, `image`)
 - [x] RM-SHARE-002 Dynamic Open Graph image generation per content type (localized EN/BN)
 - [x] RM-SHARE-003 Share action UI on detail pages (copy link + native share where available)
 - [x] RM-SHARE-004 Canonical URL and locale-aware metadata consistency checks

@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-06-21
+
+### Completed
+
+- Removed obsolete dedicated book pages:
+  - UI/runtime:
+    - Deleted the `/{locale}/books/{id}` route.
+    - Removed `/books/*` entries from the generated sitemap.
+    - Kept academic books discoverable through the Resources surface as `academic-books`.
+  - Model/validation:
+    - Removed dedicated `Book` IDs/types and book-specific reverse lookup helpers from the runtime content layer.
+    - No content JSON backfill required; existing book-like records remain normal resources.
+  - Documentation:
+    - Updated the content model to state that books are resources, not dedicated page entities.
+
 ## 2026-06-18
 
 ### Completed

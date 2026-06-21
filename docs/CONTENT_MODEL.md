@@ -16,7 +16,6 @@ Contract companion docs:
 - `Period`
 - `Movement`
 - `Place`
-- `Book`
 - `EventResource`
 - `Quote`
 - `EventContent`
@@ -477,9 +476,7 @@ Suggested naming after export:
 - Figure detail pages perform reverse lookup to list related events.
 - `event -> resources` is many-to-many via `content/events/<slug>/resource-ids.json`.
 - Shared resource metadata is stored in `content/resources/<resource-id>/meta.<locale>.json`.
-- `event <-> books` is many-to-many via `content/events/<slug>/resource-ids.json` where book IDs are resource IDs.
-- `book <-> writers` supports many-to-many at schema level with `authors: string[]` on book metadata (legacy `author` is still supported for backward compatibility).
-- `book` entity is still supported for dedicated book pages and reverse lookups.
+- Academic books are modeled as resources, usually under the `academic-books` category. Dedicated `/books/*` pages are obsolete.
 - `event -> period` is many-to-one via `eventMeta.periodId`.
 - Period detail pages perform reverse lookup to list all events within that period.
 - `event -> place` is many-to-one via `eventMeta.placeId`.
@@ -502,9 +499,6 @@ Suggested naming after export:
   - Optional index for faster loading:
     - `content/figures/index.en.json`
     - `content/figures/index.bn.json`
-- Book files:
-  - No separate `books` storage.
-  - Book pages resolve from `content/resources/<book-id>/meta.<locale>.json`.
 - Period files:
   - `content/periods/<period-id>/meta.en.json`
   - `content/periods/<period-id>/meta.bn.json`
@@ -736,14 +730,10 @@ Source quality classification is governed by `docs/EDITORIAL_GUIDELINES.md` (Sou
 - `getEventContent`
 - `getAllEvents`
 - `getFigure`
-- `getBook`
 - `getAllFigures`
-- `getAllBooks`
 - `getAllResourceIds`
 - `getAllResources`
 - `getEventsByFigureId`
-- `getEventsByBookId`
-- `getEventsByBookIdChronological`
 - `getFiguresByEventSlug`
 - `getResource`
 - `getEventsByResourceId`

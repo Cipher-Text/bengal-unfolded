@@ -8,15 +8,12 @@ import {
   SOURCE_QUALITIES,
 } from "@/constants/enums";
 import {
-  SUPPORTED_BOOK_IDS,
   SUPPORTED_EVENT_SLUGS,
   SUPPORTED_FIGURE_IDS,
   SUPPORTED_PERIOD_IDS,
   SUPPORTED_MOVEMENT_IDS,
   SUPPORTED_PLACE_IDS,
   SUPPORTED_LOCALES,
-  type Book,
-  type BookId,
   type Creator,
   type EventContent,
   type EventRelationType,
@@ -62,7 +59,6 @@ function makeAssert<T extends string>(
 const isLocale = makeGuard(SUPPORTED_LOCALES);
 const isEventSlug = makeGuard(SUPPORTED_EVENT_SLUGS);
 const isFigureId = makeGuard(SUPPORTED_FIGURE_IDS);
-const isBookId = makeGuard(SUPPORTED_BOOK_IDS);
 const isPeriodId = makeGuard(SUPPORTED_PERIOD_IDS);
 const isMovementId = makeGuard(SUPPORTED_MOVEMENT_IDS);
 const isPlaceId = makeGuard(SUPPORTED_PLACE_IDS);
@@ -280,47 +276,6 @@ function normalizeEventResource(
   };
 }
 
-function normalizeBook(bookId: BookId, rawBook: Record<string, unknown>): Book {
-  const title = String(rawBook.title ?? "");
-  const note = String(rawBook.note ?? "");
-  const type =
-    rawBook.type === "article" || rawBook.type === "archive"
-      ? rawBook.type
-      : "book";
-
-  const authors = Array.isArray(rawBook.authors)
-    ? rawBook.authors.filter(
-        (author): author is string =>
-          typeof author === "string" && author.trim().length > 0,
-      )
-    : [];
-  const legacyAuthor =
-    typeof rawBook.author === "string" ? rawBook.author.trim() : "";
-  const fallbackAttribution =
-    typeof rawBook.attribution === "string" ? rawBook.attribution.trim() : "";
-  const fallbackCreator =
-    typeof rawBook.creator === "string" ? rawBook.creator.trim() : "";
-  const normalizedAuthors =
-    authors.length > 0
-      ? authors
-      : legacyAuthor
-        ? [legacyAuthor]
-        : fallbackAttribution
-          ? [fallbackAttribution]
-          : fallbackCreator
-            ? [fallbackCreator]
-            : [];
-
-  return {
-    id: bookId,
-    title,
-    author: normalizedAuthors[0] ?? "",
-    authors: normalizedAuthors,
-    type,
-    note,
-  };
-}
-
 function inferFigureGroup(role: string): Figure["group"] {
   const r = role.toLowerCase();
   if (r.includes("শহীদ") || r.includes("martyr")) return "martyr";
@@ -441,7 +396,6 @@ const readTopicSlugsCached = cache(async (): Promise<string[]> => {
 export const assertSupportedLocale: (v: string) => asserts v is Locale = makeAssert(isLocale, "locale");
 export const assertSupportedEventSlug: (v: string) => asserts v is EventSlug = makeAssert(isEventSlug, "event slug");
 export const assertSupportedFigureId: (v: string) => asserts v is FigureId = makeAssert(isFigureId, "figure id");
-export const assertSupportedBookId: (v: string) => asserts v is BookId = makeAssert(isBookId, "book id");
 export const assertSupportedPeriodId: (v: string) => asserts v is PeriodId = makeAssert(isPeriodId, "period id");
 export const assertSupportedMovementId: (v: string) => asserts v is MovementId = makeAssert(isMovementId, "movement id");
 export const assertSupportedPlaceId: (v: string) => asserts v is PlaceId = makeAssert(isPlaceId, "place id");
@@ -472,15 +426,6 @@ export async function getFigure(
     path.join(CONTENT_DIR, "figures", figureId, `meta.${locale}.json`),
   );
   return normalizeFigure(figureId, locale, figure);
-}
-
-export async function getBook(locale: string, bookId: string): Promise<Book> {
-  assertSupportedLocale(locale);
-  assertSupportedBookId(bookId);
-  const rawBook = await readJsonFile<Record<string, unknown>>(
-    path.join(CONTENT_DIR, "resources", bookId, `meta.${locale}.json`),
-  );
-  return normalizeBook(bookId, rawBook);
 }
 
 export async function getAllFigures(locale: string): Promise<Figure[]> {
@@ -525,13 +470,6 @@ export async function getAllFiguresChronological(locale: string): Promise<Figure
     if (aRank !== bRank) return aRank - bRank;
     return a.name.localeCompare(b.name);
   });
-}
-
-export async function getAllBooks(locale: string): Promise<Book[]> {
-  assertSupportedLocale(locale);
-  return Promise.all(
-    SUPPORTED_BOOK_IDS.map((bookId) => getBook(locale, bookId)),
-  );
 }
 
 export async function getAllResourceIds(): Promise<string[]> {
@@ -872,46 +810,6 @@ export async function getEventsByFigureIdChronological(
   const [events, chronologicalSlugs] = await Promise.all([
     getEventsByFigureId(locale, figureId),
     getChronologicalEventSlugs(locale),
-  ]);
-
-  const rank = new Map(chronologicalSlugs.map((slug, index) => [slug, index]));
-  return [...events].sort(
-    (a, b) =>
-      (rank.get(a.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER) -
-      (rank.get(b.slug as EventSlug) ?? Number.MAX_SAFE_INTEGER),
-  );
-}
-
-export async function getEventsByBookId(
-  locale: string,
-  bookId: string,
-): Promise<EventMeta[]> {
-  assertSupportedLocale(locale);
-  assertSupportedBookId(bookId);
-
-  const matches = await Promise.all(
-    SUPPORTED_EVENT_SLUGS.map(async (slug) => {
-      const resourceIds = await readJsonFile<string[]>(
-        path.join(CONTENT_DIR, "events", slug, "resource-ids.json"),
-      );
-      if (!resourceIds.includes(bookId)) return null;
-      return getEventMeta(locale, slug);
-    }),
-  );
-
-  return matches.filter((event): event is EventMeta => event !== null);
-}
-
-export async function getEventsByBookIdChronological(
-  locale: string,
-  bookId: string,
-): Promise<EventMeta[]> {
-  assertSupportedLocale(locale);
-  assertSupportedBookId(bookId);
-
-  const [events, chronologicalSlugs] = await Promise.all([
-    getEventsByBookId(locale, bookId),
-    getChronologicalEventSlugs(locale as Locale),
   ]);
 
   const rank = new Map(chronologicalSlugs.map((slug, index) => [slug, index]));

@@ -32,7 +32,7 @@ export function languageAlternates(pathWithoutLocale: string, includeXDefault = 
 
 export function buildDynamicOgImagePath(input: {
   locale: Locale;
-  type: "event" | "figure" | "book";
+  type: "event" | "figure";
   title: string;
   subtitle?: string;
 }): string {
@@ -51,7 +51,7 @@ export function buildPageMetadata(input: {
   description: string;
   canonicalPath: string;
   languagePathWithoutLocale?: string;
-  type?: "website" | "article" | "profile" | "book";
+  type?: "website" | "article" | "profile";
   noIndex?: boolean;
   ogImagePath?: string;
 }): Metadata {

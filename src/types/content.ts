@@ -743,10 +743,6 @@ export const SUPPORTED_FIGURE_IDS = [
   "zahir-raihan",
   "zohra-tajuddin",
 ] as const;
-export const SUPPORTED_BOOK_IDS = [
-  "research-volume",
-  "archive-collection",
-] as const;
 export const SUPPORTED_PERIOD_IDS = [
   "ancient-and-pre-sultanate-bengal",
   "transition-to-sultanate-formation",
@@ -831,7 +827,6 @@ export const SUPPORTED_PLACE_IDS = [
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 export type EventSlug = (typeof SUPPORTED_EVENT_SLUGS)[number];
 export type FigureId = (typeof SUPPORTED_FIGURE_IDS)[number];
-export type BookId = (typeof SUPPORTED_BOOK_IDS)[number];
 export type PeriodId = (typeof SUPPORTED_PERIOD_IDS)[number];
 export type MovementId = (typeof SUPPORTED_MOVEMENT_IDS)[number];
 export type PlaceId = (typeof SUPPORTED_PLACE_IDS)[number];
@@ -1106,15 +1101,6 @@ export type TopicMeta = {
 };
 
 export type Topic = TopicMeta;
-
-export type Book = {
-  id: BookId;
-  title: string;
-  author: string;
-  authors: string[];
-  type: "book" | "article" | "archive";
-  note: string;
-};
 
 export type ResourceCategory = (typeof RESOURCE_CATEGORIES)[number];
 export type SourceQuality = (typeof SOURCE_QUALITIES)[number];
