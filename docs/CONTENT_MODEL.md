@@ -487,6 +487,37 @@ Suggested naming after export:
 - `topic -> figures` is optional many-to-many via `figureIds`.
 - `topic -> resources` is optional many-to-many via `resourceIds`.
 
+## Public route inventory
+
+- `/{locale}`: landing page with curated landmark timeline cards.
+- `/{locale}/timeline`: full timeline explorer with search, filters, and pagination.
+- `/{locale}/events/{slug}`: event detail page.
+- `/{locale}/events/{slug}/figures`: full figure list for one event.
+- `/{locale}/events/{slug}/resources`: event-scoped resources page.
+- `/{locale}/figures`: figure directory with search, entity, and group filters.
+- `/{locale}/figures/{id}`: figure detail page with reverse-linked events/resources.
+- `/{locale}/resources`: Resource Directory with search plus category, subcategory, and source-quality filters.
+- `/{locale}/resources/{id}`: shared resource detail page.
+- `/{locale}/creators`: Source Directory index derived from resource attribution metadata.
+- `/{locale}/creators/{id}`: Source Directory detail page for one derived source entry.
+- `/{locale}/topics`: topic hub index.
+- `/{locale}/topics/{slug}`: topic detail page.
+- `/{locale}/paths`: learning-path index derived from topics.
+- `/{locale}/paths/{slug}`: learning-path detail page for one topic.
+- `/{locale}/glossary`: glossary index.
+- `/{locale}/glossary/{term}`: glossary term detail page.
+- `/{locale}/places`: places index page.
+- `/{locale}/places/{id}`: place detail page with reverse-linked chronology.
+- `/{locale}/periods/{id}`: period detail page.
+- `/{locale}/movements/{id}`: movement detail page.
+- `/{locale}/compare`: side-by-side event comparison page.
+- `/{locale}/methodology`: public methodology and trust standards page.
+- `/{locale}/join`: public collaboration and contact page.
+
+Notes:
+- There are currently no public index routes for periods or movements.
+- Dedicated `/books/*` routes are obsolete; book-like entries live under `/resources/*`.
+
 ## File contracts
 
 - Event files:

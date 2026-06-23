@@ -186,10 +186,13 @@ Warning for Phase B5: Do not begin community and contribution features until a w
 - [x] RM-MVP-007A Normalized model: events -> resource IDs
 - [x] RM-MVP-008 Dedicated figure pages (`/{locale}/figures/{id}`)
 - [x] RM-MVP-009 Resource detail pages supersede obsolete dedicated book pages; `/{locale}/books/{id}` was removed on 2026-06-21.
+- [x] RM-MVP-009A Resource Directory index (`/{locale}/resources`) with search, category, subcategory, and source-quality filters
 - [x] RM-MVP-010 Reverse lookups (`getEventsByFigureId`, resource-to-event lookups)
 - [x] RM-MVP-011 Event figure full-list page (`/{locale}/events/{slug}/figures`)
 - [x] RM-MVP-012 Event resources category page (`/{locale}/events/{slug}/resources`)
 - [x] RM-MVP-013 Figure index optimization for large lists (`content/figures/index.<locale>.json`)
+- [x] RM-MVP-013A Source Directory pages (`/{locale}/creators`, `/{locale}/creators/{id}`) derived from resource attribution metadata
+- [x] RM-MVP-013B Places index and detail pages (`/{locale}/places`, `/{locale}/places/{id}`)
 
 ### UX completeness
 
@@ -258,6 +261,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 - [ ] RM-TRUTH-008 Version history for major event pages — shifted to B5 (covered by RB-COM-010); requires DB diffs, timestamps, and author attribution — not a static JSON feature
 - [ ] RM-TRUTH-009 Correction request workflow — shifted to B5 (covered by RB-COM-001 to RB-COM-003); use a Tally or Typeform embed as placeholder until editorial queue infrastructure exists
 - [x] RM-TRUTH-010 Public methodology page
+- [x] RM-TRUTH-011 Public collaboration/contact page (`/{locale}/join`)
 
 ### Recommended v1 behavior
 
@@ -564,7 +568,7 @@ Priority: Evolve from static map visuals to timeline-aware, source-backed, struc
 - [ ] RM-MAP-007 Map timeline slider for chronological exploration
 - [ ] RM-MAP-008 Year/date-based map state transitions with source-linked annotations
 - [ ] RM-MAP-009 Related event and figure overlays on map view
-- [ ] RM-MAP-010 Place detail pages with timeline context and reverse-linked events/figures/resources
+- [ ] RM-MAP-010 Expanded place detail pages with richer reverse-linked events/figures/resources and map context
 - [ ] RM-MAP-011 Clickable locations that deep-link to events, figures, resources, and themes
 - [ ] RM-MAP-012 Historical layer taxonomy: battle, empire, migration, trade, political, cultural, religious, economic, administrative
 - [ ] RM-MAP-013 Source attribution required for every map layer and major geometry change

@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-06-23
+
+### Completed
+
+- Documentation alignment for shipped public pages:
+  - Documentation:
+    - Updated `docs/CONTENT_MODEL.md` with an explicit public route inventory covering the live locale routes for resources, Source Directory, places, comparison, methodology, join, topics, paths, glossary, and timeline surfaces.
+    - Updated `docs/ROADMAP.md` so shipped route surfaces are represented as completed items, including the Resource Directory, Source Directory, places pages, and public collaboration page.
+    - Renamed the future roadmap place-page item to clarify that only the richer expanded place experience remains pending, not the already shipped basic place pages.
+  - Model/validation/UI/backfill:
+    - No schema, validator, runtime, or content-data changes were required for this pass.
+
 ## 2026-06-22
 
 ### Completed
