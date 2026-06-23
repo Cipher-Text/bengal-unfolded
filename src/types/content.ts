@@ -617,7 +617,7 @@ export const SUPPORTED_FIGURE_IDS = [
   "titu-mir",
   "raja-rammohun-roy",
   "haji-shariatullah",
-  "dudu-miyan",
+  "dudu-miya",
   "karamat-ali-jaunpuri",
   "nawab-abdul-latif",
   "syed-ameer-ali",
