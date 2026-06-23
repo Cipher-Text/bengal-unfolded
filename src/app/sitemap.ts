@@ -107,6 +107,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.65,
         alternates: { languages: localeAlternates("/methodology") },
       },
+      {
+        url: withLocale(locale, "/join"),
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: { languages: localeAlternates("/join") },
+      },
     );
 
     for (const slug of SUPPORTED_EVENT_SLUGS) {

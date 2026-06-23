@@ -81,7 +81,6 @@ export default async function LocaleHomePage({
 		getHomeContent(locale),
 		getAllEvents(locale),
 	]);
-	const isBn = locale === "bn";
 	const landingEventSet = new Set<EventSlug>(LANDING_MAJOR_EVENT_SLUGS);
 	const landingEvents = events.filter((event) => landingEventSet.has(event.slug));
 
@@ -143,6 +142,13 @@ export default async function LocaleHomePage({
 							<Link href={`/${locale}/topics`} className="btn-vintage">
 								{locale === "bn" ? "টপিক হাব" : "Topic Hubs"}
 								<span className="arrow">→</span>
+							</Link>
+							<Link
+								href={`/${locale}/join`}
+								className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/35 px-4 text-sm font-medium text-accent hover:bg-amber-500/10"
+							>
+								{locale === "bn" ? "রিভিউ ও সহযোগিতা করুন" : "Review & Collaborate"}
+								<span className="arrow ml-2">→</span>
 							</Link>
 						</div>
 					</div>

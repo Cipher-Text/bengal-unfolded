@@ -15,6 +15,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     { href: `/${locale}/creators`, label: isBangla ? "সূত্রপঞ্জি" : "Sources" },
     { href: `/${locale}/glossary`, label: isBangla ? "গ্লসারি" : "Glossary" },
     { href: `/${locale}/methodology`, label: isBangla ? "পদ্ধতি" : "Methodology" },
+    { href: `/${locale}/join`, label: isBangla ? "যোগাযোগ" : "Join" },
   ];
 
   return (
