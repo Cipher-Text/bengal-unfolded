@@ -736,7 +736,6 @@ export const SUPPORTED_FIGURE_IDS = [
   "sheikh-fazlul-haque-moni",
   "siraj-sikder",
   "suniti-kumar-chatterji",
-  "syed-amir-ali",
   "syed-shamsul-haq",
   "tikka-khan",
   "zahir-raihan",

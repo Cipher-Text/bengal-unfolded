@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-06-28
+
+### Completed
+
+- Consolidated duplicate Syed Ameer Ali figure content:
+  - Content backfill:
+    - Replaced live references to placeholder `syed-amir-ali` with the richer canonical `syed-ameer-ali` figure record.
+    - Removed duplicate `syed-amir-ali` figure metadata in both EN and BN locales.
+  - Model/validation/UI:
+    - Removed `syed-amir-ali` from `SUPPORTED_FIGURE_IDS`.
+    - No schema, validator, or UI changes required.
+
 ## 2026-06-23
 
 ### Completed
