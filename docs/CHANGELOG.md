@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-06-30
+
+### Completed
+
+- Search Console optimization loop:
+  - Content backfill:
+    - Added localized `seoTitle` and `seoDescription` fields for `mirza-abu-bakr` and `mir-madan` in both EN and BN figure metadata.
+  - Documentation:
+    - Added `docs/SEO_GSC_OPTIMIZATION_LOG.md` with the weekly GSC export workflow, opportunity criteria, tracking fields, first baseline snapshot, and first five queued optimization targets.
+    - Updated `docs/SEO_GSC_OPTIMIZATION_LOG.md` to mark the Mirza Abu Bakr and Mir Madan snippet updates as changed.
+    - Marked `RM-SEO-005` complete in `docs/ROADMAP.md`.
+  - Model/validation/UI:
+    - No schema, validator-rule, or runtime changes were required.
+
 ## 2026-06-28
 
 ### Completed
