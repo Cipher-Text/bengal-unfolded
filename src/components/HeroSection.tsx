@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
+import { BrandIcon } from "@/components/BrandIcon";
 
 function PhotoPlaceholder({
   caption,
@@ -120,7 +121,7 @@ export function HeroSection({
               {rightSlot ?? "From ancient Bengal to modern Bangladesh — a curated, source-backed journey through the people, events, and eras that shaped our history."}
             </div>
             <div className="mt-5">
-              <span className="wax-seal">B</span>
+              <BrandIcon className="h-14 w-14 rounded-2xl shadow-[0_6px_14px_rgba(0,0,0,0.28)]" />
             </div>
           </aside>
         </div>

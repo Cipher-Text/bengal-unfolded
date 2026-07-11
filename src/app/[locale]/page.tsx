@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
+import { BrandIcon } from "@/components/BrandIcon";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import Link from "next/link";
@@ -191,7 +192,7 @@ export default async function LocaleHomePage({
 							{home.whyJourneyMattersBody}
 						</p>
 						<div className="mt-7 flex items-center gap-3">
-							<span className="wax-seal">B</span>
+							<BrandIcon className="h-14 w-14 shrink-0 rounded-2xl shadow-[0_6px_14px_rgba(0,0,0,0.28)]" />
 							<div>
 								<p className="text-eyebrow">
 									{locale === "bn" ? "সম্পাদকীয় সিল" : "Editorial Seal"}

@@ -3,6 +3,7 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { MobileNav } from "@/components/MobileNav";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { HeaderScroll } from "@/components/HeaderScroll";
+import { BrandIcon } from "@/components/BrandIcon";
 import type { Locale } from "@/types/content";
 
 export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAfterLocale?: string }) {
@@ -29,16 +30,7 @@ export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAf
           data-shrunk="false"
         >
           <Link href={`/${locale}`} className="group flex min-w-0 items-center gap-2 sm:gap-3" aria-label="Bengal Unfolded">
-            <span
-              aria-hidden="true"
-              className="relative inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full sm:h-10 sm:w-10"
-              style={{
-                background: "radial-gradient(circle at 30% 30%, #d8b166, #8a5c00 80%)",
-                boxShadow: "inset 0 2px 4px rgba(255,255,255,0.25), 0 4px 10px rgba(0,0,0,0.25)",
-              }}
-            >
-              <span className="font-display text-lg italic text-[color:var(--paper)]">B</span>
-            </span>
+            <BrandIcon className="h-9 w-9 shrink-0 rounded-xl shadow-[0_4px_10px_rgba(0,0,0,0.22)] sm:h-10 sm:w-10" />
             <span className="flex min-w-0 flex-col leading-none">
               <span className="truncate font-display text-sm font-semibold tracking-tight sm:text-base md:text-lg">Bengal Unfolded</span>
               <span className="text-eyebrow text-[9px] sm:text-[10px] mt-0.5">A Bilingual Gazette</span>
