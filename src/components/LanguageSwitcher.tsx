@@ -1,9 +1,21 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import type { Locale } from "@/types/content";
 
-export function LanguageSwitcher({ locale, pathAfterLocale = "" }: { locale: Locale; pathAfterLocale?: string }) {
-  const normalized = pathAfterLocale.startsWith("/") ? pathAfterLocale : `/${pathAfterLocale}`;
-  const safePath = normalized === "/" ? "" : normalized;
+const LOCALE_PREFIX_PATTERN = /^\/(en|bn)(?=\/|$)/;
+
+function normalizePathAfterLocale(path: string): string {
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  return normalized === "/" ? "" : normalized;
+}
+
+export function LanguageSwitcher({ locale, pathAfterLocale }: { locale: Locale; pathAfterLocale?: string }) {
+  const pathname = usePathname();
+  const currentPathAfterLocale = pathname.replace(LOCALE_PREFIX_PATTERN, "");
+  const safePath = normalizePathAfterLocale(pathAfterLocale ?? currentPathAfterLocale);
+
   return (
     <div
       aria-label="Switch language"
