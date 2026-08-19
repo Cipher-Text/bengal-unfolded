@@ -2,6 +2,8 @@
   "slug": "1576-battle-of-rajmahal",
   "year": "1576 (July 12)",
   "title": "Battle of Rajmahal",
+  "seoTitle": "Battle of Rajmahal (1576)",
+  "seoDescription": "On 12 July 1576, Mughal forces defeated and killed Daud Khan Karrani at Rajmahal, ending the Karrani dynasty and closing Bengal's independent Sultanate era. Explore what changed — and why it still matters.",
   "subtitle": "Mughal forces defeat Daud Khan Karrani and end the Bengal Sultanate's final Afghan line.",
   "summary": "On July 12, 1576, Mughal forces defeated Daud Khan Karrani at the Battle of Rajmahal. The victory marked the collapse of the Karrani regime, often treated as the terminal phase of independent Bengal Sultanate power, and accelerated Bengal's incorporation into the Mughal imperial framework.",
   "themeColor": "#6c4a2f",
@@ -11,7 +13,7 @@
     "battle-of-rajmahal-wikipedia",
     "mughal-conquest-of-bengal-wikipedia"
   ],
-  "whyItMatters": "This event matters because it links late-sultanate Bengal to Mughal provincial governance. The defeat of Daud Khan Karrani changed how authority, taxation, and military control were organized in Bengal, creating structural conditions that later fed into nawabi politics and the eighteenth-century crises.",
+  "whyItMatters": "Rajmahal marks the dividing line between Bengal's Sultanate era and its Mughal provincial phase. When Daud Khan Karrani was defeated and killed, the last attempt to maintain an independent power base in Bengal under a local dynasty collapsed. From this point Bengal was governed as a Mughal subah — province — with revenue, military, and administrative authority flowing to the imperial center rather than to a locally rooted court.",
   "whyItMattersSourceIds": [
     "mughal-conquest-of-bengal-wikipedia",
     "bengal-sultanate-wikipedia"
@@ -56,7 +58,7 @@
   "showOnLanding": true,
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "longTermLegacy": "This event matters because it links late-sultanate Bengal to Mughal provincial governance. The defeat of Daud Khan Karrani changed how authority, taxation, and military control were organized in Bengal, creating structural conditions that later fed into nawabi politics and the eighteenth-century crises.",
+  "longTermLegacy": "The Mughal provincial system that replaced Karrani rule reorganized land revenue, military command, and administration across Bengal, creating the framework that later became the nawabi system. By the eighteenth century, as Mughal central authority weakened, Bengal's nawabs operated within this inherited provincial structure — itself a legacy of the absorption begun at Rajmahal. The structural conditions set in 1576 thus have traceable downstream effects through the Battle of Plassey (1757) and the subsequent establishment of Company rule.",
   "longTermLegacySourceIds": [
     "mughal-conquest-of-bengal-wikipedia",
     "bengal-sultanate-wikipedia"
@@ -64,7 +66,7 @@
   "longTermLegacyEvidenceLevel": "medium",
   "placeId": "rajmahal",
   "placeLabel": "Rajmahal",
-  "identityMemoryNotes": "This event matters because it links late-sultanate Bengal to Mughal provincial governance. The defeat of Daud Khan Karrani changed how authority, taxation, and military control were organized in Bengal, creating structural conditions that later fed into nawabi politics and the eighteenth-century crises.",
+  "identityMemoryNotes": "In Bengali historical consciousness, Rajmahal is frequently marked as the end of the last phase of politically independent Bengal — the point after which no local dynasty held sovereign authority until the nawabi period, and even then only as Mughal subordinates. The defeat and death of Daud Khan Karrani ended Afghan Karrani rule, which had itself succeeded the earlier Ilyas Shahi and Husain Shahi dynasties. Whether this event is read as the end of Bengal's medieval independence or as a transition between empires depends on how historians frame the Sultanate period's relationship to Bengali political identity.",
   "identityMemorySourceIds": [
     "mughal-conquest-of-bengal-wikipedia",
     "bengal-sultanate-wikipedia"

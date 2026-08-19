@@ -1,16 +1,18 @@
 {
   "name": "Ishan Chandra Roy",
   "name_en": "Ishan Chandra Roy",
+  "seoTitle": "Ishan Chandra Roy: Pabna Peasant Uprising Leader",
+  "seoDescription": "Ishan Chandra Roy was a lead organizer of the Pabna agrarian resistance of 1873-1876, coordinating rent strikes and legal action against zamindari exploitation across eastern Bengal.",
   "role": "Pabna peasant organizer",
   "group": "leader",
-  "contribution": "A named organizer associated with the Pabna agrarian resistance of the 1870s.",
-  "context": "He is remembered in accounts of the Pabna movement as part of organized rent-resistance leadership.",
-  "impact": "His profile helps connect colonial agrarian protest with later tenancy-rights politics.",
-  "highlight": "His profile helps connect colonial agrarian protest with later tenancy-rights politics.",
+  "contribution": "Ishan Chandra Roy was one of the principal organizers of the Pabna Peasant Uprising of 1873-1876, in which ryots across Pabna district organized systematic resistance against zamindari rent enhancements and illegal exactions. He helped form and lead a peasant samiti — a collective association — that coordinated action among cultivating tenants: refusal to pay unlawful enhanced rents, legal challenges filed in civil courts, and solidarity across villages. The movement was distinctive for its emphasis on legal agitation over physical confrontation, using the colonial court system itself as an instrument to contest zamindari power.",
+  "context": "Pabna district, colonial Bengal (present-day Bangladesh), 1873-1876. The post-Permanent Settlement agrarian structure concentrated land control with zamindars, who had legal power to raise rents and impose additional levies. Tenant ryots held insecure rights and limited legal recourse until organized resistance through the courts demonstrated that zamindari claims could be contested.",
+  "impact": "The Pabna movement that Ishan Chandra Roy helped organize became a reference point for later agrarian politics in Bengal. It demonstrated that collective legal agitation by peasants could constrain zamindari power and attract sympathetic attention from Bengali urban intellectuals and press. The movement's scale and methods contributed to the legislative pressure that produced the Bengal Tenancy Act of 1885, which gave tenant ryots stronger legal protections against arbitrary rent enhancement.",
+  "highlight": "The Pabna movement that Ishan Chandra Roy helped organize became a reference point for later agrarian politics in Bengal, demonstrating that collective legal agitation could constrain zamindari power.",
   "tags": [
     "bengal",
-    "regional-history",
-    "content-gap"
+    "pabna",
+    "agrarian"
   ],
   "primaryEventIds": [
     "1873-1876-pabna-peasant-uprising"
