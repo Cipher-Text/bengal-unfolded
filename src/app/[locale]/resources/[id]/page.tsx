@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     );
     return buildPageMetadata({
       locale: locale as Locale,
-      title: resource.seoTitle ?? `${resource.title} | Bengal Unfolded`,
+      title: resource.seoTitle ?? resource.title,
       description,
       canonicalPath: `/${locale}/resources/${id}`,
       languagePathWithoutLocale: `/resources/${id}`,

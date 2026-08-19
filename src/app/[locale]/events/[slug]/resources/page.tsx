@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const eventMeta = await getEventMetaForDisplay(locale, slug);
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${eventMeta.year} Resources | ${eventMeta.title} | Bengal Unfolded`,
+    title: `${eventMeta.year} Resources — ${eventMeta.title}`,
     description: "Categorized resources for deeper learning.",
     canonicalPath: `/${locale}/events/${slug}/resources`,
     languagePathWithoutLocale: `/events/${slug}/resources`,

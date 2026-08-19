@@ -25,7 +25,7 @@ export async function generateMetadata({
   const isBn = locale === "bn";
   return buildPageMetadata({
     locale: locale as Locale,
-    title: isBn ? "স্থানসমূহ | Bengal Unfolded" : "Places | Bengal Unfolded",
+    title: isBn ? "স্থানসমূহ" : "Places",
     description: isBn
       ? "ঐতিহাসিক স্থানভিত্তিক ঘটনা একসাথে দেখুন।"
       : "Explore historical places and their related events.",

@@ -33,7 +33,7 @@ export async function generateMetadata({
   const period = await getPeriod(locale, id);
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${period.title} | Bengal Unfolded`,
+    title: period.title,
     description: period.subtitle,
     canonicalPath: `/${locale}/periods/${id}`,
     languagePathWithoutLocale: `/periods/${id}`,

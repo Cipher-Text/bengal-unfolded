@@ -23,17 +23,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   ]);
   const role = figure.role?.trim();
   const context = figure.context?.trim();
-  const fallbackTitle = locale === "bn"
-    ? (role && context
-        ? `${figure.name} — ${context} এ ${role} | Bengal Unfolded`
-        : role
-          ? `${figure.name} — ${role} | Bengal Unfolded`
-          : `${figure.name} | Bengal Unfolded`)
-    : (role && context
-        ? `${figure.name} — ${role} in ${context} | Bengal Unfolded`
-        : role
-          ? `${figure.name} — ${role} | Bengal Unfolded`
-          : `${figure.name} | Bengal Unfolded`);
+  const fallbackTitle = role
+    ? `${figure.name} — ${role}`
+    : figure.name;
   const title = figure.seoTitle ?? fallbackTitle;
   const period = events.length > 0
     ? (events[0].year === events[events.length - 1].year

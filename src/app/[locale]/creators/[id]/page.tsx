@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${creator.name} | Bengal Unfolded`,
+    title: creator.name,
     description: locale === "bn" ? "এই স্রষ্টার সাথে যুক্ত রিসোর্সসমূহ।" : "Resources attributed to this creator.",
     canonicalPath: `/${locale}/creators/${id}`,
     languagePathWithoutLocale: `/creators/${id}`,

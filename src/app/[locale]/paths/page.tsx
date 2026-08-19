@@ -63,7 +63,7 @@ export async function generateMetadata({
   const isBn = locale === "bn";
   return buildPageMetadata({
     locale: locale as Locale,
-    title: isBn ? "শেখার পথ | Bengal Unfolded" : "Learning Paths | Bengal Unfolded",
+    title: isBn ? "শেখার পথ" : "Learning Paths",
     description: isBn
       ? "বেঙ্গল আনফোল্ডেড-এ বিষয়ভিত্তিক শেখার পথ ধরে ইতিহাস পড়ুন।"
       : "Follow curated Bengal Unfolded learning paths through events, figures, places, periods, and sources.",

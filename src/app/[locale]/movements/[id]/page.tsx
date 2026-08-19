@@ -33,7 +33,7 @@ export async function generateMetadata({
   const movement = await getMovement(locale, id);
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${movement.title} | Bengal Unfolded`,
+    title: movement.title,
     description: movement.subtitle,
     canonicalPath: `/${locale}/movements/${id}`,
     languagePathWithoutLocale: `/movements/${id}`,

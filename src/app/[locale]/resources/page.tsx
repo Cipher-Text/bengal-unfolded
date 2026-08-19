@@ -110,7 +110,7 @@ export async function generateMetadata({
 
   return buildPageMetadata({
     locale: locale as Locale,
-    title: isBn ? "রিসোর্স ডিরেক্টরি | Bengal Unfolded" : "Resource Directory | Bengal Unfolded",
+    title: isBn ? "রিসোর্স ডিরেক্টরি" : "Resource Directory",
     description: isBn
       ? "প্রাথমিক সূত্র, বই, গবেষণা, মানচিত্র, ভিডিও ও রেফারেন্স রিসোর্স সার্চ ও ফিল্টার করে দেখুন।"
       : "Explore primary sources, books, research, maps, video, and reference resources with search and filters.",

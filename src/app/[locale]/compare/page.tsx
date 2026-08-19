@@ -288,7 +288,7 @@ export async function generateMetadata({
   const isBn = locale === "bn";
   return buildPageMetadata({
     locale: locale as Locale,
-    title: isBn ? "ঘটনা তুলনা | Bengal Unfolded" : "Compare Events | Bengal Unfolded",
+    title: isBn ? "ঘটনা তুলনা" : "Compare Events",
     description: isBn
       ? "বেঙ্গল আনফোল্ডেড-এ দুটি ঐতিহাসিক অধ্যায় পাশাপাশি তুলনা করুন।"
       : "Compare two Bengal Unfolded historical chapters side by side.",

@@ -79,7 +79,7 @@ export async function generateMetadata({
   const isBn = locale === "bn";
   return buildPageMetadata({
     locale: locale as Locale,
-    title: isBn ? "পূর্ণ টাইমলাইন | Bengal Unfolded" : "Full Timeline | Bengal Unfolded",
+    title: isBn ? "পূর্ণ টাইমলাইন" : "Full Timeline",
     description: isBn
       ? "বেঙ্গল আনফোল্ডেড-এর সব ঐতিহাসিক অধ্যায় সার্চ, ফিল্টার ও পেজিনেশনের মাধ্যমে দেখুন।"
       : "Explore all historical chapters in Bengal Unfolded with search, filters, and pagination.",

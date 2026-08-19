@@ -18,7 +18,7 @@ export async function generateMetadata({
   const isBn = locale === "bn";
   return buildPageMetadata({
     locale: locale as Locale,
-    title: isBn ? "টপিকস | Bengal Unfolded" : "Topics | Bengal Unfolded",
+    title: isBn ? "টপিকস" : "Topics",
     description: isBn
       ? "বিষয়ভিত্তিক টপিক হাব থেকে ধারাবাহিকভাবে ইতিহাস শিখুন।"
       : "Explore topic hubs to learn history through connected themes.",

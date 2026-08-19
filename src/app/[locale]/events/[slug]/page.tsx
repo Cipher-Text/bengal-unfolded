@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   );
   const title =
     event.meta.seoTitle ??
-    `${event.meta.title}, ${event.meta.year}${event.meta.subtitle ? `: ${event.meta.subtitle}` : ""} | Bengal Unfolded`;
+    `${event.meta.title} (${event.meta.year})`;
   return buildPageMetadata({
     locale: locale as Locale,
     title,

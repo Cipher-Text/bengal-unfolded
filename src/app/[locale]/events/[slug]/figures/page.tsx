@@ -27,7 +27,7 @@ export async function generateMetadata({
   const canonical = currentPage > 1 ? `/${locale}/events/${slug}/figures?page=${currentPage}` : `/${locale}/events/${slug}/figures`;
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `${eventMeta.year} Figures | ${eventMeta.title} | Bengal Unfolded`,
+    title: `${eventMeta.year} Figures — ${eventMeta.title}`,
     description: `Full figure list for ${eventMeta.title}.`,
     canonicalPath: canonical,
     languagePathWithoutLocale: `/events/${slug}/figures`,

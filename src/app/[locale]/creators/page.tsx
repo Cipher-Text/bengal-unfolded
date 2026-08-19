@@ -124,7 +124,7 @@ export async function generateMetadata({
 
   return buildPageMetadata({
     locale: locale as Locale,
-    title: isBn ? "সূত্রপঞ্জি | Bengal Unfolded" : "Source Directory | Bengal Unfolded",
+    title: isBn ? "সূত্রপঞ্জি" : "Source Directory",
     description: isBn
       ? "বেঙ্গল আনফোল্ডেডে উদ্ধৃত ইতিহাসবিদ, প্রকাশনা, আর্কাইভ, গণমাধ্যম, গবেষক, বই ও প্রতিষ্ঠানের তালিকা।"
       : "Find historians, publishers, archives, media outlets, researchers, books, and institutions cited across Bengal Unfolded.",

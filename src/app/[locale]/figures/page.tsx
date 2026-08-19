@@ -27,7 +27,7 @@ export async function generateMetadata({
   const hasFilters = Boolean(q?.trim() || entity?.trim() || group?.trim());
   return buildPageMetadata({
     locale: locale as Locale,
-    title: `Figures | ${locale.toUpperCase()} | Bengal Unfolded`,
+    title: locale === "bn" ? "ঐতিহাসিক ব্যক্তিত্ব" : "Historical Figures",
     description: "Explore all figures and historical actors connected to Bengal Unfolded events.",
     canonicalPath: `/${locale}/figures`,
     languagePathWithoutLocale: "/figures",
