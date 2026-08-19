@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-08-19
+
+### Completed
+
+- SEO metadata title double-append bug fix (all page types):
+  - UI/runtime:
+    - Removed hardcoded `| Bengal Unfolded` suffix from title strings in 17 `generateMetadata` functions across events, figures, movements, periods, places, creators, resources, timeline, topics, paths, compare, and both event sub-page types (figures and resources sub-pages).
+    - The root `layout.tsx` already applies a `%s | Bengal Unfolded` Next.js title template; the duplicated suffix caused every fallback title to render as `"… | Bengal Unfolded | Bengal Unfolded"` in Google and browser tabs.
+    - Simplified event fallback title formula from `"title, year: subtitle"` (up to 187 chars, subtitle not meant for SERP) to `"title (year)"`.
+    - Fixed figures index page title from `"Figures | EN | Bengal Unfolded"` to `"Historical Figures"` (locale-aware).
+  - Model/validation/backfill:
+    - No schema or validator changes required.
+
+- GSC-driven content depth expansion (second optimization batch):
+  - Content backfill:
+    - Mirza Mughal (`mirza-mughal`, EN + BN): expanded stub content (63 words, no SEO fields) to include Sipah Salar appointment, four-month Delhi siege coordination, capture by Hodson, and Khooni Darwaza execution on 22 September 1857; added `seoTitle` and `seoDescription` in both locales.
+    - Mirza Khizr Sultan (`mirza-khizr-sultan`, EN + BN): replaced generic "associated with military mobilization" text with specific Khooni Darwaza execution detail and criticism of post-surrender killings; strengthened `seoDescription` beyond "Profile of X…" pattern.
+    - Mirza Abu Bakr (`mirza-abu-bakr`, EN + BN): replaced placeholder "he/they" text (BN) with specific Khooni Darwaza surrender and execution sequence; improved `seoDescription` from "Profile of X…" to substantive differentiation.
+    - Ishan Chandra Roy (`ishan-chandra-roy`, EN + BN): expanded stub to include peasant samiti formation, legal-agitation emphasis, court-based resistance model, and connection to Bengal Tenancy Act 1885; added `seoTitle` and `seoDescription` in both locales; removed `content-gap` tag.
+    - Pabna Peasant Uprising (`1873-1876-pabna-peasant-uprising`, EN + BN): added `seoTitle` and `seoDescription` in both locales.
+    - Battle of Rajmahal (`1576-battle-of-rajmahal`, EN + BN): added `seoTitle` and `seoDescription`; differentiated `whyItMatters`, `longTermLegacy`, and `identityMemoryNotes` which had been copy-pasted identically across all three fields; updated BN `claimCitations` to reflect the differentiated section text.
+  - Documentation:
+    - Updated `docs/SEO_GSC_OPTIMIZATION_LOG.md` with the new site baseline from the May 18–Aug 17, 2026 GSC export; logged the second optimization batch; marked changed items in the first batch.
+  - Model/validation/UI:
+    - No schema, validator-rule, or runtime changes required.
+    - `pnpm content:validate` passes for all 168 events.
+
 ## 2026-06-30
 
 ### Completed
