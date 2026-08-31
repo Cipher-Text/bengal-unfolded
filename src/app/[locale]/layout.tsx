@@ -17,6 +17,14 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     { href: `/${locale}/methodology`, label: isBangla ? "পদ্ধতি" : "Methodology" },
     { href: `/${locale}/join`, label: isBangla ? "যোগাযোগ" : "Join" },
   ];
+  const discoveryLinks = [
+    { href: `/${locale}/timeline`, label: isBangla ? "টাইমলাইন" : "Timeline" },
+    { href: `/${locale}/topics`, label: isBangla ? "টপিকস" : "Topics" },
+    { href: `/${locale}/figures`, label: isBangla ? "ব্যক্তিত্ব" : "People" },
+    { href: `/${locale}/places`, label: isBangla ? "স্থান" : "Places" },
+    { href: `/${locale}/methodology`, label: isBangla ? "সম্পাদকীয় পদ্ধতি" : "Editorial method" },
+    { href: `/${locale}/join`, label: isBangla ? "সহযোগিতা" : "Contribute" },
+  ];
 
   return (
     <div className="min-h-screen">
@@ -39,6 +47,11 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             </Link>
           ))}
         </div>
+        <nav aria-label={isBangla ? "আর্কাইভের লিংক" : "Archive links"} className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2">
+          {discoveryLinks.map((item) => (
+            <Link key={item.href} href={item.href} className="text-eyebrow link-underline text-accent">{item.label}</Link>
+          ))}
+        </nav>
       </footer>
     </div>
   );

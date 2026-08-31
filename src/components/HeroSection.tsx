@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
 import { BrandIcon } from "@/components/BrandIcon";
+import Link from "next/link";
 
 function PhotoPlaceholder({
   caption,
@@ -37,6 +38,8 @@ export function HeroSection({
   eyebrow,
   rightTitle,
   rightLabel,
+  primaryAction,
+  secondaryAction,
 }: {
   title: string;
   tagline: string;
@@ -45,6 +48,8 @@ export function HeroSection({
   eyebrow?: string;
   rightTitle?: string;
   rightLabel?: string;
+  primaryAction?: { href: string; label: string };
+  secondaryAction?: { href: string; label: string };
 }) {
   return (
     <section className="relative animate-fade-in">
@@ -52,7 +57,7 @@ export function HeroSection({
       <div className="relative">
         <div className="paper paper-stained torn-bottom relative overflow-hidden p-4 sm:p-6 md:p-10" style={{ paddingBottom: "3.5rem" }}>
           <div className="compass-watermark -top-12 -right-16 hidden md:block" />
-          <div className="relative grid grid-cols-2 items-end gap-2 sm:gap-3 md:grid-cols-12 md:gap-5">
+          <div className="relative grid grid-cols-2 items-end gap-2 sm:gap-3 md:grid-cols-12 md:gap-4">
             <PhotoPlaceholder
               caption="1757 · Plassey"
               rotation="rotate(-3deg)"
@@ -88,24 +93,30 @@ export function HeroSection({
       {/* Editorial title block on parchment */}
       <div className="paper paper-stained relative px-4 pt-8 pb-10 sm:px-6 md:px-14 md:pt-14 md:pb-16">
         <div className="compass-watermark -bottom-20 -left-16 hidden md:block" />
-        <div className="relative grid gap-8 md:grid-cols-[1.4fr_0.9fr] md:gap-10 md:items-start">
+        <div className="relative grid gap-7 md:grid-cols-[1.4fr_0.9fr] md:gap-10 md:items-start">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3">
               <span className="ornament">❦</span>
               <p className="text-eyebrow">{eyebrow ?? "Discover Bengal · Unfolded"}</p>
               <span className="ornament">❦</span>
             </div>
-            <h1 className="text-display mt-5 text-3xl font-semibold leading-[1] sm:text-4xl md:text-7xl">
+            <h1 className="text-display mt-4 text-3xl font-semibold leading-[1] sm:text-4xl md:text-6xl">
               {title}
             </h1>
             <div className="ornament-divider mt-4 max-w-xl text-base md:text-lg">✦</div>
-            <p className="text-balance mt-4 max-w-2xl text-lg italic leading-snug sm:text-xl md:text-3xl" style={{ fontFamily: "var(--font-display), serif" }}>
+            <p className="text-balance mt-4 max-w-2xl text-lg italic leading-snug sm:text-xl md:text-2xl" style={{ fontFamily: "var(--font-display), serif" }}>
               {tagline}
             </p>
             {intro ? (
               <p className="theme-muted text-balance mt-5 max-w-2xl text-base leading-relaxed md:text-lg">
                 {intro}
               </p>
+            ) : null}
+            {primaryAction ? (
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link href={primaryAction.href} className="btn-ink">{primaryAction.label}<span className="arrow">→</span></Link>
+                {secondaryAction ? <Link href={secondaryAction.href} className="btn-vintage">{secondaryAction.label}<span className="arrow">→</span></Link> : null}
+              </div>
             ) : null}
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <span className="stamp">Est. 1947 · Bengal</span>

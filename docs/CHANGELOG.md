@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-01
+
+### Completed
+
+- Redesigned the bilingual homepage as a curated historical discovery experience:
+  - Added live archive counts from events, figures, periods, and resources.
+  - Added exploration paths, featured chapter, six-milestone timeline preview, people, places, topics, connected-history chain, methodology, and contribution panels.
+  - Reused existing `EventMeta.relatedEvents`, figure/place/topic loaders, locale routes, theme tokens, and archival components; no schema or validator changes required.
+  - Added the homepage presentation module at `src/components/home/HomeDiscovery.tsx` and kept full pagination/interactivity on `/[locale]/timeline` and entity indexes.
+
 ## 2026-08-19
 
 ### Completed
