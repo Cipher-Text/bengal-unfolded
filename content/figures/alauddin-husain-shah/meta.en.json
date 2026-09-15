@@ -1,15 +1,21 @@
 {
   "name": "Alauddin Husain Shah",
   "name_en": "Alauddin Husain Shah",
-  "role": "Sultan associated with the high phase of the Hussain Shahi period",
+  "seoTitle": "Alauddin Husain Shah: Sultan of Bengal, 1493–1519",
+  "seoDescription": "Alauddin Husain Shah founded Bengal's Hussain Shahi dynasty, expanded the sultanate, and patronized Bengali literature and a plural administration.",
+  "activePeriod": "1493–1519",
+  "role": "Founder of the Hussain Shahi dynasty and Sultan of Bengal",
   "group": "leader",
-  "contribution": "Alauddin Husain Shah played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Alauddin Husain Shah rose from wazir to sultan after the fall of the Habshi ruler Shamsuddin Muzaffar Shah and founded the Hussain Shahi dynasty. During his long reign he secured Bengal's western frontier, expanded into Kamarupa and Kamta, occupied Chittagong in 1512, and extended influence into parts of Tippera and Orissa, though some frontier gains were temporary.",
+  "context": "His rule marked a major phase of political consolidation in the independent Bengal Sultanate. He faced the Lodis in the west, conflict with Tripura and Orissa, and competition with Arakan over Chittagong. Coins and numerous inscriptions from the reign document the state's reach, while governors such as Paragal Khan linked military expansion with administration and literary patronage in the southeast.",
+  "impact": "Husain Shah's government is associated with a relatively plural political culture: Hindu officials held important offices, the court supported Bengali literary projects such as the Mahabharata translation sponsored by Paragal Khan, and traditions describe respect for Sri Chaitanya. The reign helped establish the prosperity and cultural confidence of the Hussain Shahi period, while its military expansion shaped the political geography inherited by Nusrat Shah.",
+  "highlight": "Alauddin Husain Shah built Bengal's most expansive late-medieval sultanate and linked territorial consolidation with Bengali literary and administrative culture.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "hussain-shahi-dynasty",
+    "bengal-sultanate",
+    "chittagong",
+    "kamarupa",
+    "bengali-literature",
+    "medieval-bengal"
   ]
 }

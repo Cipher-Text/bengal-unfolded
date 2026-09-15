@@ -1,12 +1,37 @@
 {
   "name": "Satyajit Ray",
   "name_en": "Satyajit Ray",
-  "role": "Filmmaker and literary-cultural figure",
+  "role": "Filmmaker, writer, illustrator, and composer",
   "group": "leader",
-  "contribution": "He transformed Bengali cinema through realist storytelling, literary adaptation, and globally influential film craft.",
-  "context": "From post-partition Bengal, his work connected regional social history with international cinematic language.",
-  "impact": "He remains one of the most influential cultural figures associated with Bengali modernity.",
-  "highlight": "A globally recognized filmmaker who redefined Bengali cinema.",
+  "contribution": "Satyajit Ray established a modern Bengali film language through closely observed characters, literary adaptation, location-based realism, and precise visual and musical design. His work ranged from the Apu Trilogy and films such as Mahanagar and Charulata to children's cinema, documentaries, and the Feluda and Professor Shanku stories.",
+  "context": "Born in Kolkata in 1921, Ray belonged to a major Bengali literary and artistic family whose roots lay in Masua in present-day Kishoreganj. He studied at Santiniketan, worked as a commercial artist, helped form the Calcutta Film Society, and turned to filmmaking after encountering international cinema and Jean Renoir's work in Bengal. Pather Panchali (1955), adapted from Bibhutibhushan Bandyopadhyay, connected local social experience with a worldwide film audience.",
+  "impact": "Ray made Bengali cinema central to global film culture without treating regional life as a backdrop or stereotype. His films examined poverty, family, gender, class, urban change, and moral choice with unusual human and visual restraint. The Academy gave him an Honorary Award in 1992, while his books, illustrations, music, and detective fiction extended his influence beyond cinema.",
+  "highlight": "Satyajit Ray connected Bengali social life, literature, and visual storytelling to a global film language.",
+  "seoTitle": "Satyajit Ray: Bengali Filmmaker, Writer, and Cultural Icon",
+  "seoDescription": "Explore Satyajit Ray's Bengali cinema, the Apu Trilogy, Pather Panchali, Feluda, and his influence on global film and modern Bengali culture.",
+  "shortAnswer": "Satyajit Ray was a Bengali filmmaker, writer, illustrator, and composer whose films—from Pather Panchali to Charulata—made Bengali social life part of world cinema.",
+  "activePeriod": "20th century",
+  "alternateNames": [
+    "Satyajit Ray",
+    "Manikda"
+  ],
+  "searchAliases": [
+    "Satyajit Ray",
+    "Satyajit Roy",
+    "Pather Panchali director",
+    "Apu Trilogy director",
+    "Feluda creator"
+  ],
+  "faq": [
+    {
+      "question": "What is Satyajit Ray best known for?",
+      "answer": "Satyajit Ray is best known for the Apu Trilogy, beginning with Pather Panchali, and for films including Mahanagar, Charulata, Jalsaghar, and Goopy Gyne Bagha Byne. He also created the Feluda detective stories and wrote and illustrated children's literature."
+    },
+    {
+      "question": "How is Satyajit Ray connected to Bengal?",
+      "answer": "Ray was born and worked in Kolkata, drew on Bengali literature and social life in his films, and came from a literary family whose ancestral roots were in Masua in present-day Kishoreganj, Bangladesh."
+    }
+  ],
   "tags": [
     "cinema",
     "culture",

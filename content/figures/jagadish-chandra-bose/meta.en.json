@@ -1,10 +1,21 @@
 {
   "name": "Jagadish Chandra Bose",
   "name_en": "Jagadish Chandra Bose",
-  "role": "Scientist and Intellectual",
+  "role": "Physicist, plant physiologist, and scientific investigator",
   "group": "leader",
-  "contribution": "A pioneering physicist and biologist from Bengal whose work shaped modern scientific culture in South Asia.",
-  "context": "Late 19th and early 20th century Bengal Renaissance and global scientific exchange.",
-  "impact": "Helped establish scientific modernity as part of Bengal's intellectual history.",
+  "contribution": "Jagadish Chandra Bose pioneered experiments on electromagnetic waves and later developed instruments to study electrical and physiological responses in plants and other materials. His work joined experimental physics with plant physiology and helped make original scientific research part of Bengal's public intellectual life.",
+  "context": "Born in Mymensingh in 1858, Bose grew up with early schooling in rural Faridpur before studying in Calcutta and at Cambridge. He returned to teach physics at Presidency College, where he researched the optical behaviour of electrical waves, including reflection, refraction, polarisation, and diffraction. From the late 1890s he turned increasingly toward responses in living and non-living matter, later using instruments such as the crescograph to measure plant movement and growth.",
+  "impact": "Bose's research connected Bengal to international scientific exchange while challenging the boundaries between physics, biology, and physiology. In 1917 he founded the Bose Institute in Calcutta as a centre for research, and his writings and public lectures helped establish a scientific culture rooted in Bengal. His legacy is best understood through his experimental instruments, institutions, and cross-disciplinary methods rather than through claims that he single-handedly invented modern radio or plant communication.",
+  "highlight": "Jagadish Chandra Bose connected experimental physics and plant physiology while building a modern scientific culture in Bengal.",
+  "seoTitle": "Jagadish Chandra Bose: Physicist and Plant Scientist of Bengal",
+  "seoDescription": "Discover Jagadish Chandra Bose's electromagnetic-wave experiments, plant research, crescograph, Presidency College, and Bose Institute legacy.",
+  "shortAnswer": "Jagadish Chandra Bose was a Bengali physicist and plant physiologist known for electromagnetic-wave experiments, plant-response research, and founding the Bose Institute in 1917.",
+  "activePeriod": "Late 19th–early 20th century",
+  "alternateNames": ["Sir Jagadish Chandra Bose", "J. C. Bose", "Acharya Jagadish Chandra Bose"],
+  "searchAliases": ["Jagadish Chandra Bose", "J C Bose", "Jagadis Chandra Bose", "crescograph inventor", "Bose Institute founder"],
+  "faq": [
+    {"question": "What did Jagadish Chandra Bose discover?", "answer": "Bose conducted pioneering experiments on electromagnetic waves and later investigated how plants and other materials respond to electrical, thermal, chemical, and mechanical stimuli. He designed instruments including the crescograph to record very small plant movements and growth."},
+    {"question": "Why is Jagadish Chandra Bose important to Bengal's history?", "answer": "Bose linked Bengal to global scientific research, taught physics at Presidency College, and founded the Bose Institute in Calcutta in 1917. His career made experimental science a visible part of Bengal's modern intellectual culture."}
+  ],
   "image": "/figures/jagadish-chandra-bose.webp"
 }

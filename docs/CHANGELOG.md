@@ -49,6 +49,18 @@
   - Enriched Lakshmana Sena in both locales with Sena court culture, Sanskrit literary patronage, Nadia and Vikramapura, the 1204–05 conquest, and eastern-Bengal continuity; added localized SEO metadata.
   - Enriched Pratapaditya in both locales with Jessore and Dhumghat, Karrani-to-Mughal transition, naval power, 1608–09 diplomacy, the 1611–12 campaign, and localized SEO metadata.
   - Enriched Nusrat Shah in both locales with Hussain Shahi succession, Tirhut, the Ghogra settlement with Babur, Afghan-Mughal diplomacy, Portuguese trade, and localized SEO metadata.
+  - Enriched Alauddin Husain Shah in both locales with Hussain Shahi state formation, territorial expansion, Chittagong and Kamarupa, plural administration, Bengali literature, and localized SEO metadata.
+  - Enriched Krishnachandra Ray of Nadia in both locales with Nadia zamindari, Company-era political alignment, Mir Qasim imprisonment, Bengali and Sanskrit patronage, and localized SEO metadata.
+  - Enriched Mukunda Ray of Bhusna in both locales with Bhusna's strategic geography, Bara-Bhuiyan context, cautious source framing, family continuity, and localized SEO metadata.
+  - Enriched A. A. K. Niazi in both locales with Eastern Command responsibility, the 1971 military and political context, the Dhaka surrender, prisoner-of-war aftermath, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Lalon Shah in both locales with Baul philosophy, Cheuriya akhda context, cautious treatment of disputed biography, cultural influence, and localized SEO metadata.
+  - Enriched Satyajit Ray in both locales with Bengali cinematic practice, literary family roots in present-day Kishoreganj, major works, global influence, and localized SEO metadata.
+  - Enriched Sayyid Ahmad Barelvi in both locales with Tariqah-i-Muhammadiya reform, Calcutta visits, Titu Mir's connection, Bengal networks, and the 1831 Balakot context; added localized SEO metadata.
+  - Enriched Jagadish Chandra Bose in both locales with electromagnetic-wave experiments, plant physiology, Presidency College, Bose Institute, Bengal roots, and localized SEO metadata.
+  - Enriched AB Party in both locales with its 2020 formation, 2024 Election Commission registration, reform-oriented public programme, eagle symbol, and dated leadership context; added localized SEO metadata.
+  - Enriched Abu Jafar Shamsuddin in both locales with journalism, major fiction and essays, Language Movement participation, Kagmari Conference context, and localized SEO metadata.
+  - Enriched Akhtar Ahmed in both locales with Election Commission Secretariat responsibilities, his dated 2024 appointment, 2026 election administration, and time-sensitive localized SEO metadata.
+  - Enriched A. M. M. Nasir Uddin in both locales with his Election Commission leadership, civil-service background, 2024 appointment, 2026 election cycle, and evidence-conscious localized SEO metadata.
 
 ## 2026-09-01
 

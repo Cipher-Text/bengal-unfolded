@@ -1,15 +1,21 @@
 {
   "name": "Krishnachandra Ray of Nadia",
   "name_en": "Krishnachandra Ray of Nadia",
-  "role": "Nadia ruler linked to mid-18th-century political realignments",
+  "seoTitle": "Krishnachandra Ray of Nadia: Zamindar, Patron, and Company Ally",
+  "seoDescription": "Krishnachandra Ray of Nadia navigated Murshidabad and Company politics while patronizing Bengali literature, Sanskrit learning, music, and religious culture.",
+  "activePeriod": "1710–1783",
+  "role": "Nadia zamindar, cultural patron, and Company-era political broker",
   "group": "leader",
-  "contribution": "Krishnachandra Ray of Nadia played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Maharaja Krishnachandra Ray (1710–1783), heir to the Nadia zamindari founded by Bhabananda Majumdar, became one of eighteenth-century Bengal's most influential landed patrons. He cultivated ties with the British East India Company and collaborated with Robert Clive during the political crisis that brought down Sirajuddaula, aligning his estate with the new power emerging after Plassey.",
+  "context": "His career unfolded as Mughal authority weakened and Murshidabad's nawabs, zamindars, Maratha raiders, and the Company competed for revenue and political influence. Mir Qasim imprisoned him and sentenced him to death, but the British secured his release; his later title of Maharaja and five cannons from Clive reflect both patronage and the unequal politics of Company expansion. He moved his administrative centre to Shivnibash partly for protection from Maratha raids.",
+  "impact": "Krishnachandra's cultural influence was as significant as his political alignment. He patronized Bharatchandra Ray, who composed Annadamangal, supported Ramprasad Sen and Bengali music, financed Sanskrit schools and scholars at Nadia and beyond, and is associated with the popularization of Jagaddhatri Puja. His legacy therefore combines elite zamindari culture and literary production with the difficult question of local collaboration in the making of British power.",
+  "highlight": "Krishnachandra Ray combined Nadia zamindari power with major patronage of Bengali literature, Sanskrit learning, music, and religious culture during the Company's rise.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "krishnanagar",
+    "nadia-zamindari",
+    "battle-of-plassey",
+    "bharatchandra-ray",
+    "ramprasad-sen",
+    "east-india-company"
   ]
 }

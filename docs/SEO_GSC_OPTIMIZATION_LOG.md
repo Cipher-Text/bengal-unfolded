@@ -116,6 +116,30 @@ Affected: ~161 events and ~281 figures without custom `seoTitle`. Root cause: `g
 
 ## Change History
 
+| 2026-09-15 | Enriched A. M. M. Nasir Uddin in EN/BN with Election Commission leadership, civil-service background, 2024 appointment, 2026 election cycle, and evidence-conscious localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Akhtar Ahmed in EN/BN with Election Commission Secretariat responsibilities, his dated 2024 appointment, 2026 election administration, and time-sensitive localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Abu Jafar Shamsuddin in EN/BN with journalism, major fiction and essays, Language Movement participation, Kagmari Conference context, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched AB Party in EN/BN with its 2020 formation, 2024 Election Commission registration, reform-oriented public programme, eagle symbol, and dated leadership context; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Jagadish Chandra Bose in EN/BN with electromagnetic-wave experiments, plant physiology, Presidency College, Bose Institute, Bengal roots, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Sayyid Ahmad Barelvi in EN/BN with Tariqah-i-Muhammadiya reform, Calcutta visits, Titu Mir's connection, Bengal networks, and the 1831 Balakot context; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Satyajit Ray in EN/BN with Bengali cinematic practice, literary family roots in present-day Kishoreganj, major works, global influence, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Lalon Shah in EN/BN with Baul philosophy, Cheuriya akhda context, cautious treatment of disputed biography, cultural influence, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched A. A. K. Niazi in EN/BN with Pakistan Eastern Command responsibility, the 1971 war context, the Dhaka surrender, prisoner-of-war aftermath, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Mukunda Ray of Bhusna in EN/BN with Bhusna's strategic geography, Bara-Bhuiyan context, cautious source framing, family continuity, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Krishnachandra Ray of Nadia in EN/BN with Nadia zamindari, Company-era political alignment, Mir Qasim imprisonment, Bengali and Sanskrit patronage, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Alauddin Husain Shah in EN/BN with Hussain Shahi state formation, territorial expansion, Chittagong and Kamarupa, plural administration, Bengali literature, and localized SEO metadata; re-ran the figure audit. |
+
 | 2026-09-15 | Enriched Nusrat Shah in EN/BN with Hussain Shahi succession, Tirhut, the Ghogra settlement with Babur, Afghan-Mughal diplomacy, Portuguese trade, and localized SEO metadata; re-ran the figure audit. |
 
 | 2026-09-15 | Enriched Pratapaditya in EN/BN with Jessore and Dhumghat, Karrani-to-Mughal transition, naval power, 1608–09 diplomacy, the 1611–12 campaign, and localized SEO metadata; re-ran the figure audit. |

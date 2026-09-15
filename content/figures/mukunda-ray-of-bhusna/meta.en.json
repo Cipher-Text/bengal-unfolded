@@ -1,15 +1,21 @@
 {
   "name": "Mukunda Ray of Bhusna",
   "name_en": "Mukunda Ray of Bhusna",
-  "role": "Regional chief associated with confederate resistance milieu",
+  "seoTitle": "Mukunda Ray of Bhusna: Bhuiyan Chief of Riverine Bengal",
+  "seoDescription": "Mukunda Ray governed Bhusna as a Bara-Bhuiyan chief and resisted Mughal expansion from a strategic fort in the riverine Jessore–Faridpur region.",
+  "activePeriod": "late 16th century",
+  "role": "Bhusna chief and Bara-Bhuiyan zamindar",
   "group": "leader",
-  "contribution": "Mukunda Ray of Bhusna played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Mukunda Ray was the local chief of Bhusna, a strategically placed riverine territory in the former Jessore–Faridpur zone. Bhusna became the centre of his administration and was counted among the strongholds of the Bara-Bhuiyans who resisted Mughal expansion in eastern Bengal. Its fort and waterways gave a regional zamindar a defensible base outside direct imperial control.",
+  "context": "Bhusna had earlier been a Sultanate mint-town and later lay within the Mughal administrative geography of Sarkar Fatehabad. In the late sixteenth century its location near the Madhumati and Barasia river systems made it valuable for movement, revenue, and military defence. The surviving record gives few details of Mukunda's own campaigns, so his importance is best understood through the Bhusna centre and the resistance network associated with his family.",
+  "impact": "Mukunda's son Satrajit continued the family's opposition to the imperial army in the early seventeenth century before being overpowered. The later careers of Satrajit's son Sitaram Ray and the redistribution of Bhusna after Sitaram's defeat show how Mukunda's local power formed part of a longer history of zamindari autonomy, Mughal incorporation, and conflict over riverine Bengal.",
+  "highlight": "Mukunda Ray made Bhusna a major riverine centre of Bara-Bhuiyan resistance during the Mughal advance into eastern Bengal.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "bhusna",
+    "bara-bhuiyans",
+    "fathabad",
+    "jessore",
+    "faridpur",
+    "mughal-bengal"
   ]
 }

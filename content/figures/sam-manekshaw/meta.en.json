@@ -1,15 +1,16 @@
 {
   "name": "Sam Manekshaw",
-  "role": "Chief of Army Staff of India",
+  "role": "Chief of Army Staff who directed India's 1971 war effort",
   "group": "leader",
-  "contribution": "Sam Manekshaw is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Indian military command during the Bangladesh Liberation War theatre.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period.",
+  "contribution": "As India's Chief of Army Staff in 1971, Sam Manekshaw helped prepare and coordinate the Indian military response to the Bangladesh Liberation War. His command supported training and operational cooperation with Bengali forces and organized the eastern campaign around logistics, terrain, air mobility, and coordinated advances rather than an immediate full-scale intervention during the monsoon.",
+  "context": "The war involved the Bangladesh Forces and Mukti Bahini, India's political and military leadership, and Pakistani forces defending East Pakistan. Manekshaw's role was strategic and institutional: he worked with the government to secure time for preparation, then directed the Army's campaign after Pakistan's attacks on India in December. Battlefield commands in the eastern theatre remained essential to the outcome.",
+  "impact": "The coordinated campaign reached Dhaka and contributed to the surrender of Pakistani forces to the joint Bangladesh–India command on 16 December 1971. Manekshaw became a central figure in India's military narrative, but the victory depended on Bengali resistance, the Mujibnagar government's political leadership, Mukti Bahini operations, Indian services, and the wider regional crisis rather than on one commander alone.",
+  "highlight": "Sam Manekshaw helped turn India's support for Bangladesh into a prepared, coordinated eastern campaign that ended with the joint command victory of 16 December 1971.",
   "image": "/figures/sam-manekshaw.webp",
   "name_en": "Sam Manekshaw",
-  "seoTitle": "Sam Manekshaw - 1971 Liberation War Profile",
-  "seoDescription": "Profile of Sam Manekshaw, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
-  "shortAnswer": "Sam Manekshaw is linked to the 1971 Liberation War in this timeline as Chief of Army Staff of India.",
+  "seoTitle": "Sam Manekshaw and the 1971 Bangladesh Liberation War",
+  "seoDescription": "Learn how Sam Manekshaw helped prepare and direct India's eastern campaign alongside Bangladesh Forces during the 1971 Liberation War.",
+  "shortAnswer": "Sam Manekshaw was India's Army Chief during the 1971 war and helped coordinate the prepared eastern campaign that ended with the joint Bangladesh–India victory.",
   "activePeriod": "1971",
   "primaryEventIds": [
     "1971-liberation-war",
@@ -34,7 +35,7 @@
   "faq": [
     {
       "question": "How is Sam Manekshaw connected to 1971?",
-      "answer": "Sam Manekshaw is linked to the Liberation War through the project timeline as Chief of Army Staff of India. Sam Manekshaw is included as a key historical actor for understanding this chapter's political and social."
+      "answer": "As India's Army Chief, Sam Manekshaw helped prepare and direct the eastern campaign alongside Bangladesh Forces, contributing to the joint command victory on 16 December 1971."
     }
   ],
   "tags": [
