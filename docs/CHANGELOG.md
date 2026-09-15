@@ -13,6 +13,7 @@
   - Updated the image workflow to require both `pnpm content:validate` and `node scripts/audit-figure-images.mjs`.
   - Current audit baseline: 551 figures, 391 metadata-linked images, 160 missing images, zero broken references, zero invalid paths, zero locale mismatches, and zero orphan assets.
   - Improved locale homepage SEO metadata with descriptive English/Bangla titles and source-backed archive descriptions; no schema, validator, or content-model changes required. Production redeployment and verification remain pending because the live `/en` title previously showed a duplicated site name.
+  - Added `pnpm content:audit:figures`, which ranks all figure profiles by generic language, content depth, SEO metadata completeness, image coverage, and event linkage in `docs/figure-content-audit.csv`.
 
 ## 2026-09-01
 
