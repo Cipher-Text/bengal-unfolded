@@ -4,6 +4,7 @@
 
 ### Completed
 
+- Added automatic figure-photo discovery: figure detail pages now use `/figures/<figure-id>.webp` whenever the matching asset exists, so new default photos do not require EN/BN metadata edits. Explicit `image` metadata remains available for exceptions.
 - Hardened figure-image ingestion and documentation:
   - Updated the ChatGPT/uploader prompt with anti-reconstruction rules, master-versus-production output guidance, and no-text/no-watermark constraints.
   - Standardized new photographic production assets on WebP, max 1200px width, quality 85; retained SVG support for existing organization marks/logos.

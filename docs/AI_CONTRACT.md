@@ -49,7 +49,7 @@ For every schema or field change:
 - If a claim has citations, its evidence-level metadata is required.
 - EN/BN parity is required for required locale files.
 - Figure `group` values are enum-like and must remain aligned across `src/types/content.ts`, `scripts/validate-content.mjs`, figure-list UI filters, and `docs/CONTENT_MODEL.md`.
-- Figure `image` paths in `content/figures/*/meta.<locale>.json` must use stable files under `public/figures/`. The validator checks the string shape, `/figures/` prefix, EN/BN parity, and referenced-file existence; `scripts/audit-figure-images.mjs` additionally checks orphan assets and coverage.
+- Figure `image` paths in `content/figures/*/meta.<locale>.json`, when provided, must use stable files under `public/figures/`. If metadata omits `image`, the runtime automatically uses `public/figures/<figure-id>.webp` when that exact file exists. The validator checks explicit paths for string shape, `/figures/` prefix, EN/BN parity, and referenced-file existence; `scripts/audit-figure-images.mjs` additionally checks orphan assets and coverage.
 - Image cleanup (delete/rename/format swap such as `.jpeg` -> `.jpg`) must update figure metadata paths in both locales in the same change set.
 - Topic metadata under `content/topics/*/meta.<locale>.json` must keep EN/BN parity and valid linked IDs (`eventSlugs`, `figureIds`, `resourceIds`).
 - Place metadata under `content/places/*/meta.<locale>.json` must keep EN/BN parity and valid allowed `placeId`.

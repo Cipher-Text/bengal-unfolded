@@ -1,4 +1,4 @@
-import { promises as fs } from "node:fs";
+import { existsSync, promises as fs } from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import {
@@ -41,6 +41,7 @@ import {
 } from "@/types/content";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
+const PUBLIC_FIGURES_DIR = path.join(process.cwd(), "public", "figures");
 const CREATOR_TYPES = ["organization", "person"] as const;
 
 function makeGuard<T extends string>(arr: readonly T[]) {
@@ -87,6 +88,13 @@ function normalizeNonEmptyStringArray(raw: unknown): string[] | undefined {
   return Array.isArray(raw)
     ? raw.filter((v): v is string => typeof v === "string" && v.trim().length > 0)
     : undefined;
+}
+
+function resolveFigureImage(figureId: FigureId, rawImage: unknown): string | undefined {
+  if (typeof rawImage === "string" && rawImage.trim().length > 0) return rawImage.trim();
+
+  const defaultImage = `/figures/${figureId}.webp`;
+  return existsSync(path.join(PUBLIC_FIGURES_DIR, `${figureId}.webp`)) ? defaultImage : undefined;
 }
 
 function parseEventYearToSortValue(yearLabel: string, slug: EventSlug): number {
@@ -354,7 +362,7 @@ function normalizeFigure(
               : undefined,
           }))
       : undefined,
-    image: normalizeOptionalString(figure.image),
+    image: resolveFigureImage(id, figure.image),
   };
 }
 
