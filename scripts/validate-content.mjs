@@ -1078,13 +1078,17 @@ async function main() {
   const figureEntries = await fs.readdir(figureDir);
   for (const figureId of figureEntries) {
     if (figureId.startsWith("index.")) continue;
+    const metaEnPath = path.join(figureDir, figureId, "meta.en.json");
+    const metaBnPath = path.join(figureDir, figureId, "meta.bn.json");
+    const metaEn = (await exists(metaEnPath)) ? await readJson(metaEnPath, errors) : null;
+    const metaBn = (await exists(metaBnPath)) ? await readJson(metaBnPath, errors) : null;
     for (const locale of ["en", "bn"]) {
-      const metaPath = path.join(figureDir, figureId, `meta.${locale}.json`);
+      const metaPath = locale === "en" ? metaEnPath : metaBnPath;
+      const meta = locale === "en" ? metaEn : metaBn;
       if (!(await exists(metaPath))) {
         errors.push(`Missing file: content/figures/${figureId}/meta.${locale}.json`);
         continue;
       }
-      const meta = await readJson(metaPath, errors);
       if (!meta || typeof meta !== "object") continue;
       for (const key of ["name", "role", "context", "impact", "seoTitle", "seoDescription"]) {
         if (key in meta && meta[key] !== undefined) {
@@ -1097,6 +1101,28 @@ async function main() {
       }
       if (!validFigureGroups.has(meta.group)) {
         errors.push(`Invalid group '${meta.group}' at content/figures/${figureId}/meta.${locale}.json`);
+      }
+      if ("image" in meta && meta.image !== undefined) {
+        if (typeof meta.image !== "string" || meta.image.trim().length === 0) {
+          errors.push(`Invalid image at content/figures/${figureId}/meta.${locale}.json`);
+        } else {
+          const imagePath = meta.image.trim();
+          const imageExtension = path.extname(imagePath).toLowerCase();
+          const allowedImageExtensions = new Set([".avif", ".jpeg", ".jpg", ".png", ".svg", ".webp"]);
+          if (!imagePath.startsWith("/figures/")) {
+            errors.push(`Image must use /figures/ path at content/figures/${figureId}/meta.${locale}.json`);
+          }
+          if (!allowedImageExtensions.has(imageExtension)) {
+            errors.push(`Unsupported image extension '${imageExtension}' at content/figures/${figureId}/meta.${locale}.json`);
+          }
+          if (!imagePath.includes("..") && !(await exists(path.join(root, "public", imagePath.slice(1))))) {
+            errors.push(`Missing image asset '${imagePath}' at content/figures/${figureId}/meta.${locale}.json`);
+          }
+        }
+      }
+      const otherLocale = locale === "en" ? metaBn : metaEn;
+      if ((meta.image ?? null) !== (otherLocale?.image ?? null)) {
+        errors.push(`Mismatched image path between locales at content/figures/${figureId}`);
       }
       validateOptionalStringArray(meta.alternateNames, `content/figures/${figureId}/meta.${locale}.json alternateNames`, errors);
       validateOptionalStringArray(meta.searchAliases, `content/figures/${figureId}/meta.${locale}.json searchAliases`, errors);

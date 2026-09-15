@@ -12,7 +12,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
   const isBn = locale === "bn";
-  return buildPageMetadata({ locale: locale as Locale, title: isBn ? "বেঙ্গল আনফোল্ডেড" : "Bengal Unfolded", description: isBn ? "বাংলা ও বাংলাদেশের ইতিহাসের দ্বিভাষিক, সংযুক্ত ডিজিটাল আর্কাইভ।" : "A bilingual digital archive of connected histories across Bengal and Bangladesh.", canonicalPath: `/${locale}`, languagePathWithoutLocale: "", type: "website" });
+  return buildPageMetadata({
+    locale: locale as Locale,
+    title: isBn
+      ? "বাংলার ইতিহাস: টাইমলাইন, ব্যক্তিত্ব ও ঘটনা"
+      : "Bengal History Timeline, People & Events",
+    description: isBn
+      ? "বাংলা ও বাংলাদেশের ইতিহাসের টাইমলাইন, ব্যক্তিত্ব, ঘটনা, স্থান ও সূত্রভিত্তিক গবেষণা দেখুন।"
+      : "Explore the history of Bengal and Bangladesh through connected timelines, historical figures, events, places, and source-backed research.",
+    canonicalPath: `/${locale}`,
+    languagePathWithoutLocale: "",
+    type: "website",
+  });
 }
 
 export default async function LocaleHomePage({ params }: { params: Promise<{ locale: string }> }) {

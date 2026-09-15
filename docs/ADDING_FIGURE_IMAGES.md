@@ -1,7 +1,7 @@
 # Adding Figure Images - Workflow Guide
 
-**Status:** 163 figures need images as of 2026-06-07  
-**Priority Report:** `docs/archive/missing-images-report.csv`
+**Status:** 160 figures need images according to the current audit
+**Priority Report:** `docs/missing-images-report.csv`
 
 ---
 
@@ -21,7 +21,7 @@ For source and license tracking, add each accepted image to `docs/archive/figure
 
 ### Technical Requirements
 
-**Format:** WEBP (preferred) or JPG  
+**Format:** WEBP for photographic production assets; existing SVG marks/logos remain valid
 **Ratio:** 4:5 portrait (preferred) or 3:2 landscape (archival fallback)  
 **Max width:** 1200px  
 **Quality:** 85  
@@ -46,6 +46,7 @@ For source and license tracking, add each accepted image to `docs/archive/figure
 - No modern stylization
 - Clean minor dust/noise only
 - Preserve factual visual details
+- Do not reconstruct, invent, redraw, sharpen, or inpaint facial features, clothing, insignia, documents, or background details
 
 ---
 
@@ -86,7 +87,7 @@ head -21 docs/missing-images-report.csv | column -t -s,
 Upload the source image with this prompt:
 
 ```
-I am uploading a historical figure photo for a website profile page.
+I am uploading a historical figure photo or archival visual for a Bengal Unfolded website profile page.
 
 Edit this image with the following exact rules:
 1) Output ratio: 4:5 portrait. If the source is very wide and portrait crop is not safe, produce a second version in 3:2.
@@ -100,11 +101,14 @@ Edit this image with the following exact rules:
 5) Preserve historical authenticity: no face reshaping, no beautification, no modern stylization.
 6) Clean only minor dust/noise artifacts if present; do not alter factual visual details.
 7) Keep background natural; do not replace background.
-8) Return a web-ready JPG/PNG suitable for profile usage.
+8) Do not reconstruct, invent, redraw, sharpen, or inpaint facial features, clothing, insignia, documents, or background details.
+9) Return a web-ready JPG/PNG master; do not add text, captions, logos, borders, or watermarks.
+10) Preserve the source's aspect ratio unless applying the approved 4:5 or 3:2 composition.
 
 Deliver:
-- Primary output: 4:5 version
-- Optional fallback: 3:2 version (only if needed for composition safety)
+- Primary master: 4:5 version
+- Optional master: 3:2 version (only if needed for composition safety)
+- Convert the accepted master to WebP at max 1200px width and quality 85 for the repository asset.
 ```
 
 **Using Sharp (Automated):**
@@ -117,7 +121,7 @@ npx sharp input.jpg -o public/figures/<figure-id>.webp --webp-quality 85
 **Manual Editing:**
 - Use GIMP, Photoshop, or similar
 - Follow the visual style guidelines above
-- Export as WEBP (85 quality) or JPG (90 quality)
+- Export a lossless or high-quality JPG/PNG master, then create the repository WebP with the optimization script
 
 ### Step 4: Add to Project
 
@@ -159,6 +163,9 @@ Edit `content/figures/<figure-id>/meta.bn.json`:
 ```bash
 # Run content validation
 pnpm content:validate
+
+# Verify metadata paths, files, locale parity, and orphan assets
+node scripts/audit-figure-images.mjs
 
 # Check image displays correctly
 pnpm dev
@@ -314,8 +321,9 @@ If no repo-local audit script exists, regenerate `docs/missing-images-report.csv
 - **Priority List:** `docs/missing-images-report.csv`
 - **Source Notes:** `docs/archive/figure-image-sources.md`
 - **Validation Script:** `scripts/validate-content.mjs`
+- **Image Audit:** `scripts/audit-figure-images.mjs`
 
 ---
 
-**Last updated:** 2026-06-07  
-**Figures remaining:** 163
+**Last updated:** 2026-09-15
+**Figures remaining:** 160

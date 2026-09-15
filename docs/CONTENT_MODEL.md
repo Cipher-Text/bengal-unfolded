@@ -436,13 +436,15 @@ Image rendering policy:
   - Fallback ratio for archival landscape images: `3:2`.
   - Image fit: `object-contain` (avoid historical photo cropping).
   - Default color treatment: near-monochrome with subtle warm tone (grayscale + light sepia + mild contrast lift).
+  - Production photographic assets: WebP, max width 1200px, quality 85; source/master files may be JPG or PNG.
+  - Existing organization marks/logos may remain SVG when they are deliberate vector assets.
 
 ### ChatGPT photo-conversion prompt (uploader workflow)
 
 Use this prompt when uploading a source photo to ChatGPT for figure-page preparation:
 
 ```text
-I am uploading a historical figure photo for a website profile page.
+I am uploading a historical figure photo or archival visual for a Bengal Unfolded website profile page.
 
 Edit this image with the following exact rules:
 1) Output ratio: 4:5 portrait. If the source is very wide and portrait crop is not safe, produce a second version in 3:2.
@@ -456,11 +458,14 @@ Edit this image with the following exact rules:
 5) Preserve historical authenticity: no face reshaping, no beautification, no modern stylization.
 6) Clean only minor dust/noise artifacts if present; do not alter factual visual details.
 7) Keep background natural; do not replace background.
-8) Return a web-ready JPG/PNG suitable for profile usage.
+8) Do not reconstruct, invent, redraw, sharpen, or inpaint facial features, clothing, insignia, documents, or background details.
+9) Return a web-ready JPG/PNG master; do not add text, captions, logos, borders, or watermarks.
+10) Preserve the source's aspect ratio unless applying the approved 4:5 or 3:2 composition.
 
 Deliver:
-- Primary output: 4:5 version
-- Optional fallback: 3:2 version (only if needed for composition safety)
+- Primary master: 4:5 version
+- Optional master: 3:2 version (only if needed for composition safety)
+- Convert the accepted master to WebP at max 1200px width and quality 85 for the repository asset.
 ```
 
 Suggested naming after export:

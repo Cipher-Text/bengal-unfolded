@@ -118,6 +118,7 @@ Affected: ~161 events and ~281 figures without custom `seoTitle`. Root cause: `g
 
 | Date | Change |
 | --- | --- |
+| 2026-09-15 | Updated locale homepage titles and descriptions to make the English/Bangla history archive intent explicit; production redeployment and title-source verification remain pending. |
 | 2026-08-19 | Fixed title double-append bug in 17 page files: removed hardcoded `\| Bengal Unfolded` suffixes so the root layout `title.template` handles appending once. Affected event, figure, period, place, movement, creator, resource, and utility pages. |
 | 2026-08-19 | Full content rewrites for Mirza Mughal (EN + BN): Sipah Salar role, Delhi defense, Khooni Darwaza execution; added seoTitle/seoDescription. |
 | 2026-08-19 | Full content rewrites for Mirza Khizr Sultan (EN + BN): Khooni Darwaza surrender/execution sequence, British criticism detail; updated seoTitle/seoDescription. First-batch status changed from `queued` to `changed`. |
