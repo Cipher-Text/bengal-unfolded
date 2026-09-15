@@ -14,6 +14,9 @@
   - Current audit baseline: 551 figures, 391 metadata-linked images, 160 missing images, zero broken references, zero invalid paths, zero locale mismatches, and zero orphan assets.
   - Improved locale homepage SEO metadata with descriptive English/Bangla titles and source-backed archive descriptions; no schema, validator, or content-model changes required. Production redeployment and verification remain pending because the live `/en` title previously showed a duplicated site name.
   - Added `pnpm content:audit:figures`, which ranks all figure profiles by generic language, content depth, SEO metadata completeness, image coverage, and event linkage in `docs/figure-content-audit.csv`.
+  - Enriched Alaol and Bhaskaravarman in both locales with specific literary, political, and historical context; removed their generic profile copy and added localized SEO metadata.
+  - Enriched Khwaja Usman and Paragal Khan in both locales with specific resistance, administration, literary, and regional context; removed their generic profile copy and added localized SEO metadata.
+  - Enriched Rukunuddin Barbak Shah and Saifuddin Firuz Shah in both locales with specific Sultanate-era political, administrative, literary, and architectural context; removed their generic profile copy and added localized SEO metadata.
 
 ## 2026-09-01
 

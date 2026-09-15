@@ -1,8 +1,17 @@
 {
   "name": "Abul Hussain",
-  "role": "Writer and Modernist Thinker",
+  "name_en": "Abul Hussain",
+  "seoTitle": "Abul Hussain: Writer and Leader of Bengal's Freedom of Thought Movement",
+  "seoDescription": "Abul Hussain was a Bengali writer, economist, and social activist who helped lead the Muslim Sahitya-Samaj and its freedom-of-thought movement in Dhaka.",
+  "role": "Writer, intellectual, and social activist",
   "group": "leader",
-  "contribution": "Abul Hussain is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Muslim Sahitya Samaj-era debates on language, society, and reform.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Abul Hussain wrote essays and books on education, society, peasant life, and Muslim culture in Bengal. At the University of Dhaka, he became a leading force behind the Muslim Sahitya-Samaj, founded in 1926 to promote freedom of thought and modern literary debate. He also edited its periodical Shikha.",
+  "context": "Dhaka's interwar intellectual world, where teachers and writers debated education, social reform, language, and the relationship between religious tradition and modern knowledge.",
+  "impact": "His essays helped connect literary modernism with questions of education and social reform among Bengali Muslims. The Muslim Sahitya-Samaj and Shikha circle brought together writers including Kazi Abdul Wadud, Qazi Motahar Husain, Muhammad Shahidullah, and Abul Fazl, leaving a durable mark on twentieth-century Bengali intellectual history.",
+  "tags": [
+    "muslim-sahitya-samaj",
+    "shikha",
+    "dhaka-university",
+    "bengal-literature"
+  ]
 }

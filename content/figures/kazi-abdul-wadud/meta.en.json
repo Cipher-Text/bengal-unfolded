@@ -1,8 +1,17 @@
 {
   "name": "Kazi Abdul Wadud",
-  "role": "Essayist and Intellectual",
+  "name_en": "Kazi Abdul Wadud",
+  "seoTitle": "Kazi Abdul Wadud: Essayist of Bengal's Muslim Sahitya-Samaj",
+  "seoDescription": "Kazi Abdul Wadud was a Bengali essayist and intellectual who helped shape the Muslim Sahitya-Samaj's campaign for free thought and modern literary debate.",
+  "role": "Essayist, literary organizer, and intellectual",
   "group": "leader",
-  "contribution": "Kazi Abdul Wadud is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Bengali Muslim intellectual reform and modern literary discourse.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Kazi Abdul Wadud was a central organizer and writer of the Muslim Sahitya-Samaj, founded in Dhaka in 1926. He helped shape the group's literary and intellectual programme, which argued for freedom of thought and wider engagement with modern knowledge. He also chaired the first conference of the Pragati Lekhak Sangha in 1940.",
+  "context": "Bengali Muslim literary and intellectual reform in Dhaka and Bengal from the 1920s through the 1940s, including debates carried by Shikha and other literary journals.",
+  "impact": "Wadud helped move Bengali Muslim literary discussion beyond inherited formulas toward essays on society, education, culture, and intellectual freedom. His association with Abul Hussain, Qazi Motahar Husain, Abul Fazl, and the wider journal culture of Saogat placed him at the centre of a major modernist current in twentieth-century Bengali letters.",
+  "tags": [
+    "muslim-sahitya-samaj",
+    "shikha",
+    "bengali-essay",
+    "literary-modernism"
+  ]
 }

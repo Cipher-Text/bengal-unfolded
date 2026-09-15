@@ -1,8 +1,19 @@
 {
   "name": "Harshavardhana",
-  "role": "North Indian Ruler",
+  "name_en": "Harshavardhana",
+  "seoTitle": "Harshavardhana: King of Kannauj and Ally in Seventh-Century Bengal",
+  "seoDescription": "Harshavardhana ruled northern India from the early seventh century and allied with Bhaskaravarman against Shashanka in the struggle around Gauda.",
+  "activePeriod": "c. 606–647",
+  "role": "Ruler of Thanesar and Kannauj",
   "group": "leader",
-  "contribution": "Harshavardhana is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Early 7th-century power politics affecting Gauda and neighboring polities.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Harshavardhana succeeded his brother Rajyavardhana and became the dominant ruler of northern India from his base at Thanesar and later Kannauj. In the conflict surrounding Shashanka of Gauda, he formed an alliance with Bhaskaravarman of Kamarupa. This alliance connected the politics of northern India with the struggle for influence in and around Bengal.",
+  "context": "The early seventh-century transition after Gupta power weakened, when Thanesar, Kannauj, Gauda, and Kamarupa were competing centres of political authority across the Ganges and Brahmaputra regions.",
+  "impact": "Harshavardhana's reign is documented through Banabhatta's Harshacharita, inscriptions, and the travel account of the Chinese pilgrim Xuanzang. These sources illuminate the political geography, court culture, and religious institutions of the period, while their differing perspectives require careful historical reading.",
+  "tags": [
+    "kannauj",
+    "thanesar",
+    "gauda",
+    "bhaskaravarman",
+    "seventh-century-india"
+  ]
 }

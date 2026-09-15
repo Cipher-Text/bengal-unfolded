@@ -1,8 +1,18 @@
 {
   "name": "Bhaskaravarman",
-  "role": "Kamarupa King",
+  "name_en": "Bhaskaravarman",
+  "seoTitle": "Bhaskaravarman: King of Kamarupa in Seventh-Century Bengal",
+  "seoDescription": "Bhaskaravarman was the king of Kamarupa and an ally of Harshavardhana during the seventh-century power struggle with Shashanka of Gauda.",
+  "activePeriod": "early 7th century",
+  "role": "King of Kamarupa and regional ally",
   "group": "leader",
-  "contribution": "Bhaskaravarman is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Regional diplomacy and conflict around Gauda in the early 7th century.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Bhaskaravarman ruled Kamarupa in the early seventh century and became an ally of Harshavardhana of northern India during the conflict involving Shashanka, the ruler of Gauda. The alliance brought Kamarupa into the wider power struggle around Bengal, Bihar, and north India.",
+  "context": "The political reorganisation of eastern and northern India after the decline of Gupta power, when Kamarupa, Gauda, and the kingdom of Harsha competed and negotiated across the Brahmaputra and Ganges regions.",
+  "impact": "Bhaskaravarman's inscriptions and the accounts of the Chinese pilgrim Xuanzang are important sources for the period. A grant associated with his reign was issued from a victory camp at Karnasuvarna, suggesting that Kamarupa's power briefly reached into the political centre of Gauda, although the duration and extent of that control remain matters of historical interpretation.",
+  "tags": [
+    "kamarupa",
+    "gauda",
+    "shashanka",
+    "seventh-century-bengal"
+  ]
 }

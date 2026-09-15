@@ -1,8 +1,18 @@
 {
   "name": "Khwaja Usman",
-  "role": "Afghan Resistance Leader",
+  "name_en": "Khwaja Usman",
+  "seoTitle": "Khwaja Usman: Afghan Leader Who Resisted Mughal Rule in Bengal",
+  "seoDescription": "Khwaja Usman was an Afghan chief who built fortified centres in eastern Bengal and led resistance against Mughal expansion until his death in 1612.",
+  "activePeriod": "c. 1590–1612",
+  "role": "Afghan chief and anti-Mughal leader",
   "group": "leader",
-  "contribution": "Khwaja Usman is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Baro-Bhuyan era resistance to Mughal consolidation in eastern Bengal.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "After being displaced from Orissa, Khwaja Usman established an Afghan power base in eastern Bengal. He built strongholds at Bokainagar, Hasanpur, and Egarasindur, allied with Isa Khan and later Musa Khan, and repeatedly resisted Mughal attempts to bring the Brahmaputra and Sylhet frontier under imperial control.",
+  "context": "The late-sixteenth- and early-seventeenth-century consolidation of Mughal Bengal, when Afghan chiefs, the Bara-Bhuiyans, zamindars, and Mughal subahdars competed for control of river routes, forts, and regional authority.",
+  "impact": "Usman's resistance survived the fall of Musa Khan and became the principal remaining Afghan challenge to the Mughal subahdar Islam Khan. He was defeated and killed in the battle near Daulambapur on 12 March 1612; after his death, Afghan forces in the region submitted, marking a major stage in the Mughal consolidation of Bengal.",
+  "tags": [
+    "afghan-resistance",
+    "mughal-bengal",
+    "sylhet",
+    "brahmaputra-frontier"
+  ]
 }

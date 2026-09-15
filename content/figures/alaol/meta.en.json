@@ -1,8 +1,18 @@
 {
   "name": "Alaol",
-  "role": "Court Poet",
+  "name_en": "Alaol",
+  "seoTitle": "Alaol: Bengali Court Poet of Arakan and Author of Padmavati",
+  "seoDescription": "Alaol was a seventeenth-century Bengali poet at the court of Arakan, known for Padmavati and translations that connected Bengali, Hindi, and Persian literary worlds.",
+  "activePeriod": "c. 1607–1680",
+  "role": "Bengali court poet and translator",
   "group": "leader",
-  "contribution": "Alaol is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Arakan-Bengal literary circuits and early modern Bengali high culture.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Alaol was a major Bengali poet of the seventeenth century who found a literary career at the court of Arakan after being taken there as a prisoner. Patronised by the Arakanese prime minister Magan Thakur, he adapted Hindi and Persian works into Bengali. His Padmavati, based on Malik Muhammad Jayasi's Padmavat, is regarded as his finest poem.",
+  "context": "The Arakan-Bengal literary world of the seventeenth century, when the Arakanese court patronised Bengali writing and poets moved through networks linking Chittagong, Arakan, and eastern Bengal.",
+  "impact": "Alaol's translations brought Persianate romances and Hindi literary traditions into sophisticated Bengali verse. Works including Padmavati, Saptapaykar, Saifulmuluk Badiuzzamal, and Sikandarnama show how courtly Bengali literature could be multilingual in its sources while developing its own humanistic and aesthetic voice.",
+  "tags": [
+    "padmavati",
+    "arakan-court",
+    "bengali-literature",
+    "translation"
+  ]
 }

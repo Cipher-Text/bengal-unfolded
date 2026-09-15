@@ -118,6 +118,9 @@ Affected: ~161 events and ~281 figures without custom `seoTitle`. Root cause: `g
 
 | Date | Change |
 | --- | --- |
+| 2026-09-15 | Enriched Rukunuddin Barbak Shah and Saifuddin Firuz Shah in EN/BN with specific Sultanate-era context and localized SEO metadata; re-ran the figure audit. |
+| 2026-09-15 | Enriched Khwaja Usman and Paragal Khan in EN/BN with specific historical context and localized SEO metadata; re-ran the figure audit. |
+| 2026-09-15 | Enriched Alaol and Bhaskaravarman in EN/BN with specific contextual biographies and localized SEO metadata; re-ran the figure audit. |
 | 2026-09-15 | Updated locale homepage titles and descriptions to make the English/Bangla history archive intent explicit; production redeployment and title-source verification remain pending. |
 | 2026-08-19 | Fixed title double-append bug in 17 page files: removed hardcoded `\| Bengal Unfolded` suffixes so the root layout `title.template` handles appending once. Affected event, figure, period, place, movement, creator, resource, and utility pages. |
 | 2026-08-19 | Full content rewrites for Mirza Mughal (EN + BN): Sipah Salar role, Delhi defense, Khooni Darwaza execution; added seoTitle/seoDescription. |

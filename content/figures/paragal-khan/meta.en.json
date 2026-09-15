@@ -1,8 +1,18 @@
 {
   "name": "Paragal Khan",
-  "role": "Military Governor and Patron",
+  "name_en": "Paragal Khan",
+  "seoTitle": "Paragal Khan: Chittagong Commander and Patron of Bengali Literature",
+  "seoDescription": "Paragal Khan was a commander and administrator of Chittagong under Alauddin Husain Shah who supported the Bengali Mahabharata tradition.",
+  "activePeriod": "early 16th century",
+  "role": "Chittagong commander, administrator, and patron",
   "group": "leader",
-  "contribution": "Paragal Khan is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Chittagong frontier politics and literary patronage under the Bengal Sultanate.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Alauddin Husain Shah appointed Paragal Khan as laskar, or commander, after the Bengal sultan occupied Chittagong in 1512. Paragal Khan later served as the province's administrator and helped restore the sultanate's authority on the Chittagong frontier.",
+  "context": "The early sixteenth-century Bengal Sultanate, when Chittagong was a strategic eastern frontier shaped by conflict, administration, maritime connections, and contact with Arakan and Tripura.",
+  "impact": "Paragal Khan was also a notable patron of Bengali literature. At his request, Kavindra Parameshvara composed a Bengali Mahabharata around 1515–1519, known as the Kavindra Mahabharata or Paragali Mahabharata. His career shows how provincial military administration and vernacular literary patronage could operate together in the Bengal Sultanate.",
+  "tags": [
+    "chittagong",
+    "bengal-sultanate",
+    "kavindra-mahabharata",
+    "literary-patronage"
+  ]
 }

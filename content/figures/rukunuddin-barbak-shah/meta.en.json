@@ -1,8 +1,18 @@
 {
   "name": "Rukunuddin Barbak Shah",
-  "role": "Sultan of Bengal",
+  "name_en": "Rukunuddin Barbak Shah",
+  "seoTitle": "Rukunuddin Barbak Shah: Sultan of Bengal, 1459–1474",
+  "seoDescription": "Rukunuddin Barbak Shah expanded the Bengal Sultanate, strengthened frontier administration, and patronised Bengali and Persian scholars during the later Iliyas Shahi period.",
+  "activePeriod": "1459–1474",
+  "role": "Later Iliyas Shahi Sultan of Bengal",
   "group": "leader",
-  "contribution": "Rukunuddin Barbak Shah is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "15th-century Bengal Sultanate administration and military governance.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Rukunuddin Barbak Shah succeeded Nasiruddin Mahmud Shah in 1459 after serving as governor of Satgaon. During his reign, the Bengal Sultanate expanded into Tirhut and reasserted authority across parts of north, east, south, and southeast Bengal, with influence reaching Sylhet, Chittagong, and parts of Bihar.",
+  "context": "The later Iliyas Shahi period, when the Bengal Sultanate combined frontier campaigns with an expanding administrative and military state.",
+  "impact": "His court patronised Muslim and Hindu scholars, including Ibrahim Qawwam Faruqi and Bengali poets such as Maladhar Basu and Krittivas Ojha. The Persian Sharfnamah records literary activity at his court, while mint towns such as Barbakabad preserve evidence of his administrative and monetary presence.",
+  "tags": [
+    "bengal-sultanate",
+    "iliyas-shahi",
+    "gaur",
+    "bengali-literature"
+  ]
 }
