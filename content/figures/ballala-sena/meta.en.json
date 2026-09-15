@@ -1,15 +1,21 @@
 {
   "name": "Ballala Sena",
   "name_en": "Ballala Sena",
-  "role": "Sena ruler tied to elite social ordering and royal consolidation",
+  "seoTitle": "Ballala Sena: Sena Ruler and Scholar of Bengal, c. 1160–1178",
+  "seoDescription": "Ballala Sena ruled Bengal after Vijaya Sena, supported Sanskrit learning, and is traditionally associated with the organization of kulin social hierarchies.",
+  "activePeriod": "c. 1160–1178",
+  "role": "Sena ruler, Shaiva patron, and Sanskrit author",
   "group": "leader",
-  "contribution": "Ballala Sena played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Ballala Sena succeeded Vijaya Sena and continued the Sena consolidation of Bengal. He is credited with the Sanskrit work Danasagara, written in 1168, and began Adbhutasagara in 1169, linking royal authority with religious scholarship and elite patronage.",
+  "context": "He ruled during the mid-twelfth-century Sena period, when a dynasty of Karnata origin governed much of Bengal after the weakening of Pala power. Later genealogical traditions associate Ballala Sena with kulin classifications among Brahmins and Kayasthas, but the Sena inscriptions do not document a single royal act that created the institution.",
+  "impact": "His reign helped establish the scholarly and ritual culture inherited by Lakshman Sena. Ballala Sena's literary patronage and the traditions surrounding kulin status show how Sena rule combined territorial consolidation with Sanskrit court culture and contested forms of social ordering.",
+  "highlight": "Ballala Sena linked Sena royal authority with Sanskrit scholarship and later traditions of kulin social ranking.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "sena-dynasty",
+    "danasagara",
+    "adbhutasagara",
+    "kulinism",
+    "sanskrit-culture",
+    "bengal-history"
   ]
 }

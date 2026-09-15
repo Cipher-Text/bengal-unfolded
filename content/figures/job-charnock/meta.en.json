@@ -1,8 +1,19 @@
 {
   "name": "Job Charnock",
-  "role": "East India Company Agent",
+  "name_en": "Job Charnock",
+  "seoTitle": "Job Charnock and the English Settlement at Calcutta",
+  "seoDescription": "Job Charnock established the East India Company's settlement at Sutanuti in 1690, helping create Calcutta within the Mughal commercial world of Bengal.",
+  "activePeriod": "Late 17th century; died 1693",
+  "role": "East India Company agent and Bengal settlement administrator",
   "group": "leader",
-  "contribution": "Job Charnock is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Company expansion in Bengal riverine-commercial networks in the late 17th century.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Job Charnock was an East India Company agent in Bengal who returned to Sutanuti in August 1690 after the Company's conflict with the Mughal authorities. He chose to remain there and established an English settlement in and around Sutanuti, Kalikata, and Govindapur after the Company received permission to resume trade.",
+  "context": "The late-seventeenth-century Hughli river trade, where English, Armenian, Dutch, French, and other merchants operated under Mughal authority. Charnock's settlement emerged through negotiation, conflict, and commercial privilege rather than through the creation of an empty or unoccupied city.",
+  "impact": "Charnock's settlement became the nucleus of Calcutta, but the city's later development depended on the Company's 1698 acquisition of zamindari rights over the three villages and the construction of Fort William. He is therefore important to the city's colonial origin story, although describing him as its sole founder oversimplifies the pre-existing villages, markets, and communities of the site.",
+  "tags": [
+    "calcutta",
+    "sutanuti",
+    "east-india-company",
+    "mughal-bengal",
+    "colonial-origins"
+  ]
 }

@@ -1,19 +1,21 @@
 {
   "name": "Shaista Khan",
   "name_en": "Shaista Khan",
-  "seoTitle": "Shaista Khan: Bengal Subahdar and Mughal Expansion",
-  "seoDescription": "Learn how Shaista Khan shaped Mughal Bengal through administration, trade control and the 1666 Chittagong campaign.",
-  "role": "Mughal subahdar linked to the Chittagong campaign",
+  "seoTitle": "Shaista Khan in Bengal: Subahdar and Chittagong Campaign",
+  "seoDescription": "Shaista Khan governed Bengal from 1664 to 1688, reorganised Mughal administration, and directed the campaign that captured Chittagong in 1666.",
+  "activePeriod": "1664–1688, with a break in 1678–1679",
+  "role": "Mughal subahdar of Bengal and imperial commander",
   "group": "leader",
   "image": "/figures/shaista-khan.webp",
-  "contribution": "As Bengal's subahdar, he directed the campaign that ended Arakanese control over Chittagong in 1666.",
-  "context": "His administration combined naval operations and frontier governance in southeastern Bengal.",
-  "impact": "His tenure strengthened Mughal maritime-security control in the Bay-facing frontier.",
-  "highlight": "Shaista Khan's campaign integrated Chittagong into Mughal Bengal.",
+  "contribution": "Shaista Khan became Bengal's subahdar after Mir Jumla's death and governed for the longest tenure of any Mughal provincial governor there. He tightened administrative discipline, worked through a network of district officials and family commanders, and planned the combined land-and-naval campaign that captured Chittagong in January 1666.",
+  "context": "Seventeenth-century Mughal Bengal, where Arakanese raids and Portuguese piracy threatened the coastal frontier, while the provincial government sought tighter control over river routes, ports, trade, and revenue administration.",
+  "impact": "The Chittagong campaign, led in the field by his son Buzurg Umed Khan with naval support, ended Arakanese control of the port and brought it into the Mughal province under the name Islamabad. His building activity in Dhaka, including Chhota Katra, also reflects the capital's commercial and administrative growth during his tenure.",
+  "highlight": "Shaista Khan combined administrative consolidation in Bengal with the 1666 Mughal conquest of Chittagong.",
   "tags": [
     "mughal",
     "chittagong",
     "1666",
-    "frontier"
+    "frontier",
+    "dhaka"
   ]
 }

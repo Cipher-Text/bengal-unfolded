@@ -1,15 +1,21 @@
 {
   "name": "Raja Ganesh",
   "name_en": "Raja Ganesh",
-  "role": "Regional ruler central to the 15th-century succession crisis in Bengal",
+  "seoTitle": "Raja Ganesh: Bengal Power Broker and Ruler, c. 1410–1418",
+  "seoDescription": "Raja Ganesh rose from a Bhaturia landlord to control Bengal, challenged the Iliyas Shahi court, and shaped the succession crisis that brought Jalaluddin Muhammad Shah to power.",
+  "activePeriod": "c. 1410–1418",
+  "role": "Bhaturia landlord and ruler during Bengal's fifteenth-century succession crisis",
   "group": "leader",
-  "contribution": "Raja Ganesh played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Raja Ganesh was a Hindu landlord of Bhaturia in the Dinajpur region who rose within the late Iliyas Shahi court at Pandua. By about 1410–1414 he had become the effective power behind the throne, and in 1414 he displaced the weak Sultan Alauddin Firuz Shah and assumed control of Bengal. His rule and political influence continued through the transition to his son Jadu and the title Dhanujamardanadeva.",
+  "context": "Accounts of the crisis describe pressure from the Jaunpur Sultan Ibrahim Shah Sharqi after appeals by the Sufi Shaikh Nur Qutb Alam. Persian narratives portray Ganesh as persecuting Muslims, while the surviving evidence is filtered through the religious and political conflicts of the period; these reports should therefore be read as part of a contested legitimacy struggle, not as a complete social history of his administration. His coins used Bengali script and the Shaka era, marking a distinctive break in the numismatic presentation of authority.",
+  "impact": "Ganesh's rise briefly displaced the Iliyas Shahi line and forced a settlement in which his son Jadu converted to Islam and became Jalaluddin Muhammad Shah. After Ganesh confined Jadu and resumed power, Jadu overthrew him around 1418. The episode reveals how regional landed elites, religious authority, foreign intervention, dynastic succession, and coinage all shaped sovereignty in fifteenth-century Bengal.",
+  "highlight": "Raja Ganesh transformed regional landed power into a short-lived Bengal regime and triggered the succession crisis that produced Jalaluddin Muhammad Shah.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "raja-ganesh",
+    "bhaturia",
+    "pandua",
+    "iliyas-shahi",
+    "jalaluddin-muhammad-shah",
+    "medieval-bengal"
   ]
 }

@@ -1,16 +1,21 @@
 {
   "name": "Islam Khan Chishti",
   "name_en": "Islam Khan Chishti",
-  "role": "Subahdar associated with final consolidation in Bengal",
+  "seoTitle": "Islam Khan Chishti: Mughal Subahdar Who Made Dhaka Capital",
+  "seoDescription": "Islam Khan Chishti governed Bengal from 1608 to 1613, subdued the Bara-Bhuiyans and Afghans, and moved the Mughal capital to Dhaka as Jahangirnagar.",
+  "activePeriod": "1608–1613",
+  "role": "Mughal subahdar who consolidated imperial rule in Bengal",
   "group": "leader",
   "image": "/figures/islam-khan-chishti.webp",
-  "contribution": "He advanced administrative-military consolidation that reduced residual Baro-Bhuyans resistance and strengthened Mughal control from Dhaka.",
-  "context": "His tenure represents the shift from contested campaigns to durable provincial governance.",
-  "impact": "He is closely tied to the 17th-century completion of Mughal consolidation in Bengal.",
-  "highlight": "A central figure in the transition from conquest to provincial consolidation.",
+  "contribution": "Islam Khan Chishti became Bengal's subahdar in 1608 and pursued a coordinated military and administrative campaign against the Bara-Bhuiyans, Afghan chiefs, and other regional powers. Musa Khan and the Bhati zamindars submitted by 1611, while the defeat of Khwaja Usman in 1612 removed the principal remaining Afghan challenge in Bengal.",
+  "context": "The reign of Jahangir, when Mughal authority remained contested in the riverine Bhati region and eastern Bengal. Islam Khan used a large army, a war-boat fleet, fortified positions, and negotiated submission to turn repeated campaigns into durable provincial control.",
+  "impact": "He transferred the provincial capital from Rajmahal to Dhaka in 1610 and renamed it Jahangirnagar, placing the administration closer to the Bhati frontier. By the end of his tenure, the Mughals controlled Bengal broadly up to the Feni River, although Chittagong remained outside their rule.",
+  "highlight": "Islam Khan Chishti linked the conquest of Bhati with the rise of Dhaka as Mughal Bengal's strategic capital.",
   "tags": [
     "mughal",
     "dhaka",
-    "consolidation"
+    "consolidation",
+    "bhati",
+    "bara-bhuiyans"
   ]
 }

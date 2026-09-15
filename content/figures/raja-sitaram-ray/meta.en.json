@@ -1,15 +1,21 @@
 {
   "name": "Raja Sitaram Ray",
   "name_en": "Raja Sitaram Ray",
-  "role": "Regional zamindar power figure in early-18th-century Bengal",
+  "seoTitle": "Raja Sitaram Ray: Zamindar of Bhusna and Regional Power in Bengal",
+  "seoDescription": "Raja Sitaram Ray rebuilt Bhusna's zamindari, fortified Muhammadpur, and challenged Murshid Quli Khan's revenue authority before his defeat in the 1714–16 campaign.",
+  "activePeriod": "late 17th–early 18th century",
+  "role": "Zamindar of Bhusna and fortified regional ruler",
   "group": "leader",
-  "contribution": "Raja Sitaram Ray played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Sitaram Ray was the son of Satrajit Ray, a Bhusna chief who had resisted Mughal power. After accepting Mughal overlordship, Sitaram recovered the zamindaris of Bhusna and Fathabad and built a powerful regional estate. He established his capital at Muhammadpur near Bagjani and protected it with a long earthen embankment and ditch.",
+  "context": "Bhusna lay in a strategically important riverine zone of the former Jessore and Faridpur region, where local chiefs, Mughal officers, and revenue administrators competed for authority. Sitaram's later conflict with the Bhusna faujdar, refusal to pay revenue, and treatment of smaller zamindars brought him into direct opposition to Murshid Quli Khan's effort to discipline Bengal's landed power.",
+  "impact": "The Mughal-Nawabi campaign against Sitaram in roughly 1714–1716 suppressed his defiance, confiscated his estate, and transferred much of Bhusna to Ramjivan of the Natore Raj. The episode illustrates both the military resources available to a major zamindar and the limits of regional autonomy once the Murshidabad revenue regime became more centralized. Ruins of his fort remain associated with Kaliabari in the Bhusna area.",
+  "highlight": "Raja Sitaram Ray turned Bhusna into a fortified regional power before Murshid Quli Khan's revenue state defeated and redistributed his estate.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "bhusna",
+    "fathabad",
+    "muhammadpur",
+    "zamindars",
+    "murshid-quli-khan",
+    "early-modern-bengal"
   ]
 }

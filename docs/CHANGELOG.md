@@ -17,6 +17,38 @@
   - Enriched Alaol and Bhaskaravarman in both locales with specific literary, political, and historical context; removed their generic profile copy and added localized SEO metadata.
   - Enriched Khwaja Usman and Paragal Khan in both locales with specific resistance, administration, literary, and regional context; removed their generic profile copy and added localized SEO metadata.
   - Enriched Rukunuddin Barbak Shah and Saifuddin Firuz Shah in both locales with specific Sultanate-era political, administrative, literary, and architectural context; removed their generic profile copy and added localized SEO metadata.
+  - Expanded Shaista Khan in both locales with his 1664–1688 governorship, administrative role, 1666 Chittagong campaign, and Dhaka building activity; strengthened localized SEO metadata.
+  - Expanded Islam Khan Chishti in both locales with the Bhati and Afghan campaigns, 1610 capital transfer to Dhaka, and the limits of Mughal control in 1613; added localized SEO metadata.
+  - Enriched Sulaiman Khan Karrani in both locales with late Afghan rule, Tanda, Orissa expansion, Akbar-era diplomacy, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Fakhruddin Mubarak Shah in both locales with Sonargaon state formation, Chittagong expansion, Ibn Battuta's trade account, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Munim Khan in both locales with Akbar's Bengal campaign, the 1575 Battle of Tukaroi, Treaty of Katak, and the limits of early Mughal control; added localized SEO metadata.
+  - Enriched Todar Mal in both locales with Mughal revenue administration, Bengal campaign activity, the 1582 settlement, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Shah Muhammad Sagir in both locales with the Yusuf-Zulekha tradition, Ghiyasuddin Azam Shah's patronage, Bengali literary form, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Atisha Dipankara Srijnana in both locales with Vikramapura origins, Vikramashila scholarship, Pala-era Buddhist networks, Tibet, and localized SEO metadata; replaced generic profile copy.
+  - Enriched C. R. Das in both locales with Alipore case advocacy, Non-cooperation, Swaraj Party, Bengal Pact, Calcutta Corporation, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Manabendra Narayan Larma in both locales with Kaptai displacement, Jumma identity, PCJSS, Shanti Bahini, and Peace Accord context; added localized SEO metadata.
+  - Enriched Dinabandhu Mitra in both locales with Nil Darpan, indigo resistance, Bengali theatre, James Long's translation, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Harish Chandra Mukherjee in both locales with Hindoo Patriot editorship, indigo-rayiats reporting, social reform, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Job Charnock in both locales with the 1690 Sutanuti settlement, Mughal commercial context, 1698 zamindari transition, and a nuanced Calcutta-origin account; added localized SEO metadata.
+  - Enriched Mir Qasim in both locales with revenue and military reforms, dastak conflict, Monghyr, Buxar, and the transition toward Company Diwani; replaced generic profile copy and added localized SEO metadata.
+  - Enriched Sikandar Shah in both locales with Iliyas Shahi consolidation, Ekdala's defence, Adina Mosque, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Mahipala I in both locales with the Pala revival, regional recovery, Somapura patronage, public works, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Vijaya Sena in both locales with the Sena rise, Pala transition, regional expansion, Deopara Prashasti, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Ballala Sena in both locales with Sena succession, Danasagara, Adbhutasagara, cautious Kulinism context, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Syed Sultan in both locales with Chittagong literary context, Nabibangsha, related devotional works, vernacular Islamic learning, and localized SEO metadata; replaced generic profile copy.
+  - Enriched Warren Hastings in both locales with Diwani administration, revenue and judicial restructuring, the Regulating Act, and a balanced colonial legacy; added localized SEO metadata.
+  - Enriched Shah Alam II in both locales with the Buxar aftermath, 1765 Treaty of Allahabad, Bengal Diwani grant, and unequal Mughal-Company relationship; added localized SEO metadata.
+  - Enriched Devapala in both locales with Pala expansion, cautious inscriptional context, Nalanda patronage, and Southeast Asian Buddhist networks; added localized SEO metadata.
+  - Enriched Dharmapala in both locales with Pala state formation, the Kanauj-centered tripartite struggle, cautious inscriptional context, Vikramashila, and Somapura; added localized SEO metadata.
+  - Enriched Gopala I in both locales with the post-conflict political context, cautious interpretation of the election tradition, Pala foundation, and Magadha expansion; added localized SEO metadata.
+  - Enriched Jalaluddin Muhammad Shah in both locales with the Raja Ganesh succession crisis, conversion and legitimacy context, territorial consolidation, diplomacy, urban development, and localized SEO metadata.
+  - Enriched Raja Ganesh in both locales with his Bhaturia rise, Iliyas Shahi power struggle, cautious treatment of persecution narratives, Bengali-script coinage, and succession impact; added localized SEO metadata.
+  - Enriched Raja Sitaram Ray in both locales with Bhusna and Fathabad, Muhammadpur fortification, zamindari autonomy, the 1714–16 suppression campaign, and localized SEO metadata.
+  - Enriched Chand Rai in both locales with Vikrampur and Bhati context, the 1593 Bhusna operation, cautious genealogy, Bara-Bhuiyan networks, and localized SEO metadata.
+  - Enriched Kedar Rai in both locales with Sripur and Vikrampur authority, naval warfare, Bhusna campaigns, shifting alliances, Arakanese and Portuguese connections, and localized SEO metadata.
+  - Enriched Lakshmana Sena in both locales with Sena court culture, Sanskrit literary patronage, Nadia and Vikramapura, the 1204–05 conquest, and eastern-Bengal continuity; added localized SEO metadata.
+  - Enriched Pratapaditya in both locales with Jessore and Dhumghat, Karrani-to-Mughal transition, naval power, 1608–09 diplomacy, the 1611–12 campaign, and localized SEO metadata.
+  - Enriched Nusrat Shah in both locales with Hussain Shahi succession, Tirhut, the Ghogra settlement with Babur, Afghan-Mughal diplomacy, Portuguese trade, and localized SEO metadata.
 
 ## 2026-09-01
 

@@ -1,8 +1,19 @@
 {
   "name": "Sikandar Shah",
-  "role": "Sultan of Bengal",
+  "name_en": "Sikandar Shah",
+  "seoTitle": "Sikandar Shah: Iliyas Shahi Sultan of Bengal, 1358–1390",
+  "seoDescription": "Sikandar Shah ruled Bengal for more than three decades, defended its independence from Delhi, and commissioned the monumental Adina Mosque at Pandua.",
+  "activePeriod": "1358–1390",
+  "role": "Iliyas Shahi Sultan of Bengal",
   "group": "leader",
-  "contribution": "Sikandar Shah is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Expansion and consolidation of the Bengal Sultanate in the 14th century.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Sikandar Shah succeeded his father, Shamsuddin Iliyas Shah, in 1358 and ruled Bengal for about 33 years. He defended the independence of the Iliyas Shahi Sultanate when Sultan Firuz Shah Tughlaq invaded Bengal in 1359–1360, using the fortified centre of Ekdala and eventually securing a peace that Delhi could not overturn.",
+  "context": "The fourteenth-century consolidation of a unified Bengal Sultanate, when the Iliyas Shahi rulers were asserting authority over Bengal while Delhi tried to restore imperial control. Sikandar's reign combined frontier defence, long-term administration, and monumental royal patronage.",
+  "impact": "Sikandar Shah commissioned the Adina Mosque at Pandua in 1373, one of the largest and most ambitious mosques of the medieval subcontinent. Its enclosed courtyard, vaulted nave, royal gallery, and scale expressed the authority of an independent Bengal court and influenced later Sultanate architecture. He died around 1390 during a conflict with his son, who succeeded him as Ghiyasuddin Azam Shah.",
+  "tags": [
+    "iliyas-shahi",
+    "bengal-sultanate",
+    "adina-mosque",
+    "pandua",
+    "ekdala"
+  ]
 }

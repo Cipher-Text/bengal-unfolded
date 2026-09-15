@@ -1,8 +1,21 @@
 {
   "name": "Shah Alam II",
-  "role": "Mughal Emperor",
+  "name_en": "Shah Alam II",
+  "seoTitle": "Shah Alam II: Mughal Emperor and the 1765 Diwani Settlement",
+  "seoDescription": "Shah Alam II granted the East India Company Diwani rights in Bengal after Buxar, a settlement that helped establish British colonial power in eastern India.",
+  "activePeriod": "1761–1805",
+  "role": "Mughal emperor and grantor of the Bengal Diwani",
   "group": "leader",
-  "contribution": "Shah Alam II is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Imperial decline and treaty politics around Bengal after Buxar.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Shah Alam II, originally Prince Ali Gauhar, became Mughal emperor in 1759 and sought to recover imperial authority in eastern India. After the Mughal-Oudh-Company defeat at Buxar in 1764, he signed the Treaty of Allahabad on 12 August 1765, granting the East India Company Diwani rights—the authority to collect revenue—from Bengal, Bihar, and Orissa.",
+  "context": "The settlement was made when the emperor was dependent on regional allies and Company protection. In return for the Diwani, the Company promised an annual payment of 26 lakh rupees and assigned him the districts of Kora and Allahabad. The arrangement gave Company control of Bengal's resources while preserving a formal Mughal legal framework for its rule.",
+  "impact": "Shah Alam II's farman helped convert the Company's military victory at Buxar into recognized fiscal authority and laid a foundation for colonial state-building in Bengal. His later attempt to return to Delhi with Maratha support, and the Company's decision under Warren Hastings to stop the tribute and transfer Kora and Allahabad to Oudh, show how quickly the imperial relationship became unequal.",
+  "highlight": "Shah Alam II's 1765 grant of Bengal's Diwani gave the East India Company formal revenue authority and transformed the balance of power in Bengal.",
+  "tags": [
+    "shah-alam-ii",
+    "mughal-empire",
+    "battle-of-buxar",
+    "diwani",
+    "east-india-company",
+    "colonial-bengal"
+  ]
 }

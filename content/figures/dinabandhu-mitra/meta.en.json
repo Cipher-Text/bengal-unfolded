@@ -1,8 +1,19 @@
 {
   "name": "Dinabandhu Mitra",
-  "role": "Playwright and Public Critic",
+  "name_en": "Dinabandhu Mitra",
+  "seoTitle": "Dinabandhu Mitra: Playwright of Nil Darpan and Indigo Resistance",
+  "seoDescription": "Dinabandhu Mitra wrote Nil Darpan, dramatizing indigo planter oppression, and helped make Bengali theatre a vehicle for public criticism in colonial Bengal.",
+  "activePeriod": "1830–1873",
+  "role": "Bengali playwright and critic of indigo-planter oppression",
   "group": "leader",
-  "contribution": "Dinabandhu Mitra is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Indigo-era social critique and vernacular public discourse in colonial Bengal.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Dinabandhu Mitra wrote Nil Darpan in 1860, a Bengali play portraying the coercion and violence faced by peasants under European indigo planters. The play was published anonymously from Dhaka, translated into English by Reverend James Long, and became closely associated with the public response to the Indigo Revolt.",
+  "context": "Colonial Bengal in the late 1850s and 1860s, when indigo cultivators resisted forced contracts, low prices, and planter violence. Vernacular newspapers, missionaries, and theatre helped carry rural grievances into the urban public sphere.",
+  "impact": "Nil Darpan gave social criticism a dramatic form and became one of the most influential cultural responses to the indigo system. Mitra also wrote popular farces including Biye Pagla Buda, Sadhabar Ekadashi, and Jamai Barik; Nil Darpan opened the National Theatre in 1872, linking Bengali theatre to public debate and prompting colonial restrictions such as the Dramatic Performances Act of 1876.",
+  "tags": [
+    "nil-darpan",
+    "indigo-revolt",
+    "bengali-theatre",
+    "colonial-bengal",
+    "vernacular-public-sphere"
+  ]
 }

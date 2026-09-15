@@ -1,15 +1,21 @@
 {
   "name": "Nusrat Shah",
   "name_en": "Nusrat Shah",
-  "role": "Hussain Shahi ruler in the Afghan-Mughal transition era",
+  "seoTitle": "Nusrat Shah: Hussain Shahi Sultan of Bengal, 1519–1532",
+  "seoDescription": "Nusrat Shah expanded Bengal into Tirhut, negotiated with Babur after the Battle of Ghogra, and ruled during the transition from Afghan to Mughal power.",
+  "activePeriod": "1519–1532",
+  "role": "Hussain Shahi sultan, diplomat, and frontier ruler",
   "group": "leader",
-  "contribution": "Nusrat Shah played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Nusrat Shah, eldest son and successor of Alauddin Husain Shah, ruled Bengal from 1519 to 1532. Having participated in administration before his accession, he extended Bengal's influence into Tirhut and established a headquarters at Hajipur. His reign maintained the territorial and commercial strength of the Hussain Shahi state while facing pressure from Tripura, Orissa, Afghan nobles, and the new Mughal power in north India.",
+  "context": "After Babur defeated the Lodis at Panipat in 1526, Nusrat gave shelter to defeated Afghan leaders including Mahmud Lodi but avoided joining their anti-Mughal confederacy. The resulting confrontation at Ghogra brought Mughal forces to Bengal's frontier; after a Bengal defeat, Nusrat negotiated peace and accepted a neutral posture. His diplomacy prevented Babur from pressing immediately into Bengal, though it required balancing refuge, frontier defence, and imperial threat.",
+  "impact": "Nusrat's reign preserved Bengal's independence during a dangerous transition, but he died before an intended alliance with Gujarat's Bahadur Shah could develop. Portuguese missions reached his court in the 1520s and secured trading privileges, while his period also saw important architectural activity, including the Shailkupa Mosque and monuments associated with Gaur. Coins and inscriptions from his reign document a prosperous, administratively active sultanate.",
+  "highlight": "Nusrat Shah preserved Bengal's independence through expansion and diplomacy as Afghan power gave way to the Mughals in northern India.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "hussain-shahi-dynasty",
+    "battle-of-ghogra",
+    "tirhut",
+    "gaur",
+    "portuguese-trade",
+    "medieval-bengal"
   ]
 }

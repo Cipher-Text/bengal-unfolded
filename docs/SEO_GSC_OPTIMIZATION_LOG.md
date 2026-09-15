@@ -116,8 +116,55 @@ Affected: ~161 events and ~281 figures without custom `seoTitle`. Root cause: `g
 
 ## Change History
 
+| 2026-09-15 | Enriched Nusrat Shah in EN/BN with Hussain Shahi succession, Tirhut, the Ghogra settlement with Babur, Afghan-Mughal diplomacy, Portuguese trade, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Pratapaditya in EN/BN with Jessore and Dhumghat, Karrani-to-Mughal transition, naval power, 1608–09 diplomacy, the 1611–12 campaign, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Lakshmana Sena in EN/BN with Sena court culture, Sanskrit literary patronage, Nadia and Vikramapura, the 1204–05 conquest, and eastern-Bengal continuity; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Kedar Rai in EN/BN with Sripur and Vikrampur authority, naval warfare, Bhusna campaigns, shifting alliances, Arakanese and Portuguese connections, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Chand Rai in EN/BN with Vikrampur and Bhati context, the 1593 Bhusna operation, cautious genealogy, Bara-Bhuiyan networks, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Raja Sitaram Ray in EN/BN with Bhusna and Fathabad, Muhammadpur fortification, zamindari autonomy, the 1714–16 suppression campaign, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Raja Ganesh in EN/BN with his Bhaturia rise, Iliyas Shahi power struggle, cautious treatment of persecution narratives, Bengali-script coinage, and succession impact; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Jalaluddin Muhammad Shah in EN/BN with the Raja Ganesh succession crisis, conversion and legitimacy context, territorial consolidation, diplomacy, urban development, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Gopala I in EN/BN with post-conflict political context, cautious interpretation of the election tradition, Pala foundation, and Magadha expansion; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Dharmapala in EN/BN with Pala state formation, the Kanauj-centered tripartite struggle, cautious inscriptional context, Vikramashila, and Somapura; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Devapala in EN/BN with Pala expansion, cautious inscriptional context, Nalanda patronage, and Southeast Asian Buddhist networks; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Shah Alam II in EN/BN with the Buxar aftermath, 1765 Treaty of Allahabad, Bengal Diwani grant, and unequal Mughal-Company relationship; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Warren Hastings in EN/BN with Diwani administration, revenue and judicial restructuring, the Regulating Act, and balanced colonial legacy; added localized SEO metadata and re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Syed Sultan in EN/BN with Chittagong literary context, Nabibangsha, related devotional works, vernacular Islamic learning, and localized SEO metadata; re-ran the figure audit. |
+
+| 2026-09-15 | Enriched Ballala Sena in EN/BN with specific Sena succession, Sanskrit scholarship, Danasagara, Adbhutasagara, and cautious Kulinism context; added localized SEO metadata and re-ran the figure audit. |
+
 | Date | Change |
 | --- | --- |
+| 2026-09-15 | Enriched Vijaya Sena in EN/BN with specific Sena rise, Pala transition, regional expansion, Deopara Prashasti, and localized SEO metadata; re-ran the figure audit. |
+| 2026-09-15 | Enriched Mahipala I in EN/BN with specific Pala revival, regional recovery, Somapura patronage, public works, and localized SEO metadata; re-ran the figure audit. |
+| 2026-09-15 | Enriched Sikandar Shah in EN/BN with specific Iliyas Shahi consolidation, Ekdala defence, Adina Mosque, and architectural context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Mir Qasim in EN/BN with specific revenue and military reforms, dastak conflict, Monghyr, Buxar, and the transition toward Company Diwani; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Job Charnock in EN/BN with the 1690 Sutanuti settlement, Mughal commercial context, 1698 zamindari transition, and nuanced Calcutta-origin framing; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Harish Chandra Mukherjee in EN/BN with specific Hindoo Patriot editorship, indigo-rayiats reporting, social reform, and colonial public-sphere context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Dinabandhu Mitra in EN/BN with specific Nil Darpan, indigo resistance, Bengali theatre, James Long translation, and colonial public-sphere context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Manabendra Narayan Larma in EN/BN with specific Kaptai displacement, Jumma identity, PCJSS, Shanti Bahini, and Peace Accord context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched C. R. Das in EN/BN with specific Alipore case, Non-cooperation, Swaraj Party, Bengal Pact, and Calcutta Corporation context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Atisha Dipankara Srijnana in EN/BN with specific Vikramapura, Vikramashila, Pala-era Buddhist network, and Tibet context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Shah Muhammad Sagir in EN/BN with specific Yusuf-Zulekha, Ghiyasuddin Azam Shah, Bengali literary, and musical-form context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Todar Mal in EN/BN with specific Mughal revenue administration, Bengal campaign, and 1582 settlement context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Munim Khan in EN/BN with specific Akbar-era Bengal campaign, Tukaroi, Treaty of Katak, and early Mughal consolidation context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Fakhruddin Mubarak Shah in EN/BN with specific Sonargaon state formation, Chittagong, trade, and Ibn Battuta context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Enriched Sulaiman Khan Karrani in EN/BN with specific late-Afghan rule, Tanda, Orissa, and Akbar-era diplomatic context; added localized SEO metadata and re-ran the figure audit. |
+| 2026-09-15 | Expanded Islam Khan Chishti in EN/BN with specific Bhati and Afghan campaigns, the 1610 capital transfer to Dhaka, and localized SEO metadata; re-ran the figure audit. |
+| 2026-09-15 | Expanded Shaista Khan in EN/BN with specific governorship, administrative, Chittagong campaign, and Dhaka context; strengthened localized SEO metadata and re-ran the figure audit. |
 | 2026-09-15 | Enriched Rukunuddin Barbak Shah and Saifuddin Firuz Shah in EN/BN with specific Sultanate-era context and localized SEO metadata; re-ran the figure audit. |
 | 2026-09-15 | Enriched Khwaja Usman and Paragal Khan in EN/BN with specific historical context and localized SEO metadata; re-ran the figure audit. |
 | 2026-09-15 | Enriched Alaol and Bhaskaravarman in EN/BN with specific contextual biographies and localized SEO metadata; re-ran the figure audit. |

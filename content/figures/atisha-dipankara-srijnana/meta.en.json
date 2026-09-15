@@ -1,9 +1,20 @@
 {
   "name": "Atisha Dipankara Srijnana",
-  "role": "Buddhist Scholar and Teacher",
+  "name_en": "Atisha Dipankara Srijnana",
+  "seoTitle": "Atisha Dipankara Srijnana: Buddhist Scholar from Bengal",
+  "seoDescription": "Atisha Dipankara Srijnana was a Bengali Buddhist scholar who led Vikramashila's intellectual tradition and carried Pala-era Buddhist learning to Tibet.",
+  "activePeriod": "c. 980–1053",
+  "role": "Bengali Buddhist scholar, teacher, and monastic head",
   "group": "leader",
-  "contribution": "Atisha Dipankara Srijnana is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Bengal and trans-Himalayan Buddhist networks in the 10th-11th centuries.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period.",
+  "contribution": "Atisha Dipankara Srijnana, associated with Vajrayogini in Vikramapura, became one of the leading Buddhist scholars of the Pala period. He headed Vikramashila Mahavihara and wrote works including Bodhipradipa, while later travelling to Tibet to teach and translate Buddhist ideas.",
+  "context": "The Pala-era network of monasteries linking Bengal and Bihar with Nepal, Tibet, and other Buddhist regions. Institutions such as Somapura and Vikramashila supported scholarship, manuscript culture, debate, and the movement of teachers across the Himalayas.",
+  "impact": "Atisha's translations and teachings helped transmit eastern Indian Buddhist learning into Tibet. His career shows that Pala Bengal was not only a regional political centre but also part of a wider intellectual and religious network whose texts and teachers moved across Asia.",
+  "tags": [
+    "pala-period",
+    "vikramashila",
+    "buddhist-scholarship",
+    "vikramapura",
+    "tibet"
+  ],
   "image": "/figures/atisha-dipankara-srijnana.webp"
 }

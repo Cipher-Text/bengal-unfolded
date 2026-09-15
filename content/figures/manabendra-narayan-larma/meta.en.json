@@ -1,9 +1,20 @@
 {
   "name": "Manabendra Narayan Larma",
-  "role": "CHT Political Leader",
+  "name_en": "Manabendra Narayan Larma",
+  "seoTitle": "Manabendra Narayan Larma: CHT Autonomy Leader",
+  "seoDescription": "Manabendra Narayan Larma led the Chittagong Hill Tracts autonomy movement, founded the PCJSS, and articulated Jumma political identity after Bangladesh's independence.",
+  "activePeriod": "1941–1983",
+  "role": "Chittagong Hill Tracts politician and autonomy leader",
   "group": "leader",
-  "contribution": "Manabendra Narayan Larma is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Early post-independence debates on constitutional recognition and autonomy in the Chittagong Hill Tracts.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period.",
+  "contribution": "Manabendra Narayan Larma organized student and community movements in the Chittagong Hill Tracts, including campaigns for compensation and rehabilitation after the Kaptai hydroelectric project displaced hill families. He united representatives of different hill peoples, served in the East Pakistan Provincial Assembly in 1970, and was elected to Bangladesh's Jatiya Sangsad in 1973.",
+  "context": "The post-1971 debate over whether Bangladesh's constitutional nationalism would recognize the distinct cultural, linguistic, and political identity of the peoples of the Chittagong Hill Tracts. Larma argued for recognition of Jumma identity alongside state nationalism and sought special administrative status for the region.",
+  "impact": "On 15 February 1972 he founded the Parbatya Chattagram Jana-Samhati Samiti (PCJSS). After constitutional demands were not accepted, the organization developed the Shanti Bahini as an armed wing in 1973; Larma remained its central political leader until his assassination on 10 November 1983. His autonomy demands remained part of the political background to the 1997 Peace Accord.",
+  "tags": [
+    "chittagong-hill-tracts",
+    "pcjss",
+    "jumma-identity",
+    "autonomy",
+    "kaptai-dam"
+  ],
   "image": "/figures/manabendra-narayan-larma.webp"
 }

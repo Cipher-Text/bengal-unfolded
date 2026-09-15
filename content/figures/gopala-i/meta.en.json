@@ -1,15 +1,21 @@
 {
   "name": "Gopala I",
   "name_en": "Gopala I",
-  "role": "Founder of the Pala dynasty in Bengal",
+  "seoTitle": "Gopala I: Founder of the Pala Dynasty in Bengal, c. 756–781",
+  "seoDescription": "Gopala I founded the Pala dynasty during a period of political disorder in Bengal and established the stability that enabled its later imperial expansion.",
+  "activePeriod": "c. 756–781",
+  "role": "Founder of the Pala dynasty and consolidator of Bengal",
   "group": "leader",
-  "contribution": "Gopala I played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Gopala I founded the Pala dynasty and ruled Bengal for roughly twenty-five years, around 756–781. He emerged after a prolonged period of conflict and unstable rule, consolidated power in northern and northwestern Bengal, and likely extended Pala authority into parts of Magadha. His stable succession allowed his son Dharmapala to pursue a much more expansive regional policy.",
+  "context": "The Khalimpur copperplate of Dharmapala describes the disorder before Gopala as matsyanyayam, a phrase commonly translated as a condition in which the strong prey on the weak. The same record says the prakritis brought Gopala to power, and later accounts were read as evidence that he was elected by the people. That interpretation is not certain: prakritis may mean subjects or leading officials, and the tradition may describe support for a successful military leader rather than a modern popular election.",
+  "impact": "Gopala's achievement was the creation of a durable dynasty that ruled Bengal and Bihar, with interruptions, for roughly four centuries. His reign provides the political foundation for the Pala period's later Buddhist institutions, artistic production, and influence in northern Indian and Asian networks, even though the details of his own administration remain sparsely documented.",
+  "highlight": "Gopala I ended a period of political fragmentation and founded the Pala dynasty that shaped Bengal's history for centuries.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "pala-dynasty",
+    "early-medieval-bengal",
+    "matsyanyayam",
+    "gauda",
+    "magadha",
+    "dynastic-foundation"
   ]
 }

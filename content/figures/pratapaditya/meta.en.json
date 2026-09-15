@@ -1,15 +1,21 @@
 {
   "name": "Pratapaditya",
   "name_en": "Pratapaditya",
-  "role": "Jessore ruler associated with late-16th/early-17th-century regional autonomy struggles",
+  "seoTitle": "Pratapaditya: Jessore Ruler and Naval Power in Bengal",
+  "seoDescription": "Pratapaditya built a powerful Jessore polity with forts and war-boats, negotiated with the Mughals, and was defeated by Islam Khan's campaign in 1611–1612.",
+  "activePeriod": "c. 1584–1612",
+  "role": "Jessore zamindar, regional ruler, and naval commander",
   "group": "leader",
-  "contribution": "Pratapaditya played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Pratapaditya succeeded his father Srihari in 1584 and built a powerful polity in the marshy southwestern delta, centred at Dhumghat near the confluence of the Jamuna and Ichhamati. Contemporary and near-contemporary accounts describe his territory as covering much of the greater Jessore, Khulna, and Barisal regions and emphasize his material resources, forts, and large fleet of war-boats.",
+  "context": "His family rose during the transition from the Karrani sultanate to Mughal rule: Srihari had served Daud Khan Karrani before establishing a base in the southern delta after the Mughal conquest. In 1608 Pratapaditya sent an envoy and his son to Islam Khan, submitted personally in 1609, and agreed to support the Mughal campaign. He then failed to fulfil the military terms, showing that submission could be a tactical negotiation rather than acceptance of full imperial control.",
+  "impact": "Islam Khan responded with a major land-and-naval expedition in 1611–1612. Pratapaditya's forces, including Portuguese, Afghan, and Pathan officers, defended Salka with a fleet of about 500 war-boats and fought again near Kagarghat, but Mughal victories forced his submission. He was taken to Dhaka in chains and his kingdom was annexed; the details of his final death, often placed at Benares while being sent to Delhi, remain uncertain.",
+  "highlight": "Pratapaditya built one of early-modern Bengal's strongest delta polities before Islam Khan's 1611–12 campaign brought Jessore under Mughal control.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "pratapaditya",
+    "jessore",
+    "dhumghat",
+    "naval-warfare",
+    "islam-khan-chishti",
+    "mughal-bengal"
   ]
 }

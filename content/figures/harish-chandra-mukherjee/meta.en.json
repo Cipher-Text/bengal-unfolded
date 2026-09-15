@@ -1,8 +1,19 @@
 {
   "name": "Harish Chandra Mukherjee",
-  "role": "Journalist and Editor",
+  "name_en": "Harish Chandra Mukherjee",
+  "seoTitle": "Harish Chandra Mukherjee: Editor of the Hindoo Patriot",
+  "seoDescription": "Harish Chandra Mukherjee used the Hindoo Patriot to expose indigo-planter abuses, shape colonial public opinion, and support social reform in Bengal.",
+  "activePeriod": "1824–1862",
+  "role": "Founding editor of the Hindoo Patriot and public commentator",
   "group": "leader",
-  "contribution": "Harish Chandra Mukherjee is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Press-led critique of indigo oppression and colonial governance.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Harish Chandra Mukherjee became the owner and founding editor of the Hindoo Patriot, using its editorials to document the coercion and violence inflicted on indigo cultivators. During the Indigo Resistance of 1859–1860, the paper helped carry rural grievances to educated readers and wider public debate.",
+  "context": "Colonial Bengal after the 1857 uprising, when newspapers negotiated between criticism of administrative injustice and faith in British liberal reform. Mukherjee also supported widow remarriage and female education while participating in the British Indian Association.",
+  "impact": "The Hindoo Patriot became one of the most influential English-language voices against planter abuses, attracting public condemnation and strengthening pressure for official investigation through the Indigo Commission. Mukherjee's journalism helped make the press an important arena for social reform and colonial accountability before his death at age 38.",
+  "tags": [
+    "hindoo-patriot",
+    "indigo-resistance",
+    "colonial-press",
+    "social-reform",
+    "bengal-public-sphere"
+  ]
 }

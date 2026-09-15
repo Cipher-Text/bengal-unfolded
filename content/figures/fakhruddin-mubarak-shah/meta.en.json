@@ -1,8 +1,19 @@
 {
   "name": "Fakhruddin Mubarak Shah",
-  "role": "Sultan of Sonargaon",
+  "name_en": "Fakhruddin Mubarak Shah",
+  "seoTitle": "Fakhruddin Mubarak Shah: Sultan of Sonargaon, 1338–1349",
+  "seoDescription": "Fakhruddin Mubarak Shah founded an independent sultanate at Sonargaon, expanded into Chittagong, and made eastern Bengal a centre of trade in the fourteenth century.",
+  "activePeriod": "1338–1349",
+  "role": "Founder of the independent Sonargaon Sultanate",
   "group": "leader",
-  "contribution": "Fakhruddin Mubarak Shah is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "14th-century eastern Bengal state formation and independent sultanate politics.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Fakhruddin Mubarak Shah was the armoury superintendent of Bahram Khan, the Tughlaq governor of Sonargaon. After Bahram Khan's death, he seized power, declared independence in 1338, and established Sonargaon as the headquarters of one of the earliest independent Muslim sultanates in Bengal. He later expanded into Chittagong and parts of eastern and southern Bengal.",
+  "context": "The political fragmentation that followed the weakening of Delhi's direct authority in Bengal. Fakhruddin's Sonargaon state competed with rulers at Lakhnauti and Satgaon while using the region's rivers, ports, and naval forces to project power.",
+  "impact": "His reign connected state formation with trade and urban prosperity. Ibn Battuta, who visited Bengal in 1346, described abundant commodities, active commerce, and Sonargaon's links with China and Java. Coins, provincial divisions, and the conquest of Chittagong record the institutional reach of his sultanate before Iliyas Shah unified Bengal in 1352.",
+  "tags": [
+    "sonargaon",
+    "bengal-sultanate",
+    "chittagong",
+    "ibn-battuta",
+    "fourteenth-century-bengal"
+  ]
 }

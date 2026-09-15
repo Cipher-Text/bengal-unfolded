@@ -1,15 +1,21 @@
 {
   "name": "Devapala",
   "name_en": "Devapala",
-  "role": "Pala ruler linked to the high phase of Pala influence",
+  "seoTitle": "Devapala: Pala Emperor and Patron of Nalanda, c. 821–861",
+  "seoDescription": "Devapala strengthened the Pala Empire in Bengal and Bihar, resisted rival powers, and supported Nalanda and Buddhist networks across South and Southeast Asia.",
+  "activePeriod": "c. 821–861",
+  "role": "Pala emperor, military ruler, and Buddhist patron",
   "group": "leader",
-  "contribution": "Devapala played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Devapala succeeded Dharmapala and presided over the high phase of Pala power in the ninth century. He maintained the struggle for influence in northern India against the Gurjara-Pratiharas and is associated with campaigns toward Utkala, the Dravida south, and Pragjyotisa in the northeast, although royal inscriptions naturally present these victories in highly expansive language.",
+  "context": "His reign formed part of the tripartite competition among the Palas, Gurjara-Pratiharas, and Rashtrakutas for influence around Kanauj and the middle Ganga region. The evidence suggests that Devapala preserved a large inherited sphere of power and extended Pala influence in some directions, but the exact limits and duration of those conquests remain difficult to establish from eulogistic copperplates.",
+  "impact": "Devapala's patronage connected Bengal and Bihar to a wider Buddhist world. At the request of the Shailendra ruler Balaputradeva of Java and Sumatra, he granted five villages to support a monastery at Nalanda and appointed the scholar Viradeva to lead the Nalanda monasteries. These links illustrate the intellectual and diplomatic networks sustained by the Pala court.",
+  "highlight": "Devapala combined Pala military power with Buddhist patronage that connected Nalanda to South and Southeast Asian networks.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "pala-dynasty",
+    "nalanda",
+    "buddhist-patronage",
+    "early-medieval-bengal",
+    "north-indian-politics",
+    "southeast-asia"
   ]
 }

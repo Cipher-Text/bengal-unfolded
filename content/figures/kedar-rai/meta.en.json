@@ -1,15 +1,21 @@
 {
   "name": "Kedar Rai",
   "name_en": "Kedar Rai",
-  "role": "Regional chief associated with anti-Mughal resistance networks",
+  "seoTitle": "Kedar Rai: Vikrampur Zamindar and Naval Power in Bengal",
+  "seoDescription": "Kedar Rai ruled from Sripur, commanded a large river fleet, and resisted Mughal expansion through alliances with Isa Khan and other Bhati chiefs.",
+  "activePeriod": "late 16th–early 17th century",
+  "role": "Vikrampur zamindar, naval commander, and Bara-Bhuiyan chief",
   "group": "leader",
-  "contribution": "Kedar Rai played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Kedar Rai, son of Jadav Rai, was the zamindar of Vikrampur and Sripur, whose capital stood on the Kaliganga. He commanded a large fleet of war-boats and employed Portuguese adventurers, including Carvalho, as captains. His river power enabled him to cooperate with Isa Khan and other Bhati chiefs against Mughal expansion.",
+  "context": "Kedar Rai's authority belonged to the fluid political world of late-sixteenth-century Bhati, where riverine zamindars could operate with considerable autonomy. In 1593 he and Khwaja Sulaiman Lohani captured the Mughal fort of Bhusna; an imperial counterattack in 1596 killed Sulaiman and wounded Kedar, who took refuge with Isa Khan at Sonargaon. The chronology also shows that alliances could shift: in 1602 he promised loyalty to Akbar, but soon resumed armed opposition.",
+  "impact": "In 1603 Kedar Rai joined an Arakanese Magh fleet and attacked the Mughal outpost at Srinagar. He was wounded and captured in the fighting near Vikrampur and died while being taken to Raja Man Singh. His career demonstrates how naval warfare, Portuguese military labour, Arakanese alliances, and local zamindari power complicated the Mughal conquest of eastern Bengal.",
+  "highlight": "Kedar Rai used Sripur's river fleet and shifting alliances to make Vikrampur one of the strongest centres of resistance to Mughal expansion.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "vikrampur",
+    "sripur",
+    "bara-bhuiyans",
+    "naval-warfare",
+    "isa-khan",
+    "mughal-bengal"
   ]
 }

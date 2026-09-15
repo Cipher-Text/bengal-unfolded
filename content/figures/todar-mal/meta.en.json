@@ -1,8 +1,19 @@
 {
   "name": "Todar Mal",
-  "role": "Mughal Revenue Administrator",
+  "name_en": "Todar Mal",
+  "seoTitle": "Todar Mal: Mughal Revenue Administrator in Bengal",
+  "seoDescription": "Todar Mal helped organize Mughal revenue administration, assisted Munim Khan against the Karranis, and shaped Bengal's 1582 fiscal settlement.",
+  "activePeriod": "1571–1582 imperial service; Bengal campaigns in 1574–1575",
+  "role": "Mughal finance minister and revenue administrator",
   "group": "leader",
-  "contribution": "Todar Mal is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Imperial revenue restructuring and fiscal integration in Bengal.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Raja Todar Mal was Akbar's finance minister and one of the principal architects of Mughal revenue administration. In the Bengal campaign he assisted Munim Khan against Daud Khan Karrani, pursued the retreating Afghan army after the Battle of Tukaroi in 1575, and helped force the Treaty of Katak.",
+  "context": "The transition from military conquest to fiscal integration under Akbar. Todar Mal's Bengal settlement is associated with the 1582 division of the province into 19 sarkars and their parganas, although much of Bengal was still outside effective Mughal control when the initial figures were prepared.",
+  "impact": "His settlement gave Mughal officials a standardized framework for assessing land revenue, distinguishing khalsa and jagir lands, and organizing local collection through administrative units. The system was later adjusted as Mughal authority expanded across Bengal and remained an important reference for subsequent revenue settlements.",
+  "tags": [
+    "mughal-administration",
+    "revenue-settlement",
+    "bengal-subah",
+    "tukaroi",
+    "akbar"
+  ]
 }

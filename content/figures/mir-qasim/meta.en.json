@@ -1,8 +1,19 @@
 {
   "name": "Mir Qasim",
-  "role": "Nawab of Bengal",
+  "name_en": "Mir Qasim",
+  "seoTitle": "Mir Qasim: Nawab of Bengal and Opponent of Company Rule",
+  "seoDescription": "Mir Qasim ruled Bengal from 1760 to 1763, rebuilt the nawabi army, challenged Company trade privileges, and joined the coalition defeated at Buxar.",
+  "activePeriod": "1760–1763",
+  "role": "Nawab of Bengal and challenger to East India Company power",
   "group": "leader",
-  "contribution": "Mir Qasim is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Conflict between Bengal nawabi authority and East India Company power.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Installed as nawab in 1760 after the Company's removal of Mir Jafar, Mir Qasim tried to restore the financial and military capacity of Bengal's government. He moved the capital from Murshidabad to Monghyr, reorganised the army, surveyed land, resumed rent-free estates, and increased revenue collection.",
+  "context": "The period after Plassey, when the East India Company's private trade and political intervention increasingly constrained the nawab's authority. Company servants abused the 1717 dastak system to avoid inland duties, disadvantaging Indian merchants and reducing the nawab's customs revenue.",
+  "impact": "Mir Qasim abolished internal customs duties so Indian traders would not face a disadvantage that Company servants had claimed for themselves. The resulting conflict led to war in 1763; after defeat, he joined Shuja-ud-Daula and Shah Alam II, but the coalition lost at Buxar in 1764. The defeat strengthened the Company's claim to political supremacy and preceded the 1765 grant of the Diwani.",
+  "tags": [
+    "nawab-of-bengal",
+    "company-rule",
+    "dastak",
+    "monghyr",
+    "battle-of-buxar"
+  ]
 }

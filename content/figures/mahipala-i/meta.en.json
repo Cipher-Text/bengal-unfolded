@@ -1,15 +1,20 @@
 {
   "name": "Mahipala I",
   "name_en": "Mahipala I",
-  "role": "Later Pala ruler linked to political recovery and consolidation",
+  "seoTitle": "Mahipala I: The Pala Revival in Bengal, c. 995–1043",
+  "seoDescription": "Mahipala I revived Pala power after a century of decline, recovered territory in Bengal and Bihar, and supported Buddhist institutions and public works.",
+  "activePeriod": "c. 995–1043",
+  "role": "Pala emperor associated with the dynasty's second foundation",
   "group": "leader",
-  "contribution": "Mahipala I played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Mahipala I succeeded to a weakened Pala kingdom around 995 and recovered much of the dynasty's lost position in Bengal. His authority is securely attested in southern Bihar and, toward the end of his reign, northern Bihar; inscriptions and archaeological evidence also connect his rule with the wider Pala heartland.",
+  "context": "The transition from the long stagnation that followed Devapala's reign to a renewed Pala state. Bengal was divided among competing powers, including Kamboja rulers, the Chandra dynasty, and regional chiefs, while the Cholas and other north Indian powers pressed into eastern India.",
+  "impact": "Mahipala's recovery gave the Pala dynasty a second lease of life and made him a popular figure in Bengali memory, where songs and public works preserved his name. At Somapura Mahavihara, repairs, renewed monastic activity, and votive monuments during his reign demonstrate the continuing cultural importance of Pala Buddhist institutions.",
+  "highlight": "Mahipala I restored Pala power after a century of decline and became the dynasty's second founder.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "pala-dynasty",
+    "pala-revival",
+    "somapura-mahavihara",
+    "bihar",
+    "bengal-history"
   ]
 }

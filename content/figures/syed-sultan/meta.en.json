@@ -1,8 +1,21 @@
 {
   "name": "Syed Sultan",
-  "role": "Bengali Muslim Poet",
+  "name_en": "Syed Sultan",
+  "seoTitle": "Syed Sultan: Bengali Muslim Poet and Author of Nabibangsha",
+  "seoDescription": "Syed Sultan was a medieval Bengali Muslim poet from Chittagong, best known for Nabibangsha and his Bengali explanations of Islamic and Sufi ideas.",
+  "activePeriod": "c. 1550–1648",
+  "role": "Medieval Bengali Muslim poet and religious writer",
   "group": "leader",
-  "contribution": "Syed Sultan is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Literary and religious writing in southeastern Bengal-Arakan zones.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Syed Sultan, a poet from Patiya in the Chittagong region, wrote Nabibangsha, a long Bengali poem based on the Persian Qisas al-Anbiya tradition. It narrates sacred history from creation and the earlier prophets through the life of Muhammad, making Islamic learning available in a major regional language.",
+  "context": "He worked in the literary world of southeastern Bengal in the late sixteenth and early seventeenth centuries, when Bengali Muslim poets adapted Persian and Arabic religious traditions for local readers. His other attributed works include Rasulbijay, Shab-i-Miraj, Ofat-i-Rasul, Iblisnama, and Jnanachautisha; the latter also engages Sufi and yogic ideas.",
+  "impact": "Syed Sultan helped expand the Bengali Muslim literary tradition by presenting Islamic narratives and difficult Sufi concepts in accessible Bengali verse. His work shows how religious knowledge circulated through vernacular poetry rather than only through Persian or Arabic texts.",
+  "highlight": "Syed Sultan made prophetic history and Islamic ideas accessible to Bengali readers through Nabibangsha and related devotional poetry.",
+  "tags": [
+    "bengali-literature",
+    "muslim-bangla-literature",
+    "nabibangsha",
+    "sufi-literature",
+    "chittagong",
+    "medieval-bengal"
+  ]
 }

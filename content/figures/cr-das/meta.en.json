@@ -1,9 +1,20 @@
 {
   "name": "C. R. Das",
-  "role": "Nationalist Leader",
+  "name_en": "Chittaranjan Das",
+  "seoTitle": "C. R. Das (Deshabandhu): Bengal Nationalist Leader",
+  "seoDescription": "C. R. Das led Bengal's nationalist politics, founded the Swaraj Party, negotiated the Bengal Pact, and became Calcutta's first elected mayor.",
+  "activePeriod": "1870–1925",
+  "role": "Bengal nationalist leader, barrister, and Swaraj Party founder",
   "group": "leader",
-  "contribution": "C. R. Das is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Anti-colonial mass politics and Bengal constitutional debates in the early 20th century.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period.",
+  "contribution": "Chittaranjan Das became a leading nationalist lawyer after defending Aurobindo Ghosh in the 1908 Alipore Bomb Case. He later abandoned his legal practice during the Non-cooperation Movement, opposed the Congress boycott of legislatures, and founded the Swaraj Party with Motilal Nehru and other colleagues in 1923.",
+  "context": "Early twentieth-century Bengal, where anti-colonial mass politics, constitutional obstruction, municipal government, and debates over Hindu-Muslim representation increasingly overlapped. Das argued that elected councils could be used for continuous opposition to colonial rule.",
+  "impact": "As a Swarajist leader, Das helped win a major 1923 Bengal Legislative Council victory and became Calcutta's first elected mayor in 1924. His Bengal Pact sought Hindu-Muslim political accommodation, while his leadership influenced figures including Subhas Chandra Bose and left a lasting mark on Bengal's nationalist politics.",
+  "tags": [
+    "swadeshi-movement",
+    "swaraj-party",
+    "bengal-pact",
+    "calcutta-corporation",
+    "hindu-muslim-unity"
+  ],
   "image": "/figures/cr-das.webp"
 }

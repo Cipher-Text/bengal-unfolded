@@ -1,15 +1,21 @@
 {
   "name": "Lakshmana Sena",
   "name_en": "Lakshmana Sena",
-  "role": "Last major Sena ruler before Turkic conquest phase",
+  "seoTitle": "Lakshmana Sena: Sena Ruler and Patron of Bengali Sanskrit Culture",
+  "seoDescription": "Lakshmana Sena ruled Bengal from c. 1178 to 1206, patronized Sanskrit court culture, and continued Sena authority in eastern Bengal after Nadia fell to Bakhtiyar Khalji.",
+  "activePeriod": "c. 1178–1206",
+  "role": "Sena ruler, Vaishnava patron, and court-culture builder",
   "group": "leader",
-  "contribution": "Lakshmana Sena played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Lakshmana Sena ruled the Sena kingdom from about 1178 to 1206, succeeding Ballala Sena. His reign continued Sena authority across much of Bengal while strengthening the court at Nadia and the long-standing capital of Vikramapura. He is associated with a major Sanskrit literary circle that included Jayadeva, Dhoyi, Govardhana, Umapatidhara, and Sharan.",
+  "context": "The compilation of Sridharadasa's Saduktikarnamrita in 1205, during Lakshmana Sena's twenty-seventh regnal year, records the density of Sanskrit literary production at the Sena court. Lakshmana Sena was a devotee of Vishnu and patronized scholars, but the period also reflected Brahmanical social consolidation and the complex regional structure of Sena rule rather than a uniformly centralized state.",
+  "impact": "Bakhtiyar Khalji's sudden capture of Nadia in 1204–05 ended Sena control in parts of western and northern Bengal, but it did not erase the dynasty immediately. Lakshmana Sena withdrew to Vikramapura, and his sons Vishvarupasena and Keshavasena continued to rule in eastern and southern Bengal for decades. His reign therefore marks both the high cultural phase of the Senas and the fragmented transition into Sultanate rule.",
+  "highlight": "Lakshmana Sena presided over the Sena court's Sanskrit flowering and maintained eastern-Bengal rule after Nadia fell to Bakhtiyar Khalji.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "sena-dynasty",
+    "nadia",
+    "vikramapura",
+    "sanskrit-literature",
+    "saduktikarnamrita",
+    "bakhtiyar-khalji"
   ]
 }

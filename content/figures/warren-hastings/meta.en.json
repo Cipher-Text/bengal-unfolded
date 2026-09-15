@@ -1,8 +1,21 @@
 {
   "name": "Warren Hastings",
-  "role": "Company Governor-General",
+  "name_en": "Warren Hastings",
+  "seoTitle": "Warren Hastings: First Governor-General of Bengal, 1772–1785",
+  "seoDescription": "Warren Hastings reorganized Company revenue, courts, and administration in Bengal, helping build colonial state power after the Diwani grant.",
+  "activePeriod": "1772–1785",
+  "role": "East India Company governor and first Governor-General of Bengal",
   "group": "leader",
-  "contribution": "Warren Hastings is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Early colonial state-building and revenue-administrative centralization in Bengal.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "As Governor of Bengal from 1772 and Governor-General of Fort William from 1774 to 1785, Warren Hastings brought the Company's Diwani administration more directly under its own officials. He moved the revenue headquarters from Murshidabad to Calcutta, created new revenue structures, and reorganized civil and criminal courts under Company supervision.",
+  "context": "Hastings governed after the 1765 grant of Diwani and the devastating famine of 1770, as the East India Company shifted from a commercial power toward a territorial state. The Regulating Act of 1773 made him the first Governor-General and established a Supreme Council and Supreme Court in Calcutta. His revenue experiments, including the five-year farming settlement, sought higher and more regular collections but placed pressure on zamindars and cultivators.",
+  "impact": "His administration helped establish the institutional foundations of British colonial rule in Bengal, including district revenue administration and courts that adapted existing Indian legal traditions to Company governance. His legacy remains contested: the same state-building measures were tied to extraction, military expansion, and charges of corruption and oppression that later led to his impeachment trial, though he was acquitted.",
+  "highlight": "Warren Hastings helped turn East India Company influence in Bengal into a centralized colonial administration of revenue, courts, and political power.",
+  "tags": [
+    "east-india-company",
+    "colonial-bengal",
+    "diwani",
+    "revenue-administration",
+    "regulating-act-1773",
+    "calcutta"
+  ]
 }

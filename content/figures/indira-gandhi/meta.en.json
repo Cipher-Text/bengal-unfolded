@@ -1,14 +1,15 @@
 {
   "name": "Indira Gandhi",
-  "role": "Prime Minister of India",
+  "role": "Prime Minister of India who supported Bangladesh's liberation in 1971",
   "group": "leader",
-  "contribution": "Indira Gandhi is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Indias wartime diplomatic and military posture during the 1971 conflict.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period.",
+  "contribution": "As India's Prime Minister in 1971, Indira Gandhi gave political support to the Bengali struggle for independence, opened India's border to refugees fleeing the Pakistan Army's violence, and backed assistance and training for the Mukti Bahini. Her government also carried the crisis into international diplomacy as the refugee burden and repression grew.",
+  "context": "India's involvement developed in response to the March 1971 military crackdown, the formation of the Mujibnagar Government, and the arrival of millions of refugees in West Bengal and other border states. Gandhi's policy combined humanitarian relief, international advocacy, and strategic preparation; Bangladesh's liberation remained the result of the Bengali people's own mass movement and armed struggle, not an Indian-created event.",
+  "impact": "After Pakistan's attack on India in December 1971, Indian forces entered the war alongside the Bangladesh Forces and contributed to the defeat and surrender of Pakistani forces on 16 December. Gandhi's leadership helped transform a regional humanitarian and political crisis into coordinated interstate action, while also shaping the difficult post-war questions of refugees, prisoners of war, and recognition.",
+  "highlight": "Indira Gandhi connected India's refugee relief, diplomacy, and December 1971 military intervention to the wider international crisis created by Bangladesh's liberation struggle.",
   "name_en": "Indira Gandhi",
-  "seoTitle": "Indira Gandhi - 1971 Liberation War Profile",
-  "seoDescription": "Profile of Indira Gandhi, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
-  "shortAnswer": "Indira Gandhi is linked to the 1971 Liberation War in this timeline as Prime Minister of India.",
+  "seoTitle": "Indira Gandhi and the 1971 Bangladesh Liberation War",
+  "seoDescription": "Learn how Indira Gandhi supported Bangladesh's 1971 liberation struggle through refugee relief, diplomacy, Mukti Bahini assistance, and India's December intervention.",
+  "shortAnswer": "Indira Gandhi supported Bangladesh's 1971 liberation struggle through refugee relief, diplomatic advocacy, assistance to the Mukti Bahini, and India's December military intervention.",
   "activePeriod": "1971",
   "primaryEventIds": [
     "1971-liberation-war"
@@ -29,7 +30,7 @@
   "faq": [
     {
       "question": "How is Indira Gandhi connected to 1971?",
-      "answer": "Indira Gandhi is linked to the Liberation War through the project timeline as Prime Minister of India. Indira Gandhi is included as a key historical actor for understanding this chapter's political and social."
+      "answer": "As India's Prime Minister, Indira Gandhi supported Bangladesh's liberation struggle through refugee relief, international diplomacy, assistance to the Mukti Bahini, and India's military intervention in December 1971."
     }
   ],
   "tags": [

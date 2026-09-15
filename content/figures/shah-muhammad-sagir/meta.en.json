@@ -1,8 +1,19 @@
 {
   "name": "Shah Muhammad Sagir",
-  "role": "Poet of Early Bengali Muslim Literature",
+  "name_en": "Shah Muhammad Sagir",
+  "seoTitle": "Shah Muhammad Sagir: Poet of Yusuf-Zulekha in Bengal",
+  "seoDescription": "Shah Muhammad Sagir was a late-fourteenth- or early-fifteenth-century Bengali poet whose Yusuf-Zulekha brought Perso-Arabic literary themes into Bengali verse.",
+  "activePeriod": "Late 14th–early 15th century",
+  "role": "Court poet and pioneer of Bengali Muslim literature",
   "group": "leader",
-  "contribution": "Shah Muhammad Sagir is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Formation of Bengali literary culture in the late medieval period.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Shah Muhammad Sagir wrote Yusuf-Zulekha, a Bengali narrative poem based on the Qur'anic story of Joseph and Zulekha. Its praise of Sultan Ghiyasuddin Azam Shah suggests that Sagir was probably a court poet and composed the work under the Sultan's patronage or request.",
+  "context": "The late-fourteenth- and early-fifteenth-century literary world of the Bengal Sultanate, when Persian and Arabic narrative and devotional traditions were being adapted for Bengali-speaking audiences.",
+  "impact": "Sagir is often regarded as the first Bengali writer to bring Perso-Arabic literary themes into Bengali. Yusuf-Zulekha combines religious teaching with human love, uses payar and tripadi metres, and includes references to musical modes that suggest parts of the poem were designed for singing.",
+  "tags": [
+    "bengali-literature",
+    "yusuf-zulekha",
+    "bengal-sultanate",
+    "ghiyasuddin-azam-shah",
+    "medieval-bengal"
+  ]
 }

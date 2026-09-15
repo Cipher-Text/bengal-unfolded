@@ -1,8 +1,19 @@
 {
   "name": "Sulaiman Khan Karrani",
-  "role": "Karrani Ruler of Bengal",
+  "name_en": "Sulaiman Khan Karrani",
+  "seoTitle": "Sulaiman Khan Karrani: Afghan Sultan of Bengal, 1563–1572",
+  "seoDescription": "Sulaiman Khan Karrani ruled Bengal through diplomacy with Akbar, moved the capital to Tanda, and expanded Karrani power into Orissa.",
+  "activePeriod": "1563–1572",
+  "role": "Afghan Karrani Sultan of Bengal",
   "group": "leader",
-  "contribution": "Sulaiman Khan Karrani is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Late Afghan rule in Bengal before decisive Mughal incorporation.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Sulaiman Khan Karrani succeeded his brother Taj Khan in 1563 and built a powerful Afghan kingdom in Bengal and Bihar. He moved the capital from Gaur to Tanda, expanded Karrani authority into Orissa in 1567–1568, and maintained a large military base in eastern India.",
+  "context": "The final phase of independent Afghan rule in Bengal, when Akbar's Mughal empire was expanding eastward but had not yet secured lasting control over the province. Sulaiman avoided open war with Akbar while presenting outward submission through gifts, the khutbah, and coinage in the emperor's name.",
+  "impact": "His diplomacy preserved Bengal's practical independence during his lifetime, while his Orissa campaign extended Karrani power from Kuch Bihar toward Puri. His death in 1572 opened a succession crisis that weakened the dynasty before the Mughal conquest of Bengal in 1576.",
+  "tags": [
+    "karrani-dynasty",
+    "afghan-bengal",
+    "tanda",
+    "orissa",
+    "akbar"
+  ]
 }

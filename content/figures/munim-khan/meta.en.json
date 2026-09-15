@@ -1,8 +1,19 @@
 {
   "name": "Munim Khan",
-  "role": "Mughal Commander",
+  "name_en": "Munim Khan",
+  "seoTitle": "Munim Khan: Mughal General in Bengal and Tukaroi, 1575",
+  "seoDescription": "Munim Khan led Akbar's Bengal campaign, captured Tanda, defeated Daud Khan Karrani at Tukaroi, and prepared the ground for Mughal rule.",
+  "activePeriod": "1574–1575 in the Bengal campaign",
+  "role": "Mughal general and first Mughal governor of Bengal",
   "group": "leader",
-  "contribution": "Munim Khan is included as a key historical actor for understanding this chapter's political and social context.",
-  "context": "Mughal campaigns to secure Bengal after Karrani resistance.",
-  "impact": "Their role helps explain how power, institutions, or ideas shifted during this period."
+  "contribution": "Munim Khan led Akbar's imperial army against Daud Khan Karrani and captured Tanda, the Karrani capital, in September 1574. With Todar Mal's assistance, he defeated Daud at the Battle of Tukaroi on 3 March 1575 and secured the Treaty of Katak, under which Daud ceded Bengal and Bihar while retaining Orissa.",
+  "context": "The first major Mughal attempt to convert military pressure on the Karrani state into provincial rule. Munim Khan operated across Bihar, Bengal, and Orissa while local Afghan power remained strong and control of capitals such as Tanda and Gaur did not automatically secure the whole region.",
+  "impact": "His victory at Tukaroi established a temporary Mughal foothold in Bengal and laid the groundwork for the later defeat of Daud at Rajmahal in 1576. Munim Khan made Gaur his headquarters, but died there in October 1575 during a severe plague before Mughal control became durable.",
+  "tags": [
+    "mughal-bengal",
+    "tukaroi",
+    "karrani-dynasty",
+    "akbar",
+    "gaur"
+  ]
 }

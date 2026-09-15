@@ -1,15 +1,21 @@
 {
   "name": "Dharmapala",
   "name_en": "Dharmapala",
-  "role": "Pala ruler associated with imperial expansion in early medieval Bengal",
+  "seoTitle": "Dharmapala: Pala Emperor and Founder of Vikramashila, c. 781–821",
+  "seoDescription": "Dharmapala expanded Pala influence from Bengal and Bihar toward Kanauj and founded major Buddhist institutions including Vikramashila and Somapura.",
+  "activePeriod": "c. 781–821",
+  "role": "Pala emperor, imperial strategist, and Buddhist patron",
   "group": "leader",
-  "contribution": "Dharmapala played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Son and successor of Gopala, Dharmapala turned the Pala dynasty into a major power in Bengal and Bihar. During the tripartite struggle with the Gurjara-Pratiharas and Rashtrakutas for influence around Kanauj, he recovered from an early defeat, extended Pala influence toward the middle Ganga region, and installed his ally Chakrayudha on the Kanauj throne, probably for a limited period.",
+  "context": "The Khalimpur copperplate describes Dharmapala as a universal ruler whose authority reached a long list of northern Indian kingdoms. That language is a royal eulogy rather than a precise map of permanent control: other evidence supports significant Pala influence around Kanauj, but not an undisputed empire over all of northern India. Dharmapala nevertheless preserved Pala control over Bengal and Bihar and made Bengal a force in north Indian politics.",
+  "impact": "Dharmapala was a major Buddhist patron and is credited with founding Vikramashila Mahavihara in Bihar, one of the great centres of Buddhist learning from the ninth to twelfth centuries. He also founded Somapura Mahavihara at Paharpur, whose architecture and terracotta art became defining achievements of the Pala period and part of a wider Asian Buddhist network.",
+  "highlight": "Dharmapala made Bengal a major northern Indian power while building Buddhist institutions whose influence extended far beyond the Pala kingdom.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "pala-dynasty",
+    "vikramashila",
+    "somapura-mahavihara",
+    "kanauj",
+    "buddhist-patronage",
+    "early-medieval-bengal"
   ]
 }

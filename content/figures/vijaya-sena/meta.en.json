@@ -1,15 +1,20 @@
 {
   "name": "Vijaya Sena",
   "name_en": "Vijaya Sena",
-  "role": "Sena ruler associated with transition in late pre-Sultanate Bengal",
+  "seoTitle": "Vijaya Sena: Founder of the Sena Dynasty in Bengal",
+  "seoDescription": "Vijaya Sena rose from a Pala-era subordinate ruler to found the Sena dynasty, defeat rival powers, and unite much of Bengal in the 12th century.",
+  "activePeriod": "c. 1097–1160",
+  "role": "Founder of the Sena dynasty in Bengal",
   "group": "leader",
-  "contribution": "Vijaya Sena played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Vijaya Sena rose from a subordinate position in Radha under the Palas and established independent power as Pala authority weakened. He defeated the Palas in Gauda, displaced the Varmans in southeastern Bengal, and built the Sena dynasty into the dominant power across much of Bengal by the middle of the 12th century.",
+  "context": "The political transition after Ramapala, when Pala authority fragmented and regional powers competed for Radha, Gauda, Vanga, and the north. Vijaya's marriage alliance with the Sura family and reported alliance with the Orissan ruler Anantavarman Chodaganga strengthened his position.",
+  "impact": "The Deopara Prashasti records Vijaya's victories over rivals associated with Mithila, Kamarupa, Kalinga, and Gauda, while also describing a western naval expedition along the Ganges; its eulogistic claims require historical caution. He patronised Shaiva worship, Brahmins, the poor, and the Pradyumneshvara temple, while his reign established the political framework inherited by Vallalasena and Lakshmanasena.",
+  "highlight": "Vijaya Sena transformed a powerful Pala feudatory position into the Sena dynasty's Bengal-wide rule.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "sena-dynasty",
+    "pala-transition",
+    "gauda",
+    "radha",
+    "deopara-prashasti"
   ]
 }

@@ -1,15 +1,21 @@
 {
   "name": "Chand Rai",
   "name_en": "Chand Rai",
-  "role": "Regional landed-military figure linked to Bhati resistance context",
+  "seoTitle": "Chand Rai: Vikrampur Zamindar and Bhati Resistance Leader",
+  "seoDescription": "Chand Rai was a Vikrampur zamindar who joined Kedar Rai and Khwaja Sulaiman Lohani in resisting Mughal control in the riverine Bhati region of Bengal.",
+  "activePeriod": "late 16th century",
+  "role": "Vikrampur zamindar and Bhati military chief",
   "group": "leader",
-  "contribution": "Chand Rai played a notable role in Bengal's changing political order and regional power dynamics.",
-  "context": "Referenced in relation to major transitions in sovereignty, administration, or resistance politics in Bengal.",
-  "impact": "Helps explain continuity and change across Bengal's medieval-to-early-modern historical arc.",
-  "highlight": "A key historical actor for understanding this transition phase in Bengal.",
+  "contribution": "Chand Rai was a zamindar of Vikrampur, associated in several accounts with the Sripur estate and with Kedar Rai, probably his younger brother. In 1593 he joined Kedar Rai and Khwaja Sulaiman Lohani in besieging and capturing the Mughal fort of Bhusna, demonstrating the ability of riverine chiefs to coordinate forces against imperial garrisons.",
+  "context": "The genealogy and exact division of authority between Chand Rai and Kedar Rai are uncertain: later traditions variously describe their relationship and roles. Their power belonged to the wider Bhati world of low-lying, river-connected chiefdoms where zamindars could maintain semi-independent authority and use waterways, forts, and local alliances to resist Mughal expansion.",
+  "impact": "Chand Rai was killed at the opening stage of the encounter for Bhusna, but his role in the 1593 operation places him within the military history of the Bara-Bhuiyan period. His career shows that Mughal conquest in eastern Bengal was contested not only by famous commanders such as Isa Khan, but also by interconnected local powers whose histories are often preserved unevenly in chronicles and regional traditions.",
+  "highlight": "Chand Rai helped lead a Vikrampur-based alliance that captured Bhusna from the Mughals in 1593 before his death in the fighting.",
   "tags": [
-    "bengal-history",
-    "rulership",
-    "political-transition"
+    "vikrampur",
+    "bhati",
+    "bara-bhuiyans",
+    "bhusna",
+    "kedar-rai",
+    "mughal-bengal"
   ]
 }
