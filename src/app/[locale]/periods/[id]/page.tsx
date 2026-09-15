@@ -126,7 +126,7 @@ export default async function PeriodDetailPage({
               subtitle={labels.eventCount(events.length)}
             />
             <div className="mt-6 space-y-4">
-              {events.map((event, index) => (
+              {events.map((event) => (
                 <div
                   key={event.slug}
                   id={`event-${event.slug}`}
