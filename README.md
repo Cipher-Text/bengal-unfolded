@@ -15,20 +15,16 @@ Bengal Unfolded is a digital project that presents the history of Bengal and Ban
 
 ### Core Documentation
 - [Content Model](docs/CONTENT_MODEL.md)
-- [Project Structure](docs/PROJECT_STRUCTURE.md)
 - [Changelog](docs/CHANGELOG.md)
 - [Roadmap](docs/ROADMAP.md)
 
 ### Editorial & Quality Guidelines
 - [AI Integration Contract](docs/AI_CONTRACT.md)
-- [Editorial Rules](docs/EDITORIAL_RULES.md)
-- [Editorial Neutrality](docs/EDITORIAL_NEUTRALITY.md)
-- [Sensitive Political History](docs/SENSITIVE_POLITICAL_HISTORY.md)
-- [Source Quality Rubric](docs/SOURCE_QUALITY.md)
+- [Editorial Guidelines](docs/EDITORIAL_GUIDELINES.md)
 
 ### Technical
 - [Performance Guardrails](docs/PERFORMANCE.md)
-- [SEO Audit](docs/seo-audit.md)
+- [SEO Audit Archive](docs/archive/seo-audit.md)
 
 ### Archive
 - [Deep Research Report](docs/archive/deep-research-report.md)

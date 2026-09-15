@@ -27,7 +27,6 @@ Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/
 - `/[locale]/figures/` and `/[locale]/figures/[id]` — figure index and detail pages
 - `/[locale]/creators/` and `/[locale]/creators/[id]` — public Source Directory / source detail pages for resource-linked people and institutions; internally derived from resource attributions
 - `/[locale]/resources/` and `/[locale]/resources/[id]` — resource index and detail pages
-- `/[locale]/books/[id]` — book detail pages
 - `/[locale]/topics/` and `/[locale]/topics/[slug]` — topic hub index and detail
 - `/[locale]/paths/` and `/[locale]/paths/[slug]` — learning paths index and detail (curated routes through topics)
 - `/[locale]/movements/[id]` — movement detail pages
@@ -39,7 +38,7 @@ Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/
 - `/[locale]/methodology` — public methodology page
 
 **Entity discovery:**
-- Events, figures, books, periods, movements, places: hardcoded in `SUPPORTED_*` constants in `src/types/content.ts`
+- Events, figures, periods, movements, places: hardcoded in `SUPPORTED_*` constants in `src/types/content.ts`
 - Topics, glossary terms: discovered from filesystem via `fs.readdir()`
 - Source Directory entries: internally represented as `Creator` records derived from resource attributions (no separate content directory)
 
@@ -63,8 +62,8 @@ content/
 
 **Key patterns:**
 - React `cache()` wraps all file readers to deduplicate reads within a render cycle.
-- `assertSupportedLocale()`, `assertSupportedEventSlug()`, and the specific ID guards (figure/book) guard against invalid params and throw at the top of page components.
-- Normalization functions (`normalizeFigure()`, `normalizeEventResource()`, `normalizeBook()`) handle schema evolution and legacy field migration. When adding new fields, add them here with fallback defaults.
+- `assertSupportedLocale()`, `assertSupportedEventSlug()`, and the specific ID guards guard against invalid params and throw at the top of page components.
+- Normalization functions (`normalizeFigure()`, `normalizeEventResource()`) handle schema evolution and legacy field migration. When adding new fields, add them here with fallback defaults.
 - The comment at line 1204 marks the CMS migration seam: file readers can be swapped for API adapters without changing return types.
 
 **Performance-optimized loaders:**
@@ -120,7 +119,7 @@ Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS
 
 **New glossary terms:** add a folder under `content/glossary/<term-id>/` with `meta.en.json` and `meta.bn.json`. Glossary terms are filesystem-discovered — no constant registration needed.
 
-**New periods, movements, places, books:** add ID to corresponding `SUPPORTED_*` constant in `src/types/content.ts`, then add content folder and files.
+**New periods, movements, or places:** add ID to the corresponding `SUPPORTED_*` constant in `src/types/content.ts`, then add content folder and files.
 
 ## Documentation
 

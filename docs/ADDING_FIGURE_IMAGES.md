@@ -199,10 +199,9 @@ done
 
 **3. Batch update metadata:**
 
-Use the helper script:
-```bash
-node scripts/batch-add-image-field.mjs /tmp/figure-images-batch/
-```
+Add the matching image path to the `image` field in both
+`content/figures/<figure-id>/meta.en.json` and
+`content/figures/<figure-id>/meta.bn.json`.
 
 **4. Validate all:**
 ```bash

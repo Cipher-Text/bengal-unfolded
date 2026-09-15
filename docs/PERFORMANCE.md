@@ -77,7 +77,6 @@ Record date and results after each optimization pass:
 
 **New Scripts**:
 - `pnpm optimize:images` - converts images to WebP
-- `pnpm update:image-refs` - updates metadata references
 
 **Expected After**:
 - Mobile score: 95-98 (target: >= 85) ✓
