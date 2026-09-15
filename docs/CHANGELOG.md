@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-09-16
+
+### Completed
+
+- Continued the figure-content SEO audit with Andaleeve Rahman Partho, the highest-priority unfinished profile at the start of this pass:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with date-bounded 2026 election and parliamentary-reform context; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Barrister Asaduzzaman Fuaad.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; contemporary political claims remain bounded to the 2026 election context and should be revisited as later reporting develops.
+- Continued the figure-content SEO audit with Barrister Asaduzzaman Fuaad:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Barishal-3 candidacy, public campaign-funding appeal, and election-environment statements; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Badiul Alam Majumdar.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; campaign-finance figures and contemporary political positions remain attributed to dated reporting and should be revisited as later reporting develops.
+- Continued the figure-content SEO audit with Badiul Alam Majumdar:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Electoral System Reform Commission leadership, 2025 recommendations, and 2026 election relevance; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Bhavadeva.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; commission recommendations are described as proposals and should not be read as evidence that every reform was adopted or implemented.
+- Continued the figure-content SEO audit with Bhavadeva:
+  - Content backfill: replaced generic English and Bangla copy with cautious inscriptional and archaeological context for the early Deva dynasty, Samatata, Devaparvata, and Mainamati; added localized SEO titles/descriptions, short answers, aliases, active-period metadata, and FAQs; replaced the `content-gap` tag with `archaeology`/`প্রত্নতত্ত্ব`.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now David Hare.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the chronology is intentionally approximate because surviving inscriptional evidence does not provide a complete political narrative.
+- Continued the figure-content SEO audit with David Hare:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with Hare's role in Hindu College, the Calcutta School-Book Society, the Calcutta School Society, Hare School, and the Young Bengal educational setting; added localized SEO titles/descriptions, short answers, aliases, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Debendranath Tagore.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the profile distinguishes Hare's institutional and patronage role from Derozio's later classroom leadership and the broader Young Bengal movement.
+- Continued the figure-content SEO audit with Debendranath Tagore:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with the Tattvabodhini Sabha, Brahmo Samaj leadership, Tattvabodhini Patrika, Brahma Dharma, and later organizational divisions; added localized SEO titles/descriptions, short answers, birth/death years, aliases, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Dudu Miya.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account separates Debendranath's organizational and theological role from later Brahmo factions and does not treat the movement's influence as socially uniform.
+- Continued the figure-content SEO audit with Dudu Miya:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his succession to Haji Shariatullah, agrarian mobilization, panchayat and khalifa organization, and conflicts with landlords and indigo planters; added localized SEO titles/descriptions, short answers, birth/death years, aliases, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Fazlur Rahman.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account distinguishes peasant protection and social-justice aims from the movement's coercive conflicts and parallel dispute-resolution structures.
+- Continued the figure-content SEO audit with Fazlur Rahman:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his BNP leadership, freedom-fighter identity, Kishoreganj-4 constituency, and 2026 election victory; added localized SEO titles/descriptions, short answers, aliases, active-period metadata, and identity-disambiguation FAQs separating him from A. L. M. Fazlur Rahman.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Henry Louis Vivian Derozio.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; constituency and election-result details are bounded to the 2026 election record and should be revisited if official results or biographical records change.
+- Continued the figure-content SEO audit with Henry Louis Vivian Derozio:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1826 Hindu College appointment, English literature and history teaching, 1828 Academic Association, 1831 dismissal, poetry, journalism, and Young Bengal legacy; added localized SEO titles/descriptions, short answers, birth/death years, aliases, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Maulana Junayed Al Habib.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account distinguishes Derozio's influence on Young Bengal from the later student current's limited social reach.
+- Continued the figure-content SEO audit with Maulana Junayed Al Habib:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his senior Jamiat role, BNP-led alliance seat-sharing, Brahmanbaria-2 constituency, date-palm candidacy, and loss to independent Rumeen Farhana; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Kalpona Akter.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account is bounded to the 2026 election record and avoids inferring broader religious or ideological positions from the candidacy alone.
+- Continued the figure-content SEO audit with Kalpona Akter:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with her former garment-worker background, Bangladesh Centre for Worker Solidarity work, and advocacy after the Tazreen fire and Rana Plaza collapse; added localized SEO titles/descriptions, short answers, aliases, active-period metadata, and FAQs; replaced the `content-gap` tag with labor-rights and factory-safety tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Keshab Chandra Sen.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; claims about post-disaster influence are phrased as advocacy and public participation rather than sole causation.
+- Continued the figure-content SEO audit with Keshab Chandra Sen:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Brahmo Samaj leadership, 1866 Brahmo Samaj of India, 1880 New Dispensation, and the movement's internal divisions; added localized SEO titles/descriptions, short answers, birth/death years, aliases, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Khan Bahadur Ahsanullah.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account distinguishes Sen's reform leadership from the broader Brahmo movement and notes later divisions rather than presenting the movement as internally uniform.
+- Continued the figure-content SEO audit with Khan Bahadur Ahsanullah:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his education administration, writing, Muslim educational work, Ahsanullah institutions, and association with the educational planning around Dhaka University; added localized SEO titles/descriptions, short answers, birth/death years, aliases, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Koodi Molla.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; institutional attribution is phrased as association with educational planning and later Ahsania initiatives, not sole credit for their creation.
+- Continued the figure-content SEO audit with Koodi Molla:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his place as a follower of Ishan Chandra Roy and organizer associated with the 1873 Pabna Raiyats’ League; added localized SEO titles/descriptions, short answers, aliases, active-period metadata, FAQs, and agrarian-history tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Krishak Praja Party.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account distinguishes Koodi Molla’s documented follower and organizer role from sole leadership of the wider uprising.
+- Continued the figure-content SEO audit with Krishak Praja Party:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with the party’s 1936 formation, peasant-tenant program, 1937 election, coalition ministry, and organizational limits; added localized SEO titles/descriptions, short answers, aliases, active-period metadata, FAQs, and political-history tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Mahdi Amin.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; agrarian promises, coalition participation, and later organizational tensions are described as distinct parts of the party’s history rather than as a single consistent program.
+- Continued the figure-content SEO audit with Mahdi Amin:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his BNP election-steering spokesperson role, chairman’s adviser role, January–February 2026 briefings, and attribution of campaign claims; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Matangini Hazra.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; contemporary statements are explicitly framed as BNP positions or projections rather than independent election findings.
+
 ## 2026-09-15
 
 ### Completed

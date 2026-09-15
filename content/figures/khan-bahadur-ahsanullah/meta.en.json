@@ -1,16 +1,43 @@
 {
   "name": "Khan Bahadur Ahsanullah",
   "name_en": "Khan Bahadur Ahsanullah",
-  "role": "Educationist and social philanthropist",
+  "role": "Educationist, writer, and social reformer",
   "group": "leader",
-  "contribution": "He contributed to educational and social welfare initiatives that advanced Muslim public life in Bengal.",
-  "context": "His work developed in a period of institutional growth and educational transition in late-colonial Bengal.",
-  "impact": "He is recognized as a notable figure in Muslim educational philanthropy.",
-  "highlight": "He linked education with social uplift in Muslim Bengal.",
+  "contribution": "An educationist, writer, Islamic scholar, and social worker who served in the Bengal education administration and helped widen educational opportunities for Muslims in colonial Bengal.",
+  "context": "Born in Nalta, Satkhira, Ahsanullah joined the Indian Education Service and wrote widely on Bengali language, Muslim literature, education, religion, and history. He was also involved in the educational discussions surrounding the establishment of the University of Dhaka in 1921.",
+  "impact": "Through public service, textbooks, and institutions including the Ahsanullah Muslim Mission, he connected education, literary production, and social welfare in Muslim Bengal; his legacy is also associated with the later Dhaka Ahsania Mission.",
+  "highlight": "Educationist and writer who linked Muslim education, Bengali scholarship, and social welfare.",
+  "seoTitle": "Khan Bahadur Ahsanullah: Bengal Educationist and Reformer",
+  "seoDescription": "Learn about Khan Bahadur Ahsanullah, the Bengal educationist, writer, Islamic scholar, and social reformer associated with Muslim education and Ahsania institutions.",
+  "shortAnswer": "Khan Bahadur Ahsanullah was a Bengal educationist, writer, Islamic scholar, and social reformer who worked in education administration and founded institutions for learning and welfare.",
+  "birthYear": 1873,
+  "deathYear": 1965,
+  "activePeriod": "1896–1965",
+  "alternateNames": [
+    "Khan Bahadur Ahsanullah",
+    "Ahsanullah Khan Bahadur",
+    "খান বাহাদুর আহ্ছানউল্লা"
+  ],
+  "searchAliases": [
+    "Khan Bahadur Ahsanullah educationist",
+    "Ahsanullah Muslim Mission",
+    "Khan Bahadur Ahsanullah Dhaka University"
+  ],
+  "faq": [
+    {
+      "question": "Who was Khan Bahadur Ahsanullah?",
+      "answer": "He was a Bengal educationist, writer, Islamic scholar, and social worker whose career included service in the education administration and work for Muslim education and welfare."
+    },
+    {
+      "question": "What is Khan Bahadur Ahsanullah known for?",
+      "answer": "He is known for educational service, textbooks and writings on Bengali and Muslim subjects, and institutions associated with the Ahsanullah Muslim Mission and later Ahsania movement."
+    }
+  ],
   "tags": [
     "education",
     "philanthropy",
     "muslim-history",
-    "society"
+    "society",
+    "literature"
   ]
 }

@@ -3,14 +3,38 @@
   "name_en": "Bhavadeva",
   "role": "Deva ruler linked to southeastern Bengal",
   "group": "leader",
-  "contribution": "A ruler associated with the Deva dynasty and the Mainamati-Lalmai regional context.",
-  "context": "He represents the regional political formations that shaped southeastern Bengal after and alongside larger imperial traditions.",
-  "impact": "His inclusion strengthens coverage of pre-sultanate eastern Bengal and its Buddhist-archaeological landscape.",
-  "highlight": "His inclusion strengthens coverage of pre-sultanate eastern Bengal and its Buddhist-archaeological landscape.",
+  "contribution": "Bhavadeva was the last known ruler of the early Deva dynasty of Samatata, the regional polity associated with Devaparvata in the Mainamati-Lalmai area. His copper-plate record and the inscriptional references connected with a monastery bearing his name provide rare evidence for royal authority and Buddhist institutions in southeastern Bengal.",
+  "context": "The early Deva rulers are known mainly through inscriptions, coins, sealings, and the archaeological remains of Mainamati. Bhavadeva followed Shantideva, Viradeva, and Anandadeva in the dynasty's reconstructed genealogy and is generally placed in the late eighth or early ninth century CE, although the surviving evidence does not provide a complete political narrative.",
+  "impact": "Bhavadeva's record helps connect the political history of Samatata with the Buddhist educational and architectural landscape of Mainamati. The evidence supports a regional history of southeastern Bengal shaped by local courts, riverine connections, and monastery patronage rather than by imperial centres alone.",
+  "highlight": "The last known ruler of the early Deva dynasty, remembered through Mainamati's inscriptions and Buddhist archaeological remains.",
+  "seoTitle": "Bhavadeva: Deva Dynasty Ruler of Ancient Samatata",
+  "seoDescription": "Explore Bhavadeva, the last known ruler of the early Deva dynasty, and his inscriptional and Buddhist-architectural connections to Mainamati in southeastern Bengal.",
+  "shortAnswer": "Bhavadeva was the last known ruler of the early Deva dynasty of Samatata, associated with the Mainamati-Lalmai region of southeastern Bengal.",
+  "activePeriod": "late 8th–early 9th century CE",
+  "alternateNames": [
+    "Sri Bhavadeva",
+    "Bhava Deva",
+    "Bhavadeva Abhinavamrganka"
+  ],
+  "searchAliases": [
+    "Bhavadeva Deva dynasty",
+    "Bhavadeva Mainamati",
+    "Devaparvata ruler"
+  ],
+  "faq": [
+    {
+      "question": "Who was Bhavadeva?",
+      "answer": "Bhavadeva was the last known ruler of the early Deva dynasty of Samatata, a polity associated with Devaparvata and the Mainamati-Lalmai region of southeastern Bengal."
+    },
+    {
+      "question": "What evidence survives for Bhavadeva's rule?",
+      "answer": "The main evidence comes from copper-plate and other inscriptions, along with Mainamati archaeological remains. A monastery associated with his name is among the evidence linking his reign to Buddhist patronage."
+    }
+  ],
   "tags": [
     "bengal",
     "regional-history",
-    "content-gap"
+    "archaeology"
   ],
   "primaryEventIds": [
     "0800-1100-chandra-deva-mainamati-regional-polity"

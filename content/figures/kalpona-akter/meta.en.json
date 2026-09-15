@@ -3,19 +3,44 @@
   "name_en": "Kalpona Akter",
   "role": "Garment labor-rights organizer",
   "group": "coordinator",
-  "contribution": "A Bangladeshi labor organizer associated with garment-worker rights and factory-safety advocacy.",
-  "context": "Her activism connects factory disasters such as Tazreen and Rana Plaza to worker voice, compensation, and global buyer accountability.",
-  "impact": "She represents the labor-rights thread in Bangladesh’s industrial safety history.",
-  "highlight": "She represents the labor-rights thread in Bangladesh’s industrial safety history.",
+  "contribution": "A former garment worker who became a labor-rights organizer and helped found the Bangladesh Centre for Worker Solidarity (BCWS), advocating for worker safety, fair wages, and the right to organize.",
+  "context": "Her public advocacy brought worker testimony and union participation into international debate after the Tazreen Fashions fire and Rana Plaza collapse, including campaigns for factory safety, compensation, and supply-chain accountability.",
+  "impact": "She represents the worker-led strand of Bangladesh’s garment-safety history and helped keep labor rights visible in discussions among brands, governments, and worker organizations.",
+  "highlight": "Former garment worker who became a leading voice for Bangladesh’s garment workers.",
+  "seoTitle": "Kalpona Akter: Bangladesh Garment Worker Rights Organizer",
+  "seoDescription": "Learn about Kalpona Akter, former garment worker and Bangladesh labor-rights organizer, and her advocacy for garment-worker safety, wages, unions, and accountability.",
+  "shortAnswer": "Kalpona Akter is a Bangladeshi labor-rights organizer and former garment worker associated with worker safety, union rights, and supply-chain accountability.",
+  "activePeriod": "1990s–present",
   "tags": [
     "bengal",
     "regional-history",
-    "content-gap"
+    "labor-rights",
+    "garment-workers",
+    "factory-safety"
   ],
   "primaryEventIds": [
     "2012-tazreen-fashions-fire"
   ],
   "relatedPlaceIds": [
     "bangladesh"
+  ],
+  "alternateNames": [
+    "Kalpona Akter",
+    "কল্পনা আক্তার"
+  ],
+  "searchAliases": [
+    "Kalpona Akter BCWS",
+    "Bangladesh Centre for Worker Solidarity",
+    "Kalpona Akter garment workers"
+  ],
+  "faq": [
+    {
+      "question": "What does Kalpona Akter advocate for?",
+      "answer": "She advocates for garment workers’ safety, fair wages, union rights, worker participation, and accountability across the clothing supply chain."
+    },
+    {
+      "question": "How is Kalpona Akter connected to Tazreen and Rana Plaza?",
+      "answer": "As a labor-rights organizer, she helped bring worker voices into international discussions about safety, compensation, and accountability after the Tazreen fire and Rana Plaza collapse."
+    }
   ]
 }

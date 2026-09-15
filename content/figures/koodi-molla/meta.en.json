@@ -3,19 +3,46 @@
   "name_en": "Koodi Molla",
   "role": "Pabna peasant organizer",
   "group": "leader",
-  "contribution": "A local figure linked to collective agrarian resistance in Pabna.",
-  "context": "He represents the Muslim peasant leadership strand within a movement often described through collective rural organization.",
-  "impact": "His inclusion keeps the Pabna page from reducing the uprising to elite or legal actors alone.",
-  "highlight": "His inclusion keeps the Pabna page from reducing the uprising to elite or legal actors alone.",
+  "contribution": "A prominent follower of Ishan Chandra Roy in the Pabna Peasant Uprising, associated with the Pabna Raiyats’ League formed in 1873.",
+  "context": "The League organized cultivators against zamindari rent increases and illegal exactions in the Yusufshahi area. Koodi Molla’s place in the movement shows how local Muslim peasant organizers worked alongside other rural leaders in a broader agrarian coalition.",
+  "impact": "His role helps recover the movement’s local organizers from accounts focused only on zamindars, courts, or later legal reform. The uprising began with organized, largely lawful resistance before escalating in some areas and facing state intervention.",
+  "highlight": "Local Pabna Raiyats’ League organizer and follower of Ishan Chandra Roy.",
+  "seoTitle": "Koodi Molla: Pabna Peasant Uprising Organizer",
+  "seoDescription": "Learn about Koodi Molla, a prominent follower of Ishan Chandra Roy and organizer associated with the 1873 Pabna Raiyats’ League against zamindari exactions.",
+  "shortAnswer": "Koodi Molla was a local peasant organizer and prominent follower of Ishan Chandra Roy during the Pabna Peasant Uprising of 1873–1876.",
+  "activePeriod": "1873–1876",
   "tags": [
     "bengal",
     "regional-history",
-    "content-gap"
+    "peasant-rights",
+    "agrarian-history",
+    "pabna"
   ],
   "primaryEventIds": [
     "1873-1876-pabna-peasant-uprising"
   ],
   "relatedPlaceIds": [
     "bangladesh"
+  ],
+  "alternateNames": [
+    "Khoodi Molla",
+    "Khoodi Mollah",
+    "খুদি মোল্লা",
+    "কুড়ি মোল্লা"
+  ],
+  "searchAliases": [
+    "Koodi Molla Pabna uprising",
+    "Khoodi Mollah Pabna Raiyats’ League",
+    "Koodi Molla Ishan Chandra Roy"
+  ],
+  "faq": [
+    {
+      "question": "Who was Koodi Molla?",
+      "answer": "Koodi Molla was a prominent follower of Ishan Chandra Roy and a local organizer associated with the Pabna Raiyats’ League during the 1873–1876 peasant uprising."
+    },
+    {
+      "question": "What was Koodi Molla’s role in the Pabna uprising?",
+      "answer": "He represents the local Muslim peasant organizers who helped build collective resistance to zamindari rent increases and illegal demands in Pabna."
+    }
   ]
 }

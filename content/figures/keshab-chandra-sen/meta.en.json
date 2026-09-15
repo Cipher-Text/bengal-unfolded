@@ -3,20 +3,45 @@
   "name_en": "Keshab Chandra Sen",
   "role": "Brahmo Samaj reformer and public speaker",
   "group": "intellectual",
-  "contribution": "Expanded Brahmo reform debates into wider social, religious, and public reform questions.",
-  "context": "Nineteenth-century Bengal reform and religious debate.",
-  "impact": "He made Brahmo reform a more visible part of public controversy and social reform discourse.",
-  "highlight": "A prominent later Brahmo reform leader.",
+  "contribution": "A leading nineteenth-century Brahmo reformer who joined the Samaj in 1857, became its Acharya in 1862, and later founded the Brahmo Samaj of India.",
+  "context": "Keshab Chandra Sen widened Brahmo public work through preaching, social-reform advocacy, and interregional outreach. His break with Debendranath Tagore’s Adi Brahmo Samaj produced a separate organization in 1866; in 1880 he articulated the universalist New Dispensation (Nava Vidhan).",
+  "impact": "His career made Brahmo ideas more visible in debates over caste, women’s education, social reform, and religious universalism, while the 1878 split among his followers also shows the movement’s internal limits and disagreements.",
+  "highlight": "Brahmo Samaj leader who founded the Brahmo Samaj of India and later promoted the New Dispensation.",
+  "seoTitle": "Keshab Chandra Sen: Brahmo Samaj Reformer and Leader",
+  "seoDescription": "Learn about Keshab Chandra Sen, the nineteenth-century Brahmo reformer who led the Brahmo Samaj of India and developed the universalist New Dispensation.",
+  "shortAnswer": "Keshab Chandra Sen was a major nineteenth-century Brahmo leader who founded the Brahmo Samaj of India in 1866 and later promoted the New Dispensation.",
+  "birthYear": 1838,
+  "deathYear": 1884,
   "tags": [
     "brahmo-samaj",
     "reform",
     "public-debate"
   ],
-  "activePeriod": "1850s-1880s",
+  "activePeriod": "1857–1884",
   "primaryEventIds": [
     "1828-brahmo-samaj-and-bengal-social-reform"
   ],
   "relatedPlaceIds": [
     "calcutta-kolkata"
+  ],
+  "alternateNames": [
+    "Keshub Chandra Sen",
+    "Keshab Chunder Sen",
+    "কেশবচন্দ্র সেন"
+  ],
+  "searchAliases": [
+    "Keshab Chandra Sen Brahmo Samaj",
+    "Brahmo Samaj of India founder",
+    "Nava Vidhan Keshab Chandra Sen"
+  ],
+  "faq": [
+    {
+      "question": "What did Keshab Chandra Sen found?",
+      "answer": "After breaking with Debendranath Tagore’s Adi Brahmo Samaj, he founded the Brahmo Samaj of India in 1866."
+    },
+    {
+      "question": "What was Keshab Chandra Sen’s New Dispensation?",
+      "answer": "The New Dispensation, or Nava Vidhan, was the universalist religious synthesis he articulated from 1880, drawing on his broader vision of religious unity."
+    }
   ]
 }
