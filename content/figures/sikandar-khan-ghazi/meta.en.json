@@ -1,12 +1,43 @@
 {
   "name": "Sikandar Khan Ghazi",
   "name_en": "Sikandar Khan Ghazi",
-  "role": "Commander linked to the Sylhet campaign",
+  "role": "Military commander in the 1303 Sylhet campaign",
   "group": "leader",
-  "contribution": "He is associated in historical accounts with the military campaign that brought Sylhet under Muslim rule in 1303.",
-  "context": "His role appears within the wider expansion of the Bengal Sultanate frontier in the northeast.",
-  "impact": "He is remembered as a key martial actor in the Sylhet transition narrative.",
-  "highlight": "A military figure of the 1303 Sylhet campaign memory.",
+  "contribution": "A commander in the forces of Sultan Shamsuddin Firuz Shah who is credited by a later Persian inscription with the first Muslim conquest of Sylhet in 703 AH/1303 CE.",
+  "context": "Sikandar Khan Ghazi’s role belongs to the Lakhnauti Sultanate’s expansion into northeastern Bengal. Historical accounts place him alongside Nasiruddin and Shah Jalal in the campaign against the Sylhet ruler Gaur Govinda, but later narratives differ over the precise division of military and spiritual authority.",
+  "impact": "He anchors the political and military side of the Sylhet transition, complementing Shah Jalal’s better-known spiritual and shrine-centered memory. The 1303 conquest is supported by later epigraphic and literary evidence, while the detailed campaign narratives remain layered with tradition.",
+  "highlight": "Commander credited in inscriptional tradition with the 1303 conquest of Sylhet.",
+  "seoTitle": "Sikandar Khan Ghazi: Commander of the 1303 Sylhet Conquest",
+  "seoDescription": "Learn about Sikandar Khan Ghazi, the commander associated with Sultan Firuz Shah’s 1303 conquest of Sylhet and the Lakhnauti Sultanate’s northeastern expansion.",
+  "shortAnswer": "Sikandar Khan Ghazi was a military commander associated with Sultan Shamsuddin Firuz Shah’s 1303 conquest of Sylhet.",
+  "activePeriod": "1303",
+  "primaryEventIds": [
+    "1303-conquest-of-sylhet"
+  ],
+  "relatedPlaceIds": [
+    "sylhet",
+    "bangladesh"
+  ],
+  "alternateNames": [
+    "Sikandar Khan Ghazi",
+    "Sikandar Shah Ghazi",
+    "সিকান্দর খান গাজী"
+  ],
+  "searchAliases": [
+    "Sikandar Khan Ghazi Sylhet",
+    "Sikandar Khan Ghazi 1303 conquest",
+    "Sikandar Shah Ghazi"
+  ],
+  "faq": [
+    {
+      "question": "What was Sikandar Khan Ghazi’s role in Sylhet?",
+      "answer": "He was a military commander associated with the Lakhnauti Sultanate’s 1303 campaign that brought Sylhet under Muslim rule."
+    },
+    {
+      "question": "How is Sikandar Khan Ghazi’s role documented?",
+      "answer": "A Persian inscription dated 918 AH/1512 CE credits Sikandar Khan Ghazi with the conquest in 703 AH/1303 CE; later literary accounts add further details that should be treated cautiously."
+    }
+  ],
   "tags": [
     "sylhet",
     "campaign",

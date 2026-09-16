@@ -1,15 +1,46 @@
 {
   "name": "Mohammad Ali Jauhar",
   "name_en": "Mohammad Ali Jauhar",
-  "role": "Khilafat leader in anti-colonial mass politics",
+  "role": "Khilafat leader, journalist, and anti-colonial politician",
   "group": "leader",
-  "contribution": "He helped organize Khilafat mobilization that resonated strongly in Bengal's Muslim public sphere.",
-  "context": "His politics intersected with non-cooperation, pan-Islamic sentiment, and colonial-era protest networks.",
-  "impact": "He became a symbolic figure of Muslim political mobilization in the early 1920s.",
-  "highlight": "A leading voice linking Khilafat politics with mass anti-colonial agitation.",
+  "contribution": "Alongside his brother Shaukat Ali and other leaders, he helped organize the Khilafat movement and linked its campaign to Gandhi’s Non-Cooperation movement against colonial rule.",
+  "context": "Mohammad Ali Jauhar was also a major political journalist: he launched the English weekly The Comrade in 1911 and the Urdu newspaper Hamdard in 1913. His public work combined Muslim political mobilization, anti-colonial protest, and debate over education and communal cooperation.",
+  "impact": "His speeches, newspapers, and imprisonment made him a major voice in early twentieth-century Muslim and anti-colonial politics. He also helped found Jamia Millia Islamia in 1920 and presided over the Indian National Congress in 1923, while his political commitments did not remain uniform across his career.",
+  "highlight": "Khilafat leader and journalist who connected Muslim political mobilization with the Non-Cooperation movement.",
+  "seoTitle": "Mohammad Ali Jauhar: Khilafat Leader and Journalist",
+  "seoDescription": "Learn about Mohammad Ali Jauhar, the Khilafat leader who published The Comrade and Hamdard, supported Non-Cooperation, and helped found Jamia Millia Islamia.",
+  "shortAnswer": "Mohammad Ali Jauhar was a Khilafat leader, journalist, and anti-colonial politician who helped connect the Khilafat and Non-Cooperation movements.",
+  "birthYear": 1878,
+  "deathYear": 1931,
+  "activePeriod": "1911–1931",
+  "alternateNames": [
+    "Maulana Mohammad Ali Jauhar",
+    "Muhammad Ali Jauhar",
+    "মোহাম্মদ আলী জওহর"
+  ],
+  "searchAliases": [
+    "Mohammad Ali Jauhar Khilafat Movement",
+    "Mohammad Ali Jauhar The Comrade",
+    "Mohammad Ali Jauhar Hamdard"
+  ],
+  "faq": [
+    {
+      "question": "What was Mohammad Ali Jauhar’s role in the Khilafat movement?",
+      "answer": "He was one of its principal leaders, working with Shaukat Ali and others to mobilize Indian Muslims and connect Khilafat politics with Non-Cooperation."
+    },
+    {
+      "question": "Which newspapers did Mohammad Ali Jauhar publish?",
+      "answer": "He launched the English weekly The Comrade in 1911 and the Urdu newspaper Hamdard in 1913."
+    }
+  ],
+  "primaryEventIds": [
+    "1919-1924-khilafat-movement-bengal"
+  ],
   "tags": [
     "khilafat",
     "anti-colonial",
-    "mass-politics"
+    "mass-politics",
+    "journalism",
+    "muslim-politics"
   ]
 }

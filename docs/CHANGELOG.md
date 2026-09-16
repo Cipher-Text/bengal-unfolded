@@ -84,6 +84,46 @@
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Matangini Hazra.
   - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
   - Risk/known gaps: the profile remains image-free pending editorial image review; contemporary statements are explicitly framed as BNP positions or projections rather than independent election findings.
+- Continued the figure-content SEO audit with Matangini Hazra:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with her Salt Satyagraha, anti-chowkidari-tax activism, Gandhian organizing, and 1942 Quit India procession; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event links, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Mohammad Ali Jauhar.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account uses dated biographical and government sources and avoids expanding her documented role beyond the Tamluk and Midnapore context.
+- Continued the figure-content SEO audit with Mohammad Ali Jauhar:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Khilafat and Non-Cooperation leadership, The Comrade and Hamdard journalism, Jamia Millia Islamia connection, and 1923 Congress presidency; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event links, active-period metadata, FAQs, and journalism tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Rumeen Farhana.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account separates his early Khilafat and Non-Cooperation alliance from later political developments rather than implying a single unchanging position.
+- Continued the figure-content SEO audit with Rumeen Farhana:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with her barrister and former BNP lawmaker background, 2026 independent candidacy, Brahmanbaria-2 victory, and party-nomination context; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, FAQs, and parliament/women-in-politics tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Salahuddin Ahmed.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; constituency, expulsion, and election-result claims are bounded to the 2026 election record and attributed to election reporting.
+- Continued the figure-content SEO audit with Salahuddin Ahmed:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his BNP standing-committee role, Cox’s Bazar-1 victory, and 2026 appointment as Home Affairs Minister; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, FAQs, and parliamentary/governance tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Shah Jalal.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; current ministerial and constituency details are bounded to the 2026 election and government record and should be revisited if officeholders change.
+- Continued the figure-content SEO audit with Shah Jalal:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with the 1303 Sylhet transition, shrine culture, Ibn Battuta’s 1345–46 reference, and the distinction between inscriptional evidence and later hagiographic traditions; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Shaukat Ali.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; exact biographical details and miracle narratives are presented cautiously because the surviving record mixes inscriptional, literary, travel, and later devotional sources.
+- Continued the figure-content SEO audit with Shaukat Ali:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Ali Brothers leadership, Khilafat organization, Non-Cooperation alliance, and colonial imprisonment; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event links, active-period metadata, FAQs, and anti-colonial tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Sikandar Khan Ghazi.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account distinguishes the Ali Brothers’ Khilafat–Non-Cooperation alliance from the movement’s later decline and changing political context.
+- Continued the figure-content SEO audit with Sikandar Khan Ghazi:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his military role in the 1303 Sylhet campaign, the 1512 inscriptional attribution, and the distinction between political-military and spiritual-historical narratives; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, and FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Srichandra.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account treats later inscriptional and literary evidence as support for the conquest while avoiding unwarranted certainty about the campaign’s detailed chain of command.
+- Continued the figure-content SEO audit with Srichandra:
+  - Content backfill: replaced generic English and Bangla copy with inscription-led context for the Chandra dynasty, tenth-century southeastern Bengal, Samatata–Harikela, copperplate grants, Buddhist identity, and religious patronage; added localized SEO titles/descriptions, short answers, aliases, active-period metadata, FAQs, and epigraphy/archaeology tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Sumi Abedin.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the reign’s chronology and territorial extent remain approximate because the surviving record is inscriptional and incomplete.
 
 ## 2026-09-15
 

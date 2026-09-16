@@ -3,14 +3,40 @@
   "name_en": "Srichandra",
   "role": "Chandra ruler of southeastern Bengal",
   "group": "leader",
-  "contribution": "A Chandra dynasty ruler associated with southeastern Bengal’s regional state formation.",
-  "context": "His reign helps represent Samatata-Harikela politics and Buddhist institutional patronage outside the Pala heartland.",
-  "impact": "He broadens the pre-sultanate map of Bengal by foregrounding eastern Bengal’s political and monastic networks.",
-  "highlight": "He broadens the pre-sultanate map of Bengal by foregrounding eastern Bengal’s political and monastic networks.",
+  "contribution": "The second and one of the most influential rulers of the Chandra dynasty, Srichandra consolidated a major polity in southeastern Bengal during the tenth century.",
+  "context": "His reign is known mainly through copperplate inscriptions, including the Paschimbhag plate and records from the Mainamati region. These sources connect him to Vanga, Samatata, and Harikela, Buddhist patronage, land grants, and a political world beyond the Pala heartland.",
+  "impact": "Srichandra’s records show that southeastern Bengal had its own durable royal and religious institutions. His Buddhist identity did not prevent grants to Brahmanical establishments, making his reign useful for understanding both regional state formation and religious patronage.",
+  "highlight": "Chandra ruler whose copperplate grants illuminate tenth-century southeastern Bengal.",
+  "seoTitle": "Srichandra: Chandra Dynasty Ruler of Southeastern Bengal",
+  "seoDescription": "Learn about Srichandra, the influential Chandra dynasty ruler whose copperplate inscriptions illuminate tenth-century Bengal, Buddhist patronage, and regional state formation.",
+  "shortAnswer": "Srichandra was a major tenth-century ruler of the Buddhist Chandra dynasty in southeastern Bengal, known through copperplate land grants and inscriptions.",
+  "activePeriod": "c. 930–975",
+  "alternateNames": [
+    "Sri Chandra",
+    "Srichandra Deva",
+    "শ্রীচন্দ্র"
+  ],
+  "searchAliases": [
+    "Srichandra Chandra dynasty",
+    "Srichandra Paschimbhag copperplate",
+    "Srichandra Mainamati"
+  ],
+  "faq": [
+    {
+      "question": "Who was Srichandra?",
+      "answer": "Srichandra was a prominent tenth-century ruler of the Chandra dynasty, which ruled parts of southeastern Bengal including the Samatata–Harikela region."
+    },
+    {
+      "question": "What sources document Srichandra’s reign?",
+      "answer": "Copperplate inscriptions, especially the Paschimbhag plate and records associated with Mainamati, document his genealogy, land grants, political reach, and religious patronage."
+    }
+  ],
   "tags": [
     "bengal",
     "regional-history",
-    "content-gap"
+    "chandra-dynasty",
+    "epigraphy",
+    "archaeology"
   ],
   "primaryEventIds": [
     "0800-1100-chandra-deva-mainamati-regional-polity"

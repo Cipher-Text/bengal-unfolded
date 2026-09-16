@@ -1,12 +1,41 @@
 {
   "name": "Matangini Hazra",
   "name_en": "Matangini Hazra",
-  "role": "Grassroots anti-colonial activist",
+  "role": "Gandhian anti-colonial leader",
   "group": "leader",
-  "contribution": "She participated in mass civil resistance and became a remembered face of women’s participation in anti-colonial struggle.",
-  "context": "During late-colonial mass mobilizations in Bengal, she was associated with non-cooperation and Quit India-era protest action.",
-  "impact": "She endures in public memory as a symbol of women-led sacrifice in the anti-colonial movement.",
-  "highlight": "An iconic woman participant in Bengal’s anti-colonial mobilization.",
+  "contribution": "A Gandhian organizer who joined the Civil Disobedience movement, took part in the Salt Satyagraha and anti-chowkidari-tax campaigns, and later led a large procession during the Quit India movement.",
+  "context": "Born into a poor peasant family in Hogla near Tamluk, Matangini Hazra entered anti-colonial activism through local mass politics. She was arrested in 1932 for violating the salt law and again during the anti-chowkidari-tax campaign before becoming known as ‘Gandhi Buri’.",
+  "impact": "On 29 September 1942, at age 72, she led a procession of thousands, mostly women, toward government offices in Tamluk. Police firing killed her as she continued to hold the national flag, making her a lasting symbol of women’s participation and sacrifice in the Quit India movement.",
+  "highlight": "Gandhian leader who was killed while leading a Quit India procession in Tamluk in 1942.",
+  "seoTitle": "Matangini Hazra: Gandhian Leader of the Quit India Movement",
+  "seoDescription": "Learn about Matangini Hazra, the Bengal Gandhian who joined the Salt Satyagraha and was killed while leading a Quit India procession in Tamluk in 1942.",
+  "shortAnswer": "Matangini Hazra was a Gandhian anti-colonial leader who led a Quit India procession in Tamluk and was killed by police firing on 29 September 1942.",
+  "birthYear": 1870,
+  "deathYear": 1942,
+  "activePeriod": "1932–1942",
+  "alternateNames": [
+    "Gandhi Buri",
+    "Matangini Hazra",
+    "মাতঙ্গিনী হাজরা"
+  ],
+  "searchAliases": [
+    "Matangini Hazra Quit India Movement",
+    "Matangini Hazra Tamluk",
+    "Gandhi Buri"
+  ],
+  "faq": [
+    {
+      "question": "What is Matangini Hazra known for?",
+      "answer": "She is known for leading a large Quit India procession in Tamluk on 29 September 1942 and dying in police firing while holding the national flag."
+    },
+    {
+      "question": "What was Matangini Hazra’s earlier activism?",
+      "answer": "She joined the 1932 Civil Disobedience and Salt Satyagraha campaigns, was arrested for violating the salt law, and later took part in the anti-chowkidari-tax movement."
+    }
+  ],
+  "primaryEventIds": [
+    "1942-quit-india-and-bengal-war-governance"
+  ],
   "tags": [
     "anti-colonial",
     "women-history",

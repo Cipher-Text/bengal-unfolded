@@ -1,15 +1,47 @@
 {
   "name": "Rumeen Farhana",
   "name_en": "Rumeen Farhana",
-  "role": "Independent candidate and former BNP leader",
+  "role": "Independent MP, lawyer, and former BNP leader",
   "group": "leader",
-  "contribution": "She contested as an independent in the 2026 election and became one of the most visible non-major-party candidates in the contest.",
-  "context": "Brahmanbaria-2 contest during Bangladesh's 2026 parliamentary election.",
-  "impact": "Her campaign illustrated the space available to prominent independents outside the main party blocs.",
-  "highlight": "A high-profile independent who broke from BNP politics.",
+  "contribution": "A barrister and former BNP lawmaker who contested Brahmanbaria-2 as an independent after being denied the party nomination and won the seat in the 2026 parliamentary election.",
+  "context": "Rumeen Farhana previously served as a BNP member of parliament from a reserved women’s seat and held a party leadership role. In 2026, she ran with the Duck symbol after BNP’s alliance arrangement assigned the constituency to Jamiat candidate Junayed Al Habib; BNP later expelled her for contesting independently.",
+  "impact": "Her victory made Brahmanbaria-2 a prominent example of independent electoral competition against a major-party alliance candidate. It also kept questions of party nomination, personal political identity, and constituency-level support visible in the 2026 election record.",
+  "highlight": "Former BNP lawmaker who won Brahmanbaria-2 as an independent in 2026.",
+  "seoTitle": "Rumeen Farhana: Independent MP from Brahmanbaria-2",
+  "seoDescription": "Learn about barrister Rumeen Farhana, the former BNP lawmaker who won Brahmanbaria-2 as an independent candidate in Bangladesh’s 2026 parliamentary election.",
+  "shortAnswer": "Rumeen Farhana is a Bangladeshi barrister and former BNP lawmaker who won Brahmanbaria-2 as an independent candidate in the 2026 election.",
+  "activePeriod": "2018–present",
+  "primaryEventIds": [
+    "2026-election"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
+  ],
+  "alternateNames": [
+    "Barrister Rumeen Farhana",
+    "রুমীন ফারহানা",
+    "Rumeen Farhana MP"
+  ],
+  "searchAliases": [
+    "Rumeen Farhana Brahmanbaria-2",
+    "Rumeen Farhana independent MP",
+    "Rumeen Farhana former BNP"
+  ],
+  "faq": [
+    {
+      "question": "Which constituency did Rumeen Farhana win in 2026?",
+      "answer": "She won Brahmanbaria-2 as an independent candidate in the 2026 parliamentary election."
+    },
+    {
+      "question": "Why did Rumeen Farhana contest as an independent?",
+      "answer": "After she did not receive the BNP nomination for Brahmanbaria-2, she contested independently; reporting later described her expulsion from BNP for running against the party-aligned candidate."
+    }
+  ],
   "tags": [
     "independent",
     "election-2026",
-    "bnp"
+    "bnp",
+    "parliament",
+    "women-in-politics"
   ]
 }

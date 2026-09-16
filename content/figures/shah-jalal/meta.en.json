@@ -3,10 +3,41 @@
   "name_en": "Shah Jalal",
   "role": "Sufi figure associated with the Sylhet conquest era",
   "group": "leader",
-  "contribution": "He is traditionally associated with the 1303 Sylhet campaign and subsequent Islamization narratives in the region.",
-  "context": "His memory is tied to frontier expansion, shrine-centered devotion, and regional identity formation in northeastern Bengal.",
-  "impact": "He became one of the most enduring symbolic figures in Sylhet's religious-cultural history.",
-  "highlight": "A central spiritual-historical figure in Sylhet's medieval transition.",
+  "contribution": "A Sufi saint whose name is associated with the 1303 conquest of Sylhet and with the spread of Muslim spiritual networks in northeastern Bengal.",
+  "context": "The 1303 campaign is supported by later inscriptional and literary evidence, while detailed accounts of Shah Jalal’s companions, origins, miracles, and military role also contain legendary layers. Ibn Battuta’s 1345–46 account provides an early near-contemporary reference to the saint in Sylhet.",
+  "impact": "His shrine and associated disciples became major reference points for Sylhet’s religious culture and regional identity. His historical importance is best understood alongside the distinction between the documented political transition and later hagiographic traditions.",
+  "highlight": "Sufi saint associated with Sylhet’s 1303 political transition and enduring shrine culture.",
+  "seoTitle": "Shah Jalal: Sufi Saint and Sylhet’s 1303 Transition",
+  "seoDescription": "Learn about Shah Jalal, the Sufi saint associated with the 1303 conquest of Sylhet, later shrine traditions, and the spread of spiritual networks in northeastern Bengal.",
+  "shortAnswer": "Shah Jalal was a Sufi saint associated with the 1303 conquest of Sylhet and the region’s later shrine-centered religious culture.",
+  "activePeriod": "1303–1347",
+  "primaryEventIds": [
+    "1303-conquest-of-sylhet"
+  ],
+  "relatedPlaceIds": [
+    "sylhet",
+    "bangladesh"
+  ],
+  "alternateNames": [
+    "Shaykh Jalaluddin",
+    "Shah Jalal Mujarrad ibn Muhammad",
+    "শাহ জালাল (রহ.)"
+  ],
+  "searchAliases": [
+    "Shah Jalal Sylhet 1303",
+    "Shah Jalal dargah Sylhet",
+    "Shaykh Jalaluddin Sylhet"
+  ],
+  "faq": [
+    {
+      "question": "What is Shah Jalal associated with?",
+      "answer": "He is associated with the 1303 conquest of Sylhet and with the Sufi networks and shrine culture that developed around Sylhet after the political transition."
+    },
+    {
+      "question": "How much of the Shah Jalal story is documented?",
+      "answer": "The conquest and Shah Jalal’s historical association are supported by inscriptional, literary, and travel evidence, while many detailed origin and miracle stories belong to later hagiographic tradition."
+    }
+  ],
   "tags": [
     "sylhet",
     "sufism",

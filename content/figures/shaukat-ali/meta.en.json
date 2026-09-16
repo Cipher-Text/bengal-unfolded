@@ -1,15 +1,46 @@
 {
   "name": "Shaukat Ali",
   "name_en": "Shaukat Ali",
-  "role": "Khilafat organizer and movement leader",
+  "role": "Khilafat leader and anti-colonial organizer",
   "group": "leader",
-  "contribution": "He co-led Khilafat mobilization, including networks that influenced political organizing in Bengal.",
-  "context": "His activism functioned within broader anti-colonial and Muslim mass politics after World War I.",
-  "impact": "He is remembered as one of the major public leaders of the Khilafat phase.",
-  "highlight": "A prominent organizer of Khilafat-era mass politics.",
+  "contribution": "Alongside his brother Mohammad Ali Jauhar and other leaders, he helped initiate and organize the Khilafat movement and connect it to Gandhi’s Non-Cooperation campaign.",
+  "context": "The Ali brothers mobilized Indian Muslim opinion in defence of the Ottoman Caliphate after World War I, while also building a wider anti-colonial alliance with Congress leaders. Shaukat Ali’s activism included public campaigning, political organization, and imprisonment by the colonial government.",
+  "impact": "He helped turn the Khilafat question into a mass political campaign and made Muslim leadership central to the Non-Cooperation moment. His career also shows how that alliance weakened after the movement’s suspension and the abolition of the Ottoman Caliphate.",
+  "highlight": "Ali Brothers leader who connected Khilafat mobilization with Non-Cooperation politics.",
+  "seoTitle": "Shaukat Ali: Khilafat Leader and Anti-Colonial Organizer",
+  "seoDescription": "Learn about Shaukat Ali, the Ali Brothers leader who organized the Khilafat movement and linked it with Gandhi’s Non-Cooperation campaign.",
+  "shortAnswer": "Shaukat Ali was a principal Khilafat leader who worked with Mohammad Ali Jauhar and Gandhi’s Congress alliance during the Non-Cooperation movement.",
+  "birthYear": 1873,
+  "deathYear": 1938,
+  "activePeriod": "1919–1938",
+  "primaryEventIds": [
+    "1919-1924-khilafat-movement-bengal"
+  ],
+  "alternateNames": [
+    "Maulana Shaukat Ali",
+    "Shaukat Ali Khan",
+    "শওকত আলী"
+  ],
+  "searchAliases": [
+    "Shaukat Ali Khilafat Movement",
+    "Shaukat Ali Ali Brothers",
+    "Maulana Shaukat Ali Non-Cooperation"
+  ],
+  "faq": [
+    {
+      "question": "What was Shaukat Ali’s role in the Khilafat movement?",
+      "answer": "He was one of its principal organizers, working with Mohammad Ali Jauhar, Abul Kalam Azad, and other leaders to mobilize Indian Muslims."
+    },
+    {
+      "question": "How was Shaukat Ali connected to Non-Cooperation?",
+      "answer": "The Khilafat leadership, including Shaukat Ali, supported Gandhi’s Non-Cooperation campaign and helped turn it into a broader anti-colonial mass movement."
+    }
+  ],
   "tags": [
     "khilafat",
     "mass-movement",
-    "politics"
+    "politics",
+    "anti-colonial",
+    "ali-brothers"
   ]
 }

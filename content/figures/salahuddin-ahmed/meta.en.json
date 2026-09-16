@@ -1,15 +1,47 @@
 {
   "name": "Salahuddin Ahmed",
   "name_en": "Salahuddin Ahmed",
-  "role": "Senior BNP Standing Committee member",
+  "role": "BNP standing committee member, MP, and Home Affairs Minister",
   "group": "leader",
-  "contribution": "He was one of the BNP's senior public voices during the 2026 election and the subsequent government-formation period.",
-  "context": "BNP election leadership, campaign messaging, and post-election transition in 2026.",
-  "impact": "He represented the party's senior leadership in discussions about forming the government after the vote.",
-  "highlight": "A senior BNP face in the campaign and post-election transition.",
+  "contribution": "A senior BNP leader who won Cox’s Bazar-1 in the 2026 parliamentary election and entered the new government as Minister for Home Affairs.",
+  "context": "Salahuddin Ahmed has served in BNP’s National Standing Committee and was a senior public voice during the 2025–2026 election transition. In the 12 February 2026 election, he won the Cox’s Bazar-1 seat, covering Chakaria and Pekua, before taking a cabinet role.",
+  "impact": "His movement from senior party leadership and election campaigning into the Home Affairs Ministry made him a visible link between BNP’s electoral organization and the new government’s internal-security and public-order portfolio.",
+  "highlight": "BNP leader who won Cox’s Bazar-1 and became Home Affairs Minister in 2026.",
+  "seoTitle": "Salahuddin Ahmed: BNP Leader and Home Affairs Minister",
+  "seoDescription": "Learn about Salahuddin Ahmed, BNP standing committee member, Cox’s Bazar-1 MP, and Home Affairs Minister after Bangladesh’s 2026 parliamentary election.",
+  "shortAnswer": "Salahuddin Ahmed is a senior BNP leader who won Cox’s Bazar-1 in 2026 and became Bangladesh’s Home Affairs Minister.",
+  "activePeriod": "1996–present",
+  "primaryEventIds": [
+    "2026-election"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
+  ],
+  "alternateNames": [
+    "Salahuddin Ahmed",
+    "সালাহউদ্দিন আহমদ",
+    "Salahuddin Ahmed Cox’s Bazar-1"
+  ],
+  "searchAliases": [
+    "Salahuddin Ahmed BNP",
+    "Salahuddin Ahmed Home Minister",
+    "Salahuddin Ahmed Cox’s Bazar-1 MP"
+  ],
+  "faq": [
+    {
+      "question": "Which constituency did Salahuddin Ahmed win in 2026?",
+      "answer": "He won Cox’s Bazar-1, the constituency covering Chakaria and Pekua, as a BNP candidate."
+    },
+    {
+      "question": "What government role did Salahuddin Ahmed take after the 2026 election?",
+      "answer": "He became Bangladesh’s Minister for Home Affairs while continuing as a BNP National Standing Committee member."
+    }
+  ],
   "tags": [
     "bnp",
     "election-2026",
-    "transition"
+    "transition",
+    "parliament",
+    "home-affairs"
   ]
 }
