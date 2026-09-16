@@ -3,14 +3,45 @@
   "name_en": "Sumi Abedin",
   "role": "Tazreen survivor and labor-safety witness",
   "group": "coordinator",
-  "contribution": "A survivor of the Tazreen Fashions fire who became associated with witness testimony and safety advocacy.",
-  "context": "Her public testimony helped humanize the factory-safety crisis behind statistics and policy reform language.",
-  "impact": "She represents survivor memory in the garment-sector safety movement.",
-  "highlight": "She represents survivor memory in the garment-sector safety movement.",
+  "contribution": "A survivor of the 2012 Tazreen Fashions fire whose testimony brought an injured worker's experience into international debates about garment-factory safety and buyer responsibility.",
+  "context": "After escaping the fire, Abedin described the injuries and working conditions she experienced in public interviews and speaking appearances. In 2013 she joined labor-rights advocates in the United States and Australia to urge retailers to support binding fire and building-safety protections for Bangladeshi workers.",
+  "impact": "Abedin's documented role is that of a survivor-witness and campaign participant. Her testimony helped connect the human cost of Tazreen to wider arguments about worker voice, emergency exits, inspection, and accountability in global garment supply chains.",
+  "highlight": "Tazreen survivor whose 2013 testimony connected worker experience to international garment-safety campaigning.",
+  "seoTitle": "Sumi Abedin: Tazreen Survivor and Safety Witness",
+  "seoDescription": "Learn about Sumi Abedin, a survivor of Bangladesh's 2012 Tazreen Fashions fire whose testimony entered international campaigns for garment-worker safety and buyer accountability.",
+  "shortAnswer": "Sumi Abedin is a survivor of the 2012 Tazreen Fashions fire who gave public testimony and joined 2013 campaigns for stronger garment-worker safety protections.",
+  "activePeriod": "2012–2013",
+  "alternateNames": [
+    "Sumi Abedin, Tazreen survivor",
+    "সুমি আবেদিন"
+  ],
+  "searchAliases": [
+    "Sumi Abedin Tazreen fire",
+    "Sumi Abedin garment safety testimony",
+    "Sumi Abedin Bangladesh Accord campaign"
+  ],
+  "faq": [
+    {
+      "question": "Who is Sumi Abedin?",
+      "answer": "Sumi Abedin is a survivor of the 2012 Tazreen Fashions fire in Bangladesh who later spoke publicly about worker safety and joined international advocacy appearances.",
+      "sourceIds": [
+        "tazreen-fashions-fire-clean-clothes"
+      ]
+    },
+    {
+      "question": "What did Sumi Abedin advocate for?",
+      "answer": "In documented 2013 appearances, Abedin urged retailers to support stronger, binding fire and building-safety protections for garment workers; this profile does not attribute later reforms to her alone.",
+      "sourceIds": [
+        "tazreen-fashions-fire-clean-clothes",
+        "tazreen-fashions-fire-ilo"
+      ]
+    }
+  ],
   "tags": [
     "bengal",
     "regional-history",
-    "content-gap"
+    "labor-rights",
+    "factory-safety"
   ],
   "primaryEventIds": [
     "2012-tazreen-fashions-fire"

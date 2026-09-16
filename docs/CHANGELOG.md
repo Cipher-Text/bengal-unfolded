@@ -4,6 +4,18 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit with Tarique Rahman:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his BNP chairmanship, return after 17 years in exile, and date-bounded leadership of the 2026 election campaign and post-election transition; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, source-linked FAQs, and party-leadership/political-transition tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Farrukhsiyar.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; contemporary election and transition claims are explicitly date-bounded and do not attribute the election or later reforms to Rahman alone.
+
+- Continued the figure-content SEO audit with Sumi Abedin:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with her survivor-witness role after the 2012 Tazreen Fashions fire and documented 2013 international safety-campaign appearances; added localized SEO titles/descriptions, short answers, aliases, active-period metadata, source-linked FAQs, and labor/factory-safety tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Tarique Rahman.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; it describes Abedin as a survivor-witness and campaign participant without attributing sector-wide reforms to her alone.
+
 - Continued the figure-content SEO audit with Andaleeve Rahman Partho, the highest-priority unfinished profile at the start of this pass:
   - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with date-bounded 2026 election and parliamentary-reform context; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, and FAQs.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Barrister Asaduzzaman Fuaad.

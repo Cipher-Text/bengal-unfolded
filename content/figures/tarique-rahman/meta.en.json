@@ -3,13 +3,50 @@
   "name_en": "Tarique Rahman",
   "role": "Chairman of the Bangladesh Nationalist Party",
   "group": "leader",
-  "contribution": "He led the BNP into the 2026 parliamentary election and became the party's central campaign figure after returning from exile.",
-  "context": "Bangladesh's 2026 national election, BNP campaign and post-election government formation.",
-  "impact": "His victory made him the main face of the BNP-led government that emerged from the 2026 vote.",
-  "highlight": "The BNP's chief campaign figure and eventual parliamentary leader.",
+  "contribution": "As chairman of the Bangladesh Nationalist Party (BNP), Tarique Rahman became the party's central campaign figure for the 2026 parliamentary election after returning to Bangladesh from 17 years in exile.",
+  "context": "The 2026 election placed Rahman at the center of the BNP's campaign and the negotiations over government formation after the vote. Contemporary reporting described the BNP as having secured a parliamentary majority while presenting the longer-term political outcome as still dependent on the transition that followed.",
+  "impact": "Rahman's return and election leadership made him a principal actor in the BNP's return to national executive politics. His profile is best understood as a date-bounded account of party leadership and electoral transition, not as a claim that one politician alone determined the election or subsequent reforms.",
+  "highlight": "BNP chairman who led the party's 2026 election campaign after returning from exile.",
+  "seoTitle": "Tarique Rahman: BNP Chairman and 2026 Election Leader",
+  "seoDescription": "Learn about Tarique Rahman, the BNP chairman whose return from exile and leadership of Bangladesh's 2026 parliamentary campaign placed him at the center of the post-election transition.",
+  "shortAnswer": "Tarique Rahman is the BNP chairman who led the party's 2026 parliamentary election campaign after returning to Bangladesh from 17 years in exile.",
+  "activePeriod": "2018–2026",
+  "primaryEventIds": [
+    "2026-election"
+  ],
+  "relatedPlaceIds": [
+    "bangladesh"
+  ],
+  "alternateNames": [
+    "Tarique Rahman",
+    "তারেক রহমান"
+  ],
+  "searchAliases": [
+    "Tarique Rahman BNP chairman",
+    "Tarique Rahman 2026 election",
+    "Tarique Rahman return from exile"
+  ],
+  "faq": [
+    {
+      "question": "Who is Tarique Rahman?",
+      "answer": "Tarique Rahman is the chairman of the Bangladesh Nationalist Party and the central BNP campaign figure in Bangladesh's 2026 parliamentary election.",
+      "sourceIds": [
+        "ap-bangladesh-election-2026-bnp-majority"
+      ]
+    },
+    {
+      "question": "Why was Tarique Rahman important in the 2026 election?",
+      "answer": "His return after 17 years in exile and leadership of the BNP campaign made him a principal actor in the party's reported parliamentary majority and the government-formation transition that followed.",
+      "sourceIds": [
+        "ap-bangladesh-election-2026-bnp-majority",
+        "eeas-bangladesh-election-2026-preliminary-statement"
+      ]
+    }
+  ],
   "tags": [
     "bnp",
     "election-2026",
-    "prime-minister"
+    "party-leadership",
+    "political-transition"
   ]
 }
