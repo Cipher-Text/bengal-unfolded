@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-17
+
+### Completed
+
+- Continued the figure-content SEO audit through the next 10 profiles: Kamal Hossain, Khan Bahadur Khan Rohilla, Khwaja Abdul Hadi Khan, Khwaja Petruse, Khwaja Wajid, Kunwar Singh, Lord Curzon, Lucky Akter, Luke Scrafton, and Mahbub ul Alam Chowdhury.
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Colonial, constitutional, Language Movement, and Shahbag wording is kept contextual and neutral.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Mahmudur Rahman.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: all ten profiles retain their existing image assets; lesser-known regional figures are framed conservatively where the source record is contextual.
+
 ## 2026-09-16
 
 ### Completed
