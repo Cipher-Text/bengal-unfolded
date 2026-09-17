@@ -4,11 +4,23 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit through the next 10 profiles: Isa Khan, Murshid Quli Khan, Nawab Abdul Latif, Shamsuddin Ilyas Shah, Abul Fazal, Imam Ahmad Sirhindi, Alivardi Khan, Ashraf Ali Thanwi, Ayub Khan, and Farrukh Ahmad.
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields where needed; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Sultanate, Mughal, reform, literary, and East Pakistan political histories are framed with specific chronology and contextual wording.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Ishwar Chandra Vidyasagar.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profiles retain their existing image assets; broad intellectual biographies without direct event packs remain linked to regional context rather than over-specific claims.
+
 - Continued the figure-content SEO audit through the next 10 profiles: Anwar Hossain Manju, Begum Rokeya, Dinesh Chandra Sen, Fakhruddin Ahmed, Iajuddin Ahmed, Ikhtiyar al-Din Muhammad Bakhtiyar Khalji, Jadunath Sarkar, Jatin Das, Junaid Babunagari, and Kalpana Datta.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Political, emergency-rule, language, literary, medieval, and revolutionary histories are framed with specific chronology and contextual wording.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Mirza Fakhrul Islam Alamgir.
   - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
   - Risk/known gaps: the profiles retain their existing image assets; broad biographies are linked conservatively to the nearest documented event context.
+
+- Continued the figure-content SEO audit through the next 10 profiles: Mirza Fakhrul Islam Alamgir, General Moeen U Ahmed, Moin U Ahmed, Prafulla Chandra Ray, Shah Ahmad Shafi, Suniti Kumar Chatterji, Akbar, Bankim Chandra Chattopadhyay, Haji Shariatullah, and Imran H. Sarkar.
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Contemporary political, emergency-rule, Shahbag, scientific, literary, medieval, and reform histories are framed with specific chronology and contextual wording.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Isa Khan.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profiles retain their existing image assets; current political and counter-mobilization references are kept descriptive and time-bounded.
 
 - Continued the figure-content SEO audit through the next 10 profiles: Walidad Khan, Washiqur Rahman, William Watts, Yar Latif Khan, Abdul Quader Mollah, Abdur Rab Serniabat, Abdus Sattar, Abul Kalam Azad, Abul Khair, and A. L. M. Fazlur Rahman.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. 1857, Shahbag, Plassey, constitutional, and Pilkhana wording distinguishes documented roles, public memory, and limits of the available record.
