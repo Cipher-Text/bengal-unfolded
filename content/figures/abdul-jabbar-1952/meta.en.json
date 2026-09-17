@@ -1,9 +1,58 @@
 {
   "name": "Abdul Jabbar",
-  "role": "Language Martyr",
+  "role": "Language Movement martyr and civilian participant",
   "group": "martyr",
-  "contribution": "He had come to Dhaka for a relative's medical treatment and joined the protest on 21 February, where he was fatally shot.",
-  "context": "Dhaka Medical College area during the 21 February demonstrations.",
-  "impact": "His story represents how ordinary people were drawn into the movement at the moment of crisis.",
+  "contribution": "Abdul Jabbar came to Dhaka with his family for his mother-in-law's medical treatment and joined the public protest around Dhaka Medical College on 21 February 1952. He was fatally wounded when police opened fire on demonstrators.",
+  "context": "He was not a university student leader but an ordinary visitor who entered the Language Movement's defining confrontation as students and members of the public gathered to demand recognition for Bangla as a state language of Pakistan.",
+  "impact": "Jabbar's death became part of the martyr memory that gave the Language Movement a lasting moral and civic vocabulary. His story also broadens the movement's social history beyond campus activism to include members of the public who joined the demonstrations.",
+  "highlight": "A civilian participant remembered among the martyrs of the 21 February 1952 Language Movement protest.",
+  "seoTitle": "Abdul Jabbar: Language Movement Martyr of 1952",
+  "seoDescription": "Learn about Abdul Jabbar, the civilian participant who was fatally wounded during the 21 February 1952 Language Movement protest in Dhaka.",
+  "shortAnswer": "Abdul Jabbar was a civilian participant in the 1952 Language Movement who was fatally wounded during police firing in Dhaka.",
+  "birthYear": "1919",
+  "deathYear": "1952",
+  "activePeriod": "1952",
+  "primaryEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-medical-college",
+    "central-shaheed-minar",
+    "dhaka-university"
+  ],
+  "alternateNames": [
+    "Abdul Jabbar (Language Movement martyr)",
+    "আবদুল জব্বার"
+  ],
+  "searchAliases": [
+    "Abdul Jabbar 1952",
+    "Abdul Jabbar language martyr",
+    "Abdul Jabbar language movement"
+  ],
+  "faq": [
+    {
+      "question": "Who was Abdul Jabbar?",
+      "answer": "He was a civilian who came to Dhaka for a family medical emergency and joined the 21 February 1952 Language Movement protest, where he was fatally wounded by police fire.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "shaheed-minar-banglapedia"
+      ]
+    },
+    {
+      "question": "Why is Abdul Jabbar remembered?",
+      "answer": "He is remembered as one of the Language Movement martyrs whose death became part of the public memory and annual commemoration of 21 February.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "international-mother-language-day-unesco"
+      ]
+    }
+  ],
+  "tags": [
+    "language-movement",
+    "language-martyr",
+    "1952",
+    "shaheed-memory",
+    "civilian-participant"
+  ],
   "image": "/figures/abdul-jabbar-1952.webp"
 }

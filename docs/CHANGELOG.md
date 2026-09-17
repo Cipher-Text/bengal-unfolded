@@ -4,6 +4,48 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit with Abul Barkat:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Dhaka University study, 21 February 1952 death, martyr memory, and Shaheed Minar connection; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, source-linked FAQs, and Language Movement tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Abul Kalam Shamsuddin.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile retains its existing image asset; the account distinguishes the documented shooting and death from broader commemorative interpretation.
+
+- Continued the figure-content SEO audit with Abdus Salam:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his civilian government employment, 21 February 1952 wounding, later death, and martyr memory; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, source-linked FAQs, and Language Movement tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Abul Barkat.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile retains its existing image asset; the account distinguishes being wounded on 21 February from dying later in hospital.
+
+- Continued the figure-content SEO audit with Abdul Wahed:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his documented arrest during the 1948 language protests and place in the longer organizing history before 1952; added localized SEO titles/descriptions, short answers, active-period metadata, aliases, event/place links, source-linked FAQs, and language-rights tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Abdus Salam.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile retains its existing image asset; the account stays limited to the documented 1948 arrest and avoids assigning unsupported biographical details.
+
+- Continued the figure-content SEO audit with Abdul Kahar Akond:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his CID role in the 2009 Pilkhana investigation, charge sheet, court-recorded dispute, and accountability context; added localized SEO titles/descriptions, short answers, active-period metadata, aliases, event/place links, and source-linked FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Abdul Wahed.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile retains its existing image asset; sensitive allegations about investigative bias, torture, and trial fairness are attributed and separated from established procedural facts.
+
+- Continued the figure-content SEO audit with Abdul Jabbar:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his civilian participation in the 21 February 1952 protest, fatal wounding, and martyr memory; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, source-linked FAQs, and Language Movement tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Abdul Kahar Akond.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile retains its existing image asset; wording distinguishes his civilian status and reported fatal wounding from broader commemorative language.
+
+- Continued the figure-content SEO audit with Abdul Gaffar Choudhury:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1952 lyric, writing and journalism career, and role in Ekushey memory; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, and source-linked FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Abdul Jabbar.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile retains its existing image asset; cultural significance is described as public memory and commemoration rather than as an unqualified ranking.
+
+- Continued the figure-content SEO audit with Musa Khan:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his succession to Isa Khan, Bhati leadership, resistance to Mughal expansion, and 1610 submission; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and source-linked FAQs.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Abdul Gaffar Choudhury.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; dates and the transition into Mughal service are stated at the level supported by the available historical summaries.
+
 - Continued the figure-content SEO audit with Siraj Sikder:
   - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Sarbahara Party leadership, revolutionary politics, early-independence context, and contested custody death; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, source-linked FAQs, and political-history tags.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Musa Khan.

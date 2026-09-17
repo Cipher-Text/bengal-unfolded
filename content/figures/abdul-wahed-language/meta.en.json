@@ -1,9 +1,56 @@
 {
   "name": "Abdul Wahed",
-  "role": "Language Movement Activist",
+  "role": "Language Movement organizer and activist",
   "group": "leader",
-  "contribution": "He was among the activists arrested in the 1948 phase of the movement and remained part of the protest current around language rights.",
-  "context": "The early organizational phase of the language movement.",
-  "impact": "He represents the wider activist network that kept the issue alive before the martyrs of 1952 made it irreversible.",
+  "contribution": "Abdul Wahed was among the political and student activists arrested during the 1948 phase of the Language Movement, when organizers demanded recognition for Bangla in Pakistan's public and constitutional life.",
+  "context": "His activism belongs to the movement's early organizational phase, before the police firing of 21 February 1952. The 1948 rallies, strikes, and arrests established a continuing political campaign that later widened into mass mobilization.",
+  "impact": "Wahed represents the broader activist network that sustained the language question between the first protests of 1948 and the martyrdoms of 1952. Remembering this earlier organizing helps place Ekushey within a longer history rather than treating it as a single-day event.",
+  "highlight": "An early Language Movement activist arrested during the 1948 rallies for Bangla's recognition.",
+  "seoTitle": "Abdul Wahed: Early Language Movement Activist",
+  "seoDescription": "Learn about Abdul Wahed, an activist arrested during the 1948 phase of the Language Movement for demanding recognition of Bangla.",
+  "shortAnswer": "Abdul Wahed was an early Language Movement activist who was arrested during the 1948 rallies demanding recognition for Bangla.",
+  "activePeriod": "1948–1952",
+  "primaryEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-university",
+    "central-shaheed-minar",
+    "dhaka-medical-college"
+  ],
+  "alternateNames": [
+    "Abdul Wahed",
+    "আবদুল ওয়াহেদ"
+  ],
+  "searchAliases": [
+    "Abdul Wahed language movement",
+    "Abdul Wahed 1948 language movement",
+    "Abdul Wahed Bangla language rights"
+  ],
+  "faq": [
+    {
+      "question": "Who was Abdul Wahed in the Language Movement?",
+      "answer": "He was one of the activists arrested during the 1948 rallies that demanded recognition for Bangla as a state language of Pakistan.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ]
+    },
+    {
+      "question": "Why does Abdul Wahed matter to the history of 1952?",
+      "answer": "His arrest represents the earlier organizing, strikes, and public pressure that preceded the 1952 killings and helped turn the language question into a sustained political movement.",
+      "sourceIds": [
+        "language-movement-in-east-bengal",
+        "state-language-movement-in-east-bengal-1947-1956"
+      ]
+    }
+  ],
+  "tags": [
+    "language-movement",
+    "1948-language-protests",
+    "language-rights",
+    "organizing",
+    "pakistan-period"
+  ],
   "image": "/figures/abdul-wahed-language.webp"
 }

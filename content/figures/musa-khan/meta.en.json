@@ -1,12 +1,53 @@
 {
   "name": "Musa Khan",
   "name_en": "Musa Khan",
-  "role": "Successor figure in Baro-Bhuyans resistance",
+  "role": "Zamindar, ruler of Bhati, and Baro-Bhuyans leader",
   "group": "leader",
-  "contribution": "After Isa Khan, he attempted to continue confederate resistance against expanding Mughal authority.",
-  "context": "He operated during the phase when Mughal campaigns intensified and confederate cohesion weakened.",
-  "impact": "His career marks the transition from organized Bhati resistance to gradual Mughal consolidation.",
-  "highlight": "A key successor during the confederacy's declining phase.",
+  "contribution": "Musa Khan inherited his father Isa Khan's authority in Sonargaon and became the leading figure of the Baro-Bhuyans in Bhati. He organized riverine and fortified resistance against the Mughal campaigns in eastern Bengal.",
+  "context": "His leadership belongs to the transition from Afghan influence to Mughal consolidation under Jahangir. Islam Khan Chishti's campaign shifted the balance in 1610–1611, after which Musa Khan submitted and entered the Mughal service.",
+  "impact": "Musa Khan's career shows that Mughal incorporation of Bengal depended on prolonged negotiation and military pressure, not only on a single conquest. His resistance remains central to the history of Bhati and to the memory of regional power in the Bengal delta.",
+  "highlight": "Isa Khan's successor who led Bhati's Baro-Bhuyans against Mughal expansion before submitting in 1610.",
+  "seoTitle": "Musa Khan: Baro-Bhuyans Leader of Bhati",
+  "seoDescription": "Learn about Musa Khan, the ruler of Bhati and successor to Isa Khan who led Baro-Bhuyans resistance against Mughal expansion in Bengal.",
+  "shortAnswer": "Musa Khan was the ruler of Bhati and leader of the Baro-Bhuyans who resisted Mughal consolidation before submitting to Islam Khan Chishti in 1610.",
+  "deathYear": "1623",
+  "activePeriod": "1599–1623",
+  "primaryEventIds": [
+    "1599-baro-bhuyans-resistance-in-bhati",
+    "1610-capital-shift-to-dhaka-jahangirnagar",
+    "1612-mughal-conquest-phase-in-bengal-largely-completed"
+  ],
+  "relatedPlaceIds": [
+    "bhati-region",
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Musa Khan of Sonargaon",
+    "মূসা খাঁ"
+  ],
+  "searchAliases": [
+    "Musa Khan Baro-Bhuyans",
+    "Musa Khan Bhati",
+    "Musa Khan Sonargaon"
+  ],
+  "faq": [
+    {
+      "question": "Who was Musa Khan?",
+      "answer": "He was the zamindar of Sonargaon and ruler of Bhati who succeeded Isa Khan as the leading figure of the Baro-Bhuyans in eastern Bengal.",
+      "sourceIds": [
+        "baro-bhuiyans-wikipedia",
+        "mughal-conquest-of-bengal-wikipedia"
+      ]
+    },
+    {
+      "question": "When did Musa Khan submit to the Mughals?",
+      "answer": "After Islam Khan Chishti's campaign in the Bhati region, Musa Khan submitted in 1610. He was later incorporated into the Mughal political order rather than remaining an independent ruler.",
+      "sourceIds": [
+        "baro-bhuiyans-wikipedia",
+        "mughal-conquest-of-bengal-wikipedia"
+      ]
+    }
+  ],
   "tags": [
     "baro-bhuyans",
     "bhati",

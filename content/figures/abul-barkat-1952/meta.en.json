@@ -1,9 +1,58 @@
 {
   "name": "Abul Barkat",
-  "role": "Language martyr of 1952",
+  "role": "Dhaka University student and Language Movement martyr",
   "group": "martyr",
-  "contribution": "An MA student of Political Science at Dhaka University, he joined the 21 February 1952 protest and was fatally wounded by police firing.",
-  "context": "Dhaka Medical College area, 21 February 1952.",
-  "impact": "His death made the language struggle a sacred public memory tied to sacrifice and national identity.",
+  "contribution": "Abul Barkat was an MA student of Political Science at the University of Dhaka who joined the 21 February 1952 demonstration demanding recognition for Bangla as a state language of Pakistan. He was shot during police firing near Dhaka Medical College and died that evening.",
+  "context": "His death occurred during the decisive confrontation of the Language Movement, when students and members of the public defied Section 144 and gathered near the Medical College hostel. The movement's demand linked language rights to representation and political dignity in East Bengal.",
+  "impact": "Barkat became one of the central martyrs through whom 21 February is remembered in Bangladesh. His name is also tied to the Central Shaheed Minar, inaugurated by his mother in 1963, connecting personal loss to the movement's enduring public memorial culture.",
+  "highlight": "Dhaka University student killed during the police firing of the 21 February 1952 Language Movement protest.",
+  "seoTitle": "Abul Barkat: Language Movement Martyr of 1952",
+  "seoDescription": "Learn about Abul Barkat, the Dhaka University student killed during the 21 February 1952 Language Movement protest in Dhaka.",
+  "shortAnswer": "Abul Barkat was a Dhaka University political science student and Language Movement martyr killed by police fire on 21 February 1952.",
+  "birthYear": "1927",
+  "deathYear": "1952",
+  "activePeriod": "1952",
+  "primaryEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-medical-college",
+    "central-shaheed-minar",
+    "dhaka-university"
+  ],
+  "alternateNames": [
+    "Abul Barkat (Language Movement martyr)",
+    "আবুল বরকত"
+  ],
+  "searchAliases": [
+    "Abul Barkat 1952",
+    "Abul Barkat language martyr",
+    "Abul Barkat Dhaka University"
+  ],
+  "faq": [
+    {
+      "question": "Who was Abul Barkat?",
+      "answer": "He was an MA student of Political Science at the University of Dhaka who was shot during the 21 February 1952 Language Movement protest and died at Dhaka Medical College Hospital.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "shaheed-minar-banglapedia"
+      ]
+    },
+    {
+      "question": "Why is Abul Barkat remembered?",
+      "answer": "He is remembered as one of the central martyrs of the Language Movement, and the Central Shaheed Minar's early memorial history is closely associated with his family.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "shaheed-minar-banglapedia"
+      ]
+    }
+  ],
+  "tags": [
+    "language-movement",
+    "language-martyr",
+    "1952",
+    "dhaka-university",
+    "shaheed-minar"
+  ],
   "image": "/figures/abul-barkat-1952.webp"
 }

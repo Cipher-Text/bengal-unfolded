@@ -1,9 +1,50 @@
 {
   "name": "Abdul Gaffar Choudhury",
-  "role": "Lyricist and Witness",
+  "role": "Lyricist, writer, and journalist",
   "group": "leader",
-  "contribution": "He wrote the words of “Amar Bhaiyer Rokte Rangano,” the song that became the enduring anthem of Ekushey memory.",
-  "context": "The immediate aftermath of the February 1952 killings.",
-  "impact": "His lyric turned mourning into a shared language of remembrance, resistance, and national feeling.",
+  "contribution": "Abdul Gaffar Choudhury wrote the lyric of “Amar Bhaiyer Rokte Rangano,” which became one of the most widely performed commemorative songs of the Bengali Language Movement.",
+  "context": "He wrote the lyric in the aftermath of the February 1952 police firing in Dhaka and later built a long career as a Bengali writer, journalist, columnist, and political commentator in Bangladesh and the United Kingdom.",
+  "impact": "The song connected the deaths and demands of 1952 to recurring public rituals of Ekushey February and International Mother Language Day. His journalism and commentary also made him a continuing participant in debates about Bangladesh's politics, memory, and national identity.",
+  "highlight": "Lyricist of “Amar Bhaiyer Rokte Rangano,” a defining song of language-movement remembrance.",
+  "seoTitle": "Abdul Gaffar Choudhury: Lyricist of Ekushey",
+  "seoDescription": "Learn about Abdul Gaffar Choudhury, the writer and journalist who wrote “Amar Bhaiyer Rokte Rangano,” the defining song of Bangladesh's Language Movement memory.",
+  "shortAnswer": "Abdul Gaffar Choudhury was a Bangladeshi-born writer and journalist best known for writing the lyric of “Amar Bhaiyer Rokte Rangano.”",
+  "birthYear": "1934",
+  "deathYear": "2022",
+  "activePeriod": "1952–2022",
+  "primaryEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-medical-college",
+    "central-shaheed-minar",
+    "dhaka-university"
+  ],
+  "alternateNames": [
+    "Abdul Gaffar Chowdhury",
+    "আবদুল গাফ্ফার চৌধুরী"
+  ],
+  "searchAliases": [
+    "Abdul Gaffar Choudhury Ekushey song",
+    "Amar Bhaiyer Rokte Rangano lyricist",
+    "Abdul Gaffar Chowdhury writer"
+  ],
+  "faq": [
+    {
+      "question": "What is Abdul Gaffar Choudhury known for?",
+      "answer": "He is best known for writing the lyric of “Amar Bhaiyer Rokte Rangano,” a song commemorating the Bengali Language Movement and its martyrs.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "international-mother-language-day-unesco"
+      ]
+    },
+    {
+      "question": "What was Abdul Gaffar Choudhury's profession?",
+      "answer": "He was a writer, journalist, columnist, political commentator, and poet whose career continued across Bangladesh and the United Kingdom.",
+      "sourceIds": [
+        "a-history-of-bangladesh"
+      ]
+    }
+  ],
   "image": "/figures/abdul-gaffar-choudhury.webp"
 }

@@ -1,9 +1,58 @@
 {
   "name": "Abdus Salam",
-  "role": "Language Martyr",
+  "role": "Language Movement martyr and government employee",
   "group": "martyr",
-  "contribution": "A government employee living in Dhaka, he joined the procession on 21 February and later died from his gunshot wounds.",
-  "context": "Public participation in the protests of 21 February 1952.",
-  "impact": "His death showed that the movement had already crossed the student sphere and become a wider people's cause.",
+  "contribution": "Abdus Salam was a government employee in Dhaka who joined the 21 February 1952 Language Movement protest. Police firing left him seriously wounded, and he later died from those injuries at Dhaka Medical College Hospital.",
+  "context": "His participation placed a working civilian alongside students and other members of the public demanding recognition for Bangla as a state language of Pakistan. He died weeks after the shooting, making his story distinct from those killed on the day itself.",
+  "impact": "Salam's death became part of the martyr memory through which the Language Movement is commemorated. His story demonstrates both the movement's broad public participation and the continuing consequences of the 21 February police firing beyond the immediate scene.",
+  "highlight": "Government employee who was wounded in the 21 February 1952 firing and later died from his injuries.",
+  "seoTitle": "Abdus Salam: Language Movement Martyr of 1952",
+  "seoDescription": "Learn about Abdus Salam, the Dhaka government employee wounded during the 21 February 1952 Language Movement protest who later died from his injuries.",
+  "shortAnswer": "Abdus Salam was a government employee and Language Movement martyr who was wounded on 21 February 1952 and died later from his injuries.",
+  "birthYear": "1925",
+  "deathYear": "1952",
+  "activePeriod": "1952",
+  "primaryEventIds": [
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-medical-college",
+    "central-shaheed-minar",
+    "dhaka-university"
+  ],
+  "alternateNames": [
+    "Abdus Salam (Language Movement martyr)",
+    "আবদুস সালাম"
+  ],
+  "searchAliases": [
+    "Abdus Salam 1952",
+    "Abdus Salam language martyr",
+    "Abdus Salam language movement"
+  ],
+  "faq": [
+    {
+      "question": "Who was Abdus Salam of the 1952 Language Movement?",
+      "answer": "He was a government employee in Dhaka who joined the 21 February protest, was wounded by police fire, and later died at Dhaka Medical College Hospital.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "shaheed-minar-banglapedia"
+      ]
+    },
+    {
+      "question": "When did Abdus Salam die?",
+      "answer": "He died on 7 April 1952 after remaining hospitalized with injuries sustained during the 21 February police firing.",
+      "sourceIds": [
+        "language-movement-banglapedia",
+        "language-movement-in-east-bengal"
+      ]
+    }
+  ],
+  "tags": [
+    "language-movement",
+    "language-martyr",
+    "1952",
+    "civilian-participant",
+    "shaheed-memory"
+  ],
   "image": "/figures/abdus-salam-1952.webp"
 }

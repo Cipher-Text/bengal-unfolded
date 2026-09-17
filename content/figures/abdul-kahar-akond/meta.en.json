@@ -1,11 +1,50 @@
 {
   "name": "Abdul Kahar Akond",
   "name_en": "Abdul Kahar Akond",
-  "role": "Former police official referenced in inquiry process",
+  "role": "Retired police officer and Pilkhana investigation officer",
   "group": "leader",
-  "contribution": "Associated with the 2009 Pilkhana case through testimony, oversight, investigation, or political linkage documented in public reporting.",
-  "context": "Post-incident justice, accountability, and re-investigation discourse around the BDR mutiny/massacre.",
-  "impact": "Contributed to how state accountability and competing narratives around Pilkhana were framed in public and institutional arenas.",
+  "contribution": "As a Criminal Investigation Department officer, Abdul Kahar Akond led the investigation into the 2009 Pilkhana mutiny and massacre and submitted a charge sheet against 824 accused in the murder case.",
+  "context": "His work belongs to the post-incident prosecution and accountability process following the 25–26 February 2009 revolt at Bangladesh Rifles headquarters. Court records describe the evidence-gathering and witness-recording process, while rights reporting raised separate concerns about torture and the fairness of proceedings against some accused personnel.",
+  "impact": "Akond's investigation became part of the evidentiary foundation for the Pilkhana trials and a continuing public debate about accountability. A 2013 trial-court judgment also ordered departmental action against him over allegations that his investigation had been biased in relation to one accused; those allegations should be distinguished from the court record of his investigative role.",
+  "highlight": "CID investigation officer who led the 2009 Pilkhana case investigation and filed charges against 824 accused.",
+  "seoTitle": "Abdul Kahar Akond: Pilkhana Investigation Officer",
+  "seoDescription": "Learn about Abdul Kahar Akond's role as the Criminal Investigation Department officer who led the investigation into the 2009 Pilkhana mutiny case.",
+  "shortAnswer": "Abdul Kahar Akond was the Criminal Investigation Department officer who led the investigation into the 2009 Pilkhana mutiny case and submitted charges against 824 accused.",
+  "activePeriod": "2009–2013",
+  "primaryEventIds": [
+    "2009-bdr-mutiny-pilkhana-massacre"
+  ],
+  "relatedPlaceIds": [
+    "pilkhana-dhaka"
+  ],
+  "alternateNames": [
+    "Abdul Kahar Akand",
+    "Abdul Kahar Akondo",
+    "আব্দুল কাহার আকন্দ"
+  ],
+  "searchAliases": [
+    "Abdul Kahar Akond Pilkhana",
+    "Abdul Kahar Akand CID",
+    "Pilkhana investigation officer"
+  ],
+  "faq": [
+    {
+      "question": "What was Abdul Kahar Akond's role in the Pilkhana case?",
+      "answer": "He served as the Criminal Investigation Department investigation officer and led the inquiry that resulted in a charge sheet against 824 accused in the murder case.",
+      "sourceIds": [
+        "bdr-pilkhana-government-investigation-report-2009",
+        "pilkhana-verdict-2013-dhaka-sessions-court"
+      ]
+    },
+    {
+      "question": "Why is Abdul Kahar Akond's investigation debated?",
+      "answer": "The investigation was central to the prosecution, but a trial-court judgment ordered departmental action after finding his handling of one accused's case biased. Human rights reporting also documented broader concerns about torture and unfair trials; these concerns are not presented here as a complete finding about every part of his work.",
+      "sourceIds": [
+        "pilkhana-verdict-2013-dhaka-sessions-court",
+        "fear-never-leaves-me-hrw"
+      ]
+    }
+  ],
   "tags": [
     "pilkhana",
     "bdr-mutiny",
