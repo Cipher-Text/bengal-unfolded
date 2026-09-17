@@ -1,9 +1,22 @@
 {
   "name": "Ahmed Rafiq",
-  "role": "Historian of the Language Movement",
+  "role": "Historian, writer, and interpreter of the Language Movement",
   "group": "leader",
-  "contribution": "He became one of the major historians and interpreters of the language movement and its political meaning.",
-  "context": "Post-1952 documentation and historical interpretation.",
-  "impact": "His research helped preserve the movement as a foundational narrative of Bangladesh.",
+  "contribution": "Ahmed Rafiq documented and interpreted the Language Movement and its political meaning through historical writing, essays, and public intellectual work.",
+  "context": "His work belongs to the post-1952 effort to preserve testimony, reconstruct chronology, and explain how language politics connected cultural identity with democratic and regional claims in East Bengal.",
+  "impact": "Rafiq helped keep the Language Movement present in Bangladesh's historical and literary conversation. His career demonstrates that the movement's legacy was shaped not only by activists and martyrs but also by later researchers and interpreters.",
+  "highlight": "Historian and writer whose work helped document the Language Movement's political meaning.",
+  "seoTitle": "Ahmed Rafiq: Historian of Bangladesh's Language Movement",
+  "seoDescription": "Learn about Ahmed Rafiq, the historian and writer who documented the Language Movement and its connection to Bengali political identity.",
+  "shortAnswer": "Ahmed Rafiq was a Bangladeshi historian and writer known for documenting and interpreting the Language Movement.",
+  "activePeriod": "1952–2021",
+  "primaryEventIds": ["1952-language-movement"],
+  "relatedPlaceIds": ["dhaka-university", "central-shaheed-minar"],
+  "alternateNames": ["Ahmed Rafiq", "আহমদ রফিক"],
+  "searchAliases": ["Ahmed Rafiq Language Movement historian", "Ahmed Rafiq Bangladesh writer", "আহমদ রফিক ভাষা আন্দোলন"],
+  "faq": [
+    {"question": "What did Ahmed Rafiq contribute to Language Movement history?", "answer": "Through historical and literary writing, he documented the movement and interpreted its connection to Bengali identity, culture, and politics.", "sourceIds": ["language-movement-in-east-bengal", "a-history-of-bangladesh"]},
+    {"question": "Why are later historians important to the movement's memory?", "answer": "They preserve evidence and explain how the events of 1952 were connected to later struggles over autonomy, culture, and national identity.", "sourceIds": ["state-language-movement-in-east-bengal-1947-1956", "language-movement-of-1952-background-of-independent-bangladesh"]}
+  ],
   "image": "/figures/ahmed-rafiq.webp"
 }

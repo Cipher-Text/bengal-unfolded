@@ -1,9 +1,24 @@
 {
   "name": "Alauddin Al Azad",
-  "role": "Writer and Cultural Activist",
+  "role": "Writer, poet, and cultural activist",
   "group": "leader",
-  "contribution": "He belonged to the progressive literary current that supported Bengali language, culture, and political assertion in East Pakistan.",
-  "context": "Cultural politics surrounding the language movement.",
-  "impact": "His work reflects how literature and political protest nourished one another in the Bengali awakening.",
+  "contribution": "Alauddin Al Azad was a Bangladeshi writer and poet whose work participated in the progressive literary and cultural current supporting Bengali language and political self-expression in East Pakistan.",
+  "context": "His cultural work belongs to the wider milieu around the Language Movement, when literature, theatre, journalism, and public commemoration helped articulate Bengali identity under Pakistani rule.",
+  "impact": "Al Azad's place in this history shows how literary production and political protest reinforced one another during the Bengali awakening. His writing is part of the cultural archive through which the movement's meanings were carried beyond the streets and into later generations.",
+  "highlight": "Writer and poet associated with the progressive cultural current surrounding the Language Movement.",
+  "seoTitle": "Alauddin Al Azad: Writer of Bengal's Cultural Awakening",
+  "seoDescription": "Learn about Alauddin Al Azad, the Bangladeshi writer and poet whose work reflected the cultural politics of the Language Movement era.",
+  "shortAnswer": "Alauddin Al Azad was a Bangladeshi writer and poet associated with the progressive cultural movement around Bengali language and identity.",
+  "birthYear": "1932",
+  "deathYear": "2009",
+  "activePeriod": "1952–2009",
+  "primaryEventIds": ["1952-language-movement"],
+  "relatedPlaceIds": ["dhaka-university", "central-shaheed-minar"],
+  "alternateNames": ["Alauddin Al Azad", "Alauddin Al-Azad", "আলাউদ্দিন আল আজাদ"],
+  "searchAliases": ["Alauddin Al Azad writer", "Alauddin Al Azad poet", "আলাউদ্দিন আল আজাদ ভাষা আন্দোলন"],
+  "faq": [
+    {"question": "Who was Alauddin Al Azad?", "answer": "He was a Bangladeshi writer and poet associated with the progressive cultural current around Bengali language, literature, and political identity.", "sourceIds": ["language-movement-in-east-bengal", "a-history-of-bangladesh"]},
+    {"question": "How does Alauddin Al Azad relate to the Language Movement?", "answer": "His work reflects the way literature and cultural activism extended the Language Movement's arguments about Bengali identity beyond the immediate protests.", "sourceIds": ["language-movement-of-1952-background-of-independent-bangladesh", "internal-colonisation-national-liberation-cultural-resistance"]}
+  ],
   "image": "/figures/alauddin-al-azad.webp"
 }

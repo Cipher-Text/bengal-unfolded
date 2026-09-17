@@ -1,11 +1,24 @@
 {
   "name": "AFM Bahauddin Nasim",
   "name_en": "AFM Bahauddin Nasim",
-  "role": "Political actor referenced in inquiry-era proceedings",
+  "role": "Awami League politician referenced in Pilkhana-era political debates",
   "group": "leader",
-  "contribution": "Associated with the 2009 Pilkhana case through testimony, oversight, investigation, or political linkage documented in public reporting.",
-  "context": "Post-incident justice, accountability, and re-investigation discourse around the BDR mutiny/massacre.",
-  "impact": "Contributed to how state accountability and competing narratives around Pilkhana were framed in public and institutional arenas.",
+  "contribution": "AFM Bahauddin Nasim was a senior Awami League political figure whose name appears in public reporting and later political debate surrounding the 2009 Pilkhana crisis and its accountability narratives.",
+  "context": "His profile belongs to the political aftermath of the BDR mutiny, where responsibility, institutional failure, investigation, and competing explanations were debated. The available record does not establish that he directed the incident or the criminal investigation.",
+  "impact": "Nasim illustrates how political actors became part of the public contest over the Pilkhana crisis even when their exact operational role was disputed or not established in the available record. This profile separates political association from proof of criminal responsibility.",
+  "highlight": "Political figure whose public association with Pilkhana-era debates remains distinct from established operational responsibility.",
+  "seoTitle": "AFM Bahauddin Nasim: Pilkhana-Era Political Context",
+  "seoDescription": "Explore AFM Bahauddin Nasim's place in the political debates and public narratives surrounding Bangladesh's 2009 Pilkhana crisis.",
+  "shortAnswer": "AFM Bahauddin Nasim was an Awami League political figure associated in public debate with the aftermath of the 2009 Pilkhana crisis; association is not proof of criminal responsibility.",
+  "activePeriod": "2009–2013",
+  "primaryEventIds": ["2009-bdr-mutiny-pilkhana-massacre"],
+  "relatedPlaceIds": ["pilkhana-dhaka"],
+  "alternateNames": ["AFM Bahauddin Nasim", "এএফএম বাহাউদ্দিন নাসিম"],
+  "searchAliases": ["Bahauddin Nasim Pilkhana", "AFM Bahauddin Nasim Bangladesh", "Bahauddin Nasim BDR crisis"],
+  "faq": [
+    {"question": "What is AFM Bahauddin Nasim's documented connection to Pilkhana?", "answer": "He appears in public political reporting and later debate about the crisis and its aftermath; the available record does not establish that he directed the mutiny or the investigation.", "sourceIds": ["pilkhana-political-analysis"]},
+    {"question": "Does association with the Pilkhana debate establish criminal responsibility?", "answer": "No. Political association or mention in public narratives is not, by itself, proof of criminal responsibility or operational involvement.", "sourceIds": ["fear-never-leaves-me-hrw", "bdr-mutiny-hrw-no-justice-mass-trials"]}
+  ],
   "tags": [
     "pilkhana",
     "bdr-mutiny",

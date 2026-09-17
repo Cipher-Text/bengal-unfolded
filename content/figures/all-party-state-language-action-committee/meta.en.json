@@ -1,9 +1,22 @@
 {
   "name": "All-Party State Language Action Committee",
-  "role": "Coordinating Front",
+  "role": "All-party coordinating body of the Language Movement",
   "group": "organization",
-  "contribution": "The committee brought together parties, students, and activists to plan coordinated protest in early 1952.",
-  "context": "Dhaka, January-February 1952.",
-  "impact": "It provided the organizational structure that made mass defiance on 21 February possible.",
+  "contribution": "The All-Party State Language Action Committee brought political parties, students, and activists together to coordinate the early 1952 campaign for recognition of Bangla as a state language.",
+  "context": "The committee operated in Dhaka during January and February 1952, when organizers debated tactics, strikes, public meetings, and responses to Section 144. Its work linked earlier language-rights activism to the mass protest of 21 February.",
+  "impact": "The committee provided a coordinating structure for collective action and helped turn a language demand into a broad public movement. Its history also shows the importance of coalition politics in the Language Movement.",
+  "highlight": "All-party coalition that coordinated the 1952 campaign for Bangla's state-language recognition.",
+  "seoTitle": "All-Party State Language Action Committee, 1952",
+  "seoDescription": "Learn how the All-Party State Language Action Committee coordinated parties, students, and activists during Bangladesh's 1952 Language Movement.",
+  "shortAnswer": "The All-Party State Language Action Committee was the coalition that coordinated the Language Movement's early 1952 protests and demands.",
+  "activePeriod": "1952",
+  "primaryEventIds": ["1952-language-movement"],
+  "relatedPlaceIds": ["dhaka-university", "dhaka-medical-college", "central-shaheed-minar"],
+  "alternateNames": ["All-Party State Language Action Committee", "সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম পরিষদ"],
+  "searchAliases": ["All Party State Language Action Committee 1952", "State Language Action Committee Bangladesh", "সর্বদলীয় রাষ্ট্রভাষা সংগ্রাম পরিষদ"],
+  "faq": [
+    {"question": "What was the All-Party State Language Action Committee?", "answer": "It was a coalition of political parties, students, and activists that coordinated the 1952 campaign for recognition of Bangla as a state language of Pakistan.", "sourceIds": ["language-movement-banglapedia", "state-language-movement-in-east-bengal-1947-1956"]},
+    {"question": "Why was the committee important?", "answer": "It gave the Language Movement an organizational framework for strikes, meetings, and collective decisions before the mass defiance of 21 February.", "sourceIds": ["language-movement-in-east-bengal", "language-movement-banglapedia"]}
+  ],
   "image": "/figures/all-party-state-language-action-committee.webp"
 }

@@ -1,9 +1,23 @@
 {
   "name": "Abul Kalam Shamsuddin",
-  "role": "Editor and Public Supporter",
+  "role": "Editor, journalist, and public supporter of the Language Movement",
   "group": "leader",
-  "contribution": "As editor of Daily Azad, he formally inaugurated the first memorial to the language martyrs after the shootings.",
-  "context": "Public mourning and press culture after February 1952.",
-  "impact": "He helped give public legitimacy to remembrance at a moment of state repression.",
+  "contribution": "As editor of the newspaper Daily Azad, Abul Kalam Shamsuddin supported public remembrance after the 21 February 1952 shootings and formally inaugurated the first temporary memorial to the language martyrs.",
+  "context": "His role emerged at the intersection of press culture, public mourning, and state restriction after the Language Movement killings. The temporary memorial was built near Dhaka Medical College before later memorial traditions took shape.",
+  "impact": "Shamsuddin helped move the memory of the dead from the immediate protest site into public print and commemorative practice. His work shows how newspapers and editors shaped the movement's early civic memory.",
+  "highlight": "Daily Azad editor who inaugurated the first temporary memorial to the 1952 language martyrs.",
+  "seoTitle": "Abul Kalam Shamsuddin: Editor of Daily Azad",
+  "seoDescription": "Learn about Abul Kalam Shamsuddin, the Daily Azad editor who supported public remembrance and inaugurated an early memorial to the 1952 language martyrs.",
+  "shortAnswer": "Abul Kalam Shamsuddin was the editor of Daily Azad who helped establish early public memorial practice after the 1952 Language Movement killings.",
+  "activePeriod": "1952",
+  "primaryEventIds": ["1952-language-movement"],
+  "relatedPlaceIds": ["dhaka-medical-college", "central-shaheed-minar"],
+  "alternateNames": ["Abul Kalam Shamsuddin", "আবুল কালাম শামসুদ্দীন"],
+  "searchAliases": ["Abul Kalam Shamsuddin Daily Azad", "Daily Azad editor 1952", "Abul Kalam Shamsuddin Language Movement"],
+  "faq": [
+    {"question": "What was Abul Kalam Shamsuddin's role after the 1952 shootings?", "answer": "As editor of Daily Azad, he supported public mourning and inaugurated an early temporary memorial to the language martyrs near Dhaka Medical College.", "sourceIds": ["language-movement-banglapedia", "shaheed-minar-banglapedia"]},
+    {"question": "Why is Abul Kalam Shamsuddin important to Language Movement history?", "answer": "He represents the role of newspapers and editors in making the deaths of 1952 part of a wider public record and commemorative culture.", "sourceIds": ["language-movement-in-east-bengal", "language-movement-banglapedia"]}
+  ],
+  "tags": ["language-movement", "daily-azad", "press-history", "shaheed-memory"],
   "image": "/figures/abul-kalam-shamsuddin.webp"
 }

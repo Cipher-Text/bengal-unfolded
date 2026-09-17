@@ -1,10 +1,25 @@
 {
   "name_en": "Ali Ahsan Mohammad Mujaheed",
-  "role": "Jamaat leadership figure in the crisis",
+  "role": "Jamaat-e-Islami leader and convicted war-crimes defendant",
   "group": "leader",
-  "contribution": "Associated with the broader 2013 Shahbag-Gonojagoron political cycle as a visible actor in mobilization, response, or legacy debates.",
-  "context": "Bangladesh's contested public sphere around war-crimes justice, protest mobilization, and counter-mobilization in 2013.",
-  "impact": "Their presence influenced narratives, alignments, or public memory connected to the Shahbag moment and its aftermath.",
+  "contribution": "Ali Ahsan Mohammad Mujaheed was a senior Jamaat-e-Islami leader whose political career and tribunal case became central to Bangladesh's post-2013 debate over accountability for 1971.",
+  "context": "His public role was contested during the Shahbag mobilization and its counter-mobilization. The International Crimes Tribunal convicted him in 2013, and Bangladesh's Supreme Court upheld the conviction and death sentence on appeal before his execution in 2015.",
+  "impact": "Mujaheed's case became part of the country's struggle over war-crimes justice, political legitimacy, and due process. Rights groups and observers criticized aspects of the tribunal process, so the judicial findings and the criticism of the proceedings are presented separately.",
+  "highlight": "Senior Jamaat-e-Islami leader whose tribunal conviction and 2015 execution shaped Bangladesh's contested 1971 accountability history.",
+  "seoTitle": "Ali Ahsan Mohammad Mujaheed: Tribunal Case and Legacy",
+  "seoDescription": "Learn about Ali Ahsan Mohammad Mujaheed, the Jamaat-e-Islami leader whose International Crimes Tribunal case became part of Bangladesh's contested 1971 accountability history.",
+  "shortAnswer": "Ali Ahsan Mohammad Mujaheed was a senior Jamaat-e-Islami leader convicted over 1971-related crimes and executed in 2015 after appeals.",
+  "birthYear": "1948",
+  "deathYear": "2015",
+  "activePeriod": "1970s–2015",
+  "primaryEventIds": ["2013-shahbag-movement"],
+  "relatedPlaceIds": ["bengal-region"],
+  "alternateNames": ["Ali Ahsan Mohammad Mujaheed", "Ali Ahsan Muhammad Mujahid", "আলী আহসান মোহাম্মদ মুজাহিদ"],
+  "searchAliases": ["Mujaheed Jamaat tribunal", "Ali Ahsan Mohammad Mujaheed 1971 case", "Mujaheed execution 2015"],
+  "faq": [
+    {"question": "Who was Ali Ahsan Mohammad Mujaheed?", "answer": "He was a senior Jamaat-e-Islami leader who was convicted by Bangladesh's International Crimes Tribunal over 1971-related crimes and executed in 2015 after appeals.", "sourceIds": ["ict-act-amendment-2013", "bangladesh-quest-for-freedom-and-justice"]},
+    {"question": "Why is Mujaheed's case contested?", "answer": "The tribunal and Supreme Court recorded the conviction and sentence, while rights observers criticized aspects of the trial's fairness and political context. Those criticisms are not presented as judicial findings.", "sourceIds": ["ict-act-amendment-2013", "hrw-blood-on-the-streets-2013"]}
+  ],
   "tags": [
     "shahbag",
     "2013"

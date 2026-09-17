@@ -1,9 +1,22 @@
 {
   "name": "Amanul Huq",
-  "role": "Photographer of the Movement",
+  "role": "Photographer and visual documentarian of the Language Movement",
   "group": "leader",
-  "contribution": "He photographed the language movement, including iconic images of its martyrs and protests.",
-  "context": "Visual documentation of 1952 and its aftermath.",
-  "impact": "His camera helped preserve Ekushey as a visible and emotionally immediate public memory.",
+  "contribution": "Amanul Huq photographed the Language Movement and its aftermath, helping preserve visual records of protests, mourning, and the martyrs of 1952.",
+  "context": "His work belongs to the visual documentation of the movement and the early memorial culture that followed the February 1952 killings. Photographs made the events available to audiences beyond those who witnessed them directly.",
+  "impact": "Huq's photographs helped make Ekushey a visible public memory as well as a political narrative. They also remind readers that historical understanding depends on photographers and archivists who preserve images alongside written testimony.",
+  "highlight": "Photographer whose images helped preserve the visual memory of the 1952 Language Movement.",
+  "seoTitle": "Amanul Huq: Photographer of the 1952 Language Movement",
+  "seoDescription": "Learn about Amanul Huq and his photographic record of the protests, martyrs, and memorial culture of Bangladesh's 1952 Language Movement.",
+  "shortAnswer": "Amanul Huq was a photographer whose images helped preserve the visual memory of the 1952 Language Movement and its martyrs.",
+  "activePeriod": "1952–1963",
+  "primaryEventIds": ["1952-language-movement"],
+  "relatedPlaceIds": ["dhaka-university", "central-shaheed-minar", "dhaka-medical-college"],
+  "alternateNames": ["Amanul Huq", "আমানুল হক"],
+  "searchAliases": ["Amanul Huq photographer language movement", "Amanul Huq 1952", "আমানুল হক ভাষা আন্দোলনের আলোকচিত্রী"],
+  "faq": [
+    {"question": "What did Amanul Huq document?", "answer": "He photographed the Language Movement and its aftermath, including the protests, mourning, and visual memory of the 1952 martyrs.", "sourceIds": ["language-movement-in-east-bengal", "shaheed-minar-banglapedia"]},
+    {"question": "Why are Amanul Huq's photographs important?", "answer": "They helped preserve the movement as a visible public memory and complemented written accounts of the protests and their aftermath.", "sourceIds": ["language-movement-banglapedia", "shaheed-minar-banglapedia"]}
+  ],
   "image": "/figures/amanul-huq.webp"
 }

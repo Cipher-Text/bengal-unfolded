@@ -1,11 +1,24 @@
 {
   "name": "Ahmad Khan Kharal",
   "name_en": "Ahmad Khan Kharal",
-  "role": "Regional anti-colonial rebel leader",
+  "role": "Regional anti-colonial rebel leader in Punjab",
   "group": "leader",
-  "contribution": "He led anti-British armed resistance in the wider 1857 uprising context in Punjab frontier zones.",
-  "context": "Punjab region during the 1857 anti-colonial conflict.",
-  "impact": "Remembered as a regional symbol of resistance to British authority during the revolt era.",
+  "contribution": "Ahmad Khan Kharal led armed resistance against East India Company authority in the Sandal Bar and wider Punjab region during the 1857 uprising.",
+  "context": "His rebellion unfolded in a region where local chiefs, peasants, and military forces responded differently to the Company state. The Punjab theatre was connected to the wider 1857 conflict but had its own local alliances and chronology.",
+  "impact": "Kharal is remembered as a regional symbol of resistance to colonial authority. His story helps broaden the history of 1857 beyond the best-known centres of the uprising and shows the importance of local leadership in rural Punjab.",
+  "highlight": "Sandal Bar leader remembered for armed resistance to Company rule during the 1857 uprising.",
+  "seoTitle": "Ahmad Khan Kharal: Punjab Rebel Leader of 1857",
+  "seoDescription": "Learn about Ahmad Khan Kharal, the Punjab leader who organized armed resistance against East India Company rule during the 1857 uprising.",
+  "shortAnswer": "Ahmad Khan Kharal was a regional Punjab leader who resisted East India Company rule during the 1857 uprising.",
+  "activePeriod": "1857",
+  "primaryEventIds": ["1857-sipahi-revolt"],
+  "relatedPlaceIds": ["bengal-region"],
+  "alternateNames": ["Ahmad Khan Kharal", "Ahmed Khan Kharal", "আহমদ খান খরাল"],
+  "searchAliases": ["Ahmad Khan Kharal 1857", "Ahmad Khan Kharal Punjab revolt", "Sandal Bar rebel leader"],
+  "faq": [
+    {"question": "Who was Ahmad Khan Kharal?", "answer": "He was a regional leader in Punjab who organized armed resistance against East India Company authority during the 1857 uprising.", "sourceIds": ["indian-rebellion-1857-britannica"]},
+    {"question": "Why is Ahmad Khan Kharal remembered?", "answer": "He is remembered for representing local rural resistance in Punjab, a theatre connected to but distinct from the uprising's better-known centres.", "sourceIds": ["indian-rebellion-1857-britannica"]}
+  ],
   "tags": [
     "1857",
     "rebellion",

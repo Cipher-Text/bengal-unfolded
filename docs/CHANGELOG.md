@@ -4,6 +4,12 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit through the next 10 profiles: Abul Kalam Shamsuddin, AFM Bahauddin Nasim, Ahmad Khan Kharal, Ahmed Rafiq, Ahmed Rajib Haider, Alauddin Al Azad, Ali Ahsan Mohammad Mujaheed, Ali Bahadur II, the All-Party State Language Action Committee, and Amanul Huq.
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata where supported, aliases, event/place links, source-linked FAQs, and tags. Sensitive Shahbag, Pilkhana, and tribunal-related wording separates reported association, allegations, and judicial findings.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Amar Singh.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: all ten profiles retain their existing image assets; biographical details are limited where the linked event record provides only contextual association.
+
 - Continued the figure-content SEO audit with Abul Barkat:
   - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Dhaka University study, 21 February 1952 death, martyr memory, and Shaheed Minar connection; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, source-linked FAQs, and Language Movement tags.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Abul Kalam Shamsuddin.
