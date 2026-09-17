@@ -1,9 +1,19 @@
 {
   "name": "Dhaka Medical College Students",
-  "role": "Student Collective",
+  "role": "Student collective and emergency responders",
   "group": "collective",
-  "contribution": "They helped organize resistance, shelter the wounded, and build the first Shaheed Minar immediately after the killings.",
-  "context": "Dhaka Medical College Hostel and its surrounding protest zone.",
-  "impact": "Their work turned the site of bloodshed into a place of collective mourning and memory.",
+  "contribution": "Students of Dhaka Medical College helped organize resistance, shelter wounded demonstrators, and build the first temporary Shaheed Minar after the 21 February 1952 killings.",
+  "context": "The Medical College hostel and its surrounding streets were a crucial protest, treatment, and mourning zone during the Language Movement. Students worked alongside demonstrators and medical staff under intense state pressure.",
+  "impact": "Their actions turned a site of violence into a place of collective mourning and memory. The group represents the practical, medical, and organizational labour that sustained the movement after the shootings.",
+  "highlight": "Dhaka Medical College students who sheltered the wounded and built the first temporary Shaheed Minar.",
+  "seoTitle": "Dhaka Medical College Students and the 1952 Movement",
+  "seoDescription": "Learn how Dhaka Medical College students sheltered the wounded and built the first Shaheed Minar after the 1952 Language Movement killings.",
+  "shortAnswer": "Dhaka Medical College students helped organize resistance, care for wounded protesters, and build the first temporary Shaheed Minar in 1952.",
+  "activePeriod": "1952",
+  "primaryEventIds": ["1952-language-movement"],
+  "relatedPlaceIds": ["dhaka-medical-college", "central-shaheed-minar"],
+  "alternateNames": ["Dhaka Medical College Students", "ঢাকা মেডিকেল কলেজের শিক্ষার্থীরা"],
+  "searchAliases": ["Dhaka Medical College students 1952", "first Shaheed Minar students", "ঢাকা মেডিকেল কলেজ ভাষা আন্দোলন"],
+  "faq": [{"question": "What did Dhaka Medical College students do in 1952?", "answer": "They helped organize resistance, shelter wounded demonstrators, and build the first temporary Shaheed Minar after the 21 February killings.", "sourceIds": ["language-movement-banglapedia", "shaheed-minar-banglapedia"]}],
   "image": "/figures/dhaka-medical-college-students.webp"
 }
