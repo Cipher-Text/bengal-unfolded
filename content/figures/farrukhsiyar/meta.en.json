@@ -3,14 +3,55 @@
   "name_en": "Farrukhsiyar",
   "role": "Mughal emperor who formalized Bengal's nawabi phase",
   "group": "leader",
-  "contribution": "His 1717 settlement formally elevated Murshid Quli Khan, marking a new phase of Bengal's quasi-autonomous nawabi administration.",
-  "context": "Imperial recognition coexisted with increasing provincial fiscal-political autonomy in Bengal.",
-  "impact": "The 1717 arrangement helped structure the political order that persisted until the Plassey crisis.",
-  "highlight": "Farrukhsiyar's 1717 decision helped institutionalize Bengal's nawabi regime.",
+  "contribution": "As Mughal emperor, Farrukhsiyar confirmed Murshid Quli Khan as subahdar of Bengal, Bihar, and Orissa in 1717, helping formalize the office and political order later associated with Bengal's nawabi period.",
+  "context": "Farrukhsiyar ruled from 1713 to 1719 during a period when the Mughal court still claimed sovereignty over Bengal but relied on powerful provincial administrators. The 1717 appointment followed Murshid Quli Khan's rise as Bengal's effective fiscal and administrative authority and placed that authority within an imperial framework.",
+  "impact": "The arrangement did not make Bengal an independent state. It preserved Mughal suzerainty while giving the provincial subahdar a stronger institutional base for revenue management and court politics; that combination shaped the regional order inherited by the nawabs before the 1757 Plassey crisis.",
+  "highlight": "Mughal emperor whose 1717 confirmation of Murshid Quli Khan helped formalize Bengal's nawabi administration.",
+  "seoTitle": "Farrukhsiyar: Mughal Emperor and Bengal's 1717 Nawabi Settlement",
+  "seoDescription": "Learn how Mughal emperor Farrukhsiyar's 1717 confirmation of Murshid Quli Khan shaped Bengal's nawabi administration while Mughal suzerainty remained in place.",
+  "shortAnswer": "Farrukhsiyar was the Mughal emperor who in 1717 confirmed Murshid Quli Khan as subahdar of Bengal, helping formalize the province's later nawabi political order.",
+  "activePeriod": "1713–1719",
+  "primaryEventIds": [
+    "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+    "1717-murshid-quli-khan-formally-appointed-nawab"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "murshidabad"
+  ],
+  "alternateNames": [
+    "Farrukh Siyar",
+    "Farrukh-siyar",
+    "ফাররুখসিয়ার"
+  ],
+  "searchAliases": [
+    "Farrukhsiyar Bengal 1717",
+    "Farrukhsiyar Murshid Quli Khan",
+    "Farrukhsiyar Mughal emperor"
+  ],
+  "faq": [
+    {
+      "question": "Who was Farrukhsiyar?",
+      "answer": "Farrukhsiyar was a Mughal emperor who ruled from 1713 to 1719. In Bengal's history, he is associated with the 1717 confirmation of Murshid Quli Khan as subahdar.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia"
+      ]
+    },
+    {
+      "question": "What did Farrukhsiyar's 1717 decision mean for Bengal?",
+      "answer": "It placed Murshid Quli Khan's powerful provincial administration within continued Mughal sovereignty while helping establish the institutional pattern of Bengal's later nawabi politics.",
+      "sourceIds": [
+        "murshid-quli-khan-banglapedia",
+        "murshid-quli-khan-britannica"
+      ]
+    }
+  ],
   "tags": [
     "mughal",
     "nawab",
     "1717",
-    "murshidabad"
+    "murshidabad",
+    "provincial-administration",
+    "imperial-politics"
   ]
 }

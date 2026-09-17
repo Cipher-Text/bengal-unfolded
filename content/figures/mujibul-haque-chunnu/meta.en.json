@@ -1,9 +1,48 @@
 {
   "name": "Mujibul Haque Chunnu",
   "name_en": "Mujibul Haque Chunnu",
-  "role": "Politician",
+  "role": "Jatiya Party politician and former parliamentarian",
   "group": "leader",
-  "contribution": "Mujibul Haque Chunnu was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history."
+  "contribution": "Mujibul Haque Chunnu represented the Jatiya Party in parliament from Kishoreganj-3 and served as a state minister responsible for labour and employment after the 2014 parliamentary election; he later served as the party's secretary general.",
+  "context": "His career sits within Bangladesh's post-1990 parliamentary politics, where Jatiya Party legislators remained important coalition and opposition actors after the end of Ershad-era military rule. The 2014 election returned Chunnu to parliament amid an opposition boycott, uncontested seats, and violence, so his parliamentary role must be read within that contested electoral setting.",
+  "impact": "Chunnu illustrates how Jatiya Party politicians carried institutional and party influence across successive parliamentary cycles even as the party's position shifted between government alignment and opposition leadership. His labour portfolio also connects party politics to parliamentary oversight and employment policy, without making him the sole author of national policy.",
+  "highlight": "Jatiya Party politician who represented Kishoreganj-3 and later served as the party's secretary general.",
+  "seoTitle": "Mujibul Haque Chunnu: Jatiya Party Politician and MP",
+  "seoDescription": "Learn about Mujibul Haque Chunnu, the Jatiya Party politician who represented Kishoreganj-3, served in the labour ministry, and later became the party's secretary general.",
+  "shortAnswer": "Mujibul Haque Chunnu is a Jatiya Party politician who represented Kishoreganj-3, served as a labour state minister, and later held the party's secretary-general post.",
+  "activePeriod": "2014–2024",
+  "primaryEventIds": [
+    "1991-return-to-parliamentary-democracy",
+    "2014-10th-parliamentary-election"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Md Mujibul Haque Chunnu",
+    "Mujibul Haque",
+    "মুজিবুল হক চুন্নু"
+  ],
+  "searchAliases": [
+    "Mujibul Haque Chunnu Jatiya Party",
+    "Mujibul Haque Chunnu Kishoreganj-3",
+    "Mujibul Haque Chunnu labour minister"
+  ],
+  "faq": [
+    {
+      "question": "Who is Mujibul Haque Chunnu?",
+      "answer": "Mujibul Haque Chunnu is a Jatiya Party politician who represented Kishoreganj-3 in parliament, served as a state minister for labour and employment, and later served as the party's secretary general."
+    },
+    {
+      "question": "What was Chunnu's role after the 2014 election?",
+      "answer": "He returned to parliament from Kishoreganj-3 and joined the government as a state minister responsible for labour and employment; those developments followed an election marked by an opposition boycott and serious questions about inclusiveness."
+    }
+  ],
+  "tags": [
+    "jatiya-party",
+    "parliament",
+    "labour-politics",
+    "kishoreganj",
+    "election-2014"
+  ]
 }

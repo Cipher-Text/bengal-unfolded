@@ -2,7 +2,45 @@
   "name": "Jamiat-e-Ulema-e-Islam Bangladesh",
   "role": "Religious-Political Party in Bangladesh",
   "group": "organization",
-  "contribution": "The party has operated within Islamist political networks and coalition spaces, especially around conservative mobilizations and electoral alignments.",
-  "context": "Post-1990 multiparty contestation, Islamist platform politics, and alliance negotiations in national elections.",
-  "impact": "Its organizational role contributes to shaping religion-inflected political discourse and coalition signaling in opposition politics."
+  "contribution": "Jamiat-e-Ulema-e-Islam Bangladesh has participated in the country’s religious-political and coalition landscape, bringing the organizational voice of ulama-oriented politics into debates over elections, public morality, and state direction.",
+  "context": "Its profile belongs to the post-1990 period of multiparty contestation, when smaller religious parties operated through their own platforms as well as electoral and issue-based alignments. The available event record places the organization in the wider political setting around the 2013 Shahbag counter-mobilization and the 2026 parliamentary election, without treating it as interchangeable with other Islamist groups.",
+  "impact": "The party’s importance lies less in a documented single electoral breakthrough than in its role as a coalition actor and religious-political signal. Its presence helps show how Bangladesh’s opposition and election politics have included both mass parties and smaller organizations negotiating representation, social demands, and alliance space.",
+  "highlight": "Ulama-oriented political party operating in Bangladesh’s religious-politics and coalition landscape.",
+  "seoTitle": "Jamiat-e-Ulema-e-Islam Bangladesh: Party and Political Context",
+  "seoDescription": "Explore Jamiat-e-Ulema-e-Islam Bangladesh, its ulama-oriented political identity, and its place in Bangladesh’s post-1990 coalition and election politics.",
+  "shortAnswer": "Jamiat-e-Ulema-e-Islam Bangladesh is a religious-political party whose organizational and coalition activity forms part of Bangladesh’s post-1990 multiparty landscape.",
+  "activePeriod": "1990s–2026",
+  "primaryEventIds": [
+    "2013-shahbag-movement",
+    "2026-election"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Jamiat Ulema-e-Islam Bangladesh",
+    "JUI Bangladesh",
+    "জমিয়তে উলামায়ে ইসলাম বাংলাদেশ"
+  ],
+  "searchAliases": [
+    "Jamiat-e-Ulema-e-Islam Bangladesh politics",
+    "JUI Bangladesh election",
+    "Jamiat Bangladesh religious political party"
+  ],
+  "faq": [
+    {
+      "question": "What is Jamiat-e-Ulema-e-Islam Bangladesh?",
+      "answer": "It is a religious-political party in Bangladesh associated with ulama-oriented political organization and coalition activity in the post-1990 multiparty era."
+    },
+    {
+      "question": "How should the party’s role in Bangladesh politics be understood?",
+      "answer": "Its documented significance is as a smaller coalition and religious-political actor; its presence should not be treated as evidence of a particular election result or as proof that all Islamist organizations share one program."
+    }
+  ],
+  "tags": [
+    "religious-politics",
+    "coalition-politics",
+    "election-2026",
+    "shahbag-context"
+  ]
 }

@@ -3,23 +3,56 @@
   "name_en": "Pulin Behari Das",
   "role": "Revolutionary organizer in eastern Bengal",
   "group": "revolutionary",
-  "contribution": "Associated with revolutionary organizing in eastern Bengal, especially Dhaka Anushilan circles.",
-  "context": "Swadeshi-era anti-colonial networks after the 1905 partition of Bengal.",
-  "impact": "His organizing illustrates the eastern Bengal branch of militant anti-colonial politics.",
-  "highlight": "Linked to Dhaka Anushilan organizing.",
-  "tags": [
-    "anushilan",
-    "swadeshi",
-    "anti-colonial",
-    "eastern-bengal"
-  ],
-  "activePeriod": "1900s-1910s",
+  "contribution": "Pulin Behari Das was the founder-president and principal organizer of the Dhaka Anushilan Samiti, established in 1906 as a militant anti-colonial organization rooted in the Swadeshi-era politics of eastern Bengal.",
+  "context": "After the 1905 Partition of Bengal, Das helped organize young men through physical training, secret association, and revolutionary discipline. The Dhaka branch developed a wide network across eastern Bengal, placing it within the broader contest between colonial surveillance, constitutional politics, boycott, and armed resistance.",
+  "impact": "Das helped make Dhaka a major center of revolutionary organization, but the movement's growth also brought repression, arrests, detention, and fragmentation. His legacy belongs to the eastern Bengal strand of militant anti-colonial politics; the later 1930 Chittagong Armoury Raid is included as lineage and memory context, not as an action he personally led.",
+  "highlight": "Founder-president of the Dhaka Anushilan Samiti and a major organizer of revolutionary politics in eastern Bengal.",
+  "seoTitle": "Pulin Behari Das: Dhaka Anushilan Revolutionary Organizer",
+  "seoDescription": "Learn about Pulin Behari Das (1877–1949), founder-president of the Dhaka Anushilan Samiti and a leading organizer of Swadeshi-era revolutionary politics in eastern Bengal.",
+  "shortAnswer": "Pulin Behari Das was the founder-president of the Dhaka Anushilan Samiti, a revolutionary organization formed in 1906 during the Swadeshi movement in eastern Bengal.",
+  "birthYear": "1877",
+  "deathYear": "1949",
+  "activePeriod": "1905–1919",
   "primaryEventIds": [
     "1905-partition-of-bengal",
     "1930-chittagong-armoury-raid"
   ],
+  "alternateNames": [
+    "Pulin Bihari Das",
+    "Pulin Behari Das",
+    "পুলিনবিহারী দাস"
+  ],
+  "searchAliases": [
+    "Pulin Behari Das Dhaka Anushilan Samiti",
+    "Pulin Bihari Das revolutionary",
+    "Pulin Behari Das Swadeshi movement"
+  ],
+  "faq": [
+    {
+      "question": "Who was Pulin Behari Das?",
+      "answer": "Pulin Behari Das was a Bengali revolutionary who founded and led the Dhaka Anushilan Samiti, an organization formed in 1906 during the anti-colonial Swadeshi period.",
+      "sourceIds": [
+        "swadeshi-movement-in-bengal-1903-1908"
+      ]
+    },
+    {
+      "question": "Did Pulin Behari Das lead the 1930 Chittagong Armoury Raid?",
+      "answer": "No. The 1930 raid was led by Surya Sen. Das's connection to that event is best treated as revolutionary-lineage and memory context rather than direct participation.",
+      "sourceIds": [
+        "surya-sen-banglapedia",
+        "history-banglapedia"
+      ]
+    }
+  ],
   "relatedPlaceIds": [
     "dhaka-jahangirnagar",
     "bengal-region"
+  ],
+  "tags": [
+    "anushilan",
+    "swadeshi",
+    "anti-colonial",
+    "eastern-bengal",
+    "revolutionary-networks"
   ]
 }

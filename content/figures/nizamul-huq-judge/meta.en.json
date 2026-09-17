@@ -1,9 +1,55 @@
 {
   "name": "Nizamul Huq",
   "name_en": "Nizamul Huq",
-  "role": "Judge",
+  "role": "Former High Court judge and International Crimes Tribunal chair",
   "group": "leader",
-  "contribution": "Nizamul Huq was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history."
+  "contribution": "Justice Mohammed Nizamul Huq chaired Bangladesh's International Crimes Tribunal-1 after its 2010 operational start, placing a sitting High Court judge at the center of prosecutions concerning crimes committed during the 1971 Liberation War.",
+  "context": "His tribunal role belonged to a politically charged justice process that connected long-standing demands for accountability with questions about evidence, due process, judicial independence, and public memory. In December 2012, Huq resigned as tribunal chair amid controversy over the publication of alleged Skype communications and emails involving an expatriate legal expert.",
+  "impact": "Huq's tenure illustrates both the institutional importance and the legitimacy pressures of Bangladesh's war-crimes tribunal process. The leaked-communication controversy intensified debate over outside legal consultation and possible interference, but the available record does not by itself establish that the alleged exchanges determined any verdict.",
+  "highlight": "International Crimes Tribunal-1 chair whose 2012 resignation became part of Bangladesh's accountability and judicial-legitimacy debate.",
+  "seoTitle": "Nizamul Huq: International Crimes Tribunal Judge in Bangladesh",
+  "seoDescription": "Learn about Justice Nizamul Huq, the former High Court judge who chaired Bangladesh's International Crimes Tribunal-1 and resigned amid the 2012 leaked-communications controversy.",
+  "shortAnswer": "Nizamul Huq was a Bangladesh High Court judge and chair of International Crimes Tribunal-1 from 2010 until his resignation amid controversy in December 2012.",
+  "activePeriod": "2001–2017",
+  "primaryEventIds": [
+    "2010-international-crimes-tribunal-begins",
+    "2013-shahbag-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Justice Mohammed Nizamul Huq",
+    "Mohammed Nizamul Huq",
+    "নিজামুল হক"
+  ],
+  "searchAliases": [
+    "Nizamul Huq International Crimes Tribunal",
+    "Nizamul Huq ICT-1 chairman",
+    "Nizamul Huq Skype controversy"
+  ],
+  "faq": [
+    {
+      "question": "Who was Nizamul Huq?",
+      "answer": "Nizamul Huq was a Bangladesh High Court judge who became chair of International Crimes Tribunal-1 in 2010, when the tribunal process for 1971-related crimes was operationalized.",
+      "sourceIds": [
+        "international-crimes-tribunal-banglapedia"
+      ]
+    },
+    {
+      "question": "Why did Nizamul Huq resign from the tribunal?",
+      "answer": "He resigned on 11 December 2012 amid controversy over published reports of alleged Skype conversations and emails with an expatriate legal expert. The controversy raised questions about judicial independence and external influence, but does not by itself prove that a verdict was directed.",
+      "sourceIds": [
+        "international-crimes-tribunal-banglapedia",
+        "shahbag-uprising-war-crimes-forgiveness"
+      ]
+    }
+  ],
+  "tags": [
+    "international-crimes-tribunal",
+    "judiciary",
+    "1971-accountability",
+    "judicial-legitimacy",
+    "shahbag-context"
+  ]
 }

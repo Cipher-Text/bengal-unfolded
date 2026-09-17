@@ -3,14 +3,58 @@
   "name_en": "Sher Shah Suri",
   "role": "Afghan ruler who defeated Humayun at Chausa",
   "group": "leader",
-  "contribution": "He defeated Humayun at Chausa in 1539 and shifted the regional balance away from early Mughal gains.",
-  "context": "His rise from eastern Afghan power networks directly affected Bengal's wider political-military environment.",
-  "impact": "His victories interrupted Mughal consolidation and reconfigured the power map before later Mughal re-entry.",
-  "highlight": "Sher Shah's Chausa victory reversed early Mughal momentum in the east.",
+  "contribution": "Sher Shah Suri, born Farid Khan, captured Gaur in 1538 and defeated Humayun at Chausa on 26 June 1539. These victories made him the dominant Afghan power in the eastern subcontinent and helped establish the Sur imperial order.",
+  "context": "His rise grew from Afghan power networks in Bihar and Bengal during the weakening of the Bengal Sultanate and the first Mughal intervention in the region. After Humayun temporarily occupied Gaur, Sher Shah recovered Bengal and used the victory at Chausa to push the Mughals out of the east before defeating Humayun again at Kannauj in 1540.",
+  "impact": "Sher Shah interrupted early Mughal consolidation and reorganized the political map across Bengal, Bihar, and North India. His short reign is also associated with revenue and bureaucratic reforms, but the Sur state did not produce a permanently stable succession; Mughal power returned under Humayun and Akbar, while Bengal retained its own regional political dynamics.",
+  "highlight": "Afghan ruler whose capture of Gaur and victory at Chausa displaced the Mughals from Bengal's eastern power struggle.",
+  "seoTitle": "Sher Shah Suri: Afghan Ruler and Bengal Conquest Leader",
+  "seoDescription": "Learn about Sher Shah Suri, the Afghan ruler who captured Gaur, defeated Humayun at Chausa in 1539, and interrupted early Mughal consolidation in Bengal.",
+  "shortAnswer": "Sher Shah Suri was an Afghan ruler who captured Gaur in 1538 and defeated Humayun at Chausa in 1539, creating a Sur imperial order before the Mughals returned.",
+  "birthYear": "1486?",
+  "deathYear": "1545",
+  "activePeriod": "1534–1545",
+  "primaryEventIds": [
+    "1538-humayun-enters-bengal-and-occupies-gaur",
+    "1539-battle-of-chausa"
+  ],
+  "relatedPlaceIds": [
+    "gaur-lakhnauti",
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Farid Khan",
+    "Sher Khan",
+    "শের শাহ সূরি"
+  ],
+  "searchAliases": [
+    "Sher Shah Suri Bengal",
+    "Sher Shah Suri Gaur",
+    "Sher Shah Humayun Chausa"
+  ],
+  "faq": [
+    {
+      "question": "Who was Sher Shah Suri?",
+      "answer": "Sher Shah Suri, originally Farid Khan, was an Afghan ruler who captured Gaur in Bengal and defeated the Mughal emperor Humayun at Chausa in 1539 before founding the Sur imperial order.",
+      "sourceIds": [
+        "humayun-britannica",
+        "battle-of-chausa-britannica"
+      ]
+    },
+    {
+      "question": "What was Sher Shah Suri's impact on Bengal?",
+      "answer": "His victories displaced the first Mughal intervention from Bengal's immediate political center and brought the province into a wider Afghan imperial order, although later Mughal power returned and regional politics remained contested.",
+      "sourceIds": [
+        "the-rise-of-islam-and-the-bengal-frontier-1204-1760",
+        "battle-of-chausa-britannica"
+      ]
+    }
+  ],
   "tags": [
     "afghan",
     "chausa",
     "1539",
-    "suri"
+    "suri",
+    "gaur",
+    "mughal-transition"
   ]
 }

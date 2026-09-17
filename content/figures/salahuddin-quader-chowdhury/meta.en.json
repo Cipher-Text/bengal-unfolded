@@ -1,9 +1,54 @@
 {
   "name": "Salahuddin Quader Chowdhury",
   "name_en": "Salahuddin Quader Chowdhury",
-  "role": "Politician",
+  "role": "BNP politician, parliamentarian, and convicted war-crimes defendant",
   "group": "leader",
-  "contribution": "Salahuddin Quader Chowdhury was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history."
+  "contribution": "Salahuddin Quader Chowdhury was a senior Bangladesh Nationalist Party (BNP) politician, a six-term member of parliament, and a standing-committee member who represented constituencies in Chittagong. His public career later became inseparable from the International Crimes Tribunal process concerning 1971.",
+  "context": "His career spanned the post-1975 expansion of parliamentary and party politics, the 2006–08 caretaker crisis, and the tribunal-era confrontation over accountability for the Liberation War. In 2013, International Crimes Tribunal-1 convicted him of crimes against humanity connected to 1971; Bangladesh's Supreme Court later upheld the death sentence after appeal, while rights observers and critics questioned aspects of the trial's fairness and political setting.",
+  "impact": "Chowdhury's legacy is contested across two registers: as a long-serving BNP parliamentarian and opposition figure, and as a convicted defendant whose case became a major test of Bangladesh's war-crimes accountability process. He was executed on 22 November 2015 after the legal process concluded; describing the conviction and the criticism of the proceedings together is necessary for a historically responsible account.",
+  "highlight": "Senior BNP parliamentarian whose tribunal conviction and execution became part of Bangladesh's contested 1971 accountability history.",
+  "seoTitle": "Salahuddin Quader Chowdhury: BNP Politician and Tribunal Case",
+  "seoDescription": "Learn about Salahuddin Quader Chowdhury, the senior BNP parliamentarian whose International Crimes Tribunal conviction and 2015 execution remain part of Bangladesh's contested 1971 accountability history.",
+  "shortAnswer": "Salahuddin Quader Chowdhury was a senior BNP politician and six-term parliamentarian who was convicted by Bangladesh's International Crimes Tribunal over 1971-related crimes and executed in 2015.",
+  "birthYear": "1949",
+  "deathYear": "2015",
+  "activePeriod": "1970s–2015",
+  "primaryEventIds": [
+    "2006-caretaker-crisis-and-emergency-rule",
+    "2013-shahbag-movement"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Salauddin Quader Chowdhury",
+    "Salahuddin Quader Chowdhury",
+    "সালাহউদ্দিন কাদের চৌধুরী"
+  ],
+  "searchAliases": [
+    "Salahuddin Quader Chowdhury BNP",
+    "Salahuddin Quader Chowdhury tribunal case",
+    "Salahuddin Quader Chowdhury 1971 trial"
+  ],
+  "faq": [
+    {
+      "question": "Who was Salahuddin Quader Chowdhury?",
+      "answer": "He was a senior BNP politician, a six-term member of Bangladesh's parliament, and a standing-committee member who represented Chittagong-area constituencies before his 2015 execution."
+    },
+    {
+      "question": "Why is Salahuddin Quader Chowdhury's case controversial?",
+      "answer": "The International Crimes Tribunal convicted him in 2013 over 1971-related crimes, and the Supreme Court upheld the death sentence on appeal. Critics and rights observers also raised concerns about due process, political context, and the fairness of the proceedings; these criticisms should not be presented as the court's findings.",
+      "sourceIds": [
+        "ict-act-amendment-2013",
+        "supreme-court-quader-mollah-appeal-2013"
+      ]
+    }
+  ],
+  "tags": [
+    "bnp",
+    "parliament",
+    "international-crimes-tribunal",
+    "1971-accountability",
+    "contested-justice"
+  ]
 }

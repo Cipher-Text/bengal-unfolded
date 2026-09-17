@@ -3,7 +3,50 @@
   "name_en": "Nawab Ali Chowdhury",
   "role": "Muslim education patron and politician",
   "group": "leader",
-  "contribution": "Nawab Ali Chowdhury was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history."
+  "contribution": "Syed Nawab Ali Chowdhury (1863–1929), the zamindar of Dhanbari, combined Muslim educational patronage with constitutional politics. He helped organize the 1906 Dhaka conference that led to the All-India Muslim League and advocated for a university in Dhaka.",
+  "context": "His public career developed after the 1905 Partition of Bengal, amid debates over Muslim representation, education, and the administrative future of eastern Bengal. He served in Muslim League and legislative bodies, supported student hostels and scholarships, and remained involved in the prolonged political and institutional effort that culminated in the University of Dhaka in 1921.",
+  "impact": "Ali Chowdhury connected elite philanthropy to educational institution-building and Muslim political representation. His support for Dhaka University was significant, but its establishment also depended on government legislation, university committees, other patrons, and wider public debate; he should be described as a major advocate and contributor rather than its sole founder.",
+  "highlight": "Education patron and Muslim League organizer who helped advance the case for Dhaka University.",
+  "seoTitle": "Nawab Ali Chowdhury: Education Patron and Muslim League Leader",
+  "seoDescription": "Learn about Nawab Ali Chowdhury (1863–1929), the Bengal zamindar and Muslim League organizer who supported Muslim education and helped advance the creation of Dhaka University.",
+  "shortAnswer": "Nawab Ali Chowdhury was a Bengal zamindar, Muslim education patron, and Muslim League leader who helped organize the 1906 Dhaka conference and advocate for Dhaka University.",
+  "birthYear": "1863",
+  "deathYear": "1929",
+  "activePeriod": "1905–1929",
+  "primaryEventIds": [
+    "1906-all-india-muslim-league-founded-in-dhaka",
+    "1921-dhaka-university-establishment"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "shahbag-dhaka",
+    "dhaka-university"
+  ],
+  "alternateNames": [
+    "Syed Nawab Ali Chowdhury",
+    "Nawab Bahadur Syed Nawab Ali Chowdhury",
+    "সৈয়দ নবাব আলী চৌধুরী"
+  ],
+  "searchAliases": [
+    "Nawab Ali Chowdhury Dhaka University",
+    "Syed Nawab Ali Chowdhury Muslim League",
+    "Nawab Ali Chowdhury 1906 Dhaka"
+  ],
+  "faq": [
+    {
+      "question": "Who was Nawab Ali Chowdhury?",
+      "answer": "Nawab Ali Chowdhury was a Dhanbari zamindar, Muslim education patron, legislator, and Muslim League organizer in late colonial Bengal."
+    },
+    {
+      "question": "What was Nawab Ali Chowdhury's role in founding Dhaka University?",
+      "answer": "He advocated for a university in Dhaka for years and served on the Dhaka University Committee. His contribution was important, but the university also required legislation, government action, committees, and support from other patrons."
+    }
+  ],
+  "tags": [
+    "muslim-education",
+    "muslim-league",
+    "dhaka-university",
+    "colonial-politics",
+    "dhanbari"
+  ]
 }

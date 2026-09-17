@@ -4,6 +4,90 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit with Siraj Sikder:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Sarbahara Party leadership, revolutionary politics, early-independence context, and contested custody death; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, source-linked FAQs, and political-history tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Musa Khan.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account distinguishes reported custody death from later allegations about responsibility and avoids presenting contested claims as settled fact.
+
+- Continued the figure-content SEO audit with Sher Shah Suri:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Afghan rise, 1538 capture of Gaur, 1539 Chausa victory, Sur imperial order, administrative legacy, and the limits of Mughal disruption; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, active-period metadata, source-linked FAQs, and Gaur/Mughal-transition tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Siraj Sikder.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account separates Sher Shah's Bengal campaigns from his broader north Indian rule and avoids treating the Sur interlude as a permanent replacement for Mughal power.
+
+- Continued the figure-content SEO audit with Shah A. M. S. Kibria:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1931–2005 life, diplomatic and UN career, 1996–2001 finance ministry, policy record, and 2005 assassination; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, active-period metadata, FAQs, and diplomacy/finance-policy tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Sher Shah Suri.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account separates Kibria's documented offices and public legacy from responsibility and legal accountability for the attack that killed him.
+
+- Continued the figure-content SEO audit with Shafiur Rahman:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1918–1952 life, 22 February 1952 death on Nawabpur Road, civilian/protester context, and Ekushey/Shaheed Minar memory; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, active-period metadata, source-linked FAQs, and language-rights tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Shah A. M. S. Kibria.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account distinguishes Shafiur Rahman's documented death and memorial role from broader claims about the movement's entire leadership or outcome.
+
+- Continued the figure-content SEO audit with Salahuddin Quader Chowdhury:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his senior BNP and parliamentary career, 1971 accountability case, 2013 tribunal conviction, 2015 execution, and the distinction between court findings and criticism of the proceedings; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event links, active-period metadata, source-linked FAQs, and accountability/judiciary tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Shafiur Rahman.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; sensitive allegations and due-process criticism are attributed and kept separate from the tribunal's findings.
+
+- Continued the figure-content SEO audit with Rafiq Uddin Ahmed:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1926–1952 life, 21 February 1952 martyrdom, language-rights context, and Ekushey/Shaheed Minar memory; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, active-period metadata, source-linked FAQs, and language-memory tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Salahuddin Quader Chowdhury.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account avoids ranking Ahmed as the first martyr where historical summaries differ and keeps the memorial legacy distinct from claims about individual political leadership.
+
+- Continued the figure-content SEO audit with Pulin Behari Das:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his founder-president role in the Dhaka Anushilan Samiti, Swadeshi-era organizing, colonial repression, and distinction from the later Chittagong Armoury Raid; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, active-period metadata, source-linked FAQs, and revolutionary-network tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Rafiq Uddin Ahmed.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; later revolutionary events are retained as lineage context and are not attributed to Das as direct actions.
+
+- Continued the figure-content SEO audit with Nizamul Huq:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his High Court and International Crimes Tribunal-1 roles, 2010 tribunal process, 2012 resignation, and the judicial-legitimacy debate around leaked communications; added localized SEO titles/descriptions, short answers, aliases, event links, active-period metadata, source-linked FAQs, and accountability/judiciary tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Pulin Behari Das.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; allegations about external influence are attributed to the controversy and are not presented as proof that any verdict was directed.
+
+- Continued the figure-content SEO audit with Nawab Ali Chowdhury:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1863–1929 life, Dhanbari zamindari, Muslim League organizing, education patronage, and advocacy for Dhaka University; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, active-period metadata, FAQs, and education/colonial-politics tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Nizamul Huq.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; Ali Chowdhury is described as a major advocate and contributor to Dhaka University rather than its sole founder.
+
+- Continued the figure-content SEO audit with Nawab Abdul Ghani:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1813–1896 life, Dhaka Nawab status, waterworks, Buckland Bund and public-relief patronage, and the distinction between elite philanthropy and shared municipal/colonial delivery; added localized SEO titles/descriptions, short answers, birth/death years, aliases, event/place links, active-period metadata, FAQs, and civic-history tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Nawab Ali Chowdhury.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the 1906 event link is retained as family/estate-era context, while Abdul Ghani's direct civic record is bounded to his lifetime.
+
+- Continued the figure-content SEO audit with Mujibul Haque Chunnu:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his Jatiya Party representation from Kishoreganj-3, labour-ministry role after the 2014 election, later secretary-general post, and the contested electoral context; added localized SEO titles/descriptions, short answers, aliases, event links, active-period metadata, FAQs, and parliamentary/labour-politics tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Nawab Abdul Ghani.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; office chronology is bounded to the documented parliamentary and party record, and the 2014 election is not presented as an uncontested democratic mandate.
+
+- Continued the figure-content SEO audit with Man Singh I:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1594–1606 Bengal subahdari, 1595 establishment of Akbarnagar at Rajmahal, campaigns against Isa Khan and the Bhati resistance networks, and the limits of Mughal consolidation; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, source-linked FAQs, and Rajmahal/Baro-Bhuyans tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Mujibul Haque Chunnu.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the account distinguishes Man Singh's administrative and military reach from a complete or immediate Mughal conquest of eastern Bengal.
+
+- Continued the figure-content SEO audit with Jamiat-e-Ulema-e-Islam Bangladesh:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with the party's ulama-oriented identity and cautious role in post-1990 religious-political, coalition, Shahbag-related, and 2026 election contexts; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, FAQs, and political-context tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Man Singh I.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the available record does not support assigning a specific 2026 result or treating Jamiat as interchangeable with other Islamist organizations.
+
+- Continued the figure-content SEO audit with Farrukhsiyar:
+  - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his 1713–1719 reign, 1717 confirmation of Murshid Quli Khan, and the distinction between Mughal suzerainty and Bengal's growing provincial autonomy; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, source-linked FAQs, and administration/imperial-politics tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Jamiat-e-Ulema-e-Islam Bangladesh.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profile remains image-free pending editorial image review; the 1717 settlement is described as an institutional development within Mughal sovereignty, not as immediate Bengali independence.
+
 - Continued the figure-content SEO audit with Tarique Rahman:
   - Content backfill: expanded the English and Bangla contribution, context, impact, and highlight fields with his BNP chairmanship, return after 17 years in exile, and date-bounded leadership of the 2026 election campaign and post-election transition; added localized SEO titles/descriptions, short answers, aliases, event/place links, active-period metadata, source-linked FAQs, and party-leadership/political-transition tags.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Farrukhsiyar.

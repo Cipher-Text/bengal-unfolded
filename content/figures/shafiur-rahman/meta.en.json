@@ -3,7 +3,57 @@
   "name_en": "Shafiur Rahman",
   "role": "Language movement martyr",
   "group": "leader",
-  "contribution": "Shafiur Rahman was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history."
+  "contribution": "Shafiur Rahman (1918–1952) was a government employee and language-rights supporter killed by police fire on Nawabpur Road in Dhaka on 22 February 1952, during the mourning demonstrations that followed the Language Movement killings of 21 February.",
+  "context": "The Language Movement had grown from demands for Bangla's recognition in public and state life. Rahman's death showed that the repression of the movement reached beyond university students: ordinary workers and residents joining or caught in public demonstrations also became part of the movement's martyr history.",
+  "impact": "Rahman's memory expanded the social meaning of Ekushey beyond a single day's student protest. Through annual commemoration, Shaheed Minar remembrance, and the international language-rights legacy associated with 21 February, his name remains part of Bangladesh's public history of cultural dignity and state violence.",
+  "highlight": "Language Movement martyr killed on Nawabpur Road during the 22 February 1952 mourning procession.",
+  "seoTitle": "Shafiur Rahman: Language Movement Martyr of 22 February 1952",
+  "seoDescription": "Learn about Shafiur Rahman (1918–1952), the language-movement martyr killed on Dhaka's Nawabpur Road on 22 February 1952 and remembered in Bangladesh's Ekushey tradition.",
+  "shortAnswer": "Shafiur Rahman was a government employee killed by police fire on 22 February 1952 during Language Movement demonstrations in Dhaka, and is remembered as a language martyr.",
+  "birthYear": "1918",
+  "deathYear": "1952",
+  "activePeriod": "1948–1952",
+  "primaryEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-medical-college",
+    "central-shaheed-minar",
+    "dhaka-university"
+  ],
+  "alternateNames": [
+    "Shafiur Rahman",
+    "Shafiur Ahmad",
+    "শফিউর রহমান"
+  ],
+  "searchAliases": [
+    "Shafiur Rahman Language Movement",
+    "Shafiur Rahman 22 February 1952",
+    "Shafiur Rahman Nawabpur Road"
+  ],
+  "faq": [
+    {
+      "question": "Who was Shafiur Rahman?",
+      "answer": "Shafiur Rahman was a government employee and language-rights supporter who was killed by police fire on Nawabpur Road in Dhaka on 22 February 1952. He is remembered as a martyr of the Language Movement.",
+      "sourceIds": [
+        "language-movement-banglapedia"
+      ]
+    },
+    {
+      "question": "Why is Shafiur Rahman remembered on Ekushey?",
+      "answer": "His death during the 22 February mourning demonstrations broadened the movement's martyr memory beyond the 21 February student killings and became part of the annual Shaheed Minar and language-rights tradition.",
+      "sourceIds": [
+        "shaheed-minar-banglapedia",
+        "international-mother-language-day-unesco"
+      ]
+    }
+  ],
+  "tags": [
+    "language-movement",
+    "language-martyr",
+    "ekushey",
+    "shaheed-minar",
+    "language-rights"
+  ]
 }

@@ -3,7 +3,57 @@
   "name_en": "Rafiq Uddin Ahmed",
   "role": "Language movement martyr",
   "group": "leader",
-  "contribution": "Rafiq Uddin Ahmed was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history."
+  "contribution": "Rafiq Uddin Ahmed (1926–1952) was among the protesters killed by police fire on 21 February 1952 during the Bengali Language Movement in East Pakistan. His death became part of the movement's martyr-centered public memory.",
+  "context": "The protest grew from post-1947 demands that Bangla receive recognition in education, administration, and state life. Ahmed was killed during the decisive February phase as students and activists challenged restrictions on assembly and demanded recognition for Bangla, alongside Abul Barkat, Abdul Jabbar, and others.",
+  "impact": "Ahmed's name is preserved through Shaheed Minar commemoration, Ekushey observance, and the wider political memory of language rights. His significance is not only biographical: the memory of those killed helped connect a language demand to Bengali claims about cultural dignity, democratic participation, and collective sacrifice.",
+  "highlight": "Language Movement martyr remembered in Bangladesh's Ekushey and Shaheed Minar traditions.",
+  "seoTitle": "Rafiq Uddin Ahmed: Language Movement Martyr of 1952",
+  "seoDescription": "Learn about Rafiq Uddin Ahmed (1926–1952), a Language Movement martyr killed on 21 February 1952 and remembered through Bangladesh's Ekushey commemorations.",
+  "shortAnswer": "Rafiq Uddin Ahmed was a protester killed on 21 February 1952 during Bangladesh's Language Movement, whose memory became part of the Shaheed Minar and Ekushey commemorations.",
+  "birthYear": "1926",
+  "deathYear": "1952",
+  "activePeriod": "1948–1952",
+  "primaryEventIds": [
+    "1948-language-question-becomes-a-mass-political-issue",
+    "1952-language-movement"
+  ],
+  "relatedPlaceIds": [
+    "dhaka-medical-college",
+    "central-shaheed-minar",
+    "dhaka-university"
+  ],
+  "alternateNames": [
+    "Rafiq Uddin Ahmed",
+    "Rafiq Uddin Ahmad",
+    "রফিকউদ্দিন আহমেদ"
+  ],
+  "searchAliases": [
+    "Rafiq Uddin Ahmed Language Movement",
+    "Rafiq Uddin Ahmed 21 February 1952",
+    "Rafiq Uddin Ahmed Shaheed Minar"
+  ],
+  "faq": [
+    {
+      "question": "Who was Rafiq Uddin Ahmed?",
+      "answer": "Rafiq Uddin Ahmed was a language-movement protester who was killed on 21 February 1952 during police firing in East Pakistan. He is remembered as one of the movement's martyrs.",
+      "sourceIds": [
+        "language-movement-banglapedia"
+      ]
+    },
+    {
+      "question": "Why is Rafiq Uddin Ahmed remembered?",
+      "answer": "His death became part of the martyr memory expressed through Shaheed Minar, Ekushey observance, and continuing public remembrance of Bangla language rights and cultural dignity.",
+      "sourceIds": [
+        "shaheed-minar-banglapedia",
+        "language-movement-in-east-bengal"
+      ]
+    }
+  ],
+  "tags": [
+    "language-movement",
+    "language-martyr",
+    "ekushey",
+    "shaheed-minar",
+    "cultural-memory"
+  ]
 }

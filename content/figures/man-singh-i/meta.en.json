@@ -3,13 +3,57 @@
   "name_en": "Man Singh I",
   "role": "Mughal commander in Bengal campaigns",
   "group": "leader",
-  "contribution": "He led major Mughal military operations in Bengal during the contested transition after Rajmahal.",
-  "context": "Campaign phases under his command faced the decentralized resistance networks of eastern Bengal.",
-  "impact": "His campaigns were central to imperial efforts to break regional military autonomy.",
-  "highlight": "A principal Mughal field commander in Bengal's conquest era.",
+  "contribution": "As Mughal subahdar of Bengal from 1594, Man Singh I directed campaigns to extend imperial authority into eastern Bengal and established Akbarnagar at Rajmahal as a strategic provincial capital in 1595.",
+  "context": "His governorship followed the 1576 Battle of Rajmahal but did not mark the end of local autonomy. In the Bhati region, Man Singh's forces faced Isa Khan and other riverine landholding-military networks whose forts, waterways, and shifting alliances made Mughal consolidation difficult.",
+  "impact": "Man Singh strengthened the Mughal administrative and military presence around Rajmahal, yet his campaign against Isa Khan ended without decisive success. His record therefore shows both the reach of Akbar's provincial strategy and the limits imposed by Bengal's riverine geography and regional political networks.",
+  "highlight": "Mughal governor who made Rajmahal a strategic capital and campaigned against resistance in Bhati.",
+  "seoTitle": "Man Singh I: Mughal Governor and Bengal Campaign Commander",
+  "seoDescription": "Learn about Man Singh I, Akbar's Mughal governor of Bengal who established Rajmahal as Akbarnagar and campaigned against the Baro-Bhuyans and Isa Khan in Bhati.",
+  "shortAnswer": "Man Singh I was Akbar's Mughal subahdar of Bengal from 1594 to 1606 who established Rajmahal as Akbarnagar and led campaigns against regional resistance in Bhati.",
+  "activePeriod": "1594–1606",
+  "primaryEventIds": [
+    "1576-battle-of-rajmahal",
+    "1599-baro-bhuyans-resistance-in-bhati"
+  ],
+  "relatedPlaceIds": [
+    "rajmahal",
+    "bhati-region",
+    "gauda-rajmahal-corridor"
+  ],
+  "alternateNames": [
+    "Raja Man Singh",
+    "Mirza Raja Man Singh I",
+    "মান সিংহ প্রথম"
+  ],
+  "searchAliases": [
+    "Man Singh I Bengal governor",
+    "Man Singh Rajmahal Akbarnagar",
+    "Man Singh Isa Khan Bhati"
+  ],
+  "faq": [
+    {
+      "question": "Who was Man Singh I in Bengal?",
+      "answer": "Man Singh I was a trusted Mughal general and subahdar of Bengal from 1594 to 1606. He made Rajmahal, renamed Akbarnagar, an important base of provincial rule.",
+      "sourceIds": [
+        "battle-of-rajmahal-wikipedia",
+        "akbarnama"
+      ]
+    },
+    {
+      "question": "Did Man Singh fully defeat the resistance in Bhati?",
+      "answer": "No. His campaigns confronted Isa Khan and the Baro-Bhuyans' river-based political and military networks, and the campaign against Isa Khan ended without decisive success.",
+      "sourceIds": [
+        "baro-bhuiyans-wikipedia",
+        "akbarnama",
+        "baharistan-i-ghaybi"
+      ]
+    }
+  ],
   "tags": [
     "mughal",
     "military",
-    "bengal-campaigns"
+    "bengal-campaigns",
+    "rajmahal",
+    "baro-bhuyans"
   ]
 }

@@ -3,14 +3,54 @@
   "name_en": "Nawab Abdul Ghani",
   "role": "Dhaka Nawab and civic patron",
   "group": "leader",
-  "contribution": "As a leading Dhaka Nawab, he supported civic infrastructure and Muslim elite institutional networks in eastern Bengal.",
-  "context": "His influence developed in the late-19th-century urban transformation of Dhaka under colonial governance.",
-  "impact": "He remains significant in the social and civic history of Muslim leadership in Dhaka.",
-  "highlight": "A major patron figure in Dhaka’s 19th-century civic history.",
+  "contribution": "As the Dhaka Nawab recognized by the British Raj, Khwaja Abdul Ghani (1813–1896) combined zamindari authority with civic patronage, supporting Dhaka's waterworks, municipal improvements, public relief, and Muslim elite institutions.",
+  "context": "His influence developed during the late nineteenth-century transformation of Dhaka under colonial governance. He was associated with the municipality and used family resources to support public works, including drinking-water facilities and a major contribution to the Buckland Bund along the Buriganga, while also maintaining the Dhaka Nawab estate.",
+  "impact": "Abdul Ghani's legacy is best understood as a form of elite-mediated urban development: his donations and patronage helped expand public amenities and charitable services, but these projects also depended on municipal administration, colonial officials, and other donors. His career therefore connects Muslim landed leadership to the civic history of colonial Dhaka without reducing city-building to one benefactor.",
+  "highlight": "Dhaka Nawab whose philanthropy supported waterworks, public relief, and civic improvements in nineteenth-century Dhaka.",
+  "seoTitle": "Nawab Abdul Ghani: Dhaka’s Civic Patron and Philanthropist",
+  "seoDescription": "Learn about Nawab Abdul Ghani (1813–1896), the Dhaka Nawab whose philanthropy supported waterworks, the Buckland Bund, public relief, and civic life under colonial rule.",
+  "shortAnswer": "Nawab Abdul Ghani was the Dhaka Nawab and philanthropist whose nineteenth-century patronage supported waterworks, public relief, and civic improvements in colonial Dhaka.",
+  "birthYear": "1813",
+  "deathYear": "1896",
+  "activePeriod": "1840s–1896",
+  "primaryEventIds": [
+    "1874-assam-reorganization-and-sylhet-s-administrative-detachment",
+    "1906-all-india-muslim-league-founded-in-dhaka"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region",
+    "dhaka-jahangirnagar"
+  ],
+  "alternateNames": [
+    "Khwaja Abdul Ghani",
+    "Nawab Khwaja Abdul Ghani",
+    "খাজা আবদুল গনি"
+  ],
+  "searchAliases": [
+    "Nawab Abdul Ghani Dhaka waterworks",
+    "Khwaja Abdul Ghani Buckland Bund",
+    "Nawab Abdul Ghani philanthropy"
+  ],
+  "faq": [
+    {
+      "question": "Who was Nawab Abdul Ghani?",
+      "answer": "Nawab Abdul Ghani, also known as Khwaja Abdul Ghani, was the Dhaka Nawab and a nineteenth-century zamindar, businessman, and philanthropist who supported civic and charitable work in Dhaka."
+    },
+    {
+      "question": "What civic work is associated with Abdul Ghani?",
+      "answer": "Sources associate him with donations for Dhaka's drinking-water facilities, the Buckland Bund, public relief, and other urban improvements. These projects involved wider municipal and public partnerships rather than his sole effort.",
+      "sourceIds": [
+        "assam-banglapedia",
+        "history-banglapedia"
+      ]
+    }
+  ],
   "tags": [
     "dhaka",
     "nawab",
     "civic-history",
-    "muslim-history"
+    "muslim-history",
+    "philanthropy",
+    "waterworks"
   ]
 }

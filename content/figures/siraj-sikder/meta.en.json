@@ -1,9 +1,55 @@
 {
   "name": "Siraj Sikder",
   "name_en": "Siraj Sikder",
-  "role": "Revolutionary political leader",
+  "role": "Revolutionary political leader and founder of the Sarbahara movement",
   "group": "leader",
-  "contribution": "Siraj Sikder was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history."
+  "contribution": "Siraj Sikder was a Marxist-Leninist revolutionary who founded the Purba Banglar Sarbahara Party during the Bangladesh Liberation War and led an underground armed movement in East Bengal and post-1971 Bangladesh.",
+  "context": "His politics emerged from the late Pakistan period and the crisis of early independence. He rejected the constitutional path of the 1972 order, criticized the Awami League government, and organized rural and underground resistance during a period of political and economic strain.",
+  "impact": "His legacy is contested: supporters remember a radical anti-state critique, while historical accounts also connect the movement to armed attacks, coercion, and instability. He was arrested and died in state custody in January 1975; the circumstances remain part of the political memory of early Bangladesh.",
+  "highlight": "Founder of the Purba Banglar Sarbahara Party and a radical critic of early post-independence state power.",
+  "seoTitle": "Siraj Sikder: Sarbahara Revolutionary in Bangladesh",
+  "seoDescription": "Learn about Siraj Sikder, the Marxist-Leninist revolutionary who founded the Purba Banglar Sarbahara Party and challenged the early post-independence state.",
+  "shortAnswer": "Siraj Sikder was a Marxist-Leninist revolutionary who founded the Purba Banglar Sarbahara Party and led armed opposition before his death in 1975.",
+  "birthYear": "1944",
+  "deathYear": "1975",
+  "activePeriod": "1968–1975",
+  "primaryEventIds": [
+    "1972-state-formation-and-the-1972-constitution",
+    "1974-famine-emergency-and-state-crisis"
+  ],
+  "relatedPlaceIds": [
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Sirajul Huq Sikder",
+    "সিরাজ সিকদার"
+  ],
+  "searchAliases": [
+    "Siraj Sikder Sarbahara Party",
+    "Sirajul Huq Sikder",
+    "সিরাজ সিকদার"
+  ],
+  "faq": [
+    {
+      "question": "Who was Siraj Sikder?",
+      "answer": "He was a Marxist-Leninist revolutionary and founder of the Purba Banglar Sarbahara Party, active during the Liberation War and the early years of independent Bangladesh.",
+      "sourceIds": [
+        "a-history-of-bangladesh",
+        "bangladesh-under-mujib-zia-and-ershad"
+      ]
+    },
+    {
+      "question": "How did Siraj Sikder die?",
+      "answer": "He was arrested in January 1975 and died while in state custody. Accounts differ over the circumstances, so this profile distinguishes the reported custody death from later allegations about responsibility.",
+      "sourceIds": [
+        "bangladesh-under-mujib-zia-and-ershad"
+      ]
+    }
+  ],
+  "tags": [
+    "revolutionary-politics",
+    "sarbahara-party",
+    "post-independence-bangladesh",
+    "contested-history"
+  ]
 }
