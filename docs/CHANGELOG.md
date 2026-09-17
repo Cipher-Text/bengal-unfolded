@@ -4,11 +4,23 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit through the next 10 profiles: Anwar Hossain Manju, Begum Rokeya, Dinesh Chandra Sen, Fakhruddin Ahmed, Iajuddin Ahmed, Ikhtiyar al-Din Muhammad Bakhtiyar Khalji, Jadunath Sarkar, Jatin Das, Junaid Babunagari, and Kalpana Datta.
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Political, emergency-rule, language, literary, medieval, and revolutionary histories are framed with specific chronology and contextual wording.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Mirza Fakhrul Islam Alamgir.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profiles retain their existing image assets; broad biographies are linked conservatively to the nearest documented event context.
+
 - Continued the figure-content SEO audit through the next 10 profiles: Walidad Khan, Washiqur Rahman, William Watts, Yar Latif Khan, Abdul Quader Mollah, Abdur Rab Serniabat, Abdus Sattar, Abul Kalam Azad, Abul Khair, and A. L. M. Fazlur Rahman.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. 1857, Shahbag, Plassey, constitutional, and Pilkhana wording distinguishes documented roles, public memory, and limits of the available record.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Anwar Hossain Manju.
   - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
   - Risk/known gaps: the profiles retain their existing image assets; lesser-known regional and inquiry-era figures are described conservatively where source coverage is limited.
+
+- Continued the figure-content SEO audit through the next 10 profiles: Anwar Hossain Manju, Begum Rokeya, Dinesh Chandra Sen, Fakhruddin Ahmed, Iajuddin Ahmed, Ikhtiyar al-Din Muhammad Bakhtiyar Khalji, Jadunath Sarkar, Jatin Das, Junaid Babunagari, and Kalpana Datta.
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Political, emergency-rule, language, literary, and revolutionary histories are framed with specific chronology and contextual wording.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Mirza Fakhrul Islam Alamgir.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profiles retain their existing image assets; several broad biographies are linked conservatively to the nearest documented event context.
 
 - Continued the figure-content SEO audit through the next 10 profiles: Ranmat Singh, Rao Sahib Peshwa, Rao Tula Ram, Sahara Khatun, Shafiur Rahman, Shah Mal, Shahid Saber, Major General Shakil Ahmed, Sheikh Fazle Noor Taposh, and Sheikh Fazlul Karim Selim.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. 1857, Language Movement, Plassey, and Pilkhana wording distinguishes documented roles, public memory, and limits of the available record.
