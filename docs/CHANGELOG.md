@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-18
+
+### Completed
+
+- Continued the figure-content SEO audit through the next 10 profiles: Molla Fazle Akbar, Monirul Islam, Motiur Rahman Nizami, Muhammed Zafar Iqbal, Naba Singh Hazari, Nana Sahib, Narpat Singh, Nasiruddin Yousuff, Nawab Salimullah, and Niloy Neel.
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Pilkhana, Shahbag, 1857, and Plassey wording separates documented association from broader interpretation and contested claims.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Novera Ahmed.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: the profiles retain their existing image assets; inquiry-era and lesser-known regional figures are framed conservatively where records provide contextual rather than full biographical detail.
+
 ## 2026-09-17
 
 ### Completed
