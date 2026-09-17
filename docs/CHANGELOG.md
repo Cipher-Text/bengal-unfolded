@@ -4,6 +4,12 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit through the next 10 profiles: Faisal Arefin Dipan, Firoz Shah, Ghaseti Begum, Ghulam Ghaus Khan, Gulab Singh Lodhi, Hamidur Rahman, Hasan Mahmud Khandaker, Jahangir Kabir Nanak, Jhalkari Bai, and Kadam Singh.
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, source-linked FAQs, and tags. Sensitive publishing, Shahbag, tribunal, and Pilkhana wording distinguishes public association, allegations, and established findings.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Kamal Hossain.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: all ten profiles retain their existing image assets; some 1857 figures are documented primarily through regional or commemorative histories, so the wording avoids unsupported operational detail.
+
 - Continued the figure-content SEO audit through the next 10 profiles: Amar Singh, Ananta Bijoy Das, Arif Jebtik, Asif Mohiuddin, Avijit Roy, Azimullah Khan, Bahadur Shah II, Bakht Bali, Bakht Khan, and Begum Hazrat Mahal.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, source-linked FAQs, and tags. Sensitive blogger-violence and Shahbag material distinguishes documented attacks from attribution and judicial findings.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Beni Madho Singh.
