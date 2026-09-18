@@ -4,6 +4,24 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit through the next 10 profiles: Jibanananda Das, Karamat Ali Jaunpuri, Muhammad Iqbal, Munshi Mohammad Meherullah, Professor Abdur Razzaq, Maulana Qasim Nanautavi, Rashid Ahmad Gangohi, Robert Clive, Shah Abdul Aziz Dehlawi, and Shah Ismail Dehlawi.
+  - Content backfill: added localized SEO titles/descriptions and short answers for all ten; expanded Robert Clive’s bilingual contribution, context, impact, and highlight fields and added documented event/place links. Existing image-less intellectual and religious profiles were not assigned speculative event links or image assets.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Shah Waliullah Dehlawi.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: broad intellectual and religious biographies remain conservatively framed around their existing Bengal-linked context; image review remains separate from SEO completion.
+
+- Continued the figure-content SEO audit with Jahangir:
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, birth/death years, active period, aliases, event/place links, and search tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Jibanananda Das.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes.
+  - Risk/known gaps: the profile stays focused on Bengal’s Mughal consolidation and Dhaka/Jahangirnagar; no new image asset was introduced.
+
+- Continued the figure-content SEO audit with Ishwar Chandra Vidyasagar:
+  - Content backfill: expanded bilingual contribution, context, impact, and highlight fields; added localized SEO titles/descriptions, short answers, birth/death years, active period, aliases, event/place links, and search tags.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Jahangir.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes.
+  - Risk/known gaps: reform and education claims are kept within the existing documented event context; no new image asset was introduced.
+
 - Continued the figure-content SEO audit through the next 10 profiles: Isa Khan, Murshid Quli Khan, Nawab Abdul Latif, Shamsuddin Ilyas Shah, Abul Fazal, Imam Ahmad Sirhindi, Alivardi Khan, Ashraf Ali Thanwi, Ayub Khan, and Farrukh Ahmad.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields where needed; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Sultanate, Mughal, reform, literary, and East Pakistan political histories are framed with specific chronology and contextual wording.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Ishwar Chandra Vidyasagar.
