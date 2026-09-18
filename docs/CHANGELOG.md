@@ -4,6 +4,12 @@
 
 ### Completed
 
+- Continued the figure-content SEO audit through the next 10 profiles: Shah Waliullah Dehlawi, Sheikh Abdur Rahim, Shibli Nomani, Syed Ahmad Khan, Syed Ameer Ali, Jagat Seth, Mir Jafar, Siraj ud-Daulah, Surendranath Banerjea, and Dhaka University Students.
+  - Content backfill: added localized SEO titles/descriptions and short answers for all ten; expanded bilingual contribution, context, impact, and highlight fields for the event-linked historical profiles and added documented event/place links and aliases.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Ahmad Sofa.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: image-less intellectual profiles remain conservatively linked or unlinked where the event record does not document a direct relationship; image review remains separate from SEO completion.
+
 - Continued the figure-content SEO audit through the next 10 profiles: Jibanananda Das, Karamat Ali Jaunpuri, Muhammad Iqbal, Munshi Mohammad Meherullah, Professor Abdur Razzaq, Maulana Qasim Nanautavi, Rashid Ahmad Gangohi, Robert Clive, Shah Abdul Aziz Dehlawi, and Shah Ismail Dehlawi.
   - Content backfill: added localized SEO titles/descriptions and short answers for all ten; expanded Robert Clive’s bilingual contribution, context, impact, and highlight fields and added documented event/place links. Existing image-less intellectual and religious profiles were not assigned speculative event links or image assets.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Shah Waliullah Dehlawi.

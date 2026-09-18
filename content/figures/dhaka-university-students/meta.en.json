@@ -2,8 +2,21 @@
   "name": "Dhaka University Students",
   "role": "Student Collective",
   "group": "collective",
-  "contribution": "They stood at the center of the movement, debated strategy, violated Section 144, and carried the protest onto the streets.",
-  "context": "Dhaka University campus, especially 1948-1952.",
-  "impact": "Their collective action gave the movement its courage, discipline, and historical turning point.",
+  "contribution": "Dhaka University students organized debates, meetings, processions, and strikes that carried the Language Movement from campus politics into public protest.",
+  "context": "Between 1948 and 1952, the campus became a key site for opposition to the attempt to impose Urdu as Pakistan’s sole state language. Students challenged restrictions including Section 144 and joined wider civic mobilization.",
+  "impact": "Their collective action helped turn language rights into a mass political demand and made the movement a foundational chapter in East Bengal’s later democratic and nationalist history.",
+  "highlight": "The student collective that helped move the Language Movement from Dhaka University into a mass public struggle.",
+  "seoTitle": "Dhaka University Students and the Language Movement",
+  "seoDescription": "Learn how Dhaka University students organized the 1948–1952 Language Movement and turned the demand for Bengali language rights into mass political action.",
+  "shortAnswer": "Dhaka University students were central organizers of the Language Movement, helping turn Bengali language rights into a mass public and political demand.",
+  "primaryEventIds": [
+    "1921-dhaka-university-establishment",
+    "1952-language-movement",
+    "1962-education-movement-in-east-pakistan",
+    "1969-mass-uprising"
+  ],
+  "relatedPlaceIds": ["dhaka-jahangirnagar", "dhaka-university", "central-shaheed-minar"],
+  "alternateNames": ["Students of Dhaka University", "ঢাকা বিশ্ববিদ্যালয়ের ছাত্রসমাজ"],
+  "searchAliases": ["Dhaka University students Language Movement", "DU students 1952", "Bengali language movement students"],
   "image": "/figures/dhaka-university-students.webp"
 }

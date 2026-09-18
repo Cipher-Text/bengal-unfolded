@@ -2,8 +2,22 @@
   "name": "Surendranath Banerjea",
   "role": "Nationalist Leader and Organizer",
   "group": "leader",
-  "contribution": "Banerjea emerged as one of the most visible political leaders opposing the partition and helped organize meetings, petitions, and public protest across Bengal.",
-  "context": "Late colonial Bengal's constitutional and public politics.",
-  "impact": "His leadership linked anti-partition resistance to the wider growth of organized nationalist politics in Bengal.",
+  "contribution": "Surendranath Banerjea organized meetings, petitions, and public protest against the 1905 partition of Bengal and helped build an institutional nationalist movement.",
+  "context": "His political career connected constitutional agitation, the Indian Association, the Indian National Congress, and the growth of a mass public sphere in late colonial Bengal.",
+  "impact": "His leadership linked anti-partition resistance to organized nationalist politics and helped establish public campaigning as a major form of political action in Bengal.",
+  "highlight": "A constitutional nationalist who helped organize Bengal’s anti-partition public politics.",
+  "seoTitle": "Surendranath Banerjea: Bengal’s Nationalist Organizer",
+  "seoDescription": "Explore Surendranath Banerjea’s role in Bengal’s nationalist politics, the anti-partition movement, public petitions, and organized political action.",
+  "shortAnswer": "Surendranath Banerjea was a Bengali nationalist leader who organized public opposition to the 1905 partition and helped build modern political associations.",
+  "activePeriod": "1870s–1920s",
+  "primaryEventIds": [
+    "1876-indian-association-calcutta-political-mobilization",
+    "1885-indian-national-congress-foundation-and-bengal-response",
+    "1905-partition-of-bengal",
+    "1911-annulment-of-bengal-partition"
+  ],
+  "relatedPlaceIds": ["bengal-region", "calcutta-kolkata"],
+  "alternateNames": ["Surendranath Banerjee", "Suren Banerjea"],
+  "searchAliases": ["Surendranath Banerjea partition of Bengal", "Surendranath Banerjee nationalist", "Surendranath Indian Association"],
   "image": "/figures/surendranath-banerjea.webp"
 }
