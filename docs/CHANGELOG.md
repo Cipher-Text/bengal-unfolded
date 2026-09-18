@@ -4,6 +4,18 @@
 
 ### Completed
 
+- Completed the remaining figure-content SEO metadata pass for Humayun, Ivy Rahman, Altaf Mahmud, Brigadier General Gulzar Uddin Ahmed, Kazi Nazrul Islam, Michael Madhusudan Dutt, Daud Khan Karrani, and Raja Rammohun Roy.
+  - Content backfill: added localized SEO titles/descriptions, short answers, and documented event/place links or aliases where direct repository relationships existed; sensitive political and violence-related profiles retain time-bounded, legally precise wording.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the audit now reports zero profiles with incomplete SEO metadata and zero generic-language flags. The remaining queue is content-depth expansion and image review.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: 158 profiles remain without image assets, tracked separately from SEO completion.
+
+- Continued the figure-content SEO audit through the next 10 profiles: Ahmad Sofa, Siddique ul-Islam (Bangla Bhai), Charu Majumdar, Khan Jahan Ali, Mufti Abdul Hannan, National Citizen Party, Shafiqur Rahman, Shambhu Nath Pal, Syed Abdullah Mohammad Taher, and Zainul Abedin.
+  - Content backfill: added localized SEO titles/descriptions and short answers for all ten; preserved legal-status and political uncertainty wording for sensitive profiles and retained existing documented event/place links.
+  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority profile with incomplete SEO metadata is now Humayun.
+  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
+  - Risk/known gaps: image review remains separate from SEO completion; contemporary political profiles retain the repository’s existing time-bounded framing.
+
 - Continued the figure-content SEO audit through the next 10 profiles: Shah Waliullah Dehlawi, Sheikh Abdur Rahim, Shibli Nomani, Syed Ahmad Khan, Syed Ameer Ali, Jagat Seth, Mir Jafar, Siraj ud-Daulah, Surendranath Banerjea, and Dhaka University Students.
   - Content backfill: added localized SEO titles/descriptions and short answers for all ten; expanded bilingual contribution, context, impact, and highlight fields for the event-linked historical profiles and added documented event/place links and aliases.
   - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Ahmad Sofa.

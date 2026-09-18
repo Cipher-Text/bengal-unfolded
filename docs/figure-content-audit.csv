@@ -1,480 +1,480 @@
 Rank,Figure ID,Name,Role,Group,Event Count,Image,EN Words,BN Words,SEO,Generic Flags,Tier,Priority Score,Recommended Action
-1,ahmad-sofa,Ahmad Sofa,Writer and critic of Bengali Muslim identity,leader,0,yes,81,71,missing-en-and-bn,0,C,46,add localized SEO title and description; link to a primary timeline event
-2,bangla-bhai,Siddique ul-Islam (Bangla Bhai),JMJB/JMB militant commander,leader,1,no,73,65,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-3,charu-majumdar,Charu Majumdar,Radical left political organizer,leader,1,no,68,64,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-4,khan-jahan-ali,Khan Jahan Ali,Sufi administrator and regional builder in Bengal,leader,1,no,70,60,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-5,mufti-hannan,Mufti Abdul Hannan,HuJI-B militant leader and convicted attacker,leader,1,no,74,70,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-6,national-citizen-party,National Citizen Party,Student-Led Political Party in Bangladesh,organization,1,no,67,59,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-7,shafiqur-rahman,Shafiqur Rahman,Ameer of Bangladesh Jamaat-e-Islami,leader,1,no,70,58,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-8,shambhu-nath-pal,Shambhu Nath Pal,Pabna peasant organizer,leader,1,no,66,54,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-9,syed-abdullah-mohammad-taher,Syed Abdullah Mohammad Taher,Deputy leader of Bangladesh Jamaat-e-Islami,leader,1,no,63,58,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-10,zainul-abedin,Zainul Abedin,Artist and institution builder,leader,1,no,66,57,missing-en-and-bn,0,C,45,add localized SEO title and description; consider an image after editorial review
-11,humayun-mughal,Humayun,Mughal emperor in the Bengal campaign era,leader,2,no,75,61,missing-en-and-bn,0,C,44,add localized SEO title and description; consider an image after editorial review
-12,ivy-rahman,Ivy Rahman,Awami League leader and August 21 attack victim,leader,2,no,80,70,missing-en-and-bn,0,C,44,add localized SEO title and description; consider an image after editorial review
-13,k-m-obaidur-rahman,K. M. Obaidur Rahman,Politician,leader,2,no,62,49,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-14,kazi-arif-ahmed,Kazi Arif Ahmed,Left political leader,leader,2,no,63,50,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-15,mofazzal-haider-chaudhury,Mofazzal Haider Chaudhury,Academic and intellectual,leader,2,no,63,50,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-16,muhammad-kamaruzzaman,Muhammad Kamaruzzaman,Jamaat leader,leader,2,no,58,45,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-17,rokeya-kabir,Rokeya Kabir,Women rights organizer,leader,2,no,60,47,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-18,selina-parvin,Selina Parvin,Journalist and editor,leader,2,no,60,47,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-19,shah-azizur-rahman,Shah Azizur Rahman,Politician and prime minister,leader,2,no,65,50,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-20,shahidullah-kaiser,Shahidullah Kaiser,Writer and journalist,leader,2,no,60,47,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-21,shamsur-rahman,Shamsur Rahman,Poet and public intellectual,leader,2,no,62,47,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-22,sheikh-fazlul-haque-moni,Sheikh Fazlul Haque Moni,Political organizer,leader,2,no,64,51,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-23,syed-shamsul-haq,Syed Shamsul Haq,Poet and playwright,leader,2,no,63,50,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
-24,altaf-mahmud,Altaf Mahmud,Cultural Activist and Composer of Ekushey Memory,leader,1,yes,82,67,missing-en-and-bn,0,C,37,add localized SEO title and description
-25,gulzar-uddin-ahmed,Brigadier General Gulzar Uddin Ahmed,Deputy Director General of Bangladesh Rifles (BDR),leader,1,yes,87,79,missing-en-and-bn,0,C,37,add localized SEO title and description
-26,kazi-nazrul-islam,Kazi Nazrul Islam,"Poet, composer, and anti-imperial voice",leader,2,yes,66,54,missing-en-and-bn,0,C,36,add localized SEO title and description
-27,michael-madhusudan-dutt,Michael Madhusudan Dutt,Poet-dramatist and pioneer of modern Bengali literary form,leader,2,yes,67,53,missing-en-and-bn,0,C,36,add localized SEO title and description
-28,daud-khan-karrani,Daud Khan Karrani,Last major Afghan ruler defeated at Rajmahal,leader,4,yes,68,58,missing-en-and-bn,0,C,34,add localized SEO title and description
-29,raja-rammohun-roy,Raja Rammohun Roy,Early reformer and key intellectual of the Bengal Renaissance,leader,4,yes,74,56,missing-en-and-bn,0,C,34,add localized SEO title and description
-30,abdul-jabbar,Abdul Jabbar,Patriotic Singer,leader,1,yes,62,48,complete,0,D,33,"expand contribution, context, and impact"
-31,abdul-mannan,Abdul Mannan,Freedom Fighter,coordinator,1,yes,57,41,complete,0,D,33,"expand contribution, context, and impact"
-32,abdus-samad-azad,Abdus Samad Azad,Senior Awami League Leader,leader,1,yes,61,53,complete,0,D,33,"expand contribution, context, and impact"
-33,abu-saleh-mohammad-akram,Abu Saleh Mohammad Akram,Boundary Commission Member,coordinator,1,yes,58,53,complete,0,D,33,"expand contribution, context, and impact"
-34,amir-hossain-amu,Amir Hossain Amu,Alliance Politician,leader,1,yes,61,48,complete,0,D,33,"expand contribution, context, and impact"
-35,badiul-alam,Badiul Alam,Urban Resistance Fighter,coordinator,1,yes,67,52,complete,0,D,33,"expand contribution, context, and impact"
-36,bidhan-chandra-roy,Bidhan Chandra Roy,Congress Leader and Physician-Statesman,leader,1,yes,63,55,complete,0,D,33,"expand contribution, context, and impact"
-37,bijan-kumar-mukherjea,Bijan Kumar Mukherjea,Boundary Commission Member,coordinator,1,yes,54,47,complete,0,D,33,"expand contribution, context, and impact"
-38,faisal-ahmed-shanto,Faisal Ahmed Shanto,Symbolic martyrs,martyr,1,yes,62,52,complete,0,D,33,"expand contribution, context, and impact"
-39,farhan-faiyaaz,Farhan Faiyaaz,Symbolic martyrs,martyr,1,yes,59,50,complete,0,D,33,"expand contribution, context, and impact"
-40,fazle-rabbi,Dr Fazle Rabbi,Martyred Physician-Intellectual,martyr,1,yes,64,54,complete,0,D,33,"expand contribution, context, and impact"
-41,hamidur-rahman,Hamidur Rahman,Bir Sreshtho (Army Martyr),martyr,1,yes,69,48,complete,0,D,33,"expand contribution, context, and impact"
-42,jahanara-imam,Jahanara Imam,Public Moral Voice,leader,1,yes,62,50,complete,0,D,33,"expand contribution, context, and impact"
-43,jahangir-alam,Jahangir Alam,Freedom Fighter,coordinator,1,yes,63,40,complete,0,D,33,"expand contribution, context, and impact"
-44,jogendranath-mandal,Jogendranath Mandal,Dalit Political Leader,leader,1,yes,61,56,complete,0,D,33,"expand contribution, context, and impact"
-45,kamruzzaman-tuku,Kamruzzaman Tuku,Freedom Fighter,coordinator,1,yes,61,47,complete,0,D,33,"expand contribution, context, and impact"
-46,kazi-nuruzzaman,Kazi Nuruzzaman,Sector Commander,leader,1,yes,55,45,complete,0,D,33,"expand contribution, context, and impact"
-47,kiran-shankar-roy,Kiran Shankar Roy,Congress Leader in Bengal,leader,1,yes,64,52,complete,0,D,33,"expand contribution, context, and impact"
-48,mir-madan,Mir Madan,Nawab's artillery commander at Plassey,martyr,1,yes,43,39,complete,0,D,33,"expand contribution, context, and impact"
-49,mujahidul-islam-selim,Mujahidul Islam Selim,Left Political Organizer,leader,1,yes,61,51,complete,0,D,33,"expand contribution, context, and impact"
-50,nazmul-huq,Nazmul Huq,Pioneering Sector Commander,leader,1,yes,61,47,complete,0,D,33,"expand contribution, context, and impact"
-51,nur-hossain,Nur Hossain,Martyr-Symbol of the Movement,leader,1,yes,66,50,complete,0,D,33,"expand contribution, context, and impact"
-52,prafulla-chandra-ghosh,Prafulla Chandra Ghosh,First Chief Minister of West Bengal,leader,1,yes,57,46,complete,0,D,33,"expand contribution, context, and impact"
-53,riya-gope,Riya Gope,Symbolic martyrs,martyr,1,yes,61,50,complete,0,D,33,"expand contribution, context, and impact"
-54,satya-ranjan-bakshi,Satya Ranjan Bakshi,United Bengal Supporter,leader,1,yes,64,54,complete,0,D,33,"expand contribution, context, and impact"
-55,shaheed-rudro,Shaheed Rudro,Symbolic martyrs,martyr,1,yes,61,50,complete,0,D,33,"expand contribution, context, and impact"
-56,shahnaz-rahmatullah,Shahnaz Rahmatullah,Patriotic Cultural Voice,leader,1,yes,62,52,complete,0,D,33,"expand contribution, context, and impact"
-57,shamsul-alam,Shamsul Alam,Resistance Organizer,coordinator,1,yes,62,44,complete,0,D,33,"expand contribution, context, and impact"
-58,suranjit-sengupta,Suranjit Sengupta,Parliamentary and Street Opposition Voice,leader,1,yes,59,52,complete,0,D,33,"expand contribution, context, and impact"
-59,tahmid-abdullah,Tahmid Abdullah,Symbolic martyrs,martyr,1,yes,60,50,complete,0,D,33,"expand contribution, context, and impact"
-60,vallabhbhai-patel,Vallabhbhai Patel,Congress Strategist,leader,1,yes,62,54,complete,0,D,33,"expand contribution, context, and impact"
-61,wasim-akram-2024,Wasim Akram,Symbolic martyrs,martyr,1,yes,59,50,complete,0,D,33,"expand contribution, context, and impact"
-62,yamin-mist,Yamin,Symbolic martyrs,martyr,1,yes,59,48,complete,0,D,33,"expand contribution, context, and impact"
-63,zahid-hossain,Zahid Hossain,Symbolic martyrs,martyr,1,yes,58,50,complete,0,D,33,"expand contribution, context, and impact"
-64,abdul-jalil,Abdul Jalil,Politician,leader,2,yes,56,43,complete,0,D,32,"expand contribution, context, and impact"
-65,abdul-malek-ukil,Abdul Malek Ukil,Student Activist,leader,2,yes,64,46,complete,0,D,32,"expand contribution, context, and impact"
-66,abdur-razzaq-politician,Abdur Razzaq,Politician,leader,2,yes,56,43,complete,0,D,32,"expand contribution, context, and impact"
-67,alim-chowdhury,Dr Alim Chowdhury,Martyred Physician-Intellectual,martyr,2,yes,67,49,complete,0,D,32,"expand contribution, context, and impact"
-68,binod-bihari-chowdhury,Binod Bihari Chowdhury,Chittagong uprising veteran,leader,2,yes,62,50,complete,0,D,32,"expand contribution, context, and impact"
-69,cr-dutta,C. R. Dutta,Sector 4 Commander,leader,2,yes,61,50,complete,0,D,32,"expand contribution, context, and impact"
-70,cyril-radcliffe,Cyril Radcliffe,Boundary Commission Chair,coordinator,2,yes,57,49,complete,0,D,32,"expand contribution, context, and impact"
-71,dhirendranath-datta,Dhirendranath Datta,Language Rights Advocate,leader,2,yes,57,53,complete,0,D,32,"expand contribution, context, and impact"
-72,ghyasuddin-ahmed,Ghyasuddin Ahmed,Political organizer,leader,2,yes,58,45,complete,0,D,32,"expand contribution, context, and impact"
-73,humayun-azad,Humayun Azad,Writer and academic,leader,2,yes,60,47,complete,0,D,32,"expand contribution, context, and impact"
-74,humayun-kabir,Humayun Kabir,Intellectual and Politician,leader,2,yes,63,50,complete,0,D,32,"expand contribution, context, and impact"
-75,ila-mitra,Ila Mitra,Peasant Activist,leader,2,yes,60,54,complete,0,D,32,"expand contribution, context, and impact"
-76,jasimuddin,Jasimuddin,Poet of Rural Bengal,leader,2,yes,57,47,complete,0,D,32,"expand contribution, context, and impact"
-77,jawaharlal-nehru,Jawaharlal Nehru,Congress Leader,leader,2,yes,59,49,complete,0,D,32,"expand contribution, context, and impact"
-78,kazi-motahar-hossain,Kazi Motahar Hossain,Scholar and Cultural Intellectual,leader,2,yes,57,50,complete,0,D,32,"expand contribution, context, and impact"
-79,khwaja-shahabuddin,Khwaja Shahabuddin,Muslim League Politician,leader,2,yes,61,56,complete,0,D,32,"expand contribution, context, and impact"
-80,major-jalil,Major M. A. Jalil,Sector 9 Commander,leader,2,yes,66,52,complete,0,D,32,"expand contribution, context, and impact"
-81,major-zafar-imam,Major Zafar Imam,Military Operations Leader,leader,2,yes,63,50,complete,0,D,32,"expand contribution, context, and impact"
-82,matia-chowdhury,Matia Chowdhury,Politician,leader,2,yes,56,43,complete,0,D,32,"expand contribution, context, and impact"
-83,maulana-akram-khan,Maulana Akram Khan,Journalist and Muslim Public Leader,leader,2,yes,60,55,complete,0,D,32,"expand contribution, context, and impact"
-84,meghnad-saha,Meghnad Saha,Physicist and public intellectual,leader,2,yes,54,48,complete,0,D,32,"expand contribution, context, and impact"
-85,mir-shawkat-ali,Mir Shawkat Ali,Sector 5 Commander,leader,2,yes,68,46,complete,0,D,32,"expand contribution, context, and impact"
-86,mohammad-toaha,Mohammad Toaha,Left Student Activist,leader,2,yes,64,51,complete,0,D,32,"expand contribution, context, and impact"
-87,mostafa-kamal,Mostafa Kamal,Bir Sreshtho (Army Martyr),martyr,2,yes,65,52,complete,0,D,32,"expand contribution, context, and impact"
-88,moudud-ahmed,Moudud Ahmed,Constitutional Intermediary,coordinator,2,yes,65,52,complete,0,D,32,"expand contribution, context, and impact"
-89,muhammad-shahidullah,Muhammad Shahidullah,Linguist and Intellectual Authority,leader,2,yes,56,51,complete,0,D,32,"expand contribution, context, and impact"
-90,muzaffar-ahmad,Muzaffar Ahmad,Left Political Thinker,leader,2,yes,60,54,complete,0,D,32,"expand contribution, context, and impact"
-91,nihar-ranjan-ray,Nihar Ranjan Ray,Historian of Bengal civilization,leader,2,yes,64,47,complete,0,D,32,"expand contribution, context, and impact"
-92,r-c-majumdar,R. C. Majumdar,Historian,leader,2,yes,59,46,complete,0,D,32,"expand contribution, context, and impact"
-93,sa-rahman,S. A. Rahman,Boundary Commission Member,coordinator,2,yes,62,51,complete,0,D,32,"expand contribution, context, and impact"
-94,selina-hossain,Selina Hossain,Novelist,leader,2,yes,56,43,complete,0,D,32,"expand contribution, context, and impact"
-95,somnath-lahiri,Somnath Lahiri,Communist Legislator,leader,2,yes,57,48,complete,0,D,32,"expand contribution, context, and impact"
-96,sufia-kamal,Sufia Kamal,Cultural and Civic Voice,leader,2,yes,66,52,complete,0,D,32,"expand contribution, context, and impact"
-97,zahir-raihan,Zahir Raihan,Filmmaker and writer,leader,2,yes,53,48,complete,0,D,32,"expand contribution, context, and impact"
-98,zohra-tajuddin,Zohra Tajuddin,Political activist,leader,2,yes,58,45,complete,0,D,32,"expand contribution, context, and impact"
-99,abdul-matin,Abdul Matin,Language Movement Organizer,coordinator,3,yes,62,51,complete,0,D,31,"expand contribution, context, and impact"
-100,abdur-rashid-tarkabagish,Abdur Rashid Tarkabagish,Opposition Speaker and Politician,leader,3,yes,58,50,complete,0,D,31,"expand contribution, context, and impact"
-101,abul-kasem,Abul Kashem,Language movement organizer,leader,3,yes,55,43,complete,0,D,31,"expand contribution, context, and impact"
-102,ataur-rahman-khan,Ataur Rahman Khan,Opposition Politician,leader,3,yes,52,47,complete,0,D,31,"expand contribution, context, and impact"
-103,mag-osmani,M. A. G. Osmani,Commander-in-Chief of Bangladesh Forces,leader,3,yes,66,50,complete,0,D,31,"expand contribution, context, and impact"
-104,manik-mia,Manik Mia,Journalist and Public Opinion Builder,leader,3,yes,60,49,complete,0,D,31,"expand contribution, context, and impact"
-105,sarat-chandra-bose,Sarat Chandra Bose,United Bengal Advocate,leader,3,yes,55,51,complete,0,D,31,"expand contribution, context, and impact"
-106,tofail-ahmed,Tofail Ahmed,Awami League Organizer,leader,3,yes,61,51,complete,0,D,31,"expand contribution, context, and impact"
-107,abul-fazal,Abul Fazal,"Writer, educationist, and rationalist Muslim thinker",leader,0,no,80,80,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-108,ahmad-sirhindi,Imam Ahmad Sirhindi,Naqshbandi scholar and Sunni revivalist,leader,0,no,85,84,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-109,ashraf-ali-thanwi,Ashraf Ali Thanwi,Deobandi scholar and religious-social reform influence,leader,0,no,96,90,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-110,farrukh-ahmad,Farrukh Ahmad,Poet of Islamic literary modernism,leader,0,no,85,78,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-111,jibanananda-das,Jibanananda Das,Poet of modern Bengali literature,leader,0,no,82,78,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-112,karamat-ali-jaunpuri,Karamat Ali Jaunpuri,Islamic preacher and reformist debater,leader,0,no,89,91,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-113,muhammad-iqbal,Muhammad Iqbal,Philosopher-poet of Muslim selfhood,leader,0,no,85,80,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-114,munshi-mohammad-meherullah,Munshi Mohammad Meherullah,Islamic debater and social reform writer,leader,0,no,99,87,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-115,professor-abdur-razzaq,Professor Abdur Razzaq,Political thinker and intellectual mentor,leader,0,no,81,78,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-116,qasim-nanautavi,Maulana Qasim Nanautavi,Founder figure of Darul Uloom Deoband,leader,0,no,86,81,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-117,rashid-ahmad-gangohi,Rashid Ahmad Gangohi,Deobandi scholar of fiqh and tasawwuf,leader,0,no,82,79,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-118,shah-abdul-aziz-dehlawi,Shah Abdul Aziz Dehlawi,Hadith scholar and reformist legal thinker,leader,0,no,94,84,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-119,shah-ismail-dehlawi,Shah Ismail Dehlawi,Reformist scholar of tawhid and religious purification,leader,0,no,84,89,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-120,shah-waliullah-dehlawi,Shah Waliullah Dehlawi,Islamic scholar and reformist intellectual root,leader,0,no,102,94,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-121,sheikh-abdur-rahim,Sheikh Abdur Rahim,Journalist and Bengali Muslim literary reformer,leader,0,no,92,80,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-122,shibli-nomani,Shibli Nomani,Islamic historian and literary scholar,leader,0,no,87,79,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-123,syed-ahmad-khan,Syed Ahmad Khan,Muslim reformer and education modernizer,leader,0,no,83,87,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
-124,justice-shahabuddin-ahmed,Justice Shahabuddin Ahmed,Caretaker Transition Figure,coordinator,5,yes,63,54,complete,0,D,29,"expand contribution, context, and impact"
-125,tikka-khan,Tikka Khan,Pakistan Army general,leader,5,yes,60,47,complete,0,D,29,"expand contribution, context, and impact"
-126,abul-hashim,Abul Hashim,Bengal Muslim League Organizer,leader,7,yes,64,53,complete,0,D,28,"expand contribution, context, and impact"
-127,mahatma-gandhi,Mahatma Gandhi,Anti-Communal National Leader,leader,6,yes,57,52,complete,0,D,28,"expand contribution, context, and impact"
-128,nurul-amin,Nurul Amin,East Bengal Chief Minister,leader,8,yes,52,42,complete,0,D,28,"expand contribution, context, and impact"
-129,abul-hussain,Abul Hussain,"Writer, intellectual, and social activist",leader,0,no,123,111,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
-130,kazi-abdul-wadud,Kazi Abdul Wadud,"Essayist, literary organizer, and intellectual",leader,0,no,135,121,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
-131,lalon-shah,Lalon Shah,"Baul philosopher, mystic poet, and composer",leader,0,no,234,211,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
-132,satyajit-ray,Satyajit Ray,"Filmmaker, writer, illustrator, and composer",leader,0,no,218,194,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
-133,sayyid-ahmad-barelvi,Sayyid Ahmad Barelvi,Reformist leader of the Tariqah-i-Muhammadiya movement,leader,0,no,216,199,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
-134,baksal,Bangladesh Krishak Sramik Awami League,One-Party Political Framework in 1975 Bangladesh,organization,1,no,98,88,complete,0,C,21,consider an image after editorial review
-135,bangladesh-jatiya-party,Bangladesh Jatiya Party,Political Party in Bangladesh,organization,1,no,81,78,complete,0,C,21,consider an image after editorial review
-136,benazir-ahmed,Benazir Ahmed,Former RAB director general and police chief linked to sanctions and rights-abuse allegations,leader,1,no,113,102,complete,0,C,21,consider an image after editorial review
-137,ganatantri-dal,Ganatantri Dal,Left-Leaning Political Party in East Bengal,organization,1,no,88,75,complete,0,C,21,consider an image after editorial review
-138,gono-forum,Gono Forum,Reform-Oriented Political Party in Bangladesh,organization,1,no,87,82,complete,0,C,21,consider an image after editorial review
-139,hasinur-rahman,Hasinur Rahman,Former army and RAB officer; enforced-disappearance witness,leader,1,no,108,97,complete,0,C,21,consider an image after editorial review
-140,islami-andolan-bangladesh,Islami Andolan Bangladesh,Islamist Political Party in Bangladesh,organization,1,no,87,75,complete,0,C,21,consider an image after editorial review
-141,khudiram-bose,Khudiram Bose,Anti-colonial revolutionary associated with Jugantar,leader,1,no,107,94,complete,0,C,21,consider an image after editorial review
-142,krishak-sramik-party,Krishak Sramik Party,Peasant-Labour Political Party in East Bengal,organization,1,no,93,80,complete,0,C,21,consider an image after editorial review
-143,major-rafiqul-islam,Major Rafiqul Islam,Sector 1 Commander (Later Phase),leader,1,no,73,64,complete,0,C,21,consider an image after editorial review
-144,mohiuddin-jahangir,Mohiuddin Jahangir,Bir Sreshtho (Army Martyr),martyr,1,no,75,48,complete,0,C,21,consider an image after editorial review
-145,nizam-e-islam-party,Nizam-e-Islam Party,Islamic Political Party in East Bengal and Pakistan,organization,1,no,95,89,complete,0,C,21,consider an image after editorial review
-146,united-front-1954,United Front,Opposition Electoral Alliance in East Bengal,organization,1,no,116,97,complete,0,C,21,consider an image after editorial review
-147,abul-kalam-azad-bachchu-razakar,Abul Kalam Azad (Bachchu Razakar),Fugitive ICT convict known as Bachchu Razakar,leader,2,no,117,95,complete,0,C,20,consider an image after editorial review
-148,communist-party-of-india,Communist Party of India,Communist Political Party in Colonial and Postcolonial India,organization,2,no,105,89,complete,0,C,20,consider an image after editorial review
-149,forward-bloc,Forward Bloc,Anti-Colonial Political Party Associated with Subhas Chandra Bose,organization,2,no,88,79,complete,0,C,20,consider an image after editorial review
-150,hindu-mahasabha,Hindu Mahasabha,Hindu Nationalist Political Organization in British India,organization,2,no,107,88,complete,0,C,20,consider an image after editorial review
-151,jahanzeb-arbab,Jahanzeb Arbab,Pakistan Army brigade commander associated with 1971 operations,leader,2,no,95,88,complete,0,C,20,consider an image after editorial review
-152,jatiya-party,Jatiya Party,Political Party in Bangladesh,organization,2,no,70,60,complete,0,C,20,consider an image after editorial review
-153,khadim-hussain-raja,Khadim Hussain Raja,Pakistan Army commander involved in Operation Searchlight planning,leader,2,no,98,82,complete,0,C,20,consider an image after editorial review
-154,m-hamidullah-khan,Squadron Leader M. Hamidullah Khan,Sector 11 Commander (Later Phase),leader,2,no,72,64,complete,0,C,20,consider an image after editorial review
-155,mir-quasem-ali,Mir Quasem Ali,Jamaat-e-Islami and Al-Badr figure convicted in a 1971 war-crimes case,leader,2,no,106,93,complete,0,C,20,consider an image after editorial review
-156,mk-bashar,Wing Commander M. K. Bashar,Sector 6 Commander,leader,2,no,67,58,complete,0,C,20,consider an image after editorial review
-157,national-awami-party,National Awami Party,Left-Nationalist Political Party in Pakistan and Bangladesh,organization,2,no,100,82,complete,0,C,20,consider an image after editorial review
-158,ziaul-ahsan,Ziaul Ahsan,Security and intelligence figure linked to disappearance and surveillance allegations,leader,2,no,107,95,complete,0,C,20,consider an image after editorial review
-159,ashrafuzzaman-khan,Ashrafuzzaman Khan,Al-Badr figure convicted in absentia in the intellectual-killings case,leader,3,no,89,70,complete,0,C,19,consider an image after editorial review
-160,chowdhury-mueen-uddin,Chowdhury Mueen Uddin,Al-Badr figure convicted in absentia in the intellectual-killings case,leader,3,no,95,73,complete,0,C,19,consider an image after editorial review
-161,major-ma-manzur,Major M. A. Manzur,Sector 8 and Sector 9 Commander (Later Phase),leader,3,no,76,70,complete,0,C,19,consider an image after editorial review
-162,pakistan-peoples-party,Pakistan Peoples Party,Political Party in Pakistan,organization,3,no,83,76,complete,0,C,19,consider an image after editorial review
-163,jagadish-chandra-bose,Jagadish Chandra Bose,"Physicist, plant physiologist, and scientific investigator",leader,0,yes,234,190,complete,0,B,14,link to a primary timeline event
-164,ab-party,AB Party,Bangladeshi political party founded in 2020,organization,1,no,216,189,complete,0,B,13,consider an image after editorial review
-165,abdul-halim-chowdhury,Abdul Halim Chowdhury,Academic and Martyred Intellectual,martyr,1,yes,71,56,complete,0,C,13,
-166,abdul-karim-sahitya-bisharad,Abdul Karim Sahitya Bisharad,Cultural Archivist,leader,1,yes,68,52,complete,0,C,13,
-167,abdullah-al-amin,Abdullah Al Amin,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
-168,abu-baker-majumder,Abu Baker Majumder,Coordinator,coordinator,1,yes,71,59,complete,0,C,13,
-169,abu-jafar-shamsuddin,Abu Jafar Shamsuddin,"Journalist, novelist, essayist, and public intellectual",leader,1,no,235,215,complete,0,B,13,consider an image after editorial review
-170,adilur-rahman-khan,Adilur Rahman Khan,Human-rights advocate and interim-government adviser,leader,1,yes,71,62,complete,0,C,13,
-171,ahmed-rafiq,Ahmed Rafiq,"Historian, writer, and interpreter of the Language Movement",leader,1,yes,121,94,complete,0,C,13,
-172,akhtar-ahmed,Akhtar Ahmed,Senior Secretary of Bangladesh's Election Commission Secretariat,leader,1,no,220,191,complete,0,B,13,consider an image after editorial review
-173,alaol,Alaol,Bengali court poet and translator,leader,1,no,129,109,complete,0,B,13,consider an image after editorial review
-174,amm-nasir-uddin,AMM Nasir Uddin,Chief Election Commissioner of Bangladesh,leader,1,no,224,193,complete,0,B,13,consider an image after editorial review
-175,andaleeve-rahman-partho,Andaleeve Rahman Partho,Chairman of Bangladesh Jatiya Party,leader,1,no,165,153,complete,0,B,13,consider an image after editorial review
-176,anu-muhammad,Anu Muhammad,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
-177,arif-jebtik,Arif Jebtik,"Online activist, blogger, and political commentator",leader,1,yes,125,83,complete,0,C,13,
-178,arif-sohel,Arif Sohel,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-179,asaduzzaman-fuaad,Barrister Asaduzzaman Fuaad,General secretary of AB Party,leader,1,no,176,163,complete,0,B,13,consider an image after editorial review
-180,azimullah-khan,Azimullah Khan,Political adviser to Nana Sahib,coordinator,1,yes,126,88,complete,0,C,13,
-181,badiul-alam-majumdar,Badiul Alam Majumdar,Chief of the Election Reform Commission,leader,1,no,183,161,complete,0,B,13,consider an image after editorial review
-182,bakht-bali,Bakht Bali,Regional rebel leader during 1857,coordinator,1,yes,110,86,complete,0,C,13,
-183,barkat-hossain,Barkat Hossain,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-184,beni-madho-singh,Beni Madho Singh,Awadh taluqdar who fought the British,leader,1,yes,110,100,complete,0,C,13,
-185,bhaskaravarman,Bhaskaravarman,King of Kamarupa and regional ally,leader,1,no,134,111,complete,0,B,13,consider an image after editorial review
-186,bhavadeva,Bhavadeva,Deva ruler linked to southeastern Bengal,leader,1,no,188,153,complete,0,B,13,consider an image after editorial review
-187,birjis-qadr,Birjis Qadr,Proclaimed ruler of Awadh during the revolt,coordinator,1,yes,115,94,complete,0,C,13,
-188,caretaker-transition-supporters-1990,Supporters of the Caretaker Transition,Civic Coalition,organization,1,yes,70,60,complete,0,C,13,
-189,cc-biswas,C. C. Biswas,Boundary Commission Member,coordinator,1,yes,63,57,complete,0,C,13,
-190,charles-cornwallis,Charles Cornwallis,Governor-General of Bengal,leader,1,yes,110,93,complete,0,C,13,
-191,charles-watson,Charles Watson,Royal Navy Admiral,leader,1,yes,110,77,complete,0,C,13,
-192,chittagong-rashtrabhasha-sangram-parishad,Chittagong Rashtrabhasha Sangram Parishad,Regional Action Committee,organization,1,yes,104,91,complete,0,C,13,
-193,chittagong-university-students-1990,Chittagong University Students,Student Collective,collective,1,yes,66,58,complete,0,C,13,
-194,communist-party-of-bangladesh,Communist Party of Bangladesh,Left Political Organization,organization,1,yes,70,62,complete,0,C,13,
-195,cultural-workers-collective-1990,Cultural Workers,Cultural Collective,collective,1,yes,64,58,complete,0,C,13,
-196,david-hare,David Hare,Education reformer in early colonial Calcutta,intellectual,1,no,185,175,complete,0,B,13,consider an image after editorial review
-197,debendranath-tagore,Debendranath Tagore,Brahmo reformer and intellectual organizer,intellectual,1,no,186,165,complete,0,B,13,consider an image after editorial review
-198,dhaka-university-students-1990,Dhaka University Students,Student Collective,collective,1,yes,66,58,complete,0,C,13,
-199,dhan-singh-gurjar,Dhan Singh Gurjar,Kotwal linked to the Meerut outbreak,coordinator,1,yes,105,94,complete,0,C,13,
-200,district-protesters-1990,District-Level Protesters,Citizen Collective,collective,1,yes,64,58,complete,0,C,13,
-201,doctors-collective-1990,Doctors' Collective,Professional Collective,collective,1,yes,64,58,complete,0,C,13,
-202,dudu-miya,Dudu Miya,Organizer of Faraizi peasant mobilization,leader,1,no,202,182,complete,0,B,13,consider an image after editorial review
-203,east-pakistan-muslim-chhatra-league,East Pakistan Muslim Chhatra League,Student Organization,organization,1,yes,101,83,complete,0,C,13,
-204,eight-party-alliance,8-Party Alliance,Opposition Alliance,organization,1,yes,64,58,complete,0,C,13,
-205,engineers-and-architects-collective-1990,Engineers and Architects,Professional Collective,collective,1,yes,66,60,complete,0,C,13,
-206,eyre-coote,Eyre Coote,Company Military Officer,coordinator,1,yes,104,81,complete,0,C,13,
-207,fahim-ahmed,Fahim Ahmed,Grassroots & Digital Influencer,leader,1,yes,74,60,complete,0,C,13,
-208,families-of-martyrs-1990,Families of the Movement's Martyrs,Memory Collective,collective,1,yes,70,60,complete,0,C,13,
-209,farhad-mazhar,Farhad Mazhar,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
-210,fazlur-rahman,Fazlur Rahman,BNP leader and freedom fighter,leader,1,no,164,144,complete,0,B,13,consider an image after editorial review
-211,firoz-shah-1857,Firoz Shah,Mughal prince associated with rebel campaigns,coordinator,1,yes,103,89,complete,0,C,13,
-212,five-party-alliance,5-Party Alliance,Opposition Alliance,organization,1,yes,64,58,complete,0,C,13,
-213,ghaset-begum,Ghaseti Begum,Nawabi court power broker and anti-Siraj faction figure,coordinator,1,yes,111,90,complete,0,C,13,
-214,ghiyasuddin-azam-shah,Ghiyasuddin Azam Shah,Iliyas Shahi Sultan of Bengal,leader,1,no,123,128,complete,0,B,13,consider an image after editorial review
-215,ghulam-ghaus-khan-1857,Ghulam Ghaus Khan,Artillery commander in Jhansi resistance,martyr,1,yes,103,86,complete,0,C,13,
-216,govinda-chandra-dev,Govinda Chandra Dev,Philosopher and Martyred Academic,martyr,1,yes,77,56,complete,0,C,13,
-217,gulab-singh-lodhi,Gulab Singh Lodhi,Local rebel figure commemorated in 1857 memory,martyr,1,yes,103,86,complete,0,C,13,
-218,hafizuddin-ahmed,Captain Hafizuddin Ahmed,Freedom Fighter and Field Officer,leader,1,yes,75,52,complete,0,C,13,
-219,hamidur-rahman-artist,Hamidur Rahman,Designer of the Central Shaheed Minar,coordinator,1,yes,94,82,complete,0,C,13,
-220,harshavardhana,Harshavardhana,Ruler of Thanesar and Kannauj,leader,1,no,124,108,complete,0,B,13,consider an image after editorial review
-221,hartal-and-blockade-organisers-1990,Hartal and Blockade Organisers,Movement Coordinators,collective,1,yes,68,62,complete,0,C,13,
-222,hasib-al-islam,Hasib Al Islam,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
-223,henry-louis-vivian-derozio,Henry Louis Vivian Derozio,"Teacher, poet, and early Bengal Renaissance intellectual",intellectual,1,no,194,191,complete,0,B,13,consider an image after editorial review
-224,human-rights-activists-1990,Human Rights Activists,Civic Collective,collective,1,yes,66,56,complete,0,C,13,
-225,ishan-chandra-roy,Ishan Chandra Roy,Pabna peasant organizer,leader,1,no,247,188,complete,0,B,13,consider an image after editorial review
-226,jahangirnagar-university-students-1990,Jahangirnagar University Students,Student Collective,collective,1,yes,66,58,complete,0,C,13,
-227,jamaat-e-islami-bangladesh,Jamaat-e-Islami Bangladesh,Opposition Party in the Anti-Ershad Front,organization,1,yes,72,66,complete,0,C,13,
-228,jatiya-samajtantrik-dal,Jatiya Samajtantrik Dal,Left Opposition Organization,organization,1,yes,68,64,complete,0,C,13,
-229,jhalkari-bai,Jhalkari Bai,Woman warrior associated with Jhansi defense,martyr,1,yes,117,97,complete,0,C,13,
-230,journalists-collective-1990,Journalists' Collective,Professional Collective,collective,1,yes,64,58,complete,0,C,13,
-231,junayed-al-habib,Maulana Junayed Al Habib,Senior vice-president of Jamiat-e-Ulema-e-Islam Bangladesh,leader,1,no,161,149,complete,0,B,13,consider an image after editorial review
-232,kadam-singh,Kadam Singh,Rebel leader in Meerut region,coordinator,1,yes,112,91,complete,0,C,13,
-233,kalpona-akter,Kalpona Akter,Garment labor-rights organizer,coordinator,1,no,120,112,complete,0,B,13,consider an image after editorial review
-234,kamal-hossain,Kamal Hossain,Chair of the Constitution Drafting Committee,leader,1,yes,75,80,complete,0,C,13,
-235,keshab-chandra-sen,Keshab Chandra Sen,Brahmo Samaj reformer and public speaker,intellectual,1,no,144,133,complete,0,B,13,consider an image after editorial review
-236,khan-bahadur-ahsanullah,Khan Bahadur Ahsanullah,"Educationist, writer, and social reformer",leader,1,no,143,127,complete,0,B,13,consider an image after editorial review
-237,khan-bahadur-khan-rohilla,Khan Bahadur Khan Rohilla,Leader of the Bareilly uprising,leader,1,yes,86,69,complete,0,C,13,
-238,khwaja-abdul-hadi-khan,Khwaja Abdul Hadi Khan,Faujdar of Rajmahal,coordinator,1,yes,86,63,complete,0,C,13,
-239,khwaja-petruse,Khwaja Petruse,Armenian Court-Commercial Intermediary,coordinator,1,yes,71,59,complete,0,C,13,
-240,khwaja-usman,Khwaja Usman,Afghan chief and anti-Mughal leader,leader,1,no,134,127,complete,0,B,13,consider an image after editorial review
-241,khwaja-wajid,Khwaja Wajid,Armenian Merchant Magnate,coordinator,1,yes,84,68,complete,0,C,13,
-242,koodi-molla,Koodi Molla,Pabna peasant organizer,leader,1,no,131,114,complete,0,B,13,consider an image after editorial review
-243,krishak-praja-party,Krishak Praja Party,Peasant-Oriented Political Party in Bengal,organization,1,no,156,147,complete,0,B,13,consider an image after editorial review
-244,kunwar-singh,Kunwar Singh,Rebel chief of Jagdishpur in Bihar,leader,1,yes,89,74,complete,0,C,13,
-245,lawyers-collective-1990,Lawyers' Collective,Professional Collective,collective,1,yes,64,58,complete,0,C,13,
-246,lord-curzon,Lord Curzon,Viceroy of India,leader,1,yes,87,73,complete,0,C,13,
-247,lucky-akter,Lucky Akter,Student Activist and Slogan Leader,leader,1,yes,79,62,complete,0,C,13,
-248,luke-scrafton,Luke Scrafton,Company Official and Political Associate,coordinator,1,yes,72,62,complete,0,C,13,
-249,lutfun-nahar-luma,Lutfun Nahar Luma,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
-250,mahbub-ul-alam-chowdhury,Mahbub ul Alam Chowdhury,Poet and Regional Organizer,leader,1,yes,91,79,complete,0,C,13,
-251,mahdi-amin,Mahdi Amin,BNP election steering committee spokesperson and chairman’s adviser,leader,1,no,124,111,complete,0,B,13,consider an image after editorial review
-252,mahin-sarkar,Mahin Sarkar,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-253,mahipala-i,Mahipala I,Pala emperor associated with the dynasty's second foundation,leader,1,no,168,143,complete,0,B,13,consider an image after editorial review
-254,mahmudur-rahman,Mahmudur Rahman,Media figure in opposition narrative,leader,1,yes,88,76,complete,0,C,13,
-255,mainul-islam-bdr,Major General Mainul Islam,Successor BDR Chief,leader,1,yes,68,70,complete,0,C,13,
-256,mangal-pandey,Mangal Pandey,Sepoy who sparked the Barrackpore uprising,martyr,1,yes,103,83,complete,0,C,13,
-257,manzur-al-matin,Manzur Al Matin,Influential Supporters & Intellectuals,leader,1,yes,76,62,complete,0,C,13,
-258,matangini-hazra,Matangini Hazra,Gandhian anti-colonial leader,leader,1,no,162,140,complete,0,B,13,consider an image after editorial review
-259,matiur-rahman,Matiur Rahman,Bir Sreshtho (Air Force Martyr),martyr,1,yes,76,49,complete,0,C,13,
-260,maulvi-ahmadullah-shah,Maulvi Ahmadullah Shah,Religious-political leader of the Awadh uprising,leader,1,yes,86,73,complete,0,C,13,
-261,maulvi-liaquat-ali,Maulvi Liaquat Ali,Leader of the Allahabad uprising,leader,1,yes,86,76,complete,0,C,13,
-262,md-enamul-hasan,Md. Enamul Hasan,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
-263,medical-students-1990,Medical Students,Student Collective,collective,1,yes,64,56,complete,0,C,13,
-264,mehedi-hasan,Mehedi Hasan,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-265,miran,Miran,Military Actor in Mir Jafar Camp,coordinator,1,yes,75,59,complete,0,C,13,
-266,mirza-azam,Mirza Azam,Political actor referenced in inquiry-era proceedings,leader,1,yes,86,69,complete,0,C,13,
-267,mofazzal-hossain-chowdhury-maya,Mofazzal Hossain Chowdhury Maya,Freedom Fighter and Youth Organizer,coordinator,1,yes,72,56,complete,0,C,13,
-268,mohammad-ali-jauhar,Mohammad Ali Jauhar,"Khilafat leader, journalist, and anti-colonial politician",leader,1,no,153,147,complete,0,B,13,consider an image after editorial review
-269,mohammad-jahangir-kabir-talukdar,Mohammad Jahangir Kabir Talukdar,Commission member in later re-investigation phase,leader,1,yes,89,73,complete,0,C,13,
-270,mohammad-shamsul-alam-bir-pratik,Major General Mohammad Shamsul Alam Bir Pratik,Director General of BDR (killed),leader,1,yes,80,86,complete,0,C,13,
-271,mohanlal,Mohanlal,Key Officer Loyal to Siraj ud-Daulah,leader,1,yes,73,62,complete,0,C,13,
-272,molla-fazle-akbar,Molla Fazle Akbar,Former intelligence official referenced in inquiry process,leader,1,yes,89,69,complete,0,C,13,
-273,monirul-islam-police,Monirul Islam,Senior police official referenced in inquiry process,leader,1,yes,89,65,complete,0,C,13,
-274,motiur-rahman-nizami,Motiur Rahman Nizami,Jamaat leadership figure in the crisis,leader,1,yes,94,78,complete,0,C,13,
-275,muhammed-zafar-iqbal,Muhammed Zafar Iqbal,Public Intellectual Supporter,leader,1,yes,78,68,complete,0,C,13,
-276,munir-ahmed,Lance Naik Munir Ahmed,Bir Sreshtho (Army Martyr),martyr,1,yes,71,50,complete,0,C,13,
-277,munshi-abdur-rouf,Munshi Abdur Rouf,Bir Sreshtho (Army Martyr),martyr,1,yes,71,55,complete,0,C,13,
-278,naba-singh-hazari,Naba Singh Hazari,Military Officer in Nawab's Side,coordinator,1,yes,76,66,complete,0,C,13,
-279,nana-sahib,Nana Sahib,Leader of the Kanpur rebellion,leader,1,yes,85,69,complete,0,C,13,
-280,narpat-singh,Narpat Singh,Regional rebel chief in northern India,coordinator,1,yes,87,77,complete,0,C,13,
-281,nasiruddin-yousuff,Nasiruddin Yousuff,Cultural Organizer and Support Voice,leader,1,yes,76,76,complete,0,C,13,
-282,nawab-salimullah,Nawab Salimullah,Dhaka Nawab and Political Patron,leader,1,yes,98,88,complete,0,C,13,
-283,niloy-neel,Niloy Neel,Secular blogger linked to Shahbag legacy,leader,1,yes,90,74,complete,0,C,13,
-284,novera-ahmed,Novera Ahmed,Sculptor and Memorial Collaborator,leader,1,yes,75,71,complete,0,C,13,
-285,nur-mohammad-igp,Nur Mohammad,Former IGP referenced in inquiry process,leader,1,yes,86,61,complete,0,C,13,
-286,nusrat-tabassum,Nusrat Tabassum,Coordinator,coordinator,1,yes,66,55,complete,0,C,13,
-287,ohiullah-1952,Ohiullah,Child Victim of Police Firing,martyr,1,yes,79,69,complete,0,C,13,
-288,paragal-khan,Paragal Khan,"Chittagong commander, administrator, and patron",leader,1,no,114,110,complete,0,B,13,consider an image after editorial review
-289,pinaki-bhattacharya,Pinaki Bhattacharya,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
-290,press-photographers-1990,Press Photographers,Documentation Collective,collective,1,yes,64,56,complete,0,C,13,
-291,pritilata-waddedar,Pritilata Waddedar,Revolutionary of the Chittagong armed movement,martyr,1,yes,86,75,complete,0,C,13,
-292,professional-associations-1990,Professional Associations,Professional Coalition,organization,1,yes,64,58,complete,0,C,13,
-293,rabindranath-tagore,Rabindranath Tagore,Poet and Public Intellectual,leader,1,yes,86,79,complete,0,C,13,
-294,rafiq-uddin-ahmed-1952,Rafiq Uddin Ahmed,Language Martyr,martyr,1,yes,82,70,complete,0,C,13,
-295,rai-durlabh-ram,Rai Durlabh Ram,Nawab's commander at Plassey,coordinator,1,yes,75,68,complete,0,C,13,
-296,raja-nahar-singh,Raja Nahar Singh,Ballabhgarh ruler executed after 1857 rebellion,leader,1,yes,94,82,complete,0,C,13,
-297,rajshahi-university-students-1990,Rajshahi University Students,Student Collective,collective,1,yes,66,58,complete,0,C,13,
-298,rani-avantibai-lodhi,Rani Avantibai Lodhi,Queen-regent and anti-colonial rebel leader,leader,1,yes,88,75,complete,0,C,13,
-299,rani-ishwari-kumari,Rani Ishwari Kumari,Regional queen associated with resistance networks,coordinator,1,yes,91,80,complete,0,C,13,
-300,rani-lakshmibai,Rani Lakshmibai,Queen of Jhansi and iconic rebel commander,leader,1,yes,89,73,complete,0,C,13,
-301,ranmat-singh,Ranmat Singh,Regional rebel chief in central India,coordinator,1,yes,90,76,complete,0,C,13,
-302,rao-saheb-peshwa,Rao Sahib Peshwa,Maratha rebel leader allied with Tatya Tope,coordinator,1,yes,93,81,complete,0,C,13,
-303,rao-tula-ram,Rao Tula Ram,Key rebel leader from Rewari,leader,1,yes,81,76,complete,0,C,13,
-304,rashidul-islam-rifat,Rashidul Islam Rifat,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
-305,rifat-rashid,Rifat Rashid,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-306,rukunuddin-barbak-shah,Rukunuddin Barbak Shah,Later Iliyas Shahi Sultan of Bengal,leader,1,no,117,111,complete,0,B,13,consider an image after editorial review
-307,rumeen-farhana,Rumeen Farhana,"Independent MP, lawyer, and former BNP leader",leader,1,no,152,142,complete,0,B,13,consider an image after editorial review
-308,sahara-khatun,Sahara Khatun,Home Minister,leader,1,yes,67,66,complete,0,C,13,
-309,saifuddin-firuz-shah,Saifuddin Firuz Shah,Habshi Sultan of Bengal and former military commander,leader,1,no,122,110,complete,0,B,13,consider an image after editorial review
-310,saima-ahmed,Saima Ahmed,Grassroots & Digital Influencer,leader,1,yes,74,60,complete,0,C,13,
-311,salahuddin-ahmed,Salahuddin Ahmed,"BNP standing committee member, MP, and Home Affairs Minister",leader,1,no,138,120,complete,0,B,13,consider an image after editorial review
-312,sarbadaliya-chhatra-oikya-parishad,Sarbadaliya Chhatra Oikya Parishad,Student Unity Platform,organization,1,yes,70,64,complete,0,C,13,
-313,sarjis-alam,Sarjis Alam,Coordinator and spokesperson,coordinator,1,yes,81,64,complete,0,C,13,
-314,seven-party-alliance,7-Party Alliance,Opposition Alliance,organization,1,yes,64,58,complete,0,C,13,
-315,shadik-kayem,Shadik Kayem,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-316,shafi-imam-rumi,Shafi Imam Rumi,Urban Guerrilla Fighter,martyr,1,yes,73,55,complete,0,C,13,
-317,shafiur-rahman-1952,Shafiur Rahman,Language Martyr,martyr,1,yes,85,73,complete,0,C,13,
-318,shah-jalal,Shah Jalal,Sufi figure associated with the Sylhet conquest era,leader,1,no,141,126,complete,0,B,13,consider an image after editorial review
-319,shah-mal,Shah Mal,Peasant leader in the 1857 uprising,coordinator,1,yes,88,68,complete,0,C,13,
-320,shah-moazzem-hossain,Shah Moazzem Hossain,Senior Opposition Politician,leader,1,yes,64,58,complete,0,C,13,
-321,shah-muhammad-sagir,Shah Muhammad Sagir,Court poet and pioneer of Bengali Muslim literature,leader,1,no,122,113,complete,0,B,13,consider an image after editorial review
-322,shaheed-azad,Azad (Shaheed Azad),Urban Guerrilla Martyr,martyr,1,yes,70,54,complete,0,C,13,
-323,shahid-saber,Shahid Saber,Writer and Progressive Activist,leader,1,yes,83,73,complete,0,C,13,
-324,shahidul-alam,Shahidul Alam,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
-325,shakil-ahmed-bdr,Major General Shakil Ahmed,Director General of BDR (killed),leader,1,yes,72,68,complete,0,C,13,
-326,shaukat-ali,Shaukat Ali,Khilafat leader and anti-colonial organizer,leader,1,no,142,134,complete,0,B,13,consider an image after editorial review
-327,sheikh-fazle-noor-taposh,Sheikh Fazle Noor Taposh,Political figure referenced in Pilkhana testimonies,leader,1,yes,91,73,complete,0,C,13,
-328,sheikh-fazlul-karim-selim,Sheikh Fazlul Karim Selim,Political figure referenced in investigation-era testimony lists,leader,1,yes,89,66,complete,0,C,13,
-329,sikandar-khan-ghazi,Sikandar Khan Ghazi,Military commander in the 1303 Sylhet campaign,leader,1,no,150,132,complete,0,B,13,consider an image after editorial review
-330,sinthia-jaheen-ayesha,Sinthia Jaheen Ayesha,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
-331,srichandra,Srichandra,Chandra ruler of southeastern Bengal,leader,1,no,137,120,complete,0,B,13,consider an image after editorial review
-332,street-procession-organisers-1990,Street Procession Organisers,Movement Coordinators,collective,1,yes,66,60,complete,0,C,13,
-333,student-unity-twenty-two-organisations,United Front of Twenty-Two Student Organizations,Student Coalition,organization,1,yes,72,58,complete,0,C,13,
-334,sulaiman-khan-karrani,Sulaiman Khan Karrani,Afghan Karrani Sultan of Bengal,leader,1,no,139,125,complete,0,B,13,consider an image after editorial review
-335,sumi-abedin,Sumi Abedin,Tazreen survivor and labor-safety witness,coordinator,1,no,147,145,complete,0,B,13,consider an image after editorial review
-336,surendra-sai,Surendra Sai,Anti-British leader in western Odisha linked to 1857 phase,leader,1,yes,93,79,complete,0,C,13,
-337,surya-sen,Surya Sen,Revolutionary organizer of the Chittagong uprising,leader,1,yes,71,60,complete,0,C,13,
-338,swadhin-bangla-betar-artists,Artists of Swadhin Bangla Betar Kendra,Cultural Front,collective,1,yes,87,75,complete,0,C,13,
-339,syed-sultan,Syed Sultan,Medieval Bengali Muslim poet and religious writer,leader,1,no,162,154,complete,0,B,13,consider an image after editorial review
-340,tahmid-al-mudabbir,Tahmid Al Mudabbir,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
-341,tamaddun-majlish,Tamaddun Majlish,Intellectual Organization,organization,1,yes,80,62,complete,0,C,13,
-342,tantia-tope,Tantia Tope,Major military strategist of the rebellion,leader,1,yes,88,78,complete,0,C,13,
-343,tarique-ahmed-siddique,Tarique Ahmed Siddique,Security adviser-level figure referenced in later probes,leader,1,yes,87,69,complete,0,C,13,
-344,tarique-rahman,Tarique Rahman,Chairman of the Bangladesh Nationalist Party,leader,1,no,167,135,complete,0,B,13,consider an image after editorial review
-345,tariqul-islam,Tariqul Islam,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-346,tasneem-khalil,Grassroots & Digital Influencers,Grassroots & Digital Influencer,leader,1,yes,78,60,complete,0,C,13,
-347,teachers-collective-1990,Teachers' Collective,Professional Collective,collective,1,yes,64,56,complete,0,C,13,
-348,teeka-singh-sepoy,Teeka Singh,Sepoy leader associated with early mutiny actions,coordinator,1,yes,86,74,complete,0,C,13,
-349,titu-mir,Titu Mir,Peasant resistance leader against colonial authority,leader,1,yes,76,64,complete,0,C,13,
-350,todar-mal,Todar Mal,Mughal finance minister and revenue administrator,leader,1,no,145,127,complete,0,B,13,consider an image after editorial review
-351,uda-devi-pasi,Uda Devi Pasi,Dalit woman fighter in the Lucknow theatre,martyr,1,yes,90,73,complete,0,C,13,
-352,umama-fatema,Umama Fatema,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-353,umichand,Umichand,Merchant-Broker,coordinator,1,yes,70,65,complete,0,C,13,
-354,urban-protesters-1990,Urban Protesters,Citizen Collective,collective,1,yes,64,58,complete,0,C,13,
-355,veer-narayan-singh,Veer Narayan Singh,Early anti-colonial rebel in central India,martyr,1,yes,96,92,complete,0,C,13,
-356,vijaya-sena,Vijaya Sena,Founder of the Sena dynasty in Bengal,leader,1,no,168,153,complete,0,B,13,consider an image after editorial review
-357,walidad-khan,Walidad Khan,Rebel leader in Bulandshahr region,leader,1,yes,84,77,complete,0,C,13,
-358,warren-hastings,Warren Hastings,East India Company governor and first Governor-General of Bengal,leader,1,no,210,178,complete,0,B,13,consider an image after editorial review
-359,washiqur-rahman,Washiqur Rahman,Secular blogger linked to Shahbag legacy,leader,1,yes,87,72,complete,0,C,13,
-360,william-watts,William Watts,Company Political Agent at Murshidabad,coordinator,1,yes,71,59,complete,0,C,13,
-361,women-activists-1990,Women Activists,Civic Collective,collective,1,yes,64,58,complete,0,C,13,
-362,workers-collective-1990,Workers' Collective,Civic Collective,collective,1,yes,64,58,complete,0,C,13,
-363,workers-party-of-bangladesh,Workers Party of Bangladesh,Left Political Organization,organization,1,yes,70,62,complete,0,C,13,
-364,writers-and-intellectuals-collective-1990,Writers and Intellectuals,Intellectual Collective,collective,1,yes,66,60,complete,0,C,13,
-365,yar-latif-khan,Yar Latif Khan,Nawab's Military Commander,coordinator,1,yes,71,58,complete,0,C,13,
-366,zaber-ahmed,Zaber Ahmed,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
-367,zafar-sobhan,Zafar Sobhan,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
-368,zulkarnain-saer,Zulkarnain Saer,Grassroots & Digital Influencer,leader,1,yes,74,60,complete,0,C,13,
-369,abdul-hannan-masud,Abdul Hannan Masud,Coordinator (Students Against Discrimination),coordinator,2,yes,73,67,complete,0,C,12,
-370,abdul-quader-mollah,Abdul Quader Mollah,Verdict trigger figure,leader,2,yes,84,76,complete,0,C,12,
-371,abdur-rab-serniabat,Abdur Rab Serniabat,Politician,leader,2,yes,80,72,complete,0,C,12,
-372,abdus-sattar,Abdus Sattar,President of Bangladesh,leader,2,yes,74,71,complete,0,C,12,
-373,abu-sayed-2024,Abu Sayed,Symbolic martyr,martyr,2,yes,74,64,complete,0,C,12,
-374,abu-sayeed-chowdhury,Abu Sayeed Chowdhury,Diplomatic Face of the Liberation Cause,leader,2,yes,72,53,complete,0,C,12,
-375,abul-kalam-azad,Abul Kalam Azad,Muslim scholar-politician of anti-colonial India,leader,2,yes,82,68,complete,0,C,12,
-376,abul-khair-language,Abul Khair,Language movement activist,leader,2,yes,86,74,complete,0,C,12,
-377,abul-mansur-ahmad,Abul Mansur Ahmad,Writer and Political Thinker,leader,2,yes,62,58,complete,0,C,12,
-378,akhter-hossen,Akhter Hossen,Coordinator (Students Against Discrimination),coordinator,2,yes,71,65,complete,0,C,12,
-379,alauddin-husain-shah,Alauddin Husain Shah,Founder of the Hussain Shahi dynasty and Sultan of Bengal,leader,2,no,213,193,complete,0,B,12,consider an image after editorial review
-380,alm-fazlur-rahman,A. L. M. Fazlur Rahman,Chief of later independent investigation commission,leader,2,yes,87,74,complete,0,C,12,
-381,anwar-hossain-manju,Anwar Hossain Manju,Politician,leader,2,yes,87,76,complete,0,C,12,
-382,anwar-pasha,Anwar Pasha,Martyred Writer and Academic,martyr,2,yes,67,53,complete,0,C,12,
-383,asif-mahmud,Asif Mahmud,Coordinator; later interim-government adviser,coordinator,2,yes,89,74,complete,0,C,12,
-384,asif-nazrul,Asif Nazrul,Legal scholar and interim-government adviser,leader,2,yes,78,67,complete,0,C,12,
-385,atm-azharul-islam,ATM Azharul Islam,Jamaat leader in contested 1971 war-crimes proceedings,leader,2,no,121,110,complete,0,B,12,consider an image after editorial review
-386,atm-haider,A. T. M. Haider,"Sector Commander (Sector 2, later phase)",leader,2,yes,76,63,complete,0,C,12,
-387,ballala-sena,Ballala Sena,"Sena ruler, Shaiva patron, and Sanskrit author",leader,2,no,153,150,complete,0,B,12,consider an image after editorial review
-388,begum-rokeya,Begum Rokeya,Pioneer of women’s education and reform in Bengal,leader,2,yes,81,70,complete,0,C,12,
-389,devapala,Devapala,"Pala emperor, military ruler, and Buddhist patron",leader,2,no,193,166,complete,0,B,12,consider an image after editorial review
-390,dharmapala,Dharmapala,"Pala emperor, imperial strategist, and Buddhist patron",leader,2,no,212,187,complete,0,B,12,consider an image after editorial review
-391,dinabandhu-mitra,Dinabandhu Mitra,Bengali playwright and critic of indigo-planter oppression,leader,2,no,151,134,complete,0,B,12,consider an image after editorial review
-392,dinesh-chandra-sen,Dinesh Chandra Sen,Scholar of Bengali literature,leader,2,yes,86,75,complete,0,C,12,
-393,fakhruddin-ahmed,Fakhruddin Ahmed,Chief adviser of caretaker government,leader,2,yes,85,77,complete,0,C,12,
-394,fakhruddin-mubarak-shah,Fakhruddin Mubarak Shah,Founder of the independent Sonargaon Sultanate,leader,2,no,149,133,complete,0,B,12,consider an image after editorial review
-395,farrukhsiyar,Farrukhsiyar,Mughal emperor who formalized Bengal's nawabi phase,leader,2,no,166,170,complete,0,B,12,consider an image after editorial review
-396,gaziul-huq,ANM Gaziul Huq,Language Movement Leader,leader,2,yes,69,60,complete,0,C,12,
-397,gopala-i,Gopala I,Founder of the Pala dynasty and consolidator of Bengal,leader,2,no,221,190,complete,0,B,12,consider an image after editorial review
-398,harish-chandra-mukherjee,Harish Chandra Mukherjee,Founding editor of the Hindoo Patriot and public commentator,leader,2,no,140,122,complete,0,B,12,consider an image after editorial review
-399,iajuddin-ahmed,Iajuddin Ahmed,President and chief adviser,leader,2,yes,81,78,complete,0,C,12,
-400,ikhtiyar-al-din-muhammad-bakhtiyar-khalji,Ikhtiyar al-Din Muhammad Bakhtiyar Khalji,Turkic military commander,leader,2,yes,82,71,complete,0,C,12,
-401,jadunath-sarkar,Jadunath Sarkar,Historian of Mughal India,leader,2,yes,92,76,complete,0,C,12,
-402,jalaluddin-muhammad-shah,Jalaluddin Muhammad Shah,Bengal Sultan who consolidated power after the Raja Ganesh crisis,leader,2,no,221,196,complete,0,B,12,consider an image after editorial review
-403,jamiat-e-ulema-e-islam-bangladesh,Jamiat-e-Ulema-e-Islam Bangladesh,Religious-Political Party in Bangladesh,organization,2,no,165,148,complete,0,B,12,consider an image after editorial review
-404,jatin-das,Jatin Das,Anti-colonial activist,leader,2,yes,82,70,complete,0,C,12,
-405,job-charnock,Job Charnock,East India Company agent and Bengal settlement administrator,leader,2,no,155,138,complete,0,B,12,consider an image after editorial review
-406,junaid-babunagari,Junaid Babunagari,Counter-mobilization organizer,leader,2,yes,82,71,complete,0,C,12,
-407,kader-siddique,Abdul Kader Siddique,Guerrilla Commander ('Tiger Siddique'),leader,2,yes,71,58,complete,0,C,12,
-408,kalpana-datta,Kalpana Datta,Anti-colonial revolutionary,leader,2,yes,77,72,complete,0,C,12,
-409,kamal-lohani,Kamal Lohani,Cultural Activist,leader,2,yes,70,62,complete,0,C,12,
-410,kazi-golam-mahbub,Kazi Golam Mahbub,Student Leader and Convener,coordinator,2,yes,75,56,complete,0,C,12,
-411,km-shafiullah,K. M. Shafiullah,Sector 3 Commander and S Force Leader,leader,2,yes,69,60,complete,0,C,12,
-412,lord-louis-mountbatten,Lord Louis Mountbatten,Last Viceroy of India,coordinator,2,yes,64,61,complete,0,C,12,
-413,man-singh-i,Man Singh I,Mughal commander in Bengal campaigns,leader,2,no,165,150,complete,0,B,12,consider an image after editorial review
-414,mir-mahfuzur-rahman-mugdho,Mir Mahfuzur Rahman Mugdho,Symbolic martyr,martyr,2,yes,72,65,complete,0,C,12,
-415,mir-qasim,Mir Qasim,Nawab of Bengal and challenger to East India Company power,leader,2,no,159,151,complete,0,B,12,consider an image after editorial review
-416,mirza-fakhrul-islam-alamgir,Mirza Fakhrul Islam Alamgir,Secretary General of the Bangladesh Nationalist Party,leader,2,yes,80,69,complete,0,C,12,
-417,moeen-u-ahmed,General Moeen U Ahmed,Chief of Army Staff,leader,2,yes,64,69,complete,0,C,12,
-418,moin-u-ahmed,Moin U Ahmed,Army chief,leader,2,yes,77,72,complete,0,C,12,
-419,mujibul-haque-chunnu,Mujibul Haque Chunnu,Jatiya Party politician and former parliamentarian,leader,2,no,183,172,complete,0,B,12,consider an image after editorial review
-420,munier-chowdhury,Munier Chowdhury,"Teacher, Playwright, and Language Movement Intellectual",leader,2,yes,73,70,complete,0,C,12,
-421,munim-khan,Munim Khan,Mughal general and first Mughal governor of Bengal,leader,2,no,153,137,complete,0,B,12,consider an image after editorial review
-422,nawab-abdul-ghani,Nawab Abdul Ghani,Dhaka Nawab and civic patron,leader,2,no,179,173,complete,0,B,12,consider an image after editorial review
-423,nawab-ali-chowdhury,Nawab Ali Chowdhury,Muslim education patron and politician,leader,2,no,190,180,complete,0,B,12,consider an image after editorial review
-424,nizamul-huq-judge,Nizamul Huq,Former High Court judge and International Crimes Tribunal chair,leader,2,no,178,160,complete,0,B,12,consider an image after editorial review
-425,noor-mohammad-sheikh,Noor Mohammad Sheikh,Bir Sreshtho (EPR Martyr),martyr,2,yes,69,51,complete,0,C,12,
-426,prafulla-chandra-ray,Prafulla Chandra Ray,Chemist and education reform advocate,leader,2,yes,84,72,complete,0,C,12,
-427,pulin-behari-das,Pulin Behari Das,Revolutionary organizer in eastern Bengal,revolutionary,2,no,175,146,complete,0,B,12,consider an image after editorial review
-428,rafiq-uddin-ahmed,Rafiq Uddin Ahmed,Language movement martyr,leader,2,no,166,139,complete,0,B,12,consider an image after editorial review
-429,raja-ganesh,Raja Ganesh,Bhaturia landlord and ruler during Bengal's fifteenth-century succession crisis,leader,2,no,242,212,complete,0,B,12,consider an image after editorial review
-430,raja-sitaram-ray,Raja Sitaram Ray,Zamindar of Bhusna and fortified regional ruler,leader,2,no,203,179,complete,0,B,12,consider an image after editorial review
-431,salahuddin-quader-chowdhury,Salahuddin Quader Chowdhury,"BNP politician, parliamentarian, and convicted war-crimes defendant",leader,2,no,214,194,complete,0,B,12,consider an image after editorial review
-432,shafiur-rahman,Shafiur Rahman,Language movement martyr,leader,2,no,171,146,complete,0,B,12,consider an image after editorial review
-433,shah-ahmad-shafi,Shah Ahmad Shafi,Counter-mobilization religious leader,leader,2,yes,86,78,complete,0,C,12,
-434,shah-alam-ii,Shah Alam II,Mughal emperor and grantor of the Bengal Diwani,leader,2,no,207,172,complete,0,B,12,consider an image after editorial review
-435,shah-ams-kibria,Shah A. M. S. Kibria,Diplomat and finance minister,leader,2,no,205,193,complete,0,B,12,consider an image after editorial review
-436,shamsuzzoha,Shamsuzzoha,Symbol of Pre-1971 Resistance Legacy,martyr,2,yes,75,58,complete,0,C,12,
-437,sher-shah-suri,Sher Shah Suri,Afghan ruler who defeated Humayun at Chausa,leader,2,no,205,183,complete,0,B,12,consider an image after editorial review
-438,sikandar-shah,Sikandar Shah,Iliyas Shahi Sultan of Bengal,leader,2,no,155,141,complete,0,B,12,consider an image after editorial review
-439,siraj-sikder,Siraj Sikder,Revolutionary political leader and founder of the Sarbahara movement,leader,2,no,166,155,complete,0,B,12,consider an image after editorial review
-440,suniti-kumar-chatterji,Suniti Kumar Chatterji,Linguist,leader,2,yes,93,82,complete,0,C,12,
-441,syama-prasad-mukherjee,Syama Prasad Mukherjee,Hindu Mahasabha Leader,leader,2,yes,66,57,complete,0,C,12,
-442,syeda-rizwana-hasan,Syeda Rizwana Hasan,Rights lawyer and interim-government adviser,leader,2,yes,71,67,complete,0,C,12,
-443,abu-osman-chowdhury,Abu Osman Chowdhury,Sector 8 Commander (Early Phase),leader,3,yes,76,56,complete,0,C,11,
-444,akbar,Akbar,Mughal emperor directing imperial expansion into Bengal,leader,3,yes,76,69,complete,0,C,11,
-445,asm-abdur-rab,A S M Abdur Rab,Student leader and 1971 flag-raising figure,leader,3,yes,92,78,complete,0,C,11,
-446,bankim-chandra-chattopadhyay,Bankim Chandra Chattopadhyay,Novelist and formative voice of modern Bengali prose,leader,3,yes,77,67,complete,0,C,11,
-447,chand-rai,Chand Rai,Vikrampur zamindar and Bhati military chief,leader,3,no,202,188,complete,0,B,11,consider an image after editorial review
-448,golam-azam,Ghulam Azam,Islamist political leader,leader,3,yes,84,76,complete,0,C,11,
-449,haji-shariatullah,Haji Shariatullah,Founder of the Faraizi reform movement,leader,3,yes,80,69,complete,0,C,11,
-450,hussain-muhammad-ershad,Hussain Muhammad Ershad,Army Chief and Military Ruler,leader,3,yes,72,69,complete,0,C,11,
-451,imran-h-sarkar,Imran H. Sarkar,Spokesperson of Gonojagoron Moncho,leader,3,yes,93,77,complete,0,C,11,
-452,isa-khan,Isa Khan,Leader of the Bhati resistance and central Baro-Bhuyans figure,leader,3,yes,78,68,complete,0,C,11,
-453,kedar-rai,Kedar Rai,"Vikrampur zamindar, naval commander, and Bara-Bhuiyan chief",leader,3,no,210,190,complete,0,B,11,consider an image after editorial review
-454,krishnachandra-ray-of-nadia,Krishnachandra Ray of Nadia,"Nadia zamindar, cultural patron, and Company-era political broker",leader,3,no,222,196,complete,0,B,11,consider an image after editorial review
-455,lakshmana-sena,Lakshmana Sena,"Sena ruler, Vaishnava patron, and court-culture builder",leader,3,no,202,183,complete,0,B,11,consider an image after editorial review
-456,liaquat-ali-khan,Liaquat Ali Khan,Muslim League Statesman,leader,3,yes,67,55,complete,0,C,11,
-457,mukunda-ray-of-bhusna,Mukunda Ray of Bhusna,Bhusna chief and Bara-Bhuiyan zamindar,leader,3,no,208,164,complete,0,B,11,consider an image after editorial review
-458,murshid-quli-khan,Murshid Quli Khan,Nawab of Bengal,leader,3,yes,81,76,complete,0,C,11,
-459,musa-khan,Musa Khan,"Zamindar, ruler of Bhati, and Baro-Bhuyans leader",leader,3,no,155,145,complete,0,B,11,consider an image after editorial review
-460,nawab-abdul-latif,Nawab Abdul Latif,Muslim education reform advocate in Bengal,leader,3,yes,73,69,complete,0,C,11,
-461,oli-ahad,Oli Ahad,Student and Political Activist,leader,3,yes,70,54,complete,0,C,11,
-462,pratapaditya,Pratapaditya,"Jessore zamindar, regional ruler, and naval commander",leader,3,no,228,208,complete,0,B,11,consider an image after editorial review
-463,rao-farman-ali,Rao Farman Ali,Pakistan Army major general linked to Operation Searchlight planning and intellectual-killings allegations,leader,3,yes,116,100,complete,0,C,11,
-464,ruhul-amin,Mohammad Ruhul Amin,Bir Sreshtho (Naval Martyr),martyr,3,yes,77,51,complete,0,C,11,
-465,shamsuddin-ilyas-shah,Shamsuddin Ilyas Shah,Sultan of Bengal,leader,3,yes,84,72,complete,0,C,11,
-466,subhas-chandra-bose,Subhas Chandra Bose,Nationalist leader with major Bengal political roots,leader,3,yes,92,75,complete,0,C,11,
-467,tamizuddin-khan,Tamizuddin Khan,Constitutional Leader from East Bengal,leader,3,yes,70,58,complete,0,C,11,
-468,ahm-qamaruzzaman,A. H. M. Qamaruzzaman,Home affairs leader in the Provisional Government,leader,4,yes,95,77,complete,0,C,10,
-469,alivardi-khan,Alivardi Khan,Former Nawab of Bengal,leader,4,yes,69,68,complete,0,C,10,
-470,ayub-khan,Ayub Khan,Military ruler and President of Pakistan,leader,4,yes,88,86,complete,0,C,10,
-471,bangladesh-nationalist-party,Bangladesh Nationalist Party,Political Organization,organization,4,yes,66,60,complete,0,C,10,
-472,khaled-mosharraf,Khaled Mosharraf,Sector 2 Commander and K Force Leader,leader,4,yes,76,69,complete,0,C,10,
-473,mansur-ali,Muhammad Mansur Ali,Mujibnagar minister and later prime minister,leader,4,yes,108,87,complete,0,C,10,
-474,muhammad-yunus,Dr. Muhammad Yunus,Interim government chief adviser,leader,4,yes,76,64,complete,0,C,10,
-475,nahid-islam,Nahid Islam,Coordinator; later interim-government adviser,coordinator,4,yes,98,78,complete,0,C,10,
-476,nusrat-shah,Nusrat Shah,"Hussain Shahi sultan, diplomat, and frontier ruler",leader,4,no,223,207,complete,0,B,10,consider an image after editorial review
+1,k-m-obaidur-rahman,K. M. Obaidur Rahman,Politician,leader,2,no,62,49,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+2,kazi-arif-ahmed,Kazi Arif Ahmed,Left political leader,leader,2,no,63,50,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+3,mofazzal-haider-chaudhury,Mofazzal Haider Chaudhury,Academic and intellectual,leader,2,no,63,50,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+4,muhammad-kamaruzzaman,Muhammad Kamaruzzaman,Jamaat leader,leader,2,no,58,45,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+5,rokeya-kabir,Rokeya Kabir,Women rights organizer,leader,2,no,60,47,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+6,selina-parvin,Selina Parvin,Journalist and editor,leader,2,no,60,47,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+7,shah-azizur-rahman,Shah Azizur Rahman,Politician and prime minister,leader,2,no,65,50,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+8,shahidullah-kaiser,Shahidullah Kaiser,Writer and journalist,leader,2,no,60,47,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+9,shamsur-rahman,Shamsur Rahman,Poet and public intellectual,leader,2,no,62,47,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+10,sheikh-fazlul-haque-moni,Sheikh Fazlul Haque Moni,Political organizer,leader,2,no,64,51,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+11,syed-shamsul-haq,Syed Shamsul Haq,Poet and playwright,leader,2,no,63,50,complete,0,D,40,"expand contribution, context, and impact; consider an image after editorial review"
+12,abdul-jabbar,Abdul Jabbar,Patriotic Singer,leader,1,yes,62,48,complete,0,D,33,"expand contribution, context, and impact"
+13,abdul-mannan,Abdul Mannan,Freedom Fighter,coordinator,1,yes,57,41,complete,0,D,33,"expand contribution, context, and impact"
+14,abdus-samad-azad,Abdus Samad Azad,Senior Awami League Leader,leader,1,yes,61,53,complete,0,D,33,"expand contribution, context, and impact"
+15,abu-saleh-mohammad-akram,Abu Saleh Mohammad Akram,Boundary Commission Member,coordinator,1,yes,58,53,complete,0,D,33,"expand contribution, context, and impact"
+16,amir-hossain-amu,Amir Hossain Amu,Alliance Politician,leader,1,yes,61,48,complete,0,D,33,"expand contribution, context, and impact"
+17,badiul-alam,Badiul Alam,Urban Resistance Fighter,coordinator,1,yes,67,52,complete,0,D,33,"expand contribution, context, and impact"
+18,bidhan-chandra-roy,Bidhan Chandra Roy,Congress Leader and Physician-Statesman,leader,1,yes,63,55,complete,0,D,33,"expand contribution, context, and impact"
+19,bijan-kumar-mukherjea,Bijan Kumar Mukherjea,Boundary Commission Member,coordinator,1,yes,54,47,complete,0,D,33,"expand contribution, context, and impact"
+20,faisal-ahmed-shanto,Faisal Ahmed Shanto,Symbolic martyrs,martyr,1,yes,62,52,complete,0,D,33,"expand contribution, context, and impact"
+21,farhan-faiyaaz,Farhan Faiyaaz,Symbolic martyrs,martyr,1,yes,59,50,complete,0,D,33,"expand contribution, context, and impact"
+22,fazle-rabbi,Dr Fazle Rabbi,Martyred Physician-Intellectual,martyr,1,yes,64,54,complete,0,D,33,"expand contribution, context, and impact"
+23,hamidur-rahman,Hamidur Rahman,Bir Sreshtho (Army Martyr),martyr,1,yes,69,48,complete,0,D,33,"expand contribution, context, and impact"
+24,jahanara-imam,Jahanara Imam,Public Moral Voice,leader,1,yes,62,50,complete,0,D,33,"expand contribution, context, and impact"
+25,jahangir-alam,Jahangir Alam,Freedom Fighter,coordinator,1,yes,63,40,complete,0,D,33,"expand contribution, context, and impact"
+26,jogendranath-mandal,Jogendranath Mandal,Dalit Political Leader,leader,1,yes,61,56,complete,0,D,33,"expand contribution, context, and impact"
+27,kamruzzaman-tuku,Kamruzzaman Tuku,Freedom Fighter,coordinator,1,yes,61,47,complete,0,D,33,"expand contribution, context, and impact"
+28,kazi-nuruzzaman,Kazi Nuruzzaman,Sector Commander,leader,1,yes,55,45,complete,0,D,33,"expand contribution, context, and impact"
+29,kiran-shankar-roy,Kiran Shankar Roy,Congress Leader in Bengal,leader,1,yes,64,52,complete,0,D,33,"expand contribution, context, and impact"
+30,mir-madan,Mir Madan,Nawab's artillery commander at Plassey,martyr,1,yes,43,39,complete,0,D,33,"expand contribution, context, and impact"
+31,mujahidul-islam-selim,Mujahidul Islam Selim,Left Political Organizer,leader,1,yes,61,51,complete,0,D,33,"expand contribution, context, and impact"
+32,nazmul-huq,Nazmul Huq,Pioneering Sector Commander,leader,1,yes,61,47,complete,0,D,33,"expand contribution, context, and impact"
+33,nur-hossain,Nur Hossain,Martyr-Symbol of the Movement,leader,1,yes,66,50,complete,0,D,33,"expand contribution, context, and impact"
+34,prafulla-chandra-ghosh,Prafulla Chandra Ghosh,First Chief Minister of West Bengal,leader,1,yes,57,46,complete,0,D,33,"expand contribution, context, and impact"
+35,riya-gope,Riya Gope,Symbolic martyrs,martyr,1,yes,61,50,complete,0,D,33,"expand contribution, context, and impact"
+36,satya-ranjan-bakshi,Satya Ranjan Bakshi,United Bengal Supporter,leader,1,yes,64,54,complete,0,D,33,"expand contribution, context, and impact"
+37,shaheed-rudro,Shaheed Rudro,Symbolic martyrs,martyr,1,yes,61,50,complete,0,D,33,"expand contribution, context, and impact"
+38,shahnaz-rahmatullah,Shahnaz Rahmatullah,Patriotic Cultural Voice,leader,1,yes,62,52,complete,0,D,33,"expand contribution, context, and impact"
+39,shamsul-alam,Shamsul Alam,Resistance Organizer,coordinator,1,yes,62,44,complete,0,D,33,"expand contribution, context, and impact"
+40,suranjit-sengupta,Suranjit Sengupta,Parliamentary and Street Opposition Voice,leader,1,yes,59,52,complete,0,D,33,"expand contribution, context, and impact"
+41,tahmid-abdullah,Tahmid Abdullah,Symbolic martyrs,martyr,1,yes,60,50,complete,0,D,33,"expand contribution, context, and impact"
+42,vallabhbhai-patel,Vallabhbhai Patel,Congress Strategist,leader,1,yes,62,54,complete,0,D,33,"expand contribution, context, and impact"
+43,wasim-akram-2024,Wasim Akram,Symbolic martyrs,martyr,1,yes,59,50,complete,0,D,33,"expand contribution, context, and impact"
+44,yamin-mist,Yamin,Symbolic martyrs,martyr,1,yes,59,48,complete,0,D,33,"expand contribution, context, and impact"
+45,zahid-hossain,Zahid Hossain,Symbolic martyrs,martyr,1,yes,58,50,complete,0,D,33,"expand contribution, context, and impact"
+46,abdul-jalil,Abdul Jalil,Politician,leader,2,yes,56,43,complete,0,D,32,"expand contribution, context, and impact"
+47,abdul-malek-ukil,Abdul Malek Ukil,Student Activist,leader,2,yes,64,46,complete,0,D,32,"expand contribution, context, and impact"
+48,abdur-razzaq-politician,Abdur Razzaq,Politician,leader,2,yes,56,43,complete,0,D,32,"expand contribution, context, and impact"
+49,alim-chowdhury,Dr Alim Chowdhury,Martyred Physician-Intellectual,martyr,2,yes,67,49,complete,0,D,32,"expand contribution, context, and impact"
+50,binod-bihari-chowdhury,Binod Bihari Chowdhury,Chittagong uprising veteran,leader,2,yes,62,50,complete,0,D,32,"expand contribution, context, and impact"
+51,cr-dutta,C. R. Dutta,Sector 4 Commander,leader,2,yes,61,50,complete,0,D,32,"expand contribution, context, and impact"
+52,cyril-radcliffe,Cyril Radcliffe,Boundary Commission Chair,coordinator,2,yes,57,49,complete,0,D,32,"expand contribution, context, and impact"
+53,dhirendranath-datta,Dhirendranath Datta,Language Rights Advocate,leader,2,yes,57,53,complete,0,D,32,"expand contribution, context, and impact"
+54,ghyasuddin-ahmed,Ghyasuddin Ahmed,Political organizer,leader,2,yes,58,45,complete,0,D,32,"expand contribution, context, and impact"
+55,humayun-azad,Humayun Azad,Writer and academic,leader,2,yes,60,47,complete,0,D,32,"expand contribution, context, and impact"
+56,humayun-kabir,Humayun Kabir,Intellectual and Politician,leader,2,yes,63,50,complete,0,D,32,"expand contribution, context, and impact"
+57,ila-mitra,Ila Mitra,Peasant Activist,leader,2,yes,60,54,complete,0,D,32,"expand contribution, context, and impact"
+58,jasimuddin,Jasimuddin,Poet of Rural Bengal,leader,2,yes,57,47,complete,0,D,32,"expand contribution, context, and impact"
+59,jawaharlal-nehru,Jawaharlal Nehru,Congress Leader,leader,2,yes,59,49,complete,0,D,32,"expand contribution, context, and impact"
+60,kazi-motahar-hossain,Kazi Motahar Hossain,Scholar and Cultural Intellectual,leader,2,yes,57,50,complete,0,D,32,"expand contribution, context, and impact"
+61,khwaja-shahabuddin,Khwaja Shahabuddin,Muslim League Politician,leader,2,yes,61,56,complete,0,D,32,"expand contribution, context, and impact"
+62,major-jalil,Major M. A. Jalil,Sector 9 Commander,leader,2,yes,66,52,complete,0,D,32,"expand contribution, context, and impact"
+63,major-zafar-imam,Major Zafar Imam,Military Operations Leader,leader,2,yes,63,50,complete,0,D,32,"expand contribution, context, and impact"
+64,matia-chowdhury,Matia Chowdhury,Politician,leader,2,yes,56,43,complete,0,D,32,"expand contribution, context, and impact"
+65,maulana-akram-khan,Maulana Akram Khan,Journalist and Muslim Public Leader,leader,2,yes,60,55,complete,0,D,32,"expand contribution, context, and impact"
+66,meghnad-saha,Meghnad Saha,Physicist and public intellectual,leader,2,yes,54,48,complete,0,D,32,"expand contribution, context, and impact"
+67,mir-shawkat-ali,Mir Shawkat Ali,Sector 5 Commander,leader,2,yes,68,46,complete,0,D,32,"expand contribution, context, and impact"
+68,mohammad-toaha,Mohammad Toaha,Left Student Activist,leader,2,yes,64,51,complete,0,D,32,"expand contribution, context, and impact"
+69,mostafa-kamal,Mostafa Kamal,Bir Sreshtho (Army Martyr),martyr,2,yes,65,52,complete,0,D,32,"expand contribution, context, and impact"
+70,moudud-ahmed,Moudud Ahmed,Constitutional Intermediary,coordinator,2,yes,65,52,complete,0,D,32,"expand contribution, context, and impact"
+71,muhammad-shahidullah,Muhammad Shahidullah,Linguist and Intellectual Authority,leader,2,yes,56,51,complete,0,D,32,"expand contribution, context, and impact"
+72,muzaffar-ahmad,Muzaffar Ahmad,Left Political Thinker,leader,2,yes,60,54,complete,0,D,32,"expand contribution, context, and impact"
+73,nihar-ranjan-ray,Nihar Ranjan Ray,Historian of Bengal civilization,leader,2,yes,64,47,complete,0,D,32,"expand contribution, context, and impact"
+74,r-c-majumdar,R. C. Majumdar,Historian,leader,2,yes,59,46,complete,0,D,32,"expand contribution, context, and impact"
+75,sa-rahman,S. A. Rahman,Boundary Commission Member,coordinator,2,yes,62,51,complete,0,D,32,"expand contribution, context, and impact"
+76,selina-hossain,Selina Hossain,Novelist,leader,2,yes,56,43,complete,0,D,32,"expand contribution, context, and impact"
+77,somnath-lahiri,Somnath Lahiri,Communist Legislator,leader,2,yes,57,48,complete,0,D,32,"expand contribution, context, and impact"
+78,sufia-kamal,Sufia Kamal,Cultural and Civic Voice,leader,2,yes,66,52,complete,0,D,32,"expand contribution, context, and impact"
+79,zahir-raihan,Zahir Raihan,Filmmaker and writer,leader,2,yes,53,48,complete,0,D,32,"expand contribution, context, and impact"
+80,zohra-tajuddin,Zohra Tajuddin,Political activist,leader,2,yes,58,45,complete,0,D,32,"expand contribution, context, and impact"
+81,abdul-matin,Abdul Matin,Language Movement Organizer,coordinator,3,yes,62,51,complete,0,D,31,"expand contribution, context, and impact"
+82,abdur-rashid-tarkabagish,Abdur Rashid Tarkabagish,Opposition Speaker and Politician,leader,3,yes,58,50,complete,0,D,31,"expand contribution, context, and impact"
+83,abul-kasem,Abul Kashem,Language movement organizer,leader,3,yes,55,43,complete,0,D,31,"expand contribution, context, and impact"
+84,ataur-rahman-khan,Ataur Rahman Khan,Opposition Politician,leader,3,yes,52,47,complete,0,D,31,"expand contribution, context, and impact"
+85,mag-osmani,M. A. G. Osmani,Commander-in-Chief of Bangladesh Forces,leader,3,yes,66,50,complete,0,D,31,"expand contribution, context, and impact"
+86,manik-mia,Manik Mia,Journalist and Public Opinion Builder,leader,3,yes,60,49,complete,0,D,31,"expand contribution, context, and impact"
+87,sarat-chandra-bose,Sarat Chandra Bose,United Bengal Advocate,leader,3,yes,55,51,complete,0,D,31,"expand contribution, context, and impact"
+88,tofail-ahmed,Tofail Ahmed,Awami League Organizer,leader,3,yes,61,51,complete,0,D,31,"expand contribution, context, and impact"
+89,abul-fazal,Abul Fazal,"Writer, educationist, and rationalist Muslim thinker",leader,0,no,80,80,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+90,ahmad-sirhindi,Imam Ahmad Sirhindi,Naqshbandi scholar and Sunni revivalist,leader,0,no,85,84,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+91,ashraf-ali-thanwi,Ashraf Ali Thanwi,Deobandi scholar and religious-social reform influence,leader,0,no,96,90,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+92,farrukh-ahmad,Farrukh Ahmad,Poet of Islamic literary modernism,leader,0,no,85,78,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+93,jibanananda-das,Jibanananda Das,Poet of modern Bengali literature,leader,0,no,82,78,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+94,karamat-ali-jaunpuri,Karamat Ali Jaunpuri,Islamic preacher and reformist debater,leader,0,no,89,91,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+95,muhammad-iqbal,Muhammad Iqbal,Philosopher-poet of Muslim selfhood,leader,0,no,85,80,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+96,munshi-mohammad-meherullah,Munshi Mohammad Meherullah,Islamic debater and social reform writer,leader,0,no,99,87,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+97,professor-abdur-razzaq,Professor Abdur Razzaq,Political thinker and intellectual mentor,leader,0,no,81,78,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+98,qasim-nanautavi,Maulana Qasim Nanautavi,Founder figure of Darul Uloom Deoband,leader,0,no,86,81,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+99,rashid-ahmad-gangohi,Rashid Ahmad Gangohi,Deobandi scholar of fiqh and tasawwuf,leader,0,no,82,79,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+100,shah-abdul-aziz-dehlawi,Shah Abdul Aziz Dehlawi,Hadith scholar and reformist legal thinker,leader,0,no,94,84,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+101,shah-ismail-dehlawi,Shah Ismail Dehlawi,Reformist scholar of tawhid and religious purification,leader,0,no,84,89,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+102,shah-waliullah-dehlawi,Shah Waliullah Dehlawi,Islamic scholar and reformist intellectual root,leader,0,no,102,94,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+103,sheikh-abdur-rahim,Sheikh Abdur Rahim,Journalist and Bengali Muslim literary reformer,leader,0,no,92,80,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+104,shibli-nomani,Shibli Nomani,Islamic historian and literary scholar,leader,0,no,87,79,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+105,syed-ahmad-khan,Syed Ahmad Khan,Muslim reformer and education modernizer,leader,0,no,83,87,complete,0,C,30,consider an image after editorial review; link to a primary timeline event
+106,justice-shahabuddin-ahmed,Justice Shahabuddin Ahmed,Caretaker Transition Figure,coordinator,5,yes,63,54,complete,0,D,29,"expand contribution, context, and impact"
+107,tikka-khan,Tikka Khan,Pakistan Army general,leader,5,yes,60,47,complete,0,D,29,"expand contribution, context, and impact"
+108,abul-hashim,Abul Hashim,Bengal Muslim League Organizer,leader,7,yes,64,53,complete,0,D,28,"expand contribution, context, and impact"
+109,mahatma-gandhi,Mahatma Gandhi,Anti-Communal National Leader,leader,6,yes,57,52,complete,0,D,28,"expand contribution, context, and impact"
+110,nurul-amin,Nurul Amin,East Bengal Chief Minister,leader,8,yes,52,42,complete,0,D,28,"expand contribution, context, and impact"
+111,abul-hussain,Abul Hussain,"Writer, intellectual, and social activist",leader,0,no,123,111,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
+112,ahmad-sofa,Ahmad Sofa,Writer and critic of Bengali Muslim identity,leader,0,yes,100,90,complete,0,C,22,link to a primary timeline event
+113,kazi-abdul-wadud,Kazi Abdul Wadud,"Essayist, literary organizer, and intellectual",leader,0,no,135,121,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
+114,lalon-shah,Lalon Shah,"Baul philosopher, mystic poet, and composer",leader,0,no,234,211,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
+115,satyajit-ray,Satyajit Ray,"Filmmaker, writer, illustrator, and composer",leader,0,no,218,194,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
+116,sayyid-ahmad-barelvi,Sayyid Ahmad Barelvi,Reformist leader of the Tariqah-i-Muhammadiya movement,leader,0,no,216,199,complete,0,B,22,consider an image after editorial review; link to a primary timeline event
+117,baksal,Bangladesh Krishak Sramik Awami League,One-Party Political Framework in 1975 Bangladesh,organization,1,no,98,88,complete,0,C,21,consider an image after editorial review
+118,bangla-bhai,Siddique ul-Islam (Bangla Bhai),JMJB/JMB militant commander,leader,1,no,91,81,complete,0,C,21,consider an image after editorial review
+119,bangladesh-jatiya-party,Bangladesh Jatiya Party,Political Party in Bangladesh,organization,1,no,81,78,complete,0,C,21,consider an image after editorial review
+120,benazir-ahmed,Benazir Ahmed,Former RAB director general and police chief linked to sanctions and rights-abuse allegations,leader,1,no,113,102,complete,0,C,21,consider an image after editorial review
+121,charu-majumdar,Charu Majumdar,Radical left political organizer,leader,1,no,90,85,complete,0,C,21,consider an image after editorial review
+122,ganatantri-dal,Ganatantri Dal,Left-Leaning Political Party in East Bengal,organization,1,no,88,75,complete,0,C,21,consider an image after editorial review
+123,gono-forum,Gono Forum,Reform-Oriented Political Party in Bangladesh,organization,1,no,87,82,complete,0,C,21,consider an image after editorial review
+124,hasinur-rahman,Hasinur Rahman,Former army and RAB officer; enforced-disappearance witness,leader,1,no,108,97,complete,0,C,21,consider an image after editorial review
+125,islami-andolan-bangladesh,Islami Andolan Bangladesh,Islamist Political Party in Bangladesh,organization,1,no,87,75,complete,0,C,21,consider an image after editorial review
+126,khan-jahan-ali,Khan Jahan Ali,Sufi administrator and regional builder in Bengal,leader,1,no,90,78,complete,0,C,21,consider an image after editorial review
+127,khudiram-bose,Khudiram Bose,Anti-colonial revolutionary associated with Jugantar,leader,1,no,107,94,complete,0,C,21,consider an image after editorial review
+128,krishak-sramik-party,Krishak Sramik Party,Peasant-Labour Political Party in East Bengal,organization,1,no,93,80,complete,0,C,21,consider an image after editorial review
+129,major-rafiqul-islam,Major Rafiqul Islam,Sector 1 Commander (Later Phase),leader,1,no,73,64,complete,0,C,21,consider an image after editorial review
+130,mohiuddin-jahangir,Mohiuddin Jahangir,Bir Sreshtho (Army Martyr),martyr,1,no,75,48,complete,0,C,21,consider an image after editorial review
+131,mufti-hannan,Mufti Abdul Hannan,HuJI-B militant leader and convicted attacker,leader,1,no,98,90,complete,0,C,21,consider an image after editorial review
+132,national-citizen-party,National Citizen Party,Student-Led Political Party in Bangladesh,organization,1,no,88,77,complete,0,C,21,consider an image after editorial review
+133,nizam-e-islam-party,Nizam-e-Islam Party,Islamic Political Party in East Bengal and Pakistan,organization,1,no,95,89,complete,0,C,21,consider an image after editorial review
+134,shafiqur-rahman,Shafiqur Rahman,Ameer of Bangladesh Jamaat-e-Islami,leader,1,no,90,74,complete,0,C,21,consider an image after editorial review
+135,shambhu-nath-pal,Shambhu Nath Pal,Pabna peasant organizer,leader,1,no,84,69,complete,0,C,21,consider an image after editorial review
+136,syed-abdullah-mohammad-taher,Syed Abdullah Mohammad Taher,Deputy leader of Bangladesh Jamaat-e-Islami,leader,1,no,82,76,complete,0,C,21,consider an image after editorial review
+137,united-front-1954,United Front,Opposition Electoral Alliance in East Bengal,organization,1,no,116,97,complete,0,C,21,consider an image after editorial review
+138,zainul-abedin,Zainul Abedin,Artist and institution builder,leader,1,no,82,72,complete,0,C,21,consider an image after editorial review
+139,abul-kalam-azad-bachchu-razakar,Abul Kalam Azad (Bachchu Razakar),Fugitive ICT convict known as Bachchu Razakar,leader,2,no,117,95,complete,0,C,20,consider an image after editorial review
+140,communist-party-of-india,Communist Party of India,Communist Political Party in Colonial and Postcolonial India,organization,2,no,105,89,complete,0,C,20,consider an image after editorial review
+141,forward-bloc,Forward Bloc,Anti-Colonial Political Party Associated with Subhas Chandra Bose,organization,2,no,88,79,complete,0,C,20,consider an image after editorial review
+142,hindu-mahasabha,Hindu Mahasabha,Hindu Nationalist Political Organization in British India,organization,2,no,107,88,complete,0,C,20,consider an image after editorial review
+143,humayun-mughal,Humayun,Mughal emperor in the Bengal campaign era,leader,2,no,95,81,complete,0,C,20,consider an image after editorial review
+144,ivy-rahman,Ivy Rahman,Awami League leader and August 21 attack victim,leader,2,no,102,89,complete,0,C,20,consider an image after editorial review
+145,jahanzeb-arbab,Jahanzeb Arbab,Pakistan Army brigade commander associated with 1971 operations,leader,2,no,95,88,complete,0,C,20,consider an image after editorial review
+146,jatiya-party,Jatiya Party,Political Party in Bangladesh,organization,2,no,70,60,complete,0,C,20,consider an image after editorial review
+147,khadim-hussain-raja,Khadim Hussain Raja,Pakistan Army commander involved in Operation Searchlight planning,leader,2,no,98,82,complete,0,C,20,consider an image after editorial review
+148,m-hamidullah-khan,Squadron Leader M. Hamidullah Khan,Sector 11 Commander (Later Phase),leader,2,no,72,64,complete,0,C,20,consider an image after editorial review
+149,mir-quasem-ali,Mir Quasem Ali,Jamaat-e-Islami and Al-Badr figure convicted in a 1971 war-crimes case,leader,2,no,106,93,complete,0,C,20,consider an image after editorial review
+150,mk-bashar,Wing Commander M. K. Bashar,Sector 6 Commander,leader,2,no,67,58,complete,0,C,20,consider an image after editorial review
+151,national-awami-party,National Awami Party,Left-Nationalist Political Party in Pakistan and Bangladesh,organization,2,no,100,82,complete,0,C,20,consider an image after editorial review
+152,ziaul-ahsan,Ziaul Ahsan,Security and intelligence figure linked to disappearance and surveillance allegations,leader,2,no,107,95,complete,0,C,20,consider an image after editorial review
+153,ashrafuzzaman-khan,Ashrafuzzaman Khan,Al-Badr figure convicted in absentia in the intellectual-killings case,leader,3,no,89,70,complete,0,C,19,consider an image after editorial review
+154,chowdhury-mueen-uddin,Chowdhury Mueen Uddin,Al-Badr figure convicted in absentia in the intellectual-killings case,leader,3,no,95,73,complete,0,C,19,consider an image after editorial review
+155,major-ma-manzur,Major M. A. Manzur,Sector 8 and Sector 9 Commander (Later Phase),leader,3,no,76,70,complete,0,C,19,consider an image after editorial review
+156,pakistan-peoples-party,Pakistan Peoples Party,Political Party in Pakistan,organization,3,no,83,76,complete,0,C,19,consider an image after editorial review
+157,jagadish-chandra-bose,Jagadish Chandra Bose,"Physicist, plant physiologist, and scientific investigator",leader,0,yes,234,190,complete,0,B,14,link to a primary timeline event
+158,ab-party,AB Party,Bangladeshi political party founded in 2020,organization,1,no,216,189,complete,0,B,13,consider an image after editorial review
+159,abdul-halim-chowdhury,Abdul Halim Chowdhury,Academic and Martyred Intellectual,martyr,1,yes,71,56,complete,0,C,13,
+160,abdul-karim-sahitya-bisharad,Abdul Karim Sahitya Bisharad,Cultural Archivist,leader,1,yes,68,52,complete,0,C,13,
+161,abdullah-al-amin,Abdullah Al Amin,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
+162,abu-baker-majumder,Abu Baker Majumder,Coordinator,coordinator,1,yes,71,59,complete,0,C,13,
+163,abu-jafar-shamsuddin,Abu Jafar Shamsuddin,"Journalist, novelist, essayist, and public intellectual",leader,1,no,235,215,complete,0,B,13,consider an image after editorial review
+164,adilur-rahman-khan,Adilur Rahman Khan,Human-rights advocate and interim-government adviser,leader,1,yes,71,62,complete,0,C,13,
+165,ahmed-rafiq,Ahmed Rafiq,"Historian, writer, and interpreter of the Language Movement",leader,1,yes,121,94,complete,0,C,13,
+166,akhtar-ahmed,Akhtar Ahmed,Senior Secretary of Bangladesh's Election Commission Secretariat,leader,1,no,220,191,complete,0,B,13,consider an image after editorial review
+167,alaol,Alaol,Bengali court poet and translator,leader,1,no,129,109,complete,0,B,13,consider an image after editorial review
+168,altaf-mahmud,Altaf Mahmud,Cultural Activist and Composer of Ekushey Memory,leader,1,yes,104,83,complete,0,C,13,
+169,amm-nasir-uddin,AMM Nasir Uddin,Chief Election Commissioner of Bangladesh,leader,1,no,224,193,complete,0,B,13,consider an image after editorial review
+170,andaleeve-rahman-partho,Andaleeve Rahman Partho,Chairman of Bangladesh Jatiya Party,leader,1,no,165,153,complete,0,B,13,consider an image after editorial review
+171,anu-muhammad,Anu Muhammad,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
+172,arif-jebtik,Arif Jebtik,"Online activist, blogger, and political commentator",leader,1,yes,125,83,complete,0,C,13,
+173,arif-sohel,Arif Sohel,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+174,asaduzzaman-fuaad,Barrister Asaduzzaman Fuaad,General secretary of AB Party,leader,1,no,176,163,complete,0,B,13,consider an image after editorial review
+175,azimullah-khan,Azimullah Khan,Political adviser to Nana Sahib,coordinator,1,yes,126,88,complete,0,C,13,
+176,badiul-alam-majumdar,Badiul Alam Majumdar,Chief of the Election Reform Commission,leader,1,no,183,161,complete,0,B,13,consider an image after editorial review
+177,bakht-bali,Bakht Bali,Regional rebel leader during 1857,coordinator,1,yes,110,86,complete,0,C,13,
+178,barkat-hossain,Barkat Hossain,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+179,beni-madho-singh,Beni Madho Singh,Awadh taluqdar who fought the British,leader,1,yes,110,100,complete,0,C,13,
+180,bhaskaravarman,Bhaskaravarman,King of Kamarupa and regional ally,leader,1,no,134,111,complete,0,B,13,consider an image after editorial review
+181,bhavadeva,Bhavadeva,Deva ruler linked to southeastern Bengal,leader,1,no,188,153,complete,0,B,13,consider an image after editorial review
+182,birjis-qadr,Birjis Qadr,Proclaimed ruler of Awadh during the revolt,coordinator,1,yes,115,94,complete,0,C,13,
+183,caretaker-transition-supporters-1990,Supporters of the Caretaker Transition,Civic Coalition,organization,1,yes,70,60,complete,0,C,13,
+184,cc-biswas,C. C. Biswas,Boundary Commission Member,coordinator,1,yes,63,57,complete,0,C,13,
+185,charles-cornwallis,Charles Cornwallis,Governor-General of Bengal,leader,1,yes,110,93,complete,0,C,13,
+186,charles-watson,Charles Watson,Royal Navy Admiral,leader,1,yes,110,77,complete,0,C,13,
+187,chittagong-rashtrabhasha-sangram-parishad,Chittagong Rashtrabhasha Sangram Parishad,Regional Action Committee,organization,1,yes,104,91,complete,0,C,13,
+188,chittagong-university-students-1990,Chittagong University Students,Student Collective,collective,1,yes,66,58,complete,0,C,13,
+189,communist-party-of-bangladesh,Communist Party of Bangladesh,Left Political Organization,organization,1,yes,70,62,complete,0,C,13,
+190,cultural-workers-collective-1990,Cultural Workers,Cultural Collective,collective,1,yes,64,58,complete,0,C,13,
+191,david-hare,David Hare,Education reformer in early colonial Calcutta,intellectual,1,no,185,175,complete,0,B,13,consider an image after editorial review
+192,debendranath-tagore,Debendranath Tagore,Brahmo reformer and intellectual organizer,intellectual,1,no,186,165,complete,0,B,13,consider an image after editorial review
+193,dhaka-university-students-1990,Dhaka University Students,Student Collective,collective,1,yes,66,58,complete,0,C,13,
+194,dhan-singh-gurjar,Dhan Singh Gurjar,Kotwal linked to the Meerut outbreak,coordinator,1,yes,105,94,complete,0,C,13,
+195,district-protesters-1990,District-Level Protesters,Citizen Collective,collective,1,yes,64,58,complete,0,C,13,
+196,doctors-collective-1990,Doctors' Collective,Professional Collective,collective,1,yes,64,58,complete,0,C,13,
+197,dudu-miya,Dudu Miya,Organizer of Faraizi peasant mobilization,leader,1,no,202,182,complete,0,B,13,consider an image after editorial review
+198,east-pakistan-muslim-chhatra-league,East Pakistan Muslim Chhatra League,Student Organization,organization,1,yes,101,83,complete,0,C,13,
+199,eight-party-alliance,8-Party Alliance,Opposition Alliance,organization,1,yes,64,58,complete,0,C,13,
+200,engineers-and-architects-collective-1990,Engineers and Architects,Professional Collective,collective,1,yes,66,60,complete,0,C,13,
+201,eyre-coote,Eyre Coote,Company Military Officer,coordinator,1,yes,104,81,complete,0,C,13,
+202,fahim-ahmed,Fahim Ahmed,Grassroots & Digital Influencer,leader,1,yes,74,60,complete,0,C,13,
+203,families-of-martyrs-1990,Families of the Movement's Martyrs,Memory Collective,collective,1,yes,70,60,complete,0,C,13,
+204,farhad-mazhar,Farhad Mazhar,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
+205,fazlur-rahman,Fazlur Rahman,BNP leader and freedom fighter,leader,1,no,164,144,complete,0,B,13,consider an image after editorial review
+206,firoz-shah-1857,Firoz Shah,Mughal prince associated with rebel campaigns,coordinator,1,yes,103,89,complete,0,C,13,
+207,five-party-alliance,5-Party Alliance,Opposition Alliance,organization,1,yes,64,58,complete,0,C,13,
+208,ghaset-begum,Ghaseti Begum,Nawabi court power broker and anti-Siraj faction figure,coordinator,1,yes,111,90,complete,0,C,13,
+209,ghiyasuddin-azam-shah,Ghiyasuddin Azam Shah,Iliyas Shahi Sultan of Bengal,leader,1,no,123,128,complete,0,B,13,consider an image after editorial review
+210,ghulam-ghaus-khan-1857,Ghulam Ghaus Khan,Artillery commander in Jhansi resistance,martyr,1,yes,103,86,complete,0,C,13,
+211,govinda-chandra-dev,Govinda Chandra Dev,Philosopher and Martyred Academic,martyr,1,yes,77,56,complete,0,C,13,
+212,gulab-singh-lodhi,Gulab Singh Lodhi,Local rebel figure commemorated in 1857 memory,martyr,1,yes,103,86,complete,0,C,13,
+213,gulzar-uddin-ahmed,Brigadier General Gulzar Uddin Ahmed,Deputy Director General of Bangladesh Rifles (BDR),leader,1,yes,107,96,complete,0,C,13,
+214,hafizuddin-ahmed,Captain Hafizuddin Ahmed,Freedom Fighter and Field Officer,leader,1,yes,75,52,complete,0,C,13,
+215,hamidur-rahman-artist,Hamidur Rahman,Designer of the Central Shaheed Minar,coordinator,1,yes,94,82,complete,0,C,13,
+216,harshavardhana,Harshavardhana,Ruler of Thanesar and Kannauj,leader,1,no,124,108,complete,0,B,13,consider an image after editorial review
+217,hartal-and-blockade-organisers-1990,Hartal and Blockade Organisers,Movement Coordinators,collective,1,yes,68,62,complete,0,C,13,
+218,hasib-al-islam,Hasib Al Islam,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
+219,henry-louis-vivian-derozio,Henry Louis Vivian Derozio,"Teacher, poet, and early Bengal Renaissance intellectual",intellectual,1,no,194,191,complete,0,B,13,consider an image after editorial review
+220,human-rights-activists-1990,Human Rights Activists,Civic Collective,collective,1,yes,66,56,complete,0,C,13,
+221,ishan-chandra-roy,Ishan Chandra Roy,Pabna peasant organizer,leader,1,no,247,188,complete,0,B,13,consider an image after editorial review
+222,jahangirnagar-university-students-1990,Jahangirnagar University Students,Student Collective,collective,1,yes,66,58,complete,0,C,13,
+223,jamaat-e-islami-bangladesh,Jamaat-e-Islami Bangladesh,Opposition Party in the Anti-Ershad Front,organization,1,yes,72,66,complete,0,C,13,
+224,jatiya-samajtantrik-dal,Jatiya Samajtantrik Dal,Left Opposition Organization,organization,1,yes,68,64,complete,0,C,13,
+225,jhalkari-bai,Jhalkari Bai,Woman warrior associated with Jhansi defense,martyr,1,yes,117,97,complete,0,C,13,
+226,journalists-collective-1990,Journalists' Collective,Professional Collective,collective,1,yes,64,58,complete,0,C,13,
+227,junayed-al-habib,Maulana Junayed Al Habib,Senior vice-president of Jamiat-e-Ulema-e-Islam Bangladesh,leader,1,no,161,149,complete,0,B,13,consider an image after editorial review
+228,kadam-singh,Kadam Singh,Rebel leader in Meerut region,coordinator,1,yes,112,91,complete,0,C,13,
+229,kalpona-akter,Kalpona Akter,Garment labor-rights organizer,coordinator,1,no,120,112,complete,0,B,13,consider an image after editorial review
+230,kamal-hossain,Kamal Hossain,Chair of the Constitution Drafting Committee,leader,1,yes,75,80,complete,0,C,13,
+231,keshab-chandra-sen,Keshab Chandra Sen,Brahmo Samaj reformer and public speaker,intellectual,1,no,144,133,complete,0,B,13,consider an image after editorial review
+232,khan-bahadur-ahsanullah,Khan Bahadur Ahsanullah,"Educationist, writer, and social reformer",leader,1,no,143,127,complete,0,B,13,consider an image after editorial review
+233,khan-bahadur-khan-rohilla,Khan Bahadur Khan Rohilla,Leader of the Bareilly uprising,leader,1,yes,86,69,complete,0,C,13,
+234,khwaja-abdul-hadi-khan,Khwaja Abdul Hadi Khan,Faujdar of Rajmahal,coordinator,1,yes,86,63,complete,0,C,13,
+235,khwaja-petruse,Khwaja Petruse,Armenian Court-Commercial Intermediary,coordinator,1,yes,71,59,complete,0,C,13,
+236,khwaja-usman,Khwaja Usman,Afghan chief and anti-Mughal leader,leader,1,no,134,127,complete,0,B,13,consider an image after editorial review
+237,khwaja-wajid,Khwaja Wajid,Armenian Merchant Magnate,coordinator,1,yes,84,68,complete,0,C,13,
+238,koodi-molla,Koodi Molla,Pabna peasant organizer,leader,1,no,131,114,complete,0,B,13,consider an image after editorial review
+239,krishak-praja-party,Krishak Praja Party,Peasant-Oriented Political Party in Bengal,organization,1,no,156,147,complete,0,B,13,consider an image after editorial review
+240,kunwar-singh,Kunwar Singh,Rebel chief of Jagdishpur in Bihar,leader,1,yes,89,74,complete,0,C,13,
+241,lawyers-collective-1990,Lawyers' Collective,Professional Collective,collective,1,yes,64,58,complete,0,C,13,
+242,lord-curzon,Lord Curzon,Viceroy of India,leader,1,yes,87,73,complete,0,C,13,
+243,lucky-akter,Lucky Akter,Student Activist and Slogan Leader,leader,1,yes,79,62,complete,0,C,13,
+244,luke-scrafton,Luke Scrafton,Company Official and Political Associate,coordinator,1,yes,72,62,complete,0,C,13,
+245,lutfun-nahar-luma,Lutfun Nahar Luma,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
+246,mahbub-ul-alam-chowdhury,Mahbub ul Alam Chowdhury,Poet and Regional Organizer,leader,1,yes,91,79,complete,0,C,13,
+247,mahdi-amin,Mahdi Amin,BNP election steering committee spokesperson and chairman’s adviser,leader,1,no,124,111,complete,0,B,13,consider an image after editorial review
+248,mahin-sarkar,Mahin Sarkar,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+249,mahipala-i,Mahipala I,Pala emperor associated with the dynasty's second foundation,leader,1,no,168,143,complete,0,B,13,consider an image after editorial review
+250,mahmudur-rahman,Mahmudur Rahman,Media figure in opposition narrative,leader,1,yes,88,76,complete,0,C,13,
+251,mainul-islam-bdr,Major General Mainul Islam,Successor BDR Chief,leader,1,yes,68,70,complete,0,C,13,
+252,mangal-pandey,Mangal Pandey,Sepoy who sparked the Barrackpore uprising,martyr,1,yes,103,83,complete,0,C,13,
+253,manzur-al-matin,Manzur Al Matin,Influential Supporters & Intellectuals,leader,1,yes,76,62,complete,0,C,13,
+254,matangini-hazra,Matangini Hazra,Gandhian anti-colonial leader,leader,1,no,162,140,complete,0,B,13,consider an image after editorial review
+255,matiur-rahman,Matiur Rahman,Bir Sreshtho (Air Force Martyr),martyr,1,yes,76,49,complete,0,C,13,
+256,maulvi-ahmadullah-shah,Maulvi Ahmadullah Shah,Religious-political leader of the Awadh uprising,leader,1,yes,86,73,complete,0,C,13,
+257,maulvi-liaquat-ali,Maulvi Liaquat Ali,Leader of the Allahabad uprising,leader,1,yes,86,76,complete,0,C,13,
+258,md-enamul-hasan,Md. Enamul Hasan,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
+259,medical-students-1990,Medical Students,Student Collective,collective,1,yes,64,56,complete,0,C,13,
+260,mehedi-hasan,Mehedi Hasan,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+261,miran,Miran,Military Actor in Mir Jafar Camp,coordinator,1,yes,75,59,complete,0,C,13,
+262,mirza-azam,Mirza Azam,Political actor referenced in inquiry-era proceedings,leader,1,yes,86,69,complete,0,C,13,
+263,mofazzal-hossain-chowdhury-maya,Mofazzal Hossain Chowdhury Maya,Freedom Fighter and Youth Organizer,coordinator,1,yes,72,56,complete,0,C,13,
+264,mohammad-ali-jauhar,Mohammad Ali Jauhar,"Khilafat leader, journalist, and anti-colonial politician",leader,1,no,153,147,complete,0,B,13,consider an image after editorial review
+265,mohammad-jahangir-kabir-talukdar,Mohammad Jahangir Kabir Talukdar,Commission member in later re-investigation phase,leader,1,yes,89,73,complete,0,C,13,
+266,mohammad-shamsul-alam-bir-pratik,Major General Mohammad Shamsul Alam Bir Pratik,Director General of BDR (killed),leader,1,yes,80,86,complete,0,C,13,
+267,mohanlal,Mohanlal,Key Officer Loyal to Siraj ud-Daulah,leader,1,yes,73,62,complete,0,C,13,
+268,molla-fazle-akbar,Molla Fazle Akbar,Former intelligence official referenced in inquiry process,leader,1,yes,89,69,complete,0,C,13,
+269,monirul-islam-police,Monirul Islam,Senior police official referenced in inquiry process,leader,1,yes,89,65,complete,0,C,13,
+270,motiur-rahman-nizami,Motiur Rahman Nizami,Jamaat leadership figure in the crisis,leader,1,yes,94,78,complete,0,C,13,
+271,muhammed-zafar-iqbal,Muhammed Zafar Iqbal,Public Intellectual Supporter,leader,1,yes,78,68,complete,0,C,13,
+272,munir-ahmed,Lance Naik Munir Ahmed,Bir Sreshtho (Army Martyr),martyr,1,yes,71,50,complete,0,C,13,
+273,munshi-abdur-rouf,Munshi Abdur Rouf,Bir Sreshtho (Army Martyr),martyr,1,yes,71,55,complete,0,C,13,
+274,naba-singh-hazari,Naba Singh Hazari,Military Officer in Nawab's Side,coordinator,1,yes,76,66,complete,0,C,13,
+275,nana-sahib,Nana Sahib,Leader of the Kanpur rebellion,leader,1,yes,85,69,complete,0,C,13,
+276,narpat-singh,Narpat Singh,Regional rebel chief in northern India,coordinator,1,yes,87,77,complete,0,C,13,
+277,nasiruddin-yousuff,Nasiruddin Yousuff,Cultural Organizer and Support Voice,leader,1,yes,76,76,complete,0,C,13,
+278,nawab-salimullah,Nawab Salimullah,Dhaka Nawab and Political Patron,leader,1,yes,98,88,complete,0,C,13,
+279,niloy-neel,Niloy Neel,Secular blogger linked to Shahbag legacy,leader,1,yes,90,74,complete,0,C,13,
+280,novera-ahmed,Novera Ahmed,Sculptor and Memorial Collaborator,leader,1,yes,75,71,complete,0,C,13,
+281,nur-mohammad-igp,Nur Mohammad,Former IGP referenced in inquiry process,leader,1,yes,86,61,complete,0,C,13,
+282,nusrat-tabassum,Nusrat Tabassum,Coordinator,coordinator,1,yes,66,55,complete,0,C,13,
+283,ohiullah-1952,Ohiullah,Child Victim of Police Firing,martyr,1,yes,79,69,complete,0,C,13,
+284,paragal-khan,Paragal Khan,"Chittagong commander, administrator, and patron",leader,1,no,114,110,complete,0,B,13,consider an image after editorial review
+285,pinaki-bhattacharya,Pinaki Bhattacharya,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
+286,press-photographers-1990,Press Photographers,Documentation Collective,collective,1,yes,64,56,complete,0,C,13,
+287,pritilata-waddedar,Pritilata Waddedar,Revolutionary of the Chittagong armed movement,martyr,1,yes,86,75,complete,0,C,13,
+288,professional-associations-1990,Professional Associations,Professional Coalition,organization,1,yes,64,58,complete,0,C,13,
+289,rabindranath-tagore,Rabindranath Tagore,Poet and Public Intellectual,leader,1,yes,86,79,complete,0,C,13,
+290,rafiq-uddin-ahmed-1952,Rafiq Uddin Ahmed,Language Martyr,martyr,1,yes,82,70,complete,0,C,13,
+291,rai-durlabh-ram,Rai Durlabh Ram,Nawab's commander at Plassey,coordinator,1,yes,75,68,complete,0,C,13,
+292,raja-nahar-singh,Raja Nahar Singh,Ballabhgarh ruler executed after 1857 rebellion,leader,1,yes,94,82,complete,0,C,13,
+293,rajshahi-university-students-1990,Rajshahi University Students,Student Collective,collective,1,yes,66,58,complete,0,C,13,
+294,rani-avantibai-lodhi,Rani Avantibai Lodhi,Queen-regent and anti-colonial rebel leader,leader,1,yes,88,75,complete,0,C,13,
+295,rani-ishwari-kumari,Rani Ishwari Kumari,Regional queen associated with resistance networks,coordinator,1,yes,91,80,complete,0,C,13,
+296,rani-lakshmibai,Rani Lakshmibai,Queen of Jhansi and iconic rebel commander,leader,1,yes,89,73,complete,0,C,13,
+297,ranmat-singh,Ranmat Singh,Regional rebel chief in central India,coordinator,1,yes,90,76,complete,0,C,13,
+298,rao-saheb-peshwa,Rao Sahib Peshwa,Maratha rebel leader allied with Tatya Tope,coordinator,1,yes,93,81,complete,0,C,13,
+299,rao-tula-ram,Rao Tula Ram,Key rebel leader from Rewari,leader,1,yes,81,76,complete,0,C,13,
+300,rashidul-islam-rifat,Rashidul Islam Rifat,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
+301,rifat-rashid,Rifat Rashid,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+302,rukunuddin-barbak-shah,Rukunuddin Barbak Shah,Later Iliyas Shahi Sultan of Bengal,leader,1,no,117,111,complete,0,B,13,consider an image after editorial review
+303,rumeen-farhana,Rumeen Farhana,"Independent MP, lawyer, and former BNP leader",leader,1,no,152,142,complete,0,B,13,consider an image after editorial review
+304,sahara-khatun,Sahara Khatun,Home Minister,leader,1,yes,67,66,complete,0,C,13,
+305,saifuddin-firuz-shah,Saifuddin Firuz Shah,Habshi Sultan of Bengal and former military commander,leader,1,no,122,110,complete,0,B,13,consider an image after editorial review
+306,saima-ahmed,Saima Ahmed,Grassroots & Digital Influencer,leader,1,yes,74,60,complete,0,C,13,
+307,salahuddin-ahmed,Salahuddin Ahmed,"BNP standing committee member, MP, and Home Affairs Minister",leader,1,no,138,120,complete,0,B,13,consider an image after editorial review
+308,sarbadaliya-chhatra-oikya-parishad,Sarbadaliya Chhatra Oikya Parishad,Student Unity Platform,organization,1,yes,70,64,complete,0,C,13,
+309,sarjis-alam,Sarjis Alam,Coordinator and spokesperson,coordinator,1,yes,81,64,complete,0,C,13,
+310,seven-party-alliance,7-Party Alliance,Opposition Alliance,organization,1,yes,64,58,complete,0,C,13,
+311,shadik-kayem,Shadik Kayem,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+312,shafi-imam-rumi,Shafi Imam Rumi,Urban Guerrilla Fighter,martyr,1,yes,73,55,complete,0,C,13,
+313,shafiur-rahman-1952,Shafiur Rahman,Language Martyr,martyr,1,yes,85,73,complete,0,C,13,
+314,shah-jalal,Shah Jalal,Sufi figure associated with the Sylhet conquest era,leader,1,no,141,126,complete,0,B,13,consider an image after editorial review
+315,shah-mal,Shah Mal,Peasant leader in the 1857 uprising,coordinator,1,yes,88,68,complete,0,C,13,
+316,shah-moazzem-hossain,Shah Moazzem Hossain,Senior Opposition Politician,leader,1,yes,64,58,complete,0,C,13,
+317,shah-muhammad-sagir,Shah Muhammad Sagir,Court poet and pioneer of Bengali Muslim literature,leader,1,no,122,113,complete,0,B,13,consider an image after editorial review
+318,shaheed-azad,Azad (Shaheed Azad),Urban Guerrilla Martyr,martyr,1,yes,70,54,complete,0,C,13,
+319,shahid-saber,Shahid Saber,Writer and Progressive Activist,leader,1,yes,83,73,complete,0,C,13,
+320,shahidul-alam,Shahidul Alam,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
+321,shakil-ahmed-bdr,Major General Shakil Ahmed,Director General of BDR (killed),leader,1,yes,72,68,complete,0,C,13,
+322,shaukat-ali,Shaukat Ali,Khilafat leader and anti-colonial organizer,leader,1,no,142,134,complete,0,B,13,consider an image after editorial review
+323,sheikh-fazle-noor-taposh,Sheikh Fazle Noor Taposh,Political figure referenced in Pilkhana testimonies,leader,1,yes,91,73,complete,0,C,13,
+324,sheikh-fazlul-karim-selim,Sheikh Fazlul Karim Selim,Political figure referenced in investigation-era testimony lists,leader,1,yes,89,66,complete,0,C,13,
+325,sikandar-khan-ghazi,Sikandar Khan Ghazi,Military commander in the 1303 Sylhet campaign,leader,1,no,150,132,complete,0,B,13,consider an image after editorial review
+326,sinthia-jaheen-ayesha,Sinthia Jaheen Ayesha,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
+327,srichandra,Srichandra,Chandra ruler of southeastern Bengal,leader,1,no,137,120,complete,0,B,13,consider an image after editorial review
+328,street-procession-organisers-1990,Street Procession Organisers,Movement Coordinators,collective,1,yes,66,60,complete,0,C,13,
+329,student-unity-twenty-two-organisations,United Front of Twenty-Two Student Organizations,Student Coalition,organization,1,yes,72,58,complete,0,C,13,
+330,sulaiman-khan-karrani,Sulaiman Khan Karrani,Afghan Karrani Sultan of Bengal,leader,1,no,139,125,complete,0,B,13,consider an image after editorial review
+331,sumi-abedin,Sumi Abedin,Tazreen survivor and labor-safety witness,coordinator,1,no,147,145,complete,0,B,13,consider an image after editorial review
+332,surendra-sai,Surendra Sai,Anti-British leader in western Odisha linked to 1857 phase,leader,1,yes,93,79,complete,0,C,13,
+333,surya-sen,Surya Sen,Revolutionary organizer of the Chittagong uprising,leader,1,yes,71,60,complete,0,C,13,
+334,swadhin-bangla-betar-artists,Artists of Swadhin Bangla Betar Kendra,Cultural Front,collective,1,yes,87,75,complete,0,C,13,
+335,syed-sultan,Syed Sultan,Medieval Bengali Muslim poet and religious writer,leader,1,no,162,154,complete,0,B,13,consider an image after editorial review
+336,tahmid-al-mudabbir,Tahmid Al Mudabbir,Coordinator (Students Against Discrimination),coordinator,1,yes,73,67,complete,0,C,13,
+337,tamaddun-majlish,Tamaddun Majlish,Intellectual Organization,organization,1,yes,80,62,complete,0,C,13,
+338,tantia-tope,Tantia Tope,Major military strategist of the rebellion,leader,1,yes,88,78,complete,0,C,13,
+339,tarique-ahmed-siddique,Tarique Ahmed Siddique,Security adviser-level figure referenced in later probes,leader,1,yes,87,69,complete,0,C,13,
+340,tarique-rahman,Tarique Rahman,Chairman of the Bangladesh Nationalist Party,leader,1,no,167,135,complete,0,B,13,consider an image after editorial review
+341,tariqul-islam,Tariqul Islam,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+342,tasneem-khalil,Grassroots & Digital Influencers,Grassroots & Digital Influencer,leader,1,yes,78,60,complete,0,C,13,
+343,teachers-collective-1990,Teachers' Collective,Professional Collective,collective,1,yes,64,56,complete,0,C,13,
+344,teeka-singh-sepoy,Teeka Singh,Sepoy leader associated with early mutiny actions,coordinator,1,yes,86,74,complete,0,C,13,
+345,titu-mir,Titu Mir,Peasant resistance leader against colonial authority,leader,1,yes,76,64,complete,0,C,13,
+346,todar-mal,Todar Mal,Mughal finance minister and revenue administrator,leader,1,no,145,127,complete,0,B,13,consider an image after editorial review
+347,uda-devi-pasi,Uda Devi Pasi,Dalit woman fighter in the Lucknow theatre,martyr,1,yes,90,73,complete,0,C,13,
+348,umama-fatema,Umama Fatema,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+349,umichand,Umichand,Merchant-Broker,coordinator,1,yes,70,65,complete,0,C,13,
+350,urban-protesters-1990,Urban Protesters,Citizen Collective,collective,1,yes,64,58,complete,0,C,13,
+351,veer-narayan-singh,Veer Narayan Singh,Early anti-colonial rebel in central India,martyr,1,yes,96,92,complete,0,C,13,
+352,vijaya-sena,Vijaya Sena,Founder of the Sena dynasty in Bengal,leader,1,no,168,153,complete,0,B,13,consider an image after editorial review
+353,walidad-khan,Walidad Khan,Rebel leader in Bulandshahr region,leader,1,yes,84,77,complete,0,C,13,
+354,warren-hastings,Warren Hastings,East India Company governor and first Governor-General of Bengal,leader,1,no,210,178,complete,0,B,13,consider an image after editorial review
+355,washiqur-rahman,Washiqur Rahman,Secular blogger linked to Shahbag legacy,leader,1,yes,87,72,complete,0,C,13,
+356,william-watts,William Watts,Company Political Agent at Murshidabad,coordinator,1,yes,71,59,complete,0,C,13,
+357,women-activists-1990,Women Activists,Civic Collective,collective,1,yes,64,58,complete,0,C,13,
+358,workers-collective-1990,Workers' Collective,Civic Collective,collective,1,yes,64,58,complete,0,C,13,
+359,workers-party-of-bangladesh,Workers Party of Bangladesh,Left Political Organization,organization,1,yes,70,62,complete,0,C,13,
+360,writers-and-intellectuals-collective-1990,Writers and Intellectuals,Intellectual Collective,collective,1,yes,66,60,complete,0,C,13,
+361,yar-latif-khan,Yar Latif Khan,Nawab's Military Commander,coordinator,1,yes,71,58,complete,0,C,13,
+362,zaber-ahmed,Zaber Ahmed,Coordinator (Students Against Discrimination),coordinator,1,yes,71,65,complete,0,C,13,
+363,zafar-sobhan,Zafar Sobhan,Influential Supporters & Intellectuals,leader,1,yes,74,60,complete,0,C,13,
+364,zulkarnain-saer,Zulkarnain Saer,Grassroots & Digital Influencer,leader,1,yes,74,60,complete,0,C,13,
+365,abdul-hannan-masud,Abdul Hannan Masud,Coordinator (Students Against Discrimination),coordinator,2,yes,73,67,complete,0,C,12,
+366,abdul-quader-mollah,Abdul Quader Mollah,Verdict trigger figure,leader,2,yes,84,76,complete,0,C,12,
+367,abdur-rab-serniabat,Abdur Rab Serniabat,Politician,leader,2,yes,80,72,complete,0,C,12,
+368,abdus-sattar,Abdus Sattar,President of Bangladesh,leader,2,yes,74,71,complete,0,C,12,
+369,abu-sayed-2024,Abu Sayed,Symbolic martyr,martyr,2,yes,74,64,complete,0,C,12,
+370,abu-sayeed-chowdhury,Abu Sayeed Chowdhury,Diplomatic Face of the Liberation Cause,leader,2,yes,72,53,complete,0,C,12,
+371,abul-kalam-azad,Abul Kalam Azad,Muslim scholar-politician of anti-colonial India,leader,2,yes,82,68,complete,0,C,12,
+372,abul-khair-language,Abul Khair,Language movement activist,leader,2,yes,86,74,complete,0,C,12,
+373,abul-mansur-ahmad,Abul Mansur Ahmad,Writer and Political Thinker,leader,2,yes,62,58,complete,0,C,12,
+374,akhter-hossen,Akhter Hossen,Coordinator (Students Against Discrimination),coordinator,2,yes,71,65,complete,0,C,12,
+375,alauddin-husain-shah,Alauddin Husain Shah,Founder of the Hussain Shahi dynasty and Sultan of Bengal,leader,2,no,213,193,complete,0,B,12,consider an image after editorial review
+376,alm-fazlur-rahman,A. L. M. Fazlur Rahman,Chief of later independent investigation commission,leader,2,yes,87,74,complete,0,C,12,
+377,anwar-hossain-manju,Anwar Hossain Manju,Politician,leader,2,yes,87,76,complete,0,C,12,
+378,anwar-pasha,Anwar Pasha,Martyred Writer and Academic,martyr,2,yes,67,53,complete,0,C,12,
+379,asif-mahmud,Asif Mahmud,Coordinator; later interim-government adviser,coordinator,2,yes,89,74,complete,0,C,12,
+380,asif-nazrul,Asif Nazrul,Legal scholar and interim-government adviser,leader,2,yes,78,67,complete,0,C,12,
+381,atm-azharul-islam,ATM Azharul Islam,Jamaat leader in contested 1971 war-crimes proceedings,leader,2,no,121,110,complete,0,B,12,consider an image after editorial review
+382,atm-haider,A. T. M. Haider,"Sector Commander (Sector 2, later phase)",leader,2,yes,76,63,complete,0,C,12,
+383,ballala-sena,Ballala Sena,"Sena ruler, Shaiva patron, and Sanskrit author",leader,2,no,153,150,complete,0,B,12,consider an image after editorial review
+384,begum-rokeya,Begum Rokeya,Pioneer of women’s education and reform in Bengal,leader,2,yes,81,70,complete,0,C,12,
+385,devapala,Devapala,"Pala emperor, military ruler, and Buddhist patron",leader,2,no,193,166,complete,0,B,12,consider an image after editorial review
+386,dharmapala,Dharmapala,"Pala emperor, imperial strategist, and Buddhist patron",leader,2,no,212,187,complete,0,B,12,consider an image after editorial review
+387,dinabandhu-mitra,Dinabandhu Mitra,Bengali playwright and critic of indigo-planter oppression,leader,2,no,151,134,complete,0,B,12,consider an image after editorial review
+388,dinesh-chandra-sen,Dinesh Chandra Sen,Scholar of Bengali literature,leader,2,yes,86,75,complete,0,C,12,
+389,fakhruddin-ahmed,Fakhruddin Ahmed,Chief adviser of caretaker government,leader,2,yes,85,77,complete,0,C,12,
+390,fakhruddin-mubarak-shah,Fakhruddin Mubarak Shah,Founder of the independent Sonargaon Sultanate,leader,2,no,149,133,complete,0,B,12,consider an image after editorial review
+391,farrukhsiyar,Farrukhsiyar,Mughal emperor who formalized Bengal's nawabi phase,leader,2,no,166,170,complete,0,B,12,consider an image after editorial review
+392,gaziul-huq,ANM Gaziul Huq,Language Movement Leader,leader,2,yes,69,60,complete,0,C,12,
+393,gopala-i,Gopala I,Founder of the Pala dynasty and consolidator of Bengal,leader,2,no,221,190,complete,0,B,12,consider an image after editorial review
+394,harish-chandra-mukherjee,Harish Chandra Mukherjee,Founding editor of the Hindoo Patriot and public commentator,leader,2,no,140,122,complete,0,B,12,consider an image after editorial review
+395,iajuddin-ahmed,Iajuddin Ahmed,President and chief adviser,leader,2,yes,81,78,complete,0,C,12,
+396,ikhtiyar-al-din-muhammad-bakhtiyar-khalji,Ikhtiyar al-Din Muhammad Bakhtiyar Khalji,Turkic military commander,leader,2,yes,82,71,complete,0,C,12,
+397,jadunath-sarkar,Jadunath Sarkar,Historian of Mughal India,leader,2,yes,92,76,complete,0,C,12,
+398,jalaluddin-muhammad-shah,Jalaluddin Muhammad Shah,Bengal Sultan who consolidated power after the Raja Ganesh crisis,leader,2,no,221,196,complete,0,B,12,consider an image after editorial review
+399,jamiat-e-ulema-e-islam-bangladesh,Jamiat-e-Ulema-e-Islam Bangladesh,Religious-Political Party in Bangladesh,organization,2,no,165,148,complete,0,B,12,consider an image after editorial review
+400,jatin-das,Jatin Das,Anti-colonial activist,leader,2,yes,82,70,complete,0,C,12,
+401,job-charnock,Job Charnock,East India Company agent and Bengal settlement administrator,leader,2,no,155,138,complete,0,B,12,consider an image after editorial review
+402,junaid-babunagari,Junaid Babunagari,Counter-mobilization organizer,leader,2,yes,82,71,complete,0,C,12,
+403,kader-siddique,Abdul Kader Siddique,Guerrilla Commander ('Tiger Siddique'),leader,2,yes,71,58,complete,0,C,12,
+404,kalpana-datta,Kalpana Datta,Anti-colonial revolutionary,leader,2,yes,77,72,complete,0,C,12,
+405,kamal-lohani,Kamal Lohani,Cultural Activist,leader,2,yes,70,62,complete,0,C,12,
+406,kazi-golam-mahbub,Kazi Golam Mahbub,Student Leader and Convener,coordinator,2,yes,75,56,complete,0,C,12,
+407,kazi-nazrul-islam,Kazi Nazrul Islam,"Poet, composer, and anti-imperial voice",leader,2,yes,85,73,complete,0,C,12,
+408,km-shafiullah,K. M. Shafiullah,Sector 3 Commander and S Force Leader,leader,2,yes,69,60,complete,0,C,12,
+409,lord-louis-mountbatten,Lord Louis Mountbatten,Last Viceroy of India,coordinator,2,yes,64,61,complete,0,C,12,
+410,man-singh-i,Man Singh I,Mughal commander in Bengal campaigns,leader,2,no,165,150,complete,0,B,12,consider an image after editorial review
+411,michael-madhusudan-dutt,Michael Madhusudan Dutt,Poet-dramatist and pioneer of modern Bengali literary form,leader,2,yes,88,73,complete,0,C,12,
+412,mir-mahfuzur-rahman-mugdho,Mir Mahfuzur Rahman Mugdho,Symbolic martyr,martyr,2,yes,72,65,complete,0,C,12,
+413,mir-qasim,Mir Qasim,Nawab of Bengal and challenger to East India Company power,leader,2,no,159,151,complete,0,B,12,consider an image after editorial review
+414,mirza-fakhrul-islam-alamgir,Mirza Fakhrul Islam Alamgir,Secretary General of the Bangladesh Nationalist Party,leader,2,yes,80,69,complete,0,C,12,
+415,moeen-u-ahmed,General Moeen U Ahmed,Chief of Army Staff,leader,2,yes,64,69,complete,0,C,12,
+416,moin-u-ahmed,Moin U Ahmed,Army chief,leader,2,yes,77,72,complete,0,C,12,
+417,mujibul-haque-chunnu,Mujibul Haque Chunnu,Jatiya Party politician and former parliamentarian,leader,2,no,183,172,complete,0,B,12,consider an image after editorial review
+418,munier-chowdhury,Munier Chowdhury,"Teacher, Playwright, and Language Movement Intellectual",leader,2,yes,73,70,complete,0,C,12,
+419,munim-khan,Munim Khan,Mughal general and first Mughal governor of Bengal,leader,2,no,153,137,complete,0,B,12,consider an image after editorial review
+420,nawab-abdul-ghani,Nawab Abdul Ghani,Dhaka Nawab and civic patron,leader,2,no,179,173,complete,0,B,12,consider an image after editorial review
+421,nawab-ali-chowdhury,Nawab Ali Chowdhury,Muslim education patron and politician,leader,2,no,190,180,complete,0,B,12,consider an image after editorial review
+422,nizamul-huq-judge,Nizamul Huq,Former High Court judge and International Crimes Tribunal chair,leader,2,no,178,160,complete,0,B,12,consider an image after editorial review
+423,noor-mohammad-sheikh,Noor Mohammad Sheikh,Bir Sreshtho (EPR Martyr),martyr,2,yes,69,51,complete,0,C,12,
+424,prafulla-chandra-ray,Prafulla Chandra Ray,Chemist and education reform advocate,leader,2,yes,84,72,complete,0,C,12,
+425,pulin-behari-das,Pulin Behari Das,Revolutionary organizer in eastern Bengal,revolutionary,2,no,175,146,complete,0,B,12,consider an image after editorial review
+426,rafiq-uddin-ahmed,Rafiq Uddin Ahmed,Language movement martyr,leader,2,no,166,139,complete,0,B,12,consider an image after editorial review
+427,raja-ganesh,Raja Ganesh,Bhaturia landlord and ruler during Bengal's fifteenth-century succession crisis,leader,2,no,242,212,complete,0,B,12,consider an image after editorial review
+428,raja-sitaram-ray,Raja Sitaram Ray,Zamindar of Bhusna and fortified regional ruler,leader,2,no,203,179,complete,0,B,12,consider an image after editorial review
+429,salahuddin-quader-chowdhury,Salahuddin Quader Chowdhury,"BNP politician, parliamentarian, and convicted war-crimes defendant",leader,2,no,214,194,complete,0,B,12,consider an image after editorial review
+430,shafiur-rahman,Shafiur Rahman,Language movement martyr,leader,2,no,171,146,complete,0,B,12,consider an image after editorial review
+431,shah-ahmad-shafi,Shah Ahmad Shafi,Counter-mobilization religious leader,leader,2,yes,86,78,complete,0,C,12,
+432,shah-alam-ii,Shah Alam II,Mughal emperor and grantor of the Bengal Diwani,leader,2,no,207,172,complete,0,B,12,consider an image after editorial review
+433,shah-ams-kibria,Shah A. M. S. Kibria,Diplomat and finance minister,leader,2,no,205,193,complete,0,B,12,consider an image after editorial review
+434,shamsuzzoha,Shamsuzzoha,Symbol of Pre-1971 Resistance Legacy,martyr,2,yes,75,58,complete,0,C,12,
+435,sher-shah-suri,Sher Shah Suri,Afghan ruler who defeated Humayun at Chausa,leader,2,no,205,183,complete,0,B,12,consider an image after editorial review
+436,sikandar-shah,Sikandar Shah,Iliyas Shahi Sultan of Bengal,leader,2,no,155,141,complete,0,B,12,consider an image after editorial review
+437,siraj-sikder,Siraj Sikder,Revolutionary political leader and founder of the Sarbahara movement,leader,2,no,166,155,complete,0,B,12,consider an image after editorial review
+438,suniti-kumar-chatterji,Suniti Kumar Chatterji,Linguist,leader,2,yes,93,82,complete,0,C,12,
+439,syama-prasad-mukherjee,Syama Prasad Mukherjee,Hindu Mahasabha Leader,leader,2,yes,66,57,complete,0,C,12,
+440,syeda-rizwana-hasan,Syeda Rizwana Hasan,Rights lawyer and interim-government adviser,leader,2,yes,71,67,complete,0,C,12,
+441,abu-osman-chowdhury,Abu Osman Chowdhury,Sector 8 Commander (Early Phase),leader,3,yes,76,56,complete,0,C,11,
+442,akbar,Akbar,Mughal emperor directing imperial expansion into Bengal,leader,3,yes,76,69,complete,0,C,11,
+443,asm-abdur-rab,A S M Abdur Rab,Student leader and 1971 flag-raising figure,leader,3,yes,92,78,complete,0,C,11,
+444,bankim-chandra-chattopadhyay,Bankim Chandra Chattopadhyay,Novelist and formative voice of modern Bengali prose,leader,3,yes,77,67,complete,0,C,11,
+445,chand-rai,Chand Rai,Vikrampur zamindar and Bhati military chief,leader,3,no,202,188,complete,0,B,11,consider an image after editorial review
+446,golam-azam,Ghulam Azam,Islamist political leader,leader,3,yes,84,76,complete,0,C,11,
+447,haji-shariatullah,Haji Shariatullah,Founder of the Faraizi reform movement,leader,3,yes,80,69,complete,0,C,11,
+448,hussain-muhammad-ershad,Hussain Muhammad Ershad,Army Chief and Military Ruler,leader,3,yes,72,69,complete,0,C,11,
+449,imran-h-sarkar,Imran H. Sarkar,Spokesperson of Gonojagoron Moncho,leader,3,yes,93,77,complete,0,C,11,
+450,isa-khan,Isa Khan,Leader of the Bhati resistance and central Baro-Bhuyans figure,leader,3,yes,78,68,complete,0,C,11,
+451,kedar-rai,Kedar Rai,"Vikrampur zamindar, naval commander, and Bara-Bhuiyan chief",leader,3,no,210,190,complete,0,B,11,consider an image after editorial review
+452,krishnachandra-ray-of-nadia,Krishnachandra Ray of Nadia,"Nadia zamindar, cultural patron, and Company-era political broker",leader,3,no,222,196,complete,0,B,11,consider an image after editorial review
+453,lakshmana-sena,Lakshmana Sena,"Sena ruler, Vaishnava patron, and court-culture builder",leader,3,no,202,183,complete,0,B,11,consider an image after editorial review
+454,liaquat-ali-khan,Liaquat Ali Khan,Muslim League Statesman,leader,3,yes,67,55,complete,0,C,11,
+455,mukunda-ray-of-bhusna,Mukunda Ray of Bhusna,Bhusna chief and Bara-Bhuiyan zamindar,leader,3,no,208,164,complete,0,B,11,consider an image after editorial review
+456,murshid-quli-khan,Murshid Quli Khan,Nawab of Bengal,leader,3,yes,81,76,complete,0,C,11,
+457,musa-khan,Musa Khan,"Zamindar, ruler of Bhati, and Baro-Bhuyans leader",leader,3,no,155,145,complete,0,B,11,consider an image after editorial review
+458,nawab-abdul-latif,Nawab Abdul Latif,Muslim education reform advocate in Bengal,leader,3,yes,73,69,complete,0,C,11,
+459,oli-ahad,Oli Ahad,Student and Political Activist,leader,3,yes,70,54,complete,0,C,11,
+460,pratapaditya,Pratapaditya,"Jessore zamindar, regional ruler, and naval commander",leader,3,no,228,208,complete,0,B,11,consider an image after editorial review
+461,rao-farman-ali,Rao Farman Ali,Pakistan Army major general linked to Operation Searchlight planning and intellectual-killings allegations,leader,3,yes,116,100,complete,0,C,11,
+462,ruhul-amin,Mohammad Ruhul Amin,Bir Sreshtho (Naval Martyr),martyr,3,yes,77,51,complete,0,C,11,
+463,shamsuddin-ilyas-shah,Shamsuddin Ilyas Shah,Sultan of Bengal,leader,3,yes,84,72,complete,0,C,11,
+464,subhas-chandra-bose,Subhas Chandra Bose,Nationalist leader with major Bengal political roots,leader,3,yes,92,75,complete,0,C,11,
+465,tamizuddin-khan,Tamizuddin Khan,Constitutional Leader from East Bengal,leader,3,yes,70,58,complete,0,C,11,
+466,ahm-qamaruzzaman,A. H. M. Qamaruzzaman,Home affairs leader in the Provisional Government,leader,4,yes,95,77,complete,0,C,10,
+467,alivardi-khan,Alivardi Khan,Former Nawab of Bengal,leader,4,yes,69,68,complete,0,C,10,
+468,ayub-khan,Ayub Khan,Military ruler and President of Pakistan,leader,4,yes,88,86,complete,0,C,10,
+469,bangladesh-nationalist-party,Bangladesh Nationalist Party,Political Organization,organization,4,yes,66,60,complete,0,C,10,
+470,daud-khan-karrani,Daud Khan Karrani,Last major Afghan ruler defeated at Rajmahal,leader,4,yes,87,76,complete,0,C,10,
+471,khaled-mosharraf,Khaled Mosharraf,Sector 2 Commander and K Force Leader,leader,4,yes,76,69,complete,0,C,10,
+472,mansur-ali,Muhammad Mansur Ali,Mujibnagar minister and later prime minister,leader,4,yes,108,87,complete,0,C,10,
+473,muhammad-yunus,Dr. Muhammad Yunus,Interim government chief adviser,leader,4,yes,76,64,complete,0,C,10,
+474,nahid-islam,Nahid Islam,Coordinator; later interim-government adviser,coordinator,4,yes,98,78,complete,0,C,10,
+475,nusrat-shah,Nusrat Shah,"Hussain Shahi sultan, diplomat, and frontier ruler",leader,4,no,223,207,complete,0,B,10,consider an image after editorial review
+476,raja-rammohun-roy,Raja Rammohun Roy,Early reformer and key intellectual of the Bengal Renaissance,leader,4,yes,93,74,complete,0,C,10,
 477,robert-clive,Robert Clive,East India Company Commander,leader,4,yes,108,98,complete,0,C,10,
 478,shamsul-huq,Shamsul Huq,Convener of Early Language Committee,coordinator,4,yes,70,53,complete,0,C,10,
 479,syed-ameer-ali,Syed Ameer Ali,Jurist and Muslim political intellectual,leader,4,yes,104,102,complete,0,C,10,
