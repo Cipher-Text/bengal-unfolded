@@ -740,6 +740,7 @@ export const SUPPORTED_FIGURE_IDS = [
   "tikka-khan",
   "zahir-raihan",
   "zohra-tajuddin",
+  "habildar-rojob-ali-khan",
 ] as const;
 export const SUPPORTED_PERIOD_IDS = [
   "ancient-and-pre-sultanate-bengal",
