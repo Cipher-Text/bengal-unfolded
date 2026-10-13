@@ -16,6 +16,18 @@
   - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=91, C=316, B=91, A=54.
   - Risk/known gaps: the sources are editorial retrospectives, so political interpretation remains attributed and the profile does not add unsupported claims about the 1990 movement.
 
+- Continued the D-tier figure-content enrichment pass with K. M. Obaidur Rahman.
+  - Content backfill: replaced generic EN/BN contribution, context, and impact text with sourced coverage of student politics, the 1969 uprising, the 1971 non-cooperation movement and Liberation War, parliamentary service, and later party leadership; added biographical years, a sourced FAQ, and tags.
+  - Sources: added Bangladesh Sangbad Sangstha and New Age records in both locales and linked them from the figure FAQ.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=90, C=316, B=92, A=54.
+  - Risk/known gaps: the sources are editorial reports; the profile avoids expanding into the 1975 jail-killing allegations without a dedicated judicial source review.
+
+- Completed the next 10-profile D-tier figure-content batch: Muhammad Kamaruzzaman, Rokeya Kabir, Selina Parvin, Shah Azizur Rahman, Shahidullah Kaiser, Shamsur Rahman, Sheikh Fazlul Haque Moni, Syed Shamsul Haq, Abdul Jabbar, and Abdul Mannan.
+  - Content backfill: replaced generic or shallow EN/BN contribution, context, and impact text with profile-specific political, literary, cultural, and Liberation War context; expanded active periods where supported by existing event links and reference research.
+  - Sensitive-history handling: kept Kamaruzzaman's tribunal history distinct from defence challenges; preserved attributed wording around Shah Azizur Rahman's wartime position, the 1975 killing, and the martyred-intellectual profiles.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=80, C=326, B=92, A=54, with zero generic-language flags and zero incomplete SEO profiles.
+  - Risk/known gaps: this batch improved profile depth but did not add image assets or new resource records; dedicated source-record backfills remain appropriate for the most sensitive profiles before further expansion.
+
 ## 2026-09-18
 
 ### Completed

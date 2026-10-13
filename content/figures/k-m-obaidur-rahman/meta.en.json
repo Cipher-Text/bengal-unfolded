@@ -3,12 +3,14 @@
   "name_en": "K. M. Obaidur Rahman",
   "role": "Politician",
   "group": "leader",
-  "contribution": "K. M. Obaidur Rahman was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history.",
+  "contribution": "K. M. Obaidur Rahman was a student leader and politician who participated in the 1969 mass uprising and the 1971 non-cooperation and Liberation War movements. He later served in parliament, held ministerial responsibilities, and became secretary general of the Bangladesh Nationalist Party.",
+  "context": "Born in 1940 in Laskardia, Faridpur, Obaidur Rahman was involved in student politics and was elected to Pakistan's National Assembly in 1970. During 1971 he worked with the non-cooperation movement and supported the Liberation War; his later career crossed Bangladesh Awami League and BNP politics.",
+  "impact": "Obaidur Rahman's career illustrates the political transitions linking student activism, the independence movement, early parliamentary government, and later competitive party politics in Bangladesh. His public legacy is also shaped by his movement between major political parties and his ministerial and parliamentary roles.",
   "seoTitle": "K. M. Obaidur Rahman - 1971 Liberation War Profile",
   "seoDescription": "Profile of K. M. Obaidur Rahman, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
   "shortAnswer": "K. M. Obaidur Rahman is linked to the 1971 Liberation War in this timeline as Politician.",
+  "birthYear": "1940",
+  "deathYear": "2007",
   "activePeriod": "1971",
   "primaryEventIds": [
     "1971-liberation-war"
@@ -29,12 +31,15 @@
   "faq": [
     {
       "question": "How is K. M. Obaidur Rahman connected to 1971?",
-      "answer": "K. M. Obaidur Rahman is linked to the Liberation War through the project timeline as Politician. K. M. Obaidur Rahman was an important figure in the political and historical trajectory of Bengal and."
+      "answer": "He participated in the 1971 non-cooperation movement and supported the Liberation War, including work connected to the political organization of the war effort.",
+      "sourceIds": ["km-obaidur-rahman-bss", "km-obaidur-rahman-new-age"]
     }
   ],
   "tags": [
     "1971",
     "liberation-war",
-    "political-leadership"
+    "political-leadership",
+    "student-politics",
+    "party-politics"
   ]
 }
