@@ -28,6 +28,12 @@
   - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=80, C=326, B=92, A=54, with zero generic-language flags and zero incomplete SEO profiles.
   - Risk/known gaps: this batch improved profile depth but did not add image assets or new resource records; dedicated source-record backfills remain appropriate for the most sensitive profiles before further expansion.
 
+- Completed the following 10-profile D-tier figure-content batch: Abdus Samad Azad, Abu Saleh Mohammad Akram, Amir Hossain Amu, Badiul Alam, Bidhan Chandra Roy, Bijan Kumar Mukherjea, Faisal Ahmed Shanto, Farhan Faiyaaz, Fazle Rabbi, and Hamidur Rahman.
+  - Content backfill: expanded bilingual contribution, context, and impact fields with political, Partition, Liberation War, urban-resistance, martyred-intellectual, and 2024 protest-memory context.
+  - Sensitive-history handling: retained uncertainty around 2024 casualty circumstances and used restrained wording for wartime targeted-killing and protest-memory claims.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=65, C=341, B=92, A=54, with zero generic-language flags and zero incomplete SEO profiles.
+  - Risk/known gaps: image coverage remains unchanged at 156 profiles without image assets; source-record enrichment remains a follow-up for profiles with sensitive or disputed histories.
+
 ## 2026-09-18
 
 ### Completed
