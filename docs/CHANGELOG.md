@@ -4,6 +4,12 @@
 
 ### Completed
 
+- Completed the next 20-profile D-tier figure-content batch: Shamsul Alam, Suranjit Sengupta, Tahmid Abdullah, Vallabhbhai Patel, Wasim Akram, Yamin, Zahid Hossain, Abdul Jalil, Abdul Malek Ukil, Abdur Razzaq, Dr Alim Chowdhury, Binod Bihari Chowdhury, C. R. Dutta, Cyril Radcliffe, Dhirendranath Datta, Ghyasuddin Ahmed, Humayun Azad, Humayun Kabir, Ila Mitra, and Jasimuddin.
+  - Content backfill: expanded bilingual contribution, context, and impact fields with specific language-movement, Liberation War, Partition, anti-colonial, democratic, literary, agrarian, and cultural-history detail.
+  - Sensitive-history handling: kept July 2024 casualty profiles time-bounded and cautious; retained historically precise wording for targeted killings, partition boundaries, and wartime political roles.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=35, C=371, B=92, A=54, with zero generic-language flags and zero incomplete SEO profiles.
+  - Risk/known gaps: image coverage remains unchanged at 156 profiles without image assets; source-record enrichment remains a follow-up for profiles with sensitive or incomplete histories.
+
 - Completed the next 10-profile D-tier figure-content batch: Kiran Shankar Roy, Mir Madan, Mujahidul Islam Selim, Nazmul Huq, Nur Hossain, Prafulla Chandra Ghosh, Riya Gope, Satya Ranjan Bakshi, Shaheed Rudro, and Shahnaz Rahmatullah.
   - Content backfill: expanded bilingual contribution, context, and impact fields with specific United Bengal, Plassey, Liberation War, democratic-movement, protest-memory, post-partition, and cultural-history detail.
   - Sensitive-history handling: kept July 2024 casualty profiles explicitly cautious where public biographical detail is incomplete; retained source-aligned wording for Nur Hossain, Nazmul Huq, and contested 1947 histories.
