@@ -3,12 +3,14 @@
   "name_en": "Mofazzal Haider Chaudhury",
   "role": "Academic and intellectual",
   "group": "leader",
-  "contribution": "Mofazzal Haider Chaudhury was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history.",
+  "contribution": "Mofazzal Haider Chaudhury was a Bengali linguist, essayist, educator, and scholar of Bangla literature. He joined the University of Dhaka in 1955, wrote works including Rabi Parikrama, and received the Bangla Academy Prize in 1971.",
+  "context": "Born in 1926 in Khalishpur in Noakhali, Chaudhury studied Bangla at Calcutta University and Dhaka University before teaching and researching at the University of Dhaka. His work connected language study, literary criticism, and public intellectual life in East Pakistan.",
+  "impact": "Chaudhury is remembered both for his contribution to Bangla language and literature and as one of the intellectuals abducted and killed on 14 December 1971. His career and death connect cultural scholarship with the violence and memory of the Liberation War.",
   "seoTitle": "Mofazzal Haider Chaudhury - 1971 Liberation War Profile",
   "seoDescription": "Profile of Mofazzal Haider Chaudhury, focusing on 1971 Liberation War connections, historical role, and related Bangladesh history.",
   "shortAnswer": "Mofazzal Haider Chaudhury is linked to the 1971 Liberation War in this timeline as Academic and intellectual.",
+  "birthYear": "1926",
+  "deathYear": "1971",
   "activePeriod": "1971",
   "primaryEventIds": [
     "1971-operation-searchlight-crackdown",
@@ -32,13 +34,15 @@
   "faq": [
     {
       "question": "How is Mofazzal Haider Chaudhury connected to 1971?",
-      "answer": "Mofazzal Haider Chaudhury is linked to the Liberation War through the project timeline as Academic and intellectual. Mofazzal Haider Chaudhury was an important figure in the political and historical trajectory of Bengal and."
+      "answer": "He was abducted and killed on 14 December 1971, in the final days of the Liberation War, and is remembered as a martyred intellectual.",
+      "sourceIds": ["mofazzal-haider-chaudhury-banglapedia", "martyred-intellectuals-ucl"]
     }
   ],
   "tags": [
     "1971",
     "liberation-war",
     "political-leadership",
-    "intellectual-history"
+    "intellectual-history",
+    "martyred-intellectuals"
   ]
 }

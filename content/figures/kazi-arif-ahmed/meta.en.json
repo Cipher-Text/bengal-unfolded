@@ -3,12 +3,13 @@
   "name_en": "Kazi Arif Ahmed",
   "role": "Left political leader",
   "group": "leader",
-  "contribution": "Kazi Arif Ahmed was an important figure in the political and historical trajectory of Bengal and Bangladesh.",
-  "context": "South Asian political and intellectual history in the Bengal region.",
-  "impact": "Their legacy remains relevant to understanding state, society, and memory in Bengal/Bangladesh history.",
+  "contribution": "Kazi Arif Ahmed was a left political organizer associated with the 1960s student movement, the Swadhin Bangla Biplobi Parishad, and the Bangladesh Liberation War. He later served as president of the Jatiya Samajtantrik Dal.",
+  "context": "Ahmed worked in the political networks that linked student activism, the 1969 mass uprising, and the movement for Bangladesh's independence. His later public life connected left politics with campaigns to prosecute crimes committed during the Liberation War.",
+  "impact": "Ahmed's historical significance lies in the continuity between pre-1971 organizing, the Liberation War, and post-independence debates over secularism and accountability. He was killed at a political rally in Kushtia on 16 February 1999; the case later produced convictions and executions.",
   "seoTitle": "Kazi Arif Ahmed - 1990 Mass Uprising Profile",
   "seoDescription": "Profile of Kazi Arif Ahmed, tracing links to the 1990 Mass Uprising, anti-Ershad movement, and democratic transition in Bangladesh.",
   "shortAnswer": "Kazi Arif Ahmed is linked to the 1990 Mass Uprising in this timeline as Left political leader.",
+  "activePeriod": "1960s-1999",
   "activePeriod": "1990-1991",
   "primaryEventIds": [
     "1990-mass-uprising",
@@ -30,7 +31,8 @@
   "faq": [
     {
       "question": "How is Kazi Arif Ahmed connected to the 1990 Mass Uprising?",
-      "answer": "Kazi Arif Ahmed is connected to the anti-Ershad democratic movement as Left political leader. Kazi Arif Ahmed was an important figure in the political and historical trajectory of Bengal and Bangladesh."
+      "answer": "His profile belongs to the wider history of left and democratic organizing in Bangladesh, including the political transition around the 1990 anti-Ershad movement. His earlier Liberation War organizing and later Jatiya Samajtantrik Dal leadership provide the longer context.",
+      "sourceIds": ["kazi-aref-ahmed-daily-star", "kazi-aref-ahmed-prothom-alo"]
     }
   ],
   "tags": [
@@ -38,6 +40,8 @@
     "democracy",
     "anti-ershad-movement",
     "party-politics",
-    "civic-culture"
+    "civic-culture",
+    "liberation-war-organizers",
+    "left-politics"
   ]
 }

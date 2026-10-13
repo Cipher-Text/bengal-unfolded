@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-13
+
+### Completed
+
+- Began the D-tier figure-content enrichment pass with Mofazzal Haider Chaudhury.
+  - Content backfill: replaced generic contribution, context, and impact text in EN/BN with source-backed academic, literary, and 1971 historical detail; added birth/death years, a sourced FAQ, and a martyred-intellectuals tag.
+  - Sources: added Banglapedia and University College London reference records in both locales and linked them from the figure FAQ.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=92, C=316, B=90, A=54.
+  - Risk/known gaps: image coverage remains unchanged at 156 profiles without an image asset; the remaining D-tier profiles require separate source-backed enrichment.
+
+- Continued the D-tier figure-content enrichment pass with Kazi Arif Ahmed.
+  - Content backfill: replaced generic EN/BN contribution, context, and impact text with sourced coverage of student organizing, the 1969 movement, Liberation War links, Jatiya Samajtantrik Dal leadership, and his 1999 killing; added a contextual FAQ and political-history tags.
+  - Sources: added Daily Star and Prothom Alo retrospective records in both locales and linked them from the figure FAQ.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=91, C=316, B=91, A=54.
+  - Risk/known gaps: the sources are editorial retrospectives, so political interpretation remains attributed and the profile does not add unsupported claims about the 1990 movement.
+
 ## 2026-09-18
 
 ### Completed
