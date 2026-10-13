@@ -4,6 +4,12 @@
 
 ### Completed
 
+- Completed the next 20-profile D-tier figure-content batch: Jawaharlal Nehru, Kazi Motahar Hossain, Khwaja Shahabuddin, Major M. A. Jalil, Major Zafar Imam, Matia Chowdhury, Maulana Akram Khan, Meghnad Saha, Mir Shawkat Ali, Mohammad Toaha, Mostafa Kamal, Moudud Ahmed, Muhammad Shahidullah, Muzaffar Ahmad, Nihar Ranjan Ray, R. C. Majumdar, S. A. Rahman, Selina Hossain, Somnath Lahiri, and Sufia Kamal.
+  - Content backfill: expanded bilingual contribution, context, and impact fields with specific language-movement, Liberation War, Partition, scientific, literary, agrarian, constitutional, and civic-history detail.
+  - Sensitive-history handling: preserved careful wording for wartime command, partition boundaries, political transitions, and historiographical interpretation.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=15, C=391, B=92, A=54, with zero generic-language flags and zero incomplete SEO profiles.
+  - Risk/known gaps: image coverage remains unchanged at 156 profiles without image assets; source-record enrichment remains a follow-up for profiles with sensitive or incomplete histories.
+
 - Completed the next 20-profile D-tier figure-content batch: Shamsul Alam, Suranjit Sengupta, Tahmid Abdullah, Vallabhbhai Patel, Wasim Akram, Yamin, Zahid Hossain, Abdul Jalil, Abdul Malek Ukil, Abdur Razzaq, Dr Alim Chowdhury, Binod Bihari Chowdhury, C. R. Dutta, Cyril Radcliffe, Dhirendranath Datta, Ghyasuddin Ahmed, Humayun Azad, Humayun Kabir, Ila Mitra, and Jasimuddin.
   - Content backfill: expanded bilingual contribution, context, and impact fields with specific language-movement, Liberation War, Partition, anti-colonial, democratic, literary, agrarian, and cultural-history detail.
   - Sensitive-history handling: kept July 2024 casualty profiles time-bounded and cautious; retained historically precise wording for targeted killings, partition boundaries, and wartime political roles.
@@ -88,5 +94,3 @@
 
 - Continued the figure-content SEO audit through the next 10 profiles: Isa Khan, Murshid Quli Khan, Nawab Abdul Latif, Shamsuddin Ilyas Shah, Abul Fazal, Imam Ahmad Sirhindi, Alivardi Khan, Ashraf Ali Thanwi, Ayub Khan, and Farrukh Ahmad.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields where needed; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Sultanate, Mughal, reform, literary, and East Pakistan political histories are framed with specific chronology and contextual wording.
-  - Documentation: regenerated `docs/figure-content-audit.csv`; the next highest-priority unfinished profile is now Ishwar Chandra Vidyasagar.
-  - Model/validation/UI: no schema, validator, or runtime changes required. `pnpm content:validate` passes for all 168 events.
