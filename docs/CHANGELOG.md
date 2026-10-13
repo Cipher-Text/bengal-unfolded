@@ -4,6 +4,11 @@
 
 ### Completed
 
+- Began the people-only birth/death metadata pass with A. A. K. Niazi, Muhammad Ali Jinnah, Sam Manekshaw, Tikka Khan, and Yahya Khan.
+  - Content backfill: added bilingual birth and death years; Jinnah's disputed birth year is explicitly marked with `?` rather than presented as certain.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes; the people-only queue is now 437 of 489 profiles missing at least one year.
+  - Risk/known gaps: living people, collective entities, and uncertain historical dates remain excluded from forced completion and require separate editorial review.
+
 - Completed the final five-profile D-tier figure-content batch: Justice Shahabuddin Ahmed, Tikka Khan, Abul Hashim, Mahatma Gandhi, and Nurul Amin.
   - Content backfill: replaced generic EN/BN contribution, context, and impact text with specific coverage of the 1990 caretaker transition, the 1971 Eastern Command context, the Bengal Muslim League and United Bengal debate, Gandhi's Noakhali peace intervention, and the early East Bengal language and representation crisis.
   - Sensitive-history handling: described Tikka Khan's documented command position and association with Operation Searchlight without converting disputed downstream allegations into settled fact; kept the language-movement claims about Nurul Amin time-bounded and attributed.
