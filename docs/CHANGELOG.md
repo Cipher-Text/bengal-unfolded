@@ -4,6 +4,12 @@
 
 ### Completed
 
+- Completed the next 20-profile figure-content batch: Zahir Raihan, Zohra Tajuddin, Abdul Matin, Abdur Rashid Tarkabagish, Abul Kasem, Ataur Rahman Khan, M. A. G. Osmani, Manik Mia, Sarat Chandra Bose, Tofail Ahmed, Imam Ahmad Sirhindi, Ashraf Ali Thanwi, Farrukh Ahmad, Jibanananda Das, Karamat Ali Jaunpuri, Muhammad Iqbal, Munshi Mohammad Meherullah, Professor Abdur Razzaq, Maulana Qasim Nanautavi, and Rashid Ahmad Gangohi.
+  - Content backfill: expanded bilingual contribution, context, and impact fields across Liberation War, language movement, constitutional, literary, cinematic, political, and Islamic intellectual histories.
+  - Sensitive-history handling: preserved cautious wording for wartime disappearance, political transitions, partition alternatives, and religious-intellectual influence across Bengal and South Asia.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports D=5, C=401, B=92, A=54, with zero generic-language flags and zero incomplete SEO profiles.
+  - Risk/known gaps: image coverage remains unchanged at 156 profiles without image assets; source-record enrichment remains a follow-up for profiles with sensitive or incomplete histories.
+
 - Completed the next 20-profile D-tier figure-content batch: Jawaharlal Nehru, Kazi Motahar Hossain, Khwaja Shahabuddin, Major M. A. Jalil, Major Zafar Imam, Matia Chowdhury, Maulana Akram Khan, Meghnad Saha, Mir Shawkat Ali, Mohammad Toaha, Mostafa Kamal, Moudud Ahmed, Muhammad Shahidullah, Muzaffar Ahmad, Nihar Ranjan Ray, R. C. Majumdar, S. A. Rahman, Selina Hossain, Somnath Lahiri, and Sufia Kamal.
   - Content backfill: expanded bilingual contribution, context, and impact fields with specific language-movement, Liberation War, Partition, scientific, literary, agrarian, constitutional, and civic-history detail.
   - Sensitive-history handling: preserved careful wording for wartime command, partition boundaries, political transitions, and historiographical interpretation.

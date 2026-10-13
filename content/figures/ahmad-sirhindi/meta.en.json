@@ -3,25 +3,31 @@
   "name_en": "Imam Ahmad Sirhindi",
   "role": "Naqshbandi scholar and Sunni revivalist",
   "group": "leader",
-  "contribution": "His Naqshbandi writings and reformist claims helped shape later South Asian Muslim revivalist thought.",
-  "context": "In Mughal India, he argued for renewed Sunni discipline and became known as Mujaddid Alf-e-Sani, an early modern reformist reference point.",
-  "impact": "He provides deep intellectual background for later Muslim reform traditions that influenced North India and Bengal.",
+  "contribution": "Ahmad Sirhindi was a Naqshbandi scholar whose letters and reformist arguments shaped early modern Sunni debates in South Asia.",
+  "context": "He advocated renewed adherence to Sunni practice and became known as Mujaddid Alf-e-Sani, a title reflecting his influence among later reform traditions.",
+  "impact": "His thought provides background for the intellectual networks that later circulated through North India and Bengal.",
   "highlight": "An early intellectual root of South Asian Muslim revivalist thought.",
   "seoTitle": "Imam Ahmad Sirhindi: Naqshbandi Scholar and Reformer",
   "seoDescription": "Learn about Imam Ahmad Sirhindi's Naqshbandi writings and influence on later Muslim revivalist thought in South Asia.",
   "shortAnswer": "Imam Ahmad Sirhindi was an early modern South Asian Muslim scholar associated with Naqshbandi reform thought.",
   "activePeriod": "1564–1624",
-  "relatedPlaceIds": ["bengal-region"],
-  "alternateNames": ["Mujaddid Alf-e-Sani", "Ahmad Sirhindi", "Imam Rabbani"],
-  "searchAliases": ["Imam Ahmad Sirhindi reform", "Mujaddid Alf Sani", "ইমাম আহমদ সিরহিন্দী"],
-  "seoTitle": "Imam Ahmad Sirhindi: Naqshbandi Scholar and Reformer",
-  "seoDescription": "Learn about Imam Ahmad Sirhindi's Naqshbandi writings and influence on later Muslim revivalist thought in South Asia.",
-  "shortAnswer": "Imam Ahmad Sirhindi was an early modern South Asian Muslim scholar associated with Naqshbandi reform thought.",
-  "activePeriod": "1564–1624",
-  "relatedPlaceIds": ["bengal-region"],
-  "alternateNames": ["Mujaddid Alf-e-Sani", "Ahmad Sirhindi", "Imam Rabbani"],
-  "searchAliases": ["Imam Ahmad Sirhindi reform", "Mujaddid Alf Sani", "ইমাম আহমদ সিরহিন্দী"],
-  "tags": ["naqshbandi", "islamic-reform", "intellectual-history", "south-asia"],
-  "alternateNames": ["Mujaddid Alf-e-Sani", "Ahmad Sirhindi", "Shaykh Ahmad Sirhindi"],
-  "searchAliases": ["Mujaddid", "Mujaddid Alf Sani", "Imam Rabbani"]
+  "relatedPlaceIds": [
+    "bengal-region"
+  ],
+  "alternateNames": [
+    "Mujaddid Alf-e-Sani",
+    "Ahmad Sirhindi",
+    "Shaykh Ahmad Sirhindi"
+  ],
+  "searchAliases": [
+    "Mujaddid",
+    "Mujaddid Alf Sani",
+    "Imam Rabbani"
+  ],
+  "tags": [
+    "naqshbandi",
+    "islamic-reform",
+    "intellectual-history",
+    "south-asia"
+  ]
 }

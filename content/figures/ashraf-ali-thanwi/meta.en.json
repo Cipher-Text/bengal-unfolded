@@ -3,22 +3,16 @@
   "name_en": "Ashraf Ali Thanwi",
   "role": "Deobandi scholar and religious-social reform influence",
   "group": "leader",
-  "contribution": "His writings and guidance influenced religious discipline, everyday ethics, and reformist practice among South Asian Muslims.",
-  "context": "In late colonial India, his Deobandi scholarly network and reform literature circulated widely and informed debates over Muslim social conduct and religious authority.",
-  "impact": "He became a major religious-social reform reference for Muslim communities and scholars across South Asia, including Bengal.",
+  "contribution": "Ashraf Ali Thanwi was a Deobandi scholar whose writings addressed religious discipline, ethics, education, and everyday social practice.",
+  "context": "His extensive teaching and literary network circulated across late-colonial South Asia and shaped reformist Muslim institutions, including those connected to Bengal.",
+  "impact": "He became a major reference point for twentieth-century Muslim religious and social reform.",
   "highlight": "A major influence on religious discipline and social reform in South Asian Islam.",
   "seoTitle": "Ashraf Ali Thanwi: Deobandi Scholar and Reformer",
   "seoDescription": "Explore Ashraf Ali Thanwi's Deobandi scholarship, reform literature, and influence on Muslim social thought in South Asia.",
   "shortAnswer": "Ashraf Ali Thanwi was a Deobandi scholar whose writings influenced religious practice and social reform across South Asia.",
   "activePeriod": "1890s–1943",
-  "relatedPlaceIds": ["bengal-region"],
-  "alternateNames": ["Maulana Ashraf Ali Thanwi", "Ashraf Ali Thanvi", "আশরাফ আলী থানভী"],
-  "searchAliases": ["Ashraf Ali Thanwi reform", "Maulana Thanwi", "আশরাফ আলী থানভী"],
-  "tags": [
-    "deobandi",
-    "religious-reform",
-    "muslim-history",
-    "south-asia"
+  "relatedPlaceIds": [
+    "bengal-region"
   ],
   "alternateNames": [
     "Maulana Ashraf Ali Thanwi",
@@ -28,5 +22,11 @@
     "Thanwi",
     "Thanvi",
     "Maulana Thanwi"
+  ],
+  "tags": [
+    "deobandi",
+    "religious-reform",
+    "muslim-history",
+    "south-asia"
   ]
 }
