@@ -4,6 +4,12 @@
 
 ### Completed
 
+- Completed the final five-profile D-tier figure-content batch: Justice Shahabuddin Ahmed, Tikka Khan, Abul Hashim, Mahatma Gandhi, and Nurul Amin.
+  - Content backfill: replaced generic EN/BN contribution, context, and impact text with specific coverage of the 1990 caretaker transition, the 1971 Eastern Command context, the Bengal Muslim League and United Bengal debate, Gandhi's Noakhali peace intervention, and the early East Bengal language and representation crisis.
+  - Sensitive-history handling: described Tikka Khan's documented command position and association with Operation Searchlight without converting disputed downstream allegations into settled fact; kept the language-movement claims about Nurul Amin time-bounded and attributed.
+  - Model/validation/UI: no schema or runtime changes required. `pnpm content:validate` passes for all 168 events; the figure audit now reports C=406, B=92, A=54, with zero generic-language flags and zero incomplete SEO profiles.
+  - Risk/known gaps: image coverage remains unchanged at 156 profiles without image assets; source-record enrichment and image review remain follow-up work for profiles with sensitive or incomplete histories.
+
 - Completed the next 20-profile figure-content batch: Zahir Raihan, Zohra Tajuddin, Abdul Matin, Abdur Rashid Tarkabagish, Abul Kasem, Ataur Rahman Khan, M. A. G. Osmani, Manik Mia, Sarat Chandra Bose, Tofail Ahmed, Imam Ahmad Sirhindi, Ashraf Ali Thanwi, Farrukh Ahmad, Jibanananda Das, Karamat Ali Jaunpuri, Muhammad Iqbal, Munshi Mohammad Meherullah, Professor Abdur Razzaq, Maulana Qasim Nanautavi, and Rashid Ahmad Gangohi.
   - Content backfill: expanded bilingual contribution, context, and impact fields across Liberation War, language movement, constitutional, literary, cinematic, political, and Islamic intellectual histories.
   - Sensitive-history handling: preserved cautious wording for wartime disappearance, political transitions, partition alternatives, and religious-intellectual influence across Bengal and South Asia.
