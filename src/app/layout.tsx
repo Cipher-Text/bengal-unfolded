@@ -100,14 +100,16 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       className={`h-full ${hindSiliguri.variable} ${playfairDisplay.variable} ${specialElite.variable}`}
     >
       <body className="min-h-full">
-        <script
+        <Script
           id="theme-init"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `(()=>{try{const saved=localStorage.getItem("theme");const theme=saved==="light"||saved==="dark"?saved:"light";document.documentElement.dataset.theme=theme}catch(_){document.documentElement.dataset.theme="light"}})();`,
           }}
         />
-        <script
+        <Script
           id="lang-init"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `(()=>{try{const seg=location.pathname.split("/")[1];if(seg==="bn")document.documentElement.lang="bn"}catch(_){}})();`,
           }}

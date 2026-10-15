@@ -39,8 +39,8 @@ const PAGE_SIZE = 20;
 const GROUP_VALUES: Figure["group"][] = ["leader", "coordinator", "martyr", "organization", "collective", "intellectual", "revolutionary"];
 const ENTITY_VALUES: FigureEntityType[] = ["person", "party", "alliance", "organization"];
 
-function normalize(v: string): string {
-  return v.trim().toLowerCase();
+function normalize(v: string | undefined): string {
+  return (v ?? "").trim().toLowerCase();
 }
 
 function buildQuery(params: { q?: string; entity?: string; group?: string; page?: number }): string {
