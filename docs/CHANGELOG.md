@@ -114,6 +114,12 @@
 
 # 2026-10-16
 
+- Enriched Abul Fazal's English and Bengali figure profiles with biographical chronology, education and teaching career, Muslim Sahitya Samaj involvement, selected works, public positions, and literary recognition.
+  - Sources: added the bilingual Banglapedia biography record and linked profile FAQs to it.
+  - Relationships: added Chittagong as a relevant place; no event link was added because the current event records do not document a direct role.
+  - Model/validation/UI: no schema or UI changes; the existing figure FAQ source validation is used.
+  - Risk/known gaps: the profile follows Banglapedia's dates and summary; further literary analysis would need additional specialist sources.
+
 - Revised the existing Haji Shariatullah figure profile in English and Bengali with a fuller, source-linked account of the Faraizi movement's formative phase, birth/death years, place context, and bilingual FAQs.
   - Content relationships: restricted `primaryEventIds` to the documented 1818 Faraizi movement chapter and linked the profile to Faridpur; removed unrelated Titu Mir and Rangpur uprising associations.
   - Documentation: clarified in `EDITORIAL_GUIDELINES.md` that movement figures should only receive primary event links when a direct role is documented.
