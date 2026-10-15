@@ -1,33 +1,37 @@
 {
   "name": "Imam Ahmad Sirhindi",
   "name_en": "Imam Ahmad Sirhindi",
-  "role": "Naqshbandi scholar and Sunni revivalist",
-  "group": "leader",
-  "contribution": "Ahmad Sirhindi was a Naqshbandi scholar whose letters and reformist arguments shaped early modern Sunni debates in South Asia.",
-  "context": "He advocated renewed adherence to Sunni practice and became known as Mujaddid Alf-e-Sani, a title reflecting his influence among later reform traditions.",
-  "impact": "His thought provides background for the intellectual networks that later circulated through North India and Bengal.",
-  "highlight": "An early intellectual root of South Asian Muslim revivalist thought.",
-  "seoTitle": "Imam Ahmad Sirhindi: Naqshbandi Scholar and Reformer",
-  "seoDescription": "Learn about Imam Ahmad Sirhindi's Naqshbandi writings and influence on later Muslim revivalist thought in South Asia.",
-  "shortAnswer": "Imam Ahmad Sirhindi was an early modern South Asian Muslim scholar associated with Naqshbandi reform thought.",
-  "activePeriod": "1564–1624",
-  "relatedPlaceIds": [
-    "bengal-region"
+  "role": "Naqshbandi Sufi master and Persian-language religious writer",
+  "group": "intellectual",
+  "contribution": "Ahmad Sirhindi (1564–1624), also known as Shaykh Ahmad al-Faruqi al-Sirhindi, was an Indian Sufi based in Sirhind in Punjab. After studying religious sciences in Sialkot, he joined the Naqshbandi order in Delhi around 1599 and became a teacher in the order. His letters, known collectively as the Maktubat, explain Sufi teachings and address questions of theology and religious practice.",
+  "context": "Sirhindi lived during the reigns of the Mughal emperors Akbar and Jahangir. He corresponded with Sufi disciples and some Mughal officials. In 1619 Jahangir summoned him to court and imprisoned him at Gwalior; Encyclopaedia Iranica notes differing explanations for the imprisonment and reports that he was released about a year later.",
+  "impact": "The Maktubat comprise 534 letters written in Persian and Arabic to nearly 200 recipients, chiefly Sufis and also some Mughal officials. His disciples honored him as Mujaddid-e Alf-e Sani, or renewer of the second millennium, and the Naqshbandi tradition later became known in some settings as the Mujaddidi branch. Iranica describes Naqshbandi networks spreading across Bengal through deputies; this indicates an indirect regional connection, not evidence that Sirhindi himself worked in Bengal. Scholars have cautioned against treating his influence on Jahangir or Mughal policy as settled or decisive.",
+  "highlight": "A major Naqshbandi Sufi writer whose letters circulated through networks that later reached Bengal.",
+  "seoTitle": "Ahmad Sirhindi: Naqshbandi Sufi and Author of the Maktubat",
+  "seoDescription": "Learn about Ahmad Sirhindi's Naqshbandi teaching, Persian and Arabic letters, Mughal-era context, and the indirect spread of the order into Bengal.",
+  "shortAnswer": "Ahmad Sirhindi (1564–1624) was a Naqshbandi Sufi master whose letters shaped later South Asian Muslim religious thought and circulated through networks that reached Bengal.",
+  "birthYear": "1564",
+  "deathYear": "1624",
+  "activePeriod": "1599–1624",
+  "relatedPlaceIds": ["bengal-region"],
+  "alternateNames": ["Shaykh Ahmad Sirhindi", "Ahmad al-Faruqi al-Sirhindi", "Mujaddid-e Alf-e Sani", "Imam Rabbani"],
+  "searchAliases": ["Ahmad Sirhindi Maktubat", "Naqshbandi Mujaddid", "Sheikh Ahmad Sirhindi", "আহমদ সিরহিন্দি"],
+  "faq": [
+    {
+      "question": "What were the Maktubat?",
+      "answer": "They are a collection of 534 letters in Persian and Arabic, addressed mainly to Sufis and also to some Mughal officials. The letters discuss Sufi teaching, theology, and religious practice.",
+      "sourceIds": ["ahmad-sirhindi-iranica"]
+    },
+    {
+      "question": "How is Ahmad Sirhindi connected to Bengal?",
+      "answer": "The available reference describes Naqshbandi networks spreading across Bengal through deputies. This is an indirect connection through the order's network; it does not establish that Sirhindi himself traveled or worked in Bengal.",
+      "sourceIds": ["ahmad-sirhindi-iranica"]
+    },
+    {
+      "question": "Was Sirhindi's influence on Mughal policy decisive?",
+      "answer": "The extent of his influence on Jahangir and Mughal policy is debated. Encyclopaedia Iranica cautions that his letters alone do not establish decisive influence on the emperor or dynasty.",
+      "sourceIds": ["ahmad-sirhindi-iranica"]
+    }
   ],
-  "alternateNames": [
-    "Mujaddid Alf-e-Sani",
-    "Ahmad Sirhindi",
-    "Shaykh Ahmad Sirhindi"
-  ],
-  "searchAliases": [
-    "Mujaddid",
-    "Mujaddid Alf Sani",
-    "Imam Rabbani"
-  ],
-  "tags": [
-    "naqshbandi",
-    "islamic-reform",
-    "intellectual-history",
-    "south-asia"
-  ]
+  "tags": ["naqshbandi", "sufism", "maktubat", "mughal-history", "intellectual-history", "south-asia"]
 }

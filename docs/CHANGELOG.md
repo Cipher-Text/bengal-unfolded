@@ -114,6 +114,12 @@
 
 # 2026-10-16
 
+- Enriched Imam Ahmad Sirhindi's English and Bengali profiles with his Naqshbandi teaching, Maktubat, Mughal-era context, and carefully bounded Bengal connection through the order's networks.
+  - Sources: added a bilingual Encyclopaedia Iranica reference record and linked the profile FAQs to it.
+  - Relationships: retained Bengal as a regional connection through Naqshbandi networks; added no direct event link because the event catalog does not establish a direct role.
+  - Model/validation/UI: no schema or UI changes; existing figure FAQ source validation is used.
+  - Risk/known gaps: scholarly interpretations of Sirhindi's influence differ; the profile avoids presenting influence on Jahangir or Mughal policy as settled.
+
 - Enriched Abul Fazal's English and Bengali figure profiles with biographical chronology, education and teaching career, Muslim Sahitya Samaj involvement, selected works, public positions, and literary recognition.
   - Sources: added the bilingual Banglapedia biography record and linked profile FAQs to it.
   - Relationships: added Chittagong as a relevant place; no event link was added because the current event records do not document a direct role.
