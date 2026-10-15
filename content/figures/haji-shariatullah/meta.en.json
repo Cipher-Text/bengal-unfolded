@@ -1,20 +1,34 @@
 {
   "name": "Haji Shariatullah",
   "name_en": "Haji Shariatullah",
-  "role": "Founder of the Faraizi reform movement",
+  "role": "Islamic reformer and founder of the Faraizi movement",
   "group": "leader",
-  "contribution": "He initiated the Faraizi movement in Bengal, mobilizing rural Muslims around religious reform and social discipline.",
-  "context": "In early 19th-century colonial Bengal, his movement emerged amid agrarian pressure, social hierarchy, and changing authority structures.",
-  "impact": "He became a foundational figure in Muslim social reform and grassroots mobilization in Bengal.",
-  "highlight": "He transformed religious reform into organized rural social action.",
+  "contribution": "After returning from Makkah in 1818, Haji Shariatullah began preaching in Bengal. Banglapedia notes that his first effort did not attract an audience; after returning to Makkah for advice, he came back in 1820 and the reform current that became known as the Faraizi movement spread through eastern Bengal.",
+  "context": "Born in 1781 in Shamail, in the Madaripur area of greater Faridpur, Shariatullah spent many years studying in Makkah before returning to Bengal. Banglapedia describes the movement as primarily religious while also engaging with social and agrarian conditions under colonial rule.",
+  "impact": "The movement challenged religious practices Shariatullah considered innovations and addressed social concerns including caste distinctions among Muslims. Its later phase under his son Dudu Miya became more directly associated with agrarian mobilization. Shariatullah died in 1840, leaving a movement that continued to shape rural religious and social history in Bengal.",
+  "highlight": "Founder of the Faraizi movement, a religious reform current that spread through rural eastern Bengal.",
   "seoTitle": "Haji Shariatullah: Founder of the Faraizi Movement",
   "seoDescription": "Learn about Haji Shariatullah's religious reform movement, rural organization, and the agrarian context of nineteenth-century Bengal.",
-  "shortAnswer": "Haji Shariatullah founded the Faraizi movement, a major Muslim reform and rural mobilization movement in Bengal.",
+  "shortAnswer": "Haji Shariatullah (1781–1840) founded the Faraizi movement, a religious reform movement that spread in eastern Bengal after his return from Makkah in 1818.",
+  "birthYear": "1781",
+  "deathYear": "1840",
   "activePeriod": "1818–1840",
-  "primaryEventIds": ["1818-faraizi-movement-begins-in-eastern-bengal", "1831-titumir-s-bamboo-fort-uprising", "1781-rangpur-dhing-uprising"],
-  "relatedPlaceIds": ["east-bengal"],
+  "primaryEventIds": ["1818-faraizi-movement-begins-in-eastern-bengal"],
+  "relatedPlaceIds": ["faridpur"],
   "alternateNames": ["Shariatullah", "Haji Shariat Allah", "হাজী শরীয়তুল্লাহ"],
   "searchAliases": ["Haji Shariatullah Faraizi movement", "Faraizi movement founder", "হাজী শরীয়তুল্লাহ ফরায়েজি"],
+  "faq": [
+    {
+      "question": "Who was Haji Shariatullah?",
+      "answer": "Haji Shariatullah (1781–1840) was a Bengali Islamic reformer. He returned from Makkah in 1818; after a further period of study there, he returned in 1820 and his reform movement spread in Bengal.",
+      "sourceIds": ["haji-shariatullah-banglapedia"]
+    },
+    {
+      "question": "What did the Faraizi movement emphasize under Haji Shariatullah?",
+      "answer": "It emphasized carrying out the faraiz, or obligatory duties of Islam. Banglapedia describes Shariatullah's phase as primarily religious, while noting that the movement also addressed social and agrarian issues.",
+      "sourceIds": ["haji-shariatullah-banglapedia", "faraizi-movement-banglapedia"]
+    }
+  ],
   "image": "/figures/haji-shariatullah.webp",
   "tags": [
     "faraizi",

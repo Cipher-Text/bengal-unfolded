@@ -85,6 +85,7 @@ Apply this section to any event involving:
 
 - Prefer structured fields over long unstructured prose.
 - Include `eventId` links for timeline claims.
+- Link a movement figure only to events that document their direct role; shared period, geography, or broad movement context alone is not enough for `primaryEventIds`.
 - Include citations for impact/legacy claims.
 - Keep role descriptions specific to event context and year range.
 

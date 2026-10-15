@@ -111,3 +111,12 @@
 
 - Continued the figure-content SEO audit through the next 10 profiles: Isa Khan, Murshid Quli Khan, Nawab Abdul Latif, Shamsuddin Ilyas Shah, Abul Fazal, Imam Ahmad Sirhindi, Alivardi Khan, Ashraf Ali Thanwi, Ayub Khan, and Farrukh Ahmad.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields where needed; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Sultanate, Mughal, reform, literary, and East Pakistan political histories are framed with specific chronology and contextual wording.
+
+# 2026-10-16
+
+- Revised the existing Haji Shariatullah figure profile in English and Bengali with a fuller, source-linked account of the Faraizi movement's formative phase, birth/death years, place context, and bilingual FAQs.
+  - Content relationships: restricted `primaryEventIds` to the documented 1818 Faraizi movement chapter and linked the profile to Faridpur; removed unrelated Titu Mir and Rangpur uprising associations.
+  - Documentation: clarified in `EDITORIAL_GUIDELINES.md` that movement figures should only receive primary event links when a direct role is documented.
+  - Model/validation/UI: no schema, validator, or UI changes; existing figure fields and FAQ source validation are used.
+  - Backfill: EN/BN figure metadata revised together; existing event figure and source relationships already covered this profile.
+  - Risk/known gaps: details follow the existing Banglapedia reference record; its broader claims about agrarian politics are framed as context rather than unqualified conclusions.
