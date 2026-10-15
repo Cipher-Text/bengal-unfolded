@@ -74,7 +74,17 @@ export default async function FiguresListPage({
     const byEntity = entityValue ? inferFigureEntityType(figure) === entityValue : true;
     const byGroup = groupValue ? figure.group === groupValue : true;
     const byQuery = nq
-      ? [figure.name, figure.role, figure.contribution, figure.context, figure.impact, ...(figure.tags ?? [])]
+      ? [
+          figure.name,
+          figure.name_en,
+          figure.role,
+          figure.contribution,
+          figure.context,
+          figure.impact,
+          ...(figure.tags ?? []),
+          ...(figure.alternateNames ?? []),
+          ...(figure.searchAliases ?? []),
+        ]
         .map((v) => normalize(v))
         .some((v) => v.includes(nq))
       : true;
