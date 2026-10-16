@@ -1,32 +1,37 @@
 {
   "name": "Ashraf Ali Thanwi",
   "name_en": "Ashraf Ali Thanwi",
-  "role": "Deobandi scholar and religious-social reform influence",
-  "group": "leader",
-  "contribution": "Ashraf Ali Thanwi was a Deobandi scholar whose writings addressed religious discipline, ethics, education, and everyday social practice.",
-  "context": "His extensive teaching and literary network circulated across late-colonial South Asia and shaped reformist Muslim institutions, including those connected to Bengal.",
-  "impact": "He became a major reference point for twentieth-century Muslim religious and social reform.",
-  "highlight": "A major influence on religious discipline and social reform in South Asian Islam.",
-  "seoTitle": "Ashraf Ali Thanwi: Deobandi Scholar and Reformer",
-  "seoDescription": "Explore Ashraf Ali Thanwi's Deobandi scholarship, reform literature, and influence on Muslim social thought in South Asia.",
-  "shortAnswer": "Ashraf Ali Thanwi was a Deobandi scholar whose writings influenced religious practice and social reform across South Asia.",
-  "activePeriod": "1890s–1943",
-  "relatedPlaceIds": [
-    "bengal-region"
+  "role": "Deobandi scholar, Sufi guide, and author",
+  "group": "intellectual",
+  "contribution": "Ashraf Ali Thanwi (1863–1943) studied at Darul Uloom Deoband and became a prominent Deobandi scholar and Sufi teacher. He wrote extensively on religious practice, law, ethics, and Sufism. His Bihishti Zewar became a widely circulated guide to religious knowledge and everyday practice, particularly for women; scholars have studied the text as part of debates about Muslim education, gender, and print culture.",
+  "context": "Thanwi was based in Thana Bhawan in North India during the late colonial period. His Urdu writings and legal opinions circulated across a broad South Asian readership. In the late 1930s he corresponded with Muslim League leaders and offered advice about the League's religious and political direction, while also expressing reservations about whether it would advance the interests he defined for Muslims.",
+  "impact": "Thanwi's work helped shape Deobandi religious instruction and public debate beyond the seminary classroom. Cambridge research describes mass-printed Deobandi primers, including Thanwi's works, as influential in expanding lay access to religious instruction. His Muslim League advice was not simply an endorsement: historians note that his attempts to shape the League were unsuccessful and that he remained uncertain about its Islamic credentials. His relevance to Bengal is through wider South Asian print and scholarly networks, rather than a documented direct role in a Bengal event.",
+  "highlight": "A prolific Deobandi scholar whose books and advice entered wider South Asian religious and political debates.",
+  "seoTitle": "Ashraf Ali Thanwi: Deobandi Scholar, Author, and Sufi Guide",
+  "seoDescription": "Explore Ashraf Ali Thanwi's Deobandi scholarship, Bihishti Zewar, print readership, and late-colonial political advice.",
+  "shortAnswer": "Ashraf Ali Thanwi (1863–1943) was a Deobandi scholar and Sufi guide whose widely circulated writings shaped South Asian religious instruction and debate.",
+  "birthYear": "1863",
+  "deathYear": "1943",
+  "activePeriod": "1880s–1943",
+  "relatedPlaceIds": ["bengal-region"],
+  "alternateNames": ["Maulana Ashraf Ali Thanwi", "Ashraf Ali Thanvi", "Hakim al-Ummah", "Ḥakīm al-Ummat"],
+  "searchAliases": ["Thanwi", "Thanvi", "Bihishti Zewar author", "Ashraf Ali Thanawi", "আশরাফ আলী থানভী"],
+  "faq": [
+    {
+      "question": "What is Ashraf Ali Thanwi known for?",
+      "answer": "He was a Deobandi scholar and Sufi teacher who wrote widely on religious practice, law, and ethics. His Bihishti Zewar became a widely circulated guide to religious learning and everyday practice.",
+      "sourceIds": ["ashraf-ali-thanwi-portable-madrasa", "ashraf-ali-thanwi-bihishti-zewar"]
+    },
+    {
+      "question": "What was Thanwi's relationship with the Muslim League?",
+      "answer": "In the late 1930s he advised League leaders about the party's religious and political direction. Historians describe his engagement as qualified: he had reservations about the League's Islamic credentials, and his effort to shape its direction was unsuccessful.",
+      "sourceIds": ["ashraf-ali-thanwi-muslim-league"]
+    },
+    {
+      "question": "Was Ashraf Ali Thanwi a Bengal-based figure?",
+      "answer": "No. He was based in Thana Bhawan in North India. His inclusion here reflects the wider South Asian circulation of Deobandi books and ideas, not a documented direct role in a Bengal event.",
+      "sourceIds": ["ashraf-ali-thanwi-portable-madrasa"]
+    }
   ],
-  "alternateNames": [
-    "Maulana Ashraf Ali Thanwi",
-    "Ashraf Ali Thanvi"
-  ],
-  "searchAliases": [
-    "Thanwi",
-    "Thanvi",
-    "Maulana Thanwi"
-  ],
-  "tags": [
-    "deobandi",
-    "religious-reform",
-    "muslim-history",
-    "south-asia"
-  ]
+  "tags": ["deobandi", "sufism", "bihishti-zewar", "religious-reform", "print-culture", "intellectual-history"]
 }

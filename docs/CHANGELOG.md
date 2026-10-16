@@ -114,6 +114,12 @@
 
 # 2026-10-16
 
+- Enriched Ashraf Ali Thanwi's English and Bengali profiles with scholarly context on Deobandi print culture, Bihishti Zewar, and his qualified political engagement with the Muslim League.
+  - Sources: added bilingual Cambridge research article and book-chapter records; profile FAQs link directly to the supporting studies.
+  - Relationships: retained his broad South Asian/Bengal context while clarifying he was based in North India; added no direct Bengal event link.
+  - Model/validation/UI: no schema or UI changes; existing figure FAQ source validation is used.
+  - Risk/known gaps: the profile avoids treating his advice to the Muslim League as unqualified endorsement or claiming a direct Bengal event role.
+
 - Enriched Imam Ahmad Sirhindi's English and Bengali profiles with his Naqshbandi teaching, Maktubat, Mughal-era context, and carefully bounded Bengal connection through the order's networks.
   - Sources: added a bilingual Encyclopaedia Iranica reference record and linked the profile FAQs to it.
   - Relationships: retained Bengal as a regional connection through Naqshbandi networks; added no direct event link because the event catalog does not establish a direct role.
