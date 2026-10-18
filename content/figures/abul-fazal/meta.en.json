@@ -1,27 +1,37 @@
 {
   "name": "Abul Fazal",
   "name_en": "Abul Fazal",
-  "role": "Writer, educationist, and rationalist Muslim thinker",
-  "group": "leader",
-  "contribution": "He wrote fiction, essays, and educational criticism that advanced rationalist and modernist currents in Bengali Muslim thought.",
-  "context": "Active in twentieth-century Bengal and Bangladesh, he connected literature, education, secular reasoning, and Muslim social reform.",
-  "impact": "He is useful for tracing modern Bengali Muslim intellectual history beyond party politics.",
-  "highlight": "A modernist Bengali Muslim writer linking literature, education, and rational thought.",
-  "seoTitle": "Abul Fazal: Bengali Muslim Modernist Writer",
-  "seoDescription": "Explore Abul Fazal's fiction, essays, educational criticism, and role in modern Bengali Muslim intellectual history.",
-  "shortAnswer": "Abul Fazal was a Bengali Muslim writer and educationist associated with rationalist and modernist thought.",
-  "activePeriod": "1930s–1983",
-  "relatedPlaceIds": ["bengal-region"],
+  "role": "Writer, educationist, and participant in the Muslim Sahitya Samaj",
+  "group": "intellectual",
+  "contribution": "Abul Fazal was a Bengali writer and educationist associated with the Muslim Sahitya Samaj, founded in Dhaka in 1926. He became its secretary in 1930. The group challenged social and religious prejudice and became associated with the Buddhi Mukti (freedom of intellect) movement. Fazal wrote novels, short stories, plays, memoirs, travel writing, and essays on religion and society.",
+  "context": "Born in 1903 in Keochia village, Satkania, Chittagong, Fazal studied at a madrasa before earning a BA from Dhaka University in 1928, a BT from Dhaka Teachers' Training College in 1931, and an MA in Bangla language and literature from Calcutta University in 1940. He taught at several institutions, joined Krishnanagar College in 1941, and transferred to Chittagong College in 1943, where he later retired as a professor. In 1973 he became vice-chancellor of Chittagong University and in 1975 joined the Bangladesh government advisory council for education and culture; he resigned in 1977.",
+  "impact": "Fazal's writing addressed literature, education, religion, society, and public life. In 1967 he protested the Pakistan government's ban on Tagore songs in radio and television programming. His books include Chauchir (1934), Pradip O Patanga (1940), Matir Prithibi (1940), and the memoir Rekhachitra (1966). He received the Bangla Academy Award in 1962 and other literary honors; the University of Dhaka awarded him an honorary doctorate in 1974. He died in Chittagong in 1983.",
+  "highlight": "A writer and educator whose work connected Bengali Muslim intellectual life, literature, and public debate.",
+  "seoTitle": "Abul Fazal: Bengali Writer, Educationist, and Intellectual",
+  "seoDescription": "Explore Abul Fazal's writing, education career, role in the Muslim Sahitya Samaj, and place in twentieth-century Bengali intellectual history.",
+  "shortAnswer": "Abul Fazal (1903–1983) was a Bengali writer and educationist associated with the Muslim Sahitya Samaj and the Buddhi Mukti movement.",
+  "birthYear": "1903",
+  "deathYear": "1983",
+  "activePeriod": "1926–1983",
+  "relatedPlaceIds": ["chittagong-chattogram", "bengal-region"],
   "alternateNames": ["Abul Fazl", "Abul Fazal", "আবুল ফজল"],
-  "searchAliases": ["Abul Fazal writer", "Abul Fazl Bengali writer", "আবুল ফজল লেখক"],
-  "seoTitle": "Abul Fazal: Bengali Muslim Modernist Writer",
-  "seoDescription": "Explore Abul Fazal's fiction, essays, educational criticism, and role in modern Bengali Muslim intellectual history.",
-  "shortAnswer": "Abul Fazal was a Bengali Muslim writer and educationist associated with rationalist and modernist thought.",
-  "activePeriod": "1930s–1983",
-  "relatedPlaceIds": ["bengal-region"],
-  "alternateNames": ["Abul Fazl", "Abul Fazal", "আবুল ফজল"],
-  "searchAliases": ["Abul Fazal writer", "Abul Fazl Bengali writer", "আবুল ফজল লেখক"],
-  "tags": ["literature", "education", "rationalism", "bengali-muslim"],
-  "alternateNames": ["Abul Fazl"],
-  "searchAliases": ["Abul Fazal writer", "আবুল ফজল"]
+  "searchAliases": ["Abul Fazal writer", "Abul Fazl Bengali writer", "Abul Fazal Muslim Sahitya Samaj", "আবুল ফজল লেখক"],
+  "faq": [
+    {
+      "question": "What was Abul Fazal's role in the Muslim Sahitya Samaj?",
+      "answer": "He was associated with the group's founding in Dhaka in 1926 and became its secretary in 1930. Banglapedia describes the society as seeking to free people from social and religious prejudice.",
+      "sourceIds": ["abul-fazal-banglapedia"]
+    },
+    {
+      "question": "What kinds of works did Abul Fazal write?",
+      "answer": "He wrote novels, short stories, plays, memoirs, travel writing, and works on religion. Chauchir (1934), Matir Prithibi (1940), and Rekhachitra (1966) are among the works listed by Banglapedia.",
+      "sourceIds": ["abul-fazal-banglapedia"]
+    },
+    {
+      "question": "What public issue did Abul Fazal protest in 1967?",
+      "answer": "He protested the Pakistan government's decision to stop broadcasting Tagore songs on radio and television.",
+      "sourceIds": ["abul-fazal-banglapedia"]
+    }
+  ],
+  "tags": ["literature", "education", "buddhi-mukti", "muslim-sahitya-samaj", "intellectual-history"]
 }

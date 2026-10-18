@@ -115,3 +115,30 @@
 
 - Continued the figure-content SEO audit through the next 10 profiles: Isa Khan, Murshid Quli Khan, Nawab Abdul Latif, Shamsuddin Ilyas Shah, Abul Fazal, Imam Ahmad Sirhindi, Alivardi Khan, Ashraf Ali Thanwi, Ayub Khan, and Farrukh Ahmad.
   - Content backfill: expanded bilingual contribution, context, impact, and highlight fields where needed; added localized SEO titles/descriptions, short answers, temporal metadata, aliases, event/place links, and tags. Sultanate, Mughal, reform, literary, and East Pakistan political histories are framed with specific chronology and contextual wording.
+
+# 2026-10-16
+
+- Enriched Ashraf Ali Thanwi's English and Bengali profiles with scholarly context on Deobandi print culture, Bihishti Zewar, and his qualified political engagement with the Muslim League.
+  - Sources: added bilingual Cambridge research article and book-chapter records; profile FAQs link directly to the supporting studies.
+  - Relationships: retained his broad South Asian/Bengal context while clarifying he was based in North India; added no direct Bengal event link.
+  - Model/validation/UI: no schema or UI changes; existing figure FAQ source validation is used.
+  - Risk/known gaps: the profile avoids treating his advice to the Muslim League as unqualified endorsement or claiming a direct Bengal event role.
+
+- Enriched Imam Ahmad Sirhindi's English and Bengali profiles with his Naqshbandi teaching, Maktubat, Mughal-era context, and carefully bounded Bengal connection through the order's networks.
+  - Sources: added a bilingual Encyclopaedia Iranica reference record and linked the profile FAQs to it.
+  - Relationships: retained Bengal as a regional connection through Naqshbandi networks; added no direct event link because the event catalog does not establish a direct role.
+  - Model/validation/UI: no schema or UI changes; existing figure FAQ source validation is used.
+  - Risk/known gaps: scholarly interpretations of Sirhindi's influence differ; the profile avoids presenting influence on Jahangir or Mughal policy as settled.
+
+- Enriched Abul Fazal's English and Bengali figure profiles with biographical chronology, education and teaching career, Muslim Sahitya Samaj involvement, selected works, public positions, and literary recognition.
+  - Sources: added the bilingual Banglapedia biography record and linked profile FAQs to it.
+  - Relationships: added Chittagong as a relevant place; no event link was added because the current event records do not document a direct role.
+  - Model/validation/UI: no schema or UI changes; the existing figure FAQ source validation is used.
+  - Risk/known gaps: the profile follows Banglapedia's dates and summary; further literary analysis would need additional specialist sources.
+
+- Revised the existing Haji Shariatullah figure profile in English and Bengali with a fuller, source-linked account of the Faraizi movement's formative phase, birth/death years, place context, and bilingual FAQs.
+  - Content relationships: restricted `primaryEventIds` to the documented 1818 Faraizi movement chapter and linked the profile to Faridpur; removed unrelated Titu Mir and Rangpur uprising associations.
+  - Documentation: clarified in `EDITORIAL_GUIDELINES.md` that movement figures should only receive primary event links when a direct role is documented.
+  - Model/validation/UI: no schema, validator, or UI changes; existing figure fields and FAQ source validation are used.
+  - Backfill: EN/BN figure metadata revised together; existing event figure and source relationships already covered this profile.
+  - Risk/known gaps: details follow the existing Banglapedia reference record; its broader claims about agrarian politics are framed as context rather than unqualified conclusions.

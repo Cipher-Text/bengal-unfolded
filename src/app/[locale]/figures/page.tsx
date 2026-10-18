@@ -39,8 +39,8 @@ const PAGE_SIZE = 20;
 const GROUP_VALUES: Figure["group"][] = ["leader", "coordinator", "martyr", "organization", "collective", "intellectual", "revolutionary"];
 const ENTITY_VALUES: FigureEntityType[] = ["person", "party", "alliance", "organization"];
 
-function normalize(v: string): string {
-  return v.trim().toLowerCase();
+function normalize(v: string | undefined): string {
+  return (v ?? "").trim().toLowerCase();
 }
 
 function buildQuery(params: { q?: string; entity?: string; group?: string; page?: number }): string {
@@ -74,7 +74,17 @@ export default async function FiguresListPage({
     const byEntity = entityValue ? inferFigureEntityType(figure) === entityValue : true;
     const byGroup = groupValue ? figure.group === groupValue : true;
     const byQuery = nq
-      ? [figure.name, figure.role, figure.contribution, figure.context, figure.impact, ...(figure.tags ?? [])]
+      ? [
+          figure.name,
+          figure.name_en,
+          figure.role,
+          figure.contribution,
+          figure.context,
+          figure.impact,
+          ...(figure.tags ?? []),
+          ...(figure.alternateNames ?? []),
+          ...(figure.searchAliases ?? []),
+        ]
         .map((v) => normalize(v))
         .some((v) => v.includes(nq))
       : true;
