@@ -6,6 +6,8 @@ import { EventGrid } from "@/components/EventGrid";
 import { SectionTitle } from "@/components/SectionTitle";
 import type { EventImportance, EventMeta, Locale, TimelineTheme } from "@/types/content";
 
+type TimelineEvent = Pick<EventMeta, "slug" | "year" | "title" | "subtitle" | "summary" | "periodLabel" | "movementLabel" | "importance" | "themeColor" | "ctaLabel">;
+
 const IMPORTANCE: EventImportance[]=["landmark","major","high","medium","reference"];
 const THEMES: TimelineTheme[]=["language","democracy","war","culture","economy"];
 const labels={en:{search:"Search and Filters",help:"Use keyword, year, theme, and importance to narrow events",keyword:"Search keyword",allYears:"All years",allThemes:"All themes",allImportance:"All importance levels",apply:"Apply",reset:"Reset filters",noResults:"No results found.",pages:"Timeline pages",previous:"Previous",next:"Next",other:"Other Chapters",total:"Total results"},bn:{search:"সার্চ ও ফিল্টার",help:"কিওয়ার্ড, বছর, থিম ও গুরুত্ব দিয়ে অধ্যায় বাছাই করুন",keyword:"কিওয়ার্ড লিখুন",allYears:"সব বছর",allThemes:"সব থিম",allImportance:"সব গুরুত্ব",apply:"প্রয়োগ করুন",reset:"ফিল্টার রিসেট",noResults:"কোনো ফলাফল পাওয়া যায়নি।",pages:"টাইমলাইনের পাতা",previous:"আগের পাতা",next:"পরের পাতা",other:"অন্যান্য অধ্যায়",total:"মোট ফলাফল"}} as const;
@@ -13,14 +15,14 @@ const themeLabels={en:{language:"Language",democracy:"Democracy",war:"War",cultu
 const importanceLabels={en:{landmark:"Landmark",major:"Major",high:"High",medium:"Medium",reference:"Reference"},bn:{landmark:"ল্যান্ডমার্ক",major:"প্রধান",high:"উচ্চ",medium:"মধ্যম",reference:"রেফারেন্স"}} as const;
 const norm=(s:string)=>s.trim().toLocaleLowerCase();
 
-export function TimelineExplorerInteractive({events,themes,locale}:{events:EventMeta[];themes:Partial<Record<string,TimelineTheme[]>>;locale:Locale}){
+export function TimelineExplorerInteractive({events,themes,locale}:{events:TimelineEvent[];themes:Partial<Record<string,TimelineTheme[]>>;locale:Locale}){
  const params=useSearchParams();const pathname=usePathname();const bn=locale==="bn";const t=labels[locale];
  const q=params.get("q")??"";const year=params.get("year")??"";const theme=params.get("theme")??"";const importanceRaw=params.get("importance")??"";const importance=IMPORTANCE.includes(importanceRaw as EventImportance)?importanceRaw:"";
  const parsed=Number(params.get("page")??1);const requested=Number.isFinite(parsed)&&parsed>0?Math.floor(parsed):1;
  const years=[...new Set(events.map(e=>e.year))].sort((a,b)=>a.localeCompare(b));
  const filtered=useMemo(()=>events.filter(e=>(!year||e.year===year)&&(!theme||themes[e.slug]?.includes(theme as TimelineTheme))&&(!importance||e.importance===importance)&&(!norm(q)||[e.year,e.title,e.subtitle??"",e.summary,e.periodLabel??"",e.movementLabel??""].some(v=>norm(v).includes(norm(q))))),[events,themes,year,theme,importance,q]);
  const pageCount=Math.max(1,Math.ceil(filtered.length/6));const page=Math.min(requested,pageCount);const shown=filtered.slice((page-1)*6,page*6);
- const groups=shown.reduce<Array<{label:string;events:EventMeta[]}>>((all,event)=>{const label=event.periodLabel??t.other;const last=all[all.length-1];if(last?.label===label)last.events.push(event);else all.push({label,events:[event]});return all;},[]);
+ const groups=shown.reduce<Array<{label:string;events:TimelineEvent[]}>>((all,event)=>{const label=event.periodLabel??t.other;const last=all[all.length-1];if(last?.label===label)last.events.push(event);else all.push({label,events:[event]});return all;},[]);
  function update(values:Record<string,string|number|undefined>){const next=new URLSearchParams(params.toString());Object.entries(values).forEach(([k,v])=>v?next.set(k,String(v)):next.delete(k));window.history.pushState(null,"",`${pathname}${next.size?`?${next}`:""}`);}
  function submit(e:React.FormEvent<HTMLFormElement>){e.preventDefault();const d=new FormData(e.currentTarget);update({q:String(d.get("q")??"").trim()||undefined,year:String(d.get("year")??"")||undefined,theme:String(d.get("theme")??"")||undefined,importance:String(d.get("importance")??"")||undefined,page:undefined});}
  return <>

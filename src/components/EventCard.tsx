@@ -1,9 +1,11 @@
 import Link from "next/link";
 import type { EventMeta, Locale } from "@/types/content";
 
+type EventCardData = Pick<EventMeta, "slug" | "year" | "title" | "periodLabel" | "importance" | "themeColor" | "summary" | "ctaLabel">;
+
 const TILT_BY_INDEX = ["", "tilt-right", "tilt-left"];
 
-export function EventCard({ event, locale, index = 0 }: { event: EventMeta; locale: Locale; index?: number }) {
+export function EventCard({ event, locale, index = 0 }: { event: EventCardData; locale: Locale; index?: number }) {
   const importanceLabel = locale === "bn"
     ? { landmark: "ল্যান্ডমার্ক", major: "প্রধান", high: "উচ্চ", medium: "মধ্যম", reference: "রেফারেন্স" }[event.importance]
     : { landmark: "Landmark", major: "Major", high: "High", medium: "Medium", reference: "Reference" }[event.importance];
@@ -39,7 +41,7 @@ export function EventCard({ event, locale, index = 0 }: { event: EventMeta; loca
         <span className="text-eyebrow opacity-75">
           {locale === "bn" ? "অধ্যায়" : "Chapter"}
         </span>
-        <Link href={`/${locale}/events/${event.slug}`} className="btn-ink">
+        <Link prefetch={false} href={`/${locale}/events/${event.slug}`} className="btn-ink">
           {event.ctaLabel}
           <span className="arrow">→</span>
         </Link>

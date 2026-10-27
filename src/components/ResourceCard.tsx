@@ -41,12 +41,12 @@ export function ResourceCard({ resource, locale, index = 0 }: { resource: EventR
     <article className={`postcard ${tiltClass} relative p-5`}>
       <p className="text-eyebrow">{CATEGORY_LABELS[locale][resource.category]} · {resource.subcategory}</p>
       <h3 className="text-display mt-3 text-lg font-semibold leading-snug md:text-xl">
-        <Link href={`/${locale}/resources/${resource.id}`} className="link-ink">
+        <Link prefetch={false} href={`/${locale}/resources/${resource.id}`} className="link-ink">
           {resource.title}
         </Link>
       </h3>
       <p className="text-eyebrow-script mt-1 text-base">
-        <Link href={`/${locale}/creators/${resource.creatorId}`} className="link-ink">
+        <Link prefetch={false} href={`/${locale}/creators/${resource.creatorId}`} className="link-ink">
           — {resource.attribution}
         </Link>
       </p>
@@ -57,12 +57,13 @@ export function ResourceCard({ resource, locale, index = 0 }: { resource: EventR
       ) : null}
       {resource.note ? <p className="theme-muted mt-3 line-clamp-3 text-sm leading-relaxed">{resource.note}</p> : null}
       <div className="mt-5 flex flex-wrap gap-2">
-        <Link href={`/${locale}/resources/${resource.id}`} className="btn-vintage">
+        <Link prefetch={false} href={`/${locale}/resources/${resource.id}`} className="btn-vintage">
           {locale === "bn" ? "রিসোর্স পেজ" : "Resource Page"}
           <span className="arrow">→</span>
         </Link>
         {resource.href ? (
           <Link
+            prefetch={false}
             href={resource.href}
             {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
             className="btn-vintage"

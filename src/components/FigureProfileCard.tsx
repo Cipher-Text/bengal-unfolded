@@ -64,7 +64,7 @@ export function FigureProfileCard({ figure, locale, featured = false, index = 0 
           ))}
         </div>
       ) : null}
-      <Link href={`/${locale}/figures/${figure.id}`} className="btn-vintage mt-5">
+      <Link prefetch={false} href={`/${locale}/figures/${figure.id}`} className="btn-vintage mt-5">
         {locale === "bn" ? "বিস্তারিত" : "Details"}
         <span className="arrow">→</span>
       </Link>
