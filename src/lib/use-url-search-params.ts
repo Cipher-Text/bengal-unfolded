@@ -1,23 +1,17 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
-import { useEffect, useSyncExternalStore } from "react";
-
-const subscribe = (onChange: () => void) => {
-  window.addEventListener("popstate", onChange);
-  return () => window.removeEventListener("popstate", onChange);
-};
-const getSnapshot = () => window.location.search;
-const getServerSnapshot = () => "";
+import { useEffect, useState } from "react";
 
 /** Search state for statically exported pages, including the first direct-query load. */
 export function useUrlSearchParams(): URLSearchParams {
-  const nextParams = useSearchParams();
-  const search = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  const [query, setQuery] = useState("");
   useEffect(() => {
-    window.dispatchEvent(new PopStateEvent("popstate"));
+    const sync = () => setQuery(window.location.search.slice(1));
+    sync();
+    window.addEventListener("popstate", sync);
+    return () => window.removeEventListener("popstate", sync);
   }, []);
-  return new URLSearchParams(search || nextParams.toString());
+  return new URLSearchParams(query);
 }
 
 export function pushSearchParams(pathname: string, params: URLSearchParams): void {

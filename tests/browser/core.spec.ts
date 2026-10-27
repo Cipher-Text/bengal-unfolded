@@ -58,9 +58,9 @@ for (const locale of ["en", "bn"]) {
     await page.goto(`/${locale}/compare/?a=1952-language-movement&b=1971-liberation-war`);
     await expect(page.locator('select[name="a"]')).toHaveValue("1952-language-movement");
     await expect(page.locator('select[name="b"]')).toHaveValue("1971-liberation-war");
-    await expect(page.getByRole("heading", { name: "Language Movement" }).first()).toBeVisible();
-    await expect(page.getByRole("heading", { name: "Liberation War" }).first()).toBeVisible();
-    await page.getByRole("link", { name: locale === "en" ? "Reset" : "রিসেট" }).click();
+    await expect(page.getByRole("heading", { name: locale === "en" ? "Language Movement" : "ভাষা আন্দোলন" }).first()).toBeVisible();
+    await expect(page.getByRole("heading", { name: locale === "en" ? "Liberation War" : "মুক্তিযুদ্ধ" }).first()).toBeVisible();
+    await page.getByRole("button", { name: locale === "en" ? "Reset" : "রিসেট" }).click();
     await expect(page).not.toHaveURL(/[?&][ab]=/);
     await page.goBack();
     await expect(page).toHaveURL(/a=1952-language-movement/);
@@ -69,11 +69,18 @@ for (const locale of ["en", "bn"]) {
   test(`${locale} learning paths restore query mode filters and invalid mode fallback`, async ({ page }) => {
     await page.goto(`/${locale}/paths/?mode=researcher`);
     await expect(page).toHaveURL(/mode=researcher/);
-    await expect(page.getByRole("link", { name: locale === "en" ? "Researcher" : "গবেষক", exact: true })).toHaveAttribute("aria-pressed", "true");
+    await expect(page.getByRole("link", { name: locale === "en" ? "Researcher" : "গবেষক", exact: true })).toHaveAttribute("aria-current", "page");
     await page.goBack();
     await expect(page).not.toHaveURL(/mode=/);
     await page.goto(`/${locale}/paths/?mode=unknown`);
-    await expect(page.getByRole("link", { name: locale === "en" ? "All paths" : "সব পথ", exact: true })).toHaveAttribute("aria-pressed", "true");
+    await expect(page.getByRole("link", { name: locale === "en" ? "All paths" : "সব পথ", exact: true })).toHaveAttribute("aria-current", "page");
+  });
+
+  test(`${locale} learning path mode works after client navigation`, async ({ page }) => {
+    await page.goto(`/${locale}/paths/`);
+    await page.getByRole("link", { name: locale === "en" ? "Researcher" : "গবেষক", exact: true }).click();
+    await expect(page).toHaveURL(/mode=researcher/);
+    await expect(page.getByRole("link", { name: locale === "en" ? "Researcher" : "গবেষক", exact: true })).toHaveAttribute("aria-current", "page");
   });
 
   test(`${locale} event figure listing paginates direct links, bounds, and history`, async ({ page }) => {

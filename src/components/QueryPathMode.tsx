@@ -2,6 +2,7 @@
 
 import { useUrlSearchParams } from "@/lib/use-url-search-params";
 import Link from "next/link";
+import { pushSearchParams } from "@/lib/use-url-search-params";
 import type { LearningPathMode, LearningPathSummary } from "@/lib/learning-paths";
 import type { Locale } from "@/types/content";
 
@@ -18,8 +19,8 @@ export function QueryPathMode({ locale, paths, labels }: { locale: Locale; paths
   const filtered = mode ? paths.filter((path) => path.modes.includes(mode)) : paths;
   return <>
     <div className="mt-4 flex flex-wrap gap-2">
-      <Link href={`/${locale}/paths`} aria-pressed={!mode} className={`inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-medium ${!mode ? "border-amber-500/60 text-accent" : "border-amber-500/25 theme-muted"} hover:bg-amber-500/10`}>{labels.all}</Link>
-      {MODES.map((item) => <Link key={item} href={`/${locale}/paths?mode=${item}`} aria-pressed={mode === item} className={`inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-medium ${mode === item ? "border-amber-500/60 text-accent" : "border-amber-500/25 theme-muted"} hover:bg-amber-500/10`}>{MODE_LABELS[locale][item]}</Link>)}
+      <a href={`/${locale}/paths/`} onClick={(event) => { event.preventDefault(); pushSearchParams(`/${locale}/paths/`, new URLSearchParams()); }} aria-current={!mode ? "page" : undefined} className={`inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-medium ${!mode ? "border-amber-500/60 text-accent" : "border-amber-500/25 theme-muted"} hover:bg-amber-500/10`}>{labels.all}</a>
+      {MODES.map((item) => <a key={item} href={`/${locale}/paths/?mode=${item}`} onClick={(event) => { event.preventDefault(); pushSearchParams(`/${locale}/paths/`, new URLSearchParams({ mode: item })); }} aria-current={mode === item ? "page" : undefined} className={`inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-medium ${mode === item ? "border-amber-500/60 text-accent" : "border-amber-500/25 theme-muted"} hover:bg-amber-500/10`}>{MODE_LABELS[locale][item]}</a>)}
     </div>
     <section className="mt-8">
       <h2 className="text-xl font-semibold">{labels.available} <span className="theme-muted text-sm font-normal">{filtered.length} / {paths.length}</span></h2>

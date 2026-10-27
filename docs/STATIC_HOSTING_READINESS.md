@@ -14,8 +14,7 @@ The root route is a static Bengali handoff to `/bn/`. Content pages remain bilin
 - Next Image's default optimizer requires a server. `images.unoptimized` allows the current local image files to be served directly.
 - Dynamic pages are enumerated from supported locale and content ID lists or from content directory APIs. Unknown IDs continue to reach `notFound()` during the build for generated pages; unknown paths are handled by the exported `404.html`.
 - Static output cannot render request-specific query strings. Query state must be read in small Client Components with `useSearchParams()` under Suspense; the Server Component continues to load content and render the page shell and default content. The figures directory now restores `q`, `entity`, `group`, and `page`, including browser history and invalid page clamping. Query result URLs keep the unfiltered canonical URL so filtered variants do not compete in search results.
-- Resources (`q/category/subcategory/quality/page`), creators (`q/type/category/minResources/page`), and timeline (`q/year/theme/importance/page`) now use client-side query state under Suspense, retaining the original filtering and ordering rules. Event figure listings restore `page`, default invalid/non-positive values to 1, and clamp pages above the end. Browser tests pass for all four features in English and Bengali, including direct links and history/reset coverage.
-- Compare and learning paths remain incomplete. Compare uses `a/b` and fetches selected event details from 168 pre-generated static files per locale instead of embedding all event records in the page. The static files are present, but browser tests still show the default pair on direct query URLs. Learning paths uses `mode`; direct-query initialization also remains on the default state in the browser. Do not treat these two areas as restored yet.
+- Resources (`q/category/subcategory/quality/page`), creators (`q/type/category/minResources/page`), and timeline (`q/year/theme/importance/page`) preserve their pre-migration filtering, sorting, and pagination behavior. Event figure listings restore `page`, default invalid/non-positive values to 1, and clamp pages above the end. Compare restores `a/b`, lazily loads selected event details from pre-generated static data, and resets through browser history. Learning paths restores the `mode` filter. Browser tests cover direct query URLs, browser navigation, resets, invalid values, and pagination boundaries in both locales on desktop and mobile Chromium.
 - `next/font/google` is used for the site UI. Next downloads and bundles those fonts at build time; CI therefore needs network access to Google Fonts unless the fonts are later vendored locally.
 
 ## Static route coverage
@@ -39,7 +38,7 @@ The patterns preserve the locale, entity ID, event slug, and remaining path. Pro
 
 ## CI pipeline
 
-`.github/workflows/ci.yml` runs on pushes to `main`, pull requests targeting `main`, and manual dispatch. It grants only `contents: read`, installs Node.js 22 and pnpm 10.13.1, uses dependency and Playwright browser caches, applies a 45-minute job timeout, and cancels superseded runs. It runs content validation and figure audit, ESLint, TypeScript, static build and verification, build-size reporting, Playwright against a local HTTP server serving `out/`, and uploads the static artifact and failure reports. It contains no deployment or infrastructure credentials. The initial browser suite covers localized landing/language switching, figure query filters and browser history, comparison URL parameters, sitemap, robots, and 404 behavior on desktop and mobile Chromium.
+`.github/workflows/ci.yml` runs on pushes to `main`, pull requests targeting `main`, and manual dispatch. It grants only `contents: read`, installs Node.js 22 and pnpm 10.13.1, uses dependency and Playwright browser caches, applies a 45-minute job timeout, and cancels superseded runs. It runs content validation and figure audit, ESLint, TypeScript, static build and verification, build-size reporting, Playwright against a local HTTP server serving `out/`, and uploads the static artifact and failure reports. It contains no deployment or infrastructure credentials. Browser tests cover localized landing/language switching; direct query URLs, filtering, resets, invalid values, pagination boundaries and history for resources, timeline, compare, creators, learning paths and event figure listings; sitemap; robots; and 404 behavior on desktop and mobile Chromium.
 
 ## Build commands
 
@@ -51,6 +50,8 @@ pnpm run lint
 pnpm exec tsc --noEmit
 pnpm run build
 pnpm run static:verify
+pnpm run build:size
+pnpm run test:e2e
 ```
 
 ## Artifact structure
@@ -59,16 +60,16 @@ Expected output includes `out/index.html`, `out/404.html`, `out/en/`, `out/bn/`,
 
 The measured pre-change local artifact contained 4,184 HTML files and 44,339 files overall, totaling 991,807,802 bytes (946.0 MiB). It consisted of 316.1 MiB HTML, 499.2 MiB Next static navigation `.txt` route payloads, 108.8 MiB social PNGs, and 18.5 MiB WebP images. The sitemap was 1.87 MiB. Compiled JavaScript was 0.71 MiB and CSS was 0.08 MiB.
 
-Latest measured output after the query islands and static compare data: 4,184 HTML files, 44,682 files overall, 1,030,351,914 bytes (982.7 MiB). HTML is 340,072,359 bytes (324.3 MiB); Next route payloads are 546,855,973 bytes (521.5 MiB); JavaScript is 809,579 bytes (0.77 MiB); CSS is 82,041 bytes (0.08 MiB); image assets are 129,922,266 bytes (123.9 MiB), including 110,309,382 bytes (105.2 MiB) of social PNGs. The 336 static compare data files account for 3,717,515 bytes EN and 6,463,831 bytes BN. Figure-directory duplication remains: BN HTML is 1,469,992 bytes (1.40 MiB), BN route payload 1,240,724 bytes (1.18 MiB); EN HTML 800,583 bytes (0.76 MiB), EN route payload 635,731 bytes (0.61 MiB). The client query data increases route sizes, so no further optimization was applied without a measured safe alternative. The 1,440 social PNGs were losslessly recompressed from 108.80 MiB to 105.20 MiB, saving 3.60 MiB. No archival photograph was modified.
+Latest post-optimization measurement: 4,184 HTML files, 44,682 files overall, 1,030,348,901 bytes (982.7 MiB). HTML is 340,072,392 bytes (324.3 MiB); Next route payloads are 546,855,973 bytes (521.5 MiB); JavaScript is 809,561 bytes (0.77 MiB); CSS is 82,041 bytes (0.08 MiB); image assets are 129,919,238 bytes (123.9 MiB), including 110,306,354 bytes (105.2 MiB) of social PNGs. The 336 static compare data files total 3,717,515 bytes in English and 6,463,831 bytes in Bengali. Figure-directory duplication remains measurable: Bengali HTML is 1,469,992 bytes (1.40 MiB) with 1,240,724 bytes (1.18 MiB) of route payload; English HTML is 800,583 bytes (0.76 MiB) with 635,731 bytes (0.61 MiB) of route payload. The client data is required for filtering and SEO remains server-rendered, so no further optimization was applied without a measured safe alternative. Lossless social PNG recompression reduced 1,440 files from 108.79 MiB to 105.20 MiB, saving 3.60 MiB. No archival photograph was modified.
 
-Validation at this checkpoint: static build, `static:verify`, content validation, ESLint, TypeScript, and `git diff --check` pass. Playwright has 24 passing and 8 failing cases across desktop/mobile. The failures are direct-query initialization for compare (`a/b`) and learning paths (`mode`) in both locales. Resource, creator, timeline, figure-directory, event-figure pagination, language switching, and static route checks pass.
+Validation at this checkpoint: production build completed and generated 5,963 static pages; `static:verify` verified 4,184 HTML files and supported content routes; content validation, ESLint, TypeScript, `git diff --check`, and all 36 Playwright tests pass across desktop and mobile Chromium. Tests cover direct links, browser history, resets, invalid parameters, localized UI, and pagination boundaries for all restored features.
 
 CI emits a JSON size report with total bytes/files, HTML, Next route payload, JavaScript, CSS, image and social image bytes, and the 20 largest files. Reports are uploaded as workflow artifacts. No threshold is enforced until multiple revision measurements establish a stable baseline.
 
 ## Known limitations
 
 - Static hosting cannot add content IDs after deployment; every content change needs a new build and artifact.
-- Arbitrary query-driven server rendering is not available. Resources, creators, timeline, and event figure pagination are restored through client islands. Compare and learning-path direct query initialization remain unresolved and are still static migration regressions.
+- Arbitrary query-driven server rendering is not available. Query-dependent updates happen after hydration in client islands; static HTML retains default content for crawlers and no-JavaScript visitors.
 - Browser refreshes on nested routes require the server to serve the corresponding `index.html`; unknown routes should serve `404.html` with an actual 404 status.
 - The root handoff uses browser navigation and can briefly show its fallback text when JavaScript is unavailable or the meta refresh is blocked.
 - OG images must be regenerated with each content or title update.
