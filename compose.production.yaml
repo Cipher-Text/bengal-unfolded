@@ -1,0 +1,16 @@
+services:
+  bengal-unfolded:
+    image: ${BENGAL_UNFOLDED_IMAGE:?Set BENGAL_UNFOLDED_IMAGE to an immutable GHCR image tag}
+    container_name: bengal-unfolded
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+    networks:
+      - internal_apps
+
+networks:
+  internal_apps:
+    external: true
