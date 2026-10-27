@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import {
   getAllLearningPaths,
-  getLearningPathModeLabel,
-  type LearningPathMode,
 } from "@/lib/learning-paths";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
+import { QueryPathMode } from "@/components/QueryPathMode";
 
 export const dynamic = "force-static";
-
-const MODES: LearningPathMode[] = ["beginner", "student", "researcher", "exam-prep"];
 
 const LABELS = {
   en: {
@@ -72,9 +69,7 @@ export default async function PathsPage({ params }: { params: Promise<{ locale: 
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
   const labels = LABELS[locale as Locale];
-  const mode = undefined;
   const paths = await getAllLearningPaths(locale as Locale);
-  const filteredPaths = mode ? paths.filter((path) => path.modes.includes(mode)) : paths;
 
   return (
     <div className="space-y-8">
@@ -82,71 +77,10 @@ export default async function PathsPage({ params }: { params: Promise<{ locale: 
 
       <section className="theme-surface rounded-2xl border p-5 md:p-6">
         <SectionTitle title={labels.filterTitle} subtitle={labels.filterSubtitle} />
-        <div className="mt-4 flex flex-wrap gap-2">
-          <Link
-            href={`/${locale}/paths`}
-            className={`inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-medium ${
-              !mode ? "border-amber-500/60 text-accent" : "border-amber-500/25 theme-muted"
-            } hover:bg-amber-500/10`}
-          >
-            {labels.all}
-          </Link>
-          {MODES.map((item) => (
-            <Link
-              key={item}
-              href={`/${locale}/paths?mode=${item}`}
-              className={`inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-medium ${
-                mode === item ? "border-amber-500/60 text-accent" : "border-amber-500/25 theme-muted"
-              } hover:bg-amber-500/10`}
-            >
-              {getLearningPathModeLabel(locale as Locale, item)}
-            </Link>
-          ))}
-        </div>
       </section>
-
-      <section>
-        <SectionTitle
-          title={labels.available}
-          subtitle={`${filteredPaths.length} / ${paths.length}`}
-        />
-        {filteredPaths.length > 0 ? (
-          <div className="mt-4 grid gap-4 md:grid-cols-2">
-            {filteredPaths.map((path) => (
-              <Link
-                key={path.slug}
-                href={`/${locale}/paths/${path.slug}`}
-                className="theme-surface group rounded-xl border p-5 hover:border-amber-500/40"
-              >
-                <div className="flex flex-wrap gap-2">
-                  {path.modes.map((pathMode) => (
-                    <span
-                      key={pathMode}
-                      className="rounded-full border border-amber-500/30 px-2.5 py-1 text-[11px] font-medium text-accent"
-                    >
-                      {getLearningPathModeLabel(locale as Locale, pathMode)}
-                    </span>
-                  ))}
-                </div>
-                <h2 className="mt-4 text-xl font-semibold">{path.title}</h2>
-                <p className="theme-muted mt-2 text-sm leading-relaxed">{path.description}</p>
-                <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-                  <span className="text-accent">{path.stepCount} {labels.steps}</span>
-                  <span className="theme-muted">{labels.difficulty}: {path.difficulty}</span>
-                </div>
-                <p className="mt-5 inline-flex items-center text-sm font-medium text-accent">
-                  {labels.open}
-                  <span className="arrow ml-1">→</span>
-                </p>
-              </Link>
-            ))}
-          </div>
-        ) : (
-          <div className="theme-surface mt-4 rounded-xl border p-6 theme-muted">
-            {labels.none}
-          </div>
-        )}
-      </section>
+      <Suspense fallback={<section className="min-h-48" aria-busy="true" />}>
+        <QueryPathMode locale={locale as Locale} paths={paths} labels={labels} />
+      </Suspense>
     </div>
   );
 }

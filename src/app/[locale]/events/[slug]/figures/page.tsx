@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { FigureProfileCard } from "@/components/FigureProfileCard";
+import { Suspense } from "react";
+import { EventFiguresPagination } from "@/components/EventFiguresPagination";
 import { HeroSection } from "@/components/HeroSection";
-import { SectionTitle } from "@/components/SectionTitle";
 import { getEventMetaForDisplay, getFiguresByEventSlug } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
@@ -27,18 +26,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
-const PAGE_SIZE = 20;
-
 export default async function EventFiguresListPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) notFound();
 
   const [eventMeta, figures] = await Promise.all([getEventMetaForDisplay(locale, slug), getFiguresByEventSlug(locale, slug)]);
-  const currentPage = 1;
-  const totalPages = Math.max(1, Math.ceil(figures.length / PAGE_SIZE));
-  const safePage = Math.min(currentPage, totalPages);
-  const start = (safePage - 1) * PAGE_SIZE;
-  const pagedFigures = figures.slice(start, start + PAGE_SIZE);
 
   return (
     <div className="space-y-8">
@@ -49,25 +41,7 @@ export default async function EventFiguresListPage({ params }: { params: Promise
       />
 
       <div>
-        <SectionTitle title={locale === "bn" ? "পূর্ণ ব্যক্তিত্ব তালিকা" : "Full Figure List"} subtitle={`${figures.length} ${locale === "bn" ? "প্রোফাইল" : "profiles"}`} />
-        <div className="mt-4 grid gap-4 md:grid-cols-2">
-          {pagedFigures.map((figure, index) => (
-            <FigureProfileCard key={figure.id} figure={figure} locale={locale as Locale} featured={index === 0 && safePage === 1} />
-          ))}
-        </div>
-        <div className="mt-6 flex items-center justify-between">
-          {safePage > 1 ? (
-            <Link href={`/${locale}/events/${slug}/figures?page=${safePage - 1}`} aria-label={locale === "bn" ? "আগের পাতা" : "Previous page"} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm text-accent hover:bg-amber-500/10">
-              {locale === "bn" ? "আগে" : "Previous"}
-            </Link>
-          ) : <span />}
-          <p className="theme-muted text-sm">{locale === "bn" ? `${safePage} / ${totalPages}` : `Page ${safePage} of ${totalPages}`}</p>
-          {safePage < totalPages ? (
-            <Link href={`/${locale}/events/${slug}/figures?page=${safePage + 1}`} aria-label={locale === "bn" ? "পরের পাতা" : "Next page"} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm text-accent hover:bg-amber-500/10">
-              {locale === "bn" ? "পরে" : "Next"}
-            </Link>
-          ) : <span />}
-        </div>
+        <Suspense fallback={<div className="min-h-40" aria-busy="true" />}><EventFiguresPagination figures={figures} locale={locale as Locale} /></Suspense>
       </div>
     </div>
   );
