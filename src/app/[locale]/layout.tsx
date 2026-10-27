@@ -3,6 +3,8 @@ import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return SUPPORTED_LOCALES.map((locale) => ({ locale }));
 }

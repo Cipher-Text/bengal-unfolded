@@ -9,29 +9,21 @@ import { inferFigureEntityType, type FigureEntityType } from "@/lib/figures";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Figure, type Locale } from "@/types/content";
 
+export const dynamic = "force-static";
+
 export function generateStaticParams() {
   return SUPPORTED_LOCALES.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ page?: string; q?: string; entity?: string; group?: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const { page, q, entity, group } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
-  const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
-  const hasFilters = Boolean(q?.trim() || entity?.trim() || group?.trim());
   return buildPageMetadata({
     locale: locale as Locale,
     title: locale === "bn" ? "ঐতিহাসিক ব্যক্তিত্ব" : "Historical Figures",
     description: "Explore all figures and historical actors connected to Bengal Unfolded events.",
     canonicalPath: `/${locale}/figures`,
     languagePathWithoutLocale: "/figures",
-    noIndex: currentPage > 1 || hasFilters,
   });
 }
 
@@ -53,15 +45,12 @@ function buildQuery(params: { q?: string; entity?: string; group?: string; page?
   return qs ? `?${qs}` : "";
 }
 
-export default async function FiguresListPage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ page?: string; q?: string; entity?: string; group?: string }>;
-}) {
+export default async function FiguresListPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const { page = "1", q = "", entity = "", group = "" } = await searchParams;
+  const page = "1";
+  const q = "";
+  const entity = "";
+  const group = "";
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
   const isBn = locale === "bn";

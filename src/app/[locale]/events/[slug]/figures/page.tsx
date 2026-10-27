@@ -8,48 +8,33 @@ import { getEventMetaForDisplay, getFiguresByEventSlug } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 
+export const dynamic = "force-static";
+
 export function generateStaticParams() {
   return SUPPORTED_LOCALES.flatMap((locale) => SUPPORTED_EVENT_SLUGS.map((slug) => ({ locale, slug })));
 }
 
-export async function generateMetadata({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string; slug: string }>;
-  searchParams: Promise<{ page?: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const { page } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) return {};
   const eventMeta = await getEventMetaForDisplay(locale, slug);
-  const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
-  const canonical = currentPage > 1 ? `/${locale}/events/${slug}/figures?page=${currentPage}` : `/${locale}/events/${slug}/figures`;
   return buildPageMetadata({
     locale: locale as Locale,
     title: `${eventMeta.year} Figures — ${eventMeta.title}`,
     description: `Full figure list for ${eventMeta.title}.`,
-    canonicalPath: canonical,
+    canonicalPath: `/${locale}/events/${slug}/figures`,
     languagePathWithoutLocale: `/events/${slug}/figures`,
-    noIndex: currentPage > 1,
   });
 }
 
 const PAGE_SIZE = 20;
 
-export default async function EventFiguresListPage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string; slug: string }>;
-  searchParams: Promise<{ page?: string }>;
-}) {
+export default async function EventFiguresListPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
-  const { page } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) notFound();
 
   const [eventMeta, figures] = await Promise.all([getEventMetaForDisplay(locale, slug), getFiguresByEventSlug(locale, slug)]);
-  const currentPage = Math.max(1, Number.parseInt(page ?? "1", 10) || 1);
+  const currentPage = 1;
   const totalPages = Math.max(1, Math.ceil(figures.length / PAGE_SIZE));
   const safePage = Math.min(currentPage, totalPages);
   const start = (safePage - 1) * PAGE_SIZE;

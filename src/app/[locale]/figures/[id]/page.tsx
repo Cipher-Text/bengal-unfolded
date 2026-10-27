@@ -64,8 +64,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ogImagePath: buildDynamicOgImagePath({
       locale: locale as Locale,
       type: "figure",
-      title: figure.name,
-      subtitle: figure.role,
+      slug: id,
     }),
   });
 }
@@ -237,8 +236,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
   const shareImagePath = buildDynamicOgImagePath({
     locale: locale as Locale,
     type: "figure",
-    title: figure.name,
-    subtitle: figure.role,
+    slug: id,
   });
 
   return (

@@ -13,6 +13,8 @@ import {
   type ResourceCategory,
 } from "@/types/content";
 
+export const dynamic = "force-static";
+
 const PAGE_SIZE = 24;
 const CREATOR_TYPES: Creator["type"][] = ["person", "organization"];
 const RESOURCE_COUNT_VALUES = ["2", "5", "10"] as const;
@@ -107,19 +109,9 @@ export function generateStaticParams() {
   return SUPPORTED_LOCALES.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ page?: string; q?: string; type?: string; category?: string; minResources?: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const { page, q, type, category, minResources } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
-
-  const currentPage = toPage(page);
-  const hasFilters = Boolean(q?.trim() || type?.trim() || category?.trim() || minResources?.trim());
   const isBn = locale === "bn";
 
   return buildPageMetadata({
@@ -131,19 +123,16 @@ export async function generateMetadata({
     canonicalPath: `/${locale}/creators`,
     languagePathWithoutLocale: "/creators",
     type: "website",
-    noIndex: currentPage > 1 || hasFilters,
   });
 }
 
-export default async function CreatorsIndexPage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ page?: string; q?: string; type?: string; category?: string; minResources?: string }>;
-}) {
+export default async function CreatorsIndexPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const { page = "1", q = "", type = "", category = "", minResources = "" } = await searchParams;
+  const page = "1";
+  const q = "";
+  const type = "";
+  const category = "";
+  const minResources = "";
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
   const currentLocale = locale as Locale;

@@ -33,16 +33,9 @@ export function languageAlternates(pathWithoutLocale: string, includeXDefault = 
 export function buildDynamicOgImagePath(input: {
   locale: Locale;
   type: "event" | "figure";
-  title: string;
-  subtitle?: string;
+  slug: string;
 }): string {
-  const params = new URLSearchParams({
-    locale: input.locale,
-    type: input.type,
-    title: input.title,
-  });
-  if (input.subtitle) params.set("subtitle", input.subtitle);
-  return `/api/og?${params.toString()}`;
+  return `/og/${input.locale}/${input.type}/${encodeURIComponent(input.slug)}.png`;
 }
 
 export function buildPageMetadata(input: {

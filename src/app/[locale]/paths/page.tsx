@@ -11,6 +11,8 @@ import {
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
+export const dynamic = "force-static";
+
 const MODES: LearningPathMode[] = ["beginner", "student", "researcher", "exam-prep"];
 
 const LABELS = {
@@ -44,14 +46,6 @@ const LABELS = {
   },
 } as const;
 
-function firstValue(value: string | string[] | undefined): string | undefined {
-  return Array.isArray(value) ? value[0] : value;
-}
-
-function toMode(value: string | undefined): LearningPathMode | undefined {
-  return MODES.includes(value as LearningPathMode) ? (value as LearningPathMode) : undefined;
-}
-
 export async function generateMetadata({
   params,
 }: {
@@ -73,18 +67,12 @@ export async function generateMetadata({
   });
 }
 
-export default async function PathsPage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ mode?: string | string[] }>;
-}) {
+export default async function PathsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
   const labels = LABELS[locale as Locale];
-  const mode = toMode(firstValue((await searchParams).mode));
+  const mode = undefined;
   const paths = await getAllLearningPaths(locale as Locale);
   const filteredPaths = mode ? paths.filter((path) => path.modes.includes(mode)) : paths;
 

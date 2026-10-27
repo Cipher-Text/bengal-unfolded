@@ -6,13 +6,14 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { buildPageMetadata } from "@/lib/seo";
 import { getAllEvents, getEventContent } from "@/lib/content";
 import {
-  SUPPORTED_EVENT_SLUGS,
   SUPPORTED_LOCALES,
   type EventContent,
   type EventImportance,
   type EventSlug,
   type Locale,
 } from "@/types/content";
+
+export const dynamic = "force-static";
 
 const DEFAULT_PAIR: Record<Locale, [EventSlug, EventSlug]> = {
   en: ["1947-partition-and-eastern-bengal", "1952-language-movement"],
@@ -110,21 +111,6 @@ const LABELS = {
     sensitive: "সংবেদনশীল বিষয়বস্তু",
   },
 } as const;
-
-type CompareSearchParams = {
-  a?: string | string[];
-  b?: string | string[];
-};
-
-function firstValue(value: string | string[] | undefined): string | undefined {
-  return Array.isArray(value) ? value[0] : value;
-}
-
-function toEventSlug(value: string | undefined): EventSlug | undefined {
-  return SUPPORTED_EVENT_SLUGS.includes(value as EventSlug)
-    ? (value as EventSlug)
-    : undefined;
-}
 
 function sourcePosture(event: EventContent) {
   const directSourceIds = new Set<string>();
@@ -298,22 +284,15 @@ export async function generateMetadata({
   });
 }
 
-export default async function ComparePage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<CompareSearchParams>;
-}) {
+export default async function ComparePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
   const labels = LABELS[locale as Locale];
   const allEvents = await getAllEvents(locale);
-  const query = await searchParams;
   const defaults = DEFAULT_PAIR[locale as Locale];
-  const firstSlug = toEventSlug(firstValue(query.a)) ?? defaults[0];
-  const secondSlugCandidate = toEventSlug(firstValue(query.b)) ?? defaults[1];
+  const firstSlug = defaults[0];
+  const secondSlugCandidate = defaults[1];
   const secondSlug =
     secondSlugCandidate === firstSlug
       ? allEvents.find((event) => event.slug !== firstSlug)?.slug ?? defaults[1]

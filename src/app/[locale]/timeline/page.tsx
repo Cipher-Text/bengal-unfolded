@@ -10,6 +10,8 @@ import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type EventImportance, type Locale } from "@/types/content";
 import type { TimelineTheme } from "@/types/content";
 
+export const dynamic = "force-static";
+
 const PAGE_SIZE = 6;
 
 function normalize(v: string): string {
@@ -89,17 +91,15 @@ export async function generateMetadata({
   });
 }
 
-export default async function TimelineExplorerPage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ q?: string; year?: string; theme?: string; importance?: string; page?: string }>;
-}) {
+export default async function TimelineExplorerPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
-  const { q = "", year = "", theme = "", importance = "", page = "1" } = await searchParams;
+  const q = "";
+  const year = "";
+  const theme = "";
+  const importance = "";
+  const page = "1";
   const safePage = toPage(page);
   const isBn = locale === "bn";
 

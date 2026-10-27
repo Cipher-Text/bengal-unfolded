@@ -58,8 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     ogImagePath: buildDynamicOgImagePath({
       locale: locale as Locale,
       type: "event",
-      title: `${event.meta.year} - ${event.meta.title}`,
-      subtitle: event.meta.heroTagline,
+      slug,
     }),
   });
 }
@@ -274,8 +273,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const shareImagePath = buildDynamicOgImagePath({
     locale: locale as Locale,
     type: "event",
-    title: `${event.meta.year} - ${event.meta.title}`,
-    subtitle: event.meta.heroTagline,
+    slug,
   });
   const canonicalPath = `/${locale}/events/${slug}`;
   const canonicalUrl = absoluteUrl(canonicalPath);

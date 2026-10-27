@@ -142,3 +142,10 @@
   - Model/validation/UI: no schema, validator, or UI changes; existing figure fields and FAQ source validation are used.
   - Backfill: EN/BN figure metadata revised together; existing event figure and source relationships already covered this profile.
   - Risk/known gaps: details follow the existing Banglapedia reference record; its broader claims about agrarian politics are framed as context rather than unqualified conclusions.
+## 2026-10-27 — Static hosting preparation
+
+- Model/validation: no schema changes. Repaired stale internal cross-reference URLs in event FAQ source labels (retired 2018 composite slugs and a nonexistent topic slug); no historical narrative claims changed. Content validation and the figure audit remain part of CI.
+- UI/runtime: enabled static export and trailing-slash output, made Next Image use source assets directly, replaced the root server redirect with a static Bengali handoff, and replaced the request-driven OG endpoint with deterministic build-time generated image routes for events and figures.
+- Tooling/docs: added least-privilege GitHub Actions validation/build/artifact workflow, static artifact verifier, and static hosting/redirect documentation.
+- Backfill: updated affected event quote source labels in EN/BN; all current supported route IDs are enumerated at build time.
+- Known gaps: query-driven server pages now emit static default views, but their former search/filter/comparison/pagination behavior and query-specific `noindex` metadata need client-side replacement. The verified export is about 1.0 GB. Next Google Fonts currently need build-time network access.

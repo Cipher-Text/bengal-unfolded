@@ -8,6 +8,8 @@ import { getAllResources } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale, type ResourceCategory, type SourceQuality } from "@/types/content";
 
+export const dynamic = "force-static";
+
 const PAGE_SIZE = 20;
 const CATEGORY_VALUES: ResourceCategory[] = [
   "primary-sources",
@@ -69,11 +71,6 @@ function normalize(v: string): string {
   return v.trim().toLowerCase();
 }
 
-function toPage(v: string | undefined): number {
-  const n = Number(v);
-  return Number.isFinite(n) && n > 0 ? Math.floor(n) : 1;
-}
-
 function buildQuery(params: { q?: string; category?: string; subcategory?: string; quality?: string; page?: number }): string {
   const qs = new URLSearchParams();
   if (params.q?.trim()) qs.set("q", params.q.trim());
@@ -93,19 +90,9 @@ export function generateStaticParams() {
   return SUPPORTED_LOCALES.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ page?: string; q?: string; category?: string; subcategory?: string; quality?: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const { page, q, category, subcategory, quality } = await searchParams;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
-
-  const currentPage = toPage(page);
-  const hasFilters = Boolean(q?.trim() || category?.trim() || subcategory?.trim() || quality?.trim());
   const isBn = locale === "bn";
 
   return buildPageMetadata({
@@ -117,19 +104,16 @@ export async function generateMetadata({
     canonicalPath: `/${locale}/resources`,
     languagePathWithoutLocale: "/resources",
     type: "website",
-    noIndex: currentPage > 1 || hasFilters,
   });
 }
 
-export default async function ResourcesIndexPage({
-  params,
-  searchParams,
-}: {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ page?: string; q?: string; category?: string; subcategory?: string; quality?: string }>;
-}) {
+export default async function ResourcesIndexPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const { page = "1", q = "", category = "", subcategory = "", quality = "" } = await searchParams;
+  const page = "1";
+  const q = "";
+  const category = "";
+  const subcategory = "";
+  const quality = "";
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
 
   const isBn = locale === "bn";

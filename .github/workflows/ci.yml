@@ -1,0 +1,59 @@
+name: Static site CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.13.1
+          run_install: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate content
+        run: pnpm run content:validate
+
+      - name: Audit figure content
+        run: pnpm run content:audit:figures
+
+      - name: Lint
+        run: pnpm run lint
+
+      - name: Type check
+        run: pnpm exec tsc --noEmit
+
+      - name: Build static site
+        run: pnpm run build
+
+      - name: Verify static artifact
+        run: pnpm run static:verify
+
+      - name: Upload static artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bengal-unfolded-static-site
+          path: out/
+          if-no-files-found: error
+          retention-days: 14
