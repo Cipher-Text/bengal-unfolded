@@ -13,7 +13,8 @@ The root route is a static Bengali handoff to `/bn/`. Content pages remain bilin
 - The dynamic `/api/og` handler read request query parameters and rendered images at runtime. It is replaced with generated routes for event and figure IDs in both locales.
 - Next Image's default optimizer requires a server. `images.unoptimized` allows the current local image files to be served directly.
 - Dynamic pages are enumerated from supported locale and content ID lists or from content directory APIs. Unknown IDs continue to reach `notFound()` during the build for generated pages; unknown paths are handled by the exported `404.html`.
-- Query-driven pages (`figures`, `resources`, `creators`, `timeline`, `compare`, `paths`, and event figure lists) previously read `searchParams` in server page functions. Those reads have been removed so Next can emit their static default pages. Static export cannot render per-request query strings, and client-side filter state has not yet replaced the old server behavior. Search, filters, comparison selection, pagination, and query-specific `noindex` metadata on these pages therefore do not retain their prior query-driven behavior in this migration and need a client-side implementation before claiming full feature parity.
+- Static output cannot render request-specific query strings. Query state must be read in small Client Components with `useSearchParams()` under Suspense; the Server Component continues to load content and render the page shell and default content. The figures directory now restores `q`, `entity`, `group`, and `page`, including browser history and invalid page clamping. Query result URLs keep the unfiltered canonical URL so filtered variants do not compete in search results.
+- The resources, creators, timeline, compare, learning-path, and event-figure pages still need the same client-state restoration. Their prior query keys are `q/category/subcategory/quality/page`, `q/type/category/minResources/page`, `q/year/theme/importance/page`, `a/b`, `mode`, and `page` respectively. This is a remaining parity gap.
 - `next/font/google` is used for the site UI. Next downloads and bundles those fonts at build time; CI therefore needs network access to Google Fonts unless the fonts are later vendored locally.
 
 ## Static route coverage
@@ -37,7 +38,7 @@ The patterns preserve the locale, entity ID, event slug, and remaining path. Pro
 
 ## CI pipeline
 
-`.github/workflows/ci.yml` runs on pushes to `main`, pull requests targeting `main`, and manual dispatch. It grants only `contents: read`, installs Node.js 22 and pnpm 10.13.1, uses the pnpm lockfile cache, installs frozen dependencies, runs content validation and the figure audit, runs ESLint and TypeScript, builds `out/`, verifies it, and uploads the complete folder as a 14-day GitHub Actions artifact. It contains no deployment or infrastructure credentials.
+`.github/workflows/ci.yml` runs on pushes to `main`, pull requests targeting `main`, and manual dispatch. It grants only `contents: read`, installs Node.js 22 and pnpm 10.13.1, uses dependency and Playwright browser caches, applies a 45-minute job timeout, and cancels superseded runs. It runs content validation and figure audit, ESLint, TypeScript, static build and verification, build-size reporting, Playwright against a local HTTP server serving `out/`, and uploads the static artifact and failure reports. It contains no deployment or infrastructure credentials. The initial browser suite covers localized landing/language switching, figure query filters and browser history, comparison URL parameters, sitemap, robots, and 404 behavior on desktop and mobile Chromium.
 
 ## Build commands
 
@@ -55,12 +56,16 @@ pnpm run static:verify
 
 Expected output includes `out/index.html`, `out/404.html`, `out/en/`, `out/bn/`, `out/sitemap.xml`, `out/robots.txt`, `out/_next/static/`, local `public/` assets, and generated PNG social images under `out/og/{locale}/{type}/`. Route directories contain `index.html` due to trailing slash mode.
 
-The verified local artifact contains 4,184 HTML files, 1,440 social PNGs, and about 1.0 GB across 44,339 files. CI artifact download and future hosting storage should account for this size.
+The measured pre-change local artifact contained 4,184 HTML files and 44,339 files overall, totaling 991,807,802 bytes (946.0 MiB). It consisted of 316.1 MiB HTML, 499.2 MiB Next static navigation `.txt` route payloads, 108.8 MiB social PNGs, and 18.5 MiB WebP images. The sitemap was 1.87 MiB. Compiled JavaScript was 0.71 MiB and CSS was 0.08 MiB.
+
+After the figure filter island and image pass, the measured output is 4,184 HTML files and 44,340 files overall, totaling 994,921,552 bytes (948.9 MiB): 317.9 MiB HTML, 503.9 MiB route payloads, 105.2 MiB social PNGs, and 18.5 MiB WebP images. JavaScript is 0.72 MiB and CSS is 0.08 MiB. The 1,440 generated 1200×630 social PNGs were recompressed losslessly from 108.79 MiB to 105.20 MiB, saving 3.60 MiB while preserving dimensions and URLs. The overall artifact increased by 2.97 MiB because the client filtering data adds route payloads; individual figure directory pages are the largest HTML files (1.40 MiB BN and 0.76 MiB EN). The largest archival photograph is 0.78 MiB. No archival photograph was modified.
+
+CI emits a JSON size report with total bytes/files, HTML, Next route payload, JavaScript, CSS, image and social image bytes, and the 20 largest files. Reports are uploaded as workflow artifacts. No threshold is enforced until multiple revision measurements establish a stable baseline.
 
 ## Known limitations
 
 - Static hosting cannot add content IDs after deployment; every content change needs a new build and artifact.
-- Arbitrary query-driven server rendering is not available. The pages listed above require browser-side filtering and comparison state to regain their prior query controls.
+- Arbitrary query-driven server rendering is not available. Query state must be restored through client islands; only the figure directory is currently restored.
 - Browser refreshes on nested routes require the server to serve the corresponding `index.html`; unknown routes should serve `404.html` with an actual 404 status.
 - The root handoff uses browser navigation and can briefly show its fallback text when JavaScript is unavailable or the meta refresh is blocked.
 - OG images must be regenerated with each content or title update.

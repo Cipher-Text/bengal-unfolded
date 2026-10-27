@@ -66,7 +66,7 @@ export function buildPageMetadata(input: {
     );
   }
 
-  const localeAlternates = languagePath ? languageAlternates(languagePath, true) : undefined;
+  const localeAlternates = languagePath !== undefined ? languageAlternates(languagePath, true) : undefined;
   const ogLocaleAlternates = locale === "bn" ? ["en_US"] : ["bn_BD"];
 
   const canonicalUrl = absoluteUrl(input.canonicalPath);

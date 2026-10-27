@@ -122,6 +122,16 @@ for (const locale of ["en", "bn"]) {
 const htmlFiles = await collectHtml(root);
 for (const file of htmlFiles) {
   const html = await readFile(file, "utf8");
+  const relative = path.relative(root, file).replaceAll(path.sep, "/");
+  if (/^(?:bn|en)\//.test(relative)) {
+    const canonical = html.match(/<link[^>]+rel="canonical"[^>]+href="([^"]+)"/i)?.[1];
+    if (!canonical) errors.push(`Missing canonical URL in ${relative}`);
+    else if (canonical.includes("?")) errors.push(`Canonical URL contains query parameters in ${relative}: ${canonical}`);
+    for (const language of ["en-US", "bn-BD"]) {
+      if (!new RegExp(`<link[^>]+hrefLang="${language}"`, "i").test(html)) errors.push(`Missing ${language} alternate in ${relative}`);
+    }
+  }
+  if (/\b(?:fetch|XMLHttpRequest)\s*\([^)]*["']\/api\//i.test(html)) errors.push(`Unexpected runtime API dependency in ${relative}`);
   for (const match of html.matchAll(/\b(?:href|src)=["']([^"']+)["']/gi)) {
     const raw = match[1].trim();
     if (!raw || raw.startsWith("#") || /^(?:data:|javascript:|mailto:|tel:)/i.test(raw)) continue;
