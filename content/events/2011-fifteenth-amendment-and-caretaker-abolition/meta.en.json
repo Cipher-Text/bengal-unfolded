@@ -33,7 +33,7 @@
     "2014-10th-parliamentary-election",
     "2024-12th-parliamentary-election"
   ],
-  "periodLabel": "Post-Liberation State and Democracy",
+  "periodLabel": "Contemporary Memory and Civic Protest",
   "movementLabel": "State power and democratic transition",
   "showOnLanding": false,
   "summarySourceIds": [
@@ -48,7 +48,7 @@
   ],
   "summaryEvidenceLevel": "high",
   "whyItMattersEvidenceLevel": "high",
-  "periodId": "post-liberation-state-and-democracy",
+  "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "state-power-and-democratic-transition",
   "sensitive": false,
   "requiresSources": true,

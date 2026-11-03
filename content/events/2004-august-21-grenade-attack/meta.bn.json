@@ -18,7 +18,7 @@
   "relatedEventIds": [
     "2006-caretaker-crisis-and-emergency-rule"
   ],
-  "periodLabel": "মুক্তিযুদ্ধ-পরবর্তী রাষ্ট্র ও গণতন্ত্র",
+  "periodLabel": "সমসাময়িক স্মৃতি এবং নাগরিক প্রতিবাদ",
   "movementLabel": "রাষ্ট্রক্ষমতা ও গণতান্ত্রিক রূপান্তর",
   "showOnLanding": false,
   "summarySourceIds": [
@@ -31,7 +31,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "post-liberation-state-and-democracy",
+  "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "state-power-and-democratic-transition",
   "sensitive": true,
   "requiresSources": true,

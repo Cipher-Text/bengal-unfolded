@@ -27,6 +27,16 @@
   - Mobile menu now animates (the `hidden` attribute was cancelling its transition); menu links match the header's text size.
   - `section-tab` transitions specific properties instead of `all`. Removed unused CSS: flipbook/page-turn keyframes and classes, `reveal*`, ink-drop, paper-sway, pulse-dot.
 
+- Timeline page redesign (UI only; no model or content changes).
+  - Replaced the search form plus 28 pages of 6 cards with one continuous vertical timeline of all chapters, grouped into nine era sections with a sticky, scroll-spied era bar. Landmark chapters are large cards with a ringed marker, major chapters medium cards, others compact rows. Search is live and shareable via `?q=`; a Show filter switches between all chapters, key turning points and landmarks. Removed the year dropdown (139 options), the theme filter (only 19 of 168 events had themes) and the importance dropdown (no medium/reference events exist).
+  - New `src/lib/eras.ts`: `resolveEraId` groups an event by its date and keeps the stored `periodId` only when it agrees with that date. Many stored period ids are wrong (for example 700-750, the Sena rise and 1658 Aurangzeb chapters carry later period ids), so the timeline and landing-page era counts no longer trust them blindly. The underlying `periodId` data is not corrected and period pages still list events by stored id.
+  - Stub chapters show an "In progress" label instead of their template summary on the timeline.
+  - `HeroSection` no longer renders its default, unlocalized "The Bengal Chronicle" side panel; it appears only when a page supplies content for it.
+
+- Content backfill: corrected `periodId` (and `periodLabel`, EN and BN) on 43 events whose stored period disagreed with their date, e.g. the 700-750 Matsyanyaya, Sena rise and Gangaridai chapters (were Colonial/Contemporary), 1658-1756 Mughal-era chapters, 1996-2011 chapters (were Post-Liberation), and the 1991 return to parliamentary democracy (was Pakistan Period). Boundary cases follow the existing convention that a period includes both end years: the Radcliffe Award implementation (1947) is in Partition and Late Colonial Politics, and the 1971 Operation Searchlight, 14 December and 16 December chapters are in the Pakistan Period with the Liberation War chapter. The generic label "Historical Transitions" was replaced by the actual period title.
+  - Validation: `pnpm content:validate` passes. No schema change.
+  - Known gaps: `movementId`/`movementLabel` have the same generic-fallback problem (for example "State, society, and political change" on unrelated events) and are not corrected here.
+
 ## 2026-10-13
 
 ### Completed

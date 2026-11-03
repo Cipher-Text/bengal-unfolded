@@ -11,7 +11,7 @@
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
-  "periodLabel": "ঐতিহাসিক রূপান্তর",
+  "periodLabel": "বিভাজন এবং উত্তর-ঔপনিবেশিক রাজনীতি",
   "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
   "showOnLanding": false,
   "summarySourceIds": [
@@ -24,7 +24,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "contemporary-memory-and-civic-protest",
+  "periodId": "partition-and-late-colonial-politics",
   "movementId": "memory-justice-and-civic-dissent",
   "sensitive": false,
   "requiresSources": true,

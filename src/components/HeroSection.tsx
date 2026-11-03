@@ -53,6 +53,8 @@ export function HeroSection({
   secondaryAction?: { href: string; label: string };
   showCollage?: boolean;
 }) {
+  // The side panel is only for real content (e.g. the featured chapter); it used to default to unlocalized filler text.
+  const hasAside = Boolean(rightSlot || rightTitle);
   return (
     <section className="relative animate-fade-in">
       {/* Photographic banner — collage of historical photo placeholders */}
@@ -95,7 +97,7 @@ export function HeroSection({
       {/* Editorial title block on parchment */}
       <div className="paper paper-stained relative px-4 pt-8 pb-10 sm:px-6 md:px-14 md:pt-14 md:pb-16">
         <div className="compass-watermark -bottom-20 -left-16 hidden md:block" />
-        <div className="relative grid gap-7 md:grid-cols-[1.4fr_0.9fr] md:gap-10 md:items-start">
+        <div className={`relative grid gap-7 md:gap-10 md:items-start ${hasAside ? "md:grid-cols-[1.4fr_0.9fr]" : ""}`}>
           <div className="max-w-3xl">
             <div className="flex items-center gap-3">
               <span className="ornament">❦</span>
@@ -125,17 +127,19 @@ export function HeroSection({
               <span className="text-eyebrow">A Bilingual Archive</span>
             </div>
           </div>
+          {hasAside ? (
           <aside className="relative border-t pt-6 md:border-t-0 md:pl-6 md:pt-0 md:border-l border-[color:var(--sepia)]/30">
-            <div className="text-eyebrow-script">{rightTitle ?? "The Bengal Chronicle"}</div>
-            <div className="rule-double mt-2" />
-            <p className="text-eyebrow mt-3">{rightLabel ?? "Featured · Timeline"}</p>
-            <div className="mt-2 text-base leading-relaxed">
-              {rightSlot ?? "From ancient Bengal to modern Bangladesh — a curated, source-backed journey through the people, events, and eras that shaped our history."}
-            </div>
-            <div className="mt-5">
-              <BrandIcon className="h-14 w-14 rounded-2xl shadow-[0_6px_14px_rgba(0,0,0,0.28)]" />
-            </div>
-          </aside>
+              {rightTitle ? <div className="text-eyebrow-script">{rightTitle}</div> : null}
+              {rightTitle ? <div className="rule-double mt-2" /> : null}
+              {rightLabel ? <p className="text-eyebrow mt-3">{rightLabel}</p> : null}
+              <div className="mt-2 text-base leading-relaxed">
+                {rightSlot}
+              </div>
+              <div className="mt-5">
+                <BrandIcon className="h-14 w-14 rounded-2xl shadow-[0_6px_14px_rgba(0,0,0,0.28)]" />
+              </div>
+            </aside>
+          ) : null}
         </div>
       </div>
     </section>

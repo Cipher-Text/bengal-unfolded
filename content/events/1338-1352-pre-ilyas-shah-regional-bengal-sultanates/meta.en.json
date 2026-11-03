@@ -18,7 +18,7 @@
   "relatedEventIds": [
     "1352-bengal-sultanate-independence-and-unification"
   ],
-  "periodLabel": "Colonial Rule and Resistance",
+  "periodLabel": "Transition to Sultanate Formation",
   "movementLabel": "Language, autonomy, and liberation",
   "showOnLanding": true,
   "summarySourceIds": [
@@ -31,7 +31,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "colonial-rule-and-resistance",
+  "periodId": "transition-to-sultanate-formation",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region"

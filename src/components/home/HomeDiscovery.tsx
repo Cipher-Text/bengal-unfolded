@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BrandIcon } from "@/components/BrandIcon";
+import { resolveEraId } from "@/lib/eras";
 import { SectionTitle } from "@/components/SectionTitle";
 import type { EventMeta, Figure, Locale, Period, Place, Topic } from "@/types/content";
 
@@ -75,7 +76,7 @@ export function EraStrip({ locale, periods, events, stats }: { locale: Locale; p
       <SectionTitle eyebrow={locale === "bn" ? "কালপরিসর" : "The chronology"} title={c.eras} subtitle={c.erasSub} headingId="home-eras" />
       <ol className="mt-7 flex snap-x gap-3 overflow-x-auto pb-3 md:grid md:grid-cols-3 md:overflow-visible md:pb-0">
         {periods.map((period) => {
-          const count = events.filter((event) => event.periodId === period.id).length;
+          const count = events.filter((event) => resolveEraId(event, periods) === period.id).length;
           return (
             <li key={period.id} className="min-w-[11rem] snap-start md:min-w-0">
               <Link

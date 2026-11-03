@@ -1,32 +1,272 @@
 "use client";
 
-import { usePathname, useSearchParams } from "next/navigation";
-import { useMemo } from "react";
-import { EventGrid } from "@/components/EventGrid";
-import { SectionTitle } from "@/components/SectionTitle";
-import type { EventImportance, EventMeta, Locale, TimelineTheme } from "@/types/content";
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { EventImportance, Locale } from "@/types/content";
 
-type TimelineEvent = Pick<EventMeta, "slug" | "year" | "title" | "subtitle" | "summary" | "periodLabel" | "movementLabel" | "importance" | "themeColor" | "ctaLabel">;
+export type TimelineEntry = {
+  slug: string;
+  year: string;
+  title: string;
+  excerpt: string;
+  periodId?: string;
+  importance: EventImportance;
+  stub?: boolean;
+  sensitive?: boolean;
+};
 
-const IMPORTANCE: EventImportance[]=["landmark","major","high","medium","reference"];
-const THEMES: TimelineTheme[]=["language","democracy","war","culture","economy"];
-const labels={en:{search:"Search and Filters",help:"Use keyword, year, theme, and importance to narrow events",keyword:"Search keyword",allYears:"All years",allThemes:"All themes",allImportance:"All importance levels",apply:"Apply",reset:"Reset filters",noResults:"No results found.",pages:"Timeline pages",previous:"Previous",next:"Next",other:"Other Chapters",total:"Total results"},bn:{search:"সার্চ ও ফিল্টার",help:"কিওয়ার্ড, বছর, থিম ও গুরুত্ব দিয়ে অধ্যায় বাছাই করুন",keyword:"কিওয়ার্ড লিখুন",allYears:"সব বছর",allThemes:"সব থিম",allImportance:"সব গুরুত্ব",apply:"প্রয়োগ করুন",reset:"ফিল্টার রিসেট",noResults:"কোনো ফলাফল পাওয়া যায়নি।",pages:"টাইমলাইনের পাতা",previous:"আগের পাতা",next:"পরের পাতা",other:"অন্যান্য অধ্যায়",total:"মোট ফলাফল"}} as const;
-const themeLabels={en:{language:"Language",democracy:"Democracy",war:"War",culture:"Culture",economy:"Economy"},bn:{language:"ভাষা",democracy:"গণতন্ত্র",war:"যুদ্ধ",culture:"সংস্কৃতি",economy:"অর্থনীতি"}} as const;
-const importanceLabels={en:{landmark:"Landmark",major:"Major",high:"High",medium:"Medium",reference:"Reference"},bn:{landmark:"ল্যান্ডমার্ক",major:"প্রধান",high:"উচ্চ",medium:"মধ্যম",reference:"রেফারেন্স"}} as const;
-const norm=(s:string)=>s.trim().toLocaleLowerCase();
+export type TimelineEra = {
+  id: string;
+  title: string;
+  startYear: string;
+  endYear: string;
+  themeColor: string;
+  description: string;
+};
 
-export function TimelineExplorerInteractive({events,themes,locale}:{events:TimelineEvent[];themes:Partial<Record<string,TimelineTheme[]>>;locale:Locale}){
- const params=useSearchParams();const pathname=usePathname();const bn=locale==="bn";const t=labels[locale];
- const q=params.get("q")??"";const year=params.get("year")??"";const theme=params.get("theme")??"";const importanceRaw=params.get("importance")??"";const importance=IMPORTANCE.includes(importanceRaw as EventImportance)?importanceRaw:"";
- const parsed=Number(params.get("page")??1);const requested=Number.isFinite(parsed)&&parsed>0?Math.floor(parsed):1;
- const years=[...new Set(events.map(e=>e.year))].sort((a,b)=>a.localeCompare(b));
- const filtered=useMemo(()=>events.filter(e=>(!year||e.year===year)&&(!theme||themes[e.slug]?.includes(theme as TimelineTheme))&&(!importance||e.importance===importance)&&(!norm(q)||[e.year,e.title,e.subtitle??"",e.summary,e.periodLabel??"",e.movementLabel??""].some(v=>norm(v).includes(norm(q))))),[events,themes,year,theme,importance,q]);
- const pageCount=Math.max(1,Math.ceil(filtered.length/6));const page=Math.min(requested,pageCount);const shown=filtered.slice((page-1)*6,page*6);
- const groups=shown.reduce<Array<{label:string;events:TimelineEvent[]}>>((all,event)=>{const label=event.periodLabel??t.other;const last=all[all.length-1];if(last?.label===label)last.events.push(event);else all.push({label,events:[event]});return all;},[]);
- function update(values:Record<string,string|number|undefined>){const next=new URLSearchParams(params.toString());Object.entries(values).forEach(([k,v])=>v?next.set(k,String(v)):next.delete(k));window.history.pushState(null,"",`${pathname}${next.size?`?${next}`:""}`);}
- function submit(e:React.FormEvent<HTMLFormElement>){e.preventDefault();const d=new FormData(e.currentTarget);update({q:String(d.get("q")??"").trim()||undefined,year:String(d.get("year")??"")||undefined,theme:String(d.get("theme")??"")||undefined,importance:String(d.get("importance")??"")||undefined,page:undefined});}
- return <>
-  <section className="theme-surface rounded-2xl border p-5 md:p-6"><SectionTitle title={t.search} subtitle={t.help}/><form key={params.toString()} onSubmit={submit} className="mt-4 grid gap-3 md:grid-cols-[1fr_180px_180px_180px_auto]"><input name="q" defaultValue={q} placeholder={t.keyword} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"/><select name="year" defaultValue={year} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"><option value="">{t.allYears}</option>{years.map(y=><option key={y}>{y}</option>)}</select><select name="theme" defaultValue={theme} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"><option value="">{t.allThemes}</option>{THEMES.map(v=><option key={v} value={v}>{themeLabels[locale][v]}</option>)}</select><select name="importance" defaultValue={importance} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"><option value="">{t.allImportance}</option>{IMPORTANCE.map(v=><option key={v} value={v}>{importanceLabels[locale][v]}</option>)}</select><button className="inline-flex min-h-[44px] items-center justify-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent">{t.apply}</button></form></section>
-  <section className="space-y-4"><div className="flex items-center justify-between"><p className="theme-muted text-sm">{t.total}: {filtered.length}</p>{(q||year||theme||importance)&&<button onClick={()=>update({q:undefined,year:undefined,theme:undefined,importance:undefined,page:undefined})} className="text-sm font-medium text-amber-400">{t.reset}</button>}</div>{groups.length?<div className="space-y-8">{groups.map((group,index)=><section key={`${group.label}-${index}`} className="space-y-4"><div><h2 className="text-xl font-semibold md:text-2xl">{group.label}</h2>{group.events[0]?.movementLabel&&<p className="theme-muted mt-1 text-sm">{group.events[0].movementLabel}</p>}</div><EventGrid events={group.events} locale={locale}/></section>)}</div>:<div className="theme-surface rounded-xl border p-6 text-sm theme-muted">{t.noResults}</div>}<nav aria-label={t.pages} className="flex items-center justify-between">{page>1?<button onClick={()=>update({page:page-1})} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm">{t.previous}</button>:<span/>}<p className="theme-muted text-sm">{bn?`পৃষ্ঠা ${page} / ${pageCount}`:`Page ${page} / ${pageCount}`}</p>{page<pageCount?<button onClick={()=>update({page:page+1})} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm">{t.next}</button>:<span/>}</nav></section>
- </>;
+type Level = "all" | "key" | "landmark";
+
+const copy = {
+  en: {
+    search: "Search the timeline",
+    placeholder: "Search by year, title or keyword",
+    levels: { all: "All chapters", key: "Key turning points", landmark: "Landmarks" },
+    levelHelp: "Show",
+    eras: "Jump to an era",
+    results: (n: number, total: number) => (n === total ? `${n} chapters` : `${n} of ${total} chapters`),
+    chapters: (n: number) => `${n} ${n === 1 ? "chapter" : "chapters"}`,
+    none: "No chapters match. Try a different word or show all chapters.",
+    reset: "Clear search and filters",
+    read: "Read chapter",
+    inProgress: "In progress",
+    sensitive: "Sensitive",
+    landmark: "Landmark",
+  },
+  bn: {
+    search: "টাইমলাইনে খুঁজুন",
+    placeholder: "বছর, শিরোনাম বা শব্দ লিখুন",
+    levels: { all: "সব অধ্যায়", key: "গুরুত্বপূর্ণ মোড়", landmark: "ল্যান্ডমার্ক" },
+    levelHelp: "দেখান",
+    eras: "যুগে যান",
+    results: (n: number, total: number) => (n === total ? `${n.toLocaleString("bn-BD")}টি অধ্যায়` : `${total.toLocaleString("bn-BD")}টির মধ্যে ${n.toLocaleString("bn-BD")}টি`),
+    chapters: (n: number) => `${n.toLocaleString("bn-BD")}টি অধ্যায়`,
+    none: "কোনো অধ্যায় মেলেনি। অন্য শব্দ চেষ্টা করুন বা সব অধ্যায় দেখুন।",
+    reset: "খোঁজ ও ফিল্টার মুছুন",
+    read: "অধ্যায়টি পড়ুন",
+    inProgress: "প্রস্তুতাধীন",
+    sensitive: "সংবেদনশীল",
+    landmark: "ল্যান্ডমার্ক",
+  },
+} as const;
+
+const norm = (value: string) => value.trim().toLocaleLowerCase();
+
+function Entry({ entry, locale, color }: { entry: TimelineEntry; locale: Locale; color: string }) {
+  const t = copy[locale];
+  const isLandmark = entry.importance === "landmark";
+  const isMajor = entry.importance === "major";
+  return (
+    <li className="timeline-entry relative">
+      <span
+        aria-hidden="true"
+        className={`absolute left-[calc(-1.5rem-1px)] z-10 -translate-x-1/2 rounded-full border-2 md:left-[calc(-2rem-1px)] ${isLandmark ? "top-6 h-5 w-5" : isMajor ? "top-5 h-3.5 w-3.5" : "top-[1.15rem] h-2.5 w-2.5"}`}
+        style={{ backgroundColor: isLandmark ? color : "var(--bg)", borderColor: color, boxShadow: isLandmark ? `0 0 0 4px var(--bg), 0 0 0 5px ${color}` : undefined }}
+      />
+      <p
+        className={`text-eyebrow md:absolute md:left-[calc(-2rem-9rem)] md:w-32 md:text-right ${isLandmark ? "md:top-6" : isMajor ? "md:top-5" : "md:top-4"}`}
+      >
+        {entry.year}
+      </p>
+      <Link
+        href={`/${locale}/events/${entry.slug}`}
+        className={`group mt-1 block rounded-xl border transition-[border-color,background-color,box-shadow] duration-200 hover:border-[color:var(--gold)] md:mt-0 ${
+          isLandmark
+            ? "paper paper-stained p-5 md:p-7"
+            : isMajor
+              ? "theme-surface p-4 md:p-5"
+              : "border-transparent p-3 hover:bg-[color:var(--surface)] md:p-4"
+        }`}
+        style={isLandmark ? { borderLeft: `4px solid ${color}` } : undefined}
+      >
+        {isLandmark ? <p className="text-eyebrow-script !text-base">{t.landmark}</p> : null}
+        <h3 className={`text-display font-semibold leading-snug group-hover:text-accent ${isLandmark ? "text-2xl md:text-3xl" : isMajor ? "text-xl" : "text-lg"}`}>
+          {entry.title}
+        </h3>
+        {entry.excerpt ? <p className={`theme-muted mt-1.5 text-sm leading-relaxed ${isLandmark ? "md:text-base" : "line-clamp-2"}`}>{entry.excerpt}</p> : null}
+        {entry.stub || entry.sensitive || isLandmark ? (
+          <p className="text-eyebrow mt-2 flex flex-wrap gap-x-4">
+            {entry.sensitive ? <span>{t.sensitive}</span> : null}
+            {entry.stub ? <span>{t.inProgress}</span> : null}
+            {isLandmark ? (
+              <span className="text-accent">
+                {t.read} <span aria-hidden="true">→</span>
+              </span>
+            ) : null}
+          </p>
+        ) : null}
+      </Link>
+    </li>
+  );
+}
+
+export function TimelineExplorerInteractive({ events, eras, locale }: { events: TimelineEntry[]; eras: TimelineEra[]; locale: Locale }) {
+  const t = copy[locale];
+  const initialQuery = useSearchParams().get("q") ?? "";
+  const [query, setQuery] = useState(initialQuery);
+  const [level, setLevel] = useState<Level>("all");
+  const [active, setActive] = useState<string | null>(eras[0]?.id ?? null);
+  const navRef = useRef<HTMLOListElement>(null);
+
+  const filtered = useMemo(() => {
+    const needle = norm(query);
+    return events.filter((event) => {
+      if (level === "landmark" && event.importance !== "landmark") return false;
+      if (level === "key" && event.importance !== "landmark" && event.importance !== "major") return false;
+      return !needle || norm(`${event.year} ${event.title} ${event.excerpt}`).includes(needle);
+    });
+  }, [events, query, level]);
+
+  const groups = useMemo(() => {
+    const known = new Set(eras.map((era) => era.id));
+    return eras
+      .map((era) => ({ era, items: filtered.filter((event) => event.periodId === era.id) }))
+      .concat(
+        filtered.some((event) => !event.periodId || !known.has(event.periodId))
+          ? [{ era: { id: "other", title: locale === "bn" ? "অন্যান্য" : "Other", startYear: "", endYear: "", themeColor: "var(--sepia)", description: "" }, items: filtered.filter((event) => !event.periodId || !known.has(event.periodId)) }]
+          : [],
+      )
+      .filter((group) => group.items.length > 0);
+  }, [eras, filtered, locale]);
+
+  const levelCounts = useMemo(
+    () => ({
+      all: events.length,
+      key: events.filter((event) => event.importance === "landmark" || event.importance === "major").length,
+      landmark: events.filter((event) => event.importance === "landmark").length,
+    }),
+    [events],
+  );
+
+  // Scroll-spy: highlight the era currently under the sticky bar.
+  useEffect(() => {
+    const sections = Array.from(document.querySelectorAll<HTMLElement>("[data-era-section]"));
+    if (!sections.length) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) setActive((visible[0].target as HTMLElement).dataset.eraSection ?? null);
+      },
+      { rootMargin: "-140px 0px -65% 0px" },
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, [groups]);
+
+  // Keep the active chip visible in the horizontally scrolling era bar.
+  useEffect(() => {
+    const chip = navRef.current?.querySelector<HTMLElement>(`[data-chip="${active}"]`);
+    const bar = navRef.current;
+    if (!chip || !bar) return;
+    const target = chip.offsetLeft - bar.clientWidth / 2 + chip.clientWidth / 2;
+    bar.scrollTo({ left: target, behavior: "smooth" });
+  }, [active]);
+
+  const hasFilters = query !== "" || level !== "all";
+  const reset = () => {
+    setQuery("");
+    setLevel("all");
+  };
+
+  return (
+    <div>
+      <div className="timeline-controls">
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
+          <div className="flex flex-1 flex-col gap-3 sm:flex-row sm:items-center">
+            <label className="relative block flex-1">
+              <span className="sr-only">{t.search}</span>
+              <input
+                type="search"
+                value={query}
+                onChange={(event) => setQuery(event.target.value)}
+                placeholder={t.placeholder}
+                className="theme-surface min-h-[44px] w-full rounded-lg border px-3 text-sm"
+                style={{ borderColor: "var(--border-strong)" }}
+              />
+            </label>
+            <div role="group" aria-label={t.levelHelp} className="flex flex-wrap gap-2">
+              {(Object.keys(t.levels) as Level[]).map((key) => (
+                <button key={key} type="button" aria-pressed={level === key} onClick={() => setLevel(key)} className="section-tab min-h-[44px] !text-[13px] !tracking-[0.02em] !normal-case">
+                  {t.levels[key]} <span className="opacity-70">({levelCounts[key].toLocaleString(locale === "bn" ? "bn-BD" : "en-US")})</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+        <div className="sticky top-[4.4rem] z-30 -mx-3 mt-4 border-b px-3 py-2 backdrop-blur-md sm:-mx-4 sm:px-4 md:-mx-8 md:px-8" style={{ background: "var(--header)", borderColor: "var(--border)" }}>
+        <nav aria-label={t.eras}>
+          <ol ref={navRef} className="flex gap-2 no-scrollbar overflow-x-auto pb-1">
+            {eras.map((era) => {
+              const count = filtered.filter((event) => event.periodId === era.id).length;
+              const isActive = active === era.id;
+              return (
+                <li key={era.id} className="shrink-0" data-chip={era.id}>
+                  <a
+                    href={`#era-${era.id}`}
+                    aria-current={isActive ? "true" : undefined}
+                    aria-disabled={count === 0}
+                    className={`flex min-h-[44px] flex-col justify-center rounded-lg border border-b-[3px] px-3 text-left transition-[background-color,opacity] duration-200 ${count === 0 ? "pointer-events-none opacity-35" : ""} ${isActive ? "bg-[color:var(--ink)] text-[color:var(--paper)]" : "hover:bg-[color:var(--surface)]"}`}
+                    style={{ borderBottomColor: era.themeColor, borderColor: isActive ? "var(--ink)" : "var(--border)" }}
+                  >
+                    <span className="whitespace-nowrap text-[13px] font-semibold leading-tight">{era.title}</span>
+                    <span className="whitespace-nowrap text-[11px] leading-tight opacity-75">
+                      {era.startYear}–{era.endYear}
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </ol>
+        </nav>
+      </div>
+
+      <p className="theme-muted mt-5 flex flex-wrap items-center gap-x-4 text-sm" aria-live="polite">
+        <span>{t.results(filtered.length, events.length)}</span>
+        {hasFilters ? (
+          <button type="button" onClick={reset} className="link-underline min-h-[44px] font-semibold text-accent">
+            {t.reset}
+          </button>
+        ) : null}
+      </p>
+
+      {groups.length === 0 ? (
+        <div className="theme-surface mt-4 rounded-xl border p-6 text-sm">
+          <p>{t.none}</p>
+        </div>
+      ) : (
+        <div className="mt-6 space-y-16 md:space-y-24">
+          {groups.map(({ era, items }) => (
+            <section key={era.id} id={`era-${era.id}`} data-era-section={era.id} aria-labelledby={`era-title-${era.id}`} className="scroll-mt-44">
+              <header className="mb-8 md:ml-44">
+                <p className="text-eyebrow" style={{ color: era.themeColor === "var(--sepia)" ? undefined : era.themeColor }}>
+                  {era.startYear ? `${era.startYear}–${era.endYear}` : ""}
+                </p>
+                <h2 id={`era-title-${era.id}`} className="text-display mt-1 text-3xl font-semibold md:text-4xl">
+                  {era.title}
+                </h2>
+                {era.description && !/^[\d০-৯]/.test(era.description) ? <p className="theme-muted mt-2 max-w-2xl text-sm leading-relaxed md:text-base">{era.description}</p> : null}
+                <p className="text-eyebrow mt-3">{t.chapters(items.length)}</p>
+              </header>
+              <ol className="relative ml-1 space-y-3 border-l-2 pl-6 md:ml-44 md:pl-8" style={{ borderColor: era.themeColor }}>
+                {items.map((entry) => (
+                  <Entry key={entry.slug} entry={entry} locale={locale} color={era.themeColor} />
+                ))}
+              </ol>
+            </section>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }

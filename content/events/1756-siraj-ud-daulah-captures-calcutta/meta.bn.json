@@ -18,7 +18,7 @@
   "relatedEventIds": [
     "1757-battle-of-plassey"
   ],
-  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "periodLabel": "মুঘল অন্তর্ভুক্তি ও সংহতি পর্ব",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
   "showOnLanding": true,
   "summarySourceIds": [
@@ -31,7 +31,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "colonial-rule-and-resistance",
+  "periodId": "mughal-incorporation-and-consolidation",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "calcutta-kolkata",
   "placeLabel": "ক্যালকাটা / কলকাতা"

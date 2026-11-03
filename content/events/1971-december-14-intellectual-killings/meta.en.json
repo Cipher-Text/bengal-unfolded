@@ -11,7 +11,7 @@
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
-  "periodLabel": "Historical Transitions",
+  "periodLabel": "Pakistan Period and National Awakening",
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
@@ -24,7 +24,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "contemporary-memory-and-civic-protest",
+  "periodId": "pakistan-period-and-national-awakening",
   "movementId": "memory-justice-and-civic-dissent",
   "sensitive": true,
   "requiresSources": true,

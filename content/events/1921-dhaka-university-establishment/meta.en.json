@@ -18,7 +18,7 @@
   "relatedEventIds": [
     "1952-language-movement"
   ],
-  "periodLabel": "Colonial Rule and Resistance",
+  "periodLabel": "Partition and Late Colonial Politics",
   "movementLabel": "Language, autonomy, and liberation",
   "showOnLanding": true,
   "summarySourceIds": [
@@ -31,7 +31,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "colonial-rule-and-resistance",
+  "periodId": "partition-and-late-colonial-politics",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "dhaka-university",
   "placeLabel": "Dhaka University"

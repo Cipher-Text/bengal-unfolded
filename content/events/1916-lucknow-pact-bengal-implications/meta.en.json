@@ -11,7 +11,7 @@
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
-  "periodLabel": "Historical Transitions",
+  "periodLabel": "Partition and Late Colonial Politics",
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
@@ -24,7 +24,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "contemporary-memory-and-civic-protest",
+  "periodId": "partition-and-late-colonial-politics",
   "movementId": "memory-justice-and-civic-dissent",
   "sensitive": false,
   "requiresSources": true,

@@ -18,7 +18,7 @@
   "relatedEventIds": [
     "0750-1170-pala-dynasty-foundation"
   ],
-  "periodLabel": "Colonial Rule and Resistance",
+  "periodLabel": "Ancient and Pre-Sultanate Bengal",
   "movementLabel": "Language, autonomy, and liberation",
   "showOnLanding": true,
   "summarySourceIds": [
@@ -31,7 +31,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "colonial-rule-and-resistance",
+  "periodId": "ancient-and-pre-sultanate-bengal",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region"

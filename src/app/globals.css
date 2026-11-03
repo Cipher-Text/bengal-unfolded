@@ -934,6 +934,9 @@ html[data-theme="dark"] .compass-watermark {
 
 :focus-visible { outline: 2px solid var(--rust); outline-offset: 3px; border-radius: 2px; }
 
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
 /* Scrollbar */
 * { scrollbar-width: thin; scrollbar-color: var(--sepia) transparent; }
 *::-webkit-scrollbar { width: 10px; height: 10px; }

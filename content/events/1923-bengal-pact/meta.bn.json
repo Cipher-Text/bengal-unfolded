@@ -23,7 +23,7 @@
     "1919-1924-khilafat-movement-bengal",
     "1937-bengal-provincial-election-and-coalition-ministry"
   ],
-  "periodLabel": "ঔপনিবেশিক শাসন ও প্রতিরোধ",
+  "periodLabel": "বিভাজন এবং উত্তর-ঔপনিবেশিক রাজনীতি",
   "movementLabel": "ভাষা, স্বায়ত্তশাসন ও মুক্তি",
   "showOnLanding": true,
   "summarySourceIds": [
@@ -36,7 +36,7 @@
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
-  "periodId": "colonial-rule-and-resistance",
+  "periodId": "partition-and-late-colonial-politics",
   "movementId": "language-autonomy-and-liberation",
   "placeId": "bengal-region",
   "placeLabel": "বাংলা অঞ্চল"
