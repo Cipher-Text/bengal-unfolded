@@ -21,6 +21,12 @@
   - Index: stock collage removed; "Start here" card for the overview hub; the other 16 hubs are grouped by period (Early Bengal, Mughal and colonial, Partition and Pakistan, Liberation and Bangladesh, Culture and memory) with tagline and chapter/people counts. Group membership is a constant in `topics/page.tsx`; unlisted hubs fall under "More topics".
   - Detail: learning path moved above the event list with localized step labels; event cards show their summary (or an "In progress" label for stubs) instead of filler text; figures capped at 12 with a "Showing N of M" note; "More topics" now lists the 4 hubs sharing the most chapters instead of all 16.
 
+- Motion and transitions pass (UI only).
+  - Entry fades shortened (slide-up 800ms to 450ms with 12px travel, hero fade 900ms to 300ms) and stagger capped at 120ms, so the hero heading is no longer hidden for ~1s and `#anchor` jumps no longer land mid-fade. Added smooth scrolling under `prefers-reduced-motion: no-preference`.
+  - Header no longer changes height while scrolling (it caused a ~7px content jump at the 24px threshold); only the shadow toggles.
+  - Mobile menu now animates (the `hidden` attribute was cancelling its transition); menu links match the header's text size.
+  - `section-tab` transitions specific properties instead of `all`. Removed unused CSS: flipbook/page-turn keyframes and classes, `reveal*`, ink-drop, paper-sway, pulse-dot.
+
 ## 2026-10-13
 
 ### Completed

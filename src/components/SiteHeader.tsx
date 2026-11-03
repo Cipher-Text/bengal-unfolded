@@ -26,7 +26,7 @@ export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAf
         style={{ borderColor: "var(--sepia)", borderBottomWidth: "2px" }}
       >
         <div
-          className="mx-auto flex w-full max-w-6xl items-center justify-between gap-2 px-3 py-3 transition-all duration-300 sm:gap-3 sm:px-4 md:px-8 md:py-3.5 data-[shrunk=true]:py-2"
+          className="mx-auto flex w-full max-w-6xl items-center justify-between gap-2 px-3 py-3 transition-all duration-300 sm:gap-3 sm:px-4 md:px-8 md:py-3.5"
           data-shrunk="false"
         >
           <Link href={`/${locale}`} className="group flex min-w-0 items-center gap-2 sm:gap-3" aria-label="Bengal Unfolded">
