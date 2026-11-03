@@ -226,7 +226,7 @@ export function TimelineExplorerInteractive({ events, eras, locale }: { events: 
                     style={{ borderBottomColor: era.themeColor, borderColor: isActive ? "var(--ink)" : "var(--border)" }}
                   >
                     <span className="whitespace-nowrap text-[13px] font-semibold leading-tight">{era.title}</span>
-                    <span className="whitespace-nowrap text-[11px] leading-tight opacity-75">
+                    <span className="whitespace-nowrap text-xs leading-tight opacity-75">
                       {era.startYear}–{era.endYear}
                     </span>
                   </a>

@@ -278,7 +278,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
           {figure.tags?.length ? (
             <div className="mt-4 flex flex-wrap gap-2">
               {figure.tags.map((tag) => (
-                <span key={tag} className="theme-muted rounded-full border border-zinc-500/40 px-2 py-0.5 text-[11px]">{tag}</span>
+                <span key={tag} className="theme-muted rounded-full border border-zinc-500/40 px-2 py-0.5 text-xs">{tag}</span>
               ))}
             </div>
           ) : null}

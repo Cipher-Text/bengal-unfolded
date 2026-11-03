@@ -58,7 +58,7 @@ export function FigureProfileCard({ figure, locale, featured = false, index = 0 
       {figure.tags?.length ? (
         <div className="mt-4 flex flex-wrap gap-1.5">
           {figure.tags.slice(0, 4).map((tag) => (
-            <span key={tag} className="theme-muted rounded-sm border px-1.5 py-0.5 text-[10px] uppercase tracking-[0.15em] theme-hairline" style={{ fontFamily: "var(--font-type), monospace" }}>
+            <span key={tag} className="theme-muted rounded-sm border px-1.5 py-0.5 text-xs uppercase tracking-[0.1em] theme-hairline" style={{ fontFamily: "var(--font-type), monospace" }}>
               {tag}
             </span>
           ))}

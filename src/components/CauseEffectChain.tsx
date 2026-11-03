@@ -113,7 +113,7 @@ function ChainPanel({
         <ol className="mt-3 space-y-2">
           {items.map((item, index) => (
             <li key={`${label}-${item}`} className="flex gap-2 text-sm leading-relaxed theme-muted">
-              <span className="text-type shrink-0 text-[11px] text-accent">{index + 1}</span>
+              <span className="text-type shrink-0 text-xs text-accent">{index + 1}</span>
               <span>{item}</span>
             </li>
           ))}
@@ -124,7 +124,7 @@ function ChainPanel({
 
       {linkedEvents.length ? (
         <div className="mt-4 border-t border-amber-500/20 pt-3">
-          <p className="text-type text-[11px] uppercase tracking-[0.16em] text-accent">{linkedLabel}</p>
+          <p className="text-type text-xs uppercase tracking-[0.16em] text-accent">{linkedLabel}</p>
           <div className="mt-2 space-y-2">
             {linkedEvents.map((relatedEvent) => (
               <Link

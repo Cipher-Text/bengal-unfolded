@@ -36,22 +36,22 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         <div className="hairline-gold mb-6" />
         <p className="theme-muted text-xs md:text-sm">
           {isBangla ? "সহায়তায় " : "Facilitated by "}
-          <a href="http://factlensbd.com/" target="_blank" rel="noopener noreferrer" className="link-underline text-accent">FactLens</a>
+          <a href="http://factlensbd.com/" target="_blank" rel="noopener noreferrer" className="link-underline inline-block py-3 text-accent">FactLens</a>
           {" · "}
           {isBangla ? "কারিগরি অংশীদার " : "Technical Partner: "}
-          <a href="https://www.ciphertextlabs.com/" target="_blank" rel="noopener noreferrer" className="link-underline text-accent">CipherText</a>
+          <a href="https://www.ciphertextlabs.com/" target="_blank" rel="noopener noreferrer" className="link-underline inline-block py-3 text-accent">CipherText</a>
         </p>
         <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2">
           <span className="text-eyebrow theme-muted">{isBangla ? "রেফারেন্স" : "Reference"}</span>
           {referenceLinks.map((item) => (
-            <Link key={item.href} href={item.href} className="text-eyebrow link-underline text-accent">
+            <Link key={item.href} href={item.href} className="text-eyebrow link-underline inline-flex min-h-[44px] items-center text-accent">
               {item.label}
             </Link>
           ))}
         </div>
         <nav aria-label={isBangla ? "আর্কাইভের লিংক" : "Archive links"} className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2">
           {discoveryLinks.map((item) => (
-            <Link key={item.href} href={item.href} className="text-eyebrow link-underline text-accent">{item.label}</Link>
+            <Link key={item.href} href={item.href} className="text-eyebrow link-underline inline-flex min-h-[44px] items-center text-accent">{item.label}</Link>
           ))}
         </nav>
       </footer>

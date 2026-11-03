@@ -33,6 +33,12 @@
   - Stub chapters show an "In progress" label instead of their template summary on the timeline.
   - `HeroSection` no longer renders its default, unlocalized "The Bengal Chronicle" side panel; it appears only when a page supplies content for it.
 
+- Mobile tap-target and text-size pass (UI only).
+  - Footer links, the language switcher and FAQ links now meet a 44px tap height; event citation numbers `[1]` have a 24px target and 12px text.
+  - Glossary tooltips are a bottom sheet on screens up to 640px wide (they were cut off near the right edge); `fadeSlideUp` now ends at `transform: none` so it no longer creates a containing block for them.
+  - Text below 12px raised to 12px for badges, tags, stamps, tabs, tooltip titles and cause/effect labels (event pages: 74 small items to 0).
+  - Fixed FAQ cards on event pages showing a raw URL (for example `/en/events/1940-lahore-resolution`) as link text; they now read "Read the chapter" or "Read the profile".
+
 - Resources pages redesign (UI only; no model or content changes).
   - Index: 29 pages of postcards and a form with three dropdowns and an Apply button became a live search, a Reliability filter (primary, secondary, archive, editorial) with a one-line meaning for each, a localized Type filter, and compact cards with "Show more". Cards show whether an online link exists. Labels moved to `src/lib/resource-labels.ts`. Hero retitled "Source library"; the category "Primary sources" is shown as "Documents and records" so it is not confused with the Primary reliability rating.
   - Detail: now shows type, reliability (with its meaning) and evidence strength, the stored "why it matters" text (568 of 580 records have it; it was never rendered), a clear "open original" action or a note that no link is recorded, a link to the creator's other sources, and the chapters that use it (8 shown, rest folded).

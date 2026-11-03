@@ -242,7 +242,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
               key={`claim-cite-${sourceId}-${index}`}
               href={href}
               {...(resource?.href ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-              className="text-[11px] font-medium text-accent underline-offset-2 hover:underline"
+              className="inline-flex min-h-6 min-w-6 items-center justify-center text-xs font-medium text-accent underline-offset-2 hover:underline"
               aria-label={`${labels.overviewSources} ${index + 1}: ${label}`}
             >
               [{index + 1}]
@@ -255,7 +255,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const renderEvidenceBadge = (evidenceLevel: "high" | "medium" | "low" | undefined) => {
     if (event.meta.stub || !evidenceLevel) return null;
     return (
-      <span className="ml-2 inline-flex rounded-full border border-emerald-500/40 px-2 py-0.5 text-[11px] font-medium text-emerald-300">
+      <span className="ml-2 inline-flex rounded-full border border-emerald-500/40 px-2 py-0.5 text-xs font-medium text-emerald-300">
         {labels.evidence}: {evidenceLabelByLevel[evidenceLevel]}
       </span>
     );

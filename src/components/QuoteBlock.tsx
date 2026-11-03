@@ -6,6 +6,14 @@ function extractPath(source: string): string | null {
   return match ? match[1] : null;
 }
 
+// The FAQ source field embeds a site path; show a readable label instead of the raw URL.
+function relatedLabel(path: string): string {
+  const bn = path.startsWith("/bn/");
+  if (path.includes("/figures/")) return bn ? "প্রোফাইল পড়ুন" : "Read the profile";
+  if (path.includes("/events/")) return bn ? "অধ্যায়টি পড়ুন" : "Read the chapter";
+  return bn ? "আরও পড়ুন" : "Read more";
+}
+
 export function QuoteBlock({ quote }: { quote: Quote }) {
   const isFaq = quote.source.startsWith("FAQ");
   const relatedPath = extractPath(quote.source);
@@ -24,8 +32,8 @@ export function QuoteBlock({ quote }: { quote: Quote }) {
           <span className="ornament">❦</span>
           <span className="text-eyebrow">{sourcePrefix.replace(/^FAQ\s*[·-]?\s*/u, "").trim()}</span>
           {relatedPath ? (
-            <Link href={relatedPath} className="link-ink text-sm">
-              {relatedPath}
+            <Link href={relatedPath} className="link-ink inline-flex min-h-[44px] items-center text-sm font-semibold">
+              {relatedLabel(relatedPath)} <span aria-hidden="true" className="ml-1.5">→</span>
             </Link>
           ) : null}
         </footer>

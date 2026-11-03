@@ -24,7 +24,7 @@ export function LanguageSwitcher({ locale, pathAfterLocale }: { locale: Locale; 
     >
       <Link
         href={`/en${safePath}`}
-        className="inline-flex min-h-[36px] items-center px-3 text-[11px] font-semibold tracking-[0.22em] transition-colors"
+        className="inline-flex min-h-[44px] items-center px-3 text-xs font-semibold tracking-[0.14em] transition-colors"
         style={
           locale === "en"
             ? { background: "var(--ink)", color: "var(--paper)" }
@@ -36,7 +36,7 @@ export function LanguageSwitcher({ locale, pathAfterLocale }: { locale: Locale; 
       <span aria-hidden="true" style={{ width: 1, background: "var(--sepia)", opacity: 0.5 }} />
       <Link
         href={`/bn${safePath}`}
-        className="inline-flex min-h-[36px] items-center px-3 text-[11px] font-semibold tracking-[0.22em] transition-colors"
+        className="inline-flex min-h-[44px] items-center px-3 text-xs font-semibold tracking-[0.14em] transition-colors"
         style={
           locale === "bn"
             ? { background: "var(--ink)", color: "var(--paper)" }

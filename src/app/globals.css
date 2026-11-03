@@ -407,8 +407,8 @@ h1, h2, h3, h4 { font-family: var(--font-display), serif; letter-spacing: -0.005
 .glossary-term-tooltip-title {
   color: var(--rust);
   font-family: var(--font-type), monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 .glossary-term-tooltip-definition {
@@ -416,19 +416,22 @@ h1, h2, h3, h4 { font-family: var(--font-display), serif; letter-spacing: -0.005
 }
 
 @media (max-width: 640px) {
+  /* Anchored to the screen, not the word: a tooltip tied to a word near the right edge was cut off. */
   .glossary-term-tooltip {
-    left: 0;
-    width: min(17rem, calc(100vw - 2rem));
-    transform: translate3d(0, 0.25rem, 0) scale(0.98);
-    transform-origin: bottom left;
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    width: auto;
+    transform: translate3d(0, 0.5rem, 0);
   }
   .glossary-term-tooltip::after {
-    left: 1.2rem;
+    display: none;
   }
   .glossary-term-link:hover .glossary-term-tooltip,
   .glossary-term-link:focus-visible .glossary-term-tooltip,
   .glossary-term-link:focus-within .glossary-term-tooltip {
-    transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -536,8 +539,8 @@ html[data-theme="dark"] .link-ink::after {
   border: 2px solid var(--wax);
   color: var(--wax);
   font-family: var(--font-type), monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0.28em;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   background: rgba(122, 46, 34, 0.06);
   transform: rotate(-4deg);
@@ -726,7 +729,7 @@ html[data-theme="dark"] .compass-watermark {
   min-height: 32px;
   padding: 0.2rem 0.75rem;
   font-family: var(--font-type), monospace;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   border: 1px solid var(--sepia);
@@ -923,7 +926,7 @@ html[data-theme="dark"] .compass-watermark {
 /* ============ Motion ============ */
 @keyframes fadeSlideUp {
   from { opacity: 0; transform: translate3d(0, 12px, 0); }
-  to { opacity: 1; transform: translate3d(0, 0, 0); }
+  to { opacity: 1; transform: none; }
 }
 @keyframes fadeIn {
   from { opacity: 0; }
