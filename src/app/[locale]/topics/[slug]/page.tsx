@@ -60,13 +60,16 @@ export default async function TopicPage({
     notFound();
   }
 
+  // Related = the topics that share the most chapters with this one, not the whole catalogue.
+  const sharedEvents = (other: (typeof allTopics)[number]) => other.eventSlugs.filter((eventSlug) => topic.eventSlugs.includes(eventSlug)).length;
   const relatedTopics = allTopics
-    .filter((item) => item.slug !== topic.slug)
-    .sort((a, b) => {
-      const priorityDiff = (a.priority ?? Number.MAX_SAFE_INTEGER) - (b.priority ?? Number.MAX_SAFE_INTEGER);
-      if (priorityDiff !== 0) return priorityDiff;
-      return a.title.localeCompare(b.title);
-    });
+    .filter((item) => item.slug !== topic.slug && sharedEvents(item) > 0)
+    .sort((a, b) => sharedEvents(b) - sharedEvents(a) || a.title.localeCompare(b.title))
+    .slice(0, 4);
+  const MAX_FIGURES = 12;
+  const STEP_LABELS: Record<string, string> = locale === "bn"
+    ? { event: "অধ্যায়", figure: "ব্যক্তিত্ব", resource: "রিসোর্স", place: "স্থান", period: "যুগ", topic: "টপিক" }
+    : { event: "Chapter", figure: "Person", resource: "Resource", place: "Place", period: "Era", topic: "Topic" };
 
   const eventCards = await Promise.all(
     topic.eventSlugs.map(async (eventSlug) => ({
@@ -75,7 +78,7 @@ export default async function TopicPage({
     })),
   );
   const figureCards = await Promise.all(
-    (topic.figureIds ?? []).map(async (figureId) => ({
+    (topic.figureIds ?? []).slice(0, MAX_FIGURES).map(async (figureId) => ({
       id: figureId,
       meta: await getFigure(locale, figureId),
     })),
@@ -135,9 +138,9 @@ export default async function TopicPage({
     <div className="space-y-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
 
-      <HeroSection title={topic.title} tagline={topic.tagline} intro={topic.intro} />
+      <HeroSection showCollage={false} title={topic.title} tagline={topic.tagline} intro={topic.intro} />
 
-      <section className="theme-surface-soft rounded-2xl border border-amber-400/20 p-6 md:p-8">
+      <section className="theme-surface-soft rounded-2xl border border-[color:var(--border)] p-6 md:p-8">
         <SectionTitle
           title={locale === "bn" ? "টপিক ওভারভিউ" : "Topic Overview"}
           subtitle={topic.description}
@@ -156,6 +159,24 @@ export default async function TopicPage({
         ) : null}
       </section>
 
+      {learningPathCards.length > 0 ? (
+        <section>
+          <SectionTitle
+            title={locale === "bn" ? "শেখার পথ" : "Learning Path"}
+            subtitle={locale === "bn" ? "ধাপে ধাপে সম্পর্কিত পেজে যান" : "Follow these links in sequence"}
+          />
+          <div className="mt-4 space-y-3">
+            {learningPathCards.map((step, index) => (
+              <Link key={`${step.type}-${step.id}-${index}`} href={step.href} className="theme-surface block rounded-xl border p-4 hover:border-[color:var(--gold)]">
+                <p className="text-sm text-accent">{`${index + 1}. ${STEP_LABELS[step.type] ?? step.type}`}</p>
+                <h3 className="text-lg font-semibold">{step.label}</h3>
+                {step.reason ? <p className="theme-muted mt-1 text-sm">{step.reason}</p> : null}
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       <section>
         <SectionTitle
           title={locale === "bn" ? "সংযুক্ত ইভেন্টসমূহ" : "Connected Events"}
@@ -166,13 +187,14 @@ export default async function TopicPage({
             <Link
               key={eventSlug}
               href={`/${locale}/events/${eventSlug}`}
-              className="theme-surface rounded-xl border p-4 hover:border-amber-500/40"
+              className="theme-surface rounded-xl border p-4 hover:border-[color:var(--gold)]"
             >
-              <p className="text-sm text-accent">{meta.year}</p>
-              <h3 className="mt-1 text-lg font-semibold">{meta.title}</h3>
-              <p className="theme-muted mt-2 text-sm leading-relaxed">
-                {locale === "bn" ? "ইভেন্টের বিস্তারিত পেজে যান" : "Open the full event detail page"}
+              <p className="text-eyebrow">
+                {meta.year}
+                {meta.stub ? ` · ${locale === "bn" ? "প্রস্তুতাধীন" : "In progress"}` : ""}
               </p>
+              <h3 className="mt-1 text-lg font-semibold">{meta.title}</h3>
+              {meta.stub ? null : <p className="theme-muted mt-2 line-clamp-3 text-sm leading-relaxed">{meta.summary}</p>}
             </Link>
           ))}
         </div>
@@ -182,11 +204,15 @@ export default async function TopicPage({
         <section>
           <SectionTitle
             title={locale === "bn" ? "সম্পর্কিত ব্যক্তিত্ব" : "Related Figures"}
-            subtitle={locale === "bn" ? `${figureCards.length}টি ব্যক্তিত্ব` : `${figureCards.length} figures`}
+            subtitle={
+              (topic.figureIds?.length ?? 0) > figureCards.length
+                ? (locale === "bn" ? `${topic.figureIds?.length}জনের মধ্যে প্রথম ${figureCards.length}টি` : `Showing ${figureCards.length} of ${topic.figureIds?.length}`)
+                : (locale === "bn" ? `${figureCards.length}টি ব্যক্তিত্ব` : `${figureCards.length} figures`)
+            }
           />
           <div className="mt-4 grid gap-3 md:grid-cols-2">
             {figureCards.map(({ id, meta }) => (
-              <Link key={id} href={`/${locale}/figures/${id}`} className="theme-surface rounded-xl border p-4 hover:border-amber-500/40">
+              <Link key={id} href={`/${locale}/figures/${id}`} className="theme-surface rounded-xl border p-4 hover:border-[color:var(--gold)]">
                 <h3 className="text-lg font-semibold">{meta.name}</h3>
                 <p className="theme-muted mt-1 text-sm">{meta.role}</p>
               </Link>
@@ -203,27 +229,9 @@ export default async function TopicPage({
           />
           <div className="mt-4 grid gap-3 md:grid-cols-2">
             {resourceCards.map(({ id, meta }) => (
-              <Link key={id} href={`/${locale}/resources/${id}`} className="theme-surface rounded-xl border p-4 hover:border-amber-500/40">
+              <Link key={id} href={`/${locale}/resources/${id}`} className="theme-surface rounded-xl border p-4 hover:border-[color:var(--gold)]">
                 <h3 className="text-lg font-semibold">{meta.title}</h3>
                 <p className="theme-muted mt-1 text-sm">{meta.attribution}</p>
-              </Link>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      {learningPathCards.length > 0 ? (
-        <section>
-          <SectionTitle
-            title={locale === "bn" ? "শেখার পথ" : "Learning Path"}
-            subtitle={locale === "bn" ? "ধাপে ধাপে সম্পর্কিত পেজে যান" : "Follow these links in sequence"}
-          />
-          <div className="mt-4 space-y-3">
-            {learningPathCards.map((step, index) => (
-              <Link key={`${step.type}-${step.id}-${index}`} href={step.href} className="theme-surface block rounded-xl border p-4 hover:border-amber-500/40">
-                <p className="text-sm text-accent">{`${index + 1}. ${step.type}`}</p>
-                <h3 className="text-lg font-semibold">{step.label}</h3>
-                {step.reason ? <p className="theme-muted mt-1 text-sm">{step.reason}</p> : null}
               </Link>
             ))}
           </div>
@@ -258,7 +266,7 @@ export default async function TopicPage({
               <Link
                 key={relatedTopic.slug}
                 href={`/${locale}/topics/${relatedTopic.slug}`}
-                className="theme-surface rounded-xl border p-4 hover:border-amber-500/40"
+                className="theme-surface rounded-xl border p-4 hover:border-[color:var(--gold)]"
               >
                 <h3 className="text-lg font-semibold">{relatedTopic.title}</h3>
                 <p className="theme-muted mt-1 text-sm">{relatedTopic.description}</p>

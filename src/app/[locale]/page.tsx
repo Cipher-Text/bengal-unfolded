@@ -1,3 +1,5 @@
+import { statSync } from "node:fs";
+import path from "node:path";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
@@ -9,6 +11,17 @@ import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
 // One chapter per broad stretch of the chronology, so the sample is not weighted toward the last 75 years.
 const MILESTONE_SLUGS = ["0750-1170-pala-dynasty-foundation", "1757-battle-of-plassey", "1947-partition-and-eastern-bengal", "1952-language-movement", "1971-liberation-war", "2024-anti-discrimination-movement"] as const;
+
+// Most figure images are small text-only "image not available" cards (~12KB); a real portrait is far larger.
+const MIN_PORTRAIT_BYTES = 40_000;
+function hasRealPortrait(image?: string): boolean {
+  if (!image?.startsWith("/")) return false;
+  try {
+    return statSync(path.join(process.cwd(), "public", image)).size >= MIN_PORTRAIT_BYTES;
+  } catch {
+    return false;
+  }
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -34,7 +47,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const [home, events, figures, periods, places, resources, topics] = await Promise.all([getHomeContent(locale), getAllEvents(locale), getAllFiguresChronological(locale), getAllPeriods(locale), getAllPlaces(locale), getAllResources(locale), getAllTopics(locale)]);
   const featured = events.find((event) => event.slug === "1971-liberation-war") ?? events[0];
   const milestones = MILESTONE_SLUGS.map((slug) => events.find((event) => event.slug === slug)).filter((event): event is (typeof events)[number] => Boolean(event));
-  const people = figures.filter((figure) => figure.image && !["organization", "collective"].includes(figure.group));
+  const people = figures.filter((figure) => hasRealPortrait(figure.image) && !["organization", "collective"].includes(figure.group));
   const isBn = locale === "bn";
 
   const copy = homeCopy[isBn ? "bn" : "en"];

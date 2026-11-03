@@ -17,6 +17,10 @@
   - Timeline sample spans the Pala era to 2024 instead of 1757 to 1990; people cards use their portraits; places use specific sites and hide template descriptions.
   - Accessibility: section headings linked via `aria-labelledby`; eyebrow and nav text enlarged with less letter-spacing; header tagline localized.
 
+- Topics pages redesign (UI only; no model or content changes).
+  - Index: stock collage removed; "Start here" card for the overview hub; the other 16 hubs are grouped by period (Early Bengal, Mughal and colonial, Partition and Pakistan, Liberation and Bangladesh, Culture and memory) with tagline and chapter/people counts. Group membership is a constant in `topics/page.tsx`; unlisted hubs fall under "More topics".
+  - Detail: learning path moved above the event list with localized step labels; event cards show their summary (or an "In progress" label for stubs) instead of filler text; figures capped at 12 with a "Showing N of M" note; "More topics" now lists the 4 hubs sharing the most chapters instead of all 16.
+
 ## 2026-10-13
 
 ### Completed
