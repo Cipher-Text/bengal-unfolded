@@ -7,6 +7,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ShareActions } from "@/components/ShareActions";
 import { getEventContent, getEventsByFigureIdChronological, getFigure, getTopicsByFigureId } from "@/lib/content";
+import { hasRealPortrait } from "@/lib/portraits";
 import { absoluteUrl, buildDynamicOgImagePath, buildPageMetadata, localeLanguageTag, normalizeMetaDescription, serializeJsonLd } from "@/lib/seo";
 import { SUPPORTED_FIGURE_IDS, SUPPORTED_LOCALES, type FigureId, type Locale } from "@/types/content";
 
@@ -68,6 +69,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     }),
   });
 }
+
+const VISIBLE_EVENTS = 8;
 
 export default async function FigureDetailPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
   const { locale, id } = await params;
@@ -244,6 +247,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(personJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }} />
       <HeroSection
+        showCollage={false}
         title={figure.name}
         tagline={figure.role}
         intro={figure.highlight ?? figure.contribution}
@@ -261,7 +265,7 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
       <AnimatedContainer>
         <SectionTitle title={labels.biography} subtitle={labels.context} />
         <div className="theme-surface mt-4 rounded-xl border p-4">
-          {figure.image ? (
+          {hasRealPortrait(figure.image) && figure.image ? (
             <div className="theme-surface mb-4 overflow-hidden rounded-xl border border-amber-500/25 p-2">
               <Image src={figure.image} alt={figure.name} width={800} height={512} className="h-auto max-h-[32rem] w-full object-contain" priority={false} quality={85} />
             </div>
@@ -382,10 +386,10 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
       <AnimatedContainer delay={0.065}>
         <SectionTitle title={labels.appearsIn} subtitle={labels.timelineView} />
         <div className="mt-4 space-y-3">
-          {events.map((event, index) => (
+          {events.slice(0, VISIBLE_EVENTS).map((event, index) => (
             <div key={event.slug} className="relative pl-8">
               <span className="absolute top-5 left-2 h-2.5 w-2.5 rounded-full bg-amber-400" />
-              {index < events.length - 1 ? <span className="absolute top-8 left-[0.84rem] h-[calc(100%+0.6rem)] w-px bg-amber-500/35" /> : null}
+              {index < events.length - 1 || events.length > VISIBLE_EVENTS ? <span className="absolute top-8 left-[0.84rem] h-[calc(100%+0.6rem)] w-px bg-amber-500/35" /> : null}
               <Link href={`/${locale}/events/${event.slug}`} className="theme-surface block rounded-xl border p-4 hover:border-amber-400/40">
                 <p className="theme-muted text-xs tracking-[0.2em] uppercase">{event.year}</p>
                 <h3 className="mt-1 text-lg font-semibold">{event.title}</h3>
@@ -393,6 +397,26 @@ export default async function FigureDetailPage({ params }: { params: Promise<{ l
               </Link>
             </div>
           ))}
+          {events.length > VISIBLE_EVENTS ? (
+            <details className="group">
+              <summary className="btn-vintage cursor-pointer list-none">
+                {locale === "bn" ? `আরও ${(events.length - VISIBLE_EVENTS).toLocaleString("bn-BD")}টি ঘটনা দেখুন` : `Show ${events.length - VISIBLE_EVENTS} more events`}
+              </summary>
+              <div className="mt-3 space-y-3">
+                {events.slice(VISIBLE_EVENTS).map((event, index, rest) => (
+            <div key={event.slug} className="relative pl-8">
+                    <span className="absolute top-5 left-2 h-2.5 w-2.5 rounded-full bg-amber-400" />
+                    {index < rest.length - 1 ? <span className="absolute top-8 left-[0.84rem] h-[calc(100%+0.6rem)] w-px bg-amber-500/35" /> : null}
+                    <Link href={`/${locale}/events/${event.slug}`} className="theme-surface block rounded-xl border p-4 hover:border-amber-400/40">
+                      <p className="theme-muted text-xs tracking-[0.2em] uppercase">{event.year}</p>
+                      <h3 className="mt-1 text-lg font-semibold">{event.title}</h3>
+                      <p className="theme-muted mt-1 text-sm">{event.summary}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </details>
+          ) : null}
         </div>
       </AnimatedContainer>
     </div>

@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { replaceSearchParams, useUrlSearchParams } from "@/lib/use-url-search-params";
 import type { EventImportance, Locale } from "@/types/content";
 
 export type TimelineEntry = {
@@ -112,8 +112,14 @@ function Entry({ entry, locale, color }: { entry: TimelineEntry; locale: Locale;
 
 export function TimelineExplorerInteractive({ events, eras, locale }: { events: TimelineEntry[]; eras: TimelineEra[]; locale: Locale }) {
   const t = copy[locale];
-  const initialQuery = useSearchParams().get("q") ?? "";
-  const [query, setQuery] = useState(initialQuery);
+  // Read ?q= after mount so the static HTML always contains the whole timeline.
+  const urlQuery = useUrlSearchParams().get("q") ?? "";
+  const [typed, setTyped] = useState<string | null>(null);
+  const query = typed ?? urlQuery;
+  const setQuery = (value: string) => {
+    setTyped(value);
+    replaceSearchParams(window.location.pathname, value.trim() ? new URLSearchParams({ q: value.trim() }) : new URLSearchParams());
+  };
   const [level, setLevel] = useState<Level>("all");
   const [active, setActive] = useState<string | null>(eras[0]?.id ?? null);
   const navRef = useRef<HTMLOListElement>(null);

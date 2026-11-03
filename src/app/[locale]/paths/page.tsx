@@ -2,10 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
-import { SectionTitle } from "@/components/SectionTitle";
-import {
-  getAllLearningPaths,
-} from "@/lib/learning-paths";
+import { getAllLearningPaths, resolveLearningPathStep } from "@/lib/learning-paths";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 import { QueryPathMode } from "@/components/QueryPathMode";
@@ -17,29 +14,31 @@ const LABELS = {
     title: "Learning Paths",
     tagline: "Curated routes through Bengal history",
     intro:
-      "Choose a structured path and move through events, figures, places, periods, and sources in a deliberate reading order.",
-    filterTitle: "Browse by Mode",
-    filterSubtitle: "Static paths only; progress tracking belongs to the future account system.",
+      "Each path is a short reading order: context first, then key chapters, people and sources. Pick the period you want to understand and follow the steps.",
     all: "All paths",
-    available: "Available Paths",
+    beginner: "Beginner-friendly",
+    examPrep: "Exam prep",
+    available: "Paths in chronological order",
     steps: "steps",
-    difficulty: "Difficulty",
+    startsWith: "Starts with",
     open: "Open path",
-    none: "No paths match this mode yet.",
+    none: "No paths match this filter yet.",
+    filter: "Filter paths",
   },
   bn: {
     title: "শেখার পথ",
     tagline: "বাংলার ইতিহাস শেখার নির্বাচিত রুট",
     intro:
-      "একটি কাঠামোবদ্ধ পথ বেছে নিয়ে ঘটনা, ব্যক্তিত্ব, স্থান, পর্ব ও সূত্র ধারাবাহিকভাবে পড়ুন।",
-    filterTitle: "মোড অনুযায়ী দেখুন",
-    filterSubtitle: "এখন শুধু স্ট্যাটিক পথ; প্রগ্রেস ট্র্যাকিং ভবিষ্যৎ অ্যাকাউন্ট সিস্টেমে থাকবে।",
+      "প্রতিটি পথ একটি ছোট পড়ার ক্রম: আগে প্রেক্ষাপট, তারপর মূল অধ্যায়, ব্যক্তি ও সূত্র। যে যুগ বুঝতে চান তা বেছে নিয়ে ধাপগুলো অনুসরণ করুন।",
     all: "সব পথ",
-    available: "উপলভ্য পথ",
+    beginner: "নতুনদের জন্য",
+    examPrep: "পরীক্ষা প্রস্তুতি",
+    available: "কালানুক্রমিক পথসমূহ",
     steps: "ধাপ",
-    difficulty: "স্তর",
+    startsWith: "শুরু হয়",
     open: "পথ খুলুন",
-    none: "এই মোডে এখনও কোনো পথ নেই।",
+    none: "এই ফিল্টারে এখনও কোনো পথ নেই।",
+    filter: "পথ ফিল্টার করুন",
   },
 } as const;
 
@@ -70,16 +69,21 @@ export default async function PathsPage({ params }: { params: Promise<{ locale: 
 
   const labels = LABELS[locale as Locale];
   const paths = await getAllLearningPaths(locale as Locale);
+  // Show where each path begins, so a card reads as a route and not just a topic summary.
+  const startsWith = Object.fromEntries(
+    await Promise.all(
+      paths.map(async (path) => {
+        const first = path.learningPath?.[0];
+        return [path.slug, first ? (await resolveLearningPathStep(locale as Locale, first)).label : ""] as const;
+      }),
+    ),
+  );
 
   return (
     <div className="space-y-8">
-      <HeroSection title={labels.title} tagline={labels.tagline} intro={labels.intro} />
-
-      <section className="theme-surface rounded-2xl border p-5 md:p-6">
-        <SectionTitle title={labels.filterTitle} subtitle={labels.filterSubtitle} />
-      </section>
+      <HeroSection showCollage={false} title={labels.title} tagline={labels.tagline} intro={labels.intro} />
       <Suspense fallback={<section className="min-h-48" aria-busy="true" />}>
-        <QueryPathMode locale={locale as Locale} paths={paths} labels={labels} />
+        <QueryPathMode locale={locale as Locale} paths={paths} labels={labels} startsWith={startsWith} />
       </Suspense>
     </div>
   );

@@ -18,3 +18,9 @@ export function pushSearchParams(pathname: string, params: URLSearchParams): voi
   window.history.pushState(null, "", `${pathname}${params.size ? `?${params}` : ""}`);
   window.dispatchEvent(new PopStateEvent("popstate"));
 }
+
+/** Like pushSearchParams but without adding a history entry; for live typing. */
+export function replaceSearchParams(pathname: string, params: URLSearchParams): void {
+  window.history.replaceState(null, "", `${pathname}${params.size ? `?${params}` : ""}`);
+  window.dispatchEvent(new PopStateEvent("popstate"));
+}

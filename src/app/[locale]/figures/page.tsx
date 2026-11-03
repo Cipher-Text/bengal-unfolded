@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
-import { FigureDirectoryInteractive } from "@/components/FigureDirectoryInteractive";
-import { FigureProfileCard } from "@/components/FigureProfileCard";
+import { FigureDirectoryInteractive, type FigureListItem } from "@/components/FigureDirectoryInteractive";
 import { HeroSection } from "@/components/HeroSection";
 import { getAllFiguresChronological } from "@/lib/content";
+import { inferFigureEntityType } from "@/lib/figures";
+import { hasRealPortrait } from "@/lib/portraits";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
@@ -13,15 +13,43 @@ export function generateStaticParams() { return SUPPORTED_LOCALES.map((locale) =
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) return {};
-  return buildPageMetadata({ locale: locale as Locale, title: locale === "bn" ? "ঐতিহাসিক ব্যক্তিত্ব" : "Historical Figures", description: "Explore all figures and historical actors connected to Bengal Unfolded events.", canonicalPath: `/${locale}/figures`, languagePathWithoutLocale: "/figures" });
+  return buildPageMetadata({ locale: locale as Locale, title: locale === "bn" ? "ঐতিহাসিক ব্যক্তিত্ব" : "Historical Figures", description: locale === "bn" ? "বাংলার ইতিহাসের ঘটনার সঙ্গে যুক্ত নেতা, সংগঠক, বুদ্ধিজীবী ও সংগঠনের প্রোফাইল দেখুন।" : "Explore the leaders, organisers, thinkers and organisations connected to Bengal Unfolded events.", canonicalPath: `/${locale}/figures`, languagePathWithoutLocale: "/figures" });
 }
+/** One short sentence from a longer paragraph, for compact directory cards. */
+function excerpt(text: string | undefined, max: number): string {
+  const clean = (text ?? "").replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  const head = clean.slice(0, max);
+  const end = Math.max(head.lastIndexOf(". "), head.lastIndexOf("। "));
+  return end > max * 0.5 ? head.slice(0, end + 1) : `${head.slice(0, head.lastIndexOf(" "))}…`;
+}
+
 export default async function FiguresListPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
   const isBn = locale === "bn";
   const figures = await getAllFiguresChronological(locale);
-  return <div className="space-y-8">
-    <HeroSection title={isBn ? "সকল মূল ব্যক্তিত্ব" : "All Key Figures"} tagline={isBn ? "অবদান, প্রেক্ষাপট ও প্রভাবভিত্তিক ডিরেক্টরি" : "A contribution-first, context-rich directory"} intro={isBn ? "প্রতিটি প্রোফাইলে কী করেছেন, কোথায় করেছেন, কেন গুরুত্বপূর্ণ—এই তিন স্তরে উপস্থাপন করা হয়েছে।" : "Each profile is structured by what they did, where it mattered, and why it shaped history."} />
-    <Suspense fallback={<section aria-label={isBn ? "ব্যক্তিত্ব ডিরেক্টরি" : "Figure Directory"} className="grid gap-4 md:grid-cols-2">{figures.slice(0, 20).map((figure, index) => <FigureProfileCard key={figure.id} figure={figure} locale={locale as Locale} featured={index === 0} />)}</section>}><FigureDirectoryInteractive figures={figures.map(({ id, name, name_en, role, group, contribution, context, impact, highlight, tags, alternateNames, searchAliases }) => ({ id, name, name_en, role, group, contribution, context, impact, highlight, tags, alternateNames, searchAliases }))} locale={locale as Locale} /></Suspense>
-  </div>;
+  const items: FigureListItem[] = figures.map((figure) => ({
+    id: figure.id,
+    name: figure.name,
+    role: figure.role,
+    group: figure.group,
+    entity: inferFigureEntityType(figure),
+    image: hasRealPortrait(figure.image) ? figure.image : undefined,
+    period: figure.activePeriod ?? ([figure.birthYear, figure.deathYear].filter(Boolean).join("–") || undefined),
+    excerpt: excerpt(figure.contribution, 140),
+    search: [figure.name, figure.name_en, figure.role, ...(figure.tags ?? []), ...(figure.alternateNames ?? []), ...(figure.searchAliases ?? [])].filter(Boolean).join(" ").toLocaleLowerCase(),
+  }));
+
+  return (
+    <div className="space-y-8">
+      <HeroSection
+        showCollage={false}
+        title={isBn ? "ইতিহাসের মানুষ" : "People of the record"}
+        tagline={isBn ? "নেতা, সংগঠক, বুদ্ধিজীবী ও সংগঠন" : "Leaders, organisers, thinkers and the groups they built"}
+        intro={isBn ? "নাম বা ভূমিকা দিয়ে খুঁজুন। প্রতিটি প্রোফাইলে তাঁদের অবদান, প্রেক্ষাপট ও প্রভাব আলাদা করে দেখানো হয়েছে।" : "Search by name or role. Each profile separates what they did, the context they worked in, and the impact that followed."}
+      />
+      <FigureDirectoryInteractive figures={items} locale={locale as Locale} />
+    </div>
+  );
 }

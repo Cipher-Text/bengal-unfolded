@@ -1,30 +1,83 @@
 "use client";
 
-import { useUrlSearchParams } from "@/lib/use-url-search-params";
 import Link from "next/link";
-import { pushSearchParams } from "@/lib/use-url-search-params";
-import type { LearningPathMode, LearningPathSummary } from "@/lib/learning-paths";
+import { pushSearchParams, useUrlSearchParams } from "@/lib/use-url-search-params";
+import type { LearningPathSummary } from "@/lib/learning-paths";
 import type { Locale } from "@/types/content";
 
-const MODES: LearningPathMode[] = ["beginner", "student", "researcher", "exam-prep"];
-const MODE_LABELS = {
-  en: { beginner: "Beginner", student: "Student", researcher: "Researcher", "exam-prep": "Exam prep" },
-  bn: { beginner: "শুরু", student: "শিক্ষার্থী", researcher: "গবেষক", "exam-prep": "পরীক্ষা প্রস্তুতি" },
-} as const;
+// Only filters that actually separate the paths. "Student" and "Researcher" matched 15 and 17 of 17 paths, so they were dropped.
+const FILTERS = ["beginner", "exam-prep"] as const;
+type Filter = (typeof FILTERS)[number];
 
-export function QueryPathMode({ locale, paths, labels }: { locale: Locale; paths: LearningPathSummary[]; labels: { all: string; available: string; steps: string; difficulty: string; open: string; none: string } }) {
+type Labels = { all: string; beginner: string; examPrep: string; available: string; steps: string; startsWith: string; open: string; none: string; filter: string };
+
+export function QueryPathMode({ locale, paths, labels, startsWith }: { locale: Locale; paths: LearningPathSummary[]; labels: Labels; startsWith: Record<string, string> }) {
   const params = useUrlSearchParams();
   const candidate = params.get("mode") ?? "";
-  const mode = MODES.includes(candidate as LearningPathMode) ? candidate as LearningPathMode : "";
+  const mode = (FILTERS as readonly string[]).includes(candidate) ? (candidate as Filter) : "";
   const filtered = mode ? paths.filter((path) => path.modes.includes(mode)) : paths;
-  return <>
-    <div className="mt-4 flex flex-wrap gap-2">
-      <a href={`/${locale}/paths/`} onClick={(event) => { event.preventDefault(); pushSearchParams(`/${locale}/paths/`, new URLSearchParams()); }} aria-current={!mode ? "page" : undefined} className={`inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-medium ${!mode ? "border-amber-500/60 text-accent" : "border-amber-500/25 theme-muted"} hover:bg-amber-500/10`}>{labels.all}</a>
-      {MODES.map((item) => <a key={item} href={`/${locale}/paths/?mode=${item}`} onClick={(event) => { event.preventDefault(); pushSearchParams(`/${locale}/paths/`, new URLSearchParams({ mode: item })); }} aria-current={mode === item ? "page" : undefined} className={`inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-medium ${mode === item ? "border-amber-500/60 text-accent" : "border-amber-500/25 theme-muted"} hover:bg-amber-500/10`}>{MODE_LABELS[locale][item]}</a>)}
-    </div>
-    <section className="mt-8">
-      <h2 className="text-xl font-semibold">{labels.available} <span className="theme-muted text-sm font-normal">{filtered.length} / {paths.length}</span></h2>
-      {filtered.length ? <div className="mt-4 grid gap-4 md:grid-cols-2">{filtered.map((path) => <Link key={path.slug} href={`/${locale}/paths/${path.slug}`} className="theme-surface group rounded-xl border p-5 hover:border-amber-500/40"><div className="flex flex-wrap gap-2">{path.modes.map((item) => <span key={item} className="rounded-full border border-amber-500/30 px-2.5 py-1 text-[11px] font-medium text-accent">{MODE_LABELS[locale][item]}</span>)}</div><h3 className="mt-4 text-xl font-semibold">{path.title}</h3><p className="theme-muted mt-2 text-sm leading-relaxed">{path.description}</p><div className="mt-4 flex flex-wrap gap-4 text-sm"><span className="text-accent">{path.stepCount} {labels.steps}</span><span className="theme-muted">{labels.difficulty}: {path.difficulty}</span></div><p className="mt-5 text-sm font-medium text-accent">{labels.open} <span className="arrow ml-1">→</span></p></Link>)}</div> : <div className="theme-surface mt-4 rounded-xl border p-6 theme-muted">{labels.none}</div>}
-    </section>
-  </>;
+  const filterLabel: Record<Filter, string> = { beginner: labels.beginner, "exam-prep": labels.examPrep };
+  const fmt = (n: number) => n.toLocaleString(locale === "bn" ? "bn-BD" : "en-US");
+  const chipClass = (active: boolean) =>
+    `section-tab inline-flex min-h-[44px] items-center !text-[13px] !tracking-[0.02em] !normal-case ${active ? "" : ""}`;
+
+  return (
+    <>
+      <div role="group" aria-label={labels.filter} className="flex flex-wrap gap-2">
+        <button type="button" aria-pressed={!mode} className={chipClass(!mode)} onClick={() => pushSearchParams(`/${locale}/paths/`, new URLSearchParams())}>
+          {labels.all} ({fmt(paths.length)})
+        </button>
+        {FILTERS.map((item) => (
+          <button
+            key={item}
+            type="button"
+            aria-pressed={mode === item}
+            className={chipClass(mode === item)}
+            onClick={() => pushSearchParams(`/${locale}/paths/`, new URLSearchParams({ mode: item }))}
+          >
+            {filterLabel[item]} ({fmt(paths.filter((path) => path.modes.includes(item)).length)})
+          </button>
+        ))}
+      </div>
+
+      <section className="mt-8" aria-labelledby="paths-list">
+        <h2 id="paths-list" className="text-eyebrow">
+          {labels.available}
+        </h2>
+        {filtered.length ? (
+          <ol className="mt-5 grid gap-4 md:grid-cols-2">
+            {filtered.map((path) => {
+              const number = paths.indexOf(path) + 1;
+              return (
+                <li key={path.slug}>
+                  <Link href={`/${locale}/paths/${path.slug}`} className="theme-surface group flex h-full flex-col rounded-xl border p-5 hover:border-[color:var(--gold)]">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <span className="text-display text-3xl font-semibold text-accent">{String(number).padStart(2, "0").replace(/\d/g, (d) => (locale === "bn" ? "০১২৩৪৫৬৭৮৯"[Number(d)] : d))}</span>
+                      <span className="text-eyebrow">
+                        {fmt(path.stepCount)} {labels.steps}
+                      </span>
+                    </div>
+                    <h3 className="text-display mt-3 text-xl font-semibold leading-snug group-hover:text-accent">{path.title}</h3>
+                    <p className="theme-muted mt-2 line-clamp-3 flex-1 text-sm leading-relaxed">{path.tagline}</p>
+                    {startsWith[path.slug] ? (
+                      <p className="mt-4 text-sm">
+                        <span className="text-eyebrow">{labels.startsWith}</span>
+                        <br />
+                        <span className="font-medium">{startsWith[path.slug]}</span>
+                      </p>
+                    ) : null}
+                    <span className="link-underline mt-4 inline-flex min-h-[44px] items-center text-sm font-semibold text-accent">
+                      {labels.open} <span className="arrow ml-2">→</span>
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ol>
+        ) : (
+          <div className="theme-surface mt-4 rounded-xl border p-6 theme-muted">{labels.none}</div>
+        )}
+      </section>
+    </>
+  );
 }

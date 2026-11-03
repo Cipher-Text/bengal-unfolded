@@ -33,6 +33,30 @@
   - Stub chapters show an "In progress" label instead of their template summary on the timeline.
   - `HeroSection` no longer renders its default, unlocalized "The Bengal Chronicle" side panel; it appears only when a page supplies content for it.
 
+- Compare page redesign (UI only; no model or content changes).
+  - Two stacked 1,100px panels with misaligned rows (a badge on one side shifted every row below it) became one row-aligned comparison: sticky two-colour header, then "What happened", "Why it matters", causes, consequences, era, movement, place, importance and evidence as rows, with empty rows hidden. On mobile each row stacks the two chapters with a colour-coded year tag.
+  - Controls: selection applies on change (no Apply button), a Swap button, and six suggested pairings (for example 1905 and 1947 partitions, 1770 and 1943 famines). Pair chips carry the year because two chapters are both titled "Mass Uprising".
+  - "What they share" moved above the detail: years apart plus shared people, sources and linked chapters.
+  - Stub chapters show an "in progress" notice instead of placeholder summaries and evidence counts. Collage removed; `Suspense` wrapper dropped so the default comparison is in the static HTML.
+  - Known gaps: causes/consequences are empty for most chapters, so those rows usually do not appear; the comparison cannot be exported or shared as an image.
+
+- Places pages redesign (UI only; no model or content changes).
+  - Index: collage and the "Place-based historical map" tagline removed (there is no map; only 2 of 60 places have coordinates). The flat list of 60 cards is grouped by type (cities and ports, battlefields and frontiers, heritage sites, regions, other) with a jump bar, a chapter count and a year span from event slug dates, and the template description is no longer shown as card text. Shared helpers live in `src/lib/places.ts`.
+  - Detail: hero shows the description only when it is real content; at-a-glance strip (type, today's location, chapter span); chapters shown as 10 cards plus a fold-out for the rest (Bengal Region has 125, and previously rendered a 125-pill year bar); and previously unrendered data is now shown when present: name history, administrative history, related eras/topics/people, FAQ, and `geo` in the Place JSON-LD.
+  - Known gaps: 57 of 60 places still have the template description; generic polities ("Bengal Region", "Bangladesh", "East Bengal") are modelled as places; no map view because coordinates are missing.
+
+- Figures pages redesign (UI only; no model or content changes).
+  - Index: replaced 28 pages of long postcard cards and a form with Apply button by a live search, localized Type and Role chips with counts, and compact cards (portrait or monogram, period, role, one-line contribution) with "Show more". The role filter previously listed raw English enum values. Filters sync to the URL and keep the `noindex` robots behaviour.
+  - Portraits: only real portraits are shown (`src/lib/portraits.ts`, shared with the landing page); about 290 of 391 image fields are small "image not available" cards and now fall back to a monogram. Image provenance is still not recorded in the data.
+  - Detail: collage removed; placeholder portrait hidden; "Appears in events" shows 8 and folds the rest into a disclosure (Mujibur Rahman page about 12,400px to 8,300px on mobile).
+  - Timeline page now reads `?q=` after mount via `useUrlSearchParams` (static export), so the prerendered HTML contains the full timeline.
+  - Known gaps: 366 of 552 profiles are grouped as "leader", so the Role filter separates little; only 64 have birth/death years (others show the active period); the Bengali page description and some role strings are still English-sourced.
+
+- Learning paths pages redesign (UI only; no model or content changes).
+  - Index: collage and the public note about "future account system" removed; paths are numbered in chronological order and each card shows where the path starts. The mode filter now offers only "Beginner-friendly" and "Exam prep"; "Student" and "Researcher" matched 15 and 17 of 17 paths, so they filtered nothing. The "Difficulty" label was removed because the heuristic marked every path "advanced".
+  - Detail: stepper with numbered markers, a "Start with step 1" button, localized labels, and period context moved to the first step (stored order is otherwise kept).
+  - Known gaps: paths are generated from the 17 topic hubs, so `/paths` and `/topics` list the same content; each path has 6 template steps (2 chapters, 1 person, 1 period, 2 sources) with generic reasons such as "Review a central figure". A real path needs authored steps.
+
 - Content backfill: corrected `periodId` (and `periodLabel`, EN and BN) on 43 events whose stored period disagreed with their date, e.g. the 700-750 Matsyanyaya, Sena rise and Gangaridai chapters (were Colonial/Contemporary), 1658-1756 Mughal-era chapters, 1996-2011 chapters (were Post-Liberation), and the 1991 return to parliamentary democracy (was Pakistan Period). Boundary cases follow the existing convention that a period includes both end years: the Radcliffe Award implementation (1947) is in Partition and Late Colonial Politics, and the 1971 Operation Searchlight, 14 December and 16 December chapters are in the Pakistan Period with the Liberation War chapter. The generic label "Historical Transitions" was replaced by the actual period title.
   - Validation: `pnpm content:validate` passes. No schema change.
   - Known gaps: `movementId`/`movementLabel` have the same generic-fallback problem (for example "State, society, and political change" on unrelated events) and are not corrected here.

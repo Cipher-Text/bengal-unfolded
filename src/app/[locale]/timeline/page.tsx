@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { TimelineExplorerInteractive, type TimelineEntry, type TimelineEra } from "@/components/TimelineExplorerInteractive";
@@ -46,9 +45,7 @@ export default async function TimelineExplorerPage({ params }: { params: Promise
         tagline={bn ? "একটানা কালপঞ্জিতে বাংলার ইতিহাস" : "Bengal’s history, in one continuous line"}
         intro={bn ? "যুগ ধরে এগিয়ে যান, অথবা খুঁজে নিন নির্দিষ্ট বছর বা বিষয়। গুরুত্বপূর্ণ মোড়গুলো বড় করে দেখানো হয়েছে।" : "Scroll through the eras, or search for a year or subject. Landmark chapters are set larger so the turning points stand out."}
       />
-      <Suspense fallback={<div className="min-h-96" aria-busy="true" />}>
-        <TimelineExplorerInteractive events={entries} eras={eras} locale={locale as Locale} />
-      </Suspense>
+      <TimelineExplorerInteractive events={entries} eras={eras} locale={locale as Locale} />
     </div>
   );
 }

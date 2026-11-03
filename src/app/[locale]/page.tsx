@@ -1,27 +1,15 @@
-import { statSync } from "node:fs";
-import path from "node:path";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
 import Link from "next/link";
 import { Contribute, EditorialMethod, EraStrip, ExplorePaths, PeopleAndPlaces, TimelinePreview, homeCopy } from "@/components/home/HomeDiscovery";
 import { getAllEvents, getAllFiguresChronological, getAllPeriods, getAllPlaces, getAllResources, getAllTopics, getHomeContent } from "@/lib/content";
+import { hasRealPortrait } from "@/lib/portraits";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
 // One chapter per broad stretch of the chronology, so the sample is not weighted toward the last 75 years.
 const MILESTONE_SLUGS = ["0750-1170-pala-dynasty-foundation", "1757-battle-of-plassey", "1947-partition-and-eastern-bengal", "1952-language-movement", "1971-liberation-war", "2024-anti-discrimination-movement"] as const;
-
-// Most figure images are small text-only "image not available" cards (~12KB); a real portrait is far larger.
-const MIN_PORTRAIT_BYTES = 40_000;
-function hasRealPortrait(image?: string): boolean {
-  if (!image?.startsWith("/")) return false;
-  try {
-    return statSync(path.join(process.cwd(), "public", image)).size >= MIN_PORTRAIT_BYTES;
-  } catch {
-    return false;
-  }
-}
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
