@@ -99,6 +99,7 @@ For every schema or field change:
 - `contested` must be boolean when provided.
 - `requiresSources` must be boolean when provided.
 - `stub` must be boolean when provided and must have the same value in EN and BN.
+- `periodId` must cover the event's date (slug start year) within the period's `startYear`/`endYear`, inclusive at both ends; years before the first or after the last period stay in that period. Enforced by `scripts/validate-content.mjs`.
 - `contentWarnings` must be an array of non-empty localized strings when provided.
 
 ## Definition of done (AI-integrated feature)

@@ -80,8 +80,6 @@ export function FigureDirectoryInteractive({ figures, locale }: { figures: Figur
   const entity = (ENTITIES as string[]).includes(entityParam) ? (entityParam as FigureEntityType) : "";
   const group = (GROUPS as string[]).includes(groupParam) ? (groupParam as Figure["group"]) : "";
   const [limit, setLimit] = useState(PAGE);
-  const [typed, setTyped] = useState<string | null>(null);
-  const shownQuery = typed ?? query;
   const fmt = (n: number) => n.toLocaleString(locale === "bn" ? "bn-BD" : "en-US");
 
   // Filtered views are not separate pages; keep them out of search indexes like before.
@@ -126,11 +124,8 @@ export function FigureDirectoryInteractive({ figures, locale }: { figures: Figur
           <span className="sr-only">{t.search}</span>
           <input
             type="search"
-            value={shownQuery}
-            onChange={(event) => {
-              setTyped(event.target.value);
-              setParam("q", event.target.value.trim(), true);
-            }}
+            value={query}
+            onChange={(event) => setParam("q", event.target.value, true)}
             placeholder={t.placeholder}
             className="theme-surface min-h-[48px] w-full rounded-lg border px-4 text-base"
             style={{ borderColor: "var(--border-strong)" }}
@@ -155,7 +150,6 @@ export function FigureDirectoryInteractive({ figures, locale }: { figures: Figur
             type="button"
             className="link-underline min-h-[44px] font-semibold text-accent"
             onClick={() => {
-              setTyped("");
               setLimit(PAGE);
               pushSearchParams(window.location.pathname, new URLSearchParams());
             }}

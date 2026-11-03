@@ -155,6 +155,24 @@ async function main() {
     placeTitlesByLocale.set(placeId, titles);
   }
   const periodDir = path.join(contentDir, "periods");
+  // Period year ranges (inclusive at both ends) so event periodId can be checked against the event's date.
+  const periodBound = (text, fallback) => {
+    if (/bce/i.test(text)) {
+      const century = /(\d+)(?:st|nd|rd|th)\s+century/i.exec(text);
+      return century ? -Number(century[1]) * 100 : fallback;
+    }
+    const year = /\d{3,4}/.exec(text);
+    return year ? Number(year[0]) : fallback;
+  };
+  const periodRanges = new Map();
+  for (const entry of await fs.readdir(periodDir)) {
+    if (entry.startsWith("index.")) continue;
+    const periodMeta = await readJson(path.join(periodDir, entry, "meta.en.json"), []);
+    if (periodMeta) periodRanges.set(entry, { start: periodBound(String(periodMeta.startYear ?? ""), -Infinity), end: periodBound(String(periodMeta.endYear ?? ""), Infinity) });
+  }
+  const periodStarts = [...periodRanges.values()].map((range) => range.start);
+  const firstPeriodStart = Math.min(...periodStarts);
+  const lastPeriodEnd = Math.max(...[...periodRanges.values()].map((range) => range.end));
   const movementDir = path.join(contentDir, "movements");
 
   for (const slug of eventSlugs) {
@@ -198,6 +216,15 @@ async function main() {
       if ("periodId" in meta && meta.periodId !== undefined) {
         if (typeof meta.periodId !== "string" || !allowedPeriodIds.has(meta.periodId)) {
           errors.push(`Invalid periodId at content/events/${slug}/meta.${locale}.json`);
+        } else {
+          const startMatch = /^(\d+)(bce)?/.exec(slug);
+          const range = periodRanges.get(meta.periodId);
+          if (startMatch && range) {
+            const year = startMatch[2] ? -Number(startMatch[1]) : Number(startMatch[1]);
+            // Years before the first period or after the last stay in that period; otherwise the date must fall inside the range.
+            const outside = (year < range.start && year >= firstPeriodStart) || (year > range.end && year <= lastPeriodEnd);
+            if (outside) errors.push(`periodId '${meta.periodId}' does not cover year ${year} at content/events/${slug}/meta.${locale}.json`);
+          }
         }
       }
       if ("movementId" in meta && meta.movementId !== undefined) {

@@ -62,7 +62,7 @@ Record date and results after each optimization pass:
 1. ✅ Inlined critical scripts (theme-init.js, lang-init.js) - eliminated 2 render-blocking requests
 2. ✅ Implemented `next/font` for Hind Siliguri, Playfair Display, Special Elite - automatic optimization + subsetting
 3. ✅ Implemented `next/image` for all images - lazy loading + responsive images + WebP/AVIF
-4. ✅ Lazy-loaded `react-pageflip` in EventTimeline - saved ~110KB on initial load
+4. ✅ Lazy-loaded `react-pageflip` in EventTimeline - saved ~110KB on initial load (superseded: the flip-book was replaced by a vertical timeline and `react-pageflip` was removed from dependencies, so the ~110KB no longer ships at all)
 5. ✅ Optimized 32 figure images: 17.02MB → 5.90MB (65.3% reduction) using WebP
 
 **Files Changed**:

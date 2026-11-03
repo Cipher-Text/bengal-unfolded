@@ -229,7 +229,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 - [x] RM-006A Timeline importance levels (`landmark`, `major`, `high`, `medium`, `reference`)
 - [x] RM-006B Homepage landmark timeline limit with `Explore Full Timeline` CTA
-- [x] RM-006C Full timeline explorer page with search, filters, and pagination
+- [x] RM-006C Full timeline explorer page (continuous era-grouped chronology with search and importance-level filter; replaced the earlier paginated card grid)
 - [x] RM-006D Parent-child event clustering (`parentEvent`, `children`, `relatedEvents`)
 - [x] RM-006E Sensitive event metadata (`sensitive`, `contentWarnings`, `requiresSources`)
 
@@ -265,7 +265,7 @@ This phase should make Bengal Unfolded trustworthy, readable, and structurally r
 
 ### Recommended v1 behavior
 
-Landing page should show only curated landmark events, for example 12-15 events. The full timeline page should show all events with search, filters, and pagination.
+Landing page should show only curated landmark events, for example 12-15 events. The full timeline page should show all events in one continuous, era-grouped list with search and a level filter (the earlier paginated grid was replaced).
 
 ```txt
 Landing Page
@@ -276,7 +276,7 @@ Explore Full Timeline
   ↓
 Timeline Explorer
   ↓
-Search + Filter + Pagination
+Era-grouped list + Search + Level filter
 ```
 
 Recommended filter fields:

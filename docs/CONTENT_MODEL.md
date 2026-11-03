@@ -483,7 +483,7 @@ Suggested naming after export:
 - `event -> resources` is many-to-many via `content/events/<slug>/resource-ids.json`.
 - Shared resource metadata is stored in `content/resources/<resource-id>/meta.<locale>.json`.
 - Academic books are modeled as resources, usually under the `academic-books` category. Dedicated `/books/*` pages are obsolete.
-- `event -> period` is many-to-one via `eventMeta.periodId`.
+- `event -> period` is many-to-one via `eventMeta.periodId`. The id must agree with the event's date (slug start year) and the period's `startYear`/`endYear`; both end years are inclusive, so a boundary year belongs to the earlier period (1947 partition chapters, 1971 war chapters). `periodLabel` must be that period's title, never a generic label. `src/lib/eras.ts` re-derives the era from the date for timeline grouping and landing-page counts.
 - Period detail pages perform reverse lookup to list all events within that period.
 - `event -> movement` is many-to-one via `eventMeta.movementId`.
 - Movement detail pages perform reverse lookup to list all events within that movement.
@@ -495,28 +495,28 @@ Suggested naming after export:
 
 ## Public route inventory
 
-- `/{locale}`: landing page with curated landmark timeline cards.
-- `/{locale}/timeline`: full timeline explorer with search, filters, and pagination.
+- `/{locale}`: landing page (hero with featured chapter, era strip, reader paths, a six-chapter timeline sample spanning the Pala era to 2024, people and places, method, contribute).
+- `/{locale}/timeline`: continuous chronology of all events grouped into period sections, with a sticky era bar, live search (`?q=`) and an All / Key turning points / Landmarks filter. No pagination.
 - `/{locale}/events/{slug}`: event detail page.
 - `/{locale}/events/{slug}/figures`: full figure list for one event.
 - `/{locale}/events/{slug}/resources`: event-scoped resources page.
-- `/{locale}/figures`: figure directory with search, entity, and group filters.
+- `/{locale}/figures`: figure directory with live search plus type (`entity`) and role (`group`) chips; 48 shown at a time.
 - `/{locale}/figures/{id}`: figure detail page with reverse-linked events/resources.
-- `/{locale}/resources`: Resource Directory with search plus category, subcategory, and source-quality filters.
+- `/{locale}/resources`: source library with live search plus reliability (`quality`) and type (`category`) chips; 40 shown at a time.
 - `/{locale}/resources/{id}`: shared resource detail page.
 - `/{locale}/creators`: Source Directory index derived from resource attribution metadata.
 - `/{locale}/creators/{id}`: Source Directory detail page for one derived source entry.
-- `/{locale}/topics`: topic hub index.
+- `/{locale}/topics`: topic hub index, with the overview hub first and the rest grouped by period (group membership is a constant in the page).
 - `/{locale}/topics/{slug}`: topic detail page.
-- `/{locale}/paths`: learning-path index derived from topics.
+- `/{locale}/paths`: learning-path index derived from topics, numbered chronologically, with a Beginner-friendly / Exam prep filter (`?mode=`).
 - `/{locale}/paths/{slug}`: learning-path detail page for one topic.
 - `/{locale}/glossary`: glossary index.
 - `/{locale}/glossary/{term}`: glossary term detail page.
-- `/{locale}/places`: places index page.
+- `/{locale}/places`: places index grouped by type (cities, battlefields, heritage sites, regions, other).
 - `/{locale}/places/{id}`: place detail page with reverse-linked chronology.
 - `/{locale}/periods/{id}`: period detail page.
 - `/{locale}/movements/{id}`: movement detail page.
-- `/{locale}/compare`: side-by-side event comparison page.
+- `/{locale}/compare`: row-aligned comparison of two events (`?a=&b=`), with swap, suggested pairings and a shared-context summary.
 - `/{locale}/methodology`: public methodology and trust standards page.
 - `/{locale}/join`: public collaboration and contact page.
 

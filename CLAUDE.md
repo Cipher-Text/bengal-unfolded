@@ -94,14 +94,24 @@ Theme (light/dark) is stored in `localStorage` and applied via an inline `<scrip
 
 ### Client vs. Server Components
 
-Default to Server Components. The only Client Components are:
-- `EventTimeline` — Interactive timeline with load-more functionality
-- `ThemeToggle` — reads/writes localStorage and manages theme state
-- `ContentDensityControls` — manages reading density preference
-- `ShareActions` — handles native share API
-- `HeaderScroll` — scroll-based header visibility
+Default to Server Components. Client Components are limited to interactive pieces:
+- `EventTimeline` — per-event timeline (vertical list with a theme filter)
+- `TimelineExplorerInteractive` — `/timeline`: era-grouped chronology, live search, level filter, sticky era bar with scroll-spy
+- `FigureDirectoryInteractive`, `ResourceDirectoryInteractive`, `CreatorsDirectoryInteractive` — live search and chip filters with "Show more"
+- `QueryPathMode` — `/paths` filter; `CompareEventsInteractive` — `/compare` pair selection, swap and aligned comparison
+- `MobileNav`, `ThemeToggle`, `ContentDensityControls`, `ShareActions`, `HeaderScroll`
 
-Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS animations and Next.js Link respectively.
+Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS animations and Next.js Link respectively. Directory pages compute their list data on the server and pass a minimal serialisable shape to the client component.
+
+**Static export and query state.** The site is `output: "export"`, so request query strings do not exist at build time. Client components read `?q=`, `?category=` etc. after mount with `useUrlSearchParams()` / `pushSearchParams()` / `replaceSearchParams()` from `src/lib/use-url-search-params.ts` (not `useSearchParams()`, which would leave only a fallback in the prerendered HTML). Filtered views set `noindex,follow`.
+
+### UI helpers (`src/lib`)
+
+- `eras.ts` — `resolveEraId()` groups an event by its date and keeps the stored `periodId` only if it agrees; `sortPeriodsChronologically()`.
+- `places.ts` — place groups, type labels, `isTemplatePlaceDescription()`.
+- `portraits.ts` — `hasRealPortrait()`: most `figures/*.webp` are small "image not available" cards, so UI lists show a portrait only above 40KB (server-side `statSync`).
+- `resource-labels.ts` — category, source-quality and evidence labels shared by the resource pages.
+- Placeholder chapters carry `stub: true`; UI must not show citations, evidence badges or a timeline for them.
 
 ### Path aliases
 

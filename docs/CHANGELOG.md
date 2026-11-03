@@ -33,6 +33,11 @@
   - Stub chapters show an "In progress" label instead of their template summary on the timeline.
   - `HeroSection` no longer renders its default, unlocalized "The Bengal Chronicle" side panel; it appears only when a page supplies content for it.
 
+- Docs and validation sync.
+  - Validation: `scripts/validate-content.mjs` now fails when an event's `periodId` does not cover its date (guards the period backfill above); documented in `AI_CONTRACT.md` and `CONTENT_MODEL.md`.
+  - Docs: `CLAUDE.md` (client components, static-export query-state pattern, `src/lib` helpers, stub rule), `CONTENT_MODEL.md` (route inventory, period rule), `STATIC_HOSTING_READINESS.md` (query params and `useUrlSearchParams`), `PERFORMANCE.md` (`react-pageflip` removed) and `ROADMAP.md` (RM-006C wording) updated to match the redesigned pages.
+  - Known gap: `tests/browser/core.spec.ts` still targets the old UI (for example "Reset filters" buttons, timeline `?theme=`, directory pagination) and needs updating before CI passes.
+
 - Mobile tap-target and text-size pass (UI only).
   - Footer links, the language switcher and FAQ links now meet a 44px tap height; event citation numbers `[1]` have a 24px target and 12px text.
   - Glossary tooltips are a bottom sheet on screens up to 640px wide (they were cut off near the right edge); `fadeSlideUp` now ends at `transform: none` so it no longer creates a containing block for them.

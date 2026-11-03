@@ -65,7 +65,6 @@ export function ResourceDirectoryInteractive({ resources, locale }: { resources:
   const category = (RESOURCE_CATEGORIES as string[]).includes(categoryParam) ? (categoryParam as ResourceCategory) : "";
   const quality = (SOURCE_QUALITIES as string[]).includes(qualityParam) ? (qualityParam as SourceQuality) : "";
   const [limit, setLimit] = useState(PAGE);
-  const [typed, setTyped] = useState<string | null>(null);
   const fmt = (n: number) => n.toLocaleString(locale === "bn" ? "bn-BD" : "en-US");
 
   // Filtered views are not separate pages; keep them out of search indexes.
@@ -111,11 +110,8 @@ export function ResourceDirectoryInteractive({ resources, locale }: { resources:
           <span className="sr-only">{t.search}</span>
           <input
             type="search"
-            value={typed ?? query}
-            onChange={(event) => {
-              setTyped(event.target.value);
-              setParam("q", event.target.value.trim(), true);
-            }}
+            value={query}
+            onChange={(event) => setParam("q", event.target.value, true)}
             placeholder={t.placeholder}
             className="theme-surface min-h-[48px] w-full rounded-lg border px-4 text-base"
             style={{ borderColor: "var(--border-strong)" }}
@@ -148,7 +144,6 @@ export function ResourceDirectoryInteractive({ resources, locale }: { resources:
             type="button"
             className="link-underline min-h-[44px] font-semibold text-accent"
             onClick={() => {
-              setTyped("");
               setLimit(PAGE);
               pushSearchParams(window.location.pathname, new URLSearchParams());
             }}
