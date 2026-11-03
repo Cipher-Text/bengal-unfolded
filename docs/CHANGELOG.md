@@ -33,6 +33,11 @@
   - Stub chapters show an "In progress" label instead of their template summary on the timeline.
   - `HeroSection` no longer renders its default, unlocalized "The Bengal Chronicle" side panel; it appears only when a page supplies content for it.
 
+- Resources pages redesign (UI only; no model or content changes).
+  - Index: 29 pages of postcards and a form with three dropdowns and an Apply button became a live search, a Reliability filter (primary, secondary, archive, editorial) with a one-line meaning for each, a localized Type filter, and compact cards with "Show more". Cards show whether an online link exists. Labels moved to `src/lib/resource-labels.ts`. Hero retitled "Source library"; the category "Primary sources" is shown as "Documents and records" so it is not confused with the Primary reliability rating.
+  - Detail: now shows type, reliability (with its meaning) and evidence strength, the stored "why it matters" text (568 of 580 records have it; it was never rendered), a clear "open original" action or a note that no link is recorded, a link to the creator's other sources, and the chapters that use it (8 shown, rest folded).
+  - Known gaps: category and reliability disagree for many records (126 are in the "primary-sources" category but only 55 are rated primary; for example the 1971 Proclamation text is rated secondary because it links to a Wikipedia copy); 215 of 580 records have no link; the reference-works category (244) is mostly encyclopedias.
+
 - Compare page redesign (UI only; no model or content changes).
   - Two stacked 1,100px panels with misaligned rows (a badge on one side shifted every row below it) became one row-aligned comparison: sticky two-colour header, then "What happened", "Why it matters", causes, consequences, era, movement, place, importance and evidence as rows, with empty rows hidden. On mobile each row stacks the two chapters with a colour-coded year tag.
   - Controls: selection applies on change (no Apply button), a Swap button, and six suggested pairings (for example 1905 and 1947 partitions, 1770 and 1943 famines). Pair chips carry the year because two chapters are both titled "Mass Uprising".

@@ -1,43 +1,204 @@
 "use client";
 
-import { usePathname, useSearchParams } from "next/navigation";
-import { useMemo } from "react";
-import { ResourceCard } from "@/components/ResourceCard";
-import { SectionTitle } from "@/components/SectionTitle";
-import type { EventResource, Locale, ResourceCategory, SourceQuality } from "@/types/content";
+import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
+import { CATEGORY_LABELS, QUALITY_HELP, QUALITY_LABELS, RESOURCE_CATEGORIES, SOURCE_QUALITIES } from "@/lib/resource-labels";
+import { pushSearchParams, replaceSearchParams, useUrlSearchParams } from "@/lib/use-url-search-params";
+import type { Locale, ResourceCategory, SourceQuality } from "@/types/content";
 
-const CATEGORIES: ResourceCategory[] = ["primary-sources", "academic-books", "research-articles-and-papers", "reference-sources", "memoirs-and-eyewitness-accounts", "maps-and-visual-sources", "documentary-and-video", "news-and-contemporary-reports", "cultural-and-literary-resources", "further-reading"];
-const QUALITIES: SourceQuality[] = ["primary", "secondary", "archive", "editorial"];
-const CAT_LABELS: Record<Locale, Record<ResourceCategory, string>> = {
-  en: { "primary-sources":"Primary Sources", "academic-books":"Academic Books", "research-articles-and-papers":"Research Articles and Papers", "reference-sources":"Reference Sources", "memoirs-and-eyewitness-accounts":"Memoirs and Eyewitness Accounts", "maps-and-visual-sources":"Maps and Visual Sources", "documentary-and-video":"Documentary and Video", "news-and-contemporary-reports":"News and Contemporary Reports", "cultural-and-literary-resources":"Cultural and Literary Resources", "further-reading":"Further Reading" },
-  bn: { "primary-sources":"প্রাথমিক সূত্র", "academic-books":"অ্যাকাডেমিক বই", "research-articles-and-papers":"গবেষণা প্রবন্ধ ও পেপার", "reference-sources":"রেফারেন্স সূত্র", "memoirs-and-eyewitness-accounts":"স্মৃতিকথা ও প্রত্যক্ষদর্শীর বর্ণনা", "maps-and-visual-sources":"মানচিত্র ও ভিজ্যুয়াল সূত্র", "documentary-and-video":"ডকুমেন্টারি ও ভিডিও", "news-and-contemporary-reports":"সংবাদ ও সমসাময়িক প্রতিবেদন", "cultural-and-literary-resources":"সাংস্কৃতিক ও সাহিত্যিক রিসোর্স", "further-reading":"আরও পড়ুন" },
+export type ResourceListItem = {
+  id: string;
+  title: string;
+  attribution: string;
+  category: ResourceCategory;
+  subcategory: string;
+  quality?: SourceQuality;
+  excerpt: string;
+  /** External link, when the record has one. */
+  href?: string;
+  search: string;
 };
-const QUALITY_LABELS: Record<Locale, Record<SourceQuality,string>> = { en:{primary:"Primary",secondary:"Secondary",archive:"Archive",editorial:"Editorial"}, bn:{primary:"প্রাথমিক",secondary:"গৌণ",archive:"আর্কাইভ",editorial:"সম্পাদকীয়"} };
-const norm = (s: string) => s.trim().toLocaleLowerCase();
 
-export function ResourceDirectoryInteractive({ resources, locale }: { resources: EventResource[]; locale: Locale }) {
-  const params = useSearchParams();
-  const pathname = usePathname();
-  const bn = locale === "bn";
-  const q = params.get("q") ?? "";
-  const categoryRaw = params.get("category") ?? "";
-  const category = CATEGORIES.includes(categoryRaw as ResourceCategory) ? categoryRaw : "";
-  const subcategory = params.get("subcategory") ?? "";
-  const qualityRaw = params.get("quality") ?? "";
-  const quality = QUALITIES.includes(qualityRaw as SourceQuality) ? qualityRaw : "";
-  const parsed = Number(params.get("page") ?? 1);
-  const requested = Number.isFinite(parsed) && parsed > 0 ? Math.floor(parsed) : 1;
-  const categories = [...new Set(resources.map((item) => item.category))];
-  const subcategories = [...new Set(resources.map((item) => item.subcategory))].sort((a,b)=>a.localeCompare(b));
-  const qualities = [...new Set(resources.flatMap((item)=>item.quality?[item.quality]:[]))].sort();
-  const filtered = useMemo(() => resources.filter((item) => (!category || item.category === category) && (!subcategory || norm(item.subcategory) === norm(subcategory)) && (!quality || item.quality === quality) && (!norm(q) || [item.title,item.attribution,item.note,item.category,item.subcategory,item.quality ?? "",item.id].some((v)=>norm(v).includes(norm(q))))).sort((a,b)=>{const cat=CATEGORIES.indexOf(a.category)-CATEGORIES.indexOf(b.category); if(cat) return cat; const qa=a.quality?QUALITIES.indexOf(a.quality):QUALITIES.length;const qb=b.quality?QUALITIES.indexOf(b.quality):QUALITIES.length;if(qa!==qb)return qa-qb;return a.title.localeCompare(b.title);}), [resources,category,subcategory,quality,q]);
-  const pageCount=Math.max(1,Math.ceil(filtered.length/20));
-  const page=Math.min(requested,pageCount);
-  const shown=filtered.slice((page-1)*20,page*20);
-  function update(values: Record<string,string|number|undefined>, replace=false) { const next=new URLSearchParams(params.toString()); Object.entries(values).forEach(([key,value])=>value?next.set(key,String(value)):next.delete(key)); const url=`${pathname}${next.size?`?${next}`:""}`; window.history[replace?"replaceState":"pushState"](null,"",url); }
-  function submit(event: React.FormEvent<HTMLFormElement>) { event.preventDefault(); const data=new FormData(event.currentTarget); update({q:String(data.get("q")??"").trim()||undefined,category:String(data.get("category")??"")||undefined,subcategory:String(data.get("subcategory")??"")||undefined,quality:String(data.get("quality")??"")||undefined,page:undefined}); }
-  return <>
-    <section className="theme-surface rounded-2xl border p-5 md:p-6"><SectionTitle title={bn?"সার্চ ও ফিল্টার":"Search and Filters"} subtitle={bn?"কিওয়ার্ড, বিভাগ, উপবিভাগ ও মান দিয়ে রিসোর্স বাছাই করুন":"Filter resources by keyword, category, subcategory, and quality"}/><form key={params.toString()} onSubmit={submit} className="mt-4 grid gap-3 md:grid-cols-[1fr_170px_220px_180px_auto]"><input name="q" defaultValue={q} placeholder={bn?"শিরোনাম, নাম বা নোট":"Search title, attribution, or note"} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"/><select name="category" defaultValue={category} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"><option value="">{bn?"সব বিভাগ":"All categories"}</option>{categories.map(v=><option key={v} value={v}>{CAT_LABELS[locale][v]}</option>)}</select><select name="subcategory" defaultValue={subcategory} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"><option value="">{bn?"সব উপবিভাগ":"All subcategories"}</option>{subcategories.map(v=><option key={v}>{v}</option>)}</select><select name="quality" defaultValue={quality} className="theme-surface w-full rounded-lg border border-amber-500/30 px-3 py-2 text-sm"><option value="">{bn?"সব মান":"All quality levels"}</option>{qualities.map(v=><option key={v} value={v}>{QUALITY_LABELS[locale][v]}</option>)}</select><button className="inline-flex min-h-[44px] items-center justify-center rounded-lg border border-amber-500/40 px-4 text-sm font-medium text-accent">{bn?"প্রয়োগ করুন":"Apply"}</button></form></section>
-    <div><div className="flex items-center justify-between gap-3"><SectionTitle title={bn?"সব রিসোর্স":"All Resources"} subtitle={`${filtered.length} ${bn?"রিসোর্স":"resources"}`}/>{(q||category||subcategory||quality)&&<button onClick={()=>update({q:undefined,category:undefined,subcategory:undefined,quality:undefined,page:undefined})} className="text-sm font-medium text-amber-400">{bn?"ফিল্টার রিসেট":"Reset filters"}</button>}</div><div className="mt-4 grid gap-4 md:grid-cols-2">{shown.map((item,index)=><ResourceCard key={item.id} resource={item} locale={locale} index={index}/>)}</div>{!shown.length&&<div className="theme-surface mt-4 rounded-xl border p-6 text-sm theme-muted">{bn?"কোনো রিসোর্স পাওয়া যায়নি।":"No resources found."}</div>}<nav aria-label={bn?"রিসোর্সের পাতা":"Resource pages"} className="mt-6 flex items-center justify-between">{page>1?<button onClick={()=>update({page:page-1})} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm">{bn?"আগে":"Previous"}</button>:<span/>}<p className="theme-muted text-sm">{bn?`${page} / ${pageCount}`:`Page ${page} of ${pageCount}`}</p>{page<pageCount?<button onClick={()=>update({page:page+1})} className="inline-flex min-h-[44px] items-center rounded-lg border border-amber-500/40 px-4 text-sm">{bn?"পরে":"Next"}</button>:<span/>}</nav></div>
-  </>;
+const PAGE = 40;
+
+const copy = {
+  en: {
+    search: "Search sources",
+    placeholder: "Search by title, author or topic",
+    category: "Type",
+    quality: "Reliability",
+    qualityNote: "How we classify a source",
+    all: "All",
+    results: (n: number) => `${n} sources`,
+    reset: "Clear search and filters",
+    more: (n: number) => `Show ${n} more`,
+    none: "No sources match. Try a different word or clear the filters.",
+    open: "Open source",
+    noLink: "No online link recorded",
+    page: "Source page",
+  },
+  bn: {
+    search: "সূত্র খুঁজুন",
+    placeholder: "শিরোনাম, লেখক বা বিষয় লিখুন",
+    category: "ধরন",
+    quality: "নির্ভরযোগ্যতা",
+    qualityNote: "সূত্র কীভাবে শ্রেণিবদ্ধ করা হয়",
+    all: "সব",
+    results: (n: number) => `${n.toLocaleString("bn-BD")}টি সূত্র`,
+    reset: "খোঁজ ও ফিল্টার মুছুন",
+    more: (n: number) => `আরও ${n.toLocaleString("bn-BD")}টি দেখুন`,
+    none: "কোনো সূত্র মেলেনি। অন্য শব্দ চেষ্টা করুন বা ফিল্টার মুছুন।",
+    open: "সূত্রটি খুলুন",
+    noLink: "অনলাইন লিংক নেই",
+    page: "সূত্রের পাতা",
+  },
+} as const;
+
+const norm = (value: string) => value.trim().toLocaleLowerCase();
+
+export function ResourceDirectoryInteractive({ resources, locale }: { resources: ResourceListItem[]; locale: Locale }) {
+  const t = copy[locale];
+  const params = useUrlSearchParams();
+  const query = params.get("q") ?? "";
+  const categoryParam = params.get("category") ?? "";
+  const qualityParam = params.get("quality") ?? "";
+  const category = (RESOURCE_CATEGORIES as string[]).includes(categoryParam) ? (categoryParam as ResourceCategory) : "";
+  const quality = (SOURCE_QUALITIES as string[]).includes(qualityParam) ? (qualityParam as SourceQuality) : "";
+  const [limit, setLimit] = useState(PAGE);
+  const [typed, setTyped] = useState<string | null>(null);
+  const fmt = (n: number) => n.toLocaleString(locale === "bn" ? "bn-BD" : "en-US");
+
+  // Filtered views are not separate pages; keep them out of search indexes.
+  useEffect(() => {
+    let robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    if (params.size > 0) {
+      if (!robots) {
+        robots = document.createElement("meta");
+        robots.name = "robots";
+        document.head.appendChild(robots);
+      }
+      robots.content = "noindex,follow";
+    } else if (robots?.content === "noindex,follow") robots.remove();
+  }, [params]);
+
+  const setParam = (key: "q" | "category" | "quality", value: string, replace = false) => {
+    const next = new URLSearchParams(window.location.search);
+    if (value) next.set(key, value);
+    else next.delete(key);
+    setLimit(PAGE);
+    (replace ? replaceSearchParams : pushSearchParams)(window.location.pathname, next);
+  };
+
+  const matches = (item: ResourceListItem, skip?: "category" | "quality") =>
+    (!norm(query) || item.search.includes(norm(query))) && (skip === "category" || !category || item.category === category) && (skip === "quality" || !quality || item.quality === quality);
+
+  const filtered = useMemo(() => resources.filter((item) => matches(item)), [resources, query, category, quality]); // eslint-disable-line react-hooks/exhaustive-deps
+  const count = (key: "category" | "quality", value: string) => resources.filter((item) => matches(item, key) && item[key] === value).length;
+  const shown = filtered.slice(0, limit);
+  const categories = RESOURCE_CATEGORIES.filter((item) => resources.some((resource) => resource.category === item));
+  const hasFilters = Boolean(query || category || quality);
+
+  const chip = (key: string, active: boolean, label: string, n: number, onClick: () => void) => (
+    <button key={key} type="button" aria-pressed={active} disabled={n === 0 && !active} onClick={onClick} className="section-tab min-h-[44px] !text-[13px] !tracking-[0.02em] !normal-case disabled:cursor-not-allowed disabled:opacity-40">
+      {label} <span className="opacity-70">({fmt(n)})</span>
+    </button>
+  );
+
+  return (
+    <div>
+      <div className="space-y-4">
+        <label className="block">
+          <span className="sr-only">{t.search}</span>
+          <input
+            type="search"
+            value={typed ?? query}
+            onChange={(event) => {
+              setTyped(event.target.value);
+              setParam("q", event.target.value.trim(), true);
+            }}
+            placeholder={t.placeholder}
+            className="theme-surface min-h-[48px] w-full rounded-lg border px-4 text-base"
+            style={{ borderColor: "var(--border-strong)" }}
+          />
+        </label>
+        <div role="group" aria-label={t.quality} className="flex flex-wrap items-center gap-2">
+          <span className="text-eyebrow mr-1">{t.quality}</span>
+          {chip("all-q", !quality, t.all, resources.filter((item) => matches(item, "quality")).length, () => setParam("quality", ""))}
+          {SOURCE_QUALITIES.map((item) => chip(item, quality === item, QUALITY_LABELS[locale][item], count("quality", item), () => setParam("quality", item)))}
+        </div>
+        <dl className="grid gap-x-6 gap-y-1 text-sm sm:grid-cols-2 lg:grid-cols-4" aria-label={t.qualityNote}>
+          {SOURCE_QUALITIES.map((item) => (
+            <div key={item} className="flex gap-2">
+              <dt className="font-semibold">{QUALITY_LABELS[locale][item]}</dt>
+              <dd className="theme-muted">{QUALITY_HELP[locale][item]}</dd>
+            </div>
+          ))}
+        </dl>
+        <div role="group" aria-label={t.category} className="flex flex-wrap items-center gap-2">
+          <span className="text-eyebrow mr-1">{t.category}</span>
+          {chip("all-c", !category, t.all, resources.filter((item) => matches(item, "category")).length, () => setParam("category", ""))}
+          {categories.map((item) => chip(item, category === item, CATEGORY_LABELS[locale][item], count("category", item), () => setParam("category", item)))}
+        </div>
+      </div>
+
+      <p className="theme-muted mt-6 flex flex-wrap items-center gap-x-4 text-sm" aria-live="polite">
+        <span>{t.results(filtered.length)}</span>
+        {hasFilters ? (
+          <button
+            type="button"
+            className="link-underline min-h-[44px] font-semibold text-accent"
+            onClick={() => {
+              setTyped("");
+              setLimit(PAGE);
+              pushSearchParams(window.location.pathname, new URLSearchParams());
+            }}
+          >
+            {t.reset}
+          </button>
+        ) : null}
+      </p>
+
+      {shown.length ? (
+        <ul className="mt-4 grid gap-3 md:grid-cols-2">
+          {shown.map((item) => (
+            <li key={item.id} className="theme-surface flex flex-col rounded-xl border p-4">
+              <p className="text-eyebrow">
+                {CATEGORY_LABELS[locale][item.category]}
+                {item.quality ? ` · ${QUALITY_LABELS[locale][item.quality]}` : ""}
+              </p>
+              <h3 className="text-display mt-1.5 text-lg font-semibold leading-snug">
+                <Link prefetch={false} href={`/${locale}/resources/${item.id}`} className="hover:text-accent">
+                  {item.title}
+                </Link>
+              </h3>
+              <p className="mt-1 text-sm font-medium" style={{ color: "var(--rust)" }}>{item.attribution}</p>
+              {item.excerpt ? <p className="theme-muted mt-2 line-clamp-2 flex-1 text-sm leading-relaxed">{item.excerpt}</p> : <div className="flex-1" />}
+              <p className="mt-3 flex flex-wrap items-center gap-x-5 text-sm">
+                <Link prefetch={false} href={`/${locale}/resources/${item.id}`} className="link-underline inline-flex min-h-[44px] items-center font-semibold text-accent">
+                  {t.page} <span className="arrow ml-1.5">→</span>
+                </Link>
+                {item.href ? (
+                  <a href={item.href} target="_blank" rel="noopener noreferrer" className="link-underline inline-flex min-h-[44px] items-center font-semibold text-accent">
+                    {t.open} <span aria-hidden="true" className="ml-1.5">↗</span>
+                  </a>
+                ) : (
+                  <span className="theme-muted">{t.noLink}</span>
+                )}
+              </p>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <div className="theme-surface mt-4 rounded-xl border p-6 text-sm">{t.none}</div>
+      )}
+
+      {filtered.length > shown.length ? (
+        <div className="mt-8 text-center">
+          <button type="button" className="btn-vintage" onClick={() => setLimit((current) => current + PAGE)}>
+            {t.more(Math.min(PAGE, filtered.length - shown.length))}
+          </button>
+        </div>
+      ) : null}
+    </div>
+  );
 }

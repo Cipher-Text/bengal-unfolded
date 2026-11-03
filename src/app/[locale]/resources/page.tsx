@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
-import { ResourceDirectoryInteractive } from "@/components/ResourceDirectoryInteractive";
+import { ResourceDirectoryInteractive, type ResourceListItem } from "@/components/ResourceDirectoryInteractive";
 import { getAllResources } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
@@ -23,5 +22,33 @@ export default async function ResourcesIndexPage({ params }: { params: Promise<{
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
   const resources = await getAllResources(locale);
   const bn = locale === "bn";
-  return <div className="space-y-8"><HeroSection title={bn ? "রিসোর্স ডিরেক্টরি" : "Resource Directory"} tagline={bn ? "সার্চ ও ফিল্টারসহ সম্পূর্ণ রিসোর্স তালিকা" : "Complete resource list with search and filters"} intro={bn ? "ইতিহাস শেখার উপযোগী বিভাগ, উপবিভাগ এবং সূত্র-মান অনুযায়ী সাজানো কিউরেটেড রিসোর্সসমূহ দেখুন।" : "Browse curated resources organized by learning-focused category, subcategory, and source quality."}/><Suspense fallback={<div className="min-h-96" aria-busy="true"/>}><ResourceDirectoryInteractive resources={resources} locale={locale as Locale}/></Suspense></div>;
+  const clean = (text: string, max: number) => {
+    const t = text.replace(/\s+/g, " ").trim();
+    if (t.length <= max) return t;
+    const head = t.slice(0, max);
+    const end = Math.max(head.lastIndexOf(". "), head.lastIndexOf("। "));
+    return end > max * 0.5 ? head.slice(0, end + 1) : `${head.slice(0, head.lastIndexOf(" "))}…`;
+  };
+  const items: ResourceListItem[] = resources.map((resource) => ({
+    id: resource.id,
+    title: resource.title,
+    attribution: resource.attribution,
+    category: resource.category,
+    subcategory: resource.subcategory,
+    quality: resource.quality,
+    excerpt: clean(resource.note ?? "", 170),
+    href: resource.href?.startsWith("http") ? resource.href : undefined,
+    search: [resource.title, resource.attribution, resource.note, resource.subcategory].filter(Boolean).join(" ").toLocaleLowerCase(),
+  }));
+  return (
+    <div className="space-y-8">
+      <HeroSection
+        showCollage={false}
+        title={bn ? "সূত্রভাণ্ডার" : "Source library"}
+        tagline={bn ? "বই, নথি ও গবেষণা, নির্ভরযোগ্যতার মান-সহ" : "Books, records and research, each rated for reliability"}
+        intro={bn ? "এই সাইটের অধ্যায়গুলো যেসব সূত্রের ওপর দাঁড়িয়ে, সেগুলো এখানে। প্রতিটি সূত্র প্রাথমিক, গৌণ, আর্কাইভ বা সম্পাদকীয় হিসেবে চিহ্নিত।" : "These are the sources the chapters rest on. Each one is marked as primary, secondary, archive or editorial, so you can see how much weight it can bear."}
+      />
+      <ResourceDirectoryInteractive resources={items} locale={locale as Locale} />
+    </div>
+  );
 }
