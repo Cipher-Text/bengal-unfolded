@@ -1,12 +1,9 @@
 "use client";
 import Link from "next/link";
-import { forwardRef, useMemo, useRef, useState } from "react";
-import HTMLFlipBook from "react-pageflip";
+import { useMemo, useState } from "react";
 import type { Locale, TimelineItem, TimelineTheme, TimelineType } from "@/types/content";
 import type { EventResource } from "@/types/content";
 import { renderGlossaryLinkedText } from "@/lib/glossary-linking";
-
-const ITEMS_PER_PAGE = 1;
 
 const TYPE_LABELS: Record<Locale, Record<TimelineType, string>> = {
   en: {
@@ -53,21 +50,6 @@ function citationAnchorId(itemKey: string, sourceId: string): string {
   return `src-${itemKey}-${sourceId}`.replace(/[^a-zA-Z0-9-_]/g, "-");
 }
 
-type NewspaperPageProps = { children: React.ReactNode; pageNumber?: number };
-const NewspaperPage = forwardRef<HTMLDivElement, NewspaperPageProps>(function NewspaperPage(
-  { children, pageNumber },
-  ref,
-) {
-  return (
-    <div ref={ref} className="newspaper-page paper paper-stained">
-      <div className="newspaper-page-inner">
-        {children}
-        {pageNumber ? <p className="page-folio">— {pageNumber} —</p> : null}
-      </div>
-    </div>
-  );
-});
-
 export function EventTimeline({
   items,
   locale = "en",
@@ -77,8 +59,6 @@ export function EventTimeline({
   locale?: Locale;
   resources?: EventResource[];
 }) {
-  const bookRef = useRef<{ pageFlip: () => { flipNext: () => void; flipPrev: () => void; getCurrentPageIndex: () => number; getPageCount: () => number } } | null>(null);
-  const [currentPage, setCurrentPage] = useState(0);
   const [selectedTheme, setSelectedTheme] = useState<TimelineTheme | "all">("all");
 
   const filteredItems = useMemo(
@@ -91,23 +71,12 @@ export function EventTimeline({
   const sourcesLabel = locale === "bn" ? "উৎস" : "Sources";
   const evidenceLabels = EVIDENCE_LABELS[locale];
   const allThemeLabel = locale === "bn" ? "সব থিম" : "All Themes";
-  const datelineCity = locale === "bn" ? "ঢাকা" : "DHAKA";
 
   const availableThemes = useMemo(() => {
     const set = new Set<TimelineTheme>();
     for (const item of items) for (const theme of item.themes ?? []) set.add(theme);
     return Array.from(set);
   }, [items]);
-
-  // Group items into pages of ITEMS_PER_PAGE
-  const itemPages = useMemo(() => {
-    const groups: TimelineItem[][] = [];
-    for (let i = 0; i < filteredItems.length; i += ITEMS_PER_PAGE) {
-      groups.push(filteredItems.slice(i, i + ITEMS_PER_PAGE));
-    }
-    if (groups.length === 0) groups.push([]);
-    return groups;
-  }, [filteredItems]);
 
   function renderDetail(item: TimelineItem) {
     const itemKey = `${item.year}-${item.title}`;
@@ -135,18 +104,19 @@ export function EventTimeline({
     const itemKey = `${item.year}-${item.title}`;
     return (
       <div className="mt-3 border-t pt-2" style={{ borderColor: "rgba(107,74,31,0.3)" }}>
-        <p className="byline mb-1">{locale === "bn" ? "আর্কাইভ থেকে" : "From the Archive"}</p>
+        <p className="byline mb-1">{sourcesLabel}</p>
         <div className="flex flex-wrap gap-x-3 gap-y-1">
           {item.sourceIds.map((sourceId, citationIndex) => {
             const resource = resourceById.get(sourceId);
             const label = resource?.title || sourceId;
             const anchorId = citationAnchorId(itemKey, sourceId);
+            const quality = resource?.quality ? <span style={{ opacity: 0.7 }}>· {QUALITY_LABELS[locale][resource.quality]}</span> : null;
             if (resource?.href) {
               return (
                 <a key={`${itemKey}-${sourceId}`} id={anchorId} href={resource.href} target="_blank" rel="noopener noreferrer" className="citation">
                   <span className="citation-num">[{citationIndex + 1}]</span>
                   <span>{label}</span>
-                  {resource.quality ? <span style={{ opacity: 0.7 }}>· {QUALITY_LABELS[locale][resource.quality]}</span> : null}
+                  {quality}
                 </a>
               );
             }
@@ -154,7 +124,7 @@ export function EventTimeline({
               <span key={`${itemKey}-${sourceId}`} id={anchorId} className="citation">
                 <span className="citation-num">[{citationIndex + 1}]</span>
                 <span>{label}</span>
-                {resource?.quality ? <span style={{ opacity: 0.7 }}>· {QUALITY_LABELS[locale][resource.quality]}</span> : null}
+                {quality}
               </span>
             );
           })}
@@ -179,158 +149,45 @@ export function EventTimeline({
     );
   }
 
-  function renderCta(item: TimelineItem) {
-    if (!item.href) return null;
-    return (
-      <Link href={item.href} className="btn-ink mt-3">
-        {item.ctaLabel ?? readMoreLabel}
-        <span className="arrow">→</span>
-      </Link>
-    );
-  }
-
-  function flipNext() {
-    bookRef.current?.pageFlip().flipNext();
-  }
-  function flipPrev() {
-    bookRef.current?.pageFlip().flipPrev();
-  }
-
-  // Force remount HTMLFlipBook when theme filter changes (page count differs)
-  const bookKey = `book-${selectedTheme}-${itemPages.length}`;
-
   return (
-    <div className="newspaper-shell">
-      {/* Section filter (outside flip-book) */}
+    <div>
       {availableThemes.length ? (
-        <div className="mb-5 flex flex-wrap items-center gap-2">
-          <span className="byline mr-1">{locale === "bn" ? "সেকশন:" : "Sections:"}</span>
-          <button type="button" aria-pressed={selectedTheme === "all"} onClick={() => { setSelectedTheme("all"); setCurrentPage(0); }} className="section-tab">
+        <div className="mb-5 flex flex-wrap items-center gap-2" role="group" aria-label={locale === "bn" ? "থিম অনুযায়ী ফিল্টার" : "Filter by theme"}>
+          <button type="button" aria-pressed={selectedTheme === "all"} onClick={() => setSelectedTheme("all")} className="section-tab">
             {allThemeLabel}
           </button>
           {availableThemes.map((theme) => (
-            <button key={theme} type="button" aria-pressed={selectedTheme === theme} onClick={() => { setSelectedTheme(theme); setCurrentPage(0); }} className="section-tab">
+            <button key={theme} type="button" aria-pressed={selectedTheme === theme} onClick={() => setSelectedTheme(theme)} className="section-tab">
               {THEME_LABELS[locale][theme]}
             </button>
           ))}
         </div>
       ) : null}
 
-      {/* The flipping newspaper */}
-      <div className="flipbook-stage">
-        <HTMLFlipBook
-          key={bookKey}
-          ref={bookRef}
-          width={1100}
-          height={1500}
-          size="stretch"
-          minWidth={280}
-          maxWidth={1800}
-          minHeight={400}
-          maxHeight={2200}
-          drawShadow
-          flippingTime={1100}
-          maxShadowOpacity={0.55}
-          showCover={false}
-          mobileScrollSupport={false}
-          usePortrait={true}
-          startPage={0}
-          startZIndex={0}
-          autoSize={true}
-          clickEventForward={false}
-          useMouseEvents={false}
-          swipeDistance={0}
-          showPageCorners={false}
-          disableFlipByClick={true}
-          className="bengal-flipbook"
-          style={{ width: "100%", margin: "0 auto" }}
-          onFlip={(e: { data: number }) => setCurrentPage(e.data)}
-        >
-          {/* Content pages — one article per page */}
-          {itemPages.map((group, pageIdx) => {
-            const item = group[0];
-            if (!item) return null;
-            const pullSentence = item.detail
-              ? (item.detail.split(/[.।]/)[1] || item.detail.split(/[.।]/)[0] || "").trim()
-              : "";
-            return (
-              <NewspaperPage key={`page-${pageIdx}`} pageNumber={pageIdx + 1}>
-                {/* Mini masthead */}
-                <header className="masthead py-2">
-                  <div className="masthead-rule">
-                    <span>Vol. I · No. {String(pageIdx + 1).padStart(2, "0")}</span>
-                    <span className="dotline" />
-                    <span className="font-display font-bold text-base normal-case tracking-tight">
-                      {locale === "bn" ? "বেঙ্গল আনফোল্ডেড" : "Bengal Unfolded"}
-                    </span>
-                    <span className="dotline" />
-                    <span>{locale === "bn" ? `পৃষ্ঠা ${pageIdx + 1}` : `Page ${pageIdx + 1}`}</span>
-                  </div>
-                </header>
-
-                <article className="mt-5">
-                  <p className="dateline">{datelineCity}, {item.year}</p>
-                  <span className="byline">{locale === "bn" ? "নিজস্ব প্রতিবেদক" : "Bengal Unfolded Correspondent"}</span>
-                  <h3 className="headline headline-front mt-2">{item.title}</h3>
-                  {renderTags(item)}
-                  <p className="deck mt-3">
-                    {item.phaseLabel
-                      ? item.phaseLabel.toUpperCase()
-                      : locale === "bn" ? "ঐতিহাসিক প্রতিবেদন" : "HISTORICAL REPORT"}
-                  </p>
-
-                  <div className="mt-5">
-                    <div className="photo-cutline aspect-[16/9] w-full" />
-                    <p className="photo-caption">
-                      {locale === "bn" ? "ছবি · বঙ্গ সংরক্ষণাগার" : "Photo · Bengal Archives"} — {item.year}, {item.title}
-                    </p>
-                  </div>
-
-                  <div className="article-body mt-5 max-w-3xl">
-                    <p>{renderDetail(item)}</p>
-                  </div>
-
-                  {pullSentence ? (
-                    <blockquote className="pull-quote mt-5">
-                      “{pullSentence}.”
-                      <span className="pull-quote-attr">
-                        — {item.phaseLabel ?? (locale === "bn" ? "বেঙ্গল আনফোল্ডেড" : "Bengal Unfolded")}, {item.year}
-                      </span>
-                    </blockquote>
-                  ) : null}
-
-                  <div className="mt-5">{renderCta(item)}</div>
-                  {renderSources(item)}
-                </article>
-
-                <div className="fleuron mt-7"><span aria-hidden="true">— ❦ ✦ ❦ —</span></div>
-
-                {pageIdx === itemPages.length - 1 ? (
-                  <p className="byline mt-4 text-center opacity-75">
-                    {locale === "bn" ? "— সমাপ্ত —" : "— End of Issue —"}
-                  </p>
-                ) : null}
-              </NewspaperPage>
-            );
-          })}
-
-        </HTMLFlipBook>
-      </div>
-
-      {/* External nav controls */}
-      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 px-2">
-        <button type="button" onClick={flipPrev} disabled={currentPage === 0} className="btn-vintage flex-1 justify-center sm:flex-none disabled:cursor-not-allowed disabled:opacity-40">
-          <span className="arrow rotate-180 inline-block">→</span>
-          {locale === "bn" ? "পূর্ববর্তী" : "Prev"}
-        </button>
-        <p className="byline order-last w-full text-center sm:order-none sm:w-auto">
-          {locale === "bn" ? `পৃষ্ঠা ${currentPage + 1} / ${itemPages.length}` : `Page ${String(currentPage + 1).padStart(2, "0")} of ${String(itemPages.length).padStart(2, "0")}`}
-        </p>
-        <button type="button" onClick={flipNext} disabled={currentPage >= itemPages.length - 1} className="btn-ink flex-1 justify-center sm:flex-none disabled:cursor-not-allowed disabled:opacity-40">
-          {locale === "bn" ? "পরবর্তী" : "Next"}
-          <span className="arrow">→</span>
-        </button>
-      </div>
+      <ol className="relative space-y-6 border-l-2 pl-5 sm:pl-8" style={{ borderColor: "var(--sepia)" }}>
+        {filteredItems.map((item) => (
+          <li key={`${item.year}-${item.title}`} className="relative">
+            <span
+              aria-hidden="true"
+              className="absolute -left-[1.72rem] top-2 h-3 w-3 rounded-full border-2 sm:-left-[2.45rem]"
+              style={{ borderColor: "var(--sepia)", background: item.themeColor ?? "var(--rust)" }}
+            />
+            <article className="theme-surface rounded-2xl border p-4 sm:p-5">
+              <p className="text-eyebrow">{item.year}</p>
+              <h3 className="font-display mt-1 text-xl font-semibold leading-snug sm:text-2xl">{item.title}</h3>
+              {renderTags(item)}
+              <p className="mt-3 text-base leading-relaxed">{renderDetail(item)}</p>
+              {item.href ? (
+                <Link href={item.href} className="btn-ink mt-3">
+                  {item.ctaLabel ?? readMoreLabel}
+                  <span className="arrow">→</span>
+                </Link>
+              ) : null}
+              {renderSources(item)}
+            </article>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }

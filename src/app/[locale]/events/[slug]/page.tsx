@@ -12,11 +12,7 @@ const EventTimeline = dynamic(
   () => import("@/components/EventTimeline").then((mod) => mod.EventTimeline),
   {
     loading: () => (
-      <div className="newspaper-shell">
-        <div className="flipbook-stage min-h-[70vh] flex items-center justify-center">
-          <div className="theme-surface h-96 w-full max-w-4xl animate-pulse rounded-xl border p-8" />
-        </div>
-      </div>
+      <div className="theme-surface h-64 w-full animate-pulse rounded-xl border" />
     ),
   }
 );
@@ -124,6 +120,8 @@ const EVENT_LABELS = {
     quickRead: "Quick read",
     deepRead: "Deep read",
     quickAnswer: "Quick Answer",
+    stubTitle: "Chapter in progress",
+    stubBody: "This chapter is a placeholder. The summary is a general outline, not a researched account, and has not yet been written against its sources, so no citations or evidence ratings are shown. The works under Resources are the intended basis for the full chapter.",
     revisionHistoryPlanned: "This chapter is reviewed against the site methodology. Public change history will be added in a future release.",
     learnMethodology: "Learn how this chapter is reviewed",
   },
@@ -187,6 +185,8 @@ const EVENT_LABELS = {
     quickRead: "দ্রুত পাঠ",
     deepRead: "গভীর পাঠ",
     quickAnswer: "দ্রুত উত্তর",
+    stubTitle: "অধ্যায়টি প্রস্তুতাধীন",
+    stubBody: "এই অধ্যায়টি এখনও একটি খসড়া কাঠামো। এখানকার সারসংক্ষেপ সাধারণ রূপরেখা মাত্র, সূত্র মিলিয়ে গবেষণা-নির্ভর বিবরণ নয়; তাই কোনো উদ্ধৃতি বা প্রমাণের মাত্রা দেখানো হচ্ছে না। রিসোর্স অংশের সূত্রগুলো পূর্ণ অধ্যায়ের ভিত্তি হিসেবে নির্ধারিত।",
     revisionHistoryPlanned: "এই অধ্যায়টি সাইটের পদ্ধতি অনুযায়ী পর্যালোচিত। ভবিষ্যৎ সংস্করণে পরিবর্তনের ইতিহাস প্রকাশ করা হবে।",
     learnMethodology: "এই অধ্যায়ের রিভিউ পদ্ধতি দেখুন",
   },
@@ -230,7 +230,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   } as const;
 
   const renderInlineCitations = (sourceIds: string[] | undefined, resources: Map<string, EventResource>) => {
-    if (!sourceIds?.length) return null;
+    if (event.meta.stub || !sourceIds?.length) return null;
     return (
       <span className="ml-1 inline-flex flex-wrap items-center gap-1 align-baseline">
         {sourceIds.map((sourceId, index) => {
@@ -253,7 +253,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
     );
   };
   const renderEvidenceBadge = (evidenceLevel: "high" | "medium" | "low" | undefined) => {
-    if (!evidenceLevel) return null;
+    if (event.meta.stub || !evidenceLevel) return null;
     return (
       <span className="ml-2 inline-flex rounded-full border border-emerald-500/40 px-2 py-0.5 text-[11px] font-medium text-emerald-300">
         {labels.evidence}: {evidenceLabelByLevel[evidenceLevel]}
@@ -334,6 +334,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }} />
       <HeroSection
+        showCollage={false}
         title={`${event.meta.year} — ${event.meta.title}`}
         tagline={event.meta.heroTagline}
         intro={<>{renderGlossaryLinkedText(event.meta.summary, locale as Locale)}{renderInlineCitations(event.meta.summarySourceIds, resourceById)}{renderEvidenceBadge(event.meta.summaryEvidenceLevel)}</>}
@@ -359,12 +360,12 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         <p className="theme-muted mb-2 text-xs">{labels.jumpTo}</p>
         <div className="flex flex-wrap gap-2">
           <a href="#overview" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.overview}</a>
-          <a href="#timeline" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.timeline}</a>
+          {!event.meta.stub ? <a href="#timeline" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.timeline}</a> : null}
           <a href="#figures" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.figures}</a>
           <a href="#resources" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.resourcesTitle}</a>
           {faqEntries.length > 0 ? <a href="#faq" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.faq}</a> : null}
           {quoteEntries.length > 0 ? <a href="#quotes" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.quotes}</a> : null}
-          {event.meta.claimCitations?.length ? <a href="#claim-citations" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.claimCitations}</a> : null}
+          {event.meta.claimCitations?.length && !event.meta.stub ? <a href="#claim-citations" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.claimCitations}</a> : null}
           {(event.meta.causes?.length || event.meta.consequences?.length || relationships.cause.length || relationships.effect.length) ? <a href="#cause-effect-chain" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.causeEffectChain}</a> : null}
           <a href="#why-it-matters" className="inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.whyItMatters}</a>
           {event.meta.historicalDebate ? <a href="#historical-debate" className="density-deep inline-flex min-h-[36px] items-center rounded-full border border-amber-500/35 px-3 text-xs text-accent hover:bg-amber-500/10">{labels.historicalDebate}</a> : null}
@@ -438,6 +439,12 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
               ) : null}
             </div>
           ) : null}
+          {event.meta.stub ? (
+            <div role="note" className="mt-3 rounded-xl border border-amber-500/50 bg-amber-500/10 p-3 text-sm">
+              <p className="font-medium">{labels.stubTitle}</p>
+              <p className="theme-muted mt-1">{labels.stubBody}</p>
+            </div>
+          ) : (
           <div className="theme-surface-soft mt-3 rounded-xl border border-amber-500/25 p-3 text-xs md:text-sm">
             <p className="theme-muted">{labels.revisionHistoryPlanned}</p>
             <Link
@@ -447,6 +454,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
               {labels.learnMethodology}
             </Link>
           </div>
+          )}
           <div className="density-quick mt-3 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4">
             <p className="text-eyebrow mb-2">{labels.quickAnswer}</p>
             <p className="text-sm leading-relaxed md:text-base">
@@ -563,14 +571,14 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         </AnimatedContainer>
       ) : null}
 
-      <AnimatedContainer delay={0.05} className="density-deep">
+      {!event.meta.stub ? (<AnimatedContainer delay={0.05} className="density-deep">
         <section id="timeline" className="scroll-mt-24">
         <SectionTitle title={labels.timeline} />
         <div className="mt-4">
           <EventTimeline items={event.timeline} locale={locale as Locale} resources={event.resources} />
         </div>
         </section>
-      </AnimatedContainer>
+      </AnimatedContainer>) : null}
 
       <AnimatedContainer delay={0.1} className="density-deep">
         <section id="figures" className="scroll-mt-24">
@@ -630,7 +638,7 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
         </AnimatedContainer>
       ) : null}
 
-      {event.meta.claimCitations?.length ? (
+      {event.meta.claimCitations?.length && !event.meta.stub ? (
         <AnimatedContainer delay={0.23} className="density-deep">
           <section id="claim-citations" className="scroll-mt-24">
           <SectionTitle title={labels.claimCitations} />

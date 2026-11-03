@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-11-04
+
+### Completed
+
+- UX/editorial integrity pass on event chapters.
+  - Model: added optional `EventMeta.stub` (`src/types/content.ts`); set `stub: true` in EN and BN for the 24 events that still carry templated summary/why-it-matters/timeline text.
+  - Validation: `scripts/validate-content.mjs` checks `stub` is boolean and equal across locales.
+  - UI: stub chapters show an "in progress" notice and hide inline citations, evidence badges, claim citations and the placeholder timeline; `EventCard` shows a stub label. Removed the invented newspaper framing (fixed "Dhaka" dateline, "Correspondent" byline, "Photo · Bengal Archives" caption, Vol./No./Page masthead, "Est. 1947" stamp). Event pages no longer show the home-page hero collage. `EventTimeline` is now a vertical, keyboard-friendly timeline instead of a page-flip book.
+  - Risk/known gaps: stubs still need real research; unused flipbook CSS and the `react-pageflip` dependency may remain until cleaned up.
+
+- Landing page redesign (UI only; no model or content changes).
+  - Hero no longer uses the stock four-photo collage or the "Est. 1947" stamp; the featured chapter links directly from the hero panel.
+  - New era strip links to all nine periods with chapter counts; stats are one line.
+  - Sections cut from 11 to 8: removed the duplicate featured story, the single-relationship "connected history" block and the topic block (topics are now chips under "Choose how to explore"); people and places share one section.
+  - Timeline sample spans the Pala era to 2024 instead of 1757 to 1990; people cards use their portraits; places use specific sites and hide template descriptions.
+  - Accessibility: section headings linked via `aria-labelledby`; eyebrow and nav text enlarged with less letter-spacing; header tagline localized.
+
 ## 2026-10-13
 
 ### Completed

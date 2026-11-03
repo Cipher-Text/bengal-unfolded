@@ -181,6 +181,9 @@ async function main() {
     const resourceIdsFile = await readJson(path.join(base, "resource-ids.json"), errors);
     const metaEn = await readJson(path.join(base, "meta.en.json"), errors);
     const metaBn = await readJson(path.join(base, "meta.bn.json"), errors);
+    if (metaEn && metaBn && Boolean(metaEn.stub) !== Boolean(metaBn.stub)) {
+      errors.push(`stub must match between EN and BN at content/events/${slug}/meta.*.json`);
+    }
     const timelineEn = await readJson(path.join(base, "timeline.en.json"), errors);
     const timelineBn = await readJson(path.join(base, "timeline.bn.json"), errors);
 
@@ -229,6 +232,9 @@ async function main() {
       }
       if ("requiresSources" in meta && typeof meta.requiresSources !== "boolean") {
         errors.push(`requiresSources must be boolean at content/events/${slug}/meta.${locale}.json`);
+      }
+      if ("stub" in meta && typeof meta.stub !== "boolean") {
+        errors.push(`stub must be boolean at content/events/${slug}/meta.${locale}.json`);
       }
       if ("contested" in meta && typeof meta.contested !== "boolean") {
         errors.push(`contested must be boolean at content/events/${slug}/meta.${locale}.json`);

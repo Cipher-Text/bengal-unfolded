@@ -33,7 +33,7 @@ export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAf
             <BrandIcon className="h-9 w-9 shrink-0 rounded-xl shadow-[0_4px_10px_rgba(0,0,0,0.22)] sm:h-10 sm:w-10" />
             <span className="flex min-w-0 flex-col leading-none">
               <span className="truncate font-display text-sm font-semibold tracking-tight sm:text-base md:text-lg">Bengal Unfolded</span>
-              <span className="text-eyebrow text-[9px] sm:text-[10px] mt-0.5">A Bilingual Gazette</span>
+              <span className="text-eyebrow mt-0.5 !text-[11px] !tracking-[0.12em]">{locale === "bn" ? "দ্বিভাষিক গেজেট" : "A Bilingual Gazette"}</span>
             </span>
           </Link>
 
@@ -42,7 +42,7 @@ export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAf
               <Link
                 key={item.href}
                 href={item.href}
-                className="link-ink inline-flex min-h-[44px] items-center px-3 text-[11px] font-medium uppercase tracking-[0.22em]"
+                className="link-ink inline-flex min-h-[44px] items-center px-3 text-[13px] font-medium tracking-[0.04em]"
                 style={{ fontFamily: "var(--font-type), monospace" }}
               >
                 {item.label}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { EventMeta, Locale } from "@/types/content";
 
-type EventCardData = Pick<EventMeta, "slug" | "year" | "title" | "periodLabel" | "importance" | "themeColor" | "summary" | "ctaLabel">;
+type EventCardData = Pick<EventMeta, "slug" | "year" | "title" | "periodLabel" | "importance" | "themeColor" | "summary" | "ctaLabel" | "stub">;
 
 const TILT_BY_INDEX = ["", "tilt-right", "tilt-left"];
 
@@ -20,6 +20,9 @@ export function EventCard({ event, locale, index = 0 }: { event: EventCardData; 
         <div>
           <p className="text-eyebrow">{event.year}</p>
           <p className="text-eyebrow-script mt-0.5">{importanceLabel}</p>
+          {event.stub ? (
+            <p className="text-eyebrow mt-1 opacity-80">{locale === "bn" ? "প্রস্তুতাধীন" : "In progress"}</p>
+          ) : null}
         </div>
         <span
           aria-hidden="true"

@@ -927,6 +927,7 @@ export type EventMeta = {
   sensitive?: boolean;
   contentWarnings?: string[];
   requiresSources?: boolean;
+  stub?: boolean;
   showOnLanding?: boolean;
 };
 

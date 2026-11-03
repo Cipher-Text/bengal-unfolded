@@ -40,6 +40,7 @@ export function HeroSection({
   rightLabel,
   primaryAction,
   secondaryAction,
+  showCollage = true,
 }: {
   title: string;
   tagline: string;
@@ -50,11 +51,12 @@ export function HeroSection({
   rightLabel?: string;
   primaryAction?: { href: string; label: string };
   secondaryAction?: { href: string; label: string };
+  showCollage?: boolean;
 }) {
   return (
     <section className="relative animate-fade-in">
       {/* Photographic banner — collage of historical photo placeholders */}
-      <div className="relative">
+      {showCollage ? <div className="relative">
         <div className="paper paper-stained torn-bottom relative overflow-hidden p-4 sm:p-6 md:p-10" style={{ paddingBottom: "3.5rem" }}>
           <div className="compass-watermark -top-12 -right-16 hidden md:block" />
           <div className="relative grid grid-cols-2 items-end gap-2 sm:gap-3 md:grid-cols-12 md:gap-4">
@@ -88,7 +90,7 @@ export function HeroSection({
             />
           </div>
         </div>
-      </div>
+      </div> : null}
 
       {/* Editorial title block on parchment */}
       <div className="paper paper-stained relative px-4 pt-8 pb-10 sm:px-6 md:px-14 md:pt-14 md:pb-16">
@@ -119,7 +121,6 @@ export function HeroSection({
               </div>
             ) : null}
             <div className="mt-6 flex flex-wrap items-center gap-3">
-              <span className="stamp">Est. 1947 · Bengal</span>
               <span className="ornament text-2xl">✺</span>
               <span className="text-eyebrow">A Bilingual Archive</span>
             </div>

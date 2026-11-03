@@ -1,42 +1,269 @@
+import Image from "next/image";
 import Link from "next/link";
 import { BrandIcon } from "@/components/BrandIcon";
 import { SectionTitle } from "@/components/SectionTitle";
-import type { EventMeta, Figure, Locale, Place, Topic } from "@/types/content";
+import type { EventMeta, Figure, Locale, Period, Place, Topic } from "@/types/content";
 
 const copy = {
   en: {
-    stats: ["events", "figures", "eras", "sources"],
-    explore: "Choose how to explore", exploreSub: "Begin with a way of seeing the archive that fits your curiosity.",
-    paths: [{ title: "Explore by Time", body: "Follow turning points across Bengal’s long chronology.", label: "Open the timeline", href: "/timeline", mark: "01" }, { title: "Explore by Topic", body: "Enter through language, power, resistance, and identity.", label: "Browse topic hubs", href: "/topics", mark: "02" }, { title: "Explore by People & Places", body: "Meet the actors and places that give history its texture.", label: "See people & places", href: "/figures", mark: "03" }],
-    featured: "Featured story", read: "Read this chapter", timeline: "A few turning points", timelineSub: "A compact view of the archive’s connected milestones.", fullTimeline: "Explore the Full Timeline", people: "People in the record", peopleSub: "The figures and collective actors who shaped these chapters.", places: "Places in the story", placesSub: "History becomes legible through the places where it happened.", topics: "Follow a thread", topicsSub: "Choose a recurring question and see where it leads.", connected: "Connected history", connectedSub: "The archive preserves explicit relationships between chapters; where the record marks a connection, we show it.", method: "Our method", methodSub: "A public-history archive shaped by evidence, context, and care.", why: "Why this journey matters", contribute: "Help keep the record open", contributeSub: "Spot an error, suggest a source, or help us review a chapter.", contributeCta: "Review & collaborate", details: "View profile", placeCta: "Open place", topicCta: "Enter topic"
+    stats: ["chapters", "people & groups", "eras", "sources"],
+    eras: "The long view",
+    erasSub: "Nine eras, from the early delta polities to the present. Choose where to begin.",
+    eraCount: (n: number) => `${n} ${n === 1 ? "chapter" : "chapters"}`,
+    explore: "Choose how to explore",
+    exploreSub: "Three ways into the same archive.",
+    paths: [
+      { title: "By time", body: "Follow turning points across Bengal’s long chronology.", label: "Open the timeline", href: "/timeline", mark: "01" },
+      { title: "By topic", body: "Enter through language, power, resistance, and identity.", label: "Browse topic hubs", href: "/topics", mark: "02" },
+      { title: "By people & places", body: "Meet the actors and places that give history its texture.", label: "See people & places", href: "/figures", mark: "03" },
+    ],
+    topicsLead: "Or follow a thread",
+    read: "Read this chapter",
+    timeline: "Turning points across the centuries",
+    timelineSub: "A short sample of the chronology, from the Pala era to 2024.",
+    fullTimeline: "Explore the full timeline",
+    people: "People in the record",
+    places: "Places in the story",
+    allPeople: "All people",
+    allPlaces: "All places",
+    method: "How we write history here",
+    methodSub: "A public-history archive shaped by evidence, context, and care.",
+    methodCta: "Read the methodology",
+    principles: ["Source-aware writing", "Room for multiple perspectives", "Evidence distinguished from interpretation", "Care with sensitive history"],
+    contribute: "Help keep the record open",
+    contributeSub: "Spot an error, suggest a source, or help us review a chapter.",
+    contributeCta: "Review & collaborate",
+    placeCta: "Open place",
   },
   bn: {
-    stats: ["ঘটনা", "ব্যক্তিত্ব", "যুগ", "সূত্র"],
-    explore: "কীভাবে ইতিহাস দেখবেন", exploreSub: "আপনার কৌতূহলের সঙ্গে মানানসই একটি পথ বেছে নিন।",
-    paths: [{ title: "সময়ের ধারায়", body: "বঙ্গের দীর্ঘ ইতিহাসের গুরুত্বপূর্ণ মোড়গুলো অনুসরণ করুন।", label: "টাইমলাইন খুলুন", href: "/timeline", mark: "০১" }, { title: "বিষয় ধরে", body: "ভাষা, ক্ষমতা, প্রতিরোধ ও পরিচয়ের ভেতর দিয়ে প্রবেশ করুন।", label: "টপিক হাব দেখুন", href: "/topics", mark: "০২" }, { title: "মানুষ ও স্থান ধরে", body: "ইতিহাসকে প্রাণ দেয় যে মানুষ ও স্থান, তাদের সঙ্গে পরিচিত হোন।", label: "ব্যক্তি ও স্থান দেখুন", href: "/figures", mark: "০৩" }],
-    featured: "নির্বাচিত অধ্যায়", read: "অধ্যায়টি পড়ুন", timeline: "কয়েকটি গুরুত্বপূর্ণ মোড়", timelineSub: "সংযুক্ত আর্কাইভের একটি সংক্ষিপ্ত দৃশ্য।", fullTimeline: "সম্পূর্ণ টাইমলাইন দেখুন", people: "ইতিহাসের মানুষ", peopleSub: "যে ব্যক্তিত্ব ও সম্মিলিত কণ্ঠ এই অধ্যায়গুলো গড়ে তুলেছে।", places: "গল্পের স্থানগুলো", placesSub: "যে স্থানগুলোতে ইতিহাস ঘটেছে, সেখানেই তার মানে স্পষ্ট হয়।", topics: "একটি ধারার অনুসরণ করুন", topicsSub: "একটি পুনরাবৃত্ত প্রশ্ন বেছে নিয়ে তার পথ অনুসরণ করুন।", connected: "সংযুক্ত ইতিহাস", connectedSub: "আর্কাইভে নথিবদ্ধ সম্পর্কগুলোকে আমরা দেখাই—অনুমানকে তথ্য হিসেবে নয়।", method: "আমাদের পদ্ধতি", methodSub: "প্রমাণ, প্রেক্ষাপট ও যত্নে গড়া একটি পাবলিক-হিস্ট্রি আর্কাইভ।", why: "কেন এই যাত্রা গুরুত্বপূর্ণ", contribute: "ইতিহাসকে আরও নির্ভরযোগ্য করতে সাহায্য করুন", contributeSub: "ভুল ধরিয়ে দিন, সূত্র জানান, অথবা একটি অধ্যায় পর্যালোচনায় যুক্ত হোন।", contributeCta: "রিভিউ ও সহযোগিতা করুন", details: "প্রোফাইল দেখুন", placeCta: "স্থানটি দেখুন", topicCta: "টপিকে প্রবেশ করুন"
-  }
+    stats: ["অধ্যায়", "ব্যক্তি ও সংগঠন", "যুগ", "সূত্র"],
+    eras: "দীর্ঘ পরিসরে",
+    erasSub: "প্রাচীন বদ্বীপ-জনপদ থেকে বর্তমান পর্যন্ত নয়টি যুগ। কোথা থেকে শুরু করবেন বেছে নিন।",
+    eraCount: (n: number) => `${n.toLocaleString("bn-BD")}টি অধ্যায়`,
+    explore: "কীভাবে ইতিহাস দেখবেন",
+    exploreSub: "একই আর্কাইভে ঢোকার তিনটি পথ।",
+    paths: [
+      { title: "সময়ের ধারায়", body: "বঙ্গের দীর্ঘ ইতিহাসের গুরুত্বপূর্ণ মোড়গুলো অনুসরণ করুন।", label: "টাইমলাইন খুলুন", href: "/timeline", mark: "০১" },
+      { title: "বিষয় ধরে", body: "ভাষা, ক্ষমতা, প্রতিরোধ ও পরিচয়ের ভেতর দিয়ে প্রবেশ করুন।", label: "বিষয়ভিত্তিক হাব দেখুন", href: "/topics", mark: "০২" },
+      { title: "মানুষ ও স্থান ধরে", body: "ইতিহাসকে প্রাণ দেয় যে মানুষ ও স্থান, তাদের সঙ্গে পরিচিত হোন।", label: "ব্যক্তি ও স্থান দেখুন", href: "/figures", mark: "০৩" },
+    ],
+    topicsLead: "অথবা একটি ধারা অনুসরণ করুন",
+    read: "অধ্যায়টি পড়ুন",
+    timeline: "শতাব্দীর পর শতাব্দীর মোড়",
+    timelineSub: "পাল যুগ থেকে ২০২৪ পর্যন্ত কালরেখার একটি সংক্ষিপ্ত নমুনা।",
+    fullTimeline: "সম্পূর্ণ টাইমলাইন দেখুন",
+    people: "ইতিহাসের মানুষ",
+    places: "গল্পের স্থানগুলো",
+    allPeople: "সব ব্যক্তিত্ব",
+    allPlaces: "সব স্থান",
+    method: "এখানে আমরা যেভাবে ইতিহাস লিখি",
+    methodSub: "প্রমাণ, প্রেক্ষাপট ও যত্নে গড়া একটি পাবলিক-হিস্ট্রি আর্কাইভ।",
+    methodCta: "পদ্ধতি পড়ুন",
+    principles: ["সূত্র ও প্রমাণের ভিত্তি", "একাধিক দৃষ্টিভঙ্গির স্থান", "তথ্য ও ব্যাখ্যার পার্থক্য", "সংবেদনশীল ইতিহাসে সতর্কতা"],
+    contribute: "ইতিহাসকে আরও নির্ভরযোগ্য করতে সাহায্য করুন",
+    contributeSub: "ভুল ধরিয়ে দিন, সূত্র জানান, অথবা একটি অধ্যায় পর্যালোচনায় যুক্ত হোন।",
+    contributeCta: "রিভিউ ও সহযোগিতা করুন",
+    placeCta: "স্থানটি দেখুন",
+  },
 } as const;
 
-export function ArchiveStats({ locale, stats }: { locale: Locale; stats: number[] }) {
+export function EraStrip({ locale, periods, events, stats }: { locale: Locale; periods: Period[]; events: EventMeta[]; stats: number[] }) {
   const c = copy[locale];
-  return <section className="archive-index grid grid-cols-2 border-y md:grid-cols-4">{stats.map((value, i) => <div key={c.stats[i]} className="border-b p-4 text-center last:border-0 md:border-b-0 md:border-r md:last:border-r-0"><p className="text-display text-3xl font-semibold md:text-4xl">{value.toLocaleString(locale === "bn" ? "bn-BD" : "en-US")}</p><p className="text-eyebrow mt-1">{c.stats[i]}</p></div>)}</section>;
+  const fmt = (n: number) => n.toLocaleString(locale === "bn" ? "bn-BD" : "en-US");
+  return (
+    <section aria-labelledby="home-eras">
+      <SectionTitle eyebrow={locale === "bn" ? "কালপরিসর" : "The chronology"} title={c.eras} subtitle={c.erasSub} headingId="home-eras" />
+      <ol className="mt-7 flex snap-x gap-3 overflow-x-auto pb-3 md:grid md:grid-cols-3 md:overflow-visible md:pb-0">
+        {periods.map((period) => {
+          const count = events.filter((event) => event.periodId === period.id).length;
+          return (
+            <li key={period.id} className="min-w-[11rem] snap-start md:min-w-0">
+              <Link
+                href={`/${locale}/periods/${period.id}`}
+                className="theme-surface group block h-full rounded-lg border border-t-4 p-3 hover:border-[color:var(--gold)]"
+                style={{ borderTopColor: period.themeColor }}
+              >
+                <p className="text-eyebrow">
+                  {period.startYear}–{period.endYear}
+                </p>
+                <h3 className="text-display mt-2 text-base font-semibold leading-snug group-hover:text-accent">{period.title}</h3>
+                <p className="theme-muted mt-2 text-xs">{c.eraCount(count)}</p>
+              </Link>
+            </li>
+          );
+        })}
+      </ol>
+      <p className="theme-muted mt-5 text-sm">
+        {stats.map((value, i) => `${fmt(value)} ${c.stats[i]}`).join(" · ")}
+      </p>
+    </section>
+  );
 }
 
-export function ExplorePaths({ locale }: { locale: Locale }) { const c = copy[locale]; return <section><SectionTitle eyebrow={locale === "bn" ? "পাঠকের পথ" : "Reader’s paths"} title={c.explore} subtitle={c.exploreSub} /><div className="mt-7 grid gap-4 md:grid-cols-3">{c.paths.map((path) => <Link key={path.href} href={`/${locale}${path.href}`} className="home-path theme-surface group rounded-xl border p-5"><span className="text-eyebrow text-accent">{path.mark}</span><h3 className="text-display mt-8 text-2xl font-semibold">{path.title}</h3><p className="theme-muted mt-3 min-h-12 text-sm leading-relaxed">{path.body}</p><span className="link-underline mt-6 inline-flex min-h-[44px] items-center text-sm font-semibold text-accent">{path.label} <span className="arrow ml-2">→</span></span></Link>)}</div></section>; }
+export function ExplorePaths({ locale, topics }: { locale: Locale; topics: Topic[] }) {
+  const c = copy[locale];
+  return (
+    <section aria-labelledby="home-explore">
+      <SectionTitle eyebrow={locale === "bn" ? "পাঠকের পথ" : "Reader’s paths"} title={c.explore} subtitle={c.exploreSub} headingId="home-explore" />
+      <div className="mt-7 grid gap-4 md:grid-cols-3">
+        {c.paths.map((path) => (
+          <Link key={path.href} href={`/${locale}${path.href}`} className="home-path theme-surface group rounded-xl border p-5">
+            <span className="text-eyebrow">{path.mark}</span>
+            <h3 className="text-display mt-6 text-2xl font-semibold">{path.title}</h3>
+            <p className="theme-muted mt-3 text-sm leading-relaxed">{path.body}</p>
+            <span className="link-underline mt-5 inline-flex min-h-[44px] items-center text-sm font-semibold text-accent">
+              {path.label} <span className="arrow ml-2">→</span>
+            </span>
+          </Link>
+        ))}
+      </div>
+      {topics.length ? (
+        <div className="mt-8">
+          <p className="text-eyebrow">{c.topicsLead}</p>
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {topics.slice(0, 6).map((topic) => (
+              <li key={topic.slug}>
+                <Link
+                  href={`/${locale}/topics/${topic.slug}`}
+                  className="theme-surface inline-flex min-h-[44px] items-center rounded-full border px-4 text-sm font-medium hover:border-[color:var(--gold)]"
+                >
+                  {topic.title}
+                  <span aria-hidden="true" className="ml-2">↗</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+    </section>
+  );
+}
 
-export function FeaturedStory({ locale, event }: { locale: Locale; event: EventMeta }) { const c = copy[locale]; return <section className="paper paper-stained overflow-hidden rounded-sm p-6 md:p-10"><div className="grid gap-7 md:grid-cols-[0.7fr_1.3fr] md:items-center"><div className="border-b pb-5 md:border-b-0 md:border-r md:pb-0 md:pr-8"><p className="text-eyebrow">{c.featured}</p><p className="text-display mt-4 text-5xl font-semibold text-accent">{event.year}</p><p className="text-eyebrow-script mt-2">{event.periodLabel ?? event.importance}</p></div><div><h2 className="text-display text-3xl font-semibold md:text-5xl">{event.title}</h2><p className="theme-muted mt-4 max-w-2xl text-base leading-relaxed">{event.summary}</p><Link href={`/${locale}/events/${event.slug}`} className="btn-ink mt-6">{c.read}<span className="arrow">→</span></Link></div></div></section>; }
+export function TimelinePreview({ locale, events }: { locale: Locale; events: EventMeta[] }) {
+  const c = copy[locale];
+  return (
+    <section aria-labelledby="home-timeline">
+      <SectionTitle eyebrow={locale === "bn" ? "কালরেখা" : "Chronology sample"} title={c.timeline} subtitle={c.timelineSub} headingId="home-timeline" />
+      <ol className="mt-7 border-l-2 border-[color:var(--sepia)]/35 pl-5 md:grid md:grid-cols-3 md:gap-x-5 md:gap-y-8 md:border-l-0 md:pl-0">
+        {events.map((event) => (
+          <li key={event.slug} className="relative mb-6 md:mb-0">
+            <Link href={`/${locale}/events/${event.slug}`} className="group block md:border-t-2 md:border-[color:var(--sepia)]/40 md:pt-4">
+              <span
+                aria-hidden="true"
+                className="absolute -left-[1.62rem] top-1.5 h-3 w-3 rounded-full border-2 border-[color:var(--bg)] md:static md:mb-3 md:block"
+                style={{ backgroundColor: event.themeColor }}
+              />
+              <p className="text-eyebrow">{event.year}</p>
+              <h3 className="text-display mt-2 text-xl font-semibold group-hover:text-accent">{event.title}</h3>
+              <p className="theme-muted mt-2 line-clamp-3 text-sm leading-relaxed">{event.summary}</p>
+            </Link>
+          </li>
+        ))}
+      </ol>
+      <div className="mt-8">
+        <Link href={`/${locale}/timeline`} className="btn-vintage">
+          {c.fullTimeline}
+          <span className="arrow">→</span>
+        </Link>
+      </div>
+    </section>
+  );
+}
 
-export function TimelinePreview({ locale, events }: { locale: Locale; events: EventMeta[] }) { const c = copy[locale]; return <section><SectionTitle eyebrow={locale === "bn" ? "কালরেখা" : "The chronology"} title={c.timeline} subtitle={c.timelineSub} /><div className="mt-7 border-l-2 border-[color:var(--sepia)]/35 pl-5 md:grid md:grid-cols-3 md:gap-4 md:border-l-0 md:pl-0">{events.map((event) => <Link key={event.slug} href={`/${locale}/events/${event.slug}`} className="group relative mb-5 block md:mb-0 md:border-t-2 md:border-[color:var(--sepia)]/40 md:pt-4"><span className="absolute -left-[1.62rem] top-1.5 h-3 w-3 rounded-full border-2 border-[color:var(--bg)] md:static md:mb-4 md:block" style={{ backgroundColor: event.themeColor }} /><p className="text-eyebrow">{event.year}</p><h3 className="text-display mt-2 text-xl font-semibold group-hover:text-accent">{event.title}</h3><p className="theme-muted mt-2 text-sm leading-relaxed">{event.summary}</p></Link>)}</div><div className="mt-7"><Link href={`/${locale}/timeline`} className="btn-vintage">{c.fullTimeline}<span className="arrow">→</span></Link></div></section>; }
+// Specific, recognisable sites; region-level nodes ("Bengal Region", "Bangladesh") make weak landing cards.
+const FEATURED_PLACE_IDS = ["palashi-plassey", "mahasthangarh", "dhaka-jahangirnagar"];
+// Most place records still carry template descriptions; do not show those as if they were content.
+const isTemplateDescription = (text: string) => /place (timeline )?node/i.test(text);
 
-export function PeoplePreview({ locale, figures }: { locale: Locale; figures: Figure[] }) { const c = copy[locale]; return <section><SectionTitle eyebrow={locale === "bn" ? "ব্যক্তিত্ব" : "The people"} title={c.people} subtitle={c.peopleSub} /><div className="mt-7 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">{figures.slice(0,4).map((figure) => <Link key={figure.id} href={`/${locale}/figures/${figure.id}`} className="postcard group overflow-hidden p-3"><div className="flex aspect-[4/5] items-center justify-center overflow-hidden bg-[color:var(--paper-aged)]"><BrandIcon className="h-full w-full rounded-none opacity-35" /></div><h3 className="text-display mt-3 text-lg font-semibold leading-tight group-hover:text-accent">{figure.name}</h3><p className="theme-muted mt-1 text-xs">{figure.activePeriod ?? [figure.birthYear, figure.deathYear].filter(Boolean).join("–")}</p><p className="theme-muted mt-2 line-clamp-2 text-xs leading-relaxed">{figure.impact}</p></Link>)}</div></section>; }
+export function PeopleAndPlaces({ locale, figures, places }: { locale: Locale; figures: Figure[]; places: Place[] }) {
+  const c = copy[locale];
+  return (
+    <section className="grid gap-10 lg:grid-cols-[1.35fr_1fr]" aria-label={`${c.people} / ${c.places}`}>
+      <div>
+        <h2 className="text-display text-2xl font-semibold md:text-3xl">{c.people}</h2>
+        <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
+          {figures.slice(0, 4).map((figure) => (
+            <li key={figure.id}>
+              <Link href={`/${locale}/figures/${figure.id}`} className="postcard group block overflow-hidden p-2.5">
+                <div className="relative aspect-[4/5] overflow-hidden bg-[color:var(--paper-aged)]">
+                  {figure.image ? (
+                    <Image src={figure.image} alt={figure.name} fill sizes="(min-width: 1024px) 14vw, 40vw" className="object-cover" />
+                  ) : (
+                    <BrandIcon className="h-full w-full rounded-none opacity-35" />
+                  )}
+                </div>
+                <h3 className="text-display mt-2.5 text-base font-semibold leading-tight group-hover:text-accent">{figure.name}</h3>
+                <p className="theme-muted mt-1 text-xs">{figure.activePeriod ?? [figure.birthYear, figure.deathYear].filter(Boolean).join("–")}</p>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <Link href={`/${locale}/figures`} className="link-underline mt-4 inline-flex min-h-[44px] items-center text-sm font-semibold text-accent">
+          {c.allPeople} <span className="arrow ml-2">→</span>
+        </Link>
+      </div>
+      <div>
+        <h2 className="text-display text-2xl font-semibold md:text-3xl">{c.places}</h2>
+        <ul className="mt-5 space-y-3">
+          {FEATURED_PLACE_IDS.map((id) => places.find((place) => place.id === id)).filter((place): place is Place => Boolean(place)).map((place) => (
+            <li key={place.id}>
+              <Link href={`/${locale}/places/${place.id}`} className="theme-surface block rounded-xl border p-4 hover:border-[color:var(--gold)]">
+                <p className="text-eyebrow">{place.placeType}</p>
+                <h3 className="text-display mt-1.5 text-xl font-semibold">{place.title}</h3>
+                {isTemplateDescription(place.description) ? null : (
+                  <p className="theme-muted mt-1.5 line-clamp-2 text-sm leading-relaxed">{place.description}</p>
+                )}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <Link href={`/${locale}/places`} className="link-underline mt-4 inline-flex min-h-[44px] items-center text-sm font-semibold text-accent">
+          {c.allPlaces} <span className="arrow ml-2">→</span>
+        </Link>
+      </div>
+    </section>
+  );
+}
 
-export function PlacesPreview({ locale, places }: { locale: Locale; places: Place[] }) { const c = copy[locale]; return <section><SectionTitle eyebrow={locale === "bn" ? "ভূগোল" : "Historical geography"} title={c.places} subtitle={c.placesSub} /><div className="mt-7 grid gap-3 md:grid-cols-3">{places.slice(0,3).map((place) => <Link key={place.id} href={`/${locale}/places/${place.id}`} className="theme-surface rounded-xl border p-5 hover:border-[color:var(--gold)]"><p className="text-eyebrow">{place.placeType}</p><h3 className="text-display mt-3 text-2xl font-semibold">{place.title}</h3><p className="theme-muted mt-2 text-sm leading-relaxed">{place.description}</p><span className="link-underline mt-5 inline-flex min-h-[44px] items-center text-sm text-accent">{c.placeCta} →</span></Link>)}</div></section>; }
+export function EditorialMethod({ locale }: { locale: Locale }) {
+  const c = copy[locale];
+  return (
+    <section className="paper paper-stained rounded-sm p-6 md:p-9" aria-labelledby="home-method">
+      <SectionTitle eyebrow="Bengal Unfolded" title={c.method} subtitle={c.methodSub} headingId="home-method" />
+      <ul className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {c.principles.map((principle, i) => (
+          <li key={principle} className="border-t border-[color:var(--sepia)]/30 pt-3">
+            <span className="text-eyebrow">0{i + 1}</span>
+            <p className="mt-2 text-base font-semibold">{principle}</p>
+          </li>
+        ))}
+      </ul>
+      <Link href={`/${locale}/methodology`} className="btn-vintage mt-7">
+        {c.methodCta}
+        <span className="arrow">→</span>
+      </Link>
+    </section>
+  );
+}
 
-export function ConnectedHistory({ locale, events }: { locale: Locale; events: EventMeta[] }) { const c = copy[locale]; const source = events.find((event) => event.relatedEvents?.length); if (!source || !source.relatedEvents?.length) return null; const relations = source.relatedEvents; const related = relations.slice(0,2).map((relation) => events.find((event) => event.slug === relation.eventId)).filter((event): event is EventMeta => Boolean(event)); const relationLabels = locale === "bn" ? { cause: "কারণ", effect: "পরিণতি", background: "পটভূমি", parallel: "সমান্তরাল", legacy: "উত্তরাধিকার", contrast: "বৈপরীত্য" } : { cause: "Cause", effect: "Effect", background: "Background", parallel: "Parallel", legacy: "Legacy", contrast: "Contrast" }; return <section className="theme-surface rounded-xl border p-6 md:p-9"><SectionTitle eyebrow={locale === "bn" ? "সম্পর্কের নকশা" : "A relationship chain"} title={c.connected} subtitle={c.connectedSub} /><div className="mx-auto mt-8 max-w-3xl">{[source, ...related].map((event, i) => <div key={event.slug} className="flex items-start gap-4"><div className="flex w-8 shrink-0 flex-col items-center"><span className="mt-1 h-4 w-4 rounded-full border-4 border-[color:var(--bg)]" style={{ backgroundColor: event.themeColor }} />{i < related.length ? <span className="h-12 w-px border-l border-dashed border-[color:var(--sepia)]/60" /> : null}</div><Link href={`/${locale}/events/${event.slug}`} className="min-h-[44px] pb-5"><p className="text-eyebrow">{event.year}</p><h3 className="text-display mt-1 text-xl font-semibold hover:text-accent">{event.title}</h3>{i < related.length ? <p className="text-eyebrow-script mt-1">{relationLabels[relations[i]?.relationType ?? "parallel"]}</p> : null}</Link></div>)}</div></section>; }
+export function Contribute({ locale, heading, body }: { locale: Locale; heading: string; body: string }) {
+  const c = copy[locale];
+  return (
+    <section className="grid gap-5 md:grid-cols-[1.15fr_0.85fr]" aria-label={heading}>
+      <div>
+        <h2 className="text-display text-3xl font-semibold md:text-4xl">{heading}</h2>
+        <p className="theme-muted mt-4 max-w-2xl text-base leading-relaxed">{body}</p>
+      </div>
+      <div className="theme-surface rounded-xl border p-6 md:p-8">
+        <h2 className="text-display text-2xl font-semibold">{c.contribute}</h2>
+        <p className="theme-muted mt-3 text-sm leading-relaxed">{c.contributeSub}</p>
+        <Link href={`/${locale}/join`} className="btn-ink mt-6">
+          {c.contributeCta}
+          <span className="arrow">→</span>
+        </Link>
+      </div>
+    </section>
+  );
+}
 
-export function TopicExplorer({ locale, topics }: { locale: Locale; topics: Topic[] }) { const c = copy[locale]; return <section><SectionTitle eyebrow={locale === "bn" ? "বিষয়" : "Themes"} title={c.topics} subtitle={c.topicsSub} /><div className="mt-7 flex flex-wrap gap-3">{topics.slice(0,6).map((topic) => <Link key={topic.slug} href={`/${locale}/topics/${topic.slug}`} className="theme-surface inline-flex min-h-[52px] items-center rounded-full border px-5 text-sm font-semibold hover:border-[color:var(--gold)]">{topic.title}<span className="arrow ml-3">↗</span></Link>)}</div></section>; }
-
-export function EditorialMethod({ locale }: { locale: Locale }) { const c = copy[locale]; const principles = locale === "bn" ? ["সূত্র ও প্রমাণের ভিত্তি", "একাধিক দৃষ্টিভঙ্গির স্থান", "তথ্য ও ব্যাখ্যার পার্থক্য", "সংবেদনশীল ইতিহাসে সতর্কতা"] : ["Source-aware writing", "Room for multiple perspectives", "Evidence distinguished from interpretation", "Care with sensitive history"]; return <section className="paper paper-stained rounded-sm p-6 md:p-9"><SectionTitle eyebrow="Bengal Unfolded" title={c.method} subtitle={c.methodSub} /><div className="mt-7 grid gap-3 sm:grid-cols-2">{principles.map((p, i) => <div key={p} className="border-t border-[color:var(--sepia)]/30 pt-3"><span className="text-eyebrow text-accent">0{i+1}</span><p className="mt-2 text-base font-semibold">{p}</p></div>)}</div><Link href={`/${locale}/methodology`} className="btn-vintage mt-7">{locale === "bn" ? "পদ্ধতি পড়ুন" : "Read the methodology"}<span className="arrow">→</span></Link></section>; }
-
-export function WhyAndContribute({ locale, heading, body }: { locale: Locale; heading: string; body: string }) { const c = copy[locale]; return <div className="grid gap-5 md:grid-cols-[1.15fr_0.85fr]"><section className="paper paper-stained rounded-sm p-6 md:p-8"><p className="text-eyebrow-script text-xl">{c.why}</p><h2 className="text-display mt-3 text-3xl font-semibold md:text-4xl">{heading}</h2><p className="theme-muted mt-4 max-w-2xl text-base leading-relaxed">{body}</p><div className="mt-6 flex items-center gap-3"><BrandIcon className="h-12 w-12 rounded-xl" /><span className="text-eyebrow">{locale === "bn" ? "সম্পাদকীয় সিল" : "Editorial seal"}</span></div></section><section className="theme-surface rounded-xl border p-6 md:p-8"><p className="text-eyebrow">{locale === "bn" ? "সহযোগিতা" : "Collaboration"}</p><h2 className="text-display mt-3 text-2xl font-semibold">{c.contribute}</h2><p className="theme-muted mt-3 text-sm leading-relaxed">{c.contributeSub}</p><Link href={`/${locale}/join`} className="btn-ink mt-6">{c.contributeCta}<span className="arrow">→</span></Link></section></div>; }
+export const homeCopy = copy;

@@ -569,6 +569,7 @@ Notes:
 - `EventMeta.sensitive?` (optional boolean): marks chapters that require sensitive-history caution UI treatment
 - `EventMeta.contentWarnings?` (optional `string[]`): localized warning labels displayed on sensitive chapters
 - `EventMeta.requiresSources?` (optional boolean): when `true`, event summary and why-it-matters claims must include source IDs
+- `EventMeta.stub?` (optional boolean): marks a chapter whose narrative is placeholder text pending real research. The UI shows a "chapter in progress" notice, hides inline citations, evidence badges, claim-level citations and the placeholder timeline, and labels the card. Must match across EN/BN. Remove the flag only when `summary`, `whyItMatters` and `timeline` contain event-specific, sourced content.
 - `EventMeta.longTermLegacy?` (optional string; required for `importance: major`): long-horizon consequence narrative
 - `EventMeta.longTermLegacySourceIds?` (optional `string[]`): citations for long-term legacy narrative
 - `EventMeta.longTermLegacyEvidenceLevel?` (optional `high | medium | low`): evidence strength for long-term legacy narrative

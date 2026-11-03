@@ -98,6 +98,7 @@ For every schema or field change:
 - `sensitive` must be boolean when provided.
 - `contested` must be boolean when provided.
 - `requiresSources` must be boolean when provided.
+- `stub` must be boolean when provided and must have the same value in EN and BN.
 - `contentWarnings` must be an array of non-empty localized strings when provided.
 
 ## Definition of done (AI-integrated feature)

@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
-import { ArchiveStats, ConnectedHistory, EditorialMethod, ExplorePaths, FeaturedStory, PeoplePreview, PlacesPreview, TimelinePreview, TopicExplorer, WhyAndContribute } from "@/components/home/HomeDiscovery";
+import Link from "next/link";
+import { Contribute, EditorialMethod, EraStrip, ExplorePaths, PeopleAndPlaces, TimelinePreview, homeCopy } from "@/components/home/HomeDiscovery";
 import { getAllEvents, getAllFiguresChronological, getAllPeriods, getAllPlaces, getAllResources, getAllTopics, getHomeContent } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
 
-const MILESTONE_SLUGS = ["1757-battle-of-plassey", "1905-partition-of-bengal", "1952-language-movement", "1969-mass-uprising", "1971-liberation-war", "1990-mass-uprising"] as const;
+// One chapter per broad stretch of the chronology, so the sample is not weighted toward the last 75 years.
+const MILESTONE_SLUGS = ["0750-1170-pala-dynasty-foundation", "1757-battle-of-plassey", "1947-partition-and-eastern-bengal", "1952-language-movement", "1971-liberation-war", "2024-anti-discrimination-movement"] as const;
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -35,17 +37,23 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const people = figures.filter((figure) => figure.image && !["organization", "collective"].includes(figure.group));
   const isBn = locale === "bn";
 
+  const copy = homeCopy[isBn ? "bn" : "en"];
+  const hero = (
+    <>
+      <p>{featured.summary}</p>
+      <Link href={`/${locale}/events/${featured.slug}`} className="link-underline mt-3 inline-flex min-h-[44px] items-center text-sm font-semibold text-accent">
+        {copy.read} <span className="arrow ml-2">→</span>
+      </Link>
+    </>
+  );
+
   return <div className="space-y-16 md:space-y-24">
-    <HeroSection title={home.title} tagline={home.tagline} intro={home.intro} eyebrow={isBn ? "বাংলার সংযুক্ত ইতিহাস" : "Bengal’s connected history"} primaryAction={{ href: `/${locale}/timeline`, label: isBn ? "ইতিহাসের টাইমলাইন দেখুন" : "Explore the Timeline" }} secondaryAction={{ href: `/${locale}/events/${featured.slug}`, label: isBn ? "একটি গল্প থেকে শুরু করুন" : "Start with a Story" }} rightTitle={featured.title} rightLabel={`${isBn ? "নির্বাচিত অধ্যায়" : "Selected chapter"} · ${featured.year}`} rightSlot={featured.summary} />
-    <ArchiveStats locale={locale as Locale} stats={[events.length, figures.length, periods.length, resources.length]} />
-    <ExplorePaths locale={locale as Locale} />
-    <FeaturedStory locale={locale as Locale} event={featured} />
+    <HeroSection showCollage={false} title={home.title} tagline={home.tagline} intro={home.intro} eyebrow={isBn ? "বাংলার সংযুক্ত ইতিহাস" : "Bengal’s connected history"} primaryAction={{ href: `/${locale}/timeline`, label: isBn ? "ইতিহাসের টাইমলাইন দেখুন" : "Explore the Timeline" }} secondaryAction={{ href: `/${locale}/paths`, label: isBn ? "নির্দেশিত পথে শুরু করুন" : "Start a guided path" }} rightTitle={featured.title} rightLabel={`${isBn ? "নির্বাচিত অধ্যায়" : "Featured chapter"} · ${featured.year}`} rightSlot={hero} />
+    <EraStrip locale={locale as Locale} periods={periods} events={events} stats={[events.length, figures.length, periods.length, resources.length]} />
+    <ExplorePaths locale={locale as Locale} topics={topics} />
     <TimelinePreview locale={locale as Locale} events={milestones} />
-    {people.length ? <PeoplePreview locale={locale as Locale} figures={people} /> : null}
-    {places.length ? <PlacesPreview locale={locale as Locale} places={places} /> : null}
-    <ConnectedHistory locale={locale as Locale} events={events} />
-    {topics.length ? <TopicExplorer locale={locale as Locale} topics={topics} /> : null}
+    {people.length || places.length ? <PeopleAndPlaces locale={locale as Locale} figures={people} places={places} /> : null}
     <EditorialMethod locale={locale as Locale} />
-    <WhyAndContribute locale={locale as Locale} heading={home.whyJourneyMattersHeading} body={home.whyJourneyMattersBody} />
+    <Contribute locale={locale as Locale} heading={home.whyJourneyMattersHeading} body={home.whyJourneyMattersBody} />
   </div>;
 }

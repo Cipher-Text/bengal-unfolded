@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-export function SectionTitle({ title, subtitle, eyebrow }: { title: string; subtitle?: ReactNode; eyebrow?: string }) {
+export function SectionTitle({ title, subtitle, eyebrow, headingId }: { title: string; subtitle?: ReactNode; eyebrow?: string; headingId?: string }) {
   return (
     <div className="text-center md:text-left">
       {eyebrow ? (
@@ -10,7 +10,7 @@ export function SectionTitle({ title, subtitle, eyebrow }: { title: string; subt
           <span className="ornament">❦</span>
         </p>
       ) : null}
-      <h2 className="text-display mt-3 text-3xl font-semibold leading-tight md:text-5xl">
+      <h2 id={headingId} className="text-display mt-3 text-3xl font-semibold leading-tight md:text-5xl">
         {title}
       </h2>
       <div className="mt-4 flex items-center gap-3 justify-center md:justify-start">
