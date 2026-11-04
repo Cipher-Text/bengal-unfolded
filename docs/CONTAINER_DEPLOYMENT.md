@@ -33,7 +33,7 @@ Published image names use the lowercase repository path:
 ghcr.io/<owner>/bengal-unfolded:<full-git-sha>
 ```
 
-The full source SHA is the immutable deployment reference. Before building, the workflow checks GHCR for that SHA and skips a duplicate publish if the tag already exists. It reports the image digest and local Docker image size in the Actions log. It does not publish a mutable `latest` tag.
+The full source SHA is the immutable deployment reference. After publishing or finding that SHA image, the workflow promotes it to the mutable `production` tag. The production host can use `ghcr.io/<owner>/bengal-unfolded:production` for routine updates; each successful `main` push updates that tag. Use the SHA tag when pinning a deployment or rolling back. The workflow reports the image details in the Actions log and does not publish a mutable `latest` tag.
 
 ## Production prerequisites
 
@@ -48,10 +48,10 @@ The container itself publishes no host port. It is read-only with temporary writ
 
 ## Deploy and roll back
 
-On the production host, set the exact validated tag and start the service:
+On the production host, set the tag and start the service. For routine deploys, `production` advances with each successful `main` publish:
 
 ```sh
-export BENGAL_UNFOLDED_IMAGE=ghcr.io/<owner>/bengal-unfolded:<full-git-sha>
+export BENGAL_UNFOLDED_IMAGE=ghcr.io/<owner>/bengal-unfolded:production
 docker compose -f compose.production.yaml pull
 docker compose -f compose.production.yaml up -d
 ```

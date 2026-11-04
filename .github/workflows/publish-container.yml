@@ -8,7 +8,7 @@ on:
 permissions: {}
 
 concurrency:
-  group: publish-container-${{ github.event.workflow_run.head_sha }}
+  group: publish-container-production
   cancel-in-progress: false
 
 jobs:
@@ -83,11 +83,17 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      - name: Promote SHA image to production tag
+        env:
+          IMAGE: ${{ steps.image_name.outputs.image }}
+          SHA: ${{ github.event.workflow_run.head_sha }}
+        run: docker buildx imagetools create --tag "$IMAGE:production" "$IMAGE:$SHA"
+
       - name: Report image digest and size
         env:
-          DIGEST: ${{ steps.image.outputs.digest }}
           IMAGE: ${{ steps.image_name.outputs.image }}:${{ github.event.workflow_run.head_sha }}
         run: |
           docker pull "$IMAGE"
-          echo "Available $IMAGE${DIGEST:+@$DIGEST}"
+          echo "Available $IMAGE"
+          docker buildx imagetools inspect "${IMAGE%:*}:production"
           docker image inspect "$IMAGE" --format 'Local image size: {{.Size}} bytes'
