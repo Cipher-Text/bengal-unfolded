@@ -46,13 +46,22 @@ test("compare page remains available with malformed query parameters", async ({ 
 
 for (const locale of ["en", "bn"]) {
   test(`${locale} resource filters read deep links and reset browser history`, async ({ page }) => {
+    const none = locale === "en" ? /No sources match/ : /কোনো সূত্র মেলেনি/;
+    const reset = locale === "en" ? "Clear search and filters" : "খোঁজ ও ফিল্টার মুছুন";
     await page.goto(`/${locale}/resources/?q=__no_matching_resource__`);
-    await expect(page.getByText(locale === "en" ? "No resources found." : "কোনো রিসোর্স পাওয়া যায়নি।")).toBeVisible();
-    await page.getByRole("button", { name: locale === "en" ? "Reset filters" : "ফিল্টার রিসেট" }).click();
+    await expect(page.getByText(none)).toBeVisible();
+    await page.getByRole("button", { name: reset }).click();
     await expect(page).not.toHaveURL(/q=/);
     await page.goBack();
     await expect(page).toHaveURL(/q=__no_matching_resource__/);
-    await expect(page.getByText(locale === "en" ? "No resources found." : "কোনো রিসোর্স পাওয়া যায়নি।")).toBeVisible();
+    await expect(page.getByText(none)).toBeVisible();
+  });
+
+  test(`${locale} resource reliability filter reads deep links and ignores invalid values`, async ({ page }) => {
+    await page.goto(`/${locale}/resources/?quality=primary`);
+    await expect(page.getByRole("button", { name: locale === "en" ? /^Primary/ : /^প্রাথমিক/ }).first()).toHaveAttribute("aria-pressed", "true");
+    await page.goto(`/${locale}/resources/?quality=not-a-quality`);
+    await expect(page.getByRole("button", { name: locale === "en" ? /^All/ : /^সব/ }).first()).toHaveAttribute("aria-pressed", "true");
   });
 
   test(`${locale} timeline search reads deep links, ignores retired filters and resets`, async ({ page }) => {

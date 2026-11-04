@@ -36,7 +36,7 @@
 - Docs and validation sync.
   - Validation: `scripts/validate-content.mjs` now fails when an event's `periodId` does not cover its date (guards the period backfill above); documented in `AI_CONTRACT.md` and `CONTENT_MODEL.md`.
   - Docs: `CLAUDE.md` (client components, static-export query-state pattern, `src/lib` helpers, stub rule), `CONTENT_MODEL.md` (route inventory, period rule), `STATIC_HOSTING_READINESS.md` (query params and `useUrlSearchParams`), `PERFORMANCE.md` (`react-pageflip` removed) and `ROADMAP.md` (RM-006C wording) updated to match the redesigned pages.
-  - Known gap: `tests/browser/core.spec.ts` still targets the old UI (for example "Reset filters" buttons, timeline `?theme=`, directory pagination) and needs updating before CI passes.
+  - Tests: `tests/browser/core.spec.ts` rewritten for the new UI (live search and chip filters, "Show more", era-grouped timeline and era bar, compare swap, paths filters, resource reliability filter, stub chapters, places grouping). All 48 tests pass on desktop and mobile Chromium against a fresh static build. Search inputs now read their value straight from the URL so back/forward keeps the box and the results in sync.
 
 - Mobile tap-target and text-size pass (UI only).
   - Footer links, the language switcher and FAQ links now meet a 44px tap height; event citation numbers `[1]` have a 24px target and 12px text.
