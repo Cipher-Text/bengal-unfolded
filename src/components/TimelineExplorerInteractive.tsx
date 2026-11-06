@@ -62,6 +62,29 @@ const copy = {
 
 const norm = (value: string) => value.trim().toLocaleLowerCase();
 
+function formatYear(value: string, locale: Locale): string {
+  if (locale !== "bn") return value;
+
+  const months: Record<string, string> = {
+    january: "জানুয়ারি", february: "ফেব্রুয়ারি", march: "মার্চ", april: "এপ্রিল",
+    may: "মে", june: "জুন", july: "জুলাই", august: "আগস্ট", september: "সেপ্টেম্বর",
+    october: "অক্টোবর", november: "নভেম্বর", december: "ডিসেম্বর",
+  };
+
+  return value
+    .replace(/\b(january|february|march|april|may|june|july|august|september|october|november|december)\b/gi, (month) => months[month.toLowerCase()])
+    .replace(/\b(\d{3,4})s\b/gi, "$1-এর দশক")
+    .replace(/\b(\d+)(st|nd|rd|th)\b/gi, (_match, number: string) => {
+      const suffix = ({ "1": "ম", "2": "য়", "3": "য়", "4": "র্থ", "5": "ম", "6": "ষ্ঠ", "7": "ম", "8": "ম", "9": "ম", "10": "ম" } as Record<string, string>)[number];
+      return `${number}${suffix ?? "শ"}`;
+    })
+    .replace(/\bcentury\b/gi, "শতক")
+    .replace(/\bBCE\b/gi, "খ্রিষ্টপূর্ব")
+    .replace(/\bCE\b/gi, "খ্রিষ্টাব্দ")
+    .replace(/\bC\./gi, "আনু.")
+    .replace(/[0-9]/g, (digit) => "০১২৩৪৫৬৭৮৯"[Number(digit)]);
+}
+
 function Entry({ entry, locale, color }: { entry: TimelineEntry; locale: Locale; color: string }) {
   const t = copy[locale];
   const isLandmark = entry.importance === "landmark";
@@ -76,7 +99,7 @@ function Entry({ entry, locale, color }: { entry: TimelineEntry; locale: Locale;
       <p
         className={`text-eyebrow md:absolute md:left-[calc(-2rem-9rem)] md:w-32 md:text-right ${isLandmark ? "md:top-6" : isMajor ? "md:top-5" : "md:top-4"}`}
       >
-        {entry.year}
+        {formatYear(entry.year, locale)}
       </p>
       <Link
         href={`/${locale}/events/${entry.slug}`}
@@ -222,7 +245,7 @@ export function TimelineExplorerInteractive({ events, eras, locale }: { events: 
                   >
                     <span className="whitespace-nowrap text-[13px] font-semibold leading-tight">{era.title}</span>
                     <span className="whitespace-nowrap text-xs leading-tight opacity-75">
-                      {era.startYear}–{era.endYear}
+                      {formatYear(era.startYear, locale)}–{formatYear(era.endYear, locale)}
                     </span>
                   </a>
                 </li>
@@ -251,7 +274,7 @@ export function TimelineExplorerInteractive({ events, eras, locale }: { events: 
             <section key={era.id} id={`era-${era.id}`} data-era-section={era.id} aria-labelledby={`era-title-${era.id}`} className="scroll-mt-44">
               <header className="mb-8 md:ml-44">
                 <p className="text-eyebrow" style={{ color: era.themeColor === "var(--sepia)" ? undefined : era.themeColor }}>
-                  {era.startYear ? `${era.startYear}–${era.endYear}` : ""}
+                  {era.startYear ? `${formatYear(era.startYear, locale)}–${formatYear(era.endYear, locale)}` : ""}
                 </p>
                 <h2 id={`era-title-${era.id}`} className="text-display mt-1 text-3xl font-semibold md:text-4xl">
                   {era.title}
