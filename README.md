@@ -22,6 +22,13 @@ Bengal Unfolded is a digital project that presents the history of Bengal and Ban
 - [AI Integration Contract](docs/AI_CONTRACT.md)
 - [Editorial Guidelines](docs/EDITORIAL_GUIDELINES.md)
 
+### SEO Audit and Planning
+- [Repository SEO Audit (2026-11)](docs/SEO_REPOSITORY_AUDIT_2026-11.md)
+- [SEO Opportunity Report (2026-11)](docs/SEO_OPPORTUNITY_REPORT_2026-11.md)
+- [Trends and Opportunity Scoring Workflow](docs/SEO_TRENDS_AND_SCORING_WORKFLOW.md)
+- [90-Day SEO Roadmap (2026-11)](docs/SEO_90_DAY_ROADMAP_2026-11.md)
+- [SEO Validation Report (2026-11)](docs/SEO_VALIDATION_REPORT_2026-11.md)
+
 ### Technical
 - [Performance Guardrails](docs/PERFORMANCE.md)
 - [SEO Audit Archive](docs/archive/seo-audit.md)
