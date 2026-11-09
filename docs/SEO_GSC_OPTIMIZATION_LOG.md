@@ -116,6 +116,8 @@ Affected: ~161 events and ~281 figures without custom `seoTitle`. Root cause: `g
 
 ## Change History
 
+| 2026-11-09 | Targeted bilingual SERP refresh for Mirza Mughal, Mirza Khizr Sultan, Alivardi Khan, Khan Bahadur Khan Rohilla, and Mir Madan. Titles and descriptions now lead with identity, role, event/place, or date terms reflected in the attached GSC query/page export. No route, schema, or body-content changes. Recheck after 28 days. |
+
 | 2026-09-15 | Enriched A. M. M. Nasir Uddin in EN/BN with Election Commission leadership, civil-service background, 2024 appointment, 2026 election cycle, and evidence-conscious localized SEO metadata; re-ran the figure audit. |
 
 | 2026-09-15 | Enriched Akhtar Ahmed in EN/BN with Election Commission Secretariat responsibilities, his dated 2024 appointment, 2026 election administration, and time-sensitive localized SEO metadata; re-ran the figure audit. |
