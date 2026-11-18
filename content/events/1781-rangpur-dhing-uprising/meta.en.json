@@ -1,13 +1,13 @@
 {
   "slug": "1781-rangpur-dhing-uprising",
-  "year": "1781",
+  "year": "1783",
   "title": "Rangpur Dhing Uprising",
-  "subtitle": "Colonial Resistance in Bengal/Bangladesh history.",
-  "summary": "Rangpur Dhing Uprising was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "Peasant resistance to revenue collection in Rangpur, 1783",
+  "summary": "In early 1783, cultivators in Rangpur district rose against revenue demands associated with the East India Company’s revenue farmer Devi Singh. The rebellion, known as the Rangpur Dhing, drew in raiyats and some zamindars; rebel leaders selected Nuruddin as Nawab and Daya Sil as Dewan and organized a levy called dhing kharcha. Historians differ in interpreting the scale and character of the rising.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key colonial resistance chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "The 1783 Rangpur Dhing and resistance to revenue exactions",
+  "whyItMatters": "The Rangpur Dhing shows how revenue farming and coercive collection could provoke organized rural resistance in early Company rule. James Wilson places it within a wider pattern of late eighteenth-century peasant unrest; surviving accounts do not support describing it as a unified nationalist movement.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -34,7 +34,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Rangpur Dhing Uprising was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "In early 1783, cultivators in Rangpur district rose against revenue demands associated with the East India Company’s revenue farmer Devi Singh. The rebellion, known as the Rangpur Dhing, drew in raiyats and some zamindars; rebel leaders selected Nuruddin as Nawab and Daya Sil as Dewan and organized a levy called dhing kharcha. Historians differ in interpreting the scale and character of the rising.",
       "sourceIds": [
         "history-banglapedia",
         "a-history-of-bangladesh"
@@ -44,7 +44,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The Rangpur Dhing shows how revenue farming and coercive collection could provoke organized rural resistance in early Company rule. James Wilson places it within a wider pattern of late eighteenth-century peasant unrest; surviving accounts do not support describing it as a unified nationalist movement.",
       "sourceIds": [
         "history-banglapedia",
         "a-history-of-bangladesh"

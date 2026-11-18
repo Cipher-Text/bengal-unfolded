@@ -2,12 +2,12 @@
   "slug": "2016-holey-artisan-attack",
   "year": "2016",
   "title": "Holey Artisan Attack",
-  "subtitle": "Security and Extremism in Bengal/Bangladesh history.",
-  "summary": "Holey Artisan Attack was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "The 1 July 2016 attack and siege at a restaurant in Gulshan, Dhaka",
+  "summary": "On the evening of 1 July 2016, armed attackers entered the Holey Artisan Bakery restaurant in Dhaka’s Gulshan area and held people inside during an overnight siege. Bangladeshi authorities treated the incident as a terrorist attack; a later court process attributed the conspiracy to the Neo-JMB network. The Islamic State group also claimed responsibility, while the government identified a domestic militant group. This chapter omits casualty totals because the sources currently attached to it do not establish a consistent figure.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key security and extremism chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "The Holey Artisan attack and overnight siege, 1–2 July 2016",
+  "whyItMatters": "The attack brought militant violence into a prominent international and diplomatic district and prompted an intensified security response. Responsibility claims require attribution: the Islamic State claim and the Bangladeshi government’s account differed, while court findings later identified Neo-JMB involvement. The account should distinguish those claims from judicial findings.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -34,7 +34,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Holey Artisan Attack was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "On the evening of 1 July 2016, armed attackers entered the Holey Artisan Bakery restaurant in Dhaka’s Gulshan area and held people inside during an overnight siege. Bangladeshi authorities treated the incident as a terrorist attack; a later court process attributed the conspiracy to the Neo-JMB network. The Islamic State group also claimed responsibility, while the government identified a domestic militant group. This chapter omits casualty totals because the sources currently attached to it do not establish a consistent figure.",
       "sourceIds": [
         "history-banglapedia",
         "bangladesh-since-independence-britannica"
@@ -44,7 +44,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The attack brought militant violence into a prominent international and diplomatic district and prompted an intensified security response. Responsibility claims require attribution: the Islamic State claim and the Bangladeshi government’s account differed, while court findings later identified Neo-JMB involvement. The account should distinguish those claims from judicial findings.",
       "sourceIds": [
         "history-banglapedia",
         "bangladesh-since-independence-britannica"
@@ -53,7 +53,7 @@
     }
   ],
   "contentWarnings": [
-    "political violence"
+    "Terrorist attack and hostage-taking"
   ],
   "stub": true
 }

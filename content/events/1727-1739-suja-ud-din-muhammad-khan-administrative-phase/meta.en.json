@@ -2,12 +2,12 @@
   "slug": "1727-1739-suja-ud-din-muhammad-khan-administrative-phase",
   "year": "1727",
   "title": "Shuja-ud-Din Administrative Phase in Bengal",
-  "subtitle": "Nawab Bengal in Bengal/Bangladesh history.",
-  "summary": "Shuja-ud-Din Administrative Phase in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "Bengal under Shujauddin Muhammad Khan, 1727–1739",
+  "summary": "Shujauddin Muhammad Khan became Nawab of Bengal in 1727 after Murshid Quli Khan’s death and governed until 1739. He appointed relatives and officials to provincial posts and pursued accommodation with zamindars. In 1733 Bihar was added to the Bengal subah, whose administration was divided among central Bengal, Dhaka, Bihar and Orissa; deputy governors oversaw the outlying divisions, and Alivardi Khan was placed in charge of Bihar.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key nawab bengal chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "Provincial reorganization under Shujauddin, 1727–1739",
+  "whyItMatters": "Shujauddin’s administrative phase shows the Bengal nawabate governing a large Mughal province through appointments and regional deputy administrations. The addition of Bihar and division into four charges were specific institutional changes of his reign. Banglapedia describes the period as generally peaceful, though Badiuzzaman’s revolt in Birbhum was suppressed.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,12 +15,12 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "a-comprehensive-history-of-modern-bengal-1700-1950",
-    "history-banglapedia"
+    "history-banglapedia",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
   ],
   "whyItMattersSourceIds": [
-    "a-comprehensive-history-of-modern-bengal-1700-1950",
-    "history-banglapedia"
+    "history-banglapedia",
+    "a-comprehensive-history-of-modern-bengal-1700-1950"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -34,23 +34,23 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Shuja-ud-Din Administrative Phase in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "Shujauddin Muhammad Khan became Nawab of Bengal in 1727 after Murshid Quli Khan’s death and governed until 1739. He appointed relatives and officials to provincial posts and pursued accommodation with zamindars. In 1733 Bihar was added to the Bengal subah, whose administration was divided among central Bengal, Dhaka, Bihar and Orissa; deputy governors oversaw the outlying divisions, and Alivardi Khan was placed in charge of Bihar.",
       "sourceIds": [
-        "a-comprehensive-history-of-modern-bengal-1700-1950",
-        "history-banglapedia"
+        "history-banglapedia",
+        "a-comprehensive-history-of-modern-bengal-1700-1950"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "Shujauddin’s administrative phase shows the Bengal nawabate governing a large Mughal province through appointments and regional deputy administrations. The addition of Bihar and division into four charges were specific institutional changes of his reign. Banglapedia describes the period as generally peaceful, though Badiuzzaman’s revolt in Birbhum was suppressed.",
       "sourceIds": [
-        "a-comprehensive-history-of-modern-bengal-1700-1950",
-        "history-banglapedia"
+        "history-banglapedia",
+        "a-comprehensive-history-of-modern-bengal-1700-1950"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false
 }

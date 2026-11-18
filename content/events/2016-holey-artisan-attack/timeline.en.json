@@ -1,8 +1,8 @@
 [
   {
-    "year": "2016",
-    "title": "Context",
-    "detail": "Holey Artisan Attack was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "1 July 2016",
+    "title": "Attack and siege at Holey Artisan",
+    "detail": "Armed attackers entered the Holey Artisan Bakery in Gulshan, Dhaka, and people inside were held during an overnight siege. The Islamic State group claimed responsibility; Bangladeshi authorities attributed the attack to a domestic militant network.",
     "sourceIds": [
       "history-banglapedia",
       "bangladesh-since-independence-britannica"
@@ -13,17 +13,16 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "2 July 2016",
+    "title": "Security operation ends the siege",
+    "detail": "Bangladeshi security forces entered the restaurant and ended the siege. Public accounts differ in details of the operation and its toll; figures are omitted because the attached sources do not support a consistent count.",
     "sourceIds": [
       "history-banglapedia",
       "bangladesh-since-independence-britannica"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

@@ -1,28 +1,27 @@
 [
   {
-    "year": "1963",
-    "title": "Context",
-    "detail": "Hazratbal Crisis and Communal Tensions in East Pakistan was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "27 December 1963",
+    "title": "Relic reported missing at Hazratbal",
+    "detail": "A relic believed by devotees to be a hair of the Prophet Muhammad was reported missing from the Hazratbal shrine in Srinagar, prompting protests.",
     "sourceIds": [
       "history-banglapedia",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
+      "culture"
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "3 January 1964",
+    "title": "Communal violence reported in Khulna",
+    "detail": "Contemporary United Nations reporting recorded violent disturbances in Khulna and surrounding areas of East Pakistan, including killings, arson, looting and damage to property.",
     "sourceIds": [
       "history-banglapedia",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
       "culture"
     ]
   }

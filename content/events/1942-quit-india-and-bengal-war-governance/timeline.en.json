@@ -1,29 +1,41 @@
 [
   {
     "year": "1942",
-    "title": "Context",
-    "detail": "Quit India Phase and Bengal War Governance was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "title": "Denial measures in coastal Bengal",
+    "detail": "Amid invasion fears, colonial authorities implemented denial measures in parts of Bengal, including removal or restriction of boats and rice stocks. The measures disrupted local transport and provisioning; historians debate their significance.",
     "sourceIds": [
-      "bengal-famine-1943-das",
+      "hungry-bengal-war-famine-end-empire",
       "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
+      "war"
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "8 August 1942",
+    "title": "Quit India resolution adopted",
+    "detail": "The All-India Congress Committee adopted the Quit India resolution in Bombay, calling for an end to British rule. Bengal’s campaign developed amid wartime restrictions and local political organization.",
     "sourceIds": [
-      "bengal-famine-1943-das",
+      "hungry-bengal-war-famine-end-empire",
       "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "war"
+    ]
+  },
+  {
+    "year": "9 August 1942",
+    "title": "Congress leaders arrested",
+    "detail": "The colonial government arrested leading Congress figures after the resolution. Bengal’s response varied by locality and included rural activism and revolutionary-party activity.",
+    "sourceIds": [
+      "hungry-bengal-war-famine-end-empire",
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
     ]
   }
 ]

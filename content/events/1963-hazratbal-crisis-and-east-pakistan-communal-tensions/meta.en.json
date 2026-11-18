@@ -2,12 +2,12 @@
   "slug": "1963-hazratbal-crisis-and-east-pakistan-communal-tensions",
   "year": "1963",
   "title": "Hazratbal Crisis and Communal Tensions in East Pakistan",
-  "subtitle": "Pakistan Period in Bengal/Bangladesh history.",
-  "summary": "Hazratbal Crisis and Communal Tensions in East Pakistan was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "The Hazratbal relic theft and communal violence in East Pakistan, 1963–1964",
+  "summary": "On 27 December 1963, a relic believed by devotees to be a hair of the Prophet Muhammad was reported missing from the Hazratbal shrine in Srinagar. The theft prompted protests. On 3 January 1964, communal violence broke out in Khulna and nearby areas of East Pakistan; contemporary United Nations reporting recorded killings, arson, looting and destruction of property. Responsibility and the scale of violence should be described through attributed accounts rather than generalized blame.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key pakistan period chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "From the Hazratbal relic theft to violence in East Pakistan",
+  "whyItMatters": "The crisis shows how a religiously charged event in Kashmir became entangled with communal tensions and minority insecurity in East Pakistan. The United Nations record describes violence beginning in Khulna on 3 January 1964, while later scholarship treats the relic episode as a catalyst within broader regional dynamics. Casualty figures vary and are omitted here.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -26,7 +26,7 @@
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "memory-justice-and-civic-dissent",
-  "sensitive": false,
+  "sensitive": true,
   "requiresSources": true,
   "placeId": "hazratbal-srinagar",
   "placeLabel": "Hazratbal (Srinagar)",
@@ -34,7 +34,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Hazratbal Crisis and Communal Tensions in East Pakistan was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "On 27 December 1963, a relic believed by devotees to be a hair of the Prophet Muhammad was reported missing from the Hazratbal shrine in Srinagar. The theft prompted protests. On 3 January 1964, communal violence broke out in Khulna and nearby areas of East Pakistan; contemporary United Nations reporting recorded killings, arson, looting and destruction of property. Responsibility and the scale of violence should be described through attributed accounts rather than generalized blame.",
       "sourceIds": [
         "history-banglapedia",
         "a-history-of-bangladesh"
@@ -44,7 +44,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The crisis shows how a religiously charged event in Kashmir became entangled with communal tensions and minority insecurity in East Pakistan. The United Nations record describes violence beginning in Khulna on 3 January 1964, while later scholarship treats the relic episode as a catalyst within broader regional dynamics. Casualty figures vary and are omitted here.",
       "sourceIds": [
         "history-banglapedia",
         "a-history-of-bangladesh"
@@ -52,5 +52,8 @@
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": true,
+  "contentWarnings": [
+    "Communal violence and religious-site desecration claims"
+  ]
 }

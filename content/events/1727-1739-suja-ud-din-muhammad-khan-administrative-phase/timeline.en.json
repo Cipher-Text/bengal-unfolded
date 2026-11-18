@@ -1,29 +1,41 @@
 [
   {
     "year": "1727",
-    "title": "Context",
-    "detail": "Shuja-ud-Din Administrative Phase in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "title": "Shujauddin becomes Nawab",
+    "detail": "After Murshid Quli Khan’s death, Shujauddin Muhammad Khan assumed the nawabship of Bengal; Sarfaraz Khan was appointed diwan of Bengal.",
     "sourceIds": [
-      "a-comprehensive-history-of-modern-bengal-1700-1950",
-      "history-banglapedia"
+      "history-banglapedia",
+      "a-comprehensive-history-of-modern-bengal-1700-1950"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
+      "economy"
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "1733",
+    "title": "Bihar added to the Bengal subah",
+    "detail": "Shujauddin added Bihar to the Bengal subah and arranged administration in four divisions: central Bengal, Dhaka, Bihar and Orissa.",
     "sourceIds": [
-      "a-comprehensive-history-of-modern-bengal-1700-1950",
-      "history-banglapedia"
+      "history-banglapedia",
+      "a-comprehensive-history-of-modern-bengal-1700-1950"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "economy"
+    ]
+  },
+  {
+    "year": "1739",
+    "title": "End of Shujauddin’s reign",
+    "detail": "Shujauddin died in 1739. Sarfaraz Khan succeeded him as Nawab of Bengal.",
+    "sourceIds": [
+      "history-banglapedia",
+      "a-comprehensive-history-of-modern-bengal-1700-1950"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "economy"
     ]
   }
 ]

@@ -1,29 +1,15 @@
 [
   {
-    "year": "1781",
-    "title": "Context",
-    "detail": "Rangpur Dhing Uprising was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "1783",
+    "title": "Raiyats’ uprising in Rangpur",
+    "detail": "In early 1783, raiyats rebelled against revenue collection by Devi Singh’s agents. Accounts describe leaders choosing Nuruddin as Nawab and Daya Sil as Dewan, and raising dhing kharcha to sustain resistance.",
     "sourceIds": [
       "history-banglapedia",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
-    ]
-  },
-  {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
-    "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy",
-      "culture"
+      "economy"
     ]
   }
 ]
