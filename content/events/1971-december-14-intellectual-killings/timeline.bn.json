@@ -1,11 +1,11 @@
 [
   {
-    "year": "1971",
-    "title": "প্রেক্ষিত",
-    "detail": "১৪ ডিসেম্বর বুদ্ধিজীবী হত্যাকাণ্ড বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+    "year": "১৪ ডিসেম্বর ১৯৭১",
+    "title": "ঢাকায় বুদ্ধিজীবীদের অপহরণ",
+    "detail": "ঢাকায় বাড়ি থেকে শিক্ষক, চিকিৎসক, সাংবাদিক ও পেশাজীবীদের তুলে নেওয়া হয়। পরবর্তী বিচারে নির্দিষ্ট মামলায় দায় নির্ধারিত হয়েছে, কোনো সর্বজনীন নিহতের সংখ্যা নয়।",
     "sourceIds": [
       "ekattorer-buddhijibi-hottakahini",
-      "history-of-the-1971-liberation-war"
+      "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +13,15 @@
     ]
   },
   {
-    "year": "উত্তরাধিকার",
-    "title": "দীর্ঘমেয়াদি প্রভাব",
-    "detail": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+    "year": "৩ নভেম্বর ২০১৩",
+    "title": "আইসিটি-২-এর রায়",
+    "detail": "ট্রাইব্যুনাল সংশ্লিষ্ট অভিযোগে চৌধুরী মঈনুদ্দীন ও আশরাফুজ্জামান খানকে দোষী সাব্যস্ত করে এবং অনুপস্থিতিতে সাজা দেয়।",
     "sourceIds": [
-      "ekattorer-buddhijibi-hottakahini",
-      "history-of-the-1971-liberation-war"
+      "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

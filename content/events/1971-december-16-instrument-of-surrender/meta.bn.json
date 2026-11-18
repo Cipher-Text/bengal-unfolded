@@ -2,12 +2,12 @@
   "slug": "1971-december-16-instrument-of-surrender",
   "year": "1971",
   "title": "১৬ ডিসেম্বর আত্মসমর্পণ দলিল",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Liberation War প্রেক্ষিত।",
-  "summary": "১৬ ডিসেম্বর আত্মসমর্পণ দলিল বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "subtitle": "১৬ ডিসেম্বর ১৯৭১, ঢাকা",
+  "summary": "১৯৭১ সালের ১৬ ডিসেম্বর ঢাকার রমনা রেসকোর্সে লেফটেন্যান্ট জেনারেল এ এ কে নিয়াজি আত্মসমর্পণের দলিলে স্বাক্ষর করেন; ভারতীয় ও বাংলাদেশি বাহিনীর পূর্বাঞ্চলীয় কমান্ডার-ইন-চিফ লেফটেন্যান্ট জেনারেল জগজিৎ সিং অরোরা তা গ্রহণ করেন। বাংলাপিডিয়ায় স্বাক্ষরের সময় বিকেল ৫টা ১ মিনিট বলা হয়েছে, তবে সময় অঞ্চল উল্লেখ করা হয়নি; সমসাময়িক ভারতীয় সংসদীয় ঘোষণায় সময় দেওয়া হয়েছে ভারতীয় মান সময় ১৬:৩১, আর কিসিংসের ১৯৭২ সালের বিবরণে সময় ৪:৩১ বিকেল বলা হলেও সময় অঞ্চল উল্লেখ নেই। তাই বিবরণগুলোতে সময়ের অমিল রয়েছে। বাংলাপিডিয়া জানায়, বাংলাদেশ বাহিনীর উপপ্রধান গ্রুপ ক্যাপ্টেন এ কে খন্দকার মুক্তিবাহিনীর প্রতিনিধিত্ব করেন।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "রমনা রেসকোর্সে আত্মসমর্পণ অনুষ্ঠান",
+  "whyItMatters": "দলিলটি যুদ্ধের সামরিক ফল নির্ধারণ করে এবং পূর্বাঞ্চলে পাকিস্তানি সামরিক কর্তৃত্বের অবসান ঘটায়। দিনটি বিজয় দিবস হিসেবে পালিত হয়; পুনর্গঠন ও যুদ্ধকালীন সহিংসতার পরিণতি এরপরও চলতে থাকে।",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,14 +15,14 @@
   "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
   "showOnLanding": false,
   "summarySourceIds": [
-    "instrument-of-surrender-1971-text",
-    "witness-to-surrender"
+    "war-of-liberation-banglapedia",
+    "bangladesher-shadhinota-juddho-dolilpotro"
   ],
   "whyItMattersSourceIds": [
-    "instrument-of-surrender-1971-text",
-    "witness-to-surrender"
+    "war-of-liberation-banglapedia",
+    "bangladesher-shadhinota-juddho-dolilpotro"
   ],
-  "summaryEvidenceLevel": "medium",
+  "summaryEvidenceLevel": "high",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "memory-justice-and-civic-dissent",
@@ -34,26 +34,41 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "১৬ ডিসেম্বর আত্মসমর্পণ দলিল বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+      "claim": "১৯৭১ সালের ১৬ ডিসেম্বর ঢাকার রমনা রেসকোর্সে লেফটেন্যান্ট জেনারেল এ এ কে নিয়াজি আত্মসমর্পণের দলিলে স্বাক্ষর করেন; ভারতীয় ও বাংলাদেশি বাহিনীর পূর্বাঞ্চলীয় কমান্ডার-ইন-চিফ লেফটেন্যান্ট জেনারেল জগজিৎ সিং অরোরা তা গ্রহণ করেন। বাংলাপিডিয়ায় সময় বিকেল ৫টা ১ মিনিট, কিন্তু সময় অঞ্চল উল্লেখ নেই; সমসাময়িক ভারতীয় সংসদীয় ঘোষণায় ১৬:৩১ IST; কিসিংসের ১৯৭২ সালের বিবরণে ৪:৩১ বিকেল, কিন্তু সময় অঞ্চল উল্লেখ নেই। বিবরণগুলোতে সময়ের অমিল রয়েছে। বাংলাপিডিয়া জানায়, বাংলাদেশ বাহিনীর উপপ্রধান গ্রুপ ক্যাপ্টেন এ কে খন্দকার মুক্তিবাহিনীর প্রতিনিধিত্ব করেন।",
       "sourceIds": [
-        "instrument-of-surrender-1971-text",
-        "witness-to-surrender"
+        "war-of-liberation-banglapedia",
+        "bangladesher-shadhinota-juddho-dolilpotro"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "high"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+      "claim": "দলিলটি যুদ্ধের সামরিক ফল নির্ধারণ করে এবং পূর্বাঞ্চলে পাকিস্তানি সামরিক কর্তৃত্বের অবসান ঘটায়। দিনটি বিজয় দিবস হিসেবে পালিত হয়; পুনর্গঠন ও যুদ্ধকালীন সহিংসতার পরিণতি এরপরও চলতে থাকে।",
       "sourceIds": [
-        "instrument-of-surrender-1971-text",
-        "witness-to-surrender"
+        "war-of-liberation-banglapedia",
+        "bangladesher-shadhinota-juddho-dolilpotro"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "আত্মসমর্পণের দলিল বাংলাদেশের বিজয়ের প্রাথমিক ঐতিহাসিক নথি এবং ১৬ ডিসেম্বরের বার্ষিক স্মারক।",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "bangladesher-shadhinota-juddho-dolilpotro"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "contentWarnings": [
-    "রাজনৈতিক সহিংসতা"
+  "contentWarnings": [],
+  "stub": false,
+  "longTermLegacy": "আত্মসমর্পণের দলিল বাংলাদেশের বিজয়ের প্রাথমিক ঐতিহাসিক নথি এবং ১৬ ডিসেম্বরের বার্ষিক স্মারক।",
+  "longTermLegacySourceIds": [
+    "war-of-liberation-banglapedia",
+    "bangladesher-shadhinota-juddho-dolilpotro"
   ],
-  "stub": true
+  "longTermLegacyEvidenceLevel": "medium",
+  "summaryClaimEvidenceLevel": "high"
 }

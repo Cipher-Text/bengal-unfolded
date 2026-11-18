@@ -1,29 +1,39 @@
 [
   {
-    "year": "1947",
-    "title": "Context",
-    "detail": "Radcliffe Award Border Demarcation Implementation was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "13 August 1947",
+    "title": "Award dated",
+    "detail": "Radcliffe dated the Bengal Boundary Commission award 13 August.",
     "sourceIds": [
-      "radcliffe-award-documents",
-      "indian-annual-register-1947"
+      "radcliffe-award-documents"
     ],
-    "evidenceLevel": "medium",
+    "evidenceLevel": "high",
     "themes": [
       "democracy"
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "17 August 1947",
+    "title": "Boundary award announced",
+    "detail": "The award was publicly announced after independence.",
     "sourceIds": [
       "radcliffe-award-documents",
       "indian-annual-register-1947"
     ],
-    "evidenceLevel": "medium",
+    "evidenceLevel": "high",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
+    ]
+  },
+  {
+    "year": "14 December 1948",
+    "title": "Inter-dominion agreement on disputes",
+    "detail": "India and Pakistan agreed to establish a tribunal for specified disputes over interpretation and demarcation.",
+    "sourceIds": [
+      "radcliffe-award-documents"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
     ]
   }
 ]

@@ -2,12 +2,12 @@
   "slug": "1971-december-16-instrument-of-surrender",
   "year": "1971",
   "title": "16 December Instrument of Surrender",
-  "subtitle": "Liberation War in Bengal/Bangladesh history.",
-  "summary": "16 December Instrument of Surrender was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "16 December 1971, Dhaka",
+  "summary": "On 16 December 1971, Lieutenant General A. A. K. Niazi signed the Instrument of Surrender at Dhaka’s Ramna Racecourse, accepted by Lieutenant General Jagjit Singh Aurora, the General Officer Commanding-in-Chief of the Indian and Bangladesh forces in the eastern theatre. Banglapedia gives the signing time as 5:01 p.m. without specifying a time zone; a contemporaneous Indian parliamentary announcement gives 16:31 Indian Standard Time, and Keesing’s 1972 account gives 4:31 p.m. without specifying a time zone. Accounts therefore differ. Banglapedia states that Group Captain A. K. Khandaker, deputy chief of staff of the Bangladesh forces, represented the Mukti Bahini.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key liberation war chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "The surrender ceremony at Ramna Racecourse",
+  "whyItMatters": "The instrument fixed the military outcome of the war and ended Pakistani command in the east. The date is commemorated as Victory Day, while reconstruction and the consequences of wartime violence continued.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,14 +15,14 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "instrument-of-surrender-1971-text",
-    "witness-to-surrender"
+    "war-of-liberation-banglapedia",
+    "bangladesher-shadhinota-juddho-dolilpotro"
   ],
   "whyItMattersSourceIds": [
-    "instrument-of-surrender-1971-text",
-    "witness-to-surrender"
+    "war-of-liberation-banglapedia",
+    "bangladesher-shadhinota-juddho-dolilpotro"
   ],
-  "summaryEvidenceLevel": "medium",
+  "summaryEvidenceLevel": "high",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "memory-justice-and-civic-dissent",
@@ -34,26 +34,41 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "16 December Instrument of Surrender was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "On 16 December 1971, Lieutenant General A. A. K. Niazi signed the Instrument of Surrender at Dhaka’s Ramna Racecourse, accepted by Lieutenant General Jagjit Singh Aurora, the General Officer Commanding-in-Chief of the Indian and Bangladesh forces in the eastern theatre. Banglapedia gives 5:01 p.m. without a time zone; a contemporaneous Indian parliamentary announcement gives 16:31 IST; Keesing’s 1972 account gives 4:31 p.m. without a time zone. Accounts differ. Banglapedia states that Group Captain A. K. Khandaker, deputy chief of staff of the Bangladesh forces, represented the Mukti Bahini.",
       "sourceIds": [
-        "instrument-of-surrender-1971-text",
-        "witness-to-surrender"
+        "war-of-liberation-banglapedia",
+        "bangladesher-shadhinota-juddho-dolilpotro"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "high"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The instrument fixed the military outcome of the war and ended Pakistani command in the east. The date is commemorated as Victory Day, while reconstruction and the consequences of wartime violence continued.",
       "sourceIds": [
-        "instrument-of-surrender-1971-text",
-        "witness-to-surrender"
+        "war-of-liberation-banglapedia",
+        "bangladesher-shadhinota-juddho-dolilpotro"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The surrender remains a primary documentary marker of Bangladesh’s victory and is commemorated annually on 16 December.",
+      "sourceIds": [
+        "war-of-liberation-banglapedia",
+        "bangladesher-shadhinota-juddho-dolilpotro"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "contentWarnings": [
-    "political violence"
+  "contentWarnings": [],
+  "stub": false,
+  "longTermLegacy": "The surrender remains a primary documentary marker of Bangladesh’s victory and is commemorated annually on 16 December.",
+  "longTermLegacySourceIds": [
+    "war-of-liberation-banglapedia",
+    "bangladesher-shadhinota-juddho-dolilpotro"
   ],
-  "stub": true
+  "longTermLegacyEvidenceLevel": "medium",
+  "summaryClaimEvidenceLevel": "high"
 }

@@ -2,12 +2,12 @@
   "slug": "1988-eighth-amendment-state-religion",
   "year": "1988",
   "title": "Eighth Amendment and State Religion",
-  "subtitle": "Constitutional Change in Bengal/Bangladesh history.",
-  "summary": "Eighth Amendment and State Religion was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "On 7 June 1988, Bangladesh’s parliament passed the Constitution (Eighth Amendment) Act",
+  "summary": "On 7 June 1988, Bangladesh’s parliament passed the Constitution (Eighth Amendment) Act. It inserted Article 2A declaring Islam the state religion while allowing other religions to be practised in peace and harmony; it also created six permanent High Court Division benches outside Dhaka.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key constitutional change chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "On 7 June 1988, Bangladesh’s parliament passed the Constitution (Eighth Amendment) Act",
+  "whyItMatters": "The amendment placed a state-religion clause in the Constitution and became a focus of debate over religious identity and secular constitutional principles. The Supreme Court later struck down the separate High Court bench provision; that ruling did not concern Article 2A.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -26,7 +26,7 @@
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
   "movementId": "memory-justice-and-civic-dissent",
-  "sensitive": false,
+  "sensitive": true,
   "requiresSources": true,
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region",
@@ -34,7 +34,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Eighth Amendment and State Religion was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "On 7 June 1988, Bangladesh’s parliament passed the Constitution (Eighth Amendment) Act. It inserted Article 2A declaring Islam the state religion while allowing other religions to be practised in peace and harmony; it also created six permanent High Court Division benches outside Dhaka.",
       "sourceIds": [
         "constitution-banglapedia",
         "bangladesh-since-independence-britannica"
@@ -44,7 +44,17 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The amendment placed a state-religion clause in the Constitution and became a focus of debate over religious identity and secular constitutional principles. The Supreme Court later struck down the separate High Court bench provision; that ruling did not concern Article 2A.",
+      "sourceIds": [
+        "constitution-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Article 2A remains in the constitutional framework alongside guarantees concerning other religions; debate over state religion and secular principles continues.",
       "sourceIds": [
         "constitution-banglapedia",
         "bangladesh-since-independence-britannica"
@@ -52,5 +62,14 @@
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false,
+  "contentWarnings": [
+    "constitutional and religious identity debate"
+  ],
+  "longTermLegacy": "Article 2A remains in the constitutional framework alongside guarantees concerning other religions; debate over state religion and secular principles continues.",
+  "longTermLegacySourceIds": [
+    "constitution-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

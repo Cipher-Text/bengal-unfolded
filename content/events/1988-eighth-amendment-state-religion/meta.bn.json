@@ -2,12 +2,12 @@
   "slug": "1988-eighth-amendment-state-religion",
   "year": "1988",
   "title": "অষ্টম সংশোধনী ও রাষ্ট্রধর্ম",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Constitutional Change প্রেক্ষিত।",
-  "summary": "অষ্টম সংশোধনী ও রাষ্ট্রধর্ম বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "subtitle": "১৯৮৮ সালের ৭ জুন বাংলাদেশের সংসদ সংবিধান (অষ্টম সংশোধন) আইন পাস করে",
+  "summary": "১৯৮৮ সালের ৭ জুন বাংলাদেশের সংসদ সংবিধান (অষ্টম সংশোধন) আইন পাস করে। এতে ইসলামকে রাষ্ট্রধর্ম ঘোষণা করে ২ক অনুচ্ছেদ যুক্ত হয় এবং অন্য ধর্ম শান্তি ও সম্প্রীতির সঙ্গে পালনের কথা বলা হয়। ঢাকার বাইরে হাইকোর্ট বিভাগের ছয়টি স্থায়ী বেঞ্চের বিধানও করা হয়।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "১৯৮৮ সালের ৭ জুন বাংলাদেশের সংসদ সংবিধান (অষ্টম সংশোধন) আইন পাস করে",
+  "whyItMatters": "সংশোধনীটি সংবিধানে রাষ্ট্রধর্মের বিধান যুক্ত করে এবং ধর্মীয় পরিচয় ও ধর্মনিরপেক্ষ সাংবিধানিক নীতি নিয়ে বিতর্কের কেন্দ্রে আসে। সুপ্রিম কোর্ট পরে হাইকোর্ট বেঞ্চের পৃথক বিধান বাতিল করে; ওই রায় ২ক অনুচ্ছেদ নিয়ে ছিল না।",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -26,7 +26,7 @@
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "post-liberation-state-and-democracy",
   "movementId": "memory-justice-and-civic-dissent",
-  "sensitive": false,
+  "sensitive": true,
   "requiresSources": true,
   "placeId": "bengal-region",
   "placeLabel": "বাংলা অঞ্চল",
@@ -34,7 +34,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "অষ্টম সংশোধনী ও রাষ্ট্রধর্ম বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+      "claim": "১৯৮৮ সালের ৭ জুন বাংলাদেশের সংসদ সংবিধান (অষ্টম সংশোধন) আইন পাস করে। এতে ইসলামকে রাষ্ট্রধর্ম ঘোষণা করে ২ক অনুচ্ছেদ যুক্ত হয় এবং অন্য ধর্ম শান্তি ও সম্প্রীতির সঙ্গে পালনের কথা বলা হয়। ঢাকার বাইরে হাইকোর্ট বিভাগের ছয়টি স্থায়ী বেঞ্চের বিধানও করা হয়।",
       "sourceIds": [
         "constitution-banglapedia",
         "bangladesh-since-independence-britannica"
@@ -44,7 +44,17 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+      "claim": "সংশোধনীটি সংবিধানে রাষ্ট্রধর্মের বিধান যুক্ত করে এবং ধর্মীয় পরিচয় ও ধর্মনিরপেক্ষ সাংবিধানিক নীতি নিয়ে বিতর্কের কেন্দ্রে আসে। সুপ্রিম কোর্ট পরে হাইকোর্ট বেঞ্চের পৃথক বিধান বাতিল করে; ওই রায় ২ক অনুচ্ছেদ নিয়ে ছিল না।",
+      "sourceIds": [
+        "constitution-banglapedia",
+        "bangladesh-since-independence-britannica"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "অন্যান্য ধর্মের অধিকারসংক্রান্ত নিশ্চয়তার পাশাপাশি ২ক অনুচ্ছেদ সাংবিধানিক কাঠামোয় রয়েছে; রাষ্ট্রধর্ম ও ধর্মনিরপেক্ষ নীতি নিয়ে বিতর্ক অব্যাহত।",
       "sourceIds": [
         "constitution-banglapedia",
         "bangladesh-since-independence-britannica"
@@ -52,5 +62,14 @@
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false,
+  "contentWarnings": [
+    "সাংবিধানিক ও ধর্মীয় পরিচয় নিয়ে বিতর্ক"
+  ],
+  "longTermLegacy": "অন্যান্য ধর্মের অধিকারসংক্রান্ত নিশ্চয়তার পাশাপাশি ২ক অনুচ্ছেদ সাংবিধানিক কাঠামোয় রয়েছে; রাষ্ট্রধর্ম ও ধর্মনিরপেক্ষ নীতি নিয়ে বিতর্ক অব্যাহত।",
+  "longTermLegacySourceIds": [
+    "constitution-banglapedia",
+    "bangladesh-since-independence-britannica"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

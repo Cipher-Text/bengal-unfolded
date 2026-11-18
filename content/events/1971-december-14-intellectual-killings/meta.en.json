@@ -2,12 +2,12 @@
   "slug": "1971-december-14-intellectual-killings",
   "year": "1971",
   "title": "14 December Intellectual Killings",
-  "subtitle": "Liberation War in Bengal/Bangladesh history.",
-  "summary": "14 December Intellectual Killings was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "As Pakistani forces faced defeat in December 1971, Bengali teachers, doctors, journalists and other professionals were abducted and killed in Dhaka and elsewhere",
+  "summary": "As Pakistani forces faced defeat in December 1971, Bengali teachers, doctors, journalists and other professionals were abducted and killed in Dhaka and elsewhere. The best-documented Dhaka abductions occurred on 14 December. Sources describe Al-Badr involvement, but responsibility and casualty totals have been contested; no single total is stated here.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key liberation war chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "As Pakistani forces faced defeat in December 1971, Bengali teachers, doctors, journalists and other professionals were abducted and killed in Dhaka and elsewhere",
+  "whyItMatters": "The killings deprived the emerging country of intellectuals and professionals and became a lasting focus of public remembrance and accountability demands. Bangladesh observes 14 December as Martyred Intellectuals Day.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -16,11 +16,11 @@
   "showOnLanding": false,
   "summarySourceIds": [
     "ekattorer-buddhijibi-hottakahini",
-    "history-of-the-1971-liberation-war"
+    "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
   ],
   "whyItMattersSourceIds": [
     "ekattorer-buddhijibi-hottakahini",
-    "history-of-the-1971-liberation-war"
+    "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -34,26 +34,50 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "14 December Intellectual Killings was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "As Pakistani forces faced defeat in December 1971, Bengali teachers, doctors, journalists and other professionals were abducted and killed in Dhaka and elsewhere. The best-documented Dhaka abductions occurred on 14 December. Sources describe Al-Badr involvement, but responsibility and casualty totals have been contested; no single total is stated here.",
       "sourceIds": [
         "ekattorer-buddhijibi-hottakahini",
-        "history-of-the-1971-liberation-war"
+        "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The killings deprived the emerging country of intellectuals and professionals and became a lasting focus of public remembrance and accountability demands. Bangladesh observes 14 December as Martyred Intellectuals Day.",
       "sourceIds": [
         "ekattorer-buddhijibi-hottakahini",
-        "history-of-the-1971-liberation-war"
+        "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The annual observance of 14 December as Martyred Intellectuals Day keeps the killings central to public memory; trials and research continue to shape discussion of responsibility.",
+      "sourceIds": [
+        "ekattorer-buddhijibi-hottakahini",
+        "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
       ],
       "evidenceLevel": "medium"
     }
   ],
   "contentWarnings": [
-    "political violence"
+    "wartime abduction and killing",
+    "contested attribution and casualty estimates"
   ],
-  "stub": true
+  "stub": false,
+  "longTermLegacy": "The annual observance of 14 December as Martyred Intellectuals Day keeps the killings central to public memory; trials and research continue to shape discussion of responsibility.",
+  "longTermLegacySourceIds": [
+    "ekattorer-buddhijibi-hottakahini",
+    "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "Reported totals and attribution vary across sources and judicial records; no single casualty count is treated as settled.",
+  "historicalDebateSourceIds": [
+    "ekattorer-buddhijibi-hottakahini",
+    "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
 }

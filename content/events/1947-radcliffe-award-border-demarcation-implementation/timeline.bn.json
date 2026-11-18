@@ -1,29 +1,39 @@
 [
   {
-    "year": "1947",
-    "title": "প্রেক্ষিত",
-    "detail": "র‌্যাডক্লিফ পুরস্কার ও সীমারেখা বাস্তবায়ন বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+    "year": "১৩ আগস্ট ১৯৪৭",
+    "title": "বঙ্গীয় সীমানা রায়ের তারিখ",
+    "detail": "র‍্যাডক্লিফ বঙ্গীয় সীমানা কমিশনের রায়ে ১৩ আগস্ট তারিখ দেন।",
     "sourceIds": [
-      "radcliffe-award-documents",
-      "indian-annual-register-1947"
+      "radcliffe-award-documents"
     ],
-    "evidenceLevel": "medium",
+    "evidenceLevel": "high",
     "themes": [
       "democracy"
     ]
   },
   {
-    "year": "উত্তরাধিকার",
-    "title": "দীর্ঘমেয়াদি প্রভাব",
-    "detail": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+    "year": "১৭ আগস্ট ১৯৪৭",
+    "title": "সীমানা রায় প্রকাশ",
+    "detail": "স্বাধীনতার পর রায়টি প্রকাশিত হয়।",
     "sourceIds": [
       "radcliffe-award-documents",
       "indian-annual-register-1947"
     ],
-    "evidenceLevel": "medium",
+    "evidenceLevel": "high",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৪ ডিসেম্বর ১৯৪৮",
+    "title": "সীমানা বিরোধে আন্তঃরাষ্ট্রীয় চুক্তি",
+    "detail": "ব্যাখ্যা ও সীমানা নির্ধারণের নির্দিষ্ট বিরোধে ভারত ও পাকিস্তান ট্রাইব্যুনাল গঠনে সম্মত হয়।",
+    "sourceIds": [
+      "radcliffe-award-documents"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
     ]
   }
 ]

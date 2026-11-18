@@ -1,11 +1,10 @@
 [
   {
-    "year": "1988",
-    "title": "Context",
-    "detail": "Eighth Amendment and State Religion was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "7 June 1988",
+    "title": "Eighth Amendment passed",
+    "detail": "Parliament enacted the amendment, including Article 2A and provisions for High Court benches outside Dhaka.",
     "sourceIds": [
-      "constitution-banglapedia",
-      "bangladesh-since-independence-britannica"
+      "constitution-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +12,15 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "1989",
+    "title": "High Court bench provision invalidated",
+    "detail": "The Supreme Court held unconstitutional the Article 100 amendment creating permanent benches outside Dhaka.",
     "sourceIds": [
-      "constitution-banglapedia",
-      "bangladesh-since-independence-britannica"
+      "constitution-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

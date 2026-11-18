@@ -1,8 +1,8 @@
 [
   {
-    "year": "1885",
-    "title": "Context",
-    "detail": "INC Foundation and Bengal Political Response was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "1876",
+    "title": "Indian Association founded in Calcutta",
+    "detail": "The association provided an earlier Bengal-based setting for political mobilization.",
     "sourceIds": [
       "history-banglapedia",
       "a-history-of-bangladesh"
@@ -13,17 +13,16 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "28–31 December 1885",
+    "title": "First Congress session",
+    "detail": "The inaugural session met in Bombay, adding an all-India organization to existing regional networks.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "a-history-of-bangladesh",
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

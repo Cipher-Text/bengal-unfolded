@@ -2,12 +2,12 @@
   "slug": "1885-indian-national-congress-foundation-and-bengal-response",
   "year": "1885",
   "title": "INC Foundation and Bengal Political Response",
-  "subtitle": "National Politics in Bengal/Bangladesh history.",
-  "summary": "INC Foundation and Bengal Political Response was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "The Indian National Congress held its first session in Bombay from 28 to 31 December 1885",
+  "summary": "The Indian National Congress held its first session in Bombay from 28 to 31 December 1885. Bengal already had associational politics, including the Indian Association founded in Calcutta in 1876. The available event sources do not support a detailed account of Bengal-specific reactions in 1885.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key national politics chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "The Indian National Congress held its first session in Bombay from 28 to 31 December 1885",
+  "whyItMatters": "Congress created an all-India forum for political discussion, while Bengal’s earlier associations show regional political organization preceded it. Bengal’s diverse groups should not be assigned a single response.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,12 +15,12 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "a-history-of-bangladesh",
+    "history-banglapedia"
   ],
   "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "a-history-of-bangladesh",
+    "history-banglapedia"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -34,23 +34,40 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "INC Foundation and Bengal Political Response was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "The Indian National Congress held its first session in Bombay from 28 to 31 December 1885. Bengal already had associational politics, including the Indian Association founded in Calcutta in 1876. The available event sources do not support a detailed account of Bengal-specific reactions in 1885.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "a-history-of-bangladesh",
+        "history-banglapedia"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "Congress created an all-India forum for political discussion, while Bengal’s earlier associations show regional political organization preceded it. Bengal’s diverse groups should not be assigned a single response.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "a-history-of-bangladesh",
+        "history-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "Congress became a major platform in later Indian nationalist politics. Its foundation should be read alongside Bengal’s earlier regional associations.",
+      "sourceIds": [
+        "a-history-of-bangladesh",
+        "history-banglapedia"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": true,
+  "contentWarnings": [],
+  "longTermLegacy": "Congress became a major platform in later Indian nationalist politics. Its foundation should be read alongside Bengal’s earlier regional associations.",
+  "longTermLegacySourceIds": [
+    "a-history-of-bangladesh",
+    "history-banglapedia"
+  ],
+  "longTermLegacyEvidenceLevel": "medium"
 }

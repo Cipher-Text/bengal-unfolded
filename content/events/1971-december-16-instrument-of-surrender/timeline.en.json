@@ -1,43 +1,15 @@
 [
   {
-    "year": "Context",
-    "title": "Strategic setting",
-    "detail": "The surrender document formalized the defeat of Pakistani forces in East Pakistan and the victory of Bangladesh and Indian allied forces.",
+    "year": "16 December 1971",
+    "title": "Surrender at Ramna Racecourse",
+    "detail": "Lieutenant General A. A. K. Niazi signed the instrument at Ramna Racecourse; Lieutenant General Jagjit Singh Aurora, GOC-in-C of the Indian and Bangladesh forces in the eastern theatre, accepted it. Banglapedia reports 5:01 p.m. without a time zone; a contemporaneous Indian parliamentary announcement gives 16:31 IST, while Keesing’s 1972 account gives 4:31 p.m. without a time zone. Accounts differ. Banglapedia identifies Group Captain A. K. Khandaker, deputy chief of staff of the Bangladesh forces, as representing the Mukti Bahini.",
     "sourceIds": [
-      "instrument-of-surrender-1971-text",
-      "witness-to-surrender"
+      "war-of-liberation-banglapedia",
+      "bangladesher-shadhinota-juddho-dolilpotro"
     ],
-    "evidenceLevel": "medium",
+    "evidenceLevel": "high",
     "themes": [
-      "war",
       "democracy"
-    ]
-  },
-  {
-    "year": "1971",
-    "title": "16 December Instrument of Surrender",
-    "detail": "The ceremony at the Racecourse marked the military end of the war even as reconstruction, return, and justice questions remained.",
-    "sourceIds": [
-      "instrument-of-surrender-1971-text",
-      "witness-to-surrender"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "war"
-    ]
-  },
-  {
-    "year": "Memory",
-    "title": "Historical significance",
-    "detail": "The instrument remains one of the central documentary anchors of Bangladesh’s state birth.",
-    "sourceIds": [
-      "instrument-of-surrender-1971-text",
-      "witness-to-surrender"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "war",
-      "culture"
     ]
   }
 ]

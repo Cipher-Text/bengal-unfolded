@@ -1,11 +1,11 @@
 [
   {
-    "year": "1971",
-    "title": "Context",
-    "detail": "14 December Intellectual Killings was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "14 December 1971",
+    "title": "Dhaka intellectuals abducted",
+    "detail": "Teachers, doctors, journalists and other professionals were taken from homes in Dhaka. Later trials addressed responsibility in specific cases, not a universal casualty total.",
     "sourceIds": [
       "ekattorer-buddhijibi-hottakahini",
-      "history-of-the-1971-liberation-war"
+      "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +13,15 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "3 November 2013",
+    "title": "ICT-2 issues verdict",
+    "detail": "The tribunal convicted Chowdhury Mueen Uddin and Ashrafuzzaman Khan on related charges, sentencing both in absentia.",
     "sourceIds": [
-      "ekattorer-buddhijibi-hottakahini",
-      "history-of-the-1971-liberation-war"
+      "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

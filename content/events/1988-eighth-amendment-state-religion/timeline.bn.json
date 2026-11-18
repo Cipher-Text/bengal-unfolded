@@ -1,11 +1,10 @@
 [
   {
-    "year": "1988",
-    "title": "প্রেক্ষিত",
-    "detail": "অষ্টম সংশোধনী ও রাষ্ট্রধর্ম বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+    "year": "৭ জুন ১৯৮৮",
+    "title": "অষ্টম সংশোধনী পাস",
+    "detail": "সংসদ সংশোধনীটি প্রণয়ন করে; এতে ২ক অনুচ্ছেদ ও ঢাকার বাইরে হাইকোর্ট বেঞ্চের বিধান ছিল।",
     "sourceIds": [
-      "constitution-banglapedia",
-      "bangladesh-since-independence-britannica"
+      "constitution-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +12,15 @@
     ]
   },
   {
-    "year": "উত্তরাধিকার",
-    "title": "দীর্ঘমেয়াদি প্রভাব",
-    "detail": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+    "year": "১৯৮৯",
+    "title": "হাইকোর্ট বেঞ্চের বিধান বাতিল",
+    "detail": "ঢাকার বাইরে স্থায়ী বেঞ্চ গঠনের ১০০ অনুচ্ছেদের সংশোধনীকে সুপ্রিম কোর্ট অসাংবিধানিক বলে রায় দেয়।",
     "sourceIds": [
-      "constitution-banglapedia",
-      "bangladesh-since-independence-britannica"
+      "constitution-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

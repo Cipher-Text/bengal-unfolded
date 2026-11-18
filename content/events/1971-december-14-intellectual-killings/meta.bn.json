@@ -2,12 +2,12 @@
   "slug": "1971-december-14-intellectual-killings",
   "year": "1971",
   "title": "১৪ ডিসেম্বর বুদ্ধিজীবী হত্যাকাণ্ড",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Liberation War প্রেক্ষিত।",
-  "summary": "১৪ ডিসেম্বর বুদ্ধিজীবী হত্যাকাণ্ড বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "subtitle": "১৯৭১ সালের ডিসেম্বরে পাকিস্তানি বাহিনীর পরাজয় আসন্ন হলে ঢাকাসহ বিভিন্ন স্থানে বাঙালি শিক্ষক, চিকিৎসক, সাংবাদিক ও পেশাজীবীদের অপহরণ ও হত্যা করা হয়",
+  "summary": "১৯৭১ সালের ডিসেম্বরে পাকিস্তানি বাহিনীর পরাজয় আসন্ন হলে ঢাকাসহ বিভিন্ন স্থানে বাঙালি শিক্ষক, চিকিৎসক, সাংবাদিক ও পেশাজীবীদের অপহরণ ও হত্যা করা হয়। ঢাকায় সবচেয়ে সুপরিচিত অপহরণগুলো ঘটে ১৪ ডিসেম্বর। সূত্রে আলবদরের সম্পৃক্ততার কথা আছে, তবে দায় ও নিহতের সংখ্যা নিয়ে বিতর্ক রয়েছে; এখানে কোনো একক সংখ্যা বলা হচ্ছে না।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "১৯৭১ সালের ডিসেম্বরে পাকিস্তানি বাহিনীর পরাজয় আসন্ন হলে ঢাকাসহ বিভিন্ন স্থানে বাঙালি শিক্ষক, চিকিৎসক, সাংবাদিক ও পেশাজীবীদের অপহরণ ও হত্যা করা হয়",
+  "whyItMatters": "এই হত্যাকাণ্ড নবীন দেশের বুদ্ধিজীবী ও পেশাজীবীদের ক্ষতি করে এবং স্মরণ ও জবাবদিহির দাবির স্থায়ী বিষয় হয়ে ওঠে। বাংলাদেশে ১৪ ডিসেম্বর শহীদ বুদ্ধিজীবী দিবস পালিত হয়।",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -16,11 +16,11 @@
   "showOnLanding": false,
   "summarySourceIds": [
     "ekattorer-buddhijibi-hottakahini",
-    "history-of-the-1971-liberation-war"
+    "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
   ],
   "whyItMattersSourceIds": [
     "ekattorer-buddhijibi-hottakahini",
-    "history-of-the-1971-liberation-war"
+    "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -34,26 +34,50 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "১৪ ডিসেম্বর বুদ্ধিজীবী হত্যাকাণ্ড বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+      "claim": "১৯৭১ সালের ডিসেম্বরে পাকিস্তানি বাহিনীর পরাজয় আসন্ন হলে ঢাকাসহ বিভিন্ন স্থানে বাঙালি শিক্ষক, চিকিৎসক, সাংবাদিক ও পেশাজীবীদের অপহরণ ও হত্যা করা হয়। ঢাকায় সবচেয়ে সুপরিচিত অপহরণগুলো ঘটে ১৪ ডিসেম্বর। সূত্রে আলবদরের সম্পৃক্ততার কথা আছে, তবে দায় ও নিহতের সংখ্যা নিয়ে বিতর্ক রয়েছে; এখানে কোনো একক সংখ্যা বলা হচ্ছে না।",
       "sourceIds": [
         "ekattorer-buddhijibi-hottakahini",
-        "history-of-the-1971-liberation-war"
+        "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+      "claim": "এই হত্যাকাণ্ড নবীন দেশের বুদ্ধিজীবী ও পেশাজীবীদের ক্ষতি করে এবং স্মরণ ও জবাবদিহির দাবির স্থায়ী বিষয় হয়ে ওঠে। বাংলাদেশে ১৪ ডিসেম্বর শহীদ বুদ্ধিজীবী দিবস পালিত হয়।",
       "sourceIds": [
         "ekattorer-buddhijibi-hottakahini",
-        "history-of-the-1971-liberation-war"
+        "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "১৪ ডিসেম্বর শহীদ বুদ্ধিজীবী দিবসের বার্ষিক পালন হত্যাকাণ্ডগুলোকে জনস্মৃতিতে ধরে রেখেছে; দায় নিয়ে আলোচনায় বিচার ও গবেষণা ভূমিকা রাখে।",
+      "sourceIds": [
+        "ekattorer-buddhijibi-hottakahini",
+        "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
       ],
       "evidenceLevel": "medium"
     }
   ],
   "contentWarnings": [
-    "রাজনৈতিক সহিংসতা"
+    "যুদ্ধকালীন অপহরণ ও হত্যা",
+    "দায় ও নিহতের সংখ্যা নিয়ে বিতর্ক"
   ],
-  "stub": true
+  "stub": false,
+  "longTermLegacy": "১৪ ডিসেম্বর শহীদ বুদ্ধিজীবী দিবসের বার্ষিক পালন হত্যাকাণ্ডগুলোকে জনস্মৃতিতে ধরে রেখেছে; দায় নিয়ে আলোচনায় বিচার ও গবেষণা ভূমিকা রাখে।",
+  "longTermLegacySourceIds": [
+    "ekattorer-buddhijibi-hottakahini",
+    "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
+  ],
+  "longTermLegacyEvidenceLevel": "medium",
+  "contested": true,
+  "historicalDebate": "বিভিন্ন সূত্র ও বিচারিক নথিতে নিহতের সংখ্যা ও দায় সম্পর্কে পার্থক্য রয়েছে; কোনো একক সংখ্যাকে চূড়ান্ত বলা হয়নি।",
+  "historicalDebateSourceIds": [
+    "ekattorer-buddhijibi-hottakahini",
+    "bangladesh-trial-observer-mueen-ashrafuzzaman-verdict-2013"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
 }
