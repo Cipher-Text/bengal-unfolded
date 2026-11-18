@@ -1,28 +1,62 @@
 [
   {
+    "year": "1 July 1835",
+    "title": "Adam submits his first report",
+    "detail": "Adam submitted a report compiling existing information on education in Bengal before proceeding with local inquiry.",
+    "sourceIds": [
+      "adams-reports-education-bengal-1835-1838"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
     "year": "2 February 1835",
     "title": "Macaulay submits his education Minute",
-    "detail": "Macaulay argued that public education funds should support European literature and science through English, intervening in an ongoing dispute over educational policy.",
+    "detail": "Macaulay argued for using government education funds to promote European literature and science through English. Banglapedia places the Minute within the Orientalist–Anglicist dispute.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
+      "culture"
     ]
   },
   {
     "year": "7 March 1835",
     "title": "Bentinck issues an education resolution",
-    "detail": "Governor-General William Bentinck’s resolution adopted the policy direction favoring European learning and English as the medium for government-supported education.",
+    "detail": "Banglapedia says Bentinck’s resolution confirmed the Anglicist direction.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
+      "culture"
+    ]
+  },
+  {
+    "year": "22 January 1835",
+    "title": "Adam appointed to investigate education in Bengal",
+    "detail": "Adam records that the Governor-General in Council appointed him to inquire into native education in Bengal.",
+    "sourceIds": [
+      "adams-reports-education-bengal-1835-1838"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "1838",
+    "title": "Adam submits his third report",
+    "detail": "Adam’s third report presented survey findings from selected Bengal and Behar localities and proposed measures to improve and extend public instruction.",
+    "sourceIds": [
+      "adams-reports-education-bengal-1835-1838"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "culture"
     ]
   }
 ]

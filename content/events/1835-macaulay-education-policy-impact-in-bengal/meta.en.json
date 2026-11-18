@@ -2,12 +2,12 @@
   "slug": "1835-macaulay-education-policy-impact-in-bengal",
   "year": "1835",
   "title": "Macaulay Education Policy Impact in Bengal",
-  "subtitle": "Macaulay’s 1835 Minute urged government support for European learning through English; Bentinck’s resolution followed in March.",
-  "summary": "On 2 February 1835, Thomas Babington Macaulay, as president of the General Committee of Public Instruction, submitted a Minute arguing that the government’s education funds should promote European literature and science through English. Governor-General William Bentinck’s resolution of 7 March 1835 endorsed that direction. The Minute was an influential intervention in a wider dispute over education funding and language; it was not itself an act abolishing all indigenous or vernacular education. The available event sources do not document the policy’s specific implementation and effects in Bengal.",
+  "subtitle": "The 1835 English education decision met a varied indigenous school landscape in Bengal; later local effects remain unestablished here.",
+  "summary": "On 2 February 1835, Macaulay’s Minute argued that government education funds should promote European literature and science through English. Banglapedia describes the Minute and Bentinck’s March resolution as settling the Orientalist–Anglicist dispute in favor of the Anglicists. According to William Adam’s later survey, the selected Bengal districts of Beerbhoom and Burdwan contained 1,041 common schools, while South Behar and Tirhoot contained 365. These are Adam’s counts for selected localities, not a census of Bengal. His reports document the contemporary school landscape and his proposals; they do not establish what the 1835 policy later caused in Bengal.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "An education policy debate whose Bengal effects require closer local evidence.",
-  "whyItMatters": "The Minute and Bentinck’s resolution helped redirect colonial education policy toward English-language instruction and European knowledge, while leaving contested questions about vernacular learning and access. Because this chapter promises impact in Bengal, it needs Bengal-specific evidence on institutions, implementation, and social consequences that the current general sources do not supply.",
+  "heroTagline": "The policy decision and Adam’s limited survey of indigenous education in Bengal",
+  "whyItMatters": "Adam’s survey records indigenous schools and differences among the selected districts at the time of the 1835 policy debate. Because he examined only selected localities and warned of gaps in the records, his figures cannot stand for all Bengal. Neither Adam’s reports nor the policy summaries used here establish the later effects of Macaulay’s policy in Bengal; tracing those effects requires local evidence on implementation and change over time.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -16,11 +16,10 @@
   "showOnLanding": false,
   "summarySourceIds": [
     "history-banglapedia",
-    "a-history-of-bangladesh"
+    "adams-reports-education-bengal-1835-1838"
   ],
   "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "adams-reports-education-bengal-1835-1838"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -32,32 +31,48 @@
   "placeLabel": "Bengal Region",
   "claimCitations": [
     {
-      "id": "summary-claim-1",
+      "id": "policy-minute",
       "section": "summary",
-      "claim": "On 2 February 1835, Thomas Babington Macaulay, as president of the General Committee of Public Instruction, submitted a Minute arguing that the government’s education funds should promote European literature and science through English. Governor-General William Bentinck’s resolution of 7 March 1835 endorsed that direction. The Minute was an influential intervention in a wider dispute over education funding and language; it was not itself an act abolishing all indigenous or vernacular education. The available event sources do not document the policy’s specific implementation and effects in Bengal.",
+      "claim": "On 2 February 1835, Macaulay’s Minute argued that government education funds should promote European literature and science through English; Banglapedia describes the decision as resolving the Orientalist–Anglicist dispute in favor of the Anglicists.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "history-banglapedia"
       ],
       "evidenceLevel": "medium"
     },
     {
-      "id": "whyItMatters-claim-1",
-      "section": "whyItMatters",
-      "claim": "The Minute and Bentinck’s resolution helped redirect colonial education policy toward English-language instruction and European knowledge, while leaving contested questions about vernacular learning and access. Because this chapter promises impact in Bengal, it needs Bengal-specific evidence on institutions, implementation, and social consequences that the current general sources do not supply.",
+      "id": "policy-resolution",
+      "section": "summary",
+      "claim": "In March 1835, Bentinck’s resolution confirmed the Anglicist direction.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "history-banglapedia"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "adam-survey",
+      "section": "summary",
+      "claim": "According to Adam, the surveyed districts Beerbhoom and Burdwan together had 1,041 common schools, compared with 365 in South Behar and Tirhoot; these are selected-district counts, not a Bengal-wide census.",
+      "sourceIds": [
+        "adams-reports-education-bengal-1835-1838"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "adam-survey-scope",
+      "section": "whyItMatters",
+      "claim": "Adam’s inquiry covered selected districts and one city, and his first report warned that many institutions were unrecorded and local distribution required further investigation.",
+      "sourceIds": [
+        "adams-reports-education-bengal-1835-1838"
       ],
       "evidenceLevel": "medium"
     }
   ],
   "stub": true,
   "contested": true,
-  "historicalDebate": "The Minute’s emphasis on English and European knowledge is commonly read as a shift in colonial policy, but historians debate the extent to which it caused a wholesale replacement of vernacular or indigenous education. The available sources do not establish the policy’s local effects across Bengal.",
+  "historicalDebate": "Banglapedia describes the 1835 decision as resolving the Orientalist–Anglicist dispute in favor of English education. The sources reviewed here do not establish that the decision immediately abolished indigenous schools or demonstrate its later effects across Bengal. Adam’s reports describe selected places and include his own recommendations; they are not evidence of policy outcomes.",
   "historicalDebateSourceIds": [
     "history-banglapedia",
-    "a-history-of-bangladesh"
+    "adams-reports-education-bengal-1835-1838"
   ],
   "historicalDebateEvidenceLevel": "medium"
 }
