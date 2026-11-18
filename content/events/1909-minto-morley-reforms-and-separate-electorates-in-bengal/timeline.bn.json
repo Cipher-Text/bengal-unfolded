@@ -1,11 +1,12 @@
 [
   {
-    "year": "1909",
-    "title": "প্রেক্ষিত",
-    "detail": "মিন্টো-মরলে সংস্কার ও বাংলায় পৃথক নির্বাচকমণ্ডলী বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+    "year": "1 October 1906",
+    "title": "লর্ড মিন্টোর সঙ্গে মুসলিম প্রতিনিধিদলের সাক্ষাৎ",
+    "detail": "মুসলিম নেতাদের একটি প্রতিনিধিদল ভাইসরয় লর্ড মিন্টোর কাছে আইন পরিষদে পৃথক প্রতিনিধিত্ব ও অতিরিক্ত আসনের দাবি জানায়। এই দাবি সংস্কারবিষয়ক আলোচনার অংশ হয়ে ওঠে।",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "constitutional-development-banglapedia",
+      "partition-of-bengal-1905-banglapedia",
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +14,17 @@
     ]
   },
   {
-    "year": "উত্তরাধিকার",
-    "title": "দীর্ঘমেয়াদি প্রভাব",
-    "detail": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+    "year": "1909",
+    "title": "ইন্ডিয়ান কাউন্সিলস অ্যাক্টে পৃথক নির্বাচকমণ্ডলী",
+    "detail": "মর্লে–মিন্টো সংস্কারে আইন পরিষদের আকার বাড়ানো হয় এবং মুসলমানদের পৃথক নির্বাচকমণ্ডলী প্রতিষ্ঠিত হয়। ভোটাধিকার সীমিত ছিল এবং নির্বাচিত প্রতিনিধিদের কাছে নির্বাহী বিভাগ দায়বদ্ধ হয়নি।",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "constitutional-development-banglapedia",
+      "partition-of-bengal-1905-banglapedia",
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

@@ -2,12 +2,12 @@
   "slug": "1909-minto-morley-reforms-and-separate-electorates-in-bengal",
   "year": "1909",
   "title": "Minto-Morley Reforms and Separate Electorates in Bengal",
-  "subtitle": "Constitutional Reform in Bengal/Bangladesh history.",
-  "summary": "Minto-Morley Reforms and Separate Electorates in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "The 1909 Indian Councils Act expanded councils and introduced separate Muslim electorates, including in Bengal.",
+  "summary": "The Indian Councils Act 1909, known as the Morley–Minto reforms, enlarged the central and provincial legislative councils and provided for elected members through a restricted electoral system. It recognized separate Muslim electorates: Muslim voters selected Muslim representatives. Bengal’s constitutional politics were shaped by this change amid the aftermath of the 1905 partition, but the councils remained advisory and executive power stayed with the colonial government.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key constitutional reform chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "Separate electorates entered colonial legislative politics in 1909.",
+  "whyItMatters": "The reform gave Muslim political representation a distinct electoral channel while limiting participation to a narrow, qualified electorate. Banglapedia describes the introduction of separate representation as a turning point in Hindu–Muslim political relations; historians also debate whether the arrangement protected minority representation or institutionalized communal political divisions.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,12 +15,14 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "constitutional-development-banglapedia",
+    "partition-of-bengal-1905-banglapedia",
+    "history-banglapedia"
   ],
   "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "constitutional-development-banglapedia",
+    "partition-of-bengal-1905-banglapedia",
+    "history-banglapedia"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -34,23 +36,32 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Minto-Morley Reforms and Separate Electorates in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "The Indian Councils Act 1909, known as the Morley–Minto reforms, enlarged the central and provincial legislative councils and provided for elected members through a restricted electoral system. It recognized separate Muslim electorates: Muslim voters selected Muslim representatives. Bengal’s constitutional politics were shaped by this change amid the aftermath of the 1905 partition, but the councils remained advisory and executive power stayed with the colonial government.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "constitutional-development-banglapedia",
+        "partition-of-bengal-1905-banglapedia",
+        "history-banglapedia"
       ],
       "evidenceLevel": "medium"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The reform gave Muslim political representation a distinct electoral channel while limiting participation to a narrow, qualified electorate. Banglapedia describes the introduction of separate representation as a turning point in Hindu–Muslim political relations; historians also debate whether the arrangement protected minority representation or institutionalized communal political divisions.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "constitutional-development-banglapedia",
+        "partition-of-bengal-1905-banglapedia",
+        "history-banglapedia"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false,
+  "contested": true,
+  "historicalDebate": "Historians differ over whether separate electorates primarily secured Muslim political representation or hardened religious divisions in electoral politics. Banglapedia characterizes their introduction as a turning point in Hindu–Muslim relations; that assessment is an interpretation, not an uncontested consequence.",
+  "historicalDebateSourceIds": [
+    "constitutional-development-banglapedia",
+    "partition-of-bengal-1905-banglapedia"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
 }

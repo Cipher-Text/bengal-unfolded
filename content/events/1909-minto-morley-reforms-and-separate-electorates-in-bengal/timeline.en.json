@@ -1,11 +1,12 @@
 [
   {
-    "year": "1909",
-    "title": "Context",
-    "detail": "Minto-Morley Reforms and Separate Electorates in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "1 October 1906",
+    "title": "Muslim deputation meets Lord Minto",
+    "detail": "A delegation of Muslim leaders petitioned Viceroy Lord Minto for separate representation and weightage in legislative councils, a demand that became part of the reform debate.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "constitutional-development-banglapedia",
+      "partition-of-bengal-1905-banglapedia",
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +14,17 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "1909",
+    "title": "Indian Councils Act introduces separate electorates",
+    "detail": "The Morley–Minto reforms enlarged legislative councils and established separate Muslim electorates. The franchise remained restricted, and the councils did not make the executive responsible to elected representatives.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "constitutional-development-banglapedia",
+      "partition-of-bengal-1905-banglapedia",
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

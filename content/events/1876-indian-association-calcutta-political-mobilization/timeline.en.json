@@ -1,8 +1,8 @@
 [
   {
-    "year": "1876",
-    "title": "Context",
-    "detail": "Indian Association and Calcutta Political Mobilization was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "26 July 1876",
+    "title": "Indian Association founded in Calcutta",
+    "detail": "Surendranath Banerjea and Ananda Mohan Bose established the association as an organized platform for political activity and public opinion.",
     "sourceIds": [
       "history-banglapedia",
       "a-history-of-bangladesh"
@@ -13,17 +13,16 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "1877",
+    "title": "Banerjea begins a wider political tour",
+    "detail": "Banerjea undertook a tour beyond Bengal to build public opinion around political and administrative questions, extending the Association’s organizing activity beyond Calcutta.",
     "sourceIds": [
       "history-banglapedia",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

@@ -1,9 +1,10 @@
 [
   {
-    "year": "1916",
-    "title": "Context",
-    "detail": "Lucknow Pact and Bengal Implications was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "December 1916",
+    "title": "Congress and League adopt the Lucknow Pact",
+    "detail": "At Lucknow, the two organizations agreed on a joint constitutional reform scheme that accepted separate electorates and proposed provincial seat allocations.",
     "sourceIds": [
+      "constitutional-development-banglapedia",
       "history-banglapedia",
       "a-history-of-bangladesh"
     ],
@@ -13,17 +14,17 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "1916",
+    "title": "Bengal allocation set at 40 percent",
+    "detail": "Under the pact’s provincial formula, Muslims were allotted 40 percent of Bengal legislative seats although Muslims formed a majority of the province’s population. Some Bengal Muslim leaders criticized the allocation; accounts of the local response require further source work.",
     "sourceIds": [
+      "constitutional-development-banglapedia",
       "history-banglapedia",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

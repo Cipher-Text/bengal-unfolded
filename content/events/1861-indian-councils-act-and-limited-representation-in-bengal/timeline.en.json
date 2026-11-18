@@ -1,11 +1,11 @@
 [
   {
     "year": "1861",
-    "title": "Context",
-    "detail": "Indian Councils Act and Limited Representation in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "title": "Indian Councils Act authorizes provincial councils",
+    "detail": "The Act empowered the Governor-General to create legislative councils in provinces including Bengal; the new members were nominated, and executive authority remained with colonial officials.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "constitutional-development-banglapedia",
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +13,16 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "18 January 1862",
+    "title": "Bengal Legislative Council established",
+    "detail": "The Bengal council was established under Lieutenant-Governor John Peter Grant in Calcutta, with nominated members. This began provincial legislative council proceedings in Bengal.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "constitutional-development-banglapedia",
+      "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
     ]
   }
 ]

@@ -2,12 +2,12 @@
   "slug": "1916-lucknow-pact-bengal-implications",
   "year": "1916",
   "title": "Lucknow Pact and Bengal Implications",
-  "subtitle": "Late Colonial Negotiation in Bengal/Bangladesh history.",
-  "summary": "Lucknow Pact and Bengal Implications was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "The Congress–Muslim League agreement of December 1916 accepted separate electorates and allocated Muslims 40% of Bengal council seats.",
+  "summary": "At their December 1916 sessions in Lucknow, the Indian National Congress and All-India Muslim League adopted a joint constitutional scheme known as the Lucknow Pact. Congress accepted separate electorates, while the agreed provincial formula allotted Muslims 40 percent of Bengal’s legislative seats despite their majority in the province. This underrepresentation drew criticism from some Bengal Muslim leaders; Bengal responses were not uniform. The available catalog sources establish the broad constitutional context but do not adequately document the local debate or its actors.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key late colonial negotiation chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "A national agreement whose seat formula drew criticism in Muslim-majority Bengal.",
+  "whyItMatters": "The Bengal allocation illustrates the pact’s compromise: cross-party agreement on minority safeguards elsewhere came with Muslim underrepresentation in Bengal. A chapter promising the pact’s Bengal implications needs stronger, Bengal-specific scholarship on the negotiations, local criticism, and subsequent political effects; the current catalog cannot support that fuller account.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,10 +15,12 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
+    "constitutional-development-banglapedia",
     "history-banglapedia",
     "a-history-of-bangladesh"
   ],
   "whyItMattersSourceIds": [
+    "constitutional-development-banglapedia",
     "history-banglapedia",
     "a-history-of-bangladesh"
   ],
@@ -34,8 +36,9 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Lucknow Pact and Bengal Implications was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "At their December 1916 sessions in Lucknow, the Indian National Congress and All-India Muslim League adopted a joint constitutional scheme known as the Lucknow Pact. Congress accepted separate electorates, while the agreed provincial formula allotted Muslims 40 percent of Bengal’s legislative seats despite their majority in the province. This underrepresentation drew criticism from some Bengal Muslim leaders; Bengal responses were not uniform. The available catalog sources establish the broad constitutional context but do not adequately document the local debate or its actors.",
       "sourceIds": [
+        "constitutional-development-banglapedia",
         "history-banglapedia",
         "a-history-of-bangladesh"
       ],
@@ -44,13 +47,21 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The Bengal allocation illustrates the pact’s compromise: cross-party agreement on minority safeguards elsewhere came with Muslim underrepresentation in Bengal. A chapter promising the pact’s Bengal implications needs stronger, Bengal-specific scholarship on the negotiations, local criticism, and subsequent political effects; the current catalog cannot support that fuller account.",
       "sourceIds": [
+        "constitutional-development-banglapedia",
         "history-banglapedia",
         "a-history-of-bangladesh"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": true,
+  "contested": true,
+  "historicalDebate": "The pact is often treated as a moment of Congress–League cooperation, while scholarship also emphasizes disputes over the provincial seat formula and criticism among Bengal Muslim leaders. Available catalog sources do not provide enough Bengal-specific evidence to adjudicate the local debate.",
+  "historicalDebateSourceIds": [
+    "constitutional-development-banglapedia",
+    "history-banglapedia"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
 }

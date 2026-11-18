@@ -2,12 +2,12 @@
   "slug": "1835-macaulay-education-policy-impact-in-bengal",
   "year": "1835",
   "title": "Macaulay Education Policy Impact in Bengal",
-  "subtitle": "Colonial Education in Bengal/Bangladesh history.",
-  "summary": "Macaulay Education Policy Impact in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "Macaulay’s 1835 Minute urged government support for European learning through English; Bentinck’s resolution followed in March.",
+  "summary": "On 2 February 1835, Thomas Babington Macaulay, as president of the General Committee of Public Instruction, submitted a Minute arguing that the government’s education funds should promote European literature and science through English. Governor-General William Bentinck’s resolution of 7 March 1835 endorsed that direction. The Minute was an influential intervention in a wider dispute over education funding and language; it was not itself an act abolishing all indigenous or vernacular education. The available event sources do not document the policy’s specific implementation and effects in Bengal.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key colonial education chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "An education policy debate whose Bengal effects require closer local evidence.",
+  "whyItMatters": "The Minute and Bentinck’s resolution helped redirect colonial education policy toward English-language instruction and European knowledge, while leaving contested questions about vernacular learning and access. Because this chapter promises impact in Bengal, it needs Bengal-specific evidence on institutions, implementation, and social consequences that the current general sources do not supply.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -34,7 +34,7 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Macaulay Education Policy Impact in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "On 2 February 1835, Thomas Babington Macaulay, as president of the General Committee of Public Instruction, submitted a Minute arguing that the government’s education funds should promote European literature and science through English. Governor-General William Bentinck’s resolution of 7 March 1835 endorsed that direction. The Minute was an influential intervention in a wider dispute over education funding and language; it was not itself an act abolishing all indigenous or vernacular education. The available event sources do not document the policy’s specific implementation and effects in Bengal.",
       "sourceIds": [
         "history-banglapedia",
         "a-history-of-bangladesh"
@@ -44,7 +44,7 @@
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The Minute and Bentinck’s resolution helped redirect colonial education policy toward English-language instruction and European knowledge, while leaving contested questions about vernacular learning and access. Because this chapter promises impact in Bengal, it needs Bengal-specific evidence on institutions, implementation, and social consequences that the current general sources do not supply.",
       "sourceIds": [
         "history-banglapedia",
         "a-history-of-bangladesh"
@@ -52,5 +52,12 @@
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": true,
+  "contested": true,
+  "historicalDebate": "The Minute’s emphasis on English and European knowledge is commonly read as a shift in colonial policy, but historians debate the extent to which it caused a wholesale replacement of vernacular or indigenous education. The available sources do not establish the policy’s local effects across Bengal.",
+  "historicalDebateSourceIds": [
+    "history-banglapedia",
+    "a-history-of-bangladesh"
+  ],
+  "historicalDebateEvidenceLevel": "medium"
 }
