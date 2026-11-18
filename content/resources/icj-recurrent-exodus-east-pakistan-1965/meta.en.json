@@ -1,16 +1,16 @@
 {
   "title": "Recurrent Exodus of Minorities from East Pakistan and Disturbances in India",
-  "note": "1965 committee report based on refugee-camp evidence and other sources; includes the Hazrat Bal incident and 1964 migration and disturbances.",
+  "note": "A 1965 report to the Indian Commission of Jurists by its Committee of Enquiry, chaired by Shri Purshottam Trikamdas with Shri I. N. Shroff as member, signed 20 January 1965 and published in New Delhi by the Indian Commission of Jurists. The committee says it took evidence from migrants in camps and questioned other people on the Indian side; it records that Pakistan did not acknowledge or reply to its request to visit East Pakistan. Its account therefore reflects an inquiry whose evidence was gathered principally in India. The International Commission of Jurists hosts the scan but was not the report's author or publisher. Direct scan: https://www.icj.org/wp-content/uploads/2013/06/India-minorities-East-Pakistan-fact-finding-report-1965-eng.pdf",
   "category": "primary-sources",
   "subcategory": "Human-rights fact-finding reports",
   "href": "https://www.icj.org/resource/recurrent-exodus-of-minorities-from-east-pakistan-and-disturbances-in-india/",
-  "attribution": "International Commission of Jurists",
-  "creatorId": "international-commission-of-jurists",
+  "attribution": "Committee of Enquiry, Indian Commission of Jurists (published by the Indian Commission of Jurists, New Delhi)",
+  "creatorId": "committee-of-enquiry-indian-commission-of-jurists",
   "creatorType": "organization",
-  "quality": "secondary",
+  "quality": "primary",
   "sourceQuality": "primary",
-  "evidenceLevel": "medium",
-  "whyItMatters": "Records the committee's gathered testimony and account of the Hazrat Bal incident, migration from East Pakistan and the communal disturbances.",
+  "evidenceLevel": "low",
+  "whyItMatters": "A contemporary, one-sided committee inquiry that preserves migrant testimony and the committee's interpretation of the 1963–64 crisis. It can document what the committee reported and whom it interviewed, but its contested allegations and causal conclusions require attribution and should not be treated as neutral findings.",
   "relatedEventIds": [
     "1963-hazratbal-crisis-and-east-pakistan-communal-tensions",
     "1964-communal-riots-east-pakistan"

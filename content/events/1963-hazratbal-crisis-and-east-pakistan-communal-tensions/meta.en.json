@@ -3,11 +3,11 @@
   "year": "1963",
   "title": "Hazratbal Crisis and Communal Tensions in East Pakistan",
   "subtitle": "The Hazratbal relic theft and communal violence in East Pakistan, 1963–1964",
-  "summary": "On 27 December 1963, a relic believed by devotees to be a hair of the Prophet Muhammad was reported missing from the Hazratbal shrine in Srinagar. The theft prompted protests. On 3 January 1964, communal violence broke out in Khulna and nearby areas of East Pakistan; contemporary United Nations reporting recorded killings, arson, looting and destruction of property. Responsibility and the scale of violence should be described through attributed accounts rather than generalized blame.",
+  "summary": "The Indian Commission of Jurists' Committee of Enquiry framed the Hazratbal relic theft as the immediate context for migration from East Pakistan in 1964. Its report says the relic was reported missing on 27 December 1963 and found on 4 January 1964; it dates disturbances in Khulna to 3 January. The committee attributed the crisis to rhetoric and meetings held after the relic episode, and its Khulna account describes a procession, violence and later official and military responses. These are the committee's interpretations and reports, based on evidence from migrants and others on the Indian side; it says Pakistan did not reply to its request to visit East Pakistan.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "From the Hazratbal relic theft to violence in East Pakistan",
-  "whyItMatters": "The crisis shows how a religiously charged event in Kashmir became entangled with communal tensions and minority insecurity in East Pakistan. The United Nations record describes violence beginning in Khulna on 3 January 1964, while later scholarship treats the relic episode as a catalyst within broader regional dynamics. Casualty figures vary and are omitted here.",
+  "heroTagline": "A committee inquiry into the Hazratbal relic episode and East Pakistan in 1963–64",
+  "whyItMatters": "The 1965 inquiry links a Kashmir shrine episode with reported communal tensions and migration in East Pakistan, and presents a causal account centered on public rhetoric and meetings after the relic episode. Its preface also makes the limits of its evidence clear: the committee gathered testimony in India and says Pakistan did not answer its request to visit East Pakistan. Those limits matter when reading its interpretation of causes and its description of responses as the committee's account rather than neutral findings.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,15 +15,14 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "icj-recurrent-exodus-east-pakistan-1965",
+    "idrees-kanth-moi-e-muqaddas-article"
   ],
   "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "icj-recurrent-exodus-east-pakistan-1965"
   ],
-  "summaryEvidenceLevel": "medium",
-  "whyItMattersEvidenceLevel": "medium",
+  "summaryEvidenceLevel": "low",
+  "whyItMattersEvidenceLevel": "low",
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "memory-justice-and-civic-dissent",
   "sensitive": true,
@@ -34,22 +33,30 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "On 27 December 1963, a relic believed by devotees to be a hair of the Prophet Muhammad was reported missing from the Hazratbal shrine in Srinagar. The theft prompted protests. On 3 January 1964, communal violence broke out in Khulna and nearby areas of East Pakistan; contemporary United Nations reporting recorded killings, arson, looting and destruction of property. Responsibility and the scale of violence should be described through attributed accounts rather than generalized blame.",
+      "claim": "The committee dates the relic's reported disappearance to 27 December 1963 and its recovery to 4 January 1964, dates the Khulna disturbances to 3 January, and attributes a connection to the relic episode; these are the committee's claims.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "icj-recurrent-exodus-east-pakistan-1965",
+        "idrees-kanth-moi-e-muqaddas-article"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "low"
     },
     {
-      "id": "whyItMatters-claim-1",
+      "id": "why-claim-1",
       "section": "whyItMatters",
-      "claim": "The crisis shows how a religiously charged event in Kashmir became entangled with communal tensions and minority insecurity in East Pakistan. The United Nations record describes violence beginning in Khulna on 3 January 1964, while later scholarship treats the relic episode as a catalyst within broader regional dynamics. Casualty figures vary and are omitted here.",
+      "claim": "The committee says it gathered testimony from migrants and others in India and received no acknowledgement or reply to its request to visit East Pakistan.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "icj-recurrent-exodus-east-pakistan-1965"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "low"
+    },
+    {
+      "id": "summary-claim-2",
+      "section": "summary",
+      "claim": "The committee's account describes post-relic rhetoric and meetings, a procession in Khulna, violence, official statements, and the army being called in; its account draws on migrants and others interviewed in India.",
+      "sourceIds": [
+        "icj-recurrent-exodus-east-pakistan-1965"
+      ],
+      "evidenceLevel": "low"
     }
   ],
   "stub": true,

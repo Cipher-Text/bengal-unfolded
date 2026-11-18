@@ -2,10 +2,10 @@
   {
     "year": "27 December 1963",
     "title": "Relic reported missing at Hazratbal",
-    "detail": "A relic believed by devotees to be a hair of the Prophet Muhammad was reported missing from the Hazratbal shrine in Srinagar, prompting protests.",
+    "detail": "Idrees Kanth's article abstract dates the theft to 27 December 1963; the 1965 committee report also dates the reported disappearance to that day.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "idrees-kanth-moi-e-muqaddas-article",
+      "icj-recurrent-exodus-east-pakistan-1965"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -14,13 +14,36 @@
   },
   {
     "year": "3 January 1964",
-    "title": "Communal violence reported in Khulna",
-    "detail": "Contemporary United Nations reporting recorded violent disturbances in Khulna and surrounding areas of East Pakistan, including killings, arson, looting and damage to property.",
+    "title": "Disturbances reported in Khulna",
+    "detail": "The Committee of Enquiry dates the beginning of disturbances in Khulna to 3 January 1964. This is the committee's account, based on evidence gathered in India.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "icj-recurrent-exodus-east-pakistan-1965"
     ],
-    "evidenceLevel": "medium",
+    "evidenceLevel": "low",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "4 January 1964",
+    "title": "Relic reported found",
+    "detail": "The Committee of Enquiry says the relic was found on 4 January 1964. This is the committee's account.",
+    "sourceIds": [
+      "icj-recurrent-exodus-east-pakistan-1965"
+    ],
+    "evidenceLevel": "low",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "4 January 1964",
+    "title": "Army called in at Khulna, according to report",
+    "detail": "The committee quotes a newspaper report saying the army was called in at Khulna on the evening of 4 January to quell disturbances. This is the committee’s account of a contemporary press report.",
+    "sourceIds": [
+      "icj-recurrent-exodus-east-pakistan-1965"
+    ],
+    "evidenceLevel": "low",
     "themes": [
       "culture"
     ]

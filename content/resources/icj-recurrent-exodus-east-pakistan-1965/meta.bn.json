@@ -1,16 +1,16 @@
 {
   "title": "Recurrent Exodus of Minorities from East Pakistan and Disturbances in India",
-  "note": "কমিশনের কমিটি ১৯৬৫ সালে এই অনুসন্ধানী প্রতিবেদন প্রকাশ করে; এতে হজরতবল ঘটনা, পূর্ব পাকিস্তান থেকে অভিবাসন এবং ১৯৬৪ সালের অস্থিরতা আলোচিত হয়েছে।",
+  "note": "১৯৬৫ সালের এই প্রতিবেদনটি ইন্ডিয়ান কমিশন অব জুরিস্টসের কাছে তার অনুসন্ধান কমিটির পেশ করা প্রতিবেদন। কমিটির সভাপতি ছিলেন শ্রী পুরুষোত্তম ত্রিকমদাস এবং সদস্য ছিলেন শ্রী আই এন শ্রফ। প্রতিবেদনটি ২০ জানুয়ারি ১৯৬৫ তারিখে স্বাক্ষরিত হয় এবং নয়াদিল্লিতে ইন্ডিয়ান কমিশন অব জুরিস্টস প্রকাশ করে। কমিটি জানায়, তারা শিবিরে থাকা অভিবাসীদের সাক্ষ্য নিয়েছে এবং ভারতের পক্ষের অন্য ব্যক্তিদেরও জিজ্ঞাসাবাদ করেছে। পূর্ব পাকিস্তানে যাওয়ার অনুমতি চেয়ে পাঠানো অনুরোধের কোনো প্রাপ্তিস্বীকার বা উত্তর পাকিস্তান দেয়নি বলেও কমিটি উল্লেখ করে। তাই প্রতিবেদনটির তথ্যভিত্তি প্রধানত ভারতে সংগৃহীত সাক্ষ্য। জেনেভাভিত্তিক ইন্টারন্যাশনাল কমিশন অব জুরিস্টস স্ক্যানটি সংরক্ষণ করে, কিন্তু তারা এই প্রতিবেদনের লেখক বা প্রকাশক নয়। সরাসরি স্ক্যান: https://www.icj.org/wp-content/uploads/2013/06/India-minorities-East-Pakistan-fact-finding-report-1965-eng.pdf",
   "category": "primary-sources",
   "subcategory": "Human-rights fact-finding reports",
   "href": "https://www.icj.org/resource/recurrent-exodus-of-minorities-from-east-pakistan-and-disturbances-in-india/",
-  "attribution": "International Commission of Jurists",
-  "creatorId": "international-commission-of-jurists",
+  "attribution": "ইন্ডিয়ান কমিশন অব জুরিস্টসের অনুসন্ধান কমিটি (প্রকাশক: ইন্ডিয়ান কমিশন অব জুরিস্টস, নয়াদিল্লি)",
+  "creatorId": "committee-of-enquiry-indian-commission-of-jurists",
   "creatorType": "organization",
-  "quality": "secondary",
+  "quality": "primary",
   "sourceQuality": "primary",
-  "evidenceLevel": "medium",
-  "whyItMatters": "হজরতবল ঘটনা, পূর্ব পাকিস্তান থেকে মানুষের আগমন এবং সাম্প্রদায়িক অস্থিরতা নিয়ে কমিটির সংগৃহীত সাক্ষ্য ও বিবরণ নথিবদ্ধ করে।",
+  "evidenceLevel": "low",
+  "whyItMatters": "এটি সমসাময়িক একটি একপক্ষীয় অনুসন্ধান, যাতে অভিবাসীদের সাক্ষ্য এবং ১৯৬৩–৬৪ সালের সংকট সম্পর্কে কমিটির ব্যাখ্যা সংরক্ষিত হয়েছে। কমিটি কী জানিয়েছিল এবং কাদের সাক্ষ্য নিয়েছিল তা বোঝার জন্য এটি গুরুত্বপূর্ণ; তবে বিতর্কিত অভিযোগ ও কারণসংক্রান্ত সিদ্ধান্তকে কমিটির বক্তব্য হিসেবেই উল্লেখ করতে হবে, নিরপেক্ষভাবে প্রতিষ্ঠিত সিদ্ধান্ত হিসেবে নয়।",
   "relatedEventIds": [
     "1963-hazratbal-crisis-and-east-pakistan-communal-tensions",
     "1964-communal-riots-east-pakistan"
