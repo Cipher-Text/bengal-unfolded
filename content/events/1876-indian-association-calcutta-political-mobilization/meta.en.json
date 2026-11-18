@@ -2,26 +2,20 @@
   "slug": "1876-indian-association-calcutta-political-mobilization",
   "year": "1876",
   "title": "Indian Association and Calcutta Political Mobilization",
-  "subtitle": "Surendranath Banerjea and Ananda Mohan Bose founded the Indian Association in Calcutta on 26 July 1876.",
-  "summary": "Surendranath Banerjea and Ananda Mohan Bose founded the Indian Association in Calcutta on 26 July 1876. The organization sought to bring politically active Indians together, cultivate public opinion, and press for greater participation in administration and public affairs. It became an important early platform for political mobilization in Bengal and organized activity beyond Calcutta. The two existing general histories do not establish the Association’s membership, campaign chronology, or reach in sufficient detail for the chapter’s full mobilization claim.",
+  "subtitle": "Founded in Calcutta in 1876 by Surendranath Banerjea, Ananda Mohan Bose, Monomohun Ghose, Shivanath Sastri, and Dwarkanath Ganguli, the Association pursued public opinion, political education, and coordinated campaigns.",
+  "summary": "The Indian Association was founded at a public meeting in Calcutta on 26 July 1876. Jogesh Chandra Bagal names Monomohun Ghose, Ananda Mohan Bose, Shivanath Sastri, Dwarkanath Ganguli, and Surendranath Banerjea among the organizers. Its rules called for representing the people, helping form healthy public opinion, and advancing political, intellectual, and material interests; Banerjea also summarized aims that included political unity and wider public participation. In 1877 the Association campaigned to raise the Indian Civil Service examination age limit and hold examinations in India, sending Banerjea on a tour that won support across northern India and extended to Bombay and Madras. Bagal lists ten affiliated associations in its first year. In 1878 the Association organized a Calcutta meeting attended by about five thousand people to protest the Vernacular Press Act.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "An early Calcutta association sought broader political organization and public opinion.",
-  "whyItMatters": "The Association connected an urban political organization in Calcutta with efforts to build wider public engagement before the Indian National Congress was founded. Its history should distinguish its stated aims from its actual social reach; the available source set is too general to substantiate that distinction or trace its provincial campaigns in detail.",
+  "heroTagline": "From a Calcutta founding meeting to campaigns and affiliated associations across India.",
+  "whyItMatters": "The Association linked a program of public opinion and political education to organized action beyond Calcutta. Its Civil Service campaign brought leaders and meetings in several regions into a shared petition effort, while its 1878 protest against the Vernacular Press Act drew a reported crowd of about five thousand in Calcutta. These documented activities show both the Association’s stated all-India outlook and concrete examples of its reach.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
   "periodLabel": "Colonial Rule and Resistance",
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
-  "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
-  ],
-  "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
-  ],
+  "summarySourceIds": ["jogesh-chandra-bagal-history-indian-association", "banglapedia-surendranath-banerjee", "a-history-of-bangladesh"],
+  "whyItMattersSourceIds": ["jogesh-chandra-bagal-history-indian-association", "banglapedia-surendranath-banerjee", "a-history-of-bangladesh"],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "colonial-rule-and-resistance",
@@ -31,26 +25,12 @@
   "placeId": "calcutta-kolkata",
   "placeLabel": "Calcutta / Kolkata",
   "claimCitations": [
-    {
-      "id": "summary-claim-1",
-      "section": "summary",
-      "claim": "Surendranath Banerjea and Ananda Mohan Bose founded the Indian Association in Calcutta on 26 July 1876. The organization sought to bring politically active Indians together, cultivate public opinion, and press for greater participation in administration and public affairs. It became an important early platform for political mobilization in Bengal and organized activity beyond Calcutta. The two existing general histories do not establish the Association’s membership, campaign chronology, or reach in sufficient detail for the chapter’s full mobilization claim.",
-      "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
-      ],
-      "evidenceLevel": "medium"
-    },
-    {
-      "id": "whyItMatters-claim-1",
-      "section": "whyItMatters",
-      "claim": "The Association connected an urban political organization in Calcutta with efforts to build wider public engagement before the Indian National Congress was founded. Its history should distinguish its stated aims from its actual social reach; the available source set is too general to substantiate that distinction or trace its provincial campaigns in detail.",
-      "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
-      ],
-      "evidenceLevel": "medium"
-    }
+    {"id":"founding","section":"summary","claim":"The Association was founded in Calcutta on 26 July 1876; Bagal names Monomohun Ghose, Ananda Mohan Bose, Shivanath Sastri, Dwarkanath Ganguli, and Surendranath Banerjea among the organizers.","sourceIds":["jogesh-chandra-bagal-history-indian-association","banglapedia-surendranath-banerjee","a-history-of-bangladesh"],"evidenceLevel":"high"},
+    {"id":"aims","section":"summary","claim":"The Association aimed to represent the people, form public opinion, advance political, intellectual, and material interests, and promote political unity and broader participation.","sourceIds":["jogesh-chandra-bagal-history-indian-association"],"evidenceLevel":"medium"},
+    {"id":"civil-service-campaign","section":"summary","claim":"In 1877 the Association campaigned for a higher Indian Civil Service examination age limit and examinations in India; Banerjea toured northern India and later Bombay and Madras to mobilize support.","sourceIds":["jogesh-chandra-bagal-history-indian-association","a-history-of-bangladesh","banglapedia-surendranath-banerjee"],"evidenceLevel":"medium"},
+    {"id":"reach","section":"summary","claim":"Bagal lists ten affiliated associations in the first year and reports support meetings across northern and southern India during the 1877 campaign.","sourceIds":["jogesh-chandra-bagal-history-indian-association","a-history-of-bangladesh"],"evidenceLevel":"medium"},
+    {"id":"press-protest","section":"summary","claim":"In 1878 the Association organized a Calcutta meeting attended by about five thousand people to protest the Vernacular Press Act.","sourceIds":["jogesh-chandra-bagal-history-indian-association","a-history-of-bangladesh"],"evidenceLevel":"medium"},
+    {"id":"significance","section":"whyItMatters","claim":"The Association connected stated aims of public opinion and political education with documented campaigns and organizing beyond Calcutta, including the Civil Service petition effort and protest against the Vernacular Press Act.","sourceIds":["jogesh-chandra-bagal-history-indian-association","a-history-of-bangladesh","banglapedia-surendranath-banerjee"],"evidenceLevel":"medium"}
   ],
-  "stub": true
+  "stub": false
 }

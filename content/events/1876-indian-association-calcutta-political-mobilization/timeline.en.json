@@ -2,9 +2,23 @@
   {
     "year": "26 July 1876",
     "title": "Indian Association founded in Calcutta",
-    "detail": "Surendranath Banerjea and Ananda Mohan Bose established the association as an organized platform for political activity and public opinion.",
+    "detail": "A public meeting established the Association. Its organizers included Surendranath Banerjea, Ananda Mohan Bose, Monomohun Ghose, Shivanath Sastri, and Dwarkanath Ganguli.",
     "sourceIds": [
-      "history-banglapedia",
+      "jogesh-chandra-bagal-history-indian-association",
+      "banglapedia-surendranath-banerjee",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "24 March 1877",
+    "title": "Civil Service examination campaign launched",
+    "detail": "At a public meeting, the Association called for raising the maximum examination age from 19 to 22 and holding examinations in India as well as London.",
+    "sourceIds": [
+      "jogesh-chandra-bagal-history-indian-association",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
@@ -13,11 +27,25 @@
     ]
   },
   {
-    "year": "1877",
-    "title": "Banerjea begins a wider political tour",
-    "detail": "Banerjea undertook a tour beyond Bengal to build public opinion around political and administrative questions, extending the Association’s organizing activity beyond Calcutta.",
+    "year": "26 May–November 1877",
+    "title": "Banerjea tours India to organize support",
+    "detail": "As the Association’s delegate, Banerjea organized Civil Service campaign meetings across northern India, then continued to Bombay, Surat, Ahmedabad, Poona, and Madras.",
     "sourceIds": [
-      "history-banglapedia",
+      "jogesh-chandra-bagal-history-indian-association",
+      "a-history-of-bangladesh",
+      "banglapedia-surendranath-banerjee"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "17 April 1878",
+    "title": "Calcutta meeting protests the Vernacular Press Act",
+    "detail": "The Association held a public protest meeting at Calcutta Town Hall; Bagal reports attendance of about five thousand and records the meeting’s resolutions against the Act.",
+    "sourceIds": [
+      "jogesh-chandra-bagal-history-indian-association",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",

@@ -1,10 +1,24 @@
 [
   {
-    "year": "26 July 1876",
+    "year": "২৬ জুলাই ১৮৭৬",
     "title": "কলকাতায় ইন্ডিয়ান অ্যাসোসিয়েশন প্রতিষ্ঠা",
-    "detail": "সুরেন্দ্রনাথ বন্দ্যোপাধ্যায় ও আনন্দমোহন বসু রাজনৈতিক কর্মকাণ্ড ও জনমত গঠনের সংগঠিত মঞ্চ হিসেবে অ্যাসোসিয়েশনটি প্রতিষ্ঠা করেন।",
+    "detail": "একটি জনসভায় অ্যাসোসিয়েশনটি প্রতিষ্ঠিত হয়। উদ্যোক্তাদের মধ্যে ছিলেন সুরেন্দ্রনাথ বন্দ্যোপাধ্যায়, আনন্দমোহন বসু, মনোমোহন ঘোষ, শিবনাথ শাস্ত্রী ও দ্বারকানাথ গঙ্গোপাধ্যায়।",
     "sourceIds": [
-      "history-banglapedia",
+      "jogesh-chandra-bagal-history-indian-association",
+      "banglapedia-surendranath-banerjee",
+      "a-history-of-bangladesh"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "২৪ মার্চ ১৮৭৭",
+    "title": "আইসিএস পরীক্ষার সংস্কারের দাবিতে প্রচার",
+    "detail": "এক জনসভায় অ্যাসোসিয়েশন পরীক্ষার সর্বোচ্চ বয়সসীমা ১৯ থেকে ২২ বছর করা এবং লন্ডনের পাশাপাশি ভারতে পরীক্ষা নেওয়ার দাবি জানায়।",
+    "sourceIds": [
+      "jogesh-chandra-bagal-history-indian-association",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
@@ -13,11 +27,25 @@
     ]
   },
   {
-    "year": "1877",
-    "title": "বন্দ্যোপাধ্যায়ের বৃহত্তর রাজনৈতিক সফর শুরু",
-    "detail": "রাজনৈতিক ও প্রশাসনিক প্রশ্নে জনমত গড়তে বন্দ্যোপাধ্যায় বাংলার বাইরে সফর করেন। এতে কলকাতার বাইরেও অ্যাসোসিয়েশনের সংগঠনী উদ্যোগ বিস্তৃত হয়।",
+    "year": "২৬ মে–নভেম্বর ১৮৭৭",
+    "title": "সমর্থন সংগঠনে বন্দ্যোপাধ্যায়ের ভারত সফর",
+    "detail": "অ্যাসোসিয়েশনের প্রতিনিধি হিসেবে বন্দ্যোপাধ্যায় উত্তর ভারতের বিভিন্ন স্থানে আইসিএস প্রচারের সভা করেন; পরে বোম্বে, সুরাট, আহমেদাবাদ, পুনে ও মাদ্রাজে যান।",
     "sourceIds": [
-      "history-banglapedia",
+      "jogesh-chandra-bagal-history-indian-association",
+      "a-history-of-bangladesh",
+      "banglapedia-surendranath-banerjee"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৭ এপ্রিল ১৮৭৮",
+    "title": "ভার্নাকুলার প্রেস অ্যাক্টের প্রতিবাদে কলকাতার সভা",
+    "detail": "অ্যাসোসিয়েশন কলকাতা টাউন হলে প্রতিবাদ-সভা করে। বাগালের হিসাবে, সভায় প্রায় পাঁচ হাজার মানুষ উপস্থিত ছিলেন এবং অ্যাক্টের বিরুদ্ধে প্রস্তাব গৃহীত হয়।",
+    "sourceIds": [
+      "jogesh-chandra-bagal-history-indian-association",
       "a-history-of-bangladesh"
     ],
     "evidenceLevel": "medium",
