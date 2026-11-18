@@ -25,3 +25,14 @@ Hard requirements:
   - `docs/CHANGELOG.md` with model/validation/UI/backfill notes
 - Always run `pnpm content:validate` before finalizing content-model or content-data changes.
 <!-- END:multi-agent-content-rules -->
+
+## Agent Roles
+
+- **Claude is the lead.** It makes the main decisions: scope, architecture, design and editorial calls. It writes the task briefs and reviews all output before commit.
+- **Codex is a worker only.** It is a general developer that executes the task it is given, inside the files named in the brief.
+- Codex must not, without a Claude decision:
+  - change the schema (`src/types/content.ts`, `scripts/validate-content.mjs`) or the rules in `docs/`;
+  - add events, figures or resources, or change scope beyond the brief;
+  - commit or push.
+- Codex reports back what it changed; Claude reviews the diff and runs `pnpm content:validate`, `pnpm lint` and `npx tsc --noEmit` before anything is committed.
+- Task prompts for Codex live in `docs/codex-command/`.
