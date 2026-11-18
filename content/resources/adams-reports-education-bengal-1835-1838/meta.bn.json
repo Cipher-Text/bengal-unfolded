@@ -1,0 +1,17 @@
+{
+  "title": "Reports on the State of Education in Bengal (1835, 1836, 1838)",
+  "note": "উইলিয়াম অ্যাডামের বাংলার শিক্ষাব্যবস্থা নিয়ে করা তিনটি সরকারি প্রতিবেদন; ব্রিটিশ লাইব্রেরির ক্যাটালগে ১৮৩৫, ১৮৩৬ ও ১৮৩৮ সালের প্রতিবেদনগুলোর তথ্য আছে।",
+  "category": "primary-sources",
+  "subcategory": "Colonial education reports",
+  "href": "https://searcharchives.bl.uk/catalog/040-000155883",
+  "attribution": "William Adam",
+  "creatorId": "william-adam",
+  "creatorType": "person",
+  "quality": "archive",
+  "sourceQuality": "primary",
+  "evidenceLevel": "high",
+  "whyItMatters": "১৮৩৫ সালের শিক্ষানীতি বিতর্কের সময় বাংলার দেশীয় বিদ্যালয় ও শিক্ষাব্যবস্থা সম্পর্কে সমকালীন জরিপের তথ্য দেয়।",
+  "relatedEventIds": [
+    "1835-macaulay-education-policy-impact-in-bengal"
+  ]
+}

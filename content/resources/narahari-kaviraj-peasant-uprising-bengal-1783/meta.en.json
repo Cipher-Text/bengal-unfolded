@@ -1,0 +1,17 @@
+{
+  "title": "A Peasant Uprising in Bengal 1783",
+  "note": "Narahari Kaviraj’s study of the 1783 peasant uprising, published by People’s Publishing House, Delhi, in 1972.",
+  "category": "academic-books",
+  "subcategory": "Peasant resistance in Bengal",
+  "href": "https://books.google.com/books?id=T7q1AAAAIAAJ",
+  "attribution": "Narahari Kaviraj",
+  "creatorId": "narahari-kaviraj",
+  "creatorType": "person",
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "A historical study devoted entirely to the 1783 peasant uprising in Bengal.",
+  "relatedEventIds": [
+    "1781-rangpur-dhing-uprising"
+  ]
+}

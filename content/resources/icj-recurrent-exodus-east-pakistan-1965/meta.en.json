@@ -1,0 +1,18 @@
+{
+  "title": "Recurrent Exodus of Minorities from East Pakistan and Disturbances in India",
+  "note": "1965 committee report based on refugee-camp evidence and other sources; includes the Hazrat Bal incident and 1964 migration and disturbances.",
+  "category": "primary-sources",
+  "subcategory": "Human-rights fact-finding reports",
+  "href": "https://www.icj.org/resource/recurrent-exodus-of-minorities-from-east-pakistan-and-disturbances-in-india/",
+  "attribution": "International Commission of Jurists",
+  "creatorId": "international-commission-of-jurists",
+  "creatorType": "organization",
+  "quality": "secondary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Records the committee's gathered testimony and account of the Hazrat Bal incident, migration from East Pakistan and the communal disturbances.",
+  "relatedEventIds": [
+    "1963-hazratbal-crisis-and-east-pakistan-communal-tensions",
+    "1964-communal-riots-east-pakistan"
+  ]
+}

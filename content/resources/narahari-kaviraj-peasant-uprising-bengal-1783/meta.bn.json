@@ -1,0 +1,17 @@
+{
+  "title": "A Peasant Uprising in Bengal 1783",
+  "note": "নরহরি কবিরাজের বইটি ১৯৭২ সালে দিল্লির People’s Publishing House থেকে প্রকাশিত; ক্যাটালগে ১১১ পৃষ্ঠার বই হিসেবে নথিভুক্ত।",
+  "category": "academic-books",
+  "subcategory": "Peasant resistance in Bengal",
+  "href": "https://books.google.com/books?id=T7q1AAAAIAAJ",
+  "attribution": "Narahari Kaviraj",
+  "creatorId": "narahari-kaviraj",
+  "creatorType": "person",
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "high",
+  "whyItMatters": "বাংলার ১৭৮৩ সালের কৃষক বিদ্রোহ নিয়ে সরাসরি নিবেদিত একটি ঐতিহাসিক গবেষণা।",
+  "relatedEventIds": [
+    "1781-rangpur-dhing-uprising"
+  ]
+}
