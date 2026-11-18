@@ -2,12 +2,12 @@
   "slug": "1916-lucknow-pact-bengal-implications",
   "year": "1916",
   "title": "Lucknow Pact and Bengal Implications",
-  "subtitle": "The Congress–Muslim League agreement of December 1916 accepted separate electorates and allocated Muslims 40% of Bengal council seats.",
-  "summary": "At their December 1916 sessions in Lucknow, the Indian National Congress and All-India Muslim League adopted a joint constitutional scheme known as the Lucknow Pact. Congress accepted separate electorates, while the agreed provincial formula allotted Muslims 40 percent of Bengal’s legislative seats despite their majority in the province. This underrepresentation drew criticism from some Bengal Muslim leaders; Bengal responses were not uniform. The available catalog sources establish the broad constitutional context but do not adequately document the local debate or its actors.",
+  "subtitle": "The 1916 Congress–League scheme reserved 40% of Bengal’s elected Indian council seats for Muslims.",
+  "summary": "At Lucknow in December 1916, the Indian National Congress and All-India Muslim League adopted a joint constitutional reform scheme. Congress accepted separate electorates, and the scheme stated Muslim representation in Bengal at 40 percent of elected Indian council members; it also provided Hindu weightage in Bengal. A Pakistan Historical Society history argues that this allocation left Bengal’s Muslim majority without a majority among elected Indian members. The same chapter says the regulations under the Government of India Act, 1919, later reduced Muslim representation in Bengal to 30 percent. These figures describe the scheme and the chapter’s account of later implementation.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A national agreement whose seat formula drew criticism in Muslim-majority Bengal.",
-  "whyItMatters": "The Bengal allocation illustrates the pact’s compromise: cross-party agreement on minority safeguards elsewhere came with Muslim underrepresentation in Bengal. A chapter promising the pact’s Bengal implications needs stronger, Bengal-specific scholarship on the negotiations, local criticism, and subsequent political effects; the current catalog cannot support that fuller account.",
+  "heroTagline": "The agreed seat formula made Bengal’s Muslim majority a minority among elected Indian members, according to the chapter.",
+  "whyItMatters": "The chapter makes Bengal a central part of the pact’s compromise: it describes Hindu weightage in Bengal and argues that the Muslim majority consequently lost its legislative majority under the agreed formula, with the 1919 regulations reducing Muslim representation further. This is the Pakistan Historical Society history’s interpretation; Hugh F. Owen’s article abstract separately characterizes the negotiations as enabling later cooperation while alienating important Hindu groups in Bengal and Punjab.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,14 +15,15 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
+    "pakistan-historical-society-history-freedom-movement-vol3",
+    "hugh-owen-negotiating-lucknow-pact",
     "constitutional-development-banglapedia",
     "history-banglapedia",
     "a-history-of-bangladesh"
   ],
   "whyItMattersSourceIds": [
-    "constitutional-development-banglapedia",
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "pakistan-historical-society-history-freedom-movement-vol3",
+    "hugh-owen-negotiating-lucknow-pact"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -34,34 +35,49 @@
   "placeLabel": "Bengal Region",
   "claimCitations": [
     {
-      "id": "summary-claim-1",
+      "id": "pact-framework",
       "section": "summary",
-      "claim": "At their December 1916 sessions in Lucknow, the Indian National Congress and All-India Muslim League adopted a joint constitutional scheme known as the Lucknow Pact. Congress accepted separate electorates, while the agreed provincial formula allotted Muslims 40 percent of Bengal’s legislative seats despite their majority in the province. This underrepresentation drew criticism from some Bengal Muslim leaders; Bengal responses were not uniform. The available catalog sources establish the broad constitutional context but do not adequately document the local debate or its actors.",
+      "claim": "At Lucknow in December 1916, Congress and the Muslim League adopted a joint reform scheme; Congress accepted separate electorates.",
       "sourceIds": [
-        "constitutional-development-banglapedia",
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "pakistan-historical-society-history-freedom-movement-vol3",
+        "hugh-owen-negotiating-lucknow-pact"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "bengal-seat-formula",
+      "section": "summary",
+      "claim": "The scheme stated Muslim representation at 40 percent of Bengal’s elected Indian council members and provided Hindu weightage in Bengal.",
+      "sourceIds": [
+        "pakistan-historical-society-history-freedom-movement-vol3"
       ],
       "evidenceLevel": "medium"
     },
     {
-      "id": "whyItMatters-claim-1",
+      "id": "bengal-implication",
       "section": "whyItMatters",
-      "claim": "The Bengal allocation illustrates the pact’s compromise: cross-party agreement on minority safeguards elsewhere came with Muslim underrepresentation in Bengal. A chapter promising the pact’s Bengal implications needs stronger, Bengal-specific scholarship on the negotiations, local criticism, and subsequent political effects; the current catalog cannot support that fuller account.",
+      "claim": "A Pakistan Historical Society history argues that the Bengal allocation meant Muslims lost their majority among elected Indian members; it says regulations under the Government of India Act, 1919, later reduced Muslim representation in Bengal to 30 percent.",
       "sourceIds": [
-        "constitutional-development-banglapedia",
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "pakistan-historical-society-history-freedom-movement-vol3"
       ],
       "evidenceLevel": "medium"
+    },
+    {
+      "id": "owen-assessment",
+      "section": "whyItMatters",
+      "claim": "Hugh F. Owen’s article abstract says negotiations enabled later cooperation and alienated important Hindu groups in Bengal and Punjab; this characterization is based on the abstract only.",
+      "sourceIds": [
+        "hugh-owen-negotiating-lucknow-pact"
+      ],
+      "evidenceLevel": "low"
     }
   ],
-  "stub": true,
+  "stub": false,
   "contested": true,
-  "historicalDebate": "The pact is often treated as a moment of Congress–League cooperation, while scholarship also emphasizes disputes over the provincial seat formula and criticism among Bengal Muslim leaders. Available catalog sources do not provide enough Bengal-specific evidence to adjudicate the local debate.",
+  "historicalDebate": "The Pakistan Historical Society history presents the Bengal seat formula as a disproportionate price for Muslim concessions and says later regulations reduced representation further. This is an attributed interpretation. Owen’s article abstract emphasizes both later cooperation and the alienation of important Hindu groups in Bengal and Punjab; the abstract alone does not settle the local effects.",
   "historicalDebateSourceIds": [
-    "constitutional-development-banglapedia",
-    "history-banglapedia"
+    "pakistan-historical-society-history-freedom-movement-vol3",
+    "hugh-owen-negotiating-lucknow-pact"
   ],
   "historicalDebateEvidenceLevel": "medium"
 }
