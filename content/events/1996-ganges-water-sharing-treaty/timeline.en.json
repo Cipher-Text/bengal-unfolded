@@ -1,10 +1,9 @@
 [
   {
-    "year": "1996",
-    "title": "Context",
-    "detail": "Ganges Water Sharing Treaty was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "November 1972",
+    "title": "Joint River Commission formed",
+    "detail": "Following the 19 March 1972 joint declaration to establish a permanent commission, the Joint River Commission was formed in November 1972.",
     "sourceIds": [
-      "ganges-water-sharing-treaty-1996-full-text",
       "history-banglapedia"
     ],
     "evidenceLevel": "medium",
@@ -13,17 +12,75 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "May 1974",
+    "title": "Dry-season flow recognized as an issue",
+    "detail": "In a joint declaration in May 1974, the two prime ministers acknowledged the need to augment dry-season Ganges flow at Farakka for Bangladesh and Kolkata port, and said an acceptable agreement should be reached before the barrage began operating.",
     "sourceIds": [
-      "ganges-water-sharing-treaty-1996-full-text",
       "history-banglapedia"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
+    ]
+  },
+  {
+    "year": "21 April 1975",
+    "title": "Interim arrangement begins",
+    "detail": "An interim agreement allowed experimental operation of the Farakka feeder canals for 41 days, from 21 April through 31 May 1975.",
+    "sourceIds": [
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "5 November 1977",
+    "title": "Five-year sharing agreement signed",
+    "detail": "Bangladesh and India concluded a five-year Ganges water-sharing agreement after negotiations resumed.",
+    "sourceIds": [
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "4 October 1982",
+    "title": "Two-year memorandum signed",
+    "detail": "The two governments signed a memorandum of understanding on water sharing for two years after the 1977 agreement expired.",
+    "sourceIds": [
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "22 November 1985",
+    "title": "Further memorandum signed",
+    "detail": "Bangladesh and India signed another water-sharing understanding for three years.",
+    "sourceIds": [
+      "history-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "12 December 1996",
+    "title": "Thirty-year treaty signed",
+    "detail": "Prime Ministers Sheikh Hasina and H. D. Deve Gowda signed the Treaty on Sharing of the Ganga/Ganges Waters at Farakka in New Delhi. It entered into force on the date of signature for 30 years.",
+    "sourceIds": [
+      "ganges-water-sharing-treaty-1996-full-text"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "democracy"
     ]
   }
 ]

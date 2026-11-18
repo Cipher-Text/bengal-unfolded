@@ -1,8 +1,8 @@
 [
   {
-    "year": "1973",
-    "title": "প্রেক্ষিত",
-    "detail": "বাংলাদেশের প্রথম সংসদ নির্বাচন বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+    "year": "৪ নভেম্বর ১৯৭২",
+    "title": "সংবিধান গৃহীত",
+    "detail": "গণপরিষদ সংবিধান গ্রহণ করে; এতে নতুন প্রজাতন্ত্রের সংসদীয় কাঠামো প্রতিষ্ঠিত হয়।",
     "sourceIds": [
       "bangladesh-era-of-sheikh-mujibur-rahman",
       "bangladesh-since-independence-britannica"
@@ -13,17 +13,55 @@
     ]
   },
   {
-    "year": "উত্তরাধিকার",
-    "title": "দীর্ঘমেয়াদি প্রভাব",
-    "detail": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+    "year": "১৬ ডিসেম্বর ১৯৭২",
+    "title": "সংবিধান কার্যকর",
+    "detail": "সংবিধান কার্যকর হওয়ার মধ্য দিয়ে সরাসরি নির্বাচিত জাতীয় সংসদ গঠনের সাংবিধানিক ভিত্তি তৈরি হয়।",
     "sourceIds": [
       "bangladesh-era-of-sheikh-mujibur-rahman",
       "bangladesh-since-independence-britannica"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
+    ]
+  },
+  {
+    "year": "৭ মার্চ ১৯৭৩",
+    "title": "প্রথম সংসদ নির্বাচন",
+    "detail": "স্বাধীন বাংলাদেশের প্রথম জাতীয় সংসদের সদস্য নির্বাচনে ভোটগ্রহণ হয়। সরাসরি নির্বাচনের জন্য ৩০০টি আসন ছিল।",
+    "sourceIds": [
+      "bangladesh-era-of-sheikh-mujibur-rahman",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "৭ মার্চ ১৯৭৩",
+    "title": "আওয়ামী লীগের সংখ্যাগরিষ্ঠতা",
+    "detail": "আওয়ামী লীগ সরাসরি নির্বাচিত ৩০০ আসনের মধ্যে ২৯৩টি এবং মোট ভোটের ৭৩.২ শতাংশ পায়; জাতীয় সমাজতান্ত্রিক দল একটি আসনে জয়ী হয়।",
+    "sourceIds": [
+      "bangladesh-era-of-sheikh-mujibur-rahman",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "৭ এপ্রিল ১৯৭৩",
+    "title": "নির্বাচিত সংসদের প্রথম অধিবেশন",
+    "detail": "মার্চে নির্বাচিত সংসদের প্রথম অধিবেশন শুরু হয়; নতুন জাতীয় আইনসভার কার্যক্রম শুরু হয়।",
+    "sourceIds": [
+      "bangladesh-era-of-sheikh-mujibur-rahman",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
     ]
   }
 ]

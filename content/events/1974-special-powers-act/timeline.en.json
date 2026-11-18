@@ -1,8 +1,8 @@
 [
   {
-    "year": "1974",
-    "title": "Context",
-    "detail": "Special Powers Act, 1974 was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "1952",
+    "title": "Security Act provides an earlier model",
+    "detail": "The Special Powers Act later followed the Security Act of 1952 as part of the legal background to preventive state powers.",
     "sourceIds": [
       "special-powers-act-1974-banglapedia",
       "bangladesh-era-of-sheikh-mujibur-rahman"
@@ -13,17 +13,53 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "1958",
+    "title": "Public Safety Ordinance enacted",
+    "detail": "The Public Safety Ordinance of 1958 was among the earlier legal instruments that the 1974 Act followed and replaced.",
     "sourceIds": [
       "special-powers-act-1974-banglapedia",
       "bangladesh-era-of-sheikh-mujibur-rahman"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
+    ]
+  },
+  {
+    "year": "1972",
+    "title": "Scheduled Offences Order",
+    "detail": "The Bangladesh Scheduled Offences (Special Tribunal) Order, 1972 formed another part of the legal background identified by Banglapedia.",
+    "sourceIds": [
+      "special-powers-act-1974-banglapedia",
+      "bangladesh-era-of-sheikh-mujibur-rahman"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "9 February 1974",
+    "title": "Special Powers Act promulgated",
+    "detail": "Bangladesh promulgated Act XIV of 1974. Its text states its purpose as preventing specified prejudicial activities and enabling speedy trial and effective punishment for certain grave offences.",
+    "sourceIds": [
+      "special-powers-act-1974-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "1991",
+    "title": "Amendments omit provisions",
+    "detail": "The consolidated statute records that the Special Powers (Amendment) Act, 1991 omitted provisions including section 16; Banglapedia describes the Act as having undergone amendments and deletions.",
+    "sourceIds": [
+      "special-powers-act-1974-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
     ]
   }
 ]

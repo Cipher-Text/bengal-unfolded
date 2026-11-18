@@ -1,8 +1,8 @@
 [
   {
-    "year": "1973",
-    "title": "Context",
-    "detail": "First Parliamentary Election in Bangladesh was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "4 November 1972",
+    "title": "Constitution adopted",
+    "detail": "The Constituent Assembly adopted the Constitution, establishing the parliamentary framework for the new republic.",
     "sourceIds": [
       "bangladesh-era-of-sheikh-mujibur-rahman",
       "bangladesh-since-independence-britannica"
@@ -13,17 +13,55 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "16 December 1972",
+    "title": "Constitution takes effect",
+    "detail": "The Constitution came into force, providing the constitutional basis for a directly elected national parliament.",
     "sourceIds": [
       "bangladesh-era-of-sheikh-mujibur-rahman",
       "bangladesh-since-independence-britannica"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
+    ]
+  },
+  {
+    "year": "7 March 1973",
+    "title": "First parliamentary election",
+    "detail": "Voters elected members to the first Jatiya Sangsad of independent Bangladesh. The election covered 300 directly elected seats.",
+    "sourceIds": [
+      "bangladesh-era-of-sheikh-mujibur-rahman",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "7 March 1973",
+    "title": "Awami League wins majority",
+    "detail": "The Awami League won 293 of the 300 directly elected seats and 73.2 percent of votes cast; the Jatiya Samajtantrik Dal won one seat.",
+    "sourceIds": [
+      "bangladesh-era-of-sheikh-mujibur-rahman",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
+    ]
+  },
+  {
+    "year": "7 April 1973",
+    "title": "First elected parliament meets",
+    "detail": "The first session of parliament elected in March opened, beginning the work of the new national legislature.",
+    "sourceIds": [
+      "bangladesh-era-of-sheikh-mujibur-rahman",
+      "bangladesh-since-independence-britannica"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
     ]
   }
 ]

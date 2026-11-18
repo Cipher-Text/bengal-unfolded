@@ -2,12 +2,12 @@
   "slug": "1996-ganges-water-sharing-treaty",
   "year": "1996",
   "title": "Ganges Water Sharing Treaty",
-  "subtitle": "Regional Diplomacy in Bengal/Bangladesh history.",
-  "summary": "Ganges Water Sharing Treaty was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "India and Bangladesh signed a 30-year dry-season water-sharing treaty at Farakka on 12 December 1996.",
+  "summary": "On 12 December 1996, Bangladesh Prime Minister Sheikh Hasina and India Prime Minister H. D. Deve Gowda signed the Treaty on Sharing of the Ganga/Ganges Waters at Farakka in New Delhi. The treaty set a formula for sharing flows during the lean season, 1 January–31 May, using ten-day periods and measured flow at Farakka. It entered into force on signature for 30 years, with provision for review and adjustment and a commitment to cooperate on other shared rivers.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key regional diplomacy chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "A 30-year India–Bangladesh agreement set rules for sharing Ganges flows at Farakka.",
+  "whyItMatters": "The treaty created a formal bilateral mechanism for sharing lean-season flows of a transboundary river. Its formula, review provisions and commitment to negotiate agreements on other common rivers made it an important framework for India–Bangladesh water diplomacy.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,14 +15,12 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "ganges-water-sharing-treaty-1996-full-text",
-    "history-banglapedia"
+    "ganges-water-sharing-treaty-1996-full-text"
   ],
   "whyItMattersSourceIds": [
-    "ganges-water-sharing-treaty-1996-full-text",
-    "history-banglapedia"
+    "ganges-water-sharing-treaty-1996-full-text"
   ],
-  "summaryEvidenceLevel": "medium",
+  "summaryEvidenceLevel": "high",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "contemporary-memory-and-civic-protest",
   "movementId": "memory-justice-and-civic-dissent",
@@ -34,23 +32,45 @@
     {
       "id": "summary-claim-1",
       "section": "summary",
-      "claim": "Ganges Water Sharing Treaty was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "On 12 December 1996, Bangladesh Prime Minister Sheikh Hasina and India Prime Minister H. D. Deve Gowda signed the Treaty on Sharing of the Ganga/Ganges Waters at Farakka in New Delhi. The treaty set a formula for sharing flows during the lean season, 1 January–31 May, using ten-day periods and measured flow at Farakka. It entered into force on signature for 30 years, with provision for review and adjustment and a commitment to cooperate on other shared rivers.",
       "sourceIds": [
-        "ganges-water-sharing-treaty-1996-full-text",
-        "history-banglapedia"
+        "ganges-water-sharing-treaty-1996-full-text"
       ],
-      "evidenceLevel": "medium"
+      "evidenceLevel": "high"
     },
     {
       "id": "whyItMatters-claim-1",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "claim": "The treaty created a formal bilateral mechanism for sharing lean-season flows of a transboundary river. Its formula, review provisions and commitment to negotiate agreements on other common rivers made it an important framework for India–Bangladesh water diplomacy.",
       "sourceIds": [
-        "ganges-water-sharing-treaty-1996-full-text",
-        "history-banglapedia"
+        "ganges-water-sharing-treaty-1996-full-text"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "longTermLegacy-claim-1",
+      "section": "longTermLegacy",
+      "claim": "The treaty established a 30-year framework for seasonal Ganges water sharing and a bilateral process for review, monitoring and possible adjustment.",
+      "sourceIds": [
+        "ganges-water-sharing-treaty-1996-full-text"
+      ],
+      "evidenceLevel": "high"
+    },
+    {
+      "id": "identityMemoryNotes-claim-1",
+      "section": "identityMemoryNotes",
+      "claim": "The agreement is a prominent example of Bangladesh and India addressing a shared-river issue through a negotiated treaty and continuing joint mechanisms.",
+      "sourceIds": [
+        "ganges-water-sharing-treaty-1996-full-text"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false,
+  "longTermLegacy": "The treaty established a 30-year framework for seasonal Ganges water sharing and a bilateral process for review, monitoring and possible adjustment.",
+  "longTermLegacySourceIds": [
+    "ganges-water-sharing-treaty-1996-full-text"
+  ],
+  "longTermLegacyEvidenceLevel": "high",
+  "identityMemoryNotes": "The agreement is a prominent example of Bangladesh and India addressing a shared-river issue through a negotiated treaty and continuing joint mechanisms."
 }
