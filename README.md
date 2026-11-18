@@ -31,6 +31,11 @@ Bengal Unfolded is a digital project that presents the history of Bengal and Ban
 
 ### Technical
 - [Performance Guardrails](docs/PERFORMANCE.md)
+- [Static Hosting Readiness](docs/STATIC_HOSTING_READINESS.md)
+- [Container Deployment](docs/CONTAINER_DEPLOYMENT.md)
+- [Static Redirects](docs/STATIC_REDIRECTS.md)
+- [Adding Figure Images](docs/ADDING_FIGURE_IMAGES.md)
+- [SEO / GSC Optimization Log](docs/SEO_GSC_OPTIMIZATION_LOG.md)
 - [SEO Audit Archive](docs/archive/seo-audit.md)
 
 ### Archive

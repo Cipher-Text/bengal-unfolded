@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-18
+
+### Completed
+
+- Docs sync (docs only; no model, validation or UI changes). `CLAUDE.md` now lists `/join`, `/compare-data/[slug]` and the `/og` image route, the `content:validate`, `static:verify` and `test:e2e` commands, and no longer says there is no test suite. `README.md` links the static hosting, container deployment, redirects, figure-image and SEO log docs.
+
 ## 2026-11-04
 
 ### Completed

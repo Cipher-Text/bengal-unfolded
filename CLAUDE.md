@@ -11,9 +11,12 @@ pnpm dev       # development server at http://localhost:3000
 pnpm build     # production build
 pnpm start     # serve production build
 pnpm lint      # ESLint
+pnpm content:validate  # content schema checks (run before finalizing content changes)
+pnpm static:verify     # verify the static export in out/
+pnpm test:e2e          # Playwright browser tests (tests/browser/core.spec.ts)
 ```
 
-No test suite exists yet.
+There is no unit test suite; coverage is the Playwright browser suite. Container publishing is described in `docs/CONTAINER_DEPLOYMENT.md`.
 
 ## Architecture
 
@@ -36,6 +39,9 @@ Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/
 - `/[locale]/timeline` — full timeline explorer
 - `/[locale]/compare` — event comparison page
 - `/[locale]/methodology` — public methodology page
+- `/[locale]/join` — collaboration and contact page
+- `/[locale]/compare-data/[slug]` — static JSON used by the compare page
+- `/og/[locale]/[type]/[image]` — Open Graph image route (outside `[locale]`)
 
 **Entity discovery:**
 - Events, figures, periods, movements, places: hardcoded in `SUPPORTED_*` constants in `src/types/content.ts`
