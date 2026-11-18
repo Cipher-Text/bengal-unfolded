@@ -148,7 +148,9 @@ for (const locale of ["en", "bn"]) {
 }
 
 test("placeholder (stub) chapters do not show citations or evidence badges", async ({ page }) => {
-  await page.goto("/en/events/1971-december-14-intellectual-killings/");
+  // Use a chapter that stays a stub until better sources exist (see its meta "stub": true).
+  // If it is ever completed, switch to another event with "stub": true.
+  await page.goto("/en/events/1835-macaulay-education-policy-impact-in-bengal/");
   await expect(page.getByText("Chapter in progress")).toBeVisible();
   await expect(page.getByText(/Evidence:/)).toHaveCount(0);
   await expect(page.locator("#timeline")).toHaveCount(0);
