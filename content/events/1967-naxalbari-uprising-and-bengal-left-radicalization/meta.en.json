@@ -2,12 +2,12 @@
   "slug": "1967-naxalbari-uprising-and-bengal-left-radicalization",
   "year": "1967",
   "title": "Naxalbari Uprising and Left Radicalization in Bengal",
-  "subtitle": "Left Politics in Bengal/Bangladesh history.",
-  "summary": "Naxalbari Uprising and Left Radicalization in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "A peasant movement in North Bengal became a rallying point for a wider revolutionary communist current.",
+  "summary": "In February–May 1967, sharecroppers and poor peasants in the Naxalbari area of Darjeeling district protested land relations, with support from local CPI(M) organizers, according to historian Vanessa Corrado. Corrado dates a police firing at Bengai Jote to 25 May 1967 and recounts the preceding confrontation partly through former activist Sanjay Mitra’s oral testimony. The movement also prompted organizing in Calcutta: a solidarity committee appeared in July–August 1967, followed by an all-India coordination committee in November. By 1969, revolutionary circles around Charu Mazumdar supported forming the CPI(ML); Ritanjan Das independently places its formation announcement in May that year. Corrado describes the movement’s urban base as including students and workers, while stressing that revolutionary groups were not unified.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key left politics chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "From peasant protest in Darjeeling district to radical organizing in Calcutta.",
+  "whyItMatters": "The episode linked rural land protest to urban political mobilization and an organizational break within the communist movement. Corrado’s account shows how Naxalbari became a rallying point, while also warning that later narratives can flatten a socially diverse and internally divided movement. Details of the firing and its immediate causes remain sensitive and should be read with attribution: part of Corrado’s narrative relies on a former participant’s oral account.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,42 +15,86 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "corrado-naxalbari-movement-historiography",
+    "ritanjan-das-west-bengal-left-politics-thesis"
   ],
   "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "corrado-naxalbari-movement-historiography"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "memory-justice-and-civic-dissent",
-  "sensitive": false,
+  "sensitive": true,
   "requiresSources": true,
+  "contested": true,
+  "historicalDebate": "Corrado describes the 25 May police firing and reports deaths, but her text’s opening narrative relies in part on former activist Sanjay Mitra’s oral testimony and contains an explicit correction of casualty counts within that testimony. This chapter omits casualty numbers and does not treat responsibility for the events preceding the firing as settled. Das’s brief overview describes the movement and subsequent party formation but does not independently resolve the sequence at Bengai Jote.",
+  "historicalDebateSourceIds": [
+    "corrado-naxalbari-movement-historiography",
+    "ritanjan-das-west-bengal-left-politics-thesis"
+  ],
+  "historicalDebateEvidenceLevel": "low",
+  "contentWarnings": [
+    "This chapter discusses political violence and police firing."
+  ],
   "placeId": "naxalbari",
   "placeLabel": "Naxalbari",
   "claimCitations": [
     {
-      "id": "summary-claim-1",
+      "id": "rural-protest",
       "section": "summary",
-      "claim": "Naxalbari Uprising and Left Radicalization in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "Corrado describes sharecropper and poor-peasant protests in the Naxalbari area between February and May 1967 over land relations, supported by local CPI(M) organizers.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "corrado-naxalbari-movement-historiography"
       ],
       "evidenceLevel": "medium"
     },
     {
-      "id": "whyItMatters-claim-1",
-      "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "id": "bengai-jote-firing",
+      "section": "summary",
+      "claim": "Corrado dates police firing at Bengai Jote to 25 May 1967; the preceding sequence is partly based on Sanjay Mitra’s oral testimony. No casualty figure or responsibility claim is asserted here.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "corrado-naxalbari-movement-historiography"
+      ],
+      "evidenceLevel": "low"
+    },
+    {
+      "id": "urban-organizing",
+      "section": "summary",
+      "claim": "Corrado says the Naxalbari and Peasant Struggle Solidarity Committee formed in July–August 1967 and the All India Coordination Committee of Communist Revolutionaries followed in November 1967.",
+      "sourceIds": [
+        "corrado-naxalbari-movement-historiography"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "party-formation",
+      "section": "summary",
+      "claim": "Corrado describes revolutionary circles around Charu Mazumdar supporting CPI(ML) formation in 1969; Das independently dates the formation announcement to May 1969.",
+      "sourceIds": [
+        "corrado-naxalbari-movement-historiography",
+        "ritanjan-das-west-bengal-left-politics-thesis"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "social-reach",
+      "section": "summary",
+      "claim": "Corrado describes Calcutta’s urban movement as including students and workers and notes that revolutionary communist groups remained divided.",
+      "sourceIds": [
+        "corrado-naxalbari-movement-historiography"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "significance",
+      "section": "whyItMatters",
+      "claim": "Corrado presents Naxalbari as a rallying point connecting rural protest and urban mobilization, while emphasizing the movement’s social diversity and internal divisions.",
+      "sourceIds": [
+        "corrado-naxalbari-movement-historiography"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false
 }

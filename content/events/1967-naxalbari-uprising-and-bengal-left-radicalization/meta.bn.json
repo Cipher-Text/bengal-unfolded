@@ -2,12 +2,12 @@
   "slug": "1967-naxalbari-uprising-and-bengal-left-radicalization",
   "year": "1967",
   "title": "নকশালবাড়ি বিদ্রোহ ও বাংলায় বামপন্থী র‌্যাডিকালাইজেশন",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Left Politics প্রেক্ষিত।",
-  "summary": "নকশালবাড়ি বিদ্রোহ ও বাংলায় বামপন্থী র‌্যাডিকালাইজেশন বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "subtitle": "উত্তরবঙ্গের কৃষক আন্দোলন বৃহত্তর বিপ্লবী কমিউনিস্ট ধারার সমাবেশস্থলে পরিণত হয়।",
+  "summary": "ইতিহাসবিদ ভ্যানেসা কোরাদ্দোর বিবরণ অনুযায়ী, ১৯৬৭ সালের ফেব্রুয়ারি থেকে মে মাসে দার্জিলিং জেলার নকশালবাড়ি এলাকায় বর্গাচাষি ও দরিদ্র কৃষকেরা ভূমি-সম্পর্কের বিরুদ্ধে প্রতিবাদ করেন; স্থানীয় সিপিআই (এম) সংগঠকেরা তাঁদের সমর্থন দেন। কোরাদ্দো বেঙ্গাই জোতে ২৫ মে ১৯৬৭ তারিখে পুলিশি গুলিচালনার কথা উল্লেখ করেছেন এবং তার আগের সংঘাতের বিবরণ আংশিকভাবে সাবেক কর্মী সঞ্জয় মিত্রের মৌখিক সাক্ষ্যের ভিত্তিতে দিয়েছেন। আন্দোলনটি কলকাতায়ও সংগঠনের উদ্যোগ তৈরি করে: ১৯৬৭ সালের জুলাই–আগস্টে একটি সংহতি কমিটি এবং নভেম্বরে সর্বভারতীয় সমন্বয় কমিটি গঠিত হয়। ১৯৬৯ সালে চারু মজুমদার-ঘনিষ্ঠ বিপ্লবী মহল সিপিআই (এমএল) গঠনের পক্ষে মত দেয়; রিতাঞ্জন দাসও ওই বছরের মে মাসে দল গঠনের ঘোষণার কথা উল্লেখ করেছেন। কোরাদ্দোর মতে, শহুরে আন্দোলনে ছাত্র ও শ্রমজীবী মানুষ যুক্ত ছিলেন, তবে বিপ্লবী গোষ্ঠীগুলো ঐক্যবদ্ধ ছিল না।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "দার্জিলিং জেলার কৃষক প্রতিবাদ থেকে কলকাতায় বামপন্থী সংগঠনের বিস্তার।",
+  "whyItMatters": "এই ঘটনা গ্রামীণ ভূমি-প্রতিবাদকে শহুরে রাজনৈতিক সংগঠনের সঙ্গে যুক্ত করে এবং কমিউনিস্ট আন্দোলনের ভেতরে সাংগঠনিক ভাঙন সামনে আনে। কোরাদ্দোর বিবরণে নকশালবাড়ি একটি সমাবেশী আহ্বানে পরিণত হলেও আন্দোলনের সামাজিক ভিত্তি ছিল বিস্তৃত এবং এর ভেতরে মতভেদ ছিল। গুলিচালনা ও তার তাৎক্ষণিক কারণ সংবেদনশীল; কোরাদ্দোর বিবরণের একটি অংশ সাবেক অংশগ্রহণকারীর মৌখিক বয়ানের ওপর নির্ভরশীল।",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,42 +15,86 @@
   "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
   "showOnLanding": false,
   "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "corrado-naxalbari-movement-historiography",
+    "ritanjan-das-west-bengal-left-politics-thesis"
   ],
   "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
+    "corrado-naxalbari-movement-historiography"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "pakistan-period-and-national-awakening",
   "movementId": "memory-justice-and-civic-dissent",
-  "sensitive": false,
+  "sensitive": true,
   "requiresSources": true,
+  "contested": true,
+  "historicalDebate": "কোরাদ্দো ২৫ মে-র পুলিশি গুলিচালনা এবং মৃত্যুর কথা লিখেছেন, তবে তাঁর প্রাথমিক বিবরণে সাবেক কর্মী সঞ্জয় মিত্রের মৌখিক সাক্ষ্য আংশিকভাবে ব্যবহৃত হয়েছে এবং সেই সাক্ষ্যের মধ্যেই হতাহতের সংখ্যার সংশোধন আছে। এই অধ্যায়ে কোনো হতাহতের সংখ্যা দেওয়া হয়নি এবং গুলিচালনার আগের ঘটনার দায়কে নিশ্চিত সত্য হিসেবে ধরা হয়নি। দাসের সংক্ষিপ্ত পর্যালোচনা আন্দোলন ও পরবর্তী দলগঠন বর্ণনা করে, কিন্তু বেঙ্গাই জোতের ঘটনাক্রম স্বাধীনভাবে মীমাংসা করে না।",
+  "historicalDebateSourceIds": [
+    "corrado-naxalbari-movement-historiography",
+    "ritanjan-das-west-bengal-left-politics-thesis"
+  ],
+  "historicalDebateEvidenceLevel": "low",
+  "contentWarnings": [
+    "এই অধ্যায়ে রাজনৈতিক সহিংসতা ও পুলিশি গুলিচালনার আলোচনা রয়েছে।"
+  ],
   "placeId": "naxalbari",
   "placeLabel": "নকশালবাড়ি",
   "claimCitations": [
     {
-      "id": "summary-claim-1",
+      "id": "rural-protest",
       "section": "summary",
-      "claim": "নকশালবাড়ি বিদ্রোহ ও বাংলায় বামপন্থী র‌্যাডিকালাইজেশন বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+      "claim": "Corrado describes sharecropper and poor-peasant protests in the Naxalbari area between February and May 1967 over land relations, supported by local CPI(M) organizers.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "corrado-naxalbari-movement-historiography"
       ],
       "evidenceLevel": "medium"
     },
     {
-      "id": "whyItMatters-claim-1",
-      "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+      "id": "bengai-jote-firing",
+      "section": "summary",
+      "claim": "Corrado dates police firing at Bengai Jote to 25 May 1967; the preceding sequence is partly based on Sanjay Mitra’s oral testimony. No casualty figure or responsibility claim is asserted here.",
       "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
+        "corrado-naxalbari-movement-historiography"
+      ],
+      "evidenceLevel": "low"
+    },
+    {
+      "id": "urban-organizing",
+      "section": "summary",
+      "claim": "Corrado says the Naxalbari and Peasant Struggle Solidarity Committee formed in July–August 1967 and the All India Coordination Committee of Communist Revolutionaries followed in November 1967.",
+      "sourceIds": [
+        "corrado-naxalbari-movement-historiography"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "party-formation",
+      "section": "summary",
+      "claim": "Corrado describes revolutionary circles around Charu Mazumdar supporting CPI(ML) formation in 1969; Das independently dates the formation announcement to May 1969.",
+      "sourceIds": [
+        "corrado-naxalbari-movement-historiography",
+        "ritanjan-das-west-bengal-left-politics-thesis"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "social-reach",
+      "section": "summary",
+      "claim": "Corrado describes Calcutta’s urban movement as including students and workers and notes that revolutionary communist groups remained divided.",
+      "sourceIds": [
+        "corrado-naxalbari-movement-historiography"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "significance",
+      "section": "whyItMatters",
+      "claim": "Corrado presents Naxalbari as a rallying point connecting rural protest and urban mobilization, while emphasizing the movement’s social diversity and internal divisions.",
+      "sourceIds": [
+        "corrado-naxalbari-movement-historiography"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false
 }

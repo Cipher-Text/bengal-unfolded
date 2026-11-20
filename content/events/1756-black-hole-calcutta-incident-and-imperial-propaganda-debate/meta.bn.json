@@ -2,12 +2,12 @@
   "slug": "1756-black-hole-calcutta-incident-and-imperial-propaganda-debate",
   "year": "1756",
   "title": "ব্ল্যাক হোল অব কলকাতা ও সাম্রাজ্যবাদী প্রচারণা বিতর্ক",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Colonial Transition প্রেক্ষিত।",
-  "summary": "ব্ল্যাক হোল অব কলকাতা ও সাম্রাজ্যবাদী প্রচারণা বিতর্ক বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "subtitle": "বিতর্কিত প্রত্যক্ষদর্শীর বিবরণ ব্রিটিশ প্রতিশোধ ও সাম্রাজ্যিক স্মৃতির ভাষার অংশ হয়ে ওঠে।",
+  "summary": "সিরাজ-উদ্-দৌলার বাহিনী ১৭৫৬ সালের ২০ জুন ফোর্ট উইলিয়াম দখলের পর কয়েকজন ইউরোপীয়কে দুর্গের একটি কক্ষে রাতভর বন্দি রাখা হয়। বেঁচে যাওয়া ব্যক্তি জন জেফানিয়া হলওয়েল পরে এ নিয়ে প্রত্যক্ষদর্শীর বিবরণ প্রকাশ করেন; সেখানে বন্দির সংখ্যা ও মৃত্যুর যে হিসাব দেওয়া হয়েছে, তা স্বাধীনভাবে নিশ্চিত বলে ধরা যায় না। রুদ্রাংশু মুখার্জি ব্রিজেন গুপ্তের (Brijen Gupta) গবেষণার ভিত্তিতে বলেন, টিকে থাকা বিবরণগুলি হলওয়েলের বিবরণের স্বাধীন সমর্থন নয়। তিনি আরও দেখান, কাহিনিটির রাজনৈতিক অর্থ কীভাবে বদলেছিল: ১৭৬০ সালের স্মৃতিফলকে হলওয়েল সিরাজকে দায়ী করেন এবং ব্রিটিশ প্রতিশোধকে ন্যায্য বলেন, যদিও তাঁর আগের বিবরণে বন্দিত্বের জন্য নবাবকে ব্যক্তিগতভাবে দায়ী করা হয়নি। সংখ্যা, দায় এবং পরবর্তী সাম্রাজ্যবাদী ব্যবহারের ব্যাখ্যা নিয়ে ঐতিহাসিক বিতর্ক রয়েছে।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "দুর্গে কী ঘটেছিল, হলওয়েল কী লিখেছিলেন এবং কাহিনিটি কীভাবে ব্যবহৃত হয়েছিল।",
+  "whyItMatters": "এই ঘটনা বুঝতে হলে ঘটনাটিকে ঘিরে টিকে থাকা বিবরণ থেকে আলাদা করে পড়তে হয়। হলওয়েলের প্রত্যক্ষদর্শীর বিবরণ কাহিনিটির কেন্দ্রীয় উৎস, কিন্তু এর সংখ্যাগত দাবির স্বাধীন সমর্থন নয়; মুখার্জির বিশ্লেষণে দেখা যায়, পরবর্তী স্মৃতিফলকের ভাষা ঘটনাটিকে ব্রিটিশ প্রতিশোধের সঙ্গে যুক্ত করে। এই পার্থক্য ব্ল্যাক হোলকে একই সঙ্গে বিতর্কিত ঐতিহাসিক ঘটনা এবং সাম্রাজ্যিক স্মৃতি নির্মাণের একটি দৃষ্টান্ত করে তোলে।",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,42 +15,82 @@
   "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
   "showOnLanding": false,
   "summarySourceIds": [
-    "battle-of-plassey-britannica",
-    "a-comprehensive-history-of-modern-bengal-1700-1950"
+    "mukherjee-black-hole-of-empire-2010",
+    "holwell-genuine-narrative-1758",
+    "hill-bengal-in-1756-57-vol2"
   ],
   "whyItMattersSourceIds": [
-    "battle-of-plassey-britannica",
-    "a-comprehensive-history-of-modern-bengal-1700-1950"
+    "mukherjee-black-hole-of-empire-2010",
+    "holwell-genuine-narrative-1758"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "mughal-incorporation-and-consolidation",
   "movementId": "memory-justice-and-civic-dissent",
-  "sensitive": false,
+  "sensitive": true,
   "requiresSources": true,
   "placeId": "calcutta-kolkata",
   "placeLabel": "ক্যালকাটা / কলকাতা",
+  "contested": true,
+  "contentWarnings": [
+    "বন্দিত্ব ও মৃত্যুর ঐতিহাসিক বিবরণ; কতজন বন্দি হয়েছিলেন এবং কারা মারা গিয়েছিলেন, তা নিয়ে মতভেদ রয়েছে।"
+  ],
+  "historicalDebate": "হলওয়েলের প্রত্যক্ষদর্শীর বিবরণে বন্দি ও মৃত্যুর একটি নির্দিষ্ট সংখ্যা দেওয়া হয়েছে, কিন্তু মুখার্জি ব্রিজেন গুপ্তের (Brijen Gupta) গবেষণা তুলে ধরে বলেন যে টিকে থাকা বিবরণগুলি হলওয়েলের বিবরণ থেকে স্বাধীন নয়। মুখার্জি আরও দেখান, ১৭৫৮ সালের হলওয়েলের বিবরণে বন্দিত্বের জন্য সিরাজকে ব্যক্তিগতভাবে দায়ী করা হয়নি, অথচ ১৭৬০ সালের স্মৃতিফলকে তাঁকেই দায়ী করে ব্রিটিশ প্রতিশোধকে ন্যায্য বলা হয়। মৃত্যুর পরিমাণ এবং সাম্রাজ্যবাদী বাগ্মিতায় ঘটনাটির ব্যবহারের মাত্রা তাই বিতর্কিত।",
+  "historicalDebateSourceIds": [
+    "holwell-genuine-narrative-1758",
+    "mukherjee-black-hole-of-empire-2010",
+    "hill-bengal-in-1756-57-vol2"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
   "claimCitations": [
     {
-      "id": "summary-claim-1",
+      "id": "fall-and-confinement",
       "section": "summary",
-      "claim": "ব্ল্যাক হোল অব কলকাতা ও সাম্রাজ্যবাদী প্রচারণা বিতর্ক বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+      "claim": "ফোর্ট উইলিয়ামের পতনের পর ১৭৫৬ সালের ২০ জুন ইউরোপীয়দের দুর্গের একটি কক্ষে রাতভর বন্দি রাখা হয়।",
       "sourceIds": [
-        "battle-of-plassey-britannica",
-        "a-comprehensive-history-of-modern-bengal-1700-1950"
+        "mukherjee-black-hole-of-empire-2010",
+        "hill-bengal-in-1756-57-vol2"
       ],
       "evidenceLevel": "medium"
     },
     {
-      "id": "whyItMatters-claim-1",
-      "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+      "id": "holwell-account",
+      "section": "summary",
+      "claim": "হলওয়েল ছিলেন বেঁচে যাওয়া প্রত্যক্ষদর্শী, যিনি নিজের বিবরণ প্রকাশ করেন; তাঁর বিবরণের সংখ্যাগুলি সেই বিবরণ থেকেই স্বাধীনভাবে নিশ্চিত হয় না।",
       "sourceIds": [
-        "battle-of-plassey-britannica",
-        "a-comprehensive-history-of-modern-bengal-1700-1950"
+        "holwell-genuine-narrative-1758",
+        "mukherjee-black-hole-of-empire-2010"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "narrative-dependence",
+      "section": "summary",
+      "claim": "মুখার্জি ব্রিজেন গুপ্তের (Brijen Gupta) সিদ্ধান্ত তুলে ধরে বলেন, টিকে থাকা বিবরণগুলি হলওয়েলের বিবরণের স্বাধীন সমর্থন নয়।",
+      "sourceIds": [
+        "mukherjee-black-hole-of-empire-2010"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "memorial-shift",
+      "section": "summary",
+      "claim": "মুখার্জি হলওয়েলের আগের বিবরণ, যেখানে সিরাজকে বন্দিত্বের জন্য ব্যক্তিগতভাবে দায়ী করা হয়নি, এবং ১৭৬০ সালের স্মৃতিফলকের ভাষার মধ্যে পার্থক্য দেখান।",
+      "sourceIds": [
+        "mukherjee-black-hole-of-empire-2010"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "historical-method",
+      "section": "whyItMatters",
+      "claim": "হলওয়েলের বিবরণ প্রত্যক্ষ অংশগ্রহণকারীর সাক্ষ্য, স্বাধীন সমর্থন নয়; পরবর্তী স্মৃতিফলকের ভাষা ঘটনাটির রাজনৈতিক ব্যাখ্যার পরিবর্তন দেখায়।",
+      "sourceIds": [
+        "holwell-genuine-narrative-1758",
+        "mukherjee-black-hole-of-empire-2010"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false
 }

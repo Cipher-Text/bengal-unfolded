@@ -1,29 +1,8 @@
 [
-  {
-    "year": "1658",
-    "title": "Context",
-    "detail": "Aurangzeb Era Revenue and Military Pressure in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
-    "sourceIds": [
-      "ain-i-akbari",
-      "history-banglapedia"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy"
-    ]
-  },
-  {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
-    "sourceIds": [
-      "ain-i-akbari",
-      "history-banglapedia"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy",
-      "culture"
-    ]
-  }
+  {"year":"1660","title":"Mir Jumla appointed governor","detail":"Aurangzeb appointed Mir Jumla governor of Bengal; he later moved the provincial capital from Rajmahal to Dhaka.","sourceIds":["the-history-of-bengal-vol-2-muslim-period-1200-1757","mughal-river-forts-bangladesh-khondker"],"evidenceLevel":"medium","themes":["war"]},
+  {"year":"1661","title":"Mir Jumla’s northeastern campaign begins","detail":"Mir Jumla left Dhaka for campaigns in Cooch Behar and Assam with a large land force and flotilla.","sourceIds":["the-history-of-bengal-vol-2-muslim-period-1200-1757","mughal-river-forts-bangladesh-khondker"],"evidenceLevel":"medium","themes":["war"]},
+  {"year":"1666","title":"Chittagong captured","detail":"Shaista Khan’s forces captured Chittagong after a campaign against Arakanese and Portuguese-Magh maritime power.","sourceIds":["the-history-of-bengal-vol-2-muslim-period-1200-1757","mughal-river-forts-bangladesh-khondker"],"evidenceLevel":"medium","themes":["war"]},
+  {"year":"1682","title":"Shaista Khan’s reported annual remittance","detail":"Sarkar reports that Shaista Khan began paying five lakh rupees annually to the emperor; this figure is reported by the volume and is not independently corroborated here.","sourceIds":["the-history-of-bengal-vol-2-muslim-period-1200-1757"],"evidenceLevel":"low","themes":["economy"]},
+  {"year":"1701","title":"Murshid Quli Khan appointed diwan","detail":"Aurangzeb transferred Murshid Quli Khan to Bengal as diwan, placing him at the head of provincial revenue administration.","sourceIds":["murshid-quli-khan-banglapedia"],"evidenceLevel":"medium","themes":["economy"]},
+  {"year":"1702","title":"Annual Bengal remittance reported","detail":"Banglapedia says annual remittances of one crore rupees from Bengal began under Murshid Quli Khan’s financial management.","sourceIds":["murshid-quli-khan-banglapedia"],"evidenceLevel":"medium","themes":["economy"]}
 ]

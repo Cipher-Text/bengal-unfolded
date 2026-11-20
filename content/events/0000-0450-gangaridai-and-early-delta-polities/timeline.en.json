@@ -1,29 +1,7 @@
 [
-  {
-    "year": "0000",
-    "title": "Context",
-    "detail": "Ancient Delta Polities (Gangaridai Context) was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
-    "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy"
-    ]
-  },
-  {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
-    "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy",
-      "culture"
-    ]
-  }
+  {"year":"1st century BCE–2nd century CE","title":"Classical references to Gangaridai","detail":"Greek and Latin writers used Gangaridai and related forms for a people or country, but their accounts differed about its location and relation to the Ganges.","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium","themes":["culture"]},
+  {"year":"1st century CE","title":"Periplus describes the Ganges country","detail":"Banglapedia's account of the Periplus notes a Ganges country on the Bay of Bengal and a market town named Gange; the identification with Gangaridai is an interpretation, not a settled location.","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium","themes":["economy"]},
+  {"year":"2nd century CE","title":"Ptolemy's delta description","detail":"Ptolemy placed Gangaridai around the mouths of the Ganges and named Gange as a royal residence, but Banglapedia says the city cannot be located securely.","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium","themes":["culture"]},
+  {"year":"early 4th century CE","title":"Regional states in Bengal","detail":"Majumdar describes Bengal as divided among regional states, including Samatata in the eastern delta, before Gupta expansion.","sourceIds":["history-of-ancient-bengal-majumdar","banglapedia-gupta-rule"],"evidenceLevel":"medium","themes":["culture"]},
+  {"year":"mid-4th century CE","title":"Gupta incorporation, with Samatata excepted","detail":"Banglapedia's Gupta Rule entry says most of Bengal had been incorporated into the Gupta Empire by the middle of the fourth century, except Samatata.","sourceIds":["banglapedia-gupta-rule"],"evidenceLevel":"medium","themes":["culture"]}
 ]

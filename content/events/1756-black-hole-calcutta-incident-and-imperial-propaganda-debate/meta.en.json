@@ -2,12 +2,12 @@
   "slug": "1756-black-hole-calcutta-incident-and-imperial-propaganda-debate",
   "year": "1756",
   "title": "Black Hole of Calcutta and Imperial Propaganda Debate",
-  "subtitle": "Colonial Transition in Bengal/Bangladesh history.",
-  "summary": "Black Hole of Calcutta and Imperial Propaganda Debate was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "A disputed eyewitness narrative became part of the language of British retribution and imperial memory.",
+  "summary": "After Siraj-ud-Daulah's forces captured Fort William on 20 June 1756, a group of Europeans was confined overnight in a fort cell. John Zephaniah Holwell, a survivor, later published a first-person account; its reported number confined and deaths cannot be treated as independently confirmed. Rudrangshu Mukherjee, relaying Brijen Gupta's study of the surviving accounts, says they are not independent corroboration of Holwell and traces how the story's political meaning changed: Holwell's 1760 memorial blamed Siraj and described British revenge as deserved, although Holwell's earlier narrative did not hold the nawab personally responsible for the confinement. The count, responsibility, and later imperial use remain subjects of historical debate.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key colonial transition chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "What happened in the fort, what Holwell reported, and how the story was used.",
+  "whyItMatters": "This episode must be read through the distinction between an event and the surviving accounts of it. Holwell's participant narrative is central to the story but is not independent confirmation of its figures; Mukherjee's analysis shows how later memorial language attached the incident to British retribution. That distinction makes the Black Hole both a contested historical episode and a case study in the making of imperial memory.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,42 +15,82 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "battle-of-plassey-britannica",
-    "a-comprehensive-history-of-modern-bengal-1700-1950"
+    "mukherjee-black-hole-of-empire-2010",
+    "holwell-genuine-narrative-1758",
+    "hill-bengal-in-1756-57-vol2"
   ],
   "whyItMattersSourceIds": [
-    "battle-of-plassey-britannica",
-    "a-comprehensive-history-of-modern-bengal-1700-1950"
+    "mukherjee-black-hole-of-empire-2010",
+    "holwell-genuine-narrative-1758"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "mughal-incorporation-and-consolidation",
   "movementId": "memory-justice-and-civic-dissent",
-  "sensitive": false,
+  "sensitive": true,
   "requiresSources": true,
   "placeId": "calcutta-kolkata",
   "placeLabel": "Calcutta / Kolkata",
+  "contested": true,
+  "contentWarnings": [
+    "Historical account of confinement and reported deaths; the number of people confined and who died is disputed."
+  ],
+  "historicalDebate": "Holwell's first-person narrative reports a particular number of prisoners and deaths, but Mukherjee, relaying Brijen Gupta's study, notes that the surviving accounts are not independent of Holwell. Mukherjee also distinguishes Holwell's 1758 narrative, which did not assign the confinement personally to Siraj, from the 1760 memorial inscription that blamed Siraj and called British revenge deserved. The scale of deaths and the extent to which the episode served imperial rhetoric therefore remain debated.",
+  "historicalDebateSourceIds": [
+    "holwell-genuine-narrative-1758",
+    "mukherjee-black-hole-of-empire-2010",
+    "hill-bengal-in-1756-57-vol2"
+  ],
+  "historicalDebateEvidenceLevel": "medium",
   "claimCitations": [
     {
-      "id": "summary-claim-1",
+      "id": "fall-and-confinement",
       "section": "summary",
-      "claim": "Black Hole of Calcutta and Imperial Propaganda Debate was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+      "claim": "After Fort William fell on 20 June 1756, Europeans were confined overnight in a cell within the fort.",
       "sourceIds": [
-        "battle-of-plassey-britannica",
-        "a-comprehensive-history-of-modern-bengal-1700-1950"
+        "mukherjee-black-hole-of-empire-2010",
+        "hill-bengal-in-1756-57-vol2"
       ],
       "evidenceLevel": "medium"
     },
     {
-      "id": "whyItMatters-claim-1",
-      "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+      "id": "holwell-account",
+      "section": "summary",
+      "claim": "Holwell was a survivor who published a first-person narrative; the figures in that account are not independently confirmed by the account itself.",
       "sourceIds": [
-        "battle-of-plassey-britannica",
-        "a-comprehensive-history-of-modern-bengal-1700-1950"
+        "holwell-genuine-narrative-1758",
+        "mukherjee-black-hole-of-empire-2010"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "narrative-dependence",
+      "section": "summary",
+      "claim": "Mukherjee reports Brijen Gupta's finding that the surviving narratives are not independent corroboration of Holwell's account.",
+      "sourceIds": [
+        "mukherjee-black-hole-of-empire-2010"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "memorial-shift",
+      "section": "summary",
+      "claim": "Mukherjee contrasts Holwell's earlier account, which did not make Siraj personally responsible for confinement, with the 1760 memorial's blame of Siraj and language of deserved British revenge.",
+      "sourceIds": [
+        "mukherjee-black-hole-of-empire-2010"
+      ],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "historical-method",
+      "section": "whyItMatters",
+      "claim": "Holwell's account is participant testimony rather than independent confirmation, while the later memorial's wording shows a change in the episode's political interpretation.",
+      "sourceIds": [
+        "holwell-genuine-narrative-1758",
+        "mukherjee-black-hole-of-empire-2010"
       ],
       "evidenceLevel": "medium"
     }
   ],
-  "stub": true
+  "stub": false
 }

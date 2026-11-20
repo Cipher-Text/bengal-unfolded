@@ -1,0 +1,15 @@
+{
+  "title": "Gangaridai",
+  "note": "Reference entry by A. M. Chowdhury. It summarizes classical Greek and Latin mentions, offers a tentative geographic reading of Ptolemy, and expressly states that local evidence does not establish a Bengal kingdom matching those accounts around the beginning of the Common Era.",
+  "category": "reference-sources",
+  "subcategory": "Banglapedia historical encyclopedia entries",
+  "href": "https://en.banglapedia.org/index.php?title=Gangaridai&oldid=2408",
+  "attribution": "A. M. Chowdhury",
+  "creatorId": "a-m-chowdhury",
+  "creatorType": "person",
+  "quality": "secondary",
+  "sourceQuality": "reference",
+  "evidenceLevel": "medium",
+  "whyItMatters": "The entry distinguishes what classical writers report from what can be established locally, and cautions that Ptolemy's location and the city of Gange remain uncertain.",
+  "relatedEventIds": ["0000-0450-gangaridai-and-early-delta-polities"]
+}

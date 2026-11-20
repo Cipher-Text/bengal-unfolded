@@ -1,0 +1,17 @@
+{
+  "title": "Tabakat-i-Nasiri: A General History of the Muhammadan Dynasties of Asia, Vol. I",
+  "note": "The local text is an Oriental Books Reprint Corporation edition, New Delhi, reprinted February 1970; it reproduces H. G. Raverty's translation of Minhaj-i-Siraj Juzjani's thirteenth-century Persian court chronicle, first published in 1881. The title page identifies the reprint; library catalog records verify the 1881 London publication by Gilbert & Rivington. Raverty's editorial footnotes are later commentary, not Juzjani's testimony. The chronicle is contemporaneous and court-facing, and its account reflects that perspective.",
+  "category": "primary-sources",
+  "subcategory": "Persian court chronicles",
+  "href": "https://archive.org/details/dli.bengal.10689.10018",
+  "attribution": "Minhaj-i-Siraj Juzjani; translated by H. G. Raverty",
+  "creatorId": "minhaj-i-siraj-juzjani",
+  "creatorType": "person",
+  "quality": "primary",
+  "sourceQuality": "primary",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Juzjani's account records his own presence with Tughral Tughan Khan in 1240s campaigns and reports changes in Delhi's recognition of Bengal's governors. Its contemporary court perspective documents political claims and military episodes, while its praise of patrons and Raverty's clearly separate later notes require cautious attribution.",
+  "relatedEventIds": [
+    "1230s-1280s-bengal-under-delhi-governorates-fragmentation"
+  ]
+}

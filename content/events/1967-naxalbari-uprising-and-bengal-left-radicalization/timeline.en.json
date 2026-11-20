@@ -1,11 +1,23 @@
 [
   {
     "year": "1967",
-    "title": "Context",
-    "detail": "Naxalbari Uprising and Left Radicalization in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "title": "Peasant protests and Bengai Jote firing",
+    "detail": "Corrado describes peasant protests in the Naxalbari area during February–May and dates police firing at Bengai Jote to 25 May. Her account of the preceding events partly draws on Sanjay Mitra’s oral testimony; this entry gives no casualty figure.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "corrado-naxalbari-movement-historiography"
+    ],
+    "evidenceLevel": "low",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "July–August 1967",
+    "title": "Naxalbari solidarity committee formed",
+    "detail": "Corrado dates the formation of the Naxalbari and Peasant Struggle Solidarity Committee to July–August 1967.",
+    "sourceIds": [
+      "corrado-naxalbari-movement-historiography"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +25,28 @@
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "November 1967",
+    "title": "Revolutionary coordination committee formed",
+    "detail": "Corrado says the committee became the All India Coordination Committee of Communist Revolutionaries in November 1967.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "corrado-naxalbari-movement-historiography"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
+    ]
+  },
+  {
+    "year": "May 1969",
+    "title": "CPI(ML) formation announced",
+    "detail": "Corrado describes revolutionary circles around Charu Mazumdar approving formation of the CPI(ML) in 1969; Das dates the announcement to May.",
+    "sourceIds": [
+      "corrado-naxalbari-movement-historiography",
+      "ritanjan-das-west-bengal-left-politics-thesis"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
     ]
   }
 ]

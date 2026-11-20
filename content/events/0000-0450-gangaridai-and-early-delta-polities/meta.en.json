@@ -2,26 +2,20 @@
   "slug": "0000-0450-gangaridai-and-early-delta-polities",
   "year": "0000",
   "title": "Ancient Delta Polities (Gangaridai Context)",
-  "subtitle": "Ancient Bengal in Bengal/Bangladesh history.",
-  "summary": "Ancient Delta Polities (Gangaridai Context) was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "Classical writers named Gangaridai, but local evidence does not establish a matching kingdom.",
+  "summary": "Greek and Latin authors from the first century BCE to the second century CE referred to Gangaridai as a people or country. Their descriptions vary: some place it beyond or along the Ganges, while Ptolemy locates it around the river's mouths and names Gange as a royal residence. The Periplus describes a Ganges country and a market town called Gange. These are reports in texts written outside the region, not local proof of a Gangaridai kingdom; Banglapedia notes that such a kingdom in Bengal around the beginning of the Common Era cannot be established from local sources, and that Gange cannot be located securely.\n\nFor the early fourth century CE, Majumdar describes Bengal as divided among regional states, including Samatata in the eastern delta. Banglapedia's separate account says that by the middle of the fourth century most of Bengal, except Samatata, had been incorporated into the Gupta Empire. This later evidence documents regional political formations, but does not identify them as a Gangaridai kingdom.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key ancient bengal chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "What classical accounts say—and what local evidence cannot confirm.",
+  "whyItMatters": "The name Gangaridai is evidence for how distant classical writers described the Ganges region, while the locations and political relationship they assigned to it remain uncertain. Separating those reports from the better-attested fourth-century regional states avoids treating a classical label as proof of a continuous kingdom.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
   "periodLabel": "Ancient and Pre-Sultanate Bengal",
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
-  "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
-  ],
-  "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
-  ],
+  "summarySourceIds": ["banglapedia-gangaridai", "history-of-ancient-bengal-majumdar", "banglapedia-gupta-rule"],
+  "whyItMattersSourceIds": ["banglapedia-gangaridai", "history-of-ancient-bengal-majumdar"],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "ancient-and-pre-sultanate-bengal",
@@ -31,26 +25,11 @@
   "placeId": "bengal-region",
   "placeLabel": "Bengal Region",
   "claimCitations": [
-    {
-      "id": "summary-claim-1",
-      "section": "summary",
-      "claim": "Ancient Delta Polities (Gangaridai Context) was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
-      "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
-      ],
-      "evidenceLevel": "medium"
-    },
-    {
-      "id": "whyItMatters-claim-1",
-      "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
-      "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
-      ],
-      "evidenceLevel": "medium"
-    }
+    {"id":"classical-reports","section":"summary","claim":"Greek and Latin authors from the first century BCE to the second century CE referred to Gangaridai as a people or country; their descriptions differ about its location and relation to the Ganges.","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium"},
+    {"id":"ptolemy-periplus","section":"summary","claim":"Banglapedia reports that Ptolemy located Gangaridai around the Ganges mouths and named Gange as a royal residence, while the Periplus described a Ganges country and a market town called Gange; the city cannot be located securely.","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium"},
+    {"id":"no-local-kingdom-proof","section":"summary","claim":"Banglapedia states that local sources do not establish a Bengal kingdom around the beginning of the Common Era matching classical descriptions of Gangaridai.","sourceIds":["banglapedia-gangaridai"],"evidenceLevel":"medium"},
+    {"id":"regional-states","section":"summary","claim":"Majumdar describes Bengal in the early fourth century CE as divided among states including Samatata in the eastern delta; Banglapedia says most of Bengal except Samatata was incorporated into the Gupta Empire by the middle of the fourth century.","sourceIds":["history-of-ancient-bengal-majumdar","banglapedia-gupta-rule"],"evidenceLevel":"medium"},
+    {"id":"interpretive-significance","section":"whyItMatters","claim":"The name Gangaridai documents classical writers' descriptions, but its location and political relationship remain uncertain; the fourth-century regional states should not be treated as proof of a continuous Gangaridai kingdom.","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium"}
   ],
-  "stub": true
+  "stub": false
 }

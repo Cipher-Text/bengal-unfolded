@@ -2,12 +2,12 @@
   "slug": "1658-1707-aurangzeb-era-revenue-military-pressure-in-bengal",
   "year": "1658",
   "title": "ঔরঙ্গজেব আমলে বাংলায় রাজস্ব ও সামরিক চাপ",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Mughal Bengal প্রেক্ষিত।",
-  "summary": "ঔরঙ্গজেব আমলে বাংলায় রাজস্ব ও সামরিক চাপ বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "subtitle": "বাংলার উত্তর-পূর্ব ও দক্ষিণ-পূর্ব সীমান্তে অভিযান চলার পাশাপাশি প্রদেশটির রাজস্বের ওপর দাবি বাড়ে।",
+  "summary": "ঔরঙ্গজেব ১৬৬০ সালে মীর জুমলাকে বাংলার শাসক নিযুক্ত করেন। জাদুনাথ সরকারের বিবরণে ১৬৬১ সালের শেষ দিক থেকে কোচবিহার ও আসামে তাঁর অভিযান এবং বাংলার নৌবহর ও প্রশাসন পুনর্গঠনের প্রচেষ্টার কথা আছে। আরাকানি ও পর্তুগিজ-মগ নৌশক্তির বিরুদ্ধে অভিযানের পর ১৬৬৬ সালে শায়েস্তা খানের বাহিনী চট্টগ্রাম দখল করে। সরকার আরও লিখেছেন যে ১৬৮২ সালে শায়েস্তা খান সম্রাটকে বছরে পাঁচ লাখ রুপি পাঠানো শুরু করেন। বাংলাপিডিয়া জানায়, মুর্শিদ কুলি খান ১৭০১ সালে বাংলার দেওয়ান নিযুক্ত হন এবং তাঁর অর্থব্যবস্থাপনায় ১৭০২ সাল থেকে বছরে নিয়মিত এক কোটি রুপি দিল্লিতে পাঠানো শুরু হয়। এই উৎসগুলো সাম্রাজ্যিক রাজস্ব আদায় ও সামরিক চাপের একটি সামগ্রিক চিত্র দেয়, কিন্তু বাংলার অধিবাসীদের মধ্যে রাজস্বের বোঝা কীভাবে বণ্টিত হয়েছিল তা প্রতিষ্ঠা করে না।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "সীমান্ত অভিযান ও সাম্রাজ্যিক রাজস্বপ্রবাহ, ১৬৬০–১৭০২",
+  "whyItMatters": "অভিযানের বিবরণে দেখা যায়, বাংলার শাসকেরা কোচবিহার, আসাম ও চট্টগ্রাম সীমান্তে সেনা ও নৌবহর পরিচালনা করতেন; আর রাজস্ব পাঠানোর তথ্য প্রাদেশিক অর্থব্যবস্থার সঙ্গে ঔরঙ্গজেবের সাম্রাজ্যিক দরবারের যোগসূত্র দেখায়। এখানে পাওয়া প্রমাণে এই অর্থপ্রেরণের কেবল সামগ্রিক রূপরেখা আছে; রাজস্বের ভার কার ওপর কতটা পড়েছিল, তা নথিবদ্ধ বা পরিমাপ করা হয়নি।",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,12 +15,14 @@
   "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
   "showOnLanding": false,
   "summarySourceIds": [
-    "ain-i-akbari",
-    "history-banglapedia"
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+    "mughal-river-forts-bangladesh-khondker",
+    "murshid-quli-khan-banglapedia"
   ],
   "whyItMattersSourceIds": [
-    "ain-i-akbari",
-    "history-banglapedia"
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+    "mughal-river-forts-bangladesh-khondker",
+    "murshid-quli-khan-banglapedia"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -32,23 +34,38 @@
   "placeLabel": "বাংলা অঞ্চল",
   "claimCitations": [
     {
-      "id": "summary-claim-1",
+      "id": "mir-jumla-appointment-and-campaigns",
       "section": "summary",
-      "claim": "ঔরঙ্গজেব আমলে বাংলায় রাজস্ব ও সামরিক চাপ বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
-      "sourceIds": [
-        "ain-i-akbari",
-        "history-banglapedia"
-      ],
+      "claim": "মীর জুমলা ১৬৬০ সালে বাংলার শাসক হন এবং ১৬৬১ সালের শেষ দিক থেকে কোচবিহার ও আসামে অভিযান পরিচালনা করেন।",
+      "sourceIds": ["the-history-of-bengal-vol-2-muslim-period-1200-1757", "mughal-river-forts-bangladesh-khondker"],
       "evidenceLevel": "medium"
     },
     {
-      "id": "whyItMatters-claim-1",
+      "id": "chittagong-campaign",
+      "section": "summary",
+      "claim": "আরাকানি ও পর্তুগিজ-মগ নৌশক্তির বিরুদ্ধে সামরিক অভিযানের পর ১৬৬৬ সালে শায়েস্তা খানের বাহিনী চট্টগ্রাম দখল করে।",
+      "sourceIds": ["the-history-of-bengal-vol-2-muslim-period-1200-1757", "mughal-river-forts-bangladesh-khondker"],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "shaista-remittance",
+      "section": "summary",
+      "claim": "সরকারের বিবরণে বলা হয়েছে, শায়েস্তা খান ১৬৮২ সালে সম্রাটকে বছরে পাঁচ লাখ রুপি পাঠানো শুরু করেন।",
+      "sourceIds": ["the-history-of-bengal-vol-2-muslim-period-1200-1757"],
+      "evidenceLevel": "low"
+    },
+    {
+      "id": "murshid-quli-diwan-and-remittance",
+      "section": "summary",
+      "claim": "বাংলাপিডিয়া অনুযায়ী, মুর্শিদ কুলি খান ১৭০১ সালে বাংলার দেওয়ান নিযুক্ত হন এবং তাঁর অর্থব্যবস্থাপনায় ১৭০২ সাল থেকে বছরে এক কোটি রুপি পাঠানো শুরু হয়।",
+      "sourceIds": ["murshid-quli-khan-banglapedia"],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "scope-and-significance",
       "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
-      "sourceIds": [
-        "ain-i-akbari",
-        "history-banglapedia"
-      ],
+      "claim": "উৎসগুলো সীমান্ত অভিযান ও প্রাদেশিক রাজস্বপ্রেরণের তথ্য দেয়, কিন্তু বাংলার অধিবাসীদের মধ্যে রাজস্বের বোঝা কীভাবে বণ্টিত হয়েছিল তা পরিমাপ করে না।",
+      "sourceIds": ["the-history-of-bengal-vol-2-muslim-period-1200-1757", "mughal-river-forts-bangladesh-khondker", "murshid-quli-khan-banglapedia"],
       "evidenceLevel": "medium"
     }
   ],

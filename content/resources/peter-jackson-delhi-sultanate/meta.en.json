@@ -1,0 +1,17 @@
+{
+  "title": "The Delhi Sultanate: A Political and Military History",
+  "note": "Peter Jackson's scholarly history, published in Cambridge by Cambridge University Press in 1999. The title and publication data are verified against Cambridge University Press copyright/front-matter records and library catalogues. Jackson synthesizes chronicles, coins and inscriptions; this is a secondary interpretation, not a contemporary account.",
+  "category": "academic-books",
+  "subcategory": "Delhi Sultanate provincial politics",
+  "href": "https://openlibrary.org/isbn/9780521404778",
+  "attribution": "Peter Jackson",
+  "creatorId": "peter-jackson",
+  "creatorType": "person",
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Jackson reconstructs Lakhnauti's governor sequence by comparing Juzjani with inscriptions and coins. His discussion dates Yuzbak's death before February–March 1257 on numismatic grounds, while Sarkar's volume places the Kamrup disaster later in 1257, making the chronology's uncertainty visible.",
+  "relatedEventIds": [
+    "1230s-1280s-bengal-under-delhi-governorates-fragmentation"
+  ]
+}

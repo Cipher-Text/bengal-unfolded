@@ -2,12 +2,12 @@
   "slug": "1658-1707-aurangzeb-era-revenue-military-pressure-in-bengal",
   "year": "1658",
   "title": "Aurangzeb Era Revenue and Military Pressure in Bengal",
-  "subtitle": "Mughal Bengal in Bengal/Bangladesh history.",
-  "summary": "Aurangzeb Era Revenue and Military Pressure in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+  "subtitle": "Campaigns on Bengal’s northeastern and southeastern frontiers coincided with growing demands on the province’s revenues.",
+  "summary": "Aurangzeb appointed Mir Jumla governor of Bengal in 1660. Jadunath Sarkar’s account describes his campaigns in Cooch Behar and Assam from late 1661 and his effort to reorganize Bengal’s fleet and administration. Shaista Khan’s forces captured Chittagong in 1666 after operations against Arakanese and Portuguese-Magh maritime power. Sarkar also reports that Shaista Khan began sending five lakh rupees annually to the emperor in 1682. Banglapedia records Murshid Quli Khan’s appointment as Bengal’s diwan in 1701 and a regular annual remittance of one crore rupees beginning in 1702. These sources outline imperial extraction and military pressures but do not establish how the fiscal demands were distributed among Bengal’s inhabitants.",
   "themeColor": "#2f6b7a",
   "ctaLabel": "Explore",
-  "heroTagline": "A key mughal bengal chapter in the wider historical timeline.",
-  "whyItMatters": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+  "heroTagline": "Frontier campaigns and an imperial revenue stream, 1660–1702",
+  "whyItMatters": "The campaign record shows Bengal’s governors directing armies and fleets toward Cooch Behar, Assam, and Chittagong, while the reported remittances connect provincial finance to Aurangzeb’s imperial court. The evidence available here gives only a broad outline of those transfers; it does not document their incidence or quantify the burdens on cultivators and other residents.",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
@@ -15,12 +15,14 @@
   "movementLabel": "State, society, and political change",
   "showOnLanding": false,
   "summarySourceIds": [
-    "ain-i-akbari",
-    "history-banglapedia"
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+    "mughal-river-forts-bangladesh-khondker",
+    "murshid-quli-khan-banglapedia"
   ],
   "whyItMattersSourceIds": [
-    "ain-i-akbari",
-    "history-banglapedia"
+    "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+    "mughal-river-forts-bangladesh-khondker",
+    "murshid-quli-khan-banglapedia"
   ],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
@@ -32,23 +34,38 @@
   "placeLabel": "Bengal Region",
   "claimCitations": [
     {
-      "id": "summary-claim-1",
+      "id": "mir-jumla-appointment-and-campaigns",
       "section": "summary",
-      "claim": "Aurangzeb Era Revenue and Military Pressure in Bengal was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
-      "sourceIds": [
-        "ain-i-akbari",
-        "history-banglapedia"
-      ],
+      "claim": "Mir Jumla became Bengal’s governor in 1660 and campaigned in Cooch Behar and Assam from late 1661.",
+      "sourceIds": ["the-history-of-bengal-vol-2-muslim-period-1200-1757", "mughal-river-forts-bangladesh-khondker"],
       "evidenceLevel": "medium"
     },
     {
-      "id": "whyItMatters-claim-1",
+      "id": "chittagong-campaign",
+      "section": "summary",
+      "claim": "Shaista Khan’s forces captured Chittagong in 1666 after military operations against Arakanese and Portuguese-Magh maritime power.",
+      "sourceIds": ["the-history-of-bengal-vol-2-muslim-period-1200-1757", "mughal-river-forts-bangladesh-khondker"],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "shaista-remittance",
+      "section": "summary",
+      "claim": "Sarkar reports that Shaista Khan began paying five lakh rupees annually to the emperor in 1682.",
+      "sourceIds": ["the-history-of-bengal-vol-2-muslim-period-1200-1757"],
+      "evidenceLevel": "low"
+    },
+    {
+      "id": "murshid-quli-diwan-and-remittance",
+      "section": "summary",
+      "claim": "Banglapedia dates Murshid Quli Khan’s appointment as Bengal’s diwan to 1701 and says annual remittances of one crore rupees began in 1702 under his financial management.",
+      "sourceIds": ["murshid-quli-khan-banglapedia"],
+      "evidenceLevel": "medium"
+    },
+    {
+      "id": "scope-and-significance",
       "section": "whyItMatters",
-      "claim": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
-      "sourceIds": [
-        "ain-i-akbari",
-        "history-banglapedia"
-      ],
+      "claim": "The sources document frontier campaigns and provincial remittances, but do not quantify how those fiscal demands were distributed among Bengal’s inhabitants.",
+      "sourceIds": ["the-history-of-bengal-vol-2-muslim-period-1200-1757", "mughal-river-forts-bangladesh-khondker", "murshid-quli-khan-banglapedia"],
       "evidenceLevel": "medium"
     }
   ],

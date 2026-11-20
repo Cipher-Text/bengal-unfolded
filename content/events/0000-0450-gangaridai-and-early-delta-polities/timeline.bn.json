@@ -1,29 +1,7 @@
 [
-  {
-    "year": "0000",
-    "title": "প্রেক্ষিত",
-    "detail": "প্রাচীন বদ্বীপ রাষ্ট্রসমূহ (গঙ্গারিডাই প্রেক্ষিত) বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
-    "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy"
-    ]
-  },
-  {
-    "year": "উত্তরাধিকার",
-    "title": "দীর্ঘমেয়াদি প্রভাব",
-    "detail": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
-    "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy",
-      "culture"
-    ]
-  }
+  {"year":"খ্রিস্টপূর্ব প্রথম–খ্রিস্টীয় দ্বিতীয় শতক","title":"গঙ্গারিডাই সম্পর্কে ধ্রুপদি উল্লেখ","detail":"গ্রিক ও লাতিন লেখকেরা গঙ্গারিডাই ও সংশ্লিষ্ট নাম একটি জনগোষ্ঠী বা দেশের জন্য ব্যবহার করেছেন, তবে অবস্থান ও গঙ্গার সঙ্গে সম্পর্ক নিয়ে তাঁদের বিবরণে অমিল ছিল।","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium","themes":["culture"]},
+  {"year":"খ্রিস্টীয় প্রথম শতক","title":"পেরিপ্লাসে গঙ্গার দেশ","detail":"পেরিপ্লাসের বিবরণে বঙ্গোপসাগরের তীরে গঙ্গার দেশ এবং গঙ্গে নামের একটি বাজারনগরের কথা আছে। এর সঙ্গে গঙ্গারিডাইয়ের পরিচয় একটি ব্যাখ্যা, নিশ্চিত অবস্থান নয়।","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium","themes":["economy"]},
+  {"year":"খ্রিস্টীয় দ্বিতীয় শতক","title":"টলেমির বদ্বীপের বিবরণ","detail":"টলেমি গঙ্গারিডাইকে গঙ্গার মোহনা ঘিরে রেখেছেন এবং গঙ্গেকে রাজকীয় আবাস বলেছেন, তবে বাংলাপিডিয়া জানায় নগরীটির অবস্থান নিশ্চিতভাবে নির্ণয় করা যায় না।","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium","themes":["culture"]},
+  {"year":"খ্রিস্টীয় চতুর্থ শতকের গোড়া","title":"বাংলায় আঞ্চলিক রাষ্ট্রসমূহ","detail":"গুপ্ত সম্প্রসারণের আগে বাংলায় একাধিক আঞ্চলিক রাষ্ট্র ছিল বলে মজুমদার উল্লেখ করেছেন; এর মধ্যে পূর্ব বদ্বীপের সমতটও ছিল।","sourceIds":["history-of-ancient-bengal-majumdar","banglapedia-gupta-rule"],"evidenceLevel":"medium","themes":["culture"]},
+  {"year":"খ্রিস্টীয় চতুর্থ শতকের মাঝামাঝি","title":"সমতট বাদে গুপ্ত সাম্রাজ্যে অন্তর্ভুক্তি","detail":"বাংলাপিডিয়ার গুপ্ত শাসন নিবন্ধে বলা হয়েছে, চতুর্থ শতকের মাঝামাঝি সমতট ছাড়া বাংলার অধিকাংশ গুপ্ত সাম্রাজ্যের অন্তর্ভুক্ত হয়েছিল।","sourceIds":["banglapedia-gupta-rule"],"evidenceLevel":"medium","themes":["culture"]}
 ]

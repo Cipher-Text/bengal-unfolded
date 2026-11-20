@@ -1,29 +1,108 @@
 [
   {
-    "year": "1230s",
-    "title": "Context",
-    "detail": "Bengal under Delhi Governorates and Fragmentation was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "1225–1227",
+    "title": "Iltutmish reasserts Delhi's authority in Lakhnauti",
+    "detail": "Banglapedia says Iltutmish campaigned against Iwaz in 1225, then sent Nasiruddin Mahmud and Alauddin Jani after Iwaz rebelled again; Iwaz was killed and Lakhnauti returned to Delhi's province in 1227.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "banglapedia-iltutmish-governorship-bengal"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
+      "war"
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "1231",
+    "title": "Iltutmish defeats Balka Khalji",
+    "detail": "Banglapedia dates Iltutmish's suppression of Balka Khalji's rebellion and Balka's death to 1231, after which Alauddin Jani was appointed governor.",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "banglapedia-iltutmish-governorship-bengal"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "war"
+    ]
+  },
+  {
+    "year": "1235–1236",
+    "title": "Saifuddin Aibak is succeeded by Tughral Tughan Khan",
+    "detail": "Banglapedia dates Saifuddin Aibak's death to 1235 and says Iltutmish then placed Tughral Tughan Khan in charge; Tughral defeated Aur Khan and secured recognition from Razia after her accession in 1236.",
+    "sourceIds": [
+      "banglapedia-iltutmish-governorship-bengal",
+      "banglapedia-tughral-tughan-khan"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1242–1245",
+    "title": "Tughral Tughan campaigns west and against Orissa",
+    "detail": "Juzjani records Tughral Tughan's advance toward Kara in 640 AH and his campaign against Jajnagar in 641 AH; following intervention from Delhi and conflict with Tamar Khan, Tughral surrendered Lakhnauti and Bihar and departed in 643 AH. Banglapedia gives 1242, 1244 and 1245 for these stages.",
+    "sourceIds": [
+      "tabakat-i-nasiri-raverty-vol1",
+      "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+      "banglapedia-tughral-tughan-khan"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1256–1257",
+    "title": "Yuzbak's failed Kamrup expedition and death",
+    "detail": "The 1948 volume places Yuzbak's defeat and death after the Kamrup campaign later in 1257. Peter Jackson argues from coin evidence that Yuzbak died before February–March 1257 and places his command from 1254. Raverty's translator's note reports an invasion of Kamrud but gives no date.",
+    "sourceIds": [
+      "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+      "peter-jackson-delhi-sultanate",
+      "tabakat-i-nasiri-raverty-vol1"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1277–1279",
+    "title": "Balban's deputy Tughral revolts",
+    "detail": "Banglapedia dates the later Tughral's declaration of independence to 1277 and records repeated Delhi expeditions through 1279. This is a different governor from Tughral Tughan Khan of the 1240s.",
+    "sourceIds": [
+      "banglapedia-mughisuddin-tughral",
+      "banglapedia-ghiyasuddin-balban"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1280–1281",
+    "title": "Balban pursues Tughral into eastern Bengal",
+    "detail": "Banglapedia dates Balban's eastern campaign to 1280 and Tughral's death to 1281. The 1948 volume narrates multiple campaign seasons across 1280–81, drawing on Barani and offering a different geographical reconstruction of the pursuit.",
+    "sourceIds": [
+      "banglapedia-mughisuddin-tughral",
+      "banglapedia-ghiyasuddin-balban",
+      "the-history-of-bengal-vol-2-muslim-period-1200-1757"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
+    ]
+  },
+  {
+    "year": "1281–1282",
+    "title": "Bughra Khan transferred to Lakhnauti",
+    "detail": "Banglapedia says Balban placed his son Bughra Khan in charge of Bengal after suppressing Tughral's revolt. Peter Jackson dates the permanent transfer to Lakhnauti to around 1281–82; the 1948 volume also describes Bengal being granted to Bughra after the campaign.",
+    "sourceIds": [
+      "banglapedia-ghiyasuddin-balban",
+      "the-history-of-bengal-vol-2-muslim-period-1200-1757",
+      "peter-jackson-delhi-sultanate"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "war"
     ]
   }
 ]

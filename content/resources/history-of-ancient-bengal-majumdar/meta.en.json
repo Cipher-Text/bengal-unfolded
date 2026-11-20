@@ -1,0 +1,17 @@
+{
+  "title": "History of Ancient Bengal",
+  "note": "R. C. Majumdar, History of Ancient Bengal, first edition, Calcutta: G. Bharadwaj & Co., June 1971. The title page and Rajshahi University Library catalog agree on title, author, place, publisher, year, and first edition. This regional history synthesizes classical literary accounts and later evidence; its Gangaridai discussion reflects the historian's interpretations and explicitly notes contradictions among ancient descriptions.",
+  "category": "academic-books",
+  "subcategory": "Ancient Bengal historiography",
+  "href": "https://archive.org/details/dli.bengal.10689.13287",
+  "attribution": "R. C. Majumdar",
+  "creatorId": "r-c-majumdar",
+  "creatorType": "person",
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "medium",
+  "whyItMatters": "Majumdar collates ancient Greek and Roman reports about Gangaridai and discusses their conflicting geography and relationship with the Prasioi, making the limits of later historical reconstruction visible.",
+  "relatedEventIds": [
+    "0000-0450-gangaridai-and-early-delta-polities"
+  ]
+}

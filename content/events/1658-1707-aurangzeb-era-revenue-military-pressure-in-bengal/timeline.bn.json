@@ -1,29 +1,8 @@
 [
-  {
-    "year": "1658",
-    "title": "প্রেক্ষিত",
-    "detail": "ঔরঙ্গজেব আমলে বাংলায় রাজস্ব ও সামরিক চাপ বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
-    "sourceIds": [
-      "ain-i-akbari",
-      "history-banglapedia"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy"
-    ]
-  },
-  {
-    "year": "উত্তরাধিকার",
-    "title": "দীর্ঘমেয়াদি প্রভাব",
-    "detail": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
-    "sourceIds": [
-      "ain-i-akbari",
-      "history-banglapedia"
-    ],
-    "evidenceLevel": "medium",
-    "themes": [
-      "democracy",
-      "culture"
-    ]
-  }
+  {"year":"1660","title":"মীর জুমলার শাসক নিযুক্তি","detail":"ঔরঙ্গজেব মীর জুমলাকে বাংলার শাসক নিযুক্ত করেন; পরে তিনি প্রাদেশিক রাজধানী রাজমহল থেকে ঢাকায় স্থানান্তর করেন।","sourceIds":["the-history-of-bengal-vol-2-muslim-period-1200-1757","mughal-river-forts-bangladesh-khondker"],"evidenceLevel":"medium","themes":["war"]},
+  {"year":"1661","title":"মীর জুমলার উত্তর-পূর্বাঞ্চলীয় অভিযান শুরু","detail":"মীর জুমলা বড় স্থলবাহিনী ও নৌবহর নিয়ে কোচবিহার ও আসাম অভিযানের উদ্দেশ্যে ঢাকা ত্যাগ করেন।","sourceIds":["the-history-of-bengal-vol-2-muslim-period-1200-1757","mughal-river-forts-bangladesh-khondker"],"evidenceLevel":"medium","themes":["war"]},
+  {"year":"1666","title":"চট্টগ্রাম দখল","detail":"আরাকানি ও পর্তুগিজ-মগ নৌশক্তির বিরুদ্ধে অভিযানের পর শায়েস্তা খানের বাহিনী চট্টগ্রাম দখল করে।","sourceIds":["the-history-of-bengal-vol-2-muslim-period-1200-1757","mughal-river-forts-bangladesh-khondker"],"evidenceLevel":"medium","themes":["war"]},
+  {"year":"1682","title":"শায়েস্তা খানের বার্ষিক রাজস্বপ্রেরণের বিবরণ","detail":"সরকারের বিবরণে বলা হয়েছে, শায়েস্তা খান সম্রাটকে বছরে পাঁচ লাখ রুপি পাঠানো শুরু করেন; এই অঙ্কটি ওই গ্রন্থে উল্লিখিত, এখানে স্বতন্ত্রভাবে সমর্থিত নয়।","sourceIds":["the-history-of-bengal-vol-2-muslim-period-1200-1757"],"evidenceLevel":"low","themes":["economy"]},
+  {"year":"1701","title":"মুর্শিদ কুলি খানের দেওয়ান নিযুক্তি","detail":"ঔরঙ্গজেব মুর্শিদ কুলি খানকে বাংলার দেওয়ান হিসেবে বদলি করেন; এতে তিনি প্রাদেশিক রাজস্ব প্রশাসনের প্রধান হন।","sourceIds":["murshid-quli-khan-banglapedia"],"evidenceLevel":"medium","themes":["economy"]},
+  {"year":"1702","title":"বাংলা থেকে বার্ষিক রাজস্বপ্রেরণের বিবরণ","detail":"বাংলাপিডিয়া জানায়, মুর্শিদ কুলি খানের অর্থব্যবস্থাপনায় বাংলা থেকে বছরে এক কোটি রুপি পাঠানো শুরু হয়।","sourceIds":["murshid-quli-khan-banglapedia"],"evidenceLevel":"medium","themes":["economy"]}
 ]

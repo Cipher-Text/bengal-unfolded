@@ -1,29 +1,58 @@
 [
   {
-    "year": "1756",
-    "title": "Context",
-    "detail": "Black Hole of Calcutta and Imperial Propaganda Debate was a significant turning point in the political and social trajectory of Bengal/Bangladesh.",
+    "year": "20 June 1756",
+    "title": "Fort William falls; Europeans are confined",
+    "detail": "After the fort fell, some Europeans were confined overnight in a cell within Fort William. The surviving accounts do not independently establish the number confined or the number who died.",
     "sourceIds": [
-      "battle-of-plassey-britannica",
-      "a-comprehensive-history-of-modern-bengal-1700-1950"
+      "mukherjee-black-hole-of-empire-2010",
+      "hill-bengal-in-1756-57-vol2",
+      "holwell-genuine-narrative-1758"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy"
+      "war",
+      "culture"
     ]
   },
   {
-    "year": "Legacy",
-    "title": "Long-term impact",
-    "detail": "This event matters for understanding long-term institutional change, social memory, and political continuity in Bengal/Bangladesh.",
+    "year": "21 June 1756",
+    "title": "The prisoners are released",
+    "detail": "Holwell's account dates the opening of the cell and the release of surviving prisoners to the following morning; this detail is presented as his testimony.",
     "sourceIds": [
-      "battle-of-plassey-britannica",
-      "a-comprehensive-history-of-modern-bengal-1700-1950"
+      "holwell-genuine-narrative-1758",
+      "mukherjee-black-hole-of-empire-2010"
+    ],
+    "evidenceLevel": "low",
+    "themes": [
+      "war",
+      "culture"
+    ]
+  },
+  {
+    "year": "1757",
+    "title": "Clive frames British action as retribution",
+    "detail": "In a 30 July 1757 letter to the Mughal emperor, Robert Clive described the deaths as ordered by Siraj-ud-Daulah and presented British military action as revenge for the injuries. This is Clive's partisan justification, not independent confirmation of the alleged order.",
+    "sourceIds": [
+      "hill-bengal-in-1756-57-vol2",
+      "mukherjee-black-hole-of-empire-2010"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
+      "war",
       "culture"
+    ]
+  },
+  {
+    "year": "1760",
+    "title": "Holwell erects a memorial",
+    "detail": "Holwell's memorial inscription blamed Siraj for the deaths and described British revenge as deserved, a change from the qualification in Holwell's earlier narrative, as Mukherjee argues.",
+    "sourceIds": [
+      "mukherjee-black-hole-of-empire-2010"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "war"
     ]
   }
 ]

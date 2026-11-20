@@ -1,27 +1,21 @@
 {
   "slug": "0000-0450-gangaridai-and-early-delta-polities",
   "year": "0000",
-  "title": "প্রাচীন বদ্বীপ রাষ্ট্রসমূহ (গঙ্গারিডাই প্রেক্ষিত)",
-  "subtitle": "বাংলা/বাংলাদেশের ইতিহাসে Ancient Bengal প্রেক্ষিত।",
-  "summary": "প্রাচীন বদ্বীপ রাষ্ট্রসমূহ (গঙ্গারিডাই প্রেক্ষিত) বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+  "title": "প্রাচীন বদ্বীপের আঞ্চলিক রাষ্ট্রসমূহ (গঙ্গারিডাই প্রেক্ষিত)",
+  "subtitle": "ধ্রুপদি লেখকেরা গঙ্গারিডাইয়ের উল্লেখ করেছেন, তবে স্থানীয় প্রমাণে সমতুল্য রাজ্য প্রতিষ্ঠিত নয়।",
+  "summary": "খ্রিস্টপূর্ব প্রথম শতক থেকে খ্রিস্টীয় দ্বিতীয় শতকের গ্রিক ও লাতিন লেখকেরা গঙ্গারিডাইকে একটি জনগোষ্ঠী বা দেশ হিসেবে উল্লেখ করেছেন। তাঁদের বিবরণে ভিন্নতা আছে। কেউ একে গঙ্গার ওপারে বা গঙ্গার তীরবর্তী অঞ্চলে রেখেছেন, আর টলেমি একে গঙ্গার মোহনা ঘিরে বিস্তৃত বলে বর্ণনা করে গঙ্গে নগরীকে রাজকীয় আবাস বলেছেন। পেরিপ্লাসে গঙ্গার দেশ এবং গঙ্গে নামের একটি বাজারনগরের উল্লেখ আছে। এগুলো অঞ্চলের বাইরের লেখকদের বিবরণ, গঙ্গারিডাই রাজ্যের স্থানীয় প্রমাণ নয়। বাংলাপিডিয়া জানায়, খ্রিস্টাব্দের সূচনাকালের বাংলায় এমন রাজ্যের অস্তিত্ব স্থানীয় উৎসে প্রতিষ্ঠা করা যায় না এবং গঙ্গে নগরীর অবস্থানও নিশ্চিতভাবে নির্ণয় করা যায় না।\n\nখ্রিস্টীয় চতুর্থ শতকের গোড়ার দিকে বাংলায় একাধিক আঞ্চলিক রাষ্ট্র ছিল বলে মজুমদার উল্লেখ করেছেন; এর মধ্যে পূর্ব বদ্বীপের সমতটও ছিল। বাংলাপিডিয়ার পৃথক বিবরণে বলা হয়েছে, চতুর্থ শতকের মাঝামাঝি সমতট ছাড়া বাংলার অধিকাংশ গুপ্ত সাম্রাজ্যের অন্তর্ভুক্ত হয়। এই পরবর্তী প্রমাণ আঞ্চলিক রাজনৈতিক গঠনের পরিচয় দেয়, কিন্তু সেগুলোকে গঙ্গারিডাই রাজ্য বলে চিহ্নিত করে না।",
   "themeColor": "#2f6b7a",
   "ctaLabel": "বিস্তারিত দেখুন",
-  "heroTagline": "বৃহত্তর ঐতিহাসিক টাইমলাইনের একটি গুরুত্বপূর্ণ অধ্যায়।",
-  "whyItMatters": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+  "heroTagline": "ধ্রুপদি বিবরণে কী আছে, আর স্থানীয় প্রমাণে কী নিশ্চিত হয় না।",
+  "whyItMatters": "গঙ্গারিডাই নামটি গঙ্গা অঞ্চল সম্পর্কে দূরবর্তী ধ্রুপদি লেখকদের ধারণার প্রমাণ, তবে তাঁরা যে অবস্থান ও রাজনৈতিক সম্পর্কের কথা বলেছেন তা অনিশ্চিত। ওই বিবরণকে চতুর্থ শতকের তুলনামূলকভাবে ভালোভাবে নথিবদ্ধ আঞ্চলিক রাষ্ট্রসমূহ থেকে পৃথক রাখলে ধ্রুপদি নামকে অবিচ্ছিন্ন রাজ্যের প্রমাণ বলে ভুল হয় না।",
   "importance": "high",
   "relatedEvents": [],
   "relatedEventIds": [],
   "periodLabel": "প্রাচীন ও প্রাক-সালতানাত বাংলা",
   "movementLabel": "রাষ্ট্র, সমাজ ও রাজনৈতিক পরিবর্তন",
   "showOnLanding": false,
-  "summarySourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
-  ],
-  "whyItMattersSourceIds": [
-    "history-banglapedia",
-    "a-history-of-bangladesh"
-  ],
+  "summarySourceIds": ["banglapedia-gangaridai", "history-of-ancient-bengal-majumdar", "banglapedia-gupta-rule"],
+  "whyItMattersSourceIds": ["banglapedia-gangaridai", "history-of-ancient-bengal-majumdar"],
   "summaryEvidenceLevel": "medium",
   "whyItMattersEvidenceLevel": "medium",
   "periodId": "ancient-and-pre-sultanate-bengal",
@@ -31,26 +25,11 @@
   "placeId": "bengal-region",
   "placeLabel": "বাংলা অঞ্চল",
   "claimCitations": [
-    {
-      "id": "summary-claim-1",
-      "section": "summary",
-      "claim": "প্রাচীন বদ্বীপ রাষ্ট্রসমূহ (গঙ্গারিডাই প্রেক্ষিত) বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
-      "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
-      ],
-      "evidenceLevel": "medium"
-    },
-    {
-      "id": "whyItMatters-claim-1",
-      "section": "whyItMatters",
-      "claim": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
-      "sourceIds": [
-        "history-banglapedia",
-        "a-history-of-bangladesh"
-      ],
-      "evidenceLevel": "medium"
-    }
+    {"id":"classical-reports","section":"summary","claim":"খ্রিস্টপূর্ব প্রথম শতক থেকে খ্রিস্টীয় দ্বিতীয় শতকের গ্রিক ও লাতিন লেখকেরা গঙ্গারিডাইকে জনগোষ্ঠী বা দেশ বলেছেন; গঙ্গার অবস্থান ও সম্পর্ক নিয়ে তাঁদের বিবরণে অমিল আছে।","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium"},
+    {"id":"ptolemy-periplus","section":"summary","claim":"বাংলাপিডিয়ার বিবরণে টলেমি গঙ্গারিডাইকে গঙ্গার মোহনা অঞ্চলে রেখেছেন এবং গঙ্গেকে রাজকীয় আবাস বলেছেন; পেরিপ্লাসে গঙ্গার দেশ ও গঙ্গে নামের বাজারনগরের উল্লেখ আছে, তবে নগরীটির অবস্থান নিশ্চিত নয়।","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium"},
+    {"id":"no-local-kingdom-proof","section":"summary","claim":"বাংলাপিডিয়া বলেছে, খ্রিস্টাব্দের সূচনাকালের বাংলায় ধ্রুপদি বিবরণের সঙ্গে মেলে এমন গঙ্গারিডাই রাজ্য স্থানীয় উৎসে প্রতিষ্ঠিত নয়।","sourceIds":["banglapedia-gangaridai"],"evidenceLevel":"medium"},
+    {"id":"regional-states","section":"summary","claim":"মজুমদারের মতে খ্রিস্টীয় চতুর্থ শতকের গোড়ায় বাংলায় একাধিক রাষ্ট্র ছিল, যার মধ্যে পূর্ব বদ্বীপের সমতট অন্তর্ভুক্ত; বাংলাপিডিয়া জানায়, চতুর্থ শতকের মাঝামাঝি সমতট ছাড়া বাংলার অধিকাংশ গুপ্ত সাম্রাজ্যে যুক্ত হয়।","sourceIds":["history-of-ancient-bengal-majumdar","banglapedia-gupta-rule"],"evidenceLevel":"medium"},
+    {"id":"interpretive-significance","section":"whyItMatters","claim":"গঙ্গারিডাই নামটি ধ্রুপদি লেখকদের বিবরণের সাক্ষ্য, কিন্তু এর অবস্থান ও রাজনৈতিক সম্পর্ক অনিশ্চিত; চতুর্থ শতকের আঞ্চলিক রাষ্ট্রসমূহকে অবিচ্ছিন্ন গঙ্গারিডাই রাজ্যের প্রমাণ বলা যায় না।","sourceIds":["banglapedia-gangaridai","history-of-ancient-bengal-majumdar"],"evidenceLevel":"medium"}
   ],
-  "stub": true
+  "stub": false
 }

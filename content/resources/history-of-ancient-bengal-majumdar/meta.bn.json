@@ -1,0 +1,17 @@
+{
+  "title": "History of Ancient Bengal",
+  "note": "আর সি মজুমদার, History of Ancient Bengal, প্রথম সংস্করণ, কলকাতা: জি. ভরদ্বাজ অ্যান্ড কোম্পানি, জুন ১৯৭১। শিরোনামপত্র ও রাজশাহী বিশ্ববিদ্যালয় গ্রন্থাগারের ক্যাটালগে শিরোনাম, লেখক, প্রকাশস্থান, প্রকাশক, সাল ও প্রথম সংস্করণের তথ্য মেলে। বইটিতে ধ্রুপদি সাহিত্যিক বিবরণ ও পরবর্তী প্রমাণের সংশ্লেষ রয়েছে; গঙ্গারিডাইয়ের ভূগোল ও রাজনৈতিক সম্পর্ক নিয়ে প্রাচীন বিবরণের বিরোধও তিনি উল্লেখ করেছেন।",
+  "category": "academic-books",
+  "subcategory": "প্রাচীন বাংলার ইতিহাসচর্চা",
+  "href": "https://archive.org/details/dli.bengal.10689.13287",
+  "attribution": "R. C. Majumdar",
+  "creatorId": "r-c-majumdar",
+  "creatorType": "person",
+  "quality": "secondary",
+  "sourceQuality": "academic",
+  "evidenceLevel": "medium",
+  "whyItMatters": "মজুমদার গঙ্গারিডাই সম্পর্কে প্রাচীন গ্রিক ও রোমান বিবরণ একত্র করেছেন এবং তাদের ভৌগোলিক অমিল ও প্রাসীয়দের সঙ্গে সম্পর্কের অনিশ্চয়তা আলোচনা করেছেন।",
+  "relatedEventIds": [
+    "0000-0450-gangaridai-and-early-delta-polities"
+  ]
+}

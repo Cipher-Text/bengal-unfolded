@@ -1,11 +1,23 @@
 [
   {
-    "year": "1967",
-    "title": "প্রেক্ষিত",
-    "detail": "নকশালবাড়ি বিদ্রোহ ও বাংলায় বামপন্থী র‌্যাডিকালাইজেশন বাংলা/বাংলাদেশের রাজনৈতিক ও সামাজিক গতিপথে একটি তাৎপর্যপূর্ণ মোড়।",
+    "year": "১৯৬৭",
+    "title": "কৃষক প্রতিবাদ ও বেঙ্গাই জোতের গুলিচালনা",
+    "detail": "কোরাদ্দোর বিবরণে ফেব্রুয়ারি–মে মাসে নকশালবাড়ি এলাকায় কৃষক প্রতিবাদ এবং ২৫ মে বেঙ্গাই জোতে পুলিশি গুলিচালনার উল্লেখ আছে। আগের ঘটনাক্রমের বিবরণ আংশিকভাবে সঞ্জয় মিত্রের মৌখিক সাক্ষ্যনির্ভর; এখানে হতাহতের সংখ্যা দেওয়া হয়নি।",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "corrado-naxalbari-movement-historiography"
+    ],
+    "evidenceLevel": "low",
+    "themes": [
+      "economy",
+      "democracy"
+    ]
+  },
+  {
+    "year": "জুলাই–আগস্ট ১৯৬৭",
+    "title": "নকশালবাড়ি সংহতি কমিটি গঠিত",
+    "detail": "কোরাদ্দো নকশালবাড়ি ও কৃষক সংগ্রাম সহায়ক কমিটি গঠনের সময় জুলাই–আগস্ট ১৯৬৭ উল্লেখ করেছেন।",
+    "sourceIds": [
+      "corrado-naxalbari-movement-historiography"
     ],
     "evidenceLevel": "medium",
     "themes": [
@@ -13,17 +25,28 @@
     ]
   },
   {
-    "year": "উত্তরাধিকার",
-    "title": "দীর্ঘমেয়াদি প্রভাব",
-    "detail": "দীর্ঘমেয়াদি প্রাতিষ্ঠানিক পরিবর্তন, সামাজিক স্মৃতি ও রাজনৈতিক ধারাবাহিকতা বোঝার জন্য এই ঘটনা গুরুত্বপূর্ণ।",
+    "year": "নভেম্বর ১৯৬৭",
+    "title": "বিপ্লবী সমন্বয় কমিটি গঠিত",
+    "detail": "কোরাদ্দোর মতে, নভেম্বরে কমিটিটি সর্বভারতীয় কমিউনিস্ট বিপ্লবীদের সমন্বয় কমিটিতে পরিণত হয়।",
     "sourceIds": [
-      "history-banglapedia",
-      "a-history-of-bangladesh"
+      "corrado-naxalbari-movement-historiography"
     ],
     "evidenceLevel": "medium",
     "themes": [
-      "democracy",
-      "culture"
+      "democracy"
+    ]
+  },
+  {
+    "year": "মে ১৯৬৯",
+    "title": "সিপিআই (এমএল) গঠনের ঘোষণা",
+    "detail": "কোরাদ্দো লেখেন, চারু মজুমদার-ঘনিষ্ঠ বিপ্লবী মহল ১৯৬৯ সালে সিপিআই (এমএল) গঠনের পক্ষে মত দেয়; দাস ঘোষণার সময় ওই বছরের মে মাস বলে উল্লেখ করেছেন।",
+    "sourceIds": [
+      "corrado-naxalbari-movement-historiography",
+      "ritanjan-das-west-bengal-left-politics-thesis"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "democracy"
     ]
   }
 ]
