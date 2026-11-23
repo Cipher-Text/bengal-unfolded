@@ -7,6 +7,7 @@ import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { ContentDensityControls } from "@/components/ContentDensityControls";
 import { CauseEffectChain } from "@/components/CauseEffectChain";
 import { EventNavigation } from "@/components/EventNavigation";
+import { QuizTestYourself } from "@/components/QuizTestYourself";
 
 const EventTimeline = dynamic(
   () => import("@/components/EventTimeline").then((mod) => mod.EventTimeline),
@@ -22,7 +23,7 @@ import { QuoteBlock } from "@/components/QuoteBlock";
 import { ResourceCard } from "@/components/ResourceCard";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ShareActions } from "@/components/ShareActions";
-import { getEventContent, getEventHierarchy, getEventRelationships, getPreviousAndNextEvents, getTopicsByEventSlug } from "@/lib/content";
+import { getEventContent, getEventHierarchy, getEventRelationships, getPreviousAndNextEvents, getQuizTopicSummaries, getTopicsByEventSlug } from "@/lib/content";
 import { renderGlossaryLinkedText } from "@/lib/glossary-linking";
 import { SUPPORTED_EVENT_SLUGS, SUPPORTED_LOCALES, type EventSlug, type Locale } from "@/types/content";
 import type { EventResource } from "@/types/content";
@@ -213,13 +214,16 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
   const { locale, slug } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale) || !SUPPORTED_EVENT_SLUGS.includes(slug as EventSlug)) notFound();
 
-  const [event, { previous, next }, hierarchy, relationships, relatedTopics] = await Promise.all([
+  const [event, { previous, next }, hierarchy, relationships, relatedTopics, quizTopics] = await Promise.all([
     getEventContent(locale, slug),
     getPreviousAndNextEvents(locale, slug),
     getEventHierarchy(locale, slug),
     getEventRelationships(locale, slug),
     getTopicsByEventSlug(locale, slug),
+    getQuizTopicSummaries(locale),
   ]);
+  // Offer the quiz only for a finished chapter whose topic has published questions.
+  const quizTopic = event.meta.stub ? undefined : quizTopics.find((quiz) => relatedTopics.some((topic) => topic.slug === quiz.slug));
   const featuredFigures = event.figures.slice(0, 5);
   const labels = EVENT_LABELS[locale as Locale];
   const resourceById = new Map(event.resources.map((resource) => [resource.id, resource] as const));
@@ -700,6 +704,12 @@ export default async function EventPage({ params }: { params: Promise<{ locale: 
           <section id="identity-memory" className="scroll-mt-24">
           <SectionTitle title={labels.identityMemory} subtitle={<>{renderGlossaryLinkedText(event.meta.identityMemoryNotes, locale as Locale)}{renderInlineCitations(event.meta.identityMemorySourceIds, resourceById)}{renderEvidenceBadge(event.meta.identityMemoryEvidenceLevel)}</>} />
           </section>
+        </AnimatedContainer>
+      ) : null}
+
+      {quizTopic ? (
+        <AnimatedContainer delay={0.295}>
+          <QuizTestYourself locale={locale as Locale} topic={quizTopic} />
         </AnimatedContainer>
       ) : null}
 

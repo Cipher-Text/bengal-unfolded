@@ -12,6 +12,12 @@
   - Docs: `docs/CONTENT_MODEL.md` (quiz schema and file contracts), `docs/AI_CONTRACT.md` (quiz contract rule).
   - Risk and known gaps: no loader or runtime in `src/lib/content.ts`; no Codex brief yet; Bengali tier names and disclaimer need native review; `docs/ROADMAP.md` RM-009 still says a static quiz without score storage is deferred to B3, which conflicts with the decision to ship a frontend-only quiz first, so the roadmap needs a Claude decision.
 
+- Quiz entry point on event pages ("Test yourself").
+  - UI: `QuizTestYourself` card at the end of an event chapter, just before the previous/next navigation, linking to `/[locale]/quiz/play?topic=<slug>` for the first of the event's topics that has published questions. It is shown only when the chapter is not a stub and such a topic exists, so there are no dead links; while all questions are `draft`, no event page shows it.
+  - Loader and model: none new (uses `getTopicsByEventSlug` and `getQuizTopicSummaries`). Validation: none.
+  - Tested locally with the 12 pilot drafts temporarily published: card present on Liberation War events in EN and BN, absent on a chapter whose topic has no questions and on a stub chapter; reverted afterwards.
+  - Known gaps: topic pages and the home page still have no quiz entry point; the quiz starts a topic-wide set, not questions about the single chapter; no Playwright test yet.
+
 - Quiz name field and share card (UI only; no model or validation changes).
   - UI: the result screen now has "Add your name to your card" (`QuizShareCard`): optional name (up to 24 characters, letters, Bengali vowel signs, digits, space and . - apostrophes only; emoji and symbols are stripped), "Hide my name" toggle, story (1080x1920) and feed (1080x1350) sizes, live canvas preview, Download image, and Share (shown only where the browser can share files). The name stays in `localStorage` (`bu.quiz.v1`) and is prefilled next time; nothing is uploaded. The card shows the name, tier title, topic, a small score stamp, the site address and "Take the challenge", in the dark green, gold and red palette.
   - Code: `src/lib/quiz-card.ts` (name cleaning, font loading with `document.fonts.load`, canvas drawing with equal-gap layout, name and title shrink-to-fit).
