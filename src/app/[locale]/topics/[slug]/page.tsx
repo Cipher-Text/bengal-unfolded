@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
+import { QuizTestYourself } from "@/components/QuizTestYourself";
 import { SectionTitle } from "@/components/SectionTitle";
 import {
   getAllTopicSlugs,
@@ -10,6 +11,7 @@ import {
   getFigure,
   getPeriod,
   getPlace,
+  getQuizTopicSummaries,
   getResource,
   getTopic,
 } from "@/lib/content";
@@ -59,6 +61,9 @@ export default async function TopicPage({
   } catch {
     notFound();
   }
+
+  // Offer the quiz only when this topic has published questions.
+  const quizTopic = (await getQuizTopicSummaries(locale)).find((quiz) => quiz.slug === topic.slug);
 
   // Related = the topics that share the most chapters with this one, not the whole catalogue.
   const sharedEvents = (other: (typeof allTopics)[number]) => other.eventSlugs.filter((eventSlug) => topic.eventSlugs.includes(eventSlug)).length;
@@ -254,6 +259,8 @@ export default async function TopicPage({
           </div>
         </section>
       ) : null}
+
+      {quizTopic ? <QuizTestYourself locale={locale as Locale} topic={quizTopic} /> : null}
 
       {relatedTopics.length > 0 ? (
         <section>

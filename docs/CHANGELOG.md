@@ -12,6 +12,12 @@
   - Docs: `docs/CONTENT_MODEL.md` (quiz schema and file contracts), `docs/AI_CONTRACT.md` (quiz contract rule).
   - Risk and known gaps: no loader or runtime in `src/lib/content.ts`; no Codex brief yet; Bengali tier names and disclaimer need native review; `docs/ROADMAP.md` RM-009 still says a static quiz without score storage is deferred to B3, which conflicts with the decision to ship a frontend-only quiz first, so the roadmap needs a Claude decision.
 
+- Quiz entry point on topic pages.
+  - UI: topic detail pages (`/[locale]/topics/[slug]`) show the existing `QuizTestYourself` card, linking to `/[locale]/quiz/play?topic=<slug>`, just before "More Topics". Shown only when that topic has published questions (`getQuizTopicSummaries`), so there are no dead links; while all questions are `draft`, no topic page shows it.
+  - Model, validation, loader: none new.
+  - Tested locally with the 12 pilot drafts temporarily published: card present on `liberation-war-1971` in EN and BN, absent on topics without questions; reverted afterwards.
+  - Known gaps: the home page has no quiz entry point; no Playwright test yet.
+
 - Quiz entry point on event pages ("Test yourself").
   - UI: `QuizTestYourself` card at the end of an event chapter, just before the previous/next navigation, linking to `/[locale]/quiz/play?topic=<slug>` for the first of the event's topics that has published questions. It is shown only when the chapter is not a stub and such a topic exists, so there are no dead links; while all questions are `draft`, no event page shows it.
   - Loader and model: none new (uses `getTopicsByEventSlug` and `getQuizTopicSummaries`). Validation: none.
