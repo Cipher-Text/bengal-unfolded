@@ -1,0 +1,31 @@
+{
+  "id": "lib-012",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-december-14-intellectual-killings",
+  "resourceIds": [
+    "ekattorer-buddhijibi-hottakahini"
+  ],
+  "shuffleOptions": true,
+  "question": "How does Bangladesh observe 14 December?",
+  "options": [
+    {
+      "id": "a",
+      "text": "As Martyred Intellectuals Day"
+    },
+    {
+      "id": "b",
+      "text": "As Victory Day"
+    },
+    {
+      "id": "c",
+      "text": "As International Mother Language Day"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The day remembers the teachers, doctors, journalists and other professionals taken from their homes in Dhaka in 1971. Responsibility and casualty totals have been contested."
+}

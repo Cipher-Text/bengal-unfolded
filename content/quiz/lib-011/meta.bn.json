@@ -1,0 +1,31 @@
+{
+  "id": "lib-011",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-december-16-instrument-of-surrender",
+  "resourceIds": [
+    "instrument-of-surrender-1971-text"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের ১৬ ডিসেম্বর ঢাকার রমনা রেসকোর্সে পাকিস্তানের পক্ষে আত্মসমর্পণের দলিলে কে স্বাক্ষর করেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "লেফটেন্যান্ট জেনারেল এ এ কে নিয়াজি"
+    },
+    {
+      "id": "b",
+      "text": "লেফটেন্যান্ট জেনারেল জগজিৎ সিং অরোরা"
+    },
+    {
+      "id": "c",
+      "text": "ইয়াহিয়া খান"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "নিয়াজি দলিলে স্বাক্ষর করেন। ভারতীয় ও বাংলাদেশি বাহিনীর পূর্বাঞ্চলীয় কমান্ডার লেফটেন্যান্ট জেনারেল জগজিৎ সিং অরোরা তা গ্রহণ করেন।"
+}

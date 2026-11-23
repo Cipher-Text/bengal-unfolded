@@ -1,0 +1,31 @@
+{
+  "id": "lib-011",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-december-16-instrument-of-surrender",
+  "resourceIds": [
+    "instrument-of-surrender-1971-text"
+  ],
+  "shuffleOptions": true,
+  "question": "Who signed the Instrument of Surrender for Pakistan at Dhaka's Ramna Racecourse on 16 December 1971?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Lieutenant General A. A. K. Niazi"
+    },
+    {
+      "id": "b",
+      "text": "Lieutenant General Jagjit Singh Aurora"
+    },
+    {
+      "id": "c",
+      "text": "Yahya Khan"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Niazi signed the instrument. Aurora, commander of the Indian and Bangladesh forces in the eastern theatre, accepted it."
+}

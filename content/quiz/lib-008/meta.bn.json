@@ -1,0 +1,27 @@
+{
+  "id": "lib-008",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "jochona-o-jononir-golpo"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের মার্চে নিচের কোন ঘটনাটি আগে ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "ঢাকা বিশ্ববিদ্যালয়ে জনসমক্ষে বাংলাদেশের পতাকা উত্তোলন"
+    },
+    {
+      "id": "b",
+      "text": "শেখ মুজিবুর রহমানের ৭ মার্চের ভাষণ"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "জাতীয় পরিষদের অধিবেশন স্থগিত হওয়ার পরদিন, ২ মার্চ, পতাকা উত্তোলিত হয়—৭ মার্চের ভাষণের পাঁচ দিন আগে।"
+}

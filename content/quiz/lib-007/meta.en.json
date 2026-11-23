@@ -1,0 +1,31 @@
+{
+  "id": "lib-007",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-operation-jackpot",
+  "resourceIds": [
+    "operation-jackpot"
+  ],
+  "shuffleOptions": true,
+  "question": "What was Operation Jackpot, carried out on 15 August 1971?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Simultaneous sabotage attacks on river and sea ports by Bengali naval commandos"
+    },
+    {
+      "id": "b",
+      "text": "The Pakistani attack on India that opened the full-scale Indo-Pakistani war"
+    },
+    {
+      "id": "c",
+      "text": "The Bangladesh–India joint forces' advance on Dhaka"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "On 15 August, naval commandos struck ports including Chittagong, Mongla, Chandpur and Narayanganj. The attacks disrupted Pakistani waterway communication and gave the war a naval dimension."
+}

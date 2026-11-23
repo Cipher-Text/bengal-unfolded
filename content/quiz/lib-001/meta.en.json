@@ -1,0 +1,31 @@
+{
+  "id": "lib-001",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-march-7-speech",
+  "resourceIds": [
+    "history-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Sheikh Mujibur Rahman's 7 March 1971 speech is described as a bridge between which two developments?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The 1970 election mandate and the coming armed conflict"
+    },
+    {
+      "id": "b",
+      "text": "The 1970 Bhola cyclone and the December election"
+    },
+    {
+      "id": "c",
+      "text": "The Six-Point Programme and the 1969 mass uprising"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Delivered days after the National Assembly session was postponed on 1 March, the speech turned the election win into a plan for civil non-cooperation and prepared people for a decisive confrontation."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "lib-009",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "resourceIds": [
+    "proclamation-of-independence-1971-text"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these happened first in April 1971?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The provisional leadership adopted the Proclamation of Independence"
+    },
+    {
+      "id": "b",
+      "text": "The Mujibnagar Government took its oath"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The proclamation was adopted on 10 April. The 17 April oath then turned it into an operating wartime administration."
+}

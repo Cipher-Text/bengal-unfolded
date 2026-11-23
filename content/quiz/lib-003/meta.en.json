@@ -1,0 +1,31 @@
+{
+  "id": "lib-003",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-operation-searchlight-crackdown",
+  "resourceIds": [
+    "operation-searchlight-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Operation Searchlight, the Pakistan Army's crackdown in East Pakistan, began on the night of which date?",
+  "options": [
+    {
+      "id": "a",
+      "text": "25 March 1971"
+    },
+    {
+      "id": "b",
+      "text": "1 March 1971"
+    },
+    {
+      "id": "c",
+      "text": "3 December 1971"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The operation began on 25 March, right after the 16–24 March talks between Yahya Khan and Sheikh Mujibur Rahman ended without a political settlement."
+}

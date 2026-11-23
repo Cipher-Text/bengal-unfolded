@@ -1,0 +1,31 @@
+{
+  "id": "lib-005",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-battle-of-kushtia",
+  "resourceIds": [
+    "battle-of-kushtia-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "What does the early fighting at Kushtia show about how the 1971 resistance began?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It began locally, with Bengali forces and civilians, before sector-based command took shape"
+    },
+    {
+      "id": "b",
+      "text": "It began as a coordinated naval campaign against ports"
+    },
+    {
+      "id": "c",
+      "text": "It began only after the Mujibnagar Government took its oath"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Kushtia saw armed resistance on 31 March, within a week of Operation Searchlight and before the 17 April Mujibnagar oath and the sector organization that followed."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "lib-012",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-december-14-intellectual-killings",
+  "resourceIds": [
+    "ekattorer-buddhijibi-hottakahini"
+  ],
+  "shuffleOptions": true,
+  "question": "বাংলাদেশে ১৪ ডিসেম্বর কোন দিবস হিসেবে পালিত হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "শহীদ বুদ্ধিজীবী দিবস"
+    },
+    {
+      "id": "b",
+      "text": "বিজয় দিবস"
+    },
+    {
+      "id": "c",
+      "text": "আন্তর্জাতিক মাতৃভাষা দিবস"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "দিনটি ১৯৭১ সালে ঢাকায় বাড়ি থেকে তুলে নেওয়া শিক্ষক, চিকিৎসক, সাংবাদিক ও অন্য পেশাজীবীদের স্মরণ করায়। দায় ও নিহতের সংখ্যা নিয়ে বিতর্ক রয়েছে।"
+}

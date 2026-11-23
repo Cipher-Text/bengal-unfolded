@@ -1,0 +1,27 @@
+{
+  "id": "lib-009",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "resourceIds": [
+    "proclamation-of-independence-1971-text"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের এপ্রিলে নিচের কোন ঘটনাটি আগে ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "অস্থায়ী নেতৃত্ব স্বাধীনতার ঘোষণাপত্র গ্রহণ করে"
+    },
+    {
+      "id": "b",
+      "text": "মুজিবনগর সরকার শপথ নেয়"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১০ এপ্রিল ঘোষণাপত্র গৃহীত হয়। ১৭ এপ্রিলের শপথ তাকে কার্যকর যুদ্ধকালীন প্রশাসনে রূপ দেয়।"
+}

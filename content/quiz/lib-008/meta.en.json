@@ -1,0 +1,27 @@
+{
+  "id": "lib-008",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "jochona-o-jononir-golpo"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these happened first in March 1971?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Bangladesh flag was raised publicly at Dhaka University"
+    },
+    {
+      "id": "b",
+      "text": "Sheikh Mujibur Rahman delivered the 7 March speech"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The flag was raised on 2 March, the day after the National Assembly session was postponed and five days before the 7 March speech."
+}

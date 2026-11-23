@@ -1,0 +1,31 @@
+{
+  "id": "lib-002",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "resourceIds": [
+    "proclamation-of-independence-1971-text"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের ১০ এপ্রিল অস্থায়ী নেতৃত্ব এমন একটি দলিল গ্রহণ করে, যা যুদ্ধকালীন কর্তৃত্বকে আনুষ্ঠানিক সাংবিধানিক ভিত্তি দেয়। দলিলটি কী?",
+  "options": [
+    {
+      "id": "a",
+      "text": "স্বাধীনতার ঘোষণাপত্র"
+    },
+    {
+      "id": "b",
+      "text": "ছয় দফা কর্মসূচি"
+    },
+    {
+      "id": "c",
+      "text": "আত্মসমর্পণের দলিল"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১০ এপ্রিল গৃহীত স্বাধীনতার ঘোষণাপত্র যুদ্ধকালীন নেতৃত্বকে সাংবিধানিক ভিত্তি দেয়। এক সপ্তাহ পর, ১৭ এপ্রিল, মুজিবনগরে সরকার শপথ নেয়।"
+}

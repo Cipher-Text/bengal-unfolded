@@ -1,0 +1,40 @@
+{
+  "id": "lib-010",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "hard",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "rifle-roti-aurat"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Which developments marked the organized phase of the war between April and November 1971?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Mukti Bahini guerrilla operations expanded under sector-based command"
+    },
+    {
+      "id": "b",
+      "text": "Millions of civilians fled to India"
+    },
+    {
+      "id": "c",
+      "text": "The full-scale Indo-Pakistani war began"
+    },
+    {
+      "id": "d",
+      "text": "Sheikh Mujibur Rahman returned to Bangladesh"
+    },
+    {
+      "id": "e",
+      "text": "Bangladesh–India joint forces advanced on several fronts"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b"
+  ],
+  "explanation": "From April to November, guerrilla operations grew under sector commands and millions of civilians crossed into India. The full-scale war began on 3 December, and Mujib returned on 10 January 1972."
+}

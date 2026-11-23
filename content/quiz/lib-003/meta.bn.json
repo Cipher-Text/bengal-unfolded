@@ -1,0 +1,31 @@
+{
+  "id": "lib-003",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-operation-searchlight-crackdown",
+  "resourceIds": [
+    "operation-searchlight-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "পূর্ব পাকিস্তানে পাকিস্তানি সেনাবাহিনীর দমন অভিযান অপারেশন সার্চলাইট কোন তারিখের রাতে শুরু হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "২৫ মার্চ ১৯৭১"
+    },
+    {
+      "id": "b",
+      "text": "১ মার্চ ১৯৭১"
+    },
+    {
+      "id": "c",
+      "text": "৩ ডিসেম্বর ১৯৭১"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৬-২৪ মার্চের ইয়াহিয়া-মুজিব আলোচনা কোনো রাজনৈতিক সমাধান ছাড়া শেষ হওয়ার পরপরই ২৫ মার্চ রাতে অভিযানটি শুরু হয়।"
+}

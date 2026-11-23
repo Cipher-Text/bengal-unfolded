@@ -1,0 +1,31 @@
+{
+  "id": "lib-002",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "resourceIds": [
+    "proclamation-of-independence-1971-text"
+  ],
+  "shuffleOptions": true,
+  "question": "On 10 April 1971 the provisional leadership adopted a document that gave wartime authority a formal constitutional basis. What was it?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Proclamation of Independence"
+    },
+    {
+      "id": "b",
+      "text": "The Six-Point Programme"
+    },
+    {
+      "id": "c",
+      "text": "The Instrument of Surrender"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The Proclamation of Independence, adopted on 10 April, gave the wartime leadership a constitutional footing. A week later, on 17 April, the government took its oath at Mujibnagar."
+}

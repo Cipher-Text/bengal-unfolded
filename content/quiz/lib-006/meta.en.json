@@ -1,0 +1,41 @@
+{
+  "id": "lib-006",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "hard",
+  "eventSlug": "1971-operation-searchlight-crackdown",
+  "resourceIds": [
+    "operation-searchlight-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Which of these are linked to the impact of Operation Searchlight on the 1971 conflict?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The collapse of negotiated constitutional politics"
+    },
+    {
+      "id": "b",
+      "text": "Faster armed resistance"
+    },
+    {
+      "id": "c",
+      "text": "Mass displacement"
+    },
+    {
+      "id": "d",
+      "text": "A Pakistani surrender within days"
+    },
+    {
+      "id": "e",
+      "text": "A negotiated transfer of power to the Awami League"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "The 25 March crackdown ended hopes of a negotiated settlement and accelerated armed resistance and mass displacement. Pakistani forces surrendered only on 16 December, and the earlier talks had ended without a settlement."
+}

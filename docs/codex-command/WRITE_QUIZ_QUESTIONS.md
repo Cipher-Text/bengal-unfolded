@@ -20,14 +20,14 @@ Stub status can change; always re-check `"stub"` in each event's `meta.en.json` 
 
 ## Command
 
-Set the variables, then run. The prompt below uses single quotes and no backticks so it is safe inside the shell string.
+Set the variables, then run. (`codex exec -s workspace-write` runs non-interactively and may edit files in the repo; the CLI has no `--full-auto` flag.) The prompt below uses single quotes and no backticks so it is safe inside the shell string.
 
 ```bash
 TOPIC=liberation-war-1971
 PREFIX=lib
 COUNT=12
 
-codex "You are working in the Bengal Unfolded repo. You are a worker: follow the brief exactly and do not make design decisions.
+codex exec -s workspace-write "You are working in the Bengal Unfolded repo. You are a worker: follow the brief exactly and do not make design decisions.
 
 Task: draft $COUNT quiz questions for topic $TOPIC, as DRAFT files only.
 
@@ -50,7 +50,14 @@ Rules for every question:
 10. Context field: optional; use only a short excerpt or scene-setting line that already appears in the chapter text. Present in both locales or neither.
 11. Sensitive history: this topic includes violence. Keep the wording neutral and non-graphic, do not rank suffering, do not use loaded labels, and follow docs/EDITORIAL_GUIDELINES.md. If a topic is contested, ask about what is documented and attribute it, or skip it.
 12. Bengali: write natural Bengali, not word-for-word translation, with the same meaning, the same options and the same correct answer as English. Use the Bengali spellings already used in the event's meta.bn.json for names and terms. Mark any phrase you are unsure of in your report; a fluent reader will review all Bengali before publishing.
-13. English and Bengali shared fields (status, type, topicSlug, difficulty, eventSlug, resourceIds, shuffleOptions, correctOptionIds) must be identical in both files.
+13. Write questions about the history itself. Never write According to the chapter, The chapter says, or in the timeline in a question, option or explanation; a reader of the quiz has not seen the chapter.
+14. Distractors must be plausible to someone who knows part of the story: use real people, places, documents and dates from the same war, movement or period (for example another date or event from the same topic timeline), each clearly wrong because the sources date or describe it differently. Do not use absurd options, anachronisms or options from an unrelated domain. Do not use mass killings or atrocities as a distractor for an unrelated event.
+15. Do not claim something is absent from a list unless the source says the list is complete. If a source says including, treat the list as open and do not build a question on what is not in it.
+16. which_first questions must not set shuffleOptions to false and the correct option must not always be a; vary the position of the correct answer across the batch.
+17. Calibrate difficulty honestly: easy = a well-known fact or a one-step recognition; medium = needs the link between two events, documents or dates; hard = multi_select or a distinction between close alternatives. Do not label a plain recall question hard.
+18. Include at least 3 questions that ask why or what followed (cause and effect, consequence, purpose), not only who, when or where, using only causes and consequences that the chapter text states.
+19. Bengali sentences end with the danda (।), not an ASCII full stop. Use Bengali numerals and the spellings used in the chapter meta.bn.json.
+20. English and Bengali shared fields (status, type, topicSlug, difficulty, eventSlug, resourceIds, shuffleOptions, correctOptionIds) must be identical in both files.
 
 Validation: run pnpm content:validate and fix every error. Warnings about pool size (fewer than 40) and missing difficulty levels are expected for a small batch; do not try to silence them.
 
