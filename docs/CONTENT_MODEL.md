@@ -519,6 +519,9 @@ Suggested naming after export:
 - `/{locale}/compare`: row-aligned comparison of two events (`?a=&b=`), with swap, suggested pairings and a shared-context summary.
 - `/{locale}/methodology`: public methodology and trust standards page.
 - `/{locale}/join`: public collaboration and contact page.
+- `/{locale}/quiz`: quiz landing (hook, topic cards for topics with published questions, resume link, disclaimer). Indexable.
+- `/{locale}/quiz/play`: client-side quiz session (`?topic=<slug|all>`, `?resume=1`); question flow, feedback and result screen. `noindex,follow`.
+- `/{locale}/quiz-data/{topic}`: static JSON of published questions (with `eventTitle`) for one topic or `all`; used by the play client.
 
 Notes:
 - There are currently no public index routes for periods or movements.
@@ -790,6 +793,8 @@ Model only; the quiz UI is not built yet. Product behaviour is in `docs/QUIZ_SPE
 - Validator warnings (not errors): a topic with fewer than 40 published questions, a topic with no published `easy` or `hard` question, an explanation longer than 320 characters.
 
 ## Runtime accessors
+
+Quiz accessors in `src/lib/content.ts`: `getPublishedQuizQuestions` (published only, adds `eventTitle`), `getQuizQuestions(locale, topicSlug | "all")`, `getQuizTopicSummaries` (topics with at least one published question), `getQuizSiteContent` (null until `content/site/quiz.<locale>.json` exists). Draw, scoring, tier lookup and `localStorage` handling are pure client-side helpers in `src/lib/quiz.ts`.
 
 `src/lib/content.ts` is the single content access layer and currently exposes:
 

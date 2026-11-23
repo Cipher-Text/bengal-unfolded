@@ -14,6 +14,7 @@ export function SiteHeader({ locale, pathAfterLocale }: { locale: Locale; pathAf
     { href: `/${locale}/figures`, label: locale === "bn" ? "ব্যক্তিত্ব" : "Figures" },
     { href: `/${locale}/places`, label: locale === "bn" ? "স্থান" : "Places" },
     { href: `/${locale}/compare`, label: locale === "bn" ? "তুলনা" : "Compare" },
+    { href: `/${locale}/quiz`, label: locale === "bn" ? "কুইজ" : "Quiz" },
     { href: `/${locale}/resources`, label: locale === "bn" ? "রিসোর্স" : "Resources" },
   ];
 

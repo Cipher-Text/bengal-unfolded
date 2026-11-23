@@ -12,6 +12,14 @@
   - Docs: `docs/CONTENT_MODEL.md` (quiz schema and file contracts), `docs/AI_CONTRACT.md` (quiz contract rule).
   - Risk and known gaps: no loader or runtime in `src/lib/content.ts`; no Codex brief yet; Bengali tier names and disclaimer need native review; `docs/ROADMAP.md` RM-009 still says a static quiz without score storage is deferred to B3, which conflicts with the decision to ship a frontend-only quiz first, so the roadmap needs a Claude decision.
 
+- Quiz loader and pages (first UI for the quiz model above; share card and name field are not built yet).
+  - Model: none; uses the existing quiz types.
+  - Validation: none new. `content/site/quiz.en.json` and `content/site/quiz.bn.json` were added and pass the existing site-copy checks.
+  - UI: new routes `/[locale]/quiz` (landing, indexable), `/[locale]/quiz/play` (client session, `noindex,follow`) and `/[locale]/quiz-data/[topic]` (static JSON, like `compare-data`). Components `QuizPlayInteractive` and `QuizResumeCard`; "Quiz" added to the header and mobile nav; landing added to the sitemap and to `static:verify`. Flow: select, Check answer, reveal with explanation and story link, Next; skip allowed; no timer, no going back; progress saved in `localStorage` (`bu.quiz.v1`) with a resume link; result screen with tier, count-up score, disclaimer and stories to read next. Pure logic (balanced random draw that avoids recent questions, scoring with partial credit, tier lookup, storage) lives in `src/lib/quiz.ts`.
+  - Loader: `getPublishedQuizQuestions`, `getQuizQuestions`, `getQuizTopicSummaries`, `getQuizSiteContent` in `src/lib/content.ts`; only `published` questions are served.
+  - Backfill: all 12 pilot questions are still `draft`, so the landing page shows "The first questions are being prepared" and `/quiz-data/all` is empty. The flow was tested locally by temporarily publishing the 12 drafts (EN and BN), then reverting.
+  - Risk and known gaps: no Playwright test yet; no share card, name field or "Test yourself" entry points on event, topic and home pages; Bengali UI strings and site copy need a fluent reader; roadmap item RM-009 still needs a Claude decision.
+
 ## 2026-11-21
 
 ### Completed

@@ -20,6 +20,8 @@ Before any build, the question schema must be added to `src/types/content.ts`, `
 | `/[locale]/quiz/play` | Question flow (client component) | `noindex,follow` |
 | `/[locale]/quiz/result` | Result, name, share card (client component) | `noindex,follow` |
 
+Implemented differently (v0.3): the result screen is a state of `/[locale]/quiz/play`, not a separate route, and questions come from `/[locale]/quiz-data/[topic]`. The name field and share card (section 4.5) are not built yet.
+
 - Topic is passed as `?topic=<slug>` and read after mount with `useUrlSearchParams()` (static export has no request query at build time).
 - "Quiz" / "কুইজ" is a top-level item in the header and in `MobileNav`.
 - Entry points elsewhere: home banner; "Test yourself" card at the end of event and topic pages (launches that topic); end of a learning path.

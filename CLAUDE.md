@@ -40,6 +40,7 @@ Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/
 - `/[locale]/compare` — event comparison page
 - `/[locale]/methodology` — public methodology page
 - `/[locale]/join` — collaboration and contact page
+- `/[locale]/quiz` and `/[locale]/quiz/play` — quiz landing and client-side quiz session; `/[locale]/quiz-data/[topic]` serves published questions as static JSON (draft questions are never served; see `docs/QUIZ_SPEC.md`)
 - `/[locale]/compare-data/[slug]` — static JSON used by the compare page
 - `/og/[locale]/[type]/[image]` — Open Graph image route (outside `[locale]`)
 

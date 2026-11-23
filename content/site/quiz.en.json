@@ -1,0 +1,46 @@
+{
+  "hook": "How well do you know the story of Bengal? Ten questions, a few surprises.",
+  "disclaimer": "This quiz is just for fun and inspiration. It's a light-hearted reflection, not a measure of expertise.",
+  "tiers": [
+    {
+      "min": 0,
+      "id": "curious-reader",
+      "title": "Curious Reader",
+      "message": "Every great story starts with curiosity. The stories behind the questions you missed are a good place to continue."
+    },
+    {
+      "min": 4,
+      "id": "story-seeker",
+      "title": "Story Seeker",
+      "message": "You're finding the threads. Keep pulling, because each story connects to the next."
+    },
+    {
+      "min": 7,
+      "id": "story-keeper",
+      "title": "Story Keeper",
+      "message": "You carry a good deal of Bengal's story. Try another topic to widen the map."
+    },
+    {
+      "min": 9,
+      "id": "bengal-explorer",
+      "title": "Bengal Explorer",
+      "message": "Sharp eye. You moved through the story with confidence; now go deeper into the sources."
+    }
+  ],
+  "feedback": {
+    "correct": [
+      "Spot on.",
+      "Sharp eye.",
+      "You know your history."
+    ],
+    "wrong": [
+      "Close. Here's the twist.",
+      "Here's the story behind it.",
+      "A good one to remember."
+    ],
+    "skipped": [
+      "No problem. Here's the answer.",
+      "Skipped. Here's what to know."
+    ]
+  }
+}

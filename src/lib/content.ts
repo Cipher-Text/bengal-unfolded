@@ -35,6 +35,8 @@ import {
   type PeriodId,
   type PeriodMeta,
   type Quote,
+  type QuizQuestion,
+  type QuizSiteContent,
   type TimelineItem,
   type Topic,
   type TopicMeta,
@@ -544,6 +546,62 @@ export const getAllTopics = cache(async (locale: string): Promise<Topic[]> => {
   const slugs = await getAllTopicSlugs();
   return Promise.all(slugs.map((slug) => getTopic(locale, slug)));
 });
+
+/** A published quiz question plus the display title of the chapter it links to. */
+export type QuizQuestionPayload = QuizQuestion & { eventTitle: string };
+
+export type QuizTopicSummary = {
+  slug: string;
+  title: string;
+  tagline: string;
+  count: number;
+};
+
+const QUIZ_DIR = path.join(CONTENT_DIR, "quiz");
+
+/** All published quiz questions for a locale; draft questions are never served. */
+export const getPublishedQuizQuestions = cache(async (locale: string): Promise<QuizQuestionPayload[]> => {
+  assertSupportedLocale(locale);
+  if (!existsSync(QUIZ_DIR)) return [];
+  const entries = await fs.readdir(QUIZ_DIR, { withFileTypes: true });
+  const ids = entries.filter((entry) => entry.isDirectory()).map((entry) => entry.name).sort();
+  const questions = await Promise.all(
+    ids.map((id) => readJsonFile<QuizQuestion>(path.join(QUIZ_DIR, id, `meta.${locale}.json`))),
+  );
+  const published = questions.filter((question) => question.status === "published");
+  return Promise.all(
+    published.map(async (question) => ({
+      ...question,
+      eventTitle: (await getEventMetaForDisplay(locale, question.eventSlug)).title,
+    })),
+  );
+});
+
+/** Published questions for one topic, or all topics when `topicSlug` is "all". */
+export async function getQuizQuestions(locale: string, topicSlug: string): Promise<QuizQuestionPayload[]> {
+  const questions = await getPublishedQuizQuestions(locale);
+  return topicSlug === "all" ? questions : questions.filter((question) => question.topicSlug === topicSlug);
+}
+
+/** Topics that have at least one published question, for the quiz landing page. */
+export const getQuizTopicSummaries = cache(async (locale: string): Promise<QuizTopicSummary[]> => {
+  const questions = await getPublishedQuizQuestions(locale);
+  if (questions.length === 0) return [];
+  const counts = new Map<string, number>();
+  for (const question of questions) counts.set(question.topicSlug, (counts.get(question.topicSlug) ?? 0) + 1);
+  const topics = await getAllTopics(locale);
+  return topics
+    .filter((topic) => counts.has(topic.slug))
+    .map((topic) => ({ slug: topic.slug, title: topic.title, tagline: topic.tagline, count: counts.get(topic.slug) ?? 0 }));
+});
+
+/** Quiz site copy (hook, disclaimer, tiers, feedback lines); null until `content/site/quiz.<locale>.json` exists. */
+export async function getQuizSiteContent(locale: string): Promise<QuizSiteContent | null> {
+  assertSupportedLocale(locale);
+  const filePath = path.join(CONTENT_DIR, "site", `quiz.${locale}.json`);
+  if (!existsSync(filePath)) return null;
+  return readJsonFile<QuizSiteContent>(filePath);
+}
 
 export async function getTopicsByEventSlug(
   locale: string,

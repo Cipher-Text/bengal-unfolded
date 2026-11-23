@@ -75,6 +75,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: { languages: localeAlternates("/compare") },
       },
       {
+        url: withLocale(locale, "/quiz"),
+        changeFrequency: "weekly",
+        priority: 0.7,
+        alternates: { languages: localeAlternates("/quiz") },
+      },
+      {
         url: withLocale(locale, "/topics"),
         changeFrequency: "weekly",
         priority: 0.8,

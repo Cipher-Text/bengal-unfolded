@@ -947,6 +947,13 @@ html[data-theme="dark"] .compass-watermark {
 *::-webkit-scrollbar-track { background: transparent; }
 ::selection { background: rgba(122, 46, 34, 0.3); color: var(--ink); }
 
+/* ============ Quiz ============ */
+@keyframes quiz-slide-in {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: none; }
+}
+.quiz-slide { animation: quiz-slide-in 250ms ease-out both; }
+
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
 }

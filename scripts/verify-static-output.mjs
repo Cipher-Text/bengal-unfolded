@@ -60,6 +60,12 @@ const examples = [
   "en/timeline/index.html",
   "bn/compare/index.html",
   "en/compare/index.html",
+  "bn/quiz/index.html",
+  "en/quiz/index.html",
+  "bn/quiz/play/index.html",
+  "en/quiz/play/index.html",
+  "bn/quiz-data/all",
+  "en/quiz-data/all",
   "bn/figures/index.html",
   "en/resources/index.html",
 ];
