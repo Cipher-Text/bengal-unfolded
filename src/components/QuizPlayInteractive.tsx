@@ -15,6 +15,7 @@ import {
   tierForScore,
   writeStored,
 } from "@/lib/quiz";
+import { QuizShareCard } from "@/components/QuizShareCard";
 import { useUrlSearchParams } from "@/lib/use-url-search-params";
 import type { Locale, QuizSiteContent } from "@/types/content";
 
@@ -344,6 +345,13 @@ export function QuizPlayInteractive({
             </ul>
           </section>
         ) : null}
+        <QuizShareCard
+          locale={locale}
+          tierTitle={tier.title}
+          topicTitle={topicTitle}
+          scoreText={(Math.round(score * 10) / 10).toLocaleString(locale === "bn" ? "bn-BD" : "en-US", { maximumFractionDigits: 1 })}
+          totalText={fmt(queue.length)}
+        />
         <div className="flex flex-wrap justify-center gap-3">
           <button type="button" className="btn-ink" onClick={() => startNew(pool)}>
             {t.playAgain}

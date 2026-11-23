@@ -12,7 +12,13 @@
   - Docs: `docs/CONTENT_MODEL.md` (quiz schema and file contracts), `docs/AI_CONTRACT.md` (quiz contract rule).
   - Risk and known gaps: no loader or runtime in `src/lib/content.ts`; no Codex brief yet; Bengali tier names and disclaimer need native review; `docs/ROADMAP.md` RM-009 still says a static quiz without score storage is deferred to B3, which conflicts with the decision to ship a frontend-only quiz first, so the roadmap needs a Claude decision.
 
-- Quiz loader and pages (first UI for the quiz model above; share card and name field are not built yet).
+- Quiz name field and share card (UI only; no model or validation changes).
+  - UI: the result screen now has "Add your name to your card" (`QuizShareCard`): optional name (up to 24 characters, letters, Bengali vowel signs, digits, space and . - apostrophes only; emoji and symbols are stripped), "Hide my name" toggle, story (1080x1920) and feed (1080x1350) sizes, live canvas preview, Download image, and Share (shown only where the browser can share files). The name stays in `localStorage` (`bu.quiz.v1`) and is prefilled next time; nothing is uploaded. The card shows the name, tier title, topic, a small score stamp, the site address and "Take the challenge", in the dark green, gold and red palette.
+  - Code: `src/lib/quiz-card.ts` (name cleaning, font loading with `document.fonts.load`, canvas drawing with equal-gap layout, name and title shrink-to-fit).
+  - Tested: English and Bengali (including conjunct letters such as উদ্দিন and গল্পের) in the in-app Chromium browser, both sizes, PNG export (about 350 KB). Not yet tested on real Android Chrome or iOS Safari, which the spec requires before release.
+  - Known gaps: Share needs a secure context and file-sharing support, so desktop browsers usually show Download only; the card text is not localized beyond EN and BN strings in `quiz-card.ts`; "Test yourself" entry points are still missing.
+
+- Quiz loader and pages (first UI for the quiz model above; the share card and name field came in the next entry above).
   - Model: none; uses the existing quiz types.
   - Validation: none new. `content/site/quiz.en.json` and `content/site/quiz.bn.json` were added and pass the existing site-copy checks.
   - UI: new routes `/[locale]/quiz` (landing, indexable), `/[locale]/quiz/play` (client session, `noindex,follow`) and `/[locale]/quiz-data/[topic]` (static JSON, like `compare-data`). Components `QuizPlayInteractive` and `QuizResumeCard`; "Quiz" added to the header and mobile nav; landing added to the sitemap and to `static:verify`. Flow: select, Check answer, reveal with explanation and story link, Next; skip allowed; no timer, no going back; progress saved in `localStorage` (`bu.quiz.v1`) with a resume link; result screen with tier, count-up score, disclaimer and stories to read next. Pure logic (balanced random draw that avoids recent questions, scoring with partial credit, tier lookup, storage) lives in `src/lib/quiz.ts`.
