@@ -550,6 +550,10 @@ Notes:
 - Place files:
   - `content/places/<place-id>/meta.en.json`
   - `content/places/<place-id>/meta.bn.json`
+- Quiz files:
+  - `content/quiz/<question-id>/meta.en.json`
+  - `content/quiz/<question-id>/meta.bn.json`
+  - `content/site/quiz.en.json` and `content/site/quiz.bn.json` (site copy; both or neither)
 
 ## Timeline schema
 
@@ -760,6 +764,30 @@ Source quality classification is governed by `docs/EDITORIAL_GUIDELINES.md` (Sou
   - `figureIds?` (optional): `FigureId[]` related figures
   - `resourceIds?` (optional): `ResourceId[]` related resources
   - `keywords?` (optional): `string[]` keyword cluster hints
+
+## Quiz schema
+
+Model only; the quiz UI is not built yet. Product behaviour is in `docs/QUIZ_SPEC.md`; the design rationale is in `docs/QUIZ_SCHEMA_DRAFT.md`.
+
+- `QuizQuestion` (`content/quiz/<question-id>/meta.<locale>.json`, filesystem-discovered, no `SUPPORTED_*` constant):
+  - `id` (required): kebab-case, equals the folder name
+  - `status` (required): `draft` or `published`; only `published` questions are served
+  - `type` (required): `single_choice`, `multi_select` or `which_first`
+  - `topicSlug` (required): existing folder in `content/topics/`
+  - `difficulty` (required): `easy`, `medium` or `hard`
+  - `eventSlug` (required): `EventSlug`; a published question must not link to a `stub: true` event
+  - `resourceIds` (required, non-empty): existing `ResourceId[]`, no duplicates
+  - `shuffleOptions?` (optional): boolean, default `true`
+  - `question` (required, localized)
+  - `context?` (optional, localized): source excerpt or scene-setting; present in both locales or neither
+  - `options` (required, localized `text`): `{ id, text }[]`; option IDs identical and in the same order in EN and BN
+  - `correctOptionIds` (required): IDs that exist in `options`
+  - `explanation` (required, localized)
+- Type rules: `single_choice` has 3 to 4 options and exactly 1 correct; `which_first` has exactly 2 options and exactly 1 correct (the earlier event); `multi_select` has 4 to 5 options and 2 or more correct, but not all.
+- Non-localized fields (`status`, `type`, `topicSlug`, `difficulty`, `eventSlug`, `resourceIds`, `shuffleOptions`, `correctOptionIds`) must be identical in EN and BN.
+- `QuizSiteContent` (`content/site/quiz.<locale>.json`): `hook`, `disclaimer`, `tiers` (`{ min, id, title, message }[]`, strictly ascending `min`, first `min` is 0, `min` and `id` identical across locales), `feedback` (`correct`, `wrong`, `skipped`: non-empty string arrays).
+- Scoring (for the UI): `single_choice` and `which_first` score 1 or 0; `multi_select` scores `max(0, (correctSelected - wrongSelected) / correctCount)`; skipped scores 0; the total is rounded to the nearest integer and mapped to the tier with the largest `min` not above it.
+- Validator warnings (not errors): a topic with fewer than 40 published questions, a topic with no published `easy` or `hard` question, an explanation longer than 320 characters.
 
 ## Runtime accessors
 

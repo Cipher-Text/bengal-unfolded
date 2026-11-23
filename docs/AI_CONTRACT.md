@@ -54,6 +54,7 @@ For every schema or field change:
 - Topic metadata under `content/topics/*/meta.<locale>.json` must keep EN/BN parity and valid linked IDs (`eventSlugs`, `figureIds`, `resourceIds`).
 - Place metadata under `content/places/*/meta.<locale>.json` must keep EN/BN parity and valid allowed `placeId`.
 - Optional metadata extensions (SEO fields, FAQ blocks, map points, learning paths, alias arrays, relation IDs, and resource evidence metadata) must follow type/shape checks in `scripts/validate-content.mjs` when present; absence must not fail validation.
+- Quiz questions under `content/quiz/*/meta.<locale>.json` must keep EN/BN parity (shared fields and option IDs identical), reference an existing `topicSlug`, a non-stub `eventSlug` (for published questions) and existing `resourceIds`, and follow the per-type option rules in `docs/CONTENT_MODEL.md`. Only `published` questions are served; a question is published only after its claims are checked against its listed resources and the Bengali text is reviewed. `content/site/quiz.<locale>.json` must exist for both locales or neither.
 - Resource `seoTitle` and `seoDescription` are optional source-context controls. They must be localized when present and must not replace required source title, note, attribution, quality, category, or subcategory fields.
 
 ## Event relationship contract

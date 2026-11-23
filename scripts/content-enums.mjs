@@ -74,6 +74,14 @@ export const NAME_HISTORY_LANGUAGES_SET = new Set([
 
 // --- Entity ID Sets (mirrors of SUPPORTED_* in src/types/content.ts) ---
 
+export const QUIZ_QUESTION_TYPES_SET = new Set([
+  "single_choice", "multi_select", "which_first",
+]);
+
+export const QUIZ_DIFFICULTIES_SET = new Set(["easy", "medium", "hard"]);
+
+export const QUIZ_STATUSES_SET = new Set(["draft", "published"]);
+
 export const SUPPORTED_PERIOD_IDS_SET = new Set([
   "ancient-and-pre-sultanate-bengal",
   "transition-to-sultanate-formation",

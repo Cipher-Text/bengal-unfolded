@@ -9,6 +9,9 @@ import {
   LEARNING_PATH_ITEM_TYPES,
   NAME_HISTORY_LANGUAGES,
   PLACE_TYPES,
+  QUIZ_DIFFICULTIES,
+  QUIZ_QUESTION_TYPES,
+  QUIZ_STATUSES,
   RESOURCE_CATEGORIES,
   RESOURCE_SOURCE_QUALITIES,
   SOURCE_QUALITIES,
@@ -1168,4 +1171,50 @@ export type GlossaryTerm = {
   definition: string;
   explanation: string;
   relatedTerms?: string[];
+};
+
+export type QuizQuestionType = (typeof QUIZ_QUESTION_TYPES)[number];
+export type QuizDifficulty = (typeof QUIZ_DIFFICULTIES)[number];
+export type QuizStatus = (typeof QUIZ_STATUSES)[number];
+
+export type QuizOption = {
+  id: string;
+  text: string;
+};
+
+/** content/quiz/<id>/meta.<locale>.json */
+export type QuizQuestion = {
+  id: string;
+  status: QuizStatus;
+  type: QuizQuestionType;
+  topicSlug: string;
+  difficulty: QuizDifficulty;
+  eventSlug: EventSlug;
+  resourceIds: ResourceId[];
+  shuffleOptions?: boolean;
+  question: string;
+  context?: string;
+  options: QuizOption[];
+  correctOptionIds: string[];
+  explanation: string;
+};
+
+export type QuizTier = {
+  /** Minimum rounded score (out of the set size) for this tier. */
+  min: number;
+  id: string;
+  title: string;
+  message: string;
+};
+
+/** content/site/quiz.<locale>.json */
+export type QuizSiteContent = {
+  hook: string;
+  disclaimer: string;
+  tiers: QuizTier[];
+  feedback: {
+    correct: string[];
+    wrong: string[];
+    skipped: string[];
+  };
 };

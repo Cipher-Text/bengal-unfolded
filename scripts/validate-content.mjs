@@ -19,6 +19,9 @@ import {
   PLACE_TYPES_SET as allowedPlaceTypes,
   COORDINATE_CONFIDENCES_SET as allowedCoordinateConfidence,
   NAME_HISTORY_LANGUAGES_SET as allowedLanguages,
+  QUIZ_QUESTION_TYPES_SET as allowedQuizTypes,
+  QUIZ_DIFFICULTIES_SET as allowedQuizDifficulties,
+  QUIZ_STATUSES_SET as allowedQuizStatuses,
 } from "./content-enums.mjs";
 
 const root = process.cwd();
@@ -40,6 +43,10 @@ async function readJson(filePath, errors) {
     errors.push(`Invalid JSON: ${path.relative(root, filePath)} (${error.message})`);
     return null;
   }
+}
+
+function sameJsonTop(a, b) {
+  return JSON.stringify(a) === JSON.stringify(b);
 }
 
 function assertArray(value, label, errors) {
@@ -128,6 +135,7 @@ function normalizeCreatorId(value) {
 
 async function main() {
   const errors = [];
+  const warnings = [];
   const eventDir = path.join(contentDir, "events");
   const figureDir = path.join(contentDir, "figures");
   const resourceDir = path.join(contentDir, "resources");
@@ -1368,6 +1376,195 @@ async function main() {
       }
     }
   }
+
+  // --- Quiz (content/quiz/<id>/meta.<locale>.json, content/site/quiz.<locale>.json) ---
+  const quizDir = path.join(contentDir, "quiz");
+  if (await exists(quizDir)) {
+    const quizEntries = (await fs.readdir(quizDir)).filter((name) => !name.startsWith("."));
+    const topicSlugSet = new Set(topicEntries);
+    const publishedByTopic = new Map();
+    const publishedDifficultiesByTopic = new Map();
+    const sharedKeys = ["status", "type", "topicSlug", "difficulty", "eventSlug", "resourceIds", "shuffleOptions", "correctOptionIds"];
+    const sameJson = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+    const nonEmptyString = (v) => typeof v === "string" && v.trim().length > 0;
+    const stubCache = new Map();
+    const isStubEvent = async (slug) => {
+      if (!stubCache.has(slug)) {
+        const meta = await readJson(path.join(eventDir, slug, "meta.en.json"), []);
+        stubCache.set(slug, Boolean(meta && meta.stub));
+      }
+      return stubCache.get(slug);
+    };
+
+    for (const questionId of quizEntries) {
+      const metas = {};
+      for (const locale of ["en", "bn"]) {
+        const rel = `content/quiz/${questionId}/meta.${locale}.json`;
+        const metaPath = path.join(quizDir, questionId, `meta.${locale}.json`);
+        if (!(await exists(metaPath))) {
+          errors.push(`Missing file: ${rel}`);
+          continue;
+        }
+        const meta = await readJson(metaPath, errors);
+        if (!meta || typeof meta !== "object") continue;
+        metas[locale] = meta;
+
+        if (meta.id !== questionId || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(questionId)) {
+          errors.push(`Quiz id must be kebab-case and equal the folder name at ${rel}`);
+        }
+        if (!allowedQuizStatuses.has(meta.status)) errors.push(`Invalid quiz status '${meta.status}' at ${rel}`);
+        if (!allowedQuizTypes.has(meta.type)) errors.push(`Invalid quiz type '${meta.type}' at ${rel}`);
+        if (!allowedQuizDifficulties.has(meta.difficulty)) errors.push(`Invalid quiz difficulty '${meta.difficulty}' at ${rel}`);
+        if (typeof meta.topicSlug !== "string" || !topicSlugSet.has(meta.topicSlug)) {
+          errors.push(`Unknown quiz topicSlug '${meta.topicSlug}' at ${rel}`);
+        }
+        if (typeof meta.eventSlug !== "string" || !eventSlugSet.has(meta.eventSlug)) {
+          errors.push(`Unknown quiz eventSlug '${meta.eventSlug}' at ${rel}`);
+        } else if (meta.status === "published" && (await isStubEvent(meta.eventSlug))) {
+          errors.push(`Published quiz question links to stub event '${meta.eventSlug}' at ${rel}`);
+        }
+        if (!Array.isArray(meta.resourceIds) || meta.resourceIds.length === 0) {
+          errors.push(`resourceIds must be a non-empty array at ${rel}`);
+        } else {
+          if (new Set(meta.resourceIds).size !== meta.resourceIds.length) {
+            errors.push(`Duplicate resourceIds at ${rel}`);
+          }
+          for (const resourceId of meta.resourceIds) {
+            if (typeof resourceId !== "string" || !resourceIds.has(resourceId)) {
+              errors.push(`Unknown quiz resource id '${resourceId}' at ${rel}`);
+            }
+          }
+        }
+        if ("shuffleOptions" in meta && typeof meta.shuffleOptions !== "boolean") {
+          errors.push(`shuffleOptions must be boolean at ${rel}`);
+        }
+        for (const key of ["question", "explanation"]) {
+          if (!nonEmptyString(meta[key])) errors.push(`Missing or invalid '${key}' at ${rel}`);
+        }
+        if ("context" in meta && !nonEmptyString(meta.context)) {
+          errors.push(`context must be a non-empty string when provided at ${rel}`);
+        }
+
+        const optionIds = [];
+        if (!Array.isArray(meta.options)) {
+          errors.push(`options must be an array at ${rel}`);
+        } else {
+          for (const [i, option] of meta.options.entries()) {
+            if (!option || typeof option !== "object" || !nonEmptyString(option.id) || !nonEmptyString(option.text)) {
+              errors.push(`Invalid option at ${rel}[options.${i}] (needs non-empty id and text)`);
+              continue;
+            }
+            optionIds.push(option.id);
+          }
+          if (new Set(optionIds).size !== optionIds.length) errors.push(`Duplicate option ids at ${rel}`);
+        }
+        if (!Array.isArray(meta.correctOptionIds)) {
+          errors.push(`correctOptionIds must be an array at ${rel}`);
+        } else {
+          if (new Set(meta.correctOptionIds).size !== meta.correctOptionIds.length) {
+            errors.push(`Duplicate correctOptionIds at ${rel}`);
+          }
+          for (const id of meta.correctOptionIds) {
+            if (!optionIds.includes(id)) errors.push(`correctOptionIds entry '${id}' is not an option id at ${rel}`);
+          }
+          const optionCount = optionIds.length;
+          const correctCount = meta.correctOptionIds.length;
+          if (meta.type === "single_choice" && (optionCount < 3 || optionCount > 4 || correctCount !== 1)) {
+            errors.push(`single_choice needs 3-4 options and exactly 1 correct option at ${rel}`);
+          }
+          if (meta.type === "which_first" && (optionCount !== 2 || correctCount !== 1)) {
+            errors.push(`which_first needs exactly 2 options and exactly 1 correct option at ${rel}`);
+          }
+          if (meta.type === "multi_select" && (optionCount < 4 || optionCount > 5 || correctCount < 2 || correctCount >= optionCount)) {
+            errors.push(`multi_select needs 4-5 options and 2 or more (but not all) correct options at ${rel}`);
+          }
+        }
+      }
+
+      if (metas.en && metas.bn) {
+        const rel = `content/quiz/${questionId}/meta.*.json`;
+        for (const key of sharedKeys) {
+          if (!sameJson(metas.en[key], metas.bn[key])) errors.push(`'${key}' must match between EN and BN at ${rel}`);
+        }
+        const idsEn = Array.isArray(metas.en.options) ? metas.en.options.map((o) => o && o.id) : [];
+        const idsBn = Array.isArray(metas.bn.options) ? metas.bn.options.map((o) => o && o.id) : [];
+        if (!sameJson(idsEn, idsBn)) errors.push(`Option ids must match in the same order between EN and BN at ${rel}`);
+        if ("context" in metas.en !== "context" in metas.bn) errors.push(`context must be present in both locales or neither at ${rel}`);
+
+        if (metas.en.status === "published" && typeof metas.en.topicSlug === "string") {
+          publishedByTopic.set(metas.en.topicSlug, (publishedByTopic.get(metas.en.topicSlug) ?? 0) + 1);
+          const set = publishedDifficultiesByTopic.get(metas.en.topicSlug) ?? new Set();
+          set.add(metas.en.difficulty);
+          publishedDifficultiesByTopic.set(metas.en.topicSlug, set);
+        }
+        if (typeof metas.en.explanation === "string" && metas.en.explanation.length > 320) {
+          warnings.push(`Quiz explanation over 320 characters at content/quiz/${questionId}/meta.en.json`);
+        }
+      }
+    }
+
+    for (const [topic, count] of publishedByTopic) {
+      if (count < 40) warnings.push(`Quiz topic '${topic}' has ${count} published question(s); aim for 40 or more`);
+      const difficulties = publishedDifficultiesByTopic.get(topic);
+      for (const level of ["easy", "hard"]) {
+        if (!difficulties.has(level)) warnings.push(`Quiz topic '${topic}' has no published '${level}' question`);
+      }
+    }
+  }
+
+  // Quiz site copy is optional until the quiz UI ships; when present it is fully validated.
+  const quizSite = {};
+  for (const locale of ["en", "bn"]) {
+    const sitePath = path.join(contentDir, "site", `quiz.${locale}.json`);
+    if (!(await exists(sitePath))) continue;
+    const rel = `content/site/quiz.${locale}.json`;
+    const data = await readJson(sitePath, errors);
+    if (!data || typeof data !== "object") continue;
+    quizSite[locale] = data;
+    for (const key of ["hook", "disclaimer"]) {
+      if (typeof data[key] !== "string" || data[key].trim().length === 0) errors.push(`Missing or invalid '${key}' at ${rel}`);
+    }
+    if (!Array.isArray(data.tiers) || data.tiers.length === 0) {
+      errors.push(`tiers must be a non-empty array at ${rel}`);
+    } else {
+      let previousMin = -1;
+      for (const [i, tier] of data.tiers.entries()) {
+        const label = `${rel}[tiers.${i}]`;
+        if (!tier || typeof tier !== "object") {
+          errors.push(`Invalid tier at ${label}`);
+          continue;
+        }
+        if (!Number.isInteger(tier.min) || tier.min < 0) errors.push(`tier.min must be a non-negative integer at ${label}`);
+        else if (tier.min <= previousMin) errors.push(`tiers must be sorted by strictly ascending min at ${label}`);
+        else previousMin = tier.min;
+        for (const key of ["id", "title", "message"]) {
+          if (typeof tier[key] !== "string" || tier[key].trim().length === 0) errors.push(`Missing or invalid tier '${key}' at ${label}`);
+        }
+      }
+      if (data.tiers[0] && data.tiers[0].min !== 0) errors.push(`First tier must have min 0 at ${rel}`);
+    }
+    if (!data.feedback || typeof data.feedback !== "object") {
+      errors.push(`feedback must be an object at ${rel}`);
+    } else {
+      for (const key of ["correct", "wrong", "skipped"]) {
+        const list = data.feedback[key];
+        if (!Array.isArray(list) || list.length === 0 || list.some((line) => typeof line !== "string" || line.trim().length === 0)) {
+          errors.push(`feedback.${key} must be a non-empty array of non-empty strings at ${rel}`);
+        }
+      }
+    }
+  }
+  if (Boolean(quizSite.en) !== Boolean(quizSite.bn)) {
+    errors.push("content/site/quiz.en.json and content/site/quiz.bn.json must both exist or both be absent");
+  }
+  if (quizSite.en && quizSite.bn && Array.isArray(quizSite.en.tiers) && Array.isArray(quizSite.bn.tiers)) {
+    const shape = (tiers) => tiers.map((t) => t && [t.min, t.id]);
+    if (!sameJsonTop(shape(quizSite.en.tiers), shape(quizSite.bn.tiers))) {
+      errors.push("Quiz tier min values and ids must match between EN and BN at content/site/quiz.*.json");
+    }
+  }
+
+  for (const warning of warnings) console.warn(`warning: ${warning}`);
 
   if (errors.length > 0) {
     console.error(`\nContent validation failed with ${errors.length} issue(s):`);

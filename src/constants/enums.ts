@@ -134,3 +134,13 @@ export const NAME_HISTORY_LANGUAGES = [
   "pt",
   "other",
 ] as const;
+
+export const QUIZ_QUESTION_TYPES = [
+  "single_choice",
+  "multi_select",
+  "which_first",
+] as const;
+
+export const QUIZ_DIFFICULTIES = ["easy", "medium", "hard"] as const;
+
+export const QUIZ_STATUSES = ["draft", "published"] as const;

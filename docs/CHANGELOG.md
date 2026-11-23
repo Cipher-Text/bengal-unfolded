@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-11-24
+
+### Completed
+
+- Quiz content model and validation (model and validation only; no UI, no questions yet). See `docs/QUIZ_SPEC.md` and `docs/QUIZ_SCHEMA_DRAFT.md`.
+  - Model: added `QuizQuestion`, `QuizOption`, `QuizTier`, `QuizSiteContent` and the `QuizQuestionType`, `QuizDifficulty`, `QuizStatus` types in `src/types/content.ts`; added `QUIZ_QUESTION_TYPES`, `QUIZ_DIFFICULTIES`, `QUIZ_STATUSES` to `src/constants/enums.ts` and their mirrors to `scripts/content-enums.mjs`.
+  - Validation: `scripts/validate-content.mjs` validates `content/quiz/<id>/meta.<locale>.json` (enums, topic, event and resource references, no stub event for published questions, per-type option rules, EN/BN parity) and `content/site/quiz.<locale>.json` (tier ordering, feedback arrays, locale parity). Absence of `content/quiz/` and of the site copy files passes. Added non-failing warnings (small pool, missing difficulty, long explanation). Verified with temporary fixtures (valid, wrong correct-count, EN/BN mismatch, stub event), then removed.
+  - UI: none.
+  - Backfill: none. There are no quiz questions and no `quiz.<locale>.json` yet.
+  - Docs: `docs/CONTENT_MODEL.md` (quiz schema and file contracts), `docs/AI_CONTRACT.md` (quiz contract rule).
+  - Risk and known gaps: no loader or runtime in `src/lib/content.ts`; no Codex brief yet; Bengali tier names and disclaimer need native review; `docs/ROADMAP.md` RM-009 still says a static quiz without score storage is deferred to B3, which conflicts with the decision to ship a frontend-only quiz first, so the roadmap needs a Claude decision.
+
 ## 2026-11-21
 
 ### Completed
