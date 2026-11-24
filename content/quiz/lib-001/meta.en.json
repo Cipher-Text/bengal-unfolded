@@ -3,29 +3,29 @@
   "status": "draft",
   "type": "single_choice",
   "topicSlug": "liberation-war-1971",
-  "difficulty": "medium",
+  "difficulty": "easy",
   "eventSlug": "1971-march-7-speech",
   "resourceIds": [
     "history-banglapedia"
   ],
   "shuffleOptions": true,
-  "question": "Sheikh Mujibur Rahman's 7 March 1971 speech is described as a bridge between which two developments?",
+  "question": "Where did Sheikh Mujibur Rahman deliver his 7 March 1971 speech?",
   "options": [
     {
       "id": "a",
-      "text": "The 1970 election mandate and the coming armed conflict"
+      "text": "The Ramna Race Course, now Suhrawardy Udyan"
     },
     {
       "id": "b",
-      "text": "The 1970 Bhola cyclone and the December election"
+      "text": "Paltan Maidan"
     },
     {
       "id": "c",
-      "text": "The Six-Point Programme and the 1969 mass uprising"
+      "text": "Dhaka Stadium"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Delivered days after the National Assembly session was postponed on 1 March, the speech turned the election win into a plan for civil non-cooperation and prepared people for a decisive confrontation."
+  "explanation": "Mujib gave the speech at the Ramna Race Course, now Suhrawardy Udyan, the same ground where the Pakistani surrender was signed on 16 December. UNESCO added the speech to its Memory of the World Register in 2017."
 }

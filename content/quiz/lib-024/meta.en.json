@@ -3,29 +3,29 @@
   "status": "draft",
   "type": "single_choice",
   "topicSlug": "liberation-war-1971",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "eventSlug": "1971-akhaura-front-battle-of-daruin",
   "resourceIds": [
     "battle-of-akhaura-reference"
   ],
   "shuffleOptions": true,
-  "question": "Fighting around Akhaura and Daruin put pressure on routes linking which places?",
+  "question": "When was the Battle of Daruin, associated with Sepoy Mostafa Kamal, fought?",
   "options": [
     {
       "id": "a",
-      "text": "Tripura, Brahmanbaria and the approach to Dhaka"
+      "text": "16-18 April 1971, in the first weeks of the war"
     },
     {
       "id": "b",
-      "text": "Khulna and the southwest interior"
+      "text": "November 1971, just before the formal war"
     },
     {
       "id": "c",
-      "text": "Sylhet and the northern border"
+      "text": "December 1971, during the final advance"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Akhaura sat on a strategic eastern approach in Sector 2. Fighting there stretched Pakistani defenses before December."
+  "explanation": "Daruin was fought on 16-18 April 1971, early in the war. A Bengali platoon held the position, and Sepoy Mostafa Kamal (Bir Sreshtho), killed on 18 April, covered the retreat. Pakistani forces retook Daruin."
 }

@@ -2,7 +2,7 @@
 
 Date: 2026-11-24. Scope: the 40 draft questions `lib-001` to `lib-040`. Four agents checked each question against open web sources (Banglapedia, Wikipedia, Daily Star, Dhaka Tribune, Dawn, TBS and others); results were merged and the questions edited by the lead.
 
-**Result: 36 questions are READY for Bengali review and then publishing; 4 are on HOLD and must not be published until fixed.** Nothing has been published: every question is still `status: draft`.
+**Result: all 40 questions are READY for Bengali review and then publishing (4 of them were replaced after the first check). None is on hold.** Nothing has been published: every question is still `status: draft`.
 
 How each question was judged:
 1. Is the intended correct answer stated by an open source (SUPPORTED), only an author's framing (INTERPRETIVE), contradicted, contested, or not found?
@@ -22,7 +22,7 @@ Where a claim is contested or sources differ (dates, first broadcasts, talks, tr
 
 | ID | Verdict | Status | What was found or changed | Sources used |
 | --- | --- | --- | --- | --- |
-| lib-001 | INTERPRETIVE | HOLD | No source found for the 'bridge' framing; the cited Banglapedia History page stops before 1971. Needs a source on the 7 March speech, or a documented-fact rewrite. | none usable |
+| lib-001 | REPLACED (was interpretive) | READY (replaced) | Now asks the venue: Ramna Race Course, now Suhrawardy Udyan (also the surrender ground; UNESCO Memory of the World Register 2017). Single source opened for the surrender-ground and UNESCO points. | Wikipedia: 7 March Speech of Sheikh Mujibur Rahman; Suhrawardy Udyan |
 | lib-002 | SUPPORTED | READY | Proclamation dated 10 April; oath 17 April. | Wikipedia: Proclamation of Bangladeshi Independence; Daily Star Mujibnagar Day pages |
 | lib-003 | SUPPORTED (date); talks contested | READY | 25 March night is documented. Explanation changed: talks dates (16-24 March) and 'ended without settlement' are contested, now 'failed to produce a clear result'. | Banglapedia: Operation Searchlight |
 | lib-004 | INTERPRETIVE | READY (reworded) | Reworded to documented fact: the government gave the movement a political leadership. Sector claim removed (sectors set in July). | Wikipedia: Mujibnagar Government; Daily Star |
@@ -45,7 +45,7 @@ Where a claim is contested or sources differ (dates, first broadcasts, talks, tr
 | lib-021 | INTERPRETIVE | READY (reworded) | It was a heliborne landing (7 Dec), not a parachute drop; 'psychological pressure' unsupported. Now asks the landing type. | Wikipedia: Battle of Sylhet |
 | lib-022 | WEAKLY SUPPORTED | READY (reworded) | 'Quickened' removed; Khulna held out until 17 Dec. Now: the fall opened the road toward Khulna. Jessore date differs 6 vs 7 Dec. | Banglapedia: Jessore District; Dhaka Tribune |
 | lib-023 | SUPPORTED | READY | Tribunal operational March 2010; first verdict 21 January 2013. | Wikipedia: ICT (Bangladesh); Daily Star |
-| lib-024 | UNVERIFIED; conflates two events | HOLD | Daruin (April 1971) and Akhaura (December) are separate events; 'routes' claim has no source. Needs a split into factual questions. | none usable |
+| lib-024 | REPLACED (was unverified, conflated) | READY (replaced) | Now asks only about Daruin: fought 16-18 April 1971; Pakistani forces retook it; Sepoy Mostafa Kamal killed 18 April. Akhaura question dropped: the fall date is not firmly sourced (30 Nov-8 Dec in different accounts). Casualty numbers vary and are not used. | Wikipedia: Battle of Daruin |
 | lib-025 | SUPPORTED | READY | Waterways central to movement, supply, sabotage. | Wikipedia: Operation Jackpot |
 | lib-026 | INTERPRETIVE | READY (reworded) | 'Tripura frontier' not in sources. Now asks about the bulge geography (enclave surrounded on three sides by Indian territory). | Daily Star: Battles of Belonia Bulge |
 | lib-027 | SUPPORTED | READY (reworded) | 167/169 mixes general and reserved seats (160/162 + 7). Question now says 'won a majority in the National Assembly'. | Wikipedia: 1970 Pakistani general election; Dawn |
@@ -56,16 +56,13 @@ Where a claim is contested or sources differ (dates, first broadcasts, talks, tr
 | lib-032 | PARTLY SUPPORTED | READY (reworded) | 'Universal adult franchise' not supported. Now 'general election (7 December 1970)'. | Banglapedia: Election; Wikipedia: 1970 general election |
 | lib-033 | SUPPORTED | READY | Surrender fixed the military outcome; Victory Day 16 Dec. | Wikipedia: Instrument of Surrender (1971) |
 | lib-034 | SUPPORTED | READY (reworded) | Khandaker represented the Mukti Bahini (Banglapedia). Explanation now says both Niazi and Aurora signed. | Banglapedia: War of Liberation; Wikipedia |
-| lib-035 | INTERPRETIVE; authorship contested | HOLD | Who issued the declaration, and when, is contested (Awami League, BNP, 2010 court ruling); 'recast the crisis' is a framing. | Wikipedia: Proclamation page |
+| lib-035 | REPLACED (was contested) | READY (replaced) | Now asks where the 17 April oath was held: Baidyanathtala, a mango orchard in the Meherpur area, renamed Mujibnagar. Wikipedia places it in Kushtia district at the time; Dhaka Tribune says Meherpur, so the option says 'near Meherpur'. | Wikipedia: Mujibnagar Government; Dhaka Tribune (17 April 1971 article) |
 | lib-036 | SUPPORTED (order) | READY (reworded) | Order is clear. 'In Mujib's name' removed: now 'a declaration of independence was announced after the 25 March crackdown'. | Wikipedia: Proclamation page |
 | lib-037 | PARTLY SUPPORTED; contested | READY (reworded) | Zia broadcast 27 March from Kalurghat is documented, but dates and first broadcasts are disputed. The unsupported '30 March repeat' sentence removed; explanation notes the disagreement. | Wikipedia: Swadhin Bangla Betar Kendra; Daily Star |
 | lib-038 | SUPPORTED | READY (reworded) | Prime Minister on 12 January 1972, succeeding Tajuddin Ahmad; return 10 January. | Wikipedia: Sheikh Mujibur Rahman; Daily Star |
 | lib-039 | PARTLY SUPPORTED; contested | READY (reworded) | Shahbag demanded the death penalty, not 'stronger accountability'. Reworded and flagged as politically contested. | Wikipedia: ICT (Bangladesh) |
-| lib-040 | INTERPRETIVE; duplicate | HOLD | First verdict date is supported but already tested by lib-023; 'newly visible' framing is unsourced. | Daily Star; Wikipedia: ICT (Bangladesh) |
+| lib-040 | REPLACED (was duplicate) | READY (replaced) | Now asks the law: International Crimes (Tribunals) Act 1973, amended 2009; Tribunal-1 constituted 25 March 2010. The Collaborators Order 1972 distractor was not checked by the agents. | Wikipedia: International Crimes Tribunal (Bangladesh) |
 
-## Held questions: what they need
+## Held questions: resolved
 
-- `lib-001` (7 March speech 'bridge'): find a source on the speech, then ask a documented fact (place, date, call to action) or attribute the framing.
-- `lib-024` (Akhaura and Daruin): split the two events; Daruin was fought in April 1971, Akhaura fell in December; ask one documented fact each.
-- `lib-035` (declaration of independence): ask only the ordering fact (`lib-036` already does), or attribute each account of who declared independence and when.
-- `lib-040` (first ICT verdict): either drop it as a duplicate of `lib-023` or replace it with a documented fact such as the in absentia verdict.
+`lib-001`, `lib-024`, `lib-035` and `lib-040` were held after the first check. Each was replaced by a question on a documented fact (venue of the 7 March speech, the date of the Battle of Daruin, the place of the 17 April oath, the law behind the tribunal). The Akhaura question was dropped because the fall date is not firmly sourced. A second source for the single-source points (UNESCO year, Daruin dates, the tribunal's law) would still be worth adding before publishing.

@@ -4,29 +4,29 @@
   "type": "single_choice",
   "topicSlug": "liberation-war-1971",
   "difficulty": "medium",
-  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "eventSlug": "1971-mujibnagar-government",
   "resourceIds": [
-    "proclamation-of-independence-1971-text",
-    "war-of-liberation-banglapedia"
+    "history-banglapedia",
+    "proclamation-of-independence-1971-text"
   ],
   "shuffleOptions": true,
-  "question": "What purpose did circulating the independence declaration in Sheikh Mujibur Rahman's name serve after the 25 March assault?",
+  "question": "Where was the oath-taking ceremony of the provisional government held on 17 April 1971?",
   "options": [
     {
       "id": "a",
-      "text": "It recast the crisis as a struggle for a separate sovereign state"
+      "text": "At Baidyanathtala, a mango orchard near Meherpur, later renamed Mujibnagar"
     },
     {
       "id": "b",
-      "text": "It formed the provisional government's cabinet"
+      "text": "At the Ramna Race Course in Dhaka"
     },
     {
       "id": "c",
-      "text": "It ended the non-cooperation movement"
+      "text": "In Agartala, in Tripura"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Circulated on 25-26 March, the declaration reframed the crisis as a struggle for a separate sovereign state. The provisional leadership adopted the Proclamation of Independence on 10 April."
+  "explanation": "The ceremony took place on 17 April at Baidyanathtala, a mango orchard in the Meherpur area near the border. The place was then renamed Mujibnagar."
 }

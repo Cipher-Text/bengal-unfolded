@@ -4,29 +4,29 @@
   "type": "single_choice",
   "topicSlug": "liberation-war-1971",
   "difficulty": "medium",
-  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "eventSlug": "1971-mujibnagar-government",
   "resourceIds": [
-    "proclamation-of-independence-1971-text",
-    "war-of-liberation-banglapedia"
+    "history-banglapedia",
+    "proclamation-of-independence-1971-text"
   ],
   "shuffleOptions": true,
-  "question": "২৫ মার্চের দমন অভিযানের পর শেখ মুজিবুর রহমানের নামে স্বাধীনতার ঘোষণা প্রচার করার উদ্দেশ্য কী ছিল?",
+  "question": "১৯৭১ সালের ১৭ এপ্রিল অস্থায়ী সরকারের শপথ অনুষ্ঠান কোথায় হয়?",
   "options": [
     {
       "id": "a",
-      "text": "এটি সংকটকে একটি পৃথক সার্বভৌম রাষ্ট্রের সংগ্রাম হিসেবে নতুনভাবে সংজ্ঞায়িত করে"
+      "text": "মেহেরপুরের কাছে বৈদ্যনাথতলার এক আমবাগানে, পরে যার নাম হয় মুজিবনগর"
     },
     {
       "id": "b",
-      "text": "এটি অস্থায়ী সরকারের মন্ত্রিসভা গঠন করে"
+      "text": "ঢাকার রমনা রেসকোর্সে"
     },
     {
       "id": "c",
-      "text": "এটি অসহযোগ আন্দোলনের অবসান ঘটায়"
+      "text": "ত্রিপুরার আগরতলায়"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "২৫-২৬ মার্চ প্রচারিত ঘোষণা সংকটকে স্বাধীন সার্বভৌম রাষ্ট্রের সংগ্রাম হিসেবে নতুনভাবে সংজ্ঞায়িত করে; অস্থায়ী নেতৃত্ব ঘোষণাপত্র গ্রহণ করে ১০ এপ্রিল।"
+  "explanation": "১৭ এপ্রিল শপথ অনুষ্ঠান হয় মেহেরপুর এলাকার সীমান্তবর্তী বৈদ্যনাথতলার এক আমবাগানে, যার নাম পরে মুজিবনগর রাখা হয়।"
 }
