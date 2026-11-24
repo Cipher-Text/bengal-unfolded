@@ -1,0 +1,27 @@
+{
+  "id": "col-005",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1764-battle-of-buxar",
+  "resourceIds": [
+    "diwani-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these happened first?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Mughal emperor granted the Company the diwani of Bengal, Bihar and Orissa (August 1765)"
+    },
+    {
+      "id": "b",
+      "text": "The Battle of Buxar (October 1764)"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "Buxar was fought in October 1764. The diwani grant followed in August 1765 (12 August in Banglapedia, 16 August in some sources), turning military leverage into formal revenue rights."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "col-004",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1764-battle-of-buxar",
+  "resourceIds": [
+    "battle-of-buxar-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these were among the allied forces the East India Company defeated at Buxar in 1764?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Mir Qasim, Shuja-ud-Daula and Shah Alam II"
+    },
+    {
+      "id": "b",
+      "text": "Siraj ud-Daulah, Mir Jafar and Robert Clive"
+    },
+    {
+      "id": "c",
+      "text": "Murshid Quli Khan, Alivardi Khan and Mir Jafar"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "In October 1764 Company forces defeated an allied army that included Mir Qasim, Shuja-ud-Daula and Shah Alam II."
+}

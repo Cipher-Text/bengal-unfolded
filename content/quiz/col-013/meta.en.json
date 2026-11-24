@@ -1,0 +1,31 @@
+{
+  "id": "col-013",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1857-sipahi-revolt",
+  "resourceIds": [
+    "indian-rebellion-1857-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "What change in governance followed the suppression of the 1857 uprising?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Mughal emperor was restored as ruler of India"
+    },
+    {
+      "id": "b",
+      "text": "The British Crown replaced East India Company rule"
+    },
+    {
+      "id": "c",
+      "text": "The Company was given fresh powers to rule for another twenty years"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "In 1858, after the uprising was suppressed, the British Crown replaced East India Company rule, restructuring governance and security across the subcontinent."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "col-008",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1770-great-bengal-famine",
+  "resourceIds": [
+    "great-bengal-famine-1770-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Which documented factors are linked to the 1770 famine in Bengal?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Crop failure"
+    },
+    {
+      "id": "b",
+      "text": "Grain-market distortions"
+    },
+    {
+      "id": "c",
+      "text": "Rigid revenue collection under Company authority"
+    },
+    {
+      "id": "d",
+      "text": "The Permanent Settlement of 1793"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "Historians point to crop failure, grain-market distortions and rigid revenue collection under Company authority, which together turned environmental stress into a social collapse. The Permanent Settlement came later, in 1793. Estimates of the death toll vary widely."
+}

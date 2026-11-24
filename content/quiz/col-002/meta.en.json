@@ -1,0 +1,35 @@
+{
+  "id": "col-002",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1757-battle-of-plassey",
+  "resourceIds": [
+    "mir-jafar-ali-khan-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Whom did the East India Company install as Nawab after Siraj ud-Daulah was overthrown in 1757?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Mir Qasim"
+    },
+    {
+      "id": "b",
+      "text": "Shah Alam II"
+    },
+    {
+      "id": "c",
+      "text": "Mir Jafar"
+    },
+    {
+      "id": "d",
+      "text": "Shuja-ud-Daula"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "explanation": "After Siraj ud-Daulah was overthrown in late June 1757, Mir Jafar was installed as Nawab with Company backing. Mir Qasim came later, and the Company's conflict with him led to Buxar."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "col-007",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "hard",
+  "eventSlug": "1765-east-india-company-gets-diwani-rights-in-bengal",
+  "resourceIds": [
+    "diwani-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "নবাব নাজম-উদ-দৌলার সঙ্গে ১৭৬৫ সালের সেপ্টেম্বরের চুক্তিতে বাংলার রাজস্ব কীভাবে ব্যবহৃত হতো?",
+  "options": [
+    {
+      "id": "a",
+      "text": "রাজস্ব থেকে প্রশাসন ও নবাবের পরিবারের খরচ মিটত, আর উদ্বৃত্ত কোম্পানি রাখত"
+    },
+    {
+      "id": "b",
+      "text": "নবাব সমস্ত রাজস্ব রেখে কোম্পানিকে একটি নির্দিষ্ট অর্থ দিতেন"
+    },
+    {
+      "id": "c",
+      "text": "উদ্বৃত্ত মুঘল সম্রাট রাখতেন"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "চুক্তি অনুযায়ী বাংলার রাজস্ব থেকে বেসামরিক প্রশাসন ও নবাবের পরিবারের খরচ মেটানো হতো, আর উদ্বৃত্ত রাখত কোম্পানি।"
+}

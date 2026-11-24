@@ -1,0 +1,31 @@
+{
+  "id": "col-009",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1857-sipahi-revolt",
+  "resourceIds": [
+    "indian-rebellion-1857-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "Where did the sepoy uprising of 1857 break out on 10 May?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Meerut"
+    },
+    {
+      "id": "b",
+      "text": "Barrackpore"
+    },
+    {
+      "id": "c",
+      "text": "Calcutta"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The revolt broke out at Meerut on 10 May 1857 and spread quickly through garrisons and political centres in North India. Tensions had been rising since March, including at Barrackpore in Bengal."
+}

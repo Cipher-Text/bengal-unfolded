@@ -1,0 +1,31 @@
+{
+  "id": "col-006",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1765-east-india-company-gets-diwani-rights-in-bengal",
+  "resourceIds": [
+    "diwani-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "What did the Mughal emperor's 1765 grant give the East India Company?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The right to collect revenue in Bengal, Bihar and Orissa"
+    },
+    {
+      "id": "b",
+      "text": "The right to rule Bengal as an independent state"
+    },
+    {
+      "id": "c",
+      "text": "Ownership of all land in Bengal"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "In August 1765 Emperor Shah Alam II appointed the Company diwan of Bengal, Bihar and Orissa, giving it the right to collect revenue. The nawabi offices formally remained, though the Company effectively ran them."
+}

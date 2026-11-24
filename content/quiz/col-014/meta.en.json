@@ -1,0 +1,27 @@
+{
+  "id": "col-014",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1861-indian-councils-act-and-limited-representation-in-bengal",
+  "resourceIds": [
+    "constitutional-development-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these happened first?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Indian Councils Act authorized provincial legislative councils (1861)"
+    },
+    {
+      "id": "b",
+      "text": "The Bengal Legislative Council was established in Calcutta (1862)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The Act was passed in 1861 and authorized provincial councils; the Bengal council was established the following year, in 1862, in Calcutta."
+}

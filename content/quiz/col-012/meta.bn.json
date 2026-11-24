@@ -1,0 +1,31 @@
+{
+  "id": "col-012",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+  "resourceIds": [
+    "murshid-quli-khan-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "মুর্শিদ কুলি খান বাংলার রাজস্ব প্রশাসন ঢাকা থেকে কোন কেন্দ্রে সরিয়ে নেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "মকসুদাবাদ, যা পরে মুর্শিদাবাদ নামে পরিচিত হয়"
+    },
+    {
+      "id": "b",
+      "text": "কলকাতা"
+    },
+    {
+      "id": "c",
+      "text": "হুগলি"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "অষ্টাদশ শতকের শুরুতে মুর্শিদ কুলি খান রাজস্ব প্রশাসন ঢাকা থেকে মকসুদাবাদে, যা পরে মুর্শিদাবাদ নামে পরিচিত হয়, সরিয়ে নেন, যা কেন্দ্রীভূত রাজস্ব ব্যবস্থাপনাকে শক্তিশালী করে। ১৭১৭ সালের মধ্যে এটি প্রাদেশিক রাজধানী হিসেবে প্রতিষ্ঠিত হয়।"
+}

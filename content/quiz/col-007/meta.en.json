@@ -1,0 +1,31 @@
+{
+  "id": "col-007",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "hard",
+  "eventSlug": "1765-east-india-company-gets-diwani-rights-in-bengal",
+  "resourceIds": [
+    "diwani-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Under the September 1765 agreement with Nawab Nazm ud-Daulah, how were Bengal's revenues used?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They paid for civil administration and the Nawab's household, and the Company kept the surplus"
+    },
+    {
+      "id": "b",
+      "text": "The Nawab kept all the revenue and paid the Company a fixed sum"
+    },
+    {
+      "id": "c",
+      "text": "The Mughal emperor kept the surplus"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The agreement left the costs of civil administration and the Nawab's household to be paid from Bengal's revenues, while the Company retained the surplus."
+}

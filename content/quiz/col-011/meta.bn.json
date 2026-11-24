@@ -1,0 +1,31 @@
+{
+  "id": "col-011",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1793-permanent-settlement-in-bengal",
+  "resourceIds": [
+    "permanent-settlement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "চিরস্থায়ী বন্দোবস্তে জমিদারদের তুলনায় রায়তদের অবস্থান কীভাবে প্রভাবিত হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "তাঁরা একই বংশানুক্রমিক ভূস্বামীর মর্যাদা পান"
+    },
+    {
+      "id": "b",
+      "text": "তাঁরা সমতুল্য নিরাপত্তা পাননি, আর খাজনা ও উচ্ছেদে জমিদারদের ক্ষমতা বাড়ে"
+    },
+    {
+      "id": "c",
+      "text": "তাঁরা খাজনা নির্ধারণ ও জমিদার উচ্ছেদের ক্ষমতা পান"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "রায়তরা জমিদারদের সমতুল্য নিরাপত্তা পাননি, আর খাজনা ও উচ্ছেদের ক্ষেত্রে জমিদারদের ক্ষমতা বাড়ে।"
+}

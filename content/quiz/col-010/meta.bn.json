@@ -1,0 +1,31 @@
+{
+  "id": "col-010",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1793-permanent-settlement-in-bengal",
+  "resourceIds": [
+    "permanent-settlement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৭৯৩ সালের চিরস্থায়ী বন্দোবস্তে ঔপনিবেশিক আইনে কোন গোষ্ঠীগুলো জমির মালিক হিসেবে স্বীকৃতি পায়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "রায়ত ও গ্রামের শ্রমজীবীরা"
+    },
+    {
+      "id": "b",
+      "text": "জমিদার ও তালুকদার"
+    },
+    {
+      "id": "c",
+      "text": "কোম্পানির কেরানি ও ব্যাংকার"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "বন্দোবস্তে রাজ্যের রাজস্বের দাবি স্থায়ীভাবে নির্ধারিত হয় এবং যতদিন জমিদার ও তালুকদাররা যথাসময়ে রাজস্ব দিতেন, ততদিন তাঁরা ভূস্বামী হিসেবে গণ্য হতেন।"
+}

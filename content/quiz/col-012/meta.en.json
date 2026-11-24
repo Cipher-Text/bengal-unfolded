@@ -1,0 +1,31 @@
+{
+  "id": "col-012",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1704-murshid-quli-khan-shifts-the-capital-to-murshidabad",
+  "resourceIds": [
+    "murshid-quli-khan-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "To which center did Murshid Quli Khan shift Bengal's revenue administration from Dhaka?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Makhsudabad, later called Murshidabad"
+    },
+    {
+      "id": "b",
+      "text": "Calcutta"
+    },
+    {
+      "id": "c",
+      "text": "Hooghly"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "In the early 1700s Murshid Quli Khan moved the revenue administration from Dhaka to Makhsudabad, later Murshidabad, strengthening centralized revenue management. It was established as the provincial capital by 1717."
+}

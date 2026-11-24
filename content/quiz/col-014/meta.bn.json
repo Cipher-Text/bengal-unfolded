@@ -1,0 +1,27 @@
+{
+  "id": "col-014",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1861-indian-councils-act-and-limited-representation-in-bengal",
+  "resourceIds": [
+    "constitutional-development-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "নিচের কোনটি আগে ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "ইন্ডিয়ান কাউন্সিলস অ্যাক্ট প্রাদেশিক আইন পরিষদের অনুমোদন দেয় (১৮৬১)"
+    },
+    {
+      "id": "b",
+      "text": "কলকাতায় বাংলার আইন পরিষদ প্রতিষ্ঠিত হয় (১৮৬২)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "আইনটি পাস হয় ১৮৬১ সালে এবং প্রাদেশিক পরিষদের অনুমোদন দেয়; বাংলার পরিষদ প্রতিষ্ঠিত হয় পরের বছর, ১৮৬২ সালে, কলকাতায়।"
+}

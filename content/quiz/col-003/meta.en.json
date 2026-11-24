@@ -1,0 +1,36 @@
+{
+  "id": "col-003",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "hard",
+  "eventSlug": "1757-battle-of-plassey",
+  "resourceIds": [
+    "battle-of-plassey-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Which of these helped the Company isolate Siraj ud-Daulah before Plassey?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Coordination with discontented figures at the Nawab's court"
+    },
+    {
+      "id": "b",
+      "text": "Backing from major Bengal bankers such as the Jagat Seths"
+    },
+    {
+      "id": "c",
+      "text": "Support from the French East India Company"
+    },
+    {
+      "id": "d",
+      "text": "A grant of diwani rights from the Mughal emperor"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b"
+  ],
+  "explanation": "In the months before Plassey, Company officials worked with discontented court figures and with powerful bankers such as the Jagat Seths to isolate the Nawab. The diwani grant came only in 1765, and the French were the Company's rivals, not its supporters."
+}

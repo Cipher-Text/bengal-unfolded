@@ -1,0 +1,31 @@
+{
+  "id": "col-010",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1793-permanent-settlement-in-bengal",
+  "resourceIds": [
+    "permanent-settlement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Under the Permanent Settlement of 1793, which groups were recognized as proprietors of the land under colonial law?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Raiyats and village laborers"
+    },
+    {
+      "id": "b",
+      "text": "Zamindars and talukdars"
+    },
+    {
+      "id": "c",
+      "text": "Company clerks and bankers"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "The settlement fixed the state's revenue demand permanently and treated zamindars and talukdars as proprietors so long as they paid revenue punctually."
+}

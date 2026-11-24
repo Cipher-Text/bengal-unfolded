@@ -1,0 +1,31 @@
+{
+  "id": "col-006",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1765-east-india-company-gets-diwani-rights-in-bengal",
+  "resourceIds": [
+    "diwani-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৭৬৫ সালে মুঘল সম্রাটের প্রদত্ত অনুদানে ইস্ট ইন্ডিয়া কোম্পানি কী পায়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "বাংলা, বিহার ও উড়িষ্যায় রাজস্ব আদায়ের অধিকার"
+    },
+    {
+      "id": "b",
+      "text": "বাংলাকে স্বাধীন রাষ্ট্র হিসেবে শাসনের অধিকার"
+    },
+    {
+      "id": "c",
+      "text": "বাংলার সমস্ত জমির মালিকানা"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৭৬৫ সালের আগস্টে সম্রাট দ্বিতীয় শাহ আলম কোম্পানিকে বাংলা, বিহার ও উড়িষ্যার দেওয়ান নিযুক্ত করেন, ফলে তারা রাজস্ব আদায়ের অধিকার পায়। নবাবি পদগুলো আনুষ্ঠানিকভাবে বহাল ছিল, যদিও বাস্তবে কোম্পানিই সেগুলো চালাত।"
+}

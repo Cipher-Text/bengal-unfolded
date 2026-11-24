@@ -1,0 +1,31 @@
+{
+  "id": "col-009",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1857-sipahi-revolt",
+  "resourceIds": [
+    "indian-rebellion-1857-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "১৮৫৭ সালের ১০ মে সিপাহী বিদ্রোহ কোথায় শুরু হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "মিরাট"
+    },
+    {
+      "id": "b",
+      "text": "ব্যারাকপুর"
+    },
+    {
+      "id": "c",
+      "text": "কলকাতা"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৮৫৭ সালের ১০ মে মিরাটে বিদ্রোহ শুরু হয় এবং দ্রুত উত্তর ভারতের সেনানিবাস ও রাজনৈতিক কেন্দ্রগুলোতে ছড়িয়ে পড়ে। মার্চ থেকেই, বাংলার ব্যারাকপুরসহ, অসন্তোষ বাড়ছিল।"
+}

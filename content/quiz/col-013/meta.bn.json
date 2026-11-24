@@ -1,0 +1,31 @@
+{
+  "id": "col-013",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1857-sipahi-revolt",
+  "resourceIds": [
+    "indian-rebellion-1857-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "১৮৫৭ সালের বিদ্রোহ দমনের পর শাসনব্যবস্থায় কী পরিবর্তন আসে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "মুঘল সম্রাট ভারতের শাসক হিসেবে পুনঃপ্রতিষ্ঠিত হন"
+    },
+    {
+      "id": "b",
+      "text": "ব্রিটিশ ক্রাউন ইস্ট ইন্ডিয়া কোম্পানির শাসনের স্থলাভিষিক্ত হয়"
+    },
+    {
+      "id": "c",
+      "text": "কোম্পানিকে আরও বিশ বছর শাসনের নতুন ক্ষমতা দেওয়া হয়"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "বিদ্রোহ দমনের পর ১৮৫৮ সালে ব্রিটিশ ক্রাউন ইস্ট ইন্ডিয়া কোম্পানির শাসনের স্থলাভিষিক্ত হয় এবং উপমহাদেশজুড়ে শাসন ও নিরাপত্তাব্যবস্থার পুনর্গঠন ঘটে।"
+}

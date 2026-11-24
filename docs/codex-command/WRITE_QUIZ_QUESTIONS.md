@@ -62,7 +62,12 @@ Rules for every question:
 22. Do not give the answer away in the question: the correct option must not repeat the distinctive name or phrase that the question already states (for example a question about the battle of X must not have the answer X region).
 23. Options must not overlap or restate each other (do not list a thing and a broader phrase that includes it as separate answers), and in multi_select every wrong option must be clearly wrong from the source, not merely missing from a list.
 24. Do not write two questions that test the same fact, in this batch or against the existing questions listed in the batch note.
-25. English and Bengali shared fields (status, type, topicSlug, difficulty, eventSlug, resourceIds, shuffleOptions, correctOptionIds) must be identical in both files.
+25. Ask documented facts, not framings. Do not write questions about what a chapter describes as, shows, symbolizes, bridges or marks. Ask who, what, when, where, which law or treaty, or what happened next. A judgement may appear only when the chapter attributes it to a named group or historian, and then the question must say whose judgement it is.
+26. Use an exact date, number or tally only when the chapter states it and it is widely agreed. If the chapter or its resources note that accounts differ, ask about the month or year instead, or skip the point.
+27. Do not use directional, military or geographic labels (front, axis, route, sector, northern, southwest) unless the chapter itself uses that label for that place.
+28. Prefer facts that a reader can confirm on Banglapedia or Wikipedia. In your report, name for each question the Banglapedia or Wikipedia page where the claim should be confirmable. You cannot browse, so say expected, not confirmed. A later check will open the pages.
+29. In multi_select, keep each option a single clear claim and make every wrong option contradict a stated fact.
+30. English and Bengali shared fields (status, type, topicSlug, difficulty, eventSlug, resourceIds, shuffleOptions, correctOptionIds) must be identical in both files.
 
 Validation: run pnpm content:validate and fix every error. Warnings about pool size (fewer than 40) and missing difficulty levels are expected for a small batch; do not try to silence them.
 

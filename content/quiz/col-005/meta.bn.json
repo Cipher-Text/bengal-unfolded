@@ -1,0 +1,27 @@
+{
+  "id": "col-005",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1764-battle-of-buxar",
+  "resourceIds": [
+    "diwani-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "নিচের কোনটি আগে ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "মুঘল সম্রাট কোম্পানিকে বাংলা, বিহার ও উড়িষ্যার দেওয়ানি প্রদান করেন (আগস্ট ১৭৬৫)"
+    },
+    {
+      "id": "b",
+      "text": "বক্সারের যুদ্ধ (অক্টোবর ১৭৬৪)"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "বক্সারের যুদ্ধ হয় ১৭৬৪ সালের অক্টোবরে। এর পর ১৭৬৫ সালের আগস্টে (বাংলাপিডিয়ায় ১২ আগস্ট, কিছু সূত্রে ১৬ আগস্ট) দেওয়ানি প্রদান করা হয়, যা সামরিক সুবিধাকে আনুষ্ঠানিক রাজস্ব-অধিকারে রূপ দেয়।"
+}

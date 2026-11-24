@@ -1,0 +1,31 @@
+{
+  "id": "col-004",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "easy",
+  "eventSlug": "1764-battle-of-buxar",
+  "resourceIds": [
+    "battle-of-buxar-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "১৭৬৪ সালে বক্সারে ইস্ট ইন্ডিয়া কোম্পানি যে মিত্রবাহিনীকে পরাজিত করে, তার অংশ ছিলেন কারা?",
+  "options": [
+    {
+      "id": "a",
+      "text": "মীর কাসিম, শুজাউদ্দৌলা ও শাহ আলম দ্বিতীয়"
+    },
+    {
+      "id": "b",
+      "text": "সিরাজউদ্দৌলা, মীর জাফর ও রবার্ট ক্লাইভ"
+    },
+    {
+      "id": "c",
+      "text": "মুর্শিদ কুলি খান, আলিবর্দি খান ও মীর জাফর"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৭৬৪ সালের অক্টোবরে কোম্পানি যে মিত্রবাহিনীকে পরাজিত করে, তাতে ছিলেন মীর কাসিম, শুজাউদ্দৌলা ও শাহ আলম দ্বিতীয়।"
+}

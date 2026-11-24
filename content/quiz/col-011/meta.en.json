@@ -1,0 +1,31 @@
+{
+  "id": "col-011",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "colonial-conquest-revenue-and-resistance",
+  "difficulty": "medium",
+  "eventSlug": "1793-permanent-settlement-in-bengal",
+  "resourceIds": [
+    "permanent-settlement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "How did the Permanent Settlement affect the position of raiyats compared with zamindars?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They received the same hereditary proprietor status"
+    },
+    {
+      "id": "b",
+      "text": "They received no equivalent security, while landlords gained power over rent and eviction"
+    },
+    {
+      "id": "c",
+      "text": "They gained the power to set rents and evict landlords"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "Raiyats did not receive security equivalent to that of zamindars, while landlord power over rent and eviction increased."
+}
