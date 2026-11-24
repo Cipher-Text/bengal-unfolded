@@ -12,6 +12,12 @@
   - Docs: `docs/CONTENT_MODEL.md` (quiz schema and file contracts), `docs/AI_CONTRACT.md` (quiz contract rule).
   - Risk and known gaps: no loader or runtime in `src/lib/content.ts`; no Codex brief yet; Bengali tier names and disclaimer need native review; `docs/ROADMAP.md` RM-009 still says a static quiz without score storage is deferred to B3, which conflicts with the decision to ship a frontend-only quiz first, so the roadmap needs a Claude decision.
 
+- Quiz entry point on the home page.
+  - UI: `QuizHomeBanner` (`src/components/home/QuizHomeBanner.tsx`) between the timeline preview and "People in the record", using the quiz hook line from `content/site/quiz.<locale>.json`, the published question count and a "Play the quiz" link to `/[locale]/quiz`. Shown only when the site copy exists and at least one question is published, so while all questions are `draft` the home page is unchanged.
+  - Model, validation, loader: none new (uses `getQuizSiteContent` and `getQuizTopicSummaries`).
+  - Tested locally with the 12 pilot drafts temporarily published (EN and BN banner present, placement and link checked); reverted afterwards.
+  - Known gaps: the hook line says "Ten questions" even if a pool had fewer than ten; no Playwright test yet.
+
 - Quiz entry point on topic pages.
   - UI: topic detail pages (`/[locale]/topics/[slug]`) show the existing `QuizTestYourself` card, linking to `/[locale]/quiz/play?topic=<slug>`, just before "More Topics". Shown only when that topic has published questions (`getQuizTopicSummaries`), so there are no dead links; while all questions are `draft`, no topic page shows it.
   - Model, validation, loader: none new.

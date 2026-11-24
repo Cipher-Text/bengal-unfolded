@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { HeroSection } from "@/components/HeroSection";
 import Link from "next/link";
 import { Contribute, EditorialMethod, EraStrip, ExplorePaths, PeopleAndPlaces, TimelinePreview, homeCopy } from "@/components/home/HomeDiscovery";
-import { getAllEvents, getAllFiguresChronological, getAllPeriods, getAllPlaces, getAllResources, getAllTopics, getHomeContent } from "@/lib/content";
+import { getAllEvents, getAllFiguresChronological, getAllPeriods, getAllPlaces, getAllResources, getAllTopics, getHomeContent, getQuizSiteContent, getQuizTopicSummaries } from "@/lib/content";
+import { QuizHomeBanner } from "@/components/home/QuizHomeBanner";
 import { hasRealPortrait } from "@/lib/portraits";
 import { buildPageMetadata } from "@/lib/seo";
 import { SUPPORTED_LOCALES, type Locale } from "@/types/content";
@@ -32,7 +33,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function LocaleHomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!SUPPORTED_LOCALES.includes(locale as Locale)) notFound();
-  const [home, events, figures, periods, places, resources, topics] = await Promise.all([getHomeContent(locale), getAllEvents(locale), getAllFiguresChronological(locale), getAllPeriods(locale), getAllPlaces(locale), getAllResources(locale), getAllTopics(locale)]);
+  const [home, events, figures, periods, places, resources, topics, quizSite, quizTopics] = await Promise.all([getHomeContent(locale), getAllEvents(locale), getAllFiguresChronological(locale), getAllPeriods(locale), getAllPlaces(locale), getAllResources(locale), getAllTopics(locale), getQuizSiteContent(locale), getQuizTopicSummaries(locale)]);
+  // Offer the quiz only when questions are published, so the link never leads to an empty quiz.
+  const quizQuestionCount = quizTopics.reduce((sum, topic) => sum + topic.count, 0);
   const featured = events.find((event) => event.slug === "1971-liberation-war") ?? events[0];
   const milestones = MILESTONE_SLUGS.map((slug) => events.find((event) => event.slug === slug)).filter((event): event is (typeof events)[number] => Boolean(event));
   const people = figures.filter((figure) => hasRealPortrait(figure.image) && !["organization", "collective"].includes(figure.group));
@@ -53,6 +56,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
     <EraStrip locale={locale as Locale} periods={periods} events={events} stats={[events.length, figures.length, periods.length, resources.length]} />
     <ExplorePaths locale={locale as Locale} topics={topics} />
     <TimelinePreview locale={locale as Locale} events={milestones} />
+    {quizSite && quizQuestionCount > 0 ? <QuizHomeBanner locale={locale as Locale} hook={quizSite.hook} questionCount={quizQuestionCount} /> : null}
     {people.length || places.length ? <PeopleAndPlaces locale={locale as Locale} figures={people} places={places} /> : null}
     <EditorialMethod locale={locale as Locale} />
     <Contribute locale={locale as Locale} heading={home.whyJourneyMattersHeading} body={home.whyJourneyMattersBody} />
