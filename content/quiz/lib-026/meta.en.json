@@ -9,23 +9,23 @@
     "battle-of-belonia-reference"
   ],
   "shuffleOptions": true,
-  "question": "What did the Battle of Belonia show about how the war was fought in the southeast?",
+  "question": "What was distinctive about the geography of the Belonia battle area?",
   "options": [
     {
       "id": "a",
-      "text": "Border geography around a salient near the Tripura frontier was used to pressure Pakistani positions"
+      "text": "It was a bulge: an enclave surrounded on three sides by Indian territory"
     },
     {
       "id": "b",
-      "text": "It was decided by naval commando strikes at river ports"
+      "text": "It was an island in the Meghna river"
     },
     {
       "id": "c",
-      "text": "No pressure was put on Pakistani positions near the border"
+      "text": "It was a mountain pass in the Chittagong Hill Tracts"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "At Belonia, Mukti Bahini and Indian forces used the border salient near Tripura to open routes and weaken Pakistani control in the southeast before the final campaign."
+  "explanation": "The Belonia Bulge was an enclave of Bangladeshi territory surrounded on three sides by Indian territory. Mukti Bahini, with Indian army support, fought there from June to December 1971."
 }

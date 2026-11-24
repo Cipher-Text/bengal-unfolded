@@ -10,11 +10,11 @@
     "the-blood-telegram"
   ],
   "shuffleOptions": true,
-  "question": "How did the 16-24 March 1971 talks between Yahya Khan and Sheikh Mujibur Rahman end?",
+  "question": "How did the March 1971 talks between Yahya Khan and Sheikh Mujibur Rahman end?",
   "options": [
     {
       "id": "a",
-      "text": "With an agreed transfer of power"
+      "text": "With a signed agreement"
     },
     {
       "id": "b",
@@ -28,5 +28,5 @@
   "correctOptionIds": [
     "b"
   ],
-  "explanation": "The talks continued in Dhaka for more than a week but produced no political settlement. The Pakistan Army began its crackdown the night after they ended."
+  "explanation": "The talks ran in Dhaka from mid-March but ended without a signed agreement, and the army launched its crackdown on the night of 25 March."
 }

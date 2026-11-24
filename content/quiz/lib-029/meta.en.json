@@ -3,30 +3,30 @@
   "status": "draft",
   "type": "single_choice",
   "topicSlug": "liberation-war-1971",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "eventSlug": "1971-liberation-war",
   "resourceIds": [
     "hangor-nodi-grenade",
     "the-rape-of-bangladesh"
   ],
   "shuffleOptions": true,
-  "question": "What did dock workers at Chittagong port do on 9 March 1971, in an early sign of organized civilian resistance?",
+  "question": "What did dock workers at Chittagong refuse to unload in March 1971, in an early act of organized civilian resistance?",
   "options": [
     {
       "id": "a",
-      "text": "They refused to unload military cargo"
+      "text": "Military cargo, including arms, from the ship MV Swat"
     },
     {
       "id": "b",
-      "text": "They unloaded military cargo at night to avoid notice"
+      "text": "Relief rice for flood victims"
     },
     {
       "id": "c",
-      "text": "They went on strike for higher wages"
+      "text": "Textile exports bound for West Pakistan"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "By refusing to unload military cargo, the port workers made civilian resistance visible just two days after the 7 March speech."
+  "explanation": "Port workers refused to unload arms from the MV Swat at Chittagong in March 1971, an early act of organized civilian resistance. Sources differ on the exact day."
 }

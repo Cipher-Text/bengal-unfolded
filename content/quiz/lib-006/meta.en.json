@@ -3,25 +3,25 @@
   "status": "draft",
   "type": "multi_select",
   "topicSlug": "liberation-war-1971",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "eventSlug": "1971-operation-searchlight-crackdown",
   "resourceIds": [
     "operation-searchlight-banglapedia"
   ],
   "shuffleOptions": true,
-  "question": "Select all that apply: Which of these are linked to the impact of Operation Searchlight on the 1971 conflict?",
+  "question": "Select all that apply: Which of these followed Operation Searchlight?",
   "options": [
     {
       "id": "a",
-      "text": "The collapse of negotiated constitutional politics"
+      "text": "Armed resistance began, starting that night"
     },
     {
       "id": "b",
-      "text": "Faster armed resistance"
+      "text": "Sheikh Mujibur Rahman was arrested"
     },
     {
       "id": "c",
-      "text": "Mass displacement"
+      "text": "Millions of civilians fled to India"
     },
     {
       "id": "d",
@@ -37,5 +37,5 @@
     "b",
     "c"
   ],
-  "explanation": "The 25 March crackdown ended hopes of a negotiated settlement and accelerated armed resistance and mass displacement. Pakistani forces surrendered only on 16 December, and the earlier talks had ended without a settlement."
+  "explanation": "After the 25 March crackdown, resistance began that night, Mujib was arrested, and millions of people fled to India in the months that followed. Pakistani forces surrendered only on 16 December."
 }

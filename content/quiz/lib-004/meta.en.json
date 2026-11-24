@@ -9,23 +9,23 @@
     "history-banglapedia"
   ],
   "shuffleOptions": true,
-  "question": "What did the formation of the provisional Mujibnagar Government in April 1971 change?",
+  "question": "What did the formation of the provisional Mujibnagar Government in April 1971 give the independence movement?",
   "options": [
     {
       "id": "a",
-      "text": "It turned scattered rebellion into a recognized political-state project"
+      "text": "A political leadership for the independence struggle"
     },
     {
       "id": "b",
-      "text": "It replaced guerrilla fighting with a conventional war"
+      "text": "A switch from guerrilla fighting to conventional war"
     },
     {
       "id": "c",
-      "text": "It secured the release of Sheikh Mujibur Rahman"
+      "text": "The release of Sheikh Mujibur Rahman"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "The government gave the movement constitutional and diplomatic structure for wartime statehood. Guerrilla fighting under sector commands continued from April to November, and Mujib returned only in January 1972."
+  "explanation": "The Mujibnagar Government, formed in April 1971, became the provisional government leading the independence struggle. Mujib, arrested in March, returned only in January 1972."
 }

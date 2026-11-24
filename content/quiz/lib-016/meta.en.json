@@ -13,19 +13,19 @@
   "options": [
     {
       "id": "a",
-      "text": "It was fought before the formal war began, while conventional pressure on the Jessore sector was already rising"
+      "text": "It was fought weeks before the formal war began"
     },
     {
       "id": "b",
-      "text": "It was fought after the formal war began, as part of the joint forces' advance"
+      "text": "It was fought after the formal war began, as part of the final advance"
     },
     {
       "id": "c",
-      "text": "It had no connection to the war in the southwest"
+      "text": "It was fought on the same day the formal war began"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Garibpur came in November, before the formal war began on 3 December. It showed rising conventional pressure on the Jessore sector and bridged the guerrilla war and the December campaign."
+  "explanation": "Garibpur was fought in November, weeks before the formal war began on 3 December, with Indian forces already engaging Pakistani positions on the road to Jessore."
 }

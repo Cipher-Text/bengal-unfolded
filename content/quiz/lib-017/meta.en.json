@@ -9,23 +9,23 @@
     "battle-of-hilli-reference"
   ],
   "shuffleOptions": true,
-  "question": "On which front was the Battle of Hilli fought?",
+  "question": "In which part of Bangladesh was the Battle of Hilli fought?",
   "options": [
     {
       "id": "a",
-      "text": "The northern front"
+      "text": "The northwest"
     },
     {
       "id": "b",
-      "text": "The southwest front"
+      "text": "The southeast"
     },
     {
       "id": "c",
-      "text": "The southeastern front"
+      "text": "The southwest"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Hilli guarded a key route in the northwest and was one of the fiercest northern-front battles. It tied down Pakistani defenses."
+  "explanation": "The battle for Hilli, in northwestern Bangladesh, was fought in two phases (22-24 November and 10-11 December) as Indian forces tried to push toward Bogra."
 }

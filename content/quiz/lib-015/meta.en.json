@@ -9,23 +9,23 @@
     "battle-of-garibpur-reference"
   ],
   "shuffleOptions": true,
-  "question": "The Battle of Garibpur in November 1971 was fought on which front?",
+  "question": "Where was the Battle of Garibpur fought in November 1971?",
   "options": [
     {
       "id": "a",
-      "text": "The Jessore front in the southwest"
+      "text": "In the Boyra salient, on the road toward Jessore"
     },
     {
       "id": "b",
-      "text": "The Sylhet front in the northeast"
+      "text": "Near Sylhet, in the northeast"
     },
     {
       "id": "c",
-      "text": "The northern front"
+      "text": "Near Tangail, north of Dhaka"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Garibpur was fought on the Jessore front, shortly before the formal India-Pakistan war began on 3 December."
+  "explanation": "Garibpur was fought in November in the Boyra salient on the road to Jessore, weeks before the formal India-Pakistan war began on 3 December."
 }

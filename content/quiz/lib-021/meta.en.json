@@ -9,23 +9,23 @@
     "battle-of-sylhet-reference"
   ],
   "shuffleOptions": true,
-  "question": "Which kinds of pressure combined against Pakistani forces at Sylhet late in the war?",
+  "question": "What kind of landing did Indian troops make near Sylhet on 7 December 1971?",
   "options": [
     {
       "id": "a",
-      "text": "Airborne, ground and psychological pressure"
+      "text": "A heliborne landing"
     },
     {
       "id": "b",
-      "text": "Naval commando strikes on ports"
+      "text": "A parachute drop"
     },
     {
       "id": "c",
-      "text": "Repeated assaults on a single fortified border post"
+      "text": "A naval landing from the Bay of Bengal"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "In the northeast, airborne, ground and psychological pressure combined, helping isolate the Sylhet region before the surrender."
+  "explanation": "On 7 December Indian troops were landed by helicopter near Sylhet while ground forces advanced. Pakistani forces in Sylhet surrendered later in December."
 }

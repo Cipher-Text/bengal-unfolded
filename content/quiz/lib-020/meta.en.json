@@ -13,7 +13,7 @@
   "options": [
     {
       "id": "a",
-      "text": "It cut retreat and communication routes north of Dhaka"
+      "text": "It blocked the withdrawal of a Pakistani brigade toward Dhaka"
     },
     {
       "id": "b",
@@ -27,5 +27,5 @@
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "By cutting retreat and communication routes north of Dhaka, the airdrop accelerated the advance on the capital and the rapid collapse of Pakistani command."
+  "explanation": "The drop took the Poongli bridge and blocked the Pakistani 93rd Brigade's withdrawal toward Dhaka, clearing the way for the advance on the capital."
 }

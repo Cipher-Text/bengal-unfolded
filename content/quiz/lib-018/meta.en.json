@@ -3,7 +3,7 @@
   "status": "draft",
   "type": "multi_select",
   "topicSlug": "liberation-war-1971",
-  "difficulty": "hard",
+  "difficulty": "medium",
   "eventSlug": "1971-battle-of-hilli",
   "resourceIds": [
     "battle-of-hilli-reference"
@@ -13,15 +13,15 @@
   "options": [
     {
       "id": "a",
-      "text": "A prolonged and costly engagement"
+      "text": "Heavy losses in the first battle"
     },
     {
       "id": "b",
-      "text": "Fought on the northern front"
+      "text": "Fought in two phases, in November and December"
     },
     {
       "id": "c",
-      "text": "Guarded a key route in the northwest"
+      "text": "An attempt to push toward Bogra"
     },
     {
       "id": "d",
@@ -29,7 +29,7 @@
     },
     {
       "id": "e",
-      "text": "Fought on the southwest front"
+      "text": "Decided within a single day"
     }
   ],
   "correctOptionIds": [
@@ -37,5 +37,5 @@
     "b",
     "c"
   ],
-  "explanation": "Hilli was a prolonged, costly fight on the northern front over a key northwestern route. Repeated attacks and heavy casualties tied down Pakistani defenses."
+  "explanation": "Hilli was fought in two phases, 22-24 November and 10-11 December, as forces tried to push toward Bogra. The first battle brought heavy losses."
 }

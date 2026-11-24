@@ -9,23 +9,23 @@
     "battle-of-kushtia-reference"
   ],
   "shuffleOptions": true,
-  "question": "What does the early fighting at Kushtia show about how the 1971 resistance began?",
+  "question": "Who took part in the assault to retake Kushtia that began on 31 March 1971?",
   "options": [
     {
       "id": "a",
-      "text": "It began locally, with Bengali forces and civilians, before sector-based command took shape"
+      "text": "Bengali police and EPR troops, joined by students and peasants"
     },
     {
       "id": "b",
-      "text": "It began as a coordinated naval campaign against ports"
+      "text": "Indian paratroopers"
     },
     {
       "id": "c",
-      "text": "It began only after the Mujibnagar Government took its oath"
+      "text": "Naval commandos from the river ports"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Kushtia saw armed resistance on 31 March, within a week of Operation Searchlight and before the 17 April Mujibnagar oath and the sector organization that followed."
+  "explanation": "After the Pakistani army took control of Kushtia following Operation Searchlight, Bengali police, EPR troops, students and peasants began an assault to retake it on 31 March."
 }

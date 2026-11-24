@@ -13,7 +13,7 @@
   "options": [
     {
       "id": "a",
-      "text": "Routes toward Khulna and other interior points"
+      "text": "The road toward Khulna"
     },
     {
       "id": "b",
@@ -27,5 +27,5 @@
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Jessore was a major western gateway. Its fall weakened Pakistani control in the southwest and quickened the movement toward Khulna."
+  "explanation": "Jessore fell in early December (6-7 December, depending on the source). Allied forces then advanced toward Khulna, where Pakistani forces held out until 17 December."
 }

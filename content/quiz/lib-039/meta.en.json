@@ -10,11 +10,11 @@
     "shahbag-uprising-war-crimes-forgiveness"
   ],
   "shuffleOptions": true,
-  "question": "What did the Shahbag movement call for after the Quader Mollah verdict of 5 February 2013?",
+  "question": "What did protesters at Shahbag demand after the Quader Mollah verdict of 5 February 2013?",
   "options": [
     {
       "id": "a",
-      "text": "Stronger accountability"
+      "text": "The death penalty for Mollah and others convicted of war crimes"
     },
     {
       "id": "b",
@@ -28,5 +28,5 @@
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Many activists read the verdict as too lenient, and their reaction developed into the Shahbag movement's demand for stronger accountability."
+  "explanation": "Mollah was sentenced to life imprisonment on 5 February 2013. Protesters at Shahbag demanded the death penalty for him and others convicted of war crimes. The demand was politically contested."
 }

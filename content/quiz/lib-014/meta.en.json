@@ -9,23 +9,23 @@
     "battle-of-kamalpur-reference"
   ],
   "shuffleOptions": true,
-  "question": "What does the Battle of Kamalpur help show about the 1971 war?",
+  "question": "How did the long fight for the Kamalpur camp end?",
   "options": [
     {
       "id": "a",
-      "text": "It was fought as a sequence of sector-level battles, not only national milestones"
+      "text": "The camp fell on 4 December 1971, after repeated Mukti Bahini attacks and later Indian involvement"
     },
     {
       "id": "b",
-      "text": "It was decided by a single battle at Dhaka"
+      "text": "The Pakistani garrison abandoned it unchallenged in March 1971"
     },
     {
       "id": "c",
-      "text": "It was fought entirely by conventional armies, with no guerrilla pressure"
+      "text": "It held out until the Pakistani surrender on 16 December"
     }
   ],
   "correctOptionIds": [
     "a"
   ],
-  "explanation": "Kamalpur's repeated assaults show a war built from many sector-level battles. The fighting is also linked to the shift from guerrilla pressure to larger operations."
+  "explanation": "Kamalpur, a fortified Pakistan Army camp near the border, was attacked repeatedly from mid-1971 by Mukti Bahini forces, with Indian brigades joining in late November. It fell on 4 December."
 }
