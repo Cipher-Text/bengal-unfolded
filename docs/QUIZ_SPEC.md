@@ -1,7 +1,6 @@
-# Quiz Feature: Screen-by-Screen Spec (Draft v0.1)
+# Quiz Feature: Screen-by-Screen Spec (v1.0, implemented)
 
-Status: product/UX draft. No schema, validation or code changes are implied yet.
-Before any build, the question schema must be added to `src/types/content.ts`, `scripts/validate-content.mjs`, `CONTENT_MODEL.md`, `AI_CONTRACT.md` and `CHANGELOG.md` (see `AGENTS.md`).
+Status: implemented. This spec describes the shipped behaviour; places where the build differs from the first draft are marked inline. The schema is in `docs/CONTENT_MODEL.md` (Quiz schema), the rationale in `docs/QUIZ_SCHEMA_DRAFT.md`, and the release steps in `docs/quiz-review/RELEASE.md`. Every question stays `status: draft` (hidden) until the Bengali is reviewed and the question is published with `pnpm quiz:publish`.
 
 ## 1. Principles
 
@@ -175,3 +174,12 @@ Editorial rules (see `EDITORIAL_GUIDELINES.md`): neutral tone, sensitive-history
 4. **Pilot topics** (existing topic hubs with many events): `liberation-war-1971` (22 events), `colonial-conquest-revenue-and-resistance` (18), `partition-and-identity` (11), `pakistan-period-state-and-national-awakening` (12; includes the language movement era). "Surprise me" draws across these four. Before drafting questions, confirm every source chapter has `stub` unset; skip stub chapters. Later topics are added once their pools reach 40 questions.
 5. **Share card renderer:** client-side canvas. Reason: the site is a static export, so a prebuilt `/og` route cannot receive the typed name; the card must be drawn in the browser for the live preview. Gate: load the Bengali font with `document.fonts.load()` before drawing, and pass a real-device test (Android Chrome, iOS Safari) for conjunct letters before release. If shaping fails, fall back to rendering the card as an inline SVG and rasterising it.
 6. **Raw score on the card:** yes, small and secondary ("7 of 10"). The tier title is the headline, because random draws are not comparable between people.
+
+## 10. Implemented beyond the first draft
+
+- **Entry points** (all hidden until questions are published): "Quiz" in the header and mobile menu; a banner on the home page (`QuizHomeBanner`); a "Test yourself" card on topic pages and at the end of finished event chapters (`QuizTestYourself`); a resume card on the landing page.
+- **Pool today** (draft, source-checked): 40 Liberation War, 14 Colonial Bengal, 14 Pakistan period. The landing page lists only topics with published questions; "all" mixes them.
+- **Release tooling:** `pnpm quiz:apply-review` applies a reviewer's corrections from the review CSV; `pnpm quiz:publish` flips status and refuses without `--bengali-reviewed` or for questions not marked ready in `docs/quiz-review/source-check*.md`.
+- **Tests:** `tests/browser/quiz.spec.ts` covers the flow with mocked data (landing, noindex, answer and feedback, skip, result, share card name and download, resume, empty and error states, Bengali labels).
+- **Not built:** accounts, score history and sync (backlog B3, RB-LEARN-005/006); drag-to-reorder chronology.
+

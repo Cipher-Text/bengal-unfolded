@@ -770,7 +770,7 @@ Source quality classification is governed by `docs/EDITORIAL_GUIDELINES.md` (Sou
 
 ## Quiz schema
 
-Model only; the quiz UI is not built yet. Product behaviour is in `docs/QUIZ_SPEC.md`; the design rationale is in `docs/QUIZ_SCHEMA_DRAFT.md`.
+The quiz is built (pages, loader, share card, tests). Product behaviour is in `docs/QUIZ_SPEC.md`, the design rationale in `docs/QUIZ_SCHEMA_DRAFT.md`, and the release steps in `docs/quiz-review/RELEASE.md`. Only `published` questions are served; `draft` questions are kept in the repo but never loaded by the site. Status is changed only with `pnpm quiz:publish` after the Bengali review, and each question must be listed as ready in `docs/quiz-review/source-check*.md`.
 
 - `QuizQuestion` (`content/quiz/<question-id>/meta.<locale>.json`, filesystem-discovered, no `SUPPORTED_*` constant):
   - `id` (required): kebab-case, equals the folder name

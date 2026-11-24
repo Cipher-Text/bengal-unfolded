@@ -1,6 +1,6 @@
 # Quiz release runbook
 
-Steps to take the quiz from draft to live once the Bengali review is back. Every question is `status: draft` until step 4, and the quiz and all its entry points (menu stays, but home banner, topic cards and event cards) stay hidden until questions are `published`.
+Steps to take the quiz from draft to live once the Bengali review is back. Every question is `status: draft` until step 4. Until then the quiz pages are empty and the home banner, topic cards and event cards stay hidden (only the "Quiz" menu link shows).
 
 ## Before: what must be true
 

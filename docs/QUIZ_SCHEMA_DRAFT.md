@@ -1,6 +1,6 @@
-# Quiz Schema (Draft v0.1)
+# Quiz Schema Rationale
 
-Status: **schema implemented** (types, validator, `CONTENT_MODEL.md`, `AI_CONTRACT.md`, `CHANGELOG.md`). The loader, UI, site copy and questions are not built. The canonical definition is now `docs/CONTENT_MODEL.md` (Quiz schema); this file keeps the design rationale.
+Status: **implemented** (types, validator, loader, pages, site copy, share card, tests and release scripts; see `docs/QUIZ_SPEC.md` and `docs/quiz-review/RELEASE.md`). The canonical definition is `docs/CONTENT_MODEL.md` (Quiz schema); this file keeps the design rationale.
 Companion to `docs/QUIZ_SPEC.md`. Follows the change protocol in `docs/AI_CONTRACT.md`.
 
 ## 1. Design choices

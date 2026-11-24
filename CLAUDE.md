@@ -13,14 +13,16 @@ pnpm start     # serve production build
 pnpm lint      # ESLint
 pnpm content:validate  # content schema checks (run before finalizing content changes)
 pnpm static:verify     # verify the static export in out/
-pnpm test:e2e          # Playwright browser tests (tests/browser/core.spec.ts)
+pnpm test:e2e          # Playwright browser tests (tests/browser/core.spec.ts, quiz.spec.ts)
+pnpm quiz:apply-review <csv> [--write]   # apply a reviewer's Bengali corrections to the quiz (dry run by default)
+pnpm quiz:publish --topic <slug> --bengali-reviewed   # set quiz questions draft/published (see docs/quiz-review/RELEASE.md)
 ```
 
 There is no unit test suite; coverage is the Playwright browser suite. Container publishing is described in `docs/CONTAINER_DEPLOYMENT.md`.
 
 ## Architecture
 
-**Bengal Unfolded** is a bilingual (English/Bengali) historical storytelling site about key events in Bengal's history (1947–2024). It uses Next.js App Router with a file-based JSON content layer — no database, no CMS, no i18n library.
+**Bengal Unfolded** is a bilingual (English/Bengali) historical storytelling site about key events in Bengal's history, from the ancient delta polities to 2024. It uses Next.js App Router with a file-based JSON content layer — no database, no CMS, no i18n library.
 
 ### Routing
 
@@ -46,7 +48,7 @@ Event pages nest under `/[locale]/events/[slug]/` with sub-routes for `/figures/
 
 **Entity discovery:**
 - Events, figures, periods, movements, places: hardcoded in `SUPPORTED_*` constants in `src/types/content.ts`
-- Topics, glossary terms: discovered from filesystem via `fs.readdir()`
+- Topics, glossary terms, quiz questions: discovered from filesystem via `fs.readdir()` (only `status: published` quiz questions are served)
 - Source Directory entries: internally represented as `Creator` records derived from resource attributions (no separate content directory)
 
 ### Data layer (`src/lib/content.ts`)
@@ -64,7 +66,8 @@ content/
   places/<id>/      meta (geographic locations)
   topics/<slug>/    meta (topic hubs with learning paths)
   glossary/<term>/  meta (terminology definitions)
-  site/             home copy
+  quiz/<id>/        meta (quiz questions, status draft or published; ids like lib-001, col-001, pak-001)
+  site/             home copy, quiz copy (quiz.<locale>.json)
 ```
 
 **Key patterns:**
@@ -107,6 +110,7 @@ Default to Server Components. Client Components are limited to interactive piece
 - `FigureDirectoryInteractive`, `ResourceDirectoryInteractive`, `CreatorsDirectoryInteractive` — live search and chip filters with "Show more"
 - `QueryPathMode` — `/paths` filter; `CompareEventsInteractive` — `/compare` pair selection, swap and aligned comparison
 - `MobileNav`, `ThemeToggle`, `ContentDensityControls`, `ShareActions`, `HeaderScroll`
+- Quiz: `QuizPlayInteractive` (`/quiz/play`: draw, answer, feedback, result; progress in `localStorage`), `QuizShareCard` (name field and canvas share card), `QuizResumeCard`. `QuizTestYourself` (event and topic pages) and `QuizHomeBanner` (home) are Server Components shown only when questions are published.
 
 Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS animations and Next.js Link respectively. Directory pages compute their list data on the server and pass a minimal serialisable shape to the client component.
 
@@ -118,6 +122,7 @@ Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS
 - `places.ts` — place groups, type labels, `isTemplatePlaceDescription()`.
 - `portraits.ts` — `hasRealPortrait()`: most `figures/*.webp` are small "image not available" cards, so UI lists show a portrait only above 40KB (server-side `statSync`).
 - `resource-labels.ts` — category, source-quality and evidence labels shared by the resource pages.
+- `quiz.ts` — pure quiz logic: balanced random draw that avoids recent questions, scoring with partial credit, tier lookup, `localStorage` handling. `quiz-card.ts` — name cleaning and canvas drawing of the share card (browser only).
 - Placeholder chapters carry `stub: true`; UI must not show citations, evidence badges or a timeline for them.
 
 ### Path aliases
@@ -136,6 +141,8 @@ Note: `AnimatedContainer` and `LanguageSwitcher` are Server Components using CSS
 
 **New glossary terms:** add a folder under `content/glossary/<term-id>/` with `meta.en.json` and `meta.bn.json`. Glossary terms are filesystem-discovered — no constant registration needed.
 
+**New quiz questions:** add folders under `content/quiz/<prefix>-NNN/` with `meta.en.json` and `meta.bn.json`, always `status: draft`. Draft with Codex using `docs/codex-command/WRITE_QUIZ_QUESTIONS.md`, review and rewrite, check every claim against open sources, record it in a `docs/quiz-review/source-check*.md` table, and have a fluent reader review the Bengali before publishing with `pnpm quiz:publish`. Never set `status: published` by hand; see `docs/quiz-review/RELEASE.md` and the quiz rules in `docs/AI_CONTRACT.md`.
+
 **New periods, movements, or places:** add ID to the corresponding `SUPPORTED_*` constant in `src/types/content.ts`, then add content folder and files.
 
 ## Documentation
@@ -146,3 +153,4 @@ For deeper context:
 - `docs/AI_CONTRACT.md` — Schema change protocol and content consistency rules
 - `docs/CHANGELOG.md` — Version history
 - `docs/ROADMAP.md` — Future plans
+- `docs/QUIZ_SPEC.md` — quiz product and UX spec; `docs/QUIZ_SCHEMA_DRAFT.md` — schema rationale; `docs/quiz-review/` — Bengali review pack, source-check tables and the release runbook

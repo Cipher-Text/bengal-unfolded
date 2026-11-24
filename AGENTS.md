@@ -33,6 +33,7 @@ Hard requirements:
 - Codex must not, without a Claude decision:
   - change the schema (`src/types/content.ts`, `scripts/validate-content.mjs`) or the rules in `docs/`;
   - add events, figures or resources, or change scope beyond the brief;
+  - set a quiz question's `status` to `published` (only `pnpm quiz:publish` does, after the Bengali review);
   - commit or push.
 - Codex reports back what it changed; Claude reviews the diff and runs `pnpm content:validate`, `pnpm lint` and `npx tsc --noEmit` before anything is committed.
 - Task prompts for Codex live in `docs/codex-command/`.

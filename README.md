@@ -18,6 +18,12 @@ Bengal Unfolded is a digital project that presents the history of Bengal and Ban
 - [Changelog](docs/CHANGELOG.md)
 - [Roadmap](docs/ROADMAP.md)
 
+### Quiz
+- [Quiz Spec](docs/QUIZ_SPEC.md)
+- [Quiz Schema Rationale](docs/QUIZ_SCHEMA_DRAFT.md)
+- [Quiz Release Runbook](docs/quiz-review/RELEASE.md)
+- [Bengali Review Pack](docs/quiz-review/README.md)
+
 ### Editorial & Quality Guidelines
 - [AI Integration Contract](docs/AI_CONTRACT.md)
 - [Editorial Guidelines](docs/EDITORIAL_GUIDELINES.md)
