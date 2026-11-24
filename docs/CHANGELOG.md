@@ -12,6 +12,11 @@
   - Docs: `docs/CONTENT_MODEL.md` (quiz schema and file contracts), `docs/AI_CONTRACT.md` (quiz contract rule).
   - Risk and known gaps: no loader or runtime in `src/lib/content.ts`; no Codex brief yet; Bengali tier names and disclaimer need native review; `docs/ROADMAP.md` RM-009 still says a static quiz without score storage is deferred to B3, which conflicts with the decision to ship a frontend-only quiz first, so the roadmap needs a Claude decision.
 
+- Quiz browser tests (tests only; no model, validation or UI changes).
+  - Added `tests/browser/quiz.spec.ts` (7 tests, run on desktop and mobile Chromium). The quiz data request (`/{locale}/quiz-data/*`) is mocked, so the tests do not depend on which questions are published. Covered: landing page (heading, canonical, indexable); play page `noindex`; full flow in English (Check disabled until a choice, locked answers, correct and missed tags, explanations and story links, skip, result score 1.5 of 3, skipped count, disclaimer, stories to read next, Play again); share card (name cleaning, hide toggle, story and feed canvas sizes, PNG download filename, name kept in `localStorage`); resume only with `?resume=1`; empty state and load-error recovery; Bengali labels and numerals.
+  - Result: `pnpm test:e2e` passes in full (62 tests including the existing suite).
+  - Known gaps: the tests do not read the real published questions or check the home, topic and event entry points, which stay hidden while questions are `draft`; the share card's visual output and Bengali shaping are checked manually, not by pixel tests; no real-device run.
+
 - Quiz entry point on the home page.
   - UI: `QuizHomeBanner` (`src/components/home/QuizHomeBanner.tsx`) between the timeline preview and "People in the record", using the quiz hook line from `content/site/quiz.<locale>.json`, the published question count and a "Play the quiz" link to `/[locale]/quiz`. Shown only when the site copy exists and at least one question is published, so while all questions are `draft` the home page is unchanged.
   - Model, validation, loader: none new (uses `getQuizSiteContent` and `getQuizTopicSummaries`).
