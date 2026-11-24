@@ -332,7 +332,7 @@ This phase should make Bengal Unfolded feel like a structured learning platform,
 
 - [x] RM-007 Compare events view (`/{locale}/compare`)
 - [x] RM-008 Learning paths (`beginner`, `student`, `researcher`, `exam-prep`)
-- [ ] RM-009 Knowledge checks — deferred to B3 (RB-LEARN-005); in v2 use Typeform/Google Form placeholder for "Test your understanding" prompts; static quiz without score storage creates dead-end implementation
+- [ ] RM-009 Knowledge checks: frontend-only quiz (decision revised 2026-11-24; earlier note deferred it to B3 because a static quiz without score storage looked like a dead end). Built as a fun, inspiring set of 10 random questions per attempt with a playful tier result, a share card and a clear disclaimer; progress and name stay in `localStorage` by design (see `docs/QUIZ_SPEC.md`, `docs/QUIZ_SCHEMA_DRAFT.md`). Code, validation, entry points (menu, home, topic and event pages) and Playwright tests are done. Stays unchecked until the pilot topic has at least 40 reviewed, published questions with Bengali reviewed by a fluent reader; entry points stay hidden until questions are published. Accounts, score history and cross-device sync remain in B3 (RB-LEARN-005, RB-LEARN-006)
 - [x] RM-010 Content density controls (`quick read` vs `deep read`)
 - [x] RM-011 Glossary hover/tooltips in narrative content
 
@@ -776,7 +776,7 @@ Priority: Core engagement and retention mechanic. Depends on read tracking being
 - [ ] RB-LEARN-002 Learning path detail pages (`/{locale}/paths/[slug]`)
 - [ ] RB-LEARN-003 Path enrolment and server-persisted progress tracking (replaces localStorage approach from removed RM-011C)
 - [ ] RB-LEARN-004 Step completion tracking with visual roadmap UI
-- [ ] RB-LEARN-005 Knowledge quiz engine (3 to 5 questions per event or path step; replaces static quiz from RM-009)
+- [ ] RB-LEARN-005 Knowledge quiz engine (3 to 5 questions per event or path step; builds on the frontend-only quiz from RM-009: reuse its question schema, scoring and tiers, and add per-step sets)
 - [ ] RB-LEARN-006 Quiz result storage and scoring history
 - [ ] RB-LEARN-007 Bangladesh SSC and HSC national curriculum topic tagging on events
 - [ ] RB-LEARN-008 Curriculum-aligned learning paths for exam preparation
