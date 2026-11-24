@@ -1,0 +1,31 @@
+{
+  "id": "pak-001",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1954-united-front-election-victory-in-east-bengal",
+  "resourceIds": [
+    "united-front-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which coalition won a landslide against the ruling Muslim League in the March 1954 East Bengal provincial election?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The United Front"
+    },
+    {
+      "id": "b",
+      "text": "Jamaat-e-Islami"
+    },
+    {
+      "id": "c",
+      "text": "The Pakistan National Congress"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "In March 1954 the United Front won a landslide in the East Bengal Legislative Assembly election, while the ruling Muslim League suffered a major defeat."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pak-002",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1954-united-front-election-victory-in-east-bengal",
+  "resourceIds": [
+    "united-front-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "What happened to the United Front ministry within about two months of its April 1954 swearing-in?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It was dismissed by the central government, which imposed governor's rule"
+    },
+    {
+      "id": "b",
+      "text": "It merged with the Muslim League"
+    },
+    {
+      "id": "c",
+      "text": "It served a full term without any challenge from the center"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The ministry was sworn in on 3 April 1954. In late May 1954, about two months later, the central government dismissed it and imposed governor's rule."
+}

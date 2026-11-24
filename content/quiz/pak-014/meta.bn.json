@@ -1,0 +1,31 @@
+{
+  "id": "pak-014",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1968-agartala-conspiracy-case",
+  "resourceIds": [
+    "agartala-conspiracy-case-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৬৮ সালের আগরতলা ষড়যন্ত্র মামলা ১৯৬৯ সালের ফেব্রুয়ারিতে কীভাবে শেষ হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "টানা গণআন্দোলনের চাপে মামলা প্রত্যাহার হয় এবং আটককৃতরা মুক্তি পান"
+    },
+    {
+      "id": "b",
+      "text": "প্রধান অভিযুক্তদের সাজার মধ্য দিয়ে"
+    },
+    {
+      "id": "c",
+      "text": "মামলা সামরিক আদালতে যায়, যেখানে অভিযুক্তদের সাজা দেওয়া হয়"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৯৬৯ সালের ফেব্রুয়ারিতে টানা গণআন্দোলনের চাপে মামলা প্রত্যাহার ও আটককৃতদের মুক্তি ঘটে, যা অভ্যুত্থানের গতিকে আরও এগিয়ে দেয়।"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pak-010",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1969-mass-uprising",
+  "resourceIds": [
+    "mass-upsurge-1969-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which student leader's killing in Dhaka on 20 January 1969 turned campus protests into a broader urban uprising?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Asaduzzaman"
+    },
+    {
+      "id": "b",
+      "text": "Abul Barkat"
+    },
+    {
+      "id": "c",
+      "text": "Rafiquddin Ahmed"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The killing of student leader Asaduzzaman in Dhaka on 20 January 1969 triggered widespread outrage and turned campus-led protests into a broader urban uprising."
+}

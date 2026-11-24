@@ -1,0 +1,31 @@
+{
+  "id": "pak-013",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1970-bhola-cyclone-and-the-1970-election",
+  "resourceIds": [
+    "general-election-1970-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "In 1970, under Yahya Khan, how were seats in the National Assembly distributed?",
+  "options": [
+    {
+      "id": "a",
+      "text": "On a population basis, giving East Pakistan the largest bloc"
+    },
+    {
+      "id": "b",
+      "text": "On parity between East and West Pakistan"
+    },
+    {
+      "id": "c",
+      "text": "The National Assembly was abolished"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Under Yahya Khan's Legal Framework Order of 1970, seats were allotted on a population basis, so East Pakistan held the largest bloc. The 1956 constitution had used parity between the two wings."
+}

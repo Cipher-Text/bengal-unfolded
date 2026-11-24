@@ -1,0 +1,35 @@
+{
+  "id": "pak-007",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1966-six-point-programme-announced",
+  "resourceIds": [
+    "six-point-programme-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Who put forward the Six-Point Programme at an opposition convention in Lahore in February 1966?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Huseyn Shaheed Suhrawardy"
+    },
+    {
+      "id": "b",
+      "text": "Maulana Abdul Hamid Khan Bhashani"
+    },
+    {
+      "id": "c",
+      "text": "Sheikh Mujibur Rahman"
+    },
+    {
+      "id": "d",
+      "text": "Zulfikar Ali Bhutto"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "explanation": "Sheikh Mujibur Rahman presented the Six Points to the subject committee of the opposition convention in Lahore on 5-6 February 1966 (sources differ by a day), as a constitutional programme for East Pakistan's autonomy."
+}

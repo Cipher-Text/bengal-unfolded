@@ -1,0 +1,31 @@
+{
+  "id": "pak-013",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1970-bhola-cyclone-and-the-1970-election",
+  "resourceIds": [
+    "general-election-1970-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭০ সালে ইয়াহিয়া খানের অধীনে জাতীয় পরিষদের আসন কীভাবে বণ্টিত হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "জনসংখ্যার ভিত্তিতে, ফলে পূর্ব পাকিস্তান সবচেয়ে বড় অংশ পায়"
+    },
+    {
+      "id": "b",
+      "text": "পূর্ব ও পশ্চিম পাকিস্তানের মধ্যে সমতার ভিত্তিতে"
+    },
+    {
+      "id": "c",
+      "text": "জাতীয় পরিষদ বিলুপ্ত করা হয়"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "ইয়াহিয়া খানের ১৯৭০ সালের লিগ্যাল ফ্রেমওয়ার্ক অর্ডারে জনসংখ্যার ভিত্তিতে আসন বণ্টিত হয়, ফলে পূর্ব পাকিস্তান সবচেয়ে বড় অংশ পায়। ১৯৫৬ সালের সংবিধানে দুই অংশের মধ্যে সমতার নীতি ছিল।"
+}

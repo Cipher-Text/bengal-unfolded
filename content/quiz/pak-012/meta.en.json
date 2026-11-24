@@ -1,0 +1,31 @@
+{
+  "id": "pak-012",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1970-bhola-cyclone-and-the-1970-election",
+  "resourceIds": [
+    "bhola-cyclone-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "On what date did the Bhola cyclone strike coastal East Pakistan?",
+  "options": [
+    {
+      "id": "a",
+      "text": "12 November 1970"
+    },
+    {
+      "id": "b",
+      "text": "7 December 1970"
+    },
+    {
+      "id": "c",
+      "text": "1 July 1970"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The Bhola cyclone struck on 12 November 1970, weeks before the general election of 7 December."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pak-004",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1956-pakistan-constitution-east-pakistan-representation",
+  "resourceIds": [
+    "constitutional-development-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "What kind of state did Pakistan become when its first constitution came into force on 23 March 1956?",
+  "options": [
+    {
+      "id": "a",
+      "text": "An Islamic Republic with a parliamentary system"
+    },
+    {
+      "id": "b",
+      "text": "A monarchy under a British Governor-General"
+    },
+    {
+      "id": "c",
+      "text": "A military-ruled republic with no legislature"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The 1956 constitution made Pakistan an Islamic Republic with a parliamentary system, replacing the earlier transitional legal arrangements."
+}

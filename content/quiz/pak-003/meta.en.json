@@ -1,0 +1,27 @@
+{
+  "id": "pak-003",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1956-pakistan-constitution-east-pakistan-representation",
+  "resourceIds": [
+    "constitutional-documents-pakistan"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these happened first?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Pakistan's first constitution came into force (23 March 1956)"
+    },
+    {
+      "id": "b",
+      "text": "Pakistan's constitution was abrogated and martial law was declared (7 October 1958)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The first constitution came into force on 23 March 1956. Martial law was declared on 7 October 1958, when the constitution was abrogated."
+}

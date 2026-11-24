@@ -1,0 +1,31 @@
+{
+  "id": "pak-010",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1969-mass-uprising",
+  "resourceIds": [
+    "mass-upsurge-1969-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৬৯ সালের ২০ জানুয়ারি ঢাকায় কোন ছাত্রনেতার নিহত হওয়া ক্যাম্পাসকেন্দ্রিক প্রতিবাদকে ব্যাপক নগর-অভ্যুত্থানে রূপ দেয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "আসাদুজ্জামান"
+    },
+    {
+      "id": "b",
+      "text": "আবুল বরকত"
+    },
+    {
+      "id": "c",
+      "text": "রফিকউদ্দিন আহমদ"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৯৬৯ সালের ২০ জানুয়ারি ঢাকায় ছাত্রনেতা আসাদুজ্জামান নিহত হলে ব্যাপক জনরোষ দেখা দেয় এবং ক্যাম্পাসকেন্দ্রিক প্রতিবাদ বৃহত্তর নগর-অভ্যুত্থানে রূপ নেয়।"
+}

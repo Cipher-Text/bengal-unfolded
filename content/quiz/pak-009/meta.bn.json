@@ -1,0 +1,37 @@
+{
+  "id": "pak-009",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "hard",
+  "eventSlug": "1969-mass-uprising",
+  "resourceIds": [
+    "mass-upsurge-1969-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "যেগুলো প্রযোজ্য সবগুলো বেছে নিন: পূর্ব পাকিস্তানে কর্তৃত্ববাদী শাসনের বিরুদ্ধে ১৯৬৯ সালের গণঅভ্যুত্থানে কারা যোগ দেয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "ছাত্ররা"
+    },
+    {
+      "id": "b",
+      "text": "শ্রমিকরা"
+    },
+    {
+      "id": "c",
+      "text": "বিরোধী রাজনৈতিক দলগুলো"
+    },
+    {
+      "id": "d",
+      "text": "আইয়ুব শাসনের প্রাদেশিক প্রশাসন"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "১৯৬৯ সালের গণঅভ্যুত্থানে দীর্ঘ সামরিক-সমর্থিত কর্তৃত্ববাদী শাসনের বিরুদ্ধে ছাত্র, শ্রমিক, বিরোধী দল ও সাধারণ মানুষ একসঙ্গে দাঁড়ায়। শাসনের প্রশাসন ছিল আন্দোলনের লক্ষ্য, অংশগ্রহণকারী নয়।"
+}

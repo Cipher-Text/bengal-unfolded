@@ -1,0 +1,27 @@
+{
+  "id": "pak-011",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1969-mass-uprising",
+  "resourceIds": [
+    "agartala-conspiracy-case-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these happened first in 1969?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Sheikh Mujibur Rahman was released from detention (22 February)"
+    },
+    {
+      "id": "b",
+      "text": "Ayub Khan resigned (25 March)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Mujib was released on 22 February 1969 after sustained pressure from the uprising. Ayub Khan stepped down on 25 March."
+}

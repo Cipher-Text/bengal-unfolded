@@ -1,0 +1,31 @@
+{
+  "id": "pak-005",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1958-martial-law-in-pakistan",
+  "resourceIds": [
+    "constitutional-development-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫৮ সালের ৭ অক্টোবর সামরিক আইন জারির সময় পাকিস্তানের সংবিধান ও আইনসভাগুলোর কী হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "সংবিধান বাতিল ও আইনসভাগুলো ভেঙে দেওয়া হয়"
+    },
+    {
+      "id": "b",
+      "text": "সংবিধান সংশোধন করে আইনসভাগুলো বড় করা হয়"
+    },
+    {
+      "id": "c",
+      "text": "আইনসভা ভেঙে দেওয়া হলেও সংবিধান অপরিবর্তিত থাকে"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৯৫৮ সালের ৭ অক্টোবর সংবিধান বাতিল ও আইনসভাগুলো ভেঙে দেওয়া হয়। সংসদীয় শাসনের জায়গায় সামরিক শাসন আসে।"
+}

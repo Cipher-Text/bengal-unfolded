@@ -1,0 +1,27 @@
+{
+  "id": "pak-011",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1969-mass-uprising",
+  "resourceIds": [
+    "agartala-conspiracy-case-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৬৯ সালে নিচের কোনটি আগে ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "শেখ মুজিবুর রহমান আটক অবস্থা থেকে মুক্তি পান (২২ ফেব্রুয়ারি)"
+    },
+    {
+      "id": "b",
+      "text": "আইয়ুব খান পদত্যাগ করেন (২৫ মার্চ)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "গণঅভ্যুত্থানের টানা চাপের পর ১৯৬৯ সালের ২২ ফেব্রুয়ারি মুজিব মুক্তি পান। আইয়ুব খান পদত্যাগ করেন ২৫ মার্চ।"
+}

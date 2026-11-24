@@ -1,0 +1,31 @@
+{
+  "id": "pak-006",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1958-martial-law-in-pakistan",
+  "resourceIds": [
+    "constitutional-development-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫৮ সালের অক্টোবরে সামরিক আইন কর্তৃপক্ষ রাজনৈতিক দলগুলোর সঙ্গে কেমন আচরণ করে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "তারা রাজনৈতিক দল নিষিদ্ধ করে এবং সামরিক আইনের মাধ্যমে শাসন চালায়"
+    },
+    {
+      "id": "b",
+      "text": "তারা দলগুলোকে প্রাদেশিক কর্তৃত্বে বৃহত্তর অংশগ্রহণ দেয়"
+    },
+    {
+      "id": "c",
+      "text": "দলগুলো পুনরুদ্ধারে তারা কয়েক মাসের মধ্যে সাধারণ নির্বাচন দেয়"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৯৫৮ সালের ৭ অক্টোবর সামরিক আইন কর্তৃপক্ষ রাজনৈতিক দল নিষিদ্ধ করে এবং সামরিক আইনের মাধ্যমে শাসন চালায়, ফলে পাকিস্তানের উভয় অংশেই গণতান্ত্রিক পথ সংকুচিত হয়।"
+}

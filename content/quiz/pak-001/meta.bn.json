@@ -1,0 +1,31 @@
+{
+  "id": "pak-001",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1954-united-front-election-victory-in-east-bengal",
+  "resourceIds": [
+    "united-front-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫৪ সালের মার্চে পূর্ববঙ্গের প্রাদেশিক নির্বাচনে ক্ষমতাসীন মুসলিম লীগের বিরুদ্ধে কোন জোট ভূমিধস বিজয় পায়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "যুক্তফ্রন্ট"
+    },
+    {
+      "id": "b",
+      "text": "জামায়াতে ইসলামী"
+    },
+    {
+      "id": "c",
+      "text": "পাকিস্তান জাতীয় কংগ্রেস"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৯৫৪ সালের মার্চে পূর্ববঙ্গ আইনসভার নির্বাচনে যুক্তফ্রন্ট ভূমিধস বিজয় পায়, আর ক্ষমতাসীন মুসলিম লীগ বড় পরাজয়ের মুখে পড়ে।"
+}

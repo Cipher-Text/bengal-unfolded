@@ -1,0 +1,31 @@
+{
+  "id": "pak-012",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1970-bhola-cyclone-and-the-1970-election",
+  "resourceIds": [
+    "bhola-cyclone-britannica"
+  ],
+  "shuffleOptions": true,
+  "question": "পূর্ব পাকিস্তানের উপকূলে ভোলা ঘূর্ণিঝড় কোন তারিখে আঘাত হানে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "১২ নভেম্বর ১৯৭০"
+    },
+    {
+      "id": "b",
+      "text": "৭ ডিসেম্বর ১৯৭০"
+    },
+    {
+      "id": "c",
+      "text": "১ জুলাই ১৯৭০"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "ভোলা ঘূর্ণিঝড় আঘাত হানে ১৯৭০ সালের ১২ নভেম্বর, ৭ ডিসেম্বরের সাধারণ নির্বাচনের কয়েক সপ্তাহ আগে।"
+}

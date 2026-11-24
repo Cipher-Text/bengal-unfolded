@@ -1,0 +1,31 @@
+{
+  "id": "pak-014",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1968-agartala-conspiracy-case",
+  "resourceIds": [
+    "agartala-conspiracy-case-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "How did the Agartala Conspiracy Case end in February 1969?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It was withdrawn under sustained mass pressure, and the detainees were released"
+    },
+    {
+      "id": "b",
+      "text": "It ended with the conviction of the main accused"
+    },
+    {
+      "id": "c",
+      "text": "It was moved to a military court, which sentenced the accused"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "In February 1969, sustained mass movement pressure contributed to the withdrawal of the case and the release of the detainees, feeding into the uprising."
+}

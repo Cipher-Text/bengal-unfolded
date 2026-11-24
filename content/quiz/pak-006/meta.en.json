@@ -1,0 +1,31 @@
+{
+  "id": "pak-006",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1958-martial-law-in-pakistan",
+  "resourceIds": [
+    "constitutional-development-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "How did the martial law authorities treat political parties in October 1958?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They banned political parties and ruled through martial law"
+    },
+    {
+      "id": "b",
+      "text": "They gave parties wider access to provincial authority"
+    },
+    {
+      "id": "c",
+      "text": "They held a general election within months to restore the parties"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "On 7 October 1958 the martial law authorities banned political parties and ruled through martial law, narrowing democratic channels in both wings of Pakistan."
+}

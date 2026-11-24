@@ -1,0 +1,31 @@
+{
+  "id": "pak-002",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1954-united-front-election-victory-in-east-bengal",
+  "resourceIds": [
+    "united-front-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫৪ সালের এপ্রিলে শপথ নেওয়ার প্রায় দুই মাসের মধ্যে যুক্তফ্রন্ট মন্ত্রিসভার কী হলো?",
+  "options": [
+    {
+      "id": "a",
+      "text": "কেন্দ্রীয় সরকার তা বরখাস্ত করল এবং গভর্নরের শাসন জারি করল"
+    },
+    {
+      "id": "b",
+      "text": "তা মুসলিম লীগের সঙ্গে মিশে গেল"
+    },
+    {
+      "id": "c",
+      "text": "কেন্দ্রের কোনো চ্যালেঞ্জ ছাড়াই তা পুরো মেয়াদ চালাল"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "মন্ত্রিসভা শপথ নেয় ১৯৫৪ সালের ৩ এপ্রিল। প্রায় দুই মাস পর, মে মাসের শেষে, কেন্দ্রীয় সরকার তা বরখাস্ত করে গভর্নরের শাসন জারি করে।"
+}

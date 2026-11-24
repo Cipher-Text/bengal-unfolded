@@ -1,0 +1,35 @@
+{
+  "id": "pak-007",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "medium",
+  "eventSlug": "1966-six-point-programme-announced",
+  "resourceIds": [
+    "six-point-programme-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৬৬ সালের ফেব্রুয়ারিতে লাহোরে বিরোধী সম্মেলনে ছয়-দফা কর্মসূচি কে উত্থাপন করেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "হোসেন শহীদ সোহরাওয়ার্দী"
+    },
+    {
+      "id": "b",
+      "text": "মওলানা আবদুল হামিদ খান ভাসানী"
+    },
+    {
+      "id": "c",
+      "text": "শেখ মুজিবুর রহমান"
+    },
+    {
+      "id": "d",
+      "text": "জুলফিকার আলী ভুট্টো"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "explanation": "১৯৬৬ সালের ৫-৬ ফেব্রুয়ারি (সূত্রভেদে এক দিনের ব্যবধান) লাহোরে বিরোধী সম্মেলনের বিষয় নির্ধারণী কমিটিতে শেখ মুজিবুর রহমান পূর্ব পাকিস্তানের স্বায়ত্তশাসনের সাংবিধানিক কর্মসূচি হিসেবে ছয় দফা উপস্থাপন করেন।"
+}

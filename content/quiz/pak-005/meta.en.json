@@ -1,0 +1,31 @@
+{
+  "id": "pak-005",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1958-martial-law-in-pakistan",
+  "resourceIds": [
+    "constitutional-development-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "What happened to Pakistan's constitution and legislatures when martial law was declared on 7 October 1958?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The constitution was abrogated and the legislatures were dissolved"
+    },
+    {
+      "id": "b",
+      "text": "The constitution was revised and the legislatures were enlarged"
+    },
+    {
+      "id": "c",
+      "text": "The legislatures were dissolved but the constitution continued unchanged"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "On 7 October 1958 the constitution was abrogated and the legislatures were dissolved. Military rule replaced parliamentary governance."
+}

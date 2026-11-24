@@ -1,0 +1,31 @@
+{
+  "id": "pak-004",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "easy",
+  "eventSlug": "1956-pakistan-constitution-east-pakistan-representation",
+  "resourceIds": [
+    "constitutional-development-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫৬ সালের ২৩ মার্চ প্রথম সংবিধান কার্যকর হলে পাকিস্তান কেমন রাষ্ট্রে পরিণত হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "সংসদীয় ব্যবস্থাসহ একটি ইসলামি প্রজাতন্ত্র"
+    },
+    {
+      "id": "b",
+      "text": "ব্রিটিশ গভর্নর-জেনারেলের অধীনে একটি রাজতন্ত্র"
+    },
+    {
+      "id": "c",
+      "text": "আইনসভাহীন সামরিক শাসিত প্রজাতন্ত্র"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৯৫৬ সালের সংবিধান পাকিস্তানকে সংসদীয় ব্যবস্থাসহ ইসলামি প্রজাতন্ত্রে পরিণত করে এবং আগের অন্তর্বর্তী আইনি কাঠামো প্রতিস্থাপন করে।"
+}

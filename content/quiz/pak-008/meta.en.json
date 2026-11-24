@@ -1,0 +1,41 @@
+{
+  "id": "pak-008",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "hard",
+  "eventSlug": "1966-six-point-programme-announced",
+  "resourceIds": [
+    "six-point-programme-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Which of these were among the demands of the Six-Point Programme?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A federal parliamentary system with direct adult franchise"
+    },
+    {
+      "id": "b",
+      "text": "A federal government limited to defence and foreign affairs"
+    },
+    {
+      "id": "c",
+      "text": "Taxation and revenue collection controlled by the federating units"
+    },
+    {
+      "id": "d",
+      "text": "Abolishing the East Pakistan provincial assembly"
+    },
+    {
+      "id": "e",
+      "text": "Making Urdu the only state language"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "The Six Points called for a federal parliamentary system, a federal government confined to defence and foreign affairs, and control of taxation by the units. They did not call for abolishing provincial bodies or for a single state language."
+}

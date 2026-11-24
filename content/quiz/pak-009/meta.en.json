@@ -1,0 +1,37 @@
+{
+  "id": "pak-009",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "pakistan-period-state-and-national-awakening",
+  "difficulty": "hard",
+  "eventSlug": "1969-mass-uprising",
+  "resourceIds": [
+    "mass-upsurge-1969-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Who joined the 1969 mass uprising against authoritarian rule in East Pakistan?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Students"
+    },
+    {
+      "id": "b",
+      "text": "Workers"
+    },
+    {
+      "id": "c",
+      "text": "Opposition parties"
+    },
+    {
+      "id": "d",
+      "text": "The Ayub regime's provincial administration"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "The 1969 uprising brought together students, workers, opposition parties and ordinary citizens against prolonged military-backed authoritarian rule. The regime's administration was its target, not a participant."
+}
