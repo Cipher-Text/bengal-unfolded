@@ -14,7 +14,9 @@
     "test:e2e": "playwright test",
     "optimize:images": "node scripts/optimize-images.mjs",
     "lighthouse:mobile": "npx lighthouse https://bengalunfolded.com/bn --only-categories=performance --emulated-form-factor=mobile --throttling-method=simulate",
-    "lighthouse:desktop": "npx lighthouse https://bengalunfolded.com/bn --only-categories=performance --preset=desktop --throttling-method=simulate"
+    "lighthouse:desktop": "npx lighthouse https://bengalunfolded.com/bn --only-categories=performance --preset=desktop --throttling-method=simulate",
+    "quiz:apply-review": "node scripts/apply-quiz-review.mjs",
+    "quiz:publish": "node scripts/publish-quiz.mjs"
   },
   "dependencies": {
     "next": "16.2.4",
