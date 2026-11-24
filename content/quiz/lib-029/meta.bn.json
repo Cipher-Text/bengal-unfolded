@@ -1,0 +1,32 @@
+{
+  "id": "lib-029",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "hangor-nodi-grenade",
+    "the-rape-of-bangladesh"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের ৯ মার্চ চট্টগ্রাম বন্দরের শ্রমিকরা কী করে সংগঠিত নাগরিক প্রতিরোধের প্রথম দিকের এক নিদর্শন তৈরি করেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "তাঁরা সামরিক সরঞ্জাম খালাস করতে অস্বীকার করেন"
+    },
+    {
+      "id": "b",
+      "text": "তাঁরা লোকচক্ষুর আড়ালে রাতে সামরিক সরঞ্জাম খালাস করেন"
+    },
+    {
+      "id": "c",
+      "text": "তাঁরা বেশি মজুরির দাবিতে ধর্মঘট করেন"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "সামরিক সরঞ্জাম খালাসে অস্বীকৃতি জানিয়ে বন্দর শ্রমিকরা ৭ মার্চের ভাষণের মাত্র দুই দিন পর নাগরিক প্রতিরোধকে দৃশ্যমান করেন।"
+}

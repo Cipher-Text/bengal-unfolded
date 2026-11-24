@@ -1,0 +1,32 @@
+{
+  "id": "lib-030",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "the-rape-of-bangladesh",
+    "the-blood-telegram"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের ১৬-২৪ মার্চের ইয়াহিয়া খান ও শেখ মুজিবুর রহমানের আলোচনা কীভাবে শেষ হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "ক্ষমতা হস্তান্তরের সমঝোতার মাধ্যমে"
+    },
+    {
+      "id": "b",
+      "text": "কোনো রাজনৈতিক সমাধান ছাড়াই"
+    },
+    {
+      "id": "c",
+      "text": "ঢাকায় জাতীয় পরিষদের অধিবেশন বসার মাধ্যমে"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "ঢাকায় এক সপ্তাহেরও বেশি আলোচনা চললেও কোনো রাজনৈতিক সমাধান হয়নি। আলোচনা শেষ হওয়ার পরের রাতেই পাকিস্তানি সেনাবাহিনী দমন অভিযান শুরু করে।"
+}

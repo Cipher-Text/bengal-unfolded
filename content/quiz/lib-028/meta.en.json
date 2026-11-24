@@ -1,0 +1,32 @@
+{
+  "id": "lib-028",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "muldhara-71",
+    "rifle-roti-aurat"
+  ],
+  "shuffleOptions": true,
+  "question": "How did people across East Pakistan respond when Yahya Khan postponed the National Assembly session on 1 March 1971?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Mass protests spread across East Pakistan"
+    },
+    {
+      "id": "b",
+      "text": "They waited quietly for a new date"
+    },
+    {
+      "id": "c",
+      "text": "The Awami League called off its mobilization"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The postponement sparked mass protests across East Pakistan. The next day the Bangladesh flag was raised at Dhaka University, and on 7 March came Sheikh Mujibur Rahman's speech."
+}

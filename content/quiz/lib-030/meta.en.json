@@ -1,0 +1,32 @@
+{
+  "id": "lib-030",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "the-rape-of-bangladesh",
+    "the-blood-telegram"
+  ],
+  "shuffleOptions": true,
+  "question": "How did the 16-24 March 1971 talks between Yahya Khan and Sheikh Mujibur Rahman end?",
+  "options": [
+    {
+      "id": "a",
+      "text": "With an agreed transfer of power"
+    },
+    {
+      "id": "b",
+      "text": "Without a political settlement"
+    },
+    {
+      "id": "c",
+      "text": "With the National Assembly meeting in Dhaka"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "The talks continued in Dhaka for more than a week but produced no political settlement. The Pakistan Army began its crackdown the night after they ended."
+}

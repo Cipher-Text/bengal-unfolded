@@ -1,0 +1,31 @@
+{
+  "id": "lib-037",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "bangladesher-shadhinota-juddho-dolilpotro"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের ২৭ মার্চ বেতারে স্বাধীনতার পক্ষে ঘোষণা কে প্রচার করেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "জিয়াউর রহমান"
+    },
+    {
+      "id": "b",
+      "text": "শেখ মুজিবুর রহমান"
+    },
+    {
+      "id": "c",
+      "text": "ইয়াহিয়া খান"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "২৭ মার্চ জিয়াউর রহমানের বেতার ঘোষণা স্বাধীনতার আহ্বানকে জোরদার করে। শেখ মুজিব তার আগের দিন, ২৬ মার্চ, গ্রেপ্তার হন; ৩০ মার্চ তাঁর নামে ঘোষণা আবার প্রচারিত হয়।"
+}

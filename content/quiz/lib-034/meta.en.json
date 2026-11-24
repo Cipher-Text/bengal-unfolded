@@ -1,0 +1,31 @@
+{
+  "id": "lib-034",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "hard",
+  "eventSlug": "1971-december-16-instrument-of-surrender",
+  "resourceIds": [
+    "war-of-liberation-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "According to Banglapedia, whom did Group Captain A. K. Khandaker, deputy chief of staff of the Bangladesh forces, represent at the surrender in Dhaka on 16 December 1971?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Mukti Bahini"
+    },
+    {
+      "id": "b",
+      "text": "The Indian Army"
+    },
+    {
+      "id": "c",
+      "text": "The Pakistan Eastern Command"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Banglapedia identifies Khandaker as representing the Mukti Bahini at the surrender, where Niazi signed the instrument and Aurora accepted it."
+}

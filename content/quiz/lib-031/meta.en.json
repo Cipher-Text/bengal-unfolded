@@ -1,0 +1,42 @@
+{
+  "id": "lib-031",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "hard",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "hangor-nodi-grenade",
+    "the-rape-of-bangladesh"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Which of these followed Pakistan's 3 December 1971 attack on India?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Full-scale conventional war between India and Pakistan opened"
+    },
+    {
+      "id": "b",
+      "text": "Bangladesh-India joint forces advanced across several fronts"
+    },
+    {
+      "id": "c",
+      "text": "Pakistani forces surrendered in Dhaka on 16 December"
+    },
+    {
+      "id": "d",
+      "text": "The National Assembly session was postponed"
+    },
+    {
+      "id": "e",
+      "text": "The Mujibnagar Government took its oath"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "After the 3 December attack, full-scale war opened, joint forces advanced on several fronts, and Pakistani forces surrendered on 16 December. The postponed Assembly session and the Mujibnagar oath came months earlier."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "lib-027",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "general-election-1970-banglapedia",
+    "muldhara-71"
+  ],
+  "shuffleOptions": true,
+  "question": "After the Awami League won 167 of 169 East Pakistan seats in the December 1970 election, what happened to the transfer of power?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It was blocked, triggering a deep political crisis"
+    },
+    {
+      "id": "b",
+      "text": "It was completed within weeks"
+    },
+    {
+      "id": "c",
+      "text": "It was handed at once to the National Assembly in Dhaka"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Although the Awami League held a clear majority, power was not transferred. The blockage triggered a deep political crisis."
+}

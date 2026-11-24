@@ -1,0 +1,32 @@
+{
+  "id": "lib-035",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "resourceIds": [
+    "proclamation-of-independence-1971-text",
+    "war-of-liberation-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "What purpose did circulating the independence declaration in Sheikh Mujibur Rahman's name serve after the 25 March assault?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It recast the crisis as a struggle for a separate sovereign state"
+    },
+    {
+      "id": "b",
+      "text": "It formed the provisional government's cabinet"
+    },
+    {
+      "id": "c",
+      "text": "It ended the non-cooperation movement"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Circulated on 25-26 March, the declaration reframed the crisis as a struggle for a separate sovereign state. The provisional leadership adopted the Proclamation of Independence on 10 April."
+}

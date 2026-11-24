@@ -1,0 +1,32 @@
+{
+  "id": "lib-039",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "2010-international-crimes-tribunal-begins",
+  "resourceIds": [
+    "ict-quader-mollah-verdict-2013",
+    "shahbag-uprising-war-crimes-forgiveness"
+  ],
+  "shuffleOptions": true,
+  "question": "What did the Shahbag movement call for after the Quader Mollah verdict of 5 February 2013?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Stronger accountability"
+    },
+    {
+      "id": "b",
+      "text": "Leniency for the accused"
+    },
+    {
+      "id": "c",
+      "text": "An end to the tribunal"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Many activists read the verdict as too lenient, and their reaction developed into the Shahbag movement's demand for stronger accountability."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "lib-039",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "2010-international-crimes-tribunal-begins",
+  "resourceIds": [
+    "ict-quader-mollah-verdict-2013",
+    "shahbag-uprising-war-crimes-forgiveness"
+  ],
+  "shuffleOptions": true,
+  "question": "২০১৩ সালের ৫ ফেব্রুয়ারি কাদের মোল্লার মামলার রায়ের পর শাহবাগ আন্দোলন কী দাবি তোলে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "আরও জোরালো জবাবদিহি"
+    },
+    {
+      "id": "b",
+      "text": "অভিযুক্তদের প্রতি নমনীয়তা"
+    },
+    {
+      "id": "c",
+      "text": "ট্রাইব্যুনালের অবসান"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "অনেক আন্দোলনকারী রায়টিকে অতি লঘু মনে করেন; সেই প্রতিক্রিয়াই শাহবাগ আন্দোলনের আরও জোরালো জবাবদিহির দাবিতে রূপ নেয়।"
+}

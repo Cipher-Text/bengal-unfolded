@@ -1,0 +1,31 @@
+{
+  "id": "lib-033",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-december-16-instrument-of-surrender",
+  "resourceIds": [
+    "instrument-of-surrender-1971-text"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের ১৬ ডিসেম্বরের আত্মসমর্পণের দলিলে কী নিষ্পত্তি হয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "যুদ্ধের সামরিক ফলাফল, পূর্বাঞ্চলে পাকিস্তানি কমান্ডের অবসান"
+    },
+    {
+      "id": "b",
+      "text": "বাংলাদেশের প্রথম সংবিধানের শর্তাবলি"
+    },
+    {
+      "id": "c",
+      "text": "শেখ মুজিবুর রহমানের দেশে প্রত্যাবর্তন"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "দলিলটি যুদ্ধের সামরিক ফলাফল নির্ধারণ করে এবং পূর্বাঞ্চলে পাকিস্তানি কমান্ডের অবসান ঘটায়। দিনটি প্রতি বছর বিজয় দিবস হিসেবে পালিত হয়।"
+}

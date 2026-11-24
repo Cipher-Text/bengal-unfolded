@@ -1,0 +1,31 @@
+{
+  "id": "lib-038",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "bangladesh-era-of-sheikh-mujibur-rahman"
+  ],
+  "shuffleOptions": true,
+  "question": "Which office did Sheikh Mujibur Rahman take in January 1972, after returning to independent Bangladesh on 10 January?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Prime Minister"
+    },
+    {
+      "id": "b",
+      "text": "Chief Martial Law Administrator"
+    },
+    {
+      "id": "c",
+      "text": "Commander of the joint forces"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Mujib returned on 10 January 1972 and became Prime Minister that month, as a new state structure began to consolidate under civilian leadership."
+}

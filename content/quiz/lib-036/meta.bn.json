@@ -1,0 +1,28 @@
+{
+  "id": "lib-036",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "resourceIds": [
+    "proclamation-of-independence-1971-text",
+    "bangladesher-shadhinota-juddho-dolilpotro"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালে নিচের কোনটি আগে ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "অস্থায়ী নেতৃত্ব স্বাধীনতার ঘোষণাপত্র গ্রহণ করে"
+    },
+    {
+      "id": "b",
+      "text": "শেখ মুজিবুর রহমানের নামে স্বাধীনতার ঘোষণা প্রচারিত হয়"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "ঘোষণা প্রচারিত হয় ২৫-২৬ মার্চ; অস্থায়ী নেতৃত্ব ঘোষণাপত্র গ্রহণ করে ১০ এপ্রিল।"
+}

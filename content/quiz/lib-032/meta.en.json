@@ -1,0 +1,27 @@
+{
+  "id": "lib-032",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "general-election-1970-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these happened first?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Pakistan held its first general election under universal adult franchise (7 December 1970)"
+    },
+    {
+      "id": "b",
+      "text": "Yahya Khan postponed the National Assembly session (1 March 1971)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The election came on 7 December 1970. Despite the Awami League's majority, the National Assembly session was postponed on 1 March 1971."
+}

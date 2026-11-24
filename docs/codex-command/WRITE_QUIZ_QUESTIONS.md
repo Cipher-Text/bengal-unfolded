@@ -39,7 +39,7 @@ You must NOT: change src/types/content.ts, scripts/*, docs/*, or any existing co
 
 Rules for every question:
 1. Set status to draft. Set topicSlug to $TOPIC. The question id and the folder name must match.
-2. Choose eventSlug from the eventSlugs in the topic file. Skip any event whose meta.en.json has stub true. Use no more than 3 questions per event in this batch and cover at least 6 different events.
+2. Choose eventSlug from the eventSlugs in the topic file. Skip any event whose meta.en.json has stub true. Use no more than 3 questions per event in this batch (unless the batch note says otherwise) and cover at least 6 different events.
 3. Base each question ONLY on what the chosen event's existing meta, timeline and quotes files already state, and on the resources listed in that event's resource-ids.json. Do not use outside knowledge and do not invent facts, dates, names or quotations. If the existing text does not clearly support a question, skip it.
 4. resourceIds must list at least one existing resource from that event's resource-ids.json that supports the claim. Do not add new resources.
 5. Types: about 70 percent single_choice (3 or 4 options, 1 correct), about 15 percent which_first (exactly 2 options, 1 correct = the earlier event, only for events whose order is undisputed and clearly dated), about 15 percent multi_select (4 or 5 options, 2 or more correct but not all; say Select all that apply in the question). Follow the option rules in docs/CONTENT_MODEL.md.
@@ -57,7 +57,12 @@ Rules for every question:
 17. Calibrate difficulty honestly: easy = a well-known fact or a one-step recognition; medium = needs the link between two events, documents or dates; hard = multi_select or a distinction between close alternatives. Do not label a plain recall question hard.
 18. Include at least 3 questions that ask why or what followed (cause and effect, consequence, purpose), not only who, when or where, using only causes and consequences that the chapter text states.
 19. Bengali sentences end with the danda (।), not an ASCII full stop. Use Bengali numerals and the spellings used in the chapter meta.bn.json.
-20. English and Bengali shared fields (status, type, topicSlug, difficulty, eventSlug, resourceIds, shuffleOptions, correctOptionIds) must be identical in both files.
+20. Language per file: every text field in meta.en.json (question, option text, context, explanation) must be English, and every text field in meta.bn.json must be Bengali. Never put Bengali in an English file or English in a Bengali file, including the explanation. After writing, check this for every file you created and fix any mismatch.
+21. Never overwrite or edit an existing quiz folder. Create each new folder only if it does not exist yet; if a folder already exists, stop, report it, and use the next free number instead. Each question gets its own folder, and its eventSlug and resourceIds must match the event the question is actually about.
+22. Do not give the answer away in the question: the correct option must not repeat the distinctive name or phrase that the question already states (for example a question about the battle of X must not have the answer X region).
+23. Options must not overlap or restate each other (do not list a thing and a broader phrase that includes it as separate answers), and in multi_select every wrong option must be clearly wrong from the source, not merely missing from a list.
+24. Do not write two questions that test the same fact, in this batch or against the existing questions listed in the batch note.
+25. English and Bengali shared fields (status, type, topicSlug, difficulty, eventSlug, resourceIds, shuffleOptions, correctOptionIds) must be identical in both files.
 
 Validation: run pnpm content:validate and fix every error. Warnings about pool size (fewer than 40) and missing difficulty levels are expected for a small batch; do not try to silence them.
 

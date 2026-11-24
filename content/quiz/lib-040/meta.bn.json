@@ -1,0 +1,32 @@
+{
+  "id": "lib-040",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "2010-international-crimes-tribunal-begins",
+  "resourceIds": [
+    "daily-star-abul-kalam-azad-ict-verdict-2013",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "২০১৩ সালের ২১ জানুয়ারি আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের প্রথম রায় ট্রাইব্যুনাল সম্পর্কে কী দেখায়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "ট্রাইব্যুনাল প্রাতিষ্ঠানিক প্রস্তুতি থেকে বাস্তব দণ্ডদানের পর্যায়ে পৌঁছেছে"
+    },
+    {
+      "id": "b",
+      "text": "প্রথম মামলার পরই ট্রাইব্যুনাল গুটিয়ে ফেলা হয়েছে"
+    },
+    {
+      "id": "c",
+      "text": "ট্রাইব্যুনাল এখনো কোনো মামলারই শুনানি করেনি"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "আবুল কালাম আজাদের রায় দেখায় ট্রাইব্যুনাল প্রাতিষ্ঠানিক প্রস্তুতি থেকে বাস্তব দণ্ডদানের পর্যায়ে এসেছে, ফলে বিচারপ্রক্রিয়া জনজীবনে নতুনভাবে দৃশ্যমান হয়।"
+}

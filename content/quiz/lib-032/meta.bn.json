@@ -1,0 +1,27 @@
+{
+  "id": "lib-032",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "general-election-1970-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "নিচের কোনটি আগে ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "সর্বজনীন প্রাপ্তবয়স্ক ভোটাধিকারের ভিত্তিতে পাকিস্তানে প্রথম সাধারণ নির্বাচন অনুষ্ঠিত হয় (৭ ডিসেম্বর ১৯৭০)"
+    },
+    {
+      "id": "b",
+      "text": "ইয়াহিয়া খান জাতীয় পরিষদের অধিবেশন স্থগিত করেন (১ মার্চ ১৯৭১)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "নির্বাচন হয় ১৯৭০ সালের ৭ ডিসেম্বর। আওয়ামী লীগের সংখ্যাগরিষ্ঠতা সত্ত্বেও ১৯৭১ সালের ১ মার্চ জাতীয় পরিষদের অধিবেশন স্থগিত করা হয়।"
+}

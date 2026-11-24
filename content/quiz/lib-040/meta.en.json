@@ -1,0 +1,32 @@
+{
+  "id": "lib-040",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "2010-international-crimes-tribunal-begins",
+  "resourceIds": [
+    "daily-star-abul-kalam-azad-ict-verdict-2013",
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "What did the first International Crimes Tribunal verdict, delivered on 21 January 2013, show about the tribunal?",
+  "options": [
+    {
+      "id": "a",
+      "text": "That it had moved from institutional setup to concrete sentencing"
+    },
+    {
+      "id": "b",
+      "text": "That it had been wound up after its first case"
+    },
+    {
+      "id": "c",
+      "text": "That it had yet to hear any case"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The Abul Kalam Azad verdict showed the tribunal had moved from institutional setup to concrete sentencing, making the justice process newly visible in public life."
+}

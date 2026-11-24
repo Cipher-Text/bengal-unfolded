@@ -1,0 +1,31 @@
+{
+  "id": "lib-033",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-december-16-instrument-of-surrender",
+  "resourceIds": [
+    "instrument-of-surrender-1971-text"
+  ],
+  "shuffleOptions": true,
+  "question": "What did the Instrument of Surrender of 16 December 1971 settle?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The military outcome of the war, ending Pakistani command in the east"
+    },
+    {
+      "id": "b",
+      "text": "The terms of Bangladesh's first constitution"
+    },
+    {
+      "id": "c",
+      "text": "The return of Sheikh Mujibur Rahman"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The instrument fixed the military outcome of the war and ended Pakistani command in the east. The date is commemorated every year as Victory Day."
+}

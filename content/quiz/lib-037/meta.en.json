@@ -1,0 +1,31 @@
+{
+  "id": "lib-037",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-liberation-war",
+  "resourceIds": [
+    "bangladesher-shadhinota-juddho-dolilpotro"
+  ],
+  "shuffleOptions": true,
+  "question": "Who broadcast a radio declaration on 27 March 1971 that reinforced the call for independence?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Ziaur Rahman"
+    },
+    {
+      "id": "b",
+      "text": "Sheikh Mujibur Rahman"
+    },
+    {
+      "id": "c",
+      "text": "Yahya Khan"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Ziaur Rahman's radio declaration of 27 March reinforced the independence call. Sheikh Mujibur Rahman had been arrested on 26 March, and on 30 March the declaration was repeated in his name."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "lib-035",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-declaration-and-proclamation-of-independence",
+  "resourceIds": [
+    "proclamation-of-independence-1971-text",
+    "war-of-liberation-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "২৫ মার্চের দমন অভিযানের পর শেখ মুজিবুর রহমানের নামে স্বাধীনতার ঘোষণা প্রচার করার উদ্দেশ্য কী ছিল?",
+  "options": [
+    {
+      "id": "a",
+      "text": "এটি সংকটকে একটি পৃথক সার্বভৌম রাষ্ট্রের সংগ্রাম হিসেবে নতুনভাবে সংজ্ঞায়িত করে"
+    },
+    {
+      "id": "b",
+      "text": "এটি অস্থায়ী সরকারের মন্ত্রিসভা গঠন করে"
+    },
+    {
+      "id": "c",
+      "text": "এটি অসহযোগ আন্দোলনের অবসান ঘটায়"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "২৫-২৬ মার্চ প্রচারিত ঘোষণা সংকটকে স্বাধীন সার্বভৌম রাষ্ট্রের সংগ্রাম হিসেবে নতুনভাবে সংজ্ঞায়িত করে; অস্থায়ী নেতৃত্ব ঘোষণাপত্র গ্রহণ করে ১০ এপ্রিল।"
+}
