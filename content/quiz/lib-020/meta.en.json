@@ -1,0 +1,31 @@
+{
+  "id": "lib-020",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-tangail-airdrop",
+  "resourceIds": [
+    "tangail-airdrop-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "Why did the Tangail Airdrop matter in the final advance on Dhaka?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It cut retreat and communication routes north of Dhaka"
+    },
+    {
+      "id": "b",
+      "text": "It opened routes toward Khulna in the southwest"
+    },
+    {
+      "id": "c",
+      "text": "It relieved pressure on a fortified border position"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "By cutting retreat and communication routes north of Dhaka, the airdrop accelerated the advance on the capital and the rapid collapse of Pakistani command."
+}

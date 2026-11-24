@@ -1,0 +1,31 @@
+{
+  "id": "lib-015",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-battle-of-garibpur",
+  "resourceIds": [
+    "battle-of-garibpur-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের নভেম্বরে গরীবপুরের যুদ্ধ কোন ফ্রন্টে হয়েছিল?",
+  "options": [
+    {
+      "id": "a",
+      "text": "দক্ষিণ-পশ্চিমের যশোর ফ্রন্ট"
+    },
+    {
+      "id": "b",
+      "text": "উত্তর-পূর্বের সিলেট ফ্রন্ট"
+    },
+    {
+      "id": "c",
+      "text": "উত্তর ফ্রন্ট"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "গরীবপুরের যুদ্ধ যশোর ফ্রন্টে হয়, ৩ ডিসেম্বর ভারত-পাকিস্তান পূর্ণাঙ্গ যুদ্ধ শুরুর কিছুদিন আগে।"
+}

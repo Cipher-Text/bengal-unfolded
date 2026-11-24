@@ -1,0 +1,31 @@
+{
+  "id": "lib-020",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-tangail-airdrop",
+  "resourceIds": [
+    "tangail-airdrop-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "ঢাকার দিকে চূড়ান্ত অগ্রযাত্রায় টাঙ্গাইল এয়ারড্রপ কেন গুরুত্বপূর্ণ ছিল?",
+  "options": [
+    {
+      "id": "a",
+      "text": "এটি ঢাকার উত্তরে পশ্চাদপসরণ ও যোগাযোগের পথ কেটে দেয়"
+    },
+    {
+      "id": "b",
+      "text": "এটি খুলনার দিকে দক্ষিণ-পশ্চিমের পথ খুলে দেয়"
+    },
+    {
+      "id": "c",
+      "text": "এটি একটি সুরক্ষিত সীমান্ত অবস্থানের ওপর চাপ কমায়"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "ঢাকার উত্তরে পশ্চাদপসরণ ও যোগাযোগের পথ কেটে দেওয়ায় রাজধানীর দিকে অগ্রযাত্রা দ্রুত হয় এবং পাকিস্তানি কমান্ড দ্রুত ভেঙে পড়ে।"
+}

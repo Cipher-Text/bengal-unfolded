@@ -1,0 +1,31 @@
+{
+  "id": "lib-013",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-battle-of-kamalpur",
+  "resourceIds": [
+    "battle-of-kamalpur-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "Kamalpur is remembered for repeated Mukti Bahini attacks on what?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A fortified Pakistani position near the border"
+    },
+    {
+      "id": "b",
+      "text": "A Pakistani naval base at a river port"
+    },
+    {
+      "id": "c",
+      "text": "The Pakistani command headquarters in Dhaka"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Kamalpur became a symbol of persistent pressure on a fortified border position, and it keeps the northern frontier visible in the military history of 1971."
+}

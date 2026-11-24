@@ -1,0 +1,41 @@
+{
+  "id": "lib-018",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "hard",
+  "eventSlug": "1971-battle-of-hilli",
+  "resourceIds": [
+    "battle-of-hilli-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Which of these describe the Battle of Hilli?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A prolonged and costly engagement"
+    },
+    {
+      "id": "b",
+      "text": "Fought on the northern front"
+    },
+    {
+      "id": "c",
+      "text": "Guarded a key route in the northwest"
+    },
+    {
+      "id": "d",
+      "text": "A brief, low-cost skirmish"
+    },
+    {
+      "id": "e",
+      "text": "Fought on the southwest front"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "Hilli was a prolonged, costly fight on the northern front over a key northwestern route. Repeated attacks and heavy casualties tied down Pakistani defenses."
+}

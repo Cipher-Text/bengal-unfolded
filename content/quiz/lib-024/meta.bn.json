@@ -1,0 +1,31 @@
+{
+  "id": "lib-024",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "hard",
+  "eventSlug": "1971-akhaura-front-battle-of-daruin",
+  "resourceIds": [
+    "battle-of-akhaura-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "আখাউড়া ও দরুইনের লড়াই কোন কোন স্থানের মধ্যকার পথে চাপ সৃষ্টি করে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "ত্রিপুরা, ব্রাহ্মণবাড়িয়া ও ঢাকার দিকের অগ্রসর পথ"
+    },
+    {
+      "id": "b",
+      "text": "খুলনা ও দক্ষিণ-পশ্চিমের অভ্যন্তর"
+    },
+    {
+      "id": "c",
+      "text": "সিলেট ও উত্তর সীমান্ত"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "আখাউড়া ছিল ২ নম্বর সেক্টরের একটি কৌশলগত পূর্বমুখী প্রবেশপথ; এখানকার লড়াই ডিসেম্বরের আগেই পাকিস্তানি প্রতিরক্ষাকে টেনে প্রসারিত করে।"
+}

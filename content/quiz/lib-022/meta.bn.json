@@ -1,0 +1,31 @@
+{
+  "id": "lib-022",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-battle-of-jessore",
+  "resourceIds": [
+    "battle-of-jessore-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "যশোরের আশপাশে পাকিস্তানি অবস্থানের পতনে কী খুলে যায়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "খুলনা ও অন্যান্য অভ্যন্তরীণ এলাকার দিকে পথ"
+    },
+    {
+      "id": "b",
+      "text": "ঢাকার উত্তরের পথ"
+    },
+    {
+      "id": "c",
+      "text": "সিলেট অঞ্চলের দিকে পথ"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "যশোর ছিল পশ্চিমের প্রধান প্রবেশপথ; এর পতনে দক্ষিণ-পশ্চিমে পাকিস্তানি নিয়ন্ত্রণ দুর্বল হয় এবং খুলনার দিকে অগ্রযাত্রা দ্রুত হয়।"
+}

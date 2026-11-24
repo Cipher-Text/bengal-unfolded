@@ -1,0 +1,27 @@
+{
+  "id": "lib-023",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "2010-international-crimes-tribunal-begins",
+  "resourceIds": [
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "নিচের কোনটি আগে ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "আন্তর্জাতিক অপরাধ ট্রাইব্যুনাল প্রক্রিয়া কার্যকর হয় (মার্চ ২০১০)"
+    },
+    {
+      "id": "b",
+      "text": "আইসিটি-র প্রথম রায় (২১ জানুয়ারি ২০১৩)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৯৭৩ সালের আইনের অধীনে ট্রাইব্যুনাল প্রক্রিয়া ২০১০ সালের মার্চে কার্যকর হয়; প্রথম রায়, আবুল কালাম আজাদের মামলায়, আসে ২০১৩ সালের ২১ জানুয়ারি।"
+}

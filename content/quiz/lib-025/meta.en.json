@@ -1,0 +1,37 @@
+{
+  "id": "lib-025",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-riverine-operations",
+  "resourceIds": [
+    "operation-jackpot"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: In 1971, rivers mattered in the war for which of these?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Movement"
+    },
+    {
+      "id": "b",
+      "text": "Supply"
+    },
+    {
+      "id": "c",
+      "text": "Sabotage of Pakistani logistics"
+    },
+    {
+      "id": "d",
+      "text": "Only as background scenery, with no military role"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "Rivers were central to movement, supply and sabotage. Naval commando attacks targeted waterways linking ports, towns and Pakistani logistics, so rivers were part of the battlefield, not just scenery."
+}

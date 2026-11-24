@@ -1,0 +1,31 @@
+{
+  "id": "lib-013",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-battle-of-kamalpur",
+  "resourceIds": [
+    "battle-of-kamalpur-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "কামালপুর কীসের ওপর মুক্তিবাহিনীর বারবার আক্রমণের জন্য স্মরণীয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "সীমান্তের কাছে পাকিস্তানি বাহিনীর একটি সুরক্ষিত অবস্থান"
+    },
+    {
+      "id": "b",
+      "text": "নদীবন্দরে পাকিস্তানি নৌঘাঁটি"
+    },
+    {
+      "id": "c",
+      "text": "ঢাকায় পাকিস্তানি কমান্ডের সদর দপ্তর"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "কামালপুর সীমান্তের একটি সুরক্ষিত অবস্থানে টানা চাপের প্রতীক হয়ে ওঠে এবং ১৯৭১ সালের সামরিক ইতিহাসে উত্তর সীমান্তকে দৃশ্যমান রাখে।"
+}

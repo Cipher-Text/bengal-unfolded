@@ -1,0 +1,31 @@
+{
+  "id": "lib-026",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-battle-of-belonia",
+  "resourceIds": [
+    "battle-of-belonia-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "What did the Battle of Belonia show about how the war was fought in the southeast?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Border geography around a salient near the Tripura frontier was used to pressure Pakistani positions"
+    },
+    {
+      "id": "b",
+      "text": "It was decided by naval commando strikes at river ports"
+    },
+    {
+      "id": "c",
+      "text": "No pressure was put on Pakistani positions near the border"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "At Belonia, Mukti Bahini and Indian forces used the border salient near Tripura to open routes and weaken Pakistani control in the southeast before the final campaign."
+}

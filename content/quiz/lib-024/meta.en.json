@@ -1,0 +1,31 @@
+{
+  "id": "lib-024",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "hard",
+  "eventSlug": "1971-akhaura-front-battle-of-daruin",
+  "resourceIds": [
+    "battle-of-akhaura-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "Fighting around Akhaura and Daruin put pressure on routes linking which places?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Tripura, Brahmanbaria and the approach to Dhaka"
+    },
+    {
+      "id": "b",
+      "text": "Khulna and the southwest interior"
+    },
+    {
+      "id": "c",
+      "text": "Sylhet and the northern border"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Akhaura sat on a strategic eastern approach in Sector 2. Fighting there stretched Pakistani defenses before December."
+}

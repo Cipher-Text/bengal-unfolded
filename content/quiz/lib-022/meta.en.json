@@ -1,0 +1,31 @@
+{
+  "id": "lib-022",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-battle-of-jessore",
+  "resourceIds": [
+    "battle-of-jessore-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "What did the fall of Pakistani positions around Jessore open up?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Routes toward Khulna and other interior points"
+    },
+    {
+      "id": "b",
+      "text": "Routes north of Dhaka"
+    },
+    {
+      "id": "c",
+      "text": "Routes into the Sylhet region"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Jessore was a major western gateway. Its fall weakened Pakistani control in the southwest and quickened the movement toward Khulna."
+}

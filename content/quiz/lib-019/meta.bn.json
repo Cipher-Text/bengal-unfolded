@@ -1,0 +1,31 @@
+{
+  "id": "lib-019",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-tangail-airdrop",
+  "resourceIds": [
+    "tangail-airdrop-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৭১ সালের ১১ ডিসেম্বর টাঙ্গাইল এয়ারড্রপে ভারতীয় প্যারাট্রুপাররা কোথায় অবতরণ করেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "ঢাকার উত্তরে, টাঙ্গাইলের কাছে"
+    },
+    {
+      "id": "b",
+      "text": "দক্ষিণ-পশ্চিমে, যশোরের কাছে"
+    },
+    {
+      "id": "c",
+      "text": "উত্তর-পূর্বে, সিলেটের কাছে"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "চূড়ান্ত অগ্রযাত্রার সময় প্যারাট্রুপারদের ঢাকার উত্তরে নামানো হয়।"
+}

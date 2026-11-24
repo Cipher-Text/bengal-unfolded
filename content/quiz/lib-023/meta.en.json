@@ -1,0 +1,27 @@
+{
+  "id": "lib-023",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "2010-international-crimes-tribunal-begins",
+  "resourceIds": [
+    "international-crimes-tribunal-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which of these happened first?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The International Crimes Tribunal process became operational (March 2010)"
+    },
+    {
+      "id": "b",
+      "text": "The first ICT verdict (21 January 2013)"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The tribunal process was activated in March 2010 under the 1973 law. The first verdict, in the Abul Kalam Azad case, came on 21 January 2013."
+}

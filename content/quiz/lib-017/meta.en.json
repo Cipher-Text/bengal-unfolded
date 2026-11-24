@@ -1,0 +1,31 @@
+{
+  "id": "lib-017",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-battle-of-hilli",
+  "resourceIds": [
+    "battle-of-hilli-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "On which front was the Battle of Hilli fought?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The northern front"
+    },
+    {
+      "id": "b",
+      "text": "The southwest front"
+    },
+    {
+      "id": "c",
+      "text": "The southeastern front"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Hilli guarded a key route in the northwest and was one of the fiercest northern-front battles. It tied down Pakistani defenses."
+}

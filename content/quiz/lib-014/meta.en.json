@@ -1,0 +1,31 @@
+{
+  "id": "lib-014",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-battle-of-kamalpur",
+  "resourceIds": [
+    "battle-of-kamalpur-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "What does the Battle of Kamalpur help show about the 1971 war?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It was fought as a sequence of sector-level battles, not only national milestones"
+    },
+    {
+      "id": "b",
+      "text": "It was decided by a single battle at Dhaka"
+    },
+    {
+      "id": "c",
+      "text": "It was fought entirely by conventional armies, with no guerrilla pressure"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Kamalpur's repeated assaults show a war built from many sector-level battles. The fighting is also linked to the shift from guerrilla pressure to larger operations."
+}

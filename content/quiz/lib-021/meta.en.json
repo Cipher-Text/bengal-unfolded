@@ -1,0 +1,31 @@
+{
+  "id": "lib-021",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-battle-of-sylhet",
+  "resourceIds": [
+    "battle-of-sylhet-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "Which kinds of pressure combined against Pakistani forces at Sylhet late in the war?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Airborne, ground and psychological pressure"
+    },
+    {
+      "id": "b",
+      "text": "Naval commando strikes on ports"
+    },
+    {
+      "id": "c",
+      "text": "Repeated assaults on a single fortified border post"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "In the northeast, airborne, ground and psychological pressure combined, helping isolate the Sylhet region before the surrender."
+}

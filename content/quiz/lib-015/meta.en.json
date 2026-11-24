@@ -1,0 +1,31 @@
+{
+  "id": "lib-015",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-battle-of-garibpur",
+  "resourceIds": [
+    "battle-of-garibpur-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "The Battle of Garibpur in November 1971 was fought on which front?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Jessore front in the southwest"
+    },
+    {
+      "id": "b",
+      "text": "The Sylhet front in the northeast"
+    },
+    {
+      "id": "c",
+      "text": "The northern front"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Garibpur was fought on the Jessore front, shortly before the formal India-Pakistan war began on 3 December."
+}

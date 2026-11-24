@@ -1,0 +1,31 @@
+{
+  "id": "lib-021",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "medium",
+  "eventSlug": "1971-battle-of-sylhet",
+  "resourceIds": [
+    "battle-of-sylhet-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "শেষ পর্বে সিলেটে পাকিস্তানি বাহিনীর ওপর কোন ধরনের চাপ একসঙ্গে কাজ করেছিল?",
+  "options": [
+    {
+      "id": "a",
+      "text": "আকাশপথ, স্থল ও মনস্তাত্ত্বিক চাপ"
+    },
+    {
+      "id": "b",
+      "text": "নৌ-কমান্ডোদের বন্দরে আঘাত"
+    },
+    {
+      "id": "c",
+      "text": "একটিমাত্র সুরক্ষিত সীমান্ত চৌকির ওপর বারবার আক্রমণ"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "উত্তর-পূর্বে আকাশপথ, স্থল ও মনস্তাত্ত্বিক চাপ একসঙ্গে কাজ করে, যা আত্মসমর্পণের আগে সিলেট অঞ্চলকে বিচ্ছিন্ন করতে সাহায্য করে।"
+}

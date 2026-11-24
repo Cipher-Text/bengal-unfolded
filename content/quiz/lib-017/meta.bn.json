@@ -1,0 +1,31 @@
+{
+  "id": "lib-017",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "liberation-war-1971",
+  "difficulty": "easy",
+  "eventSlug": "1971-battle-of-hilli",
+  "resourceIds": [
+    "battle-of-hilli-reference"
+  ],
+  "shuffleOptions": true,
+  "question": "হিলির যুদ্ধ কোন ফ্রন্টে হয়েছিল?",
+  "options": [
+    {
+      "id": "a",
+      "text": "উত্তর ফ্রন্ট"
+    },
+    {
+      "id": "b",
+      "text": "দক্ষিণ-পশ্চিম ফ্রন্ট"
+    },
+    {
+      "id": "c",
+      "text": "দক্ষিণ-পূর্ব ফ্রন্ট"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "উত্তর-পশ্চিমের একটি গুরুত্বপূর্ণ পথ আগলে রাখা হিলি ছিল উত্তর ফ্রন্টের অন্যতম তীব্র লড়াই, যা পাকিস্তানি প্রতিরক্ষাকে ব্যস্ত রেখেছিল।"
+}
