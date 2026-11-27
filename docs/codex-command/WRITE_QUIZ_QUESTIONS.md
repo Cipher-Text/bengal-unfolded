@@ -15,8 +15,17 @@ Read first: `docs/QUIZ_SPEC.md`, `docs/CONTENT_MODEL.md` (section "Quiz schema")
 | `colonial-conquest-revenue-and-resistance` | `col` | 18 | none |
 | `partition-and-identity` | `par` | 11 | `1942-quit-india-and-bengal-war-governance`, `1963-hazratbal-crisis-and-east-pakistan-communal-tensions` |
 | `pakistan-period-state-and-national-awakening` | `pak` | 12 | `1963-hazratbal-crisis-and-east-pakistan-communal-tensions` |
+| `language-movement-and-mother-language-day` | `lan` | 4 (only 2 carry most of the facts) | none |
 
 Stub status can change; always re-check `"stub"` in each event's `meta.en.json` before using an event.
+
+### Lessons from the language movement batches (2026-11-27)
+
+- **Small topics:** a topic with few events cannot meet rules 2 and 3's "at most 3 per event, at least 6 events". Add a batch note that sets a per-event distribution, and expect fewer questions than asked. The first batch for `lan` stopped at 12 because the chapters held about 12 distinct facts; asking for more makes Codex repeat facts or invent them.
+- **Enrich first, then draft:** when the chapters are thin, run a timeline-only enrichment (`docs/codex-command/ENRICH_EXISTING_INFO.md`, section 2) first, then a second question batch that names the new timeline entries and lists the facts the existing questions already test. Check every new claim against an opened source; one date (the UN resolution) was an issue date, not an adoption date.
+- **No helper scripts:** one batch failed because Codex generated files through a Python helper with malformed data and created nothing. Add to the batch note: write each `meta.en.json` and `meta.bn.json` directly, copying the field set of an existing question.
+- **Answer keys:** a `which_first` question was generated with the wrong option marked correct in both languages while its explanation was right. Check that every explanation and `correctOptionIds` agree.
+- **Weak patterns to reject:** anachronistic or silly distractors, a second question that restates the first, trick options in multi_select, and credit claims that sources dispute (for example who designed a monument).
 
 ## Command
 

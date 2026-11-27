@@ -1,6 +1,6 @@
 # Quiz release runbook
 
-Steps to take the quiz from draft to live once the Bengali review is back. Every question is `status: draft` until step 4. Until then the quiz pages are empty and the home banner, topic cards and event cards stay hidden (only the "Quiz" menu link shows).
+Steps to take the quiz from draft to live once the Bengali review is back. Every question is `status: draft` until step 4. (As of 2026-11-27 the Liberation War, Colonial Bengal, Pakistan period and Language Movement questions have gone through these steps and are published; new topics start from draft again.) Until then the quiz pages are empty and the home banner, topic cards and event cards stay hidden (only the "Quiz" menu link shows).
 
 ## Before: what must be true
 
