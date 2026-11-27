@@ -519,7 +519,7 @@ Suggested naming after export:
 - `/{locale}/compare`: row-aligned comparison of two events (`?a=&b=`), with swap, suggested pairings and a shared-context summary.
 - `/{locale}/methodology`: public methodology and trust standards page.
 - `/{locale}/join`: public collaboration and contact page.
-- `/{locale}/quiz`: quiz landing (hook, topic cards for topics with published questions, resume link, disclaimer). Indexable.
+- `/{locale}/quiz`: quiz landing (start button, topic cards for topics with published questions, resume link, disclaimer). Indexable.
 - `/{locale}/quiz/play`: client-side quiz session (`?topic=<slug|all>`, `?resume=1`); question flow, feedback and result screen. `noindex,follow`.
 - `/{locale}/quiz-data/{topic}`: static JSON of published questions (with `eventTitle`) for one topic or `all`; used by the play client.
 
@@ -788,7 +788,7 @@ The quiz is built (pages, loader, share card, tests). Product behaviour is in `d
   - `explanation` (required, localized)
 - Type rules: `single_choice` has 3 to 4 options and exactly 1 correct; `which_first` has exactly 2 options and exactly 1 correct (the earlier event); `multi_select` has 4 to 5 options and 2 or more correct, but not all.
 - Non-localized fields (`status`, `type`, `topicSlug`, `difficulty`, `eventSlug`, `resourceIds`, `shuffleOptions`, `correctOptionIds`) must be identical in EN and BN.
-- `QuizSiteContent` (`content/site/quiz.<locale>.json`): `hook`, `disclaimer`, `tiers` (`{ min, id, title, message }[]`, strictly ascending `min`, first `min` is 0, `min` and `id` identical across locales), `feedback` (`correct`, `wrong`, `skipped`: non-empty string arrays).
+- `QuizSiteContent` (`content/site/quiz.<locale>.json`): `disclaimer`, `tiers` (`{ min, id, title, message }[]`, strictly ascending `min`, first `min` is 0, `min` and `id` identical across locales), `feedback` (`correct`, `wrong`, `skipped`: non-empty string arrays).
 - Scoring (for the UI): `single_choice` and `which_first` score 1 or 0; `multi_select` scores `max(0, (correctSelected - wrongSelected) / correctCount)`; skipped scores 0; the total is rounded to the nearest integer and mapped to the tier with the largest `min` not above it.
 - Validator warnings (not errors): a topic with fewer than 40 published questions, a topic with no published `easy` or `hard` question, an explanation longer than 320 characters.
 

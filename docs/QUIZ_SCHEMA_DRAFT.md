@@ -97,11 +97,10 @@ Follow the existing enum-constant plus type-guard factory pattern from the Phase
 
 ## 4. Site copy: `content/site/quiz.<locale>.json`
 
-Holds text that is not a question: landing hook, tier names and messages, disclaimer, rotating feedback lines, share-card strings.
+Holds text that is not a question: tier names and messages, disclaimer, rotating feedback lines, share-card strings.
 
 ```json
 {
-  "hook": "…",
   "disclaimer": "…",
   "tiers": [
     { "min": 0, "id": "curious-reader", "title": "…", "message": "…" },

@@ -1209,7 +1209,6 @@ export type QuizTier = {
 
 /** content/site/quiz.<locale>.json */
 export type QuizSiteContent = {
-  hook: string;
   disclaimer: string;
   tiers: QuizTier[];
   feedback: {

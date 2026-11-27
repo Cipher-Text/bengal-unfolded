@@ -166,7 +166,7 @@ async function main() {
       let holder;
       let key;
       let t;
-      if ((t = id.match(/^site\.(hook|disclaimer)$/))) {
+      if ((t = id.match(/^site\.(disclaimer)$/))) {
         holder = data;
         key = t[1];
       } else if ((t = id.match(/^site\.tier\.([a-z-]+)\.(title|message)$/))) {

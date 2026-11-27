@@ -4,10 +4,10 @@ Reviewer pack for the Bengali (and English meaning-match) text of the Bengal Unf
 
 ## What to review
 
-Open `bengali-review.csv` in Google Sheets or Excel (UTF-8; if Bengali looks broken in Excel, import it as UTF-8). It has 431 rows:
+Open `bengali-review.csv` in Google Sheets or Excel (UTF-8; if Bengali looks broken in Excel, import it as UTF-8). It has 430 rows:
 
 - 68 quiz questions (40 on the Liberation War, 14 on Colonial Bengal, 14 on the Pakistan period): each question, each answer option and each explanation, in English and Bengali.
-- The quiz's site copy: the intro line, the disclaimer, the four result titles and messages, and the short feedback lines.
+- The quiz's site copy: the disclaimer, the four result titles and messages, and the short feedback lines.
 - The quiz's on-screen labels: buttons, messages, the share card text, menu and page text.
 
 Columns:

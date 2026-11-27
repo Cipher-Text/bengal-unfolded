@@ -1521,7 +1521,7 @@ async function main() {
     const data = await readJson(sitePath, errors);
     if (!data || typeof data !== "object") continue;
     quizSite[locale] = data;
-    for (const key of ["hook", "disclaimer"]) {
+    for (const key of ["disclaimer"]) {
       if (typeof data[key] !== "string" || data[key].trim().length === 0) errors.push(`Missing or invalid '${key}' at ${rel}`);
     }
     if (!Array.isArray(data.tiers) || data.tiers.length === 0) {

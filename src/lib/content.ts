@@ -595,7 +595,7 @@ export const getQuizTopicSummaries = cache(async (locale: string): Promise<QuizT
     .map((topic) => ({ slug: topic.slug, title: topic.title, tagline: topic.tagline, count: counts.get(topic.slug) ?? 0 }));
 });
 
-/** Quiz site copy (hook, disclaimer, tiers, feedback lines); null until `content/site/quiz.<locale>.json` exists. */
+/** Quiz site copy (disclaimer, tiers, feedback lines); null until `content/site/quiz.<locale>.json` exists. */
 export async function getQuizSiteContent(locale: string): Promise<QuizSiteContent | null> {
   assertSupportedLocale(locale);
   const filePath = path.join(CONTENT_DIR, "site", `quiz.${locale}.json`);

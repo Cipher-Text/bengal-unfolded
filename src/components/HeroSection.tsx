@@ -43,7 +43,7 @@ export function HeroSection({
   showCollage = true,
 }: {
   title: string;
-  tagline: string;
+  tagline?: string;
   intro?: ReactNode;
   rightSlot?: ReactNode;
   eyebrow?: string;
@@ -108,9 +108,11 @@ export function HeroSection({
               {title}
             </h1>
             <div className="ornament-divider mt-4 max-w-xl text-base md:text-lg">✦</div>
-            <p className="text-balance mt-4 max-w-2xl text-lg italic leading-snug sm:text-xl md:text-2xl" style={{ fontFamily: "var(--font-display), serif" }}>
-              {tagline}
-            </p>
+            {tagline ? (
+              <p className="text-balance mt-4 max-w-2xl text-lg italic leading-snug sm:text-xl md:text-2xl" style={{ fontFamily: "var(--font-display), serif" }}>
+                {tagline}
+              </p>
+            ) : null}
             {intro ? (
               <p className="theme-muted text-balance mt-5 max-w-2xl text-base leading-relaxed md:text-lg">
                 {intro}

@@ -15,7 +15,7 @@ Status: implemented. This spec describes the shipped behaviour; places where the
 
 | Route | Purpose | Indexing |
 | --- | --- | --- |
-| `/[locale]/quiz` | Landing: hook, start, topic cards | indexable |
+| `/[locale]/quiz` | Landing: start, topic cards | indexable |
 | `/[locale]/quiz/play` | Question flow (client component) | `noindex,follow` |
 | `/[locale]/quiz/result` | Result, name, share card (client component) | `noindex,follow` |
 
@@ -44,7 +44,7 @@ Implemented differently (v0.3): the result screen is a state of `/[locale]/quiz/
 ### 4.1 Landing (`/quiz`)
 
 Layout, top to bottom:
-1. Hook line: a provocative question or one-line promise (not "Take our quiz"). Placeholder: "How well do you know the story of Bengal?"
+1. ~~Hook line~~ (removed 2026-11-27: the landing page and the home banner no longer show a tagline line).
 2. Primary button: **Start 10 random questions** ("Surprise me").
 3. Meta line: "About 3 minutes. No signup."
 4. Topic cards (themed sets): title, one-line teaser, question count. Tapping a card starts that topic.

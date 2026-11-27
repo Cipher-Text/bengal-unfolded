@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-27
+
+### Completed
+
+- Removed the quiz tagline line (the `hook` text, "How well do you know the story of Bengal? Ten questions, a few surprises." and its Bengali version) at the owner's request. Model: `hook` removed from `QuizSiteContent` (`src/types/content.ts`) and from `content/site/quiz.en.json` and `quiz.bn.json`. Validation: `scripts/validate-content.mjs` now requires only `disclaimer` among the plain site-copy strings; `scripts/apply-quiz-review.mjs` no longer handles `site.hook`. UI: the quiz landing page hero no longer shows a tagline (`HeroSection` `tagline` is now optional) and the home banner's heading is now the "Test yourself" label with the pool line below it. Docs and the Bengali review CSV (now one row shorter) updated. Known gap: none.
+
 ## 2026-11-24
 
 ### Completed
