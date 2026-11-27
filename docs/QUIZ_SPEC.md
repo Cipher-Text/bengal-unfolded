@@ -180,7 +180,7 @@ Editorial rules (see `EDITORIAL_GUIDELINES.md`): neutral tone, sensitive-history
 ## 10. Implemented beyond the first draft
 
 - **Entry points** (all hidden until questions are published): "Quiz" in the header and mobile menu; a banner on the home page (`QuizHomeBanner`); a "Test yourself" card on topic pages and at the end of finished event chapters (`QuizTestYourself`); a resume card on the landing page.
-- **Pool today** (draft, source-checked): 40 Liberation War, 14 Colonial Bengal, 14 Pakistan period. The landing page lists only topics with published questions; "all" mixes them.
+- **Pool today** (source-checked, published): 40 Liberation War, 14 Colonial Bengal, 14 Pakistan period, 18 Language Movement. The landing page lists only topics with published questions; "all" mixes them.
 - **Release tooling:** `pnpm quiz:apply-review` applies a reviewer's corrections from the review CSV; `pnpm quiz:publish` flips status and refuses without `--bengali-reviewed` or for questions not marked ready in `docs/quiz-review/source-check*.md`.
 - **Tests:** `tests/browser/quiz.spec.ts` covers the flow with mocked data (landing, noindex, answer and feedback, skip, result, share card name and download, resume, empty and error states, Bengali labels).
 - **Not built:** accounts, score history and sync (backlog B3, RB-LEARN-005/006); drag-to-reorder chronology.

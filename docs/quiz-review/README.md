@@ -1,6 +1,8 @@
 # Bengali review of the quiz text
 
-Reviewer pack for the Bengali (and English meaning-match) text of the Bengal Unfolded quiz. Nothing here is published yet: every quiz question is still `draft`, and the quiz stays hidden on the site until the review is done and the questions are set to `published`.
+Reviewer pack for the Bengali (and English meaning-match) text of the Bengal Unfolded quiz. This pack was written when every question was still `draft`; the quiz stays hidden for a topic until the review is done and its questions are set to `published` (the Liberation War, Colonial Bengal, Pakistan period and Language Movement questions have since been published).
+
+The Language Movement questions have their own pack, `bengali-review-language.csv` (88 rows: 18 questions with options and explanations); it works the same way and is applied with `pnpm quiz:apply-review docs/quiz-review/bengali-review-language.csv`.
 
 ## What to review
 

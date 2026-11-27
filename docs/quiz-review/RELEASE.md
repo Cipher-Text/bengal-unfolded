@@ -5,7 +5,7 @@ Steps to take the quiz from draft to live once the Bengali review is back. Every
 ## Before: what must be true
 
 - A fluent reader has returned `bengali-review.csv` with corrections (blank means fine).
-- `docs/quiz-review/source-check*.md` lists the questions as ready (it does: 68 of 68 as of 2026-11-24).
+- `docs/quiz-review/source-check*.md` lists the questions as ready (it does: 68 of 68 as of 2026-11-24, and 18 of 18 language questions as of 2026-11-27 in `source-check-language.md`).
 - You decided which topics to launch. Liberation War (40), Colonial Bengal (14) and the Pakistan period (14) are available.
 
 ## Steps
