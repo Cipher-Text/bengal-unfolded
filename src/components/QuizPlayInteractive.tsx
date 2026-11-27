@@ -8,6 +8,7 @@ import {
   type QuizAnswers,
   drawQuestions,
   isFullyCorrect,
+  scoreQuestion,
   orderOptions,
   readStored,
   rememberRecent,
@@ -35,8 +36,13 @@ const L = {
     finish: "See my result",
     readStory: "Read the story behind this",
     correctTag: "Correct",
+    correctAnswerTag: "Correct answer",
     yourWrongTag: "Your answer",
     missedTag: "Missed",
+    statusCorrect: "Correct!",
+    statusPartial: "Partly correct",
+    statusWrong: "Not quite",
+    statusSkipped: "Skipped",
     loading: "Loading questions…",
     error: "The questions could not be loaded.",
     retry: "Try again",
@@ -62,8 +68,13 @@ const L = {
     finish: "ফলাফল দেখুন",
     readStory: "এর পেছনের কাহিনি পড়ুন",
     correctTag: "সঠিক",
+    correctAnswerTag: "সঠিক উত্তর",
     yourWrongTag: "আপনার উত্তর",
     missedTag: "বাদ পড়েছে",
+    statusCorrect: "সঠিক!",
+    statusPartial: "আংশিক সঠিক",
+    statusWrong: "সঠিক হয়নি",
+    statusSkipped: "এড়িয়ে গেছেন",
     loading: "প্রশ্ন লোড হচ্ছে…",
     error: "প্রশ্নগুলো লোড করা যায়নি।",
     retry: "আবার চেষ্টা করুন",
@@ -227,6 +238,8 @@ export function QuizPlayInteractive({
   }, [phase, checked, index]);
 
   const isMulti = question?.type === "multi_select";
+  // Multi-select question texts start with the instruction; the screen shows it once under the heading instead.
+  const stem = isMulti ? question.question.replace(/^(Select all that apply|যেগুলো প্রযোজ্য সবগুলো বেছে নিন):\s*/, "") : (question?.question ?? "");
 
   const toggle = (optionId: string) => {
     if (checked) return;
@@ -370,6 +383,10 @@ export function QuizPlayInteractive({
   const wasSkipped = checked && answeredValue === null;
   const correctSet = new Set(question.correctOptionIds);
   const correctNow = checked && isFullyCorrect(question, answeredValue);
+  const partial = checked && !correctNow && !wasSkipped && scoreQuestion(question, answeredValue) > 0;
+  const outcome: "ok" | "partial" | "bad" | "skipped" = wasSkipped ? "skipped" : correctNow ? "ok" : partial ? "partial" : "bad";
+  const statusText = { ok: t.statusCorrect, partial: t.statusPartial, bad: t.statusWrong, skipped: t.statusSkipped }[outcome];
+  const statusIcon = { ok: "✓", partial: "◐", bad: "✗", skipped: "–" }[outcome];
   const feedbackPool = wasSkipped ? site.feedback.skipped : correctNow ? site.feedback.correct : site.feedback.wrong;
   const feedbackLine = feedbackPool[index % feedbackPool.length];
   const isLast = index === queue.length - 1;
@@ -416,7 +433,7 @@ export function QuizPlayInteractive({
         <fieldset className="space-y-4" disabled={checked}>
           <legend className="w-full">
             <h1 className="text-display text-2xl font-semibold leading-snug md:text-3xl" tabIndex={-1} ref={headingRef}>
-              {question.question}
+              {stem}
             </h1>
             {isMulti ? <span className="theme-muted mt-2 block text-sm">{t.selectAll}</span> : null}
           </legend>
@@ -424,34 +441,27 @@ export function QuizPlayInteractive({
             {optionsInOrder.map((option) => {
               const chosen = selected.includes(option.id);
               const isCorrect = correctSet.has(option.id);
-              let state: "idle" | "selected" | "correct" | "wrong" | "missed" | "dim" = chosen ? "selected" : "idle";
+              // After checking: the user's right picks are "correct", the right answer they missed or skipped is
+              // "answer" (single choice or skipped) or "missed" (multi-select), wrong picks are "wrong".
+              let state: "idle" | "selected" | "correct" | "answer" | "missed" | "wrong" | "dim" = chosen ? "selected" : "idle";
               if (checked) {
                 if (isCorrect && chosen) state = "correct";
                 else if (!isCorrect && chosen) state = "wrong";
-                else if (isCorrect) state = "missed";
+                else if (isCorrect) state = !isMulti || wasSkipped ? "answer" : "missed";
                 else state = "dim";
               }
-              const styles = {
-                idle: { borderColor: "var(--border-strong)", background: "var(--surface-soft)" },
-                selected: { borderColor: "var(--gold)", background: "var(--paper-aged)" },
-                correct: { borderColor: "var(--forest)", background: "color-mix(in srgb, var(--forest) 16%, var(--paper))" },
-                wrong: { borderColor: "var(--wax)", background: "color-mix(in srgb, var(--wax) 14%, var(--paper))" },
-                missed: { borderColor: "var(--forest)", background: "var(--paper)", borderStyle: "dashed" },
-                dim: { borderColor: "var(--hairline)", background: "var(--surface-soft)", opacity: 0.6 },
-              }[state];
-              const tag =
-                state === "correct" || (state === "missed" && !isMulti)
-                  ? { icon: "✓", text: t.correctTag }
-                  : state === "wrong"
-                    ? { icon: "✗", text: t.yourWrongTag }
-                    : state === "missed"
-                      ? { icon: "○", text: t.missedTag }
-                      : null;
+              const tag = {
+                correct: { icon: "✓", text: t.correctTag, kind: "ok" },
+                answer: { icon: "✓", text: t.correctAnswerTag, kind: "ok" },
+                missed: { icon: "✓", text: t.missedTag, kind: "missed" },
+                wrong: { icon: "✗", text: t.yourWrongTag, kind: "bad" },
+              }[state as "correct" | "answer" | "missed" | "wrong"];
+              const mark = state === "correct" || state === "answer" ? "✓" : state === "wrong" ? "✗" : state === "missed" ? "✓" : chosen ? "✓" : "";
               return (
                 <label
                   key={option.id}
-                  className="flex min-h-[56px] cursor-pointer items-center gap-3 border px-4 py-3 transition-colors duration-200 focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[var(--gold)]"
-                  style={styles}
+                  data-state={state}
+                  className={`quiz-opt flex min-h-[56px] items-start gap-3 px-4 py-3 focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[var(--gold)] ${checked ? "cursor-default" : "cursor-pointer"}`}
                 >
                   <input
                     type={isMulti ? "checkbox" : "radio"}
@@ -461,20 +471,18 @@ export function QuizPlayInteractive({
                     onChange={() => toggle(option.id)}
                     className="sr-only"
                   />
-                  <span
-                    aria-hidden="true"
-                    className="flex h-5 w-5 shrink-0 items-center justify-center border text-xs"
-                    style={{ borderColor: "var(--sepia)", borderRadius: isMulti ? "2px" : "9999px", background: chosen ? "var(--gold)" : "transparent", color: "var(--paper)" }}
-                  >
-                    {chosen ? "✓" : ""}
+                  <span aria-hidden="true" className="quiz-mark mt-0.5" data-multi={isMulti ? "true" : "false"}>
+                    {mark}
                   </span>
-                  <span className="flex-1 leading-snug">{option.text}</span>
-                  {tag ? (
-                    <span className="text-eyebrow shrink-0 !text-xs" style={{ color: state === "wrong" ? "var(--wax)" : "var(--forest)" }}>
-                      <span aria-hidden="true">{tag.icon} </span>
-                      {tag.text}
-                    </span>
-                  ) : null}
+                  <span className="flex-1 leading-snug">
+                    <span className="quiz-opt-text">{option.text}</span>
+                    {tag ? (
+                      <span className="quiz-badge mt-2" data-kind={tag.kind}>
+                        <span aria-hidden="true">{tag.icon}</span>
+                        {tag.text}
+                      </span>
+                    ) : null}
+                  </span>
                 </label>
               );
             })}
@@ -486,9 +494,15 @@ export function QuizPlayInteractive({
             ref={explanationRef}
             tabIndex={-1}
             aria-live="polite"
-            className="quiz-slide theme-surface-elev space-y-3 border p-5 outline-none"
-            style={{ borderColor: correctNow ? "var(--forest)" : "var(--border-strong)" }}
+            data-outcome={outcome}
+            className="quiz-slide quiz-feedback theme-surface-elev space-y-3 p-5 outline-none"
           >
+            <p className="quiz-status">
+              <span aria-hidden="true" className="quiz-status-icon">
+                {statusIcon}
+              </span>
+              {statusText}
+            </p>
             <p className="font-display text-lg font-semibold">{feedbackLine}</p>
             {streak >= 3 && correctNow ? <p className="text-eyebrow">✦ {t.streak}</p> : null}
             <p className="leading-relaxed">{question.explanation}</p>

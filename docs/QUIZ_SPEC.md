@@ -68,6 +68,8 @@ Interaction:
 
 ### 4.3 Feedback state (same screen, after Check answer)
 
+Implemented answer states (2026-11-27): right pick = solid green card with left bar, filled check and a Correct badge; missed or skipped right answer = solid green with a Correct answer badge (dashed green with a Missed badge for multi-select); wrong pick = solid red card with left bar, filled cross and a Your answer badge; other options fade. The panel opens with a status line (Correct!, Partly correct, Not quite, Skipped).
+
 - Selected card: green + check icon if correct; red + cross icon if wrong. Never colour alone.
 - On wrong: the correct card is revealed in green. Other cards fade back.
 - Multi-select: show which chosen options were right and wrong, and which were missed. Partial credit is allowed; wrong picks never subtract below zero.

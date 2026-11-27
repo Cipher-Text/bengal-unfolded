@@ -948,6 +948,107 @@ html[data-theme="dark"] .compass-watermark {
 ::selection { background: rgba(122, 46, 34, 0.3); color: var(--ink); }
 
 /* ============ Quiz ============ */
+/* ============ Quiz answer states ============ */
+:root {
+  --quiz-ok: #2d6a3e;
+  --quiz-ok-on: #ffffff;
+  --quiz-bad: #a8281c;
+  --quiz-bad-on: #ffffff;
+  --quiz-partial: #8a5c00;
+}
+html[data-theme="dark"] {
+  --quiz-ok: #62b273;
+  --quiz-ok-on: #0b1a0e;
+  --quiz-bad: #e5786a;
+  --quiz-bad-on: #1c0a07;
+  --quiz-partial: #e0b457;
+}
+.quiz-opt {
+  border: 2px solid var(--border-strong);
+  background: var(--surface-soft);
+  transition: background-color 200ms ease, border-color 200ms ease, opacity 200ms ease;
+}
+.quiz-opt[data-state="selected"] { border-color: var(--gold); background: var(--paper-aged); }
+.quiz-opt[data-state="correct"],
+.quiz-opt[data-state="answer"] {
+  border-color: var(--quiz-ok);
+  background: color-mix(in srgb, var(--quiz-ok) 20%, var(--paper));
+  box-shadow: inset 6px 0 0 var(--quiz-ok);
+}
+.quiz-opt[data-state="wrong"] {
+  border-color: var(--quiz-bad);
+  background: color-mix(in srgb, var(--quiz-bad) 18%, var(--paper));
+  box-shadow: inset 6px 0 0 var(--quiz-bad);
+}
+.quiz-opt[data-state="missed"] {
+  border: 2px dashed var(--quiz-ok);
+  background: color-mix(in srgb, var(--quiz-ok) 9%, var(--paper));
+}
+.quiz-opt[data-state="dim"] { opacity: 0.55; border-color: var(--hairline); }
+.quiz-opt[data-state="correct"] .quiz-opt-text,
+.quiz-opt[data-state="answer"] .quiz-opt-text,
+.quiz-opt[data-state="wrong"] .quiz-opt-text { font-weight: 600; }
+
+.quiz-mark {
+  display: inline-flex;
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--sepia);
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--paper);
+}
+.quiz-mark[data-multi="true"] { border-radius: 0.25rem; }
+.quiz-opt[data-state="selected"] .quiz-mark { background: var(--gold); border-color: var(--gold); }
+.quiz-opt[data-state="correct"] .quiz-mark,
+.quiz-opt[data-state="answer"] .quiz-mark { background: var(--quiz-ok); border-color: var(--quiz-ok); color: var(--quiz-ok-on); }
+.quiz-opt[data-state="wrong"] .quiz-mark { background: var(--quiz-bad); border-color: var(--quiz-bad); color: var(--quiz-bad-on); }
+.quiz-opt[data-state="missed"] .quiz-mark { background: transparent; border-color: var(--quiz-ok); color: var(--quiz-ok); }
+
+.quiz-badge {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: 0.25rem;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.quiz-badge[data-kind="ok"] { background: var(--quiz-ok); color: var(--quiz-ok-on); }
+.quiz-badge[data-kind="bad"] { background: var(--quiz-bad); color: var(--quiz-bad-on); }
+.quiz-badge[data-kind="missed"] { border: 2px dashed var(--quiz-ok); color: var(--quiz-ok); }
+
+.quiz-feedback { border: 2px solid var(--border-strong); border-left-width: 8px; }
+.quiz-feedback[data-outcome="ok"] { border-color: var(--quiz-ok); }
+.quiz-feedback[data-outcome="bad"] { border-color: var(--quiz-bad); }
+.quiz-feedback[data-outcome="partial"] { border-color: var(--quiz-partial); }
+.quiz-status { display: flex; align-items: center; gap: 0.6rem; font-size: 1.5rem; font-weight: 700; line-height: 1.2; }
+.quiz-status-icon {
+  display: inline-flex;
+  height: 2rem;
+  width: 2rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-size: 1.1rem;
+  background: var(--border-strong);
+  color: var(--paper);
+}
+.quiz-feedback[data-outcome="ok"] .quiz-status { color: var(--quiz-ok); }
+.quiz-feedback[data-outcome="ok"] .quiz-status-icon { background: var(--quiz-ok); color: var(--quiz-ok-on); }
+.quiz-feedback[data-outcome="bad"] .quiz-status { color: var(--quiz-bad); }
+.quiz-feedback[data-outcome="bad"] .quiz-status-icon { background: var(--quiz-bad); color: var(--quiz-bad-on); }
+.quiz-feedback[data-outcome="partial"] .quiz-status { color: var(--quiz-partial); }
+.quiz-feedback[data-outcome="partial"] .quiz-status-icon { background: var(--quiz-partial); color: var(--paper); }
+
 @keyframes quiz-slide-in {
   from { opacity: 0; transform: translateX(24px); }
   to { opacity: 1; transform: none; }
