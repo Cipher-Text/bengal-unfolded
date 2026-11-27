@@ -1,0 +1,31 @@
+{
+  "id": "lan-003",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "kazi-golam-mahbub-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Where did leaders meet on 31 January 1952 to form the All-Party State Language Action Committee?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Dhaka Bar Library"
+    },
+    {
+      "id": "b",
+      "text": "Dhaka University campus"
+    },
+    {
+      "id": "c",
+      "text": "Dhaka Medical College campus"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The meeting at Dhaka Bar Library formed a broad committee to coordinate the next phase of protest."
+}

@@ -139,5 +139,83 @@
       "culture",
       "democracy"
     ]
+  },
+  {
+    "year": "February 26, 1952",
+    "title": "Police demolish the first Shaheed Minar",
+    "detail": "Police demolished the temporary memorial built on 23 February after cordoning off the Dhaka Medical College hostel area.",
+    "sourceIds": [
+      "shaheed-minar-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "1953",
+    "title": "21 February is observed as Shaheed Day",
+    "detail": "Students and young people observed 21 February as Shaheed Dibas (Martyrs’ Day), beginning an annual commemoration of those killed in the movement.",
+    "sourceIds": [
+      "shaheed-minar-banglapedia",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "March 1954",
+    "title": "United Front wins East Bengal election on a language pledge",
+    "detail": "The United Front won the East Bengal Legislative Assembly election after campaigning on a 21-point programme that included recognition of Bangla as a state language.",
+    "sourceIds": [
+      "united-front-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "democracy"
+    ]
+  },
+  {
+    "year": "February 21, 1963",
+    "title": "Permanent Shaheed Minar is inaugurated",
+    "detail": "The concrete Shaheed Minar, built to a revised version of a design by Hamidur Rahman with Novera Ahmed assisting its construction, was inaugurated by Hasina Begum, mother of Abul Barkat.",
+    "sourceIds": [
+      "shaheed-minar-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "November 17, 1999",
+    "title": "UNESCO proclaims International Mother Language Day",
+    "detail": "UNESCO proclaimed 21 February as International Mother Language Day. The day was first observed internationally in 2000.",
+    "sourceIds": [
+      "international-mother-language-day-unesco",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "language",
+      "culture"
+    ]
+  },
+  {
+    "year": "2002",
+    "title": "UN General Assembly welcomes the UNESCO proclamation",
+    "detail": "In resolution 56/262 on multilingualism, the General Assembly welcomed UNESCO’s 1999 decision to proclaim 21 February as International Mother Language Day.",
+    "sourceIds": [
+      "un-general-assembly-resolution-56-262"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "language",
+      "culture"
+    ]
   }
 ]

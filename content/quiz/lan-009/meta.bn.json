@@ -1,0 +1,37 @@
+{
+  "id": "lan-009",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "hard",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "যেগুলো প্রযোজ্য, সব নির্বাচন করুন: ১৯৫২ সালের ফেব্রুয়ারিতে পুলিশের গুলির পর কী কী ঘটনা ঘটে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "প্রতিবাদ আরও ছড়িয়ে পড়ে"
+    },
+    {
+      "id": "b",
+      "text": "২২ ফেব্রুয়ারি শফিউর রহমান নিহত হন"
+    },
+    {
+      "id": "c",
+      "text": "২৩ ফেব্রুয়ারি শিক্ষার্থীরা প্রথম শহীদ মিনার নির্মাণ করেন"
+    },
+    {
+      "id": "d",
+      "text": "সেই সপ্তাহেই সংবিধানে বাংলা স্বীকৃতি পায়"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "গুলির পর প্রতিবাদ ছড়ায়; ২২ ফেব্রুয়ারি শফিউর রহমান নিহত হন এবং পরদিন শিক্ষার্থীরা স্মৃতিস্তম্ভটি নির্মাণ করেন।"
+}

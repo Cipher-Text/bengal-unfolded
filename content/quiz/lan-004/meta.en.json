@@ -1,0 +1,31 @@
+{
+  "id": "lan-004",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-in-east-bengal"
+  ],
+  "shuffleOptions": true,
+  "question": "What restriction did the government impose in Dhaka ahead of the 21 February 1952 demonstrations?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A ban on assemblies under Section 144"
+    },
+    {
+      "id": "b",
+      "text": "A curfew under Section 92"
+    },
+    {
+      "id": "c",
+      "text": "A ban on newspapers under Section 19"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Section 144 barred assemblies, and movement leaders debated whether to defy it."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "lan-011",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which happened first?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The general strike on the state-language demand"
+    },
+    {
+      "id": "b",
+      "text": "The All-Party State Language Action Committee was formed"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The general strike took place on 11 March 1948; the committee was formed on 31 January 1952."
+}

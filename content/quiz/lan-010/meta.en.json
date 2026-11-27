@@ -1,0 +1,27 @@
+{
+  "id": "lan-010",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Which happened first?",
+  "options": [
+    {
+      "id": "b",
+      "text": "The first Shaheed Minar was built"
+    },
+    {
+      "id": "a",
+      "text": "Dhirendranath Datta demanded Bangla in the Constituent Assembly"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Datta raised the demand in February 1948; the first Shaheed Minar was built in February 1952."
+}

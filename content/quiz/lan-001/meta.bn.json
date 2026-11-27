@@ -1,0 +1,31 @@
+{
+  "id": "lan-001",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-in-east-bengal"
+  ],
+  "shuffleOptions": true,
+  "question": "পাকিস্তানের গণপরিষদে কোন ভাষা ব্যবহারের দাবি তুলেছিলেন ধীরেন্দ্রনাথ দত্ত?",
+  "options": [
+    {
+      "id": "a",
+      "text": "বাংলা"
+    },
+    {
+      "id": "b",
+      "text": "উর্দু"
+    },
+    {
+      "id": "c",
+      "text": "ইংরেজি"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৯৪৮ সালের ফেব্রুয়ারিতে দত্ত গণপরিষদে বিষয়টি তোলেন, ফলে ভাষার প্রশ্ন সাংবিধানিক বিতর্কে পরিণত হয়।"
+}

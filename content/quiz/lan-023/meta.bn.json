@@ -1,0 +1,31 @@
+{
+  "id": "lan-023",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "নোভেরা আহমেদের সহায়তায় ১৯৫৭ সাল থেকে স্থায়ী শহীদ মিনারের নির্মাণকাজ কে তত্ত্বাবধান করেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "আবুল কালাম শামসুদ্দীন"
+    },
+    {
+      "id": "b",
+      "text": "হামিদুর রহমান"
+    },
+    {
+      "id": "c",
+      "text": "আজম খান"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "১৯৫৭ সালের নভেম্বরে শুরু হওয়া কাজ হামিদুর রহমান তত্ত্বাবধান করেন, নোভেরা আহমেদ তাঁকে সহায়তা করেন। ১৯৫৮ সালে সামরিক আইনে কাজ থেমে যায়, আর ১৯৬৩ সালে সংক্ষিপ্ত রূপে তা সম্পন্ন হয়।"
+}

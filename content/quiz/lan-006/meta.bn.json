@@ -1,0 +1,31 @@
+{
+  "id": "lan-006",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "গুলির ঘটনার স্থানে শিক্ষার্থীরা প্রথম শহীদ মিনার কবে নির্মাণ করেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "২৩ ফেব্রুয়ারি ১৯৫২"
+    },
+    {
+      "id": "b",
+      "text": "২১ ফেব্রুয়ারি ১৯৫২"
+    },
+    {
+      "id": "c",
+      "text": "২২ ফেব্রুয়ারি ১৯৫২"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "গুলির ঘটনার দুই দিন পর, ২৩ ফেব্রুয়ারি শিক্ষার্থীরা প্রথম শহীদ মিনার নির্মাণ করেন।"
+}

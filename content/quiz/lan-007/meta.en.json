@@ -1,0 +1,31 @@
+{
+  "id": "lan-007",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "state-language-movement-in-east-bengal-1947-1956"
+  ],
+  "shuffleOptions": true,
+  "question": "In which year did Pakistan’s Constitution recognize Bangla as one of the state languages?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1956"
+    },
+    {
+      "id": "b",
+      "text": "1952"
+    },
+    {
+      "id": "c",
+      "text": "1948"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "The Constitution recognized Bangla as a state language in 1956, after the movement’s decisive 1952 phase."
+}

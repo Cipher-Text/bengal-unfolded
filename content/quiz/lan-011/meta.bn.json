@@ -1,0 +1,27 @@
+{
+  "id": "lan-011",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "কোনটি আগে ঘটেছিল?",
+  "options": [
+    {
+      "id": "a",
+      "text": "রাষ্ট্রভাষার দাবিতে সাধারণ ধর্মঘট"
+    },
+    {
+      "id": "b",
+      "text": "সর্বদলীয় রাষ্ট্রভাষা কর্মপরিষদ গঠন"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "সাধারণ ধর্মঘট হয় ১৯৪৮ সালের ১১ মার্চ; কর্মপরিষদ গঠিত হয় ১৯৫২ সালের ৩১ জানুয়ারি।"
+}

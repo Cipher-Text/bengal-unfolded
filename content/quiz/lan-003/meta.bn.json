@@ -1,0 +1,31 @@
+{
+  "id": "lan-003",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "kazi-golam-mahbub-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫২ সালের ৩১ জানুয়ারি সর্বদলীয় রাষ্ট্রভাষা কর্মপরিষদ গঠনের জন্য নেতারা কোথায় মিলিত হন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "ঢাকা বার লাইব্রেরি"
+    },
+    {
+      "id": "b",
+      "text": "ঢাকা বিশ্ববিদ্যালয় প্রাঙ্গণ"
+    },
+    {
+      "id": "c",
+      "text": "ঢাকা মেডিকেল কলেজ প্রাঙ্গণ"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "ঢাকা বার লাইব্রেরির সভায় পরবর্তী প্রতিবাদ সমন্বয়ের জন্য একটি বিস্তৃত কর্মপরিষদ গঠিত হয়।"
+}

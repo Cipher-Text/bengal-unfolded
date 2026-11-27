@@ -1,0 +1,31 @@
+{
+  "id": "lan-005",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Where did students gather before deciding to defy Section 144 on 21 February 1952?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Dhaka University campus, close to the Medical College"
+    },
+    {
+      "id": "b",
+      "text": "Dhaka Bar Library"
+    },
+    {
+      "id": "c",
+      "text": "Curzon Hall only"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Students met on the Dhaka University campus, close to the Medical College, before marching out in groups."
+}

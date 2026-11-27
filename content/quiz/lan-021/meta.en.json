@@ -1,0 +1,17 @@
+{
+  "id": "lan-021",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": ["shaheed-minar-banglapedia", "united-front-banglapedia"],
+  "shuffleOptions": true,
+  "question": "Which happened first?",
+  "options": [
+    {"id": "a", "text": "The 21 February Shaheed Dibas observance"},
+    {"id": "b", "text": "The United Front’s election victory on its 21-point programme"}
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Shaheed Dibas was observed in 1953; the United Front won the East Bengal election in March 1954."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "lan-010",
+  "status": "draft",
+  "type": "which_first",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "কোনটি আগে ঘটেছিল?",
+  "options": [
+    {
+      "id": "b",
+      "text": "প্রথম শহীদ মিনার নির্মিত হয়"
+    },
+    {
+      "id": "a",
+      "text": "ধীরেন্দ্রনাথ দত্ত গণপরিষদে বাংলার দাবি তোলেন"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "দত্ত ১৯৪৮ সালের ফেব্রুয়ারিতে দাবি তোলেন; প্রথম শহীদ মিনার নির্মিত হয় ১৯৫২ সালের ফেব্রুয়ারিতে।"
+}

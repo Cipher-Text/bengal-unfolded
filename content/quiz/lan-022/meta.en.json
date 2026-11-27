@@ -1,0 +1,18 @@
+{
+  "id": "lan-022",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": ["shaheed-minar-banglapedia"],
+  "shuffleOptions": true,
+  "question": "Who inaugurated the permanent Shaheed Minar in 1963?",
+  "options": [
+    {"id": "a", "text": "Hasina Begum, Abul Barkat’s mother"},
+    {"id": "b", "text": "Novera Ahmed"},
+    {"id": "c", "text": "Hamidur Rahman"}
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "Hasina Begum, the mother of Abul Barkat, inaugurated the permanent memorial on 21 February 1963."
+}

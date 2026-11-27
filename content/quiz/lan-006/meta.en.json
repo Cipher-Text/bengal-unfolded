@@ -1,0 +1,31 @@
+{
+  "id": "lan-006",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "When did students build the first Shaheed Minar at the site of the shootings?",
+  "options": [
+    {
+      "id": "a",
+      "text": "23 February 1952"
+    },
+    {
+      "id": "b",
+      "text": "21 February 1952"
+    },
+    {
+      "id": "c",
+      "text": "22 February 1952"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Students built the first Shaheed Minar on 23 February, two days after the shootings began."
+}

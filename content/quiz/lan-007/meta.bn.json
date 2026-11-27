@@ -1,0 +1,31 @@
+{
+  "id": "lan-007",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "state-language-movement-in-east-bengal-1947-1956"
+  ],
+  "shuffleOptions": true,
+  "question": "পাকিস্তানের সংবিধান কোন সালে বাংলাকে অন্যতম রাষ্ট্রভাষা হিসেবে স্বীকৃতি দেয়?",
+  "options": [
+    {
+      "id": "a",
+      "text": "১৯৫৬"
+    },
+    {
+      "id": "b",
+      "text": "১৯৫২"
+    },
+    {
+      "id": "c",
+      "text": "১৯৪৮"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "আন্দোলনের নির্ণায়ক ১৯৫২ সালের পর, ১৯৫৬ সালে সংবিধানে বাংলাকে রাষ্ট্রভাষার স্বীকৃতি দেওয়া হয়।"
+}

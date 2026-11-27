@@ -134,5 +134,83 @@
       "language",
       "culture"
     ]
+  },
+  {
+    "year": "২৬ ফেব্রুয়ারি ১৯৫২",
+    "title": "পুলিশ প্রথম শহীদ মিনার ভেঙে দেয়",
+    "detail": "ঢাকা মেডিকেল কলেজ হোস্টেল এলাকা ঘিরে ফেলার পর পুলিশ ২৩ ফেব্রুয়ারি নির্মিত অস্থায়ী স্মৃতিস্তম্ভটি ভেঙে দেয়।",
+    "sourceIds": [
+      "shaheed-minar-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture",
+      "democracy"
+    ]
+  },
+  {
+    "year": "১৯৫৩",
+    "title": "২১ ফেব্রুয়ারি শহীদ দিবস হিসেবে পালিত হয়",
+    "detail": "ছাত্র ও যুবসমাজ ২১ ফেব্রুয়ারি শহীদ দিবস হিসেবে পালন করে; আন্দোলনে নিহতদের স্মরণে এভাবে বার্ষিক আয়োজনের সূচনা হয়।",
+    "sourceIds": [
+      "shaheed-minar-banglapedia",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "মার্চ ১৯৫৪",
+    "title": "ভাষার অঙ্গীকার নিয়ে যুক্তফ্রন্টের নির্বাচনী বিজয়",
+    "detail": "একুশ দফা কর্মসূচিতে বাংলাকে রাষ্ট্রভাষা করার দাবি অন্তর্ভুক্ত করে প্রচারের পর যুক্তফ্রন্ট পূর্ববঙ্গ ব্যবস্থাপক সভার নির্বাচনে জয়ী হয়।",
+    "sourceIds": [
+      "united-front-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "language",
+      "democracy"
+    ]
+  },
+  {
+    "year": "২১ ফেব্রুয়ারি ১৯৬৩",
+    "title": "স্থায়ী শহীদ মিনার উদ্বোধন করা হয়",
+    "detail": "হামিদুর রহমানের নকশার সংশোধিত রূপে নির্মিত কংক্রিটের শহীদ মিনার উদ্বোধন করেন আবুল বরকতের মা হাসিনা বেগম; নির্মাণে নোভেরা আহমেদ সহায়তা করেছিলেন।",
+    "sourceIds": [
+      "shaheed-minar-banglapedia"
+    ],
+    "evidenceLevel": "medium",
+    "themes": [
+      "culture"
+    ]
+  },
+  {
+    "year": "১৭ নভেম্বর ১৯৯৯",
+    "title": "ইউনেস্কো আন্তর্জাতিক মাতৃভাষা দিবস ঘোষণা করে",
+    "detail": "ইউনেস্কো ২১ ফেব্রুয়ারিকে আন্তর্জাতিক মাতৃভাষা দিবস হিসেবে ঘোষণা করে। ২০০০ সালে দিবসটি প্রথম আন্তর্জাতিকভাবে পালিত হয়।",
+    "sourceIds": [
+      "international-mother-language-day-unesco",
+      "language-movement-banglapedia"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "language",
+      "culture"
+    ]
+  },
+  {
+    "year": "২০০২",
+    "title": "জাতিসংঘ সাধারণ পরিষদ ইউনেস্কোর ঘোষণাকে স্বাগত জানায়",
+    "detail": "বহুভাষিকতা বিষয়ে ৫৬/২৬২ নম্বর প্রস্তাবে সাধারণ পরিষদ ২১ ফেব্রুয়ারিকে আন্তর্জাতিক মাতৃভাষা দিবস ঘোষণার ১৯৯৯ সালের ইউনেস্কো সিদ্ধান্তকে স্বাগত জানায়।",
+    "sourceIds": [
+      "un-general-assembly-resolution-56-262"
+    ],
+    "evidenceLevel": "high",
+    "themes": [
+      "language",
+      "culture"
+    ]
   }
 ]

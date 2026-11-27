@@ -1,0 +1,18 @@
+{
+  "id": "lan-015",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1948-language-question-becomes-a-mass-political-issue",
+  "resourceIds": ["language-movement-banglapedia"],
+  "shuffleOptions": true,
+  "question": "What did Khwaja Nazimuddin’s March 1948 agreement with student leaders grant Bangla?",
+  "options": [
+    {"id": "a", "text": "State-language status"},
+    {"id": "b", "text": "No state-language status"},
+    {"id": "c", "text": "Recognition of Bangla and Urdu as joint state languages"}
+  ],
+  "correctOptionIds": ["b"],
+  "explanation": "The agreement covered several demands after the strikes, but it did not grant Bangla state-language status."
+}

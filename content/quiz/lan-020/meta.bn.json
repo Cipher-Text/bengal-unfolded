@@ -1,0 +1,18 @@
+{
+  "id": "lan-020",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": ["united-front-banglapedia"],
+  "shuffleOptions": true,
+  "question": "১৯৫৪ সালের নির্বাচনে জয়ের আগে যুক্তফ্রন্টের একুশ দফা কর্মসূচিতে ভাষা বিষয়ে কোন অঙ্গীকার ছিল?",
+  "options": [
+    {"id": "a", "text": "বাংলাকে রাষ্ট্রভাষার স্বীকৃতি দেওয়া"},
+    {"id": "b", "text": "উর্দুকে একমাত্র রাষ্ট্রভাষা রাখা"},
+    {"id": "c", "text": "আইনসভার কার্যক্রম থেকে বাংলা বাদ দেওয়া"}
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "কর্মসূচিতে বাংলাকে রাষ্ট্রভাষার স্বীকৃতির দাবি ছিল; এই অঙ্গীকার নিয়ে প্রচারের পর যুক্তফ্রন্ট পূর্ববঙ্গের নির্বাচনে জয়ী হয়।"
+}

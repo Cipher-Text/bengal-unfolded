@@ -1,0 +1,31 @@
+{
+  "id": "lan-002",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫২ সালের জানুয়ারিতে কে প্রকাশ্যে বলেন যে উর্দুই পাকিস্তানের একমাত্র রাষ্ট্রভাষা থাকবে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "খাজা নাজিমুদ্দিন"
+    },
+    {
+      "id": "b",
+      "text": "মুহাম্মদ আলী জিন্নাহ"
+    },
+    {
+      "id": "c",
+      "text": "কাজী গোলাম মাহবুব"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "২৭ জানুয়ারি খাজা নাজিমুদ্দিনের বক্তব্য আন্দোলনকে নির্ণায়ক পর্যায়ে নিয়ে যায়।"
+}

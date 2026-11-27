@@ -1,0 +1,31 @@
+{
+  "id": "lan-004",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-in-east-bengal"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫২ সালের ২১ ফেব্রুয়ারির বিক্ষোভের আগে ঢাকায় সরকার কী বিধিনিষেধ আরোপ করে?",
+  "options": [
+    {
+      "id": "a",
+      "text": "১৪৪ ধারায় সমাবেশ নিষিদ্ধ"
+    },
+    {
+      "id": "b",
+      "text": "৯২ ধারায় কারফিউ জারি"
+    },
+    {
+      "id": "c",
+      "text": "১৯ ধারায় সংবাদপত্র নিষিদ্ধ"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "১৪৪ ধারায় সমাবেশ নিষিদ্ধ করা হয়; আন্দোলনের নেতারা তা অমান্য করা হবে কি না, তা নিয়ে আলোচনা করেন।"
+}

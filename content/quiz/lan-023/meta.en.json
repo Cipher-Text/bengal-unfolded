@@ -1,0 +1,31 @@
+{
+  "id": "lan-023",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Who supervised construction of the permanent Shaheed Minar from 1957, assisted by Novera Ahmed?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Abul Kalam Shamsuddin"
+    },
+    {
+      "id": "b",
+      "text": "Hamidur Rahman"
+    },
+    {
+      "id": "c",
+      "text": "Azam Khan"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "explanation": "Hamidur Rahman supervised the work that began in November 1957, assisted by Novera Ahmed. Martial law halted it in 1958, and a reduced version was completed in 1963."
+}

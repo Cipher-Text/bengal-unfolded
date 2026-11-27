@@ -1,0 +1,18 @@
+{
+  "id": "lan-013",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": ["language-movement-banglapedia"],
+  "shuffleOptions": true,
+  "question": "১৯৪৮ সালের মার্চে ঢাকা সফরের সময় মুহাম্মদ আলী জিন্নাহ কোন অবস্থান জানান?",
+  "options": [
+    {"id": "a", "text": "পাকিস্তানের রাষ্ট্রভাষা শুধু উর্দু হওয়া উচিত"},
+    {"id": "b", "text": "একমাত্র রাষ্ট্রভাষা বাংলা হওয়া উচিত"},
+    {"id": "c", "text": "বাংলা ও উর্দু—দুটিই রাষ্ট্রভাষা হওয়া উচিত"}
+  ],
+  "correctOptionIds": ["a"],
+  "explanation": "ঢাকা সফরে জিন্নাহ উর্দু-একমাত্র অবস্থান পুনর্ব্যক্ত করেন; এতে বিরোধ মেটেনি, বরং জনঅসন্তোষ আরও বেড়েছিল।"
+}

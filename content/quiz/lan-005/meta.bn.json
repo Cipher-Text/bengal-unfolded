@@ -1,0 +1,31 @@
+{
+  "id": "lan-005",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "medium",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "১৯৫২ সালের ২১ ফেব্রুয়ারি ১৪৪ ধারা অমান্য করার সিদ্ধান্তের আগে শিক্ষার্থীরা কোথায় জড়ো হয়েছিলেন?",
+  "options": [
+    {
+      "id": "a",
+      "text": "মেডিকেল কলেজের কাছে ঢাকা বিশ্ববিদ্যালয় প্রাঙ্গণে"
+    },
+    {
+      "id": "b",
+      "text": "ঢাকা বার লাইব্রেরিতে"
+    },
+    {
+      "id": "c",
+      "text": "শুধু কার্জন হলে"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "শিক্ষার্থীরা মেডিকেল কলেজের কাছে ঢাকা বিশ্ববিদ্যালয় প্রাঙ্গণে জড়ো হয়ে পরে দলে দলে মিছিল বের করেন।"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "lan-001",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-in-east-bengal"
+  ],
+  "shuffleOptions": true,
+  "question": "Which language did Dhirendranath Datta ask to be used in Pakistan’s Constituent Assembly?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Bangla"
+    },
+    {
+      "id": "b",
+      "text": "Urdu"
+    },
+    {
+      "id": "c",
+      "text": "English"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Datta raised the issue in the Constituent Assembly in February 1948, making language a constitutional question."
+}

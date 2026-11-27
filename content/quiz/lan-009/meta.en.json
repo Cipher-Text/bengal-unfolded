@@ -1,0 +1,37 @@
+{
+  "id": "lan-009",
+  "status": "draft",
+  "type": "multi_select",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "hard",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Select all that apply: Which responses followed the police firing in February 1952?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Protests spread further"
+    },
+    {
+      "id": "b",
+      "text": "Shafiur Rahman was killed on 22 February"
+    },
+    {
+      "id": "c",
+      "text": "Students built the first Shaheed Minar on 23 February"
+    },
+    {
+      "id": "d",
+      "text": "The Constitution recognized Bangla that same week"
+    }
+  ],
+  "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+  ],
+  "explanation": "After the firing, protests spread; Shafiur Rahman was killed on 22 February, and students built the memorial the next day."
+}

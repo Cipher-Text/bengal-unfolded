@@ -1,0 +1,31 @@
+{
+  "id": "lan-002",
+  "status": "draft",
+  "type": "single_choice",
+  "topicSlug": "language-movement-and-mother-language-day",
+  "difficulty": "easy",
+  "eventSlug": "1952-language-movement",
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
+  "shuffleOptions": true,
+  "question": "Who publicly restated in January 1952 that Urdu would remain Pakistan’s only state language?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Khwaja Nazimuddin"
+    },
+    {
+      "id": "b",
+      "text": "Muhammad Ali Jinnah"
+    },
+    {
+      "id": "c",
+      "text": "Kazi Golam Mahbub"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "explanation": "Khwaja Nazimuddin’s statement on 27 January pushed the movement into a decisive phase."
+}
