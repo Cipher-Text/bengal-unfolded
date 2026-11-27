@@ -1,18 +1,31 @@
 {
   "id": "lan-020",
-  "status": "draft",
+  "status": "published",
   "type": "single_choice",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "medium",
   "eventSlug": "1952-language-movement",
-  "resourceIds": ["united-front-banglapedia"],
+  "resourceIds": [
+    "united-front-banglapedia"
+  ],
   "shuffleOptions": true,
   "question": "What language commitment appeared in the United Front’s 21-point programme before its 1954 election victory?",
   "options": [
-    {"id": "a", "text": "Recognition of Bangla as a state language"},
-    {"id": "b", "text": "Keeping Urdu as the only state language"},
-    {"id": "c", "text": "Removing Bangla from legislative proceedings"}
+    {
+      "id": "a",
+      "text": "Recognition of Bangla as a state language"
+    },
+    {
+      "id": "b",
+      "text": "Keeping Urdu as the only state language"
+    },
+    {
+      "id": "c",
+      "text": "Removing Bangla from legislative proceedings"
+    }
   ],
-  "correctOptionIds": ["a"],
+  "correctOptionIds": [
+    "a"
+  ],
   "explanation": "The programme included recognition of Bangla as a state language, and the United Front won the East Bengal election after campaigning on it."
 }

@@ -1,18 +1,31 @@
 {
   "id": "lan-022",
-  "status": "draft",
+  "status": "published",
   "type": "single_choice",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "medium",
   "eventSlug": "1952-language-movement",
-  "resourceIds": ["shaheed-minar-banglapedia"],
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
   "shuffleOptions": true,
   "question": "১৯৬৩ সালে স্থায়ী শহীদ মিনার কে উদ্বোধন করেন?",
   "options": [
-    {"id": "a", "text": "আবুল বরকতের মা হাসিনা বেগম"},
-    {"id": "b", "text": "নোভেরা আহমেদ"},
-    {"id": "c", "text": "হামিদুর রহমান"}
+    {
+      "id": "a",
+      "text": "আবুল বরকতের মা হাসিনা বেগম"
+    },
+    {
+      "id": "b",
+      "text": "নোভেরা আহমেদ"
+    },
+    {
+      "id": "c",
+      "text": "হামিদুর রহমান"
+    }
   ],
-  "correctOptionIds": ["a"],
+  "correctOptionIds": [
+    "a"
+  ],
   "explanation": "আবুল বরকতের মা হাসিনা বেগম ১৯৬৩ সালের ২১ ফেব্রুয়ারি স্থায়ী স্মৃতিস্তম্ভটি উদ্বোধন করেন।"
 }

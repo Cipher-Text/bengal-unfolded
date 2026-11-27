@@ -1,18 +1,31 @@
 {
   "id": "lan-018",
-  "status": "draft",
+  "status": "published",
   "type": "single_choice",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "easy",
   "eventSlug": "1952-language-movement",
-  "resourceIds": ["shaheed-minar-banglapedia"],
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
   "shuffleOptions": true,
   "question": "What did police do to the first Shaheed Minar on 26 February 1952?",
   "options": [
-    {"id": "a", "text": "Demolished it"},
-    {"id": "b", "text": "Inaugurated it as a permanent memorial"},
-    {"id": "c", "text": "Moved it to Dhaka University"}
+    {
+      "id": "a",
+      "text": "Demolished it"
+    },
+    {
+      "id": "b",
+      "text": "Inaugurated it as a permanent memorial"
+    },
+    {
+      "id": "c",
+      "text": "Moved it to Dhaka University"
+    }
   ],
-  "correctOptionIds": ["a"],
+  "correctOptionIds": [
+    "a"
+  ],
   "explanation": "Police demolished the temporary memorial after surrounding the Dhaka Medical College hostel area."
 }

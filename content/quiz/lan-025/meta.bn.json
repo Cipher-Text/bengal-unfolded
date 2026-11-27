@@ -1,18 +1,31 @@
 {
   "id": "lan-025",
-  "status": "draft",
+  "status": "published",
   "type": "single_choice",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "hard",
   "eventSlug": "1952-language-movement",
-  "resourceIds": ["un-general-assembly-resolution-56-262"],
+  "resourceIds": [
+    "un-general-assembly-resolution-56-262"
+  ],
   "shuffleOptions": true,
   "question": "২০০২ সালে জাতিসংঘ সাধারণ পরিষদের ৫৬/২৬২ নম্বর প্রস্তাবে আন্তর্জাতিক মাতৃভাষা দিবস বিষয়ে কী করা হয়?",
   "options": [
-    {"id": "a", "text": "ইউনেস্কোর ১৯৯৯ সালের ঘোষণাকে স্বাগত জানানো হয়"},
-    {"id": "b", "text": "প্রথমবারের মতো দিবসটি ঘোষণা করা হয়"},
-    {"id": "c", "text": "২১ ফেব্রুয়ারির বদলে অন্য দিন নির্ধারণ করা হয়"}
+    {
+      "id": "a",
+      "text": "ইউনেস্কোর ১৯৯৯ সালের ঘোষণাকে স্বাগত জানানো হয়"
+    },
+    {
+      "id": "b",
+      "text": "প্রথমবারের মতো দিবসটি ঘোষণা করা হয়"
+    },
+    {
+      "id": "c",
+      "text": "২১ ফেব্রুয়ারির বদলে অন্য দিন নির্ধারণ করা হয়"
+    }
   ],
-  "correctOptionIds": ["a"],
+  "correctOptionIds": [
+    "a"
+  ],
   "explanation": "বহুভাষিকতা বিষয়ে প্রস্তাবে সাধারণ পরিষদ ২১ ফেব্রুয়ারিকে দিবস ঘোষণার ইউনেস্কোর আগের সিদ্ধান্তকে স্বাগত জানায়।"
 }

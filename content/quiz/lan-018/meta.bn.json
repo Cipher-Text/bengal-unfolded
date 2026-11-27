@@ -1,18 +1,31 @@
 {
   "id": "lan-018",
-  "status": "draft",
+  "status": "published",
   "type": "single_choice",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "easy",
   "eventSlug": "1952-language-movement",
-  "resourceIds": ["shaheed-minar-banglapedia"],
+  "resourceIds": [
+    "shaheed-minar-banglapedia"
+  ],
   "shuffleOptions": true,
   "question": "১৯৫২ সালের ২৬ ফেব্রুয়ারি প্রথম শহীদ মিনারের কী করা হয়েছিল?",
   "options": [
-    {"id": "a", "text": "পুলিশ সেটি ভেঙে দেয়"},
-    {"id": "b", "text": "স্থায়ী স্মৃতিস্তম্ভ হিসেবে উদ্বোধন করা হয়"},
-    {"id": "c", "text": "ঢাকা বিশ্ববিদ্যালয়ে সরিয়ে নেওয়া হয়"}
+    {
+      "id": "a",
+      "text": "পুলিশ সেটি ভেঙে দেয়"
+    },
+    {
+      "id": "b",
+      "text": "স্থায়ী স্মৃতিস্তম্ভ হিসেবে উদ্বোধন করা হয়"
+    },
+    {
+      "id": "c",
+      "text": "ঢাকা বিশ্ববিদ্যালয়ে সরিয়ে নেওয়া হয়"
+    }
   ],
-  "correctOptionIds": ["a"],
+  "correctOptionIds": [
+    "a"
+  ],
   "explanation": "ঢাকা মেডিকেল কলেজ হোস্টেল এলাকা ঘিরে ফেলার পর পুলিশ অস্থায়ী স্মৃতিস্তম্ভটি ভেঙে দেয়।"
 }

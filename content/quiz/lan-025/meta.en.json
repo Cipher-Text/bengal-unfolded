@@ -1,18 +1,31 @@
 {
   "id": "lan-025",
-  "status": "draft",
+  "status": "published",
   "type": "single_choice",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "hard",
   "eventSlug": "1952-language-movement",
-  "resourceIds": ["un-general-assembly-resolution-56-262"],
+  "resourceIds": [
+    "un-general-assembly-resolution-56-262"
+  ],
   "shuffleOptions": true,
   "question": "What did UN General Assembly resolution 56/262 do in 2002 regarding International Mother Language Day?",
   "options": [
-    {"id": "a", "text": "Welcomed UNESCO’s 1999 proclamation"},
-    {"id": "b", "text": "Proclaimed the day for the first time"},
-    {"id": "c", "text": "Moved the observance from 21 February"}
+    {
+      "id": "a",
+      "text": "Welcomed UNESCO’s 1999 proclamation"
+    },
+    {
+      "id": "b",
+      "text": "Proclaimed the day for the first time"
+    },
+    {
+      "id": "c",
+      "text": "Moved the observance from 21 February"
+    }
   ],
-  "correctOptionIds": ["a"],
+  "correctOptionIds": [
+    "a"
+  ],
   "explanation": "In its resolution on multilingualism, the General Assembly welcomed UNESCO’s earlier decision to proclaim 21 February as the day."
 }

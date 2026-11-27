@@ -1,18 +1,31 @@
 {
   "id": "lan-013",
-  "status": "draft",
+  "status": "published",
   "type": "single_choice",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "easy",
   "eventSlug": "1952-language-movement",
-  "resourceIds": ["language-movement-banglapedia"],
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
   "shuffleOptions": true,
   "question": "What position did Muhammad Ali Jinnah state during his March 1948 visit to Dhaka?",
   "options": [
-    {"id": "a", "text": "Urdu alone should be Pakistan’s state language"},
-    {"id": "b", "text": "Bangla should be the only state language"},
-    {"id": "c", "text": "Bangla and Urdu should both be state languages"}
+    {
+      "id": "a",
+      "text": "Urdu alone should be Pakistan’s state language"
+    },
+    {
+      "id": "b",
+      "text": "Bangla should be the only state language"
+    },
+    {
+      "id": "c",
+      "text": "Bangla and Urdu should both be state languages"
+    }
   ],
-  "correctOptionIds": ["a"],
+  "correctOptionIds": [
+    "a"
+  ],
   "explanation": "Jinnah reaffirmed an Urdu-only position during his Dhaka visit; the statement intensified public anger rather than ending the dispute."
 }

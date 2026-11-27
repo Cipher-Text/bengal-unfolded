@@ -1,17 +1,28 @@
 {
   "id": "lan-021",
-  "status": "draft",
+  "status": "published",
   "type": "which_first",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "medium",
   "eventSlug": "1952-language-movement",
-  "resourceIds": ["shaheed-minar-banglapedia", "united-front-banglapedia"],
+  "resourceIds": [
+    "shaheed-minar-banglapedia",
+    "united-front-banglapedia"
+  ],
   "shuffleOptions": true,
   "question": "কোনটি আগে ঘটেছিল?",
   "options": [
-    {"id": "a", "text": "২১ ফেব্রুয়ারি শহীদ দিবস পালন"},
-    {"id": "b", "text": "একুশ দফা কর্মসূচি নিয়ে যুক্তফ্রন্টের নির্বাচনী বিজয়"}
+    {
+      "id": "a",
+      "text": "২১ ফেব্রুয়ারি শহীদ দিবস পালন"
+    },
+    {
+      "id": "b",
+      "text": "একুশ দফা কর্মসূচি নিয়ে যুক্তফ্রন্টের নির্বাচনী বিজয়"
+    }
   ],
-  "correctOptionIds": ["a"],
+  "correctOptionIds": [
+    "a"
+  ],
   "explanation": "১৯৫৩ সালে শহীদ দিবস পালিত হয়; ১৯৫৪ সালের মার্চে যুক্তফ্রন্ট পূর্ববঙ্গের নির্বাচনে জয়ী হয়।"
 }

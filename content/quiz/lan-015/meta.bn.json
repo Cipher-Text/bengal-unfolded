@@ -1,18 +1,31 @@
 {
   "id": "lan-015",
-  "status": "draft",
+  "status": "published",
   "type": "single_choice",
   "topicSlug": "language-movement-and-mother-language-day",
   "difficulty": "easy",
   "eventSlug": "1948-language-question-becomes-a-mass-political-issue",
-  "resourceIds": ["language-movement-banglapedia"],
+  "resourceIds": [
+    "language-movement-banglapedia"
+  ],
   "shuffleOptions": true,
   "question": "১৯৪৮ সালের মার্চে ছাত্রনেতাদের সঙ্গে খাজা নাজিমুদ্দীনের সমঝোতায় বাংলার কী মর্যাদা দেওয়া হয়েছিল?",
   "options": [
-    {"id": "a", "text": "রাষ্ট্রভাষার মর্যাদা"},
-    {"id": "b", "text": "রাষ্ট্রভাষার মর্যাদা দেওয়া হয়নি"},
-    {"id": "c", "text": "বাংলা ও উর্দুকে যৌথ রাষ্ট্রভাষার স্বীকৃতি"}
+    {
+      "id": "a",
+      "text": "রাষ্ট্রভাষার মর্যাদা"
+    },
+    {
+      "id": "b",
+      "text": "রাষ্ট্রভাষার মর্যাদা দেওয়া হয়নি"
+    },
+    {
+      "id": "c",
+      "text": "বাংলা ও উর্দুকে যৌথ রাষ্ট্রভাষার স্বীকৃতি"
+    }
   ],
-  "correctOptionIds": ["b"],
+  "correctOptionIds": [
+    "b"
+  ],
   "explanation": "ধর্মঘটের পর কয়েকটি দাবি নিয়ে সমঝোতা হলেও বাংলাকে রাষ্ট্রভাষার মর্যাদা দেওয়া হয়নি।"
 }
